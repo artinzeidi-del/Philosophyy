@@ -70,6 +70,11 @@
     "description": "Section heading for entry points aimed at newcomers."
   },
 
+  "filterAll": "All",
+  "@filterAll": {
+    "description": "The chip that clears a filter and shows everything."
+  },
+
   "homeBrowseByTradition": "Traditions",
   "@homeBrowseByTradition": {
     "description": "Section heading for the tradition list."

@@ -88,7 +88,7 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                   runSpacing: Spacing.sm,
                   children: <Widget>[
                     FilterChip(
-                      label: Text(l10n.navExplore),
+                      label: Text(l10n.filterAll),
                       selected: selected == null,
                       onSelected: (_) => setState(() => _tradition = null),
                     ),

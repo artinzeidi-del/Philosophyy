@@ -33,6 +33,7 @@ Using the status vocabulary strictly.
 | Content pipeline: parsing, validation, integrity checking | 15 assertions in `content_integrity_test.dart` against the shipped corpus, executed and passing |
 | Bilingual rendering, RTL/LTR, both themes | 13 assertions in `app_smoke_test.dart`, executed and passing |
 | Release build | `flutter build web --release` succeeded |
+| **Runtime execution** | Release build served and loaded in Chromium 1194 via Playwright, in English and Persian, light and dark. **Zero JavaScript errors.** Screenshots in `docs/screenshots/`. |
 
 **Totals: 87 tests, all passing. `flutter analyze --fatal-infos
 --fatal-warnings` reports no issues. `dart format` reports no changes.**
@@ -88,14 +89,35 @@ Named plainly, because the brief describes far more than one session builds:
 4. **Search prefix and fuzzy matching scan the full token list.** Linear in
    vocabulary. Correct and fast at this size; needs a trie before the corpus is
    large.
-5. **No runtime verification on a physical device or emulator.** Verified via
-   the widget-test harness and a release web build only. No screenshots were
-   taken, and no device or browser has run the app.
-6. **CI has never executed.** The workflow is written and its individual steps
+5. **No runtime verification on a physical device or emulator.** The app has been
+   run for real, but only as a web build in headless Chromium. No Android or iOS
+   device or emulator has run it, and neither platform's build has been
+   attempted — so platform-specific problems (font rendering on iOS, Android
+   back-gesture handling, safe areas on notched devices) are entirely unverified.
+6. **The web build must be built with `--no-web-resources-cdn`** to run in a
+   network-restricted environment. Flutter otherwise fetches CanvasKit from a
+   Google CDN at runtime and renders a blank page if that is blocked. This was
+   found by running the app, not by reasoning about it.
+7. **CI has never executed.** The workflow is written and its individual steps
    were each run locally and pass, but GitHub Actions has not run it.
-7. **Generated localisations are gitignored,** so `flutter gen-l10n` must run
+8. **Generated localisations are gitignored,** so `flutter gen-l10n` must run
    before `flutter analyze` on a fresh clone. CI does this; a human reading only
    the README might not, which is why the README says so.
+
+## Defects found by running the app, and fixed
+
+Both were invisible to analysis and to the test suite, and were found only by
+looking at rendered pixels:
+
+1. **Interface chrome was rendering in the content serif.** `chromeFamily`
+   returned `null` for English, intending "use the platform sans"; a `TextStyle`
+   with no family instead inherits one from the ambient `DefaultTextStyle`,
+   which inside a `Material` is the serif. The whole interface was set in
+   Spectral, losing the distinction between reading and operating the app. Fixed
+   by naming the sans explicitly.
+2. **The "show all" filter chip was labelled "Explore"**, reusing the navigation
+   string. Among a row of tradition names it meant nothing. Given its own
+   string in both languages.
 
 ## What was deliberately not done
 
@@ -113,9 +135,9 @@ notes, reading position — as one vertical slice:
 1. Domain: `Bookmark`, `Highlight`, `Note`, `ReadingPosition` entities keyed by
    `EntityRef` plus a section anchor.
 2. Data: a `UserDataRepository` interface with a local implementation. Evaluate
-   `sqflite` versus `drift` against ADR 21's dependency criteria; the deciding
-   factor is migration support, since this data is the reader's own and losing
-   it is unacceptable.
+   `sqflite` against `drift` on necessity, maintenance, and above all migration
+   support — this is the reader's own data and losing it is unacceptable — and
+   record the choice as a new ADR.
 3. Migrations from version 1, with a test that migrates a populated v1 database
    forward and asserts nothing is lost.
 4. Providers and UI: a bookmark control on the article screen and a saved-items

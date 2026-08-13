@@ -88,3 +88,13 @@ registry, so they appear in the app's own About screen.
 Philosophical content is written for this project from primary texts and
 academic reference works. Sources are recorded per claim; see the content
 policy for the rules governing them.
+
+## Screenshots
+
+Captured from the release web build running in Chromium, with no JavaScript
+errors. Left to right: English light, Persian light (fully right-to-left,
+Persian digits, Vazirmatn), English dark.
+
+| English | فارسی | Dark |
+| --- | --- | --- |
+| ![English, light](docs/screenshots/01-home-en-light.png) | ![Persian, light](docs/screenshots/02-home-fa-light.png) | ![English, dark](docs/screenshots/03-home-en-dark.png) |

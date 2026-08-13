@@ -35,13 +35,21 @@ abstract final class AppTypography {
   static String contentFamily(AppLanguage language) =>
       language == AppLanguage.fa ? persianFamily : serifFamily;
 
+  /// The sans-serif used for English interface chrome.
+  ///
+  /// Named explicitly rather than left `null`. A `TextStyle` with no family
+  /// inherits one from the ambient `DefaultTextStyle`, which inside a `Material`
+  /// is the content serif — so leaving it unset silently set the whole interface
+  /// in Spectral and lost the distinction between reading and operating the app.
+  static const String sansFamily = 'Roboto';
+
   /// The font family used for buttons, labels, tabs and other chrome.
   ///
-  /// English chrome falls through to the platform sans (`null` means "use the
-  /// default"), which keeps controls feeling native; Persian chrome uses
-  /// Vazirmatn because the platform default cannot render it.
-  static String? chromeFamily(AppLanguage language) =>
-      language == AppLanguage.fa ? persianFamily : null;
+  /// Persian chrome uses Vazirmatn for both roles, because the Persian type
+  /// landscape has no serif companion to Vazirmatn worth pairing it with, and a
+  /// mismatched pairing reads worse than a single well-drawn family.
+  static String chromeFamily(AppLanguage language) =>
+      language == AppLanguage.fa ? persianFamily : sansFamily;
 
   static double _size(AppLanguage language, double base) =>
       language == AppLanguage.fa ? base * persianSizeFactor : base;
