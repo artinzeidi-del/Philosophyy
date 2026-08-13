@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/features/entity/entity_screen.dart';
 import 'package:philosophyy/features/explore/explore_screen.dart';
@@ -65,11 +67,19 @@ class AppRouter {
       for (final kind in _articleKinds)
         GoRoute(
           path: '/${kind.routeSegment}/:id',
-          builder: (context, state) =>
-              EntityScreen(kind: kind, id: state.pathParameters['id'] ?? ''),
+          pageBuilder: (context, state) => CustomTransitionPage<void>(
+            key: state.pageKey,
+            transitionDuration: MotionTokens.moderate,
+            reverseTransitionDuration: MotionTokens.quick,
+            transitionsBuilder: PageTransitions.article,
+            child: EntityScreen(
+              kind: kind,
+              id: state.pathParameters['id'] ?? '',
+            ),
+          ),
         ),
     ],
-    errorBuilder: (context, state) => _NotFoundScreen(location: state.uri.path),
+    errorBuilder: (context, state) => const _NotFoundScreen(),
   );
 
   /// The home tab.
@@ -148,9 +158,7 @@ class _ShellScaffold extends StatelessWidget {
 }
 
 class _NotFoundScreen extends StatelessWidget {
-  const _NotFoundScreen({required this.location});
-
-  final String location;
+  const _NotFoundScreen();
 
   @override
   Widget build(BuildContext context) {

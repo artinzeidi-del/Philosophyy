@@ -28,7 +28,7 @@ Future<void> main() async {
 /// Declares the licences of the fonts bundled with the app.
 ///
 /// Flutter collects licences automatically for packages, but fonts added as
-/// assets are invisible to it. Both bundled families are SIL OFL 1.1, which
+/// assets are invisible to it. All three bundled families are SIL OFL 1.1, which
 /// requires the licence to travel with the software — so it is registered here
 /// and shown in the about screen rather than left as an unmet obligation.
 void _registerBundledFontLicences() {
@@ -42,6 +42,9 @@ void _registerBundledFontLicences() {
       'assets/fonts/spectral/OFL.txt',
     );
     yield LicenseEntryWithLineBreaks(const <String>['Spectral'], spectral);
+
+    final greek = await rootBundle.loadString('assets/fonts/gfsdidot/OFL.txt');
+    yield LicenseEntryWithLineBreaks(const <String>['GFS Didot'], greek);
   });
 }
 

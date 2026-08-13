@@ -23,6 +23,11 @@ abstract final class AppTypography {
   /// The Persian face, used for both content and chrome.
   static const String persianFamily = 'Vazirmatn';
 
+  /// The polytonic Greek face.
+  ///
+  /// Only ever reached through [fallbacksFor]; nothing is set in it directly.
+  static const String greekFamily = 'GFSDidot';
+
   /// Point-size multiplier applied to Persian text so it reads at the same
   /// optical size as the Latin scale.
   static const double persianSizeFactor = 1.06;
@@ -51,6 +56,19 @@ abstract final class AppTypography {
   static String chromeFamily(AppLanguage language) =>
       language == AppLanguage.fa ? persianFamily : sansFamily;
 
+  /// The faces to fall back to when the primary one has no glyph.
+  ///
+  /// This product routinely sets one script inside another: a Greek name in an
+  /// English sentence, an Arabic name in a Persian one, a Sanskrit
+  /// transliteration anywhere. No single bundled face covers Latin, Arabic and
+  /// polytonic Greek, so without an explicit chain the reader gets empty boxes
+  /// — and a reference work that cannot print the name it is describing has
+  /// failed at its first job.
+  static List<String> fallbacksFor(AppLanguage language) =>
+      language == AppLanguage.fa
+      ? const <String>[serifFamily, greekFamily]
+      : const <String>[greekFamily, persianFamily];
+
   static double _size(AppLanguage language, double base) =>
       language == AppLanguage.fa ? base * persianSizeFactor : base;
 
@@ -69,6 +87,7 @@ abstract final class AppTypography {
       double letterSpacing = 0,
     }) => TextStyle(
       fontFamily: content,
+      fontFamilyFallback: fallbacksFor(language),
       fontSize: _size(language, size),
       height: _height(language, height),
       fontWeight: weight,
@@ -82,6 +101,7 @@ abstract final class AppTypography {
       double letterSpacing = 0,
     }) => TextStyle(
       fontFamily: chrome,
+      fontFamilyFallback: fallbacksFor(language),
       fontSize: _size(language, size),
       height: _height(language, height),
       fontWeight: weight,
@@ -171,6 +191,7 @@ abstract final class AppTypography {
   /// The style for a displayed quotation.
   static TextStyle quote(AppLanguage language) => TextStyle(
     fontFamily: contentFamily(language),
+    fontFamilyFallback: fallbacksFor(language),
     fontSize: _size(language, 20),
     height: _height(language, 1.56),
     fontWeight: FontWeight.w400,
@@ -182,6 +203,7 @@ abstract final class AppTypography {
   /// The style for a source citation beneath a quotation or claim.
   static TextStyle citation(AppLanguage language) => TextStyle(
     fontFamily: contentFamily(language),
+    fontFamilyFallback: fallbacksFor(language),
     fontSize: _size(language, 13),
     height: _height(language, 1.45),
     fontWeight: FontWeight.w400,
@@ -194,6 +216,7 @@ abstract final class AppTypography {
   static TextStyle reading(AppLanguage language, {double scale = 1.0}) =>
       TextStyle(
         fontFamily: contentFamily(language),
+        fontFamilyFallback: fallbacksFor(language),
         fontSize: _size(language, 17.5) * scale,
         height: _height(language, 1.72),
         fontWeight: FontWeight.w400,

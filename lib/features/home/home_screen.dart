@@ -4,13 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
+import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
@@ -30,13 +33,17 @@ class HomeScreen extends ConsumerWidget {
     final language = ref.watch(activeLanguageProvider);
 
     return Scaffold(
-      body: corpus.when(
-        loading: () => const LoadingView(),
-        error: (error, stack) => ErrorView(
-          details: error.toString(),
-          onRetry: () => ref.invalidate(corpusProvider),
+      // The backdrop paints the surface, so the scaffold must not cover it.
+      backgroundColor: Colors.transparent,
+      body: LamplightBackdrop(
+        child: corpus.when(
+          loading: HomeSkeleton.new,
+          error: (error, stack) => ErrorView(
+            details: error.toString(),
+            onRetry: () => ref.invalidate(corpusProvider),
+          ),
+          data: (data) => _HomeBody(corpus: data, language: language),
         ),
-        data: (data) => _HomeBody(corpus: data, language: language),
       ),
     );
   }
@@ -69,85 +76,6 @@ class _HomeBody extends StatelessWidget {
     return shareable[dayNumber % shareable.length];
   }
 
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final l10n = AppL10n.of(context);
-    final quote = _dailyQuote;
-
-    return SafeArea(
-      child: ListView(
-        padding: const EdgeInsets.fromLTRB(
-          Spacing.lg,
-          Spacing.xl,
-          Spacing.lg,
-          Spacing.xxxl,
-        ),
-        children: <Widget>[
-          ReadingColumn(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Text(l10n.appName, style: theme.textTheme.displaySmall),
-                const SizedBox(height: Spacing.xs),
-                Text(
-                  l10n.appTagline,
-                  style: theme.textTheme.bodyMedium?.copyWith(
-                    color: theme.colorScheme.onSurfaceVariant,
-                  ),
-                ),
-                const SizedBox(height: Spacing.xxl),
-
-                if (quote != null) ...<Widget>[
-                  SectionHeader(title: l10n.homeDailyIdea),
-                  QuoteCard(
-                    quote: quote,
-                    language: language,
-                    speakerName:
-                        corpus
-                            .philosopher(quote.speakerId)
-                            ?.name
-                            .resolve(language) ??
-                        quote.speakerId,
-                    onTapSpeaker: () => context.push(quote.speakerRef.route),
-                  ),
-                  if (quote.context != null) ...<Widget>[
-                    const SizedBox(height: Spacing.md),
-                    Text(
-                      quote.context!.resolve(language),
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
-                    ),
-                  ],
-                  const SizedBox(height: Spacing.xxl),
-                ],
-
-                SectionHeader(
-                  title: l10n.homeStartHere,
-                  trailing: TextButton.icon(
-                    onPressed: () => _surpriseMe(context),
-                    icon: const Icon(Icons.casino_outlined, size: 18),
-                    label: Text(l10n.homeSurpriseMe),
-                  ),
-                ),
-                for (final philosopher in _startingPoints) ...<Widget>[
-                  EntityCard(
-                    title: philosopher.name.resolve(language),
-                    summary: philosopher.oneLine.resolve(language),
-                    meta: AppDates.lifeSpan(philosopher.life, language, l10n),
-                    onTap: () => context.push(philosopher.ref.route),
-                  ),
-                  const SizedBox(height: Spacing.md),
-                ],
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
   /// Four philosophers spread across traditions.
   ///
   /// Deliberately not "the four most famous": a newcomer's first screen is
@@ -162,6 +90,120 @@ class _HomeBody extends StatelessWidget {
       if (picks.length == 4) break;
     }
     return picks;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final quote = _dailyQuote;
+
+    // Entrance order runs top to bottom, so the eye is led down the page in
+    // reading order rather than everything arriving at once.
+    var step = 0;
+
+    return SafeArea(
+      child: ListView(
+        padding: const EdgeInsets.fromLTRB(
+          Spacing.lg,
+          Spacing.xxl,
+          Spacing.lg,
+          Spacing.xxxl,
+        ),
+        children: <Widget>[
+          ReadingColumn(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                EntranceAnimation(
+                  index: step++,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(
+                        l10n.appName,
+                        style: theme.textTheme.displayMedium?.copyWith(
+                          height: 1.05,
+                        ),
+                      ),
+                      const SizedBox(height: Spacing.md),
+                      const TitleRule(),
+                      const SizedBox(height: Spacing.md),
+                      Text(
+                        l10n.appTagline,
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: Spacing.xxl),
+
+                if (quote != null) ...<Widget>[
+                  EntranceAnimation(
+                    index: step++,
+                    child: SectionHeader(title: l10n.homeDailyIdea),
+                  ),
+                  EntranceAnimation(
+                    index: step++,
+                    child: QuoteCard(
+                      quote: quote,
+                      language: language,
+                      speakerName:
+                          corpus
+                              .philosopher(quote.speakerId)
+                              ?.name
+                              .resolve(language) ??
+                          quote.speakerId,
+                      onTapSpeaker: () => context.push(quote.speakerRef.route),
+                    ),
+                  ),
+                  if (quote.context != null)
+                    EntranceAnimation(
+                      index: step++,
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: Spacing.md),
+                        child: Text(
+                          quote.context!.resolve(language),
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: theme.colorScheme.onSurfaceVariant,
+                          ),
+                        ),
+                      ),
+                    ),
+                  const SizedBox(height: Spacing.xxl),
+                ],
+
+                EntranceAnimation(
+                  index: step++,
+                  child: SectionHeader(
+                    title: l10n.homeStartHere,
+                    trailing: TextButton.icon(
+                      onPressed: () => _surpriseMe(context),
+                      icon: const Icon(Icons.auto_awesome_outlined, size: 18),
+                      label: Text(l10n.homeSurpriseMe),
+                    ),
+                  ),
+                ),
+                for (final philosopher in _startingPoints) ...<Widget>[
+                  EntranceAnimation(
+                    index: step++,
+                    child: EntityCard(
+                      title: philosopher.name.resolve(language),
+                      summary: philosopher.oneLine.resolve(language),
+                      meta: AppDates.lifeSpan(philosopher.life, language, l10n),
+                      onTap: () => context.push(philosopher.ref.route),
+                    ),
+                  ),
+                  const SizedBox(height: Spacing.md),
+                ],
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   void _surpriseMe(BuildContext context) {

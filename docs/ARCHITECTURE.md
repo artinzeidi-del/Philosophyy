@@ -121,16 +121,18 @@ being fine is measurable rather than guessed.
 
 ---
 
-### ADR 6 — Two fonts are bundled
+### ADR 6 — Fonts are bundled rather than assumed
 
 **Context.** Flutter's default font has no Arabic-script coverage. The Persian
 half of the product renders as fallback or tofu without a bundled face.
 
 **Decision.** Bundle Vazirmatn for Persian and Spectral for English reading
-text, both SIL OFL 1.1. Interface chrome in English uses the platform sans.
+text, both SIL OFL 1.1. Interface chrome in English is set in the platform sans,
+named explicitly (see ADR 13 for the third face, and for why a `null` family is
+not the same as "the default").
 
-**Cost.** About 1.9 MB of assets, and an obligation to ship the licences — met
-by registering both with `LicenseRegistry` so they appear in the About screen.
+**Cost.** About 2.1 MB of assets, and an obligation to ship the licences — met by
+registering all three with `LicenseRegistry` so they appear in the About screen.
 
 ---
 
@@ -194,6 +196,76 @@ two cannot disagree.
 
 **Cost.** Entity kinds without an article screen must be listed as exclusions
 explicitly, which is the point — adding a kind forces the decision.
+
+---
+
+---
+
+### ADR 11 — Motion is a primitive, not a per-screen decision
+
+**Context.** Animation added screen by screen drifts in duration and easing, and
+reduced-motion handling gets forgotten on exactly the screen that needed it.
+
+**Decision.** `core/design/motion.dart` owns the vocabulary: `EntranceAnimation`,
+`PressableSurface`, `SmoothSwitcher`, and the page-transition builders. Every one
+collapses to nothing when the platform reports reduced motion, and
+`motion_test.dart` asserts that for each — and asserts they still animate when it
+does not, so "fixing" it by disabling everything fails too.
+
+**Notes.** Two implementation details are load-bearing. The stagger is expressed
+as an `Interval` inside one controller rather than a delayed timer, so it is
+deterministic and settles in tests. And `PressableSurface` uses a raw `Listener`
+rather than a `GestureDetector`: a second tap recogniser around the `InkWell`
+joins the same gesture arena, which does not resolve until the pointer lifts, so
+the press response appeared only as the press *ended*.
+
+**Cost.** Scroll lists must opt out past the first screenful, since items
+disposed off-screen would re-animate on the way back.
+
+---
+
+### ADR 12 — The transition builders live in the design layer, the pages in the router
+
+**Context.** `CustomTransitionPage` is a go_router type.
+
+**Decision.** `core/design` exposes plain Flutter transition builders; `app/router`
+wraps them in router pages. The design layer has no dependency on the routing
+package.
+
+---
+
+### ADR 13 — A bundled font per script, chained by fallback
+
+**Context.** The product sets Greek names inside English sentences and Arabic
+names inside both languages. No bundled face covers Latin, Arabic and polytonic
+Greek. Spectral covers the modern Greek block but not Greek Extended, so
+`Ἐπίκτητος` and `Ἀριστοτέλης` rendered as empty boxes — and every Arabic-script
+name rendered as boxes whenever the interface was in English.
+
+**Decision.** Three faces are bundled — Spectral (Latin), Vazirmatn (Arabic
+script), GFS Didot (polytonic Greek) — and every text style declares an explicit
+`fontFamilyFallback` chain. `typography_test.dart` asserts that *every* style in
+both languages has one, so a new style cannot be added without it.
+
+**Alternatives.** Storing monotonic Greek instead of polytonic would have fitted
+the font by degrading the content, which is the wrong way round.
+
+**Cost.** About 190 KB more in the bundle, and a third licence to register.
+
+---
+
+### ADR 14 — The reading surface is flat; the front of house is not
+
+**Context.** The identity is "ink and lamplight", and a lamp implies a source.
+
+**Decision.** Home, Explore and Search paint a `LamplightBackdrop` — two very low
+opacity gradients, warm from above and cool from below, no blur. The article
+screen does not: it uses the flat `readingSurface` token, because under long-form
+text decoration is noise. The backdrop sits behind content rather than under
+text, so it does not disturb the contrast ratios the palette is asserted against.
+
+**Cost.** Screens using it must set a transparent scaffold background, which is
+easy to forget on a new screen.
 
 ---
 

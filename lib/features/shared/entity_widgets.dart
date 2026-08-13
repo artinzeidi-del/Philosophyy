@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
@@ -8,7 +9,6 @@ import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
-import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
@@ -121,54 +121,77 @@ class EntityCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
+    final isDark = scheme.brightness == Brightness.dark;
 
-    return Card(
-      clipBehavior: Clip.antiAlias,
-      child: InkWell(
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(Spacing.lg),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Text(title, style: theme.textTheme.titleLarge),
-              if (meta != null) ...<Widget>[
-                const SizedBox(height: Spacing.xxs),
-                Text(
-                  meta!,
-                  style: theme.textTheme.bodySmall?.copyWith(
-                    color: scheme.onSurfaceVariant,
-                  ),
+    return PressableSurface(
+      onTap: onTap,
+      borderRadius: Radii.surfaceRadius,
+      semanticLabel: '$title. $summary',
+      // Handed to PressableSurface rather than painted inside the child, so the
+      // ink ripple lands on top of the card instead of behind it.
+      decoration: BoxDecoration(
+        color: scheme.surfaceContainer,
+        borderRadius: Radii.surfaceRadius,
+        border: Border.all(
+          color: isDark ? scheme.outlineVariant : Colors.transparent,
+        ),
+        // Light mode gets a soft lift; dark mode separates by surface
+        // lightness instead, because a shadow on near-black is invisible and
+        // only muddies the edge it was meant to define.
+        boxShadow: isDark
+            ? null
+            : <BoxShadow>[
+                BoxShadow(
+                  color: scheme.shadow.withValues(alpha: 0.05),
+                  blurRadius: 14,
+                  offset: const Offset(0, 4),
                 ),
               ],
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(Spacing.lg),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            // Dates sit above the name, small and in the accent colour, so a
+            // list of people reads chronologically at a glance without the
+            // eye having to hunt for the years.
+            if (meta != null) ...<Widget>[
+              Text(
+                meta!,
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: scheme.secondary,
+                  letterSpacing: 0.6,
+                ),
+              ),
+              const SizedBox(height: Spacing.xs),
+            ],
+            Text(title, style: theme.textTheme.titleLarge),
+            const SizedBox(height: Spacing.sm),
+            Text(
+              summary,
+              style: theme.textTheme.bodyMedium?.copyWith(
+                color: scheme.onSurfaceVariant,
+              ),
+            ),
+            if (tags.isNotEmpty) ...<Widget>[
+              const SizedBox(height: Spacing.md),
+              Wrap(
+                spacing: Spacing.xs,
+                runSpacing: Spacing.xs,
+                children: <Widget>[for (final tag in tags) TagChip(label: tag)],
+              ),
+            ],
+            if (footnote != null) ...<Widget>[
               const SizedBox(height: Spacing.sm),
               Text(
-                summary,
-                style: theme.textTheme.bodyMedium?.copyWith(
+                footnote!,
+                style: theme.textTheme.labelSmall?.copyWith(
                   color: scheme.onSurfaceVariant,
                 ),
               ),
-              if (tags.isNotEmpty) ...<Widget>[
-                const SizedBox(height: Spacing.md),
-                Wrap(
-                  spacing: Spacing.xs,
-                  runSpacing: Spacing.xs,
-                  children: <Widget>[
-                    for (final tag in tags) TagChip(label: tag),
-                  ],
-                ),
-              ],
-              if (footnote != null) ...<Widget>[
-                const SizedBox(height: Spacing.sm),
-                Text(
-                  footnote!,
-                  style: theme.textTheme.labelSmall?.copyWith(
-                    color: scheme.onSurfaceVariant,
-                  ),
-                ),
-              ],
             ],
-          ),
+          ],
         ),
       ),
     );
@@ -495,66 +518,107 @@ class QuoteCard extends StatelessWidget {
     final actualSource = quote.actualSource;
 
     return Container(
-      padding: const EdgeInsets.all(Spacing.lg),
+      clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
-        color: semantic.quoteSurface,
-        borderRadius: Radii.cardRadius,
-        border: Border(left: BorderSide(color: semantic.quoteAccent, width: 3)),
+        borderRadius: Radii.surfaceRadius,
+        gradient: LinearGradient(
+          begin: AlignmentDirectional.topStart,
+          end: AlignmentDirectional.bottomEnd,
+          colors: <Color>[
+            semantic.quoteSurface,
+            Color.lerp(semantic.quoteSurface, semantic.quoteAccent, 0.12)!,
+          ],
+        ),
+        // Directional rather than left: in Persian the accent belongs on the
+        // start edge, which is the right-hand side of the screen.
+        border: BorderDirectional(
+          start: BorderSide(color: semantic.quoteAccent, width: 3),
+        ),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: Stack(
         children: <Widget>[
-          Text(
-            quote.text.resolve(language),
-            style: AppTypography.quote(quote.text.resolvedLanguage(language))
-                .copyWith(color: semantic.onQuoteSurface),
+          // A printer's quotation mark, set large and very faint. It says "these
+          // are somebody's words" before a single word is read, which the
+          // attribution badge underneath cannot do because it is read last.
+          PositionedDirectional(
+            top: -10,
+            end: 10,
+            child: ExcludeSemantics(
+              child: Text(
+                '”',
+                style: TextStyle(
+                  fontFamily: AppTypography.serifFamily,
+                  fontSize: 92,
+                  height: 1,
+                  fontWeight: FontWeight.w700,
+                  color: semantic.quoteAccent.withValues(alpha: 0.16),
+                ),
+              ),
+            ),
           ),
-          const SizedBox(height: Spacing.md),
-          Row(
-            children: <Widget>[
-              Expanded(
-                child: GestureDetector(
-                  onTap: onTapSpeaker,
-                  child: Text(
-                    '— $speakerName',
-                    style: theme.textTheme.labelMedium?.copyWith(
+          Padding(
+            padding: const EdgeInsets.all(Spacing.lg),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  quote.text.resolve(language),
+                  style: AppTypography.quote(
+                    quote.text.resolvedLanguage(language),
+                  ).copyWith(color: semantic.onQuoteSurface),
+                ),
+                const SizedBox(height: Spacing.md),
+                Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: GestureDetector(
+                        onTap: onTapSpeaker,
+                        child: Text(
+                          '— $speakerName',
+                          style: theme.textTheme.labelMedium?.copyWith(
+                            color: semantic.onQuoteSurface,
+                          ),
+                        ),
+                      ),
+                    ),
+                    AttributionBadge(
+                      status: quote.attribution,
+                      language: language,
+                    ),
+                  ],
+                ),
+                if (quote.needsCaveat) ...<Widget>[
+                  const SizedBox(height: Spacing.md),
+                  Text(
+                    l10n.attributionCaveat,
+                    style: theme.textTheme.labelSmall?.copyWith(
+                      color: semantic.onQuoteSurface,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
+                if (note != null) ...<Widget>[
+                  const SizedBox(height: Spacing.sm),
+                  Text(
+                    note.resolve(language),
+                    style: theme.textTheme.bodySmall?.copyWith(
                       color: semantic.onQuoteSurface,
                     ),
                   ),
-                ),
-              ),
-              AttributionBadge(status: quote.attribution, language: language),
-            ],
+                ],
+                if (actualSource != null) ...<Widget>[
+                  const SizedBox(height: Spacing.sm),
+                  Text(
+                    '${l10n.actualSourceLabel}: ${actualSource.resolve(language)}',
+                    style: theme.textTheme.labelSmall?.copyWith(
+                      color: semantic.onQuoteSurface,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
+              ],
+            ),
           ),
-          if (quote.needsCaveat) ...<Widget>[
-            const SizedBox(height: Spacing.md),
-            Text(
-              l10n.attributionCaveat,
-              style: theme.textTheme.labelSmall?.copyWith(
-                color: semantic.onQuoteSurface,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ],
-          if (note != null) ...<Widget>[
-            const SizedBox(height: Spacing.sm),
-            Text(
-              note.resolve(language),
-              style: theme.textTheme.bodySmall?.copyWith(
-                color: semantic.onQuoteSurface,
-              ),
-            ),
-          ],
-          if (actualSource != null) ...<Widget>[
-            const SizedBox(height: Spacing.sm),
-            Text(
-              '${l10n.actualSourceLabel}: ${actualSource.resolve(language)}',
-              style: theme.textTheme.labelSmall?.copyWith(
-                color: semantic.onQuoteSurface,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ],
         ],
       ),
     );
@@ -583,10 +647,4 @@ class ReadingColumn extends StatelessWidget {
       child: child,
     ),
   );
-}
-
-/// Resolves a [LocalizedText] and shows a notice when a fallback occurred.
-extension LocalizedTextDisplay on LocalizedText {
-  /// The text in [language], falling back to English.
-  String show(AppLanguage language) => resolve(language);
 }

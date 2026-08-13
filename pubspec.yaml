@@ -31,6 +31,7 @@ flutter:
     - assets/content/
     - assets/fonts/vazirmatn/OFL.txt
     - assets/fonts/spectral/OFL.txt
+    - assets/fonts/gfsdidot/OFL.txt
 
   fonts:
     # Persian. Flutter's default font carries no Arabic-script coverage, so the
@@ -65,3 +66,10 @@ flutter:
           weight: 600
         - asset: assets/fonts/spectral/Spectral-Bold.ttf
           weight: 700
+
+    # Polytonic Greek. Spectral covers the modern Greek block but not Greek
+    # Extended, so accented classical forms — the initial letters of Ἐπίκτητος
+    # and Ἀριστοτέλης — render as empty boxes without this. SIL OFL 1.1.
+    - family: GFSDidot
+      fonts:
+        - asset: assets/fonts/gfsdidot/GFSDidot-Regular.ttf

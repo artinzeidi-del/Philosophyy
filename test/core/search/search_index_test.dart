@@ -36,6 +36,34 @@ void main() {
     });
   });
 
+  group('Index health', () {
+    // The diagnostics exist so that a silent degradation — an index that has
+    // stopped indexing article bodies, or a tokeniser that has started emitting
+    // whole sentences — fails here rather than quietly making search worse.
+    test('the index is dense enough to be doing its job', () {
+      expect(
+        index.postingCount,
+        greaterThan(index.tokenCount),
+        reason: 'most tokens should appear in more than one place',
+      );
+      expect(index.averagePostingsPerToken, greaterThan(1.0));
+    });
+
+    test('no token is absurdly long, which would mean tokenisation broke', () {
+      expect(
+        index.longestToken.length,
+        lessThan(40),
+        reason: 'longest token was "${index.longestToken}"',
+      );
+    });
+
+    test('no single token dominates the index', () {
+      // One token matching a large share of all postings would drag every
+      // query that touches it.
+      expect(index.maxPostingsForOneToken, lessThan(index.postingCount));
+    });
+  });
+
   group('Finding one person by every name they are known under', () {
     // This is the single most important behaviour in the search engine. Ibn
     // Sīnā is the hardest case in the corpus: two scripts, a Latinisation, a

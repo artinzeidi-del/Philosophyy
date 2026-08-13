@@ -62,7 +62,7 @@ abstract final class Radii {
 /// Motion here is used to explain a change of state, never to decorate. All
 /// durations are short enough that the interface never makes the reader wait
 /// on an animation, and every consumer must respect the platform's
-/// reduce-motion setting via [MotionTokens.respecting].
+/// reduce-motion setting — see `Motion.duration` in core/design/motion.dart.
 abstract final class MotionTokens {
   /// 120ms — a control acknowledging a press.
   static const Duration instant = Duration(milliseconds: 120);
@@ -85,10 +85,8 @@ abstract final class MotionTokens {
   /// The standard easing for a change that both starts and ends on screen.
   static const Curve standard = Curves.easeInOutCubic;
 
-  /// Collapses [duration] to zero when the reader has asked the platform to
-  /// reduce motion, so animation is an enhancement rather than a barrier.
-  static Duration respecting(BuildContext context, Duration duration) =>
-      MediaQuery.disableAnimationsOf(context) ? Duration.zero : duration;
+  // Reduced-motion handling lives in `Motion.duration` (core/design/motion.dart)
+  // so there is exactly one way to ask the question.
 }
 
 /// Elevation levels, expressed as the shadows the design system permits.

@@ -1,14 +1,18 @@
 # Project checkpoint
 
 **Date:** 2026-08-13
-**Session:** 1 (foundation)
+**Session:** 2 (experience — motion, identity, script coverage)
 **Branch:** `claude/philosophy-super-app-gzaw5t`
 
 ## Starting state, verified
 
-The repository was **empty** — no commits on any branch, nothing on the remote.
-Everything below was built in this session. There was no previous state to
-reconcile against.
+**Session 1** began with an empty repository — no commits on any branch, nothing
+on the remote — and built the foundation.
+
+**Session 2** began from commit `e249be2`: analysis clean, 87 tests passing, the
+web build running. It reviewed the whole project, fixed the defects listed below,
+and built the motion and visual-identity work. Nothing was taken on trust from
+the previous session's report; the state above was re-verified by running it.
 
 ## Environment
 
@@ -33,9 +37,12 @@ Using the status vocabulary strictly.
 | Content pipeline: parsing, validation, integrity checking | 15 assertions in `content_integrity_test.dart` against the shipped corpus, executed and passing |
 | Bilingual rendering, RTL/LTR, both themes | 13 assertions in `app_smoke_test.dart`, executed and passing |
 | Release build | `flutter build web --release` succeeded |
-| **Runtime execution** | Release build served and loaded in Chromium 1194 via Playwright, in English and Persian, light and dark. **Zero JavaScript errors.** Screenshots in `docs/screenshots/`. |
+| **Runtime execution** | Release build served and loaded in Chromium 1194 via Playwright, in English and Persian, light and dark, on home and article screens. **Zero JavaScript errors.** Screenshots in `docs/screenshots/`. |
+| Motion system, reduced-motion compliance | 14 assertions in `motion_test.dart`, executed and passing |
+| Typography: script coverage and Persian scale | 12 assertions in `typography_test.dart`, executed and passing |
+| Route coverage: no entity is unreachable | 8 assertions in `router_test.dart`, executed and passing |
 
-**Totals: 87 tests, all passing. `flutter analyze --fatal-infos
+**Totals: 122 tests, all passing. `flutter analyze --fatal-infos
 --fatal-warnings` reports no issues. `dart format` reports no changes.**
 
 ### IMPLEMENTED AND INTEGRATED (built and rendering, not yet exercised deeply)
@@ -106,16 +113,44 @@ Named plainly, because the brief describes far more than one session builds:
 
 ## Defects found by running the app, and fixed
 
-Both were invisible to analysis and to the test suite, and were found only by
-looking at rendered pixels:
+None of these were visible to analysis or to the test suite. All were found by
+looking at rendered pixels, or by reviewing the code against what its own
+comments claimed.
 
-1. **Interface chrome was rendering in the content serif.** `chromeFamily`
+### Session 2
+
+1. **Polytonic Greek rendered as empty boxes.** Spectral covers the modern Greek
+   block but not Greek Extended, so `Ἐπίκτητος` and `Ἀριστοτέλης` lost their
+   initial letters. The same gap meant every Arabic-script name rendered as boxes
+   whenever the interface language was English. Fixed by bundling a Greek face
+   and giving every text style an explicit fallback chain (ADR 13), now asserted
+   by `typography_test.dart`.
+2. **The card press animation never appeared.** `PressableSurface` wrapped a
+   `GestureDetector` around an `InkWell`; both register tap recognisers in the
+   same gesture arena, and the arena does not resolve until the pointer lifts —
+   so the press response ran as the press *ended*. Replaced with a raw
+   `Listener`, which never competes.
+3. **The ink ripple was painted behind the card.** A `Material` draws ink beneath
+   its child, and the card supplied an opaque background as that child. The
+   background is now passed to `PressableSurface` and painted outside the
+   `Material`.
+4. **The decorative quotation mark was clipped** into an unreadable smudge at the
+   card's corner. Repositioned to sit fully inside.
+5. **Dead code and unbacked claims.** `MotionTokens.respecting` duplicated
+   `Motion.duration`; a `LocalizedText` display extension was unused; the
+   not-found screen took a path argument it never rendered. Two comments claimed
+   tests that did not exist — the router's `articleKinds` and the search index's
+   diagnostics. The dead code is gone and both tests are now written.
+
+### Session 1
+
+6. **Interface chrome was rendering in the content serif.** `chromeFamily`
    returned `null` for English, intending "use the platform sans"; a `TextStyle`
    with no family instead inherits one from the ambient `DefaultTextStyle`,
    which inside a `Material` is the serif. The whole interface was set in
    Spectral, losing the distinction between reading and operating the app. Fixed
    by naming the sans explicitly.
-2. **The "show all" filter chip was labelled "Explore"**, reusing the navigation
+7. **The "show all" filter chip was labelled "Explore"**, reusing the navigation
    string. Among a row of tradition names it meant nothing. Given its own
    string in both languages.
 

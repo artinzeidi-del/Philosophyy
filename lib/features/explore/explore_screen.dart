@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
@@ -10,6 +12,7 @@ import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
+import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
@@ -35,13 +38,17 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
     final language = ref.watch(activeLanguageProvider);
 
     return Scaffold(
-      body: corpus.when(
-        loading: () => const LoadingView(),
-        error: (error, stack) => ErrorView(
-          details: error.toString(),
-          onRetry: () => ref.invalidate(corpusProvider),
+      backgroundColor: Colors.transparent,
+      body: LamplightBackdrop(
+        intensity: 0.7,
+        child: corpus.when(
+          loading: ListSkeleton.new,
+          error: (error, stack) => ErrorView(
+            details: error.toString(),
+            onRetry: () => ref.invalidate(corpusProvider),
+          ),
+          data: (data) => _body(context, data, language),
         ),
-        data: (data) => _body(context, data, language),
       ),
     );
   }
@@ -105,8 +112,14 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                   ],
                 ),
                 const SizedBox(height: Spacing.xxl),
-                for (final philosopher in philosophers) ...<Widget>[
-                  _PhilosopherRow(philosopher: philosopher, language: language),
+                for (final (index, philosopher) in philosophers.indexed) ...[
+                  EntranceAnimation(
+                    index: index,
+                    child: _PhilosopherRow(
+                      philosopher: philosopher,
+                      language: language,
+                    ),
+                  ),
                   const SizedBox(height: Spacing.md),
                 ],
                 if (selected == null) ...<Widget>[

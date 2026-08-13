@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/motion.dart';
+import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
+import 'package:philosophyy/core/search/text_normalizer.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/concept.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
@@ -88,7 +92,7 @@ class _EntityScreenState extends ConsumerState<EntityScreen> {
   }
 }
 
-class _EntityBody extends StatelessWidget {
+class _EntityBody extends StatefulWidget {
   const _EntityBody({
     required this.entity,
     required this.corpus,
@@ -104,17 +108,75 @@ class _EntityBody extends StatelessWidget {
   final ValueChanged<ContentDepth> onDepthChanged;
 
   @override
+  State<_EntityBody> createState() => _EntityBodyState();
+}
+
+class _EntityBodyState extends State<_EntityBody> {
+  final ScrollController _scrollController = ScrollController();
+
+  /// Whether the reader has scrolled far enough that the real title has left
+  /// the screen and the bar needs to carry it instead.
+  bool _showCompactTitle = false;
+
+  /// Roughly the height of the header block above the fold.
+  static const double _titleHandoverOffset = 96;
+
+  @override
+  void initState() {
+    super.initState();
+    _scrollController.addListener(_onScroll);
+  }
+
+  void _onScroll() {
+    final shouldShow = _scrollController.offset > _titleHandoverOffset;
+    if (shouldShow != _showCompactTitle) {
+      setState(() => _showCompactTitle = shouldShow);
+    }
+  }
+
+  @override
+  void dispose() {
+    _scrollController
+      ..removeListener(_onScroll)
+      ..dispose();
+    super.dispose();
+  }
+
+  KnowledgeEntity get entity => widget.entity;
+  KnowledgeBase get corpus => widget.corpus;
+  AppLanguage get language => widget.language;
+  ContentDepth get depth => widget.depth;
+  ValueChanged<ContentDepth> get onDepthChanged => widget.onDepthChanged;
+
+  @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final l10n = AppL10n.of(context);
+    final showCompactTitle = _showCompactTitle;
+
+    final semantic = context.semanticColors;
 
     return Scaffold(
+      // Reading gets its own surface, a shade apart from the rest of the app,
+      // so that opening an article feels like arriving somewhere quieter. The
+      // lamplight backdrop used on the front-of-house screens is deliberately
+      // absent here: under long-form text, decoration is noise.
+      backgroundColor: semantic.readingSurface,
       body: CustomScrollView(
+        controller: _scrollController,
         slivers: <Widget>[
           SliverAppBar(
             pinned: true,
             expandedHeight: 0,
-            title: Text(entity.name.resolve(language)),
+            backgroundColor: semantic.readingSurface,
+            // The title only appears once the reader has scrolled past the
+            // real one, so the screen opens with a single heading rather than
+            // the same words twice.
+            title: AnimatedOpacity(
+              opacity: showCompactTitle ? 1 : 0,
+              duration: Motion.duration(context, MotionTokens.quick),
+              child: Text(entity.name.resolve(language)),
+            ),
           ),
           SliverToBoxAdapter(
             child: ReadingColumn(
@@ -139,11 +201,17 @@ class _EntityBody extends StatelessWidget {
                         onChanged: onDepthChanged,
                       ),
                     const SizedBox(height: Spacing.lg),
-                    ArticleView(
-                      article: entity.article,
-                      depth: depth,
-                      language: language,
-                      resolveSource: corpus.source,
+                    // Changing depth replaces the whole article. Without the
+                    // cross-fade the page snaps to a new length while the
+                    // reader's eye is still on the old text.
+                    SmoothSwitcher(
+                      child: ArticleView(
+                        key: ValueKey<String>('${entity.id}-${depth.id}'),
+                        article: entity.article,
+                        depth: depth,
+                        language: language,
+                        resolveSource: corpus.source,
+                      ),
                     ),
                     ..._kindSpecificSections(context),
                     _ConnectionsSection(
@@ -399,59 +467,85 @@ class _Header extends StatelessWidget {
       _ => null,
     };
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        Semantics(
-          header: true,
-          child: Text(
-            entity.name.resolve(language),
-            style: theme.textTheme.displaySmall,
-          ),
-        ),
-        if (native != null) ...<Widget>[
-          const SizedBox(height: Spacing.xs),
-          Text(
-            native,
-            style: theme.textTheme.titleMedium?.copyWith(
-              color: theme.colorScheme.onSurfaceVariant,
-              fontWeight: FontWeight.w400,
+    return EntranceAnimation(
+      distance: 12,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          // Dates lead, in the accent colour and letter-spaced, so the reader
+          // is placed in history before they are given a name.
+          if (meta != null) ...<Widget>[
+            Text(
+              meta,
+              style: theme.textTheme.labelSmall?.copyWith(
+                color: theme.colorScheme.secondary,
+                letterSpacing: 0.8,
+              ),
+            ),
+            const SizedBox(height: Spacing.sm),
+          ],
+          Semantics(
+            header: true,
+            child: Text(
+              entity.name.resolve(language),
+              style: theme.textTheme.displaySmall?.copyWith(height: 1.08),
             ),
           ),
-        ],
-        if (meta != null) ...<Widget>[
-          const SizedBox(height: Spacing.sm),
-          Text(
-            meta,
-            style: theme.textTheme.bodySmall?.copyWith(
-              color: theme.colorScheme.onSurfaceVariant,
+          if (native != null) ...<Widget>[
+            const SizedBox(height: Spacing.xs),
+            // The original script is set large and quiet rather than as a
+            // footnote. For a great many readers it is the name they know, and
+            // shrinking it to metadata quietly says whose language is primary.
+            Text(
+              native,
+              style: theme.textTheme.headlineSmall?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+                fontWeight: FontWeight.w400,
+              ),
+              // The original script has its own direction, which is frequently
+              // not the interface's.
+              textDirection: _scriptDirection(native),
             ),
-          ),
-        ],
-        const SizedBox(height: Spacing.lg),
-        Text(
-          entity.oneLine.resolve(language),
-          style: theme.textTheme.titleLarge,
-        ),
-        if (entity.branches.isNotEmpty || entity.traditions.isNotEmpty) ...[
+          ],
           const SizedBox(height: Spacing.lg),
-          Wrap(
-            spacing: Spacing.xs,
-            runSpacing: Spacing.xs,
-            children: <Widget>[
-              for (final tradition in entity.traditions)
-                TagChip(
-                  label: TaxonomyLabels.tradition(tradition).resolve(language),
-                  emphasised: true,
-                ),
-              for (final branch in entity.branches)
-                TagChip(label: TaxonomyLabels.branch(branch).resolve(language)),
-            ],
+          const TitleRule(),
+          const SizedBox(height: Spacing.lg),
+          Text(
+            entity.oneLine.resolve(language),
+            style: theme.textTheme.titleLarge?.copyWith(height: 1.45),
           ),
+          if (entity.branches.isNotEmpty || entity.traditions.isNotEmpty) ...[
+            const SizedBox(height: Spacing.lg),
+            Wrap(
+              spacing: Spacing.xs,
+              runSpacing: Spacing.xs,
+              children: <Widget>[
+                for (final tradition in entity.traditions)
+                  TagChip(
+                    label: TaxonomyLabels.tradition(tradition)
+                        .resolve(language),
+                    emphasised: true,
+                  ),
+                for (final branch in entity.branches)
+                  TagChip(
+                    label: TaxonomyLabels.branch(branch).resolve(language),
+                  ),
+              ],
+            ),
+          ],
         ],
-      ],
+      ),
     );
   }
+
+  /// The direction a name in its original script should be laid out in.
+  ///
+  /// `ابن سينا` must run right-to-left even when the interface is English, and
+  /// `Πλάτων` must run left-to-right even when the interface is Persian.
+  TextDirection _scriptDirection(String text) =>
+      TextNormalizer.containsArabicScript(text)
+      ? TextDirection.rtl
+      : TextDirection.ltr;
 }
 
 /// Lets the reader move between depths, and says plainly when there is no more.
