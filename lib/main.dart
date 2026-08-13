@@ -4,6 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:philosophyy/app/app.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/data/user/key_value_store.dart';
+import 'package:philosophyy/data/user/stored_user_data_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Starts the app.
@@ -17,9 +19,18 @@ Future<void> main() async {
   // wrong theme, which is small but looks broken every single launch.
   final preferences = await SharedPreferences.getInstance();
 
+  // The reader's own work is loaded before the first frame for the same reason:
+  // a bookmark that appears a frame after the article does looks like a bug, and
+  // a library screen that flashes empty before filling looks like data loss.
+  final userData = StoredUserDataRepository(PreferencesStore(preferences));
+  final library = await userData.load();
+
   runApp(
     ProviderScope(
-      overrides: [sharedPreferencesProvider.overrideWithValue(preferences)],
+      overrides: [
+        sharedPreferencesProvider.overrideWithValue(preferences),
+        initialLibraryProvider.overrideWithValue(library),
+      ],
       child: const PhilosophiaApp(),
     ),
   );

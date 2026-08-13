@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -92,7 +94,7 @@ class _EntityScreenState extends ConsumerState<EntityScreen> {
   }
 }
 
-class _EntityBody extends StatefulWidget {
+class _EntityBody extends ConsumerStatefulWidget {
   const _EntityBody({
     required this.entity,
     required this.corpus,
@@ -108,10 +110,10 @@ class _EntityBody extends StatefulWidget {
   final ValueChanged<ContentDepth> onDepthChanged;
 
   @override
-  State<_EntityBody> createState() => _EntityBodyState();
+  ConsumerState<_EntityBody> createState() => _EntityBodyState();
 }
 
-class _EntityBodyState extends State<_EntityBody> {
+class _EntityBodyState extends ConsumerState<_EntityBody> {
   final ScrollController _scrollController = ScrollController();
 
   /// Whether the reader has scrolled far enough that the real title has left
@@ -121,10 +123,34 @@ class _EntityBodyState extends State<_EntityBody> {
   /// Roughly the height of the header block above the fold.
   static const double _titleHandoverOffset = 96;
 
+  /// How long the reader must stop scrolling before the position is written.
+  ///
+  /// Writing on every scroll frame would hammer storage for no benefit; writing
+  /// only on leave would lose the position if the app is killed. Settling for a
+  /// moment is the signal that they have arrived somewhere worth remembering.
+  static const Duration _positionSettleDelay = Duration(milliseconds: 700);
+
+  Timer? _positionTimer;
+
   @override
   void initState() {
     super.initState();
     _scrollController.addListener(_onScroll);
+    WidgetsBinding.instance.addPostFrameCallback((_) => _restorePosition());
+  }
+
+  /// Returns the reader to where they left off, if they got far enough in.
+  void _restorePosition() {
+    if (!mounted || !_scrollController.hasClients) return;
+    final saved = ref.read(libraryProvider).positionFor(widget.entity.ref);
+    if (saved == null || !saved.isWorthRestoring) return;
+
+    // Never scroll past the end: the article may be shorter than it was when
+    // the position was recorded.
+    final maximum = _scrollController.position.maxScrollExtent;
+    final target = saved.scrollOffset.clamp(0.0, maximum);
+    if (target <= 0) return;
+    _scrollController.jumpTo(target);
   }
 
   void _onScroll() {
@@ -132,10 +158,26 @@ class _EntityBodyState extends State<_EntityBody> {
     if (shouldShow != _showCompactTitle) {
       setState(() => _showCompactTitle = shouldShow);
     }
+
+    _positionTimer?.cancel();
+    _positionTimer = Timer(_positionSettleDelay, _recordPosition);
+  }
+
+  void _recordPosition() {
+    if (!mounted || !_scrollController.hasClients) return;
+    unawaited(
+      ref
+          .read(libraryProvider.notifier)
+          .recordPosition(
+            target: widget.entity.ref,
+            scrollOffset: _scrollController.offset,
+          ),
+    );
   }
 
   @override
   void dispose() {
+    _positionTimer?.cancel();
     _scrollController
       ..removeListener(_onScroll)
       ..dispose();
@@ -177,6 +219,10 @@ class _EntityBodyState extends State<_EntityBody> {
               duration: Motion.duration(context, MotionTokens.quick),
               child: Text(entity.name.resolve(language)),
             ),
+            actions: <Widget>[
+              _BookmarkButton(target: entity.ref),
+              const SizedBox(width: Spacing.xs),
+            ],
           ),
           SliverToBoxAdapter(
             child: ReadingColumn(
@@ -219,6 +265,7 @@ class _EntityBodyState extends State<_EntityBody> {
                       corpus: corpus,
                       language: language,
                     ),
+                    _NotesSection(target: entity.ref),
                     if (entity.citations.isNotEmpty) ...<Widget>[
                       const SizedBox(height: Spacing.xl),
                       SectionHeader(title: l10n.sectionSources),
@@ -767,6 +814,197 @@ class _ProseSection extends StatelessWidget {
             ),
           ),
       ],
+    );
+  }
+}
+
+/// Saves or unsaves the article.
+///
+/// The icon is the state: filled when saved, outlined when not. There is no
+/// confirmation, because the action is instant and reversible by pressing the
+/// same button again — a dialog here would be ceremony over a bookmark.
+class _BookmarkButton extends ConsumerWidget {
+  const _BookmarkButton({required this.target});
+
+  final EntityRef target;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppL10n.of(context);
+    final isSaved = ref.watch(isBookmarkedProvider(target));
+
+    return IconButton(
+      tooltip: isSaved ? l10n.bookmarkRemove : l10n.bookmarkAdd,
+      icon: Icon(isSaved ? Icons.bookmark : Icons.bookmark_border),
+      color: isSaved ? Theme.of(context).colorScheme.secondary : null,
+      onPressed: () async {
+        final messenger = ScaffoldMessenger.of(context);
+        final saved = await ref
+            .read(libraryProvider.notifier)
+            .toggleBookmark(target);
+        if (!saved) {
+          messenger.showSnackBar(SnackBar(content: Text(l10n.saveFailed)));
+        }
+      },
+    );
+  }
+}
+
+/// The reader's notes on this article, and the way to add one.
+class _NotesSection extends ConsumerWidget {
+  const _NotesSection({required this.target});
+
+  final EntityRef target;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final notes = ref.watch(notesForProvider(target));
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        const SizedBox(height: Spacing.xl),
+        SectionHeader(
+          title: l10n.notesTitle,
+          trailing: TextButton.icon(
+            onPressed: () => _compose(context, ref),
+            icon: const Icon(Icons.add, size: 18),
+            label: Text(l10n.noteAdd),
+          ),
+        ),
+        for (final note in notes)
+          Padding(
+            padding: const EdgeInsets.only(bottom: Spacing.md),
+            child: Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(Spacing.lg),
+              decoration: BoxDecoration(
+                color: theme.colorScheme.surfaceContainer,
+                borderRadius: Radii.cardRadius,
+                border: BorderDirectional(
+                  start: BorderSide(color: theme.colorScheme.primary, width: 3),
+                ),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(note.body, style: theme.textTheme.bodyLarge),
+                  const SizedBox(height: Spacing.sm),
+                  Row(
+                    children: <Widget>[
+                      if (note.isEdited)
+                        Text(
+                          l10n.noteEdited,
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: theme.colorScheme.onSurfaceVariant,
+                          ),
+                        ),
+                      const Spacer(),
+                      TextButton(
+                        onPressed: () => ref
+                            .read(libraryProvider.notifier)
+                            .deleteNote(note.id),
+                        child: Text(l10n.noteDelete),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+      ],
+    );
+  }
+
+  Future<void> _compose(BuildContext context, WidgetRef ref) async {
+    final l10n = AppL10n.of(context);
+
+    final body = await showModalBottomSheet<String>(
+      context: context,
+      isScrollControlled: true,
+      builder: (sheetContext) => const _NoteComposer(),
+    );
+
+    if (body == null || body.trim().isEmpty) return;
+    if (!context.mounted) return;
+
+    final messenger = ScaffoldMessenger.of(context);
+    final note = await ref
+        .read(libraryProvider.notifier)
+        .addNote(target: target, body: body);
+    if (note == null) {
+      messenger.showSnackBar(SnackBar(content: Text(l10n.saveFailed)));
+    }
+  }
+}
+
+/// The note-writing sheet.
+///
+/// It owns its own text controller. Disposing a controller in the caller as soon
+/// as the sheet returns throws: the sheet is still running its closing
+/// animation, and the `TextField` inside it rebuilds at least once more against
+/// a controller that no longer exists.
+class _NoteComposer extends StatefulWidget {
+  const _NoteComposer();
+
+  @override
+  State<_NoteComposer> createState() => _NoteComposerState();
+}
+
+class _NoteComposerState extends State<_NoteComposer> {
+  final TextEditingController _controller = TextEditingController();
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
+
+    return Padding(
+      // Lifted above the keyboard, so the reader can see what they type.
+      padding: EdgeInsets.only(
+        left: Spacing.lg,
+        right: Spacing.lg,
+        top: Spacing.lg,
+        bottom: MediaQuery.viewInsetsOf(context).bottom + Spacing.lg,
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(l10n.noteAdd, style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: Spacing.lg),
+          TextField(
+            controller: _controller,
+            autofocus: true,
+            minLines: 3,
+            maxLines: 8,
+            textCapitalization: TextCapitalization.sentences,
+            decoration: InputDecoration(hintText: l10n.noteHint),
+          ),
+          const SizedBox(height: Spacing.lg),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: <Widget>[
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: Text(l10n.cancel),
+              ),
+              const SizedBox(width: Spacing.sm),
+              FilledButton(
+                onPressed: () => Navigator.of(context).pop(_controller.text),
+                child: Text(l10n.noteSave),
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }

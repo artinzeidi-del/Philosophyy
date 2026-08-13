@@ -1,7 +1,7 @@
 # Project checkpoint
 
 **Date:** 2026-08-13
-**Session:** 2 (experience — motion, identity, script coverage)
+**Session:** 3 (personal knowledge — the reader's own work)
 **Branch:** `claude/philosophy-super-app-gzaw5t`
 
 ## Starting state, verified
@@ -11,8 +11,13 @@ on the remote — and built the foundation.
 
 **Session 2** began from commit `e249be2`: analysis clean, 87 tests passing, the
 web build running. It reviewed the whole project, fixed the defects listed below,
-and built the motion and visual-identity work. Nothing was taken on trust from
-the previous session's report; the state above was re-verified by running it.
+and built the motion and visual-identity work.
+
+**Session 3** began from commit `48ef05b`: analysis clean, 122 tests passing. It
+built the persistence layer — the gap the previous checkpoint named as the
+largest — and the library, bookmarking and note-taking on top of it. Nothing was
+taken on trust from the previous session's report; the state above was
+re-verified by running it.
 
 ## Environment
 
@@ -41,8 +46,10 @@ Using the status vocabulary strictly.
 | Motion system, reduced-motion compliance | 14 assertions in `motion_test.dart`, executed and passing |
 | Typography: script coverage and Persian scale | 12 assertions in `typography_test.dart`, executed and passing |
 | Route coverage: no entity is unreachable | 8 assertions in `router_test.dart`, executed and passing |
+| Persistence: bookmarks, notes, highlights, reading position | 32 assertions in `user_data_test.dart`, executed and passing |
+| Saving and note-taking through the real interface | 10 assertions in `library_flow_test.dart`, executed and passing |
 
-**Totals: 122 tests, all passing. `flutter analyze --fatal-infos
+**Totals: 164 tests, all passing. `flutter analyze --fatal-infos
 --fatal-warnings` reports no issues. `dart format` reports no changes.**
 
 ### IMPLEMENTED AND INTEGRATED (built and rendering, not yet exercised deeply)
@@ -62,10 +69,13 @@ reviewed screen-by-screen against every state in the brief's screen inventory.
 
 Named plainly, because the brief describes far more than one session builds:
 
-- **Reader** — no long-form reading view, no font/width controls, no table of
-  contents, no footnotes, no reading position
-- **Personal knowledge** — no bookmarks, notes, highlights or collections, and
-  **no persistence layer for them**. This is the largest architectural gap.
+- **Reader** — no dedicated long-form reading view, no font-size or width
+  controls, no table of contents, no footnotes. Reading *position* is now saved
+  and restored, but the reading surface itself is still the article screen.
+- **Highlighting** — the domain model, storage, re-anchoring logic and tests all
+  exist, but there is no way for a reader to select text and create one. This is
+  the largest gap between what is built and what is reachable.
+- **Collections and tags** — not started.
 - **Learning platform** — no lessons, learning paths, adaptive difficulty,
   spaced repetition, quizzes or flashcards
 - **Knowledge graph view** — relations are modelled, indexed and displayed as a
@@ -117,6 +127,18 @@ None of these were visible to analysis or to the test suite. All were found by
 looking at rendered pixels, or by reviewing the code against what its own
 comments claimed.
 
+### Session 3
+
+1. **The note composer crashed on every save.** The `TextEditingController` was
+   disposed as soon as the bottom sheet returned, but the sheet is still running
+   its closing animation and the `TextField` rebuilds at least once more —
+   "A TextEditingController was used after being disposed". Found by a widget
+   test driving the real composer; it would have thrown for every reader who
+   wrote a note. The sheet now owns its controller.
+2. **The library screen sorted application state during build.**
+   `library.notes..sort()` mutates the list held in the provider, from inside a
+   `build`. Copied before sorting.
+
 ### Session 2
 
 1. **Polytonic Greek rendered as empty boxes.** Spectral covers the modern Greek
@@ -164,22 +186,18 @@ comments claimed.
 
 ## Next exact action
 
-Build the persistence layer for reader-owned data — bookmarks, highlights,
-notes, reading position — as one vertical slice:
+Build the **reading experience** on top of the persistence that now exists:
 
-1. Domain: `Bookmark`, `Highlight`, `Note`, `ReadingPosition` entities keyed by
-   `EntityRef` plus a section anchor.
-2. Data: a `UserDataRepository` interface with a local implementation. Evaluate
-   `sqflite` against `drift` on necessity, maintenance, and above all migration
-   support — this is the reader's own data and losing it is unacceptable — and
-   record the choice as a new ADR.
-3. Migrations from version 1, with a test that migrates a populated v1 database
-   forward and asserts nothing is lost.
-4. Providers and UI: a bookmark control on the article screen and a saved-items
-   screen.
-5. Tests at every layer, including one that changes the app language and asserts
-   saved data survives — the brief calls for this explicitly and it is exactly
-   the kind of thing that breaks silently.
+1. A dedicated reader view for long-form article text, with the reader's own
+   controls over size and measure — the design tokens (`Breakpoints.readingMeasure`,
+   `AppTypography.reading(scale:)`) already anticipate this and are unused.
+2. Text selection that creates a `Highlight`. Everything behind it is built and
+   tested — including re-anchoring when the corpus is edited — and none of it is
+   reachable from the interface, which is the most wasteful state for code to be
+   in.
+3. A table of contents from `Article.sections`, and footnote/citation links that
+   scroll rather than navigate away.
 
-This must come before the reader and the learning platform, because both of them
-need somewhere to store what the reader does.
+After that, the honest priority order is: content depth (the corpus is still
+small and most entries stop at `standard`), then the learning platform, then the
+knowledge-graph view.

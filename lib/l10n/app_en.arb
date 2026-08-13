@@ -221,6 +221,69 @@
     "description": "Accessibility label announced while content loads."
   },
 
+  "navLibrary": "Library",
+  "@navLibrary": {"description": "Bottom navigation label for the reader's saved items."},
+
+  "libraryEmptyTitle": "Nothing saved yet",
+  "@libraryEmptyTitle": {"description": "Heading when the library is empty."},
+
+  "libraryEmptyBody": "Save an entry, or write a note on one, and it will appear here.",
+  "@libraryEmptyBody": {"description": "Guidance for the empty library."},
+
+  "librarySavedSection": "Saved",
+  "@librarySavedSection": {"description": "Heading for bookmarked articles."},
+
+  "libraryNotesSection": "Your notes",
+  "@libraryNotesSection": {"description": "Heading for the reader's notes."},
+
+  "libraryContinueSection": "Continue reading",
+  "@libraryContinueSection": {"description": "Heading for articles with a saved reading position."},
+
+  "bookmarkAdd": "Save this entry",
+  "@bookmarkAdd": {"description": "Tooltip on the bookmark button when not saved."},
+
+  "bookmarkRemove": "Remove from saved",
+  "@bookmarkRemove": {"description": "Tooltip on the bookmark button when saved."},
+
+  "notesTitle": "Notes",
+  "@notesTitle": {"description": "Heading for notes on an article."},
+
+  "noteAdd": "Add a note",
+  "@noteAdd": {"description": "Button that opens the note composer."},
+
+  "noteHint": "What do you want to remember?",
+  "@noteHint": {"description": "Placeholder in the note composer."},
+
+  "noteSave": "Save note",
+  "@noteSave": {"description": "Confirms writing a note."},
+
+  "noteDelete": "Delete note",
+  "@noteDelete": {"description": "Removes a note."},
+
+  "noteEdited": "edited",
+  "@noteEdited": {"description": "Marks a note that has been changed since it was written."},
+
+  "saveFailed": "That could not be saved. Nothing was lost — try again.",
+  "@saveFailed": {"description": "Shown when a write to local storage fails."},
+
+  "clearLibrary": "Delete everything I have saved",
+  "@clearLibrary": {"description": "Settings action that erases the reader's data."},
+
+  "clearLibraryExplain": "Removes every saved entry, note, highlight and reading position from this device. This cannot be undone.",
+  "@clearLibraryExplain": {"description": "Explains what deleting the library does."},
+
+  "clearLibraryConfirm": "Delete",
+  "@clearLibraryConfirm": {"description": "Confirms the destructive action."},
+
+  "cancel": "Cancel",
+  "@cancel": {"description": "Dismisses a dialog without acting."},
+
+  "clearLibraryDone": "Everything has been deleted.",
+  "@clearLibraryDone": {"description": "Confirmation after erasing the library."},
+
+  "libraryItemCount": "{count, plural, =0{Nothing saved} =1{1 item} other{{count} items}}",
+  "@libraryItemCount": {"description": "How much the reader has saved.", "placeholders": {"count": {"type": "int"}}},
+
   "notFoundTitle": "This entry does not exist",
   "@notFoundTitle": { "description": "Shown for an unresolvable route." },
 

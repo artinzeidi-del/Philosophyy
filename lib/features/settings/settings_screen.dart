@@ -114,6 +114,29 @@ class SettingsScreen extends ConsumerWidget {
                     ),
                   ),
 
+                  _GroupLabel(text: l10n.navLibrary),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: Spacing.lg),
+                    child: Text(
+                      l10n.clearLibraryExplain,
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: Spacing.sm),
+                  ListTile(
+                    leading: Icon(
+                      Icons.delete_outline,
+                      color: theme.colorScheme.error,
+                    ),
+                    title: Text(
+                      l10n.clearLibrary,
+                      style: TextStyle(color: theme.colorScheme.error),
+                    ),
+                    onTap: () => _confirmClear(context, ref),
+                  ),
+
                   _GroupLabel(text: l10n.settingsAbout),
                   ListTile(
                     leading: const Icon(Icons.description_outlined),
@@ -131,6 +154,43 @@ class SettingsScreen extends ConsumerWidget {
       ),
     );
   }
+}
+
+/// Asks before erasing the reader's work.
+///
+/// This is the one destructive action in the app, and it cannot be undone, so it
+/// is the one place a confirmation is warranted — everything else here is
+/// reversible by pressing the same control again.
+Future<void> _confirmClear(BuildContext context, WidgetRef ref) async {
+  final l10n = AppL10n.of(context);
+  final messenger = ScaffoldMessenger.of(context);
+
+  final confirmed = await showDialog<bool>(
+    context: context,
+    builder: (dialogContext) => AlertDialog(
+      title: Text(l10n.clearLibrary),
+      content: Text(l10n.clearLibraryExplain),
+      actions: <Widget>[
+        TextButton(
+          onPressed: () => Navigator.of(dialogContext).pop(false),
+          child: Text(l10n.cancel),
+        ),
+        FilledButton(
+          style: FilledButton.styleFrom(
+            backgroundColor: Theme.of(dialogContext).colorScheme.error,
+          ),
+          onPressed: () => Navigator.of(dialogContext).pop(true),
+          child: Text(l10n.clearLibraryConfirm),
+        ),
+      ],
+    ),
+  );
+
+  if (confirmed != true) return;
+  final cleared = await ref.read(libraryProvider.notifier).clearAll();
+  messenger.showSnackBar(
+    SnackBar(content: Text(cleared ? l10n.clearLibraryDone : l10n.saveFailed)),
+  );
 }
 
 class _GroupLabel extends StatelessWidget {

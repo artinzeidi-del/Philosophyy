@@ -6,6 +6,7 @@ import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/features/entity/entity_screen.dart';
 import 'package:philosophyy/features/explore/explore_screen.dart';
 import 'package:philosophyy/features/home/home_screen.dart';
+import 'package:philosophyy/features/library/library_screen.dart';
 import 'package:philosophyy/features/search/search_screen.dart';
 import 'package:philosophyy/features/settings/settings_screen.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
@@ -54,6 +55,14 @@ class AppRouter {
           StatefulShellBranch(
             routes: <RouteBase>[
               GoRoute(
+                path: library,
+                builder: (context, state) => const LibraryScreen(),
+              ),
+            ],
+          ),
+          StatefulShellBranch(
+            routes: <RouteBase>[
+              GoRoute(
                 path: settings,
                 builder: (context, state) => const SettingsScreen(),
               ),
@@ -90,6 +99,9 @@ class AppRouter {
 
   /// The search tab.
   static const String search = '/search';
+
+  /// The reader's saved work.
+  static const String library = '/library';
 
   /// The settings tab.
   static const String settings = '/settings';
@@ -145,6 +157,11 @@ class _ShellScaffold extends StatelessWidget {
             icon: const Icon(Icons.search_outlined),
             selectedIcon: const Icon(Icons.search),
             label: l10n.navSearch,
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.bookmark_border),
+            selectedIcon: const Icon(Icons.bookmark),
+            label: l10n.navLibrary,
           ),
           NavigationDestination(
             icon: const Icon(Icons.settings_outlined),

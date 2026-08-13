@@ -269,6 +269,56 @@ easy to forget on a new screen.
 
 ---
 
+---
+
+### ADR 15 — The reader's library is a versioned JSON document, not a database
+
+**Context.** Bookmarks, notes, highlights and reading positions are the only
+data in the product that cannot be regenerated: the corpus ships in the binary,
+a note does not.
+
+**Decision.** The whole library is one JSON document with an explicit schema
+version, written through a `KeyValueStore` abstraction backed by
+`SharedPreferences`. Loading and saving are whole-document operations.
+
+**Alternatives.** `drift` or `sqflite` would give real queries and per-row
+writes. Both were rejected for now: a reader's annotations are kilobytes, and
+`drift` on web needs a WASM SQLite build and a worker script — a large amount of
+machinery for data that fits comfortably in a string.
+
+**Why the version matters more than the storage engine.** A document from an
+older schema is migrated one step at a time; a document from a *newer* schema is
+refused outright rather than parsed hopefully, because reading a reader's notes
+wrongly and then saving the damage back is worse than not reading them at all.
+
+**When to change this.** When the library outgrows a single document — thousands
+of notes, or full-text search across them — or when notes need to sync between
+devices, at which point per-item identity and modification times start to matter
+more than simplicity. `UserDataRepository` exists so that this is a change of
+implementation rather than a change of app.
+
+**Cost.** Every save rewrites the whole document. Irrelevant at kilobytes;
+disqualifying at megabytes.
+
+---
+
+### ADR 16 — Unreadable saved data is set aside, never overwritten
+
+**Context.** If the stored library cannot be parsed, the app has two bad
+options: refuse to start, or start empty and overwrite the reader's work on the
+next save.
+
+**Decision.** Neither. The unreadable document is moved to a salvage key, the
+reader gets an empty library and a working app, and their original bytes stay on
+the device for a recovery path to reach. `clear()` removes the salvage copy too,
+so deleting your data really deletes it.
+
+**Cost.** A key that usually holds nothing, and a recovery path that does not yet
+exist — the bytes are kept but there is currently no interface for restoring
+them.
+
+---
+
 ## Testing strategy
 
 | Level | What it covers |
