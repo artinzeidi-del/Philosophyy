@@ -1,0 +1,592 @@
+import 'package:flutter/material.dart';
+import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/semantic_colors.dart';
+import 'package:philosophyy/core/design/typography.dart';
+import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
+import 'package:philosophyy/domain/entities/content_section.dart';
+import 'package:philosophyy/domain/entities/quote.dart';
+import 'package:philosophyy/domain/entities/source.dart';
+import 'package:philosophyy/domain/value_objects/app_language.dart';
+import 'package:philosophyy/domain/value_objects/attribution.dart';
+import 'package:philosophyy/domain/value_objects/localized_text.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/l10n/generated/app_localizations.dart';
+
+/// A small, non-interactive label — a branch, a tradition, an era.
+class TagChip extends StatelessWidget {
+  const TagChip({required this.label, this.emphasised = false, super.key});
+
+  /// The text to show.
+  final String label;
+
+  /// Whether this tag is the most significant one on its row.
+  final bool emphasised;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
+
+    return Container(
+      padding: const EdgeInsets.symmetric(
+        horizontal: Spacing.sm,
+        vertical: Spacing.xxs,
+      ),
+      decoration: BoxDecoration(
+        color: emphasised
+            ? scheme.primaryContainer
+            : scheme.surfaceContainerHigh,
+        borderRadius: const BorderRadius.all(Radius.circular(Radii.sm)),
+        border: Border.all(
+          color: emphasised ? Colors.transparent : scheme.outlineVariant,
+        ),
+      ),
+      child: Text(
+        label,
+        style: theme.textTheme.labelSmall?.copyWith(
+          color: emphasised
+              ? scheme.onPrimaryContainer
+              : scheme.onSurfaceVariant,
+        ),
+      ),
+    );
+  }
+}
+
+/// A heading that opens a section of a screen.
+class SectionHeader extends StatelessWidget {
+  const SectionHeader({required this.title, this.trailing, super.key});
+
+  /// The heading text.
+  final String title;
+
+  /// An optional control aligned to the end of the row.
+  final Widget? trailing;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: Spacing.md),
+      child: Row(
+        children: <Widget>[
+          Expanded(
+            child: Semantics(
+              header: true,
+              child: Text(title, style: theme.textTheme.titleMedium),
+            ),
+          ),
+          ?trailing,
+        ],
+      ),
+    );
+  }
+}
+
+/// A tappable card summarising anything with a name and a one-line summary.
+///
+/// One card type is used for philosophers, concepts, works and schools, so that
+/// the product reads as one system rather than four. What differs between kinds
+/// is carried in [meta], not in the layout.
+class EntityCard extends StatelessWidget {
+  const EntityCard({
+    required this.title,
+    required this.summary,
+    required this.onTap,
+    this.meta,
+    this.tags = const <String>[],
+    this.footnote,
+    super.key,
+  });
+
+  /// The entity's name.
+  final String title;
+
+  /// The one-line summary.
+  final String summary;
+
+  /// Invoked when the card is tapped.
+  final VoidCallback onTap;
+
+  /// A short line of context — dates, an author, a period.
+  final String? meta;
+
+  /// Up to a few classification tags.
+  final List<String> tags;
+
+  /// A quiet line at the foot of the card, used to explain search matches.
+  final String? footnote;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
+
+    return Card(
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(Spacing.lg),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(title, style: theme.textTheme.titleLarge),
+              if (meta != null) ...<Widget>[
+                const SizedBox(height: Spacing.xxs),
+                Text(
+                  meta!,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    color: scheme.onSurfaceVariant,
+                  ),
+                ),
+              ],
+              const SizedBox(height: Spacing.sm),
+              Text(
+                summary,
+                style: theme.textTheme.bodyMedium?.copyWith(
+                  color: scheme.onSurfaceVariant,
+                ),
+              ),
+              if (tags.isNotEmpty) ...<Widget>[
+                const SizedBox(height: Spacing.md),
+                Wrap(
+                  spacing: Spacing.xs,
+                  runSpacing: Spacing.xs,
+                  children: <Widget>[
+                    for (final tag in tags) TagChip(label: tag),
+                  ],
+                ),
+              ],
+              if (footnote != null) ...<Widget>[
+                const SizedBox(height: Spacing.sm),
+                Text(
+                  footnote!,
+                  style: theme.textTheme.labelSmall?.copyWith(
+                    color: scheme.onSurfaceVariant,
+                  ),
+                ),
+              ],
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// A badge stating how reliable a quotation's attribution is.
+///
+/// Tapping it explains what the status means, because a coloured word teaches
+/// nobody anything on its own.
+class AttributionBadge extends StatelessWidget {
+  const AttributionBadge({
+    required this.status,
+    required this.language,
+    super.key,
+  });
+
+  /// The status to display.
+  final AttributionStatus status;
+
+  /// The language to render the label in.
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    final semantic = context.semanticColors;
+    final theme = Theme.of(context);
+    final colour = switch (status) {
+      AttributionStatus.verified => semantic.verified,
+      AttributionStatus.probable => semantic.probable,
+      AttributionStatus.disputed => semantic.disputed,
+      AttributionStatus.misattributed => semantic.misattributed,
+      AttributionStatus.unknown => semantic.unknownProvenance,
+    };
+    final label = TaxonomyLabels.attribution(status).resolve(language);
+    final explanation = TaxonomyLabels.attributionExplanation(status)
+        .resolve(language);
+
+    return Tooltip(
+      message: explanation,
+      child: Semantics(
+        label: '$label. $explanation',
+        child: Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: Spacing.sm,
+            vertical: Spacing.xxs,
+          ),
+          decoration: BoxDecoration(
+            borderRadius: const BorderRadius.all(Radius.circular(Radii.sm)),
+            border: Border.all(color: colour),
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Icon(
+                switch (status) {
+                  AttributionStatus.verified => Icons.check_circle_outline,
+                  AttributionStatus.probable => Icons.help_outline,
+                  AttributionStatus.disputed => Icons.forum_outlined,
+                  AttributionStatus.misattributed => Icons.report_outlined,
+                  AttributionStatus.unknown => Icons.remove_circle_outline,
+                },
+                size: 14,
+                color: colour,
+              ),
+              const SizedBox(width: Spacing.xs),
+              Text(
+                label,
+                style: theme.textTheme.labelSmall?.copyWith(color: colour),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Marks a passage as something other than settled fact.
+class ClaimBadge extends StatelessWidget {
+  const ClaimBadge({required this.claim, required this.language, super.key});
+
+  /// The kind of claim being made.
+  final ClaimType claim;
+
+  /// The language to render the label in.
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    if (!claim.requiresMarking) return const SizedBox.shrink();
+
+    final semantic = context.semanticColors;
+    final theme = Theme.of(context);
+    final colour = switch (claim) {
+      ClaimType.interpretation => semantic.interpretation,
+      ClaimType.scholarlyDisagreement => semantic.scholarlyDisagreement,
+      ClaimType.hypothesis => semantic.probable,
+      ClaimType.disputed => semantic.disputed,
+      ClaimType.fact => semantic.verified,
+    };
+
+    return Padding(
+      padding: const EdgeInsets.only(bottom: Spacing.sm),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          Container(width: 3, height: 14, color: colour),
+          const SizedBox(width: Spacing.sm),
+          Text(
+            TaxonomyLabels.claimType(claim).resolve(language),
+            style: theme.textTheme.labelSmall?.copyWith(color: colour),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Renders an article at a chosen depth.
+///
+/// Sections deeper than [depth] are not rendered at all rather than collapsed,
+/// because a reader who has chosen the short version should not have to scroll
+/// past the long one.
+class ArticleView extends StatelessWidget {
+  const ArticleView({
+    required this.article,
+    required this.depth,
+    required this.language,
+    required this.resolveSource,
+    super.key,
+  });
+
+  /// The article to render.
+  final Article article;
+
+  /// The reader's chosen depth.
+  final ContentDepth depth;
+
+  /// The language to render in.
+  final AppLanguage language;
+
+  /// Resolves a source identifier to a record, for rendering citations.
+  final Source? Function(String) resolveSource;
+
+  @override
+  Widget build(BuildContext context) {
+    final visible = article.at(depth);
+    if (visible.isEmpty) return const SizedBox.shrink();
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        for (final section in visible) ...<Widget>[
+          _SectionView(
+            section: section,
+            language: language,
+            resolveSource: resolveSource,
+          ),
+          const SizedBox(height: Spacing.xl),
+        ],
+      ],
+    );
+  }
+}
+
+class _SectionView extends StatelessWidget {
+  const _SectionView({
+    required this.section,
+    required this.language,
+    required this.resolveSource,
+  });
+
+  final ContentSection section;
+  final AppLanguage language;
+  final Source? Function(String) resolveSource;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final heading = section.heading;
+    final fellBackToEnglish =
+        section.body.resolvedLanguage(language) != language;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        if (heading != null) ...<Widget>[
+          Semantics(
+            header: true,
+            child: Text(
+              heading.resolve(language),
+              style: theme.textTheme.headlineSmall,
+            ),
+          ),
+          const SizedBox(height: Spacing.sm),
+        ],
+        ClaimBadge(claim: section.claimType, language: language),
+        if (fellBackToEnglish) ...<Widget>[
+          Padding(
+            padding: const EdgeInsets.only(bottom: Spacing.sm),
+            child: Text(
+              l10n.translationMissing,
+              style: theme.textTheme.labelSmall?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+          ),
+        ],
+        // The body is rendered in the language it is actually written in, so a
+        // fallback to English keeps English typography and direction rather
+        // than setting Latin text in a Persian frame.
+        Directionality(
+          textDirection:
+              section.body.resolvedLanguage(language) == AppLanguage.fa
+              ? TextDirection.rtl
+              : TextDirection.ltr,
+          child: Text(
+            section.body.resolve(language),
+            style: AppTypography.reading(
+              section.body.resolvedLanguage(language),
+            ).copyWith(color: theme.colorScheme.onSurface),
+          ),
+        ),
+        if (section.citations.isNotEmpty) ...<Widget>[
+          const SizedBox(height: Spacing.md),
+          CitationList(
+            citations: section.citations,
+            language: language,
+            resolveSource: resolveSource,
+          ),
+        ],
+      ],
+    );
+  }
+}
+
+/// The list of sources backing a passage.
+class CitationList extends StatelessWidget {
+  const CitationList({
+    required this.citations,
+    required this.language,
+    required this.resolveSource,
+    super.key,
+  });
+
+  /// The citations to render.
+  final List<Citation> citations;
+
+  /// The language to render in.
+  final AppLanguage language;
+
+  /// Resolves a source identifier to a record.
+  final Source? Function(String) resolveSource;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        for (final citation in citations)
+          Builder(
+            builder: (context) {
+              final source = resolveSource(citation.sourceId);
+              if (source == null) return const SizedBox.shrink();
+              final locator = citation.locator;
+              final title = source.title.resolve(language);
+              final authors = source.authors.join(', ');
+              final parts = <String>[
+                if (authors.isNotEmpty) authors,
+                title,
+                ?locator,
+              ];
+              return Padding(
+                padding: const EdgeInsets.only(bottom: Spacing.xxs),
+                child: Text(
+                  parts.join(' · '),
+                  style: AppTypography.citation(language)
+                      .copyWith(color: theme.colorScheme.onSurfaceVariant),
+                ),
+              );
+            },
+          ),
+      ],
+    );
+  }
+}
+
+/// A pulled-out quotation with its attribution.
+///
+/// The attribution badge is not optional decoration: it is the reason this
+/// product can show a famous misattributed line at all without becoming part of
+/// the problem.
+class QuoteCard extends StatelessWidget {
+  const QuoteCard({
+    required this.quote,
+    required this.language,
+    required this.speakerName,
+    this.onTapSpeaker,
+    super.key,
+  });
+
+  /// The quotation.
+  final Quote quote;
+
+  /// The language to render in.
+  final AppLanguage language;
+
+  /// The attributed speaker's display name.
+  final String speakerName;
+
+  /// Invoked when the reader taps the speaker's name.
+  final VoidCallback? onTapSpeaker;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final semantic = context.semanticColors;
+    final l10n = AppL10n.of(context);
+    final note = quote.attributionNote;
+    final actualSource = quote.actualSource;
+
+    return Container(
+      padding: const EdgeInsets.all(Spacing.lg),
+      decoration: BoxDecoration(
+        color: semantic.quoteSurface,
+        borderRadius: Radii.cardRadius,
+        border: Border(left: BorderSide(color: semantic.quoteAccent, width: 3)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(
+            quote.text.resolve(language),
+            style: AppTypography.quote(quote.text.resolvedLanguage(language))
+                .copyWith(color: semantic.onQuoteSurface),
+          ),
+          const SizedBox(height: Spacing.md),
+          Row(
+            children: <Widget>[
+              Expanded(
+                child: GestureDetector(
+                  onTap: onTapSpeaker,
+                  child: Text(
+                    '— $speakerName',
+                    style: theme.textTheme.labelMedium?.copyWith(
+                      color: semantic.onQuoteSurface,
+                    ),
+                  ),
+                ),
+              ),
+              AttributionBadge(status: quote.attribution, language: language),
+            ],
+          ),
+          if (quote.needsCaveat) ...<Widget>[
+            const SizedBox(height: Spacing.md),
+            Text(
+              l10n.attributionCaveat,
+              style: theme.textTheme.labelSmall?.copyWith(
+                color: semantic.onQuoteSurface,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ],
+          if (note != null) ...<Widget>[
+            const SizedBox(height: Spacing.sm),
+            Text(
+              note.resolve(language),
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: semantic.onQuoteSurface,
+              ),
+            ),
+          ],
+          if (actualSource != null) ...<Widget>[
+            const SizedBox(height: Spacing.sm),
+            Text(
+              '${l10n.actualSourceLabel}: ${actualSource.resolve(language)}',
+              style: theme.textTheme.labelSmall?.copyWith(
+                color: semantic.onQuoteSurface,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+/// Constrains its child to a comfortable reading measure and centres it.
+///
+/// Long-form text set across the full width of a tablet or desktop window is
+/// physically tiring to read, whatever else is right about the typography.
+class ReadingColumn extends StatelessWidget {
+  const ReadingColumn({required this.child, this.maxWidth, super.key});
+
+  /// The content to constrain.
+  final Widget child;
+
+  /// Override for the maximum width.
+  final double? maxWidth;
+
+  @override
+  Widget build(BuildContext context) => Center(
+    child: ConstrainedBox(
+      constraints: BoxConstraints(
+        maxWidth: maxWidth ?? Breakpoints.readingMeasure,
+      ),
+      child: child,
+    ),
+  );
+}
+
+/// Resolves a [LocalizedText] and shows a notice when a fallback occurred.
+extension LocalizedTextDisplay on LocalizedText {
+  /// The text in [language], falling back to English.
+  String show(AppLanguage language) => resolve(language);
+}

@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+# A newer push to the same branch makes the running job irrelevant.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FLUTTER_VERSION: "3.47.0"
+
+jobs:
+  verify:
+    name: Analyse, test and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      # Generated localisations are not committed, and `flutter analyze` does
+      # not generate them the way build and test do. Without this step analysis
+      # fails on missing imports rather than on anything real.
+      - name: Generate localisations
+        run: flutter gen-l10n
+
+      - name: Check that every string is translated
+        # gen-l10n writes untranslated messages to this file. A missing Persian
+        # string is a content defect in a product that is bilingual by
+        # construction, so it fails the build rather than warning.
+        run: |
+          if [ -s l10n_untranslated.json ] && [ "$(cat l10n_untranslated.json)" != "{}" ]; then
+            echo "::error::Untranslated strings found:"
+            cat l10n_untranslated.json
+            exit 1
+          fi
+          echo "All strings are translated."
+
+      - name: Verify formatting
+        run: dart format --output=none --set-exit-if-changed lib test
+
+      - name: Analyse
+        run: flutter analyze --fatal-infos --fatal-warnings
+
+      - name: Test
+        run: flutter test --reporter expanded
+
+      # Building proves the app compiles for a real target, which analysis and
+      # unit tests do not.
+      - name: Build web
+        run: flutter build web --release
+
+      - name: Upload build
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-build
+          path: build/web
+          retention-days: 7

@@ -1,0 +1,9 @@
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppL10n
+output-dir: lib/l10n/generated
+nullable-getter: false
+# A missing Persian string is a content defect, not a runtime detail: surface it
+# at build time instead of shipping an English string to a Persian reader.
+untranslated-messages-file: l10n_untranslated.json

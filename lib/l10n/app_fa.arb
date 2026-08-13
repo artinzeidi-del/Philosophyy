@@ -1,0 +1,68 @@
+{
+  "@@locale": "fa",
+
+  "appName": "Philosophia",
+  "appTagline": "فلسفهٔ جهان، در یک جا",
+
+  "navHome": "خانه",
+  "navExplore": "کاوش",
+  "navSearch": "جست‌وجو",
+  "navSettings": "تنظیمات",
+
+  "searchHint": "فیلسوف، اندیشه، اثر…",
+  "searchInvitationTitle": "دنبال چه می‌گردید؟",
+  "searchInvitationBody": "به فارسی یا انگلیسی جست‌وجو کنید. نام‌ها با هر املایی کار می‌کنند؛ «ابن‌سینا»، «Ibn Sīnā» و «Avicenna» هر سه به یک نفر می‌رسند.",
+
+  "searchNoResultsTitle": "چیزی برای «{query}» یافت نشد",
+  "searchNoResultsBody": "املا را بررسی کنید، یا واژه‌ای عام‌تر بیازمایید: یک سنت، یک شاخهٔ فلسفه، یا یک پرسش.",
+  "searchResultCount": "{count, plural, =0{بدون نتیجه} =1{۱ نتیجه} other{{count} نتیجه}}",
+  "searchMatchedInBody": "یافت‌شده در متن مقاله",
+
+  "homeDailyIdea": "اندیشهٔ امروز",
+  "homeStartHere": "از اینجا آغاز کنید",
+  "homeBrowseByTradition": "سنت‌ها",
+  "homeBrowseByBranch": "شاخه‌های فلسفه",
+  "homeSurpriseMe": "غافلگیرم کن",
+
+  "sectionOverview": "درآمد",
+  "sectionWorks": "آثار",
+  "sectionConcepts": "اندیشه‌های کلیدی",
+  "sectionQuotes": "نقل‌قول‌ها",
+  "sectionConnections": "پیوندها",
+  "sectionSources": "منابع",
+  "sectionExamples": "نمونه‌ها",
+  "sectionCounterexamples": "این نه",
+  "sectionCentralClaims": "مدعاهای اصلی",
+
+  "depthSelectorLabel": "ژرفا",
+  "readDeeper": "عمیق‌تر بخوانید",
+  "noDeeperContent": "این ژرف‌ترین روایتی است که تاکنون نوشته شده است.",
+  "translationMissing": "هنوز به فارسی ترجمه نشده است؛ متن انگلیسی نمایش داده می‌شود.",
+
+  "born": "زاده",
+  "died": "درگذشته",
+  "yearBce": "{year} پیش از میلاد",
+  "yearCe": "{year} میلادی",
+  "yearApproximate": "حدود {year}",
+
+  "attributionCaveat": "پیش از نقل‌کردن، یادداشت را بخوانید.",
+  "actualSourceLabel": "در واقع از",
+
+  "settingsLanguage": "زبان",
+  "settingsTheme": "ظاهر",
+  "settingsThemeLight": "روشن",
+  "settingsThemeDark": "تاریک",
+  "settingsThemeSystem": "هماهنگ با سیستم",
+  "settingsReadingLevel": "سطح مطالعه",
+  "settingsReadingLevelHelp": "تعیین می‌کند مدخل‌ها با چه میزان جزئیات باز شوند. ژرفا را در هر مدخل می‌توانید تغییر دهید.",
+  "settingsAbout": "درباره",
+
+  "errorTitle": "خطایی رخ داد",
+  "errorBody": "محتوا بارگذاری نشد. این ایرادی در برنامه است، نه در اتصال شما؛ همهٔ محتوا روی دستگاه شما ذخیره شده است.",
+  "retry": "دوباره تلاش کنید",
+  "loading": "در حال بارگذاری",
+
+  "notFoundTitle": "این مدخل وجود ندارد",
+  "notFoundBody": "شاید پیوند قدیمی شده باشد. به‌جای آن جست‌وجو کنید.",
+  "backToHome": "بازگشت به خانه"
+}

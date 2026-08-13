@@ -1,0 +1,158 @@
+{
+  "schools": [
+    {
+      "id": "platonism",
+      "name": { "en": "Platonism", "fa": "افلاطون‌گرایی" },
+      "oneLine": {
+        "en": "The tradition holding that the objects of knowledge are abstract, unchanging and more real than what we perceive.",
+        "fa": "سنتی که متعلقات معرفت را انتزاعی، تغییرناپذیر و واقعی‌تر از آنچه درک می‌کنیم می‌داند."
+      },
+      "period": { "start": { "year": -387, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": ["metaphysics", "epistemology"],
+      "centralClaims": [
+        {
+          "en": "What many things have in common is itself a thing, and not a mental construction.",
+          "fa": "آنچه چیزهای بسیار در آن مشترک‌اند، خود یک چیز است، نه ساخته‌ای ذهنی."
+        },
+        {
+          "en": "Genuine knowledge is of what does not change; of what changes there is only opinion.",
+          "fa": "معرفت راستین به آن چیزی تعلق می‌گیرد که دگرگون نمی‌شود؛ از آنچه دگرگون می‌شود تنها گمان هست."
+        }
+      ],
+      "founders": ["plato"],
+      "members": ["socrates", "plato"],
+      "concepts": ["theory-of-forms"],
+      "opposes": ["aristotelianism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "aristotelianism",
+      "name": { "en": "Aristotelianism", "fa": "ارسطوگرایی" },
+      "oneLine": {
+        "en": "The tradition that explains things by what they are made of, what they are, and what they are for.",
+        "fa": "سنتی که اشیا را با مادّه، صورت و غایتشان تبیین می‌کند."
+      },
+      "period": { "start": { "year": -335, "precision": "circa" } },
+      "traditions": ["ancient-greek", "medieval", "islamic"],
+      "branches": ["metaphysics", "ethics", "logic", "philosophy-of-science"],
+      "centralClaims": [
+        {
+          "en": "Form is in the thing, not separate from it.",
+          "fa": "صورت در خودِ شیء است، نه جدا از آن."
+        },
+        {
+          "en": "To explain something fully is to give its material, formal, efficient and final causes.",
+          "fa": "تبیین کامل یک چیز یعنی بیان علل مادی، صوری، فاعلی و غایی آن."
+        }
+      ],
+      "founders": ["aristotle"],
+      "members": ["aristotle", "ibn-sina"],
+      "concepts": ["eudaimonia", "golden-mean"],
+      "opposes": ["platonism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "stoicism",
+      "name": { "en": "Stoicism", "fa": "رواقی‌گری" },
+      "nativeName": "Στοά",
+      "transliteration": "Stoa",
+      "oneLine": {
+        "en": "That virtue is the only good, and that everything else is outside our power and beside the point.",
+        "fa": "اینکه فضیلت تنها خیر است، و هرچه جز آن بیرون از توان ماست و به کار نمی‌آید."
+      },
+      "period": {
+        "start": { "year": -300, "precision": "circa" },
+        "end": { "year": 200, "precision": "circa" }
+      },
+      "traditions": ["hellenistic", "roman"],
+      "branches": ["ethics", "logic", "metaphysics"],
+      "centralClaims": [
+        {
+          "en": "Virtue is sufficient for a good life.",
+          "fa": "فضیلت برای زندگی خوب بسنده است."
+        },
+        {
+          "en": "We are disturbed not by events but by our judgements about them.",
+          "fa": "نه رویدادها که داوری‌های ما دربارهٔ آن‌ها ما را می‌آشوبند."
+        }
+      ],
+      "members": ["epictetus"],
+      "concepts": ["dichotomy-of-control"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "madhyamaka",
+      "name": { "en": "Madhyamaka", "fa": "مادیامَکه (راه میانه)" },
+      "nativeName": "मध्यमक",
+      "transliteration": "Madhyamaka",
+      "oneLine": {
+        "en": "The Middle Way school: everything is empty of independent existence, including emptiness.",
+        "fa": "مکتب راه میانه: هر چیز از وجود مستقل تهی است، از جمله خودِ تهی‌بودگی."
+      },
+      "period": { "start": { "year": 200, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "logic", "philosophy-of-religion"],
+      "centralClaims": [
+        {
+          "en": "Nothing possesses svabhāva — existence in and of itself.",
+          "fa": "هیچ‌چیز «سوَبهاوَه» ندارد؛ یعنی وجودِ در خود و به خود."
+        }
+      ],
+      "founders": ["nagarjuna"],
+      "members": ["nagarjuna"],
+      "concepts": ["sunyata"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "confucianism",
+      "name": { "en": "Confucianism", "fa": "کنفوسیوس‌گرایی" },
+      "nativeName": "儒家",
+      "transliteration": "Rújiā",
+      "oneLine": {
+        "en": "That a good society is built by cultivating people, through ritual, study and example.",
+        "fa": "اینکه جامعهٔ خوب با پرورش انسان‌ها ساخته می‌شود؛ از راه آیین، آموختن و سرمشق."
+      },
+      "period": { "start": { "year": -500, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "philosophy-of-education"],
+      "centralClaims": [
+        {
+          "en": "Character is formed by practice, not by grasping a principle.",
+          "fa": "منش با تمرین شکل می‌گیرد، نه با دریافتن یک اصل."
+        }
+      ],
+      "founders": ["confucius"],
+      "members": ["confucius"],
+      "concepts": ["ren"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "transcendent-wisdom",
+      "name": { "en": "Transcendent Wisdom", "fa": "حکمت متعالیه" },
+      "nativeName": "الحکمة المتعالیة",
+      "transliteration": "al-Ḥikma al-mutaʿāliya",
+      "oneLine": {
+        "en": "Mullā Ṣadrā's synthesis of demonstration, illumination and mystical insight into one system.",
+        "fa": "ترکیب برهان، اشراق و شهود عرفانی در یک نظام، به‌دست ملاصدرا."
+      },
+      "period": { "start": { "year": 1600, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": ["metaphysics", "philosophy-of-religion"],
+      "centralClaims": [
+        {
+          "en": "Existence, not essence, is what is fundamentally real.",
+          "fa": "وجود است که اصالت دارد، نه ماهیت."
+        },
+        {
+          "en": "Substance itself is in continuous motion.",
+          "fa": "خودِ جوهر در حرکت پیوسته است."
+        }
+      ],
+      "founders": ["mulla-sadra"],
+      "members": ["mulla-sadra"],
+      "concepts": ["substantial-motion", "essence-existence-distinction"],
+      "citations": [{ "source": "sep" }]
+    }
+  ]
+}

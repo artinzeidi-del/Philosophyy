@@ -1,0 +1,67 @@
+name: philosophyy
+description: >-
+  Philosophia — a bilingual (فارسی/English) reference, library and learning
+  platform for world philosophy.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.4.2
+  go_router: ^17.5.0
+  intl: ^0.20.3
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/content/
+    - assets/fonts/vazirmatn/OFL.txt
+    - assets/fonts/spectral/OFL.txt
+
+  fonts:
+    # Persian. Flutter's default font carries no Arabic-script coverage, so the
+    # Persian half of a bilingual product is unreadable without a bundled face.
+    # Vazirmatn is the de-facto open Persian UI family. SIL OFL 1.1.
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/vazirmatn/Vazirmatn-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Bold.ttf
+          weight: 700
+
+    # English reading serif. Spectral is drawn for sustained on-screen reading,
+    # which is what this product asks of it. SIL OFL 1.1.
+    - family: Spectral
+      fonts:
+        - asset: assets/fonts/spectral/Spectral-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/spectral/Spectral-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/spectral/Spectral-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/spectral/Spectral-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/spectral/Spectral-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/spectral/Spectral-Bold.ttf
+          weight: 700

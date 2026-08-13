@@ -1,0 +1,546 @@
+{
+  "_comment": "Concept records. Examples and counterexamples are first-class fields because they are how a concept is actually learned; a definition alone teaches almost nobody.",
+  "concepts": [
+    {
+      "id": "socratic-method",
+      "name": { "en": "The Socratic Method", "fa": "روش سقراطی" },
+      "nativeTerm": "ἔλεγχος",
+      "transliteration": "elenchos",
+      "alsoKnownAs": ["elenchus", "Socratic questioning", "الِنخوس"],
+      "oneLine": {
+        "en": "Testing a claim by drawing out what its holder is already committed to.",
+        "fa": "آزمودن یک ادعا با بیرون‌کشیدن آنچه صاحبش پیشاپیش بدان ملتزم است."
+      },
+      "definition": {
+        "en": "A method of inquiry in which a claim is examined by asking its holder further questions until their own answers are shown to conflict — establishing not that the claim is false, but that the person did not know what they thought they knew.",
+        "fa": "روشی در کاوش که در آن یک ادعا با پرسیدن پرسش‌های بیشتر از صاحب آن آزموده می‌شود تا آنگاه که پاسخ‌های خودش با هم ناسازگار درآیند؛ و این نه نادرستیِ ادعا را ثابت می‌کند، بلکه نشان می‌دهد آن شخص آنچه می‌پنداشت می‌داند، نمی‌دانسته است."
+      },
+      "traditions": ["ancient-greek"],
+      "branches": ["epistemology", "philosophy-of-education", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "how",
+            "depth": "standard",
+            "body": {
+              "en": "The pattern is consistent across the early dialogues. Someone claims to know what courage, or piety, or justice is. Socrates asks for a definition, accepts it provisionally, then produces a case the definition gets wrong. The person revises; the new definition fails differently. The dialogue usually ends without an answer. That ending is not a failure of the method — the method's product is the discovery that you were confident without grounds.",
+              "fa": "الگو در سراسر گفت‌وگوهای نخستین یکسان است. کسی مدعی می‌شود که می‌داند شجاعت، یا پارسایی، یا عدالت چیست. سقراط تعریفی می‌خواهد، آن را موقتاً می‌پذیرد، سپس موردی می‌آورد که تعریف دربارهٔ آن خطا می‌کند. آن شخص تعریف را بازبینی می‌کند؛ تعریف تازه به‌گونه‌ای دیگر شکست می‌خورد. گفت‌وگو معمولاً بی‌پاسخ پایان می‌یابد. این پایان شکستِ روش نیست؛ فرآوردهٔ روش همین کشف است که بی‌دلیل مطمئن بوده‌ای."
+            },
+            "citations": [{ "source": "plato-meno", "locator": "79e–80b" }]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "A general who has fought for thirty years is asked what courage is, answers \"standing your ground\", and is asked about a retreat that was the brave decision.",
+          "fa": "از سرداری که سی سال جنگیده می‌پرسند شجاعت چیست؛ پاسخ می‌دهد «پای‌فشردن در جای خود»، و آنگاه از او دربارهٔ عقب‌نشینی‌ای می‌پرسند که تصمیمِ شجاعانه بوده است."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "Cross-examination aimed at making an opponent look foolish. The method requires that the questioner does not already have the answer; without that it is only debate technique.",
+          "fa": "بازپرسی‌ای که هدفش احمق‌جلوه‌دادن حریف است. این روش اقتضا می‌کند که پرسنده خود پاسخ را از پیش نداشته باشد؛ بی‌این شرط، صرفاً فنّ مناظره است."
+        }
+      ],
+      "philosophers": ["socrates", "plato"],
+      "works": ["apology"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "theory-of-forms",
+      "name": { "en": "The Forms", "fa": "نظریهٔ صور (مُثُل)" },
+      "nativeTerm": "εἶδος",
+      "transliteration": "eidos",
+      "alsoKnownAs": ["Ideas", "Platonic Forms", "مُثُل افلاطونی", "ایده‌ها"],
+      "oneLine": {
+        "en": "The claim that what makes many things beautiful is one thing that is beauty itself.",
+        "fa": "این ادعا که آنچه چیزهای بسیار را زیبا می‌کند، یک چیز است: خودِ زیبایی."
+      },
+      "definition": {
+        "en": "Plato's doctrine that the properties things share are grounded in independently existing, unchanging entities — the Forms — of which perceptible things are imperfect instances.",
+        "fa": "آموزهٔ افلاطون مبنی بر اینکه ویژگی‌های مشترک میان اشیا بر موجوداتی مستقل و تغییرناپذیر — «صور» — استوارند، و اشیای محسوس نمونه‌های ناقص آن‌ها هستند."
+      },
+      "traditions": ["ancient-greek"],
+      "branches": ["metaphysics", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "problem",
+            "heading": {
+              "en": "The problem it is answering",
+              "fa": "مسئله‌ای که پاسخ می‌دهد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "A face, a proof and a piece of music can all be beautiful. What do they share? Not a colour or a shape. Plato's answer is that they share a relation to one thing — Beauty — which is not itself beautiful in the way they are, does not change, and is not located anywhere. The theory is doing real work: it explains how a single word can apply truly to unlike things, and how knowledge can be stable when its objects are not.",
+              "fa": "یک چهره، یک برهان و یک قطعهٔ موسیقی هر سه می‌توانند زیبا باشند. چه چیزی مشترک دارند؟ نه رنگی، نه شکلی. پاسخ افلاطون این است که همه با یک چیز نسبت دارند: «زیبایی»؛ که خود به شیوهٔ آن‌ها زیبا نیست، دگرگون نمی‌شود، و در جایی قرار ندارد. این نظریه کار واقعی انجام می‌دهد: توضیح می‌دهد چگونه یک واژه می‌تواند بر چیزهای ناهمگون به‌راستی اطلاق شود، و چگونه معرفت می‌تواند پایدار باشد وقتی متعلق‌هایش نیستند."
+            },
+            "citations": [{ "source": "plato-republic", "locator": "507b" }]
+          },
+          {
+            "id": "third-man",
+            "heading": {
+              "en": "Plato's own objection",
+              "fa": "اعتراض خودِ افلاطون"
+            },
+            "depth": "deep",
+            "claim": "interpretation",
+            "body": {
+              "en": "In the Parmenides Plato raises the objection now called the Third Man: if all large things share a Form of Largeness, then Largeness and the large things form a new group sharing largeness, requiring a further Form, and so on without end. Notably it is Plato who raises it. Whether he thought it fatal, thought it answerable, or was showing students how to attack their own commitments is disputed.",
+              "fa": "افلاطون در «پارمنیدس» اعتراضی را طرح می‌کند که امروز «مرد سوم» خوانده می‌شود: اگر همهٔ چیزهای بزرگ در صورتِ بزرگی شریک‌اند، پس خودِ بزرگی و آن چیزها گروه تازه‌ای می‌سازند که در بزرگی شریک‌اند و صورتی دیگر می‌طلبند، و همین‌طور بی‌پایان. نکته آن است که طرح‌کنندهٔ این اعتراض خودِ افلاطون است. اینکه آن را کشنده می‌دانست، پاسخ‌پذیر می‌دانست، یا به شاگردان نشان می‌داد چگونه به التزام‌های خود حمله کنند، محل اختلاف است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "Two sticks are equal, but never perfectly. We can only judge them as falling short of equality if we already have equality itself in view.",
+          "fa": "دو چوب برابرند، اما هرگز به‌کمال. تنها آنگاه می‌توانیم داوری کنیم که از برابری کوتاه می‌آیند که خودِ برابری را پیشاپیش در نظر داشته باشیم."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "Treating the Forms as thoughts inside a mind. Plato's Forms are not mental; if they existed only in minds they could not be what minds are getting right or wrong about.",
+          "fa": "برداشتِ «صور» همچون اندیشه‌هایی درون یک ذهن. صور افلاطونی ذهنی نیستند؛ اگر تنها در ذهن‌ها بودند، نمی‌توانستند آن چیزی باشند که ذهن‌ها دربارهٔ آن درست یا نادرست می‌اندیشند."
+        }
+      ],
+      "related": ["essence-existence-distinction"],
+      "philosophers": ["plato"],
+      "works": ["republic"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "eudaimonia",
+      "name": { "en": "Eudaimonia", "fa": "سعادت (اِئودایمونیا)" },
+      "nativeTerm": "εὐδαιμονία",
+      "transliteration": "eudaimonia",
+      "alsoKnownAs": ["flourishing", "happiness", "شکوفایی", "بهروزی"],
+      "oneLine": {
+        "en": "Not feeling good, but a whole life going well.",
+        "fa": "نه احساس خوب، بلکه یک زندگیِ تمام که خوب پیش می‌رود."
+      },
+      "definition": {
+        "en": "The highest human good in Greek ethics: a complete life lived well, understood as activity rather than as a state of feeling, and assessable only across a life rather than at a moment.",
+        "fa": "برترین خیر انسانی در اخلاق یونانی: یک زندگیِ کامل که خوب زیسته شده؛ فهمیده‌شده همچون فعالیت، نه همچون حالتی از احساس، و سنجش‌پذیر تنها در گسترهٔ یک زندگی، نه در یک لحظه."
+      },
+      "traditions": ["ancient-greek", "hellenistic"],
+      "branches": ["ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "translation",
+            "heading": {
+              "en": "Why \"happiness\" is a bad translation",
+              "fa": "چرا «خوشبختی» ترجمهٔ بدی است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Happiness in modern English names a feeling, and feelings can be produced by circumstances, drugs or delusion. Eudaimonia cannot. Aristotle says explicitly that it is an activity of the soul in accordance with virtue, and that a person cannot be called eudaimon on the strength of an afternoon — one swallow does not make a spring. Someone deceived into thinking their life is going well is happy but not eudaimon, and that gap is the whole point of the word.",
+              "fa": "«خوشبختی» در زبان امروز نام یک احساس است، و احساس را می‌توان با شرایط، دارو یا توهم پدید آورد. «ائودایمونیا» چنین نیست. ارسطو صریحاً می‌گوید که آن فعالیت نفْس بر وفق فضیلت است، و کسی را نمی‌توان به اعتبار یک بعدازظهر سعادتمند خواند؛ یک پرستو بهار نمی‌آورد. کسی که فریب خورده و می‌پندارد زندگی‌اش خوب پیش می‌رود، خوشحال است اما سعادتمند نیست، و همین شکاف تمامِ مقصود این واژه است."
+            },
+            "citations": [
+              {
+                "source": "aristotle-nicomachean-ethics",
+                "locator": "1098a, 1098a18"
+              }
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "A researcher whose work is difficult and often frustrating, who is exercising her capacities fully on something worth doing, over decades.",
+          "fa": "پژوهشگری که کارش دشوار و اغلب دلسردکننده است، اما ده‌ها سال توانایی‌هایش را به‌تمامی بر کاری که ارزش انجام دارد به‌کار می‌گیرد."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "A person kept permanently content by a machine feeding them pleasant experiences. Every feeling is present; the activity is not.",
+          "fa": "کسی که ماشینی او را با تجربه‌های خوشایند دائماً خرسند نگاه می‌دارد. همهٔ احساس‌ها حاضرند؛ فعالیت نیست."
+        }
+      ],
+      "related": ["golden-mean"],
+      "philosophers": ["aristotle"],
+      "works": ["nicomachean-ethics"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "golden-mean",
+      "name": { "en": "The Mean", "fa": "حد وسط" },
+      "nativeTerm": "μεσότης",
+      "transliteration": "mesotēs",
+      "alsoKnownAs": ["the golden mean", "doctrine of the mean", "اعتدال"],
+      "oneLine": {
+        "en": "Virtue sits between two failures — but not at the midpoint.",
+        "fa": "فضیلت میان دو خطا می‌ایستد؛ اما نه در نقطهٔ میانی."
+      },
+      "definition": {
+        "en": "Aristotle's account of virtue as a disposition to feel and act in the right amount, which lies between an excess and a deficiency and is fixed relative to the person and situation rather than by a formula.",
+        "fa": "تبیین ارسطو از فضیلت همچون منشی برای احساس‌کردن و کنش به اندازهٔ درست؛ اندازه‌ای که میان افراط و تفریط قرار دارد و نسبت به شخص و موقعیت تعیین می‌شود، نه با یک فرمول."
+      },
+      "traditions": ["ancient-greek"],
+      "branches": ["ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "not-moderation",
+            "heading": {
+              "en": "It is not a recommendation of moderation",
+              "fa": "این توصیه به میانه‌روی نیست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The mean is often reduced to \"everything in moderation\", which Aristotle does not say. The right amount of anger at cruelty is a great deal of it; the right amount of fear facing a real danger may be considerable. The mean is relative to the person and the case, and Aristotle notes that some actions — he names spite, theft and murder — admit of no mean at all, since there is no right amount of them.",
+              "fa": "«حد وسط» را غالباً به «هر چیز به اندازه» فرو می‌کاهند، که ارسطو چنین نمی‌گوید. اندازهٔ درستِ خشم در برابر ستم، بسیار است؛ اندازهٔ درستِ ترس در مواجهه با خطری واقعی می‌تواند چشمگیر باشد. حد وسط نسبت به شخص و مورد است، و ارسطو یادآور می‌شود که برخی کنش‌ها — بدخواهی، دزدی و قتل را نام می‌برد — اصلاً حد وسط ندارند، چون اندازهٔ درستی از آن‌ها وجود ندارد."
+            },
+            "citations": [
+              {
+                "source": "aristotle-nicomachean-ethics",
+                "locator": "1106b, 1107a"
+              }
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "Courage between cowardice and recklessness — but a bomb-disposal officer's courageous action would be recklessness in an untrained bystander.",
+          "fa": "شجاعت میان بزدلی و بی‌باکی؛ اما کنشِ شجاعانهٔ یک خنثی‌کنندهٔ بمب، در رهگذری آموزش‌ندیده بی‌باکی است."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "\"The truth lies halfway between the two sides.\" Aristotle's mean is about dispositions to feel and act, not a rule for adjudicating disagreements.",
+          "fa": "«حقیقت در میانهٔ دو طرف است.» حد وسط ارسطو دربارهٔ منش‌های احساس و کنش است، نه قاعده‌ای برای داوری میان اختلاف‌ها."
+        }
+      ],
+      "related": ["eudaimonia"],
+      "philosophers": ["aristotle"],
+      "works": ["nicomachean-ethics"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dichotomy-of-control",
+      "name": {
+        "en": "The Dichotomy of Control",
+        "fa": "تقسیم امور به در اختیار و خارج از اختیار"
+      },
+      "oneLine": {
+        "en": "Some things are up to you; almost nothing else is.",
+        "fa": "برخی چیزها در اختیار توست؛ و تقریباً هیچ‌چیز دیگر نیست."
+      },
+      "definition": {
+        "en": "The Stoic division of everything into what is within our power — judgement, intention, assent — and what is not, together with the claim that only the first should be treated as genuinely ours.",
+        "fa": "تقسیم رواقیِ همه‌چیز به آنچه در توان ماست — داوری، قصد، تصدیق — و آنچه نیست؛ همراه با این ادعا که تنها دستهٔ نخست را باید به‌راستی از آنِ خود شمرد."
+      },
+      "traditions": ["hellenistic", "roman"],
+      "branches": ["ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "severity",
+            "depth": "standard",
+            "claim": "interpretation",
+            "body": {
+              "en": "Epictetus places the body, property, reputation and office on the far side of the line — not ours. Modern presentations tend to soften this into advice about focusing on what you can influence. The original claim is stronger and harder to live with: that grief at losing what was never yours rests on a mistake about ownership. Whether that is wisdom or a defence against loss is a question the tradition has always attracted.",
+              "fa": "اپیکتتوس بدن، دارایی، آبرو و مقام را آن‌سوی خط می‌نهد: از آنِ ما نیست. عرضه‌های امروزی این را به توصیه‌ای دربارهٔ تمرکز بر آنچه می‌توان بر آن اثر گذاشت نرم می‌کنند. ادعای اصلی نیرومندتر و زیستنش دشوارتر است: اینکه اندوه از دست‌دادنِ آنچه هرگز از آنِ تو نبوده بر خطایی دربارهٔ مالکیت استوار است. اینکه این حکمت است یا سپری در برابر فقدان، پرسشی است که این سنت همواره برانگیخته است."
+            },
+            "citations": [
+              { "source": "epictetus-enchiridion", "locator": "ch. 1" }
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "You prepare thoroughly for an interview. The preparation is yours; the hiring decision never was.",
+          "fa": "برای یک مصاحبه به‌تمامی آماده می‌شوی. آمادگی از آنِ توست؛ تصمیمِ استخدام هرگز نبوده است."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "Using the dichotomy to justify indifference to injustice. Epictetus holds that acting rightly is entirely up to us, which includes acting against wrong.",
+          "fa": "استفاده از این تقسیم برای توجیه بی‌اعتنایی به بی‌عدالتی. اپیکتتوس بر آن است که درست‌عمل‌کردن تماماً در اختیار ماست، و این شامل ایستادن در برابر ستم نیز می‌شود."
+        }
+      ],
+      "philosophers": ["epictetus"],
+      "works": ["enchiridion"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "essence-existence-distinction",
+      "name": {
+        "en": "Essence and Existence",
+        "fa": "تمایز ماهیت و وجود"
+      },
+      "nativeTerm": "الماهية و الوجود",
+      "transliteration": "al-māhiyya wa-l-wujūd",
+      "oneLine": {
+        "en": "Knowing what something is never tells you that it is.",
+        "fa": "دانستنِ اینکه چیزی چیست، هرگز نمی‌گوید که هست."
+      },
+      "definition": {
+        "en": "The claim, central to Avicenna, that in every being other than the necessary being, what a thing is (its essence) is distinct from the fact that it is (its existence) — so existence must be received from something else.",
+        "fa": "این ادعای محوری نزد ابن‌سینا که در هر موجودی جز واجب‌الوجود، چیستیِ شیء (ماهیت) از هستیِ آن (وجود) متمایز است؛ و بنابراین وجود باید از دیگری دریافت شود."
+      },
+      "traditions": ["islamic", "persian", "medieval"],
+      "branches": ["metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "why-it-matters",
+            "depth": "standard",
+            "body": {
+              "en": "The distinction gives Islamic and later Latin metaphysics its central vocabulary. It underwrites Avicenna's proof of a necessary being, Aquinas' account of creation, and — by being denied in a particular way — Mullā Ṣadrā's thesis that existence is more fundamental than essence rather than merely distinct from it.",
+              "fa": "این تمایز، واژگان محوریِ مابعدالطبیعهٔ اسلامی و سپس لاتینی را فراهم می‌کند. برهان ابن‌سینا بر واجب‌الوجود، تبیین آکویناس از آفرینش، و — با انکارِ آن به شیوه‌ای خاص — مدعای ملاصدرا مبنی بر اصالت وجود بر ماهیت، همه بر آن استوارند."
+            },
+            "citations": [{ "source": "avicenna-isharat" }, { "source": "sep" }]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "You can define a unicorn precisely and completely. Nothing in the definition settles whether one exists.",
+          "fa": "می‌توان تک‌شاخ را دقیق و کامل تعریف کرد. هیچ‌چیز در آن تعریف روشن نمی‌کند که آیا تک‌شاخی هست."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "Treating existence as one more property in the definition, alongside \"has one horn\". Both Avicenna and Kant reject that move, for different reasons.",
+          "fa": "رفتار با وجود همچون ویژگی‌ای دیگر در تعریف، در کنار «یک شاخ دارد». هم ابن‌سینا و هم کانت این حرکت را رد می‌کنند، هر یک به دلیلی دیگر."
+        }
+      ],
+      "related": ["substantial-motion", "theory-of-forms"],
+      "philosophers": ["ibn-sina", "mulla-sadra"],
+      "works": ["isharat"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "substantial-motion",
+      "name": { "en": "Substantial Motion", "fa": "حرکت جوهری" },
+      "nativeTerm": "الحرکة الجوهریة",
+      "transliteration": "al-ḥaraka al-jawhariyya",
+      "oneLine": {
+        "en": "Things do not merely change; they are change.",
+        "fa": "اشیا صرفاً دگرگون نمی‌شوند؛ خودْ دگرگونی‌اند."
+      },
+      "definition": {
+        "en": "Mullā Ṣadrā's thesis that change occurs in the substance of a thing and not only in its accidents, so that a persisting object is a continuous renewal rather than a stable subject underlying its properties.",
+        "fa": "مدعای ملاصدرا مبنی بر اینکه دگرگونی در جوهرِ شیء رخ می‌دهد و نه تنها در اعراض آن؛ چنان‌که شیءِ پایدار، تجدیدی پیوسته است نه موضوعی ثابت در زیر ویژگی‌هایش."
+      },
+      "traditions": ["islamic", "persian"],
+      "branches": ["metaphysics"],
+      "examples": [
+        {
+          "en": "A flame is called one flame throughout the night, though nothing in it at dawn was there at dusk.",
+          "fa": "شعله را در سراسر شب یک شعله می‌خوانند، هرچند هیچ‌چیز از آنچه سپیده‌دم در اوست، شامگاه نبوده است."
+        }
+      ],
+      "related": ["essence-existence-distinction"],
+      "philosophers": ["mulla-sadra"],
+      "works": ["asfar"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "cogito",
+      "name": { "en": "The Cogito", "fa": "کوگیتو" },
+      "nativeTerm": "cogito, ergo sum",
+      "oneLine": {
+        "en": "The one thing doubt cannot reach is the doubting.",
+        "fa": "تنها چیزی که شک بدان نمی‌رسد، خودِ شک‌کردن است."
+      },
+      "definition": {
+        "en": "Descartes' claim that while thinking, one cannot coherently doubt that one exists — since doubting is itself a form of thinking, and thinking requires a thinker for as long as it occurs.",
+        "fa": "ادعای دکارت که آدمی هنگام اندیشیدن نمی‌تواند به‌نحو منسجم در هستیِ خود شک کند؛ زیرا خودِ شک‌کردن گونه‌ای اندیشیدن است، و اندیشیدن تا هنگامی که رخ می‌دهد اندیشنده‌ای می‌طلبد."
+      },
+      "traditions": ["european"],
+      "branches": ["epistemology", "philosophy-of-mind", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "not-an-inference",
+            "depth": "deep",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "Despite the \"therefore\", many readers hold that the cogito is not an inference at all but a single self-verifying insight — that treating it as a syllogism would require a suppressed premise (\"whatever thinks exists\") that Descartes had not yet earned. Descartes' own remarks point both ways, and the question of what kind of act the cogito is remains open.",
+              "fa": "با وجود آن «پس»، بسیاری از خوانندگان بر آن‌اند که کوگیتو اصلاً استنتاج نیست بلکه بصیرتی واحد و خودتأییدگر است؛ و اینکه گرفتنش همچون قیاس، مقدمه‌ای پنهان («هرچه می‌اندیشد هست») می‌طلبد که دکارت هنوز حق آن را به‌دست نیاورده بود. اظهارات خودِ دکارت به هر دو سو اشاره دارند، و این پرسش که کوگیتو چه‌گونه فعلی است همچنان گشوده است."
+            },
+            "citations": [
+              { "source": "descartes-meditations", "locator": "Meditation II" },
+              { "source": "sep" }
+            ]
+          }
+        ]
+      },
+      "counterexamples": [
+        {
+          "en": "\"I walk, therefore I am.\" This fails: you can be deceived that you are walking, but not that you are thinking, since being deceived is thinking.",
+          "fa": "«راه می‌روم، پس هستم.» این شکست می‌خورد: می‌توان تو را فریفت که راه می‌روی، اما نه که می‌اندیشی؛ چون فریفته‌شدن خود اندیشیدن است."
+        }
+      ],
+      "related": ["essence-existence-distinction"],
+      "philosophers": ["descartes", "ibn-sina"],
+      "works": ["meditations"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "categorical-imperative",
+      "name": { "en": "The Categorical Imperative", "fa": "امر مطلق" },
+      "nativeTerm": "kategorischer Imperativ",
+      "oneLine": {
+        "en": "Act only on a rule you could will everyone to follow.",
+        "fa": "تنها بر پایهٔ قاعده‌ای عمل کن که بتوانی بخواهی همه از آن پیروی کنند."
+      },
+      "definition": {
+        "en": "Kant's supreme principle of morality: a command binding unconditionally rather than as a means to some desired end, whose best-known formulation requires acting only on maxims one could will to become universal law.",
+        "fa": "اصل برین اخلاق نزد کانت: فرمانی که نه همچون وسیله‌ای برای غایتی مطلوب، بلکه بی‌قیدوشرط الزام‌آور است؛ و مشهورترین صورت‌بندی‌اش حکم می‌کند تنها بر پایهٔ قواعدی عمل کنیم که بتوانیم بخواهیم قانون کلی شوند."
+      },
+      "traditions": ["european"],
+      "branches": ["ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "second-formulation",
+            "depth": "standard",
+            "body": {
+              "en": "Kant gives several formulations and holds they come to the same thing. The second is often the more immediately gripping: act so as to treat humanity, in yourself and in others, always as an end and never merely as a means. It does not forbid using people — every transaction does that — but forbids treating someone as nothing but an instrument.",
+              "fa": "کانت چند صورت‌بندی می‌دهد و بر آن است که همه به یک چیز بازمی‌گردند. صورت دوم اغلب گیراتر است: چنان عمل کن که انسانیت را، در خود و در دیگران، همواره غایت بدانی و هرگز صرفاً وسیله. این استفاده از مردم را ممنوع نمی‌کند — هر داد و ستدی چنین می‌کند — بلکه رفتار با کسی را همچون چیزی جز ابزار ممنوع می‌کند."
+            },
+            "citations": [{ "source": "kant-groundwork", "locator": "4:429" }]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "Making a promise you intend to break: universalised, promising itself would stop functioning, so the maxim cannot be willed as a law.",
+          "fa": "وعده‌دادن با قصد شکستن آن: اگر کلی شود، خودِ نهاد وعده از کار می‌افتد؛ پس آن قاعده را نمی‌توان همچون قانون خواست."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "\"Do as you would be done by.\" Kant explicitly rejects the Golden Rule as the principle, since it makes duty depend on what one happens to want.",
+          "fa": "«با دیگران چنان کن که می‌خواهی با تو کنند.» کانت صریحاً «قاعدهٔ زرین» را همچون اصل رد می‌کند، چون تکلیف را وابسته به آنچه شخص اتفاقاً می‌خواهد می‌سازد."
+        }
+      ],
+      "philosophers": ["kant"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "sunyata",
+      "name": { "en": "Emptiness", "fa": "تهی‌بودگی (شونیه‌تا)" },
+      "nativeTerm": "शून्यता",
+      "transliteration": "śūnyatā",
+      "alsoKnownAs": ["sunyata", "shunyata", "emptiness", "خلأ"],
+      "oneLine": {
+        "en": "Nothing stands on its own; everything is what it is by depending on other things.",
+        "fa": "هیچ‌چیز بر پای خود نمی‌ایستد؛ هر چیز به‌واسطهٔ وابستگی به دیگری همان است که هست."
+      },
+      "definition": {
+        "en": "In Madhyamaka Buddhism, the absence of svabhāva — intrinsic, independent existence — in all things, including emptiness itself. It is a denial of self-standing essence, not a denial that things exist.",
+        "fa": "در بودیسم مادیامَکه، فقدان «سوَبهاوَه» — وجود ذاتی و مستقل — در همهٔ چیزها، از جمله خودِ تهی‌بودگی. این انکارِ ذاتِ قائم‌به‌خود است، نه انکارِ اینکه چیزها وجود دارند."
+      },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "not-nihilism",
+            "heading": {
+              "en": "Not nihilism",
+              "fa": "نه نیست‌انگاری"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Nāgārjuna is explicit that emptiness is a middle way between saying things exist independently and saying they do not exist at all. A chariot is not nothing; it is also not a thing over and above its parts, arrangement and use. Readers who take emptiness for nihilism, he says, are like someone who grasps a snake by the wrong end.",
+              "fa": "ناگارجونا صریح است که تهی‌بودگی راهی میانه است میان گفتن اینکه چیزها مستقل وجود دارند و گفتن اینکه اصلاً وجود ندارند. ارابه هیچ نیست؛ اما چیزی فراتر از اجزا، چیدمان و کاربردش نیز نیست. به گفتهٔ او، کسانی که تهی‌بودگی را نیست‌انگاری می‌گیرند همچون کسی‌اند که مار را از سر نادرست گرفته است."
+            },
+            "citations": [{ "source": "nagarjuna-mmk", "locator": "ch. 24" }]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "en": "\"Parent\" is not a property anyone has on their own; it exists only in relation to a child.",
+          "fa": "«والد» ویژگی‌ای نیست که کسی به‌تنهایی داشته باشد؛ تنها در نسبت با فرزند وجود دارد."
+        }
+      ],
+      "counterexamples": [
+        {
+          "en": "Reading emptiness as \"nothing is real\", which Nāgārjuna rejects as one of the two extremes his middle way sits between.",
+          "fa": "خواندنِ تهی‌بودگی همچون «هیچ‌چیز واقعی نیست»؛ که ناگارجونا آن را یکی از دو حدّ افراطی می‌داند که راه میانه‌اش میان آن دو ایستاده است."
+        }
+      ],
+      "philosophers": ["nagarjuna"],
+      "works": ["mulamadhyamakakarika"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ren",
+      "name": { "en": "Ren", "fa": "رِن (انسان‌دوستی)" },
+      "nativeTerm": "仁",
+      "transliteration": "rén",
+      "alsoKnownAs": ["benevolence", "humaneness", "co-humanity"],
+      "oneLine": {
+        "en": "The quality that makes someone worth being around, which no rule can fully specify.",
+        "fa": "آن کیفیتی که بودن در کنار کسی را ارزشمند می‌کند، و هیچ قاعده‌ای نمی‌تواند تماماً معیّنش کند."
+      },
+      "definition": {
+        "en": "The central Confucian virtue: a cultivated disposition of care and appropriate regard toward others, expressed through ritual propriety and developed by practice rather than acquired by learning a rule.",
+        "fa": "فضیلت محوری کنفوسیوسی: منشی پرورده از مراقبت و اعتنای بجا نسبت به دیگران، که در آدابِ آیینی بیان می‌شود و با تمرین پرورده می‌گردد، نه با آموختن یک قاعده."
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "philosophy-of-education", "social-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "why-no-definition",
+            "depth": "standard",
+            "body": {
+              "en": "Confucius is asked what ren is several times in the Analects and gives different answers to different students. This is not evasion. Ren is a capacity for judging what this situation, with this person, calls for; a general definition would be exactly the wrong kind of answer, and the varied replies are calibrated to what each questioner needs to hear.",
+              "fa": "در «مکالمات» بارها از کنفوسیوس می‌پرسند رِن چیست و او به شاگردان مختلف پاسخ‌های مختلف می‌دهد. این طفره نیست. رِن توانِ داوری دربارهٔ آن چیزی است که این موقعیت، با این شخص، اقتضا می‌کند؛ تعریفی کلی دقیقاً از آن نوع پاسخی است که نباید داد، و پاسخ‌های گوناگون بر آنچه هر پرسنده نیاز به شنیدنش دارد تنظیم شده‌اند."
+            },
+            "citations": [{ "source": "confucius-analects" }]
+          }
+        ]
+      },
+      "philosophers": ["confucius"],
+      "works": ["analects"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "double-consciousness",
+      "name": { "en": "Double Consciousness", "fa": "آگاهی دوگانه" },
+      "oneLine": {
+        "en": "Always seeing yourself through the eyes of a world that looks on with contempt.",
+        "fa": "همواره خود را از چشم جهانی دیدن که با تحقیر می‌نگرد."
+      },
+      "definition": {
+        "en": "Du Bois' name for the divided self-perception produced by living in a society that denies one's full humanity: a sense of always measuring oneself by the standards of those who despise one, and of holding two unreconciled identities at once.",
+        "fa": "نامی که دوبویز بر ادراکِ دوپاره از خویشتن می‌نهد؛ ادراکی که زیستن در جامعه‌ای پدید می‌آورد که انسانیتِ تمام‌عیار فرد را انکار می‌کند: احساسِ همیشگیِ سنجیدنِ خود با معیارهای کسانی که تحقیرت می‌کنند، و حمل هم‌زمان دو هویت آشتی‌ناپذیر."
+      },
+      "traditions": ["american", "african", "contemporary"],
+      "branches": [
+        "social-philosophy",
+        "philosophy-of-mind",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "precision",
+            "depth": "standard",
+            "body": {
+              "en": "The term is often borrowed loosely for any experience of not fitting in. Du Bois' claim is narrower and sharper: it concerns a self-knowledge distorted by an internalised hostile gaze, in a society organised so that the gaze cannot be escaped. Losing that precision costs the concept its explanatory work.",
+              "fa": "این اصطلاح را غالباً به‌سستی برای هر تجربهٔ ناهمرنگی وام می‌گیرند. ادعای دوبویز باریک‌تر و تیزتر است: به خودشناسی‌ای مربوط است که نگاهِ خصمانهٔ درونی‌شده آن را کژ کرده، در جامعه‌ای که چنان سامان یافته که از آن نگاه نتوان گریخت. از دست‌دادن این دقت، کارِ تبیینیِ مفهوم را از آن می‌ستاند."
+            },
+            "citations": [{ "source": "dubois-souls", "locator": "ch. 1" }]
+          }
+        ]
+      },
+      "philosophers": ["du-bois"],
+      "works": ["souls-of-black-folk"],
+      "citations": [{ "source": "sep" }]
+    }
+  ]
+}

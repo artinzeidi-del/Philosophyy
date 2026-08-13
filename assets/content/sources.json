@@ -1,0 +1,247 @@
+{
+  "_comment": "Bibliographic sources. RULE: nothing in this file may be invented. No ISBN, DOI, page number or URL appears here unless it is known to be correct. Where a detail is not known it is omitted, never guessed. See docs/CONTENT_POLICY.md.",
+  "sources": [
+    {
+      "id": "plato-republic",
+      "kind": "primary-text",
+      "title": {
+        "en": "Republic",
+        "fa": "جمهوری"
+      },
+      "authors": ["Plato"],
+      "rightsNote": "Cited by Stephanus number, which is stable across all editions and translations."
+    },
+    {
+      "id": "plato-apology",
+      "kind": "primary-text",
+      "title": {
+        "en": "Apology",
+        "fa": "آپولوژی (دفاعیهٔ سقراط)"
+      },
+      "authors": ["Plato"],
+      "rightsNote": "Cited by Stephanus number."
+    },
+    {
+      "id": "plato-meno",
+      "kind": "primary-text",
+      "title": {
+        "en": "Meno",
+        "fa": "منون"
+      },
+      "authors": ["Plato"],
+      "rightsNote": "Cited by Stephanus number."
+    },
+    {
+      "id": "aristotle-nicomachean-ethics",
+      "kind": "primary-text",
+      "title": {
+        "en": "Nicomachean Ethics",
+        "fa": "اخلاق نیکوماخوس"
+      },
+      "authors": ["Aristotle"],
+      "rightsNote": "Cited by Bekker number, which is stable across all editions and translations."
+    },
+    {
+      "id": "aristotle-metaphysics",
+      "kind": "primary-text",
+      "title": {
+        "en": "Metaphysics",
+        "fa": "متافیزیک"
+      },
+      "authors": ["Aristotle"],
+      "rightsNote": "Cited by Bekker number."
+    },
+    {
+      "id": "epictetus-enchiridion",
+      "kind": "primary-text",
+      "title": {
+        "en": "Enchiridion",
+        "fa": "انکیریدیون (دستنامه)"
+      },
+      "authors": ["Epictetus"],
+      "rightsNote": "Compiled by Arrian from Epictetus' teaching; Epictetus wrote nothing himself. Cited by chapter."
+    },
+    {
+      "id": "epictetus-discourses",
+      "kind": "primary-text",
+      "title": {
+        "en": "Discourses",
+        "fa": "گفتارها"
+      },
+      "authors": ["Epictetus"],
+      "rightsNote": "Recorded by Arrian. Cited by book and chapter."
+    },
+    {
+      "id": "avicenna-isharat",
+      "kind": "primary-text",
+      "title": {
+        "en": "Pointers and Reminders",
+        "fa": "الإشارات و التنبیهات"
+      },
+      "authors": ["Ibn Sīnā"],
+      "rightsNote": "Avicenna's late summation of his logic, physics and metaphysics."
+    },
+    {
+      "id": "avicenna-shifa",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Book of Healing",
+        "fa": "الشفاء"
+      },
+      "authors": ["Ibn Sīnā"],
+      "rightsNote": "Avicenna's philosophical encyclopedia, covering logic, natural science, mathematics and metaphysics."
+    },
+    {
+      "id": "ghazali-tahafut",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Incoherence of the Philosophers",
+        "fa": "تهافت الفلاسفه"
+      },
+      "authors": ["Abū Ḥāmid al-Ghazālī"],
+      "rightsNote": "Al-Ghazālī's critique of twenty theses held by the Islamic Aristotelians, chiefly Avicenna and al-Fārābī."
+    },
+    {
+      "id": "ghazali-munqidh",
+      "kind": "primary-text",
+      "title": {
+        "en": "Deliverance from Error",
+        "fa": "المنقذ من الضلال"
+      },
+      "authors": ["Abū Ḥāmid al-Ghazālī"],
+      "rightsNote": "Al-Ghazālī's autobiographical account of his sceptical crisis and its resolution."
+    },
+    {
+      "id": "sadra-asfar",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Four Journeys",
+        "fa": "الحکمة المتعالیة فی الأسفار العقلیة الأربعة"
+      },
+      "authors": ["Mullā Ṣadrā"],
+      "rightsNote": "The principal work of the school of Transcendent Wisdom."
+    },
+    {
+      "id": "confucius-analects",
+      "kind": "primary-text",
+      "title": {
+        "en": "Analects",
+        "fa": "مکالمات (لون‌یو)"
+      },
+      "authors": ["Confucius (attributed)"],
+      "rightsNote": "Compiled by later followers over an extended period rather than written by Confucius. Cited by book and passage."
+    },
+    {
+      "id": "nagarjuna-mmk",
+      "kind": "primary-text",
+      "title": {
+        "en": "Fundamental Verses on the Middle Way",
+        "fa": "ریشه‌های راه میانه"
+      },
+      "authors": ["Nāgārjuna"],
+      "rightsNote": "Sanskrit title: Mūlamadhyamakakārikā. Cited by chapter and verse."
+    },
+    {
+      "id": "descartes-meditations",
+      "kind": "primary-text",
+      "title": {
+        "en": "Meditations on First Philosophy",
+        "fa": "تأملات در فلسفهٔ اولی"
+      },
+      "authors": ["René Descartes"],
+      "rightsNote": "Cited by Meditation number."
+    },
+    {
+      "id": "descartes-discourse",
+      "kind": "primary-text",
+      "title": {
+        "en": "Discourse on the Method",
+        "fa": "گفتار در روش"
+      },
+      "authors": ["René Descartes"],
+      "rightsNote": "Cited by part."
+    },
+    {
+      "id": "kant-critique-pure-reason",
+      "kind": "primary-text",
+      "title": {
+        "en": "Critique of Pure Reason",
+        "fa": "سنجش خرد ناب"
+      },
+      "authors": ["Immanuel Kant"],
+      "rightsNote": "Cited by the A (1781) and B (1787) pagination, which every scholarly edition reproduces in the margin."
+    },
+    {
+      "id": "kant-groundwork",
+      "kind": "primary-text",
+      "title": {
+        "en": "Groundwork of the Metaphysics of Morals",
+        "fa": "بنیاد مابعدالطبیعهٔ اخلاق"
+      },
+      "authors": ["Immanuel Kant"],
+      "rightsNote": "Cited by the Academy edition pagination."
+    },
+    {
+      "id": "nietzsche-gay-science",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Gay Science",
+        "fa": "حکمت شادان"
+      },
+      "authors": ["Friedrich Nietzsche"],
+      "rightsNote": "German title: Die fröhliche Wissenschaft. Cited by section number."
+    },
+    {
+      "id": "beauvoir-second-sex",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Second Sex",
+        "fa": "جنس دوم"
+      },
+      "authors": ["Simone de Beauvoir"],
+      "rightsNote": "French title: Le Deuxième Sexe."
+    },
+    {
+      "id": "dubois-souls",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Souls of Black Folk",
+        "fa": "جان‌های سیاهان"
+      },
+      "authors": ["W. E. B. Du Bois"],
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "sep",
+      "kind": "reference-work",
+      "title": {
+        "en": "Stanford Encyclopedia of Philosophy",
+        "fa": "دانشنامهٔ فلسفهٔ استنفورد"
+      },
+      "publisher": "Metaphysics Research Lab, Stanford University",
+      "url": "https://plato.stanford.edu",
+      "rightsNote": "Peer-reviewed and continuously revised; entries are signed and dated. Used here as a secondary reference, never as a substitute for the primary text."
+    },
+    {
+      "id": "iep",
+      "kind": "reference-work",
+      "title": {
+        "en": "Internet Encyclopedia of Philosophy",
+        "fa": "دانشنامهٔ اینترنتی فلسفه"
+      },
+      "url": "https://iep.utm.edu",
+      "rightsNote": "Peer-reviewed academic reference work."
+    },
+    {
+      "id": "perseus",
+      "kind": "academic-resource",
+      "title": {
+        "en": "Perseus Digital Library",
+        "fa": "کتابخانهٔ دیجیتال پرسیوس"
+      },
+      "publisher": "Tufts University",
+      "url": "https://www.perseus.tufts.edu",
+      "rightsNote": "Greek and Latin primary texts with apparatus, hosted by Tufts University."
+    }
+  ]
+}

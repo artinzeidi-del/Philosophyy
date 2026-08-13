@@ -1,0 +1,292 @@
+{
+  "_comment": "Work records. Composition dates are ranges with explicit precision because for most works before the modern period a single year would be false precision.",
+  "works": [
+    {
+      "id": "republic",
+      "title": { "en": "Republic", "fa": "جمهوری" },
+      "originalTitle": "Πολιτεία",
+      "transliteration": "Politeia",
+      "alsoKnownAs": ["The Republic", "پولیتیا"],
+      "author": "plato",
+      "oneLine": {
+        "en": "A conversation that starts by asking what justice is and ends up rebuilding the city, the soul and education.",
+        "fa": "گفت‌وگویی که با پرسش از چیستی عدالت آغاز می‌شود و به بازسازی شهر، نفْس و آموزش می‌انجامد."
+      },
+      "composed": { "start": { "year": -380, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": ["political-philosophy", "ethics", "metaphysics", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The question that opens the dialogue is whether it pays to be just. To answer it Socrates proposes building a city in speech, on the grounds that justice will be easier to see written large. The detour occupies most of the book, and the city is never quite left behind — which is why readers still argue about whether the political content was ever the point.",
+              "fa": "پرسشی که گفت‌وگو را می‌گشاید این است که آیا عادل‌بودن به‌صرفه است. سقراط برای پاسخ پیشنهاد می‌کند شهری در گفتار بنا کنند، به این دلیل که دیدن عدالت در مقیاس بزرگ آسان‌تر است. همین انحراف بیشتر کتاب را می‌گیرد، و شهر هرگز به‌تمامی رها نمی‌شود؛ و به همین سبب است که خوانندگان هنوز بر سر اینکه آیا محتوای سیاسی اصلاً مقصود بوده یا نه بحث می‌کنند."
+            },
+            "citations": [{ "source": "plato-republic", "locator": "368d–369a" }]
+          }
+        ]
+      },
+      "structure": [
+        {
+          "id": "book-1",
+          "title": { "en": "Book I", "fa": "کتاب اول" },
+          "locator": "327a–354c",
+          "summary": {
+            "en": "Three definitions of justice are offered and defeated; Thrasymachus argues justice is whatever serves the stronger.",
+            "fa": "سه تعریف از عدالت عرضه و رد می‌شود؛ تراسیماخوس برهان می‌آورد که عدالت هر چیزی است که به سود قوی‌تر باشد."
+          }
+        },
+        {
+          "id": "book-7",
+          "title": { "en": "Book VII", "fa": "کتاب هفتم" },
+          "locator": "514a–541b",
+          "summary": {
+            "en": "The Cave, and the account of the education that would turn a person toward what is real.",
+            "fa": "غار، و شرح آموزشی که آدمی را به‌سوی آنچه واقعی است می‌گرداند."
+          }
+        }
+      ],
+      "concepts": ["theory-of-forms"],
+      "editions": ["plato-republic", "perseus"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "apology",
+      "title": { "en": "Apology", "fa": "دفاعیهٔ سقراط" },
+      "originalTitle": "Ἀπολογία Σωκράτους",
+      "transliteration": "Apologia Sōkratous",
+      "author": "plato",
+      "oneLine": {
+        "en": "Socrates' defence speech at his trial, and his refusal to save himself by pretending.",
+        "fa": "دفاعیهٔ سقراط در محاکمه‌اش، و سرباززدنش از نجات خود به بهای تظاهر."
+      },
+      "composed": { "start": { "year": -395, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": ["ethics", "epistemology"],
+      "concepts": ["socratic-method"],
+      "editions": ["plato-apology", "perseus"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "nicomachean-ethics",
+      "title": { "en": "Nicomachean Ethics", "fa": "اخلاق نیکوماخوس" },
+      "originalTitle": "Ἠθικὰ Νικομάχεια",
+      "transliteration": "Ēthika Nikomacheia",
+      "author": "aristotle",
+      "oneLine": {
+        "en": "The founding text of virtue ethics, and still the most practical book of moral philosophy ever written.",
+        "fa": "متن بنیادگذار اخلاق فضیلت، و هنوز عملی‌ترین کتاب فلسفهٔ اخلاق که نوشته شده است."
+      },
+      "composed": { "start": { "year": -340, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": ["ethics"],
+      "concepts": ["eudaimonia", "golden-mean"],
+      "editions": ["aristotle-nicomachean-ethics", "perseus"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "enchiridion",
+      "title": { "en": "Enchiridion", "fa": "دستنامه" },
+      "originalTitle": "Ἐγχειρίδιον",
+      "transliteration": "Encheiridion",
+      "alsoKnownAs": ["The Handbook", "The Manual"],
+      "author": "epictetus",
+      "oneLine": {
+        "en": "Fifty-three short chapters of Stoic practice, compiled by a student from lessons Epictetus never wrote down.",
+        "fa": "پنجاه‌وسه فصل کوتاه از عمل رواقی، که شاگردی از درس‌هایی گرد آورد که اپیکتتوس هرگز ننوشت."
+      },
+      "composed": { "start": { "year": 125, "precision": "circa" } },
+      "traditions": ["hellenistic", "roman"],
+      "branches": ["ethics"],
+      "concepts": ["dichotomy-of-control"],
+      "editions": ["epictetus-enchiridion", "epictetus-discourses"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "isharat",
+      "title": { "en": "Pointers and Reminders", "fa": "الإشارات و التنبیهات" },
+      "originalTitle": "الإشارات و التنبیهات",
+      "transliteration": "al-Ishārāt wa-l-Tanbīhāt",
+      "author": "ibn-sina",
+      "oneLine": {
+        "en": "Avicenna's last and most compressed statement of his whole philosophy, written to be unpacked by a teacher.",
+        "fa": "واپسین و فشرده‌ترین بیان ابن‌سینا از تمام فلسفه‌اش، نوشته‌شده تا استادی آن را بگشاید."
+      },
+      "composed": { "start": { "year": 1030, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": ["metaphysics", "logic", "epistemology"],
+      "concepts": ["essence-existence-distinction"],
+      "editions": ["avicenna-isharat"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "tahafut",
+      "title": {
+        "en": "The Incoherence of the Philosophers",
+        "fa": "تهافت الفلاسفه"
+      },
+      "originalTitle": "تهافت الفلاسفة",
+      "transliteration": "Tahāfut al-Falāsifa",
+      "author": "al-ghazali",
+      "oneLine": {
+        "en": "A point-by-point demolition of twenty philosophical theses, written by someone who had mastered them first.",
+        "fa": "ویران‌سازی بند‌به‌بند بیست مدعای فلسفی، به‌قلم کسی که نخست بر آن‌ها چیره شده بود."
+      },
+      "composed": { "start": { "year": 1095, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
+      "editions": ["ghazali-tahafut", "ghazali-munqidh"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "asfar",
+      "title": { "en": "The Four Journeys", "fa": "اسفار اربعه" },
+      "originalTitle": "الحکمة المتعالیة فی الأسفار العقلیة الأربعة",
+      "transliteration": "al-Ḥikma al-mutaʿāliya fī l-asfār al-ʿaqliyya al-arbaʿa",
+      "author": "mulla-sadra",
+      "oneLine": {
+        "en": "The summa of Transcendent Wisdom, structured as four journeys of the intellect.",
+        "fa": "جامعِ حکمت متعالیه، ساختاریافته همچون چهار سفر عقل."
+      },
+      "composed": { "start": { "year": 1620, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": ["metaphysics", "philosophy-of-religion"],
+      "concepts": ["substantial-motion", "essence-existence-distinction"],
+      "editions": ["sadra-asfar"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "analects",
+      "title": { "en": "Analects", "fa": "مکالمات" },
+      "originalTitle": "論語",
+      "transliteration": "Lúnyǔ",
+      "author": "confucius",
+      "oneLine": {
+        "en": "Short exchanges between a teacher and his students, assembled after his death into the most influential book in Chinese history.",
+        "fa": "گفت‌وگوهای کوتاه میان یک معلم و شاگردانش، که پس از مرگ او در اثرگذارترین کتاب تاریخ چین گرد آمد."
+      },
+      "composed": {
+        "start": { "year": -475, "precision": "circa" },
+        "end": { "year": -221, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "philosophy-of-education"],
+      "concepts": ["ren"],
+      "editions": ["confucius-analects"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "mulamadhyamakakarika",
+      "title": {
+        "en": "Fundamental Verses on the Middle Way",
+        "fa": "ریشه‌های راه میانه"
+      },
+      "originalTitle": "मूलमध्यमककारिका",
+      "transliteration": "Mūlamadhyamakakārikā",
+      "alsoKnownAs": ["MMK"],
+      "author": "nagarjuna",
+      "oneLine": {
+        "en": "Twenty-seven chapters that take apart every candidate for something that exists on its own.",
+        "fa": "بیست‌وهفت فصل که هر نامزدی را برای «چیزی که به‌خودی‌خود هست» از هم می‌گشاید."
+      },
+      "composed": { "start": { "year": 200, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "logic", "philosophy-of-religion"],
+      "concepts": ["sunyata"],
+      "editions": ["nagarjuna-mmk"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "meditations",
+      "title": {
+        "en": "Meditations on First Philosophy",
+        "fa": "تأملات در فلسفهٔ اولی"
+      },
+      "originalTitle": "Meditationes de prima philosophia",
+      "author": "descartes",
+      "oneLine": {
+        "en": "Six days of systematic doubt, undertaken to find something that survives it.",
+        "fa": "شش روز شکِ روشمند، برای یافتن چیزی که از آن جان به‌در برد."
+      },
+      "composed": { "start": { "year": 1641, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": ["epistemology", "metaphysics", "philosophy-of-mind"],
+      "concepts": ["cogito"],
+      "editions": ["descartes-meditations", "descartes-discourse"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "critique-of-pure-reason",
+      "title": { "en": "Critique of Pure Reason", "fa": "سنجش خرد ناب" },
+      "originalTitle": "Kritik der reinen Vernunft",
+      "author": "kant",
+      "oneLine": {
+        "en": "An investigation into what reason can establish on its own, and where it necessarily overreaches.",
+        "fa": "کاوشی در آنچه خرد به‌تنهایی می‌تواند اثبات کند، و آنجا که ناگزیر از حد خود درمی‌گذرد."
+      },
+      "composed": {
+        "start": { "year": 1781, "precision": "exact" },
+        "end": { "year": 1787, "precision": "exact" }
+      },
+      "traditions": ["european"],
+      "branches": ["epistemology", "metaphysics"],
+      "editions": ["kant-critique-pure-reason", "kant-groundwork"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "gay-science",
+      "title": { "en": "The Gay Science", "fa": "حکمت شادان" },
+      "originalTitle": "Die fröhliche Wissenschaft",
+      "author": "nietzsche",
+      "oneLine": {
+        "en": "Aphorisms, songs and jokes, containing two of the most quoted and least understood passages in philosophy.",
+        "fa": "قطعه‌ها، ترانه‌ها و شوخی‌ها؛ دربردارندهٔ دو بند از پرنقل‌ترین و کم‌فهمیده‌ترین بندهای فلسفه."
+      },
+      "composed": {
+        "start": { "year": 1882, "precision": "exact" },
+        "end": { "year": 1887, "precision": "exact" }
+      },
+      "traditions": ["european"],
+      "branches": ["ethics", "aesthetics", "metaphysics"],
+      "editions": ["nietzsche-gay-science"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "second-sex",
+      "title": { "en": "The Second Sex", "fa": "جنس دوم" },
+      "originalTitle": "Le Deuxième Sexe",
+      "author": "beauvoir",
+      "oneLine": {
+        "en": "Nine hundred pages establishing that woman is made, not born — and tracing exactly how.",
+        "fa": "نهصد صفحه در اثبات اینکه زن ساخته می‌شود، نه زاده؛ و ردیابی دقیقِ چگونگی آن."
+      },
+      "composed": { "start": { "year": 1949, "precision": "exact" } },
+      "traditions": ["european", "contemporary"],
+      "branches": [
+        "social-philosophy",
+        "ethics",
+        "existential-philosophy",
+        "political-philosophy"
+      ],
+      "editions": ["beauvoir-second-sex"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "souls-of-black-folk",
+      "title": { "en": "The Souls of Black Folk", "fa": "جان‌های سیاهان" },
+      "author": "du-bois",
+      "oneLine": {
+        "en": "Fourteen essays that put the experience of being a problem at the centre of American self-understanding.",
+        "fa": "چهارده جستار که تجربهٔ «مسئله‌بودن» را در کانون خودفهمی آمریکایی می‌نشاند."
+      },
+      "composed": { "start": { "year": 1903, "precision": "exact" } },
+      "traditions": ["american", "african", "contemporary"],
+      "branches": ["social-philosophy", "political-philosophy", "philosophy-of-history"],
+      "concepts": ["double-consciousness"],
+      "editions": ["dubois-souls"],
+      "citations": [{ "source": "sep" }]
+    }
+  ]
+}

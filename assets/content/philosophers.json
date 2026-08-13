@@ -1,0 +1,833 @@
+{
+  "_comment": "Philosopher records. Dates carry an explicit precision because most ancient and medieval dates are scholarly estimates; marking an estimate as exact is a falsification. See docs/CONTENT_POLICY.md.",
+  "philosophers": [
+    {
+      "id": "socrates",
+      "name": { "en": "Socrates", "fa": "سقراط" },
+      "nativeName": "Σωκράτης",
+      "transliteration": "Sōkratēs",
+      "oneLine": {
+        "en": "The Athenian who wrote nothing, asked relentless questions, and was executed for it.",
+        "fa": "آتنی‌ای که چیزی ننوشت، بی‌امان پرسید، و به همین سبب اعدام شد."
+      },
+      "life": {
+        "birth": { "year": -470, "precision": "circa" },
+        "death": { "year": -399, "precision": "exact" }
+      },
+      "birthPlace": { "en": "Athens", "fa": "آتن" },
+      "deathPlace": { "en": "Athens", "fa": "آتن" },
+      "traditions": ["ancient-greek"],
+      "branches": ["ethics", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Socrates left no writings. Everything known about him comes through other people — chiefly Plato, who made him the speaker in his dialogues. He spent his life questioning Athenians about what they claimed to know, and in 399 BCE the city tried and executed him.",
+              "fa": "سقراط هیچ نوشته‌ای بر جای نگذاشت. هرچه دربارهٔ او می‌دانیم از زبان دیگران است؛ به‌ویژه افلاطون که او را گویندهٔ گفت‌وگوهای خود کرد. عمرش را به پرسیدن از آتنیان دربارهٔ آنچه گمان می‌کردند می‌دانند گذراند و در سال ۳۹۹ پیش از میلاد شهر او را محاکمه و اعدام کرد."
+            }
+          },
+          {
+            "id": "socratic-problem",
+            "heading": {
+              "en": "What we can and cannot know about him",
+              "fa": "آنچه دربارهٔ او می‌توان و نمی‌توان دانست"
+            },
+            "depth": "standard",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "Because Socrates wrote nothing, every account of him is somebody else's. Plato, Xenophon and Aristophanes describe recognisably different men, and Plato's own Socrates changes across the dialogues — arguing modestly in the early ones, expounding a full metaphysics in the middle ones. Which of these is the historical Socrates is called the Socratic problem, and it has no agreed solution. This entry follows the common practice of treating the early dialogues as closest to the man, while flagging that this is a scholarly judgement rather than a fact.",
+              "fa": "چون سقراط چیزی ننوشت، هر روایتی از او روایت دیگری است. افلاطون، گزنفون و آریستوفانس مردانی آشکارا متفاوت را وصف می‌کنند، و حتی سقراطِ خودِ افلاطون در سراسر گفت‌وگوها دگرگون می‌شود: در آثار نخستین فروتنانه می‌پرسد و در آثار میانی مابعدالطبیعه‌ای تمام‌عیار می‌پروراند. اینکه کدام‌یک سقراطِ تاریخی است «مسئلهٔ سقراطی» نام دارد و پاسخ مورد اتفاقی ندارد. این مدخل، بنا بر رویّهٔ رایج، گفت‌وگوهای نخستین را نزدیک‌ترین روایت به آن مرد می‌گیرد و در عین حال یادآور می‌شود که این یک داوری پژوهشی است، نه یک واقعیت."
+            },
+            "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "trial",
+            "heading": { "en": "The trial", "fa": "محاکمه" },
+            "depth": "deep",
+            "body": {
+              "en": "The charges were impiety and corrupting the young. In Plato's Apology Socrates refuses to plead for his life, tells the jury that an unexamined life is not worth living, and proposes as his penalty that the city feed him at public expense. He was condemned and died by hemlock. Whether the trial was really about religion or about his association with men who had governed Athens badly is still argued.",
+              "fa": "اتهام‌ها بی‌دینی و فاسدکردن جوانان بود. در «آپولوژی» افلاطون، سقراط از التماس برای جان خود سر باز می‌زند، به هیئت داوران می‌گوید زندگیِ نیازموده ارزش زیستن ندارد، و به‌عنوان مجازات پیشنهاد می‌کند شهر او را بر خرج عمومی اطعام کند. محکوم شد و با شوکران مرد. اینکه محاکمه به‌راستی بر سر دین بود یا بر سر پیوند او با کسانی که آتن را بد حکومت کرده بودند، هنوز محل بحث است."
+            },
+            "citations": [{ "source": "plato-apology", "locator": "38a" }]
+          }
+        ]
+      },
+      "concepts": ["socratic-method"],
+      "schools": ["platonism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "plato",
+      "name": { "en": "Plato", "fa": "افلاطون" },
+      "nativeName": "Πλάτων",
+      "transliteration": "Platōn",
+      "alsoKnownAs": ["Aristocles"],
+      "oneLine": {
+        "en": "Founded the Academy and argued that the world we see is a shadow of a more real one.",
+        "fa": "آکادمی را بنیاد نهاد و برهان آورد که جهانِ دیدنی سایه‌ای از جهانی واقعی‌تر است."
+      },
+      "life": {
+        "birth": { "year": -428, "precision": "circa" },
+        "death": { "year": -348, "precision": "circa" }
+      },
+      "birthPlace": { "en": "Athens", "fa": "آتن" },
+      "deathPlace": { "en": "Athens", "fa": "آتن" },
+      "traditions": ["ancient-greek"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "ethics",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Plato was Socrates' student and Aristotle's teacher. He wrote in dialogue rather than treatise, founded the Academy in Athens, and argued that the things we perceive are imperfect copies of unchanging Forms. Almost everything he wrote survives — an unusual piece of luck in ancient philosophy.",
+              "fa": "افلاطون شاگرد سقراط و استاد ارسطو بود. به‌جای رساله، گفت‌وگو نوشت، آکادمی را در آتن بنیاد نهاد، و برهان آورد که آنچه درک می‌کنیم رونوشت‌های ناقصی از «صورت‌»های تغییرناپذیرند. تقریباً همهٔ نوشته‌هایش بر جای مانده است؛ بختی نامعمول در فلسفهٔ باستان."
+            }
+          },
+          {
+            "id": "why-dialogue",
+            "heading": {
+              "en": "Why he wrote dialogues",
+              "fa": "چرا گفت‌وگو نوشت"
+            },
+            "depth": "standard",
+            "claim": "interpretation",
+            "body": {
+              "en": "Plato never speaks in his own voice. He writes conversations, usually with Socrates asking the questions, and lets positions be defeated rather than announced. One reading is that this is a teaching method: an argument you watch someone lose is harder to forget than a conclusion handed to you. Another is that Plato genuinely held that written philosophy cannot transmit understanding, only provoke it. Both readings have support, and the dialogues are designed to resist a single settled answer.",
+              "fa": "افلاطون هرگز به زبان خود سخن نمی‌گوید. گفت‌وگو می‌نویسد، معمولاً با سقراط در مقام پرسنده، و می‌گذارد مواضع شکست بخورند نه آنکه اعلام شوند. یک خوانش این است که این یک روش آموزشی است: برهانی که شکست‌خوردنش را می‌بینی دیرتر از نتیجه‌ای که به تو داده‌اند فراموش می‌شود. خوانش دیگر آن است که افلاطون به‌راستی بر آن بود که فلسفهٔ نوشته نمی‌تواند فهم را منتقل کند، تنها می‌تواند آن را برانگیزد. هر دو خوانش پشتوانه دارند، و گفت‌وگوها چنان ساخته شده‌اند که در برابر یک پاسخ قطعی مقاومت کنند."
+            },
+            "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "cave",
+            "heading": {
+              "en": "The Cave",
+              "fa": "غار"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "In the Republic Plato asks us to imagine prisoners chained facing a wall, who have seen nothing but shadows cast on it and take those shadows for the whole world. One is freed, turns around, and eventually walks out into the sun. The image is doing several jobs at once: it is a claim about knowledge, a claim about what education actually is, and a warning about what happens to the person who returns and tries to explain.",
+              "fa": "در «جمهوری»، افلاطون از ما می‌خواهد زندانیانی را تصور کنیم که رو به دیواری در زنجیرند، چیزی جز سایه‌های افتاده بر آن ندیده‌اند و همان سایه‌ها را تمام جهان می‌پندارند. یکی آزاد می‌شود، برمی‌گردد، و سرانجام به آفتاب بیرون می‌رود. این تصویر هم‌زمان چند کار می‌کند: ادعایی است دربارهٔ معرفت، ادعایی است دربارهٔ اینکه آموزش به‌راستی چیست، و هشداری است دربارهٔ سرنوشت کسی که بازمی‌گردد و می‌کوشد توضیح دهد."
+            },
+            "citations": [{ "source": "plato-republic", "locator": "514a–520a" }]
+          },
+          {
+            "id": "politics",
+            "heading": {
+              "en": "The uncomfortable politics",
+              "fa": "سیاستِ ناراحت‌کننده"
+            },
+            "depth": "deep",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "The city described in the Republic is ruled by philosophers, censors its poetry, and assigns citizens to classes. Readers have taken this as a serious political proposal, as an extended analogy for the parts of a single soul, and as deliberate provocation. Karl Popper attacked it as a blueprint for totalitarianism; others reply that reading a dialogue's internal thought experiment as a manifesto mistakes the genre. The disagreement is live and this entry does not settle it.",
+              "fa": "شهری که در «جمهوری» وصف می‌شود به‌دست فیلسوفان اداره می‌شود، شعرش را سانسور می‌کند و شهروندان را به طبقات می‌گمارد. خوانندگان این را گاه پیشنهادی سیاسی و جدی گرفته‌اند، گاه تمثیلی گسترده برای بخش‌های یک نفْس واحد، و گاه تحریکی عامدانه. کارل پوپر آن را همچون نقشهٔ راهی برای تمامیت‌خواهی نکوهید؛ دیگران پاسخ می‌دهند که خواندن آزمون فکریِ درونیِ یک گفت‌وگو همچون بیانیه، خطا در تشخیص ژانر است. این اختلاف زنده است و این مدخل آن را فیصله نمی‌دهد."
+            },
+            "citations": [{ "source": "sep" }, { "source": "plato-republic" }]
+          }
+        ]
+      },
+      "concepts": ["theory-of-forms", "socratic-method"],
+      "works": ["republic", "apology"],
+      "schools": ["platonism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "aristotle",
+      "name": { "en": "Aristotle", "fa": "ارسطو" },
+      "nativeName": "Ἀριστοτέλης",
+      "transliteration": "Aristotelēs",
+      "oneLine": {
+        "en": "Studied everything there was, and invented the vocabulary the West used to study it for two thousand years.",
+        "fa": "هرچه بود را مطالعه کرد، و واژگانی ساخت که غرب دو هزار سال با آن مطالعه کرد."
+      },
+      "life": {
+        "birth": { "year": -384, "precision": "exact" },
+        "death": { "year": -322, "precision": "exact" }
+      },
+      "birthPlace": { "en": "Stagira, Chalcidice", "fa": "استاگیرا، خالکیدیکی" },
+      "deathPlace": { "en": "Chalcis, Euboea", "fa": "خالکیس، اِوبیا" },
+      "traditions": ["ancient-greek"],
+      "branches": [
+        "metaphysics",
+        "ethics",
+        "logic",
+        "philosophy-of-science",
+        "political-philosophy",
+        "aesthetics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aristotle studied under Plato for twenty years and then disagreed with him about almost everything fundamental. Where Plato looked past the physical world, Aristotle catalogued it — biology, physics, logic, ethics, politics, poetics. He founded the Lyceum and tutored Alexander the Great.",
+              "fa": "ارسطو بیست سال نزد افلاطون آموخت و سپس تقریباً در هر امر بنیادینی با او مخالفت کرد. آنجا که افلاطون از جهان محسوس درمی‌گذشت، ارسطو آن را فهرست می‌کرد: زیست‌شناسی، فیزیک، منطق، اخلاق، سیاست، شعر. لوکیون را بنیاد نهاد و معلم اسکندر مقدونی بود."
+            }
+          },
+          {
+            "id": "break-with-plato",
+            "heading": {
+              "en": "The break with Plato",
+              "fa": "گسست از افلاطون"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Aristotle's central objection to the Forms is that separating them from things makes them useless. If what makes this horse a horse is a Form standing outside all horses, nothing has been explained — the question of how the two connect simply replaces the question we started with. His alternative is that form is in the thing: what makes a horse a horse is its organisation, not a copy of something elsewhere.",
+              "fa": "اعتراض اصلی ارسطو به «صورت‌ها» این است که جداکردنشان از اشیا آن‌ها را بی‌فایده می‌کند. اگر آنچه این اسب را اسب می‌کند صورتی است که بیرون از همهٔ اسب‌ها ایستاده، چیزی توضیح داده نشده است؛ پرسش از چگونگی پیوند این دو صرفاً جای پرسش نخستین را می‌گیرد. بدیل او این است که صورت در خودِ شیء است: آنچه اسب را اسب می‌کند سازمان اوست، نه رونوشتی از چیزی در جای دیگر."
+            },
+            "citations": [
+              { "source": "aristotle-metaphysics", "locator": "Book I" }
+            ]
+          },
+          {
+            "id": "ethics",
+            "heading": {
+              "en": "Ethics as a practical skill",
+              "fa": "اخلاق همچون مهارتی عملی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Aristotle's ethics does not ask what rule to follow. It asks what a life well lived looks like, and answers that it is activity of the soul in accordance with virtue, over a complete life. Virtue is learned the way a craft is learned — by practice, badly at first — which is why he says ethics cannot be taught to the young, who have not lived enough to recognise the examples.",
+              "fa": "اخلاق ارسطو نمی‌پرسد از چه قاعده‌ای باید پیروی کرد. می‌پرسد زندگیِ خوب‌زیسته چه شکلی است، و پاسخ می‌دهد: فعالیت نفْس بر وفق فضیلت، در سراسر یک زندگی کامل. فضیلت همان‌گونه آموخته می‌شود که یک پیشه: با تمرین، و در آغاز به‌بدی. به همین سبب می‌گوید اخلاق را نمی‌توان به جوانان آموخت، که هنوز آن‌قدر نزیسته‌اند که نمونه‌ها را بازشناسند."
+            },
+            "citations": [
+              {
+                "source": "aristotle-nicomachean-ethics",
+                "locator": "1098a, 1103a"
+              }
+            ]
+          }
+        ]
+      },
+      "concepts": ["eudaimonia", "golden-mean"],
+      "works": ["nicomachean-ethics"],
+      "schools": ["aristotelianism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "epictetus",
+      "name": { "en": "Epictetus", "fa": "اپیکتتوس" },
+      "nativeName": "Ἐπίκτητος",
+      "transliteration": "Epiktētos",
+      "oneLine": {
+        "en": "Born a slave, taught that freedom is a matter of what you judge, not what happens to you.",
+        "fa": "برده زاده شد و آموخت که آزادی به داوریِ توست، نه به آنچه بر تو می‌رود."
+      },
+      "life": {
+        "birth": { "year": 50, "precision": "circa" },
+        "death": { "year": 135, "precision": "circa" }
+      },
+      "birthPlace": { "en": "Hierapolis, Phrygia", "fa": "هیراپولیس، فریگیه" },
+      "deathPlace": { "en": "Nicopolis, Epirus", "fa": "نیکوپولیس، اپیروس" },
+      "traditions": ["hellenistic", "roman"],
+      "branches": ["ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Epictetus was enslaved in Rome, freed, and taught Stoic philosophy for the rest of his life. Like Socrates he wrote nothing; his student Arrian recorded the lessons. His central move is to sort everything into what is up to us and what is not, and to invest only in the first.",
+              "fa": "اپیکتتوس در روم به بردگی گرفته شد، آزاد شد، و باقی عمر فلسفهٔ رواقی آموزش داد. مانند سقراط چیزی ننوشت؛ شاگردش آریانوس درس‌ها را ثبت کرد. حرکت اصلی او این است که همه‌چیز را به دو دستهٔ «در اختیار ما» و «نه در اختیار ما» تقسیم کند و تنها بر نخستین سرمایه‌گذاری کند."
+            }
+          },
+          {
+            "id": "not-consolation",
+            "heading": {
+              "en": "Not the comfort it is sold as",
+              "fa": "نه آن تسلایی که می‌فروشندش"
+            },
+            "depth": "standard",
+            "claim": "interpretation",
+            "body": {
+              "en": "Stoicism is often marketed now as a technique for staying calm and productive. Epictetus is harder than that. The claim is not that you should manage your reactions but that your judgements are the only thing that was ever yours, and that treating your body, reputation, or family as yours is a category error with predictable consequences. Read straight, it asks for a reordering of what you love, not a breathing exercise.",
+              "fa": "امروز رواقی‌گری را غالباً همچون فنی برای آرام و پربازده ماندن عرضه می‌کنند. اپیکتتوس سخت‌گیرتر از این است. ادعا آن نیست که باید واکنش‌هایت را مدیریت کنی، بلکه آن است که داوری‌هایت تنها چیزی است که هرگز از آنِ تو بوده، و اینکه بدن، آبرو یا خانواده‌ات را از آنِ خود بدانی خطایی مقوله‌ای است با پیامدهایی پیش‌بینی‌پذیر. اگر راست خوانده شود، بازچینشِ آنچه دوست می‌داری را می‌طلبد، نه یک تمرین تنفسی."
+            },
+            "citations": [
+              { "source": "epictetus-enchiridion", "locator": "ch. 1" }
+            ]
+          }
+        ]
+      },
+      "concepts": ["dichotomy-of-control"],
+      "works": ["enchiridion"],
+      "schools": ["stoicism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "confucius",
+      "name": { "en": "Confucius", "fa": "کنفوسیوس" },
+      "nativeName": "孔子",
+      "transliteration": "Kǒngzǐ",
+      "alsoKnownAs": ["Kong Qiu", "Kongzi", "Master Kong"],
+      "oneLine": {
+        "en": "Taught that a society is repaired by people becoming worth imitating, not by better rules.",
+        "fa": "آموخت که جامعه با انسان‌هایی که شایستهٔ تقلید شوند ترمیم می‌شود، نه با قواعد بهتر."
+      },
+      "life": {
+        "birth": { "year": -551, "precision": "circa" },
+        "death": { "year": -479, "precision": "circa" }
+      },
+      "birthPlace": { "en": "State of Lu", "fa": "دولت لو" },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "philosophy-of-education"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Confucius lived through the collapse of the Zhou order and concluded that what had failed was not the rules but the people keeping them. His answer was cultivation: ritual practice, study, and above all ren — a disposition toward others that no rule can specify.",
+              "fa": "کنفوسیوس فروپاشی نظم ژو را زیست و نتیجه گرفت که آنچه شکست خورده قواعد نبود، بلکه مردمی بودند که آن‌ها را نگاه می‌داشتند. پاسخ او پرورش بود: عمل آیینی، آموختن، و بیش از همه «رِن»؛ منشی در قبال دیگران که هیچ قاعده‌ای نمی‌تواند آن را مشخص کند."
+            }
+          },
+          {
+            "id": "not-his-book",
+            "heading": {
+              "en": "The Analects is not his book",
+              "fa": "«مکالمات» کتاب او نیست"
+            },
+            "depth": "standard",
+            "claim": "fact",
+            "body": {
+              "en": "The Analects was compiled by followers over a long period after his death, and its layers are not uniform in age or reliability. Quoting it is quoting a tradition's memory of a teacher, which is a different thing from quoting the teacher — a caveat that applies equally to Socrates and the Buddha.",
+              "fa": "«مکالمات» را پیروان در دوره‌ای دراز پس از مرگ او گرد آوردند، و لایه‌های آن از حیث قدمت و اعتبار یکدست نیستند. نقل از آن، نقلِ خاطرهٔ یک سنت از یک معلم است، و این با نقل از خود معلم فرق دارد؛ همان احتیاطی که دربارهٔ سقراط و بودا نیز صادق است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["ren"],
+      "works": ["analects"],
+      "schools": ["confucianism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "nagarjuna",
+      "name": { "en": "Nāgārjuna", "fa": "ناگارجونا" },
+      "nativeName": "नागार्जुन",
+      "transliteration": "Nāgārjuna",
+      "oneLine": {
+        "en": "Argued that nothing whatever has independent existence — including that argument.",
+        "fa": "برهان آورد که هیچ‌چیز وجود مستقل ندارد؛ از جمله خودِ همان برهان."
+      },
+      "life": {
+        "birth": { "year": 150, "precision": "circa" },
+        "death": { "year": 250, "precision": "circa" }
+      },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "logic", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nāgārjuna founded the Madhyamaka, the Middle Way school of Buddhist philosophy. His claim is that everything is empty (śūnya) — not that nothing exists, but that nothing exists independently, on its own terms, without depending on anything else.",
+              "fa": "ناگارجونا مذهب «مادیامَکه»، مکتب راه میانه در فلسفهٔ بودایی، را بنیاد نهاد. ادعای او این است که همه‌چیز تهی (شونیه) است؛ نه اینکه چیزی وجود ندارد، بلکه اینکه هیچ‌چیز مستقل، به‌خودی‌خود و بی‌وابستگی به دیگری، وجود ندارد."
+            }
+          },
+          {
+            "id": "self-application",
+            "heading": {
+              "en": "The move that makes it hard",
+              "fa": "حرکتی که کار را دشوار می‌کند"
+            },
+            "depth": "deep",
+            "claim": "interpretation",
+            "body": {
+              "en": "The obvious objection is that emptiness must itself be something — a foundation after all. Nāgārjuna accepts the objection and applies the thesis to itself: emptiness is also empty. Whether this is a coherent position or a sophisticated way of saying nothing has been debated for eighteen centuries, inside and outside Buddhist philosophy.",
+              "fa": "اعتراض بدیهی این است که خودِ «تهی‌بودگی» باید چیزی باشد؛ بنیادی، در نهایت. ناگارجونا اعتراض را می‌پذیرد و مدعا را بر خودش اطلاق می‌کند: تهی‌بودگی نیز تهی است. اینکه این موضعی منسجم است یا شیوه‌ای پیچیده برای هیچ‌نگفتن، هجده قرن است که در درون و بیرون فلسفهٔ بودایی محل بحث است."
+            },
+            "citations": [
+              { "source": "nagarjuna-mmk", "locator": "ch. 24" },
+              { "source": "sep" }
+            ]
+          }
+        ]
+      },
+      "concepts": ["sunyata"],
+      "works": ["mulamadhyamakakarika"],
+      "schools": ["madhyamaka"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ibn-sina",
+      "name": { "en": "Ibn Sīnā (Avicenna)", "fa": "ابن‌سینا" },
+      "nativeName": "ابن سينا",
+      "transliteration": "Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh ibn Sīnā",
+      "alsoKnownAs": [
+        "Avicenna",
+        "Ibn Sina",
+        "Pur-e Sina",
+        "پورسینا",
+        "شیخ‌الرئیس"
+      ],
+      "oneLine": {
+        "en": "Separated what a thing is from whether it is, and rebuilt metaphysics on the difference.",
+        "fa": "چیستیِ شیء را از هستیِ آن جدا کرد و مابعدالطبیعه را بر همین تمایز از نو ساخت."
+      },
+      "life": {
+        "birth": { "year": 980, "precision": "circa" },
+        "death": { "year": 1037, "precision": "exact" }
+      },
+      "birthPlace": {
+        "en": "Afshana, near Bukhara",
+        "fa": "افشنه، نزدیک بخارا"
+      },
+      "deathPlace": { "en": "Hamadan", "fa": "همدان" },
+      "traditions": ["islamic", "persian"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "logic",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ibn Sīnā was a physician, astronomer and the most influential philosopher of the Islamic world. His distinction between essence and existence — between what a thing is and the separate fact that it is — reshaped metaphysics in Arabic, Persian, Hebrew and Latin alike.",
+              "fa": "ابن‌سینا پزشک، اخترشناس و اثرگذارترین فیلسوف جهان اسلام بود. تمایز او میان ماهیت و وجود — میان چیستیِ یک شیء و این واقعیت جداگانه که هست — مابعدالطبیعه را در عربی، فارسی، عبری و لاتین یکسان دگرگون کرد."
+            }
+          },
+          {
+            "id": "essence-existence",
+            "heading": {
+              "en": "The distinction that changed metaphysics",
+              "fa": "تمایزی که مابعدالطبیعه را دگرگون کرد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "You can understand completely what a triangle is without that telling you whether any triangle exists. Ibn Sīnā takes this ordinary observation and makes it structural: for everything except one being, essence and existence come apart, which means existence is something received rather than something a thing has of itself. What it is received from must be a being whose essence just is to exist. The argument runs from the structure of contingency rather than from the world's beginning, which is why it is not the same as arguing that the universe must have had a first cause in time.",
+              "fa": "می‌توان کاملاً فهمید مثلث چیست، بی‌آنکه این فهم بگوید آیا مثلثی وجود دارد یا نه. ابن‌سینا این مشاهدهٔ ساده را می‌گیرد و ساختاری‌اش می‌کند: در همه‌چیز جز یک موجود، ماهیت و وجود از هم جدا می‌شوند؛ و این یعنی وجود چیزی است دریافت‌شده، نه چیزی که شیء از خود دارد. آنچه وجود از او دریافت می‌شود باید موجودی باشد که ماهیتش عین وجود اوست. این برهان از ساختار امکان می‌آغازد نه از آغازِ جهان، و به همین سبب با استدلال بر ضرورت یک علت نخستین در زمان یکی نیست."
+            },
+            "citations": [
+              { "source": "avicenna-isharat" },
+              { "source": "sep" }
+            ]
+          },
+          {
+            "id": "flying-man",
+            "heading": {
+              "en": "The Flying Man",
+              "fa": "انسان معلق"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "Imagine a person created fully formed in mid-air, in the dark, limbs apart, touching nothing — no sight, no sound, no sensation of the body at all. Ibn Sīnā claims such a person would still affirm that they exist. If that is right, awareness of oneself does not come through the senses and is not an inference from the body. The thought experiment predates Descartes' cogito by six centuries and is not identical to it: Ibn Sīnā is arguing about the soul's independence from the body, not building a foundation against scepticism.",
+              "fa": "انسانی را تصور کنید که یکباره کامل در هوا آفریده شده است؛ در تاریکی، با اندام‌های گشوده، بی‌تماس با هیچ‌چیز؛ نه دیدنی، نه شنیدنی، نه هیچ احساسی از بدن. ابن‌سینا مدعی است چنین کسی باز هم به هستیِ خود اذعان می‌کند. اگر چنین باشد، آگاهی از خویشتن از راه حواس نمی‌آید و استنتاجی از بدن نیست. این آزمون فکری شش قرن بر «کوگیتو»ی دکارت تقدم دارد و با آن یکی نیست: ابن‌سینا دربارهٔ استقلال نفْس از بدن استدلال می‌کند، نه دربارهٔ ساختن بنیادی در برابر شکاکیت."
+            },
+            "citations": [
+              { "source": "avicenna-shifa" },
+              { "source": "sep" }
+            ]
+          }
+        ]
+      },
+      "concepts": ["essence-existence-distinction"],
+      "works": ["isharat"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "al-ghazali",
+      "name": { "en": "Al-Ghazālī", "fa": "غزالی" },
+      "nativeName": "أبو حامد محمد الغزالي",
+      "transliteration": "Abū Ḥāmid Muḥammad al-Ghazālī",
+      "alsoKnownAs": ["Algazel", "ابوحامد محمد غزالی", "امام محمد غزالی"],
+      "oneLine": {
+        "en": "Dismantled the philosophers' certainties, including his own, and rebuilt from what survived.",
+        "fa": "یقین‌های فیلسوفان — و یقین خود — را فروریخت و از آنچه ماند دوباره ساخت."
+      },
+      "life": {
+        "birth": { "year": 1058, "precision": "circa" },
+        "death": { "year": 1111, "precision": "exact" }
+      },
+      "birthPlace": { "en": "Tus, Khorasan", "fa": "توس، خراسان" },
+      "deathPlace": { "en": "Tus, Khorasan", "fa": "توس، خراسان" },
+      "traditions": ["islamic", "persian"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-religion",
+        "metaphysics",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Al-Ghazālī was the leading theologian of his age, abandoned his position at the height of it after a personal crisis, and spent years in withdrawal before returning to write. His critique of Avicennan philosophy is the most consequential internal challenge Islamic philosophy received.",
+              "fa": "غزالی برجسته‌ترین متکلم روزگار خود بود، در اوج، پس از بحرانی شخصی، کرسی‌اش را رها کرد، و سال‌ها در عزلت گذراند پیش از آنکه به نوشتن بازگردد. نقد او بر فلسفهٔ سینوی مهم‌ترین چالش درونی‌ای است که فلسفهٔ اسلامی دریافت کرده است."
+            }
+          },
+          {
+            "id": "causation",
+            "heading": {
+              "en": "The attack on necessary causation",
+              "fa": "حمله به علیت ضروری"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Al-Ghazālī argues that the connection between what we call cause and effect is habitual, not necessary: we see cotton burn when fire touches it and infer that fire must burn it, but observation gives us succession, never necessity. The argument anticipates Hume's by six hundred years, though its purpose differs — Al-Ghazālī is clearing space for divine action, not for empiricism.",
+              "fa": "غزالی برهان می‌آورد که پیوند میان آنچه علت و معلولش می‌خوانیم عادی است، نه ضروری: می‌بینیم پنبه با تماس آتش می‌سوزد و نتیجه می‌گیریم که آتش ناگزیر می‌سوزاند؛ اما مشاهده به ما توالی می‌دهد، هرگز ضرورت. این برهان ششصد سال بر برهان هیوم تقدم دارد، هرچند مقصودش دیگر است: غزالی جا برای فعل الهی باز می‌کند، نه برای تجربه‌گرایی."
+            },
+            "citations": [
+              { "source": "ghazali-tahafut", "locator": "Discussion 17" },
+              { "source": "sep" }
+            ]
+          },
+          {
+            "id": "misreading",
+            "heading": {
+              "en": "A persistent misreading",
+              "fa": "بدفهمی‌ای دیرپا"
+            },
+            "depth": "deep",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "It is often said that Al-Ghazālī single-handedly ended philosophy in the Islamic world. Specialists have largely rejected this: philosophical work continued vigorously for centuries afterwards, particularly in Persia, and Al-Ghazālī himself used and taught Avicennan logic. The claim survives in popular accounts because it makes a tidy story.",
+              "fa": "بارها گفته شده که غزالی یک‌تنه فلسفه را در جهان اسلام پایان داد. متخصصان این را عمدتاً رد کرده‌اند: کار فلسفی قرن‌ها پس از او، به‌ویژه در ایران، پرتوان ادامه یافت، و خودِ غزالی منطق سینوی را به‌کار می‌برد و تعلیم می‌داد. این ادعا در روایت‌های عامه باقی مانده چون داستان مرتبی می‌سازد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "works": ["tahafut"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "mulla-sadra",
+      "name": { "en": "Mullā Ṣadrā", "fa": "ملاصدرا" },
+      "nativeName": "صدر الدین محمد شیرازی",
+      "transliteration": "Ṣadr al-Dīn Muḥammad Shīrāzī",
+      "alsoKnownAs": ["Sadr al-Din Shirazi", "صدرالمتألهین"],
+      "oneLine": {
+        "en": "Held that existence is prior to essence, and that substances themselves are in motion.",
+        "fa": "بر آن بود که وجود بر ماهیت تقدم دارد و خودِ جوهرها در حرکت‌اند."
+      },
+      "life": {
+        "birth": { "year": 1571, "precision": "circa" },
+        "death": { "year": 1636, "precision": "circa" }
+      },
+      "birthPlace": { "en": "Shiraz", "fa": "شیراز" },
+      "traditions": ["islamic", "persian"],
+      "branches": ["metaphysics", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mullā Ṣadrā synthesised Avicennan philosophy, Illuminationist thought and Sufi metaphysics into the school called Transcendent Wisdom. It remains the dominant philosophical tradition taught in Iran.",
+              "fa": "ملاصدرا فلسفهٔ سینوی، حکمت اشراق و مابعدالطبیعهٔ عرفانی را در مکتبی به‌نام «حکمت متعالیه» به هم آمیخت. این مکتب همچنان سنت فلسفی غالب در ایران است."
+            }
+          },
+          {
+            "id": "substantial-motion",
+            "heading": {
+              "en": "Substantial motion",
+              "fa": "حرکت جوهری"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Aristotle allowed that a substance can change in quality, quantity, place — but not that the substance itself is in motion, since motion needs something stable underneath it to be the thing that moves. Mullā Ṣadrā denies the requirement: substance itself is continuously renewed, and what looks like a persisting thing is a process holding a form. It is a genuinely radical position, and the nearest thing in classical philosophy to treating being as flow rather than as stuff.",
+              "fa": "ارسطو می‌پذیرفت که جوهر می‌تواند در کیف، کم و مکان دگرگون شود، اما نه اینکه خودِ جوهر در حرکت باشد؛ زیرا حرکت به چیزی پایدار در زیر خود نیاز دارد تا آنچه حرکت می‌کند باشد. ملاصدرا این شرط را انکار می‌کند: خودِ جوهر پیوسته تجدید می‌شود، و آنچه شیئی پایدار می‌نماید فرآیندی است که صورتی را نگاه می‌دارد. این موضعی به‌راستی رادیکال است و نزدیک‌ترین چیز در فلسفهٔ کلاسیک به فهم هستی همچون جریان، نه همچون مادّه."
+            },
+            "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["substantial-motion"],
+      "works": ["asfar"],
+      "schools": ["transcendent-wisdom"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "descartes",
+      "name": { "en": "René Descartes", "fa": "رنه دکارت" },
+      "transliteration": "René Descartes",
+      "oneLine": {
+        "en": "Doubted everything he could, and found one thing that could not be doubted away.",
+        "fa": "در هرچه می‌توانست شک کرد و یک چیز یافت که شک آن را نمی‌بُرد."
+      },
+      "life": {
+        "birth": { "year": 1596, "precision": "exact" },
+        "death": { "year": 1650, "precision": "exact" }
+      },
+      "birthPlace": {
+        "en": "La Haye en Touraine, France",
+        "fa": "لائه، تورن، فرانسه"
+      },
+      "deathPlace": { "en": "Stockholm", "fa": "استکهلم" },
+      "traditions": ["european"],
+      "branches": [
+        "epistemology",
+        "metaphysics",
+        "philosophy-of-mind",
+        "philosophy-of-mathematics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Descartes set out to find something that could not possibly be false, by deliberately doubting everything that could be doubted at all. What survived was the fact of his own thinking. He was also a first-rate mathematician: Cartesian coordinates are his.",
+              "fa": "دکارت در پی چیزی بود که ممکن نباشد نادرست باشد، و برای یافتنش عامدانه در هرچه شک‌بردار بود شک کرد. آنچه ماند، خودِ واقعیتِ اندیشیدنِ او بود. او ریاضی‌دانی درجه‌یک نیز بود: دستگاه مختصات دکارتی از اوست."
+            }
+          },
+          {
+            "id": "what-cogito-is-not",
+            "heading": {
+              "en": "What the cogito does not prove",
+              "fa": "آنچه کوگیتو ثابت نمی‌کند"
+            },
+            "depth": "standard",
+            "claim": "interpretation",
+            "body": {
+              "en": "\"I think, therefore I am\" is routinely read as establishing a self — a persisting thing that does the thinking. Read carefully, the argument delivers much less: that thinking is occurring, and that whatever is doing it exists while it does. Lichtenberg's objection is that Descartes was entitled only to \"there is thinking\", the way one says \"it is raining\". The gap between those two readings is where a great deal of later philosophy of mind lives.",
+              "fa": "«می‌اندیشم، پس هستم» را معمولاً چنین می‌خوانند که «خود»ی را اثبات می‌کند؛ چیزی پایدار که می‌اندیشد. با دقت که بخوانیم، برهان بسیار کمتر از این می‌دهد: اینکه اندیشیدنی در جریان است، و هرچه آن را انجام می‌دهد تا هنگام انجامش هست. اعتراض لیشتنبرگ آن است که دکارت تنها حق داشت بگوید «اندیشیدنی هست»، همان‌گونه که می‌گوییم «باران می‌بارد». فاصلهٔ میان این دو خوانش جایی است که بخش بزرگی از فلسفهٔ ذهنِ متأخر در آن زندگی می‌کند."
+            },
+            "citations": [
+              { "source": "descartes-meditations", "locator": "Meditation II" },
+              { "source": "sep" }
+            ]
+          }
+        ]
+      },
+      "concepts": ["cogito"],
+      "works": ["meditations"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "kant",
+      "name": { "en": "Immanuel Kant", "fa": "ایمانوئل کانت" },
+      "oneLine": {
+        "en": "Argued that the mind does not passively receive the world but shapes how it can appear at all.",
+        "fa": "برهان آورد که ذهن جهان را منفعلانه دریافت نمی‌کند، بلکه به چگونگیِ ظهور آن شکل می‌دهد."
+      },
+      "life": {
+        "birth": { "year": 1724, "precision": "exact" },
+        "death": { "year": 1804, "precision": "exact" }
+      },
+      "birthPlace": {
+        "en": "Königsberg, Prussia",
+        "fa": "کونیگسبرگ، پروس"
+      },
+      "deathPlace": { "en": "Königsberg, Prussia", "fa": "کونیگسبرگ، پروس" },
+      "traditions": ["european"],
+      "branches": [
+        "epistemology",
+        "metaphysics",
+        "ethics",
+        "aesthetics",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Kant asked how knowledge that is both necessary and about the world is possible at all, and answered that space, time and causality are not features we find in things but conditions we bring to experience. In ethics he argued that an action has moral worth only when done because it is right.",
+              "fa": "کانت پرسید چگونه اصلاً معرفتی ممکن است که هم ضروری باشد و هم دربارهٔ جهان، و پاسخ داد که مکان، زمان و علیت ویژگی‌هایی نیستند که در اشیا بیابیم، بلکه شرط‌هایی‌اند که ما به تجربه می‌آوریم. در اخلاق برهان آورد که کنش تنها هنگامی ارزش اخلاقی دارد که به این سبب انجام شود که درست است."
+            }
+          },
+          {
+            "id": "copernican",
+            "heading": {
+              "en": "The Copernican turn",
+              "fa": "چرخش کوپرنیکی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Kant's own image: astronomers made progress when they stopped assuming the heavens turn around the observer. Philosophy should try the same reversal — instead of asking how our concepts manage to conform to objects, ask what objects must be like in order to be experienced by minds structured as ours are. The cost is that things as they are in themselves fall outside what can be known.",
+              "fa": "تصویر خودِ کانت: اخترشناسان آنگاه پیش رفتند که دست از این فرض شستند که آسمان گرد ناظر می‌گردد. فلسفه باید همین وارونگی را بیازماید: به‌جای پرسش از اینکه مفاهیم ما چگونه با اشیا مطابق می‌شوند، بپرسیم اشیا باید چگونه باشند تا ذهن‌هایی با ساختار ما بتوانند آن‌ها را تجربه کنند. بهای این کار آن است که اشیا آنچنان‌که در خود هستند بیرون از قلمرو دانستنی می‌مانند."
+            },
+            "citations": [
+              { "source": "kant-critique-pure-reason", "locator": "Bxvi" }
+            ]
+          }
+        ]
+      },
+      "concepts": ["categorical-imperative"],
+      "works": ["critique-of-pure-reason"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "nietzsche",
+      "name": { "en": "Friedrich Nietzsche", "fa": "فریدریش نیچه" },
+      "oneLine": {
+        "en": "Diagnosed what happens to a culture whose deepest justifications have quietly stopped working.",
+        "fa": "تشخیص داد بر فرهنگی که ژرف‌ترین توجیه‌هایش خاموشانه از کار افتاده‌اند چه می‌گذرد."
+      },
+      "life": {
+        "birth": { "year": 1844, "precision": "exact" },
+        "death": { "year": 1900, "precision": "exact" }
+      },
+      "birthPlace": { "en": "Röcken, Prussia", "fa": "روکن، پروس" },
+      "deathPlace": { "en": "Weimar", "fa": "وایمار" },
+      "traditions": ["european"],
+      "branches": ["ethics", "metaphysics", "aesthetics", "social-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nietzsche wrote in aphorisms and attacked the foundations of European morality, arguing that its values had a history and served interests rather than descending from anywhere. He became a professor at twenty-four, collapsed at forty-four, and wrote nothing for the last eleven years of his life.",
+              "fa": "نیچه به قطعه‌نویسی می‌نوشت و به بنیادهای اخلاق اروپایی حمله کرد، با این برهان که ارزش‌های آن تاریخی دارند و به منافعی خدمت می‌کنند، نه آنکه از جایی فرود آمده باشند. در بیست‌وچهارسالگی استاد شد، در چهل‌وچهارسالگی فروریخت، و در یازده سال پایانی عمرش چیزی ننوشت."
+            }
+          },
+          {
+            "id": "god-is-dead",
+            "heading": {
+              "en": "\"God is dead\" is not a celebration",
+              "fa": "«خدا مرده است» جشن نیست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The line is spoken in The Gay Science by a madman who runs into a marketplace with a lantern and finds that the people there — who already do not believe — have no idea what has happened. Nietzsche's point is not that belief has been refuted but that a civilisation has removed its own foundation without noticing, and that the consequences are still coming. The passage reads as alarm, not triumph.",
+              "fa": "این جمله را در «حکمت شادان» دیوانه‌ای بر زبان می‌آورد که با فانوسی به بازار می‌دود و می‌بیند مردمِ آنجا — که پیشاپیش باور ندارند — هیچ نمی‌دانند چه رخ داده است. مقصود نیچه آن نیست که باور ابطال شده، بلکه آن است که تمدنی بنیاد خود را بی‌آنکه متوجه شود برداشته، و پیامدها هنوز در راه‌اند. این بند لحن هشدار دارد، نه پیروزی."
+            },
+            "citations": [
+              { "source": "nietzsche-gay-science", "locator": "§125" }
+            ]
+          },
+          {
+            "id": "sister",
+            "heading": {
+              "en": "What his sister did to the work",
+              "fa": "آنچه خواهرش با آثار او کرد"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "After Nietzsche's collapse his sister Elisabeth, an antisemite and later a supporter of the Nazi party, took control of his manuscripts and assembled unpublished notes into a book she titled The Will to Power. The selection and arrangement were hers. Scholarship has long since separated Nietzsche's published work from that construction, but the association it created is still repaired one reader at a time.",
+              "fa": "پس از فروپاشی نیچه، خواهرش الیزابت — یهودی‌ستیز و بعدها هوادار حزب نازی — بر دست‌نوشته‌های او مسلط شد و یادداشت‌های منتشرنشده را در کتابی گرد آورد که نامش را «ارادهٔ معطوف به قدرت» گذاشت. گزینش و چیدمان از او بود. پژوهش دیرزمانی است آثار منتشرشدهٔ نیچه را از آن ساخته جدا کرده است، اما پیوندی که ایجاد شد هنوز خواننده‌به‌خواننده ترمیم می‌شود."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "works": ["gay-science"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "beauvoir",
+      "name": { "en": "Simone de Beauvoir", "fa": "سیمون دوبووار" },
+      "oneLine": {
+        "en": "Showed that what looks like women's nature is the sediment of how they have been made to live.",
+        "fa": "نشان داد آنچه طبیعتِ زنان می‌نماید، رسوبِ شیوه‌ای است که وادار به زیستنش شده‌اند."
+      },
+      "life": {
+        "birth": { "year": 1908, "precision": "exact" },
+        "death": { "year": 1986, "precision": "exact" }
+      },
+      "birthPlace": { "en": "Paris", "fa": "پاریس" },
+      "deathPlace": { "en": "Paris", "fa": "پاریس" },
+      "traditions": ["european", "contemporary"],
+      "branches": [
+        "ethics",
+        "existential-philosophy",
+        "social-philosophy",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Beauvoir argued that woman has been constructed as the Other — the deviation from a male norm treated as simply human. The Second Sex assembles biology, history, myth and lived experience into that case, and founded modern feminist philosophy.",
+              "fa": "دوبووار برهان آورد که «زن» همچون «دیگری» ساخته شده است؛ انحرافی از هنجاری مردانه که صرفاً «انسان» تلقی می‌شود. «جنس دوم» زیست‌شناسی، تاریخ، اسطوره و تجربهٔ زیسته را در خدمت همین استدلال گرد می‌آورد و فلسفهٔ فمینیستی مدرن را بنیاد نهاد."
+            }
+          },
+          {
+            "id": "own-philosopher",
+            "heading": {
+              "en": "A philosopher in her own right",
+              "fa": "فیلسوفی به‌حق خود"
+            },
+            "depth": "standard",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "For decades Beauvoir was read as applying Sartre's existentialism to women's lives. That reading has been substantially revised: her Ethics of Ambiguity works out an account of freedom as necessarily bound up with other people's freedom, which Sartre's own early position could not supply, and there is a case that the influence ran in both directions. The older view persists in popular summaries.",
+              "fa": "دهه‌ها دوبووار را چنین می‌خواندند که اگزیستانسیالیسم سارتر را بر زندگی زنان اطلاق کرده است. این خوانش تا حد زیادی بازنگری شده است: «اخلاق ابهام» او تبیینی از آزادی می‌پرورد که ناگزیر با آزادی دیگران گره خورده است، چیزی که موضع نخستین خودِ سارتر نمی‌توانست فراهم کند؛ و استدلالی هست که تأثیر دوسویه بوده است. دیدگاه قدیمی‌تر در خلاصه‌های عامه باقی مانده است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "works": ["second-sex"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "du-bois",
+      "name": { "en": "W. E. B. Du Bois", "fa": "دبلیو. ای. بی. دوبویز" },
+      "transliteration": "William Edward Burghardt Du Bois",
+      "oneLine": {
+        "en": "Described what it is to see yourself permanently through the eyes of a world that despises you.",
+        "fa": "وصف کرد که چیست آنکه خود را پیوسته از چشم جهانی ببینی که تحقیرت می‌کند."
+      },
+      "life": {
+        "birth": { "year": 1868, "precision": "exact" },
+        "death": { "year": 1963, "precision": "exact" }
+      },
+      "birthPlace": {
+        "en": "Great Barrington, Massachusetts",
+        "fa": "گریت بارینگتون، ماساچوست"
+      },
+      "deathPlace": { "en": "Accra, Ghana", "fa": "آکرا، غنا" },
+      "traditions": ["american", "african", "contemporary"],
+      "branches": [
+        "social-philosophy",
+        "political-philosophy",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Du Bois was the first African American to earn a doctorate from Harvard, a founder of the NAACP, and a sociologist as much as a philosopher. His concept of double consciousness names a specific structure of experience rather than a general feeling of alienation.",
+              "fa": "دوبویز نخستین آمریکایی آفریقایی‌تبار بود که از هاروارد دکتری گرفت، از بنیادگذاران NAACP بود، و به همان اندازه که فیلسوف بود جامعه‌شناس نیز بود. مفهوم «آگاهی دوگانه»ی او ساختاری مشخص از تجربه را نام می‌گذارد، نه احساسی کلی از بیگانگی."
+            }
+          },
+          {
+            "id": "why-philosophy",
+            "heading": {
+              "en": "Why this is philosophy",
+              "fa": "چرا این فلسفه است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Du Bois was long excluded from philosophy curricula on the grounds that he was doing sociology or politics. The exclusion is hard to defend: double consciousness is a claim about the structure of self-knowledge under conditions of contempt, which is a question in the philosophy of mind and in epistemology whoever asks it. Which authors a discipline counts as its own is itself a philosophical decision, and not a neutral one.",
+              "fa": "دوبویز مدت‌ها به این بهانه از برنامه‌های درسی فلسفه بیرون گذاشته می‌شد که کارش جامعه‌شناسی یا سیاست است. دفاع از این کنارگذاری دشوار است: «آگاهی دوگانه» ادعایی است دربارهٔ ساختار خودشناسی در شرایط تحقیر، و این پرسشی است در فلسفهٔ ذهن و در معرفت‌شناسی، هرکه آن را بپرسد. اینکه یک رشته کدام مؤلفان را از آنِ خود می‌شمارد، خود تصمیمی فلسفی است، و تصمیمی بی‌طرف نیست."
+            },
+            "citations": [
+              { "source": "dubois-souls", "locator": "ch. 1" },
+              { "source": "sep" }
+            ]
+          }
+        ]
+      },
+      "concepts": ["double-consciousness"],
+      "works": ["souls-of-black-folk"],
+      "citations": [{ "source": "sep" }]
+    }
+  ]
+}

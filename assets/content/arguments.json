@@ -1,0 +1,166 @@
+{
+  "_comment": "Reconstructed arguments. Premises are numbered so that objections can name exactly which step they deny; the mapper rejects an objection pointing at a premise that does not exist.",
+  "arguments": [
+    {
+      "id": "contingency-argument",
+      "name": {
+        "en": "Avicenna's Argument from Contingency",
+        "fa": "برهان امکان و وجوب ابن‌سینا"
+      },
+      "oneLine": {
+        "en": "That there must be something whose existence is not borrowed, or nothing would exist at all.",
+        "fa": "اینکه باید چیزی باشد که وجودش عاریتی نیست، وگرنه اصلاً چیزی موجود نمی‌بود."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Everything that exists is either necessary in itself or possible in itself.",
+            "fa": "هر موجودی یا واجب بالذات است یا ممکن بالذات."
+          },
+          "gloss": {
+            "en": "Either its own nature guarantees that it exists, or it does not.",
+            "fa": "یا سرشت خودش هستی‌اش را تضمین می‌کند، یا نمی‌کند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "What is possible in itself does not exist unless something else makes it exist.",
+            "fa": "آنچه ممکن بالذات است موجود نمی‌شود مگر آنکه چیزی دیگر آن را موجود کند."
+          },
+          "gloss": {
+            "en": "If nothing about a thing requires it to be, then its being here needs an explanation outside it.",
+            "fa": "اگر هیچ‌چیز در یک شیء هستی‌اش را ایجاب نکند، بودنش نیازمند تبیینی بیرون از خودش است."
+          },
+          "citation": { "source": "avicenna-isharat" }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "The totality of all possible things is itself possible, and so cannot be what makes itself exist.",
+            "fa": "مجموع همهٔ ممکنات خود ممکن است، و از این‌رو نمی‌تواند موجِد خویش باشد."
+          },
+          "gloss": {
+            "en": "Adding up borrowed existence, however many times, never yields existence that is not borrowed.",
+            "fa": "جمع‌کردن وجودِ عاریتی، هرچند بار، هرگز وجودِ غیرعاریتی نمی‌سازد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore there exists something necessary in itself, whose essence is its existence.",
+          "fa": "پس چیزی هست که واجب بالذات است و ماهیتش عین وجود اوست."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That an infinite regress of things each explained by another leaves the whole unexplained.",
+          "fa": "اینکه تسلسلِ بی‌پایانِ چیزهایی که هریک با دیگری تبیین می‌شود، کل را تبیین‌نشده باقی می‌گذارد."
+        },
+        {
+          "en": "That the collection of contingent things is the sort of thing that can itself be asked about.",
+          "fa": "اینکه مجموعهٔ ممکنات از آن دست چیزهایی است که خودْ می‌توان دربارهٔ آن پرسید."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The argument treats the totality of contingent things as one more thing needing a cause. If every member of a collection is explained, there may be nothing left for an explanation of the collection to do.",
+            "fa": "این برهان با مجموع ممکنات همچون چیزی دیگر که علت می‌خواهد رفتار می‌کند. اگر هر عضو یک مجموعه تبیین شده باشد، شاید چیزی نماند که تبیینِ خودِ مجموعه بدان بپردازد."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "Avicenna's reply is that explaining each member by another member never explains why there is a series of borrowers rather than nothing — the question the objection dismisses is the one being asked.",
+              "fa": "پاسخ ابن‌سینا این است که تبیین هر عضو با عضوی دیگر هرگز توضیح نمی‌دهد چرا اصلاً زنجیره‌ای از وام‌گیرندگان هست به‌جای هیچ؛ همان پرسشی که اعتراض کنار می‌گذارد، پرسشِ اصلی است."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Existence is not a property a thing can have or lack, so the division of beings by whether their essence includes existence may be malformed from the start.",
+            "fa": "وجود ویژگی‌ای نیست که شیء بتواند داشته یا نداشته باشد؛ پس تقسیم موجودات بر پایهٔ اینکه ماهیتشان وجود را دربردارد یا نه، شاید از آغاز نادرست‌ساخت باشد."
+          },
+          "targets": ["p1"],
+          "raisedBy": "kant",
+          "replies": [
+            {
+              "en": "Defenders answer that Avicenna's argument, unlike the ontological argument Kant was attacking, never infers existence from a concept — it starts from the fact that something does exist.",
+              "fa": "مدافعان پاسخ می‌دهند که برهان ابن‌سینا، برخلاف برهان وجودی‌ای که کانت هدف گرفته بود، هرگز وجود را از یک مفهوم استنتاج نمی‌کند؛ بلکه از این واقعیت می‌آغازد که چیزی موجود هست."
+            }
+          ],
+          "citations": [{ "source": "kant-critique-pure-reason", "locator": "A592/B620" }]
+        }
+      ],
+      "proponents": ["ibn-sina"],
+      "opponents": ["kant"],
+      "work": "isharat",
+      "concepts": ["essence-existence-distinction"],
+      "branches": ["metaphysics", "philosophy-of-religion"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "third-man-argument",
+      "name": { "en": "The Third Man Argument", "fa": "برهان مرد سوم" },
+      "oneLine": {
+        "en": "That the Forms, as Plato describes them, generate an infinite series of further Forms.",
+        "fa": "اینکه «صور»، آنچنان‌که افلاطون وصفشان می‌کند، زنجیره‌ای بی‌پایان از صورت‌های دیگر می‌زایند."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Whenever several things are all large, there is a Form of Largeness by which they are large.",
+            "fa": "هرگاه چند چیز همه بزرگ باشند، صورتی از بزرگی هست که به‌سبب آن بزرگ‌اند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "The Form of Largeness is itself large.",
+            "fa": "خودِ صورتِ بزرگی، بزرگ است."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "No Form is what makes itself have its own character.",
+            "fa": "هیچ صورتی، خودْ آنچه نیست که ویژگیِ خودش را به او می‌دهد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore the large things together with Largeness require a second Form of Largeness, and that group a third, without end.",
+          "fa": "پس چیزهای بزرگ به‌همراه بزرگی، صورتِ دومی از بزرگی می‌طلبند، و آن گروه صورتِ سومی، و همین‌طور بی‌پایان."
+        }
+      },
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The regress only follows if the Form has its character in the same sense that the things do. If Largeness is large in a different sense — as the standard rather than as an instance — the second premise fails.",
+            "fa": "این تسلسل تنها در صورتی لازم می‌آید که صورت، ویژگی خود را به همان معنایی داشته باشد که اشیا دارند. اگر «بزرگی» به معنایی دیگر بزرگ باشد — همچون معیار، نه همچون مصداق — مقدمهٔ دوم فرو می‌ریزد."
+          },
+          "targets": ["p2"],
+          "replies": [
+            {
+              "en": "The reply concedes the point but leaves Plato needing an account of what it is for a Form to have a character in that other sense — which the dialogues do not supply.",
+              "fa": "این پاسخ نکته را می‌پذیرد، اما افلاطون را نیازمند تبیینی می‌گذارد از اینکه داشتنِ ویژگی به آن معنای دیگر چیست؛ تبیینی که گفت‌وگوها فراهم نمی‌کنند."
+            }
+          ]
+        }
+      ],
+      "proponents": ["plato"],
+      "opponents": ["aristotle"],
+      "concepts": ["theory-of-forms"],
+      "branches": ["metaphysics", "logic"],
+      "citations": [{ "source": "sep" }]
+    }
+  ]
+}

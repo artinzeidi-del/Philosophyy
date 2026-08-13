@@ -1,0 +1,227 @@
+{
+  "@@locale": "en",
+
+  "appName": "Philosophia",
+  "@appName": {
+    "description": "The product name. Not translated — it is a proper noun."
+  },
+
+  "appTagline": "The world's philosophy, in one place",
+  "@appTagline": {
+    "description": "Shown under the app name on the home screen header."
+  },
+
+  "navHome": "Home",
+  "@navHome": { "description": "Bottom navigation label for the home tab." },
+
+  "navExplore": "Explore",
+  "@navExplore": {
+    "description": "Bottom navigation label for the browse-by-tradition tab."
+  },
+
+  "navSearch": "Search",
+  "@navSearch": { "description": "Bottom navigation label for search." },
+
+  "navSettings": "Settings",
+  "@navSettings": { "description": "Bottom navigation label for settings." },
+
+  "searchHint": "Philosophers, ideas, works…",
+  "@searchHint": {
+    "description": "Placeholder inside the search field."
+  },
+
+  "searchInvitationTitle": "What are you looking for?",
+  "@searchInvitationTitle": {
+    "description": "Heading shown in search before anything is typed."
+  },
+
+  "searchInvitationBody": "Search in Persian or English. Names work in any spelling — Avicenna, Ibn Sīnā and ابن‌سینا all find the same person.",
+  "@searchInvitationBody": {
+    "description": "Explains the search box's cross-language behaviour."
+  },
+
+  "searchNoResultsTitle": "Nothing found for “{query}”",
+  "@searchNoResultsTitle": {
+    "description": "Zero-results heading.",
+    "placeholders": { "query": { "type": "String" } }
+  },
+
+  "searchNoResultsBody": "Check the spelling, or try a broader word — a tradition, a branch of philosophy, or a question.",
+  "@searchNoResultsBody": {
+    "description": "Zero-results guidance."
+  },
+
+  "searchResultCount": "{count, plural, =0{No results} =1{1 result} other{{count} results}}",
+  "@searchResultCount": {
+    "description": "Result count above the search results list.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "searchMatchedInBody": "matched in the article",
+  "@searchMatchedInBody": {
+    "description": "Shown on a result whose title does not contain the query, so the reader understands why it is listed."
+  },
+
+  "homeDailyIdea": "Today's idea",
+  "@homeDailyIdea": { "description": "Section heading for the daily entry." },
+
+  "homeStartHere": "Start here",
+  "@homeStartHere": {
+    "description": "Section heading for entry points aimed at newcomers."
+  },
+
+  "homeBrowseByTradition": "Traditions",
+  "@homeBrowseByTradition": {
+    "description": "Section heading for the tradition list."
+  },
+
+  "homeBrowseByBranch": "Branches of philosophy",
+  "@homeBrowseByBranch": {
+    "description": "Section heading for the branch list."
+  },
+
+  "homeSurpriseMe": "Surprise me",
+  "@homeSurpriseMe": {
+    "description": "Button that opens a randomly chosen entry."
+  },
+
+  "sectionOverview": "Overview",
+  "@sectionOverview": { "description": "Heading for an entity's summary." },
+
+  "sectionWorks": "Works",
+  "@sectionWorks": { "description": "Heading for a philosopher's works." },
+
+  "sectionConcepts": "Key ideas",
+  "@sectionConcepts": { "description": "Heading for related concepts." },
+
+  "sectionQuotes": "Quotations",
+  "@sectionQuotes": { "description": "Heading for quotations." },
+
+  "sectionConnections": "Connections",
+  "@sectionConnections": {
+    "description": "Heading for the knowledge-graph relations."
+  },
+
+  "sectionSources": "Sources",
+  "@sectionSources": { "description": "Heading for the citation list." },
+
+  "sectionExamples": "Examples",
+  "@sectionExamples": { "description": "Heading for a concept's examples." },
+
+  "sectionCounterexamples": "Not this",
+  "@sectionCounterexamples": {
+    "description": "Heading for cases that are commonly mistaken for the concept."
+  },
+
+  "sectionCentralClaims": "What it holds",
+  "@sectionCentralClaims": {
+    "description": "Heading for a school's central claims."
+  },
+
+  "depthSelectorLabel": "Depth",
+  "@depthSelectorLabel": {
+    "description": "Label for the control that chooses how much detail to show."
+  },
+
+  "readDeeper": "Read deeper",
+  "@readDeeper": {
+    "description": "Button that moves the reader to the next depth level."
+  },
+
+  "noDeeperContent": "This is the deepest version written so far.",
+  "@noDeeperContent": {
+    "description": "Shown instead of the read-deeper button when no further content exists — the product does not invite readers into empty rooms."
+  },
+
+  "translationMissing": "Not yet translated into Persian — showing English.",
+  "@translationMissing": {
+    "description": "Honest notice shown to a Persian reader when a fallback occurred."
+  },
+
+  "born": "Born",
+  "@born": { "description": "Label before a birth year." },
+
+  "died": "Died",
+  "@died": { "description": "Label before a death year." },
+
+  "yearBce": "{year} BCE",
+  "@yearBce": {
+    "description": "A year before the common era.",
+    "placeholders": { "year": { "type": "int" } }
+  },
+
+  "yearCe": "{year} CE",
+  "@yearCe": {
+    "description": "A year in the common era.",
+    "placeholders": { "year": { "type": "int" } }
+  },
+
+  "yearApproximate": "c. {year}",
+  "@yearApproximate": {
+    "description": "Wraps a year whose value is a scholarly estimate.",
+    "placeholders": { "year": { "type": "String" } }
+  },
+
+  "attributionCaveat": "Read the note before quoting this.",
+  "@attributionCaveat": {
+    "description": "Warning attached to a quotation that is not verified."
+  },
+
+  "actualSourceLabel": "Actually from",
+  "@actualSourceLabel": {
+    "description": "Label before the true origin of a misattributed quotation."
+  },
+
+  "settingsLanguage": "Language",
+  "@settingsLanguage": { "description": "Settings row for language." },
+
+  "settingsTheme": "Appearance",
+  "@settingsTheme": { "description": "Settings row for the theme." },
+
+  "settingsThemeLight": "Light",
+  "@settingsThemeLight": { "description": "Light theme option." },
+
+  "settingsThemeDark": "Dark",
+  "@settingsThemeDark": { "description": "Dark theme option." },
+
+  "settingsThemeSystem": "Match system",
+  "@settingsThemeSystem": { "description": "Follow the OS theme." },
+
+  "settingsReadingLevel": "Reading level",
+  "@settingsReadingLevel": {
+    "description": "Settings row for the reader's self-declared level."
+  },
+
+  "settingsReadingLevelHelp": "Sets how much detail entries open with. You can change depth on any entry.",
+  "@settingsReadingLevelHelp": {
+    "description": "Explains that the level is a default, not a lock."
+  },
+
+  "settingsAbout": "About",
+  "@settingsAbout": { "description": "Settings row for licences and credits." },
+
+  "errorTitle": "Something went wrong",
+  "@errorTitle": { "description": "Generic error heading." },
+
+  "errorBody": "The content could not be loaded. This is a fault in the app, not in your connection — everything is stored on your device.",
+  "@errorBody": {
+    "description": "Generic error body. Says plainly that it is not the reader's fault, and that the app is offline-first."
+  },
+
+  "retry": "Try again",
+  "@retry": { "description": "Retry button." },
+
+  "loading": "Loading",
+  "@loading": {
+    "description": "Accessibility label announced while content loads."
+  },
+
+  "notFoundTitle": "This entry does not exist",
+  "@notFoundTitle": { "description": "Shown for an unresolvable route." },
+
+  "notFoundBody": "The link may be out of date. Try searching for it instead.",
+  "@notFoundBody": { "description": "Guidance for a dead link." },
+
+  "backToHome": "Back to home",
+  "@backToHome": { "description": "Button on the not-found screen." }
+}

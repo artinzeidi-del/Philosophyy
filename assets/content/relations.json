@@ -1,0 +1,150 @@
+{
+  "_comment": "Knowledge-graph edges. Authored in one direction only; the graph derives the reading from the other end. Authorship of works is NOT recorded here — it lives on the work record — so that one fact has one home.",
+  "relations": [
+    {
+      "subject": "philosopher:socrates",
+      "type": "influenced",
+      "object": "philosopher:plato",
+      "note": {
+        "en": "Plato made Socrates the speaker of almost every dialogue he wrote, which is why the two are so hard to separate.",
+        "fa": "افلاطون سقراط را گویندهٔ تقریباً هر گفت‌وگویی که نوشت کرد؛ و به همین سبب جداکردن این دو چنین دشوار است."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "philosopher:plato",
+      "type": "influenced",
+      "object": "philosopher:aristotle",
+      "note": {
+        "en": "Aristotle studied in the Academy for around twenty years before founding his own school.",
+        "fa": "ارسطو نزدیک بیست سال در آکادمی آموخت، پیش از آنکه مدرسهٔ خود را بنیاد نهد."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "philosopher:aristotle",
+      "type": "criticized",
+      "object": "concept:theory-of-forms",
+      "note": {
+        "en": "His objection is that Forms separated from things explain nothing, since the question of how they connect replaces the question they were introduced to answer.",
+        "fa": "اعتراض او این است که صورت‌های جدا از اشیا چیزی را تبیین نمی‌کنند، چون پرسش از چگونگی پیوندشان جای همان پرسشی را می‌گیرد که برای پاسخ به آن آورده شده بودند."
+      },
+      "sources": ["aristotle-metaphysics"]
+    },
+    {
+      "subject": "philosopher:aristotle",
+      "type": "influenced",
+      "object": "philosopher:ibn-sina",
+      "note": {
+        "en": "Avicenna worked within the Aristotelian framework transmitted through Arabic translation, and reshaped it substantially.",
+        "fa": "ابن‌سینا در چارچوب ارسطویی‌ای کار کرد که از راه ترجمهٔ عربی رسیده بود، و آن را به‌طور اساسی بازساخت."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "philosopher:al-ghazali",
+      "type": "criticized",
+      "object": "philosopher:ibn-sina",
+      "note": {
+        "en": "The Incoherence of the Philosophers targets twenty theses, most of them Avicenna's, on three of which al-Ghazālī judged the philosophers to have left Islam.",
+        "fa": "«تهافت الفلاسفه» بیست مدعا را هدف می‌گیرد که بیشترشان از آنِ ابن‌سیناست؛ و غزالی در سه مورد آن‌ها فیلسوفان را از اسلام بیرون دانست."
+      },
+      "sources": ["ghazali-tahafut"]
+    },
+    {
+      "subject": "philosopher:ibn-sina",
+      "type": "influenced",
+      "object": "philosopher:mulla-sadra",
+      "note": {
+        "en": "Mullā Ṣadrā takes over Avicenna's vocabulary of essence and existence and then reverses its priority.",
+        "fa": "ملاصدرا واژگان ماهیت و وجودِ ابن‌سینا را می‌گیرد و سپس تقدم آن‌ها را وارونه می‌کند."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "philosopher:mulla-sadra",
+      "type": "developed",
+      "object": "concept:essence-existence-distinction",
+      "note": {
+        "en": "Where Avicenna distinguishes essence from existence, Ṣadrā argues existence is the fundamentally real term and essence a derived abstraction.",
+        "fa": "آنجا که ابن‌سینا ماهیت را از وجود تمییز می‌دهد، ملاصدرا برهان می‌آورد که وجود اصیل است و ماهیت انتزاعی برگرفته."
+      },
+      "sources": ["sadra-asfar"]
+    },
+    {
+      "subject": "philosopher:descartes",
+      "type": "influenced",
+      "object": "philosopher:kant",
+      "note": {
+        "en": "Kant's project begins from the problem Descartes bequeathed: how a mind can know anything beyond its own states.",
+        "fa": "پروژهٔ کانت از همان مسئله‌ای می‌آغازد که دکارت به میراث گذاشت: اینکه ذهن چگونه می‌تواند چیزی فراتر از حالات خود بداند."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "philosopher:kant",
+      "type": "criticized",
+      "object": "argument:contingency-argument",
+      "note": {
+        "en": "Kant's argument that existence is not a predicate is aimed at the ontological argument, but has been pressed against contingency arguments too.",
+        "fa": "استدلال کانت که وجود محمول نیست، برهان وجودی را هدف گرفته، اما بر براهین امکان نیز اقامه شده است."
+      },
+      "sources": ["kant-critique-pure-reason"]
+    },
+    {
+      "subject": "philosopher:nietzsche",
+      "type": "opposed",
+      "object": "concept:categorical-imperative",
+      "note": {
+        "en": "Nietzsche's objection is not that the principle is wrong but that a morality binding on everyone regardless of who they are is itself the thing needing explanation.",
+        "fa": "اعتراض نیچه این نیست که این اصل نادرست است، بلکه آن است که اخلاقی که فارغ از اینکه کسی کیست بر همه الزام‌آور باشد، خودْ همان چیزی است که نیازمند تبیین است."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "philosopher:beauvoir",
+      "type": "related-to",
+      "object": "philosopher:du-bois",
+      "note": {
+        "en": "Both analyse how a group is constituted as the Other by a norm that presents itself as simply human; the parallel is now widely drawn, though neither was working from the other.",
+        "fa": "هر دو تحلیل می‌کنند که چگونه گروهی به‌دست هنجاری که خود را صرفاً «انسان» می‌نمایاند همچون «دیگری» برساخته می‌شود؛ این تشابه اکنون بسیار طرح می‌شود، هرچند هیچ‌یک از دیگری کار نمی‌گرفت."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "concept:cogito",
+      "type": "related-to",
+      "object": "concept:essence-existence-distinction",
+      "note": {
+        "en": "Avicenna's Flying Man reaches self-awareness without the senses six centuries before the cogito, though it argues for the soul's independence rather than against scepticism.",
+        "fa": "«انسان معلق» ابن‌سینا شش قرن پیش از کوگیتو به خودآگاهی بدون حواس می‌رسد، هرچند برای استقلال نفْس استدلال می‌کند نه در برابر شکاکیت."
+      },
+      "sources": ["sep"]
+    },
+    {
+      "subject": "philosopher:epictetus",
+      "type": "belongs-to",
+      "object": "school:stoicism"
+    },
+    {
+      "subject": "philosopher:nagarjuna",
+      "type": "belongs-to",
+      "object": "school:madhyamaka"
+    },
+    {
+      "subject": "philosopher:confucius",
+      "type": "belongs-to",
+      "object": "school:confucianism"
+    },
+    {
+      "subject": "school:aristotelianism",
+      "type": "opposed",
+      "object": "school:platonism",
+      "note": {
+        "en": "The dispute is about where form is: separate from things, or in them.",
+        "fa": "نزاع بر سر جایگاه صورت است: جدا از اشیا، یا در آن‌ها."
+      },
+      "sources": ["sep"]
+    }
+  ]
+}

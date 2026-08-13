@@ -1,0 +1,172 @@
+{
+  "_comment": "Quotations. A quotation marked 'verified' MUST carry a citation locating it in a source; anything else MUST carry an attributionNote explaining the doubt. Both rules are enforced by the mapper, not left to review.",
+  "quotes": [
+    {
+      "id": "socrates-unexamined-life",
+      "text": {
+        "en": "The unexamined life is not worth living for a human being.",
+        "fa": "زندگیِ نیازموده برای آدمی ارزش زیستن ندارد."
+      },
+      "originalText": "ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+      "speaker": "socrates",
+      "work": "apology",
+      "attribution": "verified",
+      "citation": { "source": "plato-apology", "locator": "38a" },
+      "context": {
+        "en": "Said at his trial, after the guilty verdict, explaining why he will not accept exile with a promise to stop philosophising. He is not offering a maxim about self-improvement; he is refusing to buy his life at the price of the activity that made it his.",
+        "fa": "در محاکمه، پس از رأی محکومیت، در توضیح اینکه چرا تبعید را به‌شرط ترک فلسفه نمی‌پذیرد. او اندرزی دربارهٔ خودسازی نمی‌دهد؛ از خریدن جانش به بهای همان کاری که زندگی را از آنِ او می‌کرد سر باز می‌زند."
+      },
+      "concepts": ["socratic-method"]
+    },
+    {
+      "id": "socrates-know-nothing",
+      "text": {
+        "en": "I know that I know nothing.",
+        "fa": "می‌دانم که هیچ نمی‌دانم."
+      },
+      "speaker": "socrates",
+      "attribution": "disputed",
+      "attributionNote": {
+        "en": "Socrates never says this. The nearest thing in Plato is Apology 21d, where he says that what he does not know he does not think he knows — a claim about not overestimating oneself, not a paradoxical claim to know one's own ignorance. The pithy version is a later condensation, circulated in Latin as \"scio me nihil scire\". It is close enough to his position to be a fair paraphrase and far enough from his words not to be a quotation.",
+        "fa": "سقراط هرگز چنین نمی‌گوید. نزدیک‌ترین عبارت نزد افلاطون «آپولوژی» ۲۱د است، آنجا که می‌گوید آنچه را نمی‌داند، گمان نمی‌کند که می‌داند؛ ادعایی دربارهٔ بیش‌ازحد نپنداشتنِ خود، نه ادعایی متناقض‌نما دربارهٔ دانستنِ نادانیِ خویش. صورت موجز آن، فشرده‌سازیِ متأخری است که در لاتین با عبارت «scio me nihil scire» رواج یافت. آن‌قدر به موضع او نزدیک هست که بازگفتی منصفانه باشد، و آن‌قدر از واژه‌هایش دور که نقل‌قول نباشد."
+      },
+      "actualSource": {
+        "en": "A later paraphrase of Plato, Apology 21d.",
+        "fa": "بازگفتی متأخر از افلاطون، آپولوژی ۲۱د."
+      },
+      "concepts": ["socratic-method"]
+    },
+    {
+      "id": "aristotle-wonder",
+      "text": {
+        "en": "It is through wonder that people now begin, and originally began, to philosophise.",
+        "fa": "از راه شگفتی است که مردم اکنون به فلسفیدن می‌آغازند، و در آغاز نیز آغازیدند."
+      },
+      "speaker": "aristotle",
+      "attribution": "verified",
+      "citation": { "source": "aristotle-metaphysics", "locator": "982b" },
+      "context": {
+        "en": "Aristotle is explaining why philosophy is pursued for no further end: it starts from puzzlement, and puzzlement is relieved by understanding rather than by use.",
+        "fa": "ارسطو توضیح می‌دهد چرا فلسفه برای هیچ غایت دیگری دنبال نمی‌شود: از سرگشتگی می‌آغازد، و سرگشتگی با فهم رفع می‌شود، نه با کاربرد."
+      }
+    },
+    {
+      "id": "aristotle-excellence-habit",
+      "text": {
+        "en": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        "fa": "ما همان چیزی هستیم که بارها انجام می‌دهیم. پس تعالی یک کنش نیست، یک عادت است."
+      },
+      "speaker": "aristotle",
+      "attribution": "misattributed",
+      "attributionNote": {
+        "en": "These are not Aristotle's words. The sentences come from Will Durant's The Story of Philosophy (1926), where Durant is summarising Aristotle's position in his own prose. The summary is a reasonable one — Aristotle does hold that virtue is formed by repeated action — which is exactly why the misattribution has proved so durable.",
+        "fa": "این‌ها سخنان ارسطو نیستند. این جمله‌ها از کتاب «تاریخ فلسفه» ویل دورانت (۱۹۲۶) می‌آیند، آنجا که دورانت موضع ارسطو را به نثر خود خلاصه می‌کند. این خلاصه معقول است — ارسطو به‌راستی بر آن است که فضیلت با کنش مکرر شکل می‌گیرد — و دقیقاً به همین سبب این انتساب نادرست چنین پایدار مانده است."
+      },
+      "actualSource": {
+        "en": "Will Durant, The Story of Philosophy (1926), paraphrasing Aristotle.",
+        "fa": "ویل دورانت، «تاریخ فلسفه» (۱۹۲۶)، در بازگفت ارسطو."
+      },
+      "concepts": ["golden-mean"]
+    },
+    {
+      "id": "epictetus-disturbed",
+      "text": {
+        "en": "People are disturbed not by things, but by the views they take of them.",
+        "fa": "مردم را نه چیزها، بلکه نظرهایی که دربارهٔ چیزها دارند می‌آشوبد."
+      },
+      "speaker": "epictetus",
+      "work": "enchiridion",
+      "attribution": "verified",
+      "citation": { "source": "epictetus-enchiridion", "locator": "ch. 5" },
+      "context": {
+        "en": "Epictetus' example is death: death itself is not terrible, or Socrates would have found it so; what is terrible is the judgement that death is terrible.",
+        "fa": "مثال اپیکتتوس مرگ است: خودِ مرگ هولناک نیست، وگرنه سقراط نیز آن را چنین می‌یافت؛ آنچه هولناک است داوریِ هولناک‌بودن مرگ است."
+      },
+      "concepts": ["dichotomy-of-control"]
+    },
+    {
+      "id": "confucius-reciprocity",
+      "text": {
+        "en": "What you do not wish for yourself, do not do to others.",
+        "fa": "آنچه برای خود نمی‌خواهی، بر دیگران روا مدار."
+      },
+      "originalText": "己所不欲，勿施於人",
+      "speaker": "confucius",
+      "work": "analects",
+      "attribution": "verified",
+      "citation": { "source": "confucius-analects", "locator": "Book XV" },
+      "context": {
+        "en": "Given as the answer to a student who asks for a single word that can be practised for a whole life. The answer is shu — reciprocity — stated negatively, as a restraint rather than a programme.",
+        "fa": "در پاسخ به شاگردی که واژه‌ای یگانه می‌خواهد که بتوان یک عمر بدان عمل کرد. پاسخ «شو» است — دوسویگی — که به‌صورت منفی بیان می‌شود؛ همچون بازدارنده، نه همچون برنامه."
+      },
+      "concepts": ["ren"]
+    },
+    {
+      "id": "descartes-cogito",
+      "text": {
+        "en": "I think, therefore I am.",
+        "fa": "می‌اندیشم، پس هستم."
+      },
+      "originalText": "je pense, donc je suis",
+      "speaker": "descartes",
+      "attribution": "verified",
+      "citation": { "source": "descartes-discourse", "locator": "Part IV" },
+      "context": {
+        "en": "The famous formulation appears in the Discourse on the Method, not in the Meditations — where the same insight is stated instead as \"I am, I exist\", and pointedly without the \"therefore\".",
+        "fa": "این صورت‌بندی مشهور در «گفتار در روش» می‌آید، نه در «تأملات»؛ که در آنجا همان بصیرت به‌صورت «هستم، وجود دارم» بیان می‌شود، و به‌عمد بدون آن «پس»."
+      },
+      "concepts": ["cogito"]
+    },
+    {
+      "id": "nietzsche-god-is-dead",
+      "text": {
+        "en": "God is dead. God remains dead. And we have killed him.",
+        "fa": "خدا مرده است. خدا مرده می‌ماند. و ما او را کشته‌ایم."
+      },
+      "originalText": "Gott ist todt! Gott bleibt todt! Und wir haben ihn getödtet!",
+      "speaker": "nietzsche",
+      "work": "gay-science",
+      "attribution": "verified",
+      "citation": { "source": "nietzsche-gay-science", "locator": "§125" },
+      "context": {
+        "en": "Spoken by a madman with a lantern who runs into a marketplace of unbelievers and finds they have not grasped what they have done. The passage is horrified, not triumphant, and the madman concludes that he has come too early.",
+        "fa": "از زبان دیوانه‌ای با فانوس که به بازارِ بی‌ایمانان می‌دود و می‌بیند درنیافته‌اند چه کرده‌اند. لحن این بند هراس‌زده است، نه پیروزمندانه، و دیوانه نتیجه می‌گیرد که زود آمده است."
+      }
+    },
+    {
+      "id": "beauvoir-becomes-woman",
+      "text": {
+        "en": "One is not born, but rather becomes, a woman.",
+        "fa": "زن زاده نمی‌شوند، زن می‌شوند."
+      },
+      "originalText": "On ne naît pas femme : on le devient.",
+      "speaker": "beauvoir",
+      "work": "second-sex",
+      "attribution": "verified",
+      "citation": {
+        "source": "beauvoir-second-sex",
+        "locator": "Volume II, opening"
+      },
+      "context": {
+        "en": "The opening sentence of the second volume, which turns from what has been said about women to how a girl is formed into one. It is a claim about social formation, not a denial that bodies differ.",
+        "fa": "نخستین جملهٔ جلد دوم، که از آنچه دربارهٔ زنان گفته شده به این می‌گردد که چگونه دختری به زن ساخته می‌شود. این ادعایی است دربارهٔ شکل‌گیری اجتماعی، نه انکار تفاوت بدن‌ها."
+      }
+    },
+    {
+      "id": "dubois-two-souls",
+      "text": {
+        "en": "One ever feels his two-ness — an American, a Negro; two souls, two thoughts, two unreconciled strivings.",
+        "fa": "آدمی همواره دوگانگی خود را حس می‌کند — یک آمریکایی، یک سیاه؛ دو جان، دو اندیشه، دو کوششِ آشتی‌ناپذیر."
+      },
+      "speaker": "du-bois",
+      "work": "souls-of-black-folk",
+      "attribution": "verified",
+      "citation": { "source": "dubois-souls", "locator": "ch. 1" },
+      "context": {
+        "en": "From the passage introducing double consciousness. Du Bois' wording is of its time; the analysis is of the structure of self-perception under a hostile gaze.",
+        "fa": "از بندی که «آگاهی دوگانه» را معرفی می‌کند. واژگان دوبویز از آنِ روزگار اوست؛ تحلیل او دربارهٔ ساختار خودادراکی زیر نگاهی خصمانه است."
+      },
+      "concepts": ["double-consciousness"]
+    }
+  ]
+}
