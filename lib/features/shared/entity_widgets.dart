@@ -6,6 +6,7 @@ import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
+import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
@@ -263,6 +264,80 @@ class AttributionBadge extends StatelessWidget {
                 style: theme.textTheme.labelSmall?.copyWith(color: colour),
               ),
             ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Says how well established a knowledge-graph connection is.
+///
+/// A graph draws every edge the same way, which makes every edge look like the
+/// same kind of claim. "Aristotle studied under Plato" and "Heraclitus
+/// influenced Hegel" are not the same kind of claim, and a reader has no way to
+/// tell them apart unless the product says so.
+///
+/// Nothing is drawn for [RelationConfidence.accepted]: it is the unremarkable
+/// middle, and badging every edge would turn the marking into wallpaper that
+/// stops carrying information. [RelationConfidence.documented] *is* drawn,
+/// because "a text says so" is worth telling a reader who wants to go and read
+/// it.
+class RelationConfidenceBadge extends StatelessWidget {
+  const RelationConfidenceBadge({
+    required this.confidence,
+    required this.language,
+    super.key,
+  });
+
+  /// How well established the connection is.
+  final RelationConfidence confidence;
+
+  /// The language to render the label in.
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    if (confidence == RelationConfidence.accepted) {
+      return const SizedBox.shrink();
+    }
+
+    final semantic = context.semanticColors;
+    final theme = Theme.of(context);
+    // Reusing the attribution palette rather than inventing a second one: the
+    // product already teaches the reader that this amber means "probable" and
+    // this orange means "contested", and a parallel vocabulary would undo that.
+    final colour = switch (confidence) {
+      RelationConfidence.documented => semantic.verified,
+      RelationConfidence.accepted => semantic.verified,
+      RelationConfidence.probable => semantic.probable,
+      RelationConfidence.contested => semantic.disputed,
+      RelationConfidence.speculative => semantic.unknownProvenance,
+    };
+    final label = TaxonomyLabels.relationConfidence(confidence)
+        .resolve(language);
+    final explanation = TaxonomyLabels.relationConfidenceExplanation(confidence)
+        .resolve(language);
+
+    return Tooltip(
+      message: explanation,
+      child: Semantics(
+        label: '$label. $explanation',
+        child: Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: Spacing.xs,
+            vertical: 1,
+          ),
+          decoration: BoxDecoration(
+            borderRadius: const BorderRadius.all(Radius.circular(Radii.sm)),
+            border: Border.all(color: colour),
+          ),
+          child: Text(
+            label,
+            style: theme.textTheme.labelSmall?.copyWith(
+              color: colour,
+              fontSize: 10.5,
+            ),
           ),
         ),
       ),

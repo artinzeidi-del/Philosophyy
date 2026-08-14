@@ -470,6 +470,14 @@ class KnowledgeBase {
           violations.add('relation $relation: unknown source "$sourceId"');
         }
       }
+      if (!relation.isSupported) {
+        violations.add(
+          'relation $relation: marked "${relation.confidence.id}" but shows '
+          'nothing for it — a documented connection needs a source, and a '
+          'probable, contested or speculative one needs a source or a note '
+          'saying who argues it',
+        );
+      }
     }
 
     for (final termId in taxonomy.orphans) {

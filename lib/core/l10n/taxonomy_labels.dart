@@ -62,6 +62,74 @@ abstract final class TaxonomyLabels {
       en: 'belongs to',
       fa: 'تعلق دارد به',
     ),
+    RelationType.taught => const LocalizedText(
+      en: 'taught',
+      fa: 'آموزش داد به',
+    ),
+    RelationType.founded => const LocalizedText(
+      en: 'founded',
+      fa: 'بنیان گذاشت',
+    ),
+    RelationType.succeeded => const LocalizedText(
+      en: 'succeeded',
+      fa: 'جانشین شد',
+    ),
+    RelationType.commentedOn => const LocalizedText(
+      en: 'wrote a commentary on',
+      fa: 'شرح نوشت بر',
+    ),
+    RelationType.translated => const LocalizedText(
+      en: 'translated',
+      fa: 'ترجمه کرد',
+    ),
+    RelationType.preserved => const LocalizedText(
+      en: 'preserved',
+      fa: 'حفظ کرد',
+    ),
+    RelationType.synthesized => const LocalizedText(
+      en: 'synthesised',
+      fa: 'تلفیق کرد',
+    ),
+    RelationType.reinterpreted => const LocalizedText(
+      en: 'reinterpreted',
+      fa: 'بازتفسیر کرد',
+    ),
+    RelationType.anticipated => const LocalizedText(
+      en: 'anticipated',
+      fa: 'پیش‌بینی کرد',
+    ),
+    RelationType.presupposes => const LocalizedText(
+      en: 'presupposes',
+      fa: 'مستلزم پیش‌فرضِ',
+    ),
+    RelationType.entails => const LocalizedText(
+      en: 'entails',
+      fa: 'در پی دارد',
+    ),
+    RelationType.contradicts => const LocalizedText(
+      en: 'contradicts',
+      fa: 'در تناقض با',
+    ),
+    RelationType.generalizes => const LocalizedText(
+      en: 'generalises',
+      fa: 'تعمیم می‌دهد',
+    ),
+    RelationType.exemplifies => const LocalizedText(
+      en: 'exemplifies',
+      fa: 'نمونه‌ای است از',
+    ),
+    RelationType.attributedTo => const LocalizedText(
+      en: 'attributed to',
+      fa: 'منسوب به',
+    ),
+    RelationType.corresponded => const LocalizedText(
+      en: 'corresponded with',
+      fa: 'مکاتبه داشت با',
+    ),
+    RelationType.contemporaryOf => const LocalizedText(
+      en: 'contemporary of',
+      fa: 'هم‌روزگار با',
+    ),
     RelationType.relatedTo => const LocalizedText(
       en: 'related to',
       fa: 'مرتبط با',
@@ -100,9 +168,129 @@ abstract final class TaxonomyLabels {
       en: 'includes',
       fa: 'دربرگیرندهٔ',
     ),
+    RelationType.taught => const LocalizedText(
+      en: 'studied under',
+      fa: 'شاگردِ',
+    ),
+    RelationType.founded => const LocalizedText(
+      en: 'founded by',
+      fa: 'بنیان‌گذاری شد توسط',
+    ),
+    RelationType.succeeded => const LocalizedText(
+      en: 'was succeeded by',
+      fa: 'جانشین او شد',
+    ),
+    RelationType.commentedOn => const LocalizedText(
+      en: 'has a commentary by',
+      fa: 'شرح دارد از',
+    ),
+    RelationType.translated => const LocalizedText(
+      en: 'translated by',
+      fa: 'ترجمه شد توسط',
+    ),
+    RelationType.preserved => const LocalizedText(
+      en: 'preserved by',
+      fa: 'حفظ شد توسط',
+    ),
+    RelationType.synthesized => const LocalizedText(
+      en: 'synthesised by',
+      fa: 'تلفیق شد توسط',
+    ),
+    RelationType.reinterpreted => const LocalizedText(
+      en: 'reinterpreted by',
+      fa: 'بازتفسیر شد توسط',
+    ),
+    RelationType.anticipated => const LocalizedText(
+      en: 'anticipated by',
+      fa: 'پیش‌بینی شد توسط',
+    ),
+    RelationType.presupposes => const LocalizedText(
+      en: 'presupposed by',
+      fa: 'پیش‌فرضِ',
+    ),
+    RelationType.entails => const LocalizedText(
+      en: 'entailed by',
+      fa: 'نتیجهٔ',
+    ),
+    RelationType.contradicts => const LocalizedText(
+      en: 'contradicts',
+      fa: 'در تناقض با',
+    ),
+    RelationType.generalizes => const LocalizedText(
+      en: 'a special case of',
+      fa: 'حالت خاصی از',
+    ),
+    RelationType.exemplifies => const LocalizedText(
+      en: 'exemplified by',
+      fa: 'نمونه دارد در',
+    ),
+    RelationType.attributedTo => const LocalizedText(
+      en: 'has attributed work',
+      fa: 'اثر منسوب دارد',
+    ),
+    RelationType.corresponded => const LocalizedText(
+      en: 'corresponded with',
+      fa: 'مکاتبه داشت با',
+    ),
+    RelationType.contemporaryOf => const LocalizedText(
+      en: 'contemporary of',
+      fa: 'هم‌روزگار با',
+    ),
     RelationType.relatedTo => const LocalizedText(
       en: 'related to',
       fa: 'مرتبط با',
+    ),
+  };
+
+  /// The short label for how well established a graph connection is.
+  static LocalizedText relationConfidence(RelationConfidence confidence) =>
+      switch (confidence) {
+        RelationConfidence.documented => const LocalizedText(
+          en: 'Documented',
+          fa: 'مستند',
+        ),
+        RelationConfidence.accepted => const LocalizedText(
+          en: 'Accepted',
+          fa: 'پذیرفته',
+        ),
+        RelationConfidence.probable => const LocalizedText(
+          en: 'Probable',
+          fa: 'محتمل',
+        ),
+        RelationConfidence.contested => const LocalizedText(
+          en: 'Contested',
+          fa: 'محل مناقشه',
+        ),
+        RelationConfidence.speculative => const LocalizedText(
+          en: 'Speculative',
+          fa: 'گمانی',
+        ),
+      };
+
+  /// A sentence explaining what a connection's confidence means, shown to a
+  /// reader who taps the badge. A badge on its own teaches nobody anything.
+  static LocalizedText relationConfidenceExplanation(
+    RelationConfidence confidence,
+  ) => switch (confidence) {
+    RelationConfidence.documented => const LocalizedText(
+      en: 'A text says so — their own statement, or an ancient report.',
+      fa: 'متنی چنین می‌گوید — گفتهٔ خودش یا گزارشی کهن.',
+    ),
+    RelationConfidence.accepted => const LocalizedText(
+      en: 'Standard in the scholarship, without resting on one passage.',
+      fa: 'در پژوهش متعارف است، بی‌آنکه بر بندی مشخص تکیه کند.',
+    ),
+    RelationConfidence.probable => const LocalizedText(
+      en: 'Argued for and generally found persuasive, but a reading.',
+      fa: 'برایش استدلال شده و عموماً پذیرفتنی است، اما یک قرائت است.',
+    ),
+    RelationConfidence.contested => const LocalizedText(
+      en: 'Scholars actively disagree that this connection holds.',
+      fa: 'پژوهشگران در برقراری این پیوند اختلاف دارند.',
+    ),
+    RelationConfidence.speculative => const LocalizedText(
+      en: 'Suggested on thin evidence. Recorded, not relied on.',
+      fa: 'بر پایهٔ شواهدی اندک پیشنهاد شده است. ثبت شده، اما تکیه‌گاه نیست.',
     ),
   };
 

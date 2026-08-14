@@ -465,6 +465,54 @@ misread. The factor is unchanged.
 
 ---
 
+### ADR 21 — Graph edges carry confidence, and must show what they claim
+
+**Context.** The graph had ten relation types and no notion of how well
+established an edge was. Both are problems, and the second is the serious one.
+
+A graph draws every edge the same way, which makes every edge look like the same
+kind of claim. "Aristotle studied under Plato" is recorded in antiquity;
+"Heraclitus influenced Hegel" is a reading, argued for and disagreed with.
+Presenting the second the way it presents the first is how a reference work
+manufactures a consensus that does not exist — and influence claims are exactly
+where philosophy's own histories are most contested. The product already refused
+to do this for quotations (`AttributionStatus`) and for prose (`ClaimType`); the
+graph was the one place it still spoke in a uniform tone of authority.
+
+The vocabulary was the narrower problem. Ten types with no `taught`, no
+`commentedOn` and no `translated` cannot describe the commentary traditions —
+Ibn Rushd on Aristotle, Śaṅkara on the Brahma Sūtras, Zhu Xi on the Analects —
+which is the primary form philosophical writing takes across the Islamic,
+Indian, Chinese and medieval Latin worlds. A vocabulary built for the treatise
+does not fail loudly on those traditions; it quietly misdescribes them.
+
+**Decision.** `RelationConfidence` — documented, accepted, probable, contested,
+speculative — on every edge, defaulting to `accepted` rather than to the
+strongest value, so unmarked content cannot claim more than it can support.
+Twenty-six relation types, including `taught`, `commentedOn`, `translated`,
+`preserved` (for the doxographers who are the only reason most pre-Socratics
+survive), `attributedTo` for contested authorship, and the conceptual relations
+`presupposes`, `entails` and `contradicts`.
+
+**What the confidence obliges.** `Relation.isSupported`, enforced by the corpus
+integrity check: a `documented` edge must cite a text, and a `probable`,
+`contested` or `speculative` one must cite a source or explain in its note who
+argues it. An edge claiming certainty it cannot show is worse than no edge,
+because a reader cannot tell it apart from one that can.
+
+**In the interface.** `RelationConfidenceBadge` draws nothing for `accepted` —
+badging every edge turns the marking into wallpaper that stops carrying
+information — and reuses the attribution palette rather than inventing a second
+colour vocabulary for the same idea.
+
+**Cost.** Sixteen new types is thirty-two new bilingual labels, and a test
+asserts every one of them exists in both languages so a type cannot ship
+untranslated. Marking existing content required editorial judgement per edge,
+and the corpus test now fails if every relation carries the same confidence —
+one uniform value would be the uniform tone of authority all over again.
+
+---
+
 ## Testing strategy
 
 | Level | What it covers |

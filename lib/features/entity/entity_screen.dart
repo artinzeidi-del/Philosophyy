@@ -706,29 +706,42 @@ class _ConnectionsSection extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text.rich(
-                          TextSpan(
-                            children: <InlineSpan>[
+                        Wrap(
+                          crossAxisAlignment: WrapCrossAlignment.center,
+                          spacing: Spacing.xs,
+                          runSpacing: Spacing.xxs,
+                          children: <Widget>[
+                            Text.rich(
                               TextSpan(
-                                text: '$label ',
-                                style: Theme.of(context).textTheme.bodySmall
-                                    ?.copyWith(
-                                      color: Theme.of(context)
-                                          .colorScheme
-                                          .onSurfaceVariant,
-                                    ),
+                                children: <InlineSpan>[
+                                  TextSpan(
+                                    text: '$label ',
+                                    style: Theme.of(context).textTheme.bodySmall
+                                        ?.copyWith(
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .onSurfaceVariant,
+                                        ),
+                                  ),
+                                  TextSpan(
+                                    text: name,
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .titleSmall
+                                        ?.copyWith(
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .primary,
+                                        ),
+                                  ),
+                                ],
                               ),
-                              TextSpan(
-                                text: name,
-                                style: Theme.of(context).textTheme.titleSmall
-                                    ?.copyWith(
-                                      color: Theme.of(context)
-                                          .colorScheme
-                                          .primary,
-                                    ),
-                              ),
-                            ],
-                          ),
+                            ),
+                            RelationConfidenceBadge(
+                              confidence: relation.confidence,
+                              language: language,
+                            ),
+                          ],
                         ),
                         if (note != null) ...<Widget>[
                           const SizedBox(height: Spacing.xxs),

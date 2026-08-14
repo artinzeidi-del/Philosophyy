@@ -392,6 +392,13 @@ abstract final class ContentMappers {
       subject: subject,
       type: reader.requiredEnum('type', RelationType.fromId, _relationTypeIds),
       object: object,
+      confidence:
+          reader.optionalEnum(
+            'confidence',
+            RelationConfidence.fromId,
+            _relationConfidenceIds,
+          ) ??
+          RelationConfidence.accepted,
       note: optionalLocalized(reader, 'note'),
       sourceIds: reader.stringList('sources'),
     );
@@ -430,4 +437,7 @@ abstract final class ContentMappers {
 
   static Iterable<String> get _relationTypeIds =>
       RelationType.values.map((value) => value.id);
+
+  static Iterable<String> get _relationConfidenceIds =>
+      RelationConfidence.values.map((value) => value.id);
 }
