@@ -32,6 +32,8 @@ flutter:
     - assets/fonts/vazirmatn/OFL.txt
     - assets/fonts/spectral/OFL.txt
     - assets/fonts/gfsdidot/OFL.txt
+    - assets/fonts/notoserifcjk/OFL.txt
+    - assets/fonts/notoserifdevanagari/OFL.txt
 
   fonts:
     # Persian. Flutter's default font carries no Arabic-script coverage, so the
@@ -73,3 +75,30 @@ flutter:
     - family: GFSDidot
       fonts:
         - asset: assets/fonts/gfsdidot/GFSDidot-Regular.ttf
+
+    # Chinese, Japanese and Korean. None of the faces above carry a single CJK
+    # glyph, so 孔子 printed as two empty boxes — a reference work failing to
+    # print the name of a philosopher it has an article about.
+    #
+    # Three faces rather than one because Han unification gives the writing
+    # systems the same codepoint for characters they draw differently; one face
+    # would set every Japanese name in Chinese letterforms. Each is subset to
+    # its own national standard by tool/subset_cjk_fonts.py, which takes the
+    # three together from ~25 MB to ~7 MB. SIL OFL 1.1.
+    - family: NotoSerifSC
+      fonts:
+        - asset: assets/fonts/notoserifcjk/NotoSerifSC-Subset.ttf
+    - family: NotoSerifJP
+      fonts:
+        - asset: assets/fonts/notoserifcjk/NotoSerifJP-Subset.ttf
+    - family: NotoSerifKR
+      fonts:
+        - asset: assets/fonts/notoserifcjk/NotoSerifKR-Subset.ttf
+
+    # Devanagari. Found by the script-coverage test the moment it was written:
+    # every Sanskrit term in the Indian philosophy entries — शून्यता, धर्म,
+    # ब्रह्मन् — was rendering as a row of empty boxes. Unsubset, because the
+    # whole face is 280 KB. SIL OFL 1.1.
+    - family: NotoSerifDevanagari
+      fonts:
+        - asset: assets/fonts/notoserifdevanagari/NotoSerifDevanagari-Regular.ttf

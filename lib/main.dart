@@ -56,6 +56,20 @@ void _registerBundledFontLicences() {
 
     final greek = await rootBundle.loadString('assets/fonts/gfsdidot/OFL.txt');
     yield LicenseEntryWithLineBreaks(const <String>['GFS Didot'], greek);
+
+    final cjk = await rootBundle.loadString(
+      'assets/fonts/notoserifcjk/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Serif CJK (SC, JP, KR)',
+    ], cjk);
+
+    final devanagari = await rootBundle.loadString(
+      'assets/fonts/notoserifdevanagari/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Serif Devanagari',
+    ], devanagari);
   });
 }
 

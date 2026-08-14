@@ -28,6 +28,35 @@ abstract final class AppTypography {
   /// Only ever reached through [fallbacksFor]; nothing is set in it directly.
   static const String greekFamily = 'GFSDidot';
 
+  /// The Chinese face.
+  ///
+  /// Three CJK faces rather than one: Han unification gives Chinese, Japanese
+  /// and Korean the same codepoint for characters they draw differently, and a
+  /// single face would set every Japanese name in Chinese letterforms.
+  static const String chineseFamily = 'NotoSerifSC';
+
+  /// The Japanese face, which also supplies kana.
+  static const String japaneseFamily = 'NotoSerifJP';
+
+  /// The Korean face, which supplies hangul and Korean hanja forms.
+  static const String koreanFamily = 'NotoSerifKR';
+
+  /// The Devanagari face, for Sanskrit and the Indian traditions.
+  static const String devanagariFamily = 'NotoSerifDevanagari';
+
+  /// The CJK faces in fallback order.
+  ///
+  /// Ordered by how much content each currently serves, which is the only
+  /// honest basis available: a fallback chain resolves a shared codepoint to
+  /// whichever face comes first, so for Han characters the three cannot all
+  /// win. Kana and hangul are unambiguous whatever the order, because only one
+  /// face carries them.
+  static const List<String> cjkFamilies = <String>[
+    chineseFamily,
+    japaneseFamily,
+    koreanFamily,
+  ];
+
   /// Point-size multiplier applied to Persian text so it reads at the same
   /// optical size as the Latin scale.
   static const double persianSizeFactor = 1.06;
@@ -59,15 +88,25 @@ abstract final class AppTypography {
   /// The faces to fall back to when the primary one has no glyph.
   ///
   /// This product routinely sets one script inside another: a Greek name in an
-  /// English sentence, an Arabic name in a Persian one, a Sanskrit
-  /// transliteration anywhere. No single bundled face covers Latin, Arabic and
-  /// polytonic Greek, so without an explicit chain the reader gets empty boxes
-  /// — and a reference work that cannot print the name it is describing has
-  /// failed at its first job.
+  /// English sentence, an Arabic name in a Persian one, a Chinese name in
+  /// either, a Sanskrit transliteration anywhere. No single bundled face covers
+  /// Latin, Arabic, polytonic Greek and CJK, so without an explicit chain the
+  /// reader gets empty boxes — and a reference work that cannot print the name
+  /// it is describing has failed at its first job.
   static List<String> fallbacksFor(AppLanguage language) =>
       language == AppLanguage.fa
-      ? const <String>[serifFamily, greekFamily]
-      : const <String>[greekFamily, persianFamily];
+      ? const <String>[
+          serifFamily,
+          greekFamily,
+          devanagariFamily,
+          ...cjkFamilies,
+        ]
+      : const <String>[
+          greekFamily,
+          persianFamily,
+          devanagariFamily,
+          ...cjkFamilies,
+        ];
 
   static double _size(AppLanguage language, double base) =>
       language == AppLanguage.fa ? base * persianSizeFactor : base;

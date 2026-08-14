@@ -319,6 +319,90 @@ them.
 
 ---
 
+### ADR 17 — Traditions and branches are content, not enums
+
+**Context.** Traditions and branches were two Dart enums — sixteen and eighteen
+values, switched over exhaustively for their bilingual labels. This made a typo
+a compile error, which is genuinely valuable. It also meant that Korean,
+Vietnamese, Tibetan, Ethiopian, Mesoamerican, Andean and every Indigenous
+tradition could not be *named* by the product without a Dart change and a
+release. A reference work whose vocabulary of world traditions is fixed in its
+binary has decided in advance which philosophies exist.
+
+There is a second, quieter failure a fixed branch list produces. A branch list
+drawn from the Western division of philosophy asks every other tradition to file
+itself under someone else's categories — Nyāya epistemology under
+"epistemology", Ubuntu ethics under "ethics". A closed enum cannot express a
+tradition's own conceptual vocabulary at all.
+
+**Decision.** The vocabulary lives in `assets/content/taxonomy.json` and is
+loaded into a `Taxonomy` held by the corpus. Entities carry `Set<String>` of
+term ids. Terms nest via `parent`, so "Mesoamerican" sits under "Indigenous"
+and a reader can browse at whichever level they are thinking at; queries and
+filters resolve through ancestry, so filing an entry more precisely never makes
+it harder to find.
+
+`TaxonomyKind` — tradition, branch, era — stays a closed enum, and legitimately:
+it names the axes the product classifies along, not the values on those axes.
+Adding a tradition must never need a code change; adding a whole new *kind* of
+classification is a real architectural decision.
+
+**What replaced the compiler.** Opening the vocabulary gave up the guarantee
+that an id is real, so the guarantee moved rather than vanished.
+`findIntegrityViolations` rejects an unknown id, an id used as the wrong kind, a
+term whose parent does not exist, and a term with no Persian name — the
+bilingual constraint the label switch used to enforce by refusing to compile.
+`test/domain/taxonomy_test.dart` exercises each, and exercises the central claim
+directly: a tradition appearing nowhere in the source still builds, classifies,
+resolves and answers ancestry queries.
+
+**Cost.** Content can now be wrong in a way it previously could not, and the
+error surfaces at load rather than at compile. The check runs on every load and
+in CI, so the window is a test run rather than a release.
+
+---
+
+### ADR 18 — Script coverage is a test, not an assumption
+
+**Context.** ADR 13 bundled a face per script and asserted that every style
+declares a fallback chain. That test proves the *chain exists*; it cannot prove
+the chain can draw the content. Twice it could not: `Ἐπίκτητος` shipped as
+`▯πίκτητος`, and `孔子` shipped as two empty boxes, because nothing bundled
+carried a single CJK glyph. Both were found by looking at a screenshot, which is
+not a method.
+
+**Decision.** `test/core/design/script_coverage_test.dart` reads the `cmap`
+table out of every bundled font file and checks every character of every
+authored string — content and interface — against the fallback chain the app
+actually uses, in both languages. A script the corpus uses and the fonts cannot
+draw is a failing test.
+
+The test paid for itself immediately: written to cover the CJK gap, it found
+that every Sanskrit term in the Indian philosophy entries — `शून्यता`, `धर्म` —
+was also rendering as empty boxes, which nobody had noticed.
+
+**Decision (fonts).** Noto Serif SC, JP and KR, plus Noto Serif Devanagari.
+Three CJK faces rather than one because Han unification gives the writing
+systems the same codepoint for characters they draw differently; a single face
+would set every Japanese name in Chinese letterforms. Each is subset to its own
+national standard — GB 2312, JIS X 0208, KS X 1001 — by
+`tool/subset_cjk_fonts.py`.
+
+**Why national standards rather than "what content uses".** Subsetting to the
+characters in today's corpus would make the next entry render as boxes, and
+would fail any reader typing CJK into a note. The three standards are the
+everyday repertoires of the writing systems, they are stable, and Python
+enumerates them exactly — no frequency table to source or trust.
+
+**Cost.** About 7.2 MB more in the bundle, taking the fonts from 2.3 MB to
+9.5 MB. That is the largest single cost in the app, accepted because a
+reference work that cannot print the name of the philosopher it has an article
+about has failed at its first job. The fallback chain also cannot resolve a
+Han codepoint to all three regional forms at once; SC wins, which is recorded
+in `AppTypography.cjkFamilies` rather than left to be discovered.
+
+---
+
 ## Testing strategy
 
 | Level | What it covers |
