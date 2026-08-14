@@ -69,6 +69,12 @@ abstract final class AppTypography {
   /// The Tibetan face, for the Tibetan Buddhist tradition.
   static const String tibetanFamily = 'NotoSerifTibetan';
 
+  /// The Bengali face, which Devanagari does not cover.
+  static const String bengaliFamily = 'NotoSerifBengali';
+
+  /// The hieroglyphic face, for the ancient Egyptian tradition.
+  static const String hieroglyphFamily = 'NotoSansEgyptianHieroglyphs';
+
   /// The faces that exist only to print names in their own script.
   ///
   /// Grouped because they are always reached the same way — through the
@@ -76,9 +82,11 @@ abstract final class AppTypography {
   /// corpus can print should be one thing to add to rather than four.
   static const List<String> scriptFamilies = <String>[
     devanagariFamily,
+    bengaliFamily,
     hebrewFamily,
     ethiopicFamily,
     tibetanFamily,
+    hieroglyphFamily,
   ];
 
   /// The CJK faces in fallback order.

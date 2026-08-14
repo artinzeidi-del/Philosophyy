@@ -144,3 +144,18 @@ flutter:
     - family: NotoSerifTibetan
       fonts:
         - asset: assets/fonts/notoseriftibetan/NotoSerifTibetan-Regular.ttf
+
+    # Bengali, for রবীন্দ্রনাথ ঠাকুর and the Bengali side of Indian philosophy,
+    # which Devanagari does not cover. SIL OFL 1.1.
+    - family: NotoSerifBengali
+      fonts:
+        - asset: assets/fonts/notoserifbengali/NotoSerifBengali-Regular.ttf
+
+    # Egyptian hieroglyphs, for the oldest tradition in the taxonomy. Sans
+    # rather than serif because Noto draws no serif hieroglyphs — the signs are
+    # pictures, and the distinction does not apply. 570 KB and not worth
+    # subsetting: the whole face is only 1085 glyphs, essentially all of them
+    # in the base block. SIL OFL 1.1.
+    - family: NotoSansEgyptianHieroglyphs
+      fonts:
+        - asset: assets/fonts/notosansegyptianhieroglyphs/NotoSansEgyptianHieroglyphs-Regular.ttf

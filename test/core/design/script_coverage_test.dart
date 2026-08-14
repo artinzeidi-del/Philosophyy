@@ -75,6 +75,11 @@ void main() {
       expect(coverage['NotoSerifHebrew'], contains('מ'.runes.first));
       expect(coverage['NotoSerifEthiopic'], contains('ዘ'.runes.first));
       expect(coverage['NotoSerifTibetan'], contains('ཙ'.runes.first));
+      expect(coverage['NotoSerifBengali'], contains('র'.runes.first));
+      expect(
+        coverage['NotoSansEgyptianHieroglyphs'],
+        contains('𓊪'.runes.first),
+      );
     });
 
     test('every family declared in pubspec.yaml is checked here', () {
@@ -165,6 +170,11 @@ const Map<String, String> _fontFiles = <String, String>{
       'assets/fonts/notoserifethiopic/NotoSerifEthiopic-Regular.ttf',
   'NotoSerifTibetan':
       'assets/fonts/notoseriftibetan/NotoSerifTibetan-Regular.ttf',
+  'NotoSerifBengali':
+      'assets/fonts/notoserifbengali/NotoSerifBengali-Regular.ttf',
+  'NotoSansEgyptianHieroglyphs':
+      'assets/fonts/notosansegyptianhieroglyphs/'
+      'NotoSansEgyptianHieroglyphs-Regular.ttf',
 };
 
 /// Characters no test can hold a font responsible for.

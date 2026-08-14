@@ -98,6 +98,20 @@ void _registerBundledFontLicences() {
     yield LicenseEntryWithLineBreaks(const <String>[
       'Noto Serif Tibetan',
     ], tibetan);
+
+    final bengali = await rootBundle.loadString(
+      'assets/fonts/notoserifbengali/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Serif Bengali',
+    ], bengali);
+
+    final hieroglyphs = await rootBundle.loadString(
+      'assets/fonts/notosansegyptianhieroglyphs/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Sans Egyptian Hieroglyphs',
+    ], hieroglyphs);
   });
 }
 
