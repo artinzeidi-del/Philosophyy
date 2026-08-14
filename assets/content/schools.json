@@ -153,6 +153,649 @@
       "members": ["mulla-sadra"],
       "concepts": ["substantial-motion", "essence-existence-distinction"],
       "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "daoism",
+      "name": { "en": "Daoism", "fa": "دائوئیسم" },
+      "nativeName": "道家",
+      "transliteration": "Dàojiā",
+      "oneLine": {
+        "en": "Holds that things go best when they are not forced.",
+        "fa": "معتقد است کارها وقتی بهتر پیش می‌روند که به آن‌ها زور نیاید."
+      },
+      "period": { "start": { "year": -400, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "ethics", "political-philosophy"],
+      "centralClaims": [
+        {
+          "en": "The most effective action is the one that does not strain against how things already go.",
+          "fa": "اثرگذارترین کنش آن است که با مسیر کنونی چیزها نمی‌ستیزد."
+        },
+        {
+          "en": "Distinctions between useful and useless are relative to a standpoint with no special authority.",
+          "fa": "تمایز میان سودمند و بی‌فایده نسبت به منظری است که اقتدار ویژه‌ای ندارد."
+        }
+      ],
+      "founders": ["laozi"],
+      "members": ["laozi", "zhuangzi"],
+      "opposes": ["legalism", "confucianism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "legalism",
+      "name": { "en": "Legalism", "fa": "قانون‌گرایی چینی" },
+      "nativeName": "法家",
+      "transliteration": "Fǎjiā",
+      "oneLine": {
+        "en": "Holds that a state should work regardless of who is running it.",
+        "fa": "معتقد است دولت باید فارغ از اینکه چه کسی اداره‌اش می‌کند کار کند."
+      },
+      "period": { "start": { "year": -350, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["political-philosophy", "philosophy-of-law"],
+      "centralClaims": [
+        {
+          "en": "Institutions should be designed so that outcomes do not depend on the ruler's virtue.",
+          "fa": "نهادها را باید چنان طراحی کرد که نتیجه به فضیلت فرمانروا وابسته نباشد."
+        },
+        {
+          "en": "Publicly known law applied uniformly is more reliable than the judgement of officials.",
+          "fa": "قانونِ همگان‌دانسته که یکسان اجرا شود از داوری کارگزاران مطمئن‌تر است."
+        }
+      ],
+      "founders": ["han-feizi"],
+      "members": ["han-feizi", "xunzi"],
+      "opposes": ["confucianism", "mohism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "mohism",
+      "name": { "en": "Mohism", "fa": "موئیسم" },
+      "nativeName": "墨家",
+      "transliteration": "Mòjiā",
+      "oneLine": {
+        "en": "Judged every practice by whether it benefits everyone equally.",
+        "fa": "هر رویّه‌ای را با این معیار سنجید که آیا به همه به‌یکسان سود می‌رساند."
+      },
+      "period": { "start": { "year": -430, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "logic"],
+      "centralClaims": [
+        {
+          "en": "Concern should be impartial: the standard is benefit to all, not to one's own.",
+          "fa": "دلبستگی باید بی‌طرف باشد: معیار سود همگان است نه سود خودی‌ها."
+        },
+        {
+          "en": "A practice that consumes resources without producing benefit should be abolished, however old it is.",
+          "fa": "رویّه‌ای که منابع را می‌بلعد و سودی نمی‌آورد باید برچیده شود، هرقدر هم کهن باشد."
+        }
+      ],
+      "founders": ["mozi"],
+      "members": ["mozi"],
+      "opposes": ["confucianism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "neo-confucianism",
+      "name": { "en": "Neo-Confucianism", "fa": "کنفوسیوس‌گرایی نو" },
+      "nativeName": "理學",
+      "transliteration": "Lǐxué",
+      "oneLine": {
+        "en": "Rebuilt Confucian ethics on a metaphysics of pattern and vital force.",
+        "fa": "اخلاق کنفوسیوسی را بر مابعدالطبیعه‌ای از «نظم» و «نیروی حیاتی» بازساخت."
+      },
+      "period": { "start": { "year": 1100, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "ethics", "philosophy-of-education"],
+      "centralClaims": [
+        {
+          "en": "Everything has a pattern that is also its proper way of being, and the same pattern runs through all things.",
+          "fa": "هر چیز نظمی دارد که در عین حال شیوهٔ درستِ بودن آن است، و همان نظم در همه‌چیز جاری است."
+        },
+        {
+          "en": "Moral cultivation and the investigation of things are one activity, not two.",
+          "fa": "پرورش اخلاقی و بررسی چیزها یک کارند، نه دو کار."
+        }
+      ],
+      "founders": ["zhu-xi"],
+      "members": ["zhu-xi", "wang-yangming", "mou-zongsan"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "advaita-vedanta",
+      "name": { "en": "Advaita Vedānta", "fa": "ادویته ودانته" },
+      "nativeName": "अद्वैत वेदान्त",
+      "transliteration": "Advaita Vedānta",
+      "oneLine": {
+        "en": "Holds that the self and the absolute are not two.",
+        "fa": "معتقد است «خود» و «مطلق» دو تا نیستند."
+      },
+      "period": { "start": { "year": 800, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "epistemology", "philosophy-of-religion"],
+      "centralClaims": [
+        {
+          "en": "What is ultimately real is one, without internal distinction.",
+          "fa": "آنچه در نهایت واقعی است یکی است، بی‌تمایز درونی."
+        },
+        {
+          "en": "The world's plurality is real for practical purposes and not ultimately real.",
+          "fa": "کثرت جهان برای مقاصد عملی واقعی است و در نهایت واقعی نیست."
+        }
+      ],
+      "founders": ["shankara"],
+      "members": ["shankara"],
+      "opposes": ["vishishtadvaita"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "vishishtadvaita",
+      "name": { "en": "Viśiṣṭādvaita", "fa": "ویشیشته‌ادویته" },
+      "nativeName": "विशिष्टाद्वैत",
+      "transliteration": "Viśiṣṭādvaita",
+      "oneLine": {
+        "en": "Holds that reality is one and genuinely differentiated.",
+        "fa": "معتقد است واقعیت یکی است و واقعاً متمایز."
+      },
+      "period": { "start": { "year": 1100, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
+      "centralClaims": [
+        {
+          "en": "The absolute is a single reality whose body is the world of selves and matter.",
+          "fa": "مطلق واقعیتی یگانه است که تنِ آن، جهانِ نفوس و ماده است."
+        },
+        {
+          "en": "Difference is real; a unity that had to deny it would not be a unity of anything.",
+          "fa": "تفاوت واقعی است؛ وحدتی که ناچار باشد آن را انکار کند، وحدتِ هیچ چیز نیست."
+        }
+      ],
+      "founders": ["ramanuja"],
+      "members": ["ramanuja"],
+      "opposes": ["advaita-vedanta"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "yogacara",
+      "name": { "en": "Yogācāra", "fa": "یوگاچاره" },
+      "nativeName": "योगाचार",
+      "transliteration": "Yogācāra",
+      "oneLine": {
+        "en": "Explains experience without objects standing behind it.",
+        "fa": "تجربه را بی‌فرض‌کردن اشیایی پشت آن توضیح می‌دهد."
+      },
+      "period": { "start": { "year": 350, "precision": "circa" } },
+      "traditions": ["indian", "buddhist"],
+      "branches": ["metaphysics", "philosophy-of-mind", "epistemology"],
+      "centralClaims": [
+        {
+          "en": "Everything cited as evidence of external objects is explained by the structure of experience itself.",
+          "fa": "هرچه شاهدِ اشیای بیرونی خوانده می‌شود با خودِ ساختار تجربه توضیح‌پذیر است."
+        },
+        {
+          "en": "Ordinary perception already carries construction; it is not a bare given.",
+          "fa": "ادراک عادی پیشاپیش ساخت را با خود دارد؛ دادهٔ عریان نیست."
+        }
+      ],
+      "founders": ["vasubandhu"],
+      "members": ["vasubandhu", "dignaga"],
+      "opposes": ["madhyamaka"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "jainism",
+      "name": { "en": "Jain philosophy", "fa": "فلسفهٔ جین" },
+      "nativeName": "जैन दर्शन",
+      "transliteration": "Jaina darśana",
+      "oneLine": {
+        "en": "Holds that every statement is true only from a standpoint, and that harm is never trivial.",
+        "fa": "معتقد است هر گزاره تنها از منظری درست است، و آزار هرگز کوچک نیست."
+      },
+      "period": { "start": { "year": -550, "precision": "circa" } },
+      "traditions": ["indian", "jain"],
+      "branches": ["metaphysics", "epistemology", "ethics"],
+      "centralClaims": [
+        {
+          "en": "Reality has many aspects, so any single assertion captures one standpoint and omits others.",
+          "fa": "حقیقت جنبه‌های بسیار دارد، پس هر گزارهٔ یگانه یک منظر را می‌گیرد و منظرهای دیگر را وامی‌گذارد."
+        },
+        {
+          "en": "Non-harm extends to every living thing, and the extension is not a metaphor.",
+          "fa": "نیازردن به هر جانداری می‌رسد، و این گسترش استعاره نیست."
+        }
+      ],
+      "founders": ["mahavira"],
+      "members": ["mahavira"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "zen",
+      "name": { "en": "Zen", "fa": "ذن" },
+      "nativeName": "禪",
+      "transliteration": "Zen",
+      "oneLine": {
+        "en": "Holds that awakening is not something practice leads to later.",
+        "fa": "معتقد است بیداری چیزی نیست که تمرین بعداً به آن برساند."
+      },
+      "period": { "start": { "year": 1200, "precision": "circa" } },
+      "traditions": ["japanese", "buddhist"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "philosophy-of-mind"
+      ],
+      "centralClaims": [
+        {
+          "en": "Practice is not a means to awakening; it is awakening being carried out.",
+          "fa": "تمرین وسیلهٔ بیداری نیست؛ بیداری‌ای است که انجام می‌شود."
+        },
+        {
+          "en": "Conceptual formulation reaches a limit that the practice is designed to expose rather than to cross.",
+          "fa": "صورت‌بندی مفهومی به مرزی می‌رسد که تمرین برای آشکارکردنش طراحی شده، نه برای گذشتن از آن."
+        }
+      ],
+      "founders": ["dogen"],
+      "members": ["dogen"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "kyoto-school",
+      "name": { "en": "The Kyoto School", "fa": "مکتب کیوتو" },
+      "nativeName": "京都学派",
+      "transliteration": "Kyōto gakuha",
+      "oneLine": {
+        "en": "Read European philosophy through Buddhist categories, and back again.",
+        "fa": "فلسفهٔ اروپایی را با مقولات بودایی خواند، و برعکس."
+      },
+      "period": { "start": { "year": 1911 } },
+      "traditions": ["japanese", "contemporary"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "comparative-philosophy",
+        "philosophy-of-religion"
+      ],
+      "centralClaims": [
+        {
+          "en": "Experience before the split into subject and object is the right starting point for philosophy.",
+          "fa": "تجربه پیش از شکافتن به فاعل و متعلق، نقطهٔ آغاز درست فلسفه است."
+        },
+        {
+          "en": "Nothingness in the Buddhist sense is a positive philosophical category, not an absence.",
+          "fa": "«نیستی» به معنای بودایی مقوله‌ای فلسفی و مثبت است، نه غیاب."
+        }
+      ],
+      "founders": ["nishida"],
+      "members": ["nishida"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "gelug",
+      "name": { "en": "Gelug", "fa": "گلوگ" },
+      "nativeName": "དགེ་ལུགས",
+      "transliteration": "Dge lugs",
+      "oneLine": {
+        "en": "Holds that emptiness is established by reasoning, not by setting reasoning aside.",
+        "fa": "معتقد است تهیّت با استدلال ثابت می‌شود، نه با کنارگذاشتن استدلال."
+      },
+      "period": { "start": { "year": 1409 } },
+      "traditions": ["tibetan", "buddhist"],
+      "branches": [
+        "metaphysics",
+        "logic",
+        "philosophy-of-religion",
+        "epistemology"
+      ],
+      "centralClaims": [
+        {
+          "en": "Analysis is the road to insight, and an insight reached by abandoning analysis is a different thing.",
+          "fa": "تحلیل راهِ بصیرت است، و بصیرتی که با رهاکردن تحلیل به دست آید چیز دیگری است."
+        },
+        {
+          "en": "Emptiness means dependent existence, not non-existence.",
+          "fa": "تهیّت یعنی هستیِ وابسته، نه نیستی."
+        }
+      ],
+      "founders": ["tsongkhapa"],
+      "members": ["tsongkhapa"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "scholasticism",
+      "name": { "en": "Scholasticism", "fa": "مدرسی‌گری" },
+      "oneLine": {
+        "en": "Made argument itself the form that philosophy and theology took.",
+        "fa": "خودِ مناظره را صورتی کرد که فلسفه و کلام در آن ریخته شد."
+      },
+      "period": { "start": { "year": 1100, "precision": "circa" } },
+      "traditions": ["medieval", "christian"],
+      "branches": ["metaphysics", "logic", "philosophy-of-religion", "ethics"],
+      "centralClaims": [
+        {
+          "en": "A position is not established until the strongest objections to it have been stated and answered.",
+          "fa": "موضعی ثابت نمی‌شود مگر آنکه قوی‌ترین اعتراض‌ها به آن گفته و پاسخ داده شوند."
+        },
+        {
+          "en": "Reason and revelation cannot finally conflict, so an apparent conflict marks an error in reading one of them.",
+          "fa": "خرد و وحی در نهایت نمی‌توانند ناسازگار باشند، پس ناسازگاریِ ظاهری نشان خطایی در خواندنِ یکی از آن‌هاست."
+        }
+      ],
+      "founders": ["anselm"],
+      "members": ["anselm", "aquinas", "scotus", "ockham", "abelard"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "nominalism",
+      "name": { "en": "Nominalism", "fa": "نام‌گرایی" },
+      "oneLine": {
+        "en": "Holds that only individuals exist and that generality lives in language.",
+        "fa": "معتقد است تنها افراد وجود دارند و کلیت در زبان می‌زید."
+      },
+      "period": { "start": { "year": 1320, "precision": "circa" } },
+      "traditions": ["medieval", "european"],
+      "branches": ["metaphysics", "logic", "philosophy-of-language"],
+      "centralClaims": [
+        {
+          "en": "There are no universal things; a general term is a sign standing for many individuals.",
+          "fa": "چیز کلی وجود ندارد؛ واژهٔ کلی نشانه‌ای است که جای بسیاری از افراد می‌نشیند."
+        },
+        {
+          "en": "An explanation should not multiply entities beyond what it needs.",
+          "fa": "توضیح نباید موجودات را بیش از نیازش زیاد کند."
+        }
+      ],
+      "founders": ["ockham"],
+      "members": ["ockham", "abelard"],
+      "opposes": ["platonism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "rationalism",
+      "name": { "en": "Rationalism", "fa": "خردگرایی" },
+      "oneLine": {
+        "en": "Holds that some substantive knowledge is available to reason alone.",
+        "fa": "معتقد است بخشی از معرفت واقعی تنها با خرد به دست می‌آید."
+      },
+      "period": { "start": { "year": 1637 } },
+      "traditions": ["european"],
+      "branches": ["epistemology", "metaphysics", "philosophy-of-mathematics"],
+      "centralClaims": [
+        {
+          "en": "Some knowledge of what exists is reached by reasoning rather than by observation.",
+          "fa": "بخشی از شناختِ آنچه هست با استدلال به دست می‌آید نه با مشاهده."
+        },
+        {
+          "en": "Mathematics shows that certainty about the world is possible, so it is the model knowledge should follow.",
+          "fa": "ریاضیات نشان می‌دهد یقین دربارهٔ جهان ممکن است، پس الگویی است که معرفت باید از آن پیروی کند."
+        }
+      ],
+      "founders": ["descartes"],
+      "members": ["descartes", "spinoza", "leibniz"],
+      "opposes": ["empiricism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "empiricism",
+      "name": { "en": "Empiricism", "fa": "تجربه‌گرایی" },
+      "oneLine": {
+        "en": "Holds that everything in the mind got there through the senses.",
+        "fa": "معتقد است هرچه در ذهن هست از راه حواس به آن رسیده."
+      },
+      "period": { "start": { "year": 1689 } },
+      "traditions": ["european"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-mind",
+        "philosophy-of-science"
+      ],
+      "centralClaims": [
+        {
+          "en": "There are no innate ideas; the mind's content comes from experience.",
+          "fa": "ایدهٔ فطری در کار نیست؛ محتوای ذهن از تجربه می‌آید."
+        },
+        {
+          "en": "A concept with no possible experience behind it has no content to examine.",
+          "fa": "مفهومی که هیچ تجربهٔ ممکنی پشتش نباشد محتوایی برای بررسی ندارد."
+        }
+      ],
+      "founders": ["locke"],
+      "members": ["locke", "berkeley", "hume"],
+      "opposes": ["rationalism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "utilitarianism",
+      "name": { "en": "Utilitarianism", "fa": "سودگرایی" },
+      "oneLine": {
+        "en": "Judges an act or an institution by the wellbeing it produces.",
+        "fa": "کنش یا نهاد را با بهروزی‌ای که تولید می‌کند می‌سنجد."
+      },
+      "period": { "start": { "year": 1789 } },
+      "traditions": ["european"],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "applied-ethics",
+        "philosophy-of-law"
+      ],
+      "centralClaims": [
+        {
+          "en": "The right action is the one producing the greatest wellbeing, counting everyone equally.",
+          "fa": "کار درست آن است که بیشترین بهروزی را می‌آورد، وقتی همه به‌یکسان شمرده شوند."
+        },
+        {
+          "en": "Whether a being can suffer, not whether it can reason, determines whether it counts.",
+          "fa": "اینکه موجودی می‌تواند رنج ببرد — نه اینکه می‌تواند بیندیشد — تعیین می‌کند که به شمار می‌آید یا نه."
+        }
+      ],
+      "founders": ["bentham"],
+      "members": ["bentham", "mill"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "phenomenology",
+      "name": { "en": "Phenomenology", "fa": "پدیدارشناسی" },
+      "oneLine": {
+        "en": "Describes experience as it is lived before theory reorganises it.",
+        "fa": "تجربه را چنان‌که زیسته می‌شود وصف می‌کند، پیش از آنکه نظریه سامانش دهد."
+      },
+      "period": { "start": { "year": 1900, "precision": "circa" } },
+      "traditions": ["european", "continental"],
+      "branches": ["philosophy-of-mind", "epistemology", "metaphysics"],
+      "centralClaims": [
+        {
+          "en": "Description of how things are given must come before explanation of what they are.",
+          "fa": "وصفِ چگونگی داده‌شدن چیزها باید پیش از تبیین چیستی آن‌ها بیاید."
+        },
+        {
+          "en": "Consciousness is always consciousness of something; it is not a container with contents.",
+          "fa": "آگاهی همیشه آگاهی از چیزی است؛ ظرفی با محتوا نیست."
+        }
+      ],
+      "founders": ["husserl"],
+      "members": ["husserl", "heidegger", "merleau-ponty", "levinas"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "existentialism",
+      "name": { "en": "Existentialism", "fa": "اگزیستانسیالیسم" },
+      "oneLine": {
+        "en": "Holds that we exist first and acquire a nature by choosing.",
+        "fa": "معتقد است ما نخست هستیم و با انتخاب‌کردن طبیعتی به دست می‌آوریم."
+      },
+      "period": { "start": { "year": 1943 } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "existential-philosophy",
+        "ethics",
+        "metaphysics",
+        "philosophy-of-mind"
+      ],
+      "centralClaims": [
+        {
+          "en": "No given nature, role or excuse determines what a person does.",
+          "fa": "هیچ طبیعت و نقش و بهانه‌ای تعیین نمی‌کند که آدمی چه می‌کند."
+        },
+        {
+          "en": "Freedom is a burden before it is a benefit, and most effort goes into denying it.",
+          "fa": "آزادی پیش از آنکه نعمت باشد بار است، و بیشتر تلاش‌ها صرف انکارش می‌شود."
+        }
+      ],
+      "founders": ["sartre"],
+      "members": ["sartre", "beauvoir", "kierkegaard"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "pragmatism",
+      "name": { "en": "Pragmatism", "fa": "عمل‌گرایی" },
+      "oneLine": {
+        "en": "Tests an idea by the difference it would make.",
+        "fa": "یک ایده را با تفاوتی که ایجاد می‌کند می‌آزماید."
+      },
+      "period": { "start": { "year": 1878 } },
+      "traditions": ["american", "pragmatist"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-language",
+        "philosophy-of-science",
+        "metaphysics"
+      ],
+      "centralClaims": [
+        {
+          "en": "The meaning of a claim is the difference its truth would make to what we should expect.",
+          "fa": "معنای یک ادعا همان تفاوتی است که درستی‌اش در انتظارهای ما ایجاد می‌کند."
+        },
+        {
+          "en": "Inquiry starts from a real doubt and ends when the doubt is settled, not when certainty is reached.",
+          "fa": "کاوش از تردیدی واقعی آغاز می‌شود و با فیصلهٔ تردید پایان می‌یابد، نه با رسیدن به یقین."
+        }
+      ],
+      "founders": ["peirce"],
+      "members": ["peirce", "james", "dewey", "rorty"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "analytic-philosophy",
+      "name": { "en": "Analytic philosophy", "fa": "فلسفهٔ تحلیلی" },
+      "oneLine": {
+        "en": "Approaches philosophical problems through the logic of the language stating them.",
+        "fa": "به مسائل فلسفی از راه منطق زبانی که آن‌ها را بیان می‌کند نزدیک می‌شود."
+      },
+      "period": { "start": { "year": 1900, "precision": "circa" } },
+      "traditions": ["analytic", "european", "american"],
+      "branches": [
+        "philosophy-of-language",
+        "logic",
+        "epistemology",
+        "metaphysics"
+      ],
+      "centralClaims": [
+        {
+          "en": "Clarifying the logical form of a claim is often the substance of the philosophical work, not a preliminary to it.",
+          "fa": "روشن‌کردن صورت منطقی یک ادعا اغلب خودِ کار فلسفی است، نه مقدمه‌ای بر آن."
+        },
+        {
+          "en": "An argument should be set out so that its premises can be attacked one at a time.",
+          "fa": "استدلال را باید چنان چید که بتوان مقدماتش را یکی‌یکی نقد کرد."
+        }
+      ],
+      "founders": ["frege"],
+      "members": [
+        "frege",
+        "russell",
+        "wittgenstein",
+        "quine",
+        "anscombe",
+        "rawls"
+      ],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "critical-theory",
+      "name": { "en": "Critical theory", "fa": "نظریهٔ انتقادی" },
+      "oneLine": {
+        "en": "Studies society with the aim of identifying what could be otherwise.",
+        "fa": "جامعه را با هدف یافتنِ آنچه می‌توانست جور دیگری باشد مطالعه می‌کند."
+      },
+      "period": { "start": { "year": 1930, "precision": "circa" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "social-philosophy",
+        "political-philosophy",
+        "aesthetics",
+        "philosophy-of-history"
+      ],
+      "centralClaims": [
+        {
+          "en": "A theory of society should account for its own position within that society.",
+          "fa": "نظریهٔ جامعه باید جایگاه خودش را در همان جامعه توضیح دهد."
+        },
+        {
+          "en": "Reason used purely as an instrument of control turns into a form of domination.",
+          "fa": "خردی که تنها ابزار مهار باشد به شکلی از سلطه بدل می‌شود."
+        }
+      ],
+      "founders": ["adorno"],
+      "members": ["adorno", "benjamin", "habermas"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "negritude",
+      "name": { "en": "Négritude", "fa": "نگریتود" },
+      "oneLine": {
+        "en": "Asserted a shared black cultural inheritance against colonial contempt.",
+        "fa": "میراث فرهنگی مشترک سیاه را در برابر تحقیر استعماری اثبات کرد."
+      },
+      "period": { "start": { "year": 1935, "precision": "circa" } },
+      "traditions": ["africana", "african"],
+      "branches": [
+        "decolonial-philosophy",
+        "aesthetics",
+        "political-philosophy",
+        "social-philosophy"
+      ],
+      "centralClaims": [
+        {
+          "en": "A culture that colonisation declared absent must first be asserted before it can be argued about.",
+          "fa": "فرهنگی که استعمار غایبش اعلام کرد، نخست باید اثبات شود تا بتوان دربارهٔ آن بحث کرد."
+        },
+        {
+          "en": "Political liberation without cultural self-description leaves the colonial account of the colonised in place.",
+          "fa": "رهایی سیاسی بدون خودتوصیفی فرهنگی، روایت استعماری از استعمارشده را سر جایش نگه می‌دارد."
+        }
+      ],
+      "founders": ["cesaire"],
+      "members": ["cesaire", "senghor"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "liberation-philosophy",
+      "name": { "en": "Philosophy of liberation", "fa": "فلسفهٔ رهایی" },
+      "oneLine": {
+        "en": "Starts philosophy from the position of those a system excludes.",
+        "fa": "فلسفه را از جایگاه کسانی آغاز می‌کند که یک نظام کنارشان می‌گذارد."
+      },
+      "period": { "start": { "year": 1971 } },
+      "traditions": ["latin-american", "contemporary"],
+      "branches": [
+        "decolonial-philosophy",
+        "political-philosophy",
+        "ethics",
+        "social-philosophy"
+      ],
+      "centralClaims": [
+        {
+          "en": "The excluded are not a topic for philosophy but a place from which to do it.",
+          "fa": "کنارگذاشته‌شدگان موضوع فلسفه نیستند، جایی‌اند که از آنجا فلسفه می‌ورزند."
+        },
+        {
+          "en": "A universal claim made from an unexamined location is a local claim with universal manners.",
+          "fa": "ادعای جهان‌شمولی که از جایگاهی بررسی‌نشده گفته شود، ادعایی محلی است با آداب جهان‌شمول."
+        }
+      ],
+      "founders": ["dussel"],
+      "members": ["dussel", "freire", "mariategui"],
+      "citations": [{ "source": "sep" }]
     }
   ]
 }

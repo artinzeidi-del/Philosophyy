@@ -177,6 +177,35 @@ void main() {
       expect(hits.first.entity.id, 'theory-of-forms');
     });
 
+    test('a filler word cannot carry a result to the top', () {
+      // The defect this pins: every occurrence used to score the same, so a
+      // long article repeating "of" and "form" beat the entry actually titled
+      // Theory of Forms. It was latent from the start and only surfaced once
+      // the corpus was large enough for some article to win on volume — which
+      // is the kind of regression that arrives with content, not with code.
+      final common = index.search('of');
+      final rare = index.search('eudaimonia');
+      expect(
+        rare.first.score,
+        greaterThan(common.first.score),
+        reason: 'a match on "of" scores as high as a match on a real term',
+      );
+    });
+
+    test('a term in one entry outranks the same term buried in an essay', () {
+      // Titles are worth ten times a body line, but only per occurrence — so
+      // without saturation a body could always buy the difference by repeating
+      // itself.
+      for (final query in const <String>['eudaimonia', 'wu wei', 'paradigm']) {
+        final hits = index.search(query);
+        expect(
+          hits.first.bestField,
+          anyOf(MatchField.name, MatchField.alternateName),
+          reason: '"$query" was won by ${hits.first}',
+        );
+      }
+    });
+
     test('results are ordered by descending score', () {
       final hits = index.search('philosophy');
       for (var i = 1; i < hits.length; i++) {

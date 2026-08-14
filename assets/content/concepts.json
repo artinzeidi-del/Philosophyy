@@ -541,6 +541,500 @@
       "philosophers": ["du-bois"],
       "works": ["souls-of-black-folk"],
       "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dao",
+      "name": { "en": "Dao", "fa": "دائو" },
+      "nativeTerm": "道",
+      "transliteration": "Dào",
+      "oneLine": {
+        "en": "The way things go when nothing is forcing them.",
+        "fa": "مسیری که چیزها وقتی کسی به آن‌ها زور نمی‌آورد طی می‌کنند."
+      },
+      "definition": {
+        "en": "The course things take of themselves, prior to any purpose imposed on them. Daoism treats it as what one should align with rather than direct; Confucianism uses the same word for the right way of conducting human affairs, which is a different claim in the same vocabulary.",
+        "fa": "مسیری که چیزها خودبه‌خود می‌روند، پیش از هر غایتی که بر آن‌ها نهاده شود. دائوئیسم آن را چیزی می‌داند که باید با آن هم‌سو شد نه اینکه هدایتش کرد؛ کنفوسیوس‌گرایی همین واژه را برای شیوهٔ درستِ سامان‌دادن کارهای آدمیان به کار می‌برد، و این ادعایی دیگر است در همان واژگان."
+      },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "ethics"],
+      "related": ["wu-wei"],
+      "philosophers": ["laozi", "zhuangzi", "confucius"],
+      "works": ["daodejing", "zhuangzi-book"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "wu-wei",
+      "name": { "en": "Wu wei", "fa": "وو وی" },
+      "nativeTerm": "無為",
+      "transliteration": "Wúwéi",
+      "oneLine": {
+        "en": "Acting without straining against how things already go.",
+        "fa": "کنش‌کردن بی‌فشارآوردن بر مسیری که چیزها پیشاپیش می‌روند."
+      },
+      "definition": {
+        "en": "Usually translated as non-action, which misleads: it names effective action that meets no resistance because it works with the situation rather than against it. The stock illustrations are a swimmer in a current and a cook whose blade finds the joints.",
+        "fa": "معمولاً «بی‌کنشی» ترجمه می‌شود و همین گمراه می‌کند: نام کنشی است اثرگذار که با مقاومتی روبه‌رو نمی‌شود، چون با موقعیت کار می‌کند نه بر ضد آن. مثال‌های همیشگی، شناگری در جریان آب است و آشپزی که تیغش مفصل‌ها را می‌یابد."
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy"],
+      "related": ["dao"],
+      "philosophers": ["laozi", "zhuangzi"],
+      "works": ["daodejing"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "li-ritual",
+      "name": { "en": "Li", "fa": "لی" },
+      "nativeTerm": "禮",
+      "transliteration": "Lǐ",
+      "oneLine": {
+        "en": "The forms that make shared life workable, from courtesy to ceremony.",
+        "fa": "صورت‌هایی که زندگی مشترک را شدنی می‌کنند، از ادب تا آیین."
+      },
+      "definition": {
+        "en": "The whole range of learned social form: manners, ceremony, the way one addresses a parent or a stranger. Confucianism holds that these are not decoration on top of ethics but the medium in which ethical dispositions are trained and expressed.",
+        "fa": "کل گسترهٔ صورت‌های اجتماعیِ آموخته‌شده: آداب، آیین، شیوهٔ خطاب به پدر و مادر یا به غریبه. کنفوسیوس‌گرایی معتقد است این‌ها زینتی بر اخلاق نیستند بلکه محیطی‌اند که خوی‌های اخلاقی در آن تربیت و بیان می‌شوند."
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "social-philosophy"],
+      "related": ["ren"],
+      "philosophers": ["confucius", "xunzi", "zhu-xi"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "anekantavada",
+      "name": { "en": "Anekāntavāda", "fa": "انکانته‌واده" },
+      "nativeTerm": "अनेकान्तवाद",
+      "transliteration": "Anekāntavāda",
+      "oneLine": {
+        "en": "The doctrine that reality has more aspects than any one statement captures.",
+        "fa": "این آموزه که حقیقت جنبه‌هایی بیش از آن دارد که یک گزاره بگیرد."
+      },
+      "definition": {
+        "en": "The Jain view that every assertion is true from some standpoint and incomplete from others, so a claim should be qualified by the standpoint it is made from. It is not the view that contradictions are true; it is the view that apparent contradictions usually mark two standpoints being confused for one.",
+        "fa": "دیدگاه جین که هر گزاره از منظری درست است و از منظرهای دیگر ناقص، پس هر ادعا باید با منظری که از آن گفته می‌شود مقید شود. این دیدگاه نمی‌گوید تناقض‌ها درست‌اند؛ می‌گوید تناقض‌های ظاهری معمولاً نشانهٔ آن‌اند که دو منظر به‌جای یکی گرفته شده‌اند."
+      },
+      "traditions": ["indian", "jain"],
+      "branches": ["metaphysics", "epistemology", "logic"],
+      "philosophers": ["mahavira"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ahimsa",
+      "name": { "en": "Ahiṃsā", "fa": "اهیمسا" },
+      "nativeTerm": "अहिंसा",
+      "transliteration": "Ahiṃsā",
+      "oneLine": {
+        "en": "Not harming, taken as a demand rather than a preference.",
+        "fa": "نیازردن، به‌مثابه یک الزام نه یک ترجیح."
+      },
+      "definition": {
+        "en": "Non-harm towards every living being. Jainism extends it furthest, treating unintended harm as still harm and organising diet, work and movement around minimising it. Gandhi's political use of the term makes non-harm a method of forcing change rather than a withdrawal from conflict.",
+        "fa": "نیازردنِ هر جاندار. آیین جین آن را بیش از همه گسترش می‌دهد و آزارِ ناخواسته را هم آزار می‌شمارد و خوراک و کار و رفت‌وآمد را حول کمینه‌کردنش سامان می‌دهد. کاربرد سیاسی گاندی از این واژه، نیازردن را روشی برای وادارکردن به تغییر می‌کند نه کناره‌گیری از نزاع."
+      },
+      "traditions": ["indian", "jain"],
+      "branches": ["ethics", "applied-ethics", "political-philosophy"],
+      "philosophers": ["mahavira", "gandhi"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "satyagraha",
+      "name": { "en": "Satyāgraha", "fa": "ساتیاگرهه" },
+      "nativeTerm": "सत्याग्रह",
+      "transliteration": "Satyāgraha",
+      "oneLine": {
+        "en": "Refusing cooperation with an unjust order while accepting the penalty for it.",
+        "fa": "همکاری‌نکردن با نظمی ناعادلانه، همراه با پذیرفتن مجازاتش."
+      },
+      "definition": {
+        "en": "Gandhi's term for organised non-cooperation. The argument behind it is that authority depends on cooperation it cannot compel, so withdrawing cooperation exposes the coercion; accepting the punishment rather than evading it is what distinguishes the method from ordinary resistance.",
+        "fa": "اصطلاح گاندی برای عدم همکاری سازمان‌یافته. استدلال پشت آن این است که اقتدار به همکاری‌ای وابسته است که نمی‌تواند به زور بگیرد، پس پس‌گرفتن همکاری اجبار را آشکار می‌کند؛ و پذیرفتن مجازات به‌جای گریختن از آن، همان چیزی است که این روش را از مقاومت عادی جدا می‌کند."
+      },
+      "traditions": ["indian"],
+      "branches": ["political-philosophy", "ethics", "applied-ethics"],
+      "related": ["ahimsa"],
+      "philosophers": ["gandhi"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "rasa",
+      "name": { "en": "Rasa", "fa": "رسه" },
+      "nativeTerm": "रस",
+      "transliteration": "Rasa",
+      "oneLine": {
+        "en": "The flavour a work of art produces in someone attending to it.",
+        "fa": "طعمی که اثر هنری در کسی که به آن توجه می‌کند پدید می‌آورد."
+      },
+      "definition": {
+        "en": "In Indian aesthetics, the emotional quality an audience savours, distinguished from the ordinary emotion it resembles by being free of personal stake. Abhinavagupta's account explains why tragedy is enjoyable: grief at a play is grief with nothing at risk for the person having it.",
+        "fa": "در زیبایی‌شناسی هند، کیفیتی عاطفی که مخاطب می‌چشد، و از عاطفهٔ عادیِ شبیه خود به این جدا می‌شود که از نفع شخصی آزاد است. شرح ابهیناواگوپتا توضیح می‌دهد چرا تراژدی لذت‌بخش است: اندوه در نمایش، اندوهی است که چیزی از کسی که آن را دارد به خطر نمی‌اندازد."
+      },
+      "traditions": ["indian"],
+      "branches": ["aesthetics", "philosophy-of-mind"],
+      "philosophers": ["abhinavagupta"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "pramana",
+      "name": { "en": "Pramāṇa", "fa": "پرامانه" },
+      "nativeTerm": "प्रमाण",
+      "transliteration": "Pramāṇa",
+      "oneLine": {
+        "en": "A means of knowing that can be relied on.",
+        "fa": "ابزاری برای دانستن که می‌توان بر آن تکیه کرد."
+      },
+      "definition": {
+        "en": "The Indian schools organised epistemology around the question of how many reliable instruments of knowledge there are and what each can establish. Buddhist logicians admit two, perception and inference; other schools add testimony, comparison and more. Almost every Indian philosophical dispute passes through this list.",
+        "fa": "مکتب‌های هندی معرفت‌شناسی را حول این پرسش سامان دادند که چند ابزار معتبر برای دانستن هست و هر یک چه چیزی را می‌تواند ثابت کند. منطق‌دانان بودایی دو تا می‌پذیرند: ادراک و استنتاج؛ مکتب‌های دیگر گواهی و مقایسه و بیشتر را می‌افزایند. تقریباً هر مناقشهٔ فلسفی هندی از این فهرست می‌گذرد."
+      },
+      "traditions": ["indian", "buddhist"],
+      "branches": ["epistemology", "logic"],
+      "philosophers": ["dignaga", "shankara", "ramanuja"],
+      "works": ["pramanasamuccaya"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dependent-origination",
+      "name": { "en": "Dependent origination", "fa": "پیدایش وابسته" },
+      "nativeTerm": "प्रतीत्यसमुत्पाद",
+      "transliteration": "Pratītyasamutpāda",
+      "oneLine": {
+        "en": "Nothing arises on its own; everything arises in dependence on conditions.",
+        "fa": "هیچ‌چیز به‌خودی‌خود پدید نمی‌آید؛ هر چیز در وابستگی به شرایط پدید می‌آید."
+      },
+      "definition": {
+        "en": "The Buddhist claim that whatever exists does so in dependence on causes, parts and conceptual designation. Nāgārjuna uses it to argue that dependent existence and emptiness are the same claim stated twice, which is why emptiness does not mean nothing exists.",
+        "fa": "این ادعای بودایی که هرچه هست، در وابستگی به علت‌ها و اجزا و نام‌گذاری مفهومی هست. ناگارجونا از آن استفاده می‌کند تا استدلال کند که هستیِ وابسته و تهیّت یک ادعا هستند که دو بار گفته شده‌اند، و به همین سبب تهیّت به معنای نبودنِ هیچ چیز نیست."
+      },
+      "traditions": ["buddhist", "indian"],
+      "branches": ["metaphysics"],
+      "related": ["sunyata"],
+      "philosophers": ["buddha", "nagarjuna", "tsongkhapa"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "negative-theology",
+      "name": { "en": "Negative theology", "fa": "الهیات سلبی" },
+      "oneLine": {
+        "en": "Saying what God is not, on the ground that nothing positive would be accurate.",
+        "fa": "گفتنِ آنچه خدا نیست، به این دلیل که هیچ گزارهٔ ایجابی دقیق نخواهد بود."
+      },
+      "definition": {
+        "en": "The position that predicates drawn from creatures mislead when applied to God, so the safest true statements are denials. Maimonides gives the strictest version: to say God is wise imports something creaturely, whereas to say God is not ignorant does not.",
+        "fa": "این موضع که محمول‌های برگرفته از آفریدگان وقتی بر خدا حمل شوند گمراه می‌کنند، پس مطمئن‌ترین گزاره‌های درست، سلب‌اند. ابن‌میمون سخت‌گیرانه‌ترین صورتش را می‌آورد: گفتن اینکه خدا داناست چیزی مخلوق‌وار وارد می‌کند، اما گفتن اینکه خدا نادان نیست چنین نمی‌کند."
+      },
+      "traditions": ["jewish", "islamic", "christian"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "philosophy-of-language"
+      ],
+      "philosophers": ["maimonides", "ibn-arabi", "nicholas-of-cusa"],
+      "works": ["guide-for-the-perplexed"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "wahdat-al-wujud",
+      "name": { "en": "Oneness of being", "fa": "وحدت وجود" },
+      "nativeTerm": "وحدة الوجود",
+      "transliteration": "Waḥdat al-wujūd",
+      "oneLine": {
+        "en": "The view that there is one existence, appearing as many.",
+        "fa": "این دیدگاه که یک هستی هست که به‌صورت بسیار می‌نماید."
+      },
+      "definition": {
+        "en": "Associated with Ibn ʿArabī and his readers: only God exists in the full sense, and creatures are the modes in which that one existence discloses itself. Critics read it as erasing the difference between creator and creature; its defenders reply that a difference of level is not a difference of thing.",
+        "fa": "به ابن‌عربی و خوانندگانش نسبت داده می‌شود: تنها خدا به معنای کامل هست، و آفریدگان شیوه‌هایی‌اند که آن یگانه هستی خود را در آن‌ها آشکار می‌کند. منتقدان آن را پاک‌کردن فرق خالق و مخلوق می‌خوانند؛ مدافعانش پاسخ می‌دهند که تفاوتِ مرتبه، تفاوتِ چیز نیست."
+      },
+      "traditions": ["islamic"],
+      "branches": ["metaphysics", "philosophy-of-religion"],
+      "philosophers": ["ibn-arabi"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "asabiyyah",
+      "name": { "en": "ʿAṣabiyya", "fa": "عصبیت" },
+      "nativeTerm": "عصبية",
+      "transliteration": "ʿAṣabiyya",
+      "oneLine": {
+        "en": "The solidarity that lets a group act as one, and that comfort dissolves.",
+        "fa": "همبستگی‌ای که به یک گروه امکان می‌دهد چون یک تن عمل کند، و آسایش می‌گدازدش."
+      },
+      "definition": {
+        "en": "Ibn Khaldūn's term for group cohesion. His argument is that it is strongest in hard conditions, that it is what allows a group to take and hold power, and that the settled comfort power brings erodes it — which gives dynasties a predictable arc of roughly three generations.",
+        "fa": "اصطلاح ابن‌خلدون برای هم‌بستگی گروهی. استدلال او این است که این هم‌بستگی در شرایط سخت قوی‌ترین است، همان چیزی است که به گروه امکان گرفتن و نگه‌داشتن قدرت را می‌دهد، و آسایشِ نشسته‌ای که قدرت می‌آورد فرسوده‌اش می‌کند — و همین به سلسله‌ها قوسی پیش‌بینی‌پذیر در حدود سه نسل می‌دهد."
+      },
+      "traditions": ["islamic"],
+      "branches": [
+        "philosophy-of-history",
+        "social-philosophy",
+        "political-philosophy"
+      ],
+      "philosophers": ["ibn-khaldun"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "illumination",
+      "name": { "en": "Illumination", "fa": "اشراق" },
+      "nativeTerm": "إشراق",
+      "transliteration": "Ishrāq",
+      "oneLine": {
+        "en": "Knowing as a kind of presence rather than a representation of something absent.",
+        "fa": "دانستن به‌مثابه نوعی حضور، نه بازنماییِ چیزی غایب."
+      },
+      "definition": {
+        "en": "Suhrawardī's alternative to the Aristotelian account of knowledge. Instead of a form of the object arriving in the mind, the knower is present to what is known, on the model of the way one is aware of oneself without any intermediary. Reality is graded as light, and knowledge is a degree of it.",
+        "fa": "جایگزین سهروردی برای شرح ارسطویی معرفت. به‌جای اینکه صورتی از متعلق به ذهن برسد، داننده نزد دانسته حاضر است، بر الگوی آنکه آدمی بی‌هیچ واسطه‌ای از خود آگاه است. واقعیت مرتبه‌های نور است، و معرفت درجه‌ای از آن."
+      },
+      "traditions": ["islamic", "persian"],
+      "branches": ["epistemology", "metaphysics", "philosophy-of-mind"],
+      "philosophers": ["suhrawardi"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "problem-of-induction",
+      "name": { "en": "The problem of induction", "fa": "مسئلهٔ استقرا" },
+      "oneLine": {
+        "en": "No experience can justify expecting the future to resemble the past.",
+        "fa": "هیچ تجربه‌ای نمی‌تواند این انتظار را توجیه کند که آینده شبیه گذشته باشد."
+      },
+      "definition": {
+        "en": "Hume's argument that every justification for relying on past regularities either assumes the regularity it is meant to establish or is a bare habit. It is not a claim that induction is unreasonable to use — it is a claim that the reason for using it has never been produced.",
+        "fa": "استدلال هیوم که هر توجیهی برای تکیه بر نظم‌های گذشته یا همان نظمی را که قرار است اثبات کند از پیش فرض می‌گیرد، یا صرفاً عادت است. این ادعا نمی‌گوید به‌کاربردن استقرا نامعقول است — می‌گوید دلیلِ به‌کاربردنش هرگز عرضه نشده است."
+      },
+      "traditions": ["european"],
+      "branches": ["epistemology", "philosophy-of-science", "logic"],
+      "philosophers": ["hume", "popper"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "is-ought-gap",
+      "name": { "en": "The is–ought gap", "fa": "شکاف هست و باید" },
+      "oneLine": {
+        "en": "A conclusion about what ought to be cannot follow from premises only about what is.",
+        "fa": "نتیجه‌ای دربارهٔ آنچه باید باشد از مقدماتی که فقط از آنچه هست می‌گویند برنمی‌آید."
+      },
+      "definition": {
+        "en": "Hume's observation that arguments slide from statements joined by is to statements joined by ought without explaining the move. Whether the gap is unbridgeable is disputed; that most arguments cross it silently is not.",
+        "fa": "مشاهدهٔ هیوم که استدلال‌ها از گزاره‌هایی با «هست» به گزاره‌هایی با «باید» می‌لغزند بی‌آنکه این جابه‌جایی را توضیح دهند. اینکه این شکاف پُرنشدنی است محل اختلاف است؛ اینکه بیشتر استدلال‌ها خاموش از آن می‌گذرند نه."
+      },
+      "traditions": ["european"],
+      "branches": ["metaethics", "ethics", "logic"],
+      "philosophers": ["hume"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "social-contract",
+      "name": { "en": "The social contract", "fa": "قرارداد اجتماعی" },
+      "oneLine": {
+        "en": "Political authority explained as something people could have agreed to.",
+        "fa": "اقتدار سیاسی، توضیح‌داده‌شده به‌مثابه چیزی که مردم می‌توانستند بر آن توافق کنند."
+      },
+      "definition": {
+        "en": "A family of arguments that legitimate authority derives from the consent of the governed rather than from nature, conquest or God. The device is hypothetical: the question is not whether anyone signed anything but what could be justified to everyone bound by it.",
+        "fa": "خانواده‌ای از استدلال‌ها که اقتدار مشروع را برآمده از رضایت حکومت‌شوندگان می‌دانند، نه از طبیعت و فتح و خدا. این ابزار فرضی است: پرسش این نیست که کسی چیزی امضا کرده یا نه، بلکه این است که چه چیزی را می‌توان برای همهٔ کسانی که به آن مقیدند موجه کرد."
+      },
+      "traditions": ["european", "american"],
+      "branches": ["political-philosophy", "philosophy-of-law", "ethics"],
+      "philosophers": ["hobbes", "locke", "rousseau", "rawls"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "general-will",
+      "name": { "en": "The general will", "fa": "ارادهٔ عمومی" },
+      "nativeTerm": "volonté générale",
+      "oneLine": {
+        "en": "What a body of citizens wills as a body, as against what they each want.",
+        "fa": "آنچه پیکرهٔ شهروندان همچون یک پیکر می‌خواهد، در برابر آنچه هر یک می‌خواهند."
+      },
+      "definition": {
+        "en": "Rousseau's term for the will aimed at the common interest, distinguished from the sum of private interests. Obeying it is meant to be a form of freedom because the citizen is author of the law — a claim critics have read as licensing coercion in freedom's name.",
+        "fa": "اصطلاح روسو برای اراده‌ای که به منفعت مشترک نظر دارد، در تمایز از مجموع منافع خصوصی. اطاعت از آن قرار است شکلی از آزادی باشد، چون شهروند نویسندهٔ قانون است — ادعایی که منتقدان آن را مجوز اجبار به نام آزادی خوانده‌اند."
+      },
+      "traditions": ["european"],
+      "branches": ["political-philosophy", "ethics"],
+      "related": ["social-contract"],
+      "philosophers": ["rousseau"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "veil-of-ignorance",
+      "name": { "en": "The veil of ignorance", "fa": "پردهٔ بی‌خبری" },
+      "oneLine": {
+        "en": "Choosing the rules without knowing which position in society you will occupy.",
+        "fa": "برگزیدن قواعد، بی‌دانستن اینکه در جامعه کدام جایگاه را خواهی داشت."
+      },
+      "definition": {
+        "en": "Rawls's device for isolating fairness from bargaining power: principles are chosen by people who do not know their own class, talents, race, sex or conception of the good, so no principle can be tailored to a position the chooser knows they hold.",
+        "fa": "ابزار رالز برای جداکردن انصاف از قدرت چانه‌زنی: اصول را کسانی برمی‌گزینند که طبقه و استعداد و نژاد و جنس و تصورشان از خیر را نمی‌دانند، پس هیچ اصلی را نمی‌توان برای جایگاهی دوخت که برگزیننده می‌داند در آن است."
+      },
+      "traditions": ["american", "analytic"],
+      "branches": ["political-philosophy", "ethics"],
+      "related": ["social-contract"],
+      "philosophers": ["rawls"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "falsifiability",
+      "name": { "en": "Falsifiability", "fa": "ابطال‌پذیری" },
+      "oneLine": {
+        "en": "A theory earns scientific standing by forbidding something observable.",
+        "fa": "یک نظریه با منع‌کردن چیزی مشاهده‌پذیر، جایگاه علمی می‌یابد."
+      },
+      "definition": {
+        "en": "Popper's criterion: since no number of confirmations establishes a general law but one counter-instance refutes it, what distinguishes a scientific theory is that there is something which, if observed, would show it false. A theory compatible with every outcome tells us nothing.",
+        "fa": "معیار پوپر: چون هیچ شمار تأییدی قانونی کلی را ثابت نمی‌کند اما یک نمونهٔ نقض ردش می‌کند، آنچه نظریهٔ علمی را متمایز می‌کند این است که چیزی هست که اگر مشاهده شود نادرستی‌اش را نشان می‌دهد. نظریه‌ای که با هر نتیجه‌ای سازگار باشد چیزی به ما نمی‌گوید."
+      },
+      "traditions": ["european", "analytic"],
+      "branches": ["philosophy-of-science", "epistemology"],
+      "related": ["problem-of-induction"],
+      "philosophers": ["popper"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "paradigm",
+      "name": { "en": "Paradigm", "fa": "پارادایم" },
+      "oneLine": {
+        "en": "The shared framework that decides which questions count as questions.",
+        "fa": "چارچوب مشترکی که تعیین می‌کند کدام پرسش‌ها پرسش به شمار می‌آیند."
+      },
+      "definition": {
+        "en": "Kuhn's term for the constellation of assumptions, methods and exemplary solutions that normal science works inside. Because two paradigms answer different questions, the choice between them is not settled by evidence alone — the contested part of the account.",
+        "fa": "اصطلاح کوهن برای مجموعهٔ فرض‌ها و روش‌ها و راه‌حل‌های نمونه‌ای که علم عادی درونش کار می‌کند. چون دو پارادایم به پرسش‌های متفاوتی پاسخ می‌دهند، انتخاب میانشان تنها با شواهد فیصله نمی‌یابد — و همین بخشِ محل مناقشهٔ این شرح است."
+      },
+      "traditions": ["american", "analytic"],
+      "branches": [
+        "philosophy-of-science",
+        "epistemology",
+        "philosophy-of-history"
+      ],
+      "philosophers": ["kuhn"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "bad-faith",
+      "name": { "en": "Bad faith", "fa": "بدنیتی" },
+      "nativeTerm": "mauvaise foi",
+      "oneLine": {
+        "en": "Pretending that something you chose was not a choice.",
+        "fa": "وانمودکردن به اینکه آنچه انتخاب کردی انتخاب نبوده است."
+      },
+      "definition": {
+        "en": "Sartre's name for the ordinary work of denying one's own freedom — treating a role, a temperament or a circumstance as though it settled what one does. It is not simple lying, because the person must both know and not know at once.",
+        "fa": "نام سارتر برای کارِ روزمرهٔ انکار آزادی خود — رفتارکردن با یک نقش یا خلق‌وخو یا وضعیت، چنان‌که گویی تعیین کرده است آدمی چه می‌کند. دروغ ساده نیست، چون آن شخص باید هم‌زمان بداند و نداند."
+      },
+      "traditions": ["european", "continental"],
+      "branches": ["existential-philosophy", "ethics", "philosophy-of-mind"],
+      "philosophers": ["sartre", "beauvoir"],
+      "works": ["being-and-nothingness"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "the-other",
+      "name": { "en": "The Other", "fa": "دیگری" },
+      "oneLine": {
+        "en": "The person whose existence puts a claim on me before I theorise about them.",
+        "fa": "کسی که هستی‌اش پیش از آنکه دربارهٔ او نظریه‌ای بسازم بر من ادعایی می‌گذارد."
+      },
+      "definition": {
+        "en": "Used across twentieth-century philosophy with different weights: for Beauvoir it names the position women are placed in relative to a male norm; for Levinas it names the encounter that generates obligation prior to any justification for it.",
+        "fa": "در سراسر فلسفهٔ قرن بیستم با بارهای گوناگون به کار رفته است: نزد بووار نام جایگاهی است که زنان نسبت به هنجاری مردانه در آن نهاده می‌شوند؛ نزد لویناس نام رویارویی‌ای است که پیش از هر توجیهی، تعهد می‌زاید."
+      },
+      "traditions": ["continental", "european"],
+      "branches": ["ethics", "feminist-philosophy", "social-philosophy"],
+      "philosophers": ["beauvoir", "levinas"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "performativity",
+      "name": { "en": "Performativity", "fa": "اجراگری" },
+      "oneLine": {
+        "en": "Producing the thing you appear to be merely describing.",
+        "fa": "تولیدکردن همان چیزی که ظاهراً فقط وصفش می‌کنی."
+      },
+      "definition": {
+        "en": "Originally a point about language — saying I promise makes the promise rather than reporting it. Butler extends it to gender: repeated acts appear to express an identity they are in fact constituting, and the repetitions are compelled rather than freely chosen.",
+        "fa": "در آغاز نکته‌ای دربارهٔ زبان بود — گفتن «قول می‌دهم» قول را می‌سازد نه اینکه گزارشش کند. باتلر آن را به جنسیت گسترش می‌دهد: کنش‌های تکرارشونده چنین می‌نمایند که هویتی را بیان می‌کنند، حال آنکه در واقع همان را برمی‌سازند، و این تکرارها اجباری‌اند نه آزادانه برگزیده."
+      },
+      "traditions": ["contemporary", "continental", "american"],
+      "branches": [
+        "feminist-philosophy",
+        "philosophy-of-language",
+        "social-philosophy"
+      ],
+      "philosophers": ["butler"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "banality-of-evil",
+      "name": { "en": "The banality of evil", "fa": "ابتذال شر" },
+      "oneLine": {
+        "en": "The claim that great harm can be done by someone who has stopped thinking.",
+        "fa": "این ادعا که آسیب بزرگ را می‌تواند کسی برساند که از اندیشیدن بازایستاده."
+      },
+      "definition": {
+        "en": "Arendt's phrase from her report on Eichmann's trial: the defendant struck her as neither fanatical nor stupid but thoughtless, in the specific sense of never examining what he was doing from any position but his own. Historians have contested the reading of Eichmann; the philosophical claim is argued about separately.",
+        "fa": "عبارت آرنت در گزارشش از محاکمهٔ آیشمن: متهم به نظر او نه متعصب بود و نه احمق، بلکه بی‌اندیشه — به این معنای خاص که هرگز کارش را از جایگاهی جز جایگاه خودش بررسی نکرد. مورخان این خوانش از آیشمن را به چالش کشیده‌اند؛ ادعای فلسفی جداگانه محل بحث است."
+      },
+      "traditions": ["european", "american", "jewish"],
+      "branches": ["ethics", "political-philosophy", "social-philosophy"],
+      "philosophers": ["arendt"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "capabilities-approach",
+      "name": { "en": "The capabilities approach", "fa": "رویکرد قابلیت‌ها" },
+      "oneLine": {
+        "en": "Measuring a society by what its members can actually do and be.",
+        "fa": "سنجش یک جامعه با آنچه اعضایش واقعاً می‌توانند بکنند و باشند."
+      },
+      "definition": {
+        "en": "Developed by Sen and Nussbaum as an alternative to income and to reported satisfaction: what matters is the real freedom a person has to be healthy, educated, safe and part of a community, which two people with the same income may have in very different amounts.",
+        "fa": "سن و نوسباوم آن را همچون جایگزینی برای درآمد و برای رضایتِ گزارش‌شده پرداختند: آنچه اهمیت دارد آزادی واقعی آدمی است برای سالم‌بودن، آموزش‌دیدن، در امان‌بودن و بخشی از یک جامعه بودن؛ و دو نفر با درآمد یکسان می‌توانند از آن مقادیر بسیار متفاوتی داشته باشند."
+      },
+      "traditions": ["american", "analytic", "contemporary"],
+      "branches": ["ethics", "political-philosophy", "philosophy-of-economics"],
+      "philosophers": ["nussbaum"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "coloniality",
+      "name": { "en": "Coloniality", "fa": "استعمارمندی" },
+      "oneLine": {
+        "en": "The arrangements colonialism installed that outlast the colonies.",
+        "fa": "ترتیب‌هایی که استعمار برقرار کرد و از خودِ مستعمره‌ها دیرپاترند."
+      },
+      "definition": {
+        "en": "Distinguished from colonialism as a historical period: the patterns of knowledge, value and who counts as fully human that the period established and that independence did not remove. Decolonial philosophy treats these as its subject rather than treating colonialism as finished.",
+        "fa": "در تمایز از استعمار به‌مثابه دوره‌ای تاریخی: الگوهای دانش و ارزش و اینکه چه کسی کاملاً انسان به شمار می‌آید، که آن دوره برقرارشان کرد و استقلال برشان نداشت. فلسفهٔ استعمارزدایانه این‌ها را موضوع خود می‌گیرد، به‌جای آنکه استعمار را تمام‌شده بداند."
+      },
+      "traditions": ["latin-american", "africana", "contemporary"],
+      "branches": [
+        "decolonial-philosophy",
+        "social-philosophy",
+        "philosophy-of-history"
+      ],
+      "philosophers": ["dussel", "wynter", "fanon", "cesaire"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ubuntu-personhood",
+      "name": {
+        "en": "Personhood through others",
+        "fa": "شخص‌بودن از راه دیگران"
+      },
+      "oneLine": {
+        "en": "The view that a person is constituted by their relationships, not prior to them.",
+        "fa": "این دیدگاه که شخص را روابطش برمی‌سازند، نه اینکه پیش از آن‌ها باشد."
+      },
+      "definition": {
+        "en": "A position argued in several African and Indigenous traditions: identity, obligation and even rationality are properties of a person-in-relation rather than of an individual who then enters relations. Wiredu argues it on conceptual grounds; Graham states it as an axiom of Aboriginal thought.",
+        "fa": "موضعی که در چند سنت آفریقایی و بومی استدلال شده است: هویت و تعهد و حتی عقلانیت، ویژگی‌های شخصی‌در‌رابطه‌اند نه ویژگی‌های فردی که سپس وارد روابط می‌شود. ویردو آن را بر پایه‌های مفهومی استدلال می‌کند؛ گراهام آن را اصل موضوع اندیشهٔ بومی‌استرالیایی می‌گیرد."
+      },
+      "traditions": ["african", "indigenous", "indigenous-australian"],
+      "branches": ["ethics", "social-philosophy", "metaphysics"],
+      "philosophers": ["kwasi-wiredu", "mary-graham"],
+      "citations": [{ "source": "sep" }]
     }
   ]
 }

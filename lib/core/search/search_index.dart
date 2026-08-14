@@ -108,7 +108,11 @@ class SearchHit implements Comparable<SearchHit> {
 /// The index is built once when the corpus loads and then only read, so it is
 /// safe to share across the app without synchronisation.
 class SearchIndex {
-  SearchIndex._(this._postings, this._entities, this._allTokens);
+  SearchIndex._(this._postings, this._entities, this._allTokens)
+    : _documentFrequency = <String, int>{
+        for (final entry in _postings.entries)
+          entry.key: entry.value.map((posting) => posting.ref).toSet().length,
+      };
 
   /// Builds an index over everything in [corpus].
   factory SearchIndex.build(KnowledgeBase corpus) {
@@ -173,6 +177,34 @@ class SearchIndex {
   final Map<EntityRef, KnowledgeEntity> _entities;
   final List<String> _allTokens;
 
+  /// How many distinct entities each token appears in.
+  ///
+  /// The basis of [_rarityOf]. Computed once at build time because it is a
+  /// property of the corpus, not of a query.
+  final Map<String, int> _documentFrequency;
+
+  /// How much a match on [token] is worth, given how common the token is.
+  ///
+  /// ## Why this exists
+  ///
+  /// Without it, every occurrence counted the same, and a query of ordinary
+  /// English lost to whichever article happened to repeat its filler words
+  /// most. Searching "theory of forms" once returned the entry on illumination
+  /// ahead of the entry actually called Theory of Forms: the illumination
+  /// article says "of" and "form" often enough, in a long body, to beat a
+  /// title match. The defect was always there and only showed once the corpus
+  /// was large enough for some article to win on volume.
+  ///
+  /// Standard inverse document frequency: a token in nearly every entity
+  /// carries almost no information about which one the reader wants, and a
+  /// token in three carries a great deal. The floor keeps a universal token
+  /// contributing something rather than nothing, so a query made entirely of
+  /// common words still returns its best guess instead of an empty list.
+  double _rarityOf(String token) {
+    final frequency = _documentFrequency[token] ?? 1;
+    return math.max(0.05, math.log(_entities.length / frequency));
+  }
+
   /// Number of distinct tokens indexed.
   int get tokenCount => _postings.length;
 
@@ -199,24 +231,48 @@ class SearchIndex {
     for (var index = 0; index < queryTokens.length; index++) {
       final token = queryTokens[index];
       for (final match in _matchesFor(token)) {
-        for (final posting in match.postings) {
-          final contribution = posting.field.weight * match.quality.multiplier;
-          scores.update(
-            posting.ref,
-            (existing) => existing + contribution,
-            ifAbsent: () => contribution,
-          );
-          matched.putIfAbsent(posting.ref, () => <int>{}).add(index);
+        final rarity = _rarityOf(match.token);
 
-          final currentField = bestField[posting.ref];
-          if (currentField == null ||
-              posting.field.weight > currentField.weight) {
-            bestField[posting.ref] = posting.field;
+        // Occurrences are counted per entity and field before they are scored,
+        // so that repetition saturates. Ten mentions in a body are better
+        // evidence than one and nowhere near ten times better, and counting
+        // them linearly is how a long article beats a title.
+        final occurrences = <EntityRef, Map<MatchField, int>>{};
+        for (final posting in match.postings) {
+          final fields = occurrences.putIfAbsent(
+            posting.ref,
+            () => <MatchField, int>{},
+          );
+          fields[posting.field] = (fields[posting.field] ?? 0) + 1;
+        }
+
+        for (final entry in occurrences.entries) {
+          final ref = entry.key;
+          for (final field in entry.value.entries) {
+            final contribution =
+                field.key.weight *
+                match.quality.multiplier *
+                rarity *
+                math.sqrt(field.value);
+            scores.update(
+              ref,
+              (existing) => existing + contribution,
+              ifAbsent: () => contribution,
+            );
           }
-          final currentQuality = bestQuality[posting.ref];
+          matched.putIfAbsent(ref, () => <int>{}).add(index);
+
+          final best = entry.value.keys.reduce(
+            (a, b) => a.weight >= b.weight ? a : b,
+          );
+          final currentField = bestField[ref];
+          if (currentField == null || best.weight > currentField.weight) {
+            bestField[ref] = best;
+          }
+          final currentQuality = bestQuality[ref];
           if (currentQuality == null ||
               match.quality.multiplier > currentQuality.multiplier) {
-            bestQuality[posting.ref] = match.quality;
+            bestQuality[ref] = match.quality;
           }
         }
       }
@@ -261,7 +317,7 @@ class SearchIndex {
   Iterable<_TokenMatch> _matchesFor(String token) sync* {
     final exact = _postings[token];
     if (exact != null) {
-      yield _TokenMatch(exact, MatchQuality.exact);
+      yield _TokenMatch(token, exact, MatchQuality.exact);
     }
 
     // Prefix matching is what makes search feel live: a reader who has typed
@@ -269,7 +325,11 @@ class SearchIndex {
     if (token.length >= 2) {
       for (final candidate in _allTokens) {
         if (candidate != token && candidate.startsWith(token)) {
-          yield _TokenMatch(_postings[candidate]!, MatchQuality.prefix);
+          yield _TokenMatch(
+            candidate,
+            _postings[candidate]!,
+            MatchQuality.prefix,
+          );
         }
       }
     }
@@ -282,7 +342,11 @@ class SearchIndex {
         if (candidate == token || candidate.startsWith(token)) continue;
         if ((candidate.length - token.length).abs() > 1) continue;
         if (_isWithinOneEdit(token, candidate)) {
-          yield _TokenMatch(_postings[candidate]!, MatchQuality.fuzzy);
+          yield _TokenMatch(
+            candidate,
+            _postings[candidate]!,
+            MatchQuality.fuzzy,
+          );
         }
       }
     }
@@ -361,7 +425,11 @@ class _Posting {
 }
 
 class _TokenMatch {
-  const _TokenMatch(this.postings, this.quality);
+  const _TokenMatch(this.token, this.postings, this.quality);
+
+  /// The indexed token that matched, which is not always the query token —
+  /// rarity is a property of what was found, not of what was typed.
+  final String token;
 
   final List<_Posting> postings;
   final MatchQuality quality;

@@ -289,6 +289,1017 @@
       "concepts": ["double-consciousness"],
       "editions": ["dubois-souls"],
       "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "daodejing",
+      "title": { "en": "Daodejing", "fa": "دائو ده جینگ" },
+      "originalTitle": "道德經",
+      "transliteration": "Dàodéjīng",
+      "author": "laozi",
+      "oneLine": {
+        "en": "Eighty-one short chapters on power that works by not forcing.",
+        "fa": "هشتاد و یک فصل کوتاه دربارهٔ قدرتی که با زور نکردن کار می‌کند."
+      },
+      "composed": { "start": { "year": -400, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "political-philosophy", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The text is aphoristic and deliberately paradoxical: the way that can be named is not the constant way; the softest thing overcomes the hardest. It reads as advice to rulers as often as advice to individuals, and the two readings do not separate cleanly.",
+              "fa": "متن قصار است و عمداً متناقض‌نما: راهی که بتوان نامش برد راهِ همیشگی نیست؛ نرم‌ترین چیز بر سخت‌ترین چیره می‌شود. به همان اندازه که پند به فرمانروایان خوانده می‌شود پند به افراد هم خوانده می‌شود، و این دو خوانش به‌آسانی از هم جدا نمی‌شوند."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["dao", "wu-wei"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "zhuangzi-book",
+      "title": { "en": "Zhuangzi", "fa": "جوانگ‌دزه" },
+      "originalTitle": "莊子",
+      "transliteration": "Zhuāngzǐ",
+      "author": "zhuangzi",
+      "oneLine": {
+        "en": "Stories and arguments against the idea that our categories carve the world.",
+        "fa": "قصه‌ها و استدلال‌هایی بر ضد این ایده که مقوله‌های ما جهان را می‌بُرند."
+      },
+      "composed": { "start": { "year": -300, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "epistemology", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The inner chapters are the part scholars attribute to Zhuangzi himself. They work by story — the butterfly dream, the useless tree, the cook whose blade never dulls — and the recurring argument is that judgements of useful and useless, big and small, are relative to a standpoint that has no privilege.",
+              "fa": "فصل‌های درونی بخشی است که پژوهشگران به خود جوانگ‌دزه نسبت می‌دهند. کارشان با قصه پیش می‌رود — خواب پروانه، درخت بی‌فایده، آشپزی که تیغش کند نمی‌شود — و استدلال مکرر این است که داوری‌های سودمند و بی‌فایده، بزرگ و کوچک، نسبت به منظری‌اند که هیچ امتیازی ندارد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["dao"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "mengzi",
+      "title": { "en": "Mencius", "fa": "منسیوس" },
+      "originalTitle": "孟子",
+      "transliteration": "Mèngzǐ",
+      "author": "mencius",
+      "oneLine": {
+        "en": "Argues that human nature is good, and that a bad ruler forfeits the right to rule.",
+        "fa": "استدلال می‌کند طبیعت آدمی نیک است، و فرمانروای بد حق فرمانروایی را از دست می‌دهد."
+      },
+      "composed": { "start": { "year": -300, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The famous argument runs through a thought experiment: anyone seeing a child about to fall into a well feels alarm before calculating anything, and that reaction is evidence of a moral capacity we start with rather than acquire. From the same root Mencius argues that a ruler who starves his people is no longer a ruler.",
+              "fa": "استدلال مشهور از یک آزمایش ذهنی می‌گذرد: هرکس کودکی را در آستانهٔ افتادن در چاه ببیند، پیش از هر محاسبه‌ای هراسان می‌شود، و همین واکنش نشانهٔ توانی اخلاقی است که با آن آغاز می‌کنیم نه اینکه به دستش آوریم. منسیوس از همین ریشه استدلال می‌کند که فرمانروایی که مردمش را گرسنه بدارد دیگر فرمانروا نیست."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "xunzi-book",
+      "title": { "en": "Xunzi", "fa": "شون‌دزه" },
+      "originalTitle": "荀子",
+      "transliteration": "Xúnzǐ",
+      "author": "xunzi",
+      "oneLine": {
+        "en": "Argues the opposite of Mencius: nature is crooked, and culture straightens it.",
+        "fa": "خلاف منسیوس استدلال می‌کند: طبیعت کج است و فرهنگ راستش می‌کند."
+      },
+      "composed": { "start": { "year": -250, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "philosophy-of-education"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Xunzi holds that people are born wanting, and that ritual and education are the deliberate human inventions that make social life possible. He is the most systematic arguer in classical Chinese philosophy, and the essays are structured as arguments rather than as collected sayings.",
+              "fa": "شون‌دزه معتقد است آدمی خواهنده زاده می‌شود، و آیین و آموزش ابداع‌های عمدی بشرند که زندگی اجتماعی را ممکن می‌کنند. او نظام‌مندترین استدلال‌کنندهٔ فلسفهٔ کلاسیک چین است، و مقاله‌هایش به‌شکل استدلال ساخته شده‌اند نه گردآوریِ سخنان."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "hanfeizi-book",
+      "title": { "en": "Han Feizi", "fa": "هان فی‌دزه" },
+      "originalTitle": "韓非子",
+      "transliteration": "Hánfēizǐ",
+      "author": "han-feizi",
+      "oneLine": {
+        "en": "Argues that a state should be built to work even when everyone in it is selfish.",
+        "fa": "استدلال می‌کند دولت را باید چنان ساخت که حتی اگر همه خودخواه باشند کار کند."
+      },
+      "composed": { "start": { "year": -240, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["political-philosophy", "philosophy-of-law", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Han Feizi's argument is institutional: relying on the ruler's virtue means the state fails whenever a bad ruler arrives, so law, position and administrative technique must be arranged so that the outcome does not depend on anyone's character. The First Emperor used the theory, which has coloured its reception ever since.",
+              "fa": "استدلال هان فی‌دزه نهادی است: تکیه بر فضیلت فرمانروا یعنی دولت هرگاه فرمانروایی بد بیاید فرو می‌ریزد، پس قانون و جایگاه و فن اداره را باید چنان سامان داد که نتیجه به منش کسی وابسته نباشد. نخستین امپراتور از این نظریه استفاده کرد، و همین از آن پس رنگ پذیرشش را تعیین کرده است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "chuanxilu",
+      "title": {
+        "en": "Instructions for Practical Living",
+        "fa": "آموزه‌های زندگی عملی"
+      },
+      "originalTitle": "傳習錄",
+      "transliteration": "Chuánxílù",
+      "author": "wang-yangming",
+      "oneLine": {
+        "en": "Records the argument that knowing and doing are one thing, not two.",
+        "fa": "استدلالی را ثبت می‌کند که دانستن و کردن یک چیزند، نه دو چیز."
+      },
+      "composed": { "start": { "year": 1518, "precision": "circa" } },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "epistemology", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Recorded by students, the text argues that someone who knows an act is right and does not do it does not really know it — so moral knowledge is not information waiting to be applied. Wang uses the case of knowing filial duty and neglecting a parent: the knowledge claim, he says, simply fails.",
+              "fa": "این متن که شاگردان ثبتش کرده‌اند استدلال می‌کند کسی که می‌داند کاری درست است و نمی‌کندش، در واقع نمی‌داند — پس معرفت اخلاقی اطلاعاتی نیست که منتظر به‌کاربستن باشد. وانگ نمونهٔ دانستنِ وظیفهٔ فرزندی و رهاکردن پدر و مادر را می‌آورد: به گفتهٔ او ادعای دانستن، به‌سادگی باطل است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "brahma-sutra-bhasya",
+      "title": {
+        "en": "Commentary on the Brahma Sūtras",
+        "fa": "شرح برهمه‌سوتره"
+      },
+      "originalTitle": "ब्रह्मसूत्रभाष्य",
+      "transliteration": "Brahmasūtrabhāṣya",
+      "author": "shankara",
+      "oneLine": {
+        "en": "Argues that the self and the absolute are not two things.",
+        "fa": "استدلال می‌کند که «خود» و «مطلق» دو چیز نیستند."
+      },
+      "composed": { "start": { "year": 800, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "epistemology", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Shankara's commentary is the founding text of Advaita Vedānta. Its central move is to treat the world's plurality as real for practical purposes and not ultimately real, and to argue that the scriptural statements identifying self and absolute are to be read literally rather than figuratively.",
+              "fa": "شرح شنکره متن بنیان‌گذار «ادویته ودانته» است. حرکت مرکزی‌اش این است که کثرت جهان را برای مقاصد عملی واقعی می‌گیرد و در نهایت ناواقعی، و استدلال می‌کند گزاره‌های متن مقدس که «خود» و «مطلق» را یکی می‌گیرند باید تحت‌اللفظی خوانده شوند نه مجازی."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "sri-bhasya",
+      "title": { "en": "Śrī Bhāṣya", "fa": "شری‌بهاشیه" },
+      "originalTitle": "श्रीभाष्य",
+      "transliteration": "Śrībhāṣya",
+      "author": "ramanuja",
+      "oneLine": {
+        "en": "Answers Shankara: the absolute is one, and it genuinely has parts.",
+        "fa": "به شنکره پاسخ می‌دهد: مطلق یکی است، و واقعاً اجزا دارد."
+      },
+      "composed": { "start": { "year": 1100, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Rāmānuja argues that Shankara's non-dualism makes the world an illusion nobody can consistently believe in, and that scripture describes a single reality whose body is the world and whose soul is God — one, but not undifferentiated. The debate between the two commentaries is the central argument of Vedānta.",
+              "fa": "رامانوجه استدلال می‌کند که ناثنویتِ شنکره جهان را وهمی می‌کند که کسی نمی‌تواند سازگارانه به آن باور داشته باشد، و متن مقدس واقعیتی یگانه را وصف می‌کند که جهان تنِ آن است و خدا جانِ آن — یکی، اما نه بی‌تمایز. بحث میان این دو شرح، استدلال مرکزی ودانته است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "vimsatika",
+      "title": { "en": "Twenty Verses", "fa": "بیست بیت" },
+      "originalTitle": "विंशतिका",
+      "transliteration": "Viṃśatikā",
+      "author": "vasubandhu",
+      "oneLine": {
+        "en": "Twenty verses arguing that objects outside the mind explain nothing.",
+        "fa": "بیست بیت در استدلال بر اینکه اشیای بیرون از ذهن چیزی توضیح نمی‌دهند."
+      },
+      "composed": { "start": { "year": 350, "precision": "circa" } },
+      "traditions": ["indian", "buddhist"],
+      "branches": ["metaphysics", "philosophy-of-mind", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is compact: everything cited as evidence for external objects — that experience is orderly, shared, and has consequences — can be accounted for without them, while the objects themselves face the problem of how anything partless could be extended. Whether this is idealism or something weaker is disputed.",
+              "fa": "استدلال فشرده است: هرچه به‌عنوان شاهد بر اشیای بیرونی آورده می‌شود — اینکه تجربه منظم است، مشترک است، و پیامد دارد — بی آن اشیا هم توضیح‌پذیر است، حال آنکه خودِ آن اشیا با این مشکل روبه‌رویند که چیزی بی‌جزء چگونه امتداد می‌یابد. اینکه این ایدئالیسم است یا چیزی ضعیف‌تر، محل اختلاف است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "pramanasamuccaya",
+      "title": {
+        "en": "Compendium of Valid Cognition",
+        "fa": "مجموعهٔ معرفت معتبر"
+      },
+      "originalTitle": "प्रमाणसमुच्चय",
+      "transliteration": "Pramāṇasamuccaya",
+      "author": "dignaga",
+      "oneLine": {
+        "en": "Reduces the ways of knowing to two, and defines what makes an inference work.",
+        "fa": "راه‌های دانستن را به دو می‌کاهد، و تعریف می‌کند چه چیزی استنتاج را معتبر می‌کند."
+      },
+      "composed": { "start": { "year": 500, "precision": "circa" } },
+      "traditions": ["indian", "buddhist"],
+      "branches": ["logic", "epistemology", "philosophy-of-language"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Dignāga argues that perception and inference are the only reliable instruments, that perception is free of conceptual construction, and that an inference is valid when the reason is present in the case, present in similar cases and absent from every dissimilar one. His theory of meaning by exclusion follows from the same economy.",
+              "fa": "دیگناگه استدلال می‌کند که ادراک و استنتاج تنها ابزارهای معتبرند، که ادراک از ساخت مفهومی آزاد است، و استنتاج آنگاه معتبر است که «دلیل» در موردِ بحث حاضر باشد، در موارد مشابه حاضر باشد و از هر مورد ناهمانند غایب. نظریهٔ معنا بر پایهٔ «کنارگذاشتن» از همین صرفه‌جویی برمی‌آید."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["pramana"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "shobogenzo",
+      "title": { "en": "Shōbōgenzō", "fa": "شوبوگنزو" },
+      "originalTitle": "正法眼藏",
+      "transliteration": "Shōbōgenzō",
+      "author": "dogen",
+      "oneLine": {
+        "en": "Argues that practice is not a means to enlightenment but its expression.",
+        "fa": "استدلال می‌کند که تمرین وسیلهٔ روشن‌شدگی نیست، بیانِ آن است."
+      },
+      "composed": { "start": { "year": 1240, "precision": "circa" } },
+      "traditions": ["japanese", "buddhist"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Dōgen's essays argue that sitting is not preparation for awakening but awakening being done — which dissolves the question of how long it takes. The writing bends Japanese and Chinese grammar deliberately, on the grounds that ordinary syntax carries assumptions about time and self that the argument rejects.",
+              "fa": "مقاله‌های دوگن استدلال می‌کنند که نشستن، آمادگی برای بیداری نیست بلکه خودِ بیداری در حال انجام است — و همین پرسش از اینکه چقدر طول می‌کشد را منحل می‌کند. نوشتار عمداً دستور زبان ژاپنی و چینی را خم می‌کند، به این دلیل که نحو عادی فرض‌هایی دربارهٔ زمان و «خود» با خود دارد که استدلال ردشان می‌کند."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "inquiry-into-the-good",
+      "title": { "en": "An Inquiry into the Good", "fa": "پژوهشی در باب خیر" },
+      "originalTitle": "善の研究",
+      "transliteration": "Zen no kenkyū",
+      "author": "nishida",
+      "oneLine": {
+        "en": "Starts philosophy from experience before the split into subject and object.",
+        "fa": "فلسفه را از تجربه‌ای آغاز می‌کند که هنوز به فاعل و متعلق نشکسته است."
+      },
+      "composed": { "start": { "year": 1911 } },
+      "traditions": ["japanese"],
+      "branches": [
+        "philosophy-of-mind",
+        "metaphysics",
+        "epistemology",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Nishida's starting point is pure experience: the moment of hearing a sound before it is sorted into a hearer and a heard. He argues that the subject–object structure is a later organisation of that, and builds an account of knowledge, morality and religion on the reversal.",
+              "fa": "نقطهٔ آغاز نیشیدا «تجربهٔ ناب» است: لحظهٔ شنیدن صدا، پیش از آنکه به شنونده و شنیده تقسیم شود. او استدلال می‌کند که ساختار فاعل–متعلق سامانی است که بعداً بر آن نهاده می‌شود، و بر همین وارونه‌سازی شرحی از معرفت و اخلاق و دین بنا می‌کند."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "lamrim-chenmo",
+      "title": {
+        "en": "The Great Treatise on the Stages of the Path",
+        "fa": "رسالهٔ بزرگ مراحل راه"
+      },
+      "originalTitle": "ལམ་རིམ་ཆེན་མོ",
+      "transliteration": "Lam rim chen mo",
+      "author": "tsongkhapa",
+      "oneLine": {
+        "en": "Orders the whole Buddhist path so that analysis is never left behind.",
+        "fa": "کل راه بودایی را چنان مرتب می‌کند که تحلیل هرگز جا نماند."
+      },
+      "composed": { "start": { "year": 1402 } },
+      "traditions": ["tibetan", "buddhist"],
+      "branches": [
+        "ethics",
+        "metaphysics",
+        "philosophy-of-religion",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The treatise arranges practice in stages and argues at each one against the shortcut it invites. Its most contested section holds that insight into emptiness is reached by reasoning, and that a meditation which stops thinking stops short of it.",
+              "fa": "این رساله تمرین را در مراحل می‌چیند و در هر مرحله بر ضد میان‌بری که همان مرحله وسوسه‌اش می‌کند استدلال می‌کند. پرمناقشه‌ترین بخشش می‌گوید بصیرت به تهیّت با استدلال به دست می‌آید، و مراقبه‌ای که اندیشیدن را متوقف کند پیش از رسیدن ایستاده است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "guide-for-the-perplexed",
+      "title": { "en": "The Guide for the Perplexed", "fa": "راهنمای سرگشتگان" },
+      "originalTitle": "דלאלה אלחאירין",
+      "transliteration": "Dalālat al-Ḥāʾirīn",
+      "author": "maimonides",
+      "oneLine": {
+        "en": "Written for a reader who finds philosophy and scripture pulling apart.",
+        "fa": "برای خواننده‌ای نوشته شده که می‌بیند فلسفه و متن مقدس از هم دور می‌شوند."
+      },
+      "composed": { "start": { "year": 1190, "precision": "circa" } },
+      "traditions": ["jewish", "islamic", "medieval"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "philosophy-of-language",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Maimonides argues that scriptural language about God's body, place and emotions must be read as figurative, because a God with attributes would be composite. What remains sayable is chiefly negative: not that God is wise, but that God is not ignorant. The book is deliberately arranged to be hard to skim.",
+              "fa": "ابن‌میمون استدلال می‌کند که زبان متن مقدس دربارهٔ تن و جا و عواطف خدا باید مجازی خوانده شود، چون خدایی با صفات، مرکب می‌شود. آنچه گفتنی می‌ماند بیشتر سلبی است: نه اینکه خدا داناست، بلکه اینکه خدا نادان نیست. کتاب عمداً چنان چیده شده که نتوان سرسری خواندش."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["negative-theology"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "confessions",
+      "title": { "en": "Confessions", "fa": "اعترافات" },
+      "originalTitle": "Confessiones",
+      "author": "augustine",
+      "oneLine": {
+        "en": "An argument about memory, time and will, written as an address to God.",
+        "fa": "استدلالی دربارهٔ حافظه و زمان و اراده، در قالب خطاب به خدا."
+      },
+      "composed": { "start": { "year": 400, "precision": "circa" } },
+      "traditions": ["christian", "roman"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "philosophy-of-religion",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The autobiography is the frame, not the content. Book XI asks what time is and arrives at the answer that past and future exist only as present memory and present expectation. Book VIII asks how a person can want something and not do it, which is the problem of the divided will.",
+              "fa": "زندگی‌نامه قالب است نه محتوا. کتاب یازدهم می‌پرسد زمان چیست و به این پاسخ می‌رسد که گذشته و آینده تنها به‌صورت حافظهٔ حاضر و انتظار حاضر هستند. کتاب هشتم می‌پرسد چگونه ممکن است کسی چیزی را بخواهد و انجامش ندهد، و این مسئلهٔ ارادهٔ دوپاره است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "city-of-god",
+      "title": { "en": "The City of God", "fa": "شهر خدا" },
+      "originalTitle": "De civitate Dei",
+      "author": "augustine",
+      "oneLine": {
+        "en": "Answers the charge that Christianity brought Rome down, and rewrites history in the process.",
+        "fa": "به این اتهام پاسخ می‌دهد که مسیحیت رم را انداخت، و در همان حال تاریخ را بازمی‌نویسد."
+      },
+      "composed": { "start": { "year": 426, "precision": "circa" } },
+      "traditions": ["christian", "roman"],
+      "branches": [
+        "philosophy-of-history",
+        "political-philosophy",
+        "philosophy-of-religion",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Augustine's answer to the sack of Rome is that no earthly city is permanent and none was ever just in the way it claimed. He distinguishes two cities defined by what they love, and argues that they are mixed together in every actual institution, including the church.",
+              "fa": "پاسخ آگوستین به غارت رم این است که هیچ شهر زمینی پایدار نیست و هیچ‌یک هرگز آن‌گونه که ادعا می‌کرد عادل نبوده است. او دو شهر را بر پایهٔ آنچه دوست می‌دارند از هم جدا می‌کند، و استدلال می‌کند که این دو در هر نهاد واقعی، از جمله کلیسا، در هم آمیخته‌اند."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "summa-theologiae",
+      "title": { "en": "Summa Theologiae", "fa": "خلاصهٔ الهیات" },
+      "originalTitle": "Summa Theologiae",
+      "author": "aquinas",
+      "oneLine": {
+        "en": "Puts every question in the form of an objection first, then an answer.",
+        "fa": "هر مسئله را نخست در قالب اعتراض می‌آورد، سپس پاسخ."
+      },
+      "composed": { "start": { "year": 1270, "precision": "circa" } },
+      "traditions": ["medieval", "christian"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "ethics",
+        "philosophy-of-law"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The structure is the argument: each article states the strongest objections, gives an authority for the other side, answers, then replies to each objection individually. Aquinas designed it as a textbook and left it unfinished, saying near the end that everything he had written seemed to him like straw.",
+              "fa": "ساختار خودِ استدلال است: هر مقاله نخست قوی‌ترین اعتراض‌ها را می‌آورد، سپس مرجعی برای طرف مقابل، سپس پاسخ، و در آخر جداگانه به هر اعتراض جواب می‌دهد. آکویناس آن را کتاب درسی طراحی کرد و ناتمام رهایش کرد، و نزدیک پایان گفت هرچه نوشته به نظرش کاه می‌آید."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "proslogion",
+      "title": { "en": "Proslogion", "fa": "پروسلوگیون" },
+      "originalTitle": "Proslogion",
+      "author": "anselm",
+      "oneLine": {
+        "en": "Contains the argument that God's existence follows from the concept alone.",
+        "fa": "استدلالی را در بر دارد که هستی خدا تنها از مفهوم آن برمی‌آید."
+      },
+      "composed": { "start": { "year": 1078, "precision": "circa" } },
+      "traditions": ["medieval", "christian"],
+      "branches": ["philosophy-of-religion", "metaphysics", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Anselm defines God as that than which nothing greater can be thought, and argues that such a being cannot exist only in the understanding, since existing in reality would be greater. Objections began immediately, with a monk named Gaunilo, and the argument has been refuted and revived roughly once a century since.",
+              "fa": "آنسلم خدا را چنین تعریف می‌کند: آنچه بزرگ‌تر از آن نتوان اندیشید، و استدلال می‌کند چنین موجودی نمی‌تواند تنها در فهم باشد، چون بودن در واقعیت بزرگ‌تر است. اعتراض‌ها بی‌درنگ آغاز شد، با راهبی به نام گاونیلو، و از آن پس تقریباً هر قرن یک بار این استدلال رد و دوباره احیا شده است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "summa-logicae",
+      "title": { "en": "Summa Logicae", "fa": "خلاصهٔ منطق" },
+      "originalTitle": "Summa Logicae",
+      "author": "ockham",
+      "oneLine": {
+        "en": "Rebuilds logic on the principle that only individuals exist.",
+        "fa": "منطق را بر این اصل بازمی‌سازد که تنها افراد وجود دارند."
+      },
+      "composed": { "start": { "year": 1323, "precision": "circa" } },
+      "traditions": ["medieval", "christian"],
+      "branches": ["logic", "philosophy-of-language", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Ockham argues that universal terms are signs standing for many individuals, not names of shared entities, and works out what logic looks like once nothing general is admitted into the world. The razor commonly attributed to him is the working method of the book rather than a slogan in it.",
+              "fa": "اکام استدلال می‌کند که واژه‌های کلی نشانه‌هایی‌اند که جای بسیاری از افراد می‌نشینند، نه نام موجوداتی مشترک، و نشان می‌دهد منطق وقتی هیچ چیز کلی به جهان راه نیابد چه شکلی می‌شود. «تیغی» که معمولاً به او نسبت می‌دهند روشِ کارِ همین کتاب است نه شعاری در آن."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "the-prince",
+      "title": { "en": "The Prince", "fa": "شهریار" },
+      "originalTitle": "Il Principe",
+      "author": "machiavelli",
+      "oneLine": {
+        "en": "Describes how power is actually kept, without saying whether it should be.",
+        "fa": "وصف می‌کند قدرت واقعاً چگونه نگه داشته می‌شود، بی‌آنکه بگوید باید یا نه."
+      },
+      "composed": { "start": { "year": 1513 } },
+      "traditions": ["renaissance"],
+      "branches": ["political-philosophy", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The book breaks with the advice-to-princes genre by describing what rulers do rather than what a good ruler would do, and arguing that a prince who is good in all circumstances will be destroyed by those who are not. Whether that is realism, satire or a job application has been argued for five centuries.",
+              "fa": "این کتاب با گونهٔ «اندرز به شاهان» می‌شکند، چون وصف می‌کند فرمانروایان چه می‌کنند نه اینکه فرمانروای خوب چه می‌کند، و استدلال می‌کند شهریاری که در همهٔ اوضاع نیک باشد به دست کسانی که نیستند نابود می‌شود. اینکه این واقع‌گرایی است یا هجو یا درخواست کار، پنج قرن است محل بحث است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "essays-montaigne",
+      "title": { "en": "Essays", "fa": "مقالات" },
+      "originalTitle": "Essais",
+      "author": "montaigne",
+      "oneLine": {
+        "en": "Invented the essay in order to examine one mind honestly.",
+        "fa": "مقاله را ابداع کرد تا یک ذهن را صادقانه بررسی کند."
+      },
+      "composed": { "start": { "year": 1580 } },
+      "traditions": ["renaissance"],
+      "branches": ["epistemology", "ethics", "aesthetics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Montaigne wrote about cannibals, thumbs, sleep, friendship and his own kidney stones, on the argument that a person who reports themselves accurately reports the human condition. The recurring question — what do I know — is asked as a genuine question rather than as a rhetorical one.",
+              "fa": "مونتنی دربارهٔ آدم‌خواران، شست، خواب، دوستی و سنگ کلیهٔ خودش نوشت، با این استدلال که کسی که خودش را دقیق گزارش کند وضع بشر را گزارش کرده است. پرسش مکررش — «چه می‌دانم؟» — پرسشی واقعی است نه بلاغی."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ethics-spinoza",
+      "title": { "en": "Ethics", "fa": "اخلاق" },
+      "originalTitle": "Ethica ordine geometrico demonstrata",
+      "author": "spinoza",
+      "oneLine": {
+        "en": "Proves a philosophy of God, mind and freedom the way Euclid proves geometry.",
+        "fa": "فلسفه‌ای از خدا و ذهن و آزادی را به روش اقلیدس اثبات می‌کند."
+      },
+      "composed": { "start": { "year": 1677 } },
+      "traditions": ["european", "jewish"],
+      "branches": [
+        "metaphysics",
+        "ethics",
+        "philosophy-of-mind",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Definitions, axioms, propositions, proofs. The form is a claim: if the conclusions follow, disliking them is not an objection. What follows is that there is one substance, that God and nature are two names for it, that mind and body are one thing described two ways, and that freedom is understanding necessity rather than escaping it.",
+              "fa": "تعریف، اصل موضوع، قضیه، برهان. خودِ این صورت یک ادعا است: اگر نتیجه‌ها لازم می‌آیند، خوش‌نیامدن از آن‌ها اعتراض نیست. آنچه لازم می‌آید این است که یک جوهر هست، که «خدا» و «طبیعت» دو نام برای اویند، که ذهن و تن یک چیزند که دوگونه وصف می‌شوند، و آزادی فهمیدنِ ضرورت است نه گریختن از آن."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "begriffsschrift",
+      "title": { "en": "Begriffsschrift", "fa": "مفهوم‌نگاشت" },
+      "originalTitle": "Begriffsschrift",
+      "author": "frege",
+      "oneLine": {
+        "en": "Eighty pages that founded modern logic.",
+        "fa": "هشتاد صفحه‌ای که منطق جدید را بنیاد گذاشت."
+      },
+      "composed": { "start": { "year": 1879 } },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "logic",
+        "philosophy-of-mathematics",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Frege replaced subject and predicate with function and argument, introduced quantifiers, and thereby made it possible to formalise sentences involving multiple generality — every boy loves some girl — that had defeated logic since Aristotle. It sold badly and was read by almost nobody for twenty years.",
+              "fa": "فرگه به‌جای موضوع و محمول، تابع و آرگومان نشاند، سورها را وارد کرد، و بدین‌سان صوری‌کردنِ جمله‌هایی با چند سور را ممکن ساخت — «هر پسری دختری را دوست دارد» — که از زمان ارسطو منطق را شکست داده بود. کتاب بد فروخت و بیست سال تقریباً کسی نخواندش."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "tractatus",
+      "title": {
+        "en": "Tractatus Logico-Philosophicus",
+        "fa": "رسالهٔ منطقی–فلسفی"
+      },
+      "originalTitle": "Logisch-Philosophische Abhandlung",
+      "author": "wittgenstein",
+      "oneLine": {
+        "en": "Seven numbered propositions that try to fix the limits of what can be said.",
+        "fa": "هفت گزارهٔ شماره‌دار که می‌کوشند مرز گفتنی را معین کنند."
+      },
+      "composed": { "start": { "year": 1921 } },
+      "traditions": ["european", "analytic"],
+      "branches": ["philosophy-of-language", "logic", "metaphysics", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The book argues that a sentence means by picturing a possible arrangement of things, that logic shows rather than states the structure making this possible, and that ethics and the meaning of life therefore cannot be put into sentences. Its last line says that of what we cannot speak we must be silent — and it counts its own propositions among those.",
+              "fa": "کتاب استدلال می‌کند که جمله با تصویرکردن آرایشی ممکن از چیزها معنا می‌دهد، که منطق ساختارِ ممکن‌کنندهٔ این کار را نشان می‌دهد نه اینکه بگوید، و پس اخلاق و معنای زندگی را نمی‌توان در جمله ریخت. سطر آخرش می‌گوید دربارهٔ آنچه نمی‌توان گفت باید خاموش ماند — و گزاره‌های خودش را هم در همان شمار می‌آورد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "philosophical-investigations",
+      "title": { "en": "Philosophical Investigations", "fa": "پژوهش‌های فلسفی" },
+      "originalTitle": "Philosophische Untersuchungen",
+      "author": "wittgenstein",
+      "oneLine": {
+        "en": "Wittgenstein's argument against his own earlier book.",
+        "fa": "استدلال ویتگنشتاین بر ضد کتاب پیشین خودش."
+      },
+      "composed": { "start": { "year": 1953 } },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "philosophy-of-language",
+        "philosophy-of-mind",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The later work argues that meaning is not picturing but use, that words work like tools rather than labels, and that a language nobody else could in principle check would not be a language. It proceeds by numbered remarks and questions rather than by theses, which is itself part of the argument.",
+              "fa": "کار متأخر استدلال می‌کند که معنا تصویرکردن نیست بلکه کاربرد است، که واژه‌ها مانند ابزار کار می‌کنند نه مانند برچسب، و زبانی که کسِ دیگری اصولاً نتواند بررسی‌اش کند زبان نیست. با یادداشت‌ها و پرسش‌های شماره‌دار پیش می‌رود نه با تز، و همین خود بخشی از استدلال است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "being-and-time",
+      "title": { "en": "Being and Time", "fa": "هستی و زمان" },
+      "originalTitle": "Sein und Zeit",
+      "author": "heidegger",
+      "oneLine": {
+        "en": "Asks what it means to be, starting from the being that asks.",
+        "fa": "می‌پرسد بودن یعنی چه، و از همان موجودی آغاز می‌کند که می‌پرسد."
+      },
+      "composed": { "start": { "year": 1927 } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "existential-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Heidegger argues that philosophy has asked what things are while forgetting the question of what being itself means, and that the way in is the being for whom its own existence is at issue. The analysis moves through equipment, mood, everydayness, and death as the possibility that makes a life a whole. The book is unfinished.",
+              "fa": "هایدگر استدلال می‌کند که فلسفه پرسیده چیزها چیستند و پرسش از معنای خودِ «بودن» را از یاد برده، و راه ورود، همان موجودی است که هستیِ خودش برایش مسئله است. تحلیل از ابزار و حال و روزمرگی می‌گذرد و به مرگ می‌رسد؛ همان امکانی که یک زندگی را کل می‌کند. کتاب ناتمام است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "being-and-nothingness",
+      "title": { "en": "Being and Nothingness", "fa": "هستی و نیستی" },
+      "originalTitle": "L'Être et le néant",
+      "author": "sartre",
+      "oneLine": {
+        "en": "Argues that we are condemned to be free, and spend most of our effort denying it.",
+        "fa": "استدلال می‌کند که ما به آزادی محکومیم، و بیشتر توانمان را صرف انکارش می‌کنیم."
+      },
+      "composed": { "start": { "year": 1943 } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "existential-philosophy",
+        "metaphysics",
+        "philosophy-of-mind",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Sartre argues that consciousness is not a thing with properties but a nothingness that must choose, so no role, nature or excuse determines what we do. Bad faith is the ordinary work of pretending otherwise — the waiter playing at being a waiter, so that the playing does not have to be chosen.",
+              "fa": "سارتر استدلال می‌کند که آگاهی چیزی با ویژگی نیست بلکه «نیستی»ای است که باید انتخاب کند، پس هیچ نقش و طبیعت و بهانه‌ای تعیین نمی‌کند چه می‌کنیم. «بدنیتی» کارِ روزمرهٔ وانمودکردنِ خلاف آن است — پیشخدمتی که نقش پیشخدمت را بازی می‌کند تا نیازی به انتخابِ بازی نباشد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["bad-faith"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "phenomenology-of-perception",
+      "title": {
+        "en": "Phenomenology of Perception",
+        "fa": "پدیدارشناسی ادراک"
+      },
+      "originalTitle": "Phénoménologie de la perception",
+      "author": "merleau-ponty",
+      "oneLine": {
+        "en": "Puts the body back at the centre of knowing anything at all.",
+        "fa": "بدن را دوباره در مرکز هر دانستنی می‌نشاند."
+      },
+      "composed": { "start": { "year": 1945 } },
+      "traditions": ["european", "continental"],
+      "branches": ["philosophy-of-mind", "epistemology", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Merleau-Ponty argues that perception is not a mind reading data from a body but a body already engaged with a world — that I know where my hand is without looking, and that this bodily knowledge is presupposed by every intellectual model built on top of it.",
+              "fa": "مرلوپونتی استدلال می‌کند که ادراک، ذهنی نیست که از بدن داده می‌خواند، بلکه بدنی است که پیشاپیش با جهان درگیر است — اینکه بی‌نگاه‌کردن می‌دانم دستم کجاست، و هر مدل ذهنی‌ای که رویش ساخته شود همین دانستن بدنی را از پیش فرض گرفته است."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "discipline-and-punish",
+      "title": { "en": "Discipline and Punish", "fa": "مراقبت و تنبیه" },
+      "originalTitle": "Surveiller et punir",
+      "author": "foucault",
+      "oneLine": {
+        "en": "Traces how punishment moved from the body to the soul, and calls that a technique.",
+        "fa": "پی می‌گیرد که مجازات چگونه از تن به روح منتقل شد، و آن را یک فن می‌نامد."
+      },
+      "composed": { "start": { "year": 1975 } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "political-philosophy",
+        "social-philosophy",
+        "philosophy-of-law",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Foucault opens with a public execution and closes with the timetable of a prison, and argues that the change is not simply humanitarian progress: it is a shift to a form of power that works by making people visible and self-monitoring, and that schools, hospitals and factories run on it too.",
+              "fa": "فوکو با یک اعدام همگانی آغاز می‌کند و با جدول زمانی یک زندان می‌بندد، و استدلال می‌کند این تغییر صرفاً پیشرفتی انسان‌دوستانه نیست: گذاری است به شکلی از قدرت که با مرئی‌کردن آدم‌ها و وادارکردنشان به خودپاییدن کار می‌کند، و مدرسه و بیمارستان و کارخانه هم بر همان می‌گردند."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "hatata",
+      "title": { "en": "The Hatata", "fa": "حَتَتَه" },
+      "originalTitle": "ሐተታ",
+      "transliteration": "Ḥatäta",
+      "author": "zera-yacob",
+      "oneLine": {
+        "en": "Tests every inherited doctrine against reason, from inside a cave.",
+        "fa": "هر آموزهٔ به‌ارث‌رسیده را با خرد می‌آزماید، از درون یک غار."
+      },
+      "composed": { "start": { "year": 1667 } },
+      "traditions": ["ethiopian", "african"],
+      "branches": ["epistemology", "philosophy-of-religion", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Written after two years in hiding, the Hatata argues that God gave everyone reason, that any teaching contradicting it should be rejected whoever taught it, and applies the test to Zera Yacob's own tradition as readily as to others — concluding against slavery and for the equality of men and women.",
+              "fa": "«حَتَته» که پس از دو سال پنهان‌زیستی نوشته شد استدلال می‌کند که خدا به همه خرد داده، هر آموزه‌ای که با آن ناسازگار باشد باید رد شود — هرکه آموخته باشدش — و این آزمون را به سنت خودِ زرا یعقوب همان‌قدر می‌زند که به سنت‌های دیگر، و به مخالفت با بردگی و به برابری زن و مرد می‌رسد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "black-skin-white-masks",
+      "title": {
+        "en": "Black Skin, White Masks",
+        "fa": "پوست سیاه، صورتک‌های سفید"
+      },
+      "originalTitle": "Peau noire, masques blancs",
+      "author": "fanon",
+      "oneLine": {
+        "en": "A psychiatrist's account of what colonial racism does to the person inside it.",
+        "fa": "گزارش یک روان‌پزشک از آنچه نژادپرستی استعماری با آدمِ درونش می‌کند."
+      },
+      "composed": { "start": { "year": 1952 } },
+      "traditions": ["africana", "continental"],
+      "branches": [
+        "social-philosophy",
+        "philosophy-of-mind",
+        "decolonial-philosophy",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Fanon argues that colonial racism is not only an external arrangement but installs itself in the person, producing a self that measures itself by a standard designed to exclude it. He wrote it at twenty-seven, using clinical material alongside philosophy and literature.",
+              "fa": "فانون استدلال می‌کند که نژادپرستی استعماری فقط ترتیبی بیرونی نیست بلکه در خودِ شخص جا خوش می‌کند و «خود»ی می‌سازد که با معیاری خودش را می‌سنجد که برای کنارگذاشتنش طراحی شده است. آن را در بیست‌وهفت‌سالگی نوشت، با کنارهم‌گذاشتن ماده‌های بالینی و فلسفه و ادبیات."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "wretched-of-the-earth",
+      "title": { "en": "The Wretched of the Earth", "fa": "دوزخیان روی زمین" },
+      "originalTitle": "Les Damnés de la Terre",
+      "author": "fanon",
+      "oneLine": {
+        "en": "Asks what decolonisation actually requires, and does not soften the answer.",
+        "fa": "می‌پرسد استعمارزدایی واقعاً چه می‌طلبد، و پاسخ را نرم نمی‌کند."
+      },
+      "composed": { "start": { "year": 1961 } },
+      "traditions": ["africana", "continental"],
+      "branches": [
+        "political-philosophy",
+        "decolonial-philosophy",
+        "social-philosophy",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Written as Fanon was dying, the book argues that colonialism is founded on violence and does not withdraw for arguments, warns that a national bourgeoisie will inherit the structure it fought, and closes with clinical cases from both sides of the Algerian war.",
+              "fa": "این کتاب را فانون در حال مرگ نوشت. استدلال می‌کند که استعمار بر خشونت بنا شده و با استدلال عقب نمی‌نشیند، هشدار می‌دهد که بورژوازی ملی همان ساختاری را به ارث می‌برد که با آن جنگیده، و با گزارش‌های بالینی از هر دو سوی جنگ الجزایر پایان می‌یابد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "respuesta",
+      "title": {
+        "en": "Reply to Sister Filotea",
+        "fa": "پاسخ به خواهر فیلوته‌آ"
+      },
+      "originalTitle": "Respuesta a Sor Filotea de la Cruz",
+      "author": "sor-juana",
+      "oneLine": {
+        "en": "Defends a woman's right to study, addressed to the bishop who told her to stop.",
+        "fa": "از حق زن به آموختن دفاع می‌کند، خطاب به اسقفی که گفته بود بس کند."
+      },
+      "composed": { "start": { "year": 1691 } },
+      "traditions": ["latin-american", "christian"],
+      "branches": [
+        "feminist-philosophy",
+        "philosophy-of-education",
+        "epistemology",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Sor Juana answers a rebuke by arguing that understanding scripture requires the disciplines she was told to abandon, that curiosity is not a vice, and that women have taught throughout the church's history. She gives examples, cites authorities, and stopped writing shortly afterwards.",
+              "fa": "سور خوانا به یک سرزنش چنین پاسخ می‌دهد که فهم متن مقدس همان دانش‌هایی را لازم دارد که به او گفته‌اند رهایشان کند، که کنجکاوی رذیلت نیست، و که زنان در سراسر تاریخ کلیسا آموزگار بوده‌اند. نمونه می‌آورد، به مراجع استناد می‌کند، و اندکی بعد نوشتن را رها کرد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
     }
   ]
 }

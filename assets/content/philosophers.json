@@ -306,7 +306,7 @@
           }
         ]
       },
-      "concepts": ["ren"],
+      "concepts": ["dao", "li-ritual", "ren"],
       "works": ["analects"],
       "schools": ["confucianism"],
       "citations": [{ "source": "sep" }]
@@ -355,7 +355,7 @@
           }
         ]
       },
-      "concepts": ["sunyata"],
+      "concepts": ["dependent-origination", "sunyata"],
       "works": ["mulamadhyamakakarika"],
       "schools": ["madhyamaka"],
       "citations": [{ "source": "sep" }]
@@ -610,6 +610,7 @@
       },
       "concepts": ["cogito"],
       "works": ["meditations"],
+      "schools": ["rationalism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -772,6 +773,8 @@
         ]
       },
       "works": ["second-sex"],
+      "schools": ["existentialism"],
+      "concepts": ["bad-faith", "the-other"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -868,9 +871,12 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "老子",
-      "transliteration": "Lǎozǐ"
+      "transliteration": "Lǎozǐ",
+      "works": ["daodejing"],
+      "schools": ["daoism"],
+      "concepts": ["dao", "wu-wei"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "zhuangzi",
@@ -897,9 +903,12 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "莊子",
-      "transliteration": "Zhuāngzǐ"
+      "transliteration": "Zhuāngzǐ",
+      "works": ["zhuangzi-book"],
+      "schools": ["daoism"],
+      "concepts": ["dao", "wu-wei"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "mencius",
@@ -926,9 +935,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "孟子",
-      "transliteration": "Mèngzǐ"
+      "transliteration": "Mèngzǐ",
+      "works": ["mengzi"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "xunzi",
@@ -955,9 +965,12 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "荀子",
-      "transliteration": "Xúnzǐ"
+      "transliteration": "Xúnzǐ",
+      "works": ["xunzi-book"],
+      "schools": ["legalism"],
+      "concepts": ["li-ritual"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "mozi",
@@ -984,9 +997,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "墨子",
-      "transliteration": "Mòzǐ"
+      "transliteration": "Mòzǐ",
+      "schools": ["mohism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "han-feizi",
@@ -1013,9 +1027,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "韓非子",
-      "transliteration": "Hán Fēizǐ"
+      "transliteration": "Hán Fēizǐ",
+      "works": ["hanfeizi-book"],
+      "schools": ["legalism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "zhu-xi",
@@ -1042,9 +1058,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "朱熹",
-      "transliteration": "Zhū Xī"
+      "transliteration": "Zhū Xī",
+      "schools": ["neo-confucianism"],
+      "concepts": ["li-ritual"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "wang-yangming",
@@ -1071,9 +1089,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "王陽明",
-      "transliteration": "Wáng Yángmíng"
+      "transliteration": "Wáng Yángmíng",
+      "works": ["chuanxilu"],
+      "schools": ["neo-confucianism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "buddha",
@@ -1100,9 +1120,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "सिद्धार्थ गौतम",
-      "transliteration": "Siddhārtha Gautama"
+      "transliteration": "Siddhārtha Gautama",
+      "concepts": ["dependent-origination"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "shankara",
@@ -1129,9 +1150,12 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "आदि शङ्कर",
-      "transliteration": "Ādi Śaṅkara"
+      "transliteration": "Ādi Śaṅkara",
+      "works": ["brahma-sutra-bhasya"],
+      "schools": ["advaita-vedanta"],
+      "concepts": ["pramana"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "ramanuja",
@@ -1158,9 +1182,12 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "रामानुज",
-      "transliteration": "Rāmānuja"
+      "transliteration": "Rāmānuja",
+      "works": ["sri-bhasya"],
+      "schools": ["vishishtadvaita"],
+      "concepts": ["pramana"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "vasubandhu",
@@ -1187,9 +1214,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "वसुबन्धु",
-      "transliteration": "Vasubandhu"
+      "transliteration": "Vasubandhu",
+      "works": ["vimsatika"],
+      "schools": ["yogacara"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "dignaga",
@@ -1216,9 +1245,12 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "दिग्नाग",
-      "transliteration": "Dignāga"
+      "transliteration": "Dignāga",
+      "works": ["pramanasamuccaya"],
+      "schools": ["yogacara"],
+      "concepts": ["pramana"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "mahavira",
@@ -1245,9 +1277,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "महावीर",
-      "transliteration": "Mahāvīra"
+      "transliteration": "Mahāvīra",
+      "schools": ["jainism"],
+      "concepts": ["ahimsa", "anekantavada"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "dogen",
@@ -1278,9 +1312,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "道元",
-      "transliteration": "Dōgen Zenji"
+      "transliteration": "Dōgen Zenji",
+      "works": ["shobogenzo"],
+      "schools": ["zen"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "nishida",
@@ -1325,9 +1361,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "西田 幾多郎",
-      "transliteration": "Nishida Kitarō"
+      "transliteration": "Nishida Kitarō",
+      "works": ["inquiry-into-the-good"],
+      "schools": ["kyoto-school"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "kukai",
@@ -1449,9 +1487,12 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "ཙོང་ཁ་པ",
-      "transliteration": "Tsongkhapa"
+      "transliteration": "Tsongkhapa",
+      "works": ["lamrim-chenmo"],
+      "schools": ["gelug"],
+      "concepts": ["dependent-origination"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "tran-nhan-tong",
@@ -1507,9 +1548,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "משה בן מימון",
-      "transliteration": "Mosheh ben Maimon"
+      "transliteration": "Mosheh ben Maimon",
+      "works": ["guide-for-the-perplexed"],
+      "concepts": ["negative-theology"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "augustine",
@@ -1550,9 +1593,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "Aurelius Augustinus",
-      "transliteration": "Aurelius Augustinus"
+      "transliteration": "Aurelius Augustinus",
+      "works": ["city-of-god", "confessions"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "aquinas",
@@ -1584,9 +1628,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "Thomas de Aquino",
-      "transliteration": "Thomas de Aquino"
+      "transliteration": "Thomas de Aquino",
+      "works": ["summa-theologiae"],
+      "schools": ["scholasticism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "anselm",
@@ -1613,9 +1659,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "Anselmus Cantuariensis",
-      "transliteration": "Anselmus"
+      "transliteration": "Anselmus",
+      "works": ["proslogion"],
+      "schools": ["scholasticism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "ockham",
@@ -1642,9 +1690,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "Gulielmus Occamus",
-      "transliteration": "Gulielmus Occamus"
+      "transliteration": "Gulielmus Occamus",
+      "works": ["summa-logicae"],
+      "schools": ["nominalism", "scholasticism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "philoponus",
@@ -1711,6 +1761,7 @@
           }
         ]
       },
+      "works": ["the-prince"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1738,6 +1789,7 @@
           }
         ]
       },
+      "works": ["essays-montaigne"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1770,9 +1822,11 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "ברוך שפינוזה",
-      "transliteration": "Baruch de Spinoza"
+      "transliteration": "Baruch de Spinoza",
+      "works": ["ethics-spinoza"],
+      "schools": ["rationalism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "frege",
@@ -1803,6 +1857,8 @@
           }
         ]
       },
+      "works": ["begriffsschrift"],
+      "schools": ["analytic-philosophy"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1835,6 +1891,7 @@
           }
         ]
       },
+      "schools": ["analytic-philosophy"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1862,6 +1919,8 @@
           }
         ]
       },
+      "works": ["philosophical-investigations", "tractatus"],
+      "schools": ["analytic-philosophy"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1889,6 +1948,7 @@
           }
         ]
       },
+      "schools": ["phenomenology"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1934,6 +1994,8 @@
           }
         ]
       },
+      "works": ["being-and-time"],
+      "schools": ["phenomenology"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1961,6 +2023,9 @@
           }
         ]
       },
+      "works": ["being-and-nothingness"],
+      "schools": ["existentialism"],
+      "concepts": ["bad-faith"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -1988,6 +2053,8 @@
           }
         ]
       },
+      "works": ["phenomenology-of-perception"],
+      "schools": ["phenomenology"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2019,6 +2086,7 @@
           }
         ]
       },
+      "works": ["discipline-and-punish"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2046,6 +2114,7 @@
           }
         ]
       },
+      "schools": ["pragmatism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2077,6 +2146,7 @@
           }
         ]
       },
+      "schools": ["pragmatism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2108,6 +2178,7 @@
           }
         ]
       },
+      "schools": ["pragmatism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2149,9 +2220,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "ዘርአ ያዕቆብ",
-      "transliteration": "Zärʾa Yaʿəqob"
+      "transliteration": "Zärʾa Yaʿəqob",
+      "works": ["hatata"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "anton-wilhelm-amo",
@@ -2209,6 +2281,8 @@
           }
         ]
       },
+      "works": ["black-skin-white-masks", "wretched-of-the-earth"],
+      "concepts": ["coloniality"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2240,6 +2314,7 @@
           }
         ]
       },
+      "concepts": ["ubuntu-personhood"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2314,6 +2389,7 @@
           }
         ]
       },
+      "works": ["respuesta"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -2341,6 +2417,8 @@
           }
         ]
       },
+      "schools": ["liberation-philosophy"],
+      "concepts": ["coloniality"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -3275,9 +3353,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "محيي الدين ابن عربي",
-      "transliteration": "Ibn ʿArabī"
+      "transliteration": "Ibn ʿArabī",
+      "concepts": ["negative-theology", "wahdat-al-wujud"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "suhrawardi",
@@ -3304,9 +3383,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "شهاب‌الدین یحیی سهروردی",
-      "transliteration": "Suhrawardī"
+      "transliteration": "Suhrawardī",
+      "concepts": ["illumination"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "ibn-khaldun",
@@ -3338,9 +3418,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "عبد الرحمن بن خلدون",
-      "transliteration": "Ibn Khaldūn"
+      "transliteration": "Ibn Khaldūn",
+      "concepts": ["asabiyyah"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "ibn-tufayl",
@@ -3678,8 +3759,9 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
-      "nativeName": "Petrus Abaelardus"
+      "nativeName": "Petrus Abaelardus",
+      "schools": ["nominalism", "scholasticism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "hildegard",
@@ -3739,8 +3821,9 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
-      "nativeName": "Ioannes Duns Scotus"
+      "nativeName": "Ioannes Duns Scotus",
+      "schools": ["scholasticism"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "nicholas-of-cusa",
@@ -3772,8 +3855,9 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
-      "nativeName": "Nicolaus Cusanus"
+      "nativeName": "Nicolaus Cusanus",
+      "concepts": ["negative-theology"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "erasmus",
@@ -3866,6 +3950,7 @@
           }
         ]
       },
+      "concepts": ["social-contract"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -3895,6 +3980,8 @@
           }
         ]
       },
+      "schools": ["empiricism"],
+      "concepts": ["social-contract"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -3924,6 +4011,7 @@
           }
         ]
       },
+      "schools": ["rationalism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -3948,6 +4036,7 @@
           }
         ]
       },
+      "schools": ["empiricism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -3977,6 +4066,8 @@
           }
         ]
       },
+      "schools": ["empiricism"],
+      "concepts": ["is-ought-gap", "problem-of-induction"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4006,6 +4097,7 @@
           }
         ]
       },
+      "concepts": ["general-will", "social-contract"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4117,6 +4209,7 @@
           }
         ]
       },
+      "schools": ["existentialism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4175,6 +4268,7 @@
           }
         ]
       },
+      "schools": ["utilitarianism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4204,6 +4298,7 @@
           }
         ]
       },
+      "schools": ["utilitarianism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4257,6 +4352,7 @@
           }
         ]
       },
+      "concepts": ["banality-of-evil"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4315,6 +4411,7 @@
           }
         ]
       },
+      "schools": ["critical-theory"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4344,6 +4441,7 @@
           }
         ]
       },
+      "schools": ["critical-theory"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4373,6 +4471,7 @@
           }
         ]
       },
+      "schools": ["critical-theory"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4426,6 +4525,8 @@
           }
         ]
       },
+      "schools": ["phenomenology"],
+      "concepts": ["the-other"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4513,6 +4614,7 @@
           }
         ]
       },
+      "schools": ["pragmatism"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4542,6 +4644,7 @@
           }
         ]
       },
+      "schools": ["analytic-philosophy"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4570,6 +4673,7 @@
           }
         ]
       },
+      "concepts": ["falsifiability", "problem-of-induction"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4598,6 +4702,7 @@
           }
         ]
       },
+      "concepts": ["paradigm"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4627,6 +4732,8 @@
           }
         ]
       },
+      "schools": ["analytic-philosophy"],
+      "concepts": ["social-contract", "veil-of-ignorance"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4656,6 +4763,7 @@
           }
         ]
       },
+      "schools": ["analytic-philosophy"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4709,6 +4817,7 @@
           }
         ]
       },
+      "concepts": ["capabilities-approach"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4738,6 +4847,7 @@
           }
         ]
       },
+      "concepts": ["performativity"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4902,6 +5012,7 @@
           }
         ]
       },
+      "concepts": ["ubuntu-personhood"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -4997,9 +5108,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "अभिनवगुप्त",
-      "transliteration": "Abhinavagupta"
+      "transliteration": "Abhinavagupta",
+      "concepts": ["rasa"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "gandhi",
@@ -5028,9 +5140,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "मोहनदास करमचंद गांधी",
-      "transliteration": "Mohandās Karamchand Gāndhī"
+      "transliteration": "Mohandās Karamchand Gāndhī",
+      "concepts": ["ahimsa", "satyagraha"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "ambedkar",
@@ -5152,6 +5265,8 @@
           }
         ]
       },
+      "schools": ["negritude"],
+      "concepts": ["coloniality"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -5181,6 +5296,7 @@
           }
         ]
       },
+      "schools": ["negritude"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -5298,6 +5414,7 @@
           }
         ]
       },
+      "concepts": ["coloniality"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -5327,6 +5444,7 @@
           }
         ]
       },
+      "schools": ["liberation-philosophy"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -5385,6 +5503,7 @@
           }
         ]
       },
+      "schools": ["liberation-philosophy"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -5440,9 +5559,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
       "nativeName": "牟宗三",
-      "transliteration": "Móu Zōngsān"
+      "transliteration": "Móu Zōngsān",
+      "schools": ["neo-confucianism"],
+      "citations": [{ "source": "sep" }]
     }
   ]
 }
