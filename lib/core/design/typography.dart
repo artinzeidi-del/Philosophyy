@@ -20,8 +20,24 @@ abstract final class AppTypography {
   /// The English reading face.
   static const String serifFamily = 'Spectral';
 
-  /// The Persian face, used for both content and chrome.
+  /// The Persian interface face.
+  ///
+  /// Vazirmatn is a screen-drawn geometric sans and is the right thing for
+  /// chrome. It is not the right thing for a page of philosophy.
   static const String persianFamily = 'Vazirmatn';
+
+  /// The Persian reading face.
+  ///
+  /// Persian books are set in naskh, and setting long-form Persian in the UI
+  /// sans made the reading surface feel like an interface rather than a page.
+  /// This is the Persian half of the serif/sans split the English side already
+  /// had — content and chrome should not feel like the same activity.
+  ///
+  /// Chosen over Amiri, which is the more beautiful face but applies Arabic
+  /// conventions to Persian: a dotted final yeh in آتنی‌ای, where Persian
+  /// writes it bare. Letterforms that are wrong for the language are not a
+  /// style choice.
+  static const String persianReadingFamily = 'NotoNaskhArabic';
 
   /// The polytonic Greek face.
   ///
@@ -67,7 +83,7 @@ abstract final class AppTypography {
 
   /// The font family used for body and heading content in [language].
   static String contentFamily(AppLanguage language) =>
-      language == AppLanguage.fa ? persianFamily : serifFamily;
+      language == AppLanguage.fa ? persianReadingFamily : serifFamily;
 
   /// The sans-serif used for English interface chrome.
   ///
@@ -79,9 +95,8 @@ abstract final class AppTypography {
 
   /// The font family used for buttons, labels, tabs and other chrome.
   ///
-  /// Persian chrome uses Vazirmatn for both roles, because the Persian type
-  /// landscape has no serif companion to Vazirmatn worth pairing it with, and a
-  /// mismatched pairing reads worse than a single well-drawn family.
+  /// Persian chrome stays in Vazirmatn while content moves to naskh, which is
+  /// the same division the English side makes between Roboto and Spectral.
   static String chromeFamily(AppLanguage language) =>
       language == AppLanguage.fa ? persianFamily : sansFamily;
 
@@ -96,6 +111,9 @@ abstract final class AppTypography {
   static List<String> fallbacksFor(AppLanguage language) =>
       language == AppLanguage.fa
       ? const <String>[
+          // Vazirmatn first among the Persian faces here: it is the sibling of
+          // whichever Persian face is primary, and covers anything naskh omits.
+          persianFamily,
           serifFamily,
           greekFamily,
           devanagariFamily,
@@ -103,6 +121,9 @@ abstract final class AppTypography {
         ]
       : const <String>[
           greekFamily,
+          // Naskh ahead of the UI sans, so an Arabic-script name inside an
+          // English sentence is set in a face that belongs next to a serif.
+          persianReadingFamily,
           persianFamily,
           devanagariFamily,
           ...cjkFamilies,

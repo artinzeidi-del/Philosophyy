@@ -126,6 +126,7 @@ void main() {
 const Map<String, String> _fontFiles = <String, String>{
   'Spectral': 'assets/fonts/spectral/Spectral-Regular.ttf',
   'Vazirmatn': 'assets/fonts/vazirmatn/Vazirmatn-Regular.ttf',
+  'NotoNaskhArabic': 'assets/fonts/notonaskharabic/NotoNaskhArabic-Regular.ttf',
   'GFSDidot': 'assets/fonts/gfsdidot/GFSDidot-Regular.ttf',
   'NotoSerifSC': 'assets/fonts/notoserifcjk/NotoSerifSC-Subset.ttf',
   'NotoSerifJP': 'assets/fonts/notoserifcjk/NotoSerifJP-Subset.ttf',

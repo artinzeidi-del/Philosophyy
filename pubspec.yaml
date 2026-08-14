@@ -32,6 +32,7 @@ flutter:
     - assets/fonts/vazirmatn/OFL.txt
     - assets/fonts/spectral/OFL.txt
     - assets/fonts/gfsdidot/OFL.txt
+    - assets/fonts/notonaskharabic/OFL.txt
     - assets/fonts/notoserifcjk/OFL.txt
     - assets/fonts/notoserifdevanagari/OFL.txt
 
@@ -48,6 +49,25 @@ flutter:
         - asset: assets/fonts/vazirmatn/Vazirmatn-SemiBold.ttf
           weight: 600
         - asset: assets/fonts/vazirmatn/Vazirmatn-Bold.ttf
+          weight: 700
+
+    # The Persian reading face. Vazirmatn above is a UI sans and stays for
+    # chrome; setting long-form Persian in it made the reading surface feel like
+    # an interface rather than a book. Naskh is what a Persian book is set in,
+    # and it pairs with Spectral the way Vazirmatn — geometric and screen-drawn
+    # — does not.
+    #
+    # Amiri was the other candidate and is the more beautiful face, but it
+    # applies Arabic conventions to Persian: a dotted final yeh in آتنی‌ای,
+    # where Persian writes it bare. Wrong letterforms are not a style choice.
+    # SIL OFL 1.1.
+    - family: NotoNaskhArabic
+      fonts:
+        - asset: assets/fonts/notonaskharabic/NotoNaskhArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/notonaskharabic/NotoNaskhArabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/notonaskharabic/NotoNaskhArabic-Bold.ttf
           weight: 700
 
     # English reading serif. Spectral is drawn for sustained on-screen reading,

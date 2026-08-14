@@ -436,6 +436,35 @@ constants are still `const`.
 
 ---
 
+### ADR 20 — Persian gets a reading face, not just an interface face
+
+**Context.** Vazirmatn carried both roles in Persian: chrome and long-form
+content. The English side had made the opposite choice from the start — Spectral
+for reading, Roboto for chrome — on the argument that reading and operating an
+app should not feel like the same activity. Persian was getting the interface
+half of that argument and none of the reading half, so a page of Persian
+philosophy was set in a screen-drawn geometric sans.
+
+**Decision.** Noto Naskh Arabic for Persian content; Vazirmatn stays for Persian
+chrome. Naskh is what a Persian book is set in, and it pairs with Spectral the
+way a UI sans does not.
+
+**Why not Amiri.** It is the more beautiful face and was the first choice on
+looks. Rendering the corpus in it showed it applying Arabic conventions to
+Persian — a dotted final yeh in `آتنی‌ای`, where Persian writes it bare.
+Letterforms that are wrong for the language are not a style choice.
+
+**Why no size compensation.** Naskh looked optically smaller than Vazirmatn in
+the specimen, which would normally argue for lifting `persianSizeFactor` for
+content. Measuring the two faces' letter heights against their em square gave
+0.591 and 0.595 — indistinguishable. The impression came from naskh's lighter
+stroke, not its size, and a size bump would have been a real change made for a
+misread. The factor is unchanged.
+
+**Cost.** About 790 KB for three weights, and a fifth licence to register.
+
+---
+
 ## Testing strategy
 
 | Level | What it covers |

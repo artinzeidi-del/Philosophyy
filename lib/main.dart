@@ -54,6 +54,13 @@ void _registerBundledFontLicences() {
     );
     yield LicenseEntryWithLineBreaks(const <String>['Spectral'], spectral);
 
+    final naskh = await rootBundle.loadString(
+      'assets/fonts/notonaskharabic/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Naskh Arabic',
+    ], naskh);
+
     final greek = await rootBundle.loadString('assets/fonts/gfsdidot/OFL.txt');
     yield LicenseEntryWithLineBreaks(const <String>['GFS Didot'], greek);
 
