@@ -44,7 +44,10 @@ abstract final class TaxonomyLabels {
       en: 'defended',
       fa: 'دفاع کرد از',
     ),
-    RelationType.opposed => const LocalizedText(en: 'opposed', fa: 'در برابر'),
+    RelationType.opposed => const LocalizedText(
+      en: 'opposed',
+      fa: 'مخالفت کرد با',
+    ),
     RelationType.developed => const LocalizedText(
       en: 'developed',
       fa: 'بسط داد',
@@ -150,7 +153,10 @@ abstract final class TaxonomyLabels {
       en: 'defended by',
       fa: 'دفاع شد توسط',
     ),
-    RelationType.opposed => const LocalizedText(en: 'opposed', fa: 'در برابر'),
+    RelationType.opposed => const LocalizedText(
+      en: 'opposed by',
+      fa: 'مورد مخالفتِ',
+    ),
     RelationType.developed => const LocalizedText(
       en: 'developed by',
       fa: 'بسط یافت توسط',

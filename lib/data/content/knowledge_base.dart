@@ -114,25 +114,14 @@ class KnowledgeBase {
       _adjacency
           .putIfAbsent(relation.subject, () => <Relation>[])
           .add(relation);
-      // A symmetric relation reads the same from both ends, so storing the
-      // inverted copy would show the reader the same edge twice.
-      if (!relation.type.isSymmetric) {
-        _adjacency
-            .putIfAbsent(relation.object, () => <Relation>[])
-            .add(relation.inverted);
-      } else {
-        _adjacency
-            .putIfAbsent(relation.object, () => <Relation>[])
-            .add(
-              Relation(
-                subject: relation.object,
-                type: relation.type,
-                object: relation.subject,
-                note: relation.note,
-                sourceIds: relation.sourceIds,
-              ),
-            );
-      }
+      // Both ends get the edge, oriented so the entity being read is always the
+      // subject. [Relation.inverted] handles the symmetric case — it does not
+      // flip the reading flag for a type that reads the same from either end —
+      // so there is one path here rather than two. There used to be two, and
+      // the second one dropped the confidence.
+      _adjacency
+          .putIfAbsent(relation.object, () => <Relation>[])
+          .add(relation.inverted);
     }
   }
 
@@ -263,6 +252,41 @@ class KnowledgeBase {
       }
     }
     return used;
+  }
+
+  /// Works in the order they were written, undated ones last.
+  ///
+  /// Chronological rather than alphabetical for the same reason philosophers
+  /// are: the order in which the arguments were made is the useful order, and
+  /// an alphabetical list files the *Analects* next to the *Apology* for no
+  /// reason at all. Undated works sort to the end by title rather than being
+  /// dropped, because a work whose date is genuinely unknown is still a work.
+  List<Work> get worksChronologically {
+    final ordered = <Work>[...works];
+    ordered.sort((a, b) {
+      final aYear = a.composed?.start?.year;
+      final bYear = b.composed?.start?.year;
+      if (aYear == null && bYear == null) return a.name.en.compareTo(b.name.en);
+      if (aYear == null) return 1;
+      if (bYear == null) return -1;
+      return aYear.compareTo(bYear);
+    });
+    return ordered;
+  }
+
+  /// The traditions an entity belongs to, falling back to its author's.
+  ///
+  /// A work is written inside a tradition whether or not an editor remembered
+  /// to tag it, and a reader filtering to "Islamic" expects the *Ishārāt*
+  /// either way. Inheriting is the honest default: it states no more than that
+  /// a work belongs where its author did, and an explicit tag always wins —
+  /// which is what lets a work that broke with its author's tradition say so.
+  Set<String> traditionsOf(KnowledgeEntity entity) {
+    if (entity.traditions.isNotEmpty) return entity.traditions;
+    if (entity is Work) {
+      return philosopher(entity.authorId)?.traditions ?? const <String>{};
+    }
+    return const <String>{};
   }
 
   /// Every philosopher with a datable anchor, in chronological order — the

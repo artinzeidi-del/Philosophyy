@@ -8,6 +8,7 @@ import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
+import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
@@ -80,6 +81,14 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
     // earn their chip from the entries filed beneath them. Sorting goes through
     // the taxonomy so the chips follow the editorial order in the content file
     // rather than the order philosophers happen to have been authored in.
+    // Chronological, like the philosophers above and for the same reason: the
+    // order in which the arguments were made is the useful order.
+    final works = corpus.worksChronologically.where((work) {
+      if (selected == null) return true;
+      final traditions = corpus.traditionsOf(work);
+      return traditions.any((id) => taxonomy.isUnder(id, selected));
+    }).toList();
+
     final represented = <String>{
       for (final philosopher in corpus.philosophers)
         for (final id in philosopher.traditions) ...taxonomy.ancestryOf(id),
@@ -132,6 +141,33 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                   ),
                   const SizedBox(height: Spacing.md),
                 ],
+                // Works are filtered by the same tradition the philosophers
+                // are, so choosing a tradition narrows the whole screen rather
+                // than only its first section. A work with no tradition of its
+                // own inherits its author's, because a reader filtering to
+                // "Islamic" expects the Ishārāt whether or not an editor
+                // remembered to tag it.
+                if (works.isNotEmpty) ...<Widget>[
+                  const SizedBox(height: Spacing.xl),
+                  SectionHeader(title: l10n.exploreWorksSection),
+                  for (final (index, work) in works.indexed) ...<Widget>[
+                    EntranceAnimation(
+                      index: index,
+                      child: EntityCard(
+                        title: work.name.resolve(language),
+                        summary: work.oneLine.resolve(language),
+                        meta: _workMeta(corpus, work, language, l10n),
+                        tags: <String>[
+                          for (final branch in work.branches.take(2))
+                            taxonomy.nameOf(branch).resolve(language),
+                        ],
+                        onTap: () => context.push(work.ref.route),
+                      ),
+                    ),
+                    const SizedBox(height: Spacing.md),
+                  ],
+                ],
+
                 if (selected == null) ...<Widget>[
                   const SizedBox(height: Spacing.xl),
                   SectionHeader(title: l10n.sectionConcepts),
@@ -155,6 +191,22 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
       ),
     );
   }
+}
+
+/// The line above a work's title: who wrote it and when.
+String? _workMeta(
+  KnowledgeBase corpus,
+  Work work,
+  AppLanguage language,
+  AppL10n l10n,
+) {
+  final author = corpus.philosopher(work.authorId);
+  final composed = AppDates.range(work.composed, language, l10n);
+  final parts = <String>[
+    if (author != null) author.name.resolve(language),
+    ?composed,
+  ];
+  return parts.isEmpty ? null : parts.join(' · ');
 }
 
 class _PhilosopherRow extends StatelessWidget {

@@ -349,5 +349,27 @@
   "highlightLostBody": "The entry was rewritten and these passages are no longer where they were. They are kept here so nothing you marked is lost.",
   "@highlightLostBody": {
     "description": "Explains why some highlighted passages can no longer be shown in place."
+  },
+  "sectionEditions": "Editions and translations",
+  "@sectionEditions": {
+    "description": "Heading for the list of editions and translations of a work."
+  },
+  "workBy": "by {author}",
+  "@workBy": {
+    "description": "Attribution line under a work's title, naming its author.",
+    "placeholders": {
+      "author": {
+        "type": "String",
+        "example": "Plato"
+      }
+    }
+  },
+  "exploreWorksSection": "Works",
+  "@exploreWorksSection": {
+    "description": "Heading for the works listed on the explore screen."
+  },
+  "filterWorksAll": "All works",
+  "@filterWorksAll": {
+    "description": "Filter chip that clears the works filter."
   }
 }

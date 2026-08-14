@@ -747,6 +747,67 @@ class _SectionBodyState extends State<_SectionBody> {
   }
 }
 
+/// One bibliographic record, set as a reference-work entry rather than a link.
+///
+/// Used where the source *is* the content — the editions of a work — as opposed
+/// to [CitationList], where sources are the apparatus behind a claim. A reader
+/// choosing which translation to read needs the translator and the edition to
+/// be legible, not compressed into a footnote.
+class SourceLine extends StatelessWidget {
+  const SourceLine({required this.source, required this.language, super.key});
+
+  /// The record to render.
+  final Source source;
+
+  /// The language to render in.
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final translator = source.translator;
+    final detail = <String>[
+      if (source.authors.isNotEmpty) source.authors.join(', '),
+      ?translator,
+      ?source.edition,
+      ?source.publisher,
+      if (source.year != null) '${source.year!.year}',
+    ];
+
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        Padding(
+          padding: const EdgeInsets.only(top: 6),
+          child: Icon(
+            Icons.menu_book_outlined,
+            size: 15,
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+        ),
+        const SizedBox(width: Spacing.sm),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                source.title.resolve(language),
+                style: theme.textTheme.bodyMedium,
+              ),
+              if (detail.isNotEmpty)
+                Text(
+                  detail.join(' · '),
+                  style: AppTypography.citation(language)
+                      .copyWith(color: theme.colorScheme.onSurfaceVariant),
+                ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
 /// The list of sources backing a passage.
 class CitationList extends StatelessWidget {
   const CitationList({

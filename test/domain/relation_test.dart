@@ -69,6 +69,140 @@ void main() {
     });
   });
 
+  group('Nothing is lost when an edge is read from the other end', () {
+    test('every type and confidence survives inversion intact', () {
+      // The graph used to build the symmetric case by hand instead of using
+      // `inverted`, and that copy omitted the confidence — so an edge marked
+      // `probable` on one page appeared unmarked on the other. Asserting the
+      // whole cross-product rather than one example, because the bug lived in a
+      // branch that only some types took.
+      const note = LocalizedText(en: 'why', fa: 'چرا');
+      for (final type in RelationType.values) {
+        for (final confidence in RelationConfidence.values) {
+          final relation = Relation(
+            subject: plato,
+            type: type,
+            object: aristotle,
+            confidence: confidence,
+            note: note,
+            sourceIds: const <String>['sep'],
+          );
+          final back = relation.inverted;
+          expect(
+            back.confidence,
+            confidence,
+            reason: '${type.id}/${confidence.id} lost its confidence',
+          );
+          expect(back.note, note, reason: '${type.id} lost its note');
+          expect(
+            back.sourceIds,
+            relation.sourceIds,
+            reason: '${type.id} lost its sources',
+          );
+          expect(back.isSupported, relation.isSupported);
+        }
+      }
+    });
+
+    test('a symmetric edge keeps the forward reading, an asymmetric one flips', () {
+      // "Contradicts" reads the same from either end, so flagging the far side
+      // as an inverse reading would label it with a phrase meant for the other
+      // direction.
+      for (final type in RelationType.values) {
+        final relation = Relation(
+          subject: plato,
+          type: type,
+          object: aristotle,
+        );
+        expect(
+          relation.inverted.isInverseReading,
+          !type.isSymmetric,
+          reason: type.id,
+        );
+        expect(
+          relation.inverted.labelId,
+          type.isSymmetric ? type.id : type.inverseId,
+          reason: type.id,
+        );
+      }
+    });
+
+    test('inverting twice returns the original reading', () {
+      for (final type in RelationType.values) {
+        const base = Relation(
+          subject: plato,
+          type: RelationType.influenced,
+          object: aristotle,
+        );
+        final round = Relation(
+          subject: base.subject,
+          type: type,
+          object: base.object,
+        ).inverted.inverted;
+        expect(round.subject, plato, reason: type.id);
+        expect(round.isInverseReading, isFalse, reason: type.id);
+      }
+    });
+  });
+
+  group('The shipped graph, read from both ends', () {
+    late KnowledgeBase corpus;
+
+    setUpAll(() async {
+      corpus = await const AssetKnowledgeRepository().load();
+    });
+
+    test('an edge carries the same confidence on both pages', () {
+      // The failure this catches is invisible from one side: the Beauvoir–Du
+      // Bois comparison was marked `probable` on her page and unmarked on his,
+      // so a reader arriving from Du Bois saw a scholarly reading presented as
+      // settled fact.
+      final mismatches = <String>[];
+      for (final authored in corpus.relations) {
+        RelationConfidence? seenFrom(EntityRef ref, EntityRef other) {
+          for (final edge in corpus.relationsFor(ref)) {
+            if (edge.type == authored.type && edge.object == other) {
+              return edge.confidence;
+            }
+          }
+          return null;
+        }
+
+        final fromSubject = seenFrom(authored.subject, authored.object);
+        final fromObject = seenFrom(authored.object, authored.subject);
+        if (fromSubject != authored.confidence ||
+            fromObject != authored.confidence) {
+          mismatches.add(
+            '$authored authored=${authored.confidence.id} '
+            'subject-side=${fromSubject?.id} object-side=${fromObject?.id}',
+          );
+        }
+      }
+      expect(mismatches, isEmpty, reason: mismatches.join('\n'));
+    });
+
+    test('every entity sees each of its edges exactly once', () {
+      // A symmetric edge added twice would show the reader the same connection
+      // duplicated on the page.
+      for (final ref in <EntityRef>{
+        for (final relation in corpus.relations) ...<EntityRef>[
+          relation.subject,
+          relation.object,
+        ],
+      }) {
+        final seen = <String>[];
+        for (final edge in corpus.relationsFor(ref)) {
+          seen.add('${edge.type.id}->${edge.object}');
+        }
+        expect(
+          seen.length,
+          seen.toSet().length,
+          reason: '$ref sees a duplicated edge: $seen',
+        );
+      }
+    });
+  });
+
   group('Bilingual labels', () {
     test('every relation type is named in both languages', () {
       // The guarantee that adding a type cannot ship an untranslated label.

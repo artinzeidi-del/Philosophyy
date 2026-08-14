@@ -17,6 +17,7 @@ import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/school.dart';
+import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
@@ -268,6 +269,14 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                       entity: entity,
                       taxonomy: corpus.taxonomy,
                       language: language,
+                      // A reference entry for the Republic that never says
+                      // Plato wrote it is not a reference entry. The author is
+                      // resolved here rather than inside the header so the
+                      // header stays free of the corpus.
+                      author: switch (entity) {
+                        final Work work => corpus.philosopher(work.authorId),
+                        _ => null,
+                      },
                     ),
                     const SizedBox(height: Spacing.xl),
                     if (entity.article.hasMoreBeyond(ContentDepth.quick) ||
@@ -438,6 +447,10 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         .map(corpus.concept)
         .whereType<Concept>()
         .toList();
+    final editions = work.editionSourceIds
+        .map(corpus.source)
+        .whereType<Source>()
+        .toList();
 
     return <Widget>[
       if (divisions.isNotEmpty)
@@ -483,6 +496,19 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ),
           ],
         ),
+      // Which edition or translation to read is one of the questions a reader
+      // actually brings to a reference work, and for a text in a language they
+      // do not have it is the only question that matters. The data has been
+      // loaded since the corpus was first written and was never shown.
+      if (editions.isNotEmpty) ...<Widget>[
+        const SizedBox(height: Spacing.xl),
+        SectionHeader(title: l10n.sectionEditions),
+        for (final edition in editions)
+          Padding(
+            padding: const EdgeInsets.only(bottom: Spacing.sm),
+            child: SourceLine(source: edition, language: language),
+          ),
+      ],
     ];
   }
 
@@ -526,11 +552,15 @@ class _Header extends StatelessWidget {
     required this.entity,
     required this.taxonomy,
     required this.language,
+    this.author,
   });
 
   final KnowledgeEntity entity;
   final Taxonomy taxonomy;
   final AppLanguage language;
+
+  /// The author, when the entity is a work whose author is in the corpus.
+  final Philosopher? author;
 
   @override
   Widget build(BuildContext context) {
@@ -596,6 +626,10 @@ class _Header extends StatelessWidget {
               textDirection: _scriptDirection(native),
             ),
           ],
+          if (author != null) ...<Widget>[
+            const SizedBox(height: Spacing.xs),
+            _AuthorLine(author: author!, language: language),
+          ],
           const SizedBox(height: Spacing.lg),
           const TitleRule(),
           const SizedBox(height: Spacing.lg),
@@ -635,6 +669,40 @@ class _Header extends StatelessWidget {
 }
 
 /// Lets the reader move between depths, and says plainly when there is no more.
+/// Names the author of a work, and goes to them.
+///
+/// Set quietly, beneath the title: on a work's page the title is the subject
+/// and the author is context, which is the opposite of how a philosopher's page
+/// is arranged.
+class _AuthorLine extends StatelessWidget {
+  const _AuthorLine({required this.author, required this.language});
+
+  final Philosopher author;
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final name = author.name.resolve(language);
+
+    return InkWell(
+      onTap: () => context.push(author.ref.route),
+      borderRadius: const BorderRadius.all(Radius.circular(Radii.sm)),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: Spacing.xxs),
+        child: Text(
+          l10n.workBy(name),
+          style: theme.textTheme.titleSmall?.copyWith(
+            color: theme.colorScheme.primary,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class _DepthSelector extends StatelessWidget {
   const _DepthSelector({
     required this.article,

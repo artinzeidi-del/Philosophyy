@@ -187,6 +187,58 @@
       "sources": [
         "sep"
       ]
+    },
+    {
+      "subject": "work:apology",
+      "type": "preserved",
+      "confidence": "documented",
+      "object": "philosopher:socrates",
+      "note": {
+        "en": "Socrates wrote nothing. What survives of him survives inside other people's books, and this is one of them — which is also why it cannot be read as a transcript.",
+        "fa": "سقراط چیزی ننوشت. آنچه از او مانده، درون کتاب‌های دیگران مانده است و این یکی از آن‌هاست — و به همین سبب نمی‌توان آن را گزارشی عینی خواند."
+      },
+      "sources": [
+        "plato-apology"
+      ]
+    },
+    {
+      "subject": "work:analects",
+      "type": "preserved",
+      "confidence": "documented",
+      "object": "philosopher:confucius",
+      "note": {
+        "en": "Assembled by students after his death, so the book is the reason there is a Confucius to read at all — and the reason the wording is disputed.",
+        "fa": "پس از مرگ او به دست شاگردانش گردآوری شد؛ پس همین کتاب سبب شده که اصلاً کنفوسیوسی برای خواندن باشد — و نیز سبب اختلاف بر سر عبارت‌ها."
+      },
+      "sources": [
+        "confucius-analects"
+      ]
+    },
+    {
+      "subject": "work:tahafut",
+      "type": "criticized",
+      "confidence": "documented",
+      "object": "philosopher:ibn-sina",
+      "note": {
+        "en": "The book is the criticism: it takes the philosophers’ doctrines one at a time, and Ibn Sīnā’s are the ones most often in view.",
+        "fa": "خودِ کتاب همان نقد است: آموزه‌های فیلسوفان را یک‌به‌یک برمی‌رسد و بیش از همه آموزه‌های ابن‌سینا در نظر اوست."
+      },
+      "sources": [
+        "ghazali-tahafut"
+      ]
+    },
+    {
+      "subject": "work:republic",
+      "type": "developed",
+      "confidence": "documented",
+      "object": "concept:theory-of-forms",
+      "note": {
+        "en": "The Forms are argued for in this book rather than merely mentioned — the divided line and the cave are where the doctrine is actually built.",
+        "fa": "مُثُل در همین کتاب اثبات می‌شود نه صرفاً یاد؛ خطِ منقسم و تمثیل غار جایی است که آموزه واقعاً ساخته می‌شود."
+      },
+      "sources": [
+        "plato-republic"
+      ]
     }
   ]
 }

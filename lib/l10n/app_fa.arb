@@ -79,5 +79,9 @@
   "highlightRemove": "برداشتن نشان",
   "libraryHighlightsSection": "بندهای نشان‌شده",
   "highlightLostTitle": "بندهای جابه‌جاشده",
-  "highlightLostBody": "این مدخل بازنویسی شده و این بندها دیگر در جای پیشین خود نیستند. اینجا نگه داشته شده‌اند تا آنچه نشان کرده‌اید از دست نرود."
+  "highlightLostBody": "این مدخل بازنویسی شده و این بندها دیگر در جای پیشین خود نیستند. اینجا نگه داشته شده‌اند تا آنچه نشان کرده‌اید از دست نرود.",
+  "sectionEditions": "ویرایش‌ها و ترجمه‌ها",
+  "workBy": "نوشتهٔ {author}",
+  "exploreWorksSection": "آثار",
+  "filterWorksAll": "همهٔ آثار"
 }

@@ -18,13 +18,15 @@ enum RelationType {
   /// The subject argued in support of the object's position.
   defended(id: 'defended', inverseId: 'defended-by'),
 
-  /// The subject held a position opposed to the object's.
+  /// The subject held a position against the object's.
   ///
-  /// Symmetric, so the inverse id is the same string. It previously read
-  /// `opposed-by` while still being declared symmetric — dead but misleading,
-  /// since the graph never used it and the label was already the same in both
-  /// directions.
-  opposed(id: 'opposed', inverseId: 'opposed', isSymmetric: true),
+  /// Directional, not symmetric. It was declared symmetric, which read
+  /// tolerably for school against school but produced nonsense everywhere else:
+  /// the corpus has "Nietzsche opposed the categorical imperative", and a
+  /// symmetric reading puts "opposed Nietzsche" on the concept's page, as
+  /// though a doctrine could take a position against a person. Opposition runs
+  /// from whoever holds it.
+  opposed(id: 'opposed', inverseId: 'opposed-by'),
 
   /// The subject extended or built on the object.
   developed(id: 'developed', inverseId: 'developed-by'),
@@ -269,6 +271,17 @@ class Relation {
   }
 
   /// This relation as seen from [object]'s side.
+  ///
+  /// Everything that makes the edge a claim about the world — its confidence,
+  /// its note, its sources — travels with it. The graph used to build the
+  /// symmetric case by hand instead of using this, and that copy silently
+  /// omitted the confidence: an edge marked `probable` on one philosopher's
+  /// page appeared unmarked on the other's, which is precisely the manufactured
+  /// consensus the confidence field exists to prevent.
+  ///
+  /// A symmetric relation is *not* an inverse reading. "Contradicts" reads the
+  /// same from either end, so the forward label is the correct one from both
+  /// and the flag must not flip.
   Relation get inverted => Relation(
     subject: object,
     type: type,
@@ -276,7 +289,7 @@ class Relation {
     confidence: confidence,
     note: note,
     sourceIds: sourceIds,
-    isInverseReading: !isInverseReading,
+    isInverseReading: type.isSymmetric ? isInverseReading : !isInverseReading,
   );
 
   /// Whether the evidence attached to this edge supports the claim it makes.
