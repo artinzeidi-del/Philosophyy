@@ -2,7 +2,7 @@ import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
 /// What every addressable article in the product has in common.
 ///
@@ -26,11 +26,15 @@ abstract interface class KnowledgeEntity {
   /// be summarised in a sentence has not been thought through.
   LocalizedText get oneLine;
 
-  /// The traditions this entity belongs to.
-  Set<Tradition> get traditions;
+  /// Taxonomy ids of the traditions this entity belongs to.
+  ///
+  /// Ids rather than typed values: the vocabulary is content, resolved through
+  /// [Taxonomy]. A set, never one value — Ibn Sīnā is Islamic *and* Persian, and
+  /// forcing a single classification falsifies the history.
+  Set<String> get traditions;
 
-  /// The branches of philosophy this entity falls under.
-  Set<PhilosophyBranch> get branches;
+  /// Taxonomy ids of the branches this entity falls under.
+  Set<String> get branches;
 
   /// The authored prose.
   Article get article;

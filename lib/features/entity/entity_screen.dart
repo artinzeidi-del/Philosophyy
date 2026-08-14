@@ -22,6 +22,7 @@ import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
@@ -236,7 +237,11 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    _Header(entity: entity, language: language),
+                    _Header(
+                      entity: entity,
+                      taxonomy: corpus.taxonomy,
+                      language: language,
+                    ),
                     const SizedBox(height: Spacing.xl),
                     if (entity.article.hasMoreBeyond(ContentDepth.quick) ||
                         depth != ContentDepth.quick)
@@ -485,9 +490,14 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
 }
 
 class _Header extends StatelessWidget {
-  const _Header({required this.entity, required this.language});
+  const _Header({
+    required this.entity,
+    required this.taxonomy,
+    required this.language,
+  });
 
   final KnowledgeEntity entity;
+  final Taxonomy taxonomy;
   final AppLanguage language;
 
   @override
@@ -569,14 +579,11 @@ class _Header extends StatelessWidget {
               children: <Widget>[
                 for (final tradition in entity.traditions)
                   TagChip(
-                    label: TaxonomyLabels.tradition(tradition)
-                        .resolve(language),
+                    label: taxonomy.nameOf(tradition).resolve(language),
                     emphasised: true,
                   ),
                 for (final branch in entity.branches)
-                  TagChip(
-                    label: TaxonomyLabels.branch(branch).resolve(language),
-                  ),
+                  TagChip(label: taxonomy.nameOf(branch).resolve(language)),
               ],
             ),
           ],

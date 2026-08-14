@@ -2,125 +2,34 @@ import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
-/// Display names for the content taxonomies.
+/// Display names for the closed vocabularies of the domain model.
 ///
 /// ## Why these are not in the ARB files
 ///
 /// The ARB files hold interface chrome — buttons, labels, error messages. These
-/// are different: "philosophy of mind" and "فلسفهٔ ذهن" are technical vocabulary,
-/// and the Persian is a term of art with an established form rather than a
-/// translation choice. Keeping them next to the enums they name means a new
-/// branch of philosophy cannot be added without its Persian name, which is
-/// exactly the constraint a bilingual product needs.
+/// are different: "scholars disagree" and "اختلاف پژوهشی" are technical
+/// vocabulary, and the Persian is a term of art with an established form rather
+/// than a translation choice. Keeping them next to the enums they name means a
+/// new relation type cannot be added without its Persian name, which is exactly
+/// the constraint a bilingual product needs.
+///
+/// ## Why traditions and branches are *not* here
+///
+/// They used to be, as two exhaustive switches over `Tradition` and
+/// `PhilosophyBranch`. That made the world's philosophical vocabulary a closed
+/// Dart enum: Korean, Tibetan, Ethiopian and every Indigenous tradition were
+/// unnameable without a code change. They now live in `assets/content/`
+/// `taxonomy.json` and are resolved through [Taxonomy.nameOf], which carries
+/// the same bilingual guarantee — a term without both names fails the taxonomy
+/// test — without the ceiling. See ADR-017.
 ///
 /// The translations follow standard Persian philosophical usage. Where Persian
 /// scholarship uses more than one term, the more widely taught one is used and
 /// the alternative is not silently dropped but recorded in the glossary in
 /// `docs/GLOSSARY.md`.
 abstract final class TaxonomyLabels {
-  /// The display name of a branch of philosophy.
-  static LocalizedText branch(PhilosophyBranch branch) => switch (branch) {
-    PhilosophyBranch.metaphysics => const LocalizedText(
-      en: 'Metaphysics',
-      fa: 'مابعدالطبیعه',
-    ),
-    PhilosophyBranch.epistemology => const LocalizedText(
-      en: 'Epistemology',
-      fa: 'معرفت‌شناسی',
-    ),
-    PhilosophyBranch.ethics => const LocalizedText(en: 'Ethics', fa: 'اخلاق'),
-    PhilosophyBranch.logic => const LocalizedText(en: 'Logic', fa: 'منطق'),
-    PhilosophyBranch.aesthetics => const LocalizedText(
-      en: 'Aesthetics',
-      fa: 'زیبایی‌شناسی',
-    ),
-    PhilosophyBranch.politicalPhilosophy => const LocalizedText(
-      en: 'Political Philosophy',
-      fa: 'فلسفهٔ سیاسی',
-    ),
-    PhilosophyBranch.philosophyOfMind => const LocalizedText(
-      en: 'Philosophy of Mind',
-      fa: 'فلسفهٔ ذهن',
-    ),
-    PhilosophyBranch.philosophyOfLanguage => const LocalizedText(
-      en: 'Philosophy of Language',
-      fa: 'فلسفهٔ زبان',
-    ),
-    PhilosophyBranch.philosophyOfScience => const LocalizedText(
-      en: 'Philosophy of Science',
-      fa: 'فلسفهٔ علم',
-    ),
-    PhilosophyBranch.philosophyOfReligion => const LocalizedText(
-      en: 'Philosophy of Religion',
-      fa: 'فلسفهٔ دین',
-    ),
-    PhilosophyBranch.socialPhilosophy => const LocalizedText(
-      en: 'Social Philosophy',
-      fa: 'فلسفهٔ اجتماعی',
-    ),
-    PhilosophyBranch.existentialPhilosophy => const LocalizedText(
-      en: 'Existential Philosophy',
-      fa: 'فلسفهٔ اگزیستانس',
-    ),
-    PhilosophyBranch.philosophyOfTechnology => const LocalizedText(
-      en: 'Philosophy of Technology',
-      fa: 'فلسفهٔ فناوری',
-    ),
-    PhilosophyBranch.philosophyOfLaw => const LocalizedText(
-      en: 'Philosophy of Law',
-      fa: 'فلسفهٔ حقوق',
-    ),
-    PhilosophyBranch.philosophyOfEducation => const LocalizedText(
-      en: 'Philosophy of Education',
-      fa: 'فلسفهٔ آموزش و پرورش',
-    ),
-    PhilosophyBranch.philosophyOfHistory => const LocalizedText(
-      en: 'Philosophy of History',
-      fa: 'فلسفهٔ تاریخ',
-    ),
-    PhilosophyBranch.philosophyOfMathematics => const LocalizedText(
-      en: 'Philosophy of Mathematics',
-      fa: 'فلسفهٔ ریاضیات',
-    ),
-    PhilosophyBranch.philosophyOfEconomics => const LocalizedText(
-      en: 'Philosophy of Economics',
-      fa: 'فلسفهٔ اقتصاد',
-    ),
-  };
-
-  /// The display name of a tradition.
-  static LocalizedText tradition(Tradition tradition) => switch (tradition) {
-    Tradition.ancientGreek => const LocalizedText(
-      en: 'Ancient Greek',
-      fa: 'یونان باستان',
-    ),
-    Tradition.roman => const LocalizedText(en: 'Roman', fa: 'رومی'),
-    Tradition.hellenistic => const LocalizedText(
-      en: 'Hellenistic',
-      fa: 'هلنیستی',
-    ),
-    Tradition.medieval => const LocalizedText(en: 'Medieval', fa: 'قرون وسطا'),
-    Tradition.islamic => const LocalizedText(en: 'Islamic', fa: 'اسلامی'),
-    Tradition.persian => const LocalizedText(en: 'Persian', fa: 'ایرانی'),
-    Tradition.jewish => const LocalizedText(en: 'Jewish', fa: 'یهودی'),
-    Tradition.christian => const LocalizedText(en: 'Christian', fa: 'مسیحی'),
-    Tradition.indian => const LocalizedText(en: 'Indian', fa: 'هندی'),
-    Tradition.chinese => const LocalizedText(en: 'Chinese', fa: 'چینی'),
-    Tradition.japanese => const LocalizedText(en: 'Japanese', fa: 'ژاپنی'),
-    Tradition.african => const LocalizedText(en: 'African', fa: 'آفریقایی'),
-    Tradition.latinAmerican => const LocalizedText(
-      en: 'Latin American',
-      fa: 'آمریکای لاتین',
-    ),
-    Tradition.european => const LocalizedText(en: 'European', fa: 'اروپایی'),
-    Tradition.american => const LocalizedText(en: 'American', fa: 'آمریکایی'),
-    Tradition.contemporary => const LocalizedText(
-      en: 'Contemporary',
-      fa: 'معاصر',
-    ),
-  };
-
   /// How a relation reads from the subject's side, e.g. "influenced".
   static LocalizedText relationForward(RelationType type) => switch (type) {
     RelationType.influenced => const LocalizedText(

@@ -85,7 +85,7 @@ class _HomeBody extends StatelessWidget {
     final seen = <String>{};
     final picks = <Philosopher>[];
     for (final philosopher in corpus.philosophers) {
-      final tradition = philosopher.traditions.firstOrNull?.id ?? '';
+      final tradition = philosopher.traditions.firstOrNull ?? '';
       if (seen.add(tradition)) picks.add(philosopher);
       if (picks.length == 4) break;
     }

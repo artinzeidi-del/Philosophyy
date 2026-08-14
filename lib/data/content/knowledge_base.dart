@@ -10,7 +10,7 @@ import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/entities/work.dart';
 
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
 /// The whole corpus, in memory, with the graph indexed for traversal.
 ///
@@ -31,7 +31,9 @@ class KnowledgeBase {
     required List<Argument> arguments,
     required List<Source> sources,
     required List<Relation> relations,
-  }) : philosophers = List.unmodifiable(philosophers),
+    Taxonomy? taxonomy,
+  }) : taxonomy = taxonomy ?? Taxonomy.empty,
+       philosophers = List.unmodifiable(philosophers),
        concepts = List.unmodifiable(concepts),
        works = List.unmodifiable(works),
        schools = List.unmodifiable(schools),
@@ -60,6 +62,15 @@ class KnowledgeBase {
     sources: const [],
     relations: const [],
   );
+
+  /// The vocabulary of traditions, branches and eras this corpus is classified
+  /// by.
+  ///
+  /// It travels with the corpus rather than being a global, because a term's
+  /// meaning is only guaranteed against the content that was authored alongside
+  /// it — and because a test that builds a small corpus should be able to build
+  /// a small vocabulary with it.
+  final Taxonomy taxonomy;
 
   /// All philosophers, in the order they were authored.
   final List<Philosopher> philosophers;
@@ -212,13 +223,47 @@ class KnowledgeBase {
           return aYear.compareTo(bYear);
         });
 
-  /// Philosophers falling under a branch of philosophy.
-  List<Philosopher> philosophersInBranch(PhilosophyBranch branch) =>
-      philosophers.where((it) => it.branches.contains(branch)).toList();
+  /// Philosophers falling under a branch of philosophy, by taxonomy id.
+  ///
+  /// A philosopher tagged with a narrower branch counts under the wider one:
+  /// someone classified under `metaethics` is returned for `ethics`. Without
+  /// that, a reader browsing "Ethics" would silently miss the entries filed
+  /// most precisely, which is exactly backwards.
+  List<Philosopher> philosophersInBranch(String branchId) => philosophers
+      .where(
+        (it) =>
+            it.branches.contains(branchId) ||
+            it.branches.any((id) => taxonomy.isUnder(id, branchId)),
+      )
+      .toList();
 
-  /// Philosophers belonging to a tradition.
-  List<Philosopher> philosophersInTradition(Tradition tradition) =>
-      philosophers.where((it) => it.traditions.contains(tradition)).toList();
+  /// Philosophers belonging to a tradition, by taxonomy id. Narrower
+  /// traditions count under wider ones, as for [philosophersInBranch].
+  List<Philosopher> philosophersInTradition(String traditionId) => philosophers
+      .where(
+        (it) =>
+            it.traditions.contains(traditionId) ||
+            it.traditions.any((id) => taxonomy.isUnder(id, traditionId)),
+      )
+      .toList();
+
+  /// Every taxonomy id actually used by the corpus, of the given kind.
+  ///
+  /// Browsing surfaces are built from this rather than from the whole
+  /// vocabulary, so the reader is never offered a filter that leads nowhere.
+  Set<String> usedTaxonomyIds(TaxonomyKind kind) {
+    final used = <String>{};
+    for (final entity in allEntities) {
+      final ids = kind == TaxonomyKind.tradition
+          ? entity.traditions
+          : entity.branches;
+      for (final id in ids) {
+        final term = taxonomy[id];
+        if (term != null && term.kind == kind) used.add(id);
+      }
+    }
+    return used;
+  }
 
   /// Every philosopher with a datable anchor, in chronological order — the
   /// backing list for timeline views.
@@ -262,6 +307,42 @@ class KnowledgeBase {
     bool sourceExists(String id) => _sourcesById.containsKey(id);
     bool argumentExists(String id) => _argumentsById.containsKey(id);
 
+    // Traditions and branches used to be Dart enums, so a typo was a compile
+    // error. Opening the vocabulary to content moved that guarantee here: an id
+    // that resolves to nothing, or to a term of the wrong kind, is now caught
+    // at load time instead of by the analyser.
+    void checkTaxonomy(
+      String context,
+      String field,
+      Iterable<String> ids,
+      TaxonomyKind expected,
+    ) {
+      for (final id in ids) {
+        final term = taxonomy[id];
+        if (term == null) {
+          violations.add(
+            '$context: $field references unknown ${expected.id} "$id" — add it '
+            'to assets/content/taxonomy.json',
+          );
+        } else if (term.kind != expected) {
+          violations.add(
+            '$context: $field references "$id", which is a ${term.kind.id}, '
+            'not a ${expected.id}',
+          );
+        }
+      }
+    }
+
+    void checkEntityTaxonomy(String context, KnowledgeEntity entity) {
+      checkTaxonomy(
+        context,
+        'traditions',
+        entity.traditions,
+        TaxonomyKind.tradition,
+      );
+      checkTaxonomy(context, 'branches', entity.branches, TaxonomyKind.branch);
+    }
+
     void checkCitations(String context, List<Citation> citations) {
       for (final citation in citations) {
         if (!sourceExists(citation.sourceId)) {
@@ -274,6 +355,7 @@ class KnowledgeBase {
 
     for (final philosopher in philosophers) {
       final context = 'philosopher:${philosopher.id}';
+      checkEntityTaxonomy(context, philosopher);
       checkIds(context, 'concepts', philosopher.conceptIds, conceptExists);
       checkIds(context, 'works', philosopher.workIds, workExists);
       checkIds(context, 'schools', philosopher.schoolIds, schoolExists);
@@ -283,6 +365,7 @@ class KnowledgeBase {
 
     for (final concept in concepts) {
       final context = 'concept:${concept.id}';
+      checkEntityTaxonomy(context, concept);
       checkIds(context, 'related', concept.relatedConceptIds, conceptExists);
       checkIds(context, 'opposes', concept.opposingConceptIds, conceptExists);
       checkIds(
@@ -298,6 +381,7 @@ class KnowledgeBase {
 
     for (final work in works) {
       final context = 'work:${work.id}';
+      checkEntityTaxonomy(context, work);
       if (!philosopherExists(work.authorId)) {
         violations.add(
           '$context: author references unknown "${work.authorId}"',
@@ -312,6 +396,7 @@ class KnowledgeBase {
 
     for (final school in schools) {
       final context = 'school:${school.id}';
+      checkEntityTaxonomy(context, school);
       checkIds(context, 'members', school.memberIds, philosopherExists);
       checkIds(context, 'founders', school.founderIds, philosopherExists);
       checkIds(context, 'concepts', school.conceptIds, conceptExists);
@@ -345,6 +430,12 @@ class KnowledgeBase {
 
     for (final argument in arguments) {
       final context = 'argument:${argument.id}';
+      checkTaxonomy(
+        context,
+        'branches',
+        argument.branches,
+        TaxonomyKind.branch,
+      );
       checkIds(context, 'proponents', argument.proponentIds, philosopherExists);
       checkIds(context, 'opponents', argument.opponentIds, philosopherExists);
       checkIds(context, 'concepts', argument.conceptIds, conceptExists);
@@ -378,6 +469,26 @@ class KnowledgeBase {
         if (!sourceExists(sourceId)) {
           violations.add('relation $relation: unknown source "$sourceId"');
         }
+      }
+    }
+
+    for (final termId in taxonomy.orphans) {
+      violations.add(
+        'taxonomy:$termId: names a parent that does not exist '
+        '("${taxonomy[termId]?.parentId}")',
+      );
+    }
+
+    // The old enums forced a Persian name for every tradition and branch,
+    // because the label switch would not compile without one. That constraint
+    // is the point of a bilingual reference work, so opening the vocabulary
+    // must not quietly drop it.
+    for (final term in taxonomy.all) {
+      if (!term.name.isTranslated) {
+        violations.add(
+          'taxonomy:${term.id}: has no Persian name — every term a reader can '
+          'see must be named in both languages',
+        );
       }
     }
 

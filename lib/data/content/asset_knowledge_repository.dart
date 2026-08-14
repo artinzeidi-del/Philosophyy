@@ -14,6 +14,7 @@ import 'package:philosophyy/domain/entities/school.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/repositories/knowledge_repository.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
 /// Loads the corpus from the JSON bundled with the app.
 ///
@@ -52,6 +53,11 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
   /// Knowledge-graph edges.
   static const String relationsFile = '$contentPath/relations.json';
 
+  /// The vocabulary of traditions, branches and eras the content is classified
+  /// by. Content rather than code, so a tradition can be added without a
+  /// release — see ADR-017.
+  static const String taxonomyFile = '$contentPath/taxonomy.json';
+
   /// Overrides the bundle assets are read from. Tests supply their own.
   final AssetBundle? bundle;
 
@@ -60,6 +66,14 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
   @override
   Future<KnowledgeBase> load() async {
     final base = KnowledgeBase(
+      taxonomy: Taxonomy(
+        await _read(
+          taxonomyFile,
+          'terms',
+          ContentMappers.taxonomyTerm,
+          identify: (term) => term.id,
+        ),
+      ),
       philosophers: await _read(
         philosophersFile,
         'philosophers',
@@ -187,6 +201,7 @@ class InMemoryKnowledgeRepository implements KnowledgeRepository {
     this.arguments = const <Argument>[],
     this.sources = const <Source>[],
     this.relations = const <Relation>[],
+    this.taxonomy,
     this.validate = true,
   });
 
@@ -214,6 +229,10 @@ class InMemoryKnowledgeRepository implements KnowledgeRepository {
   /// Relations to serve.
   final List<Relation> relations;
 
+  /// The vocabulary to classify against. Tests that tag entities with a
+  /// tradition must supply the term, exactly as content must define it.
+  final Taxonomy? taxonomy;
+
   /// Whether to run the integrity check, which a test exercising broken
   /// content will want to switch off.
   final bool validate;
@@ -229,6 +248,7 @@ class InMemoryKnowledgeRepository implements KnowledgeRepository {
       arguments: arguments,
       sources: sources,
       relations: relations,
+      taxonomy: taxonomy,
     );
     if (validate) base.assertIntegrity();
     return base;

@@ -3,7 +3,6 @@ import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 
 /// A philosophical concept.
 ///
@@ -20,8 +19,8 @@ class Concept implements KnowledgeEntity {
     this.nativeTerm,
     this.transliteration,
     this.alsoKnownAs = const <String>[],
-    this.traditions = const <Tradition>{},
-    this.branches = const <PhilosophyBranch>{},
+    this.traditions = const <String>{},
+    this.branches = const <String>{},
     this.article = Article.empty,
     this.examples = const <LocalizedText>[],
     this.counterexamples = const <LocalizedText>[],
@@ -56,10 +55,10 @@ class Concept implements KnowledgeEntity {
   final List<String> alsoKnownAs;
 
   @override
-  final Set<Tradition> traditions;
+  final Set<String> traditions;
 
   @override
-  final Set<PhilosophyBranch> branches;
+  final Set<String> branches;
 
   @override
   final Article article;

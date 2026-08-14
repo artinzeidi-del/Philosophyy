@@ -185,7 +185,7 @@ void main() {
       expect(
         traditions.length,
         greaterThanOrEqualTo(6),
-        reason: 'philosophers span only ${traditions.map((t) => t.id)}',
+        reason: 'philosophers span only $traditions',
       );
     });
 

@@ -4,7 +4,6 @@ import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/historical_date.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 
 /// One division of a work — a book, part, chapter or section.
 ///
@@ -60,8 +59,8 @@ class Work implements KnowledgeEntity {
     this.transliteration,
     this.alsoKnownAs = const <String>[],
     this.composed,
-    this.traditions = const <Tradition>{},
-    this.branches = const <PhilosophyBranch>{},
+    this.traditions = const <String>{},
+    this.branches = const <String>{},
     this.article = Article.empty,
     this.structure = const <WorkDivision>[],
     this.conceptIds = const <String>[],
@@ -96,10 +95,10 @@ class Work implements KnowledgeEntity {
   final HistoricalRange? composed;
 
   @override
-  final Set<Tradition> traditions;
+  final Set<String> traditions;
 
   @override
-  final Set<PhilosophyBranch> branches;
+  final Set<String> branches;
 
   @override
   final Article article;

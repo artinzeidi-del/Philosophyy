@@ -13,6 +13,7 @@ import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/historical_date.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
 /// Turns authored JSON into domain objects.
 ///
@@ -127,6 +128,20 @@ abstract final class ContentMappers {
     );
   }
 
+  /// Reads one taxonomy term.
+  static TaxonomyTerm taxonomyTerm(JsonReader reader) => TaxonomyTerm(
+    id: reader.requiredString('id'),
+    kind: reader.requiredEnum(
+      'kind',
+      TaxonomyKind.fromId,
+      TaxonomyKind.values.map((value) => value.id),
+    ),
+    name: requiredLocalized(reader, 'name'),
+    parentId: reader.string('parent'),
+    order: reader.integer('order') ?? 0,
+    note: optionalLocalized(reader, 'note'),
+  );
+
   /// Reads a bibliographic source.
   static Source source(JsonReader reader) => Source(
     id: reader.requiredString('id'),
@@ -155,8 +170,8 @@ abstract final class ContentMappers {
     life: lifeSpan(reader.requiredObject('life')),
     birthPlace: optionalLocalized(reader, 'birthPlace'),
     deathPlace: optionalLocalized(reader, 'deathPlace'),
-    traditions: reader.enumSet('traditions', Tradition.fromId, _traditionIds),
-    branches: reader.enumSet('branches', PhilosophyBranch.fromId, _branchIds),
+    traditions: reader.stringList('traditions').toSet(),
+    branches: reader.stringList('branches').toSet(),
     article: article(reader, 'article'),
     conceptIds: reader.stringList('concepts'),
     workIds: reader.stringList('works'),
@@ -173,8 +188,8 @@ abstract final class ContentMappers {
     nativeTerm: reader.string('nativeTerm'),
     transliteration: reader.string('transliteration'),
     alsoKnownAs: reader.stringList('alsoKnownAs'),
-    traditions: reader.enumSet('traditions', Tradition.fromId, _traditionIds),
-    branches: reader.enumSet('branches', PhilosophyBranch.fromId, _branchIds),
+    traditions: reader.stringList('traditions').toSet(),
+    branches: reader.stringList('branches').toSet(),
     article: article(reader, 'article'),
     examples: localizedList(reader, 'examples'),
     counterexamples: localizedList(reader, 'counterexamples'),
@@ -204,8 +219,8 @@ abstract final class ContentMappers {
     transliteration: reader.string('transliteration'),
     alsoKnownAs: reader.stringList('alsoKnownAs'),
     composed: optionalRange(reader, 'composed'),
-    traditions: reader.enumSet('traditions', Tradition.fromId, _traditionIds),
-    branches: reader.enumSet('branches', PhilosophyBranch.fromId, _branchIds),
+    traditions: reader.stringList('traditions').toSet(),
+    branches: reader.stringList('branches').toSet(),
     article: article(reader, 'article'),
     structure: reader.objectList('structure').map(workDivision).toList(),
     conceptIds: reader.stringList('concepts'),
@@ -263,8 +278,8 @@ abstract final class ContentMappers {
     transliteration: reader.string('transliteration'),
     alsoKnownAs: reader.stringList('alsoKnownAs'),
     period: optionalRange(reader, 'period'),
-    traditions: reader.enumSet('traditions', Tradition.fromId, _traditionIds),
-    branches: reader.enumSet('branches', PhilosophyBranch.fromId, _branchIds),
+    traditions: reader.stringList('traditions').toSet(),
+    branches: reader.stringList('branches').toSet(),
     article: article(reader, 'article'),
     centralClaims: localizedList(reader, 'centralClaims'),
     memberIds: reader.stringList('members'),
@@ -310,7 +325,7 @@ abstract final class ContentMappers {
       opponentIds: reader.stringList('opponents'),
       workId: reader.string('work'),
       conceptIds: reader.stringList('concepts'),
-      branches: reader.enumSet('branches', PhilosophyBranch.fromId, _branchIds),
+      branches: reader.stringList('branches').toSet(),
       citations: citations(reader, 'citations'),
     );
 
@@ -371,12 +386,6 @@ abstract final class ContentMappers {
     'decade',
     'century',
   ];
-
-  static Iterable<String> get _traditionIds =>
-      Tradition.values.map((value) => value.id);
-
-  static Iterable<String> get _branchIds =>
-      PhilosophyBranch.values.map((value) => value.id);
 
   static Iterable<String> get _contentDepthIds =>
       ContentDepth.values.map((value) => value.id);

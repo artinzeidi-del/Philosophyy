@@ -1,0 +1,413 @@
+{
+  "_comment": "The classification vocabulary. This was a Dart enum until the scope audit; it is content now, because a reference work whose list of world traditions is fixed at compile time has decided in advance which philosophies exist. Ids are stable and referenced by every other content file — rename freely, never change an id. Terms may nest via parent, so a reader can browse at whichever level they are thinking at.",
+  "terms": [
+    {
+      "id": "ancient-greek",
+      "kind": "tradition",
+      "order": 10,
+      "name": { "en": "Ancient Greek", "fa": "یونان باستان" }
+    },
+    {
+      "id": "hellenistic",
+      "kind": "tradition",
+      "parent": "ancient-greek",
+      "order": 11,
+      "name": { "en": "Hellenistic", "fa": "هلنیستی" },
+      "note": {
+        "en": "The post-Aristotelian schools — Stoic, Epicurean, Sceptic, Cynic — nested under Greek philosophy while remaining distinct from it.",
+        "fa": "مکاتب پس از ارسطو — رواقی، اپیکوری، شکاک، کلبی — که ذیل فلسفهٔ یونانی می‌نشینند و در عین حال از آن متمایزند."
+      }
+    },
+    {
+      "id": "roman",
+      "kind": "tradition",
+      "order": 20,
+      "name": { "en": "Roman", "fa": "رومی" }
+    },
+    {
+      "id": "byzantine",
+      "kind": "tradition",
+      "order": 25,
+      "name": { "en": "Byzantine", "fa": "بیزانسی" }
+    },
+    {
+      "id": "medieval",
+      "kind": "tradition",
+      "order": 30,
+      "name": { "en": "Medieval", "fa": "قرون وسطا" }
+    },
+    {
+      "id": "christian",
+      "kind": "tradition",
+      "order": 31,
+      "name": { "en": "Christian", "fa": "مسیحی" }
+    },
+    {
+      "id": "islamic",
+      "kind": "tradition",
+      "order": 40,
+      "name": { "en": "Islamic", "fa": "اسلامی" }
+    },
+    {
+      "id": "persian",
+      "kind": "tradition",
+      "order": 41,
+      "name": { "en": "Persian", "fa": "ایرانی" },
+      "note": {
+        "en": "Kept as a tradition in its own right rather than nested under Islamic philosophy: it both predates and outlasts that frame, and figures such as Mullā Ṣadrā belong to both without being reducible to either.",
+        "fa": "به‌عنوان سنتی مستقل نگاه داشته شده و ذیل فلسفهٔ اسلامی قرار نگرفته است: هم بر آن تقدم دارد و هم از آن فراتر می‌رود، و کسانی چون ملاصدرا به هر دو تعلق دارند بی‌آنکه به یکی از آن دو فروکاستنی باشند."
+      }
+    },
+    {
+      "id": "jewish",
+      "kind": "tradition",
+      "order": 42,
+      "name": { "en": "Jewish", "fa": "یهودی" }
+    },
+    {
+      "id": "indian",
+      "kind": "tradition",
+      "order": 50,
+      "name": { "en": "Indian", "fa": "هندی" }
+    },
+    {
+      "id": "buddhist",
+      "kind": "tradition",
+      "order": 51,
+      "name": { "en": "Buddhist", "fa": "بودایی" },
+      "note": {
+        "en": "Rooted in Indian thought but transmitted across Tibet, China, Korea and Japan, so it is a root term rather than a child of any one region.",
+        "fa": "ریشه در اندیشهٔ هندی دارد اما در تبت، چین، کره و ژاپن منتقل شده است؛ از این‌رو اصطلاحی ریشه‌ای است، نه فرزندِ یک منطقهٔ واحد."
+      }
+    },
+    {
+      "id": "jain",
+      "kind": "tradition",
+      "parent": "indian",
+      "order": 52,
+      "name": { "en": "Jain", "fa": "جین" }
+    },
+    {
+      "id": "tibetan",
+      "kind": "tradition",
+      "order": 55,
+      "name": { "en": "Tibetan", "fa": "تبتی" }
+    },
+    {
+      "id": "chinese",
+      "kind": "tradition",
+      "order": 60,
+      "name": { "en": "Chinese", "fa": "چینی" }
+    },
+    {
+      "id": "japanese",
+      "kind": "tradition",
+      "order": 61,
+      "name": { "en": "Japanese", "fa": "ژاپنی" }
+    },
+    {
+      "id": "korean",
+      "kind": "tradition",
+      "order": 62,
+      "name": { "en": "Korean", "fa": "کره‌ای" }
+    },
+    {
+      "id": "vietnamese",
+      "kind": "tradition",
+      "order": 63,
+      "name": { "en": "Vietnamese", "fa": "ویتنامی" }
+    },
+    {
+      "id": "african",
+      "kind": "tradition",
+      "order": 70,
+      "name": { "en": "African", "fa": "آفریقایی" }
+    },
+    {
+      "id": "ancient-egyptian",
+      "kind": "tradition",
+      "parent": "african",
+      "order": 71,
+      "name": { "en": "Ancient Egyptian", "fa": "مصر باستان" }
+    },
+    {
+      "id": "ethiopian",
+      "kind": "tradition",
+      "parent": "african",
+      "order": 72,
+      "name": { "en": "Ethiopian", "fa": "اتیوپیایی" }
+    },
+    {
+      "id": "africana",
+      "kind": "tradition",
+      "order": 73,
+      "name": { "en": "Africana", "fa": "آفریقایی‌تبار" },
+      "note": {
+        "en": "Philosophy of the African diaspora. Distinct from African philosophy rather than a region of it, since its central questions arise from displacement.",
+        "fa": "فلسفهٔ پراکندگی آفریقایی. متمایز از فلسفهٔ آفریقایی است نه بخشی از آن، چرا که پرسش‌های محوری‌اش از جابه‌جایی برمی‌خیزند."
+      }
+    },
+    {
+      "id": "indigenous",
+      "kind": "tradition",
+      "order": 80,
+      "name": { "en": "Indigenous", "fa": "بومی" },
+      "note": {
+        "en": "A grouping of convenience for navigation, not a claim that these traditions share a framework. Each child term carries its own conceptual vocabulary and must not be read through the others.",
+        "fa": "گروه‌بندی‌ای برای سهولت پیمایش است، نه ادعایی مبنی بر اینکه این سنت‌ها چارچوب مشترکی دارند. هر اصطلاح فرزند واژگان مفهومی خود را دارد و نباید از دریچهٔ دیگری خوانده شود."
+      }
+    },
+    {
+      "id": "first-nations",
+      "kind": "tradition",
+      "parent": "indigenous",
+      "order": 81,
+      "name": { "en": "First Nations", "fa": "ملل نخستین" }
+    },
+    {
+      "id": "mesoamerican",
+      "kind": "tradition",
+      "parent": "indigenous",
+      "order": 82,
+      "name": { "en": "Mesoamerican", "fa": "میان‌آمریکایی" }
+    },
+    {
+      "id": "andean",
+      "kind": "tradition",
+      "parent": "indigenous",
+      "order": 83,
+      "name": { "en": "Andean", "fa": "آندی" }
+    },
+    {
+      "id": "indigenous-australian",
+      "kind": "tradition",
+      "parent": "indigenous",
+      "order": 84,
+      "name": { "en": "Indigenous Australian", "fa": "بومیان استرالیا" }
+    },
+    {
+      "id": "pacific-islander",
+      "kind": "tradition",
+      "parent": "indigenous",
+      "order": 85,
+      "name": { "en": "Pacific Islander", "fa": "جزایر اقیانوس آرام" }
+    },
+    {
+      "id": "latin-american",
+      "kind": "tradition",
+      "order": 90,
+      "name": { "en": "Latin American", "fa": "آمریکای لاتین" }
+    },
+    {
+      "id": "european",
+      "kind": "tradition",
+      "order": 100,
+      "name": { "en": "European", "fa": "اروپایی" }
+    },
+    {
+      "id": "renaissance",
+      "kind": "tradition",
+      "parent": "european",
+      "order": 101,
+      "name": { "en": "Renaissance", "fa": "رنسانس" }
+    },
+    {
+      "id": "russian",
+      "kind": "tradition",
+      "order": 105,
+      "name": { "en": "Russian", "fa": "روسی" }
+    },
+    {
+      "id": "american",
+      "kind": "tradition",
+      "order": 110,
+      "name": { "en": "American", "fa": "آمریکایی" }
+    },
+    {
+      "id": "pragmatist",
+      "kind": "tradition",
+      "order": 111,
+      "name": { "en": "Pragmatist", "fa": "عمل‌گرا" }
+    },
+    {
+      "id": "analytic",
+      "kind": "tradition",
+      "order": 120,
+      "name": { "en": "Analytic", "fa": "تحلیلی" }
+    },
+    {
+      "id": "continental",
+      "kind": "tradition",
+      "order": 121,
+      "name": { "en": "Continental", "fa": "قاره‌ای" }
+    },
+    {
+      "id": "contemporary",
+      "kind": "tradition",
+      "order": 130,
+      "name": { "en": "Contemporary", "fa": "معاصر" }
+    },
+
+    {
+      "id": "metaphysics",
+      "kind": "branch",
+      "order": 10,
+      "name": { "en": "Metaphysics", "fa": "مابعدالطبیعه" }
+    },
+    {
+      "id": "epistemology",
+      "kind": "branch",
+      "order": 20,
+      "name": { "en": "Epistemology", "fa": "معرفت‌شناسی" }
+    },
+    {
+      "id": "ethics",
+      "kind": "branch",
+      "order": 30,
+      "name": { "en": "Ethics", "fa": "اخلاق" }
+    },
+    {
+      "id": "metaethics",
+      "kind": "branch",
+      "parent": "ethics",
+      "order": 31,
+      "name": { "en": "Metaethics", "fa": "فرااخلاق" }
+    },
+    {
+      "id": "applied-ethics",
+      "kind": "branch",
+      "parent": "ethics",
+      "order": 32,
+      "name": { "en": "Applied Ethics", "fa": "اخلاق کاربردی" }
+    },
+    {
+      "id": "logic",
+      "kind": "branch",
+      "order": 40,
+      "name": { "en": "Logic", "fa": "منطق" }
+    },
+    {
+      "id": "aesthetics",
+      "kind": "branch",
+      "order": 50,
+      "name": { "en": "Aesthetics", "fa": "زیبایی‌شناسی" }
+    },
+    {
+      "id": "political-philosophy",
+      "kind": "branch",
+      "order": 60,
+      "name": { "en": "Political Philosophy", "fa": "فلسفهٔ سیاسی" }
+    },
+    {
+      "id": "social-philosophy",
+      "kind": "branch",
+      "order": 61,
+      "name": { "en": "Social Philosophy", "fa": "فلسفهٔ اجتماعی" }
+    },
+    {
+      "id": "philosophy-of-mind",
+      "kind": "branch",
+      "order": 70,
+      "name": { "en": "Philosophy of Mind", "fa": "فلسفهٔ ذهن" }
+    },
+    {
+      "id": "philosophy-of-language",
+      "kind": "branch",
+      "order": 80,
+      "name": { "en": "Philosophy of Language", "fa": "فلسفهٔ زبان" }
+    },
+    {
+      "id": "philosophy-of-science",
+      "kind": "branch",
+      "order": 90,
+      "name": { "en": "Philosophy of Science", "fa": "فلسفهٔ علم" }
+    },
+    {
+      "id": "philosophy-of-biology",
+      "kind": "branch",
+      "parent": "philosophy-of-science",
+      "order": 91,
+      "name": { "en": "Philosophy of Biology", "fa": "فلسفهٔ زیست‌شناسی" }
+    },
+    {
+      "id": "philosophy-of-medicine",
+      "kind": "branch",
+      "parent": "philosophy-of-science",
+      "order": 92,
+      "name": { "en": "Philosophy of Medicine", "fa": "فلسفهٔ پزشکی" }
+    },
+    {
+      "id": "philosophy-of-psychology",
+      "kind": "branch",
+      "parent": "philosophy-of-science",
+      "order": 93,
+      "name": { "en": "Philosophy of Psychology", "fa": "فلسفهٔ روان‌شناسی" }
+    },
+    {
+      "id": "philosophy-of-religion",
+      "kind": "branch",
+      "order": 100,
+      "name": { "en": "Philosophy of Religion", "fa": "فلسفهٔ دین" }
+    },
+    {
+      "id": "existential-philosophy",
+      "kind": "branch",
+      "order": 110,
+      "name": { "en": "Existential Philosophy", "fa": "فلسفهٔ اگزیستانس" }
+    },
+    {
+      "id": "philosophy-of-technology",
+      "kind": "branch",
+      "order": 120,
+      "name": { "en": "Philosophy of Technology", "fa": "فلسفهٔ فناوری" }
+    },
+    {
+      "id": "philosophy-of-law",
+      "kind": "branch",
+      "order": 130,
+      "name": { "en": "Philosophy of Law", "fa": "فلسفهٔ حقوق" }
+    },
+    {
+      "id": "philosophy-of-education",
+      "kind": "branch",
+      "order": 140,
+      "name": { "en": "Philosophy of Education", "fa": "فلسفهٔ آموزش و پرورش" }
+    },
+    {
+      "id": "philosophy-of-history",
+      "kind": "branch",
+      "order": 150,
+      "name": { "en": "Philosophy of History", "fa": "فلسفهٔ تاریخ" }
+    },
+    {
+      "id": "philosophy-of-mathematics",
+      "kind": "branch",
+      "order": 160,
+      "name": { "en": "Philosophy of Mathematics", "fa": "فلسفهٔ ریاضیات" }
+    },
+    {
+      "id": "philosophy-of-economics",
+      "kind": "branch",
+      "order": 170,
+      "name": { "en": "Philosophy of Economics", "fa": "فلسفهٔ اقتصاد" }
+    },
+    {
+      "id": "comparative-philosophy",
+      "kind": "branch",
+      "order": 180,
+      "name": { "en": "Comparative Philosophy", "fa": "فلسفهٔ تطبیقی" }
+    },
+    {
+      "id": "feminist-philosophy",
+      "kind": "branch",
+      "order": 190,
+      "name": { "en": "Feminist Philosophy", "fa": "فلسفهٔ فمینیستی" }
+    },
+    {
+      "id": "decolonial-philosophy",
+      "kind": "branch",
+      "order": 200,
+      "name": { "en": "Decolonial Philosophy", "fa": "فلسفهٔ واستعمارزدایی" }
+    }
+  ]
+}

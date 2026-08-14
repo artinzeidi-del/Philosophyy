@@ -6,11 +6,10 @@ import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/format/date_format.dart';
-import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
@@ -30,7 +29,9 @@ class ExploreScreen extends ConsumerStatefulWidget {
 }
 
 class _ExploreScreenState extends ConsumerState<ExploreScreen> {
-  Tradition? _tradition;
+  /// The selected tradition, as a taxonomy id. A string rather than a typed
+  /// value because the vocabulary is content — see [Taxonomy].
+  String? _traditionId;
 
   @override
   Widget build(BuildContext context) {
@@ -59,22 +60,32 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
     AppLanguage language,
   ) {
     final l10n = AppL10n.of(context);
-    final selected = _tradition;
+    final taxonomy = corpus.taxonomy;
+    final selected = _traditionId;
+
+    // Selecting a broad tradition keeps the entries filed under narrower ones:
+    // choosing "Indigenous" must not hide the Mesoamerican entries.
     final philosophers = corpus.philosophersChronologically
         .where(
           (philosopher) =>
-              selected == null || philosopher.traditions.contains(selected),
+              selected == null ||
+              philosopher.traditions.any(
+                (id) => taxonomy.isUnder(id, selected),
+              ),
         )
         .toList();
 
-    // Only traditions actually represented in the corpus are offered, so a
-    // filter can never lead to an empty screen.
-    final traditions =
-        corpus.philosophers
-            .expand((philosopher) => philosopher.traditions)
-            .toSet()
-            .toList()
-          ..sort((a, b) => a.index.compareTo(b.index));
+    // Only traditions with philosophers behind them are offered, so a filter
+    // can never lead to an empty screen — including the broader terms, which
+    // earn their chip from the entries filed beneath them. Sorting goes through
+    // the taxonomy so the chips follow the editorial order in the content file
+    // rather than the order philosophers happen to have been authored in.
+    final represented = <String>{
+      for (final philosopher in corpus.philosophers)
+        for (final id in philosopher.traditions) ...taxonomy.ancestryOf(id),
+    };
+    final traditions = represented.map((id) => taxonomy[id]).nonNulls.toList()
+      ..sort();
 
     return SafeArea(
       child: ListView(
@@ -97,16 +108,14 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                     FilterChip(
                       label: Text(l10n.filterAll),
                       selected: selected == null,
-                      onSelected: (_) => setState(() => _tradition = null),
+                      onSelected: (_) => setState(() => _traditionId = null),
                     ),
                     for (final tradition in traditions)
                       FilterChip(
-                        label: Text(
-                          TaxonomyLabels.tradition(tradition).resolve(language),
-                        ),
-                        selected: selected == tradition,
+                        label: Text(tradition.name.resolve(language)),
+                        selected: selected == tradition.id,
                         onSelected: (isSelected) => setState(
-                          () => _tradition = isSelected ? tradition : null,
+                          () => _traditionId = isSelected ? tradition.id : null,
                         ),
                       ),
                   ],
@@ -117,6 +126,7 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                     index: index,
                     child: _PhilosopherRow(
                       philosopher: philosopher,
+                      taxonomy: taxonomy,
                       language: language,
                     ),
                   ),
@@ -131,7 +141,7 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                       summary: concept.oneLine.resolve(language),
                       tags: <String>[
                         for (final branch in concept.branches.take(2))
-                          TaxonomyLabels.branch(branch).resolve(language),
+                          taxonomy.nameOf(branch).resolve(language),
                       ],
                       onTap: () => context.push(concept.ref.route),
                     ),
@@ -148,9 +158,14 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
 }
 
 class _PhilosopherRow extends StatelessWidget {
-  const _PhilosopherRow({required this.philosopher, required this.language});
+  const _PhilosopherRow({
+    required this.philosopher,
+    required this.taxonomy,
+    required this.language,
+  });
 
   final Philosopher philosopher;
+  final Taxonomy taxonomy;
   final AppLanguage language;
 
   @override
@@ -162,7 +177,7 @@ class _PhilosopherRow extends StatelessWidget {
       meta: AppDates.lifeSpan(philosopher.life, language, l10n),
       tags: <String>[
         for (final tradition in philosopher.traditions.take(2))
-          TaxonomyLabels.tradition(tradition).resolve(language),
+          taxonomy.nameOf(tradition).resolve(language),
       ],
       onTap: () => context.push(philosopher.ref.route),
     );

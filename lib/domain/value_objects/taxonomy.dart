@@ -1,148 +1,15 @@
-/// The branches of philosophy the product organises content by.
+/// Traditions and branches are NOT defined here.
 ///
-/// The list is deliberately broad. A reference that recognises only the five
-/// classical branches quietly tells a reader interested in, say, philosophy of
-/// technology that their question is not philosophy.
+/// They used to be — two enums, sixteen traditions and eighteen branches, fixed
+/// at compile time. The scope audit found that this made Korean, Ethiopian,
+/// Mesoamerican and every Indigenous tradition unnameable without a Dart change.
+/// They are now content: see `assets/content/taxonomy.json` and
+/// `TaxonomyTerm`/`Taxonomy` in `taxonomy_term.dart`.
 ///
-/// Each member carries a stable [id] used in stored content and deep links.
-/// Renaming a member is safe; changing an [id] breaks saved data and links.
-enum PhilosophyBranch {
-  /// What there is, and what it is to be.
-  metaphysics(id: 'metaphysics'),
-
-  /// Knowledge, justification, and the limits of both.
-  epistemology(id: 'epistemology'),
-
-  /// How one ought to live and act.
-  ethics(id: 'ethics'),
-
-  /// Valid inference and the structure of argument.
-  logic(id: 'logic'),
-
-  /// Beauty, art, and aesthetic judgement.
-  aesthetics(id: 'aesthetics'),
-
-  /// Authority, justice, rights, and the state.
-  politicalPhilosophy(id: 'political-philosophy'),
-
-  /// Consciousness, intentionality, and the mental.
-  philosophyOfMind(id: 'philosophy-of-mind'),
-
-  /// Meaning, reference, and communication.
-  philosophyOfLanguage(id: 'philosophy-of-language'),
-
-  /// The methods, status, and claims of the sciences.
-  philosophyOfScience(id: 'philosophy-of-science'),
-
-  /// Religious belief, argument, and experience.
-  philosophyOfReligion(id: 'philosophy-of-religion'),
-
-  /// Society, culture, and collective life.
-  socialPhilosophy(id: 'social-philosophy'),
-
-  /// Existence, freedom, absurdity, and meaning.
-  existentialPhilosophy(id: 'existential-philosophy'),
-
-  /// Technology's effect on human life and agency.
-  philosophyOfTechnology(id: 'philosophy-of-technology'),
-
-  /// Law, obligation, and legal interpretation.
-  philosophyOfLaw(id: 'philosophy-of-law'),
-
-  /// Teaching, learning, and formation.
-  philosophyOfEducation(id: 'philosophy-of-education'),
-
-  /// Historical explanation, progress, and narrative.
-  philosophyOfHistory(id: 'philosophy-of-history'),
-
-  /// The nature of mathematical objects and truth.
-  philosophyOfMathematics(id: 'philosophy-of-mathematics'),
-
-  /// Value, exchange, and economic method.
-  philosophyOfEconomics(id: 'philosophy-of-economics');
-
-  const PhilosophyBranch({required this.id});
-
-  /// Stable identifier used in stored content and URLs.
-  final String id;
-
-  /// Looks up a branch by its stable [id], or returns `null` if unknown.
-  static PhilosophyBranch? fromId(String id) {
-    for (final branch in PhilosophyBranch.values) {
-      if (branch.id == id) return branch;
-    }
-    return null;
-  }
-}
-
-/// The traditions the product covers.
-///
-/// These overlap by design — Avicenna belongs to both [islamic] and [persian],
-/// and Maimonides to both [islamic] (in context) and [jewish]. Traditions are
-/// therefore a set on each entity, never a single classification, because
-/// forcing a single one falsifies the history.
-enum Tradition {
-  /// Classical Greek philosophy.
-  ancientGreek(id: 'ancient-greek'),
-
-  /// Roman philosophy.
-  roman(id: 'roman'),
-
-  /// Post-Aristotelian Greek schools: Stoic, Epicurean, Sceptic, Cynic.
-  hellenistic(id: 'hellenistic'),
-
-  /// Latin Christian and scholastic philosophy of the Middle Ages.
-  medieval(id: 'medieval'),
-
-  /// Philosophy in the Islamic world.
-  islamic(id: 'islamic'),
-
-  /// The Persian philosophical tradition.
-  persian(id: 'persian'),
-
-  /// Jewish philosophy.
-  jewish(id: 'jewish'),
-
-  /// Christian philosophical theology.
-  christian(id: 'christian'),
-
-  /// Indian philosophy, orthodox and heterodox alike.
-  indian(id: 'indian'),
-
-  /// Chinese philosophy.
-  chinese(id: 'chinese'),
-
-  /// Japanese philosophy.
-  japanese(id: 'japanese'),
-
-  /// African and Africana philosophy.
-  african(id: 'african'),
-
-  /// Latin American philosophy.
-  latinAmerican(id: 'latin-american'),
-
-  /// Modern and continental European philosophy.
-  european(id: 'european'),
-
-  /// American philosophy, including pragmatism.
-  american(id: 'american'),
-
-  /// Philosophy from roughly the mid-twentieth century onward.
-  contemporary(id: 'contemporary');
-
-  const Tradition({required this.id});
-
-  /// Stable identifier used in stored content and URLs.
-  final String id;
-
-  /// Looks up a tradition by its stable [id], or returns `null` if unknown.
-  static Tradition? fromId(String id) {
-    for (final tradition in Tradition.values) {
-      if (tradition.id == id) return tradition;
-    }
-    return null;
-  }
-}
+/// What remains below is genuinely closed. [ContentDepth] and [LearningLevel]
+/// describe how the *product* presents and paces material; they are product
+/// decisions with behaviour attached, not a vocabulary of the world.
+library;
 
 /// How deeply a piece of content treats its subject.
 ///

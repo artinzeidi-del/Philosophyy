@@ -1,7 +1,6 @@
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 
 /// One numbered step in a reconstructed argument.
 class ArgumentStatement {
@@ -90,7 +89,7 @@ class Argument {
     this.opponentIds = const <String>[],
     this.workId,
     this.conceptIds = const <String>[],
-    this.branches = const <PhilosophyBranch>{},
+    this.branches = const <String>{},
     this.citations = const <Citation>[],
   });
 
@@ -129,7 +128,7 @@ class Argument {
   final List<String> conceptIds;
 
   /// The branches it belongs to.
-  final Set<PhilosophyBranch> branches;
+  final Set<String> branches;
 
   /// Sources for the reconstruction.
   final List<Citation> citations;

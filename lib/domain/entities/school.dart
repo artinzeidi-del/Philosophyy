@@ -4,7 +4,6 @@ import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/historical_date.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 
 /// A school, movement or tradition of thought.
 ///
@@ -21,8 +20,8 @@ class School implements KnowledgeEntity {
     this.transliteration,
     this.alsoKnownAs = const <String>[],
     this.period,
-    this.traditions = const <Tradition>{},
-    this.branches = const <PhilosophyBranch>{},
+    this.traditions = const <String>{},
+    this.branches = const <String>{},
     this.article = Article.empty,
     this.centralClaims = const <LocalizedText>[],
     this.memberIds = const <String>[],
@@ -55,10 +54,10 @@ class School implements KnowledgeEntity {
   final HistoricalRange? period;
 
   @override
-  final Set<Tradition> traditions;
+  final Set<String> traditions;
 
   @override
-  final Set<PhilosophyBranch> branches;
+  final Set<String> branches;
 
   @override
   final Article article;

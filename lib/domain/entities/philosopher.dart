@@ -4,7 +4,6 @@ import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/historical_date.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 
 /// A philosopher.
 ///
@@ -24,8 +23,8 @@ class Philosopher implements KnowledgeEntity {
     this.alsoKnownAs = const <String>[],
     this.birthPlace,
     this.deathPlace,
-    this.traditions = const <Tradition>{},
-    this.branches = const <PhilosophyBranch>{},
+    this.traditions = const <String>{},
+    this.branches = const <String>{},
     this.article = Article.empty,
     this.conceptIds = const <String>[],
     this.workIds = const <String>[],
@@ -63,10 +62,10 @@ class Philosopher implements KnowledgeEntity {
   final LocalizedText? deathPlace;
 
   @override
-  final Set<Tradition> traditions;
+  final Set<String> traditions;
 
   @override
-  final Set<PhilosophyBranch> branches;
+  final Set<String> branches;
 
   @override
   final Article article;
