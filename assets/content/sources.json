@@ -76,7 +76,8 @@
       "kind": "primary-text",
       "title": {
         "en": "Pointers and Reminders",
-        "fa": "الإشارات و التنبیهات"
+        "fa": "اشارات و تنبیهات",
+        "ar": "الإشارات والتنبيهات"
       },
       "authors": ["Ibn Sīnā"],
       "rightsNote": "Avicenna's late summation of his logic, physics and metaphysics."
@@ -86,7 +87,8 @@
       "kind": "primary-text",
       "title": {
         "en": "The Book of Healing",
-        "fa": "الشفاء"
+        "fa": "شفا",
+        "ar": "الشفاء"
       },
       "authors": ["Ibn Sīnā"],
       "rightsNote": "Avicenna's philosophical encyclopedia, covering logic, natural science, mathematics and metaphysics."
@@ -96,7 +98,8 @@
       "kind": "primary-text",
       "title": {
         "en": "The Incoherence of the Philosophers",
-        "fa": "تهافت الفلاسفه"
+        "fa": "تهافت الفلاسفه",
+        "ar": "تهافت الفلاسفة"
       },
       "authors": ["Abū Ḥāmid al-Ghazālī"],
       "rightsNote": "Al-Ghazālī's critique of twenty theses held by the Islamic Aristotelians, chiefly Avicenna and al-Fārābī."
@@ -116,7 +119,8 @@
       "kind": "primary-text",
       "title": {
         "en": "The Four Journeys",
-        "fa": "الحکمة المتعالیة فی الأسفار العقلیة الأربعة"
+        "fa": "اسفار اربعه",
+        "ar": "الحكمة المتعالية في الأسفار العقلية الأربعة"
       },
       "authors": ["Mullā Ṣadrā"],
       "rightsNote": "The principal work of the school of Transcendent Wisdom."

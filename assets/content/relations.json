@@ -86,7 +86,7 @@
       "object": "concept:essence-existence-distinction",
       "note": {
         "en": "Where Avicenna distinguishes essence from existence, Ṣadrā argues existence is the fundamentally real term and essence a derived abstraction.",
-        "fa": "آنجا که ابن‌سینا ماهیت را از وجود تمییز می‌دهد، ملاصدرا برهان می‌آورد که وجود اصیل است و ماهیت انتزاعی برگرفته."
+        "fa": "آنجا که ابن‌سینا ماهیت را از وجود تمییز می‌دهد، ملاصدرا استدلال می‌کند که وجود اصیل است و ماهیت انتزاعی برگرفته."
       },
       "sources": [
         "sadra-asfar"
@@ -99,7 +99,7 @@
       "object": "philosopher:kant",
       "note": {
         "en": "Kant's project begins from the problem Descartes bequeathed: how a mind can know anything beyond its own states.",
-        "fa": "پروژهٔ کانت از همان مسئله‌ای می‌آغازد که دکارت به میراث گذاشت: اینکه ذهن چگونه می‌تواند چیزی فراتر از حالات خود بداند."
+        "fa": "پروژهٔ کانت از همان مسئله‌ای آغاز می‌شود که دکارت به میراث گذاشت: اینکه ذهن چگونه می‌تواند چیزی فراتر از حالات خود بداند."
       },
       "sources": [
         "sep"
@@ -220,7 +220,7 @@
       "confidence": "documented",
       "object": "philosopher:ibn-sina",
       "note": {
-        "en": "The book is the criticism: it takes the philosophers’ doctrines one at a time, and Ibn Sīnā’s are the ones most often in view.",
+        "en": "The book is the criticism: it takes the philosophers' doctrines one at a time, and Ibn Sīnā's are the ones most often in view.",
         "fa": "خودِ کتاب همان نقد است: آموزه‌های فیلسوفان را یک‌به‌یک برمی‌رسد و بیش از همه آموزه‌های ابن‌سینا در نظر اوست."
       },
       "sources": [

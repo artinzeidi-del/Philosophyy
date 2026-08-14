@@ -35,7 +35,7 @@
           "locator": "327a–354c",
           "summary": {
             "en": "Three definitions of justice are offered and defeated; Thrasymachus argues justice is whatever serves the stronger.",
-            "fa": "سه تعریف از عدالت عرضه و رد می‌شود؛ تراسیماخوس برهان می‌آورد که عدالت هر چیزی است که به سود قوی‌تر باشد."
+            "fa": "سه تعریف از عدالت عرضه و رد می‌شود؛ تراسیماخوس استدلال می‌کند که عدالت هر چیزی است که به سود قوی‌تر باشد."
           }
         },
         {
@@ -60,7 +60,7 @@
       "author": "plato",
       "oneLine": {
         "en": "Socrates' defence speech at his trial, and his refusal to save himself by pretending.",
-        "fa": "دفاعیهٔ سقراط در محاکمه‌اش، و سرباززدنش از نجات خود به بهای تظاهر."
+        "fa": "دفاع سقراط در دادگاه، و اینکه حاضر نشد با تظاهر جانش را بخرد."
       },
       "composed": { "start": { "year": -395, "precision": "circa" } },
       "traditions": ["ancient-greek"],
@@ -77,7 +77,7 @@
       "author": "aristotle",
       "oneLine": {
         "en": "The founding text of virtue ethics, and still the most practical book of moral philosophy ever written.",
-        "fa": "متن بنیادگذار اخلاق فضیلت، و هنوز عملی‌ترین کتاب فلسفهٔ اخلاق که نوشته شده است."
+        "fa": "متن بنیان‌گذار اخلاق فضیلت، و هنوز عملی‌ترین کتاب فلسفهٔ اخلاق که نوشته شده."
       },
       "composed": { "start": { "year": -340, "precision": "circa" } },
       "traditions": ["ancient-greek"],
@@ -95,7 +95,7 @@
       "author": "epictetus",
       "oneLine": {
         "en": "Fifty-three short chapters of Stoic practice, compiled by a student from lessons Epictetus never wrote down.",
-        "fa": "پنجاه‌وسه فصل کوتاه از عمل رواقی، که شاگردی از درس‌هایی گرد آورد که اپیکتتوس هرگز ننوشت."
+        "fa": "پنجاه‌وسه فصل کوتاه دربارهٔ عمل رواقی، که شاگردی از درس‌هایی گرد آورد که اپیکتتوس هرگز ننوشت."
       },
       "composed": { "start": { "year": 125, "precision": "circa" } },
       "traditions": ["hellenistic", "roman"],
@@ -106,13 +106,14 @@
     },
     {
       "id": "isharat",
-      "title": { "en": "Pointers and Reminders", "fa": "الإشارات و التنبیهات" },
+      "title": { "en": "Pointers and Reminders", "fa": "اشارات و تنبیهات",
+        "ar": "الإشارات والتنبيهات" },
       "originalTitle": "الإشارات و التنبیهات",
       "transliteration": "al-Ishārāt wa-l-Tanbīhāt",
       "author": "ibn-sina",
       "oneLine": {
         "en": "Avicenna's last and most compressed statement of his whole philosophy, written to be unpacked by a teacher.",
-        "fa": "واپسین و فشرده‌ترین بیان ابن‌سینا از تمام فلسفه‌اش، نوشته‌شده تا استادی آن را بگشاید."
+        "fa": "آخرین و فشرده‌ترین بیان ابن‌سینا از تمام فلسفه‌اش، نوشته‌شده تا استادی آن را باز کند."
       },
       "composed": { "start": { "year": 1030, "precision": "circa" } },
       "traditions": ["islamic", "persian"],
@@ -125,14 +126,15 @@
       "id": "tahafut",
       "title": {
         "en": "The Incoherence of the Philosophers",
-        "fa": "تهافت الفلاسفه"
+        "fa": "تهافت الفلاسفه",
+        "ar": "تهافت الفلاسفة"
       },
       "originalTitle": "تهافت الفلاسفة",
       "transliteration": "Tahāfut al-Falāsifa",
       "author": "al-ghazali",
       "oneLine": {
         "en": "A point-by-point demolition of twenty philosophical theses, written by someone who had mastered them first.",
-        "fa": "ویران‌سازی بند‌به‌بند بیست مدعای فلسفی، به‌قلم کسی که نخست بر آن‌ها چیره شده بود."
+        "fa": "ویران‌کردن بند به بندِ بیست ادعای فلسفی، به‌قلم کسی که اول خودش بر آن‌ها مسلط شده بود."
       },
       "composed": { "start": { "year": 1095, "precision": "circa" } },
       "traditions": ["islamic", "persian"],
@@ -148,7 +150,7 @@
       "author": "mulla-sadra",
       "oneLine": {
         "en": "The summa of Transcendent Wisdom, structured as four journeys of the intellect.",
-        "fa": "جامعِ حکمت متعالیه، ساختاریافته همچون چهار سفر عقل."
+        "fa": "کتاب جامع حکمت متعالیه، که مانند چهار سفرِ عقل ساختار یافته."
       },
       "composed": { "start": { "year": 1620, "precision": "circa" } },
       "traditions": ["islamic", "persian"],
@@ -189,7 +191,7 @@
       "author": "nagarjuna",
       "oneLine": {
         "en": "Twenty-seven chapters that take apart every candidate for something that exists on its own.",
-        "fa": "بیست‌وهفت فصل که هر نامزدی را برای «چیزی که به‌خودی‌خود هست» از هم می‌گشاید."
+        "fa": "بیست‌وهفت فصل که هر نامزدی را برای «چیزی که به‌خودی‌خود هست» از هم باز می‌کند."
       },
       "composed": { "start": { "year": 200, "precision": "circa" } },
       "traditions": ["indian"],
@@ -208,7 +210,7 @@
       "author": "descartes",
       "oneLine": {
         "en": "Six days of systematic doubt, undertaken to find something that survives it.",
-        "fa": "شش روز شکِ روشمند، برای یافتن چیزی که از آن جان به‌در برد."
+        "fa": "شش روز شکِ روشمند، برای یافتن چیزی که از این شک جان سالم به در ببرد."
       },
       "composed": { "start": { "year": 1641, "precision": "exact" } },
       "traditions": ["european"],
@@ -224,7 +226,7 @@
       "author": "kant",
       "oneLine": {
         "en": "An investigation into what reason can establish on its own, and where it necessarily overreaches.",
-        "fa": "کاوشی در آنچه خرد به‌تنهایی می‌تواند اثبات کند، و آنجا که ناگزیر از حد خود درمی‌گذرد."
+        "fa": "بررسی اینکه عقل به‌تنهایی چه چیزی را می‌تواند اثبات کند، و کجا ناچار از مرز خودش می‌گذرد."
       },
       "composed": {
         "start": { "year": 1781, "precision": "exact" },
@@ -242,7 +244,7 @@
       "author": "nietzsche",
       "oneLine": {
         "en": "Aphorisms, songs and jokes, containing two of the most quoted and least understood passages in philosophy.",
-        "fa": "قطعه‌ها، ترانه‌ها و شوخی‌ها؛ دربردارندهٔ دو بند از پرنقل‌ترین و کم‌فهمیده‌ترین بندهای فلسفه."
+        "fa": "قطعه‌ها، ترانه‌ها و شوخی‌ها؛ شامل دو بند از پرنقل‌ترین و کم‌فهمیده‌ترین بندهای فلسفه."
       },
       "composed": {
         "start": { "year": 1882, "precision": "exact" },
@@ -279,7 +281,7 @@
       "author": "du-bois",
       "oneLine": {
         "en": "Fourteen essays that put the experience of being a problem at the centre of American self-understanding.",
-        "fa": "چهارده جستار که تجربهٔ «مسئله‌بودن» را در کانون خودفهمی آمریکایی می‌نشاند."
+        "fa": "چهارده جستار که تجربهٔ «مسئله بودن» را در مرکز خودشناسی آمریکایی می‌نشاند."
       },
       "composed": { "start": { "year": 1903, "precision": "exact" } },
       "traditions": ["american", "african", "contemporary"],

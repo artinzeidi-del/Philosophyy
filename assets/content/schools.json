@@ -5,7 +5,7 @@
       "name": { "en": "Platonism", "fa": "افلاطون‌گرایی" },
       "oneLine": {
         "en": "The tradition holding that the objects of knowledge are abstract, unchanging and more real than what we perceive.",
-        "fa": "سنتی که متعلقات معرفت را انتزاعی، تغییرناپذیر و واقعی‌تر از آنچه درک می‌کنیم می‌داند."
+        "fa": "سنتی که می‌گوید آنچه واقعاً می‌شناسیم انتزاعی و تغییرناپذیر است، و واقعی‌تر از آنچه می‌بینیم."
       },
       "period": { "start": { "year": -387, "precision": "circa" } },
       "traditions": ["ancient-greek"],
@@ -31,7 +31,7 @@
       "name": { "en": "Aristotelianism", "fa": "ارسطوگرایی" },
       "oneLine": {
         "en": "The tradition that explains things by what they are made of, what they are, and what they are for.",
-        "fa": "سنتی که اشیا را با مادّه، صورت و غایتشان تبیین می‌کند."
+        "fa": "سنتی که هر چیز را با مادّه، صورت و هدفش توضیح می‌دهد."
       },
       "period": { "start": { "year": -335, "precision": "circa" } },
       "traditions": ["ancient-greek", "medieval", "islamic"],
@@ -59,7 +59,7 @@
       "transliteration": "Stoa",
       "oneLine": {
         "en": "That virtue is the only good, and that everything else is outside our power and beside the point.",
-        "fa": "اینکه فضیلت تنها خیر است، و هرچه جز آن بیرون از توان ماست و به کار نمی‌آید."
+        "fa": "اینکه تنها فضیلت خیر است، و هرچه جز آن بیرون از توان ماست و به کار نمی‌آید."
       },
       "period": {
         "start": { "year": -300, "precision": "circa" },
@@ -88,7 +88,7 @@
       "transliteration": "Madhyamaka",
       "oneLine": {
         "en": "The Middle Way school: everything is empty of independent existence, including emptiness.",
-        "fa": "مکتب راه میانه: هر چیز از وجود مستقل تهی است، از جمله خودِ تهی‌بودگی."
+        "fa": "مکتب راه میانه: هر چیز از وجود مستقل تهی است، حتی خودِ همین تهی‌بودن."
       },
       "period": { "start": { "year": 200, "precision": "circa" } },
       "traditions": ["indian"],
@@ -111,7 +111,7 @@
       "transliteration": "Rújiā",
       "oneLine": {
         "en": "That a good society is built by cultivating people, through ritual, study and example.",
-        "fa": "اینکه جامعهٔ خوب با پرورش انسان‌ها ساخته می‌شود؛ از راه آیین، آموختن و سرمشق."
+        "fa": "اینکه جامعهٔ خوب با پرورش آدم‌ها ساخته می‌شود؛ از راه آیین، آموختن و سرمشق."
       },
       "period": { "start": { "year": -500, "precision": "circa" } },
       "traditions": ["chinese"],
@@ -134,7 +134,7 @@
       "transliteration": "al-Ḥikma al-mutaʿāliya",
       "oneLine": {
         "en": "Mullā Ṣadrā's synthesis of demonstration, illumination and mystical insight into one system.",
-        "fa": "ترکیب برهان، اشراق و شهود عرفانی در یک نظام، به‌دست ملاصدرا."
+        "fa": "ترکیب استدلال، اشراق و شهود عرفانی در یک نظام واحد، به‌دست ملاصدرا."
       },
       "period": { "start": { "year": 1600, "precision": "circa" } },
       "traditions": ["islamic", "persian"],

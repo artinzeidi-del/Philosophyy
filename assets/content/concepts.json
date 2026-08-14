@@ -228,7 +228,7 @@
       },
       "oneLine": {
         "en": "Some things are up to you; almost nothing else is.",
-        "fa": "برخی چیزها در اختیار توست؛ و تقریباً هیچ‌چیز دیگر نیست."
+        "fa": "بعضی چیزها در اختیار توست؛ و تقریباً هیچ‌چیز دیگری نیست."
       },
       "definition": {
         "en": "The Stoic division of everything into what is within our power — judgement, intention, assent — and what is not, together with the claim that only the first should be treated as genuinely ours.",
@@ -278,7 +278,7 @@
       "transliteration": "al-māhiyya wa-l-wujūd",
       "oneLine": {
         "en": "Knowing what something is never tells you that it is.",
-        "fa": "دانستنِ اینکه چیزی چیست، هرگز نمی‌گوید که هست."
+        "fa": "اینکه بدانی چیزی چیست، هرگز نمی‌گوید که هست یا نه."
       },
       "definition": {
         "en": "The claim, central to Avicenna, that in every being other than the necessary being, what a thing is (its essence) is distinct from the fact that it is (its existence) — so existence must be received from something else.",
@@ -348,7 +348,7 @@
       "nativeTerm": "cogito, ergo sum",
       "oneLine": {
         "en": "The one thing doubt cannot reach is the doubting.",
-        "fa": "تنها چیزی که شک بدان نمی‌رسد، خودِ شک‌کردن است."
+        "fa": "تنها چیزی که شک به آن نمی‌رسد، خودِ شک‌کردن است."
       },
       "definition": {
         "en": "Descartes' claim that while thinking, one cannot coherently doubt that one exists — since doubting is itself a form of thinking, and thinking requires a thinker for as long as it occurs.",
@@ -434,7 +434,7 @@
       "alsoKnownAs": ["sunyata", "shunyata", "emptiness", "خلأ"],
       "oneLine": {
         "en": "Nothing stands on its own; everything is what it is by depending on other things.",
-        "fa": "هیچ‌چیز بر پای خود نمی‌ایستد؛ هر چیز به‌واسطهٔ وابستگی به دیگری همان است که هست."
+        "fa": "هیچ‌چیز روی پای خودش نمی‌ایستد؛ هر چیز به‌خاطر وابستگی به چیزهای دیگر همان است که هست."
       },
       "definition": {
         "en": "In Madhyamaka Buddhism, the absence of svabhāva — intrinsic, independent existence — in all things, including emptiness itself. It is a denial of self-standing essence, not a denial that things exist.",
@@ -483,7 +483,7 @@
       "alsoKnownAs": ["benevolence", "humaneness", "co-humanity"],
       "oneLine": {
         "en": "The quality that makes someone worth being around, which no rule can fully specify.",
-        "fa": "آن کیفیتی که بودن در کنار کسی را ارزشمند می‌کند، و هیچ قاعده‌ای نمی‌تواند تماماً معیّنش کند."
+        "fa": "همان کیفیتی که بودن در کنار کسی را ارزشمند می‌کند، و هیچ قاعده‌ای نمی‌تواند کاملاً تعریفش کند."
       },
       "definition": {
         "en": "The central Confucian virtue: a cultivated disposition of care and appropriate regard toward others, expressed through ritual propriety and developed by practice rather than acquired by learning a rule.",
@@ -513,7 +513,7 @@
       "name": { "en": "Double Consciousness", "fa": "آگاهی دوگانه" },
       "oneLine": {
         "en": "Always seeing yourself through the eyes of a world that looks on with contempt.",
-        "fa": "همواره خود را از چشم جهانی دیدن که با تحقیر می‌نگرد."
+        "fa": "اینکه همیشه خودت را از چشم جهانی ببینی که با تحقیر نگاهت می‌کند."
       },
       "definition": {
         "en": "Du Bois' name for the divided self-perception produced by living in a society that denies one's full humanity: a sense of always measuring oneself by the standards of those who despise one, and of holding two unreconciled identities at once.",
