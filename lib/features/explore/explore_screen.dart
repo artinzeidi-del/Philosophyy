@@ -5,6 +5,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
+import 'package:philosophyy/core/design/responsive.dart';
 import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
@@ -97,28 +98,32 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
       ..sort();
 
     return SafeArea(
-      // Slivers rather than a ListView holding one tall Column.
-      //
-      // A `ListView(children: …)` wrapping a single Column builds every card in
-      // the corpus on every frame, however far off screen it is. That is
-      // invisible at fourteen works and fatal at ten thousand, and it is
-      // exactly the kind of ceiling that never announces itself — the screen
-      // just gets slower until someone profiles it. `SliverList.builder` builds
-      // what is visible.
-      //
-      // [ReadingColumn] moves inside each item rather than wrapping the list,
-      // because it only constrains width and so composes per row.
-      child: CustomScrollView(
-        slivers: <Widget>[
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(
-              Spacing.lg,
-              Spacing.xl,
-              Spacing.lg,
-              0,
-            ),
-            sliver: SliverToBoxAdapter(
-              child: ReadingColumn(
+      // Cards are not body text, so they get the content measure rather than
+      // the reading measure — wide enough to use a tablet, capped so a card on
+      // a large monitor does not put its date and its summary a head-turn
+      // apart. On a phone the cap is infinite and this is a no-op.
+      child: ContentColumn(
+        // Slivers rather than a ListView holding one tall Column.
+        //
+        // A `ListView(children: …)` wrapping a single Column builds every card in
+        // the corpus on every frame, however far off screen it is. That is
+        // invisible at fourteen works and fatal at ten thousand, and it is
+        // exactly the kind of ceiling that never announces itself — the screen
+        // just gets slower until someone profiles it. `SliverList.builder` builds
+        // what is visible.
+        //
+        // [ReadingColumn] moves inside each item rather than wrapping the list,
+        // because it only constrains width and so composes per row.
+        child: CustomScrollView(
+          slivers: <Widget>[
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(
+                Spacing.lg,
+                Spacing.xl,
+                Spacing.lg,
+                0,
+              ),
+              sliver: SliverToBoxAdapter(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
@@ -150,93 +155,126 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                 ),
               ),
             ),
-          ),
 
-          _CardSliver(
-            count: philosophers.length,
-            builder: (context, index) => _PhilosopherRow(
-              philosopher: philosophers[index],
-              taxonomy: taxonomy,
-              language: language,
-            ),
-          ),
-
-          // Works are filtered by the same tradition the philosophers are, so
-          // choosing a tradition narrows the whole screen rather than only its
-          // first section.
-          if (works.isNotEmpty) ...<Widget>[
-            _HeaderSliver(title: l10n.exploreWorksSection),
             _CardSliver(
-              count: works.length,
-              builder: (context, index) {
-                final work = works[index];
-                return EntityCard(
-                  title: work.name.resolve(language),
-                  summary: work.oneLine.resolve(language),
-                  meta: _workMeta(corpus, work, language, l10n),
-                  tags: <String>[
-                    for (final branch in work.branches.take(2))
-                      taxonomy.nameOf(branch).resolve(language),
-                  ],
-                  onTap: () => context.push(work.ref.route),
-                );
-              },
+              count: philosophers.length,
+              builder: (context, index) => _PhilosopherRow(
+                philosopher: philosophers[index],
+                taxonomy: taxonomy,
+                language: language,
+              ),
             ),
-          ],
 
-          if (selected == null) ...<Widget>[
-            _HeaderSliver(title: l10n.sectionConcepts),
-            _CardSliver(
-              count: corpus.concepts.length,
-              builder: (context, index) {
-                final concept = corpus.concepts[index];
-                return EntityCard(
-                  title: concept.name.resolve(language),
-                  summary: concept.oneLine.resolve(language),
-                  tags: <String>[
-                    for (final branch in concept.branches.take(2))
-                      taxonomy.nameOf(branch).resolve(language),
-                  ],
-                  onTap: () => context.push(concept.ref.route),
-                );
-              },
-            ),
-          ],
+            // Works are filtered by the same tradition the philosophers are, so
+            // choosing a tradition narrows the whole screen rather than only its
+            // first section.
+            if (works.isNotEmpty) ...<Widget>[
+              _HeaderSliver(title: l10n.exploreWorksSection),
+              _CardSliver(
+                count: works.length,
+                builder: (context, index) {
+                  final work = works[index];
+                  return EntityCard(
+                    title: work.name.resolve(language),
+                    summary: work.oneLine.resolve(language),
+                    maxSummaryLines: ResponsiveLayout.summaryLines(context),
+                    meta: _workMeta(corpus, work, language, l10n),
+                    tags: <String>[
+                      for (final branch in work.branches.take(2))
+                        taxonomy.nameOf(branch).resolve(language),
+                    ],
+                    onTap: () => context.push(work.ref.route),
+                  );
+                },
+              ),
+            ],
 
-          const SliverToBoxAdapter(child: SizedBox(height: Spacing.xxxl)),
-        ],
+            if (selected == null) ...<Widget>[
+              _HeaderSliver(title: l10n.sectionConcepts),
+              _CardSliver(
+                count: corpus.concepts.length,
+                builder: (context, index) {
+                  final concept = corpus.concepts[index];
+                  return EntityCard(
+                    title: concept.name.resolve(language),
+                    summary: concept.oneLine.resolve(language),
+                    maxSummaryLines: ResponsiveLayout.summaryLines(context),
+                    tags: <String>[
+                      for (final branch in concept.branches.take(2))
+                        taxonomy.nameOf(branch).resolve(language),
+                    ],
+                    onTap: () => context.push(concept.ref.route),
+                  );
+                },
+              ),
+            ],
+
+            const SliverToBoxAdapter(child: SizedBox(height: Spacing.xxxl)),
+          ],
+        ),
       ),
     );
   }
 }
 
-/// A lazily built run of cards, held to the reading measure.
+/// A lazily built run of cards, laid out for the width it is given.
 ///
-/// The entrance stagger is keyed on the index within the run, which is what
-/// makes it survive lazy building: a card scrolled into view arrives with the
-/// same motion whether it was built on the first frame or the fortieth.
+/// One column on a phone; two or three once there is room. A reference work
+/// browsed on a tablet in a single narrow strip wastes most of the screen and
+/// makes the reader scroll several times as far for the same list.
+///
+/// The grid is used only above the phone breakpoint. Below it the list keeps
+/// its natural per-card height, because a phone shows one card at a time and
+/// there is no ragged row to tidy.
 class _CardSliver extends StatelessWidget {
   const _CardSliver({required this.count, required this.builder});
 
   final int count;
   final Widget Function(BuildContext, int) builder;
 
+  /// How tall a card is in the grid.
+  ///
+  /// Fixed, because a grid row is only as tidy as its shortest card; the
+  /// summary is clamped to match. In a list nothing is clamped.
+  static const double _gridCardHeight = 220;
+
   @override
-  Widget build(BuildContext context) => SliverPadding(
-    padding: const EdgeInsets.symmetric(horizontal: Spacing.lg),
-    sliver: SliverList.builder(
-      itemCount: count,
-      itemBuilder: (context, index) => ReadingColumn(
-        child: Padding(
-          padding: const EdgeInsets.only(bottom: Spacing.md),
-          child: EntranceAnimation(
-            index: index,
-            child: builder(context, index),
+  Widget build(BuildContext context) {
+    final columns = ResponsiveLayout.columnsFor(context);
+
+    if (columns == 1) {
+      return SliverPadding(
+        padding: const EdgeInsets.symmetric(horizontal: Spacing.lg),
+        sliver: SliverList.builder(
+          itemCount: count,
+          itemBuilder: (context, index) => ReadingColumn(
+            child: Padding(
+              padding: const EdgeInsets.only(bottom: Spacing.md),
+              child: EntranceAnimation(
+                index: index,
+                child: builder(context, index),
+              ),
+            ),
           ),
         ),
+      );
+    }
+
+    return SliverPadding(
+      padding: const EdgeInsets.symmetric(horizontal: Spacing.lg),
+      sliver: SliverGrid.builder(
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: columns,
+          mainAxisSpacing: Spacing.md,
+          crossAxisSpacing: Spacing.md,
+          mainAxisExtent: _gridCardHeight,
+        ),
+        itemCount: count,
+        itemBuilder: (context, index) =>
+            EntranceAnimation(index: index, child: builder(context, index)),
       ),
-    ),
-  );
+    );
+  }
 }
 
 /// A section heading between two runs of cards.
@@ -248,9 +286,7 @@ class _HeaderSliver extends StatelessWidget {
   @override
   Widget build(BuildContext context) => SliverPadding(
     padding: const EdgeInsets.fromLTRB(Spacing.lg, Spacing.xl, Spacing.lg, 0),
-    sliver: SliverToBoxAdapter(
-      child: ReadingColumn(child: SectionHeader(title: title)),
-    ),
+    sliver: SliverToBoxAdapter(child: SectionHeader(title: title)),
   );
 }
 
@@ -287,6 +323,7 @@ class _PhilosopherRow extends StatelessWidget {
     return EntityCard(
       title: philosopher.name.resolve(language),
       summary: philosopher.oneLine.resolve(language),
+      maxSummaryLines: ResponsiveLayout.summaryLines(context),
       meta: AppDates.lifeSpan(philosopher.life, language, l10n),
       tags: <String>[
         for (final tradition in philosopher.traditions.take(2))

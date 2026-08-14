@@ -98,6 +98,7 @@ class EntityCard extends StatelessWidget {
     this.meta,
     this.tags = const <String>[],
     this.footnote,
+    this.maxSummaryLines,
     super.key,
   });
 
@@ -118,6 +119,12 @@ class EntityCard extends StatelessWidget {
 
   /// A quiet line at the foot of the card, used to explain search matches.
   final String? footnote;
+
+  /// Caps the summary, for layouts that need every card the same height.
+  ///
+  /// Null in a list, where a card may be as tall as its text; set in a grid,
+  /// where a ragged row of different-height cards reads as a mistake.
+  final int? maxSummaryLines;
 
   @override
   Widget build(BuildContext context) {
@@ -172,12 +179,22 @@ class EntityCard extends StatelessWidget {
             const SizedBox(height: Spacing.sm),
             Text(
               summary,
+              maxLines: maxSummaryLines,
+              overflow: maxSummaryLines == null ? null : TextOverflow.ellipsis,
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: scheme.onSurfaceVariant,
               ),
             ),
+            // In a grid every card is the same height, so without this the
+            // tags float in the middle and leave a hole underneath. Pushing
+            // them to the foot makes the fixed height read as a decision. In a
+            // list the card is only as tall as its content and there is
+            // nothing to distribute.
+            if (maxSummaryLines != null) const Spacer(),
             if (tags.isNotEmpty) ...<Widget>[
-              const SizedBox(height: Spacing.md),
+              SizedBox(
+                height: maxSummaryLines == null ? Spacing.md : Spacing.sm,
+              ),
               Wrap(
                 spacing: Spacing.xs,
                 runSpacing: Spacing.xs,
