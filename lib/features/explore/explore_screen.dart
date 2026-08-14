@@ -97,100 +97,161 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
       ..sort();
 
     return SafeArea(
-      child: ListView(
-        padding: const EdgeInsets.fromLTRB(
-          Spacing.lg,
-          Spacing.xl,
-          Spacing.lg,
-          Spacing.xxxl,
-        ),
-        children: <Widget>[
-          ReadingColumn(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                SectionHeader(title: l10n.homeBrowseByTradition),
-                Wrap(
-                  spacing: Spacing.sm,
-                  runSpacing: Spacing.sm,
+      // Slivers rather than a ListView holding one tall Column.
+      //
+      // A `ListView(children: …)` wrapping a single Column builds every card in
+      // the corpus on every frame, however far off screen it is. That is
+      // invisible at fourteen works and fatal at ten thousand, and it is
+      // exactly the kind of ceiling that never announces itself — the screen
+      // just gets slower until someone profiles it. `SliverList.builder` builds
+      // what is visible.
+      //
+      // [ReadingColumn] moves inside each item rather than wrapping the list,
+      // because it only constrains width and so composes per row.
+      child: CustomScrollView(
+        slivers: <Widget>[
+          SliverPadding(
+            padding: const EdgeInsets.fromLTRB(
+              Spacing.lg,
+              Spacing.xl,
+              Spacing.lg,
+              0,
+            ),
+            sliver: SliverToBoxAdapter(
+              child: ReadingColumn(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    FilterChip(
-                      label: Text(l10n.filterAll),
-                      selected: selected == null,
-                      onSelected: (_) => setState(() => _traditionId = null),
-                    ),
-                    for (final tradition in traditions)
-                      FilterChip(
-                        label: Text(tradition.name.resolve(language)),
-                        selected: selected == tradition.id,
-                        onSelected: (isSelected) => setState(
-                          () => _traditionId = isSelected ? tradition.id : null,
+                    SectionHeader(title: l10n.homeBrowseByTradition),
+                    Wrap(
+                      spacing: Spacing.sm,
+                      runSpacing: Spacing.sm,
+                      children: <Widget>[
+                        FilterChip(
+                          label: Text(l10n.filterAll),
+                          selected: selected == null,
+                          onSelected: (_) =>
+                              setState(() => _traditionId = null),
                         ),
-                      ),
+                        for (final tradition in traditions)
+                          FilterChip(
+                            label: Text(tradition.name.resolve(language)),
+                            selected: selected == tradition.id,
+                            onSelected: (isSelected) => setState(
+                              () => _traditionId = isSelected
+                                  ? tradition.id
+                                  : null,
+                            ),
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: Spacing.xxl),
                   ],
                 ),
-                const SizedBox(height: Spacing.xxl),
-                for (final (index, philosopher) in philosophers.indexed) ...[
-                  EntranceAnimation(
-                    index: index,
-                    child: _PhilosopherRow(
-                      philosopher: philosopher,
-                      taxonomy: taxonomy,
-                      language: language,
-                    ),
-                  ),
-                  const SizedBox(height: Spacing.md),
-                ],
-                // Works are filtered by the same tradition the philosophers
-                // are, so choosing a tradition narrows the whole screen rather
-                // than only its first section. A work with no tradition of its
-                // own inherits its author's, because a reader filtering to
-                // "Islamic" expects the Ishārāt whether or not an editor
-                // remembered to tag it.
-                if (works.isNotEmpty) ...<Widget>[
-                  const SizedBox(height: Spacing.xl),
-                  SectionHeader(title: l10n.exploreWorksSection),
-                  for (final (index, work) in works.indexed) ...<Widget>[
-                    EntranceAnimation(
-                      index: index,
-                      child: EntityCard(
-                        title: work.name.resolve(language),
-                        summary: work.oneLine.resolve(language),
-                        meta: _workMeta(corpus, work, language, l10n),
-                        tags: <String>[
-                          for (final branch in work.branches.take(2))
-                            taxonomy.nameOf(branch).resolve(language),
-                        ],
-                        onTap: () => context.push(work.ref.route),
-                      ),
-                    ),
-                    const SizedBox(height: Spacing.md),
-                  ],
-                ],
-
-                if (selected == null) ...<Widget>[
-                  const SizedBox(height: Spacing.xl),
-                  SectionHeader(title: l10n.sectionConcepts),
-                  for (final concept in corpus.concepts) ...<Widget>[
-                    EntityCard(
-                      title: concept.name.resolve(language),
-                      summary: concept.oneLine.resolve(language),
-                      tags: <String>[
-                        for (final branch in concept.branches.take(2))
-                          taxonomy.nameOf(branch).resolve(language),
-                      ],
-                      onTap: () => context.push(concept.ref.route),
-                    ),
-                    const SizedBox(height: Spacing.md),
-                  ],
-                ],
-              ],
+              ),
             ),
           ),
+
+          _CardSliver(
+            count: philosophers.length,
+            builder: (context, index) => _PhilosopherRow(
+              philosopher: philosophers[index],
+              taxonomy: taxonomy,
+              language: language,
+            ),
+          ),
+
+          // Works are filtered by the same tradition the philosophers are, so
+          // choosing a tradition narrows the whole screen rather than only its
+          // first section.
+          if (works.isNotEmpty) ...<Widget>[
+            _HeaderSliver(title: l10n.exploreWorksSection),
+            _CardSliver(
+              count: works.length,
+              builder: (context, index) {
+                final work = works[index];
+                return EntityCard(
+                  title: work.name.resolve(language),
+                  summary: work.oneLine.resolve(language),
+                  meta: _workMeta(corpus, work, language, l10n),
+                  tags: <String>[
+                    for (final branch in work.branches.take(2))
+                      taxonomy.nameOf(branch).resolve(language),
+                  ],
+                  onTap: () => context.push(work.ref.route),
+                );
+              },
+            ),
+          ],
+
+          if (selected == null) ...<Widget>[
+            _HeaderSliver(title: l10n.sectionConcepts),
+            _CardSliver(
+              count: corpus.concepts.length,
+              builder: (context, index) {
+                final concept = corpus.concepts[index];
+                return EntityCard(
+                  title: concept.name.resolve(language),
+                  summary: concept.oneLine.resolve(language),
+                  tags: <String>[
+                    for (final branch in concept.branches.take(2))
+                      taxonomy.nameOf(branch).resolve(language),
+                  ],
+                  onTap: () => context.push(concept.ref.route),
+                );
+              },
+            ),
+          ],
+
+          const SliverToBoxAdapter(child: SizedBox(height: Spacing.xxxl)),
         ],
       ),
     );
   }
+}
+
+/// A lazily built run of cards, held to the reading measure.
+///
+/// The entrance stagger is keyed on the index within the run, which is what
+/// makes it survive lazy building: a card scrolled into view arrives with the
+/// same motion whether it was built on the first frame or the fortieth.
+class _CardSliver extends StatelessWidget {
+  const _CardSliver({required this.count, required this.builder});
+
+  final int count;
+  final Widget Function(BuildContext, int) builder;
+
+  @override
+  Widget build(BuildContext context) => SliverPadding(
+    padding: const EdgeInsets.symmetric(horizontal: Spacing.lg),
+    sliver: SliverList.builder(
+      itemCount: count,
+      itemBuilder: (context, index) => ReadingColumn(
+        child: Padding(
+          padding: const EdgeInsets.only(bottom: Spacing.md),
+          child: EntranceAnimation(
+            index: index,
+            child: builder(context, index),
+          ),
+        ),
+      ),
+    ),
+  );
+}
+
+/// A section heading between two runs of cards.
+class _HeaderSliver extends StatelessWidget {
+  const _HeaderSliver({required this.title});
+
+  final String title;
+
+  @override
+  Widget build(BuildContext context) => SliverPadding(
+    padding: const EdgeInsets.fromLTRB(Spacing.lg, Spacing.xl, Spacing.lg, 0),
+    sliver: SliverToBoxAdapter(
+      child: ReadingColumn(child: SectionHeader(title: title)),
+    ),
+  );
 }
 
 /// The line above a work's title: who wrote it and when.

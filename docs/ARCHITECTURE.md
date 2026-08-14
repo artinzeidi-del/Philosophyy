@@ -548,6 +548,37 @@ reader marked is genuinely not on the screen any more.
 
 ---
 
+### ADR 23 — Browsing builds a screenful, not a corpus
+
+**Context.** The explore screen was a `ListView` whose children were a single
+tall `Column`. That builds every card in the corpus on every frame, however far
+off screen it is — a `ListView` with an explicit `children:` list has no
+laziness to offer once its one child is a `Column`. At fourteen works it is
+invisible. At the thousands this product is aimed at it is fatal, and by then
+the fix is a rewrite rather than an edit.
+
+This is the shape of defect the scope audit was written to catch: nothing fails,
+nothing warns, the screen just gets slower until someone profiles it.
+
+**Decision.** `CustomScrollView` with `SliverList.builder` per run of cards.
+`ReadingColumn` moved inside each item rather than wrapping the list, which it
+composes with because it only constrains width. The entrance stagger is keyed on
+the index within the run, so a card scrolled into view arrives with the same
+motion whether it was built on the first frame or the fortieth.
+
+**Verification.** `test/app/scale_test.dart` inflates the corpus to 400
+philosophers, 400 works and 400 concepts and asserts the screen builds fewer
+than a quarter of that. Eager building would produce 1,200 cards; it builds
+under twenty. The test would have failed decisively against the previous
+implementation, which is the only reason it is worth having.
+
+**Not done here.** The library screen has the same structure. It grows with the
+reader's own marks rather than with the corpus, so it is bounded by behaviour
+rather than by ambition — but it is the next one to convert, and a reader with a
+few thousand highlights would notice.
+
+---
+
 ## Testing strategy
 
 | Level | What it covers |
