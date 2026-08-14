@@ -403,6 +403,39 @@ in `AppTypography.cjkFamilies` rather than left to be discovered.
 
 ---
 
+### ADR 19 — An authored string carries any language, not exactly two
+
+**Context.** `LocalizedText` was `{required String en, String? fa}`. The two
+shipped languages were named in the type, and the resolver, the search-variant
+getter and the JSON mapper all read exactly those two fields. An entry could not
+carry a third language at all — not even as data waiting for an interface to
+catch up — without editing five files.
+
+**Decision.** A `translations` map keyed by BCP-47 subtag holds any further
+language, and every consumer goes through `forCode`. The mapper takes whatever
+subtags a content file offers, so authoring an Arabic or French translation is a
+content change. Displaying one additionally needs an `AppLanguage` value, an ARB
+file and a font — real work, but work about the interface rather than about the
+value object. Search indexes every authored language, including ones the app
+cannot yet display: a reader who types a name in Arabic is looking for exactly
+that entry.
+
+**Why English and Persian keep named fields.** English is the authoring pivot —
+written first, guaranteed present, the fallback when nothing else is — and a
+required field is the compiler enforcing an editorial rule that would otherwise
+need a runtime check. Persian is the other language the product actually ships,
+and "has this been translated yet" is asked of it constantly, by `isTranslated`
+and by the coverage checks. Neither is a claim that these languages outrank
+others; the map is where the vocabulary lives.
+
+**Cost.** A field inside a localized object that is not a language would
+silently become a translation into a nonexistent language, so the mapper
+validates every key against the subtag grammar and fails on anything else. This
+change touched no call site: the ergonomic constructor is unchanged and content
+constants are still `const`.
+
+---
+
 ## Testing strategy
 
 | Level | What it covers |

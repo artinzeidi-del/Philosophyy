@@ -22,9 +22,38 @@ import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 /// a test will catch it — is far better than rendering a half-empty article to
 /// a reader.
 abstract final class ContentMappers {
-  /// Reads `{"en": "...", "fa": "..."}`.
-  static LocalizedText localizedText(JsonReader reader) =>
-      LocalizedText(en: reader.requiredString('en'), fa: reader.string('fa'));
+  /// Reads `{"en": "...", "fa": "...", …}`.
+  ///
+  /// Any further subtag in the object is carried through as a translation
+  /// rather than ignored, so content can be authored in a language ahead of the
+  /// interface being able to show it. English is required: it is the authoring
+  /// pivot and the fallback when nothing else is available.
+  static LocalizedText localizedText(JsonReader reader) {
+    final extra = reader.stringMap(except: const <String>{'en', 'fa'});
+    for (final code in extra.keys) {
+      // Without this, a mistyped or misplaced field inside a localized object
+      // would be silently stored as a translation into a language that does not
+      // exist — a loss nobody would ever see.
+      if (!_languageSubtag.hasMatch(code)) {
+        reader.invalid(
+          '"$code" is not a language subtag; a localized string may only hold '
+          'languages',
+          field: code,
+        );
+      }
+    }
+    return LocalizedText(
+      en: reader.requiredString('en'),
+      fa: reader.string('fa'),
+      translations: extra,
+    );
+  }
+
+  /// A BCP-47 language subtag, optionally with a script and a region —
+  /// `ar`, `zh-Hant`, `pt-BR`.
+  static final RegExp _languageSubtag = RegExp(
+    r'^[a-z]{2,3}(-[A-Z][a-z]{3})?(-([A-Z]{2}|\d{3}))?$',
+  );
 
   /// Reads a required localized-text object at [field].
   static LocalizedText requiredLocalized(JsonReader reader, String field) =>

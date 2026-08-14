@@ -138,6 +138,33 @@ class JsonReader {
     });
   }
 
+  /// Every string-valued entry in this object, excluding [except].
+  ///
+  /// Used to read a localized string without the reader having to know which
+  /// languages a content file offers: whatever subtags are there are taken.
+  /// Non-string values are a mistake in authored content and fail rather than
+  /// being skipped, because silently dropping a translation is exactly the kind
+  /// of loss nobody notices.
+  Map<String, String> stringMap({Set<String> except = const <String>{}}) {
+    final entries = <String, String>{};
+    for (final entry in _json.entries) {
+      if (except.contains(entry.key)) continue;
+      final value = entry.value;
+      if (value == null) continue;
+      if (value is! String) {
+        _fail(
+          'expected a string, found ${value.runtimeType}',
+          field: entry.key,
+        );
+      }
+      if (value.trim().isEmpty) {
+        _fail('is present but blank; omit it instead', field: entry.key);
+      }
+      entries[entry.key] = value;
+    }
+    return entries;
+  }
+
   /// A list of nested objects, defaulting to empty when the field is absent.
   List<JsonReader> objectList(String field) {
     final value = _json[field];
