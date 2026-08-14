@@ -17,6 +17,7 @@ import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/school.dart';
+import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
@@ -164,6 +165,32 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
     _positionTimer = Timer(_positionSettleDelay, _recordPosition);
   }
 
+  /// Marks a passage the reader has selected.
+  ///
+  /// Offsets come from the rendered text, which is the text in whichever
+  /// language actually resolved — so a highlight made while reading the English
+  /// fallback of an untranslated section anchors against that English, and
+  /// [Highlight.reanchoredIn] simply fails to place it if the reader later
+  /// switches. Failing to place is the correct outcome: the passage they marked
+  /// is genuinely not on the screen any more.
+  void _addHighlight(String sectionId, int start, int end, String excerpt) {
+    unawaited(
+      ref
+          .read(libraryProvider.notifier)
+          .addHighlight(
+            target: widget.entity.ref,
+            sectionId: sectionId,
+            start: start,
+            end: end,
+            excerpt: excerpt,
+          ),
+    );
+  }
+
+  void _removeHighlight(String highlightId) {
+    unawaited(ref.read(libraryProvider.notifier).removeHighlight(highlightId));
+  }
+
   void _recordPosition() {
     if (!mounted || !_scrollController.hasClients) return;
     unawaited(
@@ -262,6 +289,11 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                         depth: depth,
                         language: language,
                         resolveSource: corpus.source,
+                        highlights: ref
+                            .watch(libraryProvider)
+                            .highlightsFor(entity.ref),
+                        onHighlight: _addHighlight,
+                        onRemoveHighlight: _removeHighlight,
                       ),
                     ),
                     ..._kindSpecificSections(context),

@@ -513,6 +513,41 @@ one uniform value would be the uniform tone of authority all over again.
 
 ---
 
+### ADR 22 — Highlighting is reachable, and marks are re-anchored not trusted
+
+**Context.** `Highlight`, its storage, its codec, `reanchoredIn` and their tests
+all existed and were reached by nothing in `lib/features/`. A reader could not
+mark a passage. The most careful part of the feature — deciding what to do when
+content moves under a saved mark — had never once run in the app.
+
+**Decision.** Article prose is `SelectableText.rich`, split into spans so marked
+runs paint differently, with the marking action offered two ways.
+
+**Why two ways.** The platform selection toolbar (`contextMenuBuilder`) is the
+idiomatic route and works on touch. It does not appear at all on Flutter web
+desktop, which is where this was first tested — so relying on it alone would
+have shipped a feature that is reachable on a phone and invisible in a browser.
+An app-drawn button appears beneath the section whenever a selection is live,
+which works everywhere and is reachable by keyboard and screen reader besides.
+
+**Why marks are re-anchored on every paint.** A highlight stores offsets *and*
+the text it covered. Content is edited between releases, so offsets go stale,
+and painting a stale range would put the reader's mark on a sentence they never
+marked — worse than losing it. `reanchoredIn` finds the excerpt again when it
+has merely moved, and gives up when the passage is gone or has become ambiguous.
+Giving up is correct: guessing would be a quiet lie about what they marked.
+
+A mark that can no longer be placed is still the reader's. It stays in the
+library, shown as the text they marked, because the excerpt travels with it.
+
+**Cost.** Overlapping marks cannot both be painted; the earlier one wins, which
+is arbitrary but stable. Highlights anchor against the language that actually
+rendered, so one made while reading an English fallback will not place itself
+when the Persian translation later arrives — correctly, since the passage the
+reader marked is genuinely not on the screen any more.
+
+---
+
 ## Testing strategy
 
 | Level | What it covers |
@@ -530,9 +565,6 @@ work; what matters is whether a reader typing a real name finds the right entry.
 
 Stated so they are not mistaken for oversights:
 
-- **No persistence beyond preferences.** Bookmarks, notes, highlights and
-  reading progress have no storage layer yet. This is the largest missing piece
-  and the next one to build.
 - **No content versioning.** The corpus is versioned only by git.
 - **`SearchIndex` rebuilds wholesale** if the corpus is ever invalidated. Fine
   now; wrong once content can be updated at runtime.

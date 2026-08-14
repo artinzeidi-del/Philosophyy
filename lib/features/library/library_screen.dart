@@ -176,11 +176,102 @@ class _LibraryBody extends StatelessWidget {
                         ),
                       ),
                     ),
+                  const SizedBox(height: Spacing.xl),
+                ],
+
+                if (library.highlights.isNotEmpty) ...<Widget>[
+                  EntranceAnimation(
+                    index: step++,
+                    child: SectionHeader(title: l10n.libraryHighlightsSection),
+                  ),
+                  // Copied before sorting, for the same reason as the notes
+                  // above: this is the list held in application state.
+                  for (final highlight in <Highlight>[
+                    ...library.highlights,
+                  ]..sort())
+                    EntranceAnimation(
+                      index: step++,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: Spacing.md),
+                        child: _HighlightCard(
+                          corpus: corpus,
+                          highlight: highlight,
+                          language: language,
+                        ),
+                      ),
+                    ),
                 ],
               ],
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+/// A card for a marked passage.
+///
+/// The passage is shown as the reader marked it rather than being looked up in
+/// the article, so a highlight remains readable even after the entry it came
+/// from has been rewritten underneath it. That is the whole reason [Highlight]
+/// stores the excerpt alongside the offsets.
+class _HighlightCard extends StatelessWidget {
+  const _HighlightCard({
+    required this.corpus,
+    required this.highlight,
+    required this.language,
+  });
+
+  final KnowledgeBase corpus;
+  final Highlight highlight;
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final entity = corpus.resolve(highlight.target);
+    final title = entity?.name.resolve(language) ?? highlight.target.id;
+
+    return PressableSurface(
+      onTap: () => context.push(highlight.target.route),
+      borderRadius: Radii.surfaceRadius,
+      decoration: BoxDecoration(
+        color: theme.colorScheme.surfaceContainer,
+        borderRadius: Radii.surfaceRadius,
+        border: Border.all(color: theme.colorScheme.outlineVariant),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(Spacing.lg),
+        // A rule down the marked edge, echoing the highlight in the article so
+        // the two read as the same object in two places.
+        //
+        // Drawn as a border on the text rather than as a stretched sibling in a
+        // Row: inside a ListView the cross axis is unbounded, and asking a Row
+        // to stretch there hands its children an infinite height and crashes
+        // the frame.
+        child: Container(
+          padding: const EdgeInsetsDirectional.only(start: Spacing.md),
+          decoration: BoxDecoration(
+            border: BorderDirectional(
+              start: BorderSide(color: theme.colorScheme.primary, width: 3),
+            ),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                title,
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: theme.colorScheme.secondary,
+                  letterSpacing: 0.6,
+                ),
+              ),
+              const SizedBox(height: Spacing.sm),
+              Text(highlight.excerpt, style: theme.textTheme.bodyLarge),
+            ],
+          ),
+        ),
       ),
     );
   }

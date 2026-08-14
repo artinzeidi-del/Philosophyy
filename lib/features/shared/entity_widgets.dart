@@ -8,6 +8,7 @@ import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/source.dart';
+import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
@@ -397,6 +398,9 @@ class ArticleView extends StatelessWidget {
     required this.depth,
     required this.language,
     required this.resolveSource,
+    this.highlights = const <Highlight>[],
+    this.onHighlight,
+    this.onRemoveHighlight,
     super.key,
   });
 
@@ -412,6 +416,17 @@ class ArticleView extends StatelessWidget {
   /// Resolves a source identifier to a record, for rendering citations.
   final Source? Function(String) resolveSource;
 
+  /// The reader's marked passages in this article, across all sections.
+  final List<Highlight> highlights;
+
+  /// Called when the reader marks a passage. Passing `null` makes the article
+  /// read-only, which is what every caller outside the article screen wants.
+  final void Function(String sectionId, int start, int end, String excerpt)?
+  onHighlight;
+
+  /// Called when the reader unmarks a passage.
+  final void Function(String highlightId)? onRemoveHighlight;
+
   @override
   Widget build(BuildContext context) {
     final visible = article.at(depth);
@@ -425,6 +440,11 @@ class ArticleView extends StatelessWidget {
             section: section,
             language: language,
             resolveSource: resolveSource,
+            highlights: highlights
+                .where((it) => it.sectionId == section.id)
+                .toList(),
+            onHighlight: onHighlight,
+            onRemoveHighlight: onRemoveHighlight,
           ),
           const SizedBox(height: Spacing.xl),
         ],
@@ -438,11 +458,18 @@ class _SectionView extends StatelessWidget {
     required this.section,
     required this.language,
     required this.resolveSource,
+    this.highlights = const <Highlight>[],
+    this.onHighlight,
+    this.onRemoveHighlight,
   });
 
   final ContentSection section;
   final AppLanguage language;
   final Source? Function(String) resolveSource;
+  final List<Highlight> highlights;
+  final void Function(String sectionId, int start, int end, String excerpt)?
+  onHighlight;
+  final void Function(String highlightId)? onRemoveHighlight;
 
   @override
   Widget build(BuildContext context) {
@@ -485,11 +512,16 @@ class _SectionView extends StatelessWidget {
               section.body.resolvedLanguage(language) == AppLanguage.fa
               ? TextDirection.rtl
               : TextDirection.ltr,
-          child: Text(
-            section.body.resolve(language),
+          child: _SectionBody(
+            sectionId: section.id,
+            text: section.body.resolve(language),
             style: AppTypography.reading(
               section.body.resolvedLanguage(language),
             ).copyWith(color: theme.colorScheme.onSurface),
+            highlights: highlights,
+            language: language,
+            onHighlight: onHighlight,
+            onRemoveHighlight: onRemoveHighlight,
           ),
         ),
         if (section.citations.isNotEmpty) ...<Widget>[
@@ -500,6 +532,216 @@ class _SectionView extends StatelessWidget {
             resolveSource: resolveSource,
           ),
         ],
+      ],
+    );
+  }
+}
+
+/// One section's prose, selectable and markable.
+///
+/// ## Why the highlights are re-anchored before painting
+///
+/// A highlight stores character offsets *and* the text it covered. Content is
+/// edited between releases, so the offsets go stale — and painting a stale range
+/// would put the reader's mark on a sentence they never marked, which is worse
+/// than losing it. [Highlight.reanchoredIn] finds the excerpt again when it has
+/// simply moved, and gives up when the passage is gone or has become ambiguous.
+/// That logic already existed and had never been called from the interface.
+class _SectionBody extends StatefulWidget {
+  const _SectionBody({
+    required this.sectionId,
+    required this.text,
+    required this.style,
+    required this.highlights,
+    required this.language,
+    this.onHighlight,
+    this.onRemoveHighlight,
+  });
+
+  final String sectionId;
+  final String text;
+  final TextStyle style;
+  final List<Highlight> highlights;
+  final AppLanguage language;
+  final void Function(String sectionId, int start, int end, String excerpt)?
+  onHighlight;
+  final void Function(String highlightId)? onRemoveHighlight;
+
+  @override
+  State<_SectionBody> createState() => _SectionBodyState();
+}
+
+class _SectionBodyState extends State<_SectionBody> {
+  /// The reader's current selection in this section, if any.
+  ///
+  /// Held because the marking control is drawn by the app rather than by the
+  /// platform selection toolbar. Flutter's toolbar does not appear on web
+  /// desktop at all, so relying on it would have left the feature reachable on
+  /// phones and invisible in a browser — which is where this was first tested.
+  TextSelection? _selection;
+
+  String get text => widget.text;
+
+  /// The highlights that can still be placed in this text, in reading order and
+  /// with overlaps dropped.
+  ///
+  /// Overlapping marks cannot both be painted, and picking the earlier one is
+  /// arbitrary but stable — which matters more here than which one wins, since
+  /// the reader sees a mark either way.
+  List<Highlight> get _placeable {
+    final anchored = <Highlight>[];
+    for (final highlight in widget.highlights) {
+      final moved = highlight.reanchoredIn(text);
+      if (moved != null) anchored.add(moved);
+    }
+    anchored.sort();
+    final result = <Highlight>[];
+    var cursor = 0;
+    for (final highlight in anchored) {
+      if (highlight.start < cursor) continue;
+      result.add(highlight);
+      cursor = highlight.end;
+    }
+    return result;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final placed = _placeable;
+
+    final spans = <InlineSpan>[];
+    var cursor = 0;
+    for (final highlight in placed) {
+      if (highlight.start > cursor) {
+        spans.add(TextSpan(text: text.substring(cursor, highlight.start)));
+      }
+      spans.add(
+        TextSpan(
+          text: text.substring(highlight.start, highlight.end),
+          style: TextStyle(
+            backgroundColor: theme.colorScheme.primaryContainer,
+            color: theme.colorScheme.onPrimaryContainer,
+          ),
+        ),
+      );
+      cursor = highlight.end;
+    }
+    if (cursor < text.length) {
+      spans.add(TextSpan(text: text.substring(cursor)));
+    }
+
+    final canMark = widget.onHighlight != null;
+    final selection = _selection;
+    final selected =
+        selection != null && selection.isValid && !selection.isCollapsed
+        ? selection
+        : null;
+    final overlapping = selected == null
+        ? const <Highlight>[]
+        : placed
+              .where((it) => it.start < selected.end && selected.start < it.end)
+              .toList();
+
+    final body = SelectableText.rich(
+      TextSpan(style: widget.style, children: spans),
+      onSelectionChanged: !canMark
+          ? null
+          : (value, cause) => setState(() => _selection = value),
+      // Selecting text is how a reader marks a passage, so the selection
+      // handles have to be reachable — but the article is inside a scroll view,
+      // and a long-press that starts a drag would fight the scroll. Flutter's
+      // default gestures already resolve that; what it does not do by itself is
+      // offer anything to *do* with the selection.
+      contextMenuBuilder: !canMark
+          ? null
+          : (context, editableState) {
+              final selection = editableState.textEditingValue.selection;
+              final items = <ContextMenuButtonItem>[
+                ...editableState.contextMenuButtonItems,
+              ];
+
+              if (selection.isValid && !selection.isCollapsed) {
+                final start = selection.start;
+                final end = selection.end;
+                final existing = placed
+                    .where((it) => it.start < end && start < it.end)
+                    .toList();
+
+                if (existing.isEmpty) {
+                  items.add(
+                    ContextMenuButtonItem(
+                      label: l10n.highlightAdd,
+                      onPressed: () {
+                        ContextMenuController.removeAny();
+                        editableState.hideToolbar();
+                        widget.onHighlight!(
+                          widget.sectionId,
+                          start,
+                          end,
+                          text.substring(start, end),
+                        );
+                      },
+                    ),
+                  );
+                } else if (widget.onRemoveHighlight != null) {
+                  items.add(
+                    ContextMenuButtonItem(
+                      label: l10n.highlightRemove,
+                      onPressed: () {
+                        ContextMenuController.removeAny();
+                        editableState.hideToolbar();
+                        for (final highlight in existing) {
+                          widget.onRemoveHighlight!(highlight.id);
+                        }
+                      },
+                    ),
+                  );
+                }
+              }
+
+              return AdaptiveTextSelectionToolbar.buttonItems(
+                anchors: editableState.contextMenuAnchors,
+                buttonItems: items,
+              );
+            },
+    );
+
+    if (!canMark || selected == null) return body;
+
+    final canRemove =
+        overlapping.isNotEmpty && widget.onRemoveHighlight != null;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        body,
+        const SizedBox(height: Spacing.sm),
+        Align(
+          alignment: AlignmentDirectional.centerStart,
+          child: TextButton.icon(
+            onPressed: () {
+              if (canRemove) {
+                for (final highlight in overlapping) {
+                  widget.onRemoveHighlight!(highlight.id);
+                }
+              } else if (overlapping.isEmpty) {
+                widget.onHighlight!(
+                  widget.sectionId,
+                  selected.start,
+                  selected.end,
+                  text.substring(selected.start, selected.end),
+                );
+              }
+              setState(() => _selection = null);
+            },
+            icon: Icon(
+              canRemove ? Icons.format_clear : Icons.border_color_outlined,
+              size: 18,
+            ),
+            label: Text(canRemove ? l10n.highlightRemove : l10n.highlightAdd),
+          ),
+        ),
       ],
     );
   }

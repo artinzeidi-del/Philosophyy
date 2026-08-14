@@ -9,7 +9,9 @@ import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/data/user/stored_user_data_repository.dart';
 import 'package:philosophyy/data/user/user_library_codec.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
+import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -76,6 +78,190 @@ void main() {
     await tester.tap(find.text(label));
     await tester.pumpAndSettle();
   }
+
+  group('Marking a passage', () {
+    /// The first section of the first article, as the reader sees it.
+    ///
+    /// Highlights anchor against rendered text, so a test that made up its own
+    /// string would prove nothing about the screen.
+    ({String sectionId, String text}) firstSection() {
+      // The home screen's first card, which openFirstArticle taps.
+      final entity = corpus.philosophers.first;
+      final section = entity.article.at(ContentDepth.quick).first;
+      return (
+        sectionId: section.id,
+        text: section.body.resolve(AppLanguage.en),
+      );
+    }
+
+    testWidgets('a marked passage is stored, shown, and reaches the library', (
+      tester,
+    ) async {
+      final store = await pumpApp(tester);
+      await openFirstArticle(tester);
+
+      final section = firstSection();
+      final excerpt = section.text.substring(0, 20);
+
+      // Driven through the provider rather than through the selection toolbar:
+      // the toolbar is platform-drawn and cannot be tapped in a widget test,
+      // but everything after it — storage, re-anchoring, rendering, the library
+      // — is the product's own code and is what can actually break.
+      final context = tester.element(find.byType(ArticleView).first);
+      await ProviderScope.containerOf(context)
+          .read(libraryProvider.notifier)
+          .addHighlight(
+            target: corpus.philosophers.first.ref,
+            sectionId: section.sectionId,
+            start: 0,
+            end: 20,
+            excerpt: excerpt,
+          );
+      await tester.pumpAndSettle();
+
+      expect(stored(store).highlights, hasLength(1));
+
+      // The passage is painted in the article, as its own span.
+      final body = tester.widget<SelectableText>(
+        find.byType(SelectableText).first,
+      );
+      final spans = (body.textSpan!.children ?? const <InlineSpan>[])
+          .whereType<TextSpan>()
+          .toList();
+      expect(
+        spans.any((span) => span.text == excerpt && span.style != null),
+        isTrue,
+        reason: 'the marked run was not painted differently from the rest',
+      );
+
+      // And the reader can find it again from the library.
+      await tester.pageBack();
+      await tester.pumpAndSettle();
+      await openTab(tester, en.navLibrary);
+      expect(find.text(en.libraryHighlightsSection), findsOneWidget);
+      expect(find.textContaining(excerpt), findsWidgets);
+    });
+
+    testWidgets('a passage that moved is found again, not lost', (
+      tester,
+    ) async {
+      // The reason a highlight stores its excerpt as well as its offsets:
+      // content is edited between releases, and painting a stale range would
+      // put the reader's mark on a sentence they never marked.
+      final section = firstSection();
+      final excerpt = section.text.substring(10, 30);
+      final ref = corpus.philosophers.first.ref;
+
+      await pumpApp(
+        tester,
+        initial: UserLibrary.empty.withHighlight(
+          Highlight(
+            id: 'stale',
+            target: ref,
+            sectionId: section.sectionId,
+            // Deliberately wrong: where the passage used to be.
+            start: 0,
+            end: 20,
+            excerpt: excerpt,
+            createdAt: DateTime.utc(2024),
+          ),
+        ),
+      );
+      await openFirstArticle(tester);
+
+      final body = tester.widget<SelectableText>(
+        find.byType(SelectableText).first,
+      );
+      final spans = (body.textSpan!.children ?? const <InlineSpan>[])
+          .whereType<TextSpan>()
+          .toList();
+      final marked = spans.where((span) => span.style != null).toList();
+      expect(marked, hasLength(1));
+      expect(
+        marked.single.text,
+        excerpt,
+        reason:
+            'the mark was painted at the stale offsets instead of being '
+            're-anchored to the text it actually covered',
+      );
+    });
+
+    testWidgets('a passage that is gone is not painted anywhere', (
+      tester,
+    ) async {
+      // Losing the mark is the right outcome when the passage no longer exists.
+      // Guessing at a location would be worse than admitting it is gone.
+      final section = firstSection();
+      final ref = corpus.philosophers.first.ref;
+
+      await pumpApp(
+        tester,
+        initial: UserLibrary.empty.withHighlight(
+          Highlight(
+            id: 'vanished',
+            target: ref,
+            sectionId: section.sectionId,
+            start: 0,
+            end: 20,
+            excerpt: 'a sentence this article has never contained',
+            createdAt: DateTime.utc(2024),
+          ),
+        ),
+      );
+      await openFirstArticle(tester);
+
+      final body = tester.widget<SelectableText>(
+        find.byType(SelectableText).first,
+      );
+      final spans = (body.textSpan!.children ?? const <InlineSpan>[])
+          .whereType<TextSpan>()
+          .toList();
+      expect(spans.where((span) => span.style != null), isEmpty);
+
+      // But it is still the reader's, and still listed.
+      await tester.pageBack();
+      await tester.pumpAndSettle();
+      await openTab(tester, en.navLibrary);
+      expect(find.text(en.libraryHighlightsSection), findsOneWidget);
+    });
+
+    testWidgets('removing a mark takes it off the page and off disk', (
+      tester,
+    ) async {
+      final section = firstSection();
+      final ref = corpus.philosophers.first.ref;
+      final store = await pumpApp(
+        tester,
+        initial: UserLibrary.empty.withHighlight(
+          Highlight(
+            id: 'to-remove',
+            target: ref,
+            sectionId: section.sectionId,
+            start: 0,
+            end: 20,
+            excerpt: section.text.substring(0, 20),
+            createdAt: DateTime.utc(2024),
+          ),
+        ),
+      );
+      await openFirstArticle(tester);
+
+      final context = tester.element(find.byType(ArticleView).first);
+      await ProviderScope.containerOf(context)
+          .read(libraryProvider.notifier)
+          .removeHighlight('to-remove');
+      await tester.pumpAndSettle();
+
+      expect(stored(store).highlights, isEmpty);
+      final body = tester.widget<SelectableText>(
+        find.byType(SelectableText).first,
+      );
+      final spans = (body.textSpan!.children ?? const <InlineSpan>[])
+          .whereType<TextSpan>()
+          .toList();
+      expect(spans.where((span) => span.style != null), isEmpty);
+    });
+  });
 
   group('Saving an entry', () {
     testWidgets('the button saves it, and the library shows it', (

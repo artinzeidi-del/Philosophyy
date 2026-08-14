@@ -1,295 +1,353 @@
 {
   "@@locale": "en",
-
   "appName": "Philosophia",
   "@appName": {
     "description": "The product name. Not translated — it is a proper noun."
   },
-
   "appTagline": "The world's philosophy, in one place",
   "@appTagline": {
     "description": "Shown under the app name on the home screen header."
   },
-
   "navHome": "Home",
-  "@navHome": { "description": "Bottom navigation label for the home tab." },
-
+  "@navHome": {
+    "description": "Bottom navigation label for the home tab."
+  },
   "navExplore": "Explore",
   "@navExplore": {
     "description": "Bottom navigation label for the browse-by-tradition tab."
   },
-
   "navSearch": "Search",
-  "@navSearch": { "description": "Bottom navigation label for search." },
-
+  "@navSearch": {
+    "description": "Bottom navigation label for search."
+  },
   "navSettings": "Settings",
-  "@navSettings": { "description": "Bottom navigation label for settings." },
-
+  "@navSettings": {
+    "description": "Bottom navigation label for settings."
+  },
   "searchHint": "Philosophers, ideas, works…",
   "@searchHint": {
     "description": "Placeholder inside the search field."
   },
-
   "searchInvitationTitle": "What are you looking for?",
   "@searchInvitationTitle": {
     "description": "Heading shown in search before anything is typed."
   },
-
   "searchInvitationBody": "Search in Persian or English. Names work in any spelling — Avicenna, Ibn Sīnā and ابن‌سینا all find the same person.",
   "@searchInvitationBody": {
     "description": "Explains the search box's cross-language behaviour."
   },
-
   "searchNoResultsTitle": "Nothing found for “{query}”",
   "@searchNoResultsTitle": {
     "description": "Zero-results heading.",
-    "placeholders": { "query": { "type": "String" } }
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
   },
-
   "searchNoResultsBody": "Check the spelling, or try a broader word — a tradition, a branch of philosophy, or a question.",
   "@searchNoResultsBody": {
     "description": "Zero-results guidance."
   },
-
   "searchResultCount": "{count, plural, =0{No results} =1{1 result} other{{count} results}}",
   "@searchResultCount": {
     "description": "Result count above the search results list.",
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
-
   "searchMatchedInBody": "matched in the article",
   "@searchMatchedInBody": {
     "description": "Shown on a result whose title does not contain the query, so the reader understands why it is listed."
   },
-
   "homeDailyIdea": "Today's idea",
-  "@homeDailyIdea": { "description": "Section heading for the daily entry." },
-
+  "@homeDailyIdea": {
+    "description": "Section heading for the daily entry."
+  },
   "homeStartHere": "Start here",
   "@homeStartHere": {
     "description": "Section heading for entry points aimed at newcomers."
   },
-
   "filterAll": "All",
   "@filterAll": {
     "description": "The chip that clears a filter and shows everything."
   },
-
   "homeBrowseByTradition": "Traditions",
   "@homeBrowseByTradition": {
     "description": "Section heading for the tradition list."
   },
-
   "homeBrowseByBranch": "Branches of philosophy",
   "@homeBrowseByBranch": {
     "description": "Section heading for the branch list."
   },
-
   "homeSurpriseMe": "Surprise me",
   "@homeSurpriseMe": {
     "description": "Button that opens a randomly chosen entry."
   },
-
   "sectionOverview": "Overview",
-  "@sectionOverview": { "description": "Heading for an entity's summary." },
-
+  "@sectionOverview": {
+    "description": "Heading for an entity's summary."
+  },
   "sectionWorks": "Works",
-  "@sectionWorks": { "description": "Heading for a philosopher's works." },
-
+  "@sectionWorks": {
+    "description": "Heading for a philosopher's works."
+  },
   "sectionConcepts": "Key ideas",
-  "@sectionConcepts": { "description": "Heading for related concepts." },
-
+  "@sectionConcepts": {
+    "description": "Heading for related concepts."
+  },
   "sectionQuotes": "Quotations",
-  "@sectionQuotes": { "description": "Heading for quotations." },
-
+  "@sectionQuotes": {
+    "description": "Heading for quotations."
+  },
   "sectionConnections": "Connections",
   "@sectionConnections": {
     "description": "Heading for the knowledge-graph relations."
   },
-
   "sectionSources": "Sources",
-  "@sectionSources": { "description": "Heading for the citation list." },
-
+  "@sectionSources": {
+    "description": "Heading for the citation list."
+  },
   "sectionExamples": "Examples",
-  "@sectionExamples": { "description": "Heading for a concept's examples." },
-
+  "@sectionExamples": {
+    "description": "Heading for a concept's examples."
+  },
   "sectionCounterexamples": "Not this",
   "@sectionCounterexamples": {
     "description": "Heading for cases that are commonly mistaken for the concept."
   },
-
   "sectionCentralClaims": "What it holds",
   "@sectionCentralClaims": {
     "description": "Heading for a school's central claims."
   },
-
   "depthSelectorLabel": "Depth",
   "@depthSelectorLabel": {
     "description": "Label for the control that chooses how much detail to show."
   },
-
   "readDeeper": "Read deeper",
   "@readDeeper": {
     "description": "Button that moves the reader to the next depth level."
   },
-
   "noDeeperContent": "This is the deepest version written so far.",
   "@noDeeperContent": {
     "description": "Shown instead of the read-deeper button when no further content exists — the product does not invite readers into empty rooms."
   },
-
   "translationMissing": "Not yet translated into Persian — showing English.",
   "@translationMissing": {
     "description": "Honest notice shown to a Persian reader when a fallback occurred."
   },
-
   "born": "Born",
-  "@born": { "description": "Label before a birth year." },
-
+  "@born": {
+    "description": "Label before a birth year."
+  },
   "died": "Died",
-  "@died": { "description": "Label before a death year." },
-
+  "@died": {
+    "description": "Label before a death year."
+  },
   "yearBce": "{year} BCE",
   "@yearBce": {
     "description": "A year before the common era.",
-    "placeholders": { "year": { "type": "int" } }
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
   },
-
   "yearCe": "{year} CE",
   "@yearCe": {
     "description": "A year in the common era.",
-    "placeholders": { "year": { "type": "int" } }
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
   },
-
   "yearApproximate": "c. {year}",
   "@yearApproximate": {
     "description": "Wraps a year whose value is a scholarly estimate.",
-    "placeholders": { "year": { "type": "String" } }
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
   },
-
   "attributionCaveat": "Read the note before quoting this.",
   "@attributionCaveat": {
     "description": "Warning attached to a quotation that is not verified."
   },
-
   "actualSourceLabel": "Actually from",
   "@actualSourceLabel": {
     "description": "Label before the true origin of a misattributed quotation."
   },
-
   "settingsLanguage": "Language",
-  "@settingsLanguage": { "description": "Settings row for language." },
-
+  "@settingsLanguage": {
+    "description": "Settings row for language."
+  },
   "settingsTheme": "Appearance",
-  "@settingsTheme": { "description": "Settings row for the theme." },
-
+  "@settingsTheme": {
+    "description": "Settings row for the theme."
+  },
   "settingsThemeLight": "Light",
-  "@settingsThemeLight": { "description": "Light theme option." },
-
+  "@settingsThemeLight": {
+    "description": "Light theme option."
+  },
   "settingsThemeDark": "Dark",
-  "@settingsThemeDark": { "description": "Dark theme option." },
-
+  "@settingsThemeDark": {
+    "description": "Dark theme option."
+  },
   "settingsThemeSystem": "Match system",
-  "@settingsThemeSystem": { "description": "Follow the OS theme." },
-
+  "@settingsThemeSystem": {
+    "description": "Follow the OS theme."
+  },
   "settingsReadingLevel": "Reading level",
   "@settingsReadingLevel": {
     "description": "Settings row for the reader's self-declared level."
   },
-
   "settingsReadingLevelHelp": "Sets how much detail entries open with. You can change depth on any entry.",
   "@settingsReadingLevelHelp": {
     "description": "Explains that the level is a default, not a lock."
   },
-
   "settingsAbout": "About",
-  "@settingsAbout": { "description": "Settings row for licences and credits." },
-
+  "@settingsAbout": {
+    "description": "Settings row for licences and credits."
+  },
   "errorTitle": "Something went wrong",
-  "@errorTitle": { "description": "Generic error heading." },
-
+  "@errorTitle": {
+    "description": "Generic error heading."
+  },
   "errorBody": "The content could not be loaded. This is a fault in the app, not in your connection — everything is stored on your device.",
   "@errorBody": {
     "description": "Generic error body. Says plainly that it is not the reader's fault, and that the app is offline-first."
   },
-
   "retry": "Try again",
-  "@retry": { "description": "Retry button." },
-
+  "@retry": {
+    "description": "Retry button."
+  },
   "loading": "Loading",
   "@loading": {
     "description": "Accessibility label announced while content loads."
   },
-
   "navLibrary": "Library",
-  "@navLibrary": {"description": "Bottom navigation label for the reader's saved items."},
-
+  "@navLibrary": {
+    "description": "Bottom navigation label for the reader's saved items."
+  },
   "libraryEmptyTitle": "Nothing saved yet",
-  "@libraryEmptyTitle": {"description": "Heading when the library is empty."},
-
+  "@libraryEmptyTitle": {
+    "description": "Heading when the library is empty."
+  },
   "libraryEmptyBody": "Save an entry, or write a note on one, and it will appear here.",
-  "@libraryEmptyBody": {"description": "Guidance for the empty library."},
-
+  "@libraryEmptyBody": {
+    "description": "Guidance for the empty library."
+  },
   "librarySavedSection": "Saved",
-  "@librarySavedSection": {"description": "Heading for bookmarked articles."},
-
+  "@librarySavedSection": {
+    "description": "Heading for bookmarked articles."
+  },
   "libraryNotesSection": "Your notes",
-  "@libraryNotesSection": {"description": "Heading for the reader's notes."},
-
+  "@libraryNotesSection": {
+    "description": "Heading for the reader's notes."
+  },
   "libraryContinueSection": "Continue reading",
-  "@libraryContinueSection": {"description": "Heading for articles with a saved reading position."},
-
+  "@libraryContinueSection": {
+    "description": "Heading for articles with a saved reading position."
+  },
   "bookmarkAdd": "Save this entry",
-  "@bookmarkAdd": {"description": "Tooltip on the bookmark button when not saved."},
-
+  "@bookmarkAdd": {
+    "description": "Tooltip on the bookmark button when not saved."
+  },
   "bookmarkRemove": "Remove from saved",
-  "@bookmarkRemove": {"description": "Tooltip on the bookmark button when saved."},
-
+  "@bookmarkRemove": {
+    "description": "Tooltip on the bookmark button when saved."
+  },
   "notesTitle": "Notes",
-  "@notesTitle": {"description": "Heading for notes on an article."},
-
+  "@notesTitle": {
+    "description": "Heading for notes on an article."
+  },
   "noteAdd": "Add a note",
-  "@noteAdd": {"description": "Button that opens the note composer."},
-
+  "@noteAdd": {
+    "description": "Button that opens the note composer."
+  },
   "noteHint": "What do you want to remember?",
-  "@noteHint": {"description": "Placeholder in the note composer."},
-
+  "@noteHint": {
+    "description": "Placeholder in the note composer."
+  },
   "noteSave": "Save note",
-  "@noteSave": {"description": "Confirms writing a note."},
-
+  "@noteSave": {
+    "description": "Confirms writing a note."
+  },
   "noteDelete": "Delete note",
-  "@noteDelete": {"description": "Removes a note."},
-
+  "@noteDelete": {
+    "description": "Removes a note."
+  },
   "noteEdited": "edited",
-  "@noteEdited": {"description": "Marks a note that has been changed since it was written."},
-
+  "@noteEdited": {
+    "description": "Marks a note that has been changed since it was written."
+  },
   "saveFailed": "That could not be saved. Nothing was lost — try again.",
-  "@saveFailed": {"description": "Shown when a write to local storage fails."},
-
+  "@saveFailed": {
+    "description": "Shown when a write to local storage fails."
+  },
   "clearLibrary": "Delete everything I have saved",
-  "@clearLibrary": {"description": "Settings action that erases the reader's data."},
-
+  "@clearLibrary": {
+    "description": "Settings action that erases the reader's data."
+  },
   "clearLibraryExplain": "Removes every saved entry, note, highlight and reading position from this device. This cannot be undone.",
-  "@clearLibraryExplain": {"description": "Explains what deleting the library does."},
-
+  "@clearLibraryExplain": {
+    "description": "Explains what deleting the library does."
+  },
   "clearLibraryConfirm": "Delete",
-  "@clearLibraryConfirm": {"description": "Confirms the destructive action."},
-
+  "@clearLibraryConfirm": {
+    "description": "Confirms the destructive action."
+  },
   "cancel": "Cancel",
-  "@cancel": {"description": "Dismisses a dialog without acting."},
-
+  "@cancel": {
+    "description": "Dismisses a dialog without acting."
+  },
   "clearLibraryDone": "Everything has been deleted.",
-  "@clearLibraryDone": {"description": "Confirmation after erasing the library."},
-
+  "@clearLibraryDone": {
+    "description": "Confirmation after erasing the library."
+  },
   "libraryItemCount": "{count, plural, =0{Nothing saved} =1{1 item} other{{count} items}}",
-  "@libraryItemCount": {"description": "How much the reader has saved.", "placeholders": {"count": {"type": "int"}}},
-
+  "@libraryItemCount": {
+    "description": "How much the reader has saved.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "notFoundTitle": "This entry does not exist",
-  "@notFoundTitle": { "description": "Shown for an unresolvable route." },
-
+  "@notFoundTitle": {
+    "description": "Shown for an unresolvable route."
+  },
   "notFoundBody": "The link may be out of date. Try searching for it instead.",
-  "@notFoundBody": { "description": "Guidance for a dead link." },
-
+  "@notFoundBody": {
+    "description": "Guidance for a dead link."
+  },
   "backToHome": "Back to home",
-  "@backToHome": { "description": "Button on the not-found screen." }
+  "@backToHome": {
+    "description": "Button on the not-found screen."
+  },
+  "highlightAdd": "Highlight",
+  "@highlightAdd": {
+    "description": "Selection menu action that marks the selected passage."
+  },
+  "highlightRemove": "Remove highlight",
+  "@highlightRemove": {
+    "description": "Selection menu action that removes an existing highlight."
+  },
+  "libraryHighlightsSection": "Highlighted passages",
+  "@libraryHighlightsSection": {
+    "description": "Library section heading listing the reader's highlighted passages."
+  },
+  "highlightLostTitle": "Passages that moved",
+  "@highlightLostTitle": {
+    "description": "Heading for highlights whose text can no longer be found in the article."
+  },
+  "highlightLostBody": "The entry was rewritten and these passages are no longer where they were. They are kept here so nothing you marked is lost.",
+  "@highlightLostBody": {
+    "description": "Explains why some highlighted passages can no longer be shown in place."
+  }
 }
