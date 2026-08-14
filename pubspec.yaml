@@ -122,3 +122,25 @@ flutter:
     - family: NotoSerifDevanagari
       fonts:
         - asset: assets/fonts/notoserifdevanagari/NotoSerifDevanagari-Regular.ttf
+
+    # Hebrew, for the Jewish tradition — משה בן מימון and the terms the entries
+    # on it use. 30 KB unsubset. SIL OFL 1.1.
+    - family: NotoSerifHebrew
+      fonts:
+        - asset: assets/fonts/notoserifhebrew/NotoSerifHebrew-Regular.ttf
+
+    # Ethiopic, for the Ethiopian tradition — ዘርአ ያዕቆብ, whose Hatäta is the
+    # reason that tradition is in the corpus at all. Unsubset at 300 KB: the
+    # syllabary is the face, and cutting it to the characters used today would
+    # mean the next entry ships as boxes. SIL OFL 1.1.
+    - family: NotoSerifEthiopic
+      fonts:
+        - asset: assets/fonts/notoserifethiopic/NotoSerifEthiopic-Regular.ttf
+
+    # Tibetan, for ཙོང་ཁ་པ and the Tibetan Buddhist entries. The largest of the
+    # three at 600 KB, and kept whole for a reason the others do not have:
+    # Tibetan stacks its consonants into composed glyphs, so a subset chosen by
+    # codepoint can still fail to draw a correctly spelled word. SIL OFL 1.1.
+    - family: NotoSerifTibetan
+      fonts:
+        - asset: assets/fonts/notoseriftibetan/NotoSerifTibetan-Regular.ttf

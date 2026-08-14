@@ -77,6 +77,27 @@ void _registerBundledFontLicences() {
     yield LicenseEntryWithLineBreaks(const <String>[
       'Noto Serif Devanagari',
     ], devanagari);
+
+    final hebrew = await rootBundle.loadString(
+      'assets/fonts/notoserifhebrew/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Serif Hebrew',
+    ], hebrew);
+
+    final ethiopic = await rootBundle.loadString(
+      'assets/fonts/notoserifethiopic/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Serif Ethiopic',
+    ], ethiopic);
+
+    final tibetan = await rootBundle.loadString(
+      'assets/fonts/notoseriftibetan/OFL.txt',
+    );
+    yield LicenseEntryWithLineBreaks(const <String>[
+      'Noto Serif Tibetan',
+    ], tibetan);
   });
 }
 

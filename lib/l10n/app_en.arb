@@ -74,6 +74,19 @@
   "@filterAll": {
     "description": "The chip that clears a filter and shows everything."
   },
+  "filterShowMore": "{count, plural, =1{1 more} other{{count} more}}",
+  "@filterShowMore": {
+    "description": "Chip that reveals the filters hidden to keep the list in view.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filterShowFewer": "Show fewer",
+  "@filterShowFewer": {
+    "description": "Chip that collapses an expanded filter list again."
+  },
   "homeBrowseByTradition": "Traditions",
   "@homeBrowseByTradition": {
     "description": "Section heading for the tradition list."

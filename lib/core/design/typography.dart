@@ -60,6 +60,27 @@ abstract final class AppTypography {
   /// The Devanagari face, for Sanskrit and the Indian traditions.
   static const String devanagariFamily = 'NotoSerifDevanagari';
 
+  /// The Hebrew face, for the Jewish tradition.
+  static const String hebrewFamily = 'NotoSerifHebrew';
+
+  /// The Ethiopic face, for the Ethiopian tradition.
+  static const String ethiopicFamily = 'NotoSerifEthiopic';
+
+  /// The Tibetan face, for the Tibetan Buddhist tradition.
+  static const String tibetanFamily = 'NotoSerifTibetan';
+
+  /// The faces that exist only to print names in their own script.
+  ///
+  /// Grouped because they are always reached the same way — through the
+  /// fallback chain, never set directly — and because the list of scripts the
+  /// corpus can print should be one thing to add to rather than four.
+  static const List<String> scriptFamilies = <String>[
+    devanagariFamily,
+    hebrewFamily,
+    ethiopicFamily,
+    tibetanFamily,
+  ];
+
   /// The CJK faces in fallback order.
   ///
   /// Ordered by how much content each currently serves, which is the only
@@ -116,7 +137,7 @@ abstract final class AppTypography {
           persianFamily,
           serifFamily,
           greekFamily,
-          devanagariFamily,
+          ...scriptFamilies,
           ...cjkFamilies,
         ]
       : const <String>[
@@ -125,7 +146,7 @@ abstract final class AppTypography {
           // English sentence is set in a face that belongs next to a serif.
           persianReadingFamily,
           persianFamily,
-          devanagariFamily,
+          ...scriptFamilies,
           ...cjkFamilies,
         ];
 

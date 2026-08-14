@@ -128,27 +128,11 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     SectionHeader(title: l10n.homeBrowseByTradition),
-                    Wrap(
-                      spacing: Spacing.sm,
-                      runSpacing: Spacing.sm,
-                      children: <Widget>[
-                        FilterChip(
-                          label: Text(l10n.filterAll),
-                          selected: selected == null,
-                          onSelected: (_) =>
-                              setState(() => _traditionId = null),
-                        ),
-                        for (final tradition in traditions)
-                          FilterChip(
-                            label: Text(tradition.name.resolve(language)),
-                            selected: selected == tradition.id,
-                            onSelected: (isSelected) => setState(
-                              () => _traditionId = isSelected
-                                  ? tradition.id
-                                  : null,
-                            ),
-                          ),
-                      ],
+                    _TraditionFilter(
+                      traditions: traditions,
+                      selectedId: selected,
+                      language: language,
+                      onSelected: (id) => setState(() => _traditionId = id),
                     ),
                     const SizedBox(height: Spacing.xxl),
                   ],
@@ -213,6 +197,105 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
           ],
         ),
       ),
+    );
+  }
+}
+
+/// The tradition chips, shown a few at a time until the reader asks for more.
+///
+/// ## Why this is not simply a `Wrap`
+///
+/// It was, and that worked while eleven traditions had entries behind them.
+/// Filling the corpus took that past thirty, and thirty-odd chips is eleven
+/// rows on a phone — the whole first screen given to a control, with the list
+/// it filters pushed entirely below the fold. The screen was measurably worse
+/// for having more content in it, which is the wrong way round.
+///
+/// A horizontally scrolling strip is the other common answer and was rejected:
+/// it hides most of the vocabulary behind a swipe, and the vocabulary is the
+/// part worth seeing. Two rows and a count says what is there and costs one tap
+/// to open.
+class _TraditionFilter extends StatefulWidget {
+  const _TraditionFilter({
+    required this.traditions,
+    required this.selectedId,
+    required this.language,
+    required this.onSelected,
+  });
+
+  final List<TaxonomyTerm> traditions;
+  final String? selectedId;
+  final AppLanguage language;
+  final ValueChanged<String?> onSelected;
+
+  @override
+  State<_TraditionFilter> createState() => _TraditionFilterState();
+}
+
+class _TraditionFilterState extends State<_TraditionFilter> {
+  bool _expanded = false;
+
+  /// Roughly how many chips fit in two rows at this width.
+  ///
+  /// An estimate rather than a measurement: chips are as wide as their labels,
+  /// so the true count differs per language and per row. Getting it wrong
+  /// costs a row of white space or a row of chips, and measuring properly
+  /// would mean laying the whole set out invisibly first — a real cost for a
+  /// control whose point is that it is cheap.
+  static int _collapsedCount(BuildContext context) =>
+      switch (ResponsiveLayout.sizeOf(context)) {
+        WindowSize.compact => 7,
+        WindowSize.medium => 14,
+        WindowSize.expanded => 20,
+      };
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
+    final all = widget.traditions;
+    final limit = _collapsedCount(context);
+
+    // A selected chip is always shown, wherever it falls in the list. Hiding
+    // the active filter behind "more" leaves a screen that is filtered for a
+    // reason the reader cannot see and cannot undo.
+    final visible = _expanded || all.length <= limit
+        ? all
+        : <TaxonomyTerm>[
+            ...all.take(limit),
+            for (final term in all.skip(limit))
+              if (term.id == widget.selectedId) term,
+          ];
+    final hidden = all.length - visible.length;
+
+    return Wrap(
+      spacing: Spacing.sm,
+      runSpacing: Spacing.sm,
+      children: <Widget>[
+        FilterChip(
+          label: Text(l10n.filterAll),
+          selected: widget.selectedId == null,
+          onSelected: (_) => widget.onSelected(null),
+        ),
+        for (final tradition in visible)
+          FilterChip(
+            label: Text(tradition.name.resolve(widget.language)),
+            selected: widget.selectedId == tradition.id,
+            onSelected: (isSelected) =>
+                widget.onSelected(isSelected ? tradition.id : null),
+          ),
+        if (hidden > 0)
+          ActionChip(
+            label: Text(l10n.filterShowMore(hidden)),
+            avatar: const Icon(Icons.expand_more, size: 18),
+            onPressed: () => setState(() => _expanded = true),
+          )
+        else if (_expanded && all.length > limit)
+          ActionChip(
+            label: Text(l10n.filterShowFewer),
+            avatar: const Icon(Icons.expand_less, size: 18),
+            onPressed: () => setState(() => _expanded = false),
+          ),
+      ],
     );
   }
 }

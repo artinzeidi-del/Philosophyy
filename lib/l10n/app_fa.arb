@@ -16,6 +16,8 @@
   "homeDailyIdea": "اندیشهٔ امروز",
   "homeStartHere": "از اینجا آغاز کنید",
   "filterAll": "همه",
+  "filterShowMore": "{count, plural, other{{count} تای دیگر}}",
+  "filterShowFewer": "کمتر",
   "homeBrowseByTradition": "سنت‌ها",
   "homeBrowseByBranch": "شاخه‌های فلسفه",
   "homeSurpriseMe": "غافلگیرم کن",

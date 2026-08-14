@@ -828,6 +828,1613 @@
       "concepts": ["double-consciousness"],
       "works": ["souls-of-black-folk"],
       "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "laozi",
+      "name": { "en": "Laozi", "fa": "لائوتزه" },
+      "oneLine": {
+        "en": "Taught that the most effective action looks like no action at all.",
+        "fa": "آموخت که مؤثرترین کنش، شبیه بی‌کنشی است."
+      },
+      "life": {
+        "birth": { "year": -571, "precision": "circa" },
+        "death": { "year": -471, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "ethics", "political-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Laozi is the name attached to the Daodejing, the founding text of Daoism. Its central idea is the Dao — the way things go when nothing forces them — and wu wei, acting without straining, which it presents as the most effective way to act rather than as passivity.",
+              "fa": "لائوتزه نامی است که به «دائو ده جینگ»، متن بنیان‌گذار دائوئیسم، بسته شده است. ایدهٔ محوری آن «دائو» است: مسیری که چیزها وقتی کسی به آن‌ها زور نمی‌آورد طی می‌کنند؛ و «وو وی»، یعنی کنشِ بی‌فشار، که آن را نه انفعال بلکه اثرگذارترین شیوهٔ عمل معرفی می‌کند."
+            }
+          },
+          {
+            "id": "existence",
+            "heading": {
+              "en": "Whether he existed",
+              "fa": "اینکه اصلاً وجود داشته یا نه"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "Whether Laozi was one person is genuinely open. The traditional account makes him an older contemporary of Confucius; the text itself shows signs of having been assembled over time from more than one hand. Nothing in the philosophy depends on the answer, which is why this entry treats the Daodejing as the subject and the name as a convention.",
+              "fa": "اینکه لائوتزه یک نفر بوده باشد واقعاً محل بحث است. روایت سنتی او را هم‌روزگارِ مسن‌ترِ کنفوسیوس می‌داند؛ اما خودِ متن نشانه‌هایی دارد از اینکه در طول زمان و به دست بیش از یک نفر گرد آمده است. هیچ بخشی از این فلسفه به پاسخ این پرسش وابسته نیست، و به همین سبب این مدخل «دائو ده جینگ» را موضوع می‌گیرد و نام را یک قرارداد."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "老子",
+      "transliteration": "Lǎozǐ"
+    },
+    {
+      "id": "zhuangzi",
+      "name": { "en": "Zhuangzi", "fa": "جوانگ‌تزه" },
+      "oneLine": {
+        "en": "Asked how you could know you are not a butterfly dreaming it is you.",
+        "fa": "پرسید از کجا می‌دانی پروانه‌ای نیستی که خواب می‌بیند تو است."
+      },
+      "life": {
+        "birth": { "year": -369, "precision": "circa" },
+        "death": { "year": -286, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "epistemology", "aesthetics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Zhuangzi wrote in stories and jokes rather than treatises. His recurring move is to show that the distinctions we argue over — useful and useless, big and small, waking and dreaming — look fixed only from inside one point of view, and that seeing this changes how tightly you hold your own.",
+              "fa": "جوانگ‌تزه به‌جای رساله، داستان و شوخی نوشت. حرکت همیشگی او این است که نشان دهد تمایزهایی که بر سرشان بحث می‌کنیم — سودمند و بی‌سود، بزرگ و کوچک، بیداری و خواب — فقط از درون یک منظر ثابت به نظر می‌رسند؛ و دیدنِ این نکته، شدت چنگ‌زدن آدم به منظر خودش را عوض می‌کند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "莊子",
+      "transliteration": "Zhuāngzǐ"
+    },
+    {
+      "id": "mencius",
+      "name": { "en": "Mencius", "fa": "منسیوس" },
+      "oneLine": {
+        "en": "Held that people are born good, and that cruelty is damage rather than nature.",
+        "fa": "معتقد بود آدم‌ها نیک زاده می‌شوند و بی‌رحمی آسیب است نه طبیعت."
+      },
+      "life": {
+        "birth": { "year": -372, "precision": "circa" },
+        "death": { "year": -289, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mencius is the most influential interpreter of Confucius. His central claim is that human nature is good: everyone has the beginnings of virtue, which he illustrates with the case of a person who sees a child about to fall into a well and feels alarm before calculating anything. Bad conduct is what happens when those beginnings are starved.",
+              "fa": "منسیوس اثرگذارترین مفسر کنفوسیوس است. ادعای محوری او این است که طبیعت انسان نیک است: هر کسی جوانه‌های فضیلت را دارد. او این را با مثال کسی نشان می‌دهد که کودکی را در آستانهٔ افتادن در چاه می‌بیند و پیش از هر محاسبه‌ای دلش می‌لرزد. رفتار بد آن چیزی است که وقتی این جوانه‌ها گرسنه بمانند پیش می‌آید."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "孟子",
+      "transliteration": "Mèngzǐ"
+    },
+    {
+      "id": "xunzi",
+      "name": { "en": "Xunzi", "fa": "شون‌تزه" },
+      "oneLine": {
+        "en": "Held the opposite of Mencius: nature is crooked, and goodness is built.",
+        "fa": "خلافِ منسیوس می‌گفت: طبیعت کج است و نیکی ساخته می‌شود."
+      },
+      "life": {
+        "birth": { "year": -310, "precision": "circa" },
+        "death": { "year": -235, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "philosophy-of-education"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Xunzi agreed with Mencius that people can become good and disagreed about everything else. Human nature, he argued, is crooked; goodness is a deliberate achievement, produced by ritual, teaching and law the way a straightening frame produces a straight board. The disagreement between them is the central argument of classical Confucianism.",
+              "fa": "شون‌تزه با منسیوس هم‌رأی بود که آدم‌ها می‌توانند نیک شوند، و در هر چیز دیگری با او اختلاف داشت. به گفتهٔ او طبیعت انسان کج است؛ نیکی دستاوردی عامدانه است که آیین، آموزش و قانون آن را می‌سازند، همان‌طور که قالبِ صاف‌کننده تخته را صاف می‌کند. اختلاف این دو، بحث مرکزی کنفوسیوس‌گرایی کلاسیک است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "荀子",
+      "transliteration": "Xúnzǐ"
+    },
+    {
+      "id": "mozi",
+      "name": { "en": "Mozi", "fa": "مو تزه" },
+      "oneLine": {
+        "en": "Argued that you should care for strangers exactly as much as for your own.",
+        "fa": "استدلال کرد که باید به بیگانه دقیقاً همان‌قدر اهمیت بدهی که به خودی."
+      },
+      "life": {
+        "birth": { "year": -470, "precision": "circa" },
+        "death": { "year": -391, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mozi opposed the Confucian idea that care should be graded by closeness. He argued for impartial concern, judged benefits and harms by their consequences for everyone alike, and attacked expensive funerals and offensive war on that basis. His school also did the earliest sustained work on argument and definition in China.",
+              "fa": "مو تزه با این ایدهٔ کنفوسیوسی مخالف بود که مهرورزی باید بر حسب نزدیکی درجه‌بندی شود. او از توجه بی‌طرفانه دفاع کرد، سود و زیان را بر پایهٔ پیامدشان برای همه به یک اندازه سنجید، و بر همین اساس به تشییع‌های پرخرج و جنگ تهاجمی تاخت. مکتب او نخستین کار پیوستهٔ چین دربارهٔ استدلال و تعریف را نیز انجام داد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "墨子",
+      "transliteration": "Mòzǐ"
+    },
+    {
+      "id": "han-feizi",
+      "name": { "en": "Han Feizi", "fa": "هان فی‌تزه" },
+      "oneLine": {
+        "en": "Held that a state should be run by law and incentive, never by hoping for virtue.",
+        "fa": "معتقد بود دولت را باید با قانون و انگیزه اداره کرد، نه با امید به فضیلت."
+      },
+      "life": {
+        "birth": { "year": -280, "precision": "circa" },
+        "death": { "year": -233, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["political-philosophy", "philosophy-of-law", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Han Feizi brought Legalism to its sharpest form. Rulers should not rely on finding virtuous officials, he argued, because virtuous officials are rare and the state must work with the people it actually has. What works is clear law, applied without exception, with rewards and punishments doing the motivating.",
+              "fa": "هان فی‌تزه قانون‌گرایی را به تیزترین شکلش رساند. به گفتهٔ او حاکم نباید به یافتن کارگزاران بافضیلت تکیه کند، چون چنین کسانی کمیاب‌اند و دولت باید با همان مردمی کار کند که واقعاً دارد. آنچه کار می‌کند قانونِ روشن است، بی‌استثنا اجراشده، با پاداش و کیفر در نقش انگیزه."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "韓非子",
+      "transliteration": "Hán Fēizǐ"
+    },
+    {
+      "id": "zhu-xi",
+      "name": { "en": "Zhu Xi", "fa": "جو شی" },
+      "oneLine": {
+        "en": "Rebuilt Confucianism as a full metaphysics, and set China's exams for six centuries.",
+        "fa": "کنفوسیوس‌گرایی را به یک مابعدالطبیعهٔ کامل بازساخت و شش قرن امتحانات چین را تعیین کرد."
+      },
+      "life": {
+        "birth": { "year": 1130, "precision": "circa" },
+        "death": { "year": 1200, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["metaphysics", "ethics", "philosophy-of-education"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Zhu Xi is the central figure of Neo-Confucianism. He organised the tradition around two notions: li, the pattern or principle a thing follows, and qi, the stuff it is made of. His selection of the Four Books and his commentaries on them became the basis of the imperial examinations, which is a rare case of a philosopher's reading list shaping a civil service for six hundred years.",
+              "fa": "جو شی چهرهٔ مرکزی نوکنفوسیوس‌گرایی است. او سنت را حول دو مفهوم سامان داد: «لی»، یعنی الگو یا اصلی که هر چیز از آن پیروی می‌کند، و «چی»، یعنی مادّه‌ای که از آن ساخته شده است. گزینش او از «چهار کتاب» و شرح‌هایش بر آن‌ها پایهٔ امتحانات دیوانی شد؛ نمونه‌ای کمیاب از اینکه فهرست خواندنی یک فیلسوف ششصد سال یک نظام اداری را شکل بدهد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "朱熹",
+      "transliteration": "Zhū Xī"
+    },
+    {
+      "id": "wang-yangming",
+      "name": { "en": "Wang Yangming", "fa": "وانگ یانگ‌مینگ" },
+      "oneLine": {
+        "en": "Held that knowing what is right and doing it are one act, not two.",
+        "fa": "معتقد بود دانستنِ درست و انجام‌دادنش یک کارند، نه دو کار."
+      },
+      "life": {
+        "birth": { "year": 1472, "precision": "circa" },
+        "death": { "year": 1529, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "philosophy-of-mind", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Wang Yangming broke with Zhu Xi over where moral knowledge comes from. It is not gathered by investigating things outside you, he argued, but already present in the mind, and it is not really known until it is acted on. Someone who says they know they should be kind and is not kind does not know it yet.",
+              "fa": "وانگ یانگ‌مینگ بر سر اینکه معرفت اخلاقی از کجا می‌آید از جو شی جدا شد. به گفتهٔ او این معرفت با بررسی چیزهای بیرونی گرد نمی‌آید، بلکه از پیش در ذهن هست؛ و تا وقتی به عمل درنیاید واقعاً دانسته نشده است. کسی که می‌گوید می‌داند باید مهربان باشد و مهربان نیست، هنوز آن را نمی‌داند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "王陽明",
+      "transliteration": "Wáng Yángmíng"
+    },
+    {
+      "id": "buddha",
+      "name": { "en": "The Buddha", "fa": "بودا" },
+      "oneLine": {
+        "en": "Diagnosed suffering as a problem with a cause, and therefore with a way out.",
+        "fa": "رنج را مسئله‌ای با علت تشخیص داد، و بنابراین دارای راه بیرون‌رفت."
+      },
+      "life": {
+        "birth": { "year": -563, "precision": "circa" },
+        "death": { "year": -483, "precision": "circa" }
+      },
+      "traditions": ["indian", "buddhist"],
+      "branches": ["ethics", "metaphysics", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Buddha's teaching is structured like a medical diagnosis: there is suffering, it has a cause, the cause can be removed, and there is a method. The philosophically loaded parts are the claims that nothing has a permanent self and that everything arises in dependence on something else — which later Indian philosophy spent centuries arguing about.",
+              "fa": "آموزهٔ بودا مانند یک تشخیص پزشکی ساختار دارد: رنجی هست، علتی دارد، آن علت را می‌توان برداشت، و روشی برای این کار هست. بخش‌های پربارِ فلسفی آن این ادعاهاست که هیچ‌چیز خودِ پایداری ندارد و هر چیز در وابستگی به چیزی دیگر پدید می‌آید — که فلسفهٔ هند قرن‌ها بر سرشان بحث کرد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "सिद्धार्थ गौतम",
+      "transliteration": "Siddhārtha Gautama"
+    },
+    {
+      "id": "shankara",
+      "name": { "en": "Śaṅkara", "fa": "شنکره" },
+      "oneLine": {
+        "en": "Argued that the self and ultimate reality are not two things.",
+        "fa": "استدلال کرد که خود و حقیقت غایی دو چیز نیستند."
+      },
+      "life": {
+        "birth": { "year": 788, "precision": "circa" },
+        "death": { "year": 820, "precision": "circa" }
+      },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Śaṅkara is the central figure of Advaita Vedānta, whose name means not-two. His claim is that the self is not a part of ultimate reality or a creature of it but identical with it, and that the appearance of a world of separate things is real enough to live in and not ultimately how things are.",
+              "fa": "شنکره چهرهٔ مرکزی «ادویته ودانته» است که نامش یعنی «نه‌دو». ادعای او این است که خود، نه جزئی از حقیقت غایی است و نه آفریدهٔ آن، بلکه عین آن است؛ و ظاهرِ جهانی از چیزهای جدا از هم آن‌قدر واقعی هست که بتوان در آن زیست، اما در نهایت شیوهٔ بودنِ چیزها نیست."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "आदि शङ्कर",
+      "transliteration": "Ādi Śaṅkara"
+    },
+    {
+      "id": "ramanuja",
+      "name": { "en": "Rāmānuja", "fa": "رامانوجه" },
+      "oneLine": {
+        "en": "Answered Śaṅkara: the self is one with the divine without being identical to it.",
+        "fa": "به شنکره پاسخ داد: خود با امر الهی یکی است بی‌آنکه عین آن باشد."
+      },
+      "life": {
+        "birth": { "year": 1017, "precision": "circa" },
+        "death": { "year": 1137, "precision": "circa" }
+      },
+      "traditions": ["indian"],
+      "branches": ["metaphysics", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Rāmānuja accepted that reality is one and denied that the differences inside it are illusory. Selves and the world are real parts of the divine, related to it as a body is to the person whose body it is. The dispute between his position and Śaṅkara's is the longest-running argument in Indian metaphysics.",
+              "fa": "رامانوجه پذیرفت که حقیقت یکی است و انکار کرد که تفاوت‌های درون آن توهمی باشند. خودها و جهان اجزای واقعی امر الهی‌اند، و نسبتشان با آن مانند نسبت بدن است با کسی که صاحب آن بدن است. اختلاف موضع او با شنکره طولانی‌ترین بحث جاری در مابعدالطبیعهٔ هند است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "रामानुज",
+      "transliteration": "Rāmānuja"
+    },
+    {
+      "id": "vasubandhu",
+      "name": { "en": "Vasubandhu", "fa": "واسوباندو" },
+      "oneLine": {
+        "en": "Argued that what we take for a world of objects is better explained as mind.",
+        "fa": "استدلال کرد آنچه جهانی از اشیا می‌گیریم، بهتر است با ذهن توضیح داده شود."
+      },
+      "life": {
+        "birth": { "year": 400, "precision": "circa" },
+        "death": { "year": 480, "precision": "circa" }
+      },
+      "traditions": ["indian", "buddhist"],
+      "branches": ["metaphysics", "philosophy-of-mind", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Vasubandhu is the central figure of Yogācāra, sometimes called mind-only. His argument is that the properties we attribute to external objects can be accounted for by the structure of experience itself, and that positing objects behind experience explains nothing further while raising problems of its own.",
+              "fa": "واسوباندو چهرهٔ مرکزی «یوگاچاره» است که گاهی «فقط‌ذهن» خوانده می‌شود. استدلال او این است که ویژگی‌هایی که به اشیای بیرونی نسبت می‌دهیم با خودِ ساختار تجربه قابل توضیح‌اند، و فرض‌کردن اشیایی پشت تجربه چیز بیشتری توضیح نمی‌دهد و مشکلات خودش را می‌آورد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "वसुबन्धु",
+      "transliteration": "Vasubandhu"
+    },
+    {
+      "id": "dignaga",
+      "name": { "en": "Dignāga", "fa": "دیگناگه" },
+      "oneLine": {
+        "en": "Built the logic that Indian philosophy argued in for the next thousand years.",
+        "fa": "منطقی ساخت که فلسفهٔ هند هزار سال با آن بحث کرد."
+      },
+      "life": {
+        "birth": { "year": 480, "precision": "circa" },
+        "death": { "year": 540, "precision": "circa" }
+      },
+      "traditions": ["indian", "buddhist"],
+      "branches": ["logic", "epistemology", "philosophy-of-language"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Dignāga reorganised Indian epistemology around the question of how many reliable ways of knowing there are, and answered: two, perception and inference. His account of what makes an inference valid, and his theory that words work by excluding what they do not apply to, set the terms of debate for Buddhist, Nyāya and Mīmāṃsā thinkers alike.",
+              "fa": "دیگناگه معرفت‌شناسی هند را حول این پرسش سامان داد که چند راه معتبر برای دانستن هست، و پاسخ داد: دو تا؛ ادراک و استنتاج. شرح او از اینکه چه چیزی یک استنتاج را معتبر می‌کند، و نظریه‌اش که واژه‌ها با کنارگذاشتن آنچه بر آن صدق نمی‌کنند کار می‌کنند، چارچوب بحث را برای متفکران بودایی، نیایه و میمانسا یکسان تعیین کرد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "दिग्नाग",
+      "transliteration": "Dignāga"
+    },
+    {
+      "id": "mahavira",
+      "name": { "en": "Mahāvīra", "fa": "مهاویره" },
+      "oneLine": {
+        "en": "Taught that every claim is true only from some standpoint, and said so systematically.",
+        "fa": "آموخت که هر ادعا فقط از منظری درست است، و این را به‌نظام گفت."
+      },
+      "life": {
+        "birth": { "year": -599, "precision": "circa" },
+        "death": { "year": -527, "precision": "circa" }
+      },
+      "traditions": ["indian", "jain"],
+      "branches": ["metaphysics", "ethics", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mahāvīra is the central teacher of Jainism. Two ideas make it philosophically distinctive: ahiṃsā, non-harm, taken further than any other tradition takes it; and anekāntavāda, the doctrine that reality has many aspects, so any single statement about it captures one standpoint and misses others.",
+              "fa": "مهاویره معلم مرکزی آیین جین است. دو ایده آن را از نظر فلسفی متمایز می‌کند: «اهیمسا» یعنی نیازردن، که تا جایی پیش برده می‌شود که هیچ سنت دیگری نمی‌برد؛ و «انکانته‌واده»، این آموزه که حقیقت جنبه‌های بسیار دارد، پس هر گزارهٔ یگانه دربارهٔ آن یک منظر را می‌گیرد و منظرهای دیگر را از دست می‌دهد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "महावीर",
+      "transliteration": "Mahāvīra"
+    },
+    {
+      "id": "dogen",
+      "name": { "en": "Dōgen", "fa": "دوگن" },
+      "oneLine": {
+        "en": "Held that sitting in meditation is not a means to awakening but is awakening.",
+        "fa": "معتقد بود نشستن در مراقبه وسیلهٔ بیداری نیست، خودِ بیداری است."
+      },
+      "life": {
+        "birth": { "year": 1200, "precision": "circa" },
+        "death": { "year": 1253, "precision": "circa" }
+      },
+      "traditions": ["japanese", "buddhist"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Dōgen founded the Sōtō school of Zen in Japan. His central move is to collapse the distance between practice and its goal: sitting is not training for enlightenment, it is what enlightenment consists in. He also wrote one of the most difficult and most original treatments of time in any tradition, arguing that being and time are not two things.",
+              "fa": "دوگن مکتب «سوتو» ذن را در ژاپن بنیان گذاشت. حرکت محوری او برداشتن فاصلهٔ میان تمرین و هدفِ آن است: نشستن، تمرین برای روشن‌شدگی نیست؛ خودِ روشن‌شدگی همین است. او یکی از دشوارترین و بدیع‌ترین بحث‌های زمان را در میان همهٔ سنت‌ها نوشت و استدلال کرد که بودن و زمان دو چیز نیستند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "道元",
+      "transliteration": "Dōgen Zenji"
+    },
+    {
+      "id": "nishida",
+      "name": { "en": "Nishida Kitarō", "fa": "نیشیدا کیتارو" },
+      "oneLine": {
+        "en": "Built the first modern philosophy that argued in Western terms from Zen premises.",
+        "fa": "نخستین فلسفهٔ مدرنی را ساخت که با زبان غربی از مقدمات ذن استدلال می‌کرد."
+      },
+      "life": {
+        "birth": { "year": 1870, "precision": "circa" },
+        "death": { "year": 1945, "precision": "circa" }
+      },
+      "traditions": ["japanese"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "comparative-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nishida founded the Kyoto School. He began from what he called pure experience — experience before it has been split into a subject who perceives and an object perceived — and argued that the subject-object structure Western philosophy starts from is a later construction rather than a given.",
+              "fa": "نیشیدا مکتب کیوتو را بنیان گذاشت. او از چیزی آغاز کرد که «تجربهٔ ناب» می‌نامید: تجربه پیش از آنکه به فاعلِ ادراک و متعلَقِ ادراک تقسیم شود؛ و استدلال کرد که ساختار فاعل و متعلَق که فلسفهٔ غرب از آن آغاز می‌کند، ساخته‌ای متأخر است نه چیزی داده‌شده."
+            }
+          },
+          {
+            "id": "wartime",
+            "heading": {
+              "en": "A record that is argued about",
+              "fa": "کارنامه‌ای که بر سرش بحث است"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "Nishida's later writing on the state, and the wartime politics of some of his students, are genuinely contested. Some read the political essays as an attempt to give nationalism a philosophical footing; others as an attempt to constrain it from inside. This entry records that the dispute exists rather than settling it.",
+              "fa": "نوشته‌های متأخر نیشیدا دربارهٔ دولت، و سیاستِ دوران جنگ برخی از شاگردانش، واقعاً محل مناقشه است. برخی آن جستارهای سیاسی را کوششی برای دادنِ پایهٔ فلسفی به ناسیونالیسم می‌خوانند و برخی کوششی برای مهارکردن آن از درون. این مدخل وجود این اختلاف را ثبت می‌کند، نه اینکه آن را فیصله دهد."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "西田 幾多郎",
+      "transliteration": "Nishida Kitarō"
+    },
+    {
+      "id": "kukai",
+      "name": { "en": "Kūkai", "fa": "کوکای" },
+      "oneLine": {
+        "en": "Argued that awakening is possible in this body, not after countless lives.",
+        "fa": "استدلال کرد بیداری در همین بدن ممکن است، نه پس از زندگی‌های بی‌شمار."
+      },
+      "life": {
+        "birth": { "year": 774, "precision": "circa" },
+        "death": { "year": 835, "precision": "circa" }
+      },
+      "traditions": ["japanese", "buddhist"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Kūkai founded Shingon, the esoteric school of Japanese Buddhism. Against the view that awakening takes innumerable lifetimes, he argued it is attainable in this body. He also developed an unusual theory of language in which the sounds of speech are not arbitrary signs but part of the structure of reality itself.",
+              "fa": "کوکای «شینگون»، مکتب باطنی بودیسم ژاپنی، را بنیان گذاشت. در برابر این دیدگاه که بیداری زندگی‌های بی‌شمار می‌طلبد، استدلال کرد که در همین بدن دست‌یافتنی است. او نظریهٔ غیرمعمولی دربارهٔ زبان نیز پروراند که در آن آواهای گفتار نشانه‌های قراردادی نیستند، بلکه بخشی از ساختار خودِ حقیقت‌اند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "空海",
+      "transliteration": "Kūkai"
+    },
+    {
+      "id": "wonhyo",
+      "name": { "en": "Wonhyo", "fa": "وونهیو" },
+      "oneLine": {
+        "en": "Spent his life arguing that the Buddhist schools were fighting over nothing.",
+        "fa": "عمرش را صرف این استدلال کرد که مکتب‌های بودایی بر سر هیچ می‌جنگند."
+      },
+      "life": {
+        "birth": { "year": 617, "precision": "circa" },
+        "death": { "year": 686, "precision": "circa" }
+      },
+      "traditions": ["korean", "buddhist"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "comparative-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Wonhyo is the central figure of Korean Buddhist philosophy. His project was reconciliation: he read the competing schools as emphasising different aspects of one position rather than contradicting each other, and produced a method for showing where an apparent conflict comes from a difference of standpoint.",
+              "fa": "وونهیو چهرهٔ مرکزی فلسفهٔ بودایی کره است. پروژهٔ او آشتی‌دادن بود: مکتب‌های رقیب را چنین می‌خواند که هر یک بر جنبه‌ای از یک موضع واحد تأکید می‌کنند نه اینکه یکدیگر را نقض کنند؛ و روشی پرداخت برای نشان‌دادن اینکه یک تعارض ظاهری از کجای اختلافِ منظر می‌آید."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "元曉",
+      "transliteration": "Wonhyo"
+    },
+    {
+      "id": "yi-hwang",
+      "name": { "en": "Yi Hwang", "fa": "یی هوانگ" },
+      "oneLine": {
+        "en": "Argued that moral feeling and ordinary feeling have different sources.",
+        "fa": "استدلال کرد که احساس اخلاقی و احساس معمولی سرچشمه‌های متفاوتی دارند."
+      },
+      "life": {
+        "birth": { "year": 1501, "precision": "circa" },
+        "death": { "year": 1570, "precision": "circa" }
+      },
+      "traditions": ["korean"],
+      "branches": ["ethics", "metaphysics", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Yi Hwang, known as Toegye, is the most influential Korean Neo-Confucian. His long exchange with Ki Daeseung over whether the four moral feelings and the seven ordinary emotions arise from principle or from material force is the defining debate of Korean philosophy, and one of the most sustained arguments about moral psychology anywhere.",
+              "fa": "یی هوانگ، معروف به «توگیه»، اثرگذارترین نوکنفوسیوسیِ کره است. مکاتبهٔ طولانی او با کی دِسونگ بر سر اینکه چهار احساس اخلاقی و هفت عاطفهٔ معمولی از «اصل» برمی‌خیزند یا از «نیروی مادی»، بحث تعیین‌کنندهٔ فلسفهٔ کره است و یکی از پیوسته‌ترین بحث‌های روان‌شناسی اخلاقی در هر جای دیگر."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "李滉",
+      "transliteration": "Yi Hwang (Toegye)"
+    },
+    {
+      "id": "tsongkhapa",
+      "name": { "en": "Tsongkhapa", "fa": "تسونگ‌کاپا" },
+      "oneLine": {
+        "en": "Insisted that emptiness must be reached by argument, not by setting argument aside.",
+        "fa": "اصرار داشت که تهی‌بودگی را باید با استدلال یافت، نه با کنارگذاشتن استدلال."
+      },
+      "life": {
+        "birth": { "year": 1357, "precision": "circa" },
+        "death": { "year": 1419, "precision": "circa" }
+      },
+      "traditions": ["tibetan", "buddhist"],
+      "branches": ["metaphysics", "logic", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Tsongkhapa founded the Gelug school and shaped Tibetan philosophy more than anyone. His distinctive position is that emptiness does not mean the failure of reason: careful analysis is the road to it, and a realisation reached by abandoning analysis is not the same realisation. Tibetan monastic education is still built around formal debate for that reason.",
+              "fa": "تسونگ‌کاپا مکتب «گلوگ» را بنیان گذاشت و بیش از هر کس دیگری فلسفهٔ تبت را شکل داد. موضع متمایز او این است که تهی‌بودگی به معنای شکست عقل نیست: تحلیل دقیق راهِ رسیدن به آن است، و دریافتی که با کنارگذاشتن تحلیل به دست آید همان دریافت نیست. آموزش صومعه‌ای تبت هنوز به همین سبب بر مناظرهٔ صوری بنا شده است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "ཙོང་ཁ་པ",
+      "transliteration": "Tsongkhapa"
+    },
+    {
+      "id": "tran-nhan-tong",
+      "name": { "en": "Trần Nhân Tông", "fa": "ترن نان تونگ" },
+      "oneLine": {
+        "en": "Left the throne to found a school of Zen that took ordinary life as the practice.",
+        "fa": "تخت را رها کرد تا مکتبی از ذن بنیان بگذارد که زندگی روزمره را تمرین می‌گرفت."
+      },
+      "life": {
+        "birth": { "year": 1258, "precision": "circa" },
+        "death": { "year": 1308, "precision": "circa" }
+      },
+      "traditions": ["vietnamese", "buddhist"],
+      "branches": ["philosophy-of-religion", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Trần Nhân Tông ruled Vietnam, twice led it through invasion, then abdicated and founded the Trúc Lâm school of Zen. Its emphasis is that practice does not require withdrawal: the work is done in the middle of ordinary responsibilities, which is a position with obvious weight coming from someone who had held the largest ones.",
+              "fa": "ترن نان تونگ بر ویتنام حکومت کرد، دو بار آن را از حمله گذراند، سپس کناره گرفت و مکتب ذنِ «چوک لام» را بنیان گذاشت. تأکید این مکتب آن است که تمرین به کناره‌گیری نیاز ندارد: کار در میانهٔ مسئولیت‌های روزمره انجام می‌شود — موضعی که وقتی از کسی می‌آید که بزرگ‌ترین مسئولیت‌ها را داشته، وزن آشکاری دارد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "陳仁宗",
+      "transliteration": "Trần Nhân Tông"
+    },
+    {
+      "id": "maimonides",
+      "name": { "en": "Maimonides", "fa": "ابن میمون" },
+      "oneLine": {
+        "en": "Held that almost nothing can be said about God except what God is not.",
+        "fa": "معتقد بود دربارهٔ خدا تقریباً هیچ نمی‌توان گفت جز آنچه خدا نیست."
+      },
+      "life": {
+        "birth": { "year": 1138, "precision": "circa" },
+        "death": { "year": 1204, "precision": "circa" }
+      },
+      "traditions": ["jewish", "islamic", "medieval"],
+      "branches": ["philosophy-of-religion", "metaphysics", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Maimonides wrote in Arabic, worked inside the same philosophical world as Ibn Sīnā and al-Ghazālī, and produced the most influential Jewish philosophical work there is. His negative theology holds that positive descriptions of God mislead: to say God is wise is to import something creaturely, and the safest true statements are denials.",
+              "fa": "ابن میمون به عربی نوشت، در همان جهان فلسفی ابن‌سینا و غزالی کار کرد، و اثرگذارترین اثر فلسفی یهودی را پدید آورد. الهیات سلبی او می‌گوید توصیف‌های ایجابی دربارهٔ خدا گمراه‌کننده‌اند: گفتن اینکه خدا حکیم است چیزی مخلوق‌گونه را وارد می‌کند، و امن‌ترین گزاره‌های درست، نفی‌ها هستند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "משה בן מימון",
+      "transliteration": "Mosheh ben Maimon"
+    },
+    {
+      "id": "augustine",
+      "name": { "en": "Augustine of Hippo", "fa": "آگوستین" },
+      "oneLine": {
+        "en": "Turned inward and found that the self is the hardest thing to know.",
+        "fa": "به درون رو کرد و دید که خود، دشوارترین چیز برای شناختن است."
+      },
+      "life": {
+        "birth": { "year": 354, "precision": "circa" },
+        "death": { "year": 430, "precision": "circa" }
+      },
+      "traditions": ["christian", "roman"],
+      "branches": ["philosophy-of-religion", "philosophy-of-mind", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Augustine set the shape of Western Christian philosophy for a thousand years. His most philosophically durable contributions are outside theology: an account of time as something the mind measures rather than something it finds, a treatment of memory and self-knowledge, and an argument that certainty survives doubt because the doubter must exist.",
+              "fa": "آگوستین شکل فلسفهٔ مسیحی غرب را برای هزار سال تعیین کرد. ماندگارترین سهم‌های فلسفی او بیرون از الهیات‌اند: شرحی از زمان همچون چیزی که ذهن آن را می‌سنجد نه چیزی که می‌یابد، بحثی دربارهٔ حافظه و خودشناسی، و استدلالی که یقین از شک جان به در می‌برد چون شک‌کننده باید موجود باشد."
+            }
+          },
+          {
+            "id": "cogito-before",
+            "heading": {
+              "en": "A cogito, twelve centuries early",
+              "fa": "کوگیتویی، دوازده قرن زودتر"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "Augustine writes that if he is deceived, he exists — a move Descartes made famous much later. The two are not the same argument: Augustine uses it in passing against scepticism and does not build a system on it, while for Descartes it is the single foundation everything else rests on. Noting the resemblance is not the same as saying Descartes took it.",
+              "fa": "آگوستین می‌نویسد اگر فریب خورده باشد، پس هست — همان حرکتی که دکارت بسیار بعدتر مشهورش کرد. این دو یک استدلال نیستند: آگوستین آن را گذرا در برابر شکاکیت به کار می‌برد و نظامی بر آن بنا نمی‌کند، حال آنکه برای دکارت تنها بنیادی است که هر چیز دیگر بر آن می‌ایستد. اشاره به شباهت به معنای این نیست که دکارت آن را برداشته است."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "interpretation"
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Aurelius Augustinus",
+      "transliteration": "Aurelius Augustinus"
+    },
+    {
+      "id": "aquinas",
+      "name": { "en": "Thomas Aquinas", "fa": "توماس آکوئیناس" },
+      "oneLine": {
+        "en": "Argued that faith and reason cannot really conflict, and then showed his working.",
+        "fa": "استدلال کرد که ایمان و عقل نمی‌توانند واقعاً در تعارض باشند، و بعد کارش را نشان داد."
+      },
+      "life": {
+        "birth": { "year": 1225, "precision": "circa" },
+        "death": { "year": 1274, "precision": "circa" }
+      },
+      "traditions": ["christian", "medieval"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "ethics",
+        "philosophy-of-law"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aquinas built the largest synthesis of Aristotle and Christian doctrine ever attempted. His method is worth as much as his conclusions: every question is put with the strongest objections first, answered, and then the objections are answered one by one — a format that makes it unusually hard to hide a weak argument.",
+              "fa": "آکوئیناس بزرگ‌ترین تلفیقِ ارسطو و آموزهٔ مسیحی را ساخت که تا آن زمان کوشیده شده بود. روش او به اندازهٔ نتایجش ارزش دارد: هر مسئله نخست با قوی‌ترین اعتراض‌ها طرح می‌شود، پاسخ داده می‌شود، و سپس به اعتراض‌ها یک‌به‌یک جواب داده می‌شود — قالبی که پنهان‌کردن یک استدلال ضعیف را به‌طور غیرعادی دشوار می‌کند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Thomas de Aquino",
+      "transliteration": "Thomas de Aquino"
+    },
+    {
+      "id": "anselm",
+      "name": { "en": "Anselm of Canterbury", "fa": "آنسلم" },
+      "oneLine": {
+        "en": "Tried to prove God exists using nothing but the definition of the word.",
+        "fa": "کوشید وجود خدا را تنها با تعریف همان واژه اثبات کند."
+      },
+      "life": {
+        "birth": { "year": 1033, "precision": "circa" },
+        "death": { "year": 1109, "precision": "circa" }
+      },
+      "traditions": ["christian", "medieval"],
+      "branches": ["philosophy-of-religion", "metaphysics", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Anselm gave the first version of the ontological argument: God is that than which nothing greater can be conceived; something that exists is greater than something merely thought of; so God exists. Almost nobody now accepts it, and almost every philosopher of religion has had to say precisely why not, which is a rare kind of influence.",
+              "fa": "آنسلم نخستین صورت برهان وجودی را آورد: خدا آن است که بزرگ‌تر از او قابل تصور نیست؛ چیزی که وجود دارد بزرگ‌تر از چیزی است که فقط اندیشیده می‌شود؛ پس خدا وجود دارد. امروز تقریباً هیچ‌کس آن را نمی‌پذیرد، و تقریباً هر فیلسوف دینی ناچار بوده دقیقاً بگوید چرا نه — و این نوع کمیابی از اثرگذاری است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Anselmus Cantuariensis",
+      "transliteration": "Anselmus"
+    },
+    {
+      "id": "ockham",
+      "name": { "en": "William of Ockham", "fa": "اکام" },
+      "oneLine": {
+        "en": "Argued that you should not multiply entities beyond necessity, and meant it.",
+        "fa": "استدلال کرد که نباید موجودات را بیش از ضرورت زیاد کرد، و جدی می‌گفت."
+      },
+      "life": {
+        "birth": { "year": 1287, "precision": "circa" },
+        "death": { "year": 1347, "precision": "circa" }
+      },
+      "traditions": ["christian", "medieval"],
+      "branches": ["metaphysics", "logic", "philosophy-of-language"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ockham is remembered for the razor, and it is a fair summary of his practice: he argued that universals are not things in the world but signs in the mind, and rebuilt logic and semantics on that basis. The razor is a rule about explanations, not a claim that the simpler answer is true.",
+              "fa": "اکام را با «تیغ» به یاد می‌آورند، و این خلاصهٔ منصفانه‌ای از رویّهٔ اوست: استدلال کرد که کلی‌ها چیزهایی در جهان نیستند بلکه نشانه‌هایی در ذهن‌اند، و منطق و معناشناسی را بر همین پایه بازساخت. تیغ قاعده‌ای دربارهٔ تبیین‌هاست، نه ادعایی که پاسخ ساده‌تر درست است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Gulielmus Occamus",
+      "transliteration": "Gulielmus Occamus"
+    },
+    {
+      "id": "philoponus",
+      "name": { "en": "John Philoponus", "fa": "یوحنای نحوی" },
+      "oneLine": {
+        "en": "Broke with Aristotle on physics eleven centuries before anyone else managed it.",
+        "fa": "یازده قرن پیش از دیگران، در فیزیک از ارسطو جدا شد."
+      },
+      "life": {
+        "birth": { "year": 490, "precision": "circa" },
+        "death": { "year": 570, "precision": "circa" }
+      },
+      "traditions": ["byzantine", "christian"],
+      "branches": ["philosophy-of-science", "metaphysics", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Philoponus argued against Aristotle that the world had a beginning, that a vacuum is possible, and that a thrown object keeps moving because something was imparted to it rather than because the air pushes it. That last idea is the ancestor of the theory of impetus and, through it, of inertia.",
+              "fa": "یوحنای نحوی بر خلاف ارسطو استدلال کرد که جهان آغازی داشته، که خلأ ممکن است، و که جسم پرتاب‌شده به این سبب حرکت را ادامه می‌دهد که چیزی به آن داده شده، نه به این سبب که هوا هلش می‌دهد. این ایدهٔ آخر نیای نظریهٔ «میل» و از راه آن، نیای لَختی است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Ἰωάννης ὁ Φιλόπονος",
+      "transliteration": "Iōannēs ho Philoponos"
+    },
+    {
+      "id": "machiavelli",
+      "name": { "en": "Niccolò Machiavelli", "fa": "ماکیاولی" },
+      "oneLine": {
+        "en": "Described how power is actually taken and kept, without saying it was good.",
+        "fa": "توصیف کرد که قدرت واقعاً چگونه گرفته و نگه داشته می‌شود، بی‌آنکه بگوید خوب است."
+      },
+      "life": {
+        "birth": { "year": 1469, "precision": "circa" },
+        "death": { "year": 1527, "precision": "circa" }
+      },
+      "traditions": ["renaissance", "european"],
+      "branches": ["political-philosophy", "ethics", "philosophy-of-history"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Machiavelli separated the question of how a ruler ought to behave from the question of what actually works, and wrote about the second. Whether The Prince is advice to tyrants, a warning disguised as advice, or a job application is still argued about; the Discourses, which argue for a republic, complicate every simple reading.",
+              "fa": "ماکیاولی این پرسش را که حاکم چگونه باید رفتار کند از این پرسش جدا کرد که چه چیزی واقعاً کار می‌کند، و دربارهٔ دومی نوشت. اینکه «شهریار» اندرزی به جباران است، هشداری در لباس اندرز، یا درخواستِ کار، هنوز محل بحث است؛ و «گفتارها» که از جمهوری دفاع می‌کند هر خوانش سادهٔ آن را پیچیده می‌کند."
+            }
+          },
+          {
+            "id": "reading",
+            "heading": { "en": "Three readings", "fa": "سه خوانش" },
+            "depth": "deep",
+            "body": {
+              "en": "The Prince taken straight is a manual for holding power by any means. Taken as satire it exposes those means to a republican readership. Taken biographically it is a bid to return to office in Florence. The Discourses, written around the same time and arguing for popular government, is the fact that makes the straight reading hardest to sustain.",
+              "fa": "«شهریار» اگر سرراست خوانده شود، دستورالعملِ نگه‌داشتن قدرت به هر وسیله است. اگر طنز خوانده شود، همان وسیله‌ها را برای خوانندهٔ جمهوری‌خواه برملا می‌کند. اگر زندگی‌نامه‌ای خوانده شود، تلاشی است برای بازگشت به منصب در فلورانس. «گفتارها» که در همان حدود نوشته شده و از حکومت مردمی دفاع می‌کند، همان واقعیتی است که نگه‌داشتنِ خوانش سرراست را از همه دشوارتر می‌کند."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "montaigne",
+      "name": { "en": "Michel de Montaigne", "fa": "مونتنی" },
+      "oneLine": {
+        "en": "Invented the essay in order to find out what he thought.",
+        "fa": "جستار را اختراع کرد تا بفهمد خودش چه فکر می‌کند."
+      },
+      "life": {
+        "birth": { "year": 1533, "precision": "circa" },
+        "death": { "year": 1592, "precision": "circa" }
+      },
+      "traditions": ["renaissance", "european"],
+      "branches": ["ethics", "epistemology", "existential-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Montaigne's question is printed on his own wall: what do I know? He wrote essays — attempts — because he did not trust a form that required him to have finished thinking. The result is the first sustained philosophical attention to ordinary life, and a scepticism aimed less at knowledge than at certainty.",
+              "fa": "پرسش مونتنی روی دیوار خودش نوشته بود: چه می‌دانم؟ او جستار نوشت — یعنی «کوشش» — چون به قالبی که از او می‌خواست اندیشیدن را تمام کرده باشد اعتماد نداشت. نتیجه، نخستین توجه پیوستهٔ فلسفی به زندگی روزمره است، و شکاکیتی که کمتر معرفت را نشانه می‌رود و بیشتر یقین را."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "spinoza",
+      "name": { "en": "Baruch Spinoza", "fa": "اسپینوزا" },
+      "oneLine": {
+        "en": "Argued that God and nature are two names for one thing, and was expelled for it.",
+        "fa": "استدلال کرد خدا و طبیعت دو نام برای یک چیزند، و به همین سبب طرد شد."
+      },
+      "life": {
+        "birth": { "year": 1632, "precision": "circa" },
+        "death": { "year": 1677, "precision": "circa" }
+      },
+      "traditions": ["jewish", "european"],
+      "branches": [
+        "metaphysics",
+        "ethics",
+        "philosophy-of-religion",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Spinoza held that there is exactly one substance, which can be called God or nature, and that everything else is a way that substance is. From this he derived an ethics with no free will in the usual sense, in which freedom means understanding the causes acting on you rather than escaping them.",
+              "fa": "اسپینوزا معتقد بود دقیقاً یک جوهر هست که می‌توان آن را خدا یا طبیعت نامید، و هر چیز دیگر شیوه‌ای از بودنِ آن جوهر است. از این، اخلاقی استنتاج کرد بدون ارادهٔ آزاد به معنای معمول، که در آن آزادی یعنی فهمیدنِ علت‌هایی که بر تو اثر می‌گذارند، نه گریختن از آن‌ها."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "ברוך שפינוזה",
+      "transliteration": "Baruch de Spinoza"
+    },
+    {
+      "id": "frege",
+      "name": { "en": "Gottlob Frege", "fa": "فرگه" },
+      "oneLine": {
+        "en": "Built modern logic, and with it the tools analytic philosophy argues in.",
+        "fa": "منطق مدرن را ساخت، و با آن ابزارهایی که فلسفهٔ تحلیلی با آن‌ها بحث می‌کند."
+      },
+      "life": {
+        "birth": { "year": 1848, "precision": "circa" },
+        "death": { "year": 1925, "precision": "circa" }
+      },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "logic",
+        "philosophy-of-language",
+        "philosophy-of-mathematics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Frege replaced two thousand years of syllogistic with the logic of quantifiers and variables that is still standard. He also drew the distinction between the sense of an expression and what it refers to, which is why the morning star and the evening star can be the same planet and still not the same thought.",
+              "fa": "فرگه دو هزار سال منطق قیاسی را با منطق سورها و متغیرها جایگزین کرد که هنوز استاندارد است. او همچنین میان «معنا»ی یک عبارت و آنچه به آن ارجاع می‌دهد تمایز گذاشت؛ به همین سبب ستارهٔ صبح و ستارهٔ شام می‌توانند یک سیاره باشند و همچنان یک اندیشه نباشند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "russell",
+      "name": { "en": "Bertrand Russell", "fa": "برتراند راسل" },
+      "oneLine": {
+        "en": "Tried to derive mathematics from logic, and broke it finding out he could not.",
+        "fa": "کوشید ریاضیات را از منطق استنتاج کند، و در فهمیدن اینکه نمی‌تواند آن را شکست."
+      },
+      "life": {
+        "birth": { "year": 1872, "precision": "circa" },
+        "death": { "year": 1970, "precision": "circa" }
+      },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "logic",
+        "philosophy-of-mathematics",
+        "epistemology",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Russell found the paradox that broke Frege's system — the set of all sets that do not contain themselves — and then spent years with Whitehead trying to rebuild arithmetic on secure logical foundations. His theory of descriptions, showing how a sentence about the present king of France can be false rather than meaningless, is a model of analytic method.",
+              "fa": "راسل تناقضی را یافت که نظام فرگه را شکست: مجموعهٔ همهٔ مجموعه‌هایی که خودشان را در بر نمی‌گیرند. سپس سال‌ها با وایتهد کوشید حساب را بر بنیادهای منطقیِ امن بازسازد. نظریهٔ توصیف‌های او که نشان می‌دهد جمله‌ای دربارهٔ پادشاه کنونی فرانسه چگونه می‌تواند نادرست باشد نه بی‌معنا، الگویی از روش تحلیلی است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "wittgenstein",
+      "name": { "en": "Ludwig Wittgenstein", "fa": "ویتگنشتاین" },
+      "oneLine": {
+        "en": "Wrote two philosophies, and the second one refutes the first.",
+        "fa": "دو فلسفه نوشت، و دومی اولی را رد می‌کند."
+      },
+      "life": {
+        "birth": { "year": 1889, "precision": "circa" },
+        "death": { "year": 1951, "precision": "circa" }
+      },
+      "traditions": ["analytic", "european"],
+      "branches": ["philosophy-of-language", "philosophy-of-mind", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The early Wittgenstein held that language pictures the world and that most philosophy is nonsense produced by misusing it. The later Wittgenstein held that meaning is not picturing but use, that words work the way tools do, and that his own earlier account was one more piece of the confusion he had been trying to end.",
+              "fa": "ویتگنشتاینِ متقدم معتقد بود زبان جهان را تصویر می‌کند و بیشتر فلسفه بی‌معنایی‌ای است که از بدکاربردن آن پدید می‌آید. ویتگنشتاینِ متأخر معتقد بود معنا تصویرکردن نیست بلکه کاربرد است، واژه‌ها مثل ابزار کار می‌کنند، و شرح متقدم خودش تکه‌ای دیگر از همان سردرگمی بوده که می‌کوشیده پایانش دهد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "husserl",
+      "name": { "en": "Edmund Husserl", "fa": "هوسرل" },
+      "oneLine": {
+        "en": "Asked what experience is like before we theorise about what causes it.",
+        "fa": "پرسید تجربه پیش از آنکه دربارهٔ علتش نظریه ببافیم، چگونه است."
+      },
+      "life": {
+        "birth": { "year": 1859, "precision": "circa" },
+        "death": { "year": 1938, "precision": "circa" }
+      },
+      "traditions": ["continental", "european"],
+      "branches": ["philosophy-of-mind", "epistemology", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Husserl founded phenomenology. The method is to set aside questions about whether what you experience exists outside you, and describe the structure of the experience itself — above all intentionality, that consciousness is always consciousness of something.",
+              "fa": "هوسرل پدیدارشناسی را بنیان گذاشت. روش این است که پرسش‌ها دربارهٔ اینکه آنچه تجربه می‌کنی بیرون از تو هست یا نه کنار گذاشته شود، و ساختار خودِ تجربه توصیف شود؛ بیش از همه «حیث التفاتی»، یعنی اینکه آگاهی همیشه آگاهی از چیزی است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "heidegger",
+      "name": { "en": "Martin Heidegger", "fa": "هایدگر" },
+      "oneLine": {
+        "en": "Argued that philosophy forgot to ask what it means for anything to be.",
+        "fa": "استدلال کرد فلسفه فراموش کرده بپرسد بودنِ هر چیز یعنی چه."
+      },
+      "life": {
+        "birth": { "year": 1889, "precision": "circa" },
+        "death": { "year": 1976, "precision": "circa" }
+      },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "metaphysics",
+        "existential-philosophy",
+        "philosophy-of-technology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Heidegger's question is the meaning of being, and his route to it is an analysis of the one entity that asks it. His claim is that we do not primarily encounter the world as a collection of objects with properties but as equipment we are already using, and that theory is a later and thinner mode of that involvement.",
+              "fa": "پرسش هایدگر معنای «بودن» است، و راهش به آن تحلیلِ همان موجودی است که این پرسش را می‌پرسد. ادعای او این است که ما جهان را در وهلهٔ نخست همچون مجموعه‌ای از اشیای دارای ویژگی نمی‌یابیم، بلکه همچون ابزاری که پیشاپیش با آن سر و کار داریم؛ و نظریه، شیوه‌ای متأخرتر و نازک‌تر از همان درگیری است."
+            }
+          },
+          {
+            "id": "politics",
+            "heading": {
+              "en": "The membership, and what to do with it",
+              "fa": "عضویت، و اینکه با آن چه باید کرد"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "Heidegger joined the Nazi party in 1933, served as rector of Freiburg, and never issued a clear retraction. The publication of his private notebooks made the antisemitism in them impossible to treat as incidental. Readers divide over whether the philosophy can be separated from this; the honest position is that the question is live and that leaving it out of an entry would be a decision, not neutrality.",
+              "fa": "هایدگر در ۱۹۳۳ به حزب نازی پیوست، رئیس دانشگاه فرایبورگ شد، و هرگز انکار روشنی منتشر نکرد. انتشار دفترهای خصوصی‌اش یهودی‌ستیزیِ درون آن‌ها را چنان کرد که نتوان عرضی شمردش. خوانندگان بر سر اینکه آیا فلسفه را می‌توان از این جدا کرد دو دسته‌اند؛ موضع صادقانه این است که پرسش زنده است و کنارگذاشتنش از یک مدخل خودش یک تصمیم است، نه بی‌طرفی."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "sartre",
+      "name": { "en": "Jean-Paul Sartre", "fa": "سارتر" },
+      "oneLine": {
+        "en": "Held that we are free whether we like it or not, and mostly we do not.",
+        "fa": "معتقد بود چه بخواهیم چه نخواهیم آزادیم، و بیشتر وقت‌ها نمی‌خواهیم."
+      },
+      "life": {
+        "birth": { "year": 1905, "precision": "circa" },
+        "death": { "year": 1980, "precision": "circa" }
+      },
+      "traditions": ["continental", "european"],
+      "branches": ["existential-philosophy", "ethics", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Sartre's claim is that existence precedes essence: there is no human nature fixed in advance that tells you what to be. That makes freedom total and inescapable, and most of his psychology is about the strategies people use to hide it from themselves, which he called bad faith.",
+              "fa": "ادعای سارتر این است که وجود بر ماهیت مقدم است: طبیعت انسانیِ از پیش تعیین‌شده‌ای وجود ندارد که بگوید چه باید بود. این آزادی را تام و گریزناپذیر می‌کند، و بیشتر روان‌شناسی او دربارهٔ ترفندهایی است که آدم‌ها برای پنهان‌کردن آن از خودشان به کار می‌برند؛ چیزی که «سوءنیت» می‌نامیدش."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "merleau-ponty",
+      "name": { "en": "Maurice Merleau-Ponty", "fa": "مرلوپونتی" },
+      "oneLine": {
+        "en": "Put the body back at the centre of perception, where philosophy had lost it.",
+        "fa": "بدن را به مرکز ادراک برگرداند؛ جایی که فلسفه گمش کرده بود."
+      },
+      "life": {
+        "birth": { "year": 1908, "precision": "circa" },
+        "death": { "year": 1961, "precision": "circa" }
+      },
+      "traditions": ["continental", "european"],
+      "branches": ["philosophy-of-mind", "epistemology", "aesthetics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Merleau-Ponty argued that perception is not a mind reading data from a body but a bodily engagement with a world. Depth, distance and the shapes of things are given through what the body can do, not inferred from a flat image, which is why a philosophy that starts from a disembodied observer keeps producing problems that never arise in practice.",
+              "fa": "مرلوپونتی استدلال کرد ادراک، ذهنی نیست که داده‌ها را از بدن می‌خواند، بلکه درگیریِ بدنی با یک جهان است. ژرفا، فاصله و شکلِ چیزها از راه آنچه بدن می‌تواند بکند داده می‌شوند، نه از تصویری تخت استنتاج می‌شوند؛ به همین سبب فلسفه‌ای که از ناظری بی‌بدن آغاز کند پیوسته مسائلی می‌سازد که در عمل هرگز پیش نمی‌آیند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "foucault",
+      "name": { "en": "Michel Foucault", "fa": "فوکو" },
+      "oneLine": {
+        "en": "Showed that what counts as knowledge and what counts as power are entangled.",
+        "fa": "نشان داد آنچه معرفت به‌شمار می‌آید با آنچه قدرت است در هم تنیده است."
+      },
+      "life": {
+        "birth": { "year": 1926, "precision": "circa" },
+        "death": { "year": 1984, "precision": "circa" }
+      },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "social-philosophy",
+        "political-philosophy",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Foucault wrote histories of madness, medicine, punishment and sexuality to show that the categories we take as natural have datable beginnings. His recurring claim is that power does not only forbid: it produces the categories, the expertise and the kinds of person that then seem simply to be there.",
+              "fa": "فوکو تاریخ‌هایی از جنون، پزشکی، مجازات و جنسیت نوشت تا نشان دهد مقوله‌هایی که طبیعی می‌گیریم آغازهای تاریخ‌دار دارند. ادعای همیشگی او این است که قدرت فقط منع نمی‌کند: مقوله‌ها، تخصص‌ها و گونه‌هایی از آدم را تولید می‌کند که بعد چنان می‌نمایند که گویی همیشه بوده‌اند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "peirce",
+      "name": { "en": "Charles Sanders Peirce", "fa": "پرس" },
+      "oneLine": {
+        "en": "Held that an idea's meaning is the difference it would make in practice.",
+        "fa": "معتقد بود معنای یک ایده همان تفاوتی است که در عمل ایجاد می‌کند."
+      },
+      "life": {
+        "birth": { "year": 1839, "precision": "circa" },
+        "death": { "year": 1914, "precision": "circa" }
+      },
+      "traditions": ["pragmatist", "american"],
+      "branches": ["logic", "epistemology", "philosophy-of-science"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Peirce founded pragmatism, then renamed his version pragmaticism when he decided others had made the word too loose. His maxim is that to clarify a concept you ask what practical consequences would follow if it were true. He also did foundational work on signs and on the logic of scientific inference.",
+              "fa": "پرس پراگماتیسم را بنیان گذاشت، و بعد که دید دیگران واژه را زیادی شل کرده‌اند نسخهٔ خودش را «پراگماتیسیسم» نامید. قاعدهٔ او این است که برای روشن‌کردن یک مفهوم بپرس اگر درست باشد چه پیامدهای عملی در پی دارد. او کار بنیادی دربارهٔ نشانه‌ها و منطق استنتاج علمی نیز کرد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "james",
+      "name": { "en": "William James", "fa": "ویلیام جیمز" },
+      "oneLine": {
+        "en": "Judged beliefs by what holding them does, and made psychology a science first.",
+        "fa": "باورها را با آنچه داشتنشان می‌کند سنجید، و پیش از آن روان‌شناسی را علم کرد."
+      },
+      "life": {
+        "birth": { "year": 1842, "precision": "circa" },
+        "death": { "year": 1910, "precision": "circa" }
+      },
+      "traditions": ["pragmatist", "american"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-mind",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "James made pragmatism widely read and wrote the founding textbook of scientific psychology. His most contested claim is that in some cases — where evidence cannot settle the matter and a decision cannot be postponed — it can be legitimate to believe on other grounds, which critics read as licensing wishful thinking.",
+              "fa": "جیمز پراگماتیسم را پرخواننده کرد و کتاب درسی بنیان‌گذارِ روان‌شناسی علمی را نوشت. پرمناقشه‌ترین ادعای او این است که در برخی موارد — جایی که شواهد نمی‌توانند مسئله را فیصله دهند و تصمیم را نمی‌توان به تعویق انداخت — باورآوردن بر پایه‌های دیگر می‌تواند موجه باشد؛ چیزی که منتقدان آن را مجوزِ آرزواندیشی می‌خوانند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dewey",
+      "name": { "en": "John Dewey", "fa": "جان دیویی" },
+      "oneLine": {
+        "en": "Held that thinking is something we do when a situation stops working.",
+        "fa": "معتقد بود اندیشیدن کاری است که وقتی وضعیتی از کار می‌افتد انجام می‌دهیم."
+      },
+      "life": {
+        "birth": { "year": 1859, "precision": "circa" },
+        "death": { "year": 1952, "precision": "circa" }
+      },
+      "traditions": ["pragmatist", "american"],
+      "branches": [
+        "philosophy-of-education",
+        "political-philosophy",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Dewey treated enquiry as something organisms do to resolve a problem, not as spectating on a finished world. He applied this to schooling — learning by doing rather than by receiving — and to democracy, which he understood as a way of living together and solving shared problems rather than a set of institutions.",
+              "fa": "دیویی پژوهش را کاری می‌دانست که موجود زنده برای حل یک مسئله انجام می‌دهد، نه تماشای جهانی تمام‌شده. این را بر آموزش اعمال کرد — یادگیری از راه انجام‌دادن نه از راه دریافت‌کردن — و بر دموکراسی، که آن را شیوه‌ای از باهم‌زیستن و حل مسائل مشترک می‌فهمید نه مجموعه‌ای از نهادها."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "zera-yacob",
+      "name": { "en": "Zera Yacob", "fa": "زرا یعقوب" },
+      "oneLine": {
+        "en": "Reasoned his way out of every inherited religion while hiding in a cave.",
+        "fa": "در پناهگاهی در غار، با عقل از هر دین موروثی بیرون آمد."
+      },
+      "life": {
+        "birth": { "year": 1599, "precision": "circa" },
+        "death": { "year": 1692, "precision": "circa" }
+      },
+      "traditions": ["ethiopian", "african"],
+      "branches": ["philosophy-of-religion", "epistemology", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Zera Yacob wrote the Hatata during and after two years hiding from religious persecution. Its method is to test every inherited doctrine against reason and against what he can observe, and to reject what fails — including claims of his own tradition. He argues from that basis for the equality of men and women and against slavery.",
+              "fa": "زرا یعقوب «حَتَتا» را در جریان و پس از دو سال پنهان‌شدن از آزار دینی نوشت. روش آن سنجیدن هر آموزهٔ موروثی با عقل و با آنچه خود می‌تواند مشاهده کند است، و کنارگذاشتن آنچه از این آزمون بیرون نمی‌آید — از جمله ادعاهای سنت خودش. او بر همین پایه از برابری زن و مرد و علیه برده‌داری استدلال می‌کند."
+            }
+          },
+          {
+            "id": "authorship",
+            "heading": {
+              "en": "A disputed attribution",
+              "fa": "انتسابی که محل بحث است"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "In the twentieth century an Italian scholar argued that the Hatata was written by the missionary who brought the manuscripts to Europe. That claim was widely repeated and has been strongly challenged since, on textual and historical grounds. The dispute is unresolved in the sense that both positions are still defended in print, and worth stating because it has been used to keep the text out of philosophy curricula.",
+              "fa": "در قرن بیستم پژوهشگری ایتالیایی استدلال کرد که «حَتَتا» را همان مبلغی نوشته که دست‌نوشته‌ها را به اروپا برد. این ادعا بسیار تکرار شد و از آن پس بر پایه‌های متنی و تاریخی به‌شدت به چالش کشیده شده است. اختلاف به این معنا حل‌نشده است که هر دو موضع هنوز در نوشتار دفاع می‌شوند؛ و گفتنش لازم است چون از همین ادعا برای بیرون‌نگه‌داشتن این متن از برنامه‌های درسی فلسفه استفاده شده است."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "ዘርአ ያዕቆብ",
+      "transliteration": "Zärʾa Yaʿəqob"
+    },
+    {
+      "id": "anton-wilhelm-amo",
+      "name": { "en": "Anton Wilhelm Amo", "fa": "آنتون ویلهلم آمو" },
+      "oneLine": {
+        "en": "Was taken from Ghana as a child and became a philosophy professor in Germany.",
+        "fa": "کودکی از غنا ربوده شد و در آلمان استاد فلسفه شد."
+      },
+      "life": {
+        "birth": { "year": 1703, "precision": "circa" },
+        "death": { "year": 1759, "precision": "circa" }
+      },
+      "traditions": ["african", "european"],
+      "branches": ["philosophy-of-mind", "philosophy-of-law", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Amo was taken from what is now Ghana as a small child, educated in Germany, and taught at Halle and Jena. His dissertation argues against the view that the mind senses: sensation belongs to the living body, and mind is purely intellectual. He also wrote on the legal position of Africans in Europe.",
+              "fa": "آمو کودکی خردسال بود که از سرزمینی که امروز غناست برده شد، در آلمان تحصیل کرد، و در هاله و ینا درس داد. رسالهٔ او علیه این دیدگاه استدلال می‌کند که ذهن احساس می‌کند: احساس از آنِ بدن زنده است و ذهن سراسر عقلانی است. او دربارهٔ وضعیت حقوقی آفریقاییان در اروپا نیز نوشت."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "fanon",
+      "name": { "en": "Frantz Fanon", "fa": "فرانتس فانون" },
+      "oneLine": {
+        "en": "Wrote as a psychiatrist about what being colonised does to a mind.",
+        "fa": "به‌عنوان روان‌پزشک نوشت که مستعمره‌بودن با ذهن چه می‌کند."
+      },
+      "life": {
+        "birth": { "year": 1925, "precision": "circa" },
+        "death": { "year": 1961, "precision": "circa" }
+      },
+      "traditions": ["africana", "continental"],
+      "branches": [
+        "decolonial-philosophy",
+        "social-philosophy",
+        "philosophy-of-psychology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Fanon combined psychiatric practice with philosophy to describe colonialism as something that works on the inside of a person, not only on institutions. His account of how a colonised subject comes to see themselves through the coloniser's eyes is among the sharpest treatments of that structure written.",
+              "fa": "فانون کار روان‌پزشکی را با فلسفه ترکیب کرد تا استعمار را چیزی توصیف کند که بر درونِ آدم کار می‌کند نه فقط بر نهادها. شرح او از اینکه سوژهٔ مستعمره چگونه به دیدنِ خود از چشم استعمارگر می‌رسد، از تیزترین بحث‌های نوشته‌شده دربارهٔ این ساختار است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "kwasi-wiredu",
+      "name": { "en": "Kwasi Wiredu", "fa": "کواسی ویردو" },
+      "oneLine": {
+        "en": "Asked which philosophical problems survive translation out of European languages.",
+        "fa": "پرسید کدام مسائل فلسفی از ترجمه‌شدن بیرون از زبان‌های اروپایی جان به در می‌برند."
+      },
+      "life": {
+        "birth": { "year": 1931, "precision": "circa" },
+        "death": { "year": 2022, "precision": "circa" }
+      },
+      "traditions": ["african", "africana"],
+      "branches": [
+        "comparative-philosophy",
+        "epistemology",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Wiredu's method is to take a philosophical problem and try to state it in Akan. Some survive; some turn out to depend on a feature of English or Greek and dissolve. He used this to argue for conceptual decolonisation — not rejecting Western philosophy, but refusing to assume its questions are the universal ones.",
+              "fa": "روش ویردو این است که یک مسئلهٔ فلسفی را بردارد و بکوشد آن را به زبان آکان بیان کند. برخی جان به در می‌برند؛ برخی معلوم می‌شود به ویژگی‌ای از انگلیسی یا یونانی وابسته‌اند و حل می‌شوند. او از این برای استدلال به سود «استعمارزدایی مفهومی» بهره برد: نه کنارگذاشتن فلسفهٔ غرب، بلکه نپذیرفتنِ این پیش‌فرض که پرسش‌های آن، پرسش‌های جهان‌شمول‌اند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "nezahualcoyotl",
+      "name": { "en": "Nezahualcóyotl", "fa": "نساوالکویوتل" },
+      "oneLine": {
+        "en": "Asked in verse whether anything is true on earth, and did not answer easily.",
+        "fa": "در شعر پرسید آیا چیزی بر زمین حقیقی است، و به‌آسانی پاسخ نداد."
+      },
+      "life": {
+        "birth": { "year": 1402, "precision": "circa" },
+        "death": { "year": 1472, "precision": "circa" }
+      },
+      "traditions": ["mesoamerican", "indigenous"],
+      "branches": ["metaphysics", "aesthetics", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nezahualcóyotl ruled Texcoco and is the best-attested of the Nahua tlamatinime, the knowers of things. The poems attributed to him press one question: whether anything on earth is rooted and lasting, or whether we are here briefly and only in the way a painting or a song is here.",
+              "fa": "نساوالکویوتل بر تِسکوکو حکومت کرد و مستندترین چهره در میان «تلاماتینیمه»ی ناواتل است؛ یعنی دانندگانِ چیزها. شعرهای منسوب به او یک پرسش را پی می‌گیرند: آیا چیزی بر زمین ریشه‌دار و ماندگار است، یا ما کوتاه اینجاییم و تنها به همان شیوه‌ای که یک نقاشی یا یک ترانه اینجاست."
+            }
+          },
+          {
+            "id": "attribution",
+            "heading": {
+              "en": "How the poems reach us",
+              "fa": "شعرها چگونه به ما می‌رسند"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "The Nahua poems were written down in the sixteenth century, after the conquest, in collections compiled from oral performance. Which pieces are Nezahualcóyotl's own is not settled, and the versions we have passed through scribes working under Spanish supervision. The philosophy in them is real; the attribution to one named author is the uncertain part.",
+              "fa": "شعرهای ناواتل در قرن شانزدهم و پس از فتح نوشته شدند، در مجموعه‌هایی که از اجرای شفاهی گرد آمده بودند. اینکه کدام قطعه‌ها از خودِ نساوالکویوتل‌اند قطعی نیست، و نسخه‌هایی که داریم از دست کاتبانی گذشته که زیر نظارت اسپانیایی کار می‌کردند. فلسفهٔ درون آن‌ها واقعی است؛ آنچه نامعلوم است انتساب به یک نویسندهٔ نام‌دار است."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Nezahualcōyōtl",
+      "transliteration": "Nezahualcōyōtl"
+    },
+    {
+      "id": "sor-juana",
+      "name": { "en": "Sor Juana Inés de la Cruz", "fa": "سور خوانا" },
+      "oneLine": {
+        "en": "Defended a woman's right to think, in a letter that ended her writing life.",
+        "fa": "در نامه‌ای که به نوشتنش پایان داد، از حق زن برای اندیشیدن دفاع کرد."
+      },
+      "life": {
+        "birth": { "year": 1648, "precision": "circa" },
+        "death": { "year": 1695, "precision": "circa" }
+      },
+      "traditions": ["latin-american"],
+      "branches": [
+        "feminist-philosophy",
+        "epistemology",
+        "philosophy-of-education"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Sor Juana was a nun in colonial Mexico with the largest library in the Americas. Her Reply to Sor Filotea answers a bishop who told her to stop studying, and argues that the desire to know is not a fault to be cured, that women have always taught, and that theology cannot be done without the disciplines beneath it. She was forced to give up her books soon after.",
+              "fa": "سور خوانا راهبه‌ای در مکزیک مستعمراتی بود با بزرگ‌ترین کتابخانهٔ قارهٔ آمریکا. «پاسخ به سور فیلوته‌آ»ی او جواب اسقفی است که به او گفته بود از تحصیل دست بردارد، و استدلال می‌کند که میل به دانستن عیبی نیست که درمان بخواهد، که زنان همیشه آموزش داده‌اند، و که الهیات را بی‌دانش‌های زیرین آن نمی‌توان کرد. اندکی بعد ناچار شد کتاب‌هایش را واگذارد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dussel",
+      "name": { "en": "Enrique Dussel", "fa": "انریکه دوسل" },
+      "oneLine": {
+        "en": "Argued that modern philosophy was written from the centre and forgot the rest.",
+        "fa": "استدلال کرد فلسفهٔ مدرن از مرکز نوشته شده و بقیه را فراموش کرده است."
+      },
+      "life": {
+        "birth": { "year": 1934, "precision": "circa" },
+        "death": { "year": 2023, "precision": "circa" }
+      },
+      "traditions": ["latin-american"],
+      "branches": ["decolonial-philosophy", "ethics", "philosophy-of-history"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Dussel founded the philosophy of liberation. His argument is that European modernity told its story as if it developed from inside itself, when in fact the conquest of the Americas was its condition; and that an ethics adequate to that history has to begin from the excluded rather than from the autonomous subject.",
+              "fa": "دوسل «فلسفهٔ رهایی» را بنیان گذاشت. استدلال او این است که مدرنیتهٔ اروپایی داستان خود را چنان گفت که گویی از درون خودش رشد کرده، حال آنکه در واقع فتح قارهٔ آمریکا شرطِ آن بود؛ و اخلاقی که در خورِ این تاریخ باشد باید از طردشدگان آغاز کند نه از سوژهٔ خودآیین."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "viola-cordova",
+      "name": { "en": "Viola Cordova", "fa": "ویولا کوردووا" },
+      "oneLine": {
+        "en": "Set out Native American metaphysics as philosophy rather than as belief.",
+        "fa": "مابعدالطبیعهٔ بومیان آمریکا را همچون فلسفه عرضه کرد، نه همچون باور."
+      },
+      "life": {
+        "birth": { "year": 1937, "precision": "circa" },
+        "death": { "year": 2002, "precision": "circa" }
+      },
+      "traditions": ["first-nations", "indigenous"],
+      "branches": [
+        "metaphysics",
+        "comparative-philosophy",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Cordova was among the first Native American women to take a doctorate in philosophy, and worked to state Jicarilla Apache and wider Native thought in the terms of the discipline. A recurring point is that the difference from European metaphysics is not mysticism but a different starting question: not what things are made of, but how everything is related.",
+              "fa": "کوردووا از نخستین زنان بومی آمریکا بود که در فلسفه دکتری گرفت، و کوشید اندیشهٔ آپاچی خیکاریا و به‌طور کلی‌تر اندیشهٔ بومی را به زبان همین رشته بیان کند. نکته‌ای که بارها برمی‌گردد این است که تفاوت با مابعدالطبیعهٔ اروپایی عرفان نیست، بلکه پرسشِ آغازینِ دیگری است: نه اینکه چیزها از چه ساخته شده‌اند، بلکه اینکه هر چیز چگونه با هر چیز نسبت دارد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "solovyov",
+      "name": { "en": "Vladimir Solovyov", "fa": "ولادیمیر سالاویف" },
+      "oneLine": {
+        "en": "Tried to unify knowledge, ethics and religion into a single system.",
+        "fa": "کوشید معرفت، اخلاق و دین را در یک نظام واحد یکی کند."
+      },
+      "life": {
+        "birth": { "year": 1853, "precision": "circa" },
+        "death": { "year": 1900, "precision": "circa" }
+      },
+      "traditions": ["russian"],
+      "branches": ["metaphysics", "philosophy-of-religion", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Solovyov is the founder of Russian systematic philosophy. His governing idea is unitotality — that reality is one and that the divisions between kinds of knowledge are provisional. His late work on the justification of the good is an attempt to ground ethics without deriving it from either self-interest or command.",
+              "fa": "سالاویف بنیان‌گذار فلسفهٔ نظام‌مند روسی است. ایدهٔ حاکم بر کارش «همه‌واحدی» است: اینکه حقیقت یکی است و مرزهای میان انواع معرفت موقت‌اند. کار متأخر او دربارهٔ توجیه خیر، کوششی است برای بنیادگذاشتن اخلاق بی‌آنکه از نفع شخصی یا از فرمان استنتاج شود."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Владимир Соловьёв",
+      "transliteration": "Vladimir Solovyov"
+    },
+    {
+      "id": "berdyaev",
+      "name": { "en": "Nikolai Berdyaev", "fa": "نیکلای بردیایف" },
+      "oneLine": {
+        "en": "Put freedom before being, and said even God does not create it.",
+        "fa": "آزادی را بر هستی مقدم کرد و گفت حتی خدا آن را نمی‌آفریند."
+      },
+      "life": {
+        "birth": { "year": 1874, "precision": "circa" },
+        "death": { "year": 1948, "precision": "circa" }
+      },
+      "traditions": ["russian", "christian"],
+      "branches": [
+        "existential-philosophy",
+        "philosophy-of-religion",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Berdyaev's central move is to make freedom more fundamental than being: it is not something granted to creatures but a condition that even the creator does not originate. He used this to argue against every system, religious or political, that subordinates the person to a collective purpose — and was expelled from Russia for it.",
+              "fa": "حرکت محوری بردیایف بنیادی‌ترکردنِ آزادی از هستی است: آزادی چیزی نیست که به مخلوق بخشیده شود، بلکه شرطی است که حتی آفریننده سرچشمهٔ آن نیست. او از این برای استدلال علیه هر نظامی — دینی یا سیاسی — بهره برد که شخص را تابع هدفی جمعی کند، و به همین سبب از روسیه اخراج شد."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }],
+      "nativeName": "Николай Бердяев",
+      "transliteration": "Nikolai Berdyaev"
     }
   ]
 }

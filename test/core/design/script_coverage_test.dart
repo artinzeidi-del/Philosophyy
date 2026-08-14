@@ -67,6 +67,33 @@ void main() {
       }
     });
 
+    test('each single-script face carries the script it was bundled for', () {
+      // Same guard as the CJK one above, for the faces added so the Jewish,
+      // Ethiopian and Tibetan entries could print their subjects' names. A
+      // face fetched from the wrong path is a plausible mistake and would
+      // otherwise surface only as boxes on a screen nobody opened.
+      expect(coverage['NotoSerifHebrew'], contains('מ'.runes.first));
+      expect(coverage['NotoSerifEthiopic'], contains('ዘ'.runes.first));
+      expect(coverage['NotoSerifTibetan'], contains('ཙ'.runes.first));
+    });
+
+    test('every family declared in pubspec.yaml is checked here', () {
+      // The map below is hand-maintained, and a family bundled without being
+      // added to it is invisible to every check in this file — which is
+      // exactly how the Hebrew, Ethiopic and Tibetan faces were nearly
+      // shipped unverified.
+      final declared = RegExp(r'^\s{4}- family: (\w+)$', multiLine: true)
+          .allMatches(File('pubspec.yaml').readAsStringSync())
+          .map((match) => match.group(1)!)
+          .toSet();
+      expect(declared, isNotEmpty, reason: 'no font families were found');
+      expect(
+        declared.difference(_fontFiles.keys.toSet()),
+        isEmpty,
+        reason: 'these families are bundled but not covered by this test',
+      );
+    });
+
     test('the Greek face carries Greek Extended, not just modern Greek', () {
       // Ἐ — the character that shipped as an empty box in Ἐπίκτητος.
       expect(coverage['GFSDidot'], contains(0x1F18));
@@ -133,6 +160,11 @@ const Map<String, String> _fontFiles = <String, String>{
   'NotoSerifKR': 'assets/fonts/notoserifcjk/NotoSerifKR-Subset.ttf',
   'NotoSerifDevanagari':
       'assets/fonts/notoserifdevanagari/NotoSerifDevanagari-Regular.ttf',
+  'NotoSerifHebrew': 'assets/fonts/notoserifhebrew/NotoSerifHebrew-Regular.ttf',
+  'NotoSerifEthiopic':
+      'assets/fonts/notoserifethiopic/NotoSerifEthiopic-Regular.ttf',
+  'NotoSerifTibetan':
+      'assets/fonts/notoseriftibetan/NotoSerifTibetan-Regular.ttf',
 };
 
 /// Characters no test can hold a font responsible for.
