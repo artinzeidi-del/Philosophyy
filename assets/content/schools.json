@@ -24,7 +24,7 @@
       "members": ["socrates", "plato"],
       "concepts": ["theory-of-forms"],
       "opposes": ["aristotelianism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "plato-republic" }, { "source": "sep" }]
     },
     {
       "id": "aristotelianism",
@@ -50,7 +50,10 @@
       "members": ["aristotle", "ibn-sina"],
       "concepts": ["eudaimonia", "golden-mean"],
       "opposes": ["platonism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "aristotle-nicomachean-ethics" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "stoicism",
@@ -79,7 +82,7 @@
       ],
       "members": ["epictetus"],
       "concepts": ["dichotomy-of-control"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }]
     },
     {
       "id": "madhyamaka",
@@ -102,7 +105,7 @@
       "founders": ["nagarjuna"],
       "members": ["nagarjuna"],
       "concepts": ["sunyata"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }]
     },
     {
       "id": "confucianism",
@@ -125,7 +128,7 @@
       "founders": ["confucius"],
       "members": ["confucius"],
       "concepts": ["ren"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }]
     },
     {
       "id": "transcendent-wisdom",
@@ -152,7 +155,7 @@
       "founders": ["mulla-sadra"],
       "members": ["mulla-sadra"],
       "concepts": ["substantial-motion", "essence-existence-distinction"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
     },
     {
       "id": "daoism",
@@ -179,7 +182,7 @@
       "founders": ["laozi"],
       "members": ["laozi", "zhuangzi"],
       "opposes": ["legalism", "confucianism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
     },
     {
       "id": "legalism",
@@ -206,7 +209,7 @@
       "founders": ["han-feizi"],
       "members": ["han-feizi", "xunzi"],
       "opposes": ["confucianism", "mohism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-hanfeizi-book" }, { "source": "sep" }]
     },
     {
       "id": "mohism",
@@ -259,7 +262,7 @@
       ],
       "founders": ["zhu-xi"],
       "members": ["zhu-xi", "wang-yangming", "mou-zongsan"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-chuanxilu" }, { "source": "sep" }]
     },
     {
       "id": "advaita-vedanta",
@@ -286,7 +289,10 @@
       "founders": ["shankara"],
       "members": ["shankara"],
       "opposes": ["vishishtadvaita"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-brahma-sutra-bhasya" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "vishishtadvaita",
@@ -313,7 +319,7 @@
       "founders": ["ramanuja"],
       "members": ["ramanuja"],
       "opposes": ["advaita-vedanta"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-sri-bhasya" }, { "source": "sep" }]
     },
     {
       "id": "yogacara",
@@ -340,7 +346,7 @@
       "founders": ["vasubandhu"],
       "members": ["vasubandhu", "dignaga"],
       "opposes": ["madhyamaka"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-vimsatika" }, { "source": "sep" }]
     },
     {
       "id": "jainism",
@@ -396,7 +402,7 @@
       ],
       "founders": ["dogen"],
       "members": ["dogen"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-shobogenzo" }, { "source": "sep" }]
     },
     {
       "id": "kyoto-school",
@@ -427,7 +433,10 @@
       ],
       "founders": ["nishida"],
       "members": ["nishida"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-inquiry-into-the-good" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "gelug",
@@ -458,7 +467,7 @@
       ],
       "founders": ["tsongkhapa"],
       "members": ["tsongkhapa"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-lamrim-chenmo" }, { "source": "sep" }]
     },
     {
       "id": "scholasticism",
@@ -482,7 +491,7 @@
       ],
       "founders": ["anselm"],
       "members": ["anselm", "aquinas", "scotus", "ockham", "abelard"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-proslogion" }, { "source": "sep" }]
     },
     {
       "id": "nominalism",
@@ -507,7 +516,7 @@
       "founders": ["ockham"],
       "members": ["ockham", "abelard"],
       "opposes": ["platonism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-summa-logicae" }, { "source": "sep" }]
     },
     {
       "id": "rationalism",
@@ -532,7 +541,7 @@
       "founders": ["descartes"],
       "members": ["descartes", "spinoza", "leibniz"],
       "opposes": ["empiricism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }]
     },
     {
       "id": "empiricism",
@@ -614,7 +623,7 @@
       ],
       "founders": ["husserl"],
       "members": ["husserl", "heidegger", "merleau-ponty", "levinas"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }]
     },
     {
       "id": "existentialism",
@@ -643,7 +652,10 @@
       ],
       "founders": ["sartre"],
       "members": ["sartre", "beauvoir", "kierkegaard"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-being-and-nothingness" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "pragmatism",
@@ -708,7 +720,7 @@
         "anscombe",
         "rawls"
       ],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-begriffsschrift" }, { "source": "sep" }]
     },
     {
       "id": "critical-theory",

@@ -246,6 +246,228 @@
       "publisher": "Tufts University",
       "url": "https://www.perseus.tufts.edu",
       "rightsNote": "Greek and Latin primary texts with apparatus, hosted by Tufts University."
+    },
+    {
+      "id": "text-daodejing",
+      "kind": "primary-text",
+      "title": { "en": "Daodejing", "fa": "دائو ده جینگ" },
+      "authors": ["Laozi"]
+    },
+    {
+      "id": "text-zhuangzi-book",
+      "kind": "primary-text",
+      "title": { "en": "Zhuangzi", "fa": "جوانگ‌دزه" },
+      "authors": ["Zhuangzi"]
+    },
+    {
+      "id": "text-mengzi",
+      "kind": "primary-text",
+      "title": { "en": "Mencius", "fa": "منسیوس" },
+      "authors": ["Mencius"]
+    },
+    {
+      "id": "text-xunzi-book",
+      "kind": "primary-text",
+      "title": { "en": "Xunzi", "fa": "شون‌دزه" },
+      "authors": ["Xunzi"]
+    },
+    {
+      "id": "text-hanfeizi-book",
+      "kind": "primary-text",
+      "title": { "en": "Han Feizi", "fa": "هان فی‌دزه" },
+      "authors": ["Han Feizi"]
+    },
+    {
+      "id": "text-chuanxilu",
+      "kind": "primary-text",
+      "title": {
+        "en": "Instructions for Practical Living",
+        "fa": "آموزه‌های زندگی عملی"
+      },
+      "authors": ["Wang Yangming"]
+    },
+    {
+      "id": "text-brahma-sutra-bhasya",
+      "kind": "primary-text",
+      "title": {
+        "en": "Commentary on the Brahma Sūtras",
+        "fa": "شرح برهمه‌سوتره"
+      },
+      "authors": ["Śaṅkara"]
+    },
+    {
+      "id": "text-sri-bhasya",
+      "kind": "primary-text",
+      "title": { "en": "Śrī Bhāṣya", "fa": "شری‌بهاشیه" },
+      "authors": ["Rāmānuja"]
+    },
+    {
+      "id": "text-vimsatika",
+      "kind": "primary-text",
+      "title": { "en": "Twenty Verses", "fa": "بیست بیت" },
+      "authors": ["Vasubandhu"]
+    },
+    {
+      "id": "text-pramanasamuccaya",
+      "kind": "primary-text",
+      "title": {
+        "en": "Compendium of Valid Cognition",
+        "fa": "مجموعهٔ معرفت معتبر"
+      },
+      "authors": ["Dignāga"]
+    },
+    {
+      "id": "text-shobogenzo",
+      "kind": "primary-text",
+      "title": { "en": "Shōbōgenzō", "fa": "شوبوگنزو" },
+      "authors": ["Dōgen"]
+    },
+    {
+      "id": "text-inquiry-into-the-good",
+      "kind": "primary-text",
+      "title": { "en": "An Inquiry into the Good", "fa": "پژوهشی در باب خیر" },
+      "authors": ["Nishida Kitarō"]
+    },
+    {
+      "id": "text-lamrim-chenmo",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Great Treatise on the Stages of the Path",
+        "fa": "رسالهٔ بزرگ مراحل راه"
+      },
+      "authors": ["Tsongkhapa"]
+    },
+    {
+      "id": "text-guide-for-the-perplexed",
+      "kind": "primary-text",
+      "title": { "en": "The Guide for the Perplexed", "fa": "راهنمای سرگشتگان" },
+      "authors": ["Maimonides"]
+    },
+    {
+      "id": "text-confessions",
+      "kind": "primary-text",
+      "title": { "en": "Confessions", "fa": "اعترافات" },
+      "authors": ["Augustine of Hippo"]
+    },
+    {
+      "id": "text-city-of-god",
+      "kind": "primary-text",
+      "title": { "en": "The City of God", "fa": "شهر خدا" },
+      "authors": ["Augustine of Hippo"]
+    },
+    {
+      "id": "text-summa-theologiae",
+      "kind": "primary-text",
+      "title": { "en": "Summa Theologiae", "fa": "خلاصهٔ الهیات" },
+      "authors": ["Thomas Aquinas"]
+    },
+    {
+      "id": "text-proslogion",
+      "kind": "primary-text",
+      "title": { "en": "Proslogion", "fa": "پروسلوگیون" },
+      "authors": ["Anselm of Canterbury"]
+    },
+    {
+      "id": "text-summa-logicae",
+      "kind": "primary-text",
+      "title": { "en": "Summa Logicae", "fa": "خلاصهٔ منطق" },
+      "authors": ["William of Ockham"]
+    },
+    {
+      "id": "text-the-prince",
+      "kind": "primary-text",
+      "title": { "en": "The Prince", "fa": "شهریار" },
+      "authors": ["Niccolò Machiavelli"]
+    },
+    {
+      "id": "text-essays-montaigne",
+      "kind": "primary-text",
+      "title": { "en": "Essays", "fa": "مقالات" },
+      "authors": ["Michel de Montaigne"]
+    },
+    {
+      "id": "text-ethics-spinoza",
+      "kind": "primary-text",
+      "title": { "en": "Ethics", "fa": "اخلاق" },
+      "authors": ["Baruch Spinoza"]
+    },
+    {
+      "id": "text-begriffsschrift",
+      "kind": "primary-text",
+      "title": { "en": "Begriffsschrift", "fa": "مفهوم‌نگاشت" },
+      "authors": ["Gottlob Frege"]
+    },
+    {
+      "id": "text-tractatus",
+      "kind": "primary-text",
+      "title": {
+        "en": "Tractatus Logico-Philosophicus",
+        "fa": "رسالهٔ منطقی–فلسفی"
+      },
+      "authors": ["Ludwig Wittgenstein"]
+    },
+    {
+      "id": "text-philosophical-investigations",
+      "kind": "primary-text",
+      "title": { "en": "Philosophical Investigations", "fa": "پژوهش‌های فلسفی" },
+      "authors": ["Ludwig Wittgenstein"]
+    },
+    {
+      "id": "text-being-and-time",
+      "kind": "primary-text",
+      "title": { "en": "Being and Time", "fa": "هستی و زمان" },
+      "authors": ["Martin Heidegger"]
+    },
+    {
+      "id": "text-being-and-nothingness",
+      "kind": "primary-text",
+      "title": { "en": "Being and Nothingness", "fa": "هستی و نیستی" },
+      "authors": ["Jean-Paul Sartre"]
+    },
+    {
+      "id": "text-phenomenology-of-perception",
+      "kind": "primary-text",
+      "title": {
+        "en": "Phenomenology of Perception",
+        "fa": "پدیدارشناسی ادراک"
+      },
+      "authors": ["Maurice Merleau-Ponty"]
+    },
+    {
+      "id": "text-discipline-and-punish",
+      "kind": "primary-text",
+      "title": { "en": "Discipline and Punish", "fa": "مراقبت و تنبیه" },
+      "authors": ["Michel Foucault"]
+    },
+    {
+      "id": "text-hatata",
+      "kind": "primary-text",
+      "title": { "en": "The Hatata", "fa": "حَتَتَه" },
+      "authors": ["Zera Yacob"]
+    },
+    {
+      "id": "text-black-skin-white-masks",
+      "kind": "primary-text",
+      "title": {
+        "en": "Black Skin, White Masks",
+        "fa": "پوست سیاه، صورتک‌های سفید"
+      },
+      "authors": ["Frantz Fanon"]
+    },
+    {
+      "id": "text-wretched-of-the-earth",
+      "kind": "primary-text",
+      "title": { "en": "The Wretched of the Earth", "fa": "دوزخیان روی زمین" },
+      "authors": ["Frantz Fanon"]
+    },
+    {
+      "id": "text-respuesta",
+      "kind": "primary-text",
+      "title": {
+        "en": "Reply to Sister Filotea",
+        "fa": "پاسخ به خواهر فیلوته‌آ"
+      },
+      "authors": ["Sor Juana Inés de la Cruz"]
     }
   ]
 }

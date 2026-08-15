@@ -44,7 +44,7 @@
       ],
       "philosophers": ["socrates", "plato"],
       "works": ["apology"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "plato-apology" }, { "source": "sep" }]
     },
     {
       "id": "theory-of-forms",
@@ -108,7 +108,7 @@
       "related": ["essence-existence-distinction"],
       "philosophers": ["plato"],
       "works": ["republic"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "plato-republic" }, { "source": "sep" }]
     },
     {
       "id": "eudaimonia",
@@ -163,7 +163,10 @@
       "related": ["golden-mean"],
       "philosophers": ["aristotle"],
       "works": ["nicomachean-ethics"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "aristotle-nicomachean-ethics" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "golden-mean",
@@ -218,7 +221,10 @@
       "related": ["eudaimonia"],
       "philosophers": ["aristotle"],
       "works": ["nicomachean-ethics"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "aristotle-nicomachean-ethics" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "dichotomy-of-control",
@@ -266,7 +272,7 @@
       ],
       "philosophers": ["epictetus"],
       "works": ["enchiridion"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }]
     },
     {
       "id": "essence-existence-distinction",
@@ -340,7 +346,7 @@
       "related": ["essence-existence-distinction"],
       "philosophers": ["mulla-sadra"],
       "works": ["asfar"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
     },
     {
       "id": "cogito",
@@ -382,7 +388,7 @@
       "related": ["essence-existence-distinction"],
       "philosophers": ["descartes", "ibn-sina"],
       "works": ["meditations"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }]
     },
     {
       "id": "categorical-imperative",
@@ -424,7 +430,10 @@
         }
       ],
       "philosophers": ["kant"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "kant-critique-pure-reason" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "sunyata",
@@ -506,7 +515,7 @@
       },
       "philosophers": ["confucius"],
       "works": ["analects"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }]
     },
     {
       "id": "double-consciousness",
@@ -560,7 +569,7 @@
       "related": ["wu-wei"],
       "philosophers": ["laozi", "zhuangzi", "confucius"],
       "works": ["daodejing", "zhuangzi-book"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
     },
     {
       "id": "wu-wei",
@@ -580,7 +589,7 @@
       "related": ["dao"],
       "philosophers": ["laozi", "zhuangzi"],
       "works": ["daodejing"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
     },
     {
       "id": "li-ritual",
@@ -599,7 +608,7 @@
       "branches": ["ethics", "social-philosophy"],
       "related": ["ren"],
       "philosophers": ["confucius", "xunzi", "zhu-xi"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }]
     },
     {
       "id": "anekantavada",
@@ -691,7 +700,7 @@
       "branches": ["epistemology", "logic"],
       "philosophers": ["dignaga", "shankara", "ramanuja"],
       "works": ["pramanasamuccaya"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-pramanasamuccaya" }, { "source": "sep" }]
     },
     {
       "id": "dependent-origination",
@@ -710,7 +719,7 @@
       "branches": ["metaphysics"],
       "related": ["sunyata"],
       "philosophers": ["buddha", "nagarjuna", "tsongkhapa"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }]
     },
     {
       "id": "negative-theology",
@@ -731,7 +740,10 @@
       ],
       "philosophers": ["maimonides", "ibn-arabi", "nicholas-of-cusa"],
       "works": ["guide-for-the-perplexed"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-guide-for-the-perplexed" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "wahdat-al-wujud",
@@ -927,7 +939,10 @@
       "branches": ["existential-philosophy", "ethics", "philosophy-of-mind"],
       "philosophers": ["sartre", "beauvoir"],
       "works": ["being-and-nothingness"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-being-and-nothingness" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "the-other",
@@ -943,7 +958,7 @@
       "traditions": ["continental", "european"],
       "branches": ["ethics", "feminist-philosophy", "social-philosophy"],
       "philosophers": ["beauvoir", "levinas"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "beauvoir-second-sex" }, { "source": "sep" }]
     },
     {
       "id": "performativity",
@@ -1015,7 +1030,10 @@
         "philosophy-of-history"
       ],
       "philosophers": ["dussel", "wynter", "fanon", "cesaire"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-black-skin-white-masks" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "ubuntu-personhood",

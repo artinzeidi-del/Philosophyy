@@ -67,7 +67,7 @@
       "branches": ["ethics", "epistemology"],
       "concepts": ["socratic-method"],
       "editions": ["plato-apology", "perseus"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "plato-apology" }, { "source": "sep" }]
     },
     {
       "id": "nicomachean-ethics",
@@ -84,7 +84,10 @@
       "branches": ["ethics"],
       "concepts": ["eudaimonia", "golden-mean"],
       "editions": ["aristotle-nicomachean-ethics", "perseus"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "aristotle-nicomachean-ethics" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "enchiridion",
@@ -102,7 +105,7 @@
       "branches": ["ethics"],
       "concepts": ["dichotomy-of-control"],
       "editions": ["epictetus-enchiridion", "epictetus-discourses"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }]
     },
     {
       "id": "isharat",
@@ -140,7 +143,7 @@
       "traditions": ["islamic", "persian"],
       "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
       "editions": ["ghazali-tahafut", "ghazali-munqidh"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "ghazali-tahafut" }, { "source": "sep" }]
     },
     {
       "id": "asfar",
@@ -157,7 +160,7 @@
       "branches": ["metaphysics", "philosophy-of-religion"],
       "concepts": ["substantial-motion", "essence-existence-distinction"],
       "editions": ["sadra-asfar"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
     },
     {
       "id": "analects",
@@ -177,7 +180,7 @@
       "branches": ["ethics", "political-philosophy", "philosophy-of-education"],
       "concepts": ["ren"],
       "editions": ["confucius-analects"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }]
     },
     {
       "id": "mulamadhyamakakarika",
@@ -198,7 +201,7 @@
       "branches": ["metaphysics", "logic", "philosophy-of-religion"],
       "concepts": ["sunyata"],
       "editions": ["nagarjuna-mmk"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }]
     },
     {
       "id": "meditations",
@@ -217,7 +220,7 @@
       "branches": ["epistemology", "metaphysics", "philosophy-of-mind"],
       "concepts": ["cogito"],
       "editions": ["descartes-meditations", "descartes-discourse"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }]
     },
     {
       "id": "critique-of-pure-reason",
@@ -235,7 +238,10 @@
       "traditions": ["european"],
       "branches": ["epistemology", "metaphysics"],
       "editions": ["kant-critique-pure-reason", "kant-groundwork"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "kant-critique-pure-reason" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "gay-science",
@@ -253,7 +259,7 @@
       "traditions": ["european"],
       "branches": ["ethics", "aesthetics", "metaphysics"],
       "editions": ["nietzsche-gay-science"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "nietzsche-gay-science" }, { "source": "sep" }]
     },
     {
       "id": "second-sex",
@@ -273,7 +279,7 @@
         "political-philosophy"
       ],
       "editions": ["beauvoir-second-sex"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "beauvoir-second-sex" }, { "source": "sep" }]
     },
     {
       "id": "souls-of-black-folk",
@@ -317,7 +323,7 @@
         ]
       },
       "concepts": ["dao", "wu-wei"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
     },
     {
       "id": "zhuangzi-book",
@@ -346,7 +352,7 @@
         ]
       },
       "concepts": ["dao"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-zhuangzi-book" }, { "source": "sep" }]
     },
     {
       "id": "mengzi",
@@ -374,7 +380,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-mengzi" }, { "source": "sep" }]
     },
     {
       "id": "xunzi-book",
@@ -402,7 +408,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-xunzi-book" }, { "source": "sep" }]
     },
     {
       "id": "hanfeizi-book",
@@ -430,7 +436,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-hanfeizi-book" }, { "source": "sep" }]
     },
     {
       "id": "chuanxilu",
@@ -461,7 +467,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-chuanxilu" }, { "source": "sep" }]
     },
     {
       "id": "brahma-sutra-bhasya",
@@ -492,7 +498,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-brahma-sutra-bhasya" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "sri-bhasya",
@@ -520,7 +529,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-sri-bhasya" }, { "source": "sep" }]
     },
     {
       "id": "vimsatika",
@@ -548,7 +557,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-vimsatika" }, { "source": "sep" }]
     },
     {
       "id": "pramanasamuccaya",
@@ -580,7 +589,7 @@
         ]
       },
       "concepts": ["pramana"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-pramanasamuccaya" }, { "source": "sep" }]
     },
     {
       "id": "shobogenzo",
@@ -612,7 +621,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-shobogenzo" }, { "source": "sep" }]
     },
     {
       "id": "inquiry-into-the-good",
@@ -645,7 +654,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-inquiry-into-the-good" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "lamrim-chenmo",
@@ -681,7 +693,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-lamrim-chenmo" }, { "source": "sep" }]
     },
     {
       "id": "guide-for-the-perplexed",
@@ -715,7 +727,10 @@
         ]
       },
       "concepts": ["negative-theology"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-guide-for-the-perplexed" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "confessions",
@@ -747,7 +762,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-confessions" }, { "source": "sep" }]
     },
     {
       "id": "city-of-god",
@@ -779,7 +794,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-city-of-god" }, { "source": "sep" }]
     },
     {
       "id": "summa-theologiae",
@@ -811,7 +826,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-summa-theologiae" }, { "source": "sep" }]
     },
     {
       "id": "proslogion",
@@ -838,7 +853,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-proslogion" }, { "source": "sep" }]
     },
     {
       "id": "summa-logicae",
@@ -865,7 +880,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-summa-logicae" }, { "source": "sep" }]
     },
     {
       "id": "the-prince",
@@ -892,7 +907,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-the-prince" }, { "source": "sep" }]
     },
     {
       "id": "essays-montaigne",
@@ -919,7 +934,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-essays-montaigne" }, { "source": "sep" }]
     },
     {
       "id": "ethics-spinoza",
@@ -951,7 +966,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-ethics-spinoza" }, { "source": "sep" }]
     },
     {
       "id": "begriffsschrift",
@@ -982,7 +997,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-begriffsschrift" }, { "source": "sep" }]
     },
     {
       "id": "tractatus",
@@ -1012,7 +1027,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-tractatus" }, { "source": "sep" }]
     },
     {
       "id": "philosophical-investigations",
@@ -1043,7 +1058,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-philosophical-investigations" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "being-and-time",
@@ -1074,7 +1092,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }]
     },
     {
       "id": "being-and-nothingness",
@@ -1107,7 +1125,10 @@
         ]
       },
       "concepts": ["bad-faith"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-being-and-nothingness" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "phenomenology-of-perception",
@@ -1137,7 +1158,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-phenomenology-of-perception" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "discipline-and-punish",
@@ -1169,7 +1193,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-discipline-and-punish" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "hatata",
@@ -1197,7 +1224,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-hatata" }, { "source": "sep" }]
     },
     {
       "id": "black-skin-white-masks",
@@ -1232,7 +1259,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-black-skin-white-masks" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "wretched-of-the-earth",
@@ -1264,7 +1294,10 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-wretched-of-the-earth" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "respuesta",
@@ -1299,7 +1332,7 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-respuesta" }, { "source": "sep" }]
     }
   ]
 }

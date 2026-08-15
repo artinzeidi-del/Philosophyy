@@ -55,6 +55,13 @@ class _EntityScreenState extends ConsumerState<EntityScreen> {
   /// theirs to change for as long as the screen is open.
   ContentDepth? _depth;
 
+  /// The depth to open [article] at for this reader.
+  static ContentDepth _openingDepth(Article article, WidgetRef ref) {
+    final preferred = ref.read(settingsProvider).defaultDepth;
+    final shallowest = article.shallowestAuthoredDepth;
+    return preferred.order >= shallowest.order ? preferred : shallowest;
+  }
+
   @override
   Widget build(BuildContext context) {
     final corpus = ref.watch(corpusProvider);
@@ -90,7 +97,10 @@ class _EntityScreenState extends ConsumerState<EntityScreen> {
           entity: entity,
           corpus: data,
           language: language,
-          depth: _depth ?? ref.read(settingsProvider).defaultDepth,
+          // The reader's level, raised to the shallowest level this entry
+          // actually has. Their preference is a request for the least detail
+          // they want; it is not a request for a blank page.
+          depth: _depth ?? _openingDepth(entity.article, ref),
           onDepthChanged: (depth) => setState(() => _depth = depth),
         );
       },
@@ -279,16 +289,22 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                         _ => null,
                       },
                     ),
-                    const SizedBox(height: Spacing.xl),
-                    if (entity.article.hasMoreBeyond(ContentDepth.quick) ||
-                        depth != ContentDepth.quick)
-                      _DepthSelector(
-                        article: entity.article,
-                        depth: depth,
-                        language: language,
-                        onChanged: onDepthChanged,
-                      ),
-                    const SizedBox(height: Spacing.lg),
+                    // Only as much room as there is something to put in it.
+                    // Every school in the corpus has no article, and the page
+                    // reserved the space anyway — a hole between the tags and
+                    // the first real section that read as a rendering fault.
+                    if (!entity.article.isEmpty) ...<Widget>[
+                      const SizedBox(height: Spacing.xl),
+                      if (entity.article.hasMoreBeyond(ContentDepth.quick) ||
+                          depth != ContentDepth.quick)
+                        _DepthSelector(
+                          article: entity.article,
+                          depth: depth,
+                          language: language,
+                          onChanged: onDepthChanged,
+                        ),
+                      const SizedBox(height: Spacing.lg),
+                    ],
                     // Changing depth replaces the whole article. Without the
                     // cross-fade the page snaps to a new length while the
                     // reader's eye is still on the old text.
@@ -752,9 +768,19 @@ class _DepthSelector extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final l10n = AppL10n.of(context);
+    // Only levels that change what is on the page. The Daodejing offered
+    // "Quick" and "Standard" while having a single standard section, so
+    // choosing Quick asked for a level that did not exist — and the article
+    // rendered blank. Offering a control that cannot do anything is worse than
+    // offering none.
     final deepest = article.deepestAuthoredDepth;
+    final shallowest = article.shallowestAuthoredDepth;
     final available = ContentDepth.values
-        .where((candidate) => candidate.order <= deepest.order)
+        .where(
+          (candidate) =>
+              candidate.order >= shallowest.order &&
+              candidate.order <= deepest.order,
+        )
         .toList();
 
     if (available.length <= 1) return const SizedBox.shrink();

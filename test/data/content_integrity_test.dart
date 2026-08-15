@@ -3,6 +3,7 @@ import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 
 /// Loads the corpus that actually ships and holds it to the content policy.
 ///
@@ -71,6 +72,25 @@ void main() {
   });
 
   group('Editorial policy', () {
+    test('no entry can render as a blank article', () {
+      // Every work and every school in the corpus opened with an empty space
+      // where the article should be. Their sections are authored at
+      // `standard`, the default reading level is `quick`, and `Article.at`
+      // faithfully returned nothing — so the screen faithfully drew nothing.
+      // Seventy-six entries shipped like that and every test passed, because
+      // the content was well formed and the screen was doing as it was told.
+      for (final entity in corpus.allEntities) {
+        if (entity.article.isEmpty) continue;
+        for (final depth in ContentDepth.values) {
+          expect(
+            entity.article.at(depth),
+            isNotEmpty,
+            reason: '${entity.ref} shows nothing at ${depth.id}',
+          );
+        }
+      }
+    });
+
     test('no section repeats another section of the same entry', () {
       // A deepening pass added a "standard" section to thirty entries, and
       // three of them restated a section the entry already had — Heidegger's

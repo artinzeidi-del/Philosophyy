@@ -80,8 +80,35 @@ class Article {
   bool get isEmpty => sections.isEmpty;
 
   /// The sections a reader at [depth] should see.
-  List<ContentSection> at(ContentDepth depth) =>
-      sections.where((section) => section.isVisibleAt(depth)).toList();
+  ///
+  /// Never empty when the article has any prose at all. An article whose
+  /// shallowest section is deeper than the reader's level used to return
+  /// nothing, and the screen rendered that faithfully: every work and every
+  /// school in the corpus opened with a blank space where the article should
+  /// be, because their sections are authored at `standard` and the default
+  /// reading level is `quick`. The reader was shown an empty article and given
+  /// no reason for it.
+  ///
+  /// Falling back to [shallowestAuthoredDepth] is the honest behaviour: the
+  /// depth control is a request for less, and there is no less to give.
+  List<ContentSection> at(ContentDepth depth) {
+    final visible = sections
+        .where((section) => section.isVisibleAt(depth))
+        .toList();
+    if (visible.isNotEmpty || sections.isEmpty) return visible;
+    return sections
+        .where((section) => section.isVisibleAt(shallowestAuthoredDepth))
+        .toList();
+  }
+
+  /// The shallowest depth at which this article has anything to say.
+  ContentDepth get shallowestAuthoredDepth {
+    var shallowest = ContentDepth.values.last;
+    for (final section in sections) {
+      if (section.depth.order < shallowest.order) shallowest = section.depth;
+    }
+    return shallowest;
+  }
 
   /// The deepest depth at which this article has anything new to offer, so the
   /// interface can avoid inviting a reader deeper into an empty room.

@@ -255,7 +255,7 @@
       "opponents": ["kant", "aquinas"],
       "work": "proslogion",
       "branches": ["philosophy-of-religion", "metaphysics", "logic"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-proslogion" }, { "source": "sep" }]
     },
     {
       "id": "problem-of-evil",
@@ -590,7 +590,7 @@
       "opponents": ["xunzi"],
       "work": "mengzi",
       "branches": ["ethics", "philosophy-of-mind", "philosophy-of-education"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-mengzi" }, { "source": "sep" }]
     },
     {
       "id": "ghazali-causation",
@@ -681,7 +681,7 @@
         "philosophy-of-science",
         "philosophy-of-religion"
       ],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "ghazali-tahafut" }, { "source": "sep" }]
     },
     {
       "id": "private-language-argument",
@@ -770,7 +770,10 @@
         "philosophy-of-mind",
         "epistemology"
       ],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-philosophical-investigations" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "original-position-argument",
@@ -956,7 +959,7 @@
         "philosophy-of-religion",
         "political-philosophy"
       ],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-hatata" }, { "source": "sep" }]
     },
     {
       "id": "ambedkar-caste-argument",
