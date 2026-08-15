@@ -303,6 +303,19 @@
               "fa": "«مکالمات» را پیروان در دوره‌ای دراز پس از مرگ او گرد آوردند، و لایه‌های آن از حیث قدمت و اعتبار یکدست نیستند. نقل از آن، نقلِ خاطرهٔ یک سنت از یک معلم است، و این با نقل از خود معلم فرق دارد؛ همان احتیاطی که دربارهٔ سقراط و بودا نیز صادق است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "why-ritual",
+            "heading": {
+              "en": "Why so much about ritual",
+              "fa": "چرا این‌همه دربارهٔ آیین"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "A reader arriving at the Analects for ethics finds long passages about bowing, mourning dress and the order of a meal, and it looks like etiquette. The argument underneath is that dispositions are formed by practice rather than by decision: a person becomes considerate by repeatedly doing the considerate thing in circumstances that call for it, and ritual is the accumulated store of what those circumstances are.",
+              "fa": "خواننده‌ای که برای اخلاق به «مکالمات» می‌آید بندهای بلندی دربارهٔ تعظیم و جامهٔ سوگ و ترتیب غذا می‌یابد، و این آداب‌دانی می‌نماید. استدلالِ زیرِ آن این است که خوی‌ها با تمرین شکل می‌گیرند نه با تصمیم: آدمی با تکرارِ کارِ ملاحظه‌کارانه در موقعیت‌هایی که آن را می‌طلبند ملاحظه‌کار می‌شود، و آیین همان انبارِ انباشتهٔ آن موقعیت‌هاست."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -352,6 +365,19 @@
               { "source": "nagarjuna-mmk", "locator": "ch. 24" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "not-nihilism",
+            "heading": {
+              "en": "Why emptiness is not nothingness",
+              "fa": "چرا تهیّت نیستی نیست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The standard objection is that if nothing has independent existence then nothing exists, and the whole enterprise refutes itself. Nāgārjuna's answer is that emptiness and dependent arising are the same claim stated twice: to be empty is to exist dependently, not to fail to exist. A thing without any independent nature is exactly a thing that could not arise, change or cease — which is what things do.",
+              "fa": "اعتراض همیشگی این است که اگر هیچ‌چیز هستیِ مستقل ندارد پس هیچ‌چیز نیست، و کل این کار خودش را رد می‌کند. پاسخ ناگارجونا این است که تهیّت و پیدایش وابسته یک ادعا هستند که دو بار گفته شده‌اند: تهی‌بودن یعنی وابسته‌بودن، نه نبودن. چیزی که هیچ سرشتِ مستقلی ندارد دقیقاً همان چیزی است که می‌تواند پدید آید و دگرگون شود و از میان برود — و کارِ چیزها همین است."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -500,6 +526,19 @@
             "body": {
               "en": "It is often said that Al-Ghazālī single-handedly ended philosophy in the Islamic world. Specialists have largely rejected this: philosophical work continued vigorously for centuries afterwards, particularly in Persia, and Al-Ghazālī himself used and taught Avicennan logic. The claim survives in popular accounts because it makes a tidy story.",
               "fa": "بارها گفته شده که غزالی یک‌تنه فلسفه را در جهان اسلام پایان داد. متخصصان این را عمدتاً رد کرده‌اند: کار فلسفی قرن‌ها پس از او، به‌ویژه در ایران، پرتوان ادامه یافت، و خودِ غزالی منطق سینوی را به‌کار می‌برد و تعلیم می‌داد. این ادعا در روایت‌های عامه باقی مانده چون داستان مرتبی می‌سازد."
+            },
+            "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "what-he-kept",
+            "heading": {
+              "en": "What he kept from the philosophers",
+              "fa": "از فیلسوفان چه نگه داشت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The Incoherence is often read as a rejection of philosophy, and al-Ghazālī separates the parts carefully. Logic and mathematics he endorses and teaches; physics he mostly accepts; it is twenty metaphysical positions he attacks, and three of those he calls unbelief. His own summary of the philosophers' views was so accurate that Latin readers took it for a work of philosophy and translated it as one.",
+              "fa": "«تهافت» را اغلب ردِ فلسفه می‌خوانند، و غزالی بخش‌ها را با دقت جدا می‌کند. منطق و ریاضیات را می‌پذیرد و درس می‌دهد؛ طبیعیات را بیشترش قبول دارد؛ آنچه به آن حمله می‌کند بیست موضع مابعدالطبیعی است و سه‌تای آن‌ها را کفر می‌خواند. خلاصهٔ خودش از آرای فیلسوفان چنان دقیق بود که خوانندگان لاتین آن را اثری فلسفی گرفتند و به همان عنوان ترجمه‌اش کردند."
             },
             "citations": [{ "source": "sep" }]
           }
@@ -910,6 +949,17 @@
               "en": "Zhuangzi wrote in stories and jokes rather than treatises. His recurring move is to show that the distinctions we argue over — useful and useless, big and small, waking and dreaming — look fixed only from inside one point of view, and that seeing this changes how tightly you hold your own.",
               "fa": "جوانگ‌تزه به‌جای رساله، داستان و شوخی نوشت. حرکت همیشگی او این است که نشان دهد تمایزهایی که بر سرشان بحث می‌کنیم — سودمند و بی‌سود، بزرگ و کوچک، بیداری و خواب — فقط از درون یک منظر ثابت به نظر می‌رسند؛ و دیدنِ این نکته، شدت چنگ‌زدن آدم به منظر خودش را عوض می‌کند."
             }
+          },
+          {
+            "id": "butterfly",
+            "heading": { "en": "The butterfly dream", "fa": "خواب پروانه" },
+            "depth": "standard",
+            "body": {
+              "en": "Zhuangzi dreams he is a butterfly, wakes, and does not know whether he is a man who dreamt he was a butterfly or a butterfly now dreaming he is a man. The passage is usually read as scepticism about knowledge, and the text does not go there: it ends by saying there must be some distinction between them, and calls that the transformation of things. The point is about the standpoint from which a distinction is drawn, not about whether one exists.",
+              "fa": "جوانگ‌دزه خواب می‌بیند پروانه است، بیدار می‌شود، و نمی‌داند مردی است که خواب پروانه دیده یا پروانه‌ای که اکنون خواب مرد بودن می‌بیند. این بند را معمولاً شکاکیت دربارهٔ معرفت می‌خوانند، و متن به آنجا نمی‌رود: با گفتنِ اینکه میان آن دو باید تمایزی باشد پایان می‌یابد و آن را «دگردیسی چیزها» می‌نامد. نکته دربارهٔ منظری است که تمایز از آن کشیده می‌شود، نه دربارهٔ اینکه تمایزی هست یا نه."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "interpretation"
           }
         ]
       },
@@ -1004,6 +1054,19 @@
               "en": "Mozi opposed the Confucian idea that care should be graded by closeness. He argued for impartial concern, judged benefits and harms by their consequences for everyone alike, and attacked expensive funerals and offensive war on that basis. His school also did the earliest sustained work on argument and definition in China.",
               "fa": "مو تزه با این ایدهٔ کنفوسیوسی مخالف بود که مهرورزی باید بر حسب نزدیکی درجه‌بندی شود. او از توجه بی‌طرفانه دفاع کرد، سود و زیان را بر پایهٔ پیامدشان برای همه به یک اندازه سنجید، و بر همین اساس به تشییع‌های پرخرج و جنگ تهاجمی تاخت. مکتب او نخستین کار پیوستهٔ چین دربارهٔ استدلال و تعریف را نیز انجام داد."
             }
+          },
+          {
+            "id": "impartial-care",
+            "heading": {
+              "en": "Why impartial concern is not sentimentality",
+              "fa": "چرا دلبستگی بی‌طرفانه احساساتی‌گری نیست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The Mohist argument is consequentialist and hard-headed. Partial concern — caring more for one's own family, state or class — is offered as natural, and Mozi's reply is that it is also the cause of the harms everyone complains about: states attack states, families rob families, and each does it out of exactly the partiality being defended. The standard is benefit to all, and it is defended by counting, not by feeling.",
+              "fa": "استدلال موئی پیامدگرایانه و خشک است. دلبستگی جانبدارانه — بیشتر خواستنِ خانواده و دولت و طبقهٔ خود — طبیعی خوانده می‌شود، و پاسخ مو‌دزه این است که همان هم علت آسیب‌هایی است که همه از آن‌ها می‌نالند: دولت‌ها به دولت‌ها حمله می‌کنند، خانواده‌ها از خانواده‌ها می‌دزدند، و هریک دقیقاً از سرِ همان جانبداری‌ای که از آن دفاع می‌شود. معیار، سودِ همگان است، و با شمردن دفاع می‌شود نه با احساس."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1065,6 +1128,19 @@
               "en": "Zhu Xi is the central figure of Neo-Confucianism. He organised the tradition around two notions: li, the pattern or principle a thing follows, and qi, the stuff it is made of. His selection of the Four Books and his commentaries on them became the basis of the imperial examinations, which is a rare case of a philosopher's reading list shaping a civil service for six hundred years.",
               "fa": "جو شی چهرهٔ مرکزی نوکنفوسیوس‌گرایی است. او سنت را حول دو مفهوم سامان داد: «لی»، یعنی الگو یا اصلی که هر چیز از آن پیروی می‌کند، و «چی»، یعنی مادّه‌ای که از آن ساخته شده است. گزینش او از «چهار کتاب» و شرح‌هایش بر آن‌ها پایهٔ امتحانات دیوانی شد؛ نمونه‌ای کمیاب از اینکه فهرست خواندنی یک فیلسوف ششصد سال یک نظام اداری را شکل بدهد."
             }
+          },
+          {
+            "id": "investigating-things",
+            "heading": {
+              "en": "What investigating things means",
+              "fa": "بررسی چیزها یعنی چه"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The phrase sounds empirical and is not quite. Zhu Xi holds that everything has a pattern that is also the pattern in oneself, so studying a bamboo and studying one's own conduct are two routes to the same structure. That is what Wang Yangming later found impossible: he reports sitting in front of bamboo for seven days investigating it, falling ill, and concluding that the pattern must be sought inward.",
+              "fa": "این عبارت تجربی می‌نماید و کاملاً چنین نیست. ژو شی معتقد است هر چیزی نظمی دارد که همان نظمِ درون خودِ آدمی هم هست، پس مطالعهٔ یک خیزران و مطالعهٔ رفتار خود، دو راه به یک ساختارند. همین است که وانگ یانگ‌مینگ بعدها ناشدنی یافت: گزارش می‌کند که هفت روز روبه‌روی خیزران نشست و بررسی‌اش کرد، بیمار شد، و نتیجه گرفت که نظم را باید در درون جست."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1407,6 +1483,20 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "pure-experience",
+            "heading": {
+              "en": "What pure experience is meant to be",
+              "fa": "«تجربهٔ ناب» قرار است چه باشد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The example is hearing a sound before it has been sorted into a hearer and a thing heard. Nishida's claim is that this is not a rare mystical state but the ordinary case, and that subject and object are an organisation imposed on it afterwards. The obvious objection — that describing it already imposes the structure — is one he accepts, and the later work is an attempt to write in a way that does not.",
+              "fa": "مثال، شنیدن صداست پیش از آنکه به شنونده و شنیده تقسیم شود. ادعای نیشیدا این است که این حالتی نادر و عرفانی نیست بلکه حالت عادی است، و فاعل و متعلق سامانی‌اند که بعداً بر آن نهاده می‌شود. اعتراض بدیهی — که خودِ توصیف‌کردن، آن ساختار را تحمیل می‌کند — را می‌پذیرد، و کار متأخرش کوششی است برای نوشتن به شیوه‌ای که چنین نکند."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "interpretation"
           }
         ]
       },
@@ -1533,6 +1623,19 @@
               "en": "Tsongkhapa founded the Gelug school and shaped Tibetan philosophy more than anyone. His distinctive position is that emptiness does not mean the failure of reason: careful analysis is the road to it, and a realisation reached by abandoning analysis is not the same realisation. Tibetan monastic education is still built around formal debate for that reason.",
               "fa": "تسونگ‌کاپا مکتب «گلوگ» را بنیان گذاشت و بیش از هر کس دیگری فلسفهٔ تبت را شکل داد. موضع متمایز او این است که تهی‌بودگی به معنای شکست عقل نیست: تحلیل دقیق راهِ رسیدن به آن است، و دریافتی که با کنارگذاشتن تحلیل به دست آید همان دریافت نیست. آموزش صومعه‌ای تبت هنوز به همین سبب بر مناظرهٔ صوری بنا شده است."
             }
+          },
+          {
+            "id": "the-object-of-negation",
+            "heading": {
+              "en": "Getting the target right",
+              "fa": "درست‌گرفتنِ هدفِ نفی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Tsongkhapa's distinctive worry is that a meditator who negates too much ends up denying that anything works at all, and one who negates too little leaves the thing they were supposed to see through. The target is inherent existence — existing from its own side, independently — and not existence. Identifying it precisely is, for him, most of the work, which is why the treatise spends so long on it before any meditation begins.",
+              "fa": "دغدغهٔ متمایز تسونگ‌خاپا این است که مراقبه‌گری که بیش از حد نفی کند سر از انکار کارکردِ هر چیز درمی‌آورد، و آنکه کم نفی کند همان چیزی را که قرار بود از آن بگذرد باقی می‌گذارد. هدف، «وجودِ ذاتی» است — بودن از سوی خود و مستقل — نه خودِ وجود. تعیین دقیق آن، نزد او، بیشترِ کار است، و به همین سبب رساله پیش از آغازِ هر مراقبه‌ای این‌قدر بر آن وقت می‌گذارد."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2057,6 +2160,19 @@
               "en": "Husserl founded phenomenology. The method is to set aside questions about whether what you experience exists outside you, and describe the structure of the experience itself — above all intentionality, that consciousness is always consciousness of something.",
               "fa": "هوسرل پدیدارشناسی را بنیان گذاشت. روش این است که پرسش‌ها دربارهٔ اینکه آنچه تجربه می‌کنی بیرون از تو هست یا نه کنار گذاشته شود، و ساختار خودِ تجربه توصیف شود؛ بیش از همه «حیث التفاتی»، یعنی اینکه آگاهی همیشه آگاهی از چیزی است."
             }
+          },
+          {
+            "id": "bracketing",
+            "heading": {
+              "en": "What bracketing asks you to do",
+              "fa": "«در پرانتز گذاشتن» چه می‌خواهد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Husserl's method is to suspend the question of whether what appears is real, and describe the appearing itself. This is not scepticism — nothing is denied — but a change of subject, from what there is to how anything is given. The difficulty everyone meets is that the description keeps smuggling in what was supposed to be suspended, which is roughly what Heidegger concluded and why he abandoned the programme.",
+              "fa": "روش هوسرل این است که پرسش از واقعی‌بودنِ آنچه پدیدار می‌شود را معلق کند و خودِ پدیدارشدن را وصف کند. این شکاکیت نیست — چیزی انکار نمی‌شود — بلکه تغییر موضوع است، از «چه هست» به «هر چیز چگونه داده می‌شود». دشواری‌ای که همه با آن روبه‌رو می‌شوند این است که توصیف پیوسته همان چیزی را قاچاق می‌کند که قرار بود معلق شود، و هایدگر تقریباً همین را نتیجه گرفت و به همین سبب آن برنامه را رها کرد."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2590,6 +2706,19 @@
               "en": "Dussel founded the philosophy of liberation. His argument is that European modernity told its story as if it developed from inside itself, when in fact the conquest of the Americas was its condition; and that an ethics adequate to that history has to begin from the excluded rather than from the autonomous subject.",
               "fa": "دوسل «فلسفهٔ رهایی» را بنیان گذاشت. استدلال او این است که مدرنیتهٔ اروپایی داستان خود را چنان گفت که گویی از درون خودش رشد کرده، حال آنکه در واقع فتح قارهٔ آمریکا شرطِ آن بود؛ و اخلاقی که در خورِ این تاریخ باشد باید از طردشدگان آغاز کند نه از سوژهٔ خودآیین."
             }
+          },
+          {
+            "id": "who-is-the-other",
+            "heading": {
+              "en": "Where the argument starts",
+              "fa": "استدلال از کجا آغاز می‌شود"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Liberation philosophy takes Levinas's other and gives it an address. The face that obliges is not an abstraction but the person a particular system has placed outside it — the labourer, the colonised, the migrant — and Dussel's claim is that philosophy done from the centre cannot see them, because the centre's questions are the ones that arise when their exclusion is already working.",
+              "fa": "فلسفهٔ رهایی «دیگریِ» لویناس را می‌گیرد و به آن نشانی می‌دهد. چهره‌ای که تعهد می‌آورد انتزاع نیست، همان کسی است که نظامی معین بیرونش گذاشته — کارگر، مستعمَره، مهاجر — و ادعای دوسل این است که فلسفه‌ای که از مرکز ورزیده شود آنان را نمی‌بیند، چون پرسش‌های مرکز همان‌هایی‌اند که وقتی این کنارگذاشتن از پیش کار می‌کند پیش می‌آیند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -3059,6 +3188,20 @@
               "en": "Epicurus argued that the aim of life is pleasure, and then defined pleasure as freedom from bodily pain and mental disturbance — which makes his prescription bread, water, friendship and philosophy rather than indulgence. Death, he argued, is nothing to us: where death is, we are not.",
               "fa": "اپیکور استدلال کرد که هدف زندگی لذت است، و سپس لذت را رهایی از درد تن و آشفتگی ذهن تعریف کرد — و همین نسخه‌اش را نان و آب و دوستی و فلسفه می‌کند، نه خوش‌گذرانی. مرگ، به استدلال او، برای ما هیچ است: آنجا که مرگ هست، ما نیستیم."
             }
+          },
+          {
+            "id": "death-argument",
+            "heading": {
+              "en": "The argument about death",
+              "fa": "استدلال دربارهٔ مرگ"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Where death is, I am not; where I am, death is not — so death is never something that happens to me, and fearing it is fearing an experience nobody has. The obvious reply is that what people fear is not the state of being dead but the loss of everything they were going to have. Whether Epicurus has an answer to that, or has changed the subject, is still argued.",
+              "fa": "آنجا که مرگ هست من نیستم؛ آنجا که من هستم مرگ نیست — پس مرگ هرگز چیزی نیست که بر من بگذرد، و ترسیدن از آن یعنی ترسیدن از تجربه‌ای که هیچ‌کس ندارد. پاسخ بدیهی این است که آنچه مردم می‌ترسند حالت مرده‌بودن نیست، از دست‌دادنِ هر آن چیزی است که قرار بود داشته باشند. اینکه اپیکور پاسخی برای آن دارد یا موضوع را عوض کرده، هنوز محل بحث است."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
@@ -3208,6 +3351,19 @@
               "en": "Plotinus reworked Plato into a system in which reality flows from the One, which is beyond being and beyond description, through Intellect and Soul down to the visible world. Through Augustine and the Arabic translators he shaped Christian, Jewish and Islamic thought for a thousand years.",
               "fa": "افلوطین افلاطون را به نظامی بازساخت که در آن واقعیت از «واحد» — که فراتر از هستی و فراتر از وصف است — از راه عقل و نفس تا جهان دیدنی سرریز می‌کند. از راه آگوستین و مترجمان عربی، هزار سال اندیشهٔ مسیحی و یهودی و اسلامی را شکل داد."
             }
+          },
+          {
+            "id": "why-emanation",
+            "heading": {
+              "en": "Why the One overflows",
+              "fa": "چرا «واحد» سرریز می‌کند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "If the One is perfect and complete, it needs nothing, so why is there anything else? Plotinus answers with an analogy rather than a decision: fire gives off heat and snow gives off cold without choosing to, and what is perfect overflows for the same reason. That keeps the One from being a maker who deliberates, at the cost of making creation necessary rather than free — which is exactly the point later monotheists refused.",
+              "fa": "اگر «واحد» کامل و تمام است، به چیزی نیاز ندارد، پس چرا اصلاً چیز دیگری هست؟ افلوطین به‌جای تصمیم، تشبیه می‌آورد: آتش گرما می‌دهد و برف سرما، بی‌آنکه انتخاب کنند، و آنچه کامل است به همان دلیل سرریز می‌کند. این «واحد» را از سازنده‌ای که می‌سنجد نگه می‌دارد، به بهای اینکه آفرینش را ضروری می‌کند نه آزاد — و دقیقاً همین را یکتاپرستان بعدی نپذیرفتند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -3552,6 +3708,20 @@
               "en": "Ibn ʿArabī is the central figure of philosophical Sufism. The doctrine later called the oneness of being holds that only God exists in the full sense, and that creatures are the ways that one existence discloses itself — a position his critics read as denying the difference between creator and creature.",
               "fa": "ابن‌عربی چهرهٔ مرکزی تصوف فلسفی است. آموزه‌ای که بعدها «وحدت وجود» نامیده شد می‌گوید تنها خدا به معنای کامل هست، و آفریدگان شیوه‌هایی‌اند که آن یگانه هستی خود را آشکار می‌کند — موضعی که منتقدانش آن را انکار فرق میان خالق و مخلوق خواندند."
             }
+          },
+          {
+            "id": "not-pantheism",
+            "heading": {
+              "en": "Why it is not pantheism",
+              "fa": "چرا همه‌خدایی نیست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The oneness of being is regularly reported as the claim that everything is God, and Ibn ʿArabī's readers reject the description. The distinction they draw is between existence, which is one, and the entities, which have no existence of their own and are the forms in which the one existence discloses itself. Whether that distinction can be held is the actual dispute, and it is a dispute about what a mode is.",
+              "fa": "«وحدت وجود» را مرتب چنین گزارش می‌کنند که یعنی همه‌چیز خداست، و خوانندگان ابن‌عربی این وصف را رد می‌کنند. تمایزی که می‌کشند میان «وجود» است که یکی است و «اعیان» که وجودی از آنِ خود ندارند و صورت‌هایی‌اند که آن یگانه وجود در آن‌ها آشکار می‌شود. اینکه این تمایز نگه‌داشتنی هست یا نه، مناقشهٔ واقعی است، و مناقشه‌ای است بر سر اینکه «حالت» چیست."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
@@ -3804,6 +3974,19 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "parallel-postulate",
+            "heading": {
+              "en": "The line he could not prove",
+              "fa": "خطی که نتوانست ثابت کند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Khayyam tried to derive Euclid's parallel postulate from the others and, in failing, worked out properties of the figures that would exist if it were false. Saccheri did the same six centuries later and is usually credited with anticipating non-Euclidean geometry. The pattern is common enough to be worth naming: a result reached first outside Europe and dated from its European rediscovery.",
+              "fa": "خیام کوشید اصل توازی اقلیدس را از اصول دیگر بیرون بکشد و در همان ناکامی، ویژگی‌های شکل‌هایی را به دست آورد که اگر آن اصل نادرست می‌بود موجود می‌شدند. ساکری شش قرن بعد همین کار را کرد و معمولاً او را پیش‌بینی‌کنندهٔ هندسهٔ نااقلیدسی می‌شمارند. این الگو آن‌قدر رایج هست که ارزش نام‌بردن داشته باشد: نتیجه‌ای که نخست بیرون از اروپا به دست آمده و تاریخش از بازکشف اروپایی‌اش شمرده می‌شود."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -4048,6 +4231,16 @@
               "en": "Scotus held that existence is said univocally — in one sense — of God and creatures, against the view that it is only analogical, and introduced haecceity, the individuating principle that makes a thing this one rather than another of its kind. The arguments are famously difficult and famously load-bearing.",
               "fa": "اسکوتوس معتقد بود «هستی» دربارهٔ خدا و آفریدگان به یک معنا گفته می‌شود، در برابر دیدگاهی که آن را فقط تشکیکی می‌دانست، و «اینیّت» را پیش نهاد؛ اصلی که یک چیز را همین یکی می‌کند نه فردی دیگر از همان نوع. استدلال‌هایش به دشواری مشهورند و به بارکشی هم."
             }
+          },
+          {
+            "id": "haecceity",
+            "heading": { "en": "Thisness", "fa": "اینیّت" },
+            "depth": "standard",
+            "body": {
+              "en": "The alternatives on offer each fail on a case. Matter cannot do it, since two lumps of the same matter would then be one thing. Position cannot, since a thing keeps its identity when it moves. A bundle of accidents cannot, since the bundle is a collection of general properties and the question was how any collection of those picks out one. Scotus's answer is a further formal principle in the thing itself, and the argument survives in contemporary metaphysics under the heading of individuation.",
+              "fa": "گزینه‌های موجود، هریک در موردی شکست می‌خورند. ماده نمی‌تواند این کار را بکند، چون آنگاه دو تکه از یک ماده یک چیز می‌شدند. مکان نمی‌تواند، چون چیز با جابه‌جاشدن این‌همانی‌اش را نگه می‌دارد. دسته‌ای از اعراض هم نمی‌تواند، چون آن دسته مجموعه‌ای از ویژگی‌های کلی است و پرسش این بود که چگونه مجموعه‌ای از آن‌ها یکی را نشان می‌دهد. پاسخ اسکوتوس اصلی صوریِ افزوده در خودِ آن چیز است، و این استدلال در مابعدالطبیعهٔ معاصر زیر عنوان «فردیت‌یابی» زنده است."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -4274,6 +4467,19 @@
               "en": "Berkeley accepted the empiricist premise that all we have is perception and drew the conclusion others avoided: matter, as something behind perception, is an unnecessary and incoherent posit. He insisted this defends common sense rather than attacking it — the tree is exactly as real as it looks; it is the invisible substance behind it that is a philosopher's invention.",
               "fa": "برکلی مقدمهٔ تجربه‌گرایان را پذیرفت که آنچه داریم فقط ادراک است، و نتیجه‌ای گرفت که دیگران از آن پرهیز می‌کردند: ماده، به‌عنوان چیزی پشت ادراک، فرضی زائد و ناسازگار است. اصرار داشت که این از عقل سلیم دفاع می‌کند نه حمله به آن — درخت دقیقاً همان‌قدر واقعی است که به نظر می‌رسد؛ آن جوهر نادیدنیِ پشتش است که ساختهٔ فیلسوفان است."
             }
+          },
+          {
+            "id": "does-the-tree-fall",
+            "heading": {
+              "en": "What happens when nobody looks",
+              "fa": "وقتی کسی نگاه نمی‌کند چه می‌شود"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The standard objection writes itself: if to be is to be perceived, the room ceases to exist when you leave it. Berkeley's answer is that God perceives it, which is either the load-bearing part of the system or the point at which it stops being an argument, depending on the reader. What is harder to dismiss is his opening move — that nobody has ever produced an idea of matter that is not an idea of how something looks or feels.",
+              "fa": "اعتراض همیشگی خودش را می‌نویسد: اگر بودن یعنی ادراک‌شدن، اتاق با بیرون‌رفتن تو از هستی می‌افتد. پاسخ برکلی این است که خدا آن را ادراک می‌کند، و این بسته به خواننده یا بارکشِ اصلیِ نظام است یا نقطه‌ای که در آن دیگر استدلال نیست. آنچه دشوارتر می‌توان کنار گذاشت حرکت آغازین اوست: اینکه هیچ‌کس هرگز ایده‌ای از ماده نیاورده که ایده‌ای از چگونگیِ نمود یا لمسِ چیزی نباشد."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -4474,6 +4680,19 @@
               "en": "Kierkegaard wrote under a crowd of pseudonyms, each arguing a position he did not simply hold, because he thought a reader talked into a commitment has not made one. The recurring claim is that at the decisive point reasons run out and a person has to leap — and that this is the structure of faith, and of a self.",
               "fa": "کیرکگور زیر انبوهی نام مستعار نوشت، که هر یک موضعی را پیش می‌برد که خودش صرفاً به آن باور نداشت؛ چون معتقد بود خواننده‌ای که با حرف به تعهدی کشانده شود، تعهدی نکرده است. ادعای مکررش این است که در نقطهٔ سرنوشت‌ساز دلیل‌ها تمام می‌شوند و آدمی باید جهش کند — و ساختار ایمان، و ساختار یک «خود»، همین است."
             }
+          },
+          {
+            "id": "the-pseudonyms",
+            "heading": {
+              "en": "Why he hid behind names",
+              "fa": "چرا پشت نام‌ها پنهان شد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Kierkegaard published under a crowd of invented authors who argue positions he did not simply hold, and asked to be quoted as them rather than as himself. The reason is part of the argument: a reader persuaded into a commitment by someone else's reasoning has not made a commitment, so the writing has to put the reader in a position where they must decide instead of agreeing.",
+              "fa": "کیرکگور زیر انبوهی مؤلفِ ساختگی منتشر کرد که مواضعی را پیش می‌برند که خودش صرفاً به آن‌ها باور نداشت، و خواست که به نام آن‌ها نقل شود نه به نام خودش. دلیلش بخشی از استدلال است: خواننده‌ای که با استدلال دیگری به تعهدی متقاعد شود تعهدی نکرده، پس نوشتار باید خواننده را در موقعیتی بگذارد که ناچار باشد تصمیم بگیرد نه اینکه موافقت کند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
