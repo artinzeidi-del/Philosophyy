@@ -468,6 +468,815 @@
         "fa": "پاسخ به خواهر فیلوته‌آ"
       },
       "authors": ["Sor Juana Inés de la Cruz"]
+    },
+    {
+      "id": "text-heraclitus-fragments",
+      "kind": "scholarly-edition",
+      "title": { "en": "Fragments", "fa": "پاره‌ها" },
+      "authors": ["Heraclitus"],
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+    },
+    {
+      "id": "text-parmenides-poem",
+      "kind": "scholarly-edition",
+      "title": {
+        "en": "On Nature (fragments)",
+        "fa": "دربارهٔ طبیعت (پاره‌ها)"
+      },
+      "authors": ["Parmenides"],
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+    },
+    {
+      "id": "text-democritus-fragments",
+      "kind": "scholarly-edition",
+      "title": { "en": "Fragments", "fa": "پاره‌ها" },
+      "authors": ["Democritus"],
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+    },
+    {
+      "id": "text-empedocles-fragments",
+      "kind": "scholarly-edition",
+      "title": {
+        "en": "On Nature and Purifications (fragments)",
+        "fa": "دربارهٔ طبیعت و تطهیرها (پاره‌ها)"
+      },
+      "authors": ["Empedocles"],
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+    },
+    {
+      "id": "text-anaxagoras-fragments",
+      "kind": "scholarly-edition",
+      "title": { "en": "Fragments", "fa": "پاره‌ها" },
+      "authors": ["Anaxagoras"],
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+    },
+    {
+      "id": "text-aristotle-physics",
+      "kind": "primary-text",
+      "title": { "en": "Physics", "fa": "طبیعیات" },
+      "authors": ["Aristotle"],
+      "rightsNote": "Cited by Bekker number, which is stable across all editions."
+    },
+    {
+      "id": "text-theaetetus",
+      "kind": "primary-text",
+      "title": { "en": "Theaetetus", "fa": "تئای‌تتوس" },
+      "authors": ["Plato"],
+      "rightsNote": "Cited by Stephanus number."
+    },
+    {
+      "id": "text-encomium-of-helen",
+      "kind": "primary-text",
+      "title": { "en": "Encomium of Helen", "fa": "ستایش هلن" },
+      "authors": ["Gorgias"],
+      "rightsNote": "Cited by the section numbers of the standard text."
+    },
+    {
+      "id": "text-lives-of-eminent-philosophers",
+      "kind": "primary-text",
+      "title": {
+        "en": "Lives of the Eminent Philosophers",
+        "fa": "زندگی فیلسوفان نامدار"
+      },
+      "authors": ["Diogenes Laertius"],
+      "rightsNote": "Compiled in the third century CE, centuries after most of the philosophers it reports; cited by book and section."
+    },
+    {
+      "id": "text-letter-to-menoeceus",
+      "kind": "primary-text",
+      "title": { "en": "Letter to Menoeceus", "fa": "نامه به منویکئوس" },
+      "authors": ["Epicurus"],
+      "rightsNote": "Preserved complete inside Diogenes Laertius, Book X; cited by the section numbers of that text."
+    },
+    {
+      "id": "text-principal-doctrines",
+      "kind": "primary-text",
+      "title": { "en": "Principal Doctrines", "fa": "آموزه‌های اصلی" },
+      "authors": ["Epicurus"],
+      "rightsNote": "Forty numbered maxims; cited by number."
+    },
+    {
+      "id": "text-svf",
+      "kind": "scholarly-edition",
+      "title": {
+        "en": "Stoicorum Veterum Fragmenta",
+        "fa": "پاره‌های رواقیان کهن"
+      },
+      "authors": ["Hans von Arnim (ed.)"],
+      "rightsNote": "A modern collection of early Stoic fragments gathered from quotations in other authors; cited by volume and fragment number. No early Stoic treatise survives whole."
+    },
+    {
+      "id": "text-outlines-of-pyrrhonism",
+      "kind": "primary-text",
+      "title": { "en": "Outlines of Pyrrhonism", "fa": "طرح‌های پورونی" },
+      "authors": ["Sextus Empiricus"],
+      "rightsNote": "Cited as PH by book and section."
+    },
+    {
+      "id": "text-praeparatio-evangelica",
+      "kind": "primary-text",
+      "title": { "en": "Preparation for the Gospel", "fa": "آمادگی برای انجیل" },
+      "authors": ["Eusebius of Caesarea"],
+      "rightsNote": "Cited here only as the container that preserves Aristocles' summary of Pyrrho, which is itself second-hand."
+    },
+    {
+      "id": "text-enneads",
+      "kind": "primary-text",
+      "title": { "en": "Enneads", "fa": "انئادها" },
+      "authors": ["Plotinus"],
+      "rightsNote": "Arranged and published by Porphyry; cited by ennead, tractate and chapter."
+    },
+    {
+      "id": "text-de-natura-deorum",
+      "kind": "primary-text",
+      "title": {
+        "en": "On the Nature of the Gods",
+        "fa": "دربارهٔ سرشت خدایان"
+      },
+      "authors": ["Cicero"],
+      "rightsNote": "Cited by book and section."
+    },
+    {
+      "id": "text-letters-to-lucilius",
+      "kind": "primary-text",
+      "title": {
+        "en": "Moral Letters to Lucilius",
+        "fa": "نامه‌های اخلاقی به لوکیلیوس"
+      },
+      "authors": ["Seneca"],
+      "rightsNote": "Cited by letter number."
+    },
+    {
+      "id": "text-meditations",
+      "kind": "primary-text",
+      "title": { "en": "Meditations", "fa": "تأملات" },
+      "authors": ["Marcus Aurelius"],
+      "rightsNote": "Private notebooks, untitled by their author; cited by book and section."
+    },
+    {
+      "id": "text-de-rerum-natura",
+      "kind": "primary-text",
+      "title": { "en": "On the Nature of Things", "fa": "دربارهٔ سرشت چیزها" },
+      "authors": ["Lucretius"],
+      "rightsNote": "Cited by book and line number."
+    },
+    {
+      "id": "text-consolation-of-philosophy",
+      "kind": "primary-text",
+      "title": { "en": "The Consolation of Philosophy", "fa": "تسلای فلسفه" },
+      "authors": ["Boethius"],
+      "rightsNote": "Cited by book and by prose or metre section."
+    },
+    {
+      "id": "text-de-aeternitate-mundi",
+      "kind": "primary-text",
+      "title": {
+        "en": "Against Proclus on the Eternity of the World",
+        "fa": "در رد پروکلوس دربارهٔ ازلیت جهان"
+      },
+      "authors": ["John Philoponus"]
+    },
+    {
+      "id": "text-philoponus-physics-commentary",
+      "kind": "primary-text",
+      "title": {
+        "en": "Commentary on Aristotle's Physics",
+        "fa": "شرح طبیعیات ارسطو"
+      },
+      "authors": ["John Philoponus"],
+      "rightsNote": "Cited by the page and line numbers of the Berlin edition of the Greek commentators, the standard reference for that corpus."
+    },
+    {
+      "id": "text-problems-of-philosophy",
+      "kind": "primary-text",
+      "title": { "en": "The Problems of Philosophy", "fa": "مسائل فلسفه" },
+      "authors": ["Bertrand Russell"],
+      "year": { "year": 1912 },
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-on-denoting",
+      "kind": "journal-article",
+      "title": { "en": "On Denoting", "fa": "دربارهٔ دلالت" },
+      "authors": ["Bertrand Russell"],
+      "publisher": "Mind",
+      "year": { "year": 1905 }
+    },
+    {
+      "id": "text-ideas-i",
+      "kind": "primary-text",
+      "title": {
+        "en": "Ideas Pertaining to a Pure Phenomenology, First Book",
+        "fa": "ایده‌هایی برای پدیدارشناسی ناب، کتاب اول"
+      },
+      "authors": ["Edmund Husserl"],
+      "year": { "year": 1913 },
+      "rightsNote": "Cited by section (§), as the text itself is numbered."
+    },
+    {
+      "id": "text-logical-investigations",
+      "kind": "primary-text",
+      "title": { "en": "Logical Investigations", "fa": "پژوهش‌های منطقی" },
+      "authors": ["Edmund Husserl"],
+      "rightsNote": "Cited by investigation and section."
+    },
+    {
+      "id": "text-how-to-make-our-ideas-clear",
+      "kind": "journal-article",
+      "title": {
+        "en": "How to Make Our Ideas Clear",
+        "fa": "چگونه ایده‌هایمان را روشن کنیم"
+      },
+      "authors": ["Charles Sanders Peirce"],
+      "publisher": "Popular Science Monthly",
+      "year": { "year": 1878 }
+    },
+    {
+      "id": "text-fixation-of-belief",
+      "kind": "journal-article",
+      "title": { "en": "The Fixation of Belief", "fa": "تثبیت باور" },
+      "authors": ["Charles Sanders Peirce"],
+      "publisher": "Popular Science Monthly",
+      "year": { "year": 1877 }
+    },
+    {
+      "id": "text-pragmatism-james",
+      "kind": "primary-text",
+      "title": {
+        "en": "Pragmatism: A New Name for Some Old Ways of Thinking",
+        "fa": "پراگماتیسم: نامی نو برای چند شیوهٔ کهنِ اندیشیدن"
+      },
+      "authors": ["William James"],
+      "year": { "year": 1907 },
+      "rightsNote": "Cited by lecture."
+    },
+    {
+      "id": "text-varieties-of-religious-experience",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Varieties of Religious Experience",
+        "fa": "گونه‌های تجربهٔ دینی"
+      },
+      "authors": ["William James"],
+      "year": { "year": 1902 },
+      "rightsNote": "Cited by lecture."
+    },
+    {
+      "id": "text-quest-for-certainty",
+      "kind": "primary-text",
+      "title": { "en": "The Quest for Certainty", "fa": "جست‌وجوی یقین" },
+      "authors": ["John Dewey"],
+      "year": { "year": 1929 },
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-democracy-and-education",
+      "kind": "primary-text",
+      "title": { "en": "Democracy and Education", "fa": "دموکراسی و آموزش" },
+      "authors": ["John Dewey"],
+      "year": { "year": 1916 },
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-phaedo",
+      "kind": "primary-text",
+      "title": { "en": "Phaedo", "fa": "فایدون" },
+      "authors": ["Plato"],
+      "rightsNote": "Cited by Stephanus number."
+    },
+    {
+      "id": "text-fi-al-falsafa-al-ula",
+      "kind": "primary-text",
+      "title": {
+        "en": "On First Philosophy",
+        "fa": "فی الفلسفهٔ اولی",
+        "ar": "في الفلسفة الأولى"
+      },
+      "authors": ["al-Kindi"],
+      "rightsNote": "Survives incomplete; only the first of its four parts is known."
+    },
+    {
+      "id": "text-madina-fadila",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Virtuous City",
+        "fa": "آرای اهل مدینهٔ فاضله",
+        "ar": "مبادئ آراء أهل المدينة الفاضلة"
+      },
+      "authors": ["al-Farabi"]
+    },
+    {
+      "id": "text-kitab-al-huruf",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Book of Letters",
+        "fa": "کتاب الحروف",
+        "ar": "كتاب الحروف"
+      },
+      "authors": ["al-Farabi"]
+    },
+    {
+      "id": "text-fasl-al-maqal",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Decisive Treatise",
+        "fa": "فصل المقال",
+        "ar": "فصل المقال"
+      },
+      "authors": ["Ibn Rushd"]
+    },
+    {
+      "id": "text-tahafut-al-tahafut",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Incoherence of the Incoherence",
+        "fa": "تهافت التهافت",
+        "ar": "تهافت التهافت"
+      },
+      "authors": ["Ibn Rushd"],
+      "rightsNote": "Quotes al-Ghazali's Tahafut in full before answering it passage by passage, which is why both texts survive together."
+    },
+    {
+      "id": "text-futuhat",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Meccan Openings",
+        "fa": "فتوحات مکیه",
+        "ar": "الفتوحات المكية"
+      },
+      "authors": ["Ibn Arabi"],
+      "rightsNote": "Cited by chapter; the work runs to several thousand pages and chapter numbers are the only locator stable across editions."
+    },
+    {
+      "id": "text-fusus",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Bezels of Wisdom",
+        "fa": "فصوص الحکم",
+        "ar": "فصوص الحكم"
+      },
+      "authors": ["Ibn Arabi"],
+      "rightsNote": "Cited by chapter, each named for a prophet."
+    },
+    {
+      "id": "text-hikmat-al-ishraq",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Philosophy of Illumination",
+        "fa": "حکمت الاشراق",
+        "ar": "حكمة الإشراق"
+      },
+      "authors": ["Suhrawardi"]
+    },
+    {
+      "id": "text-muqaddimah",
+      "kind": "primary-text",
+      "title": { "en": "The Muqaddimah", "fa": "مقدمه" },
+      "authors": ["Ibn Khaldun"],
+      "rightsNote": "The introductory volume of a universal history; cited by chapter and section."
+    },
+    {
+      "id": "text-hayy-ibn-yaqzan",
+      "kind": "primary-text",
+      "title": { "en": "Hayy ibn Yaqzan", "fa": "حی بن یقظان" },
+      "authors": ["Ibn Tufayl"]
+    },
+    {
+      "id": "text-al-tibb-al-ruhani",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Spiritual Medicine",
+        "fa": "الطب الروحانی",
+        "ar": "الطب الروحاني"
+      },
+      "authors": ["Abu Bakr al-Razi"]
+    },
+    {
+      "id": "text-al-sira-al-falsafiyya",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Philosophical Life",
+        "fa": "سیرت فلسفی",
+        "ar": "السيرة الفلسفية"
+      },
+      "authors": ["Abu Bakr al-Razi"],
+      "rightsNote": "Written as a reply to critics who said his life did not match his doctrine."
+    },
+    {
+      "id": "text-masnavi",
+      "kind": "primary-text",
+      "title": { "en": "Masnavi-ye Ma'navi", "fa": "مثنوی معنوی" },
+      "authors": ["Rumi"],
+      "rightsNote": "Cited by book and line; line numbering follows Nicholson's edition, the standard reference."
+    },
+    {
+      "id": "text-divan-shams",
+      "kind": "primary-text",
+      "title": { "en": "Divan-e Shams-e Tabrizi", "fa": "دیوان شمس تبریزی" },
+      "authors": ["Rumi"],
+      "rightsNote": "Cited by ghazal number in Foruzanfar's edition."
+    },
+    {
+      "id": "text-khayyam-algebra",
+      "kind": "primary-text",
+      "title": {
+        "en": "Treatise on Demonstration of Problems of Algebra",
+        "fa": "رساله در براهین مسائل جبر و مقابله"
+      },
+      "authors": ["Omar Khayyam"]
+    },
+    {
+      "id": "text-khayyam-euclid",
+      "kind": "primary-text",
+      "title": {
+        "en": "Commentary on the Difficulties of Certain Postulates of Euclid",
+        "fa": "شرح ما أشکل من مصادرات کتاب اقلیدس"
+      },
+      "authors": ["Omar Khayyam"]
+    },
+    {
+      "id": "text-akhlaq-i-nasiri",
+      "kind": "primary-text",
+      "title": { "en": "The Nasirean Ethics", "fa": "اخلاق ناصری" },
+      "authors": ["Nasir al-Din al-Tusi"]
+    },
+    {
+      "id": "text-tajrid-al-itiqad",
+      "kind": "primary-text",
+      "title": {
+        "en": "Abstract of Belief",
+        "fa": "تجرید الاعتقاد",
+        "ar": "تجريد الاعتقاد"
+      },
+      "authors": ["Nasir al-Din al-Tusi"],
+      "rightsNote": "The base text of Twelver Shi'i theology; commented on continuously for seven centuries."
+    },
+    {
+      "id": "text-tahqiq-ma-li-l-hind",
+      "kind": "primary-text",
+      "title": { "en": "India", "fa": "تحقیق ما للهند", "ar": "تحقيق ما للهند" },
+      "authors": ["al-Biruni"]
+    },
+    {
+      "id": "text-al-athar-al-baqiya",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Remaining Signs of Past Centuries",
+        "fa": "آثار الباقیه",
+        "ar": "الآثار الباقية عن القرون الخالية"
+      },
+      "authors": ["al-Biruni"]
+    },
+    {
+      "id": "text-mabahith-mashriqiyya",
+      "kind": "primary-text",
+      "title": {
+        "en": "Eastern Investigations",
+        "fa": "مباحث مشرقیه",
+        "ar": "المباحث المشرقية"
+      },
+      "authors": ["Fakhr al-Din al-Razi"]
+    },
+    {
+      "id": "text-tadbir-al-mutawahhid",
+      "kind": "primary-text",
+      "title": {
+        "en": "Regimen of the Solitary",
+        "fa": "تدبیر المتوحد",
+        "ar": "تدبير المتوحد"
+      },
+      "authors": ["Ibn Bajja"],
+      "rightsNote": "Survives incomplete."
+    },
+    {
+      "id": "text-kitab-al-manazir",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Book of Optics",
+        "fa": "کتاب المناظر",
+        "ar": "كتاب المناظر"
+      },
+      "authors": ["Ibn al-Haytham"]
+    },
+    {
+      "id": "text-al-shukuk-ala-batlamyus",
+      "kind": "primary-text",
+      "title": {
+        "en": "Doubts Concerning Ptolemy",
+        "fa": "الشکوک علی بطلمیوس",
+        "ar": "الشكوك على بطلميوس"
+      },
+      "authors": ["Ibn al-Haytham"]
+    },
+    {
+      "id": "text-periphyseon",
+      "kind": "primary-text",
+      "title": {
+        "en": "Periphyseon (On the Division of Nature)",
+        "fa": "پری‌فوسئون (دربارهٔ تقسیم طبیعت)"
+      },
+      "authors": ["John Scotus Eriugena"]
+    },
+    {
+      "id": "text-sic-et-non",
+      "kind": "primary-text",
+      "title": { "en": "Sic et Non", "fa": "آری و نه" },
+      "authors": ["Peter Abelard"]
+    },
+    {
+      "id": "text-scito-te-ipsum",
+      "kind": "primary-text",
+      "title": { "en": "Ethics (Know Yourself)", "fa": "اخلاق (خود را بشناس)" },
+      "authors": ["Peter Abelard"]
+    },
+    {
+      "id": "text-scivias",
+      "kind": "primary-text",
+      "title": { "en": "Scivias", "fa": "سکیویاس" },
+      "authors": ["Hildegard of Bingen"]
+    },
+    {
+      "id": "text-ordinatio",
+      "kind": "primary-text",
+      "title": { "en": "Ordinatio", "fa": "اُردیناتیو" },
+      "authors": ["John Duns Scotus"],
+      "rightsNote": "Scotus' own revision of his Sentences commentary, left unfinished at his death; cited by book, distinction and question."
+    },
+    {
+      "id": "text-triads",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Triads: In Defence of the Holy Hesychasts",
+        "fa": "سه‌گانه‌ها: در دفاع از هسیخاست‌های مقدس"
+      },
+      "authors": ["Gregory Palamas"]
+    },
+    {
+      "id": "text-de-docta-ignorantia",
+      "kind": "primary-text",
+      "title": { "en": "On Learned Ignorance", "fa": "دربارهٔ جهل عالمانه" },
+      "authors": ["Nicholas of Cusa"]
+    },
+    {
+      "id": "text-praise-of-folly",
+      "kind": "primary-text",
+      "title": { "en": "The Praise of Folly", "fa": "ستایش حماقت" },
+      "authors": ["Desiderius Erasmus"]
+    },
+    {
+      "id": "text-de-libero-arbitrio",
+      "kind": "primary-text",
+      "title": { "en": "On Free Will", "fa": "دربارهٔ ارادهٔ آزاد" },
+      "authors": ["Desiderius Erasmus"],
+      "rightsNote": "Written against Luther, who answered it with On the Bondage of the Will."
+    },
+    {
+      "id": "text-de-linfinito",
+      "kind": "primary-text",
+      "title": {
+        "en": "On the Infinite Universe and Worlds",
+        "fa": "دربارهٔ جهان و عوالم بی‌کران"
+      },
+      "authors": ["Giordano Bruno"]
+    },
+    {
+      "id": "text-dhammapada",
+      "kind": "primary-text",
+      "title": { "en": "Dhammapada", "fa": "دمّه‌پده" },
+      "authors": ["Attributed to the Buddha"],
+      "rightsNote": "A verse anthology in the Pali Canon, cited by verse number; compiled well after the Buddha's lifetime from oral transmission."
+    },
+    {
+      "id": "text-samyutta-nikaya",
+      "kind": "primary-text",
+      "title": { "en": "Samyutta Nikaya", "fa": "سَمیوتَه نیکایه" },
+      "authors": ["Pali Canon"],
+      "rightsNote": "Cited by collection and sutta number (e.g. SN 56.11). Written down some four centuries after the Buddha, after transmission by memorisation."
+    },
+    {
+      "id": "text-acaranga-sutra",
+      "kind": "primary-text",
+      "title": { "en": "Acaranga Sutra", "fa": "آچارانگه سوتره" },
+      "authors": ["Jain Agamas"],
+      "rightsNote": "The oldest surviving Svetambara canonical text, and the closest the Jain canon comes to Mahavira's own teaching; cited by book and lecture."
+    },
+    {
+      "id": "text-tattvartha-sutra",
+      "kind": "primary-text",
+      "title": { "en": "Tattvartha Sutra", "fa": "تتوارته سوتره" },
+      "authors": ["Umasvati"],
+      "rightsNote": "Not Mahavira's own work: a systematic statement composed centuries later, and the only text both Jain sects accept. Cited by chapter and sutra."
+    },
+    {
+      "id": "text-sokushin-jobutsu",
+      "kind": "primary-text",
+      "title": {
+        "en": "Attaining Buddhahood in This Very Body",
+        "fa": "رسیدن به بودایی در همین تن"
+      },
+      "authors": ["Kukai"]
+    },
+    {
+      "id": "text-hizo-hoyaku",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Precious Key to the Secret Treasury",
+        "fa": "کلید گران‌بهای گنجینهٔ نهان"
+      },
+      "authors": ["Kukai"]
+    },
+    {
+      "id": "text-gisillon-so",
+      "kind": "primary-text",
+      "title": {
+        "en": "Commentary on the Awakening of Mahayana Faith",
+        "fa": "شرح بیداری ایمان مهایانه"
+      },
+      "authors": ["Wonhyo"]
+    },
+    {
+      "id": "text-simmun-hwajaeng-non",
+      "kind": "primary-text",
+      "title": {
+        "en": "Ten Approaches to the Reconciliation of Doctrinal Disputes",
+        "fa": "ده راه برای آشتی‌دادن اختلاف‌های آموزه‌ای"
+      },
+      "authors": ["Wonhyo"],
+      "rightsNote": "Survives only in fragments and in later quotation."
+    },
+    {
+      "id": "text-seonghak-sipdo",
+      "kind": "primary-text",
+      "title": {
+        "en": "Ten Diagrams on Sage Learning",
+        "fa": "ده نمودار در آموختن حکمت"
+      },
+      "authors": ["Yi Hwang"],
+      "rightsNote": "Presented to the king in 1568 as a course of study; cited by diagram number."
+    },
+    {
+      "id": "text-cu-tran-lac-dao",
+      "kind": "primary-text",
+      "title": {
+        "en": "Living in the World, Joyful in the Way",
+        "fa": "در جهان زیستن، در راه شادمان"
+      },
+      "authors": ["Tran Nhan Tong"],
+      "rightsNote": "A poem in vernacular Vietnamese Nom script, one of the earliest surviving works in that script."
+    },
+    {
+      "id": "text-zhuzi-yulei",
+      "kind": "primary-text",
+      "title": {
+        "en": "Classified Conversations of Master Zhu",
+        "fa": "گفت‌وگوهای دسته‌بندی‌شدهٔ استاد ژو"
+      },
+      "authors": ["Zhu Xi"],
+      "rightsNote": "Notes taken by students over decades and compiled after his death; not a treatise he wrote."
+    },
+    {
+      "id": "text-jinsilu",
+      "kind": "primary-text",
+      "title": {
+        "en": "Reflections on Things at Hand",
+        "fa": "تأمل در چیزهای نزدیک"
+      },
+      "authors": ["Zhu Xi", "Lu Zuqian"],
+      "rightsNote": "An anthology of earlier Song thinkers, selected and arranged by the compilers; the selection is itself the argument."
+    },
+    {
+      "id": "text-mozi-book",
+      "kind": "primary-text",
+      "title": { "en": "Mozi", "fa": "مو‌دزه" },
+      "authors": ["Mohist school"],
+      "rightsNote": "A school compilation rather than a single author's book; cited by chapter."
+    },
+    {
+      "id": "text-xianxiang-yu-wuzishen",
+      "kind": "primary-text",
+      "title": {
+        "en": "Phenomenon and Thing-in-itself",
+        "fa": "پدیدار و شیء فی‌نفسه"
+      },
+      "authors": ["Mou Zongsan"]
+    },
+    {
+      "id": "text-zhi-de-zhijue",
+      "kind": "primary-text",
+      "title": {
+        "en": "Intellectual Intuition and Chinese Philosophy",
+        "fa": "شهود عقلی و فلسفهٔ چینی"
+      },
+      "authors": ["Mou Zongsan"]
+    },
+    {
+      "id": "text-fushikaden",
+      "kind": "primary-text",
+      "title": {
+        "en": "Teachings on Style and the Flower",
+        "fa": "آموزه‌هایی دربارهٔ سبک و شکوفه"
+      },
+      "authors": ["Zeami"],
+      "rightsNote": "Written for his family and kept secret for some five hundred years; first published in 1909."
+    },
+    {
+      "id": "text-yoga-sutras",
+      "kind": "primary-text",
+      "title": { "en": "Yoga Sutras", "fa": "یوگه‌سوتره‌ها" },
+      "authors": ["Patanjali"],
+      "rightsNote": "Cited by chapter and sutra (e.g. 1.2). The text is aphoristic to the point of being unreadable without a commentary, and the commentaries disagree."
+    },
+    {
+      "id": "text-tantraloka",
+      "kind": "primary-text",
+      "title": { "en": "Tantraloka", "fa": "تنتره‌آلوکه" },
+      "authors": ["Abhinavagupta"]
+    },
+    {
+      "id": "text-abhinavabharati",
+      "kind": "primary-text",
+      "title": { "en": "Abhinavabharati", "fa": "ابهینوه‌بهارتی" },
+      "authors": ["Abhinavagupta"],
+      "rightsNote": "A commentary on Bharata's Natyashastra, and the source of the developed theory of rasa."
+    },
+    {
+      "id": "text-hind-swaraj",
+      "kind": "primary-text",
+      "title": { "en": "Hind Swaraj", "fa": "هند سوراج" },
+      "authors": ["Mohandas K. Gandhi"],
+      "year": { "year": 1909 }
+    },
+    {
+      "id": "text-gandhi-autobiography",
+      "kind": "primary-text",
+      "title": {
+        "en": "An Autobiography: The Story of My Experiments with Truth",
+        "fa": "زندگی‌نامه: داستان آزمایش‌های من با حقیقت"
+      },
+      "authors": ["Mohandas K. Gandhi"]
+    },
+    {
+      "id": "text-annihilation-of-caste",
+      "kind": "primary-text",
+      "title": { "en": "Annihilation of Caste", "fa": "برانداختن کاست" },
+      "authors": ["B. R. Ambedkar"],
+      "year": { "year": 1936 },
+      "rightsNote": "Written as an address to a reform conference, which then withdrew the invitation; published by the author with the correspondence attached."
+    },
+    {
+      "id": "text-buddha-and-his-dhamma",
+      "kind": "primary-text",
+      "title": { "en": "The Buddha and His Dhamma", "fa": "بودا و دَمّهٔ او" },
+      "authors": ["B. R. Ambedkar"],
+      "year": { "year": 1957 }
+    },
+    {
+      "id": "text-life-divine",
+      "kind": "primary-text",
+      "title": { "en": "The Life Divine", "fa": "زندگی الهی" },
+      "authors": ["Sri Aurobindo"]
+    },
+    {
+      "id": "text-sadhana",
+      "kind": "primary-text",
+      "title": {
+        "en": "Sadhana: The Realisation of Life",
+        "fa": "سادهانا: تحقق زندگی"
+      },
+      "authors": ["Rabindranath Tagore"],
+      "year": { "year": 1913 }
+    },
+    {
+      "id": "text-nationalism-tagore",
+      "kind": "primary-text",
+      "title": { "en": "Nationalism", "fa": "ملی‌گرایی" },
+      "authors": ["Rabindranath Tagore"],
+      "year": { "year": 1917 }
+    },
+    {
+      "id": "text-maxims-of-ptahhotep",
+      "kind": "primary-text",
+      "title": { "en": "The Maxims of Ptahhotep", "fa": "اندرزهای پتاح‌حوتپ" },
+      "authors": ["Attributed to Ptahhotep"],
+      "rightsNote": "Known from copies several centuries later than its supposed date; cited by maxim number."
+    },
+    {
+      "id": "text-cantares-mexicanos",
+      "kind": "scholarly-edition",
+      "title": { "en": "Cantares Mexicanos", "fa": "سرودهای مکزیکی" },
+      "authors": ["Nahua poets"],
+      "rightsNote": "A manuscript collection of Nahuatl song-poems written down after the conquest, in which the poems traditionally ascribed to Nezahualcoyotl appear; the ascriptions are not contemporary."
+    },
+    {
+      "id": "text-nueva-coronica",
+      "kind": "primary-text",
+      "title": {
+        "en": "The First New Chronicle and Good Government",
+        "fa": "نخستین تاریخ نو و حکومت نیکو"
+      },
+      "authors": ["Felipe Guaman Poma de Ayala"],
+      "year": { "year": 1615 },
+      "rightsNote": "A 1,200-page illustrated letter to the king of Spain, which never reached him; rediscovered in Copenhagen in 1908."
     }
   ]
 }

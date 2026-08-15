@@ -1066,14 +1066,17 @@
               "en": "The Mohist argument is consequentialist and hard-headed. Partial concern — caring more for one's own family, state or class — is offered as natural, and Mozi's reply is that it is also the cause of the harms everyone complains about: states attack states, families rob families, and each does it out of exactly the partiality being defended. The standard is benefit to all, and it is defended by counting, not by feeling.",
               "fa": "استدلال موئی پیامدگرایانه و خشک است. دلبستگی جانبدارانه — بیشتر خواستنِ خانواده و دولت و طبقهٔ خود — طبیعی خوانده می‌شود، و پاسخ مو‌دزه این است که همان هم علت آسیب‌هایی است که همه از آن‌ها می‌نالند: دولت‌ها به دولت‌ها حمله می‌کنند، خانواده‌ها از خانواده‌ها می‌دزدند، و هریک دقیقاً از سرِ همان جانبداری‌ای که از آن دفاع می‌شود. معیار، سودِ همگان است، و با شمردن دفاع می‌شود نه با احساس."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-mozi-book", "locator": "ch. 14-16" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "墨子",
       "transliteration": "Mòzǐ",
       "schools": ["mohism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-mozi-book" }, { "source": "sep" }]
     },
     {
       "id": "han-feizi",
@@ -1140,7 +1143,11 @@
               "en": "The phrase sounds empirical and is not quite. Zhu Xi holds that everything has a pattern that is also the pattern in oneself, so studying a bamboo and studying one's own conduct are two routes to the same structure. That is what Wang Yangming later found impossible: he reports sitting in front of bamboo for seven days investigating it, falling ill, and concluding that the pattern must be sought inward.",
               "fa": "این عبارت تجربی می‌نماید و کاملاً چنین نیست. ژو شی معتقد است هر چیزی نظمی دارد که همان نظمِ درون خودِ آدمی هم هست، پس مطالعهٔ یک خیزران و مطالعهٔ رفتار خود، دو راه به یک ساختارند. همین است که وانگ یانگ‌مینگ بعدها ناشدنی یافت: گزارش می‌کند که هفت روز روبه‌روی خیزران نشست و بررسی‌اش کرد، بیمار شد، و نتیجه گرفت که نظم را باید در درون جست."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-zhuzi-yulei" },
+              { "source": "text-jinsilu" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
@@ -1148,7 +1155,11 @@
       "transliteration": "Zhū Xī",
       "schools": ["neo-confucianism"],
       "concepts": ["li-ritual"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-jinsilu" },
+        { "source": "text-zhuzi-yulei" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "wang-yangming",
@@ -1215,14 +1226,22 @@
               "en": "Casting the teaching as a case rather than a revelation has three effects worth naming. It makes the content a set of claims that could turn out to be wrong. It locates the problem in craving — a relation we have to things — rather than in the things themselves, so the remedy is a training and not a withdrawal from the world. And it makes the fourth truth a procedure, which is why the tradition that follows is organised around practices to be tested rather than doctrines to be believed.",
               "fa": "ریختنِ آموزه در قالب یک پرونده به‌جای یک مکاشفه، سه اثر دارد که ارزش نام‌بردن دارند. محتوا را به مجموعه‌ای از ادعاها بدل می‌کند که ممکن است نادرست از آب درآیند. مسئله را در «خواستن» می‌نشاند — نسبتی که ما با چیزها داریم — نه در خودِ چیزها، پس درمان تمرین است نه کناره‌گیری از جهان. و حقیقت چهارم را رویّه می‌کند، و به همین سبب سنتی که در پی می‌آید حول تمرین‌هایی که باید آزموده شوند سامان می‌یابد، نه آموزه‌هایی که باید باور شوند."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-samyutta-nikaya", "locator": "SN 56.11" },
+              { "source": "text-samyutta-nikaya", "locator": "SN 22.59" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "सिद्धार्थ गौतम",
       "transliteration": "Siddhārtha Gautama",
       "concepts": ["dependent-origination"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-samyutta-nikaya" },
+        { "source": "text-dhammapada" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "shankara",
@@ -1389,6 +1408,20 @@
               "en": "Mahāvīra is the central teacher of Jainism. Two ideas make it philosophically distinctive: ahiṃsā, non-harm, taken further than any other tradition takes it; and anekāntavāda, the doctrine that reality has many aspects, so any single statement about it captures one standpoint and misses others.",
               "fa": "مهاویره معلم مرکزی آیین جین است. دو ایده آن را از نظر فلسفی متمایز می‌کند: «اهیمسا» یعنی نیازردن، که تا جایی پیش برده می‌شود که هیچ سنت دیگری نمی‌برد؛ و «انکانته‌واده»، این آموزه که حقیقت جنبه‌های بسیار دارد، پس هر گزارهٔ یگانه دربارهٔ آن یک منظر را می‌گیرد و منظرهای دیگر را از دست می‌دهد."
             }
+          },
+          {
+            "id": "what-the-sources-are",
+            "heading": { "en": "What the sources are", "fa": "منابع چیستند" },
+            "depth": "standard",
+            "body": {
+              "en": "Mahavira wrote nothing, and the Jain canon was transmitted orally for centuries before being written down — during which one of the two main sects came to hold that the original canon was lost altogether. The oldest surviving text is closest to his teaching in tone: an ascetic discipline stated as observation, in which every living thing is described as wanting to live and shrinking from harm, and non-violence follows from taking that seriously rather than from a command. The systematic doctrine most people encounter was composed centuries afterwards.",
+              "fa": "مهاویره هیچ ننوشت، و آموزهٔ جِین قرن‌ها شفاهی منتقل شد پیش از آنکه نوشته شود — و در همین میان یکی از دو فرقهٔ اصلی به این باور رسید که متن اصلی یکسره از میان رفته است. کهن‌ترین متنِ بازمانده از حیث لحن به آموزهٔ او نزدیک‌تر است: انضباطی زاهدانه که همچون مشاهده بیان شده، و در آن هر جانداری چنین وصف می‌شود که زیستن می‌خواهد و از آسیب می‌گریزد، و نافرمانی از خشونت از جدی‌گرفتنِ همین برمی‌آید نه از یک فرمان. آن آموزهٔ منظمی که بیشتر مردم با آن روبه‌رو می‌شوند قرن‌ها بعد نوشته شد."
+            },
+            "citations": [
+              { "source": "text-acaranga-sutra", "locator": "I.4" },
+              { "source": "text-tattvartha-sutra" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
@@ -1396,7 +1429,11 @@
       "transliteration": "Mahāvīra",
       "schools": ["jainism"],
       "concepts": ["ahimsa", "anekantavada"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-tattvartha-sutra" },
+        { "source": "text-acaranga-sutra" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "dogen",
@@ -1538,10 +1575,31 @@
               "en": "Kūkai founded Shingon, the esoteric school of Japanese Buddhism. Against the view that awakening takes innumerable lifetimes, he argued it is attainable in this body. He also developed an unusual theory of language in which the sounds of speech are not arbitrary signs but part of the structure of reality itself.",
               "fa": "کوکای «شینگون»، مکتب باطنی بودیسم ژاپنی، را بنیان گذاشت. در برابر این دیدگاه که بیداری زندگی‌های بی‌شمار می‌طلبد، استدلال کرد که در همین بدن دست‌یافتنی است. او نظریهٔ غیرمعمولی دربارهٔ زبان نیز پروراند که در آن آواهای گفتار نشانه‌های قراردادی نیستند، بلکه بخشی از ساختار خودِ حقیقت‌اند."
             }
+          },
+          {
+            "id": "this-body-not-the-next",
+            "heading": {
+              "en": "This body, not the next one",
+              "fa": "همین تن، نه تنِ بعدی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The accepted Buddhist view in Kukai's Japan was that awakening takes innumerable lifetimes. His claim is that it can be reached in the present body, and the argument is about what a buddha is: if the cosmic buddha is the universe itself rather than a being inside it, then the practitioner is not travelling towards something distant but recognising what is already the case. That is why the practice is ritual and bodily — gesture, sound and image — since what is being enacted is an identity, not a journey.",
+              "fa": "دیدگاه پذیرفتهٔ بودایی در ژاپنِ کوکای این بود که بیداری بی‌شمار زندگی می‌طلبد. ادعای او این است که در همین تنِ کنونی می‌توان به آن رسید، و استدلال دربارهٔ این است که بودا چیست: اگر بودای کیهانی خودِ جهان باشد نه موجودی درون آن، آنگاه رهرو به سوی چیزی دور نمی‌رود، بلکه آنچه را که از پیش چنین است بازمی‌شناسد. به همین سبب است که تمرین، آیینی و تنانه است — اشاره و صدا و تصویر — چون آنچه اجرا می‌شود یک این‌همانی است، نه یک سفر."
+            },
+            "citations": [
+              { "source": "text-sokushin-jobutsu" },
+              { "source": "text-hizo-hoyaku" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-hizo-hoyaku" },
+        { "source": "text-sokushin-jobutsu" },
+        { "source": "sep" }
+      ],
       "nativeName": "空海",
       "transliteration": "Kūkai"
     },
@@ -1571,10 +1629,31 @@
               "en": "Wonhyo is the central figure of Korean Buddhist philosophy. His project was reconciliation: he read the competing schools as emphasising different aspects of one position rather than contradicting each other, and produced a method for showing where an apparent conflict comes from a difference of standpoint.",
               "fa": "وونهیو چهرهٔ مرکزی فلسفهٔ بودایی کره است. پروژهٔ او آشتی‌دادن بود: مکتب‌های رقیب را چنین می‌خواند که هر یک بر جنبه‌ای از یک موضع واحد تأکید می‌کنند نه اینکه یکدیگر را نقض کنند؛ و روشی پرداخت برای نشان‌دادن اینکه یک تعارض ظاهری از کجای اختلافِ منظر می‌آید."
             }
+          },
+          {
+            "id": "reconciling-disputes",
+            "heading": {
+              "en": "A method for schools that disagree",
+              "fa": "روشی برای مکتب‌هایی که اختلاف دارند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Wonhyo's Korea had inherited a Buddhism split into schools each holding an incompatible reading of the same scriptures. His response is a procedure rather than a verdict: for any pair of positions, find the question each is answering, show that they are different questions, and the contradiction usually dissolves — and where it does not, say so. The method assumes that a long-lived dispute between careful people is more likely a difference in what is being asked than an error by one side.",
+              "fa": "کرهٔ زمانِ وونهیو بودیسمی را به ارث برده بود که به مکتب‌هایی تقسیم شده بود و هریک خوانشی ناسازگار از همان متون داشت. پاسخ او یک رویّه است نه یک حکم: برای هر جفت موضع، پرسشی را بیاب که هریک به آن پاسخ می‌دهد، نشان بده که دو پرسش متفاوت‌اند، و تناقض معمولاً منحل می‌شود — و آنجا که نمی‌شود، همان را بگو. این روش فرض می‌گیرد که مناقشه‌ای دیرپا میان آدم‌های دقیق، بیشتر تفاوتی در پرسش است تا خطای یک طرف."
+            },
+            "citations": [
+              { "source": "text-simmun-hwajaeng-non" },
+              { "source": "text-gisillon-so" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-simmun-hwajaeng-non" },
+        { "source": "text-gisillon-so" },
+        { "source": "sep" }
+      ],
       "nativeName": "元曉",
       "transliteration": "Wonhyo"
     },
@@ -1600,10 +1679,26 @@
               "en": "Yi Hwang, known as Toegye, is the most influential Korean Neo-Confucian. His long exchange with Ki Daeseung over whether the four moral feelings and the seven ordinary emotions arise from principle or from material force is the defining debate of Korean philosophy, and one of the most sustained arguments about moral psychology anywhere.",
               "fa": "یی هوانگ، معروف به «توگیه»، اثرگذارترین نوکنفوسیوسیِ کره است. مکاتبهٔ طولانی او با کی دِسونگ بر سر اینکه چهار احساس اخلاقی و هفت عاطفهٔ معمولی از «اصل» برمی‌خیزند یا از «نیروی مادی»، بحث تعیین‌کنندهٔ فلسفهٔ کره است و یکی از پیوسته‌ترین بحث‌های روان‌شناسی اخلاقی در هر جای دیگر."
             }
+          },
+          {
+            "id": "philosophy-as-a-curriculum",
+            "heading": {
+              "en": "Philosophy laid out as diagrams",
+              "fa": "فلسفه، چیده‌شده در نمودار"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "His summary work is ten diagrams, each with a short text, presented to a sixteen-year-old king as a course of study rather than as a treatise. The form is itself a position: since the aim of learning is to become a certain kind of person, what a philosophy most needs is not another proof but a sequence someone can actually work through. Yi Hwang spent his life declining the offices he was repeatedly appointed to, on the ground that a scholar who has not finished this sequence has no business governing.",
+              "fa": "اثر خلاصهٔ او ده نمودار است، هریک با متنی کوتاه، که به پادشاهی شانزده‌ساله نه همچون رساله بلکه همچون دورهٔ درسی عرضه شده. خودِ این قالب یک موضع است: چون هدفِ آموختن این است که آدمی گونه‌ای از انسان شود، آنچه یک فلسفه بیش از همه لازم دارد برهانی دیگر نیست، ترتیبی است که کسی بتواند واقعاً از آن بگذرد. یی هوانگ عمرش را به ردکردن منصب‌هایی گذراند که پی‌درپی به او می‌دادند، به این دلیل که عالمی که این ترتیب را به پایان نبرده کاری با حکومت‌کردن ندارد."
+            },
+            "citations": [
+              { "source": "text-seonghak-sipdo" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-seonghak-sipdo" }, { "source": "sep" }],
       "nativeName": "李滉",
       "transliteration": "Yi Hwang (Toegye)"
     },
@@ -1674,10 +1769,26 @@
               "en": "Trần Nhân Tông ruled Vietnam, twice led it through invasion, then abdicated and founded the Trúc Lâm school of Zen. Its emphasis is that practice does not require withdrawal: the work is done in the middle of ordinary responsibilities, which is a position with obvious weight coming from someone who had held the largest ones.",
               "fa": "ترن نان تونگ بر ویتنام حکومت کرد، دو بار آن را از حمله گذراند، سپس کناره گرفت و مکتب ذنِ «چوک لام» را بنیان گذاشت. تأکید این مکتب آن است که تمرین به کناره‌گیری نیاز ندارد: کار در میانهٔ مسئولیت‌های روزمره انجام می‌شود — موضعی که وقتی از کسی می‌آید که بزرگ‌ترین مسئولیت‌ها را داشته، وزن آشکاری دارد."
             }
+          },
+          {
+            "id": "abdication-as-argument",
+            "heading": {
+              "en": "A king who argued by abdicating",
+              "fa": "پادشاهی که با کناره‌گیری استدلال کرد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Tran Nhan Tong defeated two Mongol invasions, abdicated, and became a monk, founding a school whose central claim is that awakening does not require leaving ordinary life. His poem says it plainly: live in the world and be joyful in the way; when hungry eat, when tired sleep; the treasure is at home, do not go looking for it. Written in the vernacular script rather than in Chinese, which is itself part of the claim — a teaching about ordinary life addressed to people in the language they actually spoke.",
+              "fa": "چان نان تونگ دو حملهٔ مغول را شکست داد، از تخت کناره گرفت، و راهب شد و مکتبی بنیاد نهاد که ادعای مرکزی‌اش این است که بیداری، ترکِ زندگی عادی را نمی‌طلبد. شعرش صریح می‌گوید: در جهان بزی و در راه شادمان باش؛ چون گرسنه‌ای بخور، چون خسته‌ای بخواب؛ گنج در خانه است، به جست‌وجویش مرو. به خط بومی نوشته شده نه به چینی، و همین خود بخشی از آن ادعاست — آموزه‌ای دربارهٔ زندگی عادی، خطاب به مردم و به زبانی که واقعاً می‌گفتند."
+            },
+            "citations": [
+              { "source": "text-cu-tran-lac-dao" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-cu-tran-lac-dao" }, { "source": "sep" }],
       "nativeName": "陳仁宗",
       "transliteration": "Trần Nhân Tông"
     },
@@ -1916,10 +2027,34 @@
               "en": "Philoponus argued against Aristotle that the world had a beginning, that a vacuum is possible, and that a thrown object keeps moving because something was imparted to it rather than because the air pushes it. That last idea is the ancestor of the theory of impetus and, through it, of inertia.",
               "fa": "یوحنای نحوی بر خلاف ارسطو استدلال کرد که جهان آغازی داشته، که خلأ ممکن است، و که جسم پرتاب‌شده به این سبب حرکت را ادامه می‌دهد که چیزی به آن داده شده، نه به این سبب که هوا هلش می‌دهد. این ایدهٔ آخر نیای نظریهٔ «میل» و از راه آن، نیای لَختی است."
             }
+          },
+          {
+            "id": "breaking-with-aristotle",
+            "heading": {
+              "en": "Where he broke with Aristotle",
+              "fa": "کجا از ارسطو گسست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Philoponus was a commentator on Aristotle who ended up arguing against him on the points that mattered most. Aristotle held the world eternal; Philoponus argued it was created, and did it with Aristotle's own tools rather than by appeal to scripture. On motion he rejected the claim that a projectile is kept moving by the air behind it and proposed instead that the thrower impresses a force into the object itself — the idea later called impetus, which is on the road to inertia. He also denied that heavier bodies fall proportionally faster, and said the test had been made.",
+              "fa": "فیلوپونوس شارحِ ارسطو بود و سرانجام در مهم‌ترین نقطه‌ها در برابر او استدلال کرد. ارسطو جهان را ازلی می‌دانست؛ فیلوپونوس استدلال کرد که آفریده شده، و این کار را با ابزارِ خودِ ارسطو کرد نه با استناد به کتاب مقدس. دربارهٔ حرکت، این ادعا را رد کرد که پرتابه را هوای پشتِ آن به حرکت نگه می‌دارد و به‌جایش گفت پرتاب‌کننده نیرویی را در خودِ جسم می‌نشاند — همان ایده‌ای که بعدها «مِیل» نامیده شد و در راهِ لَختی است. همچنین انکار کرد که اجسام سنگین‌تر به همان نسبت تندتر می‌افتند، و گفت که آزمایش شده است."
+            },
+            "citations": [
+              { "source": "text-de-aeternitate-mundi" },
+              {
+                "source": "text-philoponus-physics-commentary",
+                "locator": "in Phys. 641-642"
+              },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-philoponus-physics-commentary" },
+        { "source": "text-de-aeternitate-mundi" },
+        { "source": "sep" }
+      ],
       "nativeName": "Ἰωάννης ὁ Φιλόπονος",
       "transliteration": "Iōannēs ho Philoponos"
     },
@@ -2099,11 +2234,32 @@
               "en": "Russell found the paradox that broke Frege's system — the set of all sets that do not contain themselves — and then spent years with Whitehead trying to rebuild arithmetic on secure logical foundations. His theory of descriptions, showing how a sentence about the present king of France can be false rather than meaningless, is a model of analytic method.",
               "fa": "راسل تناقضی را یافت که نظام فرگه را شکست: مجموعهٔ همهٔ مجموعه‌هایی که خودشان را در بر نمی‌گیرند. سپس سال‌ها با وایتهد کوشید حساب را بر بنیادهای منطقیِ امن بازسازد. نظریهٔ توصیف‌های او که نشان می‌دهد جمله‌ای دربارهٔ پادشاه کنونی فرانسه چگونه می‌تواند نادرست باشد نه بی‌معنا، الگویی از روش تحلیلی است."
             }
+          },
+          {
+            "id": "acquaintance-and-description",
+            "heading": {
+              "en": "Knowing a thing and knowing about it",
+              "fa": "شناختنِ چیز و دانستنِ دربارهٔ آن"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Russell separates two things ordinary language calls knowledge. You are acquainted with a patch of colour you are looking at; you know Julius Caesar only by description, through some phrase that picks him out. His claim is that every proposition you can understand is built entirely out of things you are acquainted with — otherwise you could not so much as think it. The theory of descriptions is the machinery: it analyses the present king of France away, so a sentence about something non-existent comes out false rather than meaningless.",
+              "fa": "راسل دو چیز را که زبان روزمره هر دو را «شناخت» می‌نامد از هم جدا می‌کند. با لکهٔ رنگی که به آن می‌نگری «آشنایی» داری؛ یولیوس سزار را تنها با «وصف» می‌شناسی، از راه عبارتی که او را مشخص می‌کند. ادعایش این است که هر گزاره‌ای که بتوانی بفهمی سراسر از چیزهایی ساخته شده که با آن‌ها آشنایی داری — وگرنه حتی نمی‌توانستی به آن بیندیشی. نظریهٔ اوصاف، ماشینِ کار است: «پادشاه کنونی فرانسه» را تحلیل و ناپدید می‌کند، چنان‌که جمله‌ای دربارهٔ چیزی ناموجود نادرست از آب درآید نه بی‌معنا."
+            },
+            "citations": [
+              { "source": "text-problems-of-philosophy", "locator": "ch. 5" },
+              { "source": "text-on-denoting" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "schools": ["analytic-philosophy"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-on-denoting" },
+        { "source": "text-problems-of-philosophy" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "wittgenstein",
@@ -2184,12 +2340,19 @@
               "en": "Husserl's method is to suspend the question of whether what appears is real, and describe the appearing itself. This is not scepticism — nothing is denied — but a change of subject, from what there is to how anything is given. The difficulty everyone meets is that the description keeps smuggling in what was supposed to be suspended, which is roughly what Heidegger concluded and why he abandoned the programme.",
               "fa": "روش هوسرل این است که پرسش از واقعی‌بودنِ آنچه پدیدار می‌شود را معلق کند و خودِ پدیدارشدن را وصف کند. این شکاکیت نیست — چیزی انکار نمی‌شود — بلکه تغییر موضوع است، از «چه هست» به «هر چیز چگونه داده می‌شود». دشواری‌ای که همه با آن روبه‌رو می‌شوند این است که توصیف پیوسته همان چیزی را قاچاق می‌کند که قرار بود معلق شود، و هایدگر تقریباً همین را نتیجه گرفت و به همین سبب آن برنامه را رها کرد."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-ideas-i", "locator": "§31-32" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "schools": ["phenomenology"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-logical-investigations" },
+        { "source": "text-ideas-i" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "heidegger",
@@ -2397,11 +2560,32 @@
               "en": "Peirce founded pragmatism, then renamed his version pragmaticism when he decided others had made the word too loose. His maxim is that to clarify a concept you ask what practical consequences would follow if it were true. He also did foundational work on signs and on the logic of scientific inference.",
               "fa": "پرس پراگماتیسم را بنیان گذاشت، و بعد که دید دیگران واژه را زیادی شل کرده‌اند نسخهٔ خودش را «پراگماتیسیسم» نامید. قاعدهٔ او این است که برای روشن‌کردن یک مفهوم بپرس اگر درست باشد چه پیامدهای عملی در پی دارد. او کار بنیادی دربارهٔ نشانه‌ها و منطق استنتاج علمی نیز کرد."
             }
+          },
+          {
+            "id": "the-pragmatic-maxim",
+            "heading": {
+              "en": "The maxim, and what it was for",
+              "fa": "قاعده، و برای چه بود"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Peirce's rule for clarifying an idea: consider what effects with conceivable practical bearing the object of your conception could have — the whole of that is the whole of your conception of the object. It was designed as a solvent for disputes where two sides use different words and expect nothing different to happen, and Peirce spent his later life objecting that James had turned it into a theory of truth. The companion paper does the other half, treating inquiry as the effort to escape doubt, and asking why science is a better method than tenacity or authority.",
+              "fa": "قاعدهٔ پرس برای روشن‌کردن یک ایده: در نظر بگیر که موضوعِ تصورت چه اثرهایی با دلالتِ عملیِ قابل‌تصور می‌تواند داشته باشد — تمامیِ آن، تمامیِ تصور تو از آن موضوع است. این قاعده همچون حلّالی برای مناقشه‌هایی ساخته شد که دو طرف واژه‌های متفاوت به کار می‌برند و انتظار هیچ رخدادِ متفاوتی ندارند، و پرس سال‌های پایانی‌اش را به این اعتراض گذراند که جیمز آن را به نظریه‌ای دربارهٔ حقیقت بدل کرده است. مقالهٔ همراه، نیمهٔ دیگر کار را می‌کند: پژوهش را کوششی برای گریز از شک می‌گیرد و می‌پرسد چرا علم روشی بهتر از سرسختی یا اقتدار است."
+            },
+            "citations": [
+              { "source": "text-how-to-make-our-ideas-clear" },
+              { "source": "text-fixation-of-belief" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "schools": ["pragmatism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-fixation-of-belief" },
+        { "source": "text-how-to-make-our-ideas-clear" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "james",
@@ -2429,11 +2613,32 @@
               "en": "James made pragmatism widely read and wrote the founding textbook of scientific psychology. His most contested claim is that in some cases — where evidence cannot settle the matter and a decision cannot be postponed — it can be legitimate to believe on other grounds, which critics read as licensing wishful thinking.",
               "fa": "جیمز پراگماتیسم را پرخواننده کرد و کتاب درسی بنیان‌گذارِ روان‌شناسی علمی را نوشت. پرمناقشه‌ترین ادعای او این است که در برخی موارد — جایی که شواهد نمی‌توانند مسئله را فیصله دهند و تصمیم را نمی‌توان به تعویق انداخت — باورآوردن بر پایه‌های دیگر می‌تواند موجه باشد؛ چیزی که منتقدان آن را مجوزِ آرزواندیشی می‌خوانند."
             }
+          },
+          {
+            "id": "truth-as-something-that-happens",
+            "heading": {
+              "en": "Truth as something that happens to an idea",
+              "fa": "حقیقت همچون چیزی که بر یک ایده می‌گذرد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "James refuses to treat truth as a static relation an idea either has or lacks. An idea becomes true, is made true by events; its truth is the process of its verifying itself. Stated that way it invites the standard objection — that this makes truth whatever is convenient — and James does not fully close it off, since he allows that a belief may count as true partly because of what believing it does for the believer. The disagreement between him and Peirce over exactly this is why Peirce renamed his own position.",
+              "fa": "جیمز نمی‌پذیرد که حقیقت نسبتی ایستا باشد که یک ایده یا دارد یا ندارد. یک ایده درست «می‌شود»، رویدادها درستش می‌کنند؛ حقیقتش همان فرایندِ راستی‌آزمایی خودش است. با این بیان، اعتراض همیشگی را می‌طلبد — که این کار حقیقت را هر چیزِ به‌صرفه‌ای می‌کند — و جیمز کاملاً راه را نمی‌بندد، چون می‌پذیرد که باوری تا حدی به سببِ آنچه باورداشتنش برای باورنده می‌کند درست به شمار آید. اختلاف او و پرس دقیقاً بر سر همین است، و به همین سبب پرس نامِ موضع خودش را عوض کرد."
+            },
+            "citations": [
+              { "source": "text-pragmatism-james", "locator": "Lecture VI" },
+              { "source": "sep" }
+            ],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
       "schools": ["pragmatism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-varieties-of-religious-experience" },
+        { "source": "text-pragmatism-james" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "dewey",
@@ -2461,11 +2666,32 @@
               "en": "Dewey treated enquiry as something organisms do to resolve a problem, not as spectating on a finished world. He applied this to schooling — learning by doing rather than by receiving — and to democracy, which he understood as a way of living together and solving shared problems rather than a set of institutions.",
               "fa": "دیویی پژوهش را کاری می‌دانست که موجود زنده برای حل یک مسئله انجام می‌دهد، نه تماشای جهانی تمام‌شده. این را بر آموزش اعمال کرد — یادگیری از راه انجام‌دادن نه از راه دریافت‌کردن — و بر دموکراسی، که آن را شیوه‌ای از باهم‌زیستن و حل مسائل مشترک می‌فهمید نه مجموعه‌ای از نهادها."
             }
+          },
+          {
+            "id": "against-the-spectator",
+            "heading": {
+              "en": "Against knowing as looking",
+              "fa": "در برابرِ دانستن همچون نگریستن"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Dewey's diagnosis is historical. Philosophy inherited from Greece the assumption that what is truly real is what does not change, and that knowing is a kind of beholding it from outside — a search for certainty in a world that offers none. His counter-proposal is that knowing is something organisms do: an activity that intervenes, tries, and is corrected by what happens. Education follows directly, which is why his account of school is not an application of the philosophy but a statement of it.",
+              "fa": "تشخیص دیویی تاریخی است. فلسفه از یونان این فرض را به ارث برد که آنچه به‌راستی واقعی است همان است که تغییر نمی‌کند، و دانستن نوعی نگریستن به آن از بیرون است — جست‌وجوی یقین در جهانی که یقینی نمی‌دهد. پیشنهاد جایگزینش این است که دانستن کاری است که موجودات زنده می‌کنند: فعالیتی که مداخله می‌کند، می‌آزماید، و با آنچه رخ می‌دهد اصلاح می‌شود. آموزش مستقیماً از همین برمی‌آید، و به همین سبب شرحِ او از مدرسه کاربستِ آن فلسفه نیست، بیانِ خودِ آن است."
+            },
+            "citations": [
+              { "source": "text-quest-for-certainty" },
+              { "source": "text-democracy-and-education" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "schools": ["pragmatism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-democracy-and-education" },
+        { "source": "text-quest-for-certainty" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "zera-yacob",
@@ -2667,12 +2893,18 @@
               "en": "The Nahua poems were written down in the sixteenth century, after the conquest, in collections compiled from oral performance. Which pieces are Nezahualcóyotl's own is not settled, and the versions we have passed through scribes working under Spanish supervision. The philosophy in them is real; the attribution to one named author is the uncertain part.",
               "fa": "شعرهای ناواتل در قرن شانزدهم و پس از فتح نوشته شدند، در مجموعه‌هایی که از اجرای شفاهی گرد آمده بودند. اینکه کدام قطعه‌ها از خودِ نساوالکویوتل‌اند قطعی نیست، و نسخه‌هایی که داریم از دست کاتبانی گذشته که زیر نظارت اسپانیایی کار می‌کردند. فلسفهٔ درون آن‌ها واقعی است؛ آنچه نامعلوم است انتساب به یک نویسندهٔ نام‌دار است."
             },
-            "citations": [{ "source": "sep" }],
+            "citations": [
+              { "source": "text-cantares-mexicanos" },
+              { "source": "sep" }
+            ],
             "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-cantares-mexicanos" },
+        { "source": "sep" }
+      ],
       "nativeName": "Nezahualcōyōtl",
       "transliteration": "Nezahualcōyōtl"
     },
@@ -2865,10 +3097,30 @@
               "en": "Thales is conventionally the first Greek philosopher, on one specific ground: he explained the world by something in the world — water — rather than by the will of a god. Nothing he wrote survives, and the reports come mostly from Aristotle, two centuries later.",
               "fa": "تالس بنا بر قرارداد نخستین فیلسوف یونانی است، و دلیلش مشخص است: او جهان را با چیزی در خود جهان توضیح داد — آب — نه با ارادهٔ خدایی. هیچ نوشته‌ای از او نمانده و گزارش‌ها بیشتر از ارسطو می‌آید، دو قرن بعد."
             }
+          },
+          {
+            "id": "the-testimony",
+            "heading": {
+              "en": "How anything is known about him",
+              "fa": "چگونه اصلاً چیزی از او می‌دانیم"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Thales left no writing. The claim that he made water the origin of everything comes from Aristotle, roughly two and a half centuries later, in a chapter surveying earlier thinkers to show that they were groping towards his own four causes. Aristotle marks it as report rather than quotation, and he is reading them for a purpose. So the famous doctrine is real evidence about what fourth-century Athens believed the first philosopher had said, and weaker evidence about what he actually said.",
+              "fa": "تالس هیچ نوشته‌ای بر جای نگذاشت. این ادعا که او آب را سرآغاز همه‌چیز دانست از ارسطو می‌آید، نزدیک به دو قرن و نیم بعد، در فصلی که اندیشمندان پیشین را مرور می‌کند تا نشان دهد آنان به‌سوی «چهار علتِ» خودِ او دست می‌سودند. ارسطو خودش آن را گزارش می‌نامد نه نقل قول، و با هدفی می‌خواندشان. پس آن آموزهٔ نامدار شاهدی است محکم بر اینکه آتنِ قرن چهارم چه می‌پنداشت نخستین فیلسوف گفته است، و شاهدی است ضعیف‌تر بر اینکه او واقعاً چه گفت."
+            },
+            "citations": [
+              {
+                "source": "aristotle-metaphysics",
+                "locator": "Metaphysics 983b"
+              },
+              { "source": "sep" }
+            ],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "aristotle-metaphysics" }, { "source": "sep" }],
       "nativeName": "Θαλῆς",
       "transliteration": "Thalēs"
     },
@@ -2908,10 +3160,30 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "reading-the-fragments",
+            "heading": {
+              "en": "Why the fragments read as riddles",
+              "fa": "چرا پاره‌ها معماوار خوانده می‌شوند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "About a hundred sentences survive, every one of them quoted inside somebody else's book for that author's own purposes — a Christian apologist, a Stoic, a doxographer. Two difficulties compound. Heraclitus wrote compressed on purpose: he says that nature likes to hide, and his sentences are built so that the reader has to do the joining. And the surrounding argument that would have fixed each sentence's sense is exactly what was thrown away by the person quoting it.",
+              "fa": "نزدیک به صد جمله بر جای مانده، و هر یک درون کتاب کسی دیگر و برای مقصود همان نویسنده نقل شده است — یک مدافع مسیحی، یک رواقی، یک دوکسوگراف. دو دشواری روی هم می‌افتند. هراکلیتوس عمداً فشرده نوشت: می‌گوید طبیعت دوست دارد پنهان شود، و جمله‌هایش چنان ساخته شده‌اند که خواننده باید خودش پیوندها را بزند. و آن استدلالِ پیرامونی که معنای هر جمله را قطعی می‌کرد دقیقاً همان چیزی است که نقل‌کننده دور انداخته است."
+            },
+            "citations": [
+              { "source": "text-heraclitus-fragments", "locator": "DK 22 B123" },
+              { "source": "text-heraclitus-fragments", "locator": "DK 22 B12" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-heraclitus-fragments" },
+        { "source": "sep" }
+      ],
       "nativeName": "Ἡράκλειτος",
       "transliteration": "Hērakleitos"
     },
@@ -2937,10 +3209,28 @@
               "en": "Parmenides argued that what is not cannot be thought or spoken of; that change would require something to come from what is not; and therefore that change is impossible and reality is one unchanging whole. The conclusion is absurd and the argument is not obviously wrong, which is why the next two centuries were spent answering it.",
               "fa": "پارمنیدس استدلال کرد که «آنچه نیست» را نه می‌توان اندیشید و نه گفت؛ که دگرگونی مستلزم آن است که چیزی از «نیست» بیاید؛ و پس دگرگونی ناممکن است و واقعیت یک کلِ تغییرناپذیر است. نتیجه بی‌معنا است و استدلال به‌روشنی نادرست نیست، و به همین سبب دو قرن بعدی صرف پاسخ‌دادن به آن شد."
             }
+          },
+          {
+            "id": "two-roads",
+            "heading": {
+              "en": "The second half of the poem",
+              "fa": "نیمهٔ دوم شعر"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Having proved that nothing comes to be, changes or moves, the poem does not stop. The goddess announces that she will now set out the opinions of mortals, and there follows a long cosmology — two elements, light and night, a theory of the heavens, an account of how thinking works — describing exactly the world just shown to be impossible. Ancient and modern readers have proposed that it is a catalogue of errors, that it is the best available account of appearances given that appearances are not real, and that the two halves were never meant to be reconciled. None of these has become the settled reading.",
+              "fa": "پس از آنکه ثابت شد هیچ‌چیز پدید نمی‌آید و دگرگون نمی‌شود و حرکت نمی‌کند، شعر نمی‌ایستد. الهه اعلام می‌کند که اکنون آرای میرندگان را بازخواهد گفت، و از پی آن کیهان‌شناسی بلندی می‌آید — دو عنصر، روشنایی و شب، نظریه‌ای دربارهٔ آسمان‌ها، شرحی از کارکرد اندیشیدن — که دقیقاً همان جهانی را وصف می‌کند که تازه ناممکن نشان داده شده. خوانندگان باستانی و امروزی پیشنهاد کرده‌اند که این فهرستی از خطاهاست، که بهترین شرحِ ممکن از نمودهاست با فرض اینکه نمودها واقعی نیستند، و اینکه هرگز قرار نبوده دو نیمه با هم آشتی کنند. هیچ‌یک خوانشِ قطعی نشده است."
+            },
+            "citations": [
+              { "source": "text-parmenides-poem", "locator": "DK 28 B8.50-61" },
+              { "source": "text-parmenides-poem", "locator": "DK 28 B1.28-32" },
+              { "source": "sep" }
+            ],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-parmenides-poem" }, { "source": "sep" }],
       "nativeName": "Παρμενίδης",
       "transliteration": "Parmenidēs"
     },
@@ -2966,10 +3256,26 @@
               "en": "Zeno's paradoxes defend Parmenides by attacking the alternative: if things really move and really divide, absurdities follow. Achilles cannot pass the tortoise; an arrow in flight is at rest at every instant. Answering them properly took the modern theory of limits, and the paradox about the arrow is still argued over.",
               "fa": "پارادوکس‌های زنون با حمله به گزینهٔ رقیب از پارمنیدس دفاع می‌کنند: اگر چیزها واقعاً حرکت کنند و واقعاً تقسیم شوند، بی‌معنایی‌ها پیش می‌آید. آشیل از لاک‌پشت جلو نمی‌زند؛ تیرِ در پرواز در هر لحظه ساکن است. پاسخ درست به آن‌ها نظریهٔ جدید حد را لازم داشت، و بر سر پارادوکس تیر هنوز بحث است."
             }
+          },
+          {
+            "id": "arguments-for-someone-else",
+            "heading": {
+              "en": "The paradoxes argue for Parmenides",
+              "fa": "پارادوکس‌ها به سود پارمنیدس‌اند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Zeno's own book is lost; the paradoxes are known because Aristotle set them out in order to answer them. Read on their own they look like puzzles about motion. Read as Aristotle presents them they are a defence: Parmenides had been mocked for denying plurality and change, and Zeno's reply is that the ordinary view fares worse — assume that things are many and that motion is real, and you can derive absurdities from that assumption alone.",
+              "fa": "کتاب خودِ زنون از میان رفته است؛ پارادوکس‌ها را از آن‌رو می‌شناسیم که ارسطو آن‌ها را آورد تا پاسخشان دهد. اگر جدا خوانده شوند، معماهایی دربارهٔ حرکت می‌نمایند. اگر چنان‌که ارسطو عرضه‌شان می‌کند خوانده شوند، دفاع‌اند: پارمنیدس را به سبب انکار کثرت و تغییر ریشخند کرده بودند، و پاسخ زنون این است که دیدگاه عادی بدتر از آب درمی‌آید — فرض کن چیزها بسیارند و حرکت واقعی است، آنگاه تنها از همین فرض می‌توان بی‌معنایی بیرون کشید."
+            },
+            "citations": [
+              { "source": "text-aristotle-physics", "locator": "Physics 239b" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-aristotle-physics" }, { "source": "sep" }],
       "nativeName": "Ζήνων ὁ Ἐλεάτης",
       "transliteration": "Zēnōn ho Eleatēs"
     },
@@ -3038,10 +3344,30 @@
               "en": "With his teacher Leucippus, Democritus argued that matter divides down to indivisible particles moving in a void, and that everything else — colour, taste, warmth — is how those particles affect us rather than how they are. The physics was a guess, but the distinction it draws is still doing work.",
               "fa": "دموکریتوس با استادش لئوکیپوس استدلال کرد که ماده تا ذراتی تقسیم‌ناپذیر که در خلأ حرکت می‌کنند تقسیم می‌شود، و هر چیز دیگر — رنگ و مزه و گرما — نه چگونگی خودِ آن ذرات بلکه اثری است که بر ما می‌گذارند. فیزیکش حدس بود، اما تمایزی که می‌کشد هنوز کار می‌کند."
             }
+          },
+          {
+            "id": "convention-and-atoms",
+            "heading": {
+              "en": "Convention and reality",
+              "fa": "قرارداد و واقعیت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "One surviving sentence does most of the work: by convention sweet, by convention bitter, by convention hot, by convention cold, by convention colour — but in reality atoms and void. That is the first clear statement of the distinction later called primary and secondary qualities, and Democritus saw the cost immediately. Another fragment has the senses answer back: wretched mind, do you take your evidence from us and then overthrow us? The theory that demotes the senses was itself built out of what the senses reported.",
+              "fa": "یک جملهٔ بازمانده بیشترِ کار را می‌کند: شیرین به قرارداد، تلخ به قرارداد، گرم به قرارداد، سرد به قرارداد، رنگ به قرارداد — اما در واقعیت اتم‌ها و خلأ. این نخستین بیان روشنِ تمایزی است که بعدها کیفیات اولیه و ثانویه خوانده شد، و دموکریتوس بهایش را بی‌درنگ دید. پارهٔ دیگری حواس را به پاسخ می‌آورد: ای ذهنِ بی‌نوا، شاهدت را از ما می‌گیری و سپس ما را سرنگون می‌کنی؟ نظریه‌ای که حواس را فرو می‌کاهد، خودش از گزارشِ همان حواس ساخته شده بود."
+            },
+            "citations": [
+              { "source": "text-democritus-fragments", "locator": "DK 68 B9" },
+              { "source": "text-democritus-fragments", "locator": "DK 68 B125" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-democritus-fragments" },
+        { "source": "sep" }
+      ],
       "nativeName": "Δημόκριτος",
       "transliteration": "Dēmokritos"
     },
@@ -3067,10 +3393,29 @@
               "en": "Empedocles answered Parmenides by keeping his premise and giving up his conclusion: nothing comes from nothing, but four elements can mix and separate, driven by attraction and strife. Mixture, not creation, is what change turns out to be.",
               "fa": "امپدوکلس به پارمنیدس چنین پاسخ داد که مقدمه‌اش را نگه داشت و نتیجه‌اش را رها کرد: هیچ از هیچ نمی‌آید، اما چهار عنصر می‌توانند با نیروی مِهر و ستیز درآمیزند و جدا شوند. پس دگرگونی، آمیختن است نه آفریدن."
             }
+          },
+          {
+            "id": "love-and-strife",
+            "heading": {
+              "en": "What Love and Strife are doing",
+              "fa": "کارِ مهر و ستیز چیست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Four roots — earth, water, air, fire — are permanent and unmixed in themselves. Nothing is ever born and nothing dies; what people call birth and death is roots mixing and separating. The two forces that do the mixing are named Love and Strife, and they alternate in a cycle without either winning. The move is more careful than it sounds: it keeps Parmenides' rule that what is cannot come from what is not, and buys back a changing world by making change a rearrangement.",
+              "fa": "چهار ریشه — خاک و آب و هوا و آتش — پایدارند و در خود ناآمیخته. هیچ‌چیز هرگز زاده نمی‌شود و هیچ‌چیز نمی‌میرد؛ آنچه مردم زایش و مرگ می‌خوانند آمیختن و جداشدنِ ریشه‌هاست. دو نیرویی که این آمیختن را می‌کنند مهر و ستیز نام دارند و در چرخه‌ای بی‌آنکه یکی پیروز شود جای عوض می‌کنند. این حرکت از آنچه می‌نماید سنجیده‌تر است: قاعدهٔ پارمنیدس را نگه می‌دارد که آنچه هست نمی‌تواند از آنچه نیست بیاید، و جهانِ متغیر را با تغییرکردنِ چیدمان بازمی‌خرد."
+            },
+            "citations": [
+              { "source": "text-empedocles-fragments", "locator": "DK 31 B17" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-empedocles-fragments" },
+        { "source": "sep" }
+      ],
       "nativeName": "Ἐμπεδοκλῆς",
       "transliteration": "Empedoklēs"
     },
@@ -3096,10 +3441,30 @@
               "en": "Anaxagoras held that everything contains a portion of everything, and that what set the mixture rotating and sorted it was nous — mind. He also said the sun is a glowing stone rather than a god, which is what got him prosecuted in Athens.",
               "fa": "آناکساگوراس معتقد بود هر چیز بهره‌ای از هر چیز دارد، و آنچه این آمیزه را به چرخش درآورد و مرتبش کرد «نوس» بود؛ یعنی ذهن. او همچنین گفت خورشید سنگی گداخته است نه خدا، و همین بود که در آتن به محاکمه‌اش کشاند."
             }
+          },
+          {
+            "id": "what-mind-was-for",
+            "heading": {
+              "en": "The first complaint about mechanism",
+              "fa": "نخستین شکایت از تبیین مکانیکی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Plato has Socrates describe reading Anaxagoras for the first time and being delighted: a thinker who says nous is the cause will surely explain, for each thing, why it is better arranged that way than any other. Then the disappointment — the explanations turn out to be air, aether and rotation, and the promise is never cashed. Socrates' complaint is the oldest surviving version of a still-live objection: that saying what a thing is made of and how it got that way does not answer the question that was asked.",
+              "fa": "افلاطون از زبان سقراط وصف می‌کند که نخستین‌بار آناکساگوراس را خواند و شادمان شد: اندیشمندی که «نوس» را علت می‌خواند بی‌گمان برای هر چیز توضیح خواهد داد که چرا این‌گونه چیده‌شدنش بهتر از هر گونهٔ دیگر است. و سپس سرخوردگی — توضیح‌ها از آب درمی‌آید هوا و اثیر و چرخش، و آن وعده هرگز نقد نمی‌شود. شکایت سقراط کهن‌ترین صورتِ بازماندهٔ اعتراضی است که هنوز زنده است: اینکه گفتنِ اینکه چیزی از چه ساخته شده و چگونه چنین شده، به پرسشی که پرسیده شده بود پاسخ نمی‌دهد."
+            },
+            "citations": [
+              { "source": "text-phaedo", "locator": "Phaedo 97b-98c" },
+              { "source": "text-anaxagoras-fragments", "locator": "DK 59 B12" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-anaxagoras-fragments" },
+        { "source": "sep" }
+      ],
       "nativeName": "Ἀναξαγόρας",
       "transliteration": "Anaxagoras"
     },
@@ -3125,10 +3490,27 @@
               "en": "Protagoras is the best known of the sophists, teachers who took money for training in argument. His surviving claim — that a human being is the measure of all things, of what is that it is and of what is not that it is not — is the earliest relativism in the Western record, and Plato spent a dialogue trying to refute it.",
               "fa": "پروتاگوراس شناخته‌شده‌ترین سوفسطاییان است؛ معلمانی که برای آموزش استدلال پول می‌گرفتند. ادعای بازمانده‌اش — که انسان معیار همه‌چیز است؛ از بودنِ آنچه هست و از نبودنِ آنچه نیست — نخستین نسبی‌گرایی در سند غرب است، و افلاطون یک گفت‌وگو را صرف رد آن کرد."
             }
+          },
+          {
+            "id": "the-measure-claim",
+            "heading": {
+              "en": "Turning the claim on itself",
+              "fa": "برگرداندنِ ادعا بر خودش"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Plato's refutation is short and hard to escape. Most people believe that Protagoras is wrong. By his own rule, what each person believes is true for them. So it is true, for most people, that his rule is false — and he has to grant it. The argument is called the turning-about, and it is the ancestor of every later charge that relativism cannot state itself without falling over. Whether it lands depends on a reading Plato does not pause over: whether the measure is each individual, in which case the argument bites, or the species, in which case it may not.",
+              "fa": "ردّ افلاطون کوتاه است و گریز از آن دشوار. بیشتر مردم باور دارند که پروتاگوراس بر خطاست. بنا بر قاعدهٔ خودِ او، آنچه هرکس باور دارد برای او درست است. پس برای بیشتر مردم درست است که قاعدهٔ او نادرست است — و او ناچار باید بپذیرد. این استدلال را «برگرداندن» می‌نامند، و نیای هر اتهامِ بعدی است که نسبی‌گرایی نمی‌تواند خودش را بیان کند بی‌آنکه بیفتد. اینکه کارگر می‌افتد یا نه به خوانشی بستگی دارد که افلاطون بر آن درنگ نمی‌کند: اینکه معیار هر فرد است، که در آن صورت استدلال می‌گیرد، یا نوع، که در آن صورت شاید نگیرد."
+            },
+            "citations": [
+              { "source": "text-theaetetus", "locator": "Theaetetus 171a" },
+              { "source": "sep" }
+            ],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-theaetetus" }, { "source": "sep" }],
       "nativeName": "Πρωταγόρας",
       "transliteration": "Prōtagoras"
     },
@@ -3154,10 +3536,26 @@
               "en": "Gorgias was a rhetorician whose treatise argues three theses in order: nothing exists; if it did, it could not be known; if it could, it could not be communicated. Whether this is scepticism, parody or a demonstration of what rhetoric can do is still argued about.",
               "fa": "گرگیاس سخنوری بود که رساله‌اش سه تز را به‌ترتیب پیش می‌برد: هیچ‌چیز نیست؛ اگر هم بود، شناختنی نبود؛ اگر هم شناختنی بود، انتقال‌دادنی نبود. اینکه این شکاکیت است یا هجو یا نمایشی از توانِ بلاغت، هنوز محل بحث است."
             }
+          },
+          {
+            "id": "what-speech-does",
+            "heading": {
+              "en": "Speech treated as a physical force",
+              "fa": "سخن، همچون نیرویی فیزیکی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The Encomium sets out to defend the most blamed woman in Greek legend, and works through the possibilities one at a time: Helen went because the gods willed it, or by force, or persuaded by speech, or through love. The section on speech is the philosophical one. Gorgias calls it a powerful master with the smallest and least visible body, and compares its effect on the soul to the effect of drugs on the body — not a metaphor for eloquence but a claim that persuasion works causally, which is why the persuaded are not to blame.",
+              "fa": "«ستایش» می‌خواهد از نکوهیده‌ترین زنِ افسانهٔ یونانی دفاع کند، و امکان‌ها را یکی‌یکی می‌پیماید: هلن رفت چون خدایان خواستند، یا به زور، یا به اقناعِ سخن، یا از عشق. بخشِ مربوط به سخن، بخشِ فلسفی است. گرگیاس آن را خداوندگاری توانا با کوچک‌ترین و ناپیداترین تن می‌خواند، و اثرش بر جان را به اثر داروها بر تن مانند می‌کند — نه استعاره‌ای برای فصاحت، بلکه این ادعا که اقناع علّی کار می‌کند، و به همین سبب اقناع‌شده سرزنش‌پذیر نیست."
+            },
+            "citations": [
+              { "source": "text-encomium-of-helen", "locator": "§8-14" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-encomium-of-helen" }, { "source": "sep" }],
       "nativeName": "Γοργίας",
       "transliteration": "Gorgias"
     },
@@ -3183,10 +3581,33 @@
               "en": "Diogenes lived in a jar, begged, and did in public what others did privately, on the argument that shame attaches to convention rather than to nature. The Cynics left almost no texts because the position was that arguments should be performed, which makes the anecdotes the primary evidence and the evidence unreliable.",
               "fa": "دیوژن در خمره زندگی می‌کرد، گدایی می‌کرد، و در ملأ عام کاری می‌کرد که دیگران در خلوت می‌کردند؛ با این استدلال که شرم به عرف بسته است نه به طبیعت. کلبیان تقریباً متنی نگذاشتند چون موضعشان این بود که استدلال را باید اجرا کرد، و همین حکایت‌ها را شاهد اصلی می‌کند و شاهد را نامطمئن."
             }
+          },
+          {
+            "id": "a-life-as-argument",
+            "heading": {
+              "en": "The argument is the life",
+              "fa": "استدلال، همان زندگی است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Nothing survives that Diogenes wrote, and it is disputed whether he wrote at all. What there is instead is a few hundred anecdotes collected some five centuries later — the barrel, the lamp in daylight, telling Alexander to move out of his sun. Read as biography this is unreliable. Read as philosophy it is the point: the Cynic claim is that argument about how to live is settled by living, so a school whose surviving evidence is a set of performed refusals is not missing its texts.",
+              "fa": "هیچ نوشته‌ای از دیوجانس نمانده، و اینکه اصلاً نوشته باشد محل اختلاف است. آنچه هست چند صد حکایت است که نزدیک به پنج قرن بعد گرد آمده — خمره، چراغ در روشنایی روز، به اسکندر گفتن که از برابر آفتابم کنار برو. اگر زندگی‌نامه خوانده شود، نااعتماد است. اگر فلسفه خوانده شود، خودِ نکته است: ادعای کلبی این است که بحث بر سر چگونه‌زیستن با زیستن فیصله می‌یابد، پس مکتبی که شاهدِ بازمانده‌اش مجموعه‌ای از سرباززدن‌های اجراشده است، متن‌هایش را گم نکرده."
+            },
+            "citations": [
+              {
+                "source": "text-lives-of-eminent-philosophers",
+                "locator": "VI.20-81"
+              },
+              { "source": "sep" }
+            ],
+            "claim": "interpretation"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-lives-of-eminent-philosophers" },
+        { "source": "sep" }
+      ],
       "nativeName": "Διογένης",
       "transliteration": "Diogenēs"
     },
@@ -3224,12 +3645,23 @@
               "en": "Where death is, I am not; where I am, death is not — so death is never something that happens to me, and fearing it is fearing an experience nobody has. The obvious reply is that what people fear is not the state of being dead but the loss of everything they were going to have. Whether Epicurus has an answer to that, or has changed the subject, is still argued.",
               "fa": "آنجا که مرگ هست من نیستم؛ آنجا که من هستم مرگ نیست — پس مرگ هرگز چیزی نیست که بر من بگذرد، و ترسیدن از آن یعنی ترسیدن از تجربه‌ای که هیچ‌کس ندارد. پاسخ بدیهی این است که آنچه مردم می‌ترسند حالت مرده‌بودن نیست، از دست‌دادنِ هر آن چیزی است که قرار بود داشته باشند. اینکه اپیکور پاسخی برای آن دارد یا موضوع را عوض کرده، هنوز محل بحث است."
             },
-            "citations": [{ "source": "sep" }],
+            "citations": [
+              {
+                "source": "text-principal-doctrines",
+                "locator": "Principal Doctrine 2"
+              },
+              { "source": "text-letter-to-menoeceus", "locator": "125" },
+              { "source": "sep" }
+            ],
             "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-principal-doctrines" },
+        { "source": "text-letter-to-menoeceus" },
+        { "source": "sep" }
+      ],
       "nativeName": "Ἐπίκουρος",
       "transliteration": "Epikouros"
     },
@@ -3255,10 +3687,32 @@
               "en": "Zeno taught in the Stoa Poikilē, the painted porch that gave Stoicism its name. The system he began holds that virtue is the only good, that the world is rationally ordered, and that emotions are judgements — which is why they can be reasoned with rather than merely suffered.",
               "fa": "زنون در «استوآ پویکیله»، رواق نقاشی‌شده‌ای که نام رواقی‌گری از آن آمد، درس می‌داد. نظامی که آغاز کرد می‌گوید فضیلت تنها خیر است، جهان نظمی خردمندانه دارد، و عواطف داوری‌اند — و به همین سبب می‌توان با آن‌ها استدلال کرد، نه فقط تحملشان کرد."
             }
+          },
+          {
+            "id": "what-is-left",
+            "heading": {
+              "en": "What is left of the founder",
+              "fa": "از بنیان‌گذار چه مانده"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Zeno wrote a Republic and much else, and none of it survives. What is known comes from a doxography compiled five centuries afterwards and from opponents quoting him to attack him. This matters for reading Stoicism: the system usually presented as Stoic doctrine is a reconstruction, assembled mostly from Chrysippus, and the differences between the early Stoics have been flattened by the accident of what was preserved.",
+              "fa": "زنون «جمهوری»ای نوشت و بسیار چیز دیگر، و هیچ‌یک بر جای نمانده است. آنچه می‌دانیم از دوکسوگرافی‌ای می‌آید که پنج قرن بعد گرد آمده و از مخالفانی که او را نقل کرده‌اند تا حمله کنند. این برای خواندنِ رواقی‌گری اهمیت دارد: دستگاهی که معمولاً همچون آموزهٔ رواقی عرضه می‌شود بازسازی‌ای است، بیشتر از کروسیپوس گردآمده، و تفاوت‌های میان رواقیان نخستین را تصادفِ آنچه حفظ شده هموار کرده است."
+            },
+            "citations": [
+              {
+                "source": "text-lives-of-eminent-philosophers",
+                "locator": "VII.1-160"
+              },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-lives-of-eminent-philosophers" },
+        { "source": "sep" }
+      ],
       "nativeName": "Ζήνων ὁ Κιτιεύς",
       "transliteration": "Zēnōn ho Kitieus"
     },
@@ -3284,10 +3738,26 @@
               "en": "Chrysippus systematised Stoicism and developed a propositional logic — about whole statements and their connectives — where Aristotle's had been about terms. It was largely lost, dismissed for centuries on Aristotle's authority, and recognised as an anticipation of modern logic only in the twentieth century.",
               "fa": "کریسیپوس رواقی‌گری را به‌نظام کرد و منطقی گزاره‌ای پرداخت — دربارهٔ کل گزاره‌ها و ادات ربطشان — آنجا که منطق ارسطو دربارهٔ حدود بود. این منطق تا حد زیادی گم شد، قرن‌ها به اعتبار ارسطو نادیده گرفته شد، و تنها در قرن بیستم به‌عنوان پیش‌بینیِ منطق جدید شناخته شد."
             }
+          },
+          {
+            "id": "lost-in-bulk",
+            "heading": {
+              "en": "Seven hundred books, none of them whole",
+              "fa": "هفتصد کتاب، هیچ‌یک تمام"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Ancient lists credit Chrysippus with over seven hundred works, and not one survives complete. Everything attributed to him now comes from a nineteenth-century collection that gathered the quotations out of other authors — often hostile ones, quoting a sentence in order to attack it. The propositional logic he built was recovered in the twentieth century and turned out to anticipate a great deal of modern logic, which is a strange thing to learn about a body of work that exists only in pieces.",
+              "fa": "فهرست‌های باستانی بیش از هفتصد اثر به کروسیپوس نسبت می‌دهند و حتی یکی هم کامل نمانده است. هرچه امروز به او نسبت داده می‌شود از مجموعه‌ای در قرن نوزدهم می‌آید که نقل‌قول‌ها را از دلِ نویسندگان دیگر گرد آورد — اغلب مخالفانی که جمله‌ای را نقل می‌کردند تا به آن بتازند. منطق گزاره‌ایِ او در قرن بیستم بازیافته شد و معلوم شد بسیاری از منطق جدید را پیش‌بینی کرده، و این چیز عجیبی است که دربارهٔ پیکره‌ای بدانیم که تنها به‌صورت تکه‌ها هست."
+            },
+            "citations": [
+              { "source": "text-svf", "locator": "SVF II" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-svf" }, { "source": "sep" }],
       "nativeName": "Χρύσιππος",
       "transliteration": "Chrysippos"
     },
@@ -3313,10 +3783,30 @@
               "en": "Pyrrho wrote nothing. The position credited to him is that for any claim an equally good case can be made against it, that judgement should therefore be suspended, and that suspending it brings the tranquillity other schools promised through doctrine.",
               "fa": "پیرون چیزی ننوشت. موضعی که به او نسبت می‌دهند این است که در برابر هر ادعا می‌توان دلیلی به همان خوبی آورد، پس باید داوری را معلق کرد، و همین تعلیق آن آرامشی را می‌آورد که مکتب‌های دیگر از راه آموزه وعده می‌دادند."
             }
+          },
+          {
+            "id": "second-hand",
+            "heading": {
+              "en": "Everything about him is second-hand",
+              "fa": "هرچه از او هست، دست‌دوم است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Pyrrho wrote nothing. The fullest report of his position is a summary written by Aristocles, itself preserved only because Eusebius quoted it, and Aristocles was drawing on Timon, Pyrrho's pupil. Three layers, each with its own agenda. The summary is worth having because it is structured as an argument — things are equally indifferent, so our judgements are neither true nor false, so we should hold no opinion, and from that comes tranquillity — but every stage of it reaches us through someone else's hand.",
+              "fa": "پورون هیچ ننوشت. کامل‌ترین گزارش از موضع او خلاصه‌ای است که آریستوکلس نوشته، و همان تنها از آن‌رو مانده که اوسبیوس نقلش کرده، و آریستوکلس هم از تیمون، شاگرد پورون، برمی‌گرفته است. سه لایه، و هر یک با غرضِ خود. آن خلاصه ارزش داشتن دارد چون به‌صورت استدلال چیده شده — چیزها به‌یکسان بی‌تفاوت‌اند، پس داوری‌های ما نه درست‌اند نه نادرست، پس نباید رأیی داشت، و آرامش از همین‌جا می‌آید — اما هر پلهٔ آن از دستِ کسی دیگر به ما رسیده است."
+            },
+            "citations": [
+              { "source": "text-praeparatio-evangelica", "locator": "XIV.18" },
+              { "source": "sep" }
+            ],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-praeparatio-evangelica" },
+        { "source": "sep" }
+      ],
       "nativeName": "Πύρρων",
       "transliteration": "Pyrrhōn"
     },
@@ -3342,10 +3832,30 @@
               "en": "Sextus is the reason ancient scepticism is more than a rumour: his handbooks set out the modes of argument by which any claim can be opposed. When they were printed in the sixteenth century they reached Montaigne and then Descartes, and modern philosophy begins partly as an answer to them.",
               "fa": "سکستوس دلیل آن است که شکاکیت باستان بیش از یک شایعه است: دستنامه‌هایش شیوه‌های استدلالی را می‌آورند که با آن‌ها می‌توان با هر ادعایی مقابله کرد. وقتی در قرن شانزدهم چاپ شدند به دست مونتنی و سپس دکارت رسیدند، و فلسفهٔ جدید تا حدی به‌عنوان پاسخی به آن‌ها آغاز می‌شود."
             }
+          },
+          {
+            "id": "what-suspension-achieves",
+            "heading": {
+              "en": "What suspension is supposed to achieve",
+              "fa": "تعلیق قرار است به چه برسد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Scepticism is defined not as a doctrine but as an ability: the ability to set out oppositions among appearances and arguments so evenly balanced that judgement cannot come down on either side. Suspension follows, and then — this is the part that is easy to miss — tranquillity follows suspension, which Sextus says happened by accident and now follows it as a shadow follows a body. The sceptic is therefore not paralysed. He goes on acting by appearances, custom and training, having only stopped claiming that things are as they seem.",
+              "fa": "شکاکیت نه همچون آموزه بلکه همچون توانایی تعریف می‌شود: توانایی نهادنِ تقابل‌ها میان نمودها و استدلال‌ها، چنان هم‌وزن که داوری نتواند به هیچ سو فرود آید. تعلیق از پی می‌آید، و سپس — و همین بخش است که آسان از دست می‌رود — آرامش از پی تعلیق می‌آید، که سکستوس می‌گوید تصادفی رخ داد و اکنون چنان در پی آن است که سایه در پی تن. پس شکاک فلج نیست. به راهنماییِ نمودها و عرف و آموزش به کنش ادامه می‌دهد و تنها از این ادعا دست کشیده که چیزها همان‌اند که می‌نمایند."
+            },
+            "citations": [
+              { "source": "text-outlines-of-pyrrhonism", "locator": "PH I.8" },
+              { "source": "text-outlines-of-pyrrhonism", "locator": "PH I.29" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-outlines-of-pyrrhonism" },
+        { "source": "sep" }
+      ],
       "nativeName": "Σέξτος Ἐμπειρικός",
       "transliteration": "Sextos Empeirikos"
     },
@@ -3387,11 +3897,14 @@
               "en": "If the One is perfect and complete, it needs nothing, so why is there anything else? Plotinus answers with an analogy rather than a decision: fire gives off heat and snow gives off cold without choosing to, and what is perfect overflows for the same reason. That keeps the One from being a maker who deliberates, at the cost of making creation necessary rather than free — which is exactly the point later monotheists refused.",
               "fa": "اگر «واحد» کامل و تمام است، به چیزی نیاز ندارد، پس چرا اصلاً چیز دیگری هست؟ افلوطین به‌جای تصمیم، تشبیه می‌آورد: آتش گرما می‌دهد و برف سرما، بی‌آنکه انتخاب کنند، و آنچه کامل است به همان دلیل سرریز می‌کند. این «واحد» را از سازنده‌ای که می‌سنجد نگه می‌دارد، به بهای اینکه آفرینش را ضروری می‌کند نه آزاد — و دقیقاً همین را یکتاپرستان بعدی نپذیرفتند."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-enneads", "locator": "Enneads V.2.1" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-enneads" }, { "source": "sep" }],
       "nativeName": "Πλωτῖνος",
       "transliteration": "Plōtinos"
     },
@@ -3477,10 +3990,27 @@
               "en": "Cicero was a statesman who wrote philosophy in his forced retirements. He was not an original thinker by his own account, but he built the Latin vocabulary — quality, essence, moral — in which European philosophy was later written, and his account of natural law ran through to the modern doctrine of rights.",
               "fa": "سیسرون سیاستمداری بود که در دوره‌های کناره‌گیری اجباری فلسفه نوشت. به گفتهٔ خودش متفکری اصیل نبود، اما واژگان لاتینی را ساخت — کیفیت، ذات، اخلاقی — که فلسفهٔ اروپایی بعدها با آن نوشته شد، و شرحش از قانون طبیعی تا آموزهٔ جدید حقوق ادامه یافت."
             }
+          },
+          {
+            "id": "philosophy-into-latin",
+            "heading": {
+              "en": "Putting philosophy into Latin",
+              "fa": "بردنِ فلسفه به لاتین"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Cicero's claim on the subject is not a doctrine but an infrastructure. Latin had no vocabulary for Greek philosophy, and he built one, largely by coinage, in the space of a few years. His method is to give each school its best advocate and let them argue: the dialogue on the gods puts an Epicurean, a Stoic and an Academic sceptic in a room and ends with the narrator saying only which case struck him as nearer to the truth. That is a position — the Academic one — enacted rather than asserted.",
+              "fa": "دعویِ سیسرون بر این موضوع نه یک آموزه بلکه یک زیرساخت است. لاتین واژگانی برای فلسفهٔ یونانی نداشت و او در چند سال یکی ساخت، بیشتر با واژه‌سازی. روشش این است که به هر مکتب بهترین مدافعش را بدهد و بگذارد بحث کنند: گفت‌وگو دربارهٔ خدایان یک اپیکوری و یک رواقی و یک شکاکِ آکادمیایی را در اتاقی می‌نشاند و با این پایان می‌یابد که راوی تنها می‌گوید کدام دعوی به‌نظرش به حقیقت نزدیک‌تر آمد. این خودش موضعی است — موضع آکادمیایی — که اجرا شده نه اعلام."
+            },
+            "citations": [
+              { "source": "text-de-natura-deorum", "locator": "I.6" },
+              { "source": "text-de-natura-deorum", "locator": "III.95" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-de-natura-deorum" }, { "source": "sep" }],
       "nativeName": "Marcus Tullius Cicero"
     },
     {
@@ -3505,10 +4035,29 @@
               "en": "Seneca's letters are the most readable Stoic texts that survive: short, practical, on anger, time, grief and death. He was also Nero's tutor and minister, and one of the richest men in Rome, which readers have found hard to square with the letters ever since.",
               "fa": "نامه‌های سنکا خواندنی‌ترین متن‌های رواقی بازمانده‌اند: کوتاه، عملی، دربارهٔ خشم و زمان و اندوه و مرگ. او در عین حال معلم و وزیر نرون بود و از ثروتمندترین مردان رم، و خوانندگان از همان زمان تا امروز جمع‌کردن این دو را دشوار یافته‌اند."
             }
+          },
+          {
+            "id": "why-letters",
+            "heading": {
+              "en": "Why the philosophy is in letters",
+              "fa": "چرا فلسفه در قالب نامه است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The letters are addressed to one named man with particular difficulties, and the form is the argument: Stoic ethics is a training, and training is given to a person, not to an audience. The first letter is the programme — every other possession is borrowed, only time is ours, and we lose it by not noticing that we are spending it. Reading Seneca also raises a question he raises himself: the man writing about the indifference of wealth was one of the richest in Rome and the minister of Nero.",
+              "fa": "نامه‌ها خطاب به مردی معین با دشواری‌های معین است، و همین قالب، خودِ استدلال است: اخلاق رواقی یک تمرین است، و تمرین به یک شخص داده می‌شود نه به یک جمع. نخستین نامه، برنامه است — هر داراییِ دیگر عاریتی است، تنها زمان از آنِ ماست، و آن را با ندیدنِ اینکه داریم خرجش می‌کنیم از دست می‌دهیم. خواندن سنکا پرسشی را هم پیش می‌آورد که خودش پیش می‌کشد: مردی که دربارهٔ بی‌اعتناییِ به ثروت می‌نوشت، یکی از ثروتمندترین‌های رم و وزیر نرون بود."
+            },
+            "citations": [
+              { "source": "text-letters-to-lucilius", "locator": "Letter 1" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-letters-to-lucilius" },
+        { "source": "sep" }
+      ],
       "nativeName": "Lucius Annaeus Seneca"
     },
     {
@@ -3533,10 +4082,27 @@
               "en": "The Meditations were private notes, not a book: the emperor reminding himself, on campaign, of what he already believed. That is why they repeat, and why they read as someone arguing with his own irritation rather than teaching a doctrine.",
               "fa": "«تأملات» یادداشت‌های خصوصی بود نه کتاب: امپراتور در میدان جنگ به خودش یادآوری می‌کرد آنچه را از پیش باور داشت. به همین سبب تکرار دارند، و به همین سبب بیشتر به کسی می‌مانند که با دلخوری خودش کلنجار می‌رود تا کسی که آموزه‌ای درس می‌دهد."
             }
+          },
+          {
+            "id": "not-written-for-us",
+            "heading": {
+              "en": "A book not written for a reader",
+              "fa": "کتابی که برای خواننده نوشته نشده"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The Meditations were private notes, written in Greek by a Latin-speaking emperor on campaign, with no title, no order and no argument addressed to anyone. That explains the features that puzzle first readers: the repetition, the absence of proof, the second person. He is not persuading, he is rehearsing. The first book is unlike the rest — a list of what he owes to named people, one by one — and it sets up everything after it as a debt being worked off.",
+              "fa": "«تأملات» یادداشت‌های خصوصی بود، به یونانی، از امپراتوری لاتین‌زبان در میدان جنگ، بی‌عنوان و بی‌ترتیب و بی‌استدلالی که خطاب به کسی باشد. همین ویژگی‌هایی را توضیح می‌دهد که خوانندهٔ نخستین را گیج می‌کند: تکرار، نبودِ برهان، دومْ‌شخص. او اقناع نمی‌کند، تمرین می‌کند. کتاب نخست با باقی فرق دارد — فهرستی از آنچه به آدم‌های نام‌برده بدهکار است، یکی‌یکی — و همه‌چیزِ پس از خود را همچون دِینی می‌نشاند که دارد ادا می‌شود."
+            },
+            "citations": [
+              { "source": "text-meditations", "locator": "1.1-1.17" },
+              { "source": "text-meditations", "locator": "2.1" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-meditations" }, { "source": "sep" }],
       "nativeName": "Μᾶρκος Αὐρήλιος",
       "transliteration": "Markos Aurēlios"
     },
@@ -3562,10 +4128,26 @@
               "en": "On the Nature of Things is a long Latin poem presenting Epicurean physics with an explicitly therapeutic purpose: if the soul is atoms and disperses, then death is not an event that happens to you, and the fear of it is a mistake about what you are.",
               "fa": "«دربارهٔ طبیعت اشیا» شعری بلند به لاتین است که فیزیک اپیکوری را با هدفی آشکارا درمانی عرضه می‌کند: اگر روح اتم است و پراکنده می‌شود، مرگ رویدادی نیست که بر تو بگذرد، و ترس از آن خطایی است دربارهٔ اینکه چه هستی."
             }
+          },
+          {
+            "id": "why-a-poem",
+            "heading": {
+              "en": "Why an atomist wrote a poem",
+              "fa": "چرا یک اتم‌باور شعر گفت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Six books of Latin hexameter arguing that the universe is atoms and void, that the soul is material and dies with the body, and that the gods take no interest in us. Lucretius explains the choice himself: doctors rim a cup with honey so a child will drink the bitter medicine, and he is doing the same with a doctrine people find frightening. The poem's aim is therapeutic — if death is the end of the person, there is no one left for anything to happen to, and the fear was of nothing.",
+              "fa": "شش کتاب شش‌وتدیِ لاتین که استدلال می‌کند جهان اتم است و خلأ، جان مادی است و با تن می‌میرد، و خدایان به ما اعتنایی ندارند. لوکرتیوس خودش این انتخاب را توضیح می‌دهد: پزشکان لبهٔ جام را عسل می‌مالند تا کودک داروی تلخ را بنوشد، و او همین را با آموزه‌ای می‌کند که مردم ترسناکش می‌یابند. هدفِ شعر درمانی است — اگر مرگ پایانِ شخص باشد، کسی نمانده که چیزی بر او بگذرد، و آن ترس از هیچ بوده است."
+            },
+            "citations": [
+              { "source": "text-de-rerum-natura", "locator": "I.936-950" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-de-rerum-natura" }, { "source": "sep" }],
       "nativeName": "Titus Lucretius Carus"
     },
     {
@@ -3590,10 +4172,29 @@
               "en": "Boethius planned to translate all of Plato and Aristotle into Latin and was executed before he got far — but what he did translate was, for six hundred years, nearly all of Aristotle the Latin West had. The Consolation of Philosophy, written in prison, asks how a just world can hand power to the unjust.",
               "fa": "بوئتیوس در نظر داشت همهٔ افلاطون و ارسطو را به لاتین برگرداند و پیش از آنکه پیش برود اعدام شد — اما همان اندکی که ترجمه کرد، ششصد سال تقریباً تمام آن ارسطویی بود که غربِ لاتین در اختیار داشت. «تسلای فلسفه» را در زندان نوشت و در آن می‌پرسد جهانی عادل چگونه قدرت را به دست ناعادلان می‌دهد."
             }
+          },
+          {
+            "id": "foreknowledge-and-freedom",
+            "heading": {
+              "en": "Foreknowledge and freedom",
+              "fa": "علمِ پیشین و آزادی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The problem the Consolation ends on: if everything is already known, nothing anyone does could have been otherwise, and praise and blame are theatre. Boethius' answer refuses the premise rather than the conclusion. Foreknowledge is knowledge in advance, and God has none, because God is not in time — eternity is defined there as the complete, simultaneous and perfect possession of unbounded life. What God has is not a preview but a single view, and seeing a thing happen does not make it necessary.",
+              "fa": "مسئله‌ای که «تسلا» بر آن پایان می‌یابد: اگر همه‌چیز از پیش دانسته است، هیچ کارِ کسی نمی‌توانست جز آن باشد، و ستایش و نکوهش نمایش است. پاسخ بوئتیوس به‌جای نتیجه، مقدمه را رد می‌کند. «علم پیشین» یعنی دانستن از پیش، و خدا چنین چیزی ندارد، چون خدا در زمان نیست — ابدیت آنجا چنین تعریف می‌شود: مالکیتِ تمام و هم‌زمان و کاملِ زندگیِ بی‌کران. آنچه خدا دارد پیش‌نمایش نیست، یک نگاهِ واحد است، و دیدنِ رخ‌دادنِ چیزی آن را ضروری نمی‌کند."
+            },
+            "citations": [
+              { "source": "text-consolation-of-philosophy", "locator": "V.6" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-consolation-of-philosophy" },
+        { "source": "sep" }
+      ],
       "nativeName": "Anicius Manlius Severinus Boethius"
     },
     {
@@ -3622,10 +4223,29 @@
               "en": "Al-Kindī directed the circle that produced the Arabic Aristotle and Plotinus, and wrote the first defence in Arabic of philosophy as compatible with revelation: truth is truth whoever reached it first, and refusing it because of its source is the real impiety.",
               "fa": "الکندی حلقه‌ای را رهبری کرد که ارسطو و افلوطینِ عربی را پدید آورد، و نخستین دفاع عربی از سازگاری فلسفه با وحی را نوشت: حقیقت حقیقت است، هرکه زودتر به آن رسیده باشد، و رد آن به سبب سرچشمه‌اش، بی‌دینیِ واقعی است."
             }
+          },
+          {
+            "id": "making-room",
+            "heading": {
+              "en": "Making room for philosophy",
+              "fa": "جاباز کردن برای فلسفه"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Al-Kindi's opening problem was not a doctrine but a permission. Greek philosophy arrived in Arabic as a foreign import with no standing, and the objection was that a Muslim needs no such thing. His answer is that truth has no nationality: we should not be ashamed of the truth from wherever it comes, even from distant peoples, because nothing is worth more to the seeker of truth than the truth. Every later philosopher in the tradition works inside the space that argument opened.",
+              "fa": "مسئلهٔ آغازینِ کندی نه یک آموزه بلکه یک اجازه بود. فلسفهٔ یونانی به عربی همچون کالایی بیگانه و بی‌جایگاه رسیده بود، و اعتراض این بود که مسلمان به چنین چیزی نیاز ندارد. پاسخ او این است که حقیقت ملیت ندارد: نباید از حقیقت شرم کنیم، از هرجا که بیاید، حتی از مردمانی دور، چون برای جویندهٔ حقیقت هیچ‌چیز از خودِ حقیقت گران‌بهاتر نیست. هر فیلسوف بعدیِ این سنت در فضایی کار می‌کند که همان استدلال گشود."
+            },
+            "citations": [
+              { "source": "text-fi-al-falsafa-al-ula" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-fi-al-falsafa-al-ula" },
+        { "source": "sep" }
+      ],
       "nativeName": "أبو يوسف يعقوب بن إسحاق الكندي",
       "transliteration": "al-Kindī"
     },
@@ -3656,10 +4276,31 @@
               "en": "Called the Second Teacher after Aristotle, al-Fārābī fused Plato's political philosophy with Aristotle's logic and metaphysics. His virtuous city is governed by someone who both knows and can imagine — because most people are reached by images rather than by demonstrations, which is also his account of what prophecy is.",
               "fa": "او را پس از ارسطو «معلم ثانی» خواندند. فارابی فلسفهٔ سیاسی افلاطون را با منطق و مابعدالطبیعهٔ ارسطو درآمیخت. «مدینهٔ فاضله»‌اش را کسی اداره می‌کند که هم می‌داند و هم می‌تواند تخیل کند — چون بیشتر مردم را تصویر می‌گیرد نه برهان، و همین شرح او از چیستی نبوت هم هست."
             }
+          },
+          {
+            "id": "the-city-as-a-body",
+            "heading": {
+              "en": "The city described as a body",
+              "fa": "شهر، وصف‌شده همچون یک تن"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Al-Farabi's political work asks what a city has to be like for its people to reach the human good, and answers with an analogy: a city is ordered the way a healthy body is, each part doing its own work under a ruling part. The demand this places on the ruler is severe — philosopher, prophet and lawgiver at once — and al-Farabi is clear that such a person is rare and that most actual cities are the defective kinds he then classifies. His other main work asks a different question: how philosophy and religion say the same things, one in demonstration and one in images.",
+              "fa": "کارِ سیاسیِ فارابی می‌پرسد شهر باید چگونه باشد تا مردمش به خیرِ انسانی برسند، و با تشبیهی پاسخ می‌دهد: شهر همان‌گونه سامان می‌یابد که تنی سالم، و هر جزء کار خود را زیر جزئی فرمانروا می‌کند. خواستی که این بر فرمانروا می‌نهد سنگین است — فیلسوف و پیامبر و قانون‌گذار، هر سه با هم — و فارابی صریح است که چنین کسی نادر است و بیشترِ شهرهای واقعی همان گونه‌های ناقص‌اند که سپس دسته‌بندی‌شان می‌کند. اثر عمدهٔ دیگرش پرسشی دیگر دارد: چگونه فلسفه و دین یک چیز می‌گویند، یکی به برهان و دیگری به تصویر."
+            },
+            "citations": [
+              { "source": "text-madina-fadila" },
+              { "source": "text-kitab-al-huruf" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-kitab-al-huruf" },
+        { "source": "text-madina-fadila" },
+        { "source": "sep" }
+      ],
       "nativeName": "أبو نصر محمد الفارابي",
       "transliteration": "al-Fārābī"
     },
@@ -3702,11 +4343,19 @@
               "en": "Latin readers attributed to Ibn Rushd the doctrine that something can be true in philosophy and false in religion. He held nothing of the kind. His position is that there is one truth reached by two routes suited to different audiences — demonstration for those trained in it, and the images of scripture for everyone — and that where the plain sense of a text conflicts with a demonstration, the text is to be read figuratively.",
               "fa": "خوانندگان لاتین به ابن‌رشد این آموزه را نسبت دادند که چیزی می‌تواند در فلسفه درست و در دین نادرست باشد. او هیچ چنین چیزی نمی‌گفت. موضعش این است که یک حقیقت هست که از دو راهِ متناسب با مخاطبان مختلف در می‌آید — برهان برای آنان که در آن آموزش دیده‌اند، و تصویرهای متن مقدس برای همه — و هرجا ظاهر متن با برهان ناسازگار افتد، متن را باید مجازی خواند."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-fasl-al-maqal" },
+              { "source": "text-tahafut-al-tahafut" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-tahafut-al-tahafut" },
+        { "source": "text-fasl-al-maqal" },
+        { "source": "sep" }
+      ],
       "nativeName": "أبو الوليد محمد بن أحمد بن رشد",
       "transliteration": "Ibn Rushd"
     },
@@ -3744,7 +4393,11 @@
               "en": "The oneness of being is regularly reported as the claim that everything is God, and Ibn ʿArabī's readers reject the description. The distinction they draw is between existence, which is one, and the entities, which have no existence of their own and are the forms in which the one existence discloses itself. Whether that distinction can be held is the actual dispute, and it is a dispute about what a mode is.",
               "fa": "«وحدت وجود» را مرتب چنین گزارش می‌کنند که یعنی همه‌چیز خداست، و خوانندگان ابن‌عربی این وصف را رد می‌کنند. تمایزی که می‌کشند میان «وجود» است که یکی است و «اعیان» که وجودی از آنِ خود ندارند و صورت‌هایی‌اند که آن یگانه وجود در آن‌ها آشکار می‌شود. اینکه این تمایز نگه‌داشتنی هست یا نه، مناقشهٔ واقعی است، و مناقشه‌ای است بر سر اینکه «حالت» چیست."
             },
-            "citations": [{ "source": "sep" }],
+            "citations": [
+              { "source": "text-futuhat" },
+              { "source": "text-fusus" },
+              { "source": "sep" }
+            ],
             "claim": "scholarly-disagreement"
           }
         ]
@@ -3752,7 +4405,11 @@
       "nativeName": "محيي الدين ابن عربي",
       "transliteration": "Ibn ʿArabī",
       "concepts": ["negative-theology", "wahdat-al-wujud"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-fusus" },
+        { "source": "text-futuhat" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "suhrawardi",
@@ -3776,13 +4433,29 @@
               "en": "Suhrawardī argued that reality is graded light, that knowing is a kind of presence rather than a representation, and that ancient Persian and Greek wisdom were one inheritance. He was executed at thirty-six in Aleppo, and is known as the Master of Illumination.",
               "fa": "سهروردی استدلال کرد که واقعیت نورِ دارای مرتبه است، که دانستن نوعی حضور است نه بازنمایی، و که حکمت کهن ایرانی و یونانی یک میراث‌اند. در سی‌وشش‌سالگی در حلب کشته شد، و او را «شیخ اشراق» می‌خوانند."
             }
+          },
+          {
+            "id": "light-instead-of-substance",
+            "heading": {
+              "en": "Why he replaced substance with light",
+              "fa": "چرا جوهر را با نور جایگزین کرد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Peripatetic metaphysics explains things by substance and accident, essence and existence. Suhrawardi argues that these are constructions of the mind and rebuilds the account on a single principle admitting only degrees: light. What is real is light, differing in intensity; darkness is not a second thing but the absence of light; and knowledge is not a form imprinted on the knower but the presence of a thing to a light that is not hidden from itself. The system is meant to be argued for and also to be seen, and he holds that a philosopher who has only argued has done half of it.",
+              "fa": "مابعدالطبیعهٔ مشائی چیزها را با جوهر و عرض و ماهیت و وجود توضیح می‌دهد. سهروردی استدلال می‌کند که این‌ها ساخته‌های ذهن‌اند و شرح را بر یک اصلِ یگانه بازمی‌سازد که تنها درجه می‌پذیرد: نور. آنچه واقعی است نور است، متفاوت در شدت؛ تاریکی چیزِ دومی نیست بلکه نبودِ نور است؛ و دانستن، صورتی نقش‌بسته بر داننده نیست بلکه حضورِ چیزی است نزد نوری که از خود پنهان نیست. این دستگاه هم قرار است استدلال شود و هم دیده، و او معتقد است فیلسوفی که تنها استدلال کرده نیمی از کار را کرده است."
+            },
+            "citations": [
+              { "source": "text-hikmat-al-ishraq" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "شهاب‌الدین یحیی سهروردی",
       "transliteration": "Suhrawardī",
       "concepts": ["illumination"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-hikmat-al-ishraq" }, { "source": "sep" }]
     },
     {
       "id": "ibn-khaldun",
@@ -3823,7 +4496,10 @@
               "en": "Ibn Khaldūn presents the rise and decay of dynasties as a regularity with causes, which is what makes the Muqaddima look like social science four centuries early. How strong the claim is meant to be is less clear: three generations is a pattern he draws from the cases he knows, not a law he derives, and he allows exceptions. Reading it as prediction overstates it; reading it as description understates what he thought he was doing.",
               "fa": "ابن‌خلدون برآمدن و فروپاشی سلسله‌ها را نظمی با علت عرضه می‌کند، و همین است که «مقدمه» را چهار قرن زودتر شبیه علم اجتماعی می‌کند. اینکه این ادعا قرار است چقدر قوی باشد کمتر روشن است: «سه نسل» الگویی است که از موارد شناخته‌اش برمی‌کشد، نه قانونی که استنتاج کند، و استثنا می‌پذیرد. خواندنش همچون پیش‌بینی، آن را بزرگ‌تر از خودش می‌کند؛ خواندنش همچون توصیف، از آنچه خودش گمان می‌کرد می‌کند کوچک‌تر."
             },
-            "citations": [{ "source": "sep" }],
+            "citations": [
+              { "source": "text-muqaddimah", "locator": "I.3" },
+              { "source": "sep" }
+            ],
             "claim": "interpretation"
           }
         ]
@@ -3831,7 +4507,7 @@
       "nativeName": "عبد الرحمن بن خلدون",
       "transliteration": "Ibn Khaldūn",
       "concepts": ["asabiyyah"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-muqaddimah" }, { "source": "sep" }]
     },
     {
       "id": "ibn-tufayl",
@@ -3855,10 +4531,26 @@
               "en": "Hayy ibn Yaqzān is a philosophical novel about a child raised by a gazelle who reasons his way from observation to physics, metaphysics and finally to knowledge of God — and then meets society and finds it cannot follow. Translated into Latin and English, it was read across early modern Europe.",
               "fa": "«حی بن یقظان» رمانی فلسفی است دربارهٔ کودکی که آهویی بزرگش کرده و با استدلال از مشاهده به طبیعیات و مابعدالطبیعه و سرانجام به شناخت خدا می‌رسد — و آنگاه با جامعه روبه‌رو می‌شود و می‌بیند که جامعه نمی‌تواند دنبالش بیاید. ترجمه‌اش به لاتین و انگلیسی در سراسر اروپای اوایل دوران جدید خوانده شد."
             }
+          },
+          {
+            "id": "a-thought-experiment-as-a-novel",
+            "heading": {
+              "en": "A thought experiment written as a novel",
+              "fa": "آزمایشِ فکری‌ای که رمان نوشته شده"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "A child grows up alone on an island with no language and no teacher, and works his way by observation and reasoning from the classification of animals up to the existence of a necessary being. The form is doing philosophical work: if unaided reason can reach the same conclusions revelation delivers, then the two are compatible, and the proof is a life rather than an argument. The end complicates it — he meets society, tries to teach what he found, and fails — which is the book's real question about whether philosophy can be public.",
+              "fa": "کودکی تنها در جزیره‌ای بزرگ می‌شود، بی‌زبان و بی‌آموزگار، و با مشاهده و استدلال راهش را از رده‌بندی جانوران تا هستیِ واجب می‌پیماید. خودِ این قالب کارِ فلسفی می‌کند: اگر خردِ بی‌یاور بتواند به همان نتیجه‌هایی برسد که وحی می‌رساند، آنگاه آن دو سازگارند، و برهان یک زندگی است نه یک استدلال. پایان، کار را پیچیده می‌کند — او به جامعه می‌رسد، می‌کوشد آنچه یافته بیاموزد، و ناکام می‌ماند — و پرسشِ واقعیِ کتاب همین است که آیا فلسفه می‌تواند همگانی باشد."
+            },
+            "citations": [
+              { "source": "text-hayy-ibn-yaqzan" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-hayy-ibn-yaqzan" }, { "source": "sep" }],
       "nativeName": "أبو بكر بن طفيل",
       "transliteration": "Ibn Ṭufayl"
     },
@@ -3901,12 +4593,19 @@
               "en": "Nearly everything known about al-Rāzī's religious views comes from writers quoting him in order to condemn him. A refutation is a poor edition — it selects, sharpens and sometimes invents — so the standard scholarly practice is to hold his positions with more caution than the vividness of the quotations invites.",
               "fa": "تقریباً هرچه از آرای دینی رازی می‌دانیم از نویسندگانی است که او را نقل کردند تا محکومش کنند. ردیه ویراست بدی است — برمی‌گزیند، تیز می‌کند و گاهی می‌سازد — پس رویّهٔ پژوهشی معیار این است که مواضع او را با احتیاطی بیش از آنچه زندگیِ آن نقل‌قول‌ها می‌طلبد نگه داریم."
             },
-            "citations": [{ "source": "sep" }],
+            "citations": [
+              { "source": "text-al-sira-al-falsafiyya" },
+              { "source": "sep" }
+            ],
             "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-al-sira-al-falsafiyya" },
+        { "source": "text-al-tibb-al-ruhani" },
+        { "source": "sep" }
+      ],
       "nativeName": "أبو بكر محمد بن زكرياء الرازي",
       "transliteration": "al-Rāzī"
     },
@@ -3949,12 +4648,19 @@
               "en": "Rūmī holds that the intellect is not wrong but bounded, and that what lies past its boundary is reached by longing rather than by proof. That is a claim about method, and it dictates the form: a demonstration would be the wrong instrument for its own subject, so the Masnavī works by story, by image, and by putting the reader in the position it is describing. Whether this counts as philosophy or as its refusal is exactly the question the text raises.",
               "fa": "مولوی معتقد است عقل نادرست نیست بلکه مرزدار است، و آنچه آن‌سوی مرزش هست با اشتیاق در می‌آید نه با برهان. این ادعایی است دربارهٔ روش، و همین صورت را تعیین می‌کند: برهان برای موضوعِ خودش ابزار نادرستی می‌بود، پس مثنوی با قصه و تصویر کار می‌کند و خواننده را در همان موقعیتی می‌نشاند که وصف می‌کند. اینکه این فلسفه است یا سرباززدن از فلسفه، دقیقاً همان پرسشی است که خودِ متن پیش می‌کشد."
             },
-            "citations": [{ "source": "sep" }],
+            "citations": [
+              { "source": "text-masnavi", "locator": "Book I, 1-18" },
+              { "source": "sep" }
+            ],
             "claim": "interpretation"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-divan-shams" },
+        { "source": "text-masnavi" },
+        { "source": "sep" }
+      ],
       "nativeName": "جلال‌الدین محمد بلخی",
       "transliteration": "Jalāl al-Dīn Rūmī"
     },
@@ -4010,11 +4716,18 @@
               "en": "Khayyam tried to derive Euclid's parallel postulate from the others and, in failing, worked out properties of the figures that would exist if it were false. Saccheri did the same six centuries later and is usually credited with anticipating non-Euclidean geometry. The pattern is common enough to be worth naming: a result reached first outside Europe and dated from its European rediscovery.",
               "fa": "خیام کوشید اصل توازی اقلیدس را از اصول دیگر بیرون بکشد و در همان ناکامی، ویژگی‌های شکل‌هایی را به دست آورد که اگر آن اصل نادرست می‌بود موجود می‌شدند. ساکری شش قرن بعد همین کار را کرد و معمولاً او را پیش‌بینی‌کنندهٔ هندسهٔ نااقلیدسی می‌شمارند. این الگو آن‌قدر رایج هست که ارزش نام‌بردن داشته باشد: نتیجه‌ای که نخست بیرون از اروپا به دست آمده و تاریخش از بازکشف اروپایی‌اش شمرده می‌شود."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-khayyam-euclid" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-khayyam-euclid" },
+        { "source": "text-khayyam-algebra" },
+        { "source": "sep" }
+      ],
       "nativeName": "عمر خیام نیشابوری",
       "transliteration": "ʿUmar Khayyām"
     },
@@ -4040,10 +4753,32 @@
               "en": "Ṭūsī defended Ibn Sīnā against al-Rāzī's critique, wrote the ethics textbook that Persian education used for centuries, and built the Marāgha observatory, where the geometrical devices later found in Copernicus were developed.",
               "fa": "طوسی از ابن‌سینا در برابر نقد فخر رازی دفاع کرد، کتاب اخلاقی نوشت که آموزش فارسی قرن‌ها از آن استفاده کرد، و رصدخانهٔ مراغه را ساخت؛ جایی که ابزارهای هندسیِ بعدها یافته‌شده نزد کوپرنیک در آن پرداخته شد."
             }
+          },
+          {
+            "id": "two-careers",
+            "heading": {
+              "en": "Philosophy written under two regimes",
+              "fa": "فلسفه‌ای که زیر دو حکومت نوشته شد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Tusi wrote the Nasirean Ethics while attached to the Ismaili fortresses, and after the Mongol conquest served Hulagu and built the Maragha observatory. The judgement on this has never settled: collaborator, or the man who saved what could be saved of a scholarly culture. What is not disputed is the work — the ethics gave Persian its standard vocabulary for moral philosophy, the theological summary became the base text Shi'i scholars have commented on ever since, and the astronomical models he devised reappear, unexplained, in Copernicus.",
+              "fa": "طوسی «اخلاق ناصری» را در پیوند با قلعه‌های اسماعیلی نوشت، و پس از فتح مغول به هولاکو خدمت کرد و رصدخانهٔ مراغه را ساخت. داوری دربارهٔ این هرگز فیصله نیافته است: همدست، یا مردی که هرچه از یک فرهنگ علمی می‌شد نجات داد. آنچه محل اختلاف نیست خودِ کار است — آن اخلاق، واژگان استاندارد فلسفهٔ اخلاق را به فارسی داد، آن خلاصهٔ کلامی متنِ پایه‌ای شد که عالمان شیعه از آن پس بر آن شرح نوشته‌اند، و مدل‌های نجومی‌ای که ساخت، بی‌هیچ توضیحی، در کوپرنیک دوباره پیدا می‌شوند."
+            },
+            "citations": [
+              { "source": "text-akhlaq-i-nasiri" },
+              { "source": "text-tajrid-al-itiqad" },
+              { "source": "sep" }
+            ],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-tajrid-al-itiqad" },
+        { "source": "text-akhlaq-i-nasiri" },
+        { "source": "sep" }
+      ],
       "nativeName": "نصیر الدین الطوسی",
       "transliteration": "al-Ṭūsī"
     },
@@ -4073,10 +4808,31 @@
               "en": "Al-Bīrūnī learned Sanskrit in order to read Indian philosophy and mathematics in the original and wrote a study of India that separates what its texts say from what he had been told about them. His practice of stating explicitly which of his own conclusions the evidence could not decide is unusual for any period.",
               "fa": "بیرونی سانسکریت آموخت تا فلسفه و ریاضیات هند را به زبان اصلی بخواند و پژوهشی دربارهٔ هند نوشت که آنچه متن‌های هند می‌گویند را از آنچه به او دربارهٔ آن‌ها گفته بودند جدا می‌کند. اینکه صریحاً می‌گفت شواهد کدام نتیجهٔ خودش را نمی‌توانند فیصله دهند، برای هر دوره‌ای غیرمعمول است."
             }
+          },
+          {
+            "id": "how-to-describe-a-religion",
+            "heading": {
+              "en": "How to describe a religion you do not hold",
+              "fa": "چگونه دینی را وصف کنیم که از آنِ ما نیست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Al-Biruni learned Sanskrit, read the Indian philosophical literature, and set out to state what Hindus believe as they would state it themselves. He says so explicitly at the start, distinguishing his method from polemic, and he separates what the learned hold from popular practice because conflating them is how a tradition gets caricatured. He is not neutral — he says where he thinks the doctrines are wrong — but he reports first and judges afterwards, and keeps the two visibly apart.",
+              "fa": "بیرونی سنسکریت آموخت، ادبیات فلسفی هند را خواند، و در پی آن بود که باورهای هندوان را چنان بگوید که خودشان می‌گویند. در آغاز صریحاً همین را می‌گوید و روشش را از جدل جدا می‌کند، و آنچه را عالمان می‌گویند از عملِ عامه تفکیک می‌کند، چون درهم‌آمیختنِ این دو همان راهی است که یک سنت را به کاریکاتور بدل می‌کند. بی‌طرف نیست — می‌گوید کجا آموزه‌ها را نادرست می‌داند — اما نخست گزارش می‌کند و سپس داوری، و این دو را آشکارا از هم جدا نگه می‌دارد."
+            },
+            "citations": [
+              { "source": "text-tahqiq-ma-li-l-hind" },
+              { "source": "text-al-athar-al-baqiya" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-al-athar-al-baqiya" },
+        { "source": "text-tahqiq-ma-li-l-hind" },
+        { "source": "sep" }
+      ],
       "nativeName": "أبو الريحان البيروني",
       "transliteration": "al-Bīrūnī"
     },
@@ -4107,10 +4863,29 @@
               "en": "Fakhr al-Dīn wrote a commentary on Ibn Sīnā consisting largely of objections, and the tradition afterwards worked through his objections rather than around them. He is a case of a critic shaping a school more than its defenders did.",
               "fa": "فخر رازی بر ابن‌سینا شرحی نوشت که بیشترش اعتراض است، و سنت پس از او به‌جای دورزدنِ اعتراض‌هایش، از میان آن‌ها گذشت. او نمونهٔ منتقدی است که بیش از مدافعان، یک مکتب را شکل داده است."
             }
+          },
+          {
+            "id": "the-critic-inside",
+            "heading": {
+              "en": "The critic who stayed inside",
+              "fa": "منتقدی که درون ماند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Fakhr al-Din al-Razi is often filed as a theologian attacking philosophy, and the filing misses what happened. He wrote a commentary on Ibn Sina that raises objections so precise that later philosophers had to answer them, and in the process he imported the whole philosophical apparatus into kalam. The result is that after him the two disciplines are hard to separate: theology is done with philosophical tools by someone who thinks several philosophical conclusions are false.",
+              "fa": "فخر رازی را اغلب همچون متکلمی که به فلسفه می‌تازد بایگانی می‌کنند، و این بایگانی آنچه را رخ داد از دست می‌دهد. او بر ابن‌سینا شرحی نوشت که اعتراض‌هایش چنان دقیق‌اند که فیلسوفان بعدی ناچار شدند پاسخشان دهند، و در همین کار کلِ دستگاه فلسفی را به کلام وارد کرد. نتیجه آن است که پس از او جداکردن دو رشته دشوار است: کلام با ابزار فلسفی انجام می‌شود، به دست کسی که چند نتیجهٔ فلسفی را نادرست می‌داند."
+            },
+            "citations": [
+              { "source": "text-mabahith-mashriqiyya" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-mabahith-mashriqiyya" },
+        { "source": "sep" }
+      ],
       "nativeName": "فخر الدين الرازي",
       "transliteration": "Fakhr al-Dīn al-Rāzī"
     },
@@ -4136,10 +4911,29 @@
               "en": "Ibn Bājja's Governance of the Solitary takes up the case al-Fārābī left open: the virtuous city does not exist, so how should someone live who is fitted for it. His answer — a deliberate inner exile — was read closely by Ibn Rushd and by Maimonides.",
               "fa": "«تدبیر المتوحد» ابن‌باجه همان مسئله‌ای را برمی‌دارد که فارابی باز گذاشته بود: مدینهٔ فاضله وجود ندارد، پس کسی که برای آن ساخته شده چگونه باید زندگی کند. پاسخش — تبعیدی درونی و خودخواسته — را ابن‌رشد و ابن‌میمون به‌دقت خواندند."
             }
+          },
+          {
+            "id": "the-solitary",
+            "heading": {
+              "en": "What the solitary is solitary from",
+              "fa": "متوحد از چه تنهاست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Ibn Bajja's question is what a philosopher should do when the city he lives in is not one where the human good can be reached. His answer is a regimen for the individual: the philosopher becomes a stranger in his own society, keeping company with those few like him where they exist and otherwise alone. Ibn Tufayl took the position and pushed it to its limit by removing society altogether, and the island story is legible as an answer to this book.",
+              "fa": "پرسش ابن‌باجه این است که فیلسوف در شهری که در آن نمی‌توان به خیرِ انسانی رسید چه باید بکند. پاسخش تدبیری است برای فرد: فیلسوف در جامعهٔ خودش غریبه می‌شود، با آن اندک‌شمارانِ همانندش — اگر باشند — همنشین می‌شود و در غیر این صورت تنها می‌ماند. ابن‌طفیل این موضع را گرفت و تا حدّ نهایی‌اش برد و جامعه را یکسره برداشت، و قصهٔ جزیره را می‌توان پاسخی به همین کتاب خواند."
+            },
+            "citations": [
+              { "source": "text-tadbir-al-mutawahhid" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-tadbir-al-mutawahhid" },
+        { "source": "sep" }
+      ],
       "nativeName": "أبو بكر بن باجة",
       "transliteration": "Ibn Bājja"
     },
@@ -4165,10 +4959,24 @@
               "en": "Eriugena translated the Greek Christian Neoplatonists into Latin and wrote a systematic work dividing nature into what creates and what is created. It was condemned twice, partly for coming close to saying that God and creation are the same thing.",
               "fa": "اریوگنا نوافلاطونیان مسیحیِ یونانی‌زبان را به لاتین برگرداند و اثری نظام‌مند نوشت که طبیعت را به آفریننده و آفریده تقسیم می‌کند. دو بار محکوم شد، تا حدی به این سبب که نزدیک می‌شد به گفتن اینکه خدا و آفرینش یک چیزند."
             }
+          },
+          {
+            "id": "four-divisions",
+            "heading": {
+              "en": "The going out and the return",
+              "fa": "برون‌شد و بازگشت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Eriugena's system is a circle. Everything proceeds from a first principle that is not itself created, through the primordial causes, into the world of created things that do not create — and then the whole movement reverses, and what went out returns. In the return, bodies resolve into their causes, humanity is restored, and at the end the principle is described as all in all, with nothing left outside it. Whether that last stage leaves any distinction between creator and creature is the question his condemners answered no to, and the text does not make it easy to answer yes.",
+              "fa": "دستگاه اریوگنا یک دایره است. همه‌چیز از مبدئی برمی‌آید که خود آفریده نیست، از راه علت‌های نخستین، به جهان چیزهای آفریده‌ای که نمی‌آفرینند — و آنگاه کل این حرکت وارونه می‌شود و آنچه بیرون رفته بازمی‌گردد. در بازگشت، تن‌ها در علت‌های خود حل می‌شوند، انسان بازآورده می‌شود، و در پایان آن مبدأ چنین وصف می‌شود: همه در همه، بی‌آنکه چیزی بیرون از آن بماند. اینکه آن مرحلهٔ آخر تمایزی میان آفریدگار و آفریده باقی می‌گذارد یا نه، پرسشی است که محکوم‌کنندگانش به آن نه گفتند، و متن آری‌گفتن را آسان نمی‌کند."
+            },
+            "citations": [{ "source": "text-periphyseon" }, { "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-periphyseon" }, { "source": "sep" }],
       "nativeName": "Iohannes Scottus Eriugena"
     },
     {
@@ -4193,12 +5001,33 @@
               "en": "Abelard's answer to the problem of universals — that what is shared is a way of signifying rather than an extra entity — set the terms of the medieval debate. His ethics is equally sharp: what makes an act wrong is consent to what you believe wrong, so intention, not outcome, carries the weight.",
               "fa": "پاسخ آبلار به مسئلهٔ کلیات — اینکه آنچه مشترک است شیوه‌ای از دلالت است نه موجودی افزوده — چارچوب بحث قرون وسطا را تعیین کرد. اخلاقش هم به همان اندازه تیز است: آنچه کاری را نادرست می‌کند رضا دادن به چیزی است که نادرست می‌دانی، پس نیت، نه پیامد، بار را می‌کشد."
             }
+          },
+          {
+            "id": "intention-not-act",
+            "heading": {
+              "en": "Sin located in the intention",
+              "fa": "گناه، نشانده در نیت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Abelard argues that what makes an act sinful is not the act and not even the desire, but consent — agreeing to do what one knows one should not. Two consequences follow that scandalised his contemporaries: a person who does something terrible in genuine ignorance does not sin by doing it, and the people who crucified Christ believing they acted rightly are in that respect not culpable. His other notorious book simply lines up authorities contradicting each other on a hundred and fifty-eight questions, with no resolutions supplied, so that the reader has to work.",
+              "fa": "آبلار استدلال می‌کند که آنچه کاری را گناه می‌کند نه خودِ کار است و نه حتی میل، بلکه «رضا»ست — پذیرفتنِ انجامِ آنچه می‌دانی نباید. از این دو نتیجه برمی‌آید که هم‌روزگارانش را رسوا کرد: کسی که کاری هولناک را در جهلِ راستین می‌کند با آن کار گناه نمی‌کند، و آنان که مسیح را بر صلیب کردند و باور داشتند درست عمل می‌کنند از این حیث مقصر نیستند. کتاب بدنامِ دیگرش صرفاً مراجع را در صد و پنجاه و هشت مسئله رودرروی هم می‌چیند، بی‌آنکه راه‌حلی بدهد، تا خواننده ناچار شود کار کند."
+            },
+            "citations": [
+              { "source": "text-scito-te-ipsum" },
+              { "source": "text-sic-et-non" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "Petrus Abaelardus",
       "schools": ["nominalism", "scholasticism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-scito-te-ipsum" },
+        { "source": "text-sic-et-non" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "hildegard",
@@ -4227,10 +5056,24 @@
               "en": "Hildegard was an abbess who wrote on the structure of the cosmos, the composition of the body, and the moral life, framing the work as recorded vision — which was, for a woman in the twelfth century, one of the few forms of authorship available. The content is systematic well beyond what the frame required.",
               "fa": "هیلدگارد رئیس صومعه‌ای بود که دربارهٔ ساختار کیهان، ترکیب بدن و زندگی اخلاقی نوشت و کارش را در قالب ثبتِ مکاشفه عرضه کرد — قالبی که برای زنی در قرن دوازدهم یکی از معدود شکل‌های ممکن مؤلف‌بودن بود. محتوا بسیار نظام‌مندتر از آن است که آن قالب اقتضا می‌کرد."
             }
+          },
+          {
+            "id": "how-the-claims-are-made",
+            "heading": {
+              "en": "The form the claims arrive in",
+              "fa": "قالبی که ادعاها در آن می‌آیند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Hildegard presents her doctrine as vision, described and then interpreted, and she is specific that she saw it awake and with the eyes of the soul rather than in dream or ecstasy. That form was what made a woman's theology publishable in the twelfth century, and it is also a claim about the source of knowledge that the text argues for rather than assumes. Reading her requires deciding what to do with the frame — treat it as authorisation, as literary device, or as the position — and the three readings produce three different philosophers.",
+              "fa": "هیلدگارد آموزه‌اش را همچون رؤیا عرضه می‌کند، نخست وصف و سپس تفسیر، و صریح است که آن را بیدار و با چشمِ جان دیده نه در خواب یا خلسه. همین قالب بود که الهیاتِ یک زن را در قرن دوازدهم انتشارپذیر می‌کرد، و در عین حال ادعایی است دربارهٔ سرچشمهٔ معرفت که متن برایش استدلال می‌کند نه آنکه مفروضش بگیرد. خواندن او مستلزم تصمیم‌گیری دربارهٔ آن قاب است — مجوز بدانیمش، یا صنعتِ ادبی، یا خودِ موضع — و این سه خوانش سه فیلسوف متفاوت می‌سازند."
+            },
+            "citations": [{ "source": "text-scivias" }, { "source": "sep" }],
+            "claim": "interpretation"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-scivias" }, { "source": "sep" }],
       "nativeName": "Hildegardis Bingensis"
     },
     {
@@ -4264,13 +5107,16 @@
               "en": "The alternatives on offer each fail on a case. Matter cannot do it, since two lumps of the same matter would then be one thing. Position cannot, since a thing keeps its identity when it moves. A bundle of accidents cannot, since the bundle is a collection of general properties and the question was how any collection of those picks out one. Scotus's answer is a further formal principle in the thing itself, and the argument survives in contemporary metaphysics under the heading of individuation.",
               "fa": "گزینه‌های موجود، هریک در موردی شکست می‌خورند. ماده نمی‌تواند این کار را بکند، چون آنگاه دو تکه از یک ماده یک چیز می‌شدند. مکان نمی‌تواند، چون چیز با جابه‌جاشدن این‌همانی‌اش را نگه می‌دارد. دسته‌ای از اعراض هم نمی‌تواند، چون آن دسته مجموعه‌ای از ویژگی‌های کلی است و پرسش این بود که چگونه مجموعه‌ای از آن‌ها یکی را نشان می‌دهد. پاسخ اسکوتوس اصلی صوریِ افزوده در خودِ آن چیز است، و این استدلال در مابعدالطبیعهٔ معاصر زیر عنوان «فردیت‌یابی» زنده است."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-ordinatio", "locator": "II, d. 3, p. 1" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "Ioannes Duns Scotus",
       "schools": ["scholasticism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-ordinatio" }, { "source": "sep" }]
     },
     {
       "id": "nicholas-of-cusa",
@@ -4299,12 +5145,31 @@
               "en": "Cusa's learned ignorance argues that the infinite cannot be reached by the finite in any number of steps, so exact knowledge of God is impossible in a precise sense rather than merely difficult. From the same mathematics he inferred that the universe has no centre and no circumference.",
               "fa": "«جهل عالمانهٔ» کوزایی استدلال می‌کند که بی‌نهایت را با متناهی در هیچ تعداد گامی نمی‌توان درنوردید، پس شناخت دقیق خدا به معنایی دقیق ناممکن است، نه صرفاً دشوار. از همان ریاضیات نتیجه گرفت که جهان نه مرکزی دارد و نه محیطی."
             }
+          },
+          {
+            "id": "learned-ignorance",
+            "heading": {
+              "en": "What learned ignorance knows",
+              "fa": "جهلِ عالمانه چه می‌داند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The argument runs through mathematics. A circle and a straight line are different things, but as the circle grows its arc grows straighter, and at infinite size the two coincide. Cusanus generalises: at infinity, opposites coincide, so any finite concept applied to the infinite breaks down. The learned ignorance is knowing precisely that and knowing why — not a refusal to think about God but a result about what thinking can do, reached by argument rather than by piety.",
+              "fa": "استدلال از راه ریاضیات می‌گذرد. دایره و خط راست دو چیز متفاوت‌اند، اما هرچه دایره بزرگ‌تر شود کمانش راست‌تر می‌شود، و در اندازهٔ بی‌کران آن دو بر هم منطبق می‌شوند. کوزایی تعمیم می‌دهد: در بی‌کرانگی، ضدها بر هم منطبق می‌شوند، پس هر مفهوم متناهی که بر بی‌کران اطلاق شود فرومی‌پاشد. جهلِ عالمانه دانستنِ دقیقِ همین است و دانستنِ چرایی آن — نه سرباززدن از اندیشیدن به خدا، بلکه نتیجه‌ای دربارهٔ توانِ اندیشیدن، که با استدلال به دست آمده نه با تقوا."
+            },
+            "citations": [
+              { "source": "text-de-docta-ignorantia" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "Nicolaus Cusanus",
       "concepts": ["negative-theology"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-de-docta-ignorantia" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "erasmus",
@@ -4332,10 +5197,31 @@
               "en": "Erasmus published the Greek New Testament with a new Latin translation, on the principle that a doctrine resting on a mistranslation rests on nothing. He argued with Luther over free will and refused both sides of the Reformation, which cost him the readership of each.",
               "fa": "اراسموس عهد جدید یونانی را با ترجمه‌ای لاتین منتشر کرد، بر این اصل که آموزه‌ای که بر ترجمه‌ای نادرست ایستاده بر هیچ ایستاده است. با لوتر بر سر اختیار بحث کرد و هر دو سوی اصلاح دینی را رد کرد، و همین خوانندگان هر دو طرف را از او گرفت."
             }
+          },
+          {
+            "id": "satire-then-argument",
+            "heading": {
+              "en": "The joke and the argument",
+              "fa": "شوخی و استدلال"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Folly delivers her own encomium, praising herself for holding the world together, and the joke turns serious partway through when the targets become theologians and princes. It is philosophy conducted as irony, and it works because a speaker who admits from the first sentence that she is Folly cannot be answered by calling her foolish. His argument with Luther is the opposite in style and shows what he actually held: that scripture is not everywhere clear, that some questions are better left undecided, and that the human will has at least enough freedom to be worth addressing.",
+              "fa": "حماقت ستایشِ خود را می‌گوید و خود را می‌ستاید که جهان را سرِ پا نگه داشته، و شوخی در میانهٔ راه جدی می‌شود، آنجا که هدف‌ها الهی‌دانان و شاهزادگان می‌شوند. این فلسفه‌ای است که همچون طعنه اجرا می‌شود، و از آن‌رو کار می‌کند که گوینده‌ای که از نخستین جمله می‌پذیرد حماقت است، با احمق‌خواندن پاسخ داده نمی‌شود. مجادله‌اش با لوتر در سبک، نقطهٔ مقابل آن است و نشان می‌دهد او واقعاً چه می‌گفت: اینکه کتاب مقدس همه‌جا روشن نیست، اینکه برخی پرسش‌ها بهتر است ناگشوده بمانند، و اینکه ارادهٔ آدمی دست‌کم آن‌قدر آزادی دارد که ارزش خطاب‌کردن داشته باشد."
+            },
+            "citations": [
+              { "source": "text-praise-of-folly" },
+              { "source": "text-de-libero-arbitrio" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-de-libero-arbitrio" },
+        { "source": "text-praise-of-folly" },
+        { "source": "sep" }
+      ],
       "nativeName": "Desiderius Erasmus Roterodamus"
     },
     {
@@ -4364,10 +5250,26 @@
               "en": "Bruno extended Copernicus past astronomy into metaphysics: if the sun is a star, the stars are suns, the universe is infinite, and other worlds are inhabited. He was burned in Rome in 1600 on charges that were mostly theological rather than cosmological, a distinction later accounts often lose.",
               "fa": "برونو کوپرنیک را از اخترشناسی به مابعدالطبیعه کشاند: اگر خورشید ستاره است، ستاره‌ها خورشیدند، جهان بی‌کران است و جهان‌های دیگر مسکون‌اند. در سال ۱۶۰۰ در رم سوزانده شد، به اتهاماتی که بیشتر کلامی بود تا کیهان‌شناختی؛ تمایزی که روایت‌های بعدی اغلب از دست می‌دهند."
             }
+          },
+          {
+            "id": "why-infinity-mattered",
+            "heading": {
+              "en": "The argument for infinity",
+              "fa": "استدلال برای بی‌کرانگی"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The reasoning is not observational — no telescope had been pointed anywhere yet — but metaphysical. A cause of unlimited power that produced only a bounded effect would be holding something back, and there is no reason it should; so the effect must be as unlimited as the cause. Space cannot end, because whatever is imagined as the boundary has an outside. From that Bruno derives innumerable worlds, and refuses the distinction between the perfect matter of the heavens and the corruptible matter here, which is the piece of Aristotle the whole cosmology rested on.",
+              "fa": "این استدلال مشاهده‌ای نیست — هنوز هیچ تلسکوپی به جایی نشانه نرفته بود — بلکه مابعدالطبیعی است. علتی با توانِ بی‌حد که تنها اثری محدود پدید آورد، چیزی را نگه داشته است، و دلیلی ندارد که نگه دارد؛ پس اثر باید به‌همان‌اندازهٔ علت بی‌حد باشد. فضا نمی‌تواند پایان یابد، چون هرچه همچون مرز تصور شود بیرونی دارد. برونو از این، جهان‌های بی‌شمار را نتیجه می‌گیرد، و آن تمایز را نمی‌پذیرد که مادهٔ آسمان‌ها کامل و مادهٔ اینجا فسادپذیر است — همان تکه از ارسطو که کل آن کیهان‌شناسی بر آن ایستاده بود."
+            },
+            "citations": [
+              { "source": "text-de-linfinito" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-de-linfinito" }, { "source": "sep" }],
       "nativeName": "Giordano Bruno"
     },
     {
@@ -5503,12 +6405,18 @@
               "en": "The surviving manuscripts are Middle Kingdom, several centuries after the vizier they name. Egyptologists divide over whether the text descends from an Old Kingdom original or attaches a later composition to a famous name — a normal practice in the genre. The philosophy is not in doubt; the person is.",
               "fa": "دست‌نویس‌های بازمانده از پادشاهی میانه‌اند، چند قرن پس از وزیری که نامش را می‌برند. مصرشناسان بر سر اینکه متن از اصلی در پادشاهی کهن آمده یا نوشته‌ای دیرتر است که به نامی مشهور بسته شده — رویّه‌ای معمول در این گونه — اختلاف دارند. در فلسفهٔ متن تردیدی نیست؛ در شخص هست."
             },
-            "citations": [{ "source": "sep" }],
+            "citations": [
+              { "source": "text-maxims-of-ptahhotep" },
+              { "source": "sep" }
+            ],
             "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-maxims-of-ptahhotep" },
+        { "source": "sep" }
+      ],
       "nativeName": "𓊪𓏏𓎛𓊵𓏏𓊪",
       "transliteration": "Ptahhotep"
     },
@@ -5539,10 +6447,26 @@
               "en": "Guaman Poma's letter to Philip III argues, with drawings, that Andean society had law, government and moral order before the conquest, that the colonial administration destroyed all three, and that the conquest therefore cannot be justified by the civilising claims made for it. The manuscript was lost until 1908.",
               "fa": "نامهٔ گوامان پوما به فیلیپ سوم، با نقاشی، استدلال می‌کند که جامعهٔ آندی پیش از فتح قانون و حکومت و نظم اخلاقی داشت، که ادارهٔ استعماری هر سه را نابود کرد، و پس فتح را نمی‌توان با ادعاهای تمدن‌آورندهٔ آن توجیه کرد. دست‌نویس تا ۱۹۰۸ گم بود."
             }
+          },
+          {
+            "id": "argument-in-drawings",
+            "heading": {
+              "en": "An argument made in drawings",
+              "fa": "استدلالی که با نقاشی گفته شده"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Guaman Poma wrote twelve hundred pages to the king of Spain, in Spanish mixed with Quechua and Aymara, with four hundred drawings. The drawings are not illustration: they carry Andean spatial conventions in which position on the page encodes rank and moral standing, so a picture states a claim the Spanish text beside it does not. The argument is that colonial rule has produced a world turned upside down, and that good government would mean Andean rule under a Christian king. It never reached him.",
+              "fa": "گوامان پوما هزار و دویست صفحه به پادشاه اسپانیا نوشت، به اسپانیایی آمیخته با کچوا و آیمارا، با چهارصد نقاشی. نقاشی‌ها تصویرسازی نیستند: قراردادهای فضاییِ آندی را حمل می‌کنند که در آن جای هر چیز بر صفحه، رتبه و جایگاه اخلاقی را رمزگذاری می‌کند، پس یک تصویر ادعایی می‌گوید که متن اسپانیاییِ کنارش نمی‌گوید. استدلال این است که حکومت استعماری جهانی وارونه پدید آورده، و حکومت نیکو یعنی فرمانروایی آندی زیر یک پادشاه مسیحی. این نوشته هرگز به او نرسید."
+            },
+            "citations": [
+              { "source": "text-nueva-coronica" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-nueva-coronica" }, { "source": "sep" }],
       "nativeName": "Waman Puma",
       "transliteration": "Waman Puma"
     },
@@ -5632,10 +6556,27 @@
               "en": "The Yoga Sūtras define yoga as the stilling of the mind's movements and set out an eight-limbed path to it. The philosophical claim underneath is dualist: consciousness is not one of the mind's activities, so when the activities stop, what remains is what was doing the seeing all along.",
               "fa": "«یوگه‌سوتره‌ها» یوگا را آرام‌کردن جنبش‌های ذهن تعریف می‌کنند و راهی هشت‌اندامی به سویش می‌نهند. ادعای فلسفیِ زیر آن دوگانه‌انگارانه است: آگاهی یکی از فعالیت‌های ذهن نیست، پس وقتی فعالیت‌ها بازمی‌ایستند، آنچه می‌ماند همان است که از آغاز می‌دیده."
             }
+          },
+          {
+            "id": "what-the-text-actually-says",
+            "heading": {
+              "en": "How a marginal text became the centre",
+              "fa": "چگونه متنی حاشیه‌ای مرکز شد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Two things surprise a first reader. The postures that dominate the modern reception occupy about three aphorisms out of nearly two hundred, and almost all of those say only that the seat should be steady and comfortable. And the text was not, for most of its history, the central document of yoga in India: it was little commented on for several centuries, and its present position dates from a revival in the nineteenth and twentieth centuries, in which Indian reformers and Western readers each had reasons to want a single systematic source.",
+              "fa": "دو چیز خوانندهٔ نخستین را شگفت‌زده می‌کند. آن حالت‌های تن که دریافتِ امروزی را پر کرده‌اند از میان نزدیک به دویست جملهٔ کوتاه، حدود سه‌تا را می‌گیرند، و تقریباً همهٔ آن‌ها تنها می‌گویند نشستن باید استوار و راحت باشد. و این متن، در بیشترِ تاریخش، سند مرکزی یوگه در هند نبود: چند قرن بر آن شرح اندکی نوشتند، و جایگاه کنونی‌اش از احیایی در قرن نوزدهم و بیستم می‌آید که در آن هم اصلاح‌گران هندی و هم خوانندگان غربی دلیل‌هایی داشتند که یک سرچشمهٔ منظمِ واحد بخواهند."
+            },
+            "citations": [
+              { "source": "text-yoga-sutras", "locator": "2.46-2.48" },
+              { "source": "sep" }
+            ],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-yoga-sutras" }, { "source": "sep" }],
       "nativeName": "पतञ्जलि",
       "transliteration": "Patañjali"
     },
@@ -5666,13 +6607,30 @@
               "en": "Abhinavagupta's theory of rasa holds that aesthetic emotion is the ordinary emotion freed of personal stake: grief at a play is grief without my grief in it, and that impersonality is why it can be savoured. He connects this to the non-dual Shaiva view that consciousness is self-luminous and recognises itself.",
               "fa": "نظریهٔ «رسه»‌ی ابهیناواگوپتا می‌گوید عاطفهٔ زیبایی‌شناختی همان عاطفهٔ عادی است که از نفع شخصی آزاد شده: اندوه در نمایش، اندوهی است بی‌اندوهِ من، و همین بی‌شخصی است که چشیدنی‌اش می‌کند. او این را به دیدگاه شیوایی ناثنویتی می‌پیوندد که آگاهی خودْروشن است و خودش را بازمی‌شناسد."
             }
+          },
+          {
+            "id": "why-art-is-not-emotion",
+            "heading": {
+              "en": "Why liberation is called recognition",
+              "fa": "چرا رهایی را بازشناسی می‌نامند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "In this school nothing is acquired at the end of the path. The claim is that the practitioner already is the one reality and has simply forgotten it, so what happens is recognition — the way you can be told a stranger's name and suddenly know you have met them before, with nothing new added except the connection. That is why the tradition can accept every level of practice, from elaborate ritual to none at all: they are all ways of arriving at something already the case, and which one is needed depends only on how thoroughly a given person has forgotten.",
+              "fa": "در این مکتب در پایان راه چیزی به دست نمی‌آید. ادعا این است که رهرو از پیش همان واقعیتِ یگانه است و صرفاً از یادش برده، پس آنچه رخ می‌دهد بازشناسی است — چنان‌که نام غریبه‌ای را به تو بگویند و ناگهان بدانی پیش‌تر دیده‌ایش، بی‌آنکه چیز تازه‌ای جز همان پیوند افزوده شده باشد. به همین سبب این سنت می‌تواند هر سطحی از تمرین را بپذیرد، از آیینِ مفصل تا هیچ: همه راه‌هایی‌اند برای رسیدن به چیزی که از پیش چنین است، و اینکه کدام لازم است تنها به این بستگی دارد که آن شخص چقدر ژرف از یاد برده باشد."
+            },
+            "citations": [{ "source": "text-tantraloka" }, { "source": "sep" }]
           }
         ]
       },
       "nativeName": "अभिनवगुप्त",
       "transliteration": "Abhinavagupta",
       "concepts": ["rasa"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-abhinavabharati" },
+        { "source": "text-tantraloka" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "gandhi",
@@ -5710,14 +6668,22 @@
               "en": "Satyagraha is not passive and it is not safe. It requires accepting the penalty for breaking a law rather than evading it, which is what distinguishes it from ordinary resistance and what makes the coercion visible. It also requires numbers and publicity, and Gandhi was explicit that it works against an opponent who can be shamed. Whether that limits it to particular adversaries is the standard objection, and he did not have a good answer to it.",
               "fa": "ساتیاگرهه نه منفعل است و نه بی‌خطر. می‌طلبد که مجازاتِ شکستن قانون را بپذیری نه اینکه از آن بگریزی، و همین آن را از مقاومت معمولی جدا می‌کند و اجبار را آشکار می‌سازد. شمار و آشکارگی هم می‌طلبد، و گاندی صریح بود که این روش در برابر حریفی کار می‌کند که بتوان شرمنده‌اش کرد. اینکه آیا این، روش را به حریفان خاصی محدود می‌کند، اعتراض همیشگی است، و او پاسخ خوبی برایش نداشت."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-hind-swaraj" },
+              { "source": "text-gandhi-autobiography" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "मोहनदास करमचंद गांधी",
       "transliteration": "Mohandās Karamchand Gāndhī",
       "concepts": ["ahimsa", "satyagraha"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-gandhi-autobiography" },
+        { "source": "text-hind-swaraj" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "ambedkar",
@@ -5752,11 +6718,19 @@
               "en": "Ambedkar announced twenty years before he did it that he would not die a Hindu, and spent those years testing whether the religion could be reformed from inside. His conclusion was that the ranking is not an abuse of the texts but a teaching of them, so leaving is the only consistent option — and he chose Buddhism specifically because it was born in India and denies caste at its root. Half a million people converted with him.",
               "fa": "آمبدکار بیست سال پیش از آنکه چنین کند اعلام کرد که هندو نخواهد مرد، و آن سال‌ها را صرف آزمودن این کرد که آیا آن دین از درون اصلاح‌پذیر است. نتیجه‌اش این بود که آن رتبه‌بندی سوءاستفاده از متون نیست بلکه آموزهٔ آن‌هاست، پس ترک‌کردن تنها گزینهٔ سازگار است — و بودیسم را از آن رو برگزید که در هند زاده شده و کاست را از ریشه انکار می‌کند. نیم میلیون نفر همراه او گرویدند."
             },
-            "citations": [{ "source": "sep" }]
+            "citations": [
+              { "source": "text-annihilation-of-caste" },
+              { "source": "text-buddha-and-his-dhamma" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-buddha-and-his-dhamma" },
+        { "source": "text-annihilation-of-caste" },
+        { "source": "sep" }
+      ],
       "nativeName": "भीमराव रामजी आंबेडकर",
       "transliteration": "Bhīmrāo Rāmjī Āmbeḍkar"
     },
@@ -5784,10 +6758,24 @@
               "en": "Aurobindo left the independence movement for philosophy and argued that Vedānta and evolutionary biology point the same way: matter has already produced life and mind, and there is no principle stopping the series. The claim is unusual in Indian thought for treating the world as something to be transformed rather than escaped.",
               "fa": "آروبیندو جنبش استقلال را برای فلسفه رها کرد و استدلال کرد که ودانته و زیست‌شناسی تکاملی به یک سو اشاره می‌کنند: ماده پیش‌تر زندگی و ذهن را پدید آورده، و اصلی در کار نیست که این زنجیره را متوقف کند. این ادعا در اندیشهٔ هند غیرمعمول است، چون جهان را چیزی می‌گیرد که باید دگرگون شود نه چیزی که باید از آن گریخت."
             }
+          },
+          {
+            "id": "evolution-run-forwards",
+            "heading": {
+              "en": "Evolution pointed forwards",
+              "fa": "تکاملی که رو به جلو نشانه رفته"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Aurobindo takes the Vedantic claim that everything is one reality and adds a direction to it. Matter is spirit that has forgotten itself; life emerged from matter and mind from life; and there is no principled reason for the series to stop at mind. What comes next he calls the supermind, and he treats its arrival as something that can be worked towards rather than waited for. Whether this is Vedanta restated in the vocabulary of nineteenth-century evolutionary thought, or a genuine extension of it, is the standing question about him.",
+              "fa": "آئوروبیندو ادعای ودانتَه را که همه‌چیز یک واقعیت است می‌گیرد و به آن جهتی می‌افزاید. ماده روحی است که خود را از یاد برده؛ زندگی از ماده برآمد و ذهن از زندگی؛ و دلیلی اصولی نیست که این رشته در ذهن بایستد. آنچه پس از آن می‌آید را «فراذهن» می‌نامد، و آمدنش را چیزی می‌گیرد که می‌توان به‌سویش کار کرد نه آنکه در انتظارش نشست. اینکه این ودانته است که با واژگان اندیشهٔ تکاملیِ قرن نوزدهم بازگفته شده، یا گسترشی راستین از آن است، پرسشِ همیشگی دربارهٔ اوست."
+            },
+            "citations": [{ "source": "text-life-divine" }, { "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-life-divine" }, { "source": "sep" }],
       "nativeName": "अरविन्द घोष",
       "transliteration": "Aravinda Ghosh"
     },
@@ -5815,10 +6803,31 @@
               "en": "Tagore argued that the nation is an organisation of power that turns human relationships into functions, and that anti-colonial movements adopting it inherit what they are fighting. He founded a school built on the opposite principle, and debated Gandhi publicly on all of it.",
               "fa": "تاگور استدلال کرد که ملت سازمانی از قدرت است که روابط انسانی را به کارکرد بدل می‌کند، و جنبش‌های ضد استعماری که آن را می‌پذیرند همان چیزی را به ارث می‌برند که با آن می‌جنگند. مدرسه‌ای بر اصل مخالف آن بنیاد گذاشت، و با گاندی دربارهٔ همهٔ این‌ها علناً بحث کرد."
             }
+          },
+          {
+            "id": "against-the-nation",
+            "heading": {
+              "en": "The argument against the nation",
+              "fa": "استدلال در برابر ملت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Tagore was writing while Indian nationalism was gathering, and he attacked the idea itself rather than one country's version of it. His claim is that the nation is a mechanical organisation of a population for power and commerce, that it is a European invention rather than a natural form of belonging, and that a colonised people who adopt it to expel their rulers will have installed the thing that did the damage. He said this in lectures in Japan and the United States, to audiences who did not want to hear it.",
+              "fa": "تاگور در روزگاری می‌نوشت که ملی‌گراییِ هند داشت گرد می‌آمد، و به خودِ آن ایده تاخت نه به روایتِ یک کشور از آن. ادعایش این است که ملت، سازمان‌دهیِ مکانیکیِ یک جمعیت برای قدرت و تجارت است، اینکه اختراعی اروپایی است نه صورتی طبیعی از تعلق، و اینکه مردمی مستعمره که آن را برای بیرون‌راندن حاکمانشان بپذیرند همان چیزی را نصب کرده‌اند که آسیب زده بود. این را در سخنرانی‌هایی در ژاپن و ایالات متحده گفت، برای شنوندگانی که نمی‌خواستند بشنوند."
+            },
+            "citations": [
+              { "source": "text-nationalism-tagore" },
+              { "source": "text-sadhana" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [
+        { "source": "text-nationalism-tagore" },
+        { "source": "text-sadhana" },
+        { "source": "sep" }
+      ],
       "nativeName": "রবীন্দ্রনাথ ঠাকুর",
       "transliteration": "Rabīndranāth Ṭhākur"
     },
@@ -6110,10 +7119,23 @@
               "en": "Palamas defended monks who claimed to perceive divine light by distinguishing God's essence, which is unknowable, from God's energies, which are God and can be encountered. Critics argued the distinction divides God; the Eastern churches adopted it, and it remains a live difference between East and West.",
               "fa": "پالاماس از راهبانی که مدعی دیدن نور الهی بودند با این تمایز دفاع کرد که ذات خدا ناشناختنی است اما «انرژی‌ها»ی خدا خودِ خدایند و می‌توان با آن‌ها روبه‌رو شد. منتقدان گفتند این تمایز خدا را تقسیم می‌کند؛ کلیساهای شرقی پذیرفتندش، و هنوز تفاوتی زنده میان شرق و غرب است."
             }
+          },
+          {
+            "id": "essence-and-energies",
+            "heading": {
+              "en": "What the monks were actually doing",
+              "fa": "راهبان در عمل چه می‌کردند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The controversy started over a practice, not a doctrine. Hesychast monks used a method of prayer with a posture, a controlled breath and a short phrase repeated until it ran by itself, and Barlaam mocked it as trying to see God with the stomach. Palamas' defence is that the method takes the body seriously on purpose: a human being is not a mind housed in flesh, so a prayer that engages only the intellect has already accepted the wrong picture of what is being saved. The theology follows from defending the practice, not the other way round.",
+              "fa": "مناقشه بر سر یک عمل آغاز شد، نه یک آموزه. راهبان هسیخاست روشی از دعا به کار می‌بردند با حالتی از تن، نفسی مهارشده و عبارتی کوتاه که آن‌قدر تکرار می‌شد تا خودبه‌خود روان شود، و بارلاآم ریشخندش کرد که می‌خواهند خدا را با شکم ببینند. دفاع پالاماس این است که این روش عمداً تن را جدی می‌گیرد: آدمی ذهنی جای‌گرفته در گوشت نیست، پس دعایی که تنها عقل را درگیر کند از پیش تصویر نادرستی از آنچه نجات می‌یابد پذیرفته است. الهیات از دفاع از آن عمل برمی‌آید، نه برعکس."
+            },
+            "citations": [{ "source": "text-triads" }, { "source": "sep" }]
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
+      "citations": [{ "source": "text-triads" }, { "source": "sep" }],
       "nativeName": "Γρηγόριος Παλαμᾶς",
       "transliteration": "Grēgorios Palamas"
     },
@@ -6141,13 +7163,34 @@
               "en": "Mou is the central figure of New Confucianism. He accepted Kant's account of the limits of theoretical reason and argued that Kant was wrong to deny us intellectual intuition — and that the Confucian and Buddhist traditions describe exactly the moral awareness Kant said humans could not have.",
               "fa": "مو چهرهٔ مرکزی کنفوسیوس‌گرایی نو است. شرح کانت از مرزهای عقل نظری را پذیرفت و استدلال کرد که کانت در انکار «شهود عقلی» از ما خطا کرد — و سنت‌های کنفوسیوسی و بودایی دقیقاً همان آگاهی اخلاقی را وصف می‌کنند که کانت می‌گفت آدمی نمی‌تواند داشته باشد."
             }
+          },
+          {
+            "id": "kant-answered-from-china",
+            "heading": {
+              "en": "Answering Kant from the Chinese side",
+              "fa": "پاسخ به کانت از سمت چین"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Kant held that intellectual intuition — a knowing that produces its object rather than receiving it — is possible only for God, and that this is why the thing-in-itself stays out of human reach. Mou's claim is that the Confucian, Daoist and Buddhist traditions all assert, in their own vocabularies, that human beings do have it, and that this is the deepest difference between the two philosophical worlds. The argument is not that Kant made a mistake in reasoning but that he took a limit for granted which another tradition spent two thousand years denying.",
+              "fa": "کانت معتقد بود شهود عقلی — دانستنی که موضوع خود را پدید می‌آورد نه آنکه دریافتش کند — تنها برای خدا ممکن است، و به همین سبب شیء فی‌نفسه بیرون از دسترس آدمی می‌ماند. ادعای مو این است که سنت‌های کنفوسیوسی و دائویی و بودایی هر سه، هرکدام با واژگان خودشان، می‌گویند که آدمیان آن را دارند، و ژرف‌ترین تفاوت میان دو جهانِ فلسفی همین است. استدلال این نیست که کانت در استدلال خطا کرد، بلکه این است که حدی را مسلم گرفت که سنتی دیگر دو هزار سال به انکارش گذرانده بود."
+            },
+            "citations": [
+              { "source": "text-zhi-de-zhijue" },
+              { "source": "text-xianxiang-yu-wuzishen" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "牟宗三",
       "transliteration": "Móu Zōngsān",
       "schools": ["neo-confucianism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-zhi-de-zhijue" },
+        { "source": "text-xianxiang-yu-wuzishen" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "ibn-al-haytham",
@@ -6175,13 +7218,34 @@
               "en": "Ibn al-Haytham showed that vision works by light entering the eye rather than by rays leaving it, and did it with built apparatus and repeatable procedure. His statement of method — that the seeker after truth should suspect their own conclusions hardest — is a philosophical position about how enquiry corrects itself, not a laboratory note.",
               "fa": "ابن هیثم نشان داد که دیدن با ورود نور به چشم رخ می‌دهد نه با بیرون‌رفتن پرتو از آن، و این را با دستگاه ساخته‌شده و رویّهٔ تکرارپذیر نشان داد. بیان او از روش — که جویندهٔ حقیقت باید به نتیجه‌های خودش از همه بیشتر بدگمان باشد — موضعی فلسفی است دربارهٔ اینکه کاوش چگونه خود را تصحیح می‌کند، نه یادداشتی آزمایشگاهی."
             }
+          },
+          {
+            "id": "doubt-as-a-method",
+            "heading": {
+              "en": "Doubt turned into a procedure",
+              "fa": "شک، بدل‌شده به یک رویّه"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Ibn al-Haytham settled the ancient dispute about vision — whether the eye emits something or receives it — by experiment rather than by argument from principles, and the optics that follows is built on controlled observation with instruments. The methodological statement is separate and blunter: in the work against Ptolemy he says the seeker after truth is not the one who studies the writings of the ancients and trusts them, but the one who doubts them, questions what he gathers from them, and submits to argument and demonstration rather than to the word of a person whose nature is full of imperfection.",
+              "fa": "ابن‌هیثم مناقشهٔ باستانی دربارهٔ دیدن را — که آیا چشم چیزی می‌فرستد یا می‌گیرد — با آزمایش فیصله داد نه با استدلال از اصول، و نورشناسیِ پس از آن بر مشاهدهٔ مهارشده با ابزار بنا شده است. بیانِ روش‌شناختی جدا و صریح‌تر است: در اثرش در رد بطلمیوس می‌گوید جویندهٔ حقیقت آن نیست که نوشته‌های پیشینیان را می‌خواند و به آن‌ها اعتماد می‌کند، بلکه آن است که در آن‌ها شک می‌کند، در آنچه از آن‌ها می‌گیرد چون‌وچرا می‌کند، و به استدلال و برهان تسلیم می‌شود نه به گفتهٔ کسی که سرشتش پر از نقص است."
+            },
+            "citations": [
+              { "source": "text-al-shukuk-ala-batlamyus" },
+              { "source": "text-kitab-al-manazir" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
       "nativeName": "أبو علي الحسن بن الهيثم",
       "transliteration": "Ibn al-Haytham",
       "concepts": ["scientific-method-doubt"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-al-shukuk-ala-batlamyus" },
+        { "source": "text-kitab-al-manazir" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "canguilhem",
@@ -6841,13 +7905,26 @@
               "en": "Zeami's treatises on Noh theatre were written for his successors and hidden for five hundred years. Their central idea is the flower: the effect an actor produces, which depends on surprise and on withholding, and which therefore changes as the actor ages — so mastery is not a plateau but a sequence of different problems.",
               "fa": "رساله‌های زه‌آمی دربارهٔ تئاتر «نو» برای جانشینانش نوشته شد و پانصد سال پنهان ماند. ایدهٔ محوریشان «گل» است: اثری که بازیگر پدید می‌آورد، که به غافلگیری و به دریغ‌کردن وابسته است، و از این رو با پیرشدن بازیگر دگرگون می‌شود — پس استادی، فلاتی نیست بلکه زنجیره‌ای از مسائل متفاوت است."
             }
+          },
+          {
+            "id": "the-flower",
+            "heading": {
+              "en": "What the flower means",
+              "fa": "شکوفه به چه معناست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Zeami's treatises are technical instructions for actors that turn into aesthetics. The central term is the flower: the effect by which a performance strikes an audience as fresh. His claim is that it is not a quality of the actor and not a quality of the play, but something that exists only in the meeting — so it is lost the moment it becomes a technique the audience can anticipate, and the performer's task is to keep back what is not yet needed. He also insists the flower of youth is not the real one, because it fades on its own.",
+              "fa": "رساله‌های زه‌آمی دستورهای فنی برای بازیگرانند که به زیبایی‌شناسی بدل می‌شوند. اصطلاح مرکزی «شکوفه» است: آن اثری که به سبب آن یک اجرا بر تماشاگر تازه می‌نماید. ادعایش این است که شکوفه نه کیفیتِ بازیگر است و نه کیفیتِ نمایش، بلکه چیزی است که تنها در آن دیدار هست — پس همان لحظه که به تکنیکی بدل شود که تماشاگر بتواند پیش‌بینی‌اش کند از میان می‌رود، و کارِ اجراگر این است که آنچه را هنوز لازم نیست نگه دارد. همچنین اصرار دارد که شکوفهٔ جوانی شکوفهٔ راستین نیست، چون خودبه‌خود پژمرده می‌شود."
+            },
+            "citations": [{ "source": "text-fushikaden" }, { "source": "sep" }]
           }
         ]
       },
       "nativeName": "世阿弥元清",
       "transliteration": "Zeami Motokiyo",
       "concepts": ["hana-flower"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "text-fushikaden" }, { "source": "sep" }]
     },
     {
       "id": "danto",
