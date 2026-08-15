@@ -31,9 +31,19 @@ class ExploreScreen extends ConsumerStatefulWidget {
 }
 
 class _ExploreScreenState extends ConsumerState<ExploreScreen> {
-  /// The selected tradition, as a taxonomy id. A string rather than a typed
-  /// value because the vocabulary is content — see [Taxonomy].
-  String? _traditionId;
+  /// Which vocabulary the reader is browsing by.
+  ///
+  /// The taxonomy has always had two axes and the screen only offered one. A
+  /// reader who wants aesthetics, or philosophy of psychology, or political
+  /// philosophy — the way people actually arrive at philosophy — had no way to
+  /// ask: twenty-six branches were authored, labelled in both languages, and
+  /// unreachable, with a `homeBrowseByBranch` string sitting unused in the ARB
+  /// file as evidence that somebody had meant to build this.
+  _BrowseAxis _axis = _BrowseAxis.tradition;
+
+  /// The selected term, as a taxonomy id. A string rather than a typed value
+  /// because the vocabulary is content — see [Taxonomy].
+  String? _termId;
 
   @override
   Widget build(BuildContext context) {
@@ -63,38 +73,56 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
   ) {
     final l10n = AppL10n.of(context);
     final taxonomy = corpus.taxonomy;
-    final selected = _traditionId;
+    final selected = _termId;
+    final byBranch = _axis == _BrowseAxis.branch;
 
-    // Selecting a broad tradition keeps the entries filed under narrower ones:
-    // choosing "Indigenous" must not hide the Mesoamerican entries.
+    /// The terms an entity is filed under on the current axis.
+    Set<String> termsOfPhilosopher(Philosopher philosopher) =>
+        byBranch ? philosopher.branches : philosopher.traditions;
+
+    // Selecting a broad term keeps the entries filed under narrower ones:
+    // choosing "Indigenous" must not hide the Mesoamerican entries, and the
+    // same holds for a branch with sub-branches beneath it.
     final philosophers = corpus.philosophersChronologically
         .where(
           (philosopher) =>
               selected == null ||
-              philosopher.traditions.any(
-                (id) => taxonomy.isUnder(id, selected),
-              ),
+              termsOfPhilosopher(philosopher)
+                  .any((id) => taxonomy.isUnder(id, selected)),
         )
         .toList();
 
-    // Only traditions with philosophers behind them are offered, so a filter
-    // can never lead to an empty screen — including the broader terms, which
-    // earn their chip from the entries filed beneath them. Sorting goes through
-    // the taxonomy so the chips follow the editorial order in the content file
-    // rather than the order philosophers happen to have been authored in.
     // Chronological, like the philosophers above and for the same reason: the
     // order in which the arguments were made is the useful order.
     final works = corpus.worksChronologically.where((work) {
       if (selected == null) return true;
-      final traditions = corpus.traditionsOf(work);
-      return traditions.any((id) => taxonomy.isUnder(id, selected));
+      final terms = byBranch ? work.branches : corpus.traditionsOf(work);
+      return terms.any((id) => taxonomy.isUnder(id, selected));
     }).toList();
 
+    // Concepts are filtered too rather than being hidden whenever a filter is
+    // on. Under a branch they are often the best answer to the query — a
+    // reader who asks for aesthetics wants Rasa as much as Abhinavagupta.
+    final concepts = corpus.concepts.where((concept) {
+      if (selected == null) return true;
+      final terms = byBranch ? concept.branches : concept.traditions;
+      return terms.any((id) => taxonomy.isUnder(id, selected));
+    }).toList();
+
+    // Only terms with entries behind them are offered, so a filter can never
+    // lead to an empty screen — including the broader terms, which earn their
+    // chip from the entries filed beneath them. Sorting goes through the
+    // taxonomy so the chips follow the editorial order in the content file
+    // rather than the order entries happen to have been authored in.
     final represented = <String>{
       for (final philosopher in corpus.philosophers)
-        for (final id in philosopher.traditions) ...taxonomy.ancestryOf(id),
+        for (final id in termsOfPhilosopher(philosopher))
+          ...taxonomy.ancestryOf(id),
+      if (byBranch)
+        for (final concept in corpus.concepts)
+          for (final id in concept.branches) ...taxonomy.ancestryOf(id),
     };
-    final traditions = represented.map((id) => taxonomy[id]).nonNulls.toList()
+    final terms = represented.map((id) => taxonomy[id]).nonNulls.toList()
       ..sort();
 
     return SafeArea(
@@ -127,12 +155,29 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    SectionHeader(title: l10n.homeBrowseByTradition),
-                    _TraditionFilter(
-                      traditions: traditions,
+                    SectionHeader(
+                      title: byBranch
+                          ? l10n.homeBrowseByBranch
+                          : l10n.homeBrowseByTradition,
+                    ),
+                    _AxisSwitch(
+                      axis: _axis,
+                      onChanged: (axis) => setState(() {
+                        _axis = axis;
+                        // The selection is dropped rather than carried over: a
+                        // tradition id means nothing on the branch axis, and
+                        // silently keeping a filter the chips no longer show
+                        // would leave the reader looking at a narrowed screen
+                        // with no visible reason for it.
+                        _termId = null;
+                      }),
+                    ),
+                    const SizedBox(height: Spacing.md),
+                    _TaxonomyFilter(
+                      terms: terms,
                       selectedId: selected,
                       language: language,
-                      onSelected: (id) => setState(() => _traditionId = id),
+                      onSelected: (id) => setState(() => _termId = id),
                     ),
                     const SizedBox(height: Spacing.xxl),
                   ],
@@ -173,12 +218,12 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
               ),
             ],
 
-            if (selected == null) ...<Widget>[
+            if (concepts.isNotEmpty) ...<Widget>[
               _HeaderSliver(title: l10n.sectionConcepts),
               _CardSliver(
-                count: corpus.concepts.length,
+                count: concepts.length,
                 builder: (context, index) {
-                  final concept = corpus.concepts[index];
+                  final concept = concepts[index];
                   return EntityCard(
                     title: concept.name.resolve(language),
                     summary: concept.oneLine.resolve(language),
@@ -201,7 +246,56 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
   }
 }
 
-/// The tradition chips, shown a few at a time until the reader asks for more.
+/// Which of the taxonomy's two vocabularies the reader is browsing by.
+enum _BrowseAxis {
+  /// Where and when the philosophy was done.
+  tradition,
+
+  /// What the philosophy is about.
+  branch,
+}
+
+/// Chooses between browsing by tradition and browsing by branch.
+///
+/// A segmented control rather than a second chip row: the two axes are
+/// alternatives, not filters that combine, and a control that looks like the
+/// chips beneath it would suggest they do.
+class _AxisSwitch extends StatelessWidget {
+  const _AxisSwitch({required this.axis, required this.onChanged});
+
+  final _BrowseAxis axis;
+  final ValueChanged<_BrowseAxis> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: Spacing.md),
+      child: Align(
+        alignment: AlignmentDirectional.centerStart,
+        child: SegmentedButton<_BrowseAxis>(
+          segments: <ButtonSegment<_BrowseAxis>>[
+            ButtonSegment<_BrowseAxis>(
+              value: _BrowseAxis.tradition,
+              label: Text(l10n.browseByTraditionShort),
+              icon: const Icon(Icons.public_outlined, size: 18),
+            ),
+            ButtonSegment<_BrowseAxis>(
+              value: _BrowseAxis.branch,
+              label: Text(l10n.browseByBranchShort),
+              icon: const Icon(Icons.account_tree_outlined, size: 18),
+            ),
+          ],
+          selected: <_BrowseAxis>{axis},
+          showSelectedIcon: false,
+          onSelectionChanged: (selection) => onChanged(selection.first),
+        ),
+      ),
+    );
+  }
+}
+
+/// The taxonomy chips, shown a few at a time until the reader asks for more.
 ///
 /// ## Why this is not simply a `Wrap`
 ///
@@ -215,24 +309,24 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
 /// it hides most of the vocabulary behind a swipe, and the vocabulary is the
 /// part worth seeing. Two rows and a count says what is there and costs one tap
 /// to open.
-class _TraditionFilter extends StatefulWidget {
-  const _TraditionFilter({
-    required this.traditions,
+class _TaxonomyFilter extends StatefulWidget {
+  const _TaxonomyFilter({
+    required this.terms,
     required this.selectedId,
     required this.language,
     required this.onSelected,
   });
 
-  final List<TaxonomyTerm> traditions;
+  final List<TaxonomyTerm> terms;
   final String? selectedId;
   final AppLanguage language;
   final ValueChanged<String?> onSelected;
 
   @override
-  State<_TraditionFilter> createState() => _TraditionFilterState();
+  State<_TaxonomyFilter> createState() => _TaxonomyFilterState();
 }
 
-class _TraditionFilterState extends State<_TraditionFilter> {
+class _TaxonomyFilterState extends State<_TaxonomyFilter> {
   bool _expanded = false;
 
   /// Roughly how many chips fit in two rows at this width.
@@ -252,7 +346,7 @@ class _TraditionFilterState extends State<_TraditionFilter> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppL10n.of(context);
-    final all = widget.traditions;
+    final all = widget.terms;
     final limit = _collapsedCount(context);
 
     // A selected chip is always shown, wherever it falls in the list. Hiding
@@ -276,12 +370,12 @@ class _TraditionFilterState extends State<_TraditionFilter> {
           selected: widget.selectedId == null,
           onSelected: (_) => widget.onSelected(null),
         ),
-        for (final tradition in visible)
+        for (final term in visible)
           FilterChip(
-            label: Text(tradition.name.resolve(widget.language)),
-            selected: widget.selectedId == tradition.id,
+            label: Text(term.name.resolve(widget.language)),
+            selected: widget.selectedId == term.id,
             onSelected: (isSelected) =>
-                widget.onSelected(isSelected ? tradition.id : null),
+                widget.onSelected(isSelected ? term.id : null),
           ),
         if (hidden > 0)
           ActionChip(

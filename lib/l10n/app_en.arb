@@ -91,6 +91,14 @@
   "@homeBrowseByTradition": {
     "description": "Section heading for the tradition list."
   },
+  "browseByTraditionShort": "Traditions",
+  "@browseByTraditionShort": {
+    "description": "Segment label for browsing by where and when philosophy was done."
+  },
+  "browseByBranchShort": "Branches",
+  "@browseByBranchShort": {
+    "description": "Segment label for browsing by what the philosophy is about."
+  },
   "homeBrowseByBranch": "Branches of philosophy",
   "@homeBrowseByBranch": {
     "description": "Section heading for the branch list."
@@ -193,10 +201,6 @@
   "depthSelectorLabel": "Depth",
   "@depthSelectorLabel": {
     "description": "Label for the control that chooses how much detail to show."
-  },
-  "readDeeper": "Read deeper",
-  "@readDeeper": {
-    "description": "Button that moves the reader to the next depth level."
   },
   "noDeeperContent": "This is the deepest version written so far.",
   "@noDeeperContent": {
@@ -435,9 +439,5 @@
   "exploreWorksSection": "Works",
   "@exploreWorksSection": {
     "description": "Heading for the works listed on the explore screen."
-  },
-  "filterWorksAll": "All works",
-  "@filterWorksAll": {
-    "description": "Filter chip that clears the works filter."
   }
 }

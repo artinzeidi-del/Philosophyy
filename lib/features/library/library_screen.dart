@@ -5,6 +5,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
+import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
@@ -79,6 +80,19 @@ class _LibraryBody extends StatelessWidget {
             .where((position) => !library.isBookmarked(position.target))
             .toList()
           ..sort((a, b) => b.updatedAt.compareTo(a.updatedAt));
+
+    // Marked passages are split by whether they can still be found in the
+    // entry they came from. Copied before sorting: `library.highlights` is the
+    // list held in application state, and sorting it in place would mutate
+    // state from inside a build.
+    final sortedHighlights = <Highlight>[...library.highlights]..sort();
+    final placed = <Highlight>[];
+    final lost = <Highlight>[];
+    for (final highlight in sortedHighlights) {
+      (corpus.canPlaceHighlight(highlight, language) ? placed : lost).add(
+        highlight,
+      );
+    }
 
     var step = 0;
 
@@ -179,16 +193,12 @@ class _LibraryBody extends StatelessWidget {
                   const SizedBox(height: Spacing.xl),
                 ],
 
-                if (library.highlights.isNotEmpty) ...<Widget>[
+                if (placed.isNotEmpty) ...<Widget>[
                   EntranceAnimation(
                     index: step++,
                     child: SectionHeader(title: l10n.libraryHighlightsSection),
                   ),
-                  // Copied before sorting, for the same reason as the notes
-                  // above: this is the list held in application state.
-                  for (final highlight in <Highlight>[
-                    ...library.highlights,
-                  ]..sort())
+                  for (final highlight in placed)
                     EntranceAnimation(
                       index: step++,
                       child: Padding(
@@ -197,6 +207,45 @@ class _LibraryBody extends StatelessWidget {
                           corpus: corpus,
                           highlight: highlight,
                           language: language,
+                        ),
+                      ),
+                    ),
+                ],
+
+                // Passages that can no longer be found in the entry they came
+                // from. The article view drops these silently — correctly, it
+                // has nowhere to paint them — which left the reader tapping a
+                // card and arriving at a page with nothing marked and no
+                // explanation. The explanation was written when the feature
+                // was designed and had never been shown.
+                if (lost.isNotEmpty) ...<Widget>[
+                  const SizedBox(height: Spacing.xl),
+                  EntranceAnimation(
+                    index: step++,
+                    child: SectionHeader(title: l10n.highlightLostTitle),
+                  ),
+                  EntranceAnimation(
+                    index: step++,
+                    child: Padding(
+                      padding: const EdgeInsets.only(bottom: Spacing.md),
+                      child: Text(
+                        l10n.highlightLostBody,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                    ),
+                  ),
+                  for (final highlight in lost)
+                    EntranceAnimation(
+                      index: step++,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: Spacing.md),
+                        child: _HighlightCard(
+                          corpus: corpus,
+                          highlight: highlight,
+                          language: language,
+                          isLost: true,
                         ),
                       ),
                     ),
@@ -221,11 +270,19 @@ class _HighlightCard extends StatelessWidget {
     required this.corpus,
     required this.highlight,
     required this.language,
+    this.isLost = false,
   });
 
   final KnowledgeBase corpus;
   final Highlight highlight;
   final AppLanguage language;
+
+  /// Whether the passage can no longer be found in the entry it came from.
+  ///
+  /// Drawn in the muted colour the product uses elsewhere for a claim whose
+  /// provenance is unknown, rather than in the highlight colour — the mark is
+  /// the reader's and is kept, but it no longer points anywhere.
+  final bool isLost;
 
   @override
   Widget build(BuildContext context) {
@@ -254,7 +311,12 @@ class _HighlightCard extends StatelessWidget {
           padding: const EdgeInsetsDirectional.only(start: Spacing.md),
           decoration: BoxDecoration(
             border: BorderDirectional(
-              start: BorderSide(color: theme.colorScheme.primary, width: 3),
+              start: BorderSide(
+                color: isLost
+                    ? context.semanticColors.unknownProvenance
+                    : theme.colorScheme.primary,
+                width: 3,
+              ),
             ),
           ),
           child: Column(

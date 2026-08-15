@@ -119,6 +119,70 @@ void main() {
     });
   });
 
+  group('Both halves of the taxonomy can be browsed', () {
+    testWidgets('a reader can switch from traditions to branches', (
+      tester,
+    ) async {
+      // Twenty-six branches were authored, labelled in both languages, and
+      // reachable from nowhere: Explore filtered by tradition only, and the
+      // `homeBrowseByBranch` string sat unused in the ARB file as evidence
+      // that somebody had meant to build this. A reader looking for aesthetics
+      // or political philosophy — which is how most people arrive at
+      // philosophy — had no way to ask.
+      await pump(tester, desktop);
+      await openExplore(tester);
+
+      expect(find.text(en.browseByTraditionShort), findsWidgets);
+      expect(find.text(en.browseByBranchShort), findsWidgets);
+
+      // On the tradition axis the chips are traditions.
+      expect(find.widgetWithText(FilterChip, 'Ancient Greek'), findsOneWidget);
+
+      await tester.tap(find.text(en.browseByBranchShort).last);
+      await tester.pumpAndSettle();
+
+      // On the branch axis they are branches, and the heading follows.
+      expect(find.text(en.homeBrowseByBranch), findsOneWidget);
+      expect(
+        find.widgetWithText(FilterChip, 'Aesthetics'),
+        findsOneWidget,
+        reason: 'the branch chips are not being offered',
+      );
+      expect(find.widgetWithText(FilterChip, 'Ancient Greek'), findsNothing);
+    });
+
+    testWidgets('filtering by a branch narrows the whole screen', (
+      tester,
+    ) async {
+      // Counting cards would measure the viewport rather than the filter —
+      // the list is lazy, so roughly a screenful is built either way. What is
+      // checked instead is that the entries on screen are the right ones.
+      final expected = corpus.philosophersChronologically
+          .where((p) => p.branches.contains('aesthetics'))
+          .map((p) => p.name.en)
+          .toList();
+      expect(expected, isNotEmpty, reason: 'no aesthetics entries to test on');
+
+      await pump(tester, desktop);
+      await openExplore(tester);
+      await tester.tap(find.text(en.browseByBranchShort).last);
+      await tester.pumpAndSettle();
+      await tester.tap(find.widgetWithText(FilterChip, 'Aesthetics'));
+      await tester.pumpAndSettle();
+
+      final cards = tester
+          .widgetList<EntityCard>(find.byType(EntityCard))
+          .toList();
+      expect(cards, isNotEmpty, reason: 'a live filter led to an empty screen');
+      expect(
+        cards.first.title,
+        expected.first,
+        reason:
+            'the first card is ${cards.first.title}, not an aesthetics entry',
+      );
+    });
+  });
+
   group('How browsing uses the width', () {
     Future<List<double>> cardWidths(WidgetTester tester, Size size) async {
       await pump(tester, size);

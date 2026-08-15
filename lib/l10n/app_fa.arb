@@ -19,6 +19,8 @@
   "filterShowMore": "{count, plural, other{{count} تای دیگر}}",
   "filterShowFewer": "کمتر",
   "homeBrowseByTradition": "سنت‌ها",
+  "browseByTraditionShort": "سنت‌ها",
+  "browseByBranchShort": "شاخه‌ها",
   "homeBrowseByBranch": "شاخه‌های فلسفه",
   "homeSurpriseMe": "غافلگیرم کن",
   "sectionOverview": "نمای کلی",
@@ -41,7 +43,6 @@
   "sectionCounterexamples": "این‌ها نه",
   "sectionCentralClaims": "چه می‌گوید",
   "depthSelectorLabel": "عمق",
-  "readDeeper": "بیشتر بخوانید",
   "noDeeperContent": "مفصل‌ترین متنی است که تا امروز نوشته شده.",
   "translationMissing": "هنوز به فارسی ترجمه نشده است؛ متن انگلیسی نمایش داده می‌شود.",
   "born": "زاده",
@@ -94,6 +95,5 @@
   "highlightLostBody": "این مدخل بازنویسی شده و این بندها دیگر سرِ جای قبلی‌شان نیستند. اینجا نگه داشته شده‌اند تا آنچه نشان کرده‌اید از دست نرود.",
   "sectionEditions": "ویرایش‌ها و ترجمه‌ها",
   "workBy": "نوشتهٔ {author}",
-  "exploreWorksSection": "آثار",
-  "filterWorksAll": "همهٔ آثار"
+  "exploreWorksSection": "آثار"
 }

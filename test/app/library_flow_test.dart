@@ -218,11 +218,21 @@ void main() {
           .toList();
       expect(spans.where((span) => span.style != null), isEmpty);
 
-      // But it is still the reader's, and still listed.
+      // But it is still the reader's, and still listed — under its own
+      // heading, with the explanation. It used to sit among the live marks,
+      // so a reader tapped it, arrived at an article with nothing marked, and
+      // was told nothing. The copy for this had been written and never shown.
       await tester.pageBack();
       await tester.pumpAndSettle();
       await openTab(tester, en.navLibrary);
-      expect(find.text(en.libraryHighlightsSection), findsOneWidget);
+      expect(find.text(en.highlightLostTitle), findsOneWidget);
+      expect(find.text(en.highlightLostBody), findsOneWidget);
+      expect(
+        find.text('a sentence this article has never contained'),
+        findsOneWidget,
+      );
+      // And it is not claimed to be live.
+      expect(find.text(en.libraryHighlightsSection), findsNothing);
     });
 
     testWidgets('removing a mark takes it off the page and off disk', (

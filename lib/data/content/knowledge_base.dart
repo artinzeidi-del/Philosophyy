@@ -7,8 +7,9 @@ import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/school.dart';
 import 'package:philosophyy/domain/entities/source.dart';
+import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/entities/work.dart';
-
+import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
@@ -220,6 +221,29 @@ class KnowledgeBase {
               ? aProposed.compareTo(bProposed)
               : a.name.en.compareTo(b.name.en);
         });
+
+  /// Whether [highlight] can still be placed in the article it came from.
+  ///
+  /// A highlight stores offsets and the text they covered. When the entry is
+  /// rewritten, [Highlight.reanchoredIn] finds the passage again if it merely
+  /// moved and gives up if it is gone or has become ambiguous. The article view
+  /// already called that and simply dropped what would not place — so a reader
+  /// whose marked sentence had been edited away saw the card in their library,
+  /// tapped it, and found nothing marked, with no explanation offered. The
+  /// explanation had in fact been written; nothing asked this question.
+  ///
+  /// [language] matters: offsets were taken from the text that actually
+  /// rendered, so a mark made on an English fallback does not place against a
+  /// Persian translation, and reporting that honestly is the point.
+  bool canPlaceHighlight(Highlight highlight, AppLanguage language) {
+    final entity = resolve(highlight.target);
+    if (entity == null) return false;
+    for (final section in entity.article.sections) {
+      if (section.id != highlight.sectionId) continue;
+      return highlight.reanchoredIn(section.body.resolve(language)) != null;
+    }
+    return false;
+  }
 
   /// The reconstructed arguments a work contains.
   List<Argument> argumentsIn(String workId) =>
