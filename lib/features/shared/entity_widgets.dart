@@ -1025,7 +1025,12 @@ class QuoteCard extends StatelessWidget {
 /// Long-form text set across the full width of a tablet or desktop window is
 /// physically tiring to read, whatever else is right about the typography.
 class ReadingColumn extends StatelessWidget {
-  const ReadingColumn({required this.child, this.maxWidth, super.key});
+  const ReadingColumn({
+    required this.child,
+    this.maxWidth,
+    this.alignToStart = false,
+    super.key,
+  });
 
   /// The content to constrain.
   final Widget child;
@@ -1033,8 +1038,21 @@ class ReadingColumn extends StatelessWidget {
   /// Override for the maximum width.
   final double? maxWidth;
 
+  /// Whether to hold the prose against the leading edge instead of centring
+  /// it in the space available.
+  ///
+  /// Centring is right when the column is the only thing on the page. It is
+  /// wrong when prose sits above a grid of cards, because the two then have
+  /// different left edges — on a desktop the home screen's heading started
+  /// 180 logical pixels to the right of the cards under it, which reads as a
+  /// misalignment rather than as a measure.
+  final bool alignToStart;
+
   @override
-  Widget build(BuildContext context) => Center(
+  Widget build(BuildContext context) => Align(
+    alignment: alignToStart
+        ? AlignmentDirectional.topStart
+        : Alignment.topCenter,
     child: ConstrainedBox(
       constraints: BoxConstraints(
         maxWidth: maxWidth ?? Breakpoints.readingMeasure,

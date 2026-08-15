@@ -119,6 +119,80 @@ void main() {
     });
   });
 
+  group('The front page leads somewhere', () {
+    testWidgets('it lays itself out for the window, on one left edge', (
+      tester,
+    ) async {
+      // The whole page used to sit in one ReadingColumn, centred: on a desktop
+      // the heading started 180 logical pixels to the right of the cards under
+      // it, which reads as a misalignment rather than as a measure, and two
+      // thirds of the glass was empty.
+      await pump(tester, desktop);
+      final heading = tester.getRect(find.text(en.appTagline));
+      final cards = tester
+          .widgetList<EntityCard>(find.byType(EntityCard))
+          .map((card) => tester.getRect(find.byWidget(card)))
+          .toList();
+      expect(cards, isNotEmpty);
+      final leftmost = cards.map((r) => r.left).reduce((a, b) => a < b ? a : b);
+      expect(
+        (heading.left - leftmost).abs(),
+        lessThan(1),
+        reason: 'prose starts at ${heading.left}, cards at $leftmost',
+      );
+    });
+
+    testWidgets('a desktop shows a row of entry points, not a column of one', (
+      tester,
+    ) async {
+      await pump(tester, desktop);
+      final tops = tester
+          .widgetList<EntityCard>(find.byType(EntityCard))
+          .map((card) => tester.getRect(find.byWidget(card)).top)
+          .toSet();
+      expect(
+        tops.length,
+        lessThan(tester.widgetList<EntityCard>(find.byType(EntityCard)).length),
+        reason: 'every entry point is on its own row',
+      );
+    });
+
+    testWidgets('the taxonomy chips open Explore already filtered', (
+      tester,
+    ) async {
+      // The front page offered four cards and a random button, and no route to
+      // the other hundred and eighty-seven entries.
+      await pump(tester, desktop);
+      expect(find.text(en.homeBrowseByBranch), findsOneWidget);
+
+      // Whichever branch the strip happens to offer first — the eight it shows
+      // are chosen by how much is filed under them, so naming one here would
+      // pin the test to today's corpus.
+      final chipFinder = find
+          .descendant(
+            of: find.byKey(const ValueKey<String>('home-strip-branch')),
+            matching: find.byType(ActionChip),
+          )
+          .first;
+      final label = tester.widget<ActionChip>(chipFinder).label as Text;
+      final branch = label.data!;
+
+      await tester.tap(chipFinder);
+      await tester.pumpAndSettle();
+
+      // Explore opens on the branch axis with that term already selected.
+      expect(find.text(en.homeBrowseByBranch), findsOneWidget);
+      final chip = tester.widget<FilterChip>(
+        find.widgetWithText(FilterChip, branch),
+      );
+      expect(
+        chip.selected,
+        isTrue,
+        reason: '"$branch" did not arrive selected',
+      );
+    });
+  });
+
   group('Both halves of the taxonomy can be browsed', () {
     testWidgets('a reader can switch from traditions to branches', (
       tester,

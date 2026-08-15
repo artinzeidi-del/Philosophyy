@@ -1,6 +1,9 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/app.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
@@ -8,6 +11,7 @@ import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/data/user/stored_user_data_repository.dart';
 import 'package:philosophyy/data/user/user_library_codec.dart';
+import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
@@ -74,21 +78,55 @@ void main() {
     await tester.pumpAndSettle();
   }
 
+  /// Opens a named entry, rather than whichever card happens to be first.
+  ///
+  /// The highlight tests need to seed the library before the app is pumped,
+  /// which means knowing in advance which article will be open. They used to
+  /// assume the home screen's first card is the first record in the content
+  /// file; that stopped being true the day the entry points started rotating
+  /// by date, and the failure looked like a highlight bug rather than a test
+  /// making an assumption it had no right to make.
+  Future<void> openEntity(WidgetTester tester, EntityRef ref) async {
+    final context = tester.element(find.byType(EntityCard).first);
+    unawaited(GoRouter.of(context).push(ref.route));
+    await tester.pumpAndSettle();
+  }
+
   Future<void> openTab(WidgetTester tester, String label) async {
     await tester.tap(find.text(label));
     await tester.pumpAndSettle();
   }
 
   group('Marking a passage', () {
-    /// The first section of the first article, as the reader sees it.
+    /// The first section of the article that is actually open, as the reader
+    /// sees it.
     ///
     /// Highlights anchor against rendered text, so a test that made up its own
-    /// string would prove nothing about the screen.
-    ({String sectionId, String text}) firstSection() {
-      // The home screen's first card, which openFirstArticle taps.
-      final entity = corpus.philosophers.first;
-      final section = entity.article.at(ContentDepth.quick).first;
+    /// string would prove nothing about the screen. Read from the open article
+    /// rather than assumed: this used to hardcode `corpus.philosophers.first`
+    /// on the belief that the home screen's first card is the first record in
+    /// the file, and that stopped being true the day the entry points started
+    /// rotating.
+    /// The first quick section of a named entry.
+    ({String sectionId, String text}) sectionOf(Philosopher philosopher) {
+      final section = philosopher.article.at(ContentDepth.quick).first;
       return (
+        sectionId: section.id,
+        text: section.body.resolve(AppLanguage.en),
+      );
+    }
+
+    ({EntityRef ref, String sectionId, String text}) openArticle(
+      WidgetTester tester,
+    ) {
+      final view = tester.widget<ArticleView>(find.byType(ArticleView).first);
+      final section = view.article.at(ContentDepth.quick).first;
+      final entity = corpus.philosophers.firstWhere(
+        (candidate) => candidate.article == view.article,
+        orElse: () => corpus.philosophers.first,
+      );
+      return (
+        ref: entity.ref,
         sectionId: section.id,
         text: section.body.resolve(AppLanguage.en),
       );
@@ -100,7 +138,7 @@ void main() {
       final store = await pumpApp(tester);
       await openFirstArticle(tester);
 
-      final section = firstSection();
+      final section = openArticle(tester);
       final excerpt = section.text.substring(0, 20);
 
       // Driven through the provider rather than through the selection toolbar:
@@ -111,7 +149,7 @@ void main() {
       await ProviderScope.containerOf(context)
           .read(libraryProvider.notifier)
           .addHighlight(
-            target: corpus.philosophers.first.ref,
+            target: section.ref,
             sectionId: section.sectionId,
             start: 0,
             end: 20,
@@ -148,9 +186,10 @@ void main() {
       // The reason a highlight stores its excerpt as well as its offsets:
       // content is edited between releases, and painting a stale range would
       // put the reader's mark on a sentence they never marked.
-      final section = firstSection();
+      final subject = corpus.philosophers.first;
+      final section = sectionOf(subject);
       final excerpt = section.text.substring(10, 30);
-      final ref = corpus.philosophers.first.ref;
+      final ref = subject.ref;
 
       await pumpApp(
         tester,
@@ -167,7 +206,7 @@ void main() {
           ),
         ),
       );
-      await openFirstArticle(tester);
+      await openEntity(tester, ref);
 
       final body = tester.widget<SelectableText>(
         find.byType(SelectableText).first,
@@ -191,8 +230,9 @@ void main() {
     ) async {
       // Losing the mark is the right outcome when the passage no longer exists.
       // Guessing at a location would be worse than admitting it is gone.
-      final section = firstSection();
-      final ref = corpus.philosophers.first.ref;
+      final subject = corpus.philosophers.first;
+      final section = sectionOf(subject);
+      final ref = subject.ref;
 
       await pumpApp(
         tester,
@@ -208,7 +248,7 @@ void main() {
           ),
         ),
       );
-      await openFirstArticle(tester);
+      await openEntity(tester, ref);
 
       final body = tester.widget<SelectableText>(
         find.byType(SelectableText).first,
@@ -238,8 +278,9 @@ void main() {
     testWidgets('removing a mark takes it off the page and off disk', (
       tester,
     ) async {
-      final section = firstSection();
-      final ref = corpus.philosophers.first.ref;
+      final subject = corpus.philosophers.first;
+      final section = sectionOf(subject);
+      final ref = subject.ref;
       final store = await pumpApp(
         tester,
         initial: UserLibrary.empty.withHighlight(
@@ -254,7 +295,7 @@ void main() {
           ),
         ),
       );
-      await openFirstArticle(tester);
+      await openEntity(tester, ref);
 
       final context = tester.element(find.byType(ArticleView).first);
       await ProviderScope.containerOf(context)

@@ -40,7 +40,14 @@ class AppRouter {
             routes: <RouteBase>[
               GoRoute(
                 path: explore,
-                builder: (context, state) => const ExploreScreen(),
+                // The axis and term ride in the query string rather than in
+                // shared state, so a link to "aesthetics" is a link and can be
+                // followed, restored and shared like any other.
+                builder: (context, state) => ExploreScreen(
+                  key: ValueKey<String>(state.uri.toString()),
+                  initialAxis: state.uri.queryParameters['axis'],
+                  initialTermId: state.uri.queryParameters['term'],
+                ),
               ),
             ],
           ),

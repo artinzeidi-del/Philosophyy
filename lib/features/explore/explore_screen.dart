@@ -24,7 +24,17 @@ import 'package:philosophyy/l10n/generated/app_localizations.dart';
 /// useful thing a newcomer can be shown about them, and an alphabetical list
 /// puts Aristotle next to Beauvoir for no reason at all.
 class ExploreScreen extends ConsumerStatefulWidget {
-  const ExploreScreen({super.key});
+  const ExploreScreen({this.initialAxis, this.initialTermId, super.key});
+
+  /// Which axis to open on, when arriving from a link that chose one.
+  ///
+  /// Home offers branches and traditions as entry points, and a chip there
+  /// that dropped the reader into an unfiltered Explore would be a link that
+  /// forgot what was clicked.
+  final String? initialAxis;
+
+  /// The taxonomy term to pre-select, when arriving from such a link.
+  final String? initialTermId;
 
   @override
   ConsumerState<ExploreScreen> createState() => _ExploreScreenState();
@@ -39,11 +49,13 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
   /// ask: twenty-six branches were authored, labelled in both languages, and
   /// unreachable, with a `homeBrowseByBranch` string sitting unused in the ARB
   /// file as evidence that somebody had meant to build this.
-  _BrowseAxis _axis = _BrowseAxis.tradition;
+  late _BrowseAxis _axis = widget.initialAxis == 'branch'
+      ? _BrowseAxis.branch
+      : _BrowseAxis.tradition;
 
   /// The selected term, as a taxonomy id. A string rather than a typed value
   /// because the vocabulary is content — see [Taxonomy].
-  String? _termId;
+  late String? _termId = widget.initialTermId;
 
   @override
   Widget build(BuildContext context) {
