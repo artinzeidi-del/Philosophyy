@@ -1035,6 +1035,406 @@
       "branches": ["ethics", "social-philosophy", "metaphysics"],
       "philosophers": ["kwasi-wiredu", "mary-graham"],
       "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "normal-and-pathological",
+      "name": {
+        "en": "The normal and the pathological",
+        "fa": "بهنجار و بیمارگون"
+      },
+      "oneLine": {
+        "en": "Disease as a narrowed life rather than a deviation from an average.",
+        "fa": "بیماری همچون زندگیِ تنگ‌شده، نه انحراف از میانگین."
+      },
+      "definition": {
+        "en": "Canguilhem's argument that a statistical average cannot define health, because an organism sets its own norms by what it can do. A person is ill when the range of lives available to them has narrowed — which is why the same measurement can be pathological in one life and unremarkable in another.",
+        "fa": "استدلال کانگیلم که میانگین آماری نمی‌تواند سلامت را تعریف کند، چون هر ارگانیسم هنجارهای خودش را با آنچه می‌تواند بکند می‌نهد. آدمی وقتی بیمار است که گسترهٔ زندگی‌های در دسترسش تنگ شده باشد — و به همین سبب یک اندازه‌گیری واحد در یک زندگی بیمارگون است و در زندگی دیگر بی‌اهمیت."
+      },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "philosophy-of-medicine",
+        "philosophy-of-biology",
+        "philosophy-of-science"
+      ],
+      "philosophers": ["canguilhem"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "situated-knowledge",
+      "name": { "en": "Situated knowledge", "fa": "دانش موقعیت‌مند" },
+      "oneLine": {
+        "en": "Objectivity as saying where you are standing, not as standing nowhere.",
+        "fa": "عینیت یعنی گفتنِ اینکه کجا ایستاده‌ای، نه ایستادن در ناکجا."
+      },
+      "definition": {
+        "en": "Haraway's proposal that the view from nowhere is not neutrality but an unmarked position claiming universality. Knowledge is always produced from somewhere, and saying where makes it assessable — so partiality, made explicit, is a condition of objectivity rather than its opposite.",
+        "fa": "پیشنهاد هاراوی که «نگاه از ناکجا» بی‌طرفی نیست بلکه موقعیتی بی‌نشان است که ادعای جهان‌شمولی می‌کند. دانش همیشه از جایی تولید می‌شود، و گفتنِ آن جا، ارزیابی‌پذیرش می‌کند — پس جزئی‌بودنِ صریح، شرط عینیت است نه ضد آن."
+      },
+      "traditions": ["american", "contemporary"],
+      "branches": [
+        "epistemology",
+        "feminist-philosophy",
+        "philosophy-of-science"
+      ],
+      "philosophers": ["haraway", "longino"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "the-unconscious",
+      "name": { "en": "The unconscious", "fa": "ناخودآگاه" },
+      "oneLine": {
+        "en": "The claim that our reasons are often not the causes of what we do.",
+        "fa": "این ادعا که دلایل ما اغلب علت کارهایمان نیستند."
+      },
+      "definition": {
+        "en": "Freud's proposal that mental states can be causally effective while being inaccessible to the person who has them. The philosophical weight is in what it denies: that the self is transparent to itself, and that the account a person gives of their own action is authoritative.",
+        "fa": "پیشنهاد فروید که حالت‌های ذهنی می‌توانند اثر علّی داشته باشند و در عین حال برای صاحبشان دسترس‌ناپذیر باشند. وزن فلسفی‌اش در آن چیزی است که انکار می‌کند: اینکه «خود» برای خودش شفاف است، و اینکه گزارش هرکس از کار خودش معتبر است."
+      },
+      "traditions": ["european"],
+      "branches": [
+        "philosophy-of-psychology",
+        "philosophy-of-mind",
+        "epistemology"
+      ],
+      "philosophers": ["freud"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "category-mistake",
+      "name": { "en": "Category mistake", "fa": "خطای مقوله‌ای" },
+      "oneLine": {
+        "en": "Treating something as the kind of thing it is not.",
+        "fa": "رفتارکردن با چیزی چنان‌که گویی از نوعی است که نیست."
+      },
+      "definition": {
+        "en": "Ryle's diagnosis: a visitor shown the colleges and the library who then asks where the university is has not missed a building, they have misunderstood the word. He argued that Descartes's inner mind is the same mistake — treating dispositions to behave as though they named hidden events.",
+        "fa": "تشخیص رایل: مهمانی که دانشکده‌ها و کتابخانه را دیده و بعد می‌پرسد «دانشگاه کجاست»، ساختمانی را از دست نداده، واژه را بد فهمیده است. او استدلال کرد که «ذهنِ درونی» دکارت همان خطاست: آمادگی‌های رفتاری را چنان گرفتن که گویی نامِ رویدادهایی پنهان‌اند."
+      },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "philosophy-of-mind",
+        "philosophy-of-language",
+        "philosophy-of-psychology"
+      ],
+      "philosophers": ["ryle"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "technique",
+      "name": { "en": "Technique", "fa": "فن" },
+      "nativeTerm": "la technique",
+      "oneLine": {
+        "en": "The pursuit of the most efficient method, taken as a system in itself.",
+        "fa": "جست‌وجوی کارآمدترین روش، همچون نظامی مستقل."
+      },
+      "definition": {
+        "en": "Ellul's term for something broader than machinery: the disposition to seek the one best method in every domain. His claim is that once efficiency is the criterion, it does the selecting, so nobody has to decide — and the question of whether a thing should be done stops being asked.",
+        "fa": "اصطلاح الول برای چیزی فراتر از ماشین‌آلات: گرایش به یافتن یگانه بهترین روش در هر حوزه. ادعای او این است که وقتی کارآمدی معیار شد، خودش برمی‌گزیند و کسی لازم نیست تصمیم بگیرد — و پرسش از اینکه آیا کاری باید انجام شود دیگر پرسیده نمی‌شود."
+      },
+      "traditions": ["european", "continental"],
+      "branches": ["philosophy-of-technology", "social-philosophy", "ethics"],
+      "philosophers": ["ellul"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "invisible-hand",
+      "name": { "en": "The invisible hand", "fa": "دست نامرئی" },
+      "oneLine": {
+        "en": "Coordination nobody intended, arising from choices each made for their own reasons.",
+        "fa": "هماهنگی‌ای که کسی قصدش نکرده، برآمده از انتخاب‌هایی که هرکس به دلیل خودش کرده."
+      },
+      "definition": {
+        "en": "Smith's image for an outcome produced by many people pursuing their own ends without aiming at it. The philosophical interest is not the endorsement usually read into it but the structure: it is an explanation of order without a designer, of the same shape as later accounts in biology and in language.",
+        "fa": "تصویر اسمیت از نتیجه‌ای که بسیاری با پی‌گرفتن اهداف خود و بی‌قصدکردنش پدید می‌آورند. جذابیت فلسفی‌اش نه آن تأییدی است که معمولاً از آن خوانده می‌شود، بلکه ساختارش: تبیینِ نظم بی‌طراح، هم‌شکل با شرح‌های بعدی در زیست‌شناسی و در زبان."
+      },
+      "traditions": ["european"],
+      "branches": [
+        "philosophy-of-economics",
+        "social-philosophy",
+        "metaphysics"
+      ],
+      "philosophers": ["adam-smith"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "knowledge-problem",
+      "name": { "en": "The knowledge problem", "fa": "مسئلهٔ دانش" },
+      "oneLine": {
+        "en": "The knowledge an economy runs on cannot be gathered into one place.",
+        "fa": "دانشی که اقتصاد بر آن می‌گردد در یک جا گردآوردنی نیست."
+      },
+      "definition": {
+        "en": "Hayek's argument that the relevant knowledge is dispersed, local and largely tacit — what a particular person knows about a particular circumstance — so a planner cannot obtain it even in principle, and prices are the device that transmits its effects without transmitting it.",
+        "fa": "استدلال هایک که دانشِ مربوط، پراکنده و محلی و عمدتاً ضمنی است — آنچه شخصی معین دربارهٔ موقعیتی معین می‌داند — پس برنامه‌ریز حتی اصولاً هم نمی‌تواند به آن دست یابد، و قیمت‌ها سازوکاری‌اند که اثرهای آن را بی‌انتقالِ خودش منتقل می‌کنند."
+      },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "philosophy-of-economics",
+        "epistemology",
+        "political-philosophy"
+      ],
+      "philosophers": ["hayek"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "entitlement-famine",
+      "name": { "en": "Entitlement", "fa": "استحقاق" },
+      "oneLine": {
+        "en": "What a person can command, as against what exists.",
+        "fa": "آنچه شخص می‌تواند بر آن دست یابد، در برابر آنچه هست."
+      },
+      "definition": {
+        "en": "Sen's category for explaining famines that occur where food is present: what matters is the bundle a person can legally obtain by trade, work or transfer. A wage collapse can starve people while granaries stay full, which makes famine a question of distribution and law rather than of harvest.",
+        "fa": "مقولهٔ سن برای توضیح قحطی‌هایی که در حضور غذا رخ می‌دهند: آنچه اهمیت دارد سبدی است که شخص می‌تواند قانوناً با مبادله یا کار یا انتقال به دست آورد. فروریختن دستمزد می‌تواند مردم را گرسنه کند در حالی که انبارها پرند، و همین قحطی را به پرسشی از توزیع و قانون بدل می‌کند نه از محصول."
+      },
+      "traditions": ["indian", "contemporary"],
+      "branches": ["philosophy-of-economics", "political-philosophy", "ethics"],
+      "related": ["capabilities-approach"],
+      "philosophers": ["sen"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "naturalistic-fallacy",
+      "name": {
+        "en": "The naturalistic fallacy",
+        "fa": "مغالطهٔ طبیعت‌گرایانه"
+      },
+      "oneLine": {
+        "en": "Defining good in terms of any natural property, which Moore held cannot be done.",
+        "fa": "تعریف «خوب» با هر ویژگی طبیعی، که مور آن را ناشدنی می‌دانست."
+      },
+      "definition": {
+        "en": "Moore's charge against every attempt to say that good just means pleasant, or natural, or desired. His test is the open question: it always remains sensible to ask whether the pleasant thing is good, which it would not if the two were the same. Whether the test proves what he thought is contested.",
+        "fa": "اتهام مور به هر کوششی که بگوید «خوب» یعنی لذت‌بخش یا طبیعی یا خواسته‌شده. آزمون او «پرسش گشوده» است: همیشه بامعناست بپرسیم آیا آن چیزِ لذت‌بخش خوب است، و اگر آن دو یکی بودند چنین نمی‌بود. اینکه این آزمون همان را ثابت می‌کند که او می‌پنداشت، محل اختلاف است."
+      },
+      "traditions": ["european", "analytic"],
+      "branches": ["metaethics", "ethics", "philosophy-of-language"],
+      "related": ["is-ought-gap"],
+      "philosophers": ["moore"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "emotivism",
+      "name": { "en": "Emotivism", "fa": "احساس‌گرایی" },
+      "oneLine": {
+        "en": "Moral sentences express attitudes rather than stating facts.",
+        "fa": "جمله‌های اخلاقی نگرش را بیان می‌کنند نه واقعیت را."
+      },
+      "definition": {
+        "en": "The view that saying stealing is wrong is closer to saying stealing — boo — than to reporting anything. Its attraction is that it explains why moral disagreement is so persistent and so motivating; its difficulty is that we plainly reason with moral premises, and expressions of feeling do not enter into inferences.",
+        "fa": "این دیدگاه که گفتن «دزدی نادرست است» به «دزدی — اَه» نزدیک‌تر است تا به گزارش‌دادن چیزی. جذابیتش این است که توضیح می‌دهد چرا اختلاف اخلاقی این‌قدر پابرجا و این‌قدر برانگیزاننده است؛ دشواری‌اش این است که ما آشکارا با مقدمات اخلاقی استدلال می‌کنیم، و بیان احساس وارد استنتاج نمی‌شود."
+      },
+      "traditions": ["european", "analytic"],
+      "branches": ["metaethics", "philosophy-of-language", "ethics"],
+      "philosophers": ["ayer"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "error-theory",
+      "name": { "en": "Error theory", "fa": "نظریهٔ خطا" },
+      "oneLine": {
+        "en": "Moral claims mean what they seem to, and are all false.",
+        "fa": "ادعاهای اخلاقی همان معنایی را دارند که می‌نمایند، و همه نادرست‌اند."
+      },
+      "definition": {
+        "en": "Mackie's position, which agrees with the plain reading of moral language against emotivism and then denies that anything answers to it. The two supports are the variability of moral codes across societies and the argument from queerness: an objective value would have to motivate anyone who apprehended it, and nothing else in the world does that.",
+        "fa": "موضع مکی، که در برابر احساس‌گرایی با خوانش سادهٔ زبان اخلاق موافق است و سپس انکار می‌کند که چیزی بر آن صدق کند. دو تکیه‌گاهش تنوع قواعد اخلاقی میان جامعه‌ها است و «استدلال از غرابت»: ارزش عینی می‌بایست هرکه درکش کند را برانگیزد، و هیچ چیز دیگری در جهان چنین نمی‌کند."
+      },
+      "traditions": ["analytic", "contemporary"],
+      "branches": ["metaethics", "metaphysics", "ethics"],
+      "opposes": ["naturalistic-fallacy"],
+      "philosophers": ["mackie"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "trolley-problem",
+      "name": { "en": "The trolley problem", "fa": "مسئلهٔ تراموا" },
+      "oneLine": {
+        "en": "Why diverting a runaway tram feels different from pushing someone in front of it.",
+        "fa": "چرا منحرف‌کردن ترامواى رهاشده با هل‌دادن کسی جلوی آن فرق دارد."
+      },
+      "definition": {
+        "en": "Foot's case, sharpened by Thomson: most people accept switching a tram from five people to one and refuse to push one person into its path, though the arithmetic is identical. The problem is not which answer is right but what the difference tracks — intention, using a person as a means, or the distinction between doing and allowing.",
+        "fa": "مورد فوت که تامسون تیزش کرد: بیشتر مردم منحرف‌کردن تراموا از پنج نفر به یک نفر را می‌پذیرند و هل‌دادن یک نفر به مسیرش را رد می‌کنند، هرچند حساب یکی است. مسئله این نیست که کدام پاسخ درست است، بلکه این است که این تفاوت چه چیزی را ردیابی می‌کند: قصد، ابزارکردن یک شخص، یا فرق میان کردن و گذاشتن."
+      },
+      "traditions": ["analytic", "contemporary"],
+      "branches": ["ethics", "applied-ethics", "metaethics"],
+      "philosophers": ["foot", "thomson"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "effective-altruism-obligation",
+      "name": { "en": "The drowning child", "fa": "کودک در حال غرق‌شدن" },
+      "oneLine": {
+        "en": "If distance does not matter morally, ordinary comfort is hard to justify.",
+        "fa": "اگر فاصله اخلاقاً مهم نباشد، توجیه آسایش معمولی دشوار می‌شود."
+      },
+      "definition": {
+        "en": "Singer's case: nobody would let a child drown to keep their shoes clean, and it is not obvious what makes a distant preventable death different. Accepting the argument has demanding consequences; rejecting it requires naming a morally relevant difference, which is harder than it looks.",
+        "fa": "مورد سینگر: هیچ‌کس نمی‌گذارد کودکی غرق شود تا کفشش تمیز بماند، و روشن نیست چه چیزی مرگِ پیشگیری‌پذیرِ دور را متفاوت می‌کند. پذیرفتن استدلال پیامدهای سنگینی دارد؛ ردکردنش نام‌بردنِ تفاوتی اخلاقاً مربوط را می‌طلبد، و این دشوارتر از آن است که می‌نماید."
+      },
+      "traditions": ["analytic", "contemporary"],
+      "branches": ["applied-ethics", "ethics", "political-philosophy"],
+      "philosophers": ["singer"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "legal-positivism",
+      "name": { "en": "Legal positivism", "fa": "پوزیتیویسم حقوقی" },
+      "oneLine": {
+        "en": "What the law is and what it should be are two questions.",
+        "fa": "اینکه قانون چیست و اینکه چه باید باشد، دو پرسش‌اند."
+      },
+      "definition": {
+        "en": "The view that a rule's legal validity comes from its source rather than its merit, so an unjust law can still be law. Hart's version grounds this in a rule of recognition that officials actually use. The separation is often mistaken for indifference; its defenders argue the opposite — you cannot criticise a law you have defined as just by fiat.",
+        "fa": "این دیدگاه که اعتبار حقوقی یک قاعده از سرچشمه‌اش می‌آید نه از شایستگی‌اش، پس قانون ناعادلانه باز هم می‌تواند قانون باشد. صورت هارتی آن، این را بر «قاعدهٔ شناسایی»‌ای بنا می‌کند که کارگزاران واقعاً به کار می‌برند. این جداسازی را اغلب بی‌تفاوتی می‌پندارند؛ مدافعانش عکسش را می‌گویند — قانونی را که به‌حکمِ تعریف عادلانه خوانده‌ای نمی‌توانی نقد کنی."
+      },
+      "traditions": ["european", "analytic"],
+      "branches": ["philosophy-of-law", "political-philosophy", "metaethics"],
+      "philosophers": ["hart"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "incompleteness",
+      "name": { "en": "Incompleteness", "fa": "ناتمامیت" },
+      "oneLine": {
+        "en": "No consistent system strong enough for arithmetic proves all its own truths.",
+        "fa": "هیچ نظام سازگارِ به‌قدر کافی نیرومند، همهٔ حقایق خودش را اثبات نمی‌کند."
+      },
+      "definition": {
+        "en": "Gödel's two theorems: any consistent formal system able to express arithmetic contains a true sentence it cannot prove, and cannot prove its own consistency. The results are mathematical; what they show about minds, machines and mathematical truth is philosophical and disputed.",
+        "fa": "دو قضیهٔ گودل: هر نظام صوریِ سازگار که بتواند حساب را بیان کند، جمله‌ای درست دارد که نمی‌تواند اثباتش کند، و سازگاری خودش را نمی‌تواند اثبات کند. نتیجه‌ها ریاضی‌اند؛ اینکه دربارهٔ ذهن و ماشین و حقیقت ریاضی چه نشان می‌دهند، فلسفی است و محل اختلاف."
+      },
+      "traditions": ["analytic", "european"],
+      "branches": ["philosophy-of-mathematics", "logic", "metaphysics"],
+      "philosophers": ["godel"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "intuitionism-mathematics",
+      "name": { "en": "Mathematical intuitionism", "fa": "شهودگرایی ریاضی" },
+      "oneLine": {
+        "en": "A mathematical object exists only when it has been constructed.",
+        "fa": "شیء ریاضی تنها وقتی هست که ساخته شده باشد."
+      },
+      "definition": {
+        "en": "Brouwer's position, which rejects the law of excluded middle over infinite domains: showing that something cannot fail to exist does not produce it. The consequence is a different mathematics rather than a different attitude to the same one — some classical proofs simply do not go through.",
+        "fa": "موضع براوئر که اصل طرد شق ثالث را بر گستره‌های نامتناهی رد می‌کند: نشان‌دادنِ اینکه چیزی نمی‌تواند نباشد، آن را پدید نمی‌آورد. پیامدش ریاضیاتی دیگر است نه نگرشی دیگر به همان ریاضیات — برخی برهان‌های کلاسیک اصلاً پیش نمی‌روند."
+      },
+      "traditions": ["european"],
+      "branches": ["philosophy-of-mathematics", "logic", "metaphysics"],
+      "opposes": ["incompleteness"],
+      "philosophers": ["brouwer"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "artworld",
+      "name": { "en": "The artworld", "fa": "جهانِ هنر" },
+      "oneLine": {
+        "en": "What makes something art is not visible in it.",
+        "fa": "آنچه چیزی را هنر می‌کند در خودش دیدنی نیست."
+      },
+      "definition": {
+        "en": "Danto's answer to the case of two perceptually identical objects, one an artwork and one a carton: the difference is an interpretation supported by a history and a community of practice. It follows that art has a history in a strong sense — what can be made depends on what has been made.",
+        "fa": "پاسخ دانتو به موردِ دو شیء از نظر ادراکی یکسان که یکی اثر هنری است و دیگری جعبه: تفاوت، تفسیری است که تاریخی و جماعتی از رویّه پشتیبانی‌اش می‌کند. از این برمی‌آید که هنر به معنایی قوی تاریخ دارد — آنچه می‌توان ساخت به آنچه ساخته شده وابسته است."
+      },
+      "traditions": ["american", "analytic"],
+      "branches": ["aesthetics", "metaphysics", "philosophy-of-history"],
+      "philosophers": ["danto"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "hana-flower",
+      "name": { "en": "The flower", "fa": "گل" },
+      "nativeTerm": "花",
+      "transliteration": "Hana",
+      "oneLine": {
+        "en": "The effect a performer produces, which depends on what is withheld.",
+        "fa": "اثری که اجراگر پدید می‌آورد، که به آنچه دریغ می‌شود وابسته است."
+      },
+      "definition": {
+        "en": "Zeami's central term for the quality that makes a performance land. It is not a skill the actor acquires and keeps: it depends on surprise, on holding something back, and on the audience's expectation — so it changes as the performer ages, and mastery is a sequence of different problems rather than a summit.",
+        "fa": "اصطلاح محوری زه‌آمی برای کیفیتی که اجرا را می‌نشاند. مهارتی نیست که بازیگر به دست آورد و نگه دارد: به غافلگیری، به دریغ‌کردن چیزی، و به انتظار تماشاگر وابسته است — پس با پیرشدن اجراگر دگرگون می‌شود، و استادی زنجیره‌ای از مسائل متفاوت است نه یک قله."
+      },
+      "traditions": ["japanese"],
+      "branches": ["aesthetics", "philosophy-of-education"],
+      "philosophers": ["zeami"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "the-absurd",
+      "name": { "en": "The absurd", "fa": "امر پوچ" },
+      "oneLine": {
+        "en": "The gap between our demand for meaning and a world that does not answer.",
+        "fa": "شکاف میان خواستِ ما برای معنا و جهانی که پاسخ نمی‌دهد."
+      },
+      "definition": {
+        "en": "Camus's term for a relation rather than a property: the world is not absurd and neither are we, but the confrontation between a mind that asks for reasons and a universe silent about them is. His conclusion is that the confrontation should be maintained rather than resolved by suicide or by faith.",
+        "fa": "اصطلاح کامو برای یک نسبت، نه یک ویژگی: نه جهان پوچ است و نه ما، اما رویاروییِ ذهنی که دلیل می‌خواهد با گیتی‌ای که دربارهٔ آن خاموش است، پوچ است. نتیجه‌اش این است که این رویارویی را باید نگه داشت، نه با خودکشی یا با ایمان حل کرد."
+      },
+      "traditions": ["european", "continental"],
+      "branches": ["existential-philosophy", "ethics", "metaphysics"],
+      "philosophers": ["camus"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "intersecting-oppression",
+      "name": { "en": "Interlocking oppression", "fa": "ستم درهم‌قفل‌شده" },
+      "oneLine": {
+        "en": "Race, class and gender as one system rather than three that add up.",
+        "fa": "نژاد و طبقه و جنسیت همچون یک نظام، نه سه چیزی که جمع می‌شوند."
+      },
+      "definition": {
+        "en": "The claim, argued by hooks and by Davis among others, that positions of disadvantage are not separable variables to be summed: the situation of a poor black woman is not the situation of a poor person plus a black person plus a woman. A movement organised around one axis will mistake one position for the general case.",
+        "fa": "این ادعا — که هوکس و دیویس و دیگران بر آن استدلال کرده‌اند — که موقعیت‌های فرودستی متغیرهایی جداشدنی برای جمع‌زدن نیستند: وضع یک زن سیاهِ فقیر، وضع یک فقیر به‌علاوهٔ یک سیاه به‌علاوهٔ یک زن نیست. جنبشی که حول یک محور سامان یابد، یک موقعیت را با حالت عام اشتباه می‌گیرد."
+      },
+      "traditions": ["africana", "american", "contemporary"],
+      "branches": [
+        "feminist-philosophy",
+        "social-philosophy",
+        "political-philosophy"
+      ],
+      "philosophers": ["bell-hooks", "angela-davis", "oyewumi"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "prison-abolition",
+      "name": { "en": "Abolition", "fa": "الغا" },
+      "oneLine": {
+        "en": "Treating the prison as an institution that needs explaining, not assuming.",
+        "fa": "زندان همچون نهادی که باید توضیح داده شود، نه فرض."
+      },
+      "definition": {
+        "en": "Davis's argument that the prison is better explained as a way of disappearing social problems than as a response to crime, and that its racial composition is continuous with earlier institutions rather than incidental. The abolitionist claim is about what may be assumed in the argument, not a proposal that nothing replace it.",
+        "fa": "استدلال دیویس که زندان را بهتر می‌توان راهی برای ناپدیدکردن مسائل اجتماعی دانست تا پاسخی به جرم، و ترکیب نژادی‌اش نه اتفاقی بلکه پیوسته با نهادهای پیشین است. ادعای الغاگرایانه دربارهٔ آن چیزی است که در استدلال می‌توان مفروض گرفت، نه پیشنهادِ اینکه چیزی جایش را نگیرد."
+      },
+      "traditions": ["africana", "american", "contemporary"],
+      "branches": [
+        "political-philosophy",
+        "philosophy-of-law",
+        "social-philosophy"
+      ],
+      "philosophers": ["angela-davis"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "scientific-method-doubt",
+      "name": {
+        "en": "Suspecting your own conclusions",
+        "fa": "بدگمانی به نتیجه‌های خود"
+      },
+      "oneLine": {
+        "en": "The rule that the investigator is the likeliest source of the error.",
+        "fa": "این قاعده که محتمل‌ترین سرچشمهٔ خطا، خودِ پژوهشگر است."
+      },
+      "definition": {
+        "en": "Ibn al-Haytham's statement of method: the seeker after truth should be suspicious of their own conclusions above all others, and should test rather than defer. Stated as a duty of the investigator rather than as a procedure, it is the earliest surviving formulation of why enquiry needs to be built to correct itself.",
+        "fa": "بیان ابن هیثم از روش: جویندهٔ حقیقت باید بیش از همه به نتیجه‌های خودش بدگمان باشد، و بیازماید نه اینکه تسلیم شود. چون وظیفهٔ پژوهشگر بیان شده نه چون رویّه‌ای، کهن‌ترین صورت‌بندیِ بازمانده از این است که چرا کاوش باید برای تصحیح خود ساخته شود."
+      },
+      "traditions": ["islamic"],
+      "branches": ["philosophy-of-science", "epistemology"],
+      "philosophers": ["ibn-al-haytham"],
+      "citations": [{ "source": "sep" }]
     }
   ]
 }

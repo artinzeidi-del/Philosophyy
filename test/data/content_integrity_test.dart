@@ -71,6 +71,41 @@ void main() {
   });
 
   group('Editorial policy', () {
+    test('no section repeats another section of the same entry', () {
+      // A deepening pass added a "standard" section to thirty entries, and
+      // three of them restated a section the entry already had — Heidegger's
+      // party membership was written twice, in different words, one above the
+      // other. Nothing caught it: both sections were well formed, cited, and
+      // bilingual. It was found by looking at a screenshot.
+      //
+      // Word overlap does not separate the cases: a legitimate pair on Rūmī
+      // shares more vocabulary than the duplicate did. What does separate them
+      // is a long identical run of words — restating a fact tends to reuse the
+      // phrasing. Across the whole corpus the longest run between two genuine
+      // sections is five words; the duplicate ran to nine.
+      const maximumSharedRun = 6;
+      final problems = <String>[];
+
+      for (final entity in corpus.allEntities) {
+        final sections = entity.article.sections;
+        for (var i = 0; i < sections.length; i++) {
+          for (var j = i + 1; j < sections.length; j++) {
+            final shared = _longestSharedRun(
+              sections[i].body.en,
+              sections[j].body.en,
+            );
+            if (shared >= maximumSharedRun) {
+              problems.add(
+                '${entity.ref}: "${sections[i].id}" and "${sections[j].id}" '
+                'share a run of $shared words',
+              );
+            }
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('every entity has a one-line summary in both languages', () {
       for (final entity in corpus.allEntities) {
         expect(
@@ -242,3 +277,39 @@ void main() {
     });
   });
 }
+
+/// The longest run of consecutive words appearing in both [a] and [b].
+///
+/// Words only, lowercased, punctuation dropped — the interest is in reused
+/// phrasing rather than in exact text.
+int _longestSharedRun(String a, String b) {
+  final first = _words(a);
+  final second = _words(b);
+  var longest = 0;
+  for (
+    var length = 3;
+    length <= first.length && length <= second.length;
+    length++
+  ) {
+    final grams = <String>{
+      for (var i = 0; i + length <= first.length; i++)
+        first.sublist(i, i + length).join(' '),
+    };
+    var found = false;
+    for (var i = 0; i + length <= second.length; i++) {
+      if (grams.contains(second.sublist(i, i + length).join(' '))) {
+        found = true;
+        break;
+      }
+    }
+    if (!found) break;
+    longest = length;
+  }
+  return longest;
+}
+
+List<String> _words(String text) =>
+    RegExp(r'[A-Za-z]+')
+        .allMatches(text)
+        .map((match) => match.group(0)!.toLowerCase())
+        .toList();

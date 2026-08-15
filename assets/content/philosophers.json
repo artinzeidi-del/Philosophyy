@@ -868,6 +868,16 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "wu-wei-detail",
+            "heading": { "en": "What wu wei is not", "fa": "«وو وی» چه نیست" },
+            "depth": "standard",
+            "body": {
+              "en": "The usual translation, non-action, invites the reading that the Daodejing recommends doing nothing, and the text does not. Its examples are of skilled action: water wearing down rock, a wheel useful because of the hole at its centre, a ruler whose people say they did it themselves. What is being refused is forcing — acting against the grain of a situation — and the claim is that force is the least effective option, not the most immoral one.",
+              "fa": "ترجمهٔ معمول، «بی‌کنشی»، این خوانش را پیش می‌آورد که دائو ده جینگ هیچ‌کاری‌نکردن را توصیه می‌کند، و متن چنین نمی‌کند. مثال‌هایش از کنش ماهرانه است: آب که سنگ را می‌ساید، چرخی که به سبب سوراخ میانش به کار می‌آید، فرمانروایی که مردمش می‌گویند خودمان کردیم. آنچه رد می‌شود «زورآوردن» است — عمل‌کردن خلافِ جهتِ یک موقعیت — و ادعا این است که زور کم‌اثرترین گزینه است، نه غیراخلاقی‌ترین."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1117,6 +1127,19 @@
               "en": "The Buddha's teaching is structured like a medical diagnosis: there is suffering, it has a cause, the cause can be removed, and there is a method. The philosophically loaded parts are the claims that nothing has a permanent self and that everything arises in dependence on something else — which later Indian philosophy spent centuries arguing about.",
               "fa": "آموزهٔ بودا مانند یک تشخیص پزشکی ساختار دارد: رنجی هست، علتی دارد، آن علت را می‌توان برداشت، و روشی برای این کار هست. بخش‌های پربارِ فلسفی آن این ادعاهاست که هیچ‌چیز خودِ پایداری ندارد و هر چیز در وابستگی به چیزی دیگر پدید می‌آید — که فلسفهٔ هند قرن‌ها بر سرشان بحث کرد."
             }
+          },
+          {
+            "id": "four-truths",
+            "heading": {
+              "en": "What the diagnostic form is doing",
+              "fa": "این قالبِ تشخیصی چه می‌کند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Casting the teaching as a case rather than a revelation has three effects worth naming. It makes the content a set of claims that could turn out to be wrong. It locates the problem in craving — a relation we have to things — rather than in the things themselves, so the remedy is a training and not a withdrawal from the world. And it makes the fourth truth a procedure, which is why the tradition that follows is organised around practices to be tested rather than doctrines to be believed.",
+              "fa": "ریختنِ آموزه در قالب یک پرونده به‌جای یک مکاشفه، سه اثر دارد که ارزش نام‌بردن دارند. محتوا را به مجموعه‌ای از ادعاها بدل می‌کند که ممکن است نادرست از آب درآیند. مسئله را در «خواستن» می‌نشاند — نسبتی که ما با چیزها داریم — نه در خودِ چیزها، پس درمان تمرین است نه کناره‌گیری از جهان. و حقیقت چهارم را رویّه می‌کند، و به همین سبب سنتی که در پی می‌آید حول تمرین‌هایی که باید آزموده شوند سامان می‌یابد، نه آموزه‌هایی که باید باور شوند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1147,6 +1170,19 @@
               "en": "Śaṅkara is the central figure of Advaita Vedānta, whose name means not-two. His claim is that the self is not a part of ultimate reality or a creature of it but identical with it, and that the appearance of a world of separate things is real enough to live in and not ultimately how things are.",
               "fa": "شنکره چهرهٔ مرکزی «ادویته ودانته» است که نامش یعنی «نه‌دو». ادعای او این است که خود، نه جزئی از حقیقت غایی است و نه آفریدهٔ آن، بلکه عین آن است؛ و ظاهرِ جهانی از چیزهای جدا از هم آن‌قدر واقعی هست که بتوان در آن زیست، اما در نهایت شیوهٔ بودنِ چیزها نیست."
             }
+          },
+          {
+            "id": "two-truths",
+            "heading": {
+              "en": "Two levels, not two worlds",
+              "fa": "دو سطح، نه دو جهان"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Advaita is often reported as saying the world is an illusion, which invites the objection that nobody can live as though it were. Shankara's position is more careful: the world is real at the level at which we transact with it, and not ultimately real — the way a dream is genuinely a dream while it lasts. The two levels are levels of description, not two places, and the objection lands only against the coarser version.",
+              "fa": "ادویته را اغلب چنین گزارش می‌کنند که جهان وهم است، و این اعتراض را پیش می‌آورد که کسی نمی‌تواند چنان زندگی کند که گویی چنین است. موضع شنکره دقیق‌تر است: جهان در سطحی که با آن داد‌وستد می‌کنیم واقعی است، و در نهایت واقعی نیست — همان‌طور که خواب تا وقتی هست واقعاً خواب است. این دو سطح، سطوح توصیف‌اند نه دو جا، و اعتراض تنها بر صورت خام‌تر آن می‌نشیند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1309,6 +1345,19 @@
               "en": "Dōgen founded the Sōtō school of Zen in Japan. His central move is to collapse the distance between practice and its goal: sitting is not training for enlightenment, it is what enlightenment consists in. He also wrote one of the most difficult and most original treatments of time in any tradition, arguing that being and time are not two things.",
               "fa": "دوگن مکتب «سوتو» ذن را در ژاپن بنیان گذاشت. حرکت محوری او برداشتن فاصلهٔ میان تمرین و هدفِ آن است: نشستن، تمرین برای روشن‌شدگی نیست؛ خودِ روشن‌شدگی همین است. او یکی از دشوارترین و بدیع‌ترین بحث‌های زمان را در میان همهٔ سنت‌ها نوشت و استدلال کرد که بودن و زمان دو چیز نیستند."
             }
+          },
+          {
+            "id": "practice-realisation",
+            "heading": {
+              "en": "Practice and realisation as one",
+              "fa": "تمرین و تحقق همچون یک چیز"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The obvious question about meditation is how long it takes. Dōgen's answer is that the question presupposes a mistake: if sitting were a means to awakening, awakening would be an event with a date, and the sitting would be worth nothing on its own. He argues instead that practice is what awakening looks like while it is being done — which dissolves the question rather than answering it, and is why his writing bends its own grammar to keep from stating it as a sequence.",
+              "fa": "پرسش بدیهی دربارهٔ مراقبه این است که چقدر طول می‌کشد. پاسخ دوگن این است که خودِ پرسش خطایی را مفروض می‌گیرد: اگر نشستن وسیلهٔ بیداری بود، بیداری رویدادی تاریخ‌دار می‌شد و نشستن به‌خودی‌خود بی‌ارزش. او در عوض استدلال می‌کند که تمرین همان شکلی است که بیداری در حین انجام‌شدن دارد — و این پرسش را منحل می‌کند نه اینکه پاسخش دهد، و به همین سبب نوشتارش دستور زبان خودش را خم می‌کند تا آن را در قالب توالی نگوید."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1545,6 +1594,20 @@
               "en": "Maimonides wrote in Arabic, worked inside the same philosophical world as Ibn Sīnā and al-Ghazālī, and produced the most influential Jewish philosophical work there is. His negative theology holds that positive descriptions of God mislead: to say God is wise is to import something creaturely, and the safest true statements are denials.",
               "fa": "ابن میمون به عربی نوشت، در همان جهان فلسفی ابن‌سینا و غزالی کار کرد، و اثرگذارترین اثر فلسفی یهودی را پدید آورد. الهیات سلبی او می‌گوید توصیف‌های ایجابی دربارهٔ خدا گمراه‌کننده‌اند: گفتن اینکه خدا حکیم است چیزی مخلوق‌گونه را وارد می‌کند، و امن‌ترین گزاره‌های درست، نفی‌ها هستند."
             }
+          },
+          {
+            "id": "why-obscure",
+            "heading": {
+              "en": "Why the book is hard on purpose",
+              "fa": "چرا کتاب عمداً دشوار است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Maimonides says in the introduction that he has scattered the argument and included deliberate contradictions, so that a reader who is not ready will not assemble it. He gives a reason: the doctrines are dangerous to someone who takes them without the preparation, since a reader who loses the literal God and cannot reach the philosophical one is left with nothing. Whether that is responsible teaching or an elite protecting itself has been argued since the thirteenth century.",
+              "fa": "ابن‌میمون در مقدمه می‌گوید استدلال را پراکنده کرده و تناقض‌هایی عمدی گنجانده، تا خواننده‌ای که آماده نیست نتواند آن را کنار هم بگذارد. دلیلش را هم می‌آورد: این آموزه‌ها برای کسی که بی‌آمادگی برشان دارد خطرناک‌اند، چون خواننده‌ای که خدای تحت‌اللفظی را از دست بدهد و به خدای فلسفی نرسد، با هیچ می‌ماند. اینکه این آموزشِ مسئولانه است یا نخبه‌ای که از خود پاسداری می‌کند، از قرن سیزدهم محل بحث بوده است."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
@@ -1590,6 +1653,19 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "interpretation"
+          },
+          {
+            "id": "time-argument",
+            "heading": {
+              "en": "The argument about time",
+              "fa": "استدلال دربارهٔ زمان"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Book XI of the Confessions asks what time is and takes the question seriously enough to make it hard. The past no longer exists and the future does not yet, so if the present has no duration then all that exists is a boundary with nothing on either side. Augustine's answer is that past and future exist as present memory and present expectation — which locates time in the mind, and is why the passage is still cited in philosophy of mind rather than only in theology.",
+              "fa": "کتاب یازدهم «اعترافات» می‌پرسد زمان چیست و پرسش را چنان جدی می‌گیرد که دشوارش می‌کند. گذشته دیگر نیست و آینده هنوز نیست، پس اگر اکنون امتدادی نداشته باشد، تنها چیزی که هست مرزی است با هیچ در دو سویش. پاسخ آگوستین این است که گذشته و آینده به‌صورت حافظهٔ حاضر و انتظار حاضر هستند — و این زمان را در ذهن می‌نشاند، و به همین سبب این بخش هنوز در فلسفهٔ ذهن نقل می‌شود، نه فقط در الهیات."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1625,6 +1701,16 @@
               "en": "Aquinas built the largest synthesis of Aristotle and Christian doctrine ever attempted. His method is worth as much as his conclusions: every question is put with the strongest objections first, answered, and then the objections are answered one by one — a format that makes it unusually hard to hide a weak argument.",
               "fa": "آکوئیناس بزرگ‌ترین تلفیقِ ارسطو و آموزهٔ مسیحی را ساخت که تا آن زمان کوشیده شده بود. روش او به اندازهٔ نتایجش ارزش دارد: هر مسئله نخست با قوی‌ترین اعتراض‌ها طرح می‌شود، پاسخ داده می‌شود، و سپس به اعتراض‌ها یک‌به‌یک جواب داده می‌شود — قالبی که پنهان‌کردن یک استدلال ضعیف را به‌طور غیرعادی دشوار می‌کند."
             }
+          },
+          {
+            "id": "five-ways",
+            "heading": { "en": "The five ways", "fa": "پنج راه" },
+            "depth": "standard",
+            "body": {
+              "en": "The arguments for God's existence at the start of the Summa are compressed to a paragraph each and are not meant to stand alone; each is a sketch of a longer argument made elsewhere. The common misreading is temporal — that they claim the universe must have had a first moment. Aquinas explicitly held that reason cannot settle whether the world had a beginning; the series he says cannot regress is one of dependence here and now, not one of events in the past.",
+              "fa": "استدلال‌های اثبات خدا در آغاز «خلاصه» هرکدام به یک بند فشرده شده‌اند و قرار نیست به‌تنهایی بایستند؛ هر یک طرحی است از استدلالی بلندتر که جای دیگری آمده. بدخوانی رایج زمانی است — اینکه گویا مدعی‌اند جهان باید لحظهٔ نخستی داشته باشد. آکویناس صریحاً معتقد بود که خرد نمی‌تواند فیصله دهد که جهان آغازی داشته یا نه؛ زنجیره‌ای که می‌گوید تسلسل‌بردار نیست، زنجیرهٔ وابستگی در همین‌جا و همین‌اکنون است، نه زنجیرهٔ رویدادهای گذشته."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1819,6 +1905,19 @@
               "en": "Spinoza held that there is exactly one substance, which can be called God or nature, and that everything else is a way that substance is. From this he derived an ethics with no free will in the usual sense, in which freedom means understanding the causes acting on you rather than escaping them.",
               "fa": "اسپینوزا معتقد بود دقیقاً یک جوهر هست که می‌توان آن را خدا یا طبیعت نامید، و هر چیز دیگر شیوه‌ای از بودنِ آن جوهر است. از این، اخلاقی استنتاج کرد بدون ارادهٔ آزاد به معنای معمول، که در آن آزادی یعنی فهمیدنِ علت‌هایی که بر تو اثر می‌گذارند، نه گریختن از آن‌ها."
             }
+          },
+          {
+            "id": "god-or-nature",
+            "heading": {
+              "en": "What he meant by God",
+              "fa": "منظورش از خدا چه بود"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Spinoza's God is not a person who makes choices. It is the single substance of which everything is a mode — so saying God and saying nature picks out the same thing under two descriptions. This is why he was expelled from his community and read as an atheist by his century and as a mystic by the next. Neither label settles the question, because his God does everything a philosophical God is invoked to do and nothing a religious one is.",
+              "fa": "خدای اسپینوزا شخصی نیست که انتخاب کند. یگانه جوهری است که هر چیز حالتی از اوست — پس گفتنِ «خدا» و گفتنِ «طبیعت» یک چیز را زیر دو وصف نشان می‌دهد. به همین سبب از جماعتش رانده شد و قرن خودش او را ملحد خواند و قرن بعد عارف. هیچ‌یک از این دو برچسب مسئله را فیصله نمی‌دهد، چون خدای او هر کاری که خدای فلسفی برایش خوانده می‌شود می‌کند و هیچ‌یک از کارهای خدای دینی را نمی‌کند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1916,6 +2015,19 @@
               "en": "The early Wittgenstein held that language pictures the world and that most philosophy is nonsense produced by misusing it. The later Wittgenstein held that meaning is not picturing but use, that words work the way tools do, and that his own earlier account was one more piece of the confusion he had been trying to end.",
               "fa": "ویتگنشتاینِ متقدم معتقد بود زبان جهان را تصویر می‌کند و بیشتر فلسفه بی‌معنایی‌ای است که از بدکاربردن آن پدید می‌آید. ویتگنشتاینِ متأخر معتقد بود معنا تصویرکردن نیست بلکه کاربرد است، واژه‌ها مثل ابزار کار می‌کنند، و شرح متقدم خودش تکه‌ای دیگر از همان سردرگمی بوده که می‌کوشیده پایانش دهد."
             }
+          },
+          {
+            "id": "two-books",
+            "heading": {
+              "en": "Why there are two philosophies",
+              "fa": "چرا دو فلسفه هست"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The Tractatus and the Investigations are usually taught as a break, and Wittgenstein asked that they be printed together so the second would be read against the first. What both share is the view that philosophical problems come from misunderstanding how language works. What changed is the diagnosis: in the early book language has one hidden logical structure, and in the later one it has as many structures as it has uses, and looking for the hidden one is the mistake.",
+              "fa": "«رساله» و «پژوهش‌ها» را معمولاً چون گسست درس می‌دهند، و ویتگنشتاین خواست که با هم چاپ شوند تا دومی در برابر اولی خوانده شود. آنچه هر دو در آن شریک‌اند این دیدگاه است که مسائل فلسفی از بدفهمیِ کارکرد زبان می‌آیند. آنچه عوض شد تشخیص است: در کتاب نخست، زبان یک ساختار منطقیِ پنهان دارد، و در کتاب متأخر به‌اندازهٔ کاربردهایش ساختار دارد، و گشتن به دنبال آن ساختارِ پنهان، خودِ خطاست."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1991,6 +2103,17 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "unfinished",
+            "heading": { "en": "Why the book stops", "fa": "چرا کتاب می‌ایستد" },
+            "depth": "standard",
+            "body": {
+              "en": "Being and Time announces a plan in two parts and delivers the first half of the first part. The promised move — from the analysis of the being that asks the question to the meaning of being itself — was never published, and Heidegger later said the language available to him could not make it. Readers therefore disagree about whether the book is a fragment of a system or a demonstration that the system was not possible.",
+              "fa": "«هستی و زمان» طرحی دو بخشی اعلام می‌کند و نیمهٔ نخستِ بخش اول را تحویل می‌دهد. آن حرکت وعده‌داده‌شده — از تحلیل موجودی که پرسش را می‌پرسد به معنای خودِ هستی — هرگز منتشر نشد، و هایدگر بعدها گفت زبانی که در اختیار داشت نمی‌توانست آن را بسازد. پس خوانندگان اختلاف دارند که این کتاب پارهٔ یک نظام است یا نمایشی از اینکه آن نظام ممکن نبود."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2020,6 +2143,19 @@
               "en": "Sartre's claim is that existence precedes essence: there is no human nature fixed in advance that tells you what to be. That makes freedom total and inescapable, and most of his psychology is about the strategies people use to hide it from themselves, which he called bad faith.",
               "fa": "ادعای سارتر این است که وجود بر ماهیت مقدم است: طبیعت انسانیِ از پیش تعیین‌شده‌ای وجود ندارد که بگوید چه باید بود. این آزادی را تام و گریزناپذیر می‌کند، و بیشتر روان‌شناسی او دربارهٔ ترفندهایی است که آدم‌ها برای پنهان‌کردن آن از خودشان به کار می‌برند؛ چیزی که «سوءنیت» می‌نامیدش."
             }
+          },
+          {
+            "id": "bad-faith-detail",
+            "heading": {
+              "en": "How bad faith is possible",
+              "fa": "بدنیتی چگونه ممکن است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Bad faith is not lying, because a liar knows the truth they are concealing and a person in bad faith must conceal it from themselves. Sartre's answer is that consciousness is not a thing with sealed compartments: it can be aware of what it is doing in the very act of looking away, which is why the state is unstable and has to be maintained. The waiter performing being-a-waiter is the standard example, and the point is not that he is insincere but that the performance saves him from choosing.",
+              "fa": "بدنیتی دروغ نیست، چون دروغگو حقیقتی را که پنهان می‌کند می‌داند و آدمِ بدنیت باید آن را از خودش پنهان کند. پاسخ سارتر این است که آگاهی چیزی با محفظه‌های مهرشده نیست: می‌تواند در همان کنشِ روبرگرداندن، از آنچه می‌کند آگاه باشد، و به همین سبب این حالت ناپایدار است و باید نگه داشته شود. پیشخدمتی که «پیشخدمت‌بودن» را اجرا می‌کند نمونهٔ همیشگی است، و نکته این نیست که او ریاکار است، بلکه این است که آن اجرا او را از انتخاب‌کردن معاف می‌کند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2083,6 +2219,19 @@
               "en": "Foucault wrote histories of madness, medicine, punishment and sexuality to show that the categories we take as natural have datable beginnings. His recurring claim is that power does not only forbid: it produces the categories, the expertise and the kinds of person that then seem simply to be there.",
               "fa": "فوکو تاریخ‌هایی از جنون، پزشکی، مجازات و جنسیت نوشت تا نشان دهد مقوله‌هایی که طبیعی می‌گیریم آغازهای تاریخ‌دار دارند. ادعای همیشگی او این است که قدرت فقط منع نمی‌کند: مقوله‌ها، تخصص‌ها و گونه‌هایی از آدم را تولید می‌کند که بعد چنان می‌نمایند که گویی همیشه بوده‌اند."
             }
+          },
+          {
+            "id": "power-not-a-thing",
+            "heading": {
+              "en": "Power as he uses the word",
+              "fa": "قدرت، آن‌گونه که او واژه را به کار می‌برد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Foucault is not describing power as something the state holds and others lack. He means the arrangements that produce what counts as normal, sane, healthy or criminal, and that operate through knowledge rather than against it — the examination, the file, the timetable. The consequence is uncomfortable in both directions: there is no outside from which to resist, and there is also nothing that has to stay as it is.",
+              "fa": "فوکو قدرت را چیزی نمی‌داند که دولت داشته باشد و دیگران نداشته باشند. منظورش ترتیب‌هایی است که تعیین می‌کنند چه چیزی بهنجار و عاقل و سالم و مجرمانه به شمار می‌آید، و از راه دانش کار می‌کنند نه بر ضد آن — امتحان، پرونده، جدول زمانی. پیامدش از هر دو سو ناراحت‌کننده است: بیرونی نیست که از آن مقاومت شود، و در عین حال هیچ چیز هم نیست که ناچار باشد همان بماند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2217,6 +2366,19 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "the-test",
+            "heading": {
+              "en": "How the test works",
+              "fa": "این آزمون چگونه کار می‌کند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The Hatata applies one procedure repeatedly. Take a rule the tradition teaches, ask what it is for, and see whether the answer survives being stated plainly. Fasting that damages the body fails, because God who made the body cannot have required its ruin. Rules that rank one person above another fail, because the reasoning would work equally for the person ranked below. The method is unremarkable in form and unusual in that Zera Yacob turns it on his own tradition first.",
+              "fa": "«حَتَته» یک رویّه را بارها به کار می‌بندد. قاعده‌ای را که سنت می‌آموزد بردار، بپرس برای چیست، و ببین آیا پاسخ از بیانِ ساده جان به در می‌برد. روزه‌ای که به تن آسیب می‌زند رد می‌شود، چون خدایی که تن را ساخته نمی‌تواند ویرانی‌اش را خواسته باشد. قاعده‌هایی که کسی را بر کسی برتر می‌نشانند رد می‌شوند، چون همان استدلال برای طرف فرودست هم به یک اندازه کار می‌کند. این روش در صورت، عادی است و در این نکته غیرمعمول که زرا یعقوب نخست آن را بر سنت خودش می‌بندد."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2278,6 +2440,20 @@
               "en": "Fanon combined psychiatric practice with philosophy to describe colonialism as something that works on the inside of a person, not only on institutions. His account of how a colonised subject comes to see themselves through the coloniser's eyes is among the sharpest treatments of that structure written.",
               "fa": "فانون کار روان‌پزشکی را با فلسفه ترکیب کرد تا استعمار را چیزی توصیف کند که بر درونِ آدم کار می‌کند نه فقط بر نهادها. شرح او از اینکه سوژهٔ مستعمره چگونه به دیدنِ خود از چشم استعمارگر می‌رسد، از تیزترین بحث‌های نوشته‌شده دربارهٔ این ساختار است."
             }
+          },
+          {
+            "id": "violence-chapter",
+            "heading": {
+              "en": "The chapter on violence",
+              "fa": "فصل دربارهٔ خشونت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The opening chapter of The Wretched of the Earth is the most quoted and the most misread. Fanon is describing colonialism as a system founded and maintained by violence, and arguing that it therefore does not withdraw in response to argument. Whether he is diagnosing the situation, predicting what will happen, or endorsing what should, is argued over — and the fact that he was a psychiatrist documenting the damage that violence does to the people who use it complicates every reading that makes him its advocate.",
+              "fa": "فصل نخست «دوزخیان روی زمین» بیش از همه نقل شده و بیش از همه بد خوانده شده. فانون استعمار را نظامی وصف می‌کند که بر خشونت بنا شده و با خشونت نگه داشته می‌شود، و استدلال می‌کند که پس در برابر استدلال عقب نمی‌نشیند. اینکه او وضعیت را تشخیص می‌دهد، پیش‌بینی می‌کند چه خواهد شد، یا تأیید می‌کند چه باید بشود، محل بحث است — و اینکه او روان‌پزشکی بود که آسیبِ خشونت را بر خودِ به‌کاربرندگانش مستند می‌کرد، هر خوانشی را که او را مدافع خشونت کند پیچیده می‌کند."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
@@ -3079,6 +3255,19 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "the-school",
+            "heading": {
+              "en": "What she was teaching",
+              "fa": "چه چیزی درس می‌داد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Alexandrian Neoplatonism in her generation was less concerned with theurgy than the Athenian school and more with mathematics and astronomy as a training for philosophy — the sequence Plato had prescribed. That is the curriculum her students describe: geometry and the motion of the heavens first, metaphysics after. It also explains why Christians and pagans could study with her without the question arising.",
+              "fa": "نوافلاطونی‌گری اسکندریه در نسل او کمتر از مکتب آتن به «تئورگی» می‌پرداخت و بیشتر به ریاضیات و اخترشناسی همچون تمرینی برای فلسفه — همان توالی‌ای که افلاطون تجویز کرده بود. برنامهٔ درسی‌ای که شاگردانش وصف می‌کنند همین است: نخست هندسه و حرکت آسمان‌ها، سپس مابعدالطبیعه. همین هم توضیح می‌دهد که چرا مسیحیان و پیروان آیین‌های کهن می‌توانستند بی‌آنکه این پرسش پیش آید نزد او بیاموزند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -3321,6 +3510,19 @@
               "en": "Ibn Rushd wrote commentaries on nearly all of Aristotle so thorough that Latin Europe called him simply the Commentator. His reply to al-Ghazālī argues that scripture, properly read, requires philosophy rather than forbidding it. His influence in Christian Europe outlasted his influence in the Islamic world.",
               "fa": "ابن‌رشد بر تقریباً همهٔ ارسطو چنان شرح‌های دقیقی نوشت که اروپای لاتین او را فقط «شارح» می‌خواند. پاسخش به غزالی استدلال می‌کند که قرآن، اگر درست خوانده شود، فلسفه را واجب می‌کند نه ممنوع. نفوذش در اروپای مسیحی از نفوذش در جهان اسلام دیرپاتر بود."
             }
+          },
+          {
+            "id": "double-truth",
+            "heading": {
+              "en": "The double truth he did not hold",
+              "fa": "حقیقت دوگانه‌ای که به آن باور نداشت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Latin readers attributed to Ibn Rushd the doctrine that something can be true in philosophy and false in religion. He held nothing of the kind. His position is that there is one truth reached by two routes suited to different audiences — demonstration for those trained in it, and the images of scripture for everyone — and that where the plain sense of a text conflicts with a demonstration, the text is to be read figuratively.",
+              "fa": "خوانندگان لاتین به ابن‌رشد این آموزه را نسبت دادند که چیزی می‌تواند در فلسفه درست و در دین نادرست باشد. او هیچ چنین چیزی نمی‌گفت. موضعش این است که یک حقیقت هست که از دو راهِ متناسب با مخاطبان مختلف در می‌آید — برهان برای آنان که در آن آموزش دیده‌اند، و تصویرهای متن مقدس برای همه — و هرجا ظاهر متن با برهان ناسازگار افتد، متن را باید مجازی خواند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -3415,6 +3617,20 @@
               "en": "Ibn Khaldūn's Muqaddima proposes that history has causes that can be studied, and identifies group solidarity as the force that builds dynasties and city comfort as what dissolves it over roughly three generations. Historians describe him as founding the study of society rather than merely writing history.",
               "fa": "«مقدمهٔ» ابن‌خلدون پیشنهاد می‌کند که تاریخ علت‌هایی دارد که می‌توان مطالعه‌شان کرد، و «عصبیت» را نیرویی می‌شناسد که دولت‌ها را می‌سازد و آسایش شهری را آنچه در حدود سه نسل آن را می‌گدازد. مورخان او را بنیان‌گذار مطالعهٔ جامعه می‌دانند، نه صرفاً تاریخ‌نگار."
             }
+          },
+          {
+            "id": "is-it-a-science",
+            "heading": {
+              "en": "What kind of claim the cycle is",
+              "fa": "این چرخه چه نوع ادعایی است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Ibn Khaldūn presents the rise and decay of dynasties as a regularity with causes, which is what makes the Muqaddima look like social science four centuries early. How strong the claim is meant to be is less clear: three generations is a pattern he draws from the cases he knows, not a law he derives, and he allows exceptions. Reading it as prediction overstates it; reading it as description understates what he thought he was doing.",
+              "fa": "ابن‌خلدون برآمدن و فروپاشی سلسله‌ها را نظمی با علت عرضه می‌کند، و همین است که «مقدمه» را چهار قرن زودتر شبیه علم اجتماعی می‌کند. اینکه این ادعا قرار است چقدر قوی باشد کمتر روشن است: «سه نسل» الگویی است که از موارد شناخته‌اش برمی‌کشد، نه قانونی که استنتاج کند، و استثنا می‌پذیرد. خواندنش همچون پیش‌بینی، آن را بزرگ‌تر از خودش می‌کند؛ خواندنش همچون توصیف، از آنچه خودش گمان می‌کرد می‌کند کوچک‌تر."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "interpretation"
           }
         ]
       },
@@ -3527,6 +3743,20 @@
               "en": "Rūmī is read as a poet, but the Masnavī is argument as much as lyric: it holds that the intellect reaches a limit, that what lies past it is reached by love, and that the separation a person feels is evidence of where they came from. The reasoning is carried by story and image rather than by demonstration, which is a claim about method, not an absence of one.",
               "fa": "مولوی را شاعر می‌خوانند، اما مثنوی همان‌قدر که غزل است استدلال هم هست: می‌گوید عقل به مرزی می‌رسد، آنچه آن سوی مرز است با عشق در می‌آید، و جدایی‌ای که آدمی حس می‌کند نشانهٔ آن است که از کجا آمده. استدلال را قصه و تصویر می‌برد نه برهان، و این ادعایی است دربارهٔ روش، نه نبودِ روش."
             }
+          },
+          {
+            "id": "why-verse",
+            "heading": {
+              "en": "Why the argument is in verse",
+              "fa": "چرا استدلال در شعر است"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Rūmī holds that the intellect is not wrong but bounded, and that what lies past its boundary is reached by longing rather than by proof. That is a claim about method, and it dictates the form: a demonstration would be the wrong instrument for its own subject, so the Masnavī works by story, by image, and by putting the reader in the position it is describing. Whether this counts as philosophy or as its refusal is exactly the question the text raises.",
+              "fa": "مولوی معتقد است عقل نادرست نیست بلکه مرزدار است، و آنچه آن‌سوی مرزش هست با اشتیاق در می‌آید نه با برهان. این ادعایی است دربارهٔ روش، و همین صورت را تعیین می‌کند: برهان برای موضوعِ خودش ابزار نادرستی می‌بود، پس مثنوی با قصه و تصویر کار می‌کند و خواننده را در همان موقعیتی می‌نشاند که وصف می‌کند. اینکه این فلسفه است یا سرباززدن از فلسفه، دقیقاً همان پرسشی است که خودِ متن پیش می‌کشد."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "interpretation"
           }
         ]
       },
@@ -3977,6 +4207,17 @@
               "en": "Locke argued that there are no innate ideas: everything in the mind arrives through experience. In politics he argued that legitimate authority comes from the consent of the governed and that a government violating its trust may be replaced. He also invested in the slave trade and drafted a constitution protecting slavery, which recent scholarship treats as a problem in his theory rather than a fact beside it.",
               "fa": "لاک استدلال کرد که ایدهٔ فطری وجود ندارد: هرچه در ذهن است از راه تجربه می‌آید. در سیاست استدلال کرد که اقتدار مشروع از رضایت حکومت‌شوندگان می‌آید و حکومتی که امانت را بشکند می‌توان جایگزینش کرد. او در تجارت برده هم سرمایه‌گذاری کرد و قانون اساسی‌ای نوشت که بردگی را پاس می‌داشت، و پژوهش‌های اخیر این را مسئله‌ای در نظریهٔ او می‌دانند، نه واقعیتی در کنار آن."
             }
+          },
+          {
+            "id": "slavery-problem",
+            "heading": { "en": "The slavery problem", "fa": "مسئلهٔ بردگی" },
+            "depth": "standard",
+            "body": {
+              "en": "Locke wrote that slavery is so vile a state that it can hardly be imagined an Englishman would plead for it, invested in the Royal African Company, and helped draft a constitution granting masters absolute power over their slaves. Older scholarship treated this as biography beside the theory. Recent work treats it as a question about the theory: what the argument for property in one's person and its labour was doing while its author held shares in the trade.",
+              "fa": "لاک نوشت بردگی چنان حالت پستی است که به‌سختی می‌توان تصور کرد انگلیسی‌ای از آن دفاع کند، در «شرکت سلطنتی آفریقا» سرمایه‌گذاری کرد، و به نوشتن قانون اساسی‌ای کمک کرد که به اربابان قدرت مطلق بر بردگانشان می‌داد. پژوهش قدیمی‌تر این را زندگی‌نامه‌ای در کنار نظریه می‌گرفت. کار اخیر آن را پرسشی دربارهٔ خودِ نظریه می‌داند: اینکه استدلال دربارهٔ مالکیت بر شخص خود و کارِ خود، در حالی که نویسنده‌اش در آن تجارت سهم داشت، چه می‌کرده است."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
@@ -4063,6 +4304,19 @@
               "en": "Hume's problem of induction is that every argument for relying on past regularities already assumes the reliability it is trying to establish. He gave the same treatment to causation, to the self, and to miracles, and observed that an ought never follows from an is alone. Kant said Hume woke him from dogmatic slumber.",
               "fa": "مسئلهٔ استقرای هیوم این است که هر استدلالی برای تکیه بر نظم‌های گذشته، همان اعتمادی را از پیش فرض می‌گیرد که می‌خواهد اثبات کند. همین کار را با علیت، با «خود»، و با معجزه کرد، و دید که «باید» هرگز به‌تنهایی از «هست» بیرون نمی‌آید. کانت گفت هیوم او را از خواب جزمی بیدار کرد."
             }
+          },
+          {
+            "id": "what-follows",
+            "heading": {
+              "en": "What he does not conclude",
+              "fa": "آنچه نتیجه نمی‌گیرد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Hume is often read as saying we should stop relying on induction, and he says the opposite: the habit is unavoidable and he expects to keep it, having shown that no argument supports it. The distinction matters because it is what separates his scepticism from a recommendation. His point is about the limits of justification, not about how to live, and he was quite clear that philosophy stops at the door of the backgammon table.",
+              "fa": "هیوم را اغلب چنین می‌خوانند که می‌گوید باید تکیه بر استقرا را رها کنیم، و او عکس این را می‌گوید: این عادت گریزناپذیر است و او انتظار دارد نگهش دارد، پس از آنکه نشان داده هیچ استدلالی پشتیبانی‌اش نمی‌کند. این تمایز مهم است چون همان است که شکاکیت او را از یک توصیه جدا می‌کند. نکتهٔ او دربارهٔ مرزهای توجیه است نه دربارهٔ چگونه زیستن، و کاملاً روشن بود که فلسفه پشت درِ میز تخته‌نرد می‌ایستد."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -4153,6 +4407,20 @@
               "en": "Hegel argues that a concept pushed hard enough generates its own opposite and that the resolution preserves both — and that the history of thought, and of freedom, has this shape. Almost every later European tradition defines itself by its relation to him, including those that reject him entirely.",
               "fa": "هگل استدلال می‌کند که هر مفهوم اگر به‌قدر کافی رانده شود ضد خودش را می‌زاید و راه‌حل هر دو را نگه می‌دارد — و تاریخ اندیشه و تاریخ آزادی همین شکل را دارد. تقریباً هر سنت اروپایی بعدی خود را با نسبتش به او تعریف می‌کند، از جمله آن‌ها که یکسره ردش می‌کنند."
             }
+          },
+          {
+            "id": "dialectic-shape",
+            "heading": {
+              "en": "What the dialectic actually claims",
+              "fa": "دیالکتیک واقعاً چه ادعایی می‌کند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The textbook formula — thesis, antithesis, synthesis — is not Hegel's and misdescribes him. His claim is that a concept taken seriously enough generates the very thing it excluded, and that the next concept is the one which can hold both. He applies this to categories and to history, and the second application is where the trouble is: reading events as stages in an argument makes what happened look like what had to happen.",
+              "fa": "فرمول کتاب درسی — تز، آنتی‌تز، سنتز — از هگل نیست و او را بد وصف می‌کند. ادعای او این است که هر مفهوم اگر به‌قدر کافی جدی گرفته شود، همان چیزی را می‌زاید که کنار گذاشته بود، و مفهوم بعدی آن است که بتواند هر دو را نگه دارد. این را بر مقولات و بر تاریخ به کار می‌بندد، و دشواری در کاربرد دوم است: خواندن رویدادها همچون مراحل یک استدلال، آنچه رخ داده را چنان می‌نمایاند که گویی ناگزیر بوده."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "interpretation"
           }
         ]
       },
@@ -4236,6 +4504,16 @@
               "en": "Marx turned Hegel's account of history towards material conditions: the way production is organised determines the classes it creates and the ideas that seem obvious within it. His analysis of exploitation and alienation is philosophy, whatever one concludes about the politics built on it.",
               "fa": "مارکس شرح هگلی تاریخ را به سمت شرایط مادی چرخاند: شیوهٔ سازمان‌یافتن تولید، طبقاتی را که می‌سازد و ایده‌هایی را که در آن بدیهی می‌نمایند تعیین می‌کند. تحلیل او از استثمار و از بیگانگی فلسفه است، هر نتیجه‌ای که دربارهٔ سیاستِ بناشده بر آن بگیریم."
             }
+          },
+          {
+            "id": "what-is-alienation",
+            "heading": { "en": "Alienation", "fa": "بیگانگی" },
+            "depth": "standard",
+            "body": {
+              "en": "The early manuscripts describe four separations: from the product, which belongs to someone else; from the activity, which is directed by someone else; from what Marx calls species-being, the capacity to shape the world deliberately; and from other people, who become competitors. The claim is philosophical rather than economic — it is about what work is for — and it survives independently of the labour theory of value that later carried it.",
+              "fa": "دست‌نوشته‌های نخستین چهار جدایی را وصف می‌کنند: از فرآورده، که از آنِ کسی دیگر است؛ از خودِ فعالیت، که کسی دیگر هدایتش می‌کند؛ از آنچه مارکس «هستیِ نوعی» می‌نامد، یعنی توانِ عامدانه شکل‌دادن به جهان؛ و از دیگر آدمیان، که رقیب می‌شوند. این ادعا بیش از آنکه اقتصادی باشد فلسفی است — دربارهٔ اینکه کار برای چیست — و مستقل از نظریهٔ ارزشِ کار که بعدها حملش کرد سرپا می‌ماند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -4265,6 +4543,19 @@
               "en": "Mill defended utilitarianism while insisting that pleasures differ in kind and not only in quantity. On Liberty argues that the only ground for coercing an adult is preventing harm to someone else, including against the pressure of majority opinion. With Harriet Taylor Mill he argued for the legal and political equality of women.",
               "fa": "میل از سودگرایی دفاع کرد و در عین حال اصرار داشت که لذت‌ها نه فقط در کمیت که در نوع فرق دارند. «دربارهٔ آزادی» استدلال می‌کند که تنها مبنای اجبارِ یک بزرگسال، جلوگیری از آسیب به دیگری است، از جمله در برابر فشار عقیدهٔ اکثریت. همراه هریت تیلور میل برای برابری حقوقی و سیاسی زنان استدلال کرد."
             }
+          },
+          {
+            "id": "harm-principle-limits",
+            "heading": {
+              "en": "Where the harm principle bites",
+              "fa": "اصل ضرر کجا گاز می‌گیرد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "The principle is easy to state and hard to apply, because almost everything affects someone. Mill's answer is a distinction between harming an interest a person has a right to and merely displeasing them — offence, disgust and disapproval do not count, however widely shared. That is the demanding part: the principle is designed to protect exactly the conduct that a majority finds intolerable, and it is worth nothing if it only protects what nobody minds.",
+              "fa": "بیان اصل آسان است و کاربستش دشوار، چون تقریباً هر چیزی بر کسی اثر می‌گذارد. پاسخ میل تمایزی است میان آسیب‌زدن به منفعتی که شخص بر آن حق دارد و صرفاً ناخوشایندبودن برای او — رنجش و انزجار و ناخرسندی به شمار نمی‌آیند، هرچقدر هم فراگیر باشند. سخت‌ترین بخش همین است: این اصل برای پاسداری از دقیقاً همان رفتاری طراحی شده که اکثریت تحملش نمی‌کند، و اگر تنها از آنچه کسی را آزار نمی‌دهد پاسداری کند به هیچ نمی‌ارزد."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -4349,6 +4640,20 @@
               "en": "Arendt distinguished labour, work and action, and argued that action — appearing among others and starting something — is the political capacity totalitarianism destroys. Her report on Eichmann's trial proposed that great evil can be done by someone who is not a monster but has stopped thinking, a claim that has been contested ever since on both historical and philosophical grounds.",
               "fa": "آرنت میان زحمت، کار و کنش تمایز گذاشت و استدلال کرد که کنش — پدیدارشدن میان دیگران و آغازکردن چیزی — همان توانِ سیاسی است که تمامیت‌خواهی نابودش می‌کند. گزارشش از محاکمهٔ آیشمن پیشنهاد کرد که شرِ بزرگ را می‌تواند کسی انجام دهد که هیولا نیست بلکه از اندیشیدن بازایستاده، و این ادعا از همان زمان بر پایه‌های تاریخی و فلسفی محل مناقشه بوده است."
             }
+          },
+          {
+            "id": "eichmann-dispute",
+            "heading": {
+              "en": "What the banality thesis claims",
+              "fa": "تز ابتذال چه ادعایی می‌کند"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Arendt's claim was not that Eichmann's crimes were small or that anyone would have done the same. It was that the man in the dock did not fit the picture of a monster: what she saw was an inability to think from anyone else's position, sustained by cliché. Historians working from later evidence have argued that Eichmann was a committed antisemite who performed banality at his trial. That may defeat the portrait without defeating the philosophical claim, and the two are often argued as though they were one.",
+              "fa": "ادعای آرنت این نبود که جنایت‌های آیشمن کوچک بود یا هرکسی همان می‌کرد. این بود که مردی که در جایگاه متهم نشسته بود با تصویر هیولا نمی‌خواند: آنچه او دید ناتوانی از اندیشیدن از جایگاه دیگری بود که کلیشه سرپا نگهش می‌داشت. مورخانی که با شواهد بعدی کار کرده‌اند استدلال کرده‌اند که آیشمن یهودی‌ستیزی متعهد بود که در دادگاه ابتذال را اجرا می‌کرد. این شاید آن تصویر را باطل کند بی‌آنکه ادعای فلسفی را باطل کند، و اغلب چنان بر سر این دو بحث می‌شود که گویی یکی‌اند."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
           }
         ]
       },
@@ -4729,6 +5034,19 @@
               "en": "Rawls asks which principles of justice people would agree to behind a veil of ignorance about their own class, talents and beliefs. He argues they would secure equal basic liberties first, and permit inequalities only where these improve the position of the worst off.",
               "fa": "رالز می‌پرسد مردم پشت پرده‌ای از بی‌خبری نسبت به طبقه و استعداد و باور خودشان، بر کدام اصول عدالت توافق می‌کنند. استدلال می‌کند که نخست آزادی‌های پایهٔ برابر را تضمین می‌کنند، و نابرابری را تنها آنجا می‌پذیرند که وضع بدترین‌ها را بهتر کند."
             }
+          },
+          {
+            "id": "why-not-utility",
+            "heading": {
+              "en": "Why not just maximise welfare",
+              "fa": "چرا صرفاً بیشینه‌کردن رفاه نه"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Rawls's target is utilitarianism, and his objection is that it treats a society as though it were one person deciding to accept a cost now for a benefit later. It is not: the person who bears the cost and the person who takes the benefit are different people, and a sum over a population hides that. This is what he means by saying utilitarianism does not take seriously the distinction between persons.",
+              "fa": "هدف رالز سودگرایی است، و اعتراضش این است که سودگرایی با جامعه چنان رفتار می‌کند که گویی یک شخص است که می‌پذیرد اکنون هزینه‌ای بدهد تا بعد سودی ببرد. چنین نیست: آنکه هزینه را می‌دهد و آنکه سود را می‌برد دو نفرند، و جمع‌زدن بر یک جمعیت این را پنهان می‌کند. مقصودش از اینکه می‌گوید سودگرایی تمایز میان اشخاص را جدی نمی‌گیرد همین است."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -5137,6 +5455,19 @@
               "en": "Gandhi's satyagraha rests on an argument, not only a tactic: a regime governs by cooperation it cannot compel, so withdrawing cooperation while accepting the penalty exposes the coercion and refuses to reproduce it. His views on caste changed over his life and were challenged in his lifetime, most forcefully by Ambedkar.",
               "fa": "«ساتیاگرَهه»ی گاندی بر استدلالی استوار است، نه فقط تاکتیکی: هر نظامی با همکاری‌ای حکومت می‌کند که نمی‌تواند به زور بگیرد، پس پس‌گرفتن همکاری همراه با پذیرفتن مجازات، اجبار را آشکار می‌کند و از بازتولیدش سر باز می‌زند. دیدگاهش دربارهٔ کاست در طول عمرش تغییر کرد و در زمان خودش به چالش کشیده شد؛ سخت‌تر از همه به دست آمبدکار."
             }
+          },
+          {
+            "id": "what-satyagraha-costs",
+            "heading": {
+              "en": "What the method requires",
+              "fa": "این روش چه می‌طلبد"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Satyagraha is not passive and it is not safe. It requires accepting the penalty for breaking a law rather than evading it, which is what distinguishes it from ordinary resistance and what makes the coercion visible. It also requires numbers and publicity, and Gandhi was explicit that it works against an opponent who can be shamed. Whether that limits it to particular adversaries is the standard objection, and he did not have a good answer to it.",
+              "fa": "ساتیاگرهه نه منفعل است و نه بی‌خطر. می‌طلبد که مجازاتِ شکستن قانون را بپذیری نه اینکه از آن بگریزی، و همین آن را از مقاومت معمولی جدا می‌کند و اجبار را آشکار می‌سازد. شمار و آشکارگی هم می‌طلبد، و گاندی صریح بود که این روش در برابر حریفی کار می‌کند که بتوان شرمنده‌اش کرد. اینکه آیا این، روش را به حریفان خاصی محدود می‌کند، اعتراض همیشگی است، و او پاسخ خوبی برایش نداشت."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -5169,6 +5500,16 @@
               "en": "Ambedkar argued that caste cannot be reformed away because it is enforced by graded inequality in which almost everyone has someone below them, and that a religion licensing it must be left rather than repaired. He drafted India's constitution and, near the end of his life, converted to Buddhism with hundreds of thousands of others.",
               "fa": "آمبدکار استدلال کرد که کاست را نمی‌توان با اصلاح برچید، چون با نابرابریِ پلکانی نگه داشته می‌شود که در آن تقریباً هرکس کسی را زیر خود دارد، و دینی که مجازش می‌داند را باید ترک کرد نه ترمیم. قانون اساسی هند را نوشت و نزدیک پایان عمرش همراه صدها هزار تن به آیین بودا گروید."
             }
+          },
+          {
+            "id": "why-he-left",
+            "heading": { "en": "Why he converted", "fa": "چرا گروید" },
+            "depth": "standard",
+            "body": {
+              "en": "Ambedkar announced twenty years before he did it that he would not die a Hindu, and spent those years testing whether the religion could be reformed from inside. His conclusion was that the ranking is not an abuse of the texts but a teaching of them, so leaving is the only consistent option — and he chose Buddhism specifically because it was born in India and denies caste at its root. Half a million people converted with him.",
+              "fa": "آمبدکار بیست سال پیش از آنکه چنین کند اعلام کرد که هندو نخواهد مرد، و آن سال‌ها را صرف آزمودن این کرد که آیا آن دین از درون اصلاح‌پذیر است. نتیجه‌اش این بود که آن رتبه‌بندی سوءاستفاده از متون نیست بلکه آموزهٔ آن‌هاست، پس ترک‌کردن تنها گزینهٔ سازگار است — و بودیسم را از آن رو برگزید که در هند زاده شده و کاست را از ریشه انکار می‌کند. نیم میلیون نفر همراه او گرویدند."
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -5384,8 +5725,9 @@
           }
         ]
       },
-      "citations": [{ "source": "sep" }],
-      "nativeName": "Oyèrónkẹ́ Oyěwùmí"
+      "nativeName": "Oyèrónkẹ́ Oyěwùmí",
+      "concepts": ["intersecting-oppression"],
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "wynter",
@@ -5562,6 +5904,834 @@
       "nativeName": "牟宗三",
       "transliteration": "Móu Zōngsān",
       "schools": ["neo-confucianism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ibn-al-haytham",
+      "name": { "en": "Ibn al-Haytham", "fa": "ابن هیثم" },
+      "oneLine": {
+        "en": "Insisted that a claim about nature must be tested, and tested his own.",
+        "fa": "اصرار داشت که ادعا دربارهٔ طبیعت را باید آزمود، و ادعای خودش را آزمود."
+      },
+      "life": {
+        "birth": { "year": 965, "precision": "circa" },
+        "death": { "year": 1040, "precision": "circa" }
+      },
+      "traditions": ["islamic"],
+      "branches": [
+        "philosophy-of-science",
+        "epistemology",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ibn al-Haytham showed that vision works by light entering the eye rather than by rays leaving it, and did it with built apparatus and repeatable procedure. His statement of method — that the seeker after truth should suspect their own conclusions hardest — is a philosophical position about how enquiry corrects itself, not a laboratory note.",
+              "fa": "ابن هیثم نشان داد که دیدن با ورود نور به چشم رخ می‌دهد نه با بیرون‌رفتن پرتو از آن، و این را با دستگاه ساخته‌شده و رویّهٔ تکرارپذیر نشان داد. بیان او از روش — که جویندهٔ حقیقت باید به نتیجه‌های خودش از همه بیشتر بدگمان باشد — موضعی فلسفی است دربارهٔ اینکه کاوش چگونه خود را تصحیح می‌کند، نه یادداشتی آزمایشگاهی."
+            }
+          }
+        ]
+      },
+      "nativeName": "أبو علي الحسن بن الهيثم",
+      "transliteration": "Ibn al-Haytham",
+      "concepts": ["scientific-method-doubt"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "canguilhem",
+      "name": { "en": "Georges Canguilhem", "fa": "ژرژ کانگیلم" },
+      "oneLine": {
+        "en": "Asked what makes a state of a body a disease rather than a difference.",
+        "fa": "پرسید چه چیزی حالتی از بدن را بیماری می‌کند نه تفاوت."
+      },
+      "life": {
+        "birth": { "year": 1904, "precision": "circa" },
+        "death": { "year": 1995, "precision": "circa" }
+      },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "philosophy-of-medicine",
+        "philosophy-of-biology",
+        "philosophy-of-science",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Canguilhem argued that the normal is not a statistical average: an organism sets its own norms by what it can do, and disease is a narrowing of the range of lives available to it rather than a deviation from a table. He trained as a physician and taught Foucault, whose account of how categories are made begins here.",
+              "fa": "کانگیلم استدلال کرد که «بهنجار» میانگین آماری نیست: هر ارگانیسم هنجارهای خودش را با آنچه می‌تواند بکند می‌نهد، و بیماری تنگ‌شدن گسترهٔ زندگی‌های در دسترس اوست، نه انحراف از یک جدول. پزشکی خواند و معلم فوکو بود، و شرح فوکو از اینکه مقوله‌ها چگونه ساخته می‌شوند از همین‌جا آغاز می‌شود."
+            }
+          }
+        ]
+      },
+      "concepts": ["normal-and-pathological"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "haraway",
+      "name": { "en": "Donna Haraway", "fa": "دانا هاراوی" },
+      "oneLine": {
+        "en": "Argues that the line between organism and machine was never where we drew it.",
+        "fa": "استدلال می‌کند مرز میان ارگانیسم و ماشین هرگز آنجا نبود که ما کشیدیم."
+      },
+      "life": { "birth": { "year": 1944 } },
+      "traditions": ["american", "contemporary"],
+      "branches": [
+        "philosophy-of-biology",
+        "philosophy-of-technology",
+        "feminist-philosophy",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Haraway's cyborg is an argument, not an image: the boundaries between human and animal, organism and machine, physical and non-physical have been leaking for a century, and a politics built on their purity is built on nothing. Her idea of situated knowledge holds that a view from nowhere is not objectivity but the refusal to say where one is standing.",
+              "fa": "«سایبورگ» هاراوی استدلال است نه تصویر: مرزهای میان انسان و حیوان، ارگانیسم و ماشین، فیزیکی و غیرفیزیکی یک قرن است نشت می‌کنند، و سیاستی که بر خلوص آن‌ها بنا شود بر هیچ بنا شده است. ایدهٔ «دانش موقعیت‌مند» او می‌گوید نگاه از ناکجا عینیت نیست، بلکه سرباززدن از گفتنِ اینکه کجا ایستاده‌ای."
+            }
+          }
+        ]
+      },
+      "concepts": ["situated-knowledge"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "longino",
+      "name": { "en": "Helen Longino", "fa": "هلن لانجینو" },
+      "oneLine": {
+        "en": "Argues that objectivity is a property of communities, not of individuals.",
+        "fa": "استدلال می‌کند عینیت ویژگی جماعت‌هاست، نه افراد."
+      },
+      "life": { "birth": { "year": 1944 } },
+      "traditions": ["american", "analytic", "contemporary"],
+      "branches": [
+        "philosophy-of-science",
+        "epistemology",
+        "feminist-philosophy",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Longino argues that evidence never determines a theory on its own — background assumptions always fill the gap — so objectivity cannot come from a lone investigator being unbiased. It comes from a community structured to expose assumptions to criticism from people who do not share them, which makes who is in the room an epistemological question.",
+              "fa": "لانجینو استدلال می‌کند که شواهد هرگز به‌تنهایی نظریه‌ای را تعیین نمی‌کنند — فرض‌های پس‌زمینه همیشه شکاف را پر می‌کنند — پس عینیت نمی‌تواند از بی‌طرفیِ پژوهشگری تنها بیاید. از جماعتی می‌آید که چنان ساختار یافته که فرض‌ها را در معرض نقد کسانی بگذارد که در آن‌ها شریک نیستند؛ و همین، «چه کسی در اتاق است» را به پرسشی معرفت‌شناختی بدل می‌کند."
+            }
+          }
+        ]
+      },
+      "concepts": ["situated-knowledge"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "freud",
+      "name": { "en": "Sigmund Freud", "fa": "زیگموند فروید" },
+      "oneLine": {
+        "en": "Proposed that most of what moves us is not available to us.",
+        "fa": "پیشنهاد کرد بیشتر آنچه ما را می‌راند در دسترس ما نیست."
+      },
+      "life": { "birth": { "year": 1856 }, "death": { "year": 1939 } },
+      "traditions": ["european", "jewish"],
+      "branches": [
+        "philosophy-of-psychology",
+        "philosophy-of-mind",
+        "social-philosophy",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Freud's philosophical claim is that a person's reasons are often not the causes of what they do, and that the self is not transparent to itself. Whether psychoanalysis is a science, an interpretive practice, or neither is a standing dispute; the claim about self-knowledge has outlived the arguments about the method.",
+              "fa": "ادعای فلسفی فروید این است که دلایل یک شخص اغلب علت کارهایش نیستند، و «خود» برای خودش شفاف نیست. اینکه روان‌کاوی علم است یا رویّه‌ای تفسیری یا هیچ‌کدام، مناقشه‌ای پابرجاست؛ اما ادعا دربارهٔ خودشناسی از بحث‌های مربوط به روش عمر بیشتری کرده است."
+            }
+          },
+          {
+            "id": "is-it-science",
+            "heading": {
+              "en": "Whether it is a science",
+              "fa": "اینکه آیا علم است"
+            },
+            "depth": "deep",
+            "body": {
+              "en": "Popper used psychoanalysis as his standard example of a theory that forbids nothing: any behaviour can be accommodated, so no observation counts against it. Defenders answer that the same is true of much of history and clinical medicine, and that explanatory practices are not all failed physics. Neither side has convinced the other.",
+              "fa": "پوپر روان‌کاوی را نمونهٔ معیارِ نظریه‌ای گرفت که هیچ‌چیز را منع نمی‌کند: هر رفتاری را می‌توان در آن جا داد، پس هیچ مشاهده‌ای بر ضدش به شمار نمی‌آید. مدافعان پاسخ می‌دهند که همین دربارهٔ بخش بزرگی از تاریخ و طب بالینی هم صادق است، و هر رویّهٔ تبیینی، فیزیکِ شکست‌خورده نیست. هیچ‌یک از دو طرف دیگری را قانع نکرده است."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "what-survives",
+            "heading": {
+              "en": "What has survived the criticism",
+              "fa": "چه چیزی از نقد جان به در برده"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Very little of Freud's specific apparatus is used in psychology today, and the clinical claims have not fared well. What has survived is the framing: that a person's stated reasons may not be the causes of their behaviour, that childhood shapes adult character, and that talking about it can change it. These are now background assumptions rather than a school, which is a stronger form of influence than a school.",
+              "fa": "امروز بسیار اندکی از دستگاه خاص فروید در روان‌شناسی به کار می‌رود، و ادعاهای بالینی سرنوشت خوبی نداشته‌اند. آنچه مانده قاب کلی است: اینکه دلایلی که شخص می‌آورد ممکن است علت رفتارش نباشند، اینکه کودکی منش بزرگسالی را شکل می‌دهد، و اینکه حرف‌زدن دربارهٔ آن می‌تواند تغییرش دهد. این‌ها امروز فرض‌های پس‌زمینه‌اند نه یک مکتب، و این شکلی قوی‌تر از نفوذ است تا مکتب."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["the-unconscious"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "jaspers",
+      "name": { "en": "Karl Jaspers", "fa": "کارل یاسپرس" },
+      "oneLine": {
+        "en": "A psychiatrist who asked what psychiatry can and cannot understand.",
+        "fa": "روان‌پزشکی که پرسید روان‌پزشکی چه چیزی را می‌تواند بفهمد و چه چیزی را نه."
+      },
+      "life": { "birth": { "year": 1883 }, "death": { "year": 1969 } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "philosophy-of-psychology",
+        "existential-philosophy",
+        "philosophy-of-mind",
+        "philosophy-of-medicine"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Jaspers distinguished explaining a mental state by its causes from understanding it by its meaning, and argued that psychiatry needs both and keeps confusing them. In philosophy proper he described limit situations — death, guilt, chance — as the points where a person meets what no system covers.",
+              "fa": "یاسپرس میان تبیینِ یک حالت ذهنی با علت‌هایش و فهمِ آن با معنایش تمایز گذاشت و استدلال کرد که روان‌پزشکی به هر دو نیاز دارد و پیوسته آن‌ها را با هم اشتباه می‌گیرد. در خودِ فلسفه، «موقعیت‌های مرزی» را وصف کرد — مرگ، گناه، تصادف — یعنی نقطه‌هایی که آدمی با آنچه هیچ نظامی پوشش نمی‌دهد روبه‌رو می‌شود."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ryle",
+      "name": { "en": "Gilbert Ryle", "fa": "گیلبرت رایل" },
+      "oneLine": {
+        "en": "Argued that the mind is not a second thing inside the body.",
+        "fa": "استدلال کرد ذهن، چیز دومی درون بدن نیست."
+      },
+      "life": { "birth": { "year": 1900 }, "death": { "year": 1976 } },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "philosophy-of-mind",
+        "philosophy-of-psychology",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ryle called Descartes's dualism the ghost in the machine and argued that it rests on a category mistake — treating mental terms as naming inner events when they describe dispositions to behave. His distinction between knowing that and knowing how has outlasted the behaviourism he was accused of.",
+              "fa": "رایل دوگانه‌انگاری دکارت را «شبح در ماشین» نامید و استدلال کرد که بر خطای مقوله‌ای استوار است: واژه‌های ذهنی را نامِ رویدادهایی درونی گرفتن، حال آنکه آن‌ها آمادگی‌های رفتاری را وصف می‌کنند. تمایز او میان «دانستنِ اینکه» و «دانستنِ چگونه» از رفتارگراییِ منسوب به او دیرپاتر بوده است."
+            }
+          }
+        ]
+      },
+      "concepts": ["category-mistake"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ellul",
+      "name": { "en": "Jacques Ellul", "fa": "ژاک الول" },
+      "oneLine": {
+        "en": "Argued that technique becomes a system that chooses for us.",
+        "fa": "استدلال کرد «فن» به نظامی بدل می‌شود که به‌جای ما انتخاب می‌کند."
+      },
+      "life": { "birth": { "year": 1912 }, "death": { "year": 1994 } },
+      "traditions": ["european", "continental", "christian"],
+      "branches": [
+        "philosophy-of-technology",
+        "social-philosophy",
+        "political-philosophy",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ellul's subject is not machines but technique: the pursuit of the most efficient method in every field. His claim is that once efficiency is the criterion, it selects the options and no one has to decide — so the question of whether we should do a thing gets replaced by whether it can be done more efficiently.",
+              "fa": "موضوع الول ماشین نیست، «فن» است: جست‌وجوی کارآمدترین روش در هر زمینه. ادعای او این است که وقتی کارآمدی معیار شد، خودش گزینه‌ها را برمی‌گزیند و کسی لازم نیست تصمیم بگیرد — پس پرسش از اینکه آیا باید کاری را بکنیم، جای خود را به این می‌دهد که آیا می‌توان کارآمدتر انجامش داد."
+            }
+          }
+        ]
+      },
+      "concepts": ["technique"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "simondon",
+      "name": { "en": "Gilbert Simondon", "fa": "ژیلبر سیموندون" },
+      "oneLine": {
+        "en": "Argued that technical objects have their own way of becoming, and we misread it.",
+        "fa": "استدلال کرد اشیای فنی شیوهٔ شدنِ خودشان را دارند، و ما بد می‌خوانیمش."
+      },
+      "life": { "birth": { "year": 1924 }, "death": { "year": 1989 } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "philosophy-of-technology",
+        "metaphysics",
+        "philosophy-of-science"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Simondon argued that culture treats machines either as mere tools or as threats, and that both readings come from not knowing how they work. His account of individuation — that a thing is a process of becoming rather than a finished substance — applies to organisms, crystals and technical objects alike.",
+              "fa": "سیموندون استدلال کرد که فرهنگ با ماشین‌ها یا چون ابزار صرف رفتار می‌کند یا چون تهدید، و هر دو خوانش از ندانستنِ کارکردشان می‌آید. شرح او از «فردیت‌یابی» — اینکه هر چیز فرآیندِ شدن است نه جوهری تمام‌شده — به یک اندازه بر ارگانیسم و بلور و شیء فنی صدق می‌کند."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "adam-smith",
+      "name": { "en": "Adam Smith", "fa": "آدام اسمیت" },
+      "oneLine": {
+        "en": "Wrote the book on markets and, first, the book on why we care what others think.",
+        "fa": "کتابِ بازار را نوشت و پیش از آن، کتابِ اینکه چرا نظر دیگران برایمان مهم است."
+      },
+      "life": { "birth": { "year": 1723 }, "death": { "year": 1790 } },
+      "traditions": ["european"],
+      "branches": [
+        "philosophy-of-economics",
+        "ethics",
+        "political-philosophy",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Smith is read as the theorist of self-interest, which is half of him. The Theory of Moral Sentiments argues that morality rests on sympathy and on an impartial spectator we construct inside ourselves; the Wealth of Nations argues that a market can coordinate without anyone intending the result. How the two books fit together is a two-century argument.",
+              "fa": "اسمیت را نظریه‌پرداز نفع شخصی می‌خوانند، و این نیمی از اوست. «نظریهٔ عواطف اخلاقی» استدلال می‌کند که اخلاق بر همدلی و بر «تماشاگر بی‌طرفی» استوار است که در درون خود می‌سازیم؛ «ثروت ملل» استدلال می‌کند که بازار می‌تواند بی‌آنکه کسی نتیجه را قصد کند هماهنگ کند. اینکه این دو کتاب چگونه با هم جفت می‌شوند، بحثی دوقرنه است."
+            }
+          },
+          {
+            "id": "das-adam-smith-problem",
+            "heading": { "en": "The two books", "fa": "دو کتاب" },
+            "depth": "standard",
+            "body": {
+              "en": "Nineteenth-century German scholars named a puzzle: the Theory of Moral Sentiments grounds morality in sympathy, and the Wealth of Nations explains an economy by self-interest. Most readers now think the puzzle dissolves — Smith revised the first book after publishing the second and did not change its argument — and that the market description was never meant as a psychology. The invisible hand appears three times in his entire output.",
+              "fa": "پژوهشگران آلمانی قرن نوزدهم معمایی نام نهادند: «نظریهٔ عواطف اخلاقی» اخلاق را بر همدلی بنا می‌کند و «ثروت ملل» اقتصاد را با نفع شخصی توضیح می‌دهد. بیشتر خوانندگان امروز می‌پندارند معما منحل می‌شود — اسمیت کتاب اول را پس از انتشار کتاب دوم بازنگری کرد و استدلالش را عوض نکرد — و توصیف بازار هرگز قرار نبود روان‌شناسی باشد. «دست نامرئی» در کل آثارش سه بار می‌آید."
+            },
+            "citations": [{ "source": "sep" }],
+            "claim": "scholarly-disagreement"
+          }
+        ]
+      },
+      "concepts": ["invisible-hand"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "hayek",
+      "name": { "en": "Friedrich Hayek", "fa": "فریدریش هایک" },
+      "oneLine": {
+        "en": "Argued that no planner can hold the knowledge a society already uses.",
+        "fa": "استدلال کرد هیچ برنامه‌ریزی نمی‌تواند دانشی را که جامعه پیشاپیش به کار می‌برد در خود جای دهد."
+      },
+      "life": { "birth": { "year": 1899 }, "death": { "year": 1992 } },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "philosophy-of-economics",
+        "political-philosophy",
+        "epistemology",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Hayek's argument is epistemic before it is political: the knowledge that makes an economy work is dispersed, local and largely tacit — what this shopkeeper knows about this street — so it cannot be gathered into one place, and prices are the only device that transmits it without gathering it.",
+              "fa": "استدلال هایک پیش از آنکه سیاسی باشد معرفت‌شناختی است: دانشی که اقتصاد را می‌گرداند پراکنده و محلی و عمدتاً ضمنی است — آنچه این مغازه‌دار دربارهٔ این خیابان می‌داند — پس در یک جا گردآوردنی نیست، و قیمت‌ها تنها سازوکاری‌اند که آن را بی‌گردآوردن منتقل می‌کنند."
+            }
+          }
+        ]
+      },
+      "concepts": ["knowledge-problem"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "sen",
+      "name": { "en": "Amartya Sen", "fa": "آمارتیا سن" },
+      "oneLine": {
+        "en": "Showed that famines happen where there is food, and rebuilt welfare economics around it.",
+        "fa": "نشان داد قحطی جایی رخ می‌دهد که غذا هست، و اقتصاد رفاه را بر همین بازساخت."
+      },
+      "life": { "birth": { "year": 1933 } },
+      "traditions": ["indian", "analytic", "contemporary"],
+      "branches": [
+        "philosophy-of-economics",
+        "political-philosophy",
+        "ethics",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Sen's work on famines showed they are usually failures of entitlement rather than of supply: people starve because they cannot command food that exists. From that he argued that development should be measured by what people are actually able to do, not by income — the capabilities approach he developed with Nussbaum.",
+              "fa": "کار سن دربارهٔ قحطی نشان داد که قحطی معمولاً شکست «استحقاق» است نه شکست عرضه: مردم گرسنه می‌مانند چون نمی‌توانند بر غذایی که هست دست یابند. از همین استدلال کرد که توسعه را باید با آنچه مردم واقعاً می‌توانند بکنند سنجید، نه با درآمد — همان رویکرد قابلیت‌ها که با نوسباوم پرداخت."
+            }
+          }
+        ]
+      },
+      "nativeName": "অমর্ত্য সেন",
+      "transliteration": "Amartya Sen",
+      "concepts": ["entitlement-famine"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "moore",
+      "name": { "en": "G. E. Moore", "fa": "جی. ای. مور" },
+      "oneLine": {
+        "en": "Argued that good cannot be defined in terms of anything else.",
+        "fa": "استدلال کرد «خوب» را با هیچ‌چیز دیگری نمی‌توان تعریف کرد."
+      },
+      "life": { "birth": { "year": 1873 }, "death": { "year": 1958 } },
+      "traditions": ["european", "analytic"],
+      "branches": ["metaethics", "ethics", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Moore's open question argument runs: for any proposed definition of good — pleasant, natural, what we desire — it always remains sensible to ask whether that thing is in fact good, which it would not if the definition held. He concluded that good is a simple, indefinable property, and that identifying it with any natural one is a fallacy.",
+              "fa": "«استدلال پرسش گشوده»ی مور چنین است: برای هر تعریف پیشنهادی از «خوب» — لذت‌بخش، طبیعی، آنچه می‌خواهیم — همچنان بامعناست بپرسیم آیا آن چیز واقعاً خوب است؛ و اگر تعریف درست بود چنین نمی‌بود. نتیجه گرفت که «خوب» ویژگی‌ای است بسیط و تعریف‌ناپذیر، و یکی‌گرفتنش با هر ویژگی طبیعی مغالطه است."
+            }
+          }
+        ]
+      },
+      "concepts": ["naturalistic-fallacy"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ayer",
+      "name": { "en": "A. J. Ayer", "fa": "ای. جی. آیر" },
+      "oneLine": {
+        "en": "Held that moral sentences state nothing; they express feeling.",
+        "fa": "معتقد بود جمله‌های اخلاقی چیزی نمی‌گویند؛ احساس را بیان می‌کنند."
+      },
+      "life": { "birth": { "year": 1910 }, "death": { "year": 1989 } },
+      "traditions": ["european", "analytic"],
+      "branches": ["metaethics", "philosophy-of-language", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ayer applied the verification criterion — a sentence is meaningful only if it can be checked by experience or is true by definition — and concluded that saying stealing is wrong adds no fact to saying stealing occurs; it expresses disapproval. The criterion could not verify itself, which is the objection that eventually sank it.",
+              "fa": "آیر معیار تحقیق‌پذیری را به کار بست — جمله تنها آنگاه بامعناست که با تجربه بررسی‌پذیر باشد یا به‌حکم تعریف درست — و نتیجه گرفت که گفتن «دزدی نادرست است» هیچ واقعیتی به «دزدی رخ می‌دهد» نمی‌افزاید؛ ناخرسندی را بیان می‌کند. خودِ آن معیار خودش را تحقیق نمی‌کرد، و همین اعتراضی بود که سرانجام غرقش کرد."
+            }
+          }
+        ]
+      },
+      "concepts": ["emotivism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "mackie",
+      "name": { "en": "J. L. Mackie", "fa": "جی. ال. مکی" },
+      "oneLine": {
+        "en": "Argued that moral claims all say something false, but say it meaningfully.",
+        "fa": "استدلال کرد ادعاهای اخلاقی همه چیزی نادرست می‌گویند، اما بامعنا می‌گویند."
+      },
+      "life": { "birth": { "year": 1917 }, "death": { "year": 1981 } },
+      "traditions": ["analytic", "contemporary"],
+      "branches": ["metaethics", "ethics", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mackie's error theory holds that ordinary moral talk really does claim objective values exist, and that no such values do. His two arguments are from relativity — moral codes vary with societies more than beliefs about the world do — and from queerness: an objective value would have to be a very strange thing, motivating anyone who saw it.",
+              "fa": "«نظریهٔ خطا»ی مکی می‌گوید گفتار اخلاقی روزمره واقعاً مدعی است که ارزش‌های عینی هستند، و چنین ارزش‌هایی نیستند. دو استدلالش یکی از «نسبیت» است — قواعد اخلاقی بیش از باورها دربارهٔ جهان از جامعه‌ای به جامعه‌ای فرق می‌کند — و دیگری از «غرابت»: ارزشی عینی می‌بایست چیزی بسیار عجیب باشد که هرکه ببیندش برانگیخته شود."
+            }
+          }
+        ]
+      },
+      "concepts": ["error-theory"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "foot",
+      "name": { "en": "Philippa Foot", "fa": "فیلیپا فوت" },
+      "oneLine": {
+        "en": "Brought virtue back into analytic ethics, and invented the trolley case.",
+        "fa": "فضیلت را به اخلاق تحلیلی بازگرداند، و مسئلهٔ تراموا را ساخت."
+      },
+      "life": { "birth": { "year": 1920 }, "death": { "year": 2010 } },
+      "traditions": ["european", "analytic"],
+      "branches": ["ethics", "metaethics", "applied-ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Foot argued that goodness in a human being works like goodness in any living thing — as what that kind of creature needs to flourish — which makes moral judgements factual without making them scientific. The trolley case was a footnote in a paper about abortion, and became the most reused example in ethics.",
+              "fa": "فوت استدلال کرد که خوبی در انسان مانند خوبی در هر جاندار دیگر کار می‌کند: آنچه آن نوع موجود برای شکوفایی نیاز دارد — و همین داوری‌های اخلاقی را واقعی می‌کند بی‌آنکه علمی‌شان کند. مسئلهٔ تراموا پانوشتی در مقاله‌ای دربارهٔ سقط جنین بود، و پرکاربردترین نمونهٔ اخلاق شد."
+            }
+          }
+        ]
+      },
+      "concepts": ["trolley-problem"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "singer",
+      "name": { "en": "Peter Singer", "fa": "پیتر سینگر" },
+      "oneLine": {
+        "en": "Argues that distance does not reduce an obligation.",
+        "fa": "استدلال می‌کند فاصله از تعهد کم نمی‌کند."
+      },
+      "life": { "birth": { "year": 1946 } },
+      "traditions": ["analytic", "contemporary"],
+      "branches": ["applied-ethics", "ethics", "political-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Singer's argument is short: if you can prevent something very bad at little cost to yourself, you ought to, and whether the person is drowning in front of you or starving elsewhere makes no moral difference. Applied to animals, the same impartiality yields the claim that species membership cannot by itself justify discounting suffering. Several of his positions, particularly on disability, are strongly contested.",
+              "fa": "استدلال سینگر کوتاه است: اگر می‌توانی چیزی بسیار بد را با هزینه‌ای اندک برای خودت جلوگیری کنی، باید بکنی، و اینکه آن شخص جلوی چشمت غرق می‌شود یا جای دیگری گرسنه است تفاوت اخلاقی ندارد. همین بی‌طرفی دربارهٔ حیوانات به این ادعا می‌رسد که تعلق به یک گونه به‌تنهایی نمی‌تواند نادیده‌گرفتن رنج را توجیه کند. چند موضع او، به‌ویژه دربارهٔ معلولیت، به‌شدت محل مناقشه است."
+            }
+          }
+        ]
+      },
+      "concepts": ["effective-altruism-obligation"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "thomson",
+      "name": { "en": "Judith Jarvis Thomson", "fa": "جودیت جارویس تامسون" },
+      "oneLine": {
+        "en": "Argued that a right to life does not include a right to another person's body.",
+        "fa": "استدلال کرد حق حیات، حق بر بدن دیگری را در بر نمی‌گیرد."
+      },
+      "life": { "birth": { "year": 1929 }, "death": { "year": 2020 } },
+      "traditions": ["american", "analytic"],
+      "branches": [
+        "applied-ethics",
+        "ethics",
+        "philosophy-of-law",
+        "metaethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Thomson's paper on abortion grants the disputed premise — that the foetus is a person — and argues the conclusion still does not follow, using the case of a violinist plugged into your circulation without your consent. The method is the contribution: concede what you can and show the argument fails anyway.",
+              "fa": "مقالهٔ تامسون دربارهٔ سقط جنین، مقدمهٔ محل نزاع را می‌پذیرد — اینکه جنین شخص است — و استدلال می‌کند که نتیجه باز هم لازم نمی‌آید؛ با مثال ویولن‌نوازی که بی‌رضایت شما به گردش خون شما وصل شده. خودِ این روش سهم اوست: آنچه را می‌توانی واگذار کن و نشان بده استدلال باز هم شکست می‌خورد."
+            }
+          }
+        ]
+      },
+      "concepts": ["trolley-problem"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "hart",
+      "name": { "en": "H. L. A. Hart", "fa": "اچ. ال. ای. هارت" },
+      "oneLine": {
+        "en": "Explained what makes a rule a law rather than a habit or a threat.",
+        "fa": "توضیح داد چه چیزی یک قاعده را قانون می‌کند نه عادت یا تهدید."
+      },
+      "life": {
+        "birth": { "year": 1907, "precision": "circa" },
+        "death": { "year": 1992, "precision": "circa" }
+      },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "philosophy-of-law",
+        "political-philosophy",
+        "philosophy-of-language",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Hart argued against the view that law is orders backed by threats: a legal system is a union of rules about conduct and rules about how rules are made, changed and identified. Whether an unjust law is still a law is, for him, a separate question from whether it should be obeyed — and keeping them separate is the point.",
+              "fa": "هارت در برابر این دیدگاه استدلال کرد که قانون فرمانِ پشتیبانی‌شده با تهدید است: نظام حقوقی پیوندی است میان قواعدِ رفتار و قواعدی که می‌گویند قاعده چگونه ساخته و دگرگون و شناخته می‌شود. اینکه قانونی ناعادلانه باز هم قانون هست یا نه، نزد او پرسشی جدا از این است که باید از آن اطاعت کرد یا نه — و جداکردن این دو، خودِ مقصود است."
+            }
+          }
+        ]
+      },
+      "concepts": ["legal-positivism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dworkin",
+      "name": { "en": "Ronald Dworkin", "fa": "رونالد دورکین" },
+      "oneLine": {
+        "en": "Argued that judges do not have discretion, even in the hard cases.",
+        "fa": "استدلال کرد قاضی حتی در پرونده‌های دشوار هم اختیار وضع ندارد."
+      },
+      "life": { "birth": { "year": 1931 }, "death": { "year": 2013 } },
+      "traditions": ["american", "analytic"],
+      "branches": ["philosophy-of-law", "political-philosophy", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Against Hart, Dworkin argued that law includes principles as well as rules, and that in a hard case a judge is not making new law but finding which reading best fits and justifies the legal record as a whole. The disagreement between them is the central argument of twentieth-century jurisprudence.",
+              "fa": "دورکین در برابر هارت استدلال کرد که قانون علاوه بر قواعد، اصول را هم در بر دارد، و قاضی در پروندهٔ دشوار قانونِ تازه نمی‌سازد بلکه می‌یابد کدام خوانش با کلِ سابقهٔ حقوقی بهتر می‌خواند و بهتر توجیهش می‌کند. اختلاف این دو، استدلال مرکزی فلسفهٔ حقوق قرن بیستم است."
+            }
+          }
+        ]
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "godel",
+      "name": { "en": "Kurt Gödel", "fa": "کورت گودل" },
+      "oneLine": {
+        "en": "Proved that no consistent system rich enough for arithmetic can prove all its truths.",
+        "fa": "ثابت کرد هیچ نظام سازگارِ به‌قدر کافی نیرومند نمی‌تواند همهٔ حقایق خودش را اثبات کند."
+      },
+      "life": { "birth": { "year": 1906 }, "death": { "year": 1978 } },
+      "traditions": ["european", "american", "analytic"],
+      "branches": [
+        "philosophy-of-mathematics",
+        "logic",
+        "metaphysics",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The incompleteness theorems show that any consistent formal system able to express arithmetic contains true statements it cannot prove, and cannot prove its own consistency. Gödel took this as evidence for mathematical realism — that mathematical truth outruns any construction we make — which is a philosophical reading of a formal result, and disputed as such.",
+              "fa": "قضیه‌های ناتمامیت نشان می‌دهند که هر نظام صوریِ سازگار که بتواند حساب را بیان کند، گزاره‌های درستی دارد که نمی‌تواند اثباتشان کند، و سازگاری خودش را نمی‌تواند اثبات کند. گودل این را شاهدی بر واقع‌گرایی ریاضی گرفت — اینکه حقیقت ریاضی از هر ساختهٔ ما فراتر می‌رود — و این خوانشی فلسفی از نتیجه‌ای صوری است و به همین عنوان محل اختلاف."
+            }
+          }
+        ]
+      },
+      "concepts": ["incompleteness"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "brouwer",
+      "name": { "en": "L. E. J. Brouwer", "fa": "ال. ای. یی. براوئر" },
+      "oneLine": {
+        "en": "Held that a mathematical object exists only once it has been constructed.",
+        "fa": "معتقد بود شیء ریاضی تنها وقتی هست که ساخته شده باشد."
+      },
+      "life": { "birth": { "year": 1881 }, "death": { "year": 1966 } },
+      "traditions": ["european"],
+      "branches": ["philosophy-of-mathematics", "logic", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Intuitionism rejects the law of excluded middle for infinite domains: proving that something cannot fail to exist is not the same as producing it. The consequence is a different mathematics, not a philosophical gloss on the usual one — some classical theorems are simply unavailable.",
+              "fa": "شهودگرایی، اصل طرد شق ثالث را برای گستره‌های نامتناهی رد می‌کند: اثباتِ اینکه چیزی نمی‌تواند نباشد، همان پدیدآوردنش نیست. پیامدش ریاضیاتی دیگر است، نه حاشیه‌ای فلسفی بر ریاضیات معمول — برخی قضیه‌های کلاسیک به‌سادگی در دسترس نیستند."
+            }
+          }
+        ]
+      },
+      "concepts": ["intuitionism-mathematics"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "zeami",
+      "name": { "en": "Zeami Motokiyo", "fa": "زه‌آمی" },
+      "oneLine": {
+        "en": "Wrote the first sustained theory of performance, and kept it secret.",
+        "fa": "نخستین نظریهٔ پیوستهٔ اجرا را نوشت، و پنهانش نگه داشت."
+      },
+      "life": {
+        "birth": { "year": 1363, "precision": "circa" },
+        "death": { "year": 1443, "precision": "circa" }
+      },
+      "traditions": ["japanese"],
+      "branches": ["aesthetics", "philosophy-of-education", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Zeami's treatises on Noh theatre were written for his successors and hidden for five hundred years. Their central idea is the flower: the effect an actor produces, which depends on surprise and on withholding, and which therefore changes as the actor ages — so mastery is not a plateau but a sequence of different problems.",
+              "fa": "رساله‌های زه‌آمی دربارهٔ تئاتر «نو» برای جانشینانش نوشته شد و پانصد سال پنهان ماند. ایدهٔ محوریشان «گل» است: اثری که بازیگر پدید می‌آورد، که به غافلگیری و به دریغ‌کردن وابسته است، و از این رو با پیرشدن بازیگر دگرگون می‌شود — پس استادی، فلاتی نیست بلکه زنجیره‌ای از مسائل متفاوت است."
+            }
+          }
+        ]
+      },
+      "nativeName": "世阿弥元清",
+      "transliteration": "Zeami Motokiyo",
+      "concepts": ["hana-flower"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "danto",
+      "name": { "en": "Arthur Danto", "fa": "آرتور دانتو" },
+      "oneLine": {
+        "en": "Asked why one box of soap pads is art and an identical box is not.",
+        "fa": "پرسید چرا یک جعبهٔ سیم‌ظرفشویی هنر است و جعبه‌ای همانند آن نیست."
+      },
+      "life": { "birth": { "year": 1924 }, "death": { "year": 2013 } },
+      "traditions": ["american", "analytic"],
+      "branches": ["aesthetics", "metaphysics", "philosophy-of-history"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Warhol's Brillo boxes gave Danto his problem: two objects can be perceptually indistinguishable while one is an artwork and the other is packaging, so whatever makes something art is not visible in it. His answer is that it takes an interpretation and a history — an artworld — and that this is why art has one.",
+              "fa": "جعبه‌های بریلوی وارهول مسئلهٔ دانتو را به او دادند: دو شیء می‌توانند از نظر ادراکی تمایزناپذیر باشند و یکی اثر هنری باشد و دیگری بسته‌بندی، پس آنچه چیزی را هنر می‌کند در خودِ آن دیدنی نیست. پاسخ او این است که تفسیر و تاریخ لازم است — یک «جهانِ هنر» — و به همین سبب است که هنر تاریخ دارد."
+            }
+          }
+        ]
+      },
+      "concepts": ["artworld"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "camus",
+      "name": { "en": "Albert Camus", "fa": "آلبر کامو" },
+      "oneLine": {
+        "en": "Asked whether a life without meaning is worth living, and answered yes.",
+        "fa": "پرسید آیا زندگی بی‌معنا ارزش زیستن دارد، و پاسخ داد آری."
+      },
+      "life": { "birth": { "year": 1913 }, "death": { "year": 1960 } },
+      "traditions": ["european", "africana", "continental"],
+      "branches": [
+        "existential-philosophy",
+        "ethics",
+        "aesthetics",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Camus starts from the absurd: not that the world is meaningless, but that we demand meaning from a world that does not answer. Suicide is the one serious philosophical problem because it is the question the absurd raises. His answer is to refuse both suicide and the leap to faith, and to live the contradiction with open eyes.",
+              "fa": "کامو از «امر پوچ» آغاز می‌کند: نه اینکه جهان بی‌معناست، بلکه اینکه ما از جهانی که پاسخ نمی‌دهد معنا می‌خواهیم. خودکشی تنها مسئلهٔ جدی فلسفی است چون همان پرسشی است که پوچی طرح می‌کند. پاسخ او رد‌کردن هر دو — خودکشی و جهش به ایمان — و زیستنِ آن تناقض با چشم باز است."
+            }
+          },
+          {
+            "id": "not-existentialist",
+            "heading": {
+              "en": "Why he refused the label",
+              "fa": "چرا آن برچسب را نپذیرفت"
+            },
+            "depth": "standard",
+            "body": {
+              "en": "Camus rejected being called an existentialist and quarrelled publicly with Sartre about it. The disagreement is real: Sartre begins from radical freedom and builds an ethics of choice, while Camus begins from the absurd and argues that the honest response is to hold the contradiction open rather than resolve it in either direction. Their split over political violence in 1952 made the difference public and ended the friendship.",
+              "fa": "کامو نپذیرفت که اگزیستانسیالیست خوانده شود و علناً با سارتر بر سرش درگیر شد. اختلاف واقعی است: سارتر از آزادی رادیکال آغاز می‌کند و اخلاقی از انتخاب می‌سازد، حال آنکه کامو از پوچی آغاز می‌کند و استدلال می‌کند پاسخ صادقانه، باز نگه‌داشتن تناقض است نه حل‌کردنش در هیچ‌یک از دو جهت. جدایی‌شان بر سر خشونت سیاسی در ۱۹۵۲ این تفاوت را همگانی کرد و به دوستی پایان داد."
+            },
+            "citations": [{ "source": "sep" }]
+          }
+        ]
+      },
+      "concepts": ["the-absurd"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "bell-hooks",
+      "name": { "en": "bell hooks", "fa": "بل هوکس" },
+      "oneLine": {
+        "en": "Argued that a feminism that ignores race and class is a feminism for some women.",
+        "fa": "استدلال کرد فمینیسمی که نژاد و طبقه را نادیده بگیرد، فمینیسمِ بعضی زنان است."
+      },
+      "life": { "birth": { "year": 1952 }, "death": { "year": 2021 } },
+      "traditions": ["africana", "american", "contemporary"],
+      "branches": [
+        "feminist-philosophy",
+        "social-philosophy",
+        "philosophy-of-education",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "hooks argued that a movement organised around the experience of white middle-class women mistakes one position for the general case, and that oppression is a single interlocking system rather than several separate ones. She wrote deliberately without academic apparatus, on the argument that theory nobody outside a university can read is theory that has given up on the people it is about.",
+              "fa": "هوکس استدلال کرد که جنبشی که حول تجربهٔ زنان سفیدِ طبقهٔ متوسط سامان یافته، یک موقعیت را با حالت عام اشتباه می‌گیرد، و ستم یک نظامِ درهم‌قفل‌شده است نه چند نظام جدا. عمداً بی‌ابزارِ دانشگاهی نوشت، با این استدلال که نظریه‌ای که کسی بیرون از دانشگاه نتواند بخواند، نظریه‌ای است که از مردمی که دربارهٔ آن‌هاست دست شسته."
+            }
+          }
+        ]
+      },
+      "concepts": ["intersecting-oppression"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "angela-davis",
+      "name": { "en": "Angela Davis", "fa": "آنجلا دیویس" },
+      "oneLine": {
+        "en": "Argues that prisons are an institution that has to be explained, not assumed.",
+        "fa": "استدلال می‌کند زندان نهادی است که باید توضیح داده شود، نه فرض."
+      },
+      "life": { "birth": { "year": 1944 } },
+      "traditions": ["africana", "american", "contemporary"],
+      "branches": [
+        "political-philosophy",
+        "social-philosophy",
+        "feminist-philosophy",
+        "philosophy-of-law"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Davis argues that the prison functions less as a response to crime than as a way of disappearing social problems, and that its racial composition is a continuity with slavery rather than a coincidence. The abolitionist claim is not that nothing should replace it but that reform assumes what needs arguing.",
+              "fa": "دیویس استدلال می‌کند که زندان کمتر پاسخی به جرم است و بیشتر راهی برای ناپدیدکردن مسائل اجتماعی، و ترکیب نژادی‌اش نه تصادف بلکه ادامهٔ بردگی است. ادعای الغاگرایانه این نیست که چیزی نباید جایش را بگیرد، بلکه این است که اصلاح، همان چیزی را مفروض می‌گیرد که باید برایش استدلال شود."
+            }
+          }
+        ]
+      },
+      "concepts": ["intersecting-oppression", "prison-abolition"],
       "citations": [{ "source": "sep" }]
     }
   ]
