@@ -1277,6 +1277,1271 @@
       "authors": ["Felipe Guaman Poma de Ayala"],
       "year": { "year": 1615 },
       "rightsNote": "A 1,200-page illustrated letter to the king of Spain, which never reached him; rediscovered in Copenhagen in 1908."
+    },
+    {
+      "id": "text-leviathan",
+      "kind": "primary-text",
+      "title": { "en": "Leviathan", "fa": "لویاتان" },
+      "authors": ["Thomas Hobbes"],
+      "year": { "year": 1651 },
+      "rightsNote": "Cited by part and chapter."
+    },
+    {
+      "id": "text-de-cive",
+      "kind": "primary-text",
+      "title": { "en": "On the Citizen", "fa": "دربارهٔ شهروند" },
+      "authors": ["Thomas Hobbes"],
+      "year": { "year": 1642 }
+    },
+    {
+      "id": "text-essay-human-understanding",
+      "kind": "primary-text",
+      "title": {
+        "en": "An Essay Concerning Human Understanding",
+        "fa": "جستاری در فهم بشری"
+      },
+      "authors": ["John Locke"],
+      "year": { "year": 1689 },
+      "rightsNote": "Cited by book, chapter and section."
+    },
+    {
+      "id": "text-two-treatises",
+      "kind": "primary-text",
+      "title": {
+        "en": "Two Treatises of Government",
+        "fa": "دو رساله دربارهٔ حکومت"
+      },
+      "authors": ["John Locke"],
+      "year": { "year": 1689 },
+      "rightsNote": "Cited by treatise and numbered section."
+    },
+    {
+      "id": "text-monadology",
+      "kind": "primary-text",
+      "title": { "en": "The Monadology", "fa": "مونادولوژی" },
+      "authors": ["Gottfried Wilhelm Leibniz"],
+      "year": { "year": 1714 },
+      "rightsNote": "Ninety numbered paragraphs; cited by paragraph."
+    },
+    {
+      "id": "text-theodicy",
+      "kind": "primary-text",
+      "title": { "en": "Theodicy", "fa": "تئودیسه" },
+      "authors": ["Gottfried Wilhelm Leibniz"],
+      "year": { "year": 1710 }
+    },
+    {
+      "id": "text-new-essays",
+      "kind": "primary-text",
+      "title": {
+        "en": "New Essays on Human Understanding",
+        "fa": "جستارهای نو در فهم بشری"
+      },
+      "authors": ["Gottfried Wilhelm Leibniz"],
+      "rightsNote": "Written as a dialogue answering Locke chapter by chapter; withheld from publication when Locke died, and unpublished for fifty years."
+    },
+    {
+      "id": "text-berkeley-principles",
+      "kind": "primary-text",
+      "title": {
+        "en": "A Treatise Concerning the Principles of Human Knowledge",
+        "fa": "رساله‌ای دربارهٔ اصول معرفت بشری"
+      },
+      "authors": ["George Berkeley"],
+      "year": { "year": 1710 },
+      "rightsNote": "Cited by numbered section."
+    },
+    {
+      "id": "text-three-dialogues",
+      "kind": "primary-text",
+      "title": {
+        "en": "Three Dialogues between Hylas and Philonous",
+        "fa": "سه گفت‌وگو میان هایلاس و فیلونوس"
+      },
+      "authors": ["George Berkeley"],
+      "year": { "year": 1713 }
+    },
+    {
+      "id": "text-treatise-human-nature",
+      "kind": "primary-text",
+      "title": {
+        "en": "A Treatise of Human Nature",
+        "fa": "رساله‌ای دربارهٔ طبیعت آدمی"
+      },
+      "authors": ["David Hume"],
+      "rightsNote": "Cited by book, part and section."
+    },
+    {
+      "id": "text-enquiry-human-understanding",
+      "kind": "primary-text",
+      "title": {
+        "en": "An Enquiry Concerning Human Understanding",
+        "fa": "کاوشی در فهم بشری"
+      },
+      "authors": ["David Hume"],
+      "year": { "year": 1748 },
+      "rightsNote": "Cited by section."
+    },
+    {
+      "id": "text-dialogues-natural-religion",
+      "kind": "primary-text",
+      "title": {
+        "en": "Dialogues Concerning Natural Religion",
+        "fa": "گفت‌وگوهایی دربارهٔ دین طبیعی"
+      },
+      "authors": ["David Hume"],
+      "rightsNote": "Published after Hume's death, on his instructions."
+    },
+    {
+      "id": "text-social-contract",
+      "kind": "primary-text",
+      "title": { "en": "The Social Contract", "fa": "قرارداد اجتماعی" },
+      "authors": ["Jean-Jacques Rousseau"],
+      "year": { "year": 1762 },
+      "rightsNote": "Cited by book and chapter."
+    },
+    {
+      "id": "text-discourse-inequality",
+      "kind": "primary-text",
+      "title": {
+        "en": "Discourse on the Origin of Inequality",
+        "fa": "گفتار دربارهٔ خاستگاه نابرابری"
+      },
+      "authors": ["Jean-Jacques Rousseau"],
+      "year": { "year": 1755 }
+    },
+    {
+      "id": "text-emile",
+      "kind": "primary-text",
+      "title": {
+        "en": "Emile, or On Education",
+        "fa": "امیل، یا دربارهٔ آموزش"
+      },
+      "authors": ["Jean-Jacques Rousseau"],
+      "year": { "year": 1762 }
+    },
+    {
+      "id": "text-vindication-woman",
+      "kind": "primary-text",
+      "title": {
+        "en": "A Vindication of the Rights of Woman",
+        "fa": "دفاع از حقوق زن"
+      },
+      "authors": ["Mary Wollstonecraft"],
+      "year": { "year": 1792 },
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-vindication-men",
+      "kind": "primary-text",
+      "title": {
+        "en": "A Vindication of the Rights of Men",
+        "fa": "دفاع از حقوق آدمیان"
+      },
+      "authors": ["Mary Wollstonecraft"],
+      "year": { "year": 1790 },
+      "rightsNote": "The first published reply to Burke's Reflections on the Revolution in France."
+    },
+    {
+      "id": "text-scienza-nuova",
+      "kind": "primary-text",
+      "title": { "en": "The New Science", "fa": "علم جدید" },
+      "authors": ["Giambattista Vico"],
+      "rightsNote": "Cited by the paragraph numbers of the 1744 edition, which are standard."
+    },
+    {
+      "id": "text-principles-morals-legislation",
+      "kind": "primary-text",
+      "title": {
+        "en": "An Introduction to the Principles of Morals and Legislation",
+        "fa": "درآمدی بر اصول اخلاق و قانون‌گذاری"
+      },
+      "authors": ["Jeremy Bentham"],
+      "year": { "year": 1789 },
+      "rightsNote": "Cited by chapter and section."
+    },
+    {
+      "id": "text-anarchical-fallacies",
+      "kind": "primary-text",
+      "title": { "en": "Anarchical Fallacies", "fa": "مغالطه‌های آنارشیک" },
+      "authors": ["Jeremy Bentham"],
+      "rightsNote": "Written in the 1790s against the French Declaration of Rights; published posthumously."
+    },
+    {
+      "id": "text-on-liberty",
+      "kind": "primary-text",
+      "title": { "en": "On Liberty", "fa": "دربارهٔ آزادی" },
+      "authors": ["John Stuart Mill"],
+      "year": { "year": 1859 },
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-utilitarianism",
+      "kind": "primary-text",
+      "title": { "en": "Utilitarianism", "fa": "فایده‌گرایی" },
+      "authors": ["John Stuart Mill"],
+      "year": { "year": 1861 }
+    },
+    {
+      "id": "text-subjection-of-women",
+      "kind": "primary-text",
+      "title": { "en": "The Subjection of Women", "fa": "انقیاد زنان" },
+      "authors": ["John Stuart Mill"],
+      "year": { "year": 1869 }
+    },
+    {
+      "id": "text-phenomenology-of-spirit",
+      "kind": "primary-text",
+      "title": { "en": "Phenomenology of Spirit", "fa": "پدیدارشناسی روح" },
+      "authors": ["G. W. F. Hegel"],
+      "year": { "year": 1807 },
+      "rightsNote": "Cited by the numbered paragraphs of Miller's translation, the usual reference in English."
+    },
+    {
+      "id": "text-philosophy-of-right",
+      "kind": "primary-text",
+      "title": {
+        "en": "Elements of the Philosophy of Right",
+        "fa": "عناصر فلسفهٔ حق"
+      },
+      "authors": ["G. W. F. Hegel"],
+      "year": { "year": 1820 },
+      "rightsNote": "Cited by numbered section."
+    },
+    {
+      "id": "text-world-as-will",
+      "kind": "primary-text",
+      "title": {
+        "en": "The World as Will and Representation",
+        "fa": "جهان همچون اراده و تصور"
+      },
+      "authors": ["Arthur Schopenhauer"],
+      "rightsNote": "Cited by volume, book and section. The second volume, of commentary on the first, appeared twenty-six years later."
+    },
+    {
+      "id": "text-fear-and-trembling",
+      "kind": "primary-text",
+      "title": { "en": "Fear and Trembling", "fa": "ترس و لرز" },
+      "authors": ["Soren Kierkegaard"],
+      "year": { "year": 1843 },
+      "rightsNote": "Published under the pseudonym Johannes de Silentio, which Kierkegaard asked readers to treat as an author in his own right."
+    },
+    {
+      "id": "text-either-or",
+      "kind": "primary-text",
+      "title": { "en": "Either/Or", "fa": "این یا آن" },
+      "authors": ["Soren Kierkegaard"],
+      "year": { "year": 1843 },
+      "rightsNote": "Published under the pseudonym Victor Eremita."
+    },
+    {
+      "id": "text-concluding-postscript",
+      "kind": "primary-text",
+      "title": {
+        "en": "Concluding Unscientific Postscript",
+        "fa": "پی‌نوشت نهایی غیرعلمی"
+      },
+      "authors": ["Soren Kierkegaard"],
+      "year": { "year": 1846 },
+      "rightsNote": "Published under the pseudonym Johannes Climacus, with Kierkegaard named on the title page as editor."
+    },
+    {
+      "id": "text-1844-manuscripts",
+      "kind": "primary-text",
+      "title": {
+        "en": "Economic and Philosophic Manuscripts of 1844",
+        "fa": "دست‌نوشته‌های اقتصادی و فلسفی ۱۸۴۴"
+      },
+      "authors": ["Karl Marx"],
+      "rightsNote": "Notebooks Marx never published; first printed in 1932, which is why the reading of Marx they support is a twentieth-century event."
+    },
+    {
+      "id": "text-theses-on-feuerbach",
+      "kind": "primary-text",
+      "title": { "en": "Theses on Feuerbach", "fa": "تزهایی دربارهٔ فویرباخ" },
+      "authors": ["Karl Marx"],
+      "rightsNote": "Eleven numbered notes; cited by number."
+    },
+    {
+      "id": "text-capital",
+      "kind": "primary-text",
+      "title": { "en": "Capital, Volume I", "fa": "سرمایه، جلد اول" },
+      "authors": ["Karl Marx"],
+      "year": { "year": 1867 },
+      "rightsNote": "Cited by part and chapter."
+    },
+    {
+      "id": "text-moral-sentiments",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Theory of Moral Sentiments",
+        "fa": "نظریهٔ عواطف اخلاقی"
+      },
+      "authors": ["Adam Smith"],
+      "year": { "year": 1759 },
+      "rightsNote": "Revised by Smith six times, the last in the year of his death, seventeen years after the Wealth of Nations."
+    },
+    {
+      "id": "text-wealth-of-nations",
+      "kind": "primary-text",
+      "title": {
+        "en": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+        "fa": "پژوهشی در سرشت و علل ثروت ملل"
+      },
+      "authors": ["Adam Smith"],
+      "year": { "year": 1776 },
+      "rightsNote": "Cited by book and chapter."
+    },
+    {
+      "id": "text-interpretation-of-dreams",
+      "kind": "primary-text",
+      "title": { "en": "The Interpretation of Dreams", "fa": "تعبیر خواب" },
+      "authors": ["Sigmund Freud"],
+      "year": { "year": 1900 }
+    },
+    {
+      "id": "text-civilization-discontents",
+      "kind": "primary-text",
+      "title": {
+        "en": "Civilization and Its Discontents",
+        "fa": "تمدن و ناخرسندی‌های آن"
+      },
+      "authors": ["Sigmund Freud"],
+      "year": { "year": 1930 }
+    },
+    {
+      "id": "text-justification-of-the-good",
+      "kind": "primary-text",
+      "title": { "en": "The Justification of the Good", "fa": "توجیه خیر" },
+      "authors": ["Vladimir Solovyov"],
+      "year": { "year": 1897 }
+    },
+    {
+      "id": "text-tale-of-the-antichrist",
+      "kind": "primary-text",
+      "title": {
+        "en": "A Short Tale of the Antichrist",
+        "fa": "حکایت کوتاه دجال"
+      },
+      "authors": ["Vladimir Solovyov"],
+      "year": { "year": 1900 }
+    },
+    {
+      "id": "text-slavery-and-freedom",
+      "kind": "primary-text",
+      "title": { "en": "Slavery and Freedom", "fa": "بردگی و آزادی" },
+      "authors": ["Nikolai Berdyaev"],
+      "year": { "year": 1939 }
+    },
+    {
+      "id": "text-meaning-of-creative-act",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Meaning of the Creative Act",
+        "fa": "معنای کنش آفرینشگر"
+      },
+      "authors": ["Nikolai Berdyaev"],
+      "year": { "year": 1916 }
+    },
+    {
+      "id": "text-i-and-thou",
+      "kind": "primary-text",
+      "title": { "en": "I and Thou", "fa": "من و تو" },
+      "authors": ["Martin Buber"],
+      "year": { "year": 1923 }
+    },
+    {
+      "id": "text-dostoevsky-poetics",
+      "kind": "primary-text",
+      "title": {
+        "en": "Problems of Dostoevsky's Poetics",
+        "fa": "مسائل بوطیقای داستایفسکی"
+      },
+      "authors": ["Mikhail Bakhtin"],
+      "rightsNote": "First published in 1929, then heavily revised and republished in 1963 after decades in which Bakhtin could not publish."
+    },
+    {
+      "id": "text-rabelais-and-his-world",
+      "kind": "primary-text",
+      "title": { "en": "Rabelais and His World", "fa": "رابله و جهان او" },
+      "authors": ["Mikhail Bakhtin"],
+      "rightsNote": "Written as a dissertation in the 1940s; the degree was refused and the book not published until 1965."
+    },
+    {
+      "id": "text-human-condition",
+      "kind": "primary-text",
+      "title": { "en": "The Human Condition", "fa": "وضع بشری" },
+      "authors": ["Hannah Arendt"],
+      "year": { "year": 1958 }
+    },
+    {
+      "id": "text-origins-totalitarianism",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Origins of Totalitarianism",
+        "fa": "خاستگاه‌های توتالیتاریسم"
+      },
+      "authors": ["Hannah Arendt"],
+      "year": { "year": 1951 }
+    },
+    {
+      "id": "text-eichmann-in-jerusalem",
+      "kind": "primary-text",
+      "title": { "en": "Eichmann in Jerusalem", "fa": "آیشمان در اورشلیم" },
+      "authors": ["Hannah Arendt"],
+      "year": { "year": 1963 },
+      "rightsNote": "First published as a series of reports in The New Yorker."
+    },
+    {
+      "id": "text-gravity-and-grace",
+      "kind": "primary-text",
+      "title": { "en": "Gravity and Grace", "fa": "جاذبه و فیض" },
+      "authors": ["Simone Weil"],
+      "year": { "year": 1947 },
+      "rightsNote": "Assembled after her death from her notebooks by a friend, who chose and arranged the passages; not a book she wrote."
+    },
+    {
+      "id": "text-need-for-roots",
+      "kind": "primary-text",
+      "title": { "en": "The Need for Roots", "fa": "نیاز به ریشه" },
+      "authors": ["Simone Weil"],
+      "year": { "year": 1949 },
+      "rightsNote": "Written in 1943 for the Free French as a report on the obligations a postwar France would owe its people."
+    },
+    {
+      "id": "text-dialectic-of-enlightenment",
+      "kind": "primary-text",
+      "title": { "en": "Dialectic of Enlightenment", "fa": "دیالکتیک روشنگری" },
+      "authors": ["Max Horkheimer", "Theodor W. Adorno"],
+      "year": { "year": 1947 }
+    },
+    {
+      "id": "text-minima-moralia",
+      "kind": "primary-text",
+      "title": { "en": "Minima Moralia", "fa": "مینیما مورالیا" },
+      "authors": ["Theodor W. Adorno"],
+      "year": { "year": 1951 },
+      "rightsNote": "A hundred and fifty-three numbered fragments; cited by number."
+    },
+    {
+      "id": "text-negative-dialectics",
+      "kind": "primary-text",
+      "title": { "en": "Negative Dialectics", "fa": "دیالکتیک منفی" },
+      "authors": ["Theodor W. Adorno"],
+      "year": { "year": 1966 }
+    },
+    {
+      "id": "text-work-of-art-benjamin",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Work of Art in the Age of Its Technological Reproducibility",
+        "fa": "اثر هنری در عصر بازتولید فنی"
+      },
+      "authors": ["Walter Benjamin"],
+      "rightsNote": "Exists in three versions written between 1935 and 1939, which differ on points the argument turns on."
+    },
+    {
+      "id": "text-on-the-concept-of-history",
+      "kind": "primary-text",
+      "title": {
+        "en": "On the Concept of History",
+        "fa": "دربارهٔ مفهوم تاریخ"
+      },
+      "authors": ["Walter Benjamin"],
+      "rightsNote": "Eighteen numbered theses, left unpublished at his death in 1940; cited by thesis number."
+    },
+    {
+      "id": "text-theory-communicative-action",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Theory of Communicative Action",
+        "fa": "نظریهٔ کنش ارتباطی"
+      },
+      "authors": ["Jurgen Habermas"],
+      "year": { "year": 1981 }
+    },
+    {
+      "id": "text-structural-transformation",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Structural Transformation of the Public Sphere",
+        "fa": "دگرگونی ساختاری حوزهٔ عمومی"
+      },
+      "authors": ["Jurgen Habermas"],
+      "year": { "year": 1962 }
+    },
+    {
+      "id": "text-truth-and-method",
+      "kind": "primary-text",
+      "title": { "en": "Truth and Method", "fa": "حقیقت و روش" },
+      "authors": ["Hans-Georg Gadamer"],
+      "year": { "year": 1960 }
+    },
+    {
+      "id": "text-totality-and-infinity",
+      "kind": "primary-text",
+      "title": { "en": "Totality and Infinity", "fa": "تمامیت و بی‌نهایت" },
+      "authors": ["Emmanuel Levinas"],
+      "year": { "year": 1961 }
+    },
+    {
+      "id": "text-otherwise-than-being",
+      "kind": "primary-text",
+      "title": { "en": "Otherwise than Being", "fa": "به‌گونه‌ای جز بودن" },
+      "authors": ["Emmanuel Levinas"],
+      "year": { "year": 1974 }
+    },
+    {
+      "id": "text-of-grammatology",
+      "kind": "primary-text",
+      "title": { "en": "Of Grammatology", "fa": "دربارهٔ گراماتولوژی" },
+      "authors": ["Jacques Derrida"],
+      "year": { "year": 1967 }
+    },
+    {
+      "id": "text-writing-and-difference",
+      "kind": "primary-text",
+      "title": { "en": "Writing and Difference", "fa": "نوشتار و تفاوت" },
+      "authors": ["Jacques Derrida"],
+      "year": { "year": 1967 }
+    },
+    {
+      "id": "text-difference-and-repetition",
+      "kind": "primary-text",
+      "title": { "en": "Difference and Repetition", "fa": "تفاوت و تکرار" },
+      "authors": ["Gilles Deleuze"],
+      "year": { "year": 1968 }
+    },
+    {
+      "id": "text-thousand-plateaus",
+      "kind": "primary-text",
+      "title": { "en": "A Thousand Plateaus", "fa": "هزار فلات" },
+      "authors": ["Gilles Deleuze", "Felix Guattari"],
+      "year": { "year": 1980 }
+    },
+    {
+      "id": "text-myth-of-sisyphus",
+      "kind": "primary-text",
+      "title": { "en": "The Myth of Sisyphus", "fa": "افسانهٔ سیزیف" },
+      "authors": ["Albert Camus"],
+      "year": { "year": 1942 }
+    },
+    {
+      "id": "text-the-rebel",
+      "kind": "primary-text",
+      "title": { "en": "The Rebel", "fa": "عصیانگر" },
+      "authors": ["Albert Camus"],
+      "year": { "year": 1951 },
+      "rightsNote": "The book whose reception ended his friendship with Sartre."
+    },
+    {
+      "id": "text-origin-and-goal-of-history",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Origin and Goal of History",
+        "fa": "خاستگاه و هدف تاریخ"
+      },
+      "authors": ["Karl Jaspers"],
+      "year": { "year": 1949 },
+      "rightsNote": "The book that named the Axial Age."
+    },
+    {
+      "id": "text-question-of-german-guilt",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Question of German Guilt",
+        "fa": "مسئلهٔ گناه آلمانی"
+      },
+      "authors": ["Karl Jaspers"],
+      "year": { "year": 1946 }
+    },
+    {
+      "id": "text-normal-and-pathological",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Normal and the Pathological",
+        "fa": "امر بهنجار و امر بیمارگون"
+      },
+      "authors": ["Georges Canguilhem"],
+      "rightsNote": "Originally a 1943 medical thesis, extended in 1966."
+    },
+    {
+      "id": "text-technological-society",
+      "kind": "primary-text",
+      "title": { "en": "The Technological Society", "fa": "جامعهٔ تکنولوژیک" },
+      "authors": ["Jacques Ellul"],
+      "year": { "year": 1954 }
+    },
+    {
+      "id": "text-propaganda-ellul",
+      "kind": "primary-text",
+      "title": {
+        "en": "Propaganda: The Formation of Men's Attitudes",
+        "fa": "پروپاگاندا: شکل‌گیری نگرش‌های آدمیان"
+      },
+      "authors": ["Jacques Ellul"],
+      "year": { "year": 1962 }
+    },
+    {
+      "id": "text-mode-of-existence-technical",
+      "kind": "primary-text",
+      "title": {
+        "en": "On the Mode of Existence of Technical Objects",
+        "fa": "دربارهٔ نحوهٔ وجود اشیای فنی"
+      },
+      "authors": ["Gilbert Simondon"],
+      "year": { "year": 1958 }
+    },
+    {
+      "id": "text-philosophy-of-liberation",
+      "kind": "primary-text",
+      "title": { "en": "Philosophy of Liberation", "fa": "فلسفهٔ رهایی‌بخشی" },
+      "authors": ["Enrique Dussel"],
+      "year": { "year": 1977 }
+    },
+    {
+      "id": "text-ethics-of-liberation",
+      "kind": "primary-text",
+      "title": { "en": "Ethics of Liberation", "fa": "اخلاق رهایی‌بخشی" },
+      "authors": ["Enrique Dussel"],
+      "year": { "year": 1998 }
+    },
+    {
+      "id": "text-amo-apatheia",
+      "kind": "primary-text",
+      "title": {
+        "en": "On the Impassivity of the Human Mind",
+        "fa": "دربارهٔ بی‌انفعالی ذهن آدمی"
+      },
+      "authors": ["Anton Wilhelm Amo"],
+      "year": { "year": 1734 }
+    },
+    {
+      "id": "text-amo-tractatus",
+      "kind": "primary-text",
+      "title": {
+        "en": "Treatise on the Art of Philosophising Soberly and Accurately",
+        "fa": "رساله در هنر فلسفیدنِ هشیار و دقیق"
+      },
+      "authors": ["Anton Wilhelm Amo"],
+      "year": { "year": 1738 }
+    },
+    {
+      "id": "text-cultural-universals",
+      "kind": "primary-text",
+      "title": {
+        "en": "Cultural Universals and Particulars",
+        "fa": "کلی‌ها و جزئی‌های فرهنگی"
+      },
+      "authors": ["Kwasi Wiredu"],
+      "year": { "year": 1996 }
+    },
+    {
+      "id": "text-philosophy-african-culture",
+      "kind": "primary-text",
+      "title": {
+        "en": "Philosophy and an African Culture",
+        "fa": "فلسفه و یک فرهنگ آفریقایی"
+      },
+      "authors": ["Kwasi Wiredu"],
+      "year": { "year": 1980 }
+    },
+    {
+      "id": "text-how-it-is-cordova",
+      "kind": "primary-text",
+      "title": {
+        "en": "How It Is: The Native American Philosophy of V. F. Cordova",
+        "fa": "چنین است: فلسفهٔ بومی آمریکاییِ و. ف. کوردووا"
+      },
+      "authors": ["Viola F. Cordova"],
+      "year": { "year": 2007 },
+      "rightsNote": "Assembled from her papers and published after her death."
+    },
+    {
+      "id": "text-discourse-on-colonialism",
+      "kind": "primary-text",
+      "title": {
+        "en": "Discourse on Colonialism",
+        "fa": "گفتار دربارهٔ استعمار"
+      },
+      "authors": ["Aime Cesaire"],
+      "year": { "year": 1950 }
+    },
+    {
+      "id": "text-cahier",
+      "kind": "primary-text",
+      "title": {
+        "en": "Notebook of a Return to the Native Land",
+        "fa": "دفترِ بازگشت به زادبوم"
+      },
+      "authors": ["Aime Cesaire"],
+      "year": { "year": 1939 }
+    },
+    {
+      "id": "text-liberte-negritude",
+      "kind": "primary-text",
+      "title": {
+        "en": "Liberte I: Negritude et humanisme",
+        "fa": "آزادی ۱: نگریتود و انسان‌گرایی"
+      },
+      "authors": ["Leopold Sedar Senghor"],
+      "year": { "year": 1964 }
+    },
+    {
+      "id": "text-consciencism",
+      "kind": "primary-text",
+      "title": { "en": "Consciencism", "fa": "آگاهی‌گرایی" },
+      "authors": ["Kwame Nkrumah"],
+      "year": { "year": 1964 }
+    },
+    {
+      "id": "text-neo-colonialism",
+      "kind": "primary-text",
+      "title": {
+        "en": "Neo-Colonialism: The Last Stage of Imperialism",
+        "fa": "نواستعمار: آخرین مرحلهٔ امپریالیسم"
+      },
+      "authors": ["Kwame Nkrumah"],
+      "year": { "year": 1965 }
+    },
+    {
+      "id": "text-in-my-fathers-house",
+      "kind": "primary-text",
+      "title": { "en": "In My Father's House", "fa": "در خانهٔ پدرم" },
+      "authors": ["Kwame Anthony Appiah"],
+      "year": { "year": 1992 }
+    },
+    {
+      "id": "text-cosmopolitanism-appiah",
+      "kind": "primary-text",
+      "title": {
+        "en": "Cosmopolitanism: Ethics in a World of Strangers",
+        "fa": "جهان‌وطنی: اخلاق در جهانی از بیگانگان"
+      },
+      "authors": ["Kwame Anthony Appiah"],
+      "year": { "year": 2006 }
+    },
+    {
+      "id": "text-invention-of-women",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Invention of Women: Making an African Sense of Western Gender Discourses",
+        "fa": "اختراع زنان: فهمی آفریقایی از گفتارهای جنسیتی غربی"
+      },
+      "authors": ["Oyeronke Oyewumi"],
+      "year": { "year": 1997 }
+    },
+    {
+      "id": "text-unsettling-coloniality",
+      "kind": "journal-article",
+      "title": {
+        "en": "Unsettling the Coloniality of Being/Power/Truth/Freedom",
+        "fa": "برهم‌زدن استعماری‌بودنِ هستی/قدرت/حقیقت/آزادی"
+      },
+      "authors": ["Sylvia Wynter"],
+      "publisher": "CR: The New Centennial Review",
+      "year": { "year": 2003 }
+    },
+    {
+      "id": "text-seven-essays",
+      "kind": "primary-text",
+      "title": {
+        "en": "Seven Interpretive Essays on Peruvian Reality",
+        "fa": "هفت جستار تفسیری دربارهٔ واقعیت پرو"
+      },
+      "authors": ["Jose Carlos Mariategui"],
+      "year": { "year": 1928 }
+    },
+    {
+      "id": "text-borderlands",
+      "kind": "primary-text",
+      "title": {
+        "en": "Borderlands/La Frontera: The New Mestiza",
+        "fa": "سرزمین‌های مرزی: مستیزای نو"
+      },
+      "authors": ["Gloria Anzaldua"],
+      "year": { "year": 1987 },
+      "rightsNote": "Written in English, Spanish, Nahuatl and several varieties of border speech, mostly untranslated within the text."
+    },
+    {
+      "id": "text-pedagogy-of-the-oppressed",
+      "kind": "primary-text",
+      "title": { "en": "Pedagogy of the Oppressed", "fa": "آموزش ستم‌دیدگان" },
+      "authors": ["Paulo Freire"],
+      "year": { "year": 1968 },
+      "rightsNote": "Written in exile after the 1964 Brazilian coup; published in Portuguese and English before it could appear in Brazil."
+    },
+    {
+      "id": "text-gender-trouble",
+      "kind": "primary-text",
+      "title": { "en": "Gender Trouble", "fa": "آشفتگی جنسیت" },
+      "authors": ["Judith Butler"],
+      "year": { "year": 1990 }
+    },
+    {
+      "id": "text-bodies-that-matter",
+      "kind": "primary-text",
+      "title": { "en": "Bodies That Matter", "fa": "بدن‌هایی که اهمیت دارند" },
+      "authors": ["Judith Butler"],
+      "year": { "year": 1993 },
+      "rightsNote": "Written largely to answer readers who took Gender Trouble to be denying that bodies are material."
+    },
+    {
+      "id": "text-aboriginal-worldviews",
+      "kind": "journal-article",
+      "title": {
+        "en": "Some Thoughts about the Philosophical Underpinnings of Aboriginal Worldviews",
+        "fa": "چند اندیشه دربارهٔ مبانی فلسفی جهان‌بینی‌های بومی"
+      },
+      "authors": ["Mary Graham"],
+      "publisher": "Worldviews",
+      "year": { "year": 1999 }
+    },
+    {
+      "id": "text-our-sea-of-islands",
+      "kind": "primary-text",
+      "title": { "en": "Our Sea of Islands", "fa": "دریای جزیره‌های ما" },
+      "authors": ["Epeli Hau'ofa"],
+      "year": { "year": 1993 }
+    },
+    {
+      "id": "text-aint-i-a-woman",
+      "kind": "primary-text",
+      "title": {
+        "en": "Ain't I a Woman: Black Women and Feminism",
+        "fa": "مگر من زن نیستم: زنان سیاه و فمینیسم"
+      },
+      "authors": ["bell hooks"],
+      "year": { "year": 1981 }
+    },
+    {
+      "id": "text-teaching-to-transgress",
+      "kind": "primary-text",
+      "title": {
+        "en": "Teaching to Transgress",
+        "fa": "آموزش برای عبور از مرز"
+      },
+      "authors": ["bell hooks"],
+      "year": { "year": 1994 }
+    },
+    {
+      "id": "text-women-race-and-class",
+      "kind": "primary-text",
+      "title": { "en": "Women, Race and Class", "fa": "زنان، نژاد و طبقه" },
+      "authors": ["Angela Y. Davis"],
+      "year": { "year": 1981 }
+    },
+    {
+      "id": "text-are-prisons-obsolete",
+      "kind": "primary-text",
+      "title": {
+        "en": "Are Prisons Obsolete?",
+        "fa": "آیا زندان‌ها منسوخ‌اند؟"
+      },
+      "authors": ["Angela Y. Davis"],
+      "year": { "year": 2003 }
+    },
+    {
+      "id": "text-principia-ethica",
+      "kind": "primary-text",
+      "title": { "en": "Principia Ethica", "fa": "مبانی اخلاق" },
+      "authors": ["G. E. Moore"],
+      "year": { "year": 1903 },
+      "rightsNote": "Cited by section."
+    },
+    {
+      "id": "text-language-truth-logic",
+      "kind": "primary-text",
+      "title": { "en": "Language, Truth and Logic", "fa": "زبان، حقیقت و منطق" },
+      "authors": ["A. J. Ayer"],
+      "year": { "year": 1936 }
+    },
+    {
+      "id": "text-concept-of-mind",
+      "kind": "primary-text",
+      "title": { "en": "The Concept of Mind", "fa": "مفهوم ذهن" },
+      "authors": ["Gilbert Ryle"],
+      "year": { "year": 1949 }
+    },
+    {
+      "id": "text-two-dogmas",
+      "kind": "journal-article",
+      "title": { "en": "Two Dogmas of Empiricism", "fa": "دو جزم تجربه‌گرایی" },
+      "authors": ["W. V. O. Quine"],
+      "publisher": "The Philosophical Review",
+      "year": { "year": 1951 }
+    },
+    {
+      "id": "text-word-and-object",
+      "kind": "primary-text",
+      "title": { "en": "Word and Object", "fa": "واژه و شیء" },
+      "authors": ["W. V. O. Quine"],
+      "year": { "year": 1960 }
+    },
+    {
+      "id": "text-logic-scientific-discovery",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Logic of Scientific Discovery",
+        "fa": "منطق اکتشاف علمی"
+      },
+      "authors": ["Karl Popper"],
+      "rightsNote": "Published in German in 1934 and in Popper's own English translation in 1959."
+    },
+    {
+      "id": "text-open-society",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Open Society and Its Enemies",
+        "fa": "جامعهٔ باز و دشمنانش"
+      },
+      "authors": ["Karl Popper"],
+      "year": { "year": 1945 }
+    },
+    {
+      "id": "text-structure-scientific-revolutions",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Structure of Scientific Revolutions",
+        "fa": "ساختار انقلاب‌های علمی"
+      },
+      "authors": ["Thomas S. Kuhn"],
+      "year": { "year": 1962 },
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-theory-of-justice",
+      "kind": "primary-text",
+      "title": { "en": "A Theory of Justice", "fa": "نظریه‌ای دربارهٔ عدالت" },
+      "authors": ["John Rawls"],
+      "year": { "year": 1971 },
+      "rightsNote": "Cited by section."
+    },
+    {
+      "id": "text-political-liberalism",
+      "kind": "primary-text",
+      "title": { "en": "Political Liberalism", "fa": "لیبرالیسم سیاسی" },
+      "authors": ["John Rawls"],
+      "year": { "year": 1993 }
+    },
+    {
+      "id": "text-modern-moral-philosophy",
+      "kind": "journal-article",
+      "title": { "en": "Modern Moral Philosophy", "fa": "فلسفهٔ اخلاق مدرن" },
+      "authors": ["G. E. M. Anscombe"],
+      "publisher": "Philosophy",
+      "year": { "year": 1958 }
+    },
+    {
+      "id": "text-intention-anscombe",
+      "kind": "primary-text",
+      "title": { "en": "Intention", "fa": "قصد" },
+      "authors": ["G. E. M. Anscombe"],
+      "year": { "year": 1957 },
+      "rightsNote": "Cited by numbered section."
+    },
+    {
+      "id": "text-sovereignty-of-good",
+      "kind": "primary-text",
+      "title": { "en": "The Sovereignty of Good", "fa": "حاکمیت خیر" },
+      "authors": ["Iris Murdoch"],
+      "year": { "year": 1970 }
+    },
+    {
+      "id": "text-fragility-of-goodness",
+      "kind": "primary-text",
+      "title": { "en": "The Fragility of Goodness", "fa": "شکنندگی نیکی" },
+      "authors": ["Martha Nussbaum"],
+      "year": { "year": 1986 }
+    },
+    {
+      "id": "text-creating-capabilities",
+      "kind": "primary-text",
+      "title": { "en": "Creating Capabilities", "fa": "آفریدن قابلیت‌ها" },
+      "authors": ["Martha Nussbaum"],
+      "year": { "year": 2011 }
+    },
+    {
+      "id": "text-philosophy-and-mirror",
+      "kind": "primary-text",
+      "title": {
+        "en": "Philosophy and the Mirror of Nature",
+        "fa": "فلسفه و آینهٔ طبیعت"
+      },
+      "authors": ["Richard Rorty"],
+      "year": { "year": 1979 }
+    },
+    {
+      "id": "text-contingency-irony-solidarity",
+      "kind": "primary-text",
+      "title": {
+        "en": "Contingency, Irony, and Solidarity",
+        "fa": "امکان، طعنه و همبستگی"
+      },
+      "authors": ["Richard Rorty"],
+      "year": { "year": 1989 }
+    },
+    {
+      "id": "text-road-to-serfdom",
+      "kind": "primary-text",
+      "title": { "en": "The Road to Serfdom", "fa": "راه بردگی" },
+      "authors": ["Friedrich Hayek"],
+      "year": { "year": 1944 }
+    },
+    {
+      "id": "text-use-of-knowledge",
+      "kind": "journal-article",
+      "title": {
+        "en": "The Use of Knowledge in Society",
+        "fa": "کاربرد معرفت در جامعه"
+      },
+      "authors": ["Friedrich Hayek"],
+      "publisher": "The American Economic Review",
+      "year": { "year": 1945 }
+    },
+    {
+      "id": "text-development-as-freedom",
+      "kind": "primary-text",
+      "title": { "en": "Development as Freedom", "fa": "توسعه همچون آزادی" },
+      "authors": ["Amartya Sen"],
+      "year": { "year": 1999 }
+    },
+    {
+      "id": "text-idea-of-justice",
+      "kind": "primary-text",
+      "title": { "en": "The Idea of Justice", "fa": "ایدهٔ عدالت" },
+      "authors": ["Amartya Sen"],
+      "year": { "year": 2009 }
+    },
+    {
+      "id": "text-ethics-inventing",
+      "kind": "primary-text",
+      "title": {
+        "en": "Ethics: Inventing Right and Wrong",
+        "fa": "اخلاق: اختراع درست و نادرست"
+      },
+      "authors": ["J. L. Mackie"],
+      "year": { "year": 1977 }
+    },
+    {
+      "id": "text-virtues-and-vices",
+      "kind": "primary-text",
+      "title": { "en": "Virtues and Vices", "fa": "فضیلت‌ها و رذیلت‌ها" },
+      "authors": ["Philippa Foot"],
+      "year": { "year": 1978 },
+      "rightsNote": "Collects the 1967 paper in which the trolley case first appears, as one example among several in an argument about abortion and double effect."
+    },
+    {
+      "id": "text-natural-goodness",
+      "kind": "primary-text",
+      "title": { "en": "Natural Goodness", "fa": "نیکیِ طبیعی" },
+      "authors": ["Philippa Foot"],
+      "year": { "year": 2001 }
+    },
+    {
+      "id": "text-animal-liberation",
+      "kind": "primary-text",
+      "title": { "en": "Animal Liberation", "fa": "رهایی حیوانات" },
+      "authors": ["Peter Singer"],
+      "year": { "year": 1975 }
+    },
+    {
+      "id": "text-famine-affluence-morality",
+      "kind": "journal-article",
+      "title": {
+        "en": "Famine, Affluence, and Morality",
+        "fa": "قحطی، فراوانی و اخلاق"
+      },
+      "authors": ["Peter Singer"],
+      "publisher": "Philosophy & Public Affairs",
+      "year": { "year": 1972 }
+    },
+    {
+      "id": "text-defense-of-abortion",
+      "kind": "journal-article",
+      "title": { "en": "A Defense of Abortion", "fa": "دفاعی از سقط جنین" },
+      "authors": ["Judith Jarvis Thomson"],
+      "publisher": "Philosophy & Public Affairs",
+      "year": { "year": 1971 }
+    },
+    {
+      "id": "text-concept-of-law",
+      "kind": "primary-text",
+      "title": { "en": "The Concept of Law", "fa": "مفهوم قانون" },
+      "authors": ["H. L. A. Hart"],
+      "year": { "year": 1961 }
+    },
+    {
+      "id": "text-taking-rights-seriously",
+      "kind": "primary-text",
+      "title": { "en": "Taking Rights Seriously", "fa": "جدی‌گرفتن حقوق" },
+      "authors": ["Ronald Dworkin"],
+      "year": { "year": 1977 }
+    },
+    {
+      "id": "text-laws-empire",
+      "kind": "primary-text",
+      "title": { "en": "Law's Empire", "fa": "امپراتوری قانون" },
+      "authors": ["Ronald Dworkin"],
+      "year": { "year": 1986 }
+    },
+    {
+      "id": "text-godel-1931",
+      "kind": "journal-article",
+      "title": {
+        "en": "On Formally Undecidable Propositions of Principia Mathematica and Related Systems",
+        "fa": "دربارهٔ گزاره‌های صوریِ تصمیم‌ناپذیر در پرینکیپیا ماتماتیکا و نظام‌های مرتبط"
+      },
+      "authors": ["Kurt Godel"],
+      "publisher": "Monatshefte fur Mathematik und Physik",
+      "year": { "year": 1931 }
+    },
+    {
+      "id": "text-brouwer-intuitionism",
+      "kind": "journal-article",
+      "title": {
+        "en": "Intuitionism and Formalism",
+        "fa": "شهودگرایی و صورت‌گرایی"
+      },
+      "authors": ["L. E. J. Brouwer"],
+      "publisher": "Bulletin of the American Mathematical Society",
+      "year": { "year": 1913 }
+    },
+    {
+      "id": "text-transfiguration-commonplace",
+      "kind": "primary-text",
+      "title": {
+        "en": "The Transfiguration of the Commonplace",
+        "fa": "استحالهٔ امر پیش‌پاافتاده"
+      },
+      "authors": ["Arthur C. Danto"],
+      "year": { "year": 1981 }
+    },
+    {
+      "id": "text-cyborg-manifesto",
+      "kind": "journal-article",
+      "title": { "en": "A Cyborg Manifesto", "fa": "بیانیهٔ سایبورگ" },
+      "authors": ["Donna Haraway"],
+      "publisher": "Socialist Review",
+      "year": { "year": 1985 }
+    },
+    {
+      "id": "text-situated-knowledges",
+      "kind": "journal-article",
+      "title": { "en": "Situated Knowledges", "fa": "معرفت‌های موقعیت‌مند" },
+      "authors": ["Donna Haraway"],
+      "publisher": "Feminist Studies",
+      "year": { "year": 1988 }
+    },
+    {
+      "id": "text-staying-with-the-trouble",
+      "kind": "primary-text",
+      "title": { "en": "Staying with the Trouble", "fa": "ماندن با دردسر" },
+      "authors": ["Donna Haraway"],
+      "year": { "year": 2016 }
+    },
+    {
+      "id": "text-science-as-social-knowledge",
+      "kind": "primary-text",
+      "title": {
+        "en": "Science as Social Knowledge",
+        "fa": "علم همچون معرفت اجتماعی"
+      },
+      "authors": ["Helen Longino"],
+      "year": { "year": 1990 }
+    },
+    {
+      "id": "text-fate-of-knowledge",
+      "kind": "primary-text",
+      "title": { "en": "The Fate of Knowledge", "fa": "سرنوشت معرفت" },
+      "authors": ["Helen Longino"],
+      "year": { "year": 2002 }
+    },
+    {
+      "id": "text-synesius-letters",
+      "kind": "primary-text",
+      "title": { "en": "Letters", "fa": "نامه‌ها" },
+      "authors": ["Synesius of Cyrene"],
+      "rightsNote": "Seven of the surviving letters are addressed to Hypatia, and are the only near-contemporary evidence about her teaching; none of her own writing survives."
+    },
+    {
+      "id": "text-proslogion-anselm-reply",
+      "kind": "primary-text",
+      "title": { "en": "Reply to Gaunilo", "fa": "پاسخ به گاونیلو" },
+      "authors": ["Anselm of Canterbury"],
+      "rightsNote": "Printed with the Proslogion together with Gaunilo's objection, at Anselm's own instruction."
+    },
+    {
+      "id": "text-ockham-quodlibeta",
+      "kind": "primary-text",
+      "title": { "en": "Quodlibetal Questions", "fa": "پرسش‌های آزاد" },
+      "authors": ["William of Ockham"],
+      "rightsNote": "Records of public disputations in which any question could be put; cited by quodlibet and question."
+    },
+    {
+      "id": "text-frege-sinn-bedeutung",
+      "kind": "journal-article",
+      "title": { "en": "On Sense and Reference", "fa": "دربارهٔ معنا و مصداق" },
+      "authors": ["Gottlob Frege"],
+      "publisher": "Zeitschrift fur Philosophie und philosophische Kritik",
+      "year": { "year": 1892 }
+    },
+    {
+      "id": "text-grundlagen",
+      "kind": "primary-text",
+      "title": { "en": "The Foundations of Arithmetic", "fa": "مبانی حساب" },
+      "authors": ["Gottlob Frege"],
+      "year": { "year": 1884 },
+      "rightsNote": "Cited by section."
+    },
+    {
+      "id": "text-visible-invisible",
+      "kind": "primary-text",
+      "title": { "en": "The Visible and the Invisible", "fa": "مرئی و نامرئی" },
+      "authors": ["Maurice Merleau-Ponty"],
+      "rightsNote": "Left unfinished at his death in 1961 and published with his working notes."
+    },
+    {
+      "id": "text-primer-sueno",
+      "kind": "primary-text",
+      "title": { "en": "First Dream", "fa": "خواب نخستین" },
+      "authors": ["Sor Juana Ines de la Cruz"],
+      "rightsNote": "A philosophical poem of nearly a thousand lines, and the work she said was the only one she wrote for her own pleasure."
+    },
+    {
+      "id": "text-mencius-book",
+      "kind": "primary-text",
+      "title": { "en": "Mengzi", "fa": "منگ‌دزه" },
+      "authors": ["Mencius"],
+      "rightsNote": "Cited by book and passage."
+    },
+    {
+      "id": "text-xunzi-text",
+      "kind": "primary-text",
+      "title": { "en": "Xunzi", "fa": "شون‌دزه" },
+      "authors": ["Xunzi"],
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-hanfeizi-text",
+      "kind": "primary-text",
+      "title": { "en": "Han Feizi", "fa": "هان فی‌دزه" },
+      "authors": ["Han Feizi"],
+      "rightsNote": "Cited by chapter."
+    },
+    {
+      "id": "text-abhidharmakosa",
+      "kind": "primary-text",
+      "title": { "en": "Treasury of Abhidharma", "fa": "گنجینهٔ ابهیدرمه" },
+      "authors": ["Vasubandhu"],
+      "rightsNote": "Verses with the author's own commentary, in which he argues against several of the positions the verses set out."
+    },
+    {
+      "id": "text-nyayapravesa",
+      "kind": "primary-text",
+      "title": { "en": "Introduction to Logic", "fa": "درآمدی بر منطق" },
+      "authors": ["Dignaga"],
+      "rightsNote": "Dignaga's logical works survive mainly in Tibetan and Chinese translation; most of the Sanskrit is lost."
     }
   ]
 }

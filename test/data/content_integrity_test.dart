@@ -207,6 +207,60 @@ void main() {
       }
     });
 
+    test('every philosopher rests on a text, not only on the encyclopedia', () {
+      // 147 of 191 entries once cited nothing but the Stanford Encyclopedia,
+      // because the corpus held no text of theirs. That is one defect wearing
+      // two coats: the entry is thin *and* it is unsourced, and an entry whose
+      // only support is a tertiary summary is repeating what it read.
+      //
+      // Two philosophers legitimately have no text — Pythagoras and Hypatia
+      // left no writing at all — and they are grounded in the ancient reports
+      // that do exist rather than exempted, because a named report is evidence
+      // and an encyclopedia entry about it is not.
+      final unsupported = <String>[];
+      for (final philosopher in corpus.philosophers) {
+        final cited = <String>{
+          for (final citation in philosopher.citations) citation.sourceId,
+          for (final section in philosopher.article.sections)
+            for (final citation in section.citations) citation.sourceId,
+        };
+        final rests = cited
+            .map(corpus.source)
+            .nonNulls
+            .any((source) => source.kind.rank <= SourceKind.monograph.rank);
+        if (!rests) unsupported.add(philosopher.id);
+      }
+      expect(
+        unsupported,
+        isEmpty,
+        reason:
+            'these entries cite only reference works: ${unsupported.join(', ')}',
+      );
+    });
+
+    test('every philosopher offers more than one reading depth', () {
+      // The reader can ask for more, and for 127 entries the control had
+      // nothing to give: one `quick` paragraph was the whole article, so
+      // turning the depth up changed nothing on the screen. A depth control
+      // that does not work is worse than none, because it promises.
+      final flat = corpus.philosophers
+          .where(
+            (philosopher) =>
+                philosopher.article.sections
+                    .map((section) => section.depth)
+                    .toSet()
+                    .length <
+                2,
+          )
+          .map((philosopher) => philosopher.id)
+          .toList();
+      expect(
+        flat,
+        isEmpty,
+        reason: 'these entries have only one depth: ${flat.join(', ')}',
+      );
+    });
+
     test('no source carries an identifier or page range unless it is real', () {
       // The content policy forbids inventing bibliographic detail. Nothing in
       // the shipped corpus should carry a DOI, ISBN or page range at all yet;
