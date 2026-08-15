@@ -1,0 +1,286 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/core/design/backdrop.dart';
+import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/responsive.dart';
+import 'package:philosophyy/core/design/typography.dart';
+import 'package:philosophyy/core/search/text_normalizer.dart';
+import 'package:philosophyy/domain/entities/glossary_term.dart';
+import 'package:philosophyy/domain/value_objects/app_language.dart';
+import 'package:philosophyy/domain/value_objects/entity_ref.dart';
+import 'package:philosophyy/features/shared/skeletons.dart';
+import 'package:philosophyy/features/shared/ui_states.dart';
+import 'package:philosophyy/l10n/generated/app_localizations.dart';
+
+/// The glossary: every word in the product a reader might not know.
+///
+/// ## Why it is a screen and not only a popover
+///
+/// The popover answers a question the reader already has. This screen answers
+/// one they do not know to ask — what vocabulary does this subject expect of
+/// me — and it is the difference between a product that assumes you can read
+/// philosophy and one that will teach you to.
+class GlossaryScreen extends ConsumerStatefulWidget {
+  const GlossaryScreen({this.initialTermId, super.key});
+
+  /// A term to scroll to and open on arrival, when linked to from a definition.
+  final String? initialTermId;
+
+  @override
+  ConsumerState<GlossaryScreen> createState() => _GlossaryScreenState();
+}
+
+class _GlossaryScreenState extends ConsumerState<GlossaryScreen> {
+  String _query = '';
+
+  @override
+  Widget build(BuildContext context) {
+    final corpus = ref.watch(corpusProvider);
+    final language = ref.watch(activeLanguageProvider);
+
+    return Scaffold(
+      backgroundColor: Colors.transparent,
+      appBar: AppBar(
+        title: Text(AppL10n.of(context).glossaryTitle),
+        backgroundColor: Colors.transparent,
+      ),
+      body: LamplightBackdrop(
+        intensity: 0.6,
+        child: corpus.when(
+          loading: ListSkeleton.new,
+          error: (error, stack) => ErrorView(
+            details: error.toString(),
+            onRetry: () => ref.invalidate(corpusProvider),
+          ),
+          data: (data) => _body(context, data.glossary, language),
+        ),
+      ),
+    );
+  }
+
+  Widget _body(
+    BuildContext context,
+    List<GlossaryTerm> glossary,
+    AppLanguage language,
+  ) {
+    final l10n = AppL10n.of(context);
+
+    // Matching goes through the same normaliser search uses, so a Persian
+    // reader typing without the zero-width non-joiner still finds the word.
+    final needle = TextNormalizer.normalize(_query);
+    final terms = needle.isEmpty
+        ? glossary
+        : glossary.where((term) {
+            final haystack = <String>[
+              term.term.en,
+              ?term.term.fa,
+              ?term.nativeTerm,
+              ?term.transliteration,
+              term.shortDefinition.en,
+              ?term.shortDefinition.fa,
+              ...term.aliases,
+            ].map(TextNormalizer.normalize).join(' ');
+            return haystack.contains(needle);
+          }).toList();
+
+    return SafeArea(
+      child: ContentColumn(
+        child: CustomScrollView(
+          slivers: <Widget>[
+            SliverPadding(
+              padding: EdgeInsets.fromLTRB(
+                ResponsiveLayout.gutterFor(context),
+                Spacing.md,
+                ResponsiveLayout.gutterFor(context),
+                Spacing.lg,
+              ),
+              sliver: SliverToBoxAdapter(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      l10n.glossaryIntro,
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                    const SizedBox(height: Spacing.lg),
+                    TextField(
+                      decoration: InputDecoration(
+                        prefixIcon: const Icon(Icons.search),
+                        hintText: l10n.glossarySearchHint,
+                        border: const OutlineInputBorder(
+                          borderRadius: Radii.cardRadius,
+                        ),
+                      ),
+                      onChanged: (value) => setState(() => _query = value),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            if (terms.isEmpty)
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.all(Spacing.xxl),
+                  child: Text(
+                    l10n.searchNoResultsBody,
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
+                ),
+              )
+            else
+              SliverPadding(
+                padding: EdgeInsets.symmetric(
+                  horizontal: ResponsiveLayout.gutterFor(context),
+                ),
+                sliver: SliverList.builder(
+                  itemCount: terms.length,
+                  itemBuilder: (context, index) => Padding(
+                    padding: const EdgeInsets.only(bottom: Spacing.md),
+                    child: _TermCard(
+                      term: terms[index],
+                      language: language,
+                      startExpanded: terms[index].id == widget.initialTermId,
+                    ),
+                  ),
+                ),
+              ),
+            const SliverToBoxAdapter(child: SizedBox(height: Spacing.xxxl)),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// One term, with its long definition behind a tap.
+///
+/// Collapsed by default: fifty terms each showing a paragraph is a wall, and
+/// the reader scanning for one word should be able to see the list.
+class _TermCard extends StatefulWidget {
+  const _TermCard({
+    required this.term,
+    required this.language,
+    this.startExpanded = false,
+  });
+
+  final GlossaryTerm term;
+  final AppLanguage language;
+  final bool startExpanded;
+
+  @override
+  State<_TermCard> createState() => _TermCardState();
+}
+
+class _TermCardState extends State<_TermCard> {
+  late bool _expanded = widget.startExpanded;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final term = widget.term;
+    final language = widget.language;
+    final long = term.longDefinition;
+    final native = term.nativeTerm;
+    final conceptId = term.conceptId;
+    final canExpand = long != null || conceptId != null;
+
+    return Material(
+      color: theme.colorScheme.surfaceContainerLow,
+      clipBehavior: Clip.antiAlias,
+      shape: RoundedRectangleBorder(
+        borderRadius: Radii.surfaceRadius,
+        side: BorderSide(color: theme.colorScheme.outlineVariant),
+      ),
+      child: InkWell(
+        onTap: canExpand ? () => setState(() => _expanded = !_expanded) : null,
+        child: Padding(
+          padding: const EdgeInsets.all(Spacing.lg),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Expanded(
+                    child: Text(
+                      term.term.resolve(language),
+                      style: theme.textTheme.titleMedium,
+                    ),
+                  ),
+                  // The other language, always visible. A bilingual glossary
+                  // whose Persian reader cannot see the English word is only
+                  // half a glossary: the English is what they will meet in a
+                  // paper or a search box.
+                  Text(
+                    language == AppLanguage.fa
+                        ? term.term.en
+                        : term.term.fa ?? '',
+                    style: theme.textTheme.labelMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ],
+              ),
+              if (native != null) ...<Widget>[
+                const SizedBox(height: Spacing.xxs),
+                Text(
+                  native,
+                  style: theme.textTheme.labelMedium?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ],
+              const SizedBox(height: Spacing.sm),
+              Text(
+                term.shortDefinition.resolve(language),
+                style: AppTypography.reading(
+                  term.shortDefinition.resolvedLanguage(language),
+                ).copyWith(color: theme.colorScheme.onSurface),
+              ),
+              AnimatedCrossFade(
+                duration: MotionTokens.quick,
+                sizeCurve: MotionTokens.standard,
+                crossFadeState: _expanded
+                    ? CrossFadeState.showSecond
+                    : CrossFadeState.showFirst,
+                firstChild: const SizedBox(width: double.infinity),
+                secondChild: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    if (long != null) ...<Widget>[
+                      const SizedBox(height: Spacing.md),
+                      Text(
+                        long.resolve(language),
+                        style: AppTypography.reading(
+                          long.resolvedLanguage(language),
+                        ).copyWith(color: theme.colorScheme.onSurfaceVariant),
+                      ),
+                    ],
+                    if (conceptId != null) ...<Widget>[
+                      const SizedBox(height: Spacing.md),
+                      Align(
+                        alignment: AlignmentDirectional.centerStart,
+                        child: FilledButton.tonalIcon(
+                          onPressed: () => context.push(
+                            EntityRef(EntityKind.concept, conceptId).route,
+                          ),
+                          icon: const Icon(Icons.article_outlined, size: 18),
+                          label: Text(l10n.glossaryOpenEntry),
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

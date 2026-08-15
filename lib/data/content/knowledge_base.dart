@@ -1,8 +1,10 @@
 import 'package:philosophyy/core/errors/content_exception.dart';
 import 'package:philosophyy/domain/entities/argument.dart';
 import 'package:philosophyy/domain/entities/concept.dart';
+import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
+import 'package:philosophyy/domain/entities/primer_step.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/school.dart';
@@ -32,8 +34,14 @@ class KnowledgeBase {
     required List<Argument> arguments,
     required List<Source> sources,
     required List<Relation> relations,
+    List<GlossaryTerm> glossary = const <GlossaryTerm>[],
+    List<PrimerStep> primer = const <PrimerStep>[],
     Taxonomy? taxonomy,
   }) : taxonomy = taxonomy ?? Taxonomy.empty,
+       // Sorted on a copy: the caller's list may be const, and mutating an
+       // argument to a constructor is a surprise nobody should have to find.
+       glossary = List.unmodifiable(<GlossaryTerm>[...glossary]..sort()),
+       primer = List.unmodifiable(primer),
        philosophers = List.unmodifiable(philosophers),
        concepts = List.unmodifiable(concepts),
        works = List.unmodifiable(works),
@@ -48,7 +56,8 @@ class KnowledgeBase {
        _schoolsById = {for (final it in schools) it.id: it},
        _quotesById = {for (final it in quotes) it.id: it},
        _argumentsById = {for (final it in arguments) it.id: it},
-       _sourcesById = {for (final it in sources) it.id: it} {
+       _sourcesById = {for (final it in sources) it.id: it},
+       _glossaryById = {for (final it in glossary) it.id: it} {
     _indexRelations();
   }
 
@@ -97,6 +106,12 @@ class KnowledgeBase {
   /// Every authored relation, in the direction it was authored.
   final List<Relation> relations;
 
+  /// The words a reader may not know, in alphabetical order.
+  final List<GlossaryTerm> glossary;
+
+  /// The guided introduction, in the order it is meant to be read.
+  final List<PrimerStep> primer;
+
   final Map<String, Philosopher> _philosophersById;
   final Map<String, Concept> _conceptsById;
   final Map<String, Work> _worksById;
@@ -104,6 +119,7 @@ class KnowledgeBase {
   final Map<String, Quote> _quotesById;
   final Map<String, Argument> _argumentsById;
   final Map<String, Source> _sourcesById;
+  final Map<String, GlossaryTerm> _glossaryById;
 
   /// Adjacency: every relation touching a given entity, already oriented so
   /// the entity is the subject.
@@ -142,6 +158,9 @@ class KnowledgeBase {
 
   /// Looks up a work.
   Work? work(String id) => _worksById[id];
+
+  /// Looks up a glossary term.
+  GlossaryTerm? glossaryTerm(String id) => _glossaryById[id];
 
   /// Looks up a school.
   School? school(String id) => _schoolsById[id];

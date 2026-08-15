@@ -1,0 +1,128 @@
+{
+  "_comment": "The guided introduction. Ordered: each step assumes only the ones before it, and none of them assumes the reader has met philosophy before.",
+  "steps": [
+    {
+      "id": "what-is-philosophy",
+      "title": { "en": "What philosophy is", "fa": "فلسفه چیست" },
+      "body": {
+        "en": "Philosophy is what you are doing when you ask a question that cannot be settled by looking. How far away is the moon is not a philosophical question — you measure. Whether it is ever right to lie is, and so is what makes you the same person you were at six. There is no instrument for these, and yet some answers are clearly worse than others. Philosophy is the work of finding out which, using reasons.",
+        "fa": "فلسفه همان کاری است که می‌کنی وقتی پرسشی می‌پرسی که با نگاه‌کردن فیصله نمی‌یابد. «ماه چقدر دور است» پرسش فلسفی نیست — اندازه می‌گیری. «آیا هرگز درست است که دروغ بگوییم» هست، و همچنین «چه چیزی تو را همان کسی می‌کند که در شش‌سالگی بودی». برای این‌ها ابزاری نیست، و با این حال برخی پاسخ‌ها آشکارا بدتر از دیگرانند. فلسفه کارِ یافتنِ همین است، با دلیل."
+      },
+      "question": {
+        "en": "What is a question you have that no measurement could answer?",
+        "fa": "پرسشی که داری و هیچ اندازه‌گیری‌ای پاسخش نمی‌دهد چیست؟"
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "claims-and-reasons",
+      "title": {
+        "en": "Claims, and reasons for them",
+        "fa": "ادعا، و دلیل برای آن"
+      },
+      "body": {
+        "en": "A claim is a sentence that can be true or false. A reason is another claim offered in support of it. That is the whole machinery. What makes philosophy difficult is not the machinery but the habit it asks for: when you meet a claim, ask what would have to be true for it to be false. If nothing would, the claim is not saying anything about the world.",
+        "fa": "ادعا جمله‌ای است که می‌تواند درست یا نادرست باشد. دلیل، ادعای دیگری است که در پشتیبانی از آن آورده می‌شود. کل دستگاه همین است. آنچه فلسفه را دشوار می‌کند این دستگاه نیست، بلکه عادتی است که می‌طلبد: وقتی با ادعایی روبه‌رو شدی، بپرس چه چیزی باید درست باشد تا آن ادعا نادرست شود. اگر هیچ چیز، آن ادعا چیزی دربارهٔ جهان نمی‌گوید."
+      },
+      "reads": [{ "ref": "concept:falsifiability" }],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "what-an-argument-is",
+      "title": { "en": "What an argument is", "fa": "استدلال چیست" },
+      "body": {
+        "en": "In ordinary speech an argument is a quarrel. In philosophy it is a structure: some premises, and a conclusion said to follow from them. That gives you exactly two ways to disagree with anyone — deny a premise, or deny that the conclusion follows. Knowing which one you are doing is most of what it takes to argue well, and most of what people fail to do.",
+        "fa": "در گفتار روزمره، «بحث» یعنی نزاع. در فلسفه، «استدلال» یک ساختار است: چند مقدمه، و نتیجه‌ای که گفته می‌شود از آن‌ها لازم می‌آید. همین دقیقاً دو راه برای مخالفت با هرکسی به تو می‌دهد: مقدمه‌ای را انکار کن، یا انکار کن که نتیجه لازم می‌آید. دانستنِ اینکه کدام‌یک را می‌کنی، بیشترِ آن چیزی است که خوب استدلال‌کردن می‌طلبد، و بیشترِ آن چیزی که مردم نمی‌کنند."
+      },
+      "reads": [
+        { "ref": "philosopher:zeno-of-elea" },
+        { "ref": "argument:achilles-and-tortoise" }
+      ],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "valid-and-true",
+      "title": {
+        "en": "Valid is not the same as true",
+        "fa": "معتبر با درست یکی نیست"
+      },
+      "body": {
+        "en": "An argument can be perfectly valid and reach a false conclusion, if one of its premises is false. It can also reach a true conclusion by accident, from premises that do not support it. So there are two separate questions to ask of any argument: does the conclusion follow, and are the premises true. Almost every bad argument you will meet is bad in exactly one of these two ways.",
+        "fa": "یک استدلال می‌تواند کاملاً معتبر باشد و به نتیجه‌ای نادرست برسد، اگر یکی از مقدماتش نادرست باشد. همچنین می‌تواند اتفاقی به نتیجه‌ای درست برسد، از مقدماتی که پشتیبانی‌اش نمی‌کنند. پس دربارهٔ هر استدلالی دو پرسش جدا هست: آیا نتیجه لازم می‌آید، و آیا مقدمات درست‌اند. تقریباً هر استدلال بدی که ببینی، دقیقاً به یکی از این دو شکل بد است."
+      },
+      "reads": [{ "ref": "concept:trolley-problem" }],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "why-disagreement",
+      "title": {
+        "en": "Why philosophers disagree so much",
+        "fa": "چرا فیلسوفان این‌قدر اختلاف دارند"
+      },
+      "body": {
+        "en": "It looks like a scandal: two thousand years and no agreement. But the questions that get settled stop being philosophy and become something else — physics, psychology, logic all left home this way. What remains in philosophy is the residue of questions that resist settlement, so persistent disagreement is what you should expect from a healthy discipline rather than evidence against one.",
+        "fa": "به نظر رسوایی می‌آید: دو هزار سال و هیچ توافقی. اما پرسش‌هایی که فیصله می‌یابند دیگر فلسفه نیستند و چیز دیگری می‌شوند — فیزیک و روان‌شناسی و منطق همه به همین شکل از خانه رفتند. آنچه در فلسفه می‌ماند ته‌ماندهٔ پرسش‌هایی است که در برابر فیصله مقاومت می‌کنند، پس اختلافِ پابرجا چیزی است که باید از رشته‌ای سالم انتظار داشت، نه شاهدی بر ضد آن."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "the-big-questions",
+      "title": {
+        "en": "The questions philosophy is made of",
+        "fa": "پرسش‌هایی که فلسفه از آن‌ها ساخته شده"
+      },
+      "body": {
+        "en": "The branches are not arbitrary. What is there — metaphysics. What can we know — epistemology. What should we do — ethics. How should we live together — political philosophy. What is beauty — aesthetics. What is thinking — philosophy of mind. Every entry in this app sits under at least one of these, and the branch is often the fastest way to find out whether an unfamiliar philosopher is asking a question you care about.",
+        "fa": "شاخه‌ها دلبخواه نیستند. چه هست — مابعدالطبیعه. چه می‌توانیم بدانیم — معرفت‌شناسی. چه باید بکنیم — اخلاق. چگونه باید با هم زندگی کنیم — فلسفهٔ سیاسی. زیبایی چیست — زیبایی‌شناسی. اندیشیدن چیست — فلسفهٔ ذهن. هر مدخل این برنامه زیر دست‌کم یکی از این‌ها می‌نشیند، و شاخه اغلب سریع‌ترین راه فهمیدنِ این است که آیا فیلسوفی ناآشنا پرسشی می‌پرسد که برایت مهم باشد."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "not-only-greece",
+      "title": {
+        "en": "Philosophy did not start in Greece",
+        "fa": "فلسفه در یونان آغاز نشد"
+      },
+      "body": {
+        "en": "The oldest ethical text in this app is Egyptian and predates Socrates by two thousand years. India and China were arguing about knowledge and government before Plato was born, and the arguments are recognisably the same kind of thing. A history that starts in Athens is not shorter because Athens came first; it is shorter because of what was left out, and this app is organised so you can notice that.",
+        "fa": "کهن‌ترین متن اخلاقی این برنامه مصری است و دو هزار سال بر سقراط مقدم. هند و چین پیش از زاده‌شدن افلاطون دربارهٔ معرفت و حکومت بحث می‌کردند، و آن بحث‌ها به‌روشنی از همان جنس‌اند. تاریخی که از آتن آغاز می‌شود از آن رو کوتاه‌تر نیست که آتن اول بوده؛ از آن رو کوتاه‌تر است که چه چیزهایی کنار گذاشته شده، و این برنامه چنان سامان یافته که بتوانی این را ببینی."
+      },
+      "reads": [
+        { "ref": "philosopher:ptahhotep" },
+        { "ref": "philosopher:laozi" },
+        { "ref": "philosopher:buddha" }
+      ],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "reading-a-philosopher",
+      "title": {
+        "en": "How to read a philosopher",
+        "fa": "چگونه یک فیلسوف را بخوانیم"
+      },
+      "body": {
+        "en": "Find the question first. Almost every difficult passage becomes readable once you know what the author was trying to answer and what answer they were arguing against. Then find the claim, then the reason. If a paragraph does none of these three, it is probably setting up the ones that do — and it is worth reading slowly rather than skipping.",
+        "fa": "نخست پرسش را بیاب. تقریباً هر بند دشواری خواندنی می‌شود وقتی بدانی نویسنده می‌خواسته به چه پاسخ دهد و در برابر چه پاسخی استدلال می‌کرده. سپس ادعا را بیاب، و بعد دلیل را. اگر بندی هیچ‌یک از این سه را نداشت، احتمالاً دارد زمینهٔ آن‌هایی را می‌چیند که دارند — و ارزش دارد آهسته خوانده شود نه اینکه رد شود."
+      },
+      "reads": [
+        { "ref": "philosopher:socrates" },
+        { "ref": "concept:socratic-method" }
+      ],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "where-to-start",
+      "title": { "en": "Where to start reading", "fa": "از کجا شروع کنیم" },
+      "body": {
+        "en": "Not at the beginning of history. Start with a question you already have, use the branches to find who asked it, and read one entry at a time. If a word stops you, tap it — the underlined ones have definitions that arrive without taking you off the page. When an entry mentions someone you have not met, that is a link, not an obligation.",
+        "fa": "نه از آغاز تاریخ. با پرسشی که از پیش داری شروع کن، از شاخه‌ها برای یافتنِ کسی که آن را پرسیده استفاده کن، و هر بار یک مدخل بخوان. اگر واژه‌ای متوقفت کرد، رویش بزن — واژه‌های نقطه‌چین تعریفی دارند که بی‌بیرون‌بردنت از صفحه می‌آید. وقتی مدخلی از کسی نام می‌برد که نمی‌شناسی، آن یک پیوند است، نه یک تکلیف."
+      },
+      "reads": [
+        { "ref": "philosopher:epictetus" },
+        { "ref": "philosopher:confucius" },
+        { "ref": "philosopher:mahavira" }
+      ],
+      "citations": [{ "source": "sep" }]
+    }
+  ]
+}

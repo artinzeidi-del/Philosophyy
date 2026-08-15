@@ -1,10 +1,13 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
+import 'package:philosophyy/core/search/glossary_matcher.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
+import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/source.dart';
@@ -416,6 +419,8 @@ class ArticleView extends StatelessWidget {
     required this.language,
     required this.resolveSource,
     this.highlights = const <Highlight>[],
+    this.glossary = const <GlossaryTerm>[],
+    this.onTermTapped,
     this.onHighlight,
     this.onRemoveHighlight,
     super.key,
@@ -435,6 +440,12 @@ class ArticleView extends StatelessWidget {
 
   /// The reader's marked passages in this article, across all sections.
   final List<Highlight> highlights;
+
+  /// The words worth marking in this article's prose.
+  final List<GlossaryTerm> glossary;
+
+  /// Called when the reader taps a marked word.
+  final void Function(GlossaryTerm)? onTermTapped;
 
   /// Called when the reader marks a passage. Passing `null` makes the article
   /// read-only, which is what every caller outside the article screen wants.
@@ -460,6 +471,8 @@ class ArticleView extends StatelessWidget {
             highlights: highlights
                 .where((it) => it.sectionId == section.id)
                 .toList(),
+            glossary: glossary,
+            onTermTapped: onTermTapped,
             onHighlight: onHighlight,
             onRemoveHighlight: onRemoveHighlight,
           ),
@@ -476,6 +489,8 @@ class _SectionView extends StatelessWidget {
     required this.language,
     required this.resolveSource,
     this.highlights = const <Highlight>[],
+    this.glossary = const <GlossaryTerm>[],
+    this.onTermTapped,
     this.onHighlight,
     this.onRemoveHighlight,
   });
@@ -484,6 +499,8 @@ class _SectionView extends StatelessWidget {
   final AppLanguage language;
   final Source? Function(String) resolveSource;
   final List<Highlight> highlights;
+  final List<GlossaryTerm> glossary;
+  final void Function(GlossaryTerm)? onTermTapped;
   final void Function(String sectionId, int start, int end, String excerpt)?
   onHighlight;
   final void Function(String highlightId)? onRemoveHighlight;
@@ -537,6 +554,8 @@ class _SectionView extends StatelessWidget {
             ).copyWith(color: theme.colorScheme.onSurface),
             highlights: highlights,
             language: language,
+            glossary: glossary,
+            onTermTapped: onTermTapped,
             onHighlight: onHighlight,
             onRemoveHighlight: onRemoveHighlight,
           ),
@@ -571,6 +590,8 @@ class _SectionBody extends StatefulWidget {
     required this.style,
     required this.highlights,
     required this.language,
+    this.glossary = const <GlossaryTerm>[],
+    this.onTermTapped,
     this.onHighlight,
     this.onRemoveHighlight,
   });
@@ -580,6 +601,13 @@ class _SectionBody extends StatefulWidget {
   final TextStyle style;
   final List<Highlight> highlights;
   final AppLanguage language;
+
+  /// The words worth marking in this prose. Empty disables the feature.
+  final List<GlossaryTerm> glossary;
+
+  /// Called when the reader taps a marked word.
+  final void Function(GlossaryTerm)? onTermTapped;
+
   final void Function(String sectionId, int start, int end, String excerpt)?
   onHighlight;
   final void Function(String highlightId)? onRemoveHighlight;
@@ -628,22 +656,66 @@ class _SectionBodyState extends State<_SectionBody> {
     final l10n = AppL10n.of(context);
     final placed = _placeable;
 
+    // Two things want to mark up the same string: the reader's highlights and
+    // the glossary. They are merged into one ordered list of ranges before any
+    // span is built, because building them in two passes is how you end up
+    // with a highlight that swallows a term or a term that clips a highlight.
+    // Where they collide the highlight wins: it is the reader's own mark.
+    final terms = widget.glossary.isEmpty
+        ? const <GlossaryMatch>[]
+        : GlossaryMatcher.findIn(text, widget.glossary, widget.language);
+
+    final ranges =
+        <({int start, int end, Highlight? mark, GlossaryMatch? term})>[
+          for (final highlight in placed)
+            (
+              start: highlight.start,
+              end: highlight.end,
+              mark: highlight,
+              term: null,
+            ),
+          for (final match in terms)
+            if (!placed.any((h) => h.start < match.end && match.start < h.end))
+              (start: match.start, end: match.end, mark: null, term: match),
+        ]..sort((a, b) => a.start.compareTo(b.start));
+
     final spans = <InlineSpan>[];
     var cursor = 0;
-    for (final highlight in placed) {
-      if (highlight.start > cursor) {
-        spans.add(TextSpan(text: text.substring(cursor, highlight.start)));
+    for (final range in ranges) {
+      if (range.start > cursor) {
+        spans.add(TextSpan(text: text.substring(cursor, range.start)));
       }
-      spans.add(
-        TextSpan(
-          text: text.substring(highlight.start, highlight.end),
-          style: TextStyle(
-            backgroundColor: theme.colorScheme.primaryContainer,
-            color: theme.colorScheme.onPrimaryContainer,
+      final content = text.substring(range.start, range.end);
+      if (range.mark != null) {
+        spans.add(
+          TextSpan(
+            text: content,
+            style: TextStyle(
+              backgroundColor: theme.colorScheme.primaryContainer,
+              color: theme.colorScheme.onPrimaryContainer,
+            ),
           ),
-        ),
-      );
-      cursor = highlight.end;
+        );
+      } else {
+        final term = range.term!.term;
+        spans.add(
+          TextSpan(
+            text: content,
+            style: TextStyle(
+              // A dotted underline rather than a colour: a link colour on a
+              // word inside a paragraph of philosophy reads as a cross
+              // reference to another entry, which this is not — it is a
+              // definition that arrives without moving the reader.
+              decoration: TextDecoration.underline,
+              decorationStyle: TextDecorationStyle.dotted,
+              decorationColor: theme.colorScheme.primary.withValues(alpha: 0.6),
+            ),
+            recognizer: (TapGestureRecognizer()
+              ..onTap = () => widget.onTermTapped?.call(term)),
+          ),
+        );
+      }
+      cursor = range.end;
     }
     if (cursor < text.length) {
       spans.add(TextSpan(text: text.substring(cursor)));

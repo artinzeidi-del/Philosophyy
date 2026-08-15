@@ -119,6 +119,18 @@ void main() {
     });
   });
 
+  /// Scrolls the home screen until its entry points are built.
+  ///
+  /// The list is lazy and the entry points sit below the primer and the
+  /// glossary, so they do not exist until the reader gets there.
+  Future<void> scrollToEntryPoints(WidgetTester tester) async {
+    for (var attempt = 0; attempt < 8; attempt++) {
+      if (find.byType(EntityCard).evaluate().isNotEmpty) return;
+      await tester.drag(find.byType(ListView).first, const Offset(0, -400));
+      await tester.pumpAndSettle();
+    }
+  }
+
   group('The front page leads somewhere', () {
     testWidgets('it lays itself out for the window, on one left edge', (
       tester,
@@ -128,7 +140,12 @@ void main() {
       // it, which reads as a misalignment rather than as a measure, and two
       // thirds of the glass was empty.
       await pump(tester, desktop);
-      final heading = tester.getRect(find.text(en.appTagline));
+      // The entry points are below the fold now that the page offers the
+      // primer and the glossary first, and the list is lazy — so they have to
+      // be scrolled to before they can be measured.
+      await scrollToEntryPoints(tester);
+
+      final heading = tester.getRect(find.text(en.homeStartHere));
       final cards = tester
           .widgetList<EntityCard>(find.byType(EntityCard))
           .map((card) => tester.getRect(find.byWidget(card)))
@@ -146,6 +163,7 @@ void main() {
       tester,
     ) async {
       await pump(tester, desktop);
+      await scrollToEntryPoints(tester);
       final tops = tester
           .widgetList<EntityCard>(find.byType(EntityCard))
           .map((card) => tester.getRect(find.byWidget(card)).top)

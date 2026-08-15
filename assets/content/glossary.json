@@ -1,0 +1,579 @@
+{
+  "_comment": "Glossary terms. Every one of these appears in prose the app ships; a reader who does not know it cannot finish the sentence it is in. See docs/CONTENT_POLICY.md.",
+  "terms": [
+    {
+      "id": "metaphysics",
+      "term": { "en": "Metaphysics", "fa": "مابعدالطبیعه" },
+      "short": {
+        "en": "The study of what there is and what it is like, at the most general level.",
+        "fa": "بررسی اینکه چه چیزهایی هست و چگونه‌اند، در کلی‌ترین سطح."
+      },
+      "long": {
+        "en": "Not a study of anything mysterious. Metaphysics asks the questions that come before the particular sciences: whether there are properties as well as things, whether the future is already fixed, what makes a thing the same thing over time. The name is an accident — an ancient editor filed these books after the physics.",
+        "fa": "بررسیِ چیزی رازآلود نیست. مابعدالطبیعه پرسش‌هایی را می‌پرسد که پیش از علوم خاص می‌آیند: اینکه آیا علاوه بر چیزها، ویژگی‌ها هم هستند، اینکه آیا آینده از پیش معین است، اینکه چه چیزی یک شیء را در گذر زمان همان شیء نگه می‌دارد. نامش تصادفی است: ویراستاری باستانی این کتاب‌ها را «پس از طبیعیات» بایگانی کرد."
+      },
+      "aliases": ["metaphysical", "متافیزیک", "مابعدالطبیعی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "epistemology",
+      "term": { "en": "Epistemology", "fa": "معرفت‌شناسی" },
+      "short": {
+        "en": "The study of knowledge: what it is, and when a belief counts as one.",
+        "fa": "بررسی معرفت: چیست، و کِی یک باور معرفت به شمار می‌آید."
+      },
+      "long": {
+        "en": "The central questions are what distinguishes knowing from merely believing correctly, what justifies a belief, and whether any belief is justified without resting on another. Every tradition in this app has a version of these questions, and they do not all answer with the same list of reliable methods.",
+        "fa": "پرسش‌های مرکزی این‌اند که چه چیزی «دانستن» را از «درست باور داشتن» جدا می‌کند، چه چیزی یک باور را موجه می‌کند، و آیا اصلاً باوری هست که بی‌تکیه بر باوری دیگر موجه باشد. هر سنتی در این برنامه صورتی از این پرسش‌ها دارد، و همه با فهرست یکسانی از روش‌های معتبر پاسخ نمی‌دهند."
+      },
+      "aliases": ["epistemological", "epistemic", "معرفت‌شناختی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ontology",
+      "term": { "en": "Ontology", "fa": "هستی‌شناسی" },
+      "short": {
+        "en": "The part of metaphysics that asks what kinds of thing exist.",
+        "fa": "آن بخش از مابعدالطبیعه که می‌پرسد چه نوع چیزهایی هستند."
+      },
+      "aliases": ["ontological", "هستی‌شناختی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "a-priori",
+      "term": { "en": "A priori", "fa": "پیشین" },
+      "short": {
+        "en": "Knowable without checking — by thinking it through rather than by looking.",
+        "fa": "دانستنی بی‌بررسی‌کردن — با اندیشیدن، نه با نگاه‌کردن."
+      },
+      "long": {
+        "en": "That every bachelor is unmarried is a priori: no survey is needed. That it is raining is a posteriori: you have to look. The distinction is old and contested — Quine argued that no belief is immune from revision by experience, which would leave the line unmarked.",
+        "fa": "اینکه هر مجردی ازدواج‌نکرده است پیشین است: نظرسنجی لازم ندارد. اینکه باران می‌بارد پسین است: باید نگاه کنی. این تمایز کهن است و محل مناقشه — کواین استدلال کرد که هیچ باوری از بازنگری با تجربه مصون نیست، و این خط را بی‌نشان می‌گذارد."
+      },
+      "aliases": ["a posteriori", "پسین"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dialectic",
+      "term": { "en": "Dialectic", "fa": "دیالکتیک" },
+      "short": {
+        "en": "Reasoning that advances by pushing a position until it produces its opposite.",
+        "fa": "استدلالی که با راندنِ یک موضع تا زایشِ ضدش پیش می‌رود."
+      },
+      "long": {
+        "en": "The word has three main uses in this app and they are not the same. For Plato it is disciplined conversation. For Hegel it is the movement by which a concept generates what it excluded. For Marx it is that movement relocated into material conditions. Reading one sense into another is the commonest way people misunderstand all three.",
+        "fa": "این واژه در این برنامه سه کاربرد اصلی دارد و یکی نیستند. نزد افلاطون گفت‌وگوی منضبط است. نزد هگل حرکتی است که با آن یک مفهوم همان چیزی را می‌زاید که کنار گذاشته بود. نزد مارکس همان حرکت است که به شرایط مادی منتقل شده. خواندنِ یک معنا به‌جای معنای دیگر رایج‌ترین راه بدفهمیِ هر سه است."
+      },
+      "aliases": ["dialectical", "دیالکتیکی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "substance",
+      "term": { "en": "Substance", "fa": "جوهر" },
+      "short": {
+        "en": "What a thing is in itself, as against the properties it happens to carry.",
+        "fa": "آنچه یک چیز فی‌نفسه هست، در برابر ویژگی‌هایی که اتفاقاً دارد."
+      },
+      "long": {
+        "en": "In the Aristotelian vocabulary that most of this app's medieval entries use, a substance is what exists on its own and an accident is what exists in something else — the horse is a substance, its brown colour an accident. Spinoza then argued that on this definition there can be only one substance, which is where the vocabulary starts to bite.",
+        "fa": "در واژگان ارسطویی که بیشتر مدخل‌های قرون وسطاییِ این برنامه از آن استفاده می‌کنند، جوهر آن است که به خودی خود هست و عرض آن است که در چیز دیگری هست — اسب جوهر است و رنگ قهوه‌ای‌اش عرض. سپس اسپینوزا استدلال کرد که با این تعریف تنها یک جوهر می‌تواند باشد، و اینجاست که این واژگان گاز می‌گیرد."
+      },
+      "aliases": ["substances", "accident", "جواهر", "عرض"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "essence",
+      "term": { "en": "Essence", "fa": "ماهیت" },
+      "short": {
+        "en": "What a thing must be in order to be that thing at all.",
+        "fa": "آنچه یک چیز باید باشد تا اصلاً همان چیز باشد."
+      },
+      "aliases": ["essential", "essences", "ماهوی"],
+      "concept": "essence-existence-distinction",
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "teleology",
+      "term": { "en": "Teleology", "fa": "غایت‌شناسی" },
+      "short": {
+        "en": "Explaining something by what it is for rather than by what caused it.",
+        "fa": "توضیح‌دادن چیزی با غایتش، نه با علتش."
+      },
+      "long": {
+        "en": "An eye explained teleologically is explained by seeing. Aristotle treats this as a genuine kind of cause; the scientific revolution largely removed it from physics and it survives, arguably, in biology. Whether a purpose without anyone intending it is coherent is the standing question.",
+        "fa": "چشمی که غایت‌شناسانه توضیح داده شود، با «دیدن» توضیح داده می‌شود. ارسطو این را گونه‌ای واقعی از علت می‌داند؛ انقلاب علمی آن را تا حد زیادی از فیزیک بیرون کرد و — به‌ادعای برخی — در زیست‌شناسی زنده مانده است. اینکه غایتی که کسی قصدش نکرده معنا دارد یا نه، پرسش پابرجاست."
+      },
+      "aliases": ["teleological", "telos", "غایت‌شناختی", "غایت"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "phenomenology",
+      "term": { "en": "Phenomenology", "fa": "پدیدارشناسی" },
+      "short": {
+        "en": "Describing experience as it is lived, before explaining it.",
+        "fa": "وصف تجربه چنان‌که زیسته می‌شود، پیش از تبیین آن."
+      },
+      "aliases": ["phenomenological", "پدیدارشناختی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "hermeneutics",
+      "term": { "en": "Hermeneutics", "fa": "هرمنوتیک" },
+      "short": {
+        "en": "The study of interpretation — how understanding a text or a period works.",
+        "fa": "بررسی تفسیر — اینکه فهمِ یک متن یا یک دوره چگونه کار می‌کند."
+      },
+      "aliases": ["hermeneutic", "هرمنوتیکی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "empiricism",
+      "term": { "en": "Empiricism", "fa": "تجربه‌گرایی" },
+      "short": {
+        "en": "The view that everything in the mind got there through the senses.",
+        "fa": "این دیدگاه که هرچه در ذهن هست از راه حواس آمده."
+      },
+      "aliases": ["empiricist", "empirical", "تجربه‌گرا", "تجربی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "rationalism",
+      "term": { "en": "Rationalism", "fa": "خردگرایی" },
+      "short": {
+        "en": "The view that some substantive knowledge is available to reason alone.",
+        "fa": "این دیدگاه که بخشی از معرفت واقعی تنها با خرد به دست می‌آید."
+      },
+      "aliases": ["rationalist", "خردگرا"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "idealism",
+      "term": { "en": "Idealism", "fa": "ایدئالیسم" },
+      "short": {
+        "en": "The view that reality is mental, or that we can only reach it as mind presents it.",
+        "fa": "این دیدگاه که واقعیت ذهنی است، یا فقط چنان‌که ذهن عرضه‌اش می‌کند در دسترس ماست."
+      },
+      "long": {
+        "en": "The word covers two quite different positions. Berkeley's is that matter does not exist. Kant's is that things in themselves do exist but we can never encounter them except as our faculties present them. Calling both idealism has caused two centuries of confusion.",
+        "fa": "این واژه دو موضع کاملاً متفاوت را می‌پوشاند. موضع برکلی این است که ماده وجود ندارد. موضع کانت این است که اشیای فی‌نفسه وجود دارند اما ما هرگز جز آن‌گونه که قوای ما عرضه می‌کنند با آن‌ها روبه‌رو نمی‌شویم. یکی‌نامیدنِ این دو، دو قرن سردرگمی ساخته است."
+      },
+      "aliases": ["idealist", "ایدئالیست"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "materialism",
+      "term": { "en": "Materialism", "fa": "ماده‌گرایی" },
+      "short": {
+        "en": "The view that everything that exists is physical.",
+        "fa": "این دیدگاه که هرچه هست فیزیکی است."
+      },
+      "aliases": ["materialist", "physicalism", "مادی‌گرایی", "ماده‌گرا"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dualism",
+      "term": { "en": "Dualism", "fa": "دوگانه‌انگاری" },
+      "short": {
+        "en": "The view that mind and body are two different kinds of thing.",
+        "fa": "این دیدگاه که ذهن و بدن دو نوع چیزِ متفاوت‌اند."
+      },
+      "aliases": ["dualist", "دوگانه‌انگار"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "determinism",
+      "term": { "en": "Determinism", "fa": "جبرگرایی" },
+      "short": {
+        "en": "The view that everything that happens was fixed by what came before.",
+        "fa": "این دیدگاه که هرچه رخ می‌دهد با آنچه پیش‌تر بوده معین شده است."
+      },
+      "aliases": ["determinist", "deterministic", "جبرگرا", "جبری"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "normative",
+      "term": { "en": "Normative", "fa": "هنجاری" },
+      "short": {
+        "en": "About what ought to be, rather than about what is.",
+        "fa": "دربارهٔ آنچه باید باشد، نه آنچه هست."
+      },
+      "aliases": ["norm", "norms", "هنجار", "هنجارها"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "consequentialism",
+      "term": { "en": "Consequentialism", "fa": "پیامدگرایی" },
+      "short": {
+        "en": "Judging an act only by its results.",
+        "fa": "داوری دربارهٔ یک کار تنها بر پایهٔ نتایجش."
+      },
+      "aliases": ["consequentialist", "پیامدگرا"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "deontology",
+      "term": { "en": "Deontology", "fa": "وظیفه‌گرایی" },
+      "short": {
+        "en": "Judging an act by whether it conforms to a duty, whatever the results.",
+        "fa": "داوری دربارهٔ یک کار بر پایهٔ سازگاری‌اش با یک تکلیف، هر نتیجه‌ای که داشته باشد."
+      },
+      "aliases": ["deontological", "وظیفه‌گرا"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "virtue-ethics",
+      "term": { "en": "Virtue ethics", "fa": "اخلاق فضیلت" },
+      "short": {
+        "en": "Asking what kind of person to be rather than which act to do.",
+        "fa": "پرسیدنِ اینکه چه کسی باید بود، نه اینکه چه کاری باید کرد."
+      },
+      "aliases": ["virtue", "فضیلت"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "elenchus",
+      "term": { "en": "Elenchus", "fa": "الِنخوس" },
+      "nativeTerm": "ἔλεγχος",
+      "transliteration": "elenchos",
+      "short": {
+        "en": "Socrates' method: testing a claim until its holder contradicts themselves.",
+        "fa": "روش سقراط: آزمودن یک ادعا تا آنجا که صاحبش خود را نقض کند."
+      },
+      "aliases": ["elenctic"],
+      "concept": "socratic-method",
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "aporia",
+      "term": { "en": "Aporia", "fa": "آپوریا" },
+      "nativeTerm": "ἀπορία",
+      "transliteration": "aporia",
+      "short": {
+        "en": "The state of being stuck — a dialogue that ends without an answer.",
+        "fa": "حالتِ درماندگی — گفت‌وگویی که بی‌پاسخ پایان می‌یابد."
+      },
+      "long": {
+        "en": "In Plato's early dialogues this is the usual ending, and it is the product rather than the failure: what has been established is that nobody in the room knew what they thought they knew.",
+        "fa": "در گفت‌وگوهای نخستین افلاطون این پایانِ معمول است، و فرآورده است نه ناکامی: آنچه ثابت شده این است که هیچ‌کس در آن اتاق نمی‌دانست آنچه گمان می‌کرد می‌داند."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "sophist",
+      "term": { "en": "Sophist", "fa": "سوفسطایی" },
+      "short": {
+        "en": "A paid teacher of argument in classical Athens.",
+        "fa": "آموزگارِ مزدبگیرِ استدلال در آتنِ کلاسیک."
+      },
+      "long": {
+        "en": "The word became an insult through Plato, who portrays them as teaching how to win rather than how to be right. Since almost everything we have about them comes through hostile sources, the portrait and the people are hard to separate.",
+        "fa": "این واژه از راه افلاطون به دشنام بدل شد؛ او آنان را چنین می‌نمایاند که بردن را می‌آموزند نه درست‌بودن را. چون تقریباً هرچه دربارهٔ آنان داریم از منابع خصمانه می‌آید، جداکردن آن تصویر از آن آدم‌ها دشوار است."
+      },
+      "aliases": ["sophists", "sophistry", "سوفسطاییان"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "scholasticism",
+      "term": { "en": "Scholasticism", "fa": "مدرسی‌گری" },
+      "short": {
+        "en": "The medieval method of arguing by stating objections first, then answering.",
+        "fa": "روش قرون‌وسطایی استدلال: نخست گفتنِ اعتراض‌ها، سپس پاسخ‌دادن."
+      },
+      "aliases": ["scholastic", "مدرسی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "exegesis",
+      "term": { "en": "Exegesis", "fa": "تفسیر متن" },
+      "short": {
+        "en": "Close reading of a text to establish what it says.",
+        "fa": "خوانش دقیق یک متن برای تعیین اینکه چه می‌گوید."
+      },
+      "aliases": ["exegetical"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "commentary-tradition",
+      "term": { "en": "Commentary", "fa": "شرح" },
+      "short": {
+        "en": "Philosophy written as a line-by-line reading of an earlier book.",
+        "fa": "فلسفه‌ای که به‌صورت خوانشِ سطر‌به‌سطرِ کتابی پیشین نوشته می‌شود."
+      },
+      "long": {
+        "en": "For most of the history in this app, this is the normal form of a philosophical work rather than an exception — Ibn Rushd on Aristotle, Shankara on the Brahma Sūtras, Tsongkhapa on Nāgārjuna. Treating a commentary as derivative is a modern habit that the texts themselves do not support.",
+        "fa": "برای بیشترِ تاریخی که در این برنامه هست، این صورتِ عادی یک اثر فلسفی است نه استثنا — ابن‌رشد بر ارسطو، شنکره بر برهمه‌سوتره‌ها، تسونگ‌خاپا بر ناگارجونا. فرعی‌شمردنِ شرح عادتی مدرن است که خودِ متن‌ها پشتیبانی‌اش نمی‌کنند."
+      },
+      "aliases": ["commentaries", "شروح"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "aesthetics",
+      "term": { "en": "Aesthetics", "fa": "زیبایی‌شناسی" },
+      "short": {
+        "en": "The study of art, beauty and what it is to find something beautiful.",
+        "fa": "بررسی هنر و زیبایی و اینکه زیبا‌یافتنِ چیزی یعنی چه."
+      },
+      "aliases": ["aesthetic", "زیبایی‌شناختی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "nous",
+      "term": { "en": "Nous", "fa": "عقل" },
+      "nativeTerm": "νοῦς",
+      "transliteration": "nous",
+      "short": {
+        "en": "Mind or intellect, as a principle in the world rather than only in a head.",
+        "fa": "ذهن یا عقل، همچون اصلی در جهان و نه فقط در یک سر."
+      },
+      "aliases": ["intellect"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "logos",
+      "term": { "en": "Logos", "fa": "لوگوس" },
+      "nativeTerm": "λόγος",
+      "transliteration": "logos",
+      "short": {
+        "en": "Word, reason, or the ordering principle of the world — depending on the author.",
+        "fa": "کلمه، خرد، یا اصلِ سامان‌بخشِ جهان — بسته به اینکه چه کسی می‌گوید."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "karma",
+      "term": { "en": "Karma", "fa": "کارما" },
+      "nativeTerm": "कर्म",
+      "transliteration": "karma",
+      "short": {
+        "en": "Action, and the claim that action has consequences that outlast it.",
+        "fa": "کنش، و این ادعا که کنش پیامدهایی دارد که از خودش دیرپاترند."
+      },
+      "aliases": ["کرمه"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dharma",
+      "term": { "en": "Dharma", "fa": "دهرمه" },
+      "nativeTerm": "धर्म",
+      "transliteration": "dharma",
+      "short": {
+        "en": "What holds things up: duty, law, teaching or the nature of a thing.",
+        "fa": "آنچه چیزها را نگه می‌دارد: وظیفه، قانون، آموزه، یا سرشتِ یک چیز."
+      },
+      "long": {
+        "en": "One of the words that resists translation because it does different work in each tradition that uses it. In Hindu texts it is closer to duty and social order; in Buddhist ones it means the teaching, and in the plural the elementary constituents of experience.",
+        "fa": "از آن واژه‌هایی است که در برابر ترجمه مقاومت می‌کند، چون در هر سنتی که به کارش می‌برد کار متفاوتی می‌کند. در متون هندو به وظیفه و نظم اجتماعی نزدیک‌تر است؛ در متون بودایی یعنی آموزه، و در جمع، اجزای بنیادین تجربه."
+      },
+      "aliases": ["دارما"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "qiyas",
+      "term": { "en": "Analogy", "fa": "قیاس" },
+      "nativeTerm": "قياس",
+      "transliteration": "qiyās",
+      "short": {
+        "en": "Reasoning from a known case to a new one that resembles it.",
+        "fa": "استدلال از موردی شناخته به موردی نو که به آن می‌ماند."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ijtihad",
+      "term": { "en": "Independent reasoning", "fa": "اجتهاد" },
+      "nativeTerm": "اجتهاد",
+      "transliteration": "ijtihād",
+      "short": {
+        "en": "Working out an answer by reasoning rather than by following an authority.",
+        "fa": "به‌دست‌آوردن پاسخ با استدلال، نه با پیرویِ از مرجع."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "apophatic",
+      "term": { "en": "Negative theology", "fa": "الهیات سلبی" },
+      "short": {
+        "en": "Saying what God is not, because no positive description would be accurate.",
+        "fa": "گفتنِ آنچه خدا نیست، چون هیچ وصف ایجابی دقیق نخواهد بود."
+      },
+      "aliases": ["apophasis", "via negativa"],
+      "concept": "negative-theology",
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "qualia",
+      "term": { "en": "Qualia", "fa": "کیفیات ذهنی" },
+      "short": {
+        "en": "The felt quality of an experience — what red looks like from inside.",
+        "fa": "کیفیتِ احساس‌شدهٔ یک تجربه — اینکه قرمز از درون چگونه است."
+      },
+      "aliases": ["quale"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "intentionality",
+      "term": { "en": "Intentionality", "fa": "حیث التفاتی" },
+      "short": {
+        "en": "The way a thought is always about something.",
+        "fa": "این ویژگی که اندیشه همیشه دربارهٔ چیزی است."
+      },
+      "long": {
+        "en": "A technical term with nothing to do with intending. A belief is about the weather, a fear is of something; a stone is about nothing. Brentano proposed this as the mark of the mental, and it is the starting point of phenomenology.",
+        "fa": "اصطلاحی فنی که ربطی به «قصد داشتن» ندارد. باور دربارهٔ هواست، ترس از چیزی است؛ سنگ دربارهٔ هیچ نیست. برنتانو این را نشانهٔ امر ذهنی دانست، و نقطهٔ آغاز پدیدارشناسی است."
+      },
+      "aliases": ["intentional"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "supervenience",
+      "term": { "en": "Supervenience", "fa": "فرارویدادگی" },
+      "short": {
+        "en": "One level of facts fixed entirely by another, without reducing to it.",
+        "fa": "سطحی از واقعیت‌ها که سطحی دیگر کاملاً معینش می‌کند، بی‌آنکه به آن فروکاسته شود."
+      },
+      "aliases": ["supervenes"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "reductionism",
+      "term": { "en": "Reductionism", "fa": "فروکاست‌گرایی" },
+      "short": {
+        "en": "Explaining one level of description entirely in terms of a lower one.",
+        "fa": "توضیح‌دادن کاملِ یک سطح از توصیف با سطحی پایین‌تر."
+      },
+      "aliases": ["reductionist", "reduce", "فروکاست‌گرا"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "hegemony",
+      "term": { "en": "Hegemony", "fa": "هژمونی" },
+      "short": {
+        "en": "Rule that works through consent and common sense rather than through force.",
+        "fa": "سلطه‌ای که از راه رضایت و عقل سلیم کار می‌کند، نه از راه زور."
+      },
+      "aliases": ["hegemonic"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "praxis",
+      "term": { "en": "Praxis", "fa": "پراکسیس" },
+      "nativeTerm": "πρᾶξις",
+      "transliteration": "praxis",
+      "short": {
+        "en": "Practice as a form of knowing, not merely the application of theory.",
+        "fa": "عمل همچون گونه‌ای از دانستن، نه صرفاً به‌کاربستنِ نظریه."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "reification",
+      "term": { "en": "Reification", "fa": "شیءوارگی" },
+      "short": {
+        "en": "Treating a relationship or a process as though it were a thing.",
+        "fa": "رفتارکردن با یک رابطه یا فرآیند چنان‌که گویی یک شیء است."
+      },
+      "aliases": ["reify", "reified"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "existential",
+      "term": { "en": "Existential", "fa": "اگزیستانسیل" },
+      "short": {
+        "en": "Concerning what it is to exist as this particular person, deciding.",
+        "fa": "مربوط به اینکه بودن همچون این شخص معین، در حال تصمیم‌گرفتن، چگونه است."
+      },
+      "aliases": ["existentialism", "existentialist", "اگزیستانسیالیسم"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "epoche",
+      "term": { "en": "Suspension of judgement", "fa": "تعلیق حکم" },
+      "nativeTerm": "ἐποχή",
+      "transliteration": "epochē",
+      "short": {
+        "en": "Declining to affirm or deny, as a deliberate position.",
+        "fa": "خودداری از تأیید و انکار، همچون موضعی عامدانه."
+      },
+      "aliases": ["epoché", "epoche"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "syllogism",
+      "term": { "en": "Syllogism", "fa": "قیاس منطقی" },
+      "short": {
+        "en": "An argument in a fixed form, where the conclusion follows from two premises.",
+        "fa": "استدلالی با صورتی معین، که نتیجه از دو مقدمه در آن لازم می‌آید."
+      },
+      "aliases": ["syllogistic", "syllogisms"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "premise",
+      "term": { "en": "Premise", "fa": "مقدمه" },
+      "short": {
+        "en": "A statement an argument starts from and asks you to grant.",
+        "fa": "گزاره‌ای که استدلال از آن آغاز می‌کند و می‌خواهد بپذیری‌اش."
+      },
+      "aliases": ["premises", "مقدمات"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "valid-argument",
+      "term": { "en": "Valid", "fa": "معتبر" },
+      "short": {
+        "en": "An argument whose conclusion must be true if its premises are.",
+        "fa": "استدلالی که اگر مقدماتش درست باشند، نتیجه‌اش ناگزیر درست است."
+      },
+      "long": {
+        "en": "Validity is about the shape of the argument, not about whether it is true. An argument can be valid and have a false conclusion, if a premise is false. An argument that is valid and has true premises is called sound, and that is the one worth having.",
+        "fa": "اعتبار دربارهٔ شکلِ استدلال است، نه دربارهٔ درستی‌اش. یک استدلال می‌تواند معتبر باشد و نتیجه‌اش نادرست، اگر مقدمه‌ای نادرست باشد. استدلالی که هم معتبر است و هم مقدمات درست دارد «درست» یا «سالم» خوانده می‌شود، و همان است که به کار می‌آید."
+      },
+      "aliases": ["validity", "sound", "soundness", "اعتبار"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "fallacy",
+      "term": { "en": "Fallacy", "fa": "مغالطه" },
+      "short": {
+        "en": "A pattern of reasoning that looks like it works and does not.",
+        "fa": "الگویی از استدلال که به نظر کار می‌کند و نمی‌کند."
+      },
+      "aliases": ["fallacies", "fallacious", "مغالطات"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "thought-experiment",
+      "term": { "en": "Thought experiment", "fa": "آزمایش ذهنی" },
+      "short": {
+        "en": "An imagined case designed to test what a principle actually commits you to.",
+        "fa": "موردی تصورشده که برای آزمودنِ التزامات واقعیِ یک اصل ساخته شده."
+      },
+      "aliases": ["thought experiments", "آزمایش‌های ذهنی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "secular",
+      "term": { "en": "Secular", "fa": "عرفی" },
+      "short": {
+        "en": "Not resting on religious authority — which is not the same as against religion.",
+        "fa": "نااستوار بر اقتدار دینی — که با «ضد دین» یکی نیست."
+      },
+      "aliases": ["secularism", "سکولار"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "canon",
+      "term": { "en": "Canon", "fa": "پیکرهٔ متعارف" },
+      "short": {
+        "en": "The set of authors a field treats as its own, and the decision behind it.",
+        "fa": "مجموعهٔ مؤلفانی که یک رشته از آنِ خود می‌شمارد، و تصمیمی که پشت آن است."
+      },
+      "long": {
+        "en": "Which authors count as philosophers is itself a philosophical decision, and not a neutral one — it is why Du Bois was filed under sociology for decades and why this app does not organise itself around a single canon.",
+        "fa": "اینکه چه کسانی فیلسوف به شمار می‌آیند خود تصمیمی فلسفی است، و بی‌طرف نیست — به همین سبب دوبویز دهه‌ها زیر جامعه‌شناسی بایگانی شد، و به همین سبب این برنامه خود را حول یک پیکرهٔ متعارف سامان نمی‌دهد."
+      },
+      "aliases": ["canonical", "کانن"],
+      "citations": [{ "source": "sep" }]
+    }
+  ]
+}

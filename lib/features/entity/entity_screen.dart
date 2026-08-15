@@ -27,6 +27,7 @@ import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 import 'package:philosophyy/features/shared/argument_widgets.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
+import 'package:philosophyy/features/shared/glossary_sheet.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
@@ -318,6 +319,12 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                         highlights: ref
                             .watch(libraryProvider)
                             .highlightsFor(entity.ref),
+                        // A reader who meets a word they do not know should
+                        // not have to leave the sentence to find out what it
+                        // means.
+                        glossary: corpus.glossary,
+                        onTermTapped: (term) =>
+                            showGlossaryTerm(context, term, language),
                         onHighlight: _addHighlight,
                         onRemoveHighlight: _removeHighlight,
                       ),

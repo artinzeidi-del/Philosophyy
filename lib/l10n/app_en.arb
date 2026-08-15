@@ -178,6 +178,50 @@
   "@argumentArguedAgainst": {
     "description": "Badge shown when the philosopher being read opposed the argument rather than advancing it."
   },
+  "glossaryTitle": "Glossary",
+  "@glossaryTitle": {
+    "description": "Title of the screen listing every term the app defines."
+  },
+  "glossaryIntro": "Words this app uses that are worth having a definition for. Tap any underlined word while reading to see one without leaving the page.",
+  "@glossaryIntro": {
+    "description": "Explains what the glossary is and how the in-article links work."
+  },
+  "glossarySearchHint": "Find a word…",
+  "@glossarySearchHint": {
+    "description": "Placeholder in the glossary's search field."
+  },
+  "glossaryOpenEntry": "Read the entry",
+  "@glossaryOpenEntry": {
+    "description": "Button opening the full article for a term that has one."
+  },
+  "glossaryOpenGlossary": "Open the glossary",
+  "@glossaryOpenGlossary": {
+    "description": "Button in the definition sheet that opens the glossary screen."
+  },
+  "primerTitle": "Philosophy from scratch",
+  "@primerTitle": {
+    "description": "Title of the guided introduction for readers starting from nothing."
+  },
+  "primerIntro": "A path through the basics, in order. Each step assumes only the ones before it.",
+  "@primerIntro": {
+    "description": "Explains that the primer is ordered and self-contained."
+  },
+  "primerStepLabel": "Step {number} of {total}",
+  "@primerStepLabel": {
+    "description": "Position of a step within the primer.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "primerReadOn": "Where to go next",
+  "@primerReadOn": {
+    "description": "Heading above the entries a primer step points to."
+  },
   "sectionConnections": "Connections",
   "@sectionConnections": {
     "description": "Heading for the knowledge-graph relations."

@@ -208,6 +208,24 @@ class _HomeBody extends StatelessWidget {
               ),
             ),
 
+            // For a reader who has not read philosophy before, the taxonomy
+            // is not a way in — it is a list of words they do not know yet.
+            // These two come first for that reason.
+            const SizedBox(height: Spacing.xl),
+            _WayIn(
+              title: l10n.primerTitle,
+              body: l10n.primerIntro,
+              icon: Icons.school_outlined,
+              route: '/start',
+            ),
+            const SizedBox(height: Spacing.md),
+            _WayIn(
+              title: l10n.glossaryTitle,
+              body: l10n.glossaryIntro,
+              icon: Icons.menu_book_outlined,
+              route: '/glossary',
+            ),
+
             // Two ways into the corpus, which the screen did not offer at all:
             // a reader arrived at a page with four names on it and no route to
             // the other hundred and eighty-seven.
@@ -381,6 +399,65 @@ class _EntryGrid extends StatelessWidget {
       ),
       itemCount: philosophers.length,
       itemBuilder: (context, index) => card(philosophers[index], index),
+    );
+  }
+}
+
+/// A prominent doorway to something that is not an entry.
+class _WayIn extends StatelessWidget {
+  const _WayIn({
+    required this.title,
+    required this.body,
+    required this.icon,
+    required this.route,
+  });
+
+  final String title;
+  final String body;
+  final IconData icon;
+  final String route;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Material(
+      color: theme.colorScheme.surfaceContainerHighest,
+      clipBehavior: Clip.antiAlias,
+      shape: const RoundedRectangleBorder(borderRadius: Radii.surfaceRadius),
+      child: InkWell(
+        onTap: () => context.push(route),
+        child: Padding(
+          padding: const EdgeInsets.all(Spacing.lg),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Icon(icon, color: theme.colorScheme.primary),
+              const SizedBox(width: Spacing.md),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(title, style: theme.textTheme.titleMedium),
+                    const SizedBox(height: Spacing.xxs),
+                    Text(
+                      body,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Icon(
+                Icons.chevron_right,
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

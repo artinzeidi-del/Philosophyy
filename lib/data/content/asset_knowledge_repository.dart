@@ -50,6 +50,12 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
   /// Bibliographic sources.
   static const String sourcesFile = '$contentPath/sources.json';
 
+  /// The words a reader may not know.
+  static const String glossaryFile = '$contentPath/glossary.json';
+
+  /// The guided introduction.
+  static const String primerFile = '$contentPath/primer.json';
+
   /// Knowledge-graph edges.
   static const String relationsFile = '$contentPath/relations.json';
 
@@ -120,6 +126,18 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
         relationsFile,
         'relations',
         ContentMappers.relation,
+      ),
+      glossary: await _read(
+        glossaryFile,
+        'terms',
+        ContentMappers.glossaryTerm,
+        identify: (term) => term.id,
+      ),
+      primer: await _read(
+        primerFile,
+        'steps',
+        ContentMappers.primerStep,
+        identify: (step) => step.id,
       ),
     );
 

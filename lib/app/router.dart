@@ -5,8 +5,10 @@ import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/features/entity/entity_screen.dart';
 import 'package:philosophyy/features/explore/explore_screen.dart';
+import 'package:philosophyy/features/glossary/glossary_screen.dart';
 import 'package:philosophyy/features/home/home_screen.dart';
 import 'package:philosophyy/features/library/library_screen.dart';
+import 'package:philosophyy/features/primer/primer_screen.dart';
 import 'package:philosophyy/features/search/search_screen.dart';
 import 'package:philosophyy/features/settings/settings_screen.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
@@ -78,6 +80,32 @@ class AppRouter {
         ],
       ),
 
+      // The primer and the glossary sit outside the shell for the same reason
+      // the articles do: both are reading, and a navigation bar competing with
+      // a page of prose is the thing the shell exists to keep off it.
+      GoRoute(
+        path: primer,
+        pageBuilder: (context, state) => CustomTransitionPage<void>(
+          key: state.pageKey,
+          transitionDuration: MotionTokens.moderate,
+          reverseTransitionDuration: MotionTokens.quick,
+          transitionsBuilder: PageTransitions.article,
+          child: const PrimerScreen(),
+        ),
+      ),
+      GoRoute(
+        path: glossary,
+        pageBuilder: (context, state) => CustomTransitionPage<void>(
+          key: ValueKey<String>(state.uri.toString()),
+          transitionDuration: MotionTokens.moderate,
+          reverseTransitionDuration: MotionTokens.quick,
+          transitionsBuilder: PageTransitions.article,
+          child: GlossaryScreen(
+            initialTermId: state.uri.queryParameters['term'],
+          ),
+        ),
+      ),
+
       // Article routes sit outside the shell so that reading fills the screen
       // and the navigation bar does not compete with the text.
       for (final kind in _articleKinds)
@@ -106,6 +134,13 @@ class AppRouter {
 
   /// The search tab.
   static const String search = '/search';
+
+  /// The guided introduction. Not a tab: it is where a reader starts once,
+  /// not somewhere they live.
+  static const String primer = '/start';
+
+  /// The glossary.
+  static const String glossary = '/glossary';
 
   /// The reader's saved work.
   static const String library = '/library';

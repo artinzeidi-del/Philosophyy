@@ -2,7 +2,9 @@ import 'package:philosophyy/data/content/json_reader.dart';
 import 'package:philosophyy/domain/entities/argument.dart';
 import 'package:philosophyy/domain/entities/concept.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
+import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
+import 'package:philosophyy/domain/entities/primer_step.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/school.dart';
@@ -205,6 +207,38 @@ abstract final class ContentMappers {
     conceptIds: reader.stringList('concepts'),
     workIds: reader.stringList('works'),
     schoolIds: reader.stringList('schools'),
+    citations: citations(reader, 'citations'),
+  );
+
+  /// Reads one step of the guided introduction.
+  static PrimerStep primerStep(JsonReader reader) => PrimerStep(
+    id: reader.requiredString('id'),
+    title: requiredLocalized(reader, 'title'),
+    body: requiredLocalized(reader, 'body'),
+    question: optionalLocalized(reader, 'question'),
+    reads: reader.objectList('reads').map((entry) {
+      final ref = EntityRef.tryParse(entry.requiredString('ref'));
+      if (ref == null) {
+        entry.invalid(
+          'expected a reference of the form "kind:id"',
+          field: 'ref',
+        );
+      }
+      return ref;
+    }).toList(),
+    citations: citations(reader, 'citations'),
+  );
+
+  /// Reads a glossary term.
+  static GlossaryTerm glossaryTerm(JsonReader reader) => GlossaryTerm(
+    id: reader.requiredString('id'),
+    term: requiredLocalized(reader, 'term'),
+    shortDefinition: requiredLocalized(reader, 'short'),
+    longDefinition: optionalLocalized(reader, 'long'),
+    nativeTerm: reader.string('nativeTerm'),
+    transliteration: reader.string('transliteration'),
+    aliases: reader.stringList('aliases'),
+    conceptId: reader.string('concept'),
     citations: citations(reader, 'citations'),
   );
 
