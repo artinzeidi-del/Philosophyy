@@ -195,6 +195,11 @@ void main() {
       final label = tester.widget<ActionChip>(chipFinder).label as Text;
       final branch = label.data!;
 
+      // Scrolled into view before tapping: the strip can be built and still be
+      // off-screen, and a tap dispatched outside the viewport is swallowed —
+      // which looks exactly like a broken link and is not one.
+      await tester.ensureVisible(chipFinder);
+      await tester.pumpAndSettle();
       await tester.tap(chipFinder);
       await tester.pumpAndSettle();
 
