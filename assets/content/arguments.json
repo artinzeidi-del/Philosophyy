@@ -161,6 +161,900 @@
       "concepts": ["theory-of-forms"],
       "branches": ["metaphysics", "logic"],
       "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ontological-argument",
+      "name": {
+        "en": "Anselm's Ontological Argument",
+        "fa": "برهان وجودی آنسلم"
+      },
+      "oneLine": {
+        "en": "That the concept of the greatest conceivable being cannot be the concept of something unreal.",
+        "fa": "اینکه مفهومِ بزرگ‌ترین موجودِ اندیشیدنی نمی‌تواند مفهومِ چیزی ناواقعی باشد."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "God is that than which nothing greater can be thought.",
+            "fa": "خدا آن است که بزرگ‌تر از آن نتوان اندیشید."
+          },
+          "gloss": {
+            "en": "A definition, not yet a claim that anything answers to it.",
+            "fa": "این تعریف است، و هنوز ادعا نمی‌کند که چیزی بر آن صدق می‌کند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Even someone who denies that God exists understands this description, so it exists in their understanding.",
+            "fa": "حتی کسی که هستی خدا را انکار می‌کند این وصف را می‌فهمد، پس آن وصف در فهم او هست."
+          },
+          "gloss": {
+            "en": "To deny something you must first grasp what you are denying.",
+            "fa": "برای انکار چیزی، نخست باید دریافت که چه چیزی را انکار می‌کنی."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "A being existing in reality as well as in the understanding is greater than one existing in the understanding alone.",
+            "fa": "موجودی که هم در واقعیت و هم در فهم است، بزرگ‌تر از موجودی است که تنها در فهم است."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore that than which nothing greater can be thought exists in reality, since otherwise a greater could be thought.",
+          "fa": "پس آنچه بزرگ‌تر از آن نتوان اندیشید در واقعیت هست، وگرنه می‌شد بزرگ‌تری اندیشید."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That existence is the sort of feature that can make one thing greater than another.",
+          "fa": "اینکه «هستی» از آن دست ویژگی‌هایی است که می‌تواند چیزی را از چیزی بزرگ‌تر کند."
+        },
+        {
+          "en": "That the description picks out a single coherent being rather than an unstable superlative.",
+          "fa": "اینکه این وصف موجودی یگانه و سازگار را نشان می‌دهد، نه صفتی برترین و ناپایدار."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The same reasoning would prove the existence of the greatest conceivable island, which is absurd.",
+            "fa": "همین استدلال هستی بزرگ‌ترین جزیرهٔ اندیشیدنی را هم ثابت می‌کند، و این بی‌معنا است."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "Anselm's reply is that an island has no intrinsic maximum — there is no greatest possible number of palm trees — whereas the perfections at issue do have maxima. Whether that distinction holds is the live question.",
+              "fa": "پاسخ آنسلم این است که جزیره بیشینهٔ ذاتی ندارد — بیشترین شمار ممکنِ نخل در کار نیست — حال آنکه کمالات مورد بحث بیشینه دارند. اینکه این تمایز برقرار می‌ماند یا نه، پرسش زنده است."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Existence is not a predicate: saying that something exists adds nothing to the concept of it, so a concept cannot be improved by including it.",
+            "fa": "هستی محمول نیست: گفتن اینکه چیزی هست، چیزی به مفهوم آن نمی‌افزاید، پس مفهوم را نمی‌توان با گنجاندن آن بهتر کرد."
+          },
+          "targets": ["p3"],
+          "raisedBy": "kant",
+          "replies": [
+            {
+              "en": "Defenders reply that necessary existence — existing in a way that could not have failed — is a genuine feature even if bare existence is not.",
+              "fa": "مدافعان پاسخ می‌دهند که «وجوب وجود» — بودن به‌گونه‌ای که نمی‌توانست نباشد — ویژگی‌ای واقعی است، حتی اگر هستیِ عریان چنین نباشد."
+            }
+          ]
+        }
+      ],
+      "proponents": ["anselm"],
+      "opponents": ["kant", "aquinas"],
+      "work": "proslogion",
+      "branches": ["philosophy-of-religion", "metaphysics", "logic"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "problem-of-evil",
+      "name": { "en": "The Problem of Evil", "fa": "مسئلهٔ شر" },
+      "oneLine": {
+        "en": "That the amount of suffering in the world is hard to reconcile with a God who is able and willing to prevent it.",
+        "fa": "اینکه اندازهٔ رنج در جهان به‌سختی با خدایی که هم می‌تواند و هم می‌خواهد از آن جلوگیری کند جمع می‌شود."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "If God is all-powerful, God is able to prevent any given instance of suffering.",
+            "fa": "اگر خدا قادر مطلق است، می‌تواند از هر نمونهٔ معینِ رنج جلوگیری کند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "If God is perfectly good, God would prevent any suffering not necessary for a greater good.",
+            "fa": "اگر خدا خیر محض است، از هر رنجی که برای خیری بزرگ‌تر لازم نباشد جلوگیری می‌کند."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "There is suffering for which no greater good is apparent — the standard case is the suffering of animals and of children.",
+            "fa": "رنجی هست که هیچ خیر بزرگ‌تری برای آن پیدا نیست؛ نمونهٔ همیشگی، رنج حیوانات و کودکان است."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore either God is not able, or not willing, or the greater goods are ones we cannot see.",
+          "fa": "پس یا خدا نمی‌تواند، یا نمی‌خواهد، یا خیرهای بزرگ‌ترْ چیزهایی‌اند که ما نمی‌بینیم."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That we are in a position to judge whether a good justifying a given suffering exists.",
+          "fa": "اینکه ما در موقعیتی هستیم که داوری کنیم آیا خیری توجیه‌کنندهٔ یک رنج معین هست یا نه."
+        },
+        {
+          "en": "That goods and harms can be weighed against each other at all.",
+          "fa": "اینکه اصلاً می‌توان خیرها و آسیب‌ها را در برابر هم سنجید."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Free will explains the suffering people cause each other, since a world of people who could not choose wrongly would be worth less.",
+            "fa": "اختیار، رنجی را که آدمیان بر هم روا می‌دارند توضیح می‌دهد، چون جهانی از مردمی که نتوانند بد انتخاب کنند کم‌ارزش‌تر است."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "The reply narrows the problem rather than removing it: earthquakes and diseases are not chosen by anyone, and the suffering of animals predates human choice entirely.",
+              "fa": "این پاسخ مسئله را باریک می‌کند نه اینکه بردارد: زلزله و بیماری را کسی انتخاب نمی‌کند، و رنج حیوانات یکسره پیش از انتخاب آدمی بوده است."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Our failing to see a justifying good is weak evidence that there is none, given how limited our view is.",
+            "fa": "اینکه ما خیری توجیه‌کننده نمی‌بینیم، با توجه به محدودیت دیدمان، شاهد ضعیفی بر نبودنش است."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "Critics answer that the same modesty would undercut every moral judgement we make, including the ones the reply relies on to call God good.",
+              "fa": "منتقدان پاسخ می‌دهند که همین فروتنی، هر داوری اخلاقی ما را از پا می‌اندازد، از جمله همان‌هایی که این پاسخ برای خیرخواندن خدا به آن‌ها تکیه می‌کند."
+            }
+          ]
+        }
+      ],
+      "proponents": ["hume"],
+      "opponents": ["aquinas", "leibniz"],
+      "branches": ["philosophy-of-religion", "metaphysics", "ethics"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "induction-argument",
+      "name": {
+        "en": "Hume's Argument About Induction",
+        "fa": "استدلال هیوم دربارهٔ استقرا"
+      },
+      "oneLine": {
+        "en": "That every justification for expecting the future to resemble the past already assumes it.",
+        "fa": "اینکه هر توجیهی برای انتظارِ شباهت آینده به گذشته، پیشاپیش همان را فرض گرفته است."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Any claim about what we have not observed must be justified either by reasoning about relations of ideas or by experience.",
+            "fa": "هر ادعایی دربارهٔ آنچه مشاهده نکرده‌ایم یا باید با استدلال دربارهٔ نسبت میان ایده‌ها موجه شود یا با تجربه."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Relations of ideas cannot justify it: no contradiction follows from supposing that the sun does not rise tomorrow.",
+            "fa": "نسبت میان ایده‌ها آن را موجه نمی‌کند: از فرضِ اینکه فردا خورشید برنیاید تناقضی برنمی‌آید."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Experience cannot justify it either, because experience is of the past, and using it requires the very assumption that the future will resemble the past.",
+            "fa": "تجربه هم آن را موجه نمی‌کند، چون تجربه از گذشته است، و به‌کارگرفتنش همان فرض را لازم دارد که آینده شبیه گذشته خواهد بود."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore our reliance on induction has no justification of either kind — it is a habit, however indispensable.",
+          "fa": "پس تکیهٔ ما بر استقرا هیچ‌یک از این دو توجیه را ندارد؛ عادتی است، هرچند ناگزیر."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That justification must come from one of the two sources named, with no third kind.",
+          "fa": "اینکه توجیه باید از یکی از این دو سرچشمه بیاید و گونهٔ سومی در کار نیست."
+        },
+        {
+          "en": "That a rule cannot be justified by an argument that uses the rule.",
+          "fa": "اینکه قاعده‌ای را نمی‌توان با استدلالی که همان قاعده را به کار می‌برد موجه کرد."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Induction is justified because it works, and its track record is itself evidence.",
+            "fa": "استقرا موجه است چون کار می‌کند، و کارنامه‌اش خودْ شاهد است."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "This is the circle the argument identifies: that induction has worked is a fact about the past, and it supports a conclusion about the future only if induction is already trusted.",
+              "fa": "این همان دوری است که استدلال نشانش می‌دهد: اینکه استقرا کار کرده واقعیتی دربارهٔ گذشته است، و تنها وقتی نتیجه‌ای دربارهٔ آینده می‌دهد که از پیش به استقرا اعتماد شده باشد."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Science does not need induction to be justified — it needs only that theories be testable and discarded when they fail.",
+            "fa": "علم به موجه‌بودن استقرا نیازی ندارد؛ تنها به این نیاز دارد که نظریه‌ها آزمون‌پذیر باشند و وقتی شکست خوردند کنار گذاشته شوند."
+          },
+          "targets": ["p1"],
+          "raisedBy": "popper",
+          "replies": [
+            {
+              "en": "Popper's answer concedes Hume's point and rebuilds around it; critics reply that choosing to act on the theory that has survived is itself an inductive step.",
+              "fa": "پاسخ پوپر نکتهٔ هیوم را می‌پذیرد و از نو گِرد آن می‌سازد؛ منتقدان پاسخ می‌دهند که تصمیم به عمل بر پایهٔ نظریه‌ای که تاکنون دوام آورده، خود گامی استقرایی است."
+            }
+          ]
+        }
+      ],
+      "proponents": ["hume"],
+      "opponents": ["popper"],
+      "concepts": ["problem-of-induction"],
+      "branches": ["epistemology", "philosophy-of-science", "logic"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "achilles-and-tortoise",
+      "name": { "en": "Achilles and the Tortoise", "fa": "آشیل و لاک‌پشت" },
+      "oneLine": {
+        "en": "That a runner can never overtake a slower one given a head start, if space divides without end.",
+        "fa": "اینکه دونده‌ای هرگز از کندروی که جلو افتاده جلو نمی‌زند، اگر فضا بی‌پایان تقسیم شود."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "To overtake the tortoise, Achilles must first reach the point where the tortoise now is.",
+            "fa": "برای جلوزدن از لاک‌پشت، آشیل نخست باید به نقطه‌ای برسد که لاک‌پشت اکنون در آن است."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "By the time he arrives, the tortoise has moved on to a further point.",
+            "fa": "تا او برسد، لاک‌پشت به نقطه‌ای جلوتر رفته است."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "This repeats without end, so there is no last step after which he is ahead.",
+            "fa": "این بی‌پایان تکرار می‌شود، پس گام آخری نیست که پس از آن جلو افتاده باشد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore Achilles never overtakes the tortoise — which he plainly does, so something in the description of motion is wrong.",
+          "fa": "پس آشیل هرگز از لاک‌پشت جلو نمی‌زند — که آشکارا می‌زند، پس چیزی در توصیف حرکت نادرست است."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That completing infinitely many tasks in sequence is impossible.",
+          "fa": "اینکه به‌انجام‌رساندن بی‌نهایت کارِ پیاپی ناممکن است."
+        },
+        {
+          "en": "That a distance divided infinitely is a distance made of infinitely many parts to be crossed one at a time.",
+          "fa": "اینکه مسافتی که بی‌نهایت تقسیم شود، مسافتی است ساخته از بی‌نهایت جزء که باید یکی‌یکی پیموده شود."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The infinitely many intervals have a finite sum, so crossing them takes finite time and the paradox dissolves.",
+            "fa": "بی‌نهایت بازهٔ یادشده مجموعی متناهی دارند، پس پیمودنشان زمانی متناهی می‌برد و پارادوکس منحل می‌شود."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "This answers the arithmetic but not the whole question: it shows the sum converges without explaining how a sequence with no final member gets completed, which is what the paradox asks.",
+              "fa": "این پاسخ به حساب می‌دهد نه به همهٔ پرسش: نشان می‌دهد مجموع همگرا است، اما توضیح نمی‌دهد دنباله‌ای که عضو آخر ندارد چگونه به پایان می‌رسد، و پارادوکس همین را می‌پرسد."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Space and time may not be infinitely divisible, in which case the sequence terminates.",
+            "fa": "شاید فضا و زمان بی‌نهایت تقسیم‌پذیر نباشند، که در آن صورت دنباله پایان می‌یابد."
+          },
+          "targets": ["p1"],
+          "replies": [
+            {
+              "en": "Zeno has a companion paradox for that horn: if the parts are finite in size, a moving arrow must jump between them, and motion becomes discontinuous.",
+              "fa": "زنون برای این شاخه پارادوکسی همراه دارد: اگر اجزا اندازه‌ای متناهی داشته باشند، تیرِ در حرکت باید میانشان بجهد، و حرکت ناپیوسته می‌شود."
+            }
+          ]
+        }
+      ],
+      "proponents": ["zeno-of-elea"],
+      "opponents": ["aristotle"],
+      "branches": ["logic", "metaphysics", "philosophy-of-mathematics"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "mencius-child-argument",
+      "name": { "en": "The Child at the Well", "fa": "کودک بر لب چاه" },
+      "oneLine": {
+        "en": "That an unbidden reaction to a child in danger shows moral feeling is native, not taught.",
+        "fa": "اینکه واکنش ناخواسته به کودکی در خطر نشان می‌دهد احساس اخلاقی زادی است، نه آموخته."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Anyone who suddenly saw a child about to fall into a well would feel alarm and distress.",
+            "fa": "هر کس ناگهان کودکی را در آستانهٔ افتادن در چاه ببیند، هراسان و پریشان می‌شود."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "The feeling arrives before any calculation — not to gain the parents' favour, nor a reputation, nor to avoid the sound of the cry.",
+            "fa": "این احساس پیش از هر محاسبه‌ای می‌آید — نه برای جلب رضایت پدر و مادر، نه برای نام، و نه برای پرهیز از شنیدن فریاد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "A reaction that precedes calculation is not produced by training in advantage.",
+            "fa": "واکنشی که پیش از محاسبه می‌آید، فرآوردهٔ آموزشِ سودجویی نیست."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore human beings have a native capacity for compassion, which moral cultivation develops rather than installs.",
+          "fa": "پس آدمیان توانی زادی برای همدردی دارند، که پرورش اخلاقی آن را می‌گستراند نه اینکه بنشاند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That what is felt in a startling case reveals a standing capacity rather than an accident of that case.",
+          "fa": "اینکه آنچه در موقعیتی تکان‌دهنده احساس می‌شود، توانی پایدار را آشکار می‌کند نه اتفاقی در همان مورد."
+        },
+        {
+          "en": "That a capacity everyone has is properly called part of human nature.",
+          "fa": "اینکه توانی که همه دارند به‌درستی بخشی از طبیعت آدمی خوانده می‌شود."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The reaction is itself the product of upbringing, so the thought experiment shows only that the training started early.",
+            "fa": "خودِ این واکنش فرآوردهٔ تربیت است، پس این آزمایش ذهنی تنها نشان می‌دهد که تربیت زود آغاز شده."
+          },
+          "targets": ["p3"],
+          "raisedBy": "xunzi",
+          "replies": [
+            {
+              "en": "This is Xunzi's line: nature is crooked and ritual straightens it. Mencius's reply is that training can only develop something already there, since a capacity taught from nothing would have nothing to take hold of.",
+              "fa": "این حرف شون‌دزه است: طبیعت کج است و آیین راستش می‌کند. پاسخ منسیوس این است که تربیت تنها می‌تواند چیزی را که هست بگستراند، چون توانی که از هیچ آموخته شود چیزی برای گرفتن ندارد."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Feeling alarm is not yet acting well, so the argument establishes less than it claims.",
+            "fa": "هراسان‌شدن هنوز خوب‌عمل‌کردن نیست، پس استدلال کمتر از آنچه ادعا می‌کند ثابت می‌کند."
+          },
+          "targets": ["p1"],
+          "replies": [
+            {
+              "en": "Mencius agrees: he calls it a sprout, and the whole point of cultivation is that a sprout left alone dies.",
+              "fa": "منسیوس می‌پذیرد: آن را «جوانه» می‌نامد، و همهٔ مقصود پرورش این است که جوانهٔ رهاشده می‌میرد."
+            }
+          ]
+        }
+      ],
+      "proponents": ["mencius"],
+      "opponents": ["xunzi"],
+      "work": "mengzi",
+      "branches": ["ethics", "philosophy-of-mind", "philosophy-of-education"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ghazali-causation",
+      "name": {
+        "en": "Al-Ghazālī on Fire and Cotton",
+        "fa": "غزالی دربارهٔ آتش و پنبه"
+      },
+      "oneLine": {
+        "en": "That we observe one thing following another, never one thing making another happen.",
+        "fa": "اینکه ما پیامدِ یک چیز را از پی دیگری می‌بینیم، نه ساختنِ یکی به دست دیگری."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "What we observe when fire meets cotton is the burning occurring at the moment of contact.",
+            "fa": "آنچه هنگام رسیدن آتش به پنبه می‌بینیم، سوختنی است که در لحظهٔ تماس رخ می‌دهد."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Observation of one event at the time of another does not show that the first produced the second.",
+            "fa": "دیدن رویدادی هم‌زمان با رویدادی دیگر نشان نمی‌دهد که اولی دومی را پدید آورده."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "No further observation is available that would show the producing itself.",
+            "fa": "هیچ مشاهدهٔ دیگری در دست نیست که خودِ آن پدیدآوردن را نشان دهد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore the claim that fire necessarily burns cotton is not established by experience, and the regularity may hold for another reason.",
+          "fa": "پس این ادعا که آتش به‌ضرورت پنبه را می‌سوزاند با تجربه ثابت نمی‌شود، و آن نظمِ همیشگی ممکن است دلیل دیگری داشته باشد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That necessity, if it existed between events, would be the sort of thing observation could disclose.",
+          "fa": "اینکه ضرورت، اگر میان رویدادها می‌بود، از آن دست چیزهایی می‌بود که مشاهده می‌تواند آشکارش کند."
+        },
+        {
+          "en": "That regularity is compatible with more than one explanation of why it holds.",
+          "fa": "اینکه نظم با بیش از یک تبیین دربارهٔ چراییِ برقراری‌اش سازگار است."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "If fire does not burn by its nature, nothing can be relied on and knowledge of the world collapses.",
+            "fa": "اگر آتش به سرشت خود نسوزاند، بر هیچ‌چیز نمی‌توان تکیه کرد و شناخت جهان فرو می‌ریزد."
+          },
+          "targets": ["p3"],
+          "raisedBy": "ibn-rushd",
+          "replies": [
+            {
+              "en": "Al-Ghazālī's reply is that the regularity is not in doubt, only its explanation — the world runs to a habit we can count on, whether the necessity is in the fire or in what sustains the habit.",
+              "fa": "پاسخ غزالی این است که در نظم تردیدی نیست، تنها در تبیین آن — جهان بر عادتی می‌گردد که می‌توان بر آن حساب کرد، خواه ضرورت در آتش باشد خواه در آنچه آن عادت را نگه می‌دارد."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Denying causal powers makes science pointless, since there would be no natures to discover.",
+            "fa": "انکار نیروهای علّی، علم را بی‌معنا می‌کند، چون سرشتی برای کشف‌کردن نمی‌ماند."
+          },
+          "targets": ["p2"],
+          "replies": [
+            {
+              "en": "The historical record complicates the objection: the same analysis reappears in Hume and did not stop the science that followed him.",
+              "fa": "سند تاریخی این اعتراض را پیچیده می‌کند: همین تحلیل نزد هیوم بازمی‌آید و علمی را که پس از او آمد متوقف نکرد."
+            }
+          ]
+        }
+      ],
+      "proponents": ["al-ghazali"],
+      "opponents": ["ibn-rushd", "ibn-sina"],
+      "work": "tahafut",
+      "branches": [
+        "metaphysics",
+        "philosophy-of-science",
+        "philosophy-of-religion"
+      ],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "private-language-argument",
+      "name": {
+        "en": "The Private Language Argument",
+        "fa": "استدلال زبان خصوصی"
+      },
+      "oneLine": {
+        "en": "That a language whose words only one person could ever check would not be a language.",
+        "fa": "اینکه زبانی که واژه‌هایش را تنها یک نفر بتواند بررسی کند، زبان نیست."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Using a word correctly requires a distinction between using it correctly and merely believing one has.",
+            "fa": "کاربرد درست یک واژه، تمایز میان درست‌به‌کاربردن و صرفاً گمان‌کردن به درستی را لازم دارد."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "In a language about purely private sensations, the only check available is memory of how the word was used before.",
+            "fa": "در زبانی دربارهٔ احساس‌های یکسره خصوصی، تنها بررسیِ در دسترس، یادآوریِ کاربرد پیشین واژه است."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Memory alone cannot supply the distinction, since it is exactly what is in question — there is nothing to check the memory against.",
+            "fa": "حافظه به‌تنهایی این تمایز را نمی‌دهد، چون خودش همان چیزی است که محل پرسش است؛ چیزی نیست که حافظه با آن سنجیده شود."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore there could be no such language, and the picture of meaning as a private naming of inner items is mistaken.",
+          "fa": "پس چنین زبانی نمی‌تواند باشد، و تصویری که معنا را نام‌گذاری خصوصیِ چیزهای درونی می‌داند نادرست است."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That meaning requires the possibility of getting it wrong.",
+          "fa": "اینکه معنا امکانِ خطاکردن را لازم دارد."
+        },
+        {
+          "en": "That a standard nobody else could apply is not a standard.",
+          "fa": "اینکه معیاری که کس دیگری نتواند به کارش برد، معیار نیست."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "A person alone from birth could still name their sensations consistently, so the conclusion is too strong.",
+            "fa": "کسی که از زاده‌شدن تنها بوده باز می‌تواند احساس‌هایش را پیوسته نام‌گذاری کند، پس نتیجه بیش از حد قوی است."
+          },
+          "targets": ["p2"],
+          "replies": [
+            {
+              "en": "The argument targets a language private in principle, not one private in fact: a solitary speaker's words could still be checked by someone, and that possibility is what does the work.",
+              "fa": "استدلال زبانی را هدف می‌گیرد که اصولاً خصوصی است، نه زبانی که در عمل خصوصی مانده: واژه‌های یک گویندهٔ تنها را باز کسی می‌تواند بررسی کند، و همین امکان است که کار می‌کند."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "We plainly do talk about our sensations, so whatever the argument shows, it cannot show that we cannot.",
+            "fa": "ما آشکارا دربارهٔ احساس‌هایمان حرف می‌زنیم، پس استدلال هرچه نشان دهد، نمی‌تواند نشان دهد که نمی‌توانیم."
+          },
+          "targets": ["p1"],
+          "replies": [
+            {
+              "en": "The conclusion is not that sensation talk is impossible but that it works differently from naming — the word for pain is learned in public circumstances, not by inward pointing.",
+              "fa": "نتیجه این نیست که سخن‌گفتن از احساس ناممکن است، بلکه این است که جور دیگری کار می‌کند تا نام‌گذاری — واژهٔ درد در موقعیت‌های همگانی آموخته می‌شود، نه با اشارهٔ درونی."
+            }
+          ]
+        }
+      ],
+      "proponents": ["wittgenstein"],
+      "work": "philosophical-investigations",
+      "branches": [
+        "philosophy-of-language",
+        "philosophy-of-mind",
+        "epistemology"
+      ],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "original-position-argument",
+      "name": { "en": "The Original Position", "fa": "وضع نخستین" },
+      "oneLine": {
+        "en": "That fair principles are the ones you would choose without knowing which position you would occupy.",
+        "fa": "اینکه اصول منصفانه آن‌هایی‌اند که بی‌دانستن جایگاه آیندهٔ خود برمی‌گزینی."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Principles of justice are fair if they could be agreed to by everyone bound by them.",
+            "fa": "اصول عدالت آنگاه منصفانه‌اند که همهٔ کسانی که به آن‌ها مقیدند بتوانند بر آن‌ها توافق کنند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Agreement reached with knowledge of one's own advantages reflects bargaining power rather than fairness.",
+            "fa": "توافقی که با آگاهی از امتیازهای خود حاصل شود، بازتاب قدرت چانه‌زنی است نه انصاف."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Behind a veil of ignorance about class, talents, sex, race and conception of the good, no one can tailor a principle to their own case.",
+            "fa": "پشت پرده‌ای از بی‌خبری نسبت به طبقه و استعداد و جنس و نژاد و تصور از خیر، کسی نمی‌تواند اصلی را به‌اندازهٔ حال خود بدوزد."
+          }
+        },
+        {
+          "id": "p4",
+          "text": {
+            "en": "Choosers in that position would secure equal basic liberties first, then permit inequalities only where they improve the position of the worst off.",
+            "fa": "برگزینندگان در آن وضع نخست آزادی‌های پایهٔ برابر را تضمین می‌کنند و سپس نابرابری را تنها آنجا می‌پذیرند که وضع بدترین‌ها را بهتر کند."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore those two principles are the principles of justice for the basic structure of a society.",
+          "fa": "پس همان دو اصل، اصول عدالت برای ساختار پایهٔ یک جامعه‌اند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That people ignorant of their own position would be cautious rather than willing to gamble.",
+          "fa": "اینکه مردمِ بی‌خبر از جایگاه خود محتاط‌اند نه اهل قمار."
+        },
+        {
+          "en": "That the relevant subject of justice is a society's basic structure rather than individual transactions.",
+          "fa": "اینکه موضوعِ مربوطِ عدالت، ساختار پایهٔ جامعه است نه مبادلات فردی."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Rational choosers might accept a small chance of doing badly for a large chance of doing very well, which yields different principles.",
+            "fa": "برگزینندگان عاقل شاید شانس کوچکِ بدشدن را در برابر شانس بزرگِ بسیار خوب‌شدن بپذیرند، و این اصولی دیگر می‌دهد."
+          },
+          "targets": ["p4"],
+          "replies": [
+            {
+              "en": "Rawls's reply is that the choice is once and for all and covers a whole life, which is the situation in which caution is rational rather than timid.",
+              "fa": "پاسخ رالز این است که این انتخاب یک‌بار برای همیشه است و یک عمر را در بر می‌گیرد، و در چنین وضعی احتیاط عاقلانه است نه ترسو."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Stripping away everything particular about a person leaves no one recognisable to be doing the choosing.",
+            "fa": "کندنِ هر آنچه دربارهٔ یک شخص خاص است، کسی را باقی نمی‌گذارد که بتوان بازش شناخت و انتخاب کند."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "The veil is a device for modelling a constraint on reasons, not a claim about what a self is — though critics answer that the device smuggles in the very individualism it claims to abstract from.",
+              "fa": "پرده ابزاری است برای مدل‌کردن قیدی بر دلایل، نه ادعایی دربارهٔ چیستیِ «خود» — هرچند منتقدان پاسخ می‌دهند که همین ابزار، همان فردگرایی‌ای را قاچاق می‌کند که مدعی است از آن انتزاع کرده."
+            }
+          ]
+        }
+      ],
+      "proponents": ["rawls"],
+      "concepts": ["veil-of-ignorance", "social-contract"],
+      "branches": ["political-philosophy", "ethics"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "zera-yacob-equality",
+      "name": {
+        "en": "Zera Yacob on Reason and Equality",
+        "fa": "زرا یعقوب دربارهٔ خرد و برابری"
+      },
+      "oneLine": {
+        "en": "That a doctrine contradicting reason should be rejected whoever taught it — including one's own tradition.",
+        "fa": "اینکه آموزه‌ای که با خرد ناسازگار است باید رد شود، هرکه آموخته باشدش — از جمله سنت خودت."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "God gave reason to every person, since everyone finds themselves able to examine what they are told.",
+            "fa": "خدا به هر کسی خرد داده، چون هر کس خود را توانا می‌یابد که آنچه را به او می‌گویند بررسی کند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "The religions disagree with each other, so at most one of their conflicting teachings can be true.",
+            "fa": "دین‌ها با هم اختلاف دارند، پس دست‌بالا یکی از آموزه‌های ناسازگارشان می‌تواند درست باشد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Each was taught to its followers by upbringing, so being taught something is no evidence at all that it is true.",
+            "fa": "هر یک را تربیت به پیروانش آموخته، پس آموخته‌شدنِ چیزی هیچ شاهدی بر درستی آن نیست."
+          }
+        },
+        {
+          "id": "p4",
+          "text": {
+            "en": "What is left to judge by is reason, which is common to all people.",
+            "fa": "آنچه برای داوری می‌ماند خرد است، که میان همهٔ مردم مشترک است."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore any teaching contradicting reason should be rejected — and by that test, slavery and the subordination of women are unjust.",
+          "fa": "پس هر آموزه‌ای که با خرد ناسازگار باشد باید رد شود — و به همین آزمون، بردگی و فرودستیِ زنان ناعادلانه‌اند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That reason is distributed evenly enough to serve as a common standard.",
+          "fa": "اینکه خرد به‌قدر کافی یکسان پخش شده که معیاری مشترک باشد."
+        },
+        {
+          "en": "That a practice no one would accept for themselves cannot be justified for others.",
+          "fa": "اینکه رویّه‌ای که کسی برای خودش نمی‌پذیرد، برای دیگران توجیه‌پذیر نیست."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Reason itself is shaped by upbringing, so appealing to it does not escape the problem the argument raises.",
+            "fa": "خودِ خرد را تربیت شکل می‌دهد، پس تمسک به آن از مشکلی که استدلال طرح می‌کند نمی‌گریزد."
+          },
+          "targets": ["p4"],
+          "replies": [
+            {
+              "en": "Zera Yacob's test is comparative rather than foundational: he does not claim reason is untouched, only that it is the one faculty the disputing parties share, so it is where a dispute between them can be conducted at all.",
+              "fa": "آزمون زرا یعقوب مقایسه‌ای است نه بنیادی: ادعا نمی‌کند خرد دست‌نخورده است، تنها می‌گوید تنها قوه‌ای است که طرف‌های نزاع در آن شریک‌اند، پس یگانه جایی است که نزاعشان اصلاً می‌تواند در آن پیش رود."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "If every tradition fails the test, nothing is left to live by.",
+            "fa": "اگر هر سنتی در این آزمون بیفتد، چیزی برای زیستن نمی‌ماند."
+          },
+          "targets": ["p3"],
+          "replies": [
+            {
+              "en": "The Hatata does not conclude that; it keeps what survives examination, including belief in God, and discards the specific rules it finds arbitrary — fasting that harms the body, laws that rank one person above another.",
+              "fa": "«حَتَته» چنین نتیجه نمی‌گیرد؛ آنچه از بررسی جان به در می‌برد را نگه می‌دارد، از جمله باور به خدا، و همان قواعد معینی را که خودسرانه می‌یابد کنار می‌گذارد — روزه‌ای که به تن آسیب می‌زند، و قوانینی که کسی را بر کسی برتر می‌نشانند."
+            }
+          ]
+        }
+      ],
+      "proponents": ["zera-yacob"],
+      "work": "hatata",
+      "branches": [
+        "epistemology",
+        "ethics",
+        "philosophy-of-religion",
+        "political-philosophy"
+      ],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "ambedkar-caste-argument",
+      "name": {
+        "en": "Ambedkar on Why Caste Does Not Reform",
+        "fa": "آمبدکار دربارهٔ چرا کاست اصلاح نمی‌شود"
+      },
+      "oneLine": {
+        "en": "That a hierarchy in which almost everyone has someone below them will not be dismantled from inside.",
+        "fa": "اینکه سلسله‌مراتبی که در آن تقریباً هرکس کسی را زیر خود دارد، از درون برچیده نمی‌شود."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Caste is not one line between two groups but a graded order in which nearly every group ranks above some other.",
+            "fa": "کاست یک خط میان دو گروه نیست، بلکه نظمی پلکانی است که در آن تقریباً هر گروه بالاتر از گروهی دیگر می‌نشیند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "A group that is oppressed and also ranks above another has something to lose from the whole order collapsing.",
+            "fa": "گروهی که هم ستم می‌بیند و هم بالاتر از گروهی دیگر است، از فروریختن کل آن نظم چیزی برای از دست دادن دارد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Reform movements therefore cannot assemble a coalition of everyone the system harms, because the system pays most of them something.",
+            "fa": "پس جنبش‌های اصلاحی نمی‌توانند ائتلافی از همهٔ آسیب‌دیدگانِ نظام بسازند، چون نظام به بیشترشان چیزی می‌پردازد."
+          }
+        },
+        {
+          "id": "p4",
+          "text": {
+            "en": "The order is sanctioned by scripture, so contesting a practice within the religion contests the scripture's authority.",
+            "fa": "این نظم را متن مقدس روا می‌دارد، پس به‌چالش‌کشیدن یک رویّه درون دین، اقتدار آن متن را به چالش می‌کشد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore caste cannot be reformed away from within, and its rejection requires leaving the framework that licenses it.",
+          "fa": "پس کاست را نمی‌توان از درون با اصلاح برچید، و رد آن ترک‌کردن چارچوبی را می‌طلبد که مجازش می‌دارد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That people generally act to protect a relative advantage even at the cost of an absolute one.",
+          "fa": "اینکه مردم عموماً برای حفظ امتیاز نسبی خود عمل می‌کنند، حتی به بهای امتیازی مطلق."
+        },
+        {
+          "en": "That religious sanction is doing real work in holding the arrangement together, rather than decorating it.",
+          "fa": "اینکه روایی دینی در نگه‌داشتن این ترتیب کارِ واقعی می‌کند، نه اینکه زینتش باشد."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Caste is a social abuse that the religion's own principles condemn, so reform from within is the right route.",
+            "fa": "کاست سوءاستفاده‌ای اجتماعی است که اصول خودِ دین محکومش می‌کنند، پس اصلاح از درون راه درست است."
+          },
+          "targets": ["p4"],
+          "raisedBy": "gandhi",
+          "replies": [
+            {
+              "en": "This was Gandhi's position and the two argued it publicly. Ambedkar's reply is that a text can be read charitably indefinitely, and that the people it ranks lowest cannot be asked to wait for the reading to win.",
+              "fa": "این موضع گاندی بود و آن دو علناً بر سرش بحث کردند. پاسخ آمبدکار این است که هر متنی را می‌توان بی‌پایان به‌نیکی خواند، و از کسانی که آن متن پایین‌ترینشان می‌شمارد نمی‌توان خواست منتظر پیروزی آن خوانش بمانند."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Economic change will dissolve caste without any argument about religion.",
+            "fa": "دگرگونی اقتصادی کاست را بی‌هیچ بحثی دربارهٔ دین از میان می‌برد."
+          },
+          "targets": ["p1"],
+          "replies": [
+            {
+              "en": "Ambedkar's answer is that caste survived every economic transformation India had already passed through, which is evidence that it is not a by-product of one.",
+              "fa": "پاسخ آمبدکار این است که کاست از هر دگرگونی اقتصادی‌ای که هند تا آن زمان از سر گذرانده جان به در برد، و همین شاهدی است که فرآوردهٔ جانبیِ هیچ‌یک نیست."
+            }
+          ]
+        }
+      ],
+      "proponents": ["ambedkar"],
+      "opponents": ["gandhi"],
+      "branches": [
+        "political-philosophy",
+        "social-philosophy",
+        "philosophy-of-religion",
+        "ethics"
+      ],
+      "citations": [{ "source": "sep" }]
     }
   ]
 }

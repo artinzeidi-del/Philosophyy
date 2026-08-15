@@ -115,6 +115,61 @@
   "@sectionQuotes": {
     "description": "Heading for quotations."
   },
+  "sectionArguments": "Arguments",
+  "@sectionArguments": {
+    "description": "Heading for reconstructed arguments."
+  },
+  "argumentPremises": "Premises",
+  "@argumentPremises": {
+    "description": "Label above the numbered premises of an argument."
+  },
+  "argumentConclusion": "Conclusion",
+  "@argumentConclusion": {
+    "description": "Label above an argument's conclusion."
+  },
+  "argumentAssumptions": "Unstated assumptions",
+  "@argumentAssumptions": {
+    "description": "Label above the commitments an argument needs but does not state."
+  },
+  "argumentObjections": "{count, plural, =1{1 objection} other{{count} objections}}",
+  "@argumentObjections": {
+    "description": "Label above the objections raised against an argument.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "argumentReply": "Reply",
+  "@argumentReply": {
+    "description": "Label above the answer made on an argument's behalf."
+  },
+  "argumentTargets": "Denies {premise}",
+  "@argumentTargets": {
+    "description": "Says which premise an objection attacks, e.g. \"Denies P2\".",
+    "placeholders": {
+      "premise": {
+        "type": "String"
+      }
+    }
+  },
+  "argumentTargetsWhole": "Against the argument as a whole",
+  "@argumentTargetsWhole": {
+    "description": "Shown on an objection that attacks no single premise."
+  },
+  "argumentRaisedBy": "Raised by {name}",
+  "@argumentRaisedBy": {
+    "description": "Credits the philosopher who made an objection.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "argumentArguedAgainst": "Argued against this",
+  "@argumentArguedAgainst": {
+    "description": "Badge shown when the philosopher being read opposed the argument rather than advancing it."
+  },
   "sectionConnections": "Connections",
   "@sectionConnections": {
     "description": "Heading for the knowledge-graph relations."

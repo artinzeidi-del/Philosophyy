@@ -198,6 +198,33 @@ class KnowledgeBase {
       quotes.where((quote) => quote.speakerId == philosopherId).toList()
         ..sort((a, b) => a.attribution.order.compareTo(b.attribution.order));
 
+  /// The reconstructed arguments a philosopher advanced or argued against.
+  ///
+  /// Opponents are included deliberately. Kant belongs on the ontological
+  /// argument's page as surely as Anselm does, and a reference that filed an
+  /// argument only under the person who liked it would hide half of what a
+  /// reader is looking for. Proponents come first so the entry reads as the
+  /// argument before it reads as the quarrel.
+  List<Argument> argumentsBy(String philosopherId) =>
+      arguments
+          .where(
+            (argument) =>
+                argument.proponentIds.contains(philosopherId) ||
+                argument.opponentIds.contains(philosopherId),
+          )
+          .toList()
+        ..sort((a, b) {
+          final aProposed = a.proponentIds.contains(philosopherId) ? 0 : 1;
+          final bProposed = b.proponentIds.contains(philosopherId) ? 0 : 1;
+          return aProposed != bProposed
+              ? aProposed.compareTo(bProposed)
+              : a.name.en.compareTo(b.name.en);
+        });
+
+  /// The reconstructed arguments a work contains.
+  List<Argument> argumentsIn(String workId) =>
+      arguments.where((argument) => argument.workId == workId).toList();
+
   /// Works written by a philosopher, in chronological order where known.
   List<Work> worksBy(String philosopherId) =>
       works.where((work) => work.authorId == philosopherId).toList()

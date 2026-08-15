@@ -25,6 +25,7 @@ import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
+import 'package:philosophyy/features/shared/argument_widgets.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
@@ -359,6 +360,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
     final l10n = AppL10n.of(context);
     final works = corpus.worksBy(philosopher.id);
     final quotes = corpus.quotesBy(philosopher.id);
+    final arguments = corpus.argumentsBy(philosopher.id);
     final concepts = philosopher.conceptIds
         .map(corpus.concept)
         .whereType<Concept>()
@@ -387,6 +389,22 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                 summary: work.oneLine.resolve(language),
                 meta: AppDates.range(work.composed, language, l10n),
                 onTap: () => context.push(work.ref.route),
+              ),
+          ],
+        ),
+      if (arguments.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionArguments,
+          children: <Widget>[
+            for (final argument in arguments)
+              ArgumentPanel(
+                argument: argument,
+                language: language,
+                opposedByReader: !argument.proponentIds.contains(
+                  philosopher.id,
+                ),
+                raisedByName: (id) =>
+                    corpus.philosopher(id)?.name.resolve(language),
               ),
           ],
         ),
@@ -451,6 +469,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         .map(corpus.source)
         .whereType<Source>()
         .toList();
+    final arguments = corpus.argumentsIn(work.id);
 
     return <Widget>[
       if (divisions.isNotEmpty)
@@ -493,6 +512,19 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                 title: concept.name.resolve(language),
                 summary: concept.oneLine.resolve(language),
                 onTap: () => context.push(concept.ref.route),
+              ),
+          ],
+        ),
+      if (arguments.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionArguments,
+          children: <Widget>[
+            for (final argument in arguments)
+              ArgumentPanel(
+                argument: argument,
+                language: language,
+                raisedByName: (id) =>
+                    corpus.philosopher(id)?.name.resolve(language),
               ),
           ],
         ),
