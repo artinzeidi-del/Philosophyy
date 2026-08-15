@@ -23,8 +23,12 @@ import 'package:philosophyy/l10n/generated/app_localizations.dart';
 /// rather than trusted to review.
 class AppRouter {
   /// Builds the router.
-  static GoRouter build() => GoRouter(
-    initialLocation: home,
+  /// Builds the router, optionally starting somewhere other than home.
+  ///
+  /// [initialLocation] exists for deep links and for tests that need to open
+  /// a screen directly rather than navigate to it through five taps.
+  static GoRouter build({String initialLocation = home}) => GoRouter(
+    initialLocation: initialLocation,
     routes: <RouteBase>[
       StatefulShellRoute.indexedStack(
         builder: (context, state, navigationShell) =>

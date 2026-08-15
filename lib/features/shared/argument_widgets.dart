@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
+import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/domain/entities/argument.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
@@ -133,7 +134,10 @@ class _ArgumentPanelState extends State<ArgumentPanel> {
                   size: 18,
                 ),
                 label: Text(
-                  l10n.argumentObjections(argument.objections.length),
+                  AppNumbers.localizeDigits(
+                    l10n.argumentObjections(argument.objections.length),
+                    language,
+                  ),
                 ),
               ),
             ),

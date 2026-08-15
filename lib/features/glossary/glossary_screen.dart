@@ -69,10 +69,35 @@ class _GlossaryScreenState extends ConsumerState<GlossaryScreen> {
 
     // Matching goes through the same normaliser search uses, so a Persian
     // reader typing without the zero-width non-joiner still finds the word.
+    // Sorted by the language on screen. The list arrives alphabetical by
+    // English, which puts «آپوریا» between «زیبایی‌شناسی» and «پیکرهٔ متعارف»
+    // for a Persian reader — an order with no relation to the words they are
+    // looking at, in the language the product says it favours.
+    final ordered = <GlossaryTerm>[...glossary]
+      ..sort(
+        (a, b) => a.term
+            .resolve(language)
+            .toLowerCase()
+            .compareTo(b.term.resolve(language).toLowerCase()),
+      );
+
+    // A term arrived at by link goes to the head of the list.
+    //
+    // Scrolling to it was the first attempt and it does not work: the list is
+    // lazy, so the card does not exist to be scrolled to, and the reader
+    // landed at the top with the word they asked about expanded somewhere
+    // below the fold — which looks exactly like a link that did nothing.
+    // Putting it first needs no machinery and is what the reader asked for.
+    final linked = widget.initialTermId;
+    if (linked != null) {
+      final index = ordered.indexWhere((term) => term.id == linked);
+      if (index > 0) ordered.insert(0, ordered.removeAt(index));
+    }
+
     final needle = TextNormalizer.normalize(_query);
     final terms = needle.isEmpty
-        ? glossary
-        : glossary.where((term) {
+        ? ordered
+        : ordered.where((term) {
             final haystack = <String>[
               term.term.en,
               ?term.term.fa,
@@ -226,7 +251,11 @@ class _TermCardState extends State<_TermCard> {
                   ),
                 ],
               ),
-              if (native != null) ...<Widget>[
+              // Not shown when it is the word already above it: for an
+              // Arabic-script term the original and the Persian are the same
+              // string, and «اجتهاد» printed twice reads as a rendering fault.
+              if (native != null &&
+                  native != term.term.resolve(language)) ...<Widget>[
                 const SizedBox(height: Spacing.xxs),
                 Text(
                   native,

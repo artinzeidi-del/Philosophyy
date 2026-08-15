@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
-import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
@@ -124,41 +123,6 @@ class _GlossarySheet extends StatelessWidget {
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-}
-
-/// A word in prose that has a definition behind it.
-///
-/// Used outside the article body — in headings and card summaries — where the
-/// span-level machinery of the reading surface is not available.
-class GlossaryChip extends StatelessWidget {
-  const GlossaryChip({required this.term, required this.language, super.key});
-
-  final GlossaryTerm term;
-  final AppLanguage language;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    return InkWell(
-      borderRadius: BorderRadius.circular(Radii.sm),
-      onTap: () => showGlossaryTerm(context, term, language),
-      child: AnimatedContainer(
-        duration: Motion.duration(context, MotionTokens.instant),
-        padding: const EdgeInsets.symmetric(
-          horizontal: Spacing.xs,
-          vertical: Spacing.xxs,
-        ),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(Radii.sm),
-          color: theme.colorScheme.surfaceContainerHighest,
-        ),
-        child: Text(
-          term.term.resolve(language),
-          style: theme.textTheme.labelLarge,
         ),
       ),
     );

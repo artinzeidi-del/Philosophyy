@@ -7,6 +7,7 @@ import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/responsive.dart';
 import 'package:philosophyy/core/format/date_format.dart';
+import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/work.dart';
@@ -391,7 +392,12 @@ class _TaxonomyFilterState extends State<_TaxonomyFilter> {
           ),
         if (hidden > 0)
           ActionChip(
-            label: Text(l10n.filterShowMore(hidden)),
+            label: Text(
+              AppNumbers.localizeDigits(
+                l10n.filterShowMore(hidden),
+                widget.language,
+              ),
+            ),
             avatar: const Icon(Icons.expand_more, size: 18),
             onPressed: () => setState(() => _expanded = true),
           )

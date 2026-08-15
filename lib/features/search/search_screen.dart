@@ -5,8 +5,12 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
+import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/core/search/search_index.dart';
+import 'package:philosophyy/domain/entities/glossary_term.dart';
+import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
+import 'package:philosophyy/features/shared/glossary_sheet.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
@@ -42,6 +46,9 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
     final language = ref.watch(activeLanguageProvider);
     final query = ref.watch(searchQueryProvider);
     final results = ref.watch(searchResultsProvider);
+    final terms =
+        ref.watch(corpusProvider).value?.glossaryMatching(query) ??
+        const <GlossaryTerm>[];
 
     return Scaffold(
       backgroundColor: Colors.transparent,
@@ -77,7 +84,10 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                 ),
               ),
               Expanded(
-                child: switch ((query.trim().isEmpty, results.isEmpty)) {
+                child: switch ((
+                  query.trim().isEmpty,
+                  results.isEmpty && terms.isEmpty,
+                )) {
                   (true, _) => EmptyView(
                     icon: Icons.travel_explore,
                     title: l10n.searchInvitationTitle,
@@ -95,7 +105,9 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                       Spacing.lg,
                       Spacing.xxxl,
                     ),
-                    itemCount: results.length + 1,
+                    // One row for the count, one for the glossary strip when
+                    // there is one, then the entries.
+                    itemCount: results.length + (terms.isEmpty ? 1 : 2),
                     separatorBuilder: (_, _) =>
                         const SizedBox(height: Spacing.md),
                     itemBuilder: (context, index) {
@@ -104,7 +116,10 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                           child: Padding(
                             padding: const EdgeInsets.only(bottom: Spacing.sm),
                             child: Text(
-                              l10n.searchResultCount(results.length),
+                              AppNumbers.localizeDigits(
+                                l10n.searchResultCount(results.length),
+                                language,
+                              ),
                               style: Theme.of(context).textTheme.labelMedium
                                   ?.copyWith(
                                     color: Theme.of(context)
@@ -115,7 +130,15 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                           ),
                         );
                       }
-                      final hit = results[index - 1];
+                      if (terms.isNotEmpty && index == 1) {
+                        return ReadingColumn(
+                          child: _GlossaryStrip(
+                            terms: terms,
+                            language: language,
+                          ),
+                        );
+                      }
+                      final hit = results[index - 1 - (terms.isEmpty ? 0 : 1)];
                       final card = EntityCard(
                         title: hit.entity.name.resolve(language),
                         summary: hit.entity.oneLine.resolve(language),
@@ -152,6 +175,52 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// The glossary terms matching the query, above the entries.
+///
+/// Separate from the results rather than mixed into them: a definition and an
+/// entry answer different questions, and interleaving them buries both. A
+/// reader searching "dialectic" usually wants to know what the word means
+/// before they want a list of everyone who used it.
+class _GlossaryStrip extends StatelessWidget {
+  const _GlossaryStrip({required this.terms, required this.language});
+
+  final List<GlossaryTerm> terms;
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: Spacing.lg),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(
+            l10n.glossaryTitle,
+            style: theme.textTheme.labelMedium?.copyWith(
+              color: theme.colorScheme.onSurfaceVariant,
+            ),
+          ),
+          const SizedBox(height: Spacing.sm),
+          Wrap(
+            spacing: Spacing.sm,
+            runSpacing: Spacing.sm,
+            children: <Widget>[
+              for (final term in terms)
+                ActionChip(
+                  avatar: const Icon(Icons.menu_book_outlined, size: 16),
+                  label: Text(term.term.resolve(language)),
+                  onPressed: () => showGlossaryTerm(context, term, language),
+                ),
+            ],
+          ),
+        ],
       ),
     );
   }

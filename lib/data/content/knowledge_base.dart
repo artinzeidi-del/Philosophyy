@@ -1,4 +1,5 @@
 import 'package:philosophyy/core/errors/content_exception.dart';
+import 'package:philosophyy/core/search/text_normalizer.dart';
 import 'package:philosophyy/domain/entities/argument.dart';
 import 'package:philosophyy/domain/entities/concept.dart';
 import 'package:philosophyy/domain/entities/glossary_term.dart';
@@ -161,6 +162,43 @@ class KnowledgeBase {
 
   /// Looks up a glossary term.
   GlossaryTerm? glossaryTerm(String id) => _glossaryById[id];
+
+  /// The glossary terms matching a free-text query.
+  ///
+  /// Search knew nothing about the glossary: a reader looking for "dialectic"
+  /// or «قیاس» was told there were no results while the product held a
+  /// definition of exactly that word. Kept as its own lookup rather than mixed
+  /// into the entry index, because a definition and an entry answer different
+  /// questions and interleaving them would bury both.
+  List<GlossaryTerm> glossaryMatching(String query, {int limit = 5}) {
+    final needle = TextNormalizer.normalize(query);
+    if (needle.length < 2) return const <GlossaryTerm>[];
+
+    final byName = <GlossaryTerm>[];
+    final byDefinition = <GlossaryTerm>[];
+    for (final term in glossary) {
+      final names = <String>[
+        term.term.en,
+        ?term.term.fa,
+        ?term.nativeTerm,
+        ?term.transliteration,
+        ...term.aliases,
+      ].map(TextNormalizer.normalize);
+      if (names.any((name) => name.contains(needle))) {
+        byName.add(term);
+        continue;
+      }
+      final definition = <String>[
+        term.shortDefinition.en,
+        ?term.shortDefinition.fa,
+      ].map(TextNormalizer.normalize);
+      if (definition.any((text) => text.contains(needle))) {
+        byDefinition.add(term);
+      }
+    }
+    final ordered = <GlossaryTerm>[...byName, ...byDefinition];
+    return ordered.length <= limit ? ordered : ordered.sublist(0, limit);
+  }
 
   /// Looks up a school.
   School? school(String id) => _schoolsById[id];
@@ -591,6 +629,36 @@ class KnowledgeBase {
           'taxonomy:${term.id}: has no Persian name — every term a reader can '
           'see must be named in both languages',
         );
+      }
+    }
+
+    // The glossary and the primer arrived after this check was written, and a
+    // dangling reference in either is exactly the failure it exists to catch:
+    // a definition offering an entry that is not there, or a first step
+    // handing a beginner a link to nothing.
+    for (final term in glossary) {
+      final conceptId = term.conceptId;
+      if (conceptId != null && !conceptExists(conceptId)) {
+        violations.add(
+          'glossary:${term.id}: concept references unknown "$conceptId"',
+        );
+      }
+    }
+    for (final step in primer) {
+      for (final ref in step.reads) {
+        if (!exists(ref)) {
+          violations.add('primer:${step.id}: reads unknown "$ref"');
+        } else if (resolve(ref) == null) {
+          // Existing is not enough. Quotations and arguments are shown inside
+          // other entries and have no page of their own, so a primer step
+          // pointing at one produces a card the screen silently drops — which
+          // is how a beginner's first screen ends up with a link that is not
+          // there. The check that caught this was written against `exists`
+          // and passed.
+          violations.add(
+            'primer:${step.id}: reads "$ref", which has no page to open',
+          );
+        }
       }
     }
 

@@ -7,6 +7,7 @@ import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/responsive.dart';
 import 'package:philosophyy/core/design/typography.dart';
+import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/primer_step.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
@@ -162,7 +163,10 @@ class _StepCardState extends State<_StepCard> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(
-                l10n.primerStepLabel(widget.number, widget.total),
+                AppNumbers.localizeDigits(
+                  l10n.primerStepLabel(widget.number, widget.total),
+                  language,
+                ),
                 style: theme.textTheme.labelSmall?.copyWith(
                   color: theme.colorScheme.primary,
                   letterSpacing: 0.8,

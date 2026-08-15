@@ -21,6 +21,29 @@ abstract final class AppNumbers {
     '۹',
   ];
 
+  /// Rewrites any Latin digits in [text] into the digits [language] uses.
+  ///
+  /// ## Why this is needed at all
+  ///
+  /// `flutter gen-l10n` formats the numbers inside plural messages itself, and
+  /// it formats them in Latin digits regardless of locale. So every counted
+  /// string in the product — "3 results", "5 items", "2 objections", "Step 1
+  /// of 9" — arrived in a Persian sentence with Western numerals, which is the
+  /// typographic equivalent of switching alphabet mid-word. The date formatter
+  /// had been patching this one string at a time; this does it for any of them.
+  static String localizeDigits(String text, AppLanguage language) {
+    if (language != AppLanguage.fa) return text;
+    final buffer = StringBuffer();
+    for (final rune in text.runes) {
+      if (rune >= 0x30 && rune <= 0x39) {
+        buffer.write(_persianDigits[rune - 0x30]);
+      } else {
+        buffer.writeCharCode(rune);
+      }
+    }
+    return buffer.toString();
+  }
+
   /// Formats [value] in the digits used by [language].
   static String format(int value, AppLanguage language) {
     final digits = value.abs().toString();

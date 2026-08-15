@@ -46,4 +46,12 @@ class PhilosophiaApp extends ConsumerWidget {
 /// Kept in a provider rather than constructed in `build` so that a rebuild —
 /// which happens on every theme or language change — does not discard the
 /// navigation stack the reader is standing on.
-final routerProvider = Provider<GoRouter>((ref) => AppRouter.build());
+final routerProvider = Provider<GoRouter>(
+  (ref) => AppRouter.build(initialLocation: ref.watch(initialRouteProvider)),
+);
+
+/// Where the app opens.
+///
+/// Overridden by tests that need to start on a particular screen, and by the
+/// platform when the app is launched from a link.
+final initialRouteProvider = Provider<String>((ref) => AppRouter.home);

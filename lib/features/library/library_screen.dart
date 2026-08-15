@@ -6,6 +6,7 @@ import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
+import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
@@ -120,7 +121,10 @@ class _LibraryBody extends StatelessWidget {
                       ),
                       const SizedBox(height: Spacing.sm),
                       Text(
-                        l10n.libraryItemCount(library.itemCount),
+                        AppNumbers.localizeDigits(
+                          l10n.libraryItemCount(library.itemCount),
+                          language,
+                        ),
                         style: theme.textTheme.bodySmall?.copyWith(
                           color: theme.colorScheme.onSurfaceVariant,
                         ),
