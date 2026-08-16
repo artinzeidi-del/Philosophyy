@@ -20,6 +20,8 @@ import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../support/navigation.dart';
+
 /// Drives saving and note-taking through the real interface.
 ///
 /// The repository tests prove the data survives. These prove the reader can
@@ -92,10 +94,12 @@ void main() {
     await tester.pumpAndSettle();
   }
 
-  Future<void> openTab(WidgetTester tester, String label) async {
-    await tester.tap(find.text(label));
-    await tester.pumpAndSettle();
-  }
+  /// Opens a tab from the floating navigation bar.
+  ///
+  /// By icon rather than by label: the bar shows only the selected
+  /// destination's label, and the home screen now carries tiles with the same
+  /// words, so a text finder either matches nothing or matches twice.
+  Future<void> openTab(WidgetTester tester, String tab) => tapNav(tester, tab);
 
   group('Marking a passage', () {
     /// The first section of the article that is actually open, as the reader
@@ -175,7 +179,7 @@ void main() {
       // And the reader can find it again from the library.
       await tester.pageBack();
       await tester.pumpAndSettle();
-      await openTab(tester, en.navLibrary);
+      await openTab(tester, NavIcons.library);
       expect(find.text(en.libraryHighlightsSection), findsOneWidget);
       expect(find.textContaining(excerpt), findsWidgets);
     });
@@ -264,7 +268,7 @@ void main() {
       // was told nothing. The copy for this had been written and never shown.
       await tester.pageBack();
       await tester.pumpAndSettle();
-      await openTab(tester, en.navLibrary);
+      await openTab(tester, NavIcons.library);
       expect(find.text(en.highlightLostTitle), findsOneWidget);
       expect(find.text(en.highlightLostBody), findsOneWidget);
       expect(
@@ -335,7 +339,7 @@ void main() {
       // The reader can find it again.
       await tester.pageBack();
       await tester.pumpAndSettle();
-      await openTab(tester, en.navLibrary);
+      await openTab(tester, NavIcons.library);
 
       expect(find.text(en.librarySavedSection), findsOneWidget);
       expect(find.byType(EntityCard), findsWidgets);
@@ -418,7 +422,7 @@ void main() {
       tester,
     ) async {
       await pumpApp(tester);
-      await openTab(tester, en.navLibrary);
+      await openTab(tester, NavIcons.library);
 
       expect(find.text(en.libraryEmptyTitle), findsOneWidget);
       expect(find.text(en.libraryEmptyBody), findsOneWidget);
@@ -446,7 +450,7 @@ void main() {
         ),
       );
 
-      await openTab(tester, en.navLibrary);
+      await openTab(tester, NavIcons.library);
 
       expect(find.text(en.libraryNotesSection), findsOneWidget);
       expect(find.text('the cave is about education'), findsOneWidget);
@@ -470,7 +474,7 @@ void main() {
         ),
       );
 
-      await openTab(tester, en.navLibrary);
+      await openTab(tester, NavIcons.library);
 
       expect(find.text(en.notFoundTitle), findsOneWidget);
     });
@@ -486,7 +490,7 @@ void main() {
 
       await tester.pageBack();
       await tester.pumpAndSettle();
-      await openTab(tester, en.navSettings);
+      await openTab(tester, NavIcons.settings);
 
       await tester.tap(find.text(en.clearLibrary));
       await tester.pumpAndSettle();
@@ -508,7 +512,7 @@ void main() {
 
       await tester.pageBack();
       await tester.pumpAndSettle();
-      await openTab(tester, en.navSettings);
+      await openTab(tester, NavIcons.settings);
       await tester.tap(find.text(en.clearLibrary));
       await tester.pumpAndSettle();
       await tester.tap(find.text(en.cancel));

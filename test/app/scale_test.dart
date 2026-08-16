@@ -12,6 +12,8 @@ import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../support/navigation.dart';
+
 /// Proves the browsing screen does not build the whole corpus to show a screen
 /// of it.
 ///
@@ -96,7 +98,9 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    await tester.tap(find.byIcon(Icons.explore_outlined));
+    // By key rather than by icon: the home screen's "Browse" tile carries
+    // the same glyph as the navigation destination.
+    await tapNav(tester, NavIcons.explore);
     await tester.pumpAndSettle();
   }
 

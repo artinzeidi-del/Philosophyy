@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/design/typography.dart';
@@ -102,6 +103,7 @@ class EntityCard extends StatelessWidget {
     this.tags = const <String>[],
     this.footnote,
     this.maxSummaryLines,
+    this.showMonogram = true,
     super.key,
   });
 
@@ -122,6 +124,15 @@ class EntityCard extends StatelessWidget {
 
   /// A quiet line at the foot of the card, used to explain search matches.
   final String? footnote;
+
+  /// Whether to show the coloured initial at the head of the card.
+  ///
+  /// The product has no portraits and will not invent any, so this is what
+  /// gives a list of a hundred and ninety-one names something to recognise by
+  /// shape and colour rather than by reading every title in turn. The glyph is
+  /// the entity's own initial in its own script, and the colour is derived
+  /// from the title, so an entry keeps the same one on every screen.
+  final bool showMonogram;
 
   /// Caps the summary, for layouts that need every card the same height.
   ///
@@ -168,17 +179,33 @@ class EntityCard extends StatelessWidget {
             // Dates sit above the name, small and in the accent colour, so a
             // list of people reads chronologically at a glance without the
             // eye having to hunt for the years.
-            if (meta != null) ...<Widget>[
-              Text(
-                meta!,
-                style: theme.textTheme.labelSmall?.copyWith(
-                  color: scheme.secondary,
-                  letterSpacing: 0.6,
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                if (showMonogram) ...<Widget>[
+                  _Monogram(seed: title),
+                  const SizedBox(width: Spacing.md),
+                ],
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      if (meta != null) ...<Widget>[
+                        Text(
+                          meta!,
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: scheme.secondary,
+                            letterSpacing: 0.6,
+                          ),
+                        ),
+                        const SizedBox(height: Spacing.xs),
+                      ],
+                      Text(title, style: theme.textTheme.titleLarge),
+                    ],
+                  ),
                 ),
-              ),
-              const SizedBox(height: Spacing.xs),
-            ],
-            Text(title, style: theme.textTheme.titleLarge),
+              ],
+            ),
             const SizedBox(height: Spacing.sm),
             Text(
               summary,
@@ -1132,4 +1159,49 @@ class ReadingColumn extends StatelessWidget {
       child: child,
     ),
   );
+}
+
+/// A coloured chip carrying one glyph, standing in for a portrait.
+///
+/// The product holds no images of philosophers and is not going to generate
+/// any — a plausible-looking portrait of someone nobody has a likeness of is
+/// the same defect as a plausible-looking citation. This is the honest
+/// substitute: a real letter from the entity's own name, on a colour derived
+/// from its identifier so it is stable across every screen.
+class _Monogram extends StatelessWidget {
+  const _Monogram({required this.seed});
+
+  final String seed;
+
+  /// The first glyph of [seed], as a reader would see it.
+  ///
+  /// Taken with `characters` rather than `seed[0]`, because a Dart string index
+  /// returns a UTF-16 code unit: on «افلاطون» that is fine, on a name beginning
+  /// with a character outside the basic plane it is half of one and renders as
+  /// a replacement box.
+  String get _glyph {
+    final trimmed = seed.trim();
+    if (trimmed.isEmpty) return '?';
+    return trimmed.characters.first.toUpperCase();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final gradient = AppGradients.forSeed(seed);
+    return Container(
+      width: 48,
+      height: 48,
+      alignment: Alignment.center,
+      decoration: BoxDecoration(
+        gradient: gradient,
+        borderRadius: const BorderRadius.all(Radius.circular(Radii.md)),
+        boxShadow: AppGradients.shadowFor(gradient.colors.last),
+      ),
+      child: Text(
+        _glyph,
+        style: Theme.of(context).textTheme.titleMedium
+            ?.copyWith(color: AppGradients.onGradient, height: 1),
+      ),
+    );
+  }
 }

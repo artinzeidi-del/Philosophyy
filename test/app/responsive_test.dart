@@ -3,6 +3,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/app/app.dart';
+import 'package:philosophyy/app/floating_nav_bar.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
@@ -10,6 +11,8 @@ import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../support/navigation.dart';
 
 /// Proves the app lays itself out for the screen it is actually on.
 ///
@@ -49,7 +52,9 @@ void main() {
   }
 
   Future<void> openExplore(WidgetTester tester) async {
-    await tester.tap(find.byIcon(Icons.explore_outlined));
+    // By key rather than by icon: the home screen's "Browse" tile carries the
+    // same glyph as the navigation destination, so the icon matches twice.
+    await tapNav(tester, NavIcons.explore);
     await tester.pumpAndSettle();
   }
 
@@ -61,21 +66,21 @@ void main() {
   group('Where the navigation lives', () {
     testWidgets('a phone gets a bottom bar', (tester) async {
       await pump(tester, phone);
-      expect(find.byType(NavigationBar), findsOneWidget);
+      expect(find.byType(FloatingNavBar), findsOneWidget);
     });
 
     testWidgets('a tablet gets a side rail, not a bottom bar', (tester) async {
       // A bottom bar on a tablet puts the controls as far from the hand
       // holding it as the screen allows.
       await pump(tester, tablet);
-      expect(find.byType(NavigationBar), findsNothing);
+      expect(find.byType(FloatingNavBar), findsNothing);
     });
 
     testWidgets('a desktop window gets a side rail, not a bottom bar', (
       tester,
     ) async {
       await pump(tester, desktop);
-      expect(find.byType(NavigationBar), findsNothing);
+      expect(find.byType(FloatingNavBar), findsNothing);
     });
 
     testWidgets('every destination is named at every width', (tester) async {
@@ -83,15 +88,35 @@ void main() {
       // learn five glyphs before they can navigate — and the bottom bar it
       // replaced never asked that. The second version showed labels but sized
       // the rail so they read "Explo…" and "Setti…".
-      for (final size in const <Size>[phone, tablet, desktop]) {
+      final labels = <String>[
+        en.navHome,
+        en.navExplore,
+        en.navSearch,
+        en.navLibrary,
+        en.navSettings,
+      ];
+
+      // On a phone the navigation is a floating pill that shows only the
+      // selected destination's label, so the principle this test protects —
+      // that a reader never has to learn five glyphs — is met by naming the
+      // others rather than printing them. Each carries a `Semantics` label and
+      // a tooltip; a screen reader and a long press both name it.
+      final handle = tester.ensureSemantics();
+      await pump(tester, phone);
+      for (final label in labels) {
+        expect(
+          find.bySemanticsLabel(label),
+          findsWidgets,
+          reason: '"$label" has no accessible name on a phone',
+        );
+      }
+      handle.dispose();
+
+      // Above the phone breakpoint the navigation is a rail with room to print
+      // every label, and printing them is what the rail is for.
+      for (final size in const <Size>[tablet, desktop]) {
         await pump(tester, size);
-        for (final label in <String>[
-          en.navHome,
-          en.navExplore,
-          en.navSearch,
-          en.navLibrary,
-          en.navSettings,
-        ]) {
+        for (final label in labels) {
           expect(
             find.text(label),
             findsWidgets,
@@ -123,13 +148,24 @@ void main() {
   ///
   /// The list is lazy and the entry points sit below the primer and the
   /// glossary, so they do not exist until the reader gets there.
-  Future<void> scrollToEntryPoints(WidgetTester tester) async {
-    for (var attempt = 0; attempt < 8; attempt++) {
-      if (find.byType(EntityCard).evaluate().isNotEmpty) return;
+  /// Drags the home list until [target] has been built, or gives up.
+  ///
+  /// Everything below the fold on this screen is in a lazy list, so a widget
+  /// that has not been scrolled to does not exist and `findsNothing` means
+  /// "not yet" rather than "not there". The home screen grew a section grid
+  /// between the hero and the taxonomy strips, which pushed the strips past
+  /// the fold and turned three passing tests red without anything being wrong
+  /// with them.
+  Future<void> scrollUntil(WidgetTester tester, Finder target) async {
+    for (var attempt = 0; attempt < 12; attempt++) {
+      if (target.evaluate().isNotEmpty) return;
       await tester.drag(find.byType(ListView).first, const Offset(0, -400));
       await tester.pumpAndSettle();
     }
   }
+
+  Future<void> scrollToEntryPoints(WidgetTester tester) =>
+      scrollUntil(tester, find.byType(EntityCard));
 
   group('The front page leads somewhere', () {
     testWidgets('it lays itself out for the window, on one left edge', (
@@ -145,6 +181,7 @@ void main() {
       // be scrolled to before they can be measured.
       await scrollToEntryPoints(tester);
 
+      await scrollUntil(tester, find.text(en.homeStartHere));
       final heading = tester.getRect(find.text(en.homeStartHere));
       final cards = tester
           .widgetList<EntityCard>(find.byType(EntityCard))
@@ -181,6 +218,7 @@ void main() {
       // The front page offered four cards and a random button, and no route to
       // the other hundred and eighty-seven entries.
       await pump(tester, desktop);
+      await scrollUntil(tester, find.text(en.homeBrowseByBranch));
       expect(find.text(en.homeBrowseByBranch), findsOneWidget);
 
       // Whichever branch the strip happens to offer first — the eight it shows

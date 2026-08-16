@@ -4,17 +4,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/responsive.dart';
+import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/format/date_format.dart';
+import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
+import 'package:philosophyy/features/shared/gradient_surfaces.dart';
 import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
@@ -100,6 +105,17 @@ class _HomeBody extends StatelessWidget {
     return picks;
   }
 
+  /// The greeting for the current hour.
+  ///
+  /// Small, and it does most of the work of making the screen feel addressed
+  /// to somebody rather than published at them.
+  String _greeting(AppL10n l10n) {
+    final hour = DateTime.now().hour;
+    if (hour < 12) return l10n.homeGreetingMorning;
+    if (hour < 18) return l10n.homeGreetingAfternoon;
+    return l10n.homeGreetingEvening;
+  }
+
   /// Days since the epoch, used to rotate anything that should change daily.
   static int get _dayNumber {
     final today = DateTime.now();
@@ -149,81 +165,88 @@ class _HomeBody extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
+                        // The product still names itself, but as a masthead
+                        // rather than as a title block: a display-sized name
+                        // and a tagline every single visit is a splash screen
+                        // that never goes away.
+                        Row(
+                          children: <Widget>[
+                            Expanded(
+                              child: Text(
+                                l10n.appName,
+                                style: theme.textTheme.titleLarge?.copyWith(
+                                  letterSpacing: 0.2,
+                                ),
+                              ),
+                            ),
+                            IconButton(
+                              onPressed: () => context.go(AppRouter.search),
+                              icon: const Icon(Icons.search),
+                              tooltip: l10n.navSearch,
+                              style: IconButton.styleFrom(
+                                backgroundColor:
+                                    theme.colorScheme.surfaceContainer,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: Spacing.xl),
                         Text(
-                          l10n.appName,
-                          style: theme.textTheme.displayMedium?.copyWith(
-                            height: 1.05,
+                          _greeting(l10n),
+                          style: theme.textTheme.labelLarge?.copyWith(
+                            color: theme.colorScheme.onSurfaceVariant,
+                            letterSpacing: 0.4,
                           ),
                         ),
-                        const SizedBox(height: Spacing.md),
-                        const TitleRule(),
-                        const SizedBox(height: Spacing.md),
+                        const SizedBox(height: Spacing.xs),
                         Text(
-                          l10n.appTagline,
-                          style: theme.textTheme.bodyMedium?.copyWith(
-                            color: theme.colorScheme.onSurfaceVariant,
+                          l10n.homeGreetingLead,
+                          style: theme.textTheme.displaySmall?.copyWith(
+                            height: 1.1,
                           ),
                         ),
                       ],
                     ),
                   ),
-                  const SizedBox(height: Spacing.xxl),
+                  const SizedBox(height: Spacing.xl),
 
+                  // The quotation is the screen's one hero, so it gets the
+                  // gradient, the deep shadow and the whole width. Everything
+                  // else on the page is quieter than it on purpose.
                   if (quote != null) ...<Widget>[
                     EntranceAnimation(
                       index: step++,
-                      child: SectionHeader(title: l10n.homeDailyIdea),
-                    ),
-                    EntranceAnimation(
-                      index: step++,
-                      child: QuoteCard(
+                      child: _DailyQuoteHero(
                         quote: quote,
                         language: language,
+                        label: l10n.homeDailyIdea,
                         speakerName:
                             corpus
                                 .philosopher(quote.speakerId)
                                 ?.name
                                 .resolve(language) ??
                             quote.speakerId,
-                        onTapSpeaker: () =>
-                            context.push(quote.speakerRef.route),
+                        onTap: () => context.push(quote.speakerRef.route),
                       ),
                     ),
-                    if (quote.context != null)
-                      EntranceAnimation(
-                        index: step++,
-                        child: Padding(
-                          padding: const EdgeInsets.only(top: Spacing.md),
-                          child: Text(
-                            quote.context!.resolve(language),
-                            style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurfaceVariant,
-                            ),
-                          ),
-                        ),
-                      ),
                     const SizedBox(height: Spacing.xxl),
                   ],
                 ],
               ),
             ),
 
-            // For a reader who has not read philosophy before, the taxonomy
-            // is not a way in — it is a list of words they do not know yet.
-            // These two come first for that reason.
-            const SizedBox(height: Spacing.xl),
-            _WayIn(
-              title: l10n.primerTitle,
-              body: l10n.primerIntro,
-              icon: Icons.school_outlined,
-              route: '/start',
+            // A grid rather than a stack of rows. A list of links tells a
+            // reader what exists; a grid tells them how many kinds of thing
+            // exist, which is the question somebody opening a reference work
+            // for the first time actually has.
+            EntranceAnimation(
+              index: step++,
+              child: SectionHeader(title: l10n.homeSections),
             ),
             const SizedBox(height: Spacing.md),
-            _WayIn(
-              title: l10n.glossaryTitle,
-              body: l10n.glossaryIntro,
-              icon: Icons.menu_book_outlined,
-              route: '/glossary',
+            EntranceAnimation(
+              index: step++,
+              child: _SectionTiles(columns: columns == 1 ? 2 : columns),
             ),
 
             // Two ways into the corpus, which the screen did not offer at all:
@@ -403,61 +426,203 @@ class _EntryGrid extends StatelessWidget {
   }
 }
 
-/// A prominent doorway to something that is not an entry.
-class _WayIn extends StatelessWidget {
-  const _WayIn({
-    required this.title,
-    required this.body,
-    required this.icon,
-    required this.route,
+/// The daily quotation, given the screen's only gradient.
+///
+/// The old card was a gold-tinted rectangle carrying the quotation, the
+/// speaker, the attribution badge and the full attribution caveat — four
+/// registers of type in one box, and the caveat, which is the longest text on
+/// the screen, was set at the same weight as the quotation itself. Here the
+/// hero carries the line and the name; the caveat moves under the card where a
+/// footnote belongs, which is what it is.
+class _DailyQuoteHero extends StatelessWidget {
+  const _DailyQuoteHero({
+    required this.quote,
+    required this.language,
+    required this.label,
+    required this.speakerName,
+    required this.onTap,
   });
 
-  final String title;
-  final String body;
-  final IconData icon;
-  final String route;
+  final Quote quote;
+  final AppLanguage language;
+  final String label;
+  final String speakerName;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Material(
-      color: theme.colorScheme.surfaceContainerHighest,
-      clipBehavior: Clip.antiAlias,
-      shape: const RoundedRectangleBorder(borderRadius: Radii.surfaceRadius),
-      child: InkWell(
-        onTap: () => context.push(route),
-        child: Padding(
-          padding: const EdgeInsets.all(Spacing.lg),
-          child: Row(
+    final caveat = quote.needsCaveat
+        ? TaxonomyLabels.attributionExplanation(quote.attribution)
+        : null;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        GradientCard(
+          gradient: AppGradients.hero,
+          strongShadow: true,
+          onTap: onTap,
+          padding: const EdgeInsets.all(Spacing.xl),
+          semanticLabel:
+              '$label. ${quote.text.resolve(language)} — $speakerName',
+          child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Icon(icon, color: theme.colorScheme.primary),
-              const SizedBox(width: Spacing.md),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(title, style: theme.textTheme.titleMedium),
-                    const SizedBox(height: Spacing.xxs),
-                    Text(
-                      body,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
+              Row(
+                children: <Widget>[
+                  const Icon(
+                    Icons.format_quote_rounded,
+                    size: 18,
+                    color: AppGradients.onGradientMuted,
+                  ),
+                  const SizedBox(width: Spacing.sm),
+                  Text(
+                    label,
+                    style: theme.textTheme.labelMedium?.copyWith(
+                      color: AppGradients.onGradientMuted,
+                      letterSpacing: 0.6,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: Spacing.lg),
+              Text(
+                quote.text.resolve(language),
+                style: AppTypography.quote(
+                  quote.text.resolvedLanguage(language),
+                ).copyWith(color: AppGradients.onGradient),
+              ),
+              const SizedBox(height: Spacing.lg),
+              Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Text(
+                      '— $speakerName',
+                      style: theme.textTheme.titleSmall?.copyWith(
+                        color: AppGradients.onGradient,
                       ),
                     ),
-                  ],
-                ),
-              ),
-              Icon(
-                Icons.chevron_right,
-                color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                  const Icon(
+                    Icons.arrow_outward_rounded,
+                    size: 18,
+                    color: AppGradients.onGradientMuted,
+                  ),
+                ],
               ),
             ],
           ),
         ),
+        if (caveat != null)
+          Padding(
+            padding: const EdgeInsets.only(top: Spacing.sm),
+            child: Text(
+              caveat.resolve(language),
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+/// The grid of the app's sections.
+class _SectionTiles extends StatelessWidget {
+  const _SectionTiles({required this.columns});
+
+  final int columns;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
+    final scheme = Theme.of(context).colorScheme;
+
+    final tiles =
+        <
+          ({
+            IconData icon,
+            String title,
+            String caption,
+            String route,
+            Color accent,
+          })
+        >[
+          (
+            icon: Icons.school_outlined,
+            title: l10n.primerTitle,
+            caption: l10n.homeTilePrimerCaption,
+            route: AppRouter.primer,
+            accent: scheme.primary,
+          ),
+          (
+            icon: Icons.menu_book_outlined,
+            title: l10n.glossaryTitle,
+            caption: l10n.homeTileGlossaryCaption,
+            route: AppRouter.glossary,
+            accent: scheme.secondary,
+          ),
+          (
+            icon: Icons.explore_outlined,
+            title: l10n.homeTileExplore,
+            caption: l10n.homeTileExploreCaption,
+            route: AppRouter.explore,
+            accent: scheme.tertiary,
+          ),
+          (
+            icon: Icons.search_outlined,
+            title: l10n.homeTileSearch,
+            caption: l10n.homeTileSearchCaption,
+            route: AppRouter.search,
+            accent: scheme.primary,
+          ),
+          (
+            icon: Icons.bookmark_border,
+            title: l10n.homeTileLibrary,
+            caption: l10n.homeTileLibraryCaption,
+            route: AppRouter.library,
+            accent: scheme.secondary,
+          ),
+        ];
+
+    return GridView.builder(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: columns,
+        mainAxisSpacing: Spacing.md,
+        crossAxisSpacing: Spacing.md,
+        // Measured rather than guessed. At 1.15 a two-column phone overflowed
+        // the tile by twelve pixels, because the icon chip, a two-line title
+        // and a two-line caption need almost as much height as the tile has
+        // width. The `Flexible` inside the tile is the backstop for text
+        // scales this does not anticipate.
+        childAspectRatio: 0.95,
       ),
+      itemCount: tiles.length,
+      itemBuilder: (context, index) {
+        final tile = tiles[index];
+        return EntranceAnimation(
+          index: index,
+          child: TileCard(
+            icon: tile.icon,
+            title: tile.title,
+            caption: tile.caption,
+            accent: tile.accent,
+            // Tabs inside the shell are switched, not pushed: pushing Explore
+            // on top of Home leaves the reader with a back arrow where the
+            // navigation bar already says where they are.
+            onTap: () => switch (tile.route) {
+              AppRouter.explore ||
+              AppRouter.search ||
+              AppRouter.library => context.go(tile.route),
+              _ => context.push(tile.route),
+            },
+          ),
+        );
+      },
     );
   }
 }

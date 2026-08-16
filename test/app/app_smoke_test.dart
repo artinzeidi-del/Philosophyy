@@ -15,6 +15,8 @@ import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../support/navigation.dart';
+
 /// Boots the real app against the real content.
 ///
 /// Unit tests can all pass while the app fails to start. These tests answer the
@@ -64,8 +66,20 @@ void main() {
       await pumpApp(tester);
 
       expect(find.text('Philosophia'), findsWidgets);
-      // The daily quotation is the first thing a reader meets.
-      expect(find.byType(QuoteCard), findsOneWidget);
+      // The daily quotation is the first thing a reader meets. Asserted on the
+      // text rather than on the widget type: the card it is drawn in has been
+      // replaced once already, and what matters is that the reader sees a
+      // quotation, not which class rendered it.
+      // Which quotation appears is chosen by the date, so the test asks
+      // whether any shareable one is on screen rather than repeating the
+      // rotation logic and going stale with it.
+      expect(
+        corpus.quotes
+            .where((quote) => quote.isShareable)
+            .any((quote) => find.text(quote.text.en).evaluate().isNotEmpty),
+        isTrue,
+        reason: 'the home screen is showing no quotation at all',
+      );
       expect(tester.takeException(), isNull);
     });
 
@@ -117,21 +131,19 @@ void main() {
 
     testWidgets('every tab opens without error', (tester) async {
       await pumpApp(tester);
-      final l10n = await AppL10n.delegate.load(const Locale('en'));
 
-      for (final label in <String>[
-        l10n.navExplore,
-        l10n.navSearch,
-        l10n.navLibrary,
-        l10n.navSettings,
-        l10n.navHome,
+      for (final tab in <String>[
+        NavIcons.explore,
+        NavIcons.search,
+        NavIcons.library,
+        NavIcons.settings,
+        NavIcons.home,
       ]) {
-        await tester.tap(find.text(label));
-        await tester.pumpAndSettle();
+        await tapNav(tester, tab);
         expect(
           tester.takeException(),
           isNull,
-          reason: 'opening the "$label" tab threw',
+          reason: 'opening the "$tab" tab threw',
         );
       }
     });
@@ -140,10 +152,8 @@ void main() {
       tester,
     ) async {
       await pumpApp(tester);
-      final l10n = await AppL10n.delegate.load(const Locale('en'));
 
-      await tester.tap(find.text(l10n.navSearch));
-      await tester.pumpAndSettle();
+      await tapNav(tester, NavIcons.search);
 
       await tester.enterText(find.byType(TextField), 'Avicenna');
       await tester.pumpAndSettle();
@@ -216,9 +226,9 @@ void main() {
         },
       );
 
-      // The tagline in Persian, proving the localisation is wired end to end
-      // rather than merely present in the ARB file.
-      expect(find.text('فلسفهٔ جهان، در یک جا'), findsOneWidget);
+      // A Persian string from the home screen, proving the localisation is
+      // wired end to end rather than merely present in the ARB file.
+      expect(find.text('از کجا شروع کنیم؟'), findsOneWidget);
     });
 
     testWidgets('an article renders in Persian without error', (tester) async {

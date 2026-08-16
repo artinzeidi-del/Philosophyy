@@ -483,5 +483,61 @@
   "exploreWorksSection": "Works",
   "@exploreWorksSection": {
     "description": "Heading for the works listed on the explore screen."
+  },
+  "homeGreetingMorning": "Good morning",
+  "@homeGreetingMorning": {
+    "description": "Greeting shown on the home screen before noon."
+  },
+  "homeGreetingAfternoon": "Good afternoon",
+  "@homeGreetingAfternoon": {
+    "description": "Greeting shown on the home screen between noon and evening."
+  },
+  "homeGreetingEvening": "Good evening",
+  "@homeGreetingEvening": {
+    "description": "Greeting shown on the home screen after 6pm."
+  },
+  "homeGreetingLead": "Where would you like to begin?",
+  "@homeGreetingLead": {
+    "description": "The line under the greeting on the home screen."
+  },
+  "homeSections": "Sections",
+  "@homeSections": {
+    "description": "Heading over the grid of the app's main sections."
+  },
+  "homeTileExplore": "Browse",
+  "@homeTileExplore": {
+    "description": "Tile opening the explore screen."
+  },
+  "homeTileExploreCaption": "By tradition and branch",
+  "@homeTileExploreCaption": {
+    "description": "Caption under the browse tile."
+  },
+  "homeTileLibrary": "Library",
+  "@homeTileLibrary": {
+    "description": "Tile opening the reader's saved entries."
+  },
+  "homeTileLibraryCaption": "Saved and noted",
+  "@homeTileLibraryCaption": {
+    "description": "Caption under the library tile."
+  },
+  "homeTileSearch": "Search",
+  "@homeTileSearch": {
+    "description": "Tile opening the search screen."
+  },
+  "homeTileSearchCaption": "Across the whole corpus",
+  "@homeTileSearchCaption": {
+    "description": "Caption under the search tile."
+  },
+  "homeTilePrimerCaption": "Start from nothing",
+  "@homeTilePrimerCaption": {
+    "description": "Caption under the primer tile."
+  },
+  "homeTileGlossaryCaption": "Words worth defining",
+  "@homeTileGlossaryCaption": {
+    "description": "Caption under the glossary tile."
+  },
+  "homeReadOn": "Read on",
+  "@homeReadOn": {
+    "description": "Label on the card that reopens the last entry read."
   }
 }

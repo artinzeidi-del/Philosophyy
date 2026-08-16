@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:philosophyy/app/floating_nav_bar.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
@@ -177,10 +178,22 @@ class AppRouter {
 /// on a phone and quietly does not on a tablet.
 class _Destination {
   const _Destination({
+    required this.id,
     required this.icon,
     required this.selectedIcon,
     required this.label,
   });
+
+  /// A stable, language-independent handle for this destination.
+  ///
+  /// Tests navigate by this. They used to tap `find.text('Library')`, which
+  /// broke twice over: the home screen grew a tile with the same word, and the
+  /// pill only prints the label of the tab already selected. An identifier that
+  /// does not change with the language or the layout is the durable answer.
+  final String id;
+
+  /// The key both the pill and the rail put on this destination.
+  ValueKey<String> get key => ValueKey<String>('nav-$id');
 
   final IconData icon;
   final IconData selectedIcon;
@@ -194,26 +207,31 @@ class _ShellScaffold extends StatelessWidget {
 
   List<_Destination> _destinations(AppL10n l10n) => <_Destination>[
     _Destination(
+      id: 'home',
       icon: Icons.home_outlined,
       selectedIcon: Icons.home,
       label: l10n.navHome,
     ),
     _Destination(
+      id: 'explore',
       icon: Icons.explore_outlined,
       selectedIcon: Icons.explore,
       label: l10n.navExplore,
     ),
     _Destination(
+      id: 'search',
       icon: Icons.search_outlined,
       selectedIcon: Icons.search,
       label: l10n.navSearch,
     ),
     _Destination(
+      id: 'library',
       icon: Icons.bookmark_border,
       selectedIcon: Icons.bookmark,
       label: l10n.navLibrary,
     ),
     _Destination(
+      id: 'settings',
       icon: Icons.settings_outlined,
       selectedIcon: Icons.settings,
       label: l10n.navSettings,
@@ -240,16 +258,34 @@ class _ShellScaffold extends StatelessWidget {
         final width = constraints.maxWidth;
 
         if (width < Breakpoints.compact) {
+          // `extendBody` is what makes the floating bar float: without it the
+          // Scaffold reserves the bar's height and the page simply ends above
+          // it, which is the flat look the pill was drawn to replace.
+          // `extendBody` lets the page run under the bar, which is what makes
+          // the bar float — and it also means the last item of every list
+          // would sit permanently behind it. Adding the bar's height to the
+          // MediaQuery padding fixes that once for every screen, because they
+          // all already wrap their content in a `SafeArea`.
+          final media = MediaQuery.of(context);
           return Scaffold(
-            body: navigationShell,
-            bottomNavigationBar: NavigationBar(
+            extendBody: true,
+            body: MediaQuery(
+              data: media.copyWith(
+                padding: media.padding.copyWith(
+                  bottom: media.padding.bottom + FloatingNavBar.reservedHeight,
+                ),
+              ),
+              child: navigationShell,
+            ),
+            bottomNavigationBar: FloatingNavBar(
               selectedIndex: navigationShell.currentIndex,
-              onDestinationSelected: _go,
-              destinations: <NavigationDestination>[
+              onSelected: _go,
+              destinations: <NavBarDestination>[
                 for (final destination in destinations)
-                  NavigationDestination(
-                    icon: Icon(destination.icon),
-                    selectedIcon: Icon(destination.selectedIcon),
+                  NavBarDestination(
+                    key: destination.key,
+                    icon: destination.icon,
+                    selectedIcon: destination.selectedIcon,
                     label: destination.label,
                   ),
               ],
@@ -338,6 +374,7 @@ class _Rail extends StatelessWidget {
                 const SizedBox(height: Spacing.xl),
                 for (final (index, destination) in destinations.indexed)
                   _RailDestination(
+                    key: destination.key,
                     destination: destination,
                     selected: index == selectedIndex,
                     extended: extended,
@@ -356,6 +393,7 @@ class _RailDestination extends StatefulWidget {
   const _RailDestination({
     required this.destination,
     required this.selected,
+    super.key,
     required this.extended,
     required this.onTap,
   });
