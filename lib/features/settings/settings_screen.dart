@@ -242,12 +242,19 @@ class _ChoicePanel<T> extends StatelessWidget {
           onChanged: onChanged,
           child: Column(
             children: <Widget>[
-              for (final option in options)
-                _ChoiceRow<T>(
-                  option: option,
-                  selected: option.value == selected,
-                  onTap: () => onChanged(option.value),
-                  theme: theme,
+              for (final (index, option) in options.indexed)
+                EntranceAnimation(
+                  index: index,
+                  // A shorter rise than a list of cards. These rows are already
+                  // close together, and the full 16 pixels made the panel look
+                  // like it was assembling itself.
+                  distance: 8,
+                  child: _ChoiceRow<T>(
+                    option: option,
+                    selected: option.value == selected,
+                    onTap: () => onChanged(option.value),
+                    theme: theme,
+                  ),
                 ),
             ],
           ),

@@ -5,6 +5,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/glass.dart';
+import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/responsive.dart';
 import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/search/text_normalizer.dart';
@@ -35,6 +36,13 @@ class GlossaryScreen extends ConsumerStatefulWidget {
 
 class _GlossaryScreenState extends ConsumerState<GlossaryScreen> {
   String _query = '';
+
+  /// How far down the list the staggered arrival runs.
+  ///
+  /// A screenful, not the whole list: beyond that the items are built as the
+  /// reader scrolls to them, and animating on build means they animate again
+  /// every time they scroll back into range.
+  static const int _animatedTerms = 8;
 
   @override
   Widget build(BuildContext context) {
@@ -173,14 +181,30 @@ class _GlossaryScreenState extends ConsumerState<GlossaryScreen> {
                 ),
                 sliver: SliverList.builder(
                   itemCount: terms.length,
-                  itemBuilder: (context, index) => Padding(
-                    padding: const EdgeInsets.only(bottom: Spacing.md),
-                    child: _TermCard(
-                      term: terms[index],
-                      language: language,
-                      startExpanded: terms[index].id == widget.initialTermId,
-                    ),
-                  ),
+                  itemBuilder: (context, index) {
+                    final card = Padding(
+                      padding: const EdgeInsets.only(bottom: Spacing.md),
+                      child: _TermCard(
+                        term: terms[index],
+                        language: language,
+                        startExpanded: terms[index].id == widget.initialTermId,
+                      ),
+                    );
+
+                    // Only the first screenful arrives. Items further down are
+                    // disposed when they scroll out of range and would animate
+                    // again on the way back, which reads as a glitch rather
+                    // than as polish — the same rule the search results use.
+                    if (index > _animatedTerms) return card;
+
+                    return EntranceAnimation(
+                      // Keyed by the filter so narrowing the list re-animates
+                      // rather than swapping silently under the reader.
+                      key: ValueKey<String>('$_query-${terms[index].id}'),
+                      index: index,
+                      child: card,
+                    );
+                  },
                 ),
               ),
             const SliverToBoxAdapter(child: SizedBox(height: Spacing.xxxl)),
@@ -233,110 +257,111 @@ class _TermCardState extends State<_TermCard> {
     final conceptId = term.conceptId;
     final canExpand = long != null || conceptId != null;
 
-    return Material(
-      color: Glass.fill(context),
-      clipBehavior: Clip.antiAlias,
-      shape: RoundedRectangleBorder(
+    // `PressableSurface` rather than a bare `Material` + `InkWell`: every other
+    // card in the app dips slightly under the finger, and a glossary card that
+    // only ripples felt like a different product's list.
+    return PressableSurface(
+      onTap: canExpand ? () => setState(() => _expanded = !_expanded) : null,
+      borderRadius: Radii.surfaceRadius,
+      decoration: BoxDecoration(
+        color: Glass.fill(context),
         borderRadius: Radii.surfaceRadius,
-        side: BorderSide(color: Glass.border(context)),
+        border: Border.all(color: Glass.border(context)),
       ),
-      child: InkWell(
-        onTap: canExpand ? () => setState(() => _expanded = !_expanded) : null,
-        child: Padding(
-          padding: const EdgeInsets.all(Spacing.lg),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Expanded(
-                    child: Text(
-                      term.term.resolve(language),
-                      style: theme.textTheme.titleMedium,
-                    ),
+      child: Padding(
+        padding: const EdgeInsets.all(Spacing.lg),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    term.term.resolve(language),
+                    style: theme.textTheme.titleMedium,
                   ),
-                  // The other language, always visible. A bilingual glossary
-                  // whose Persian reader cannot see the English word is only
-                  // half a glossary: the English is what they will meet in a
-                  // paper or a search box.
-                  // Flexible: at 1.5x a Persian term and its English beside it
-                  // ran 46 pixels off the card, and the second word had no
-                  // flex to give.
-                  Flexible(
-                    child: Text(
-                      language == AppLanguage.fa
-                          ? term.term.en
-                          : term.term.fa ?? '',
-                      textAlign: TextAlign.end,
-                      style: theme.textTheme.labelMedium?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
+                ),
+                // The other language, always visible. A bilingual glossary
+                // whose Persian reader cannot see the English word is only
+                // half a glossary: the English is what they will meet in a
+                // paper or a search box.
+                // Flexible: at 1.5x a Persian term and its English beside it
+                // ran 46 pixels off the card, and the second word had no
+                // flex to give.
+                Flexible(
+                  child: Text(
+                    language == AppLanguage.fa
+                        ? term.term.en
+                        : term.term.fa ?? '',
+                    textAlign: TextAlign.end,
+                    style: theme.textTheme.labelMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
                     ),
-                  ),
-                ],
-              ),
-              // Not shown when it repeats a word already on the card. The
-              // header prints both languages, so the check covers both — and
-              // it compares them the way a reader sees them rather than byte
-              // for byte. «قیاس» and «قياس» differ only in which yeh they use,
-              // Persian against Arabic, and printing both put what looks like
-              // the same word on the card twice.
-              if (native != null &&
-                  !_looksLike(native, term.term.en) &&
-                  !_looksLike(native, term.term.fa)) ...<Widget>[
-                const SizedBox(height: Spacing.xxs),
-                Text(
-                  native,
-                  style: theme.textTheme.labelMedium?.copyWith(
-                    color: theme.colorScheme.onSurfaceVariant,
                   ),
                 ),
               ],
-              const SizedBox(height: Spacing.sm),
+            ),
+            // Not shown when it repeats a word already on the card. The
+            // header prints both languages, so the check covers both — and
+            // it compares them the way a reader sees them rather than byte
+            // for byte. «قیاس» and «قياس» differ only in which yeh they use,
+            // Persian against Arabic, and printing both put what looks like
+            // the same word on the card twice.
+            if (native != null &&
+                !_looksLike(native, term.term.en) &&
+                !_looksLike(native, term.term.fa)) ...<Widget>[
+              const SizedBox(height: Spacing.xxs),
               Text(
-                term.shortDefinition.resolve(language),
-                style: AppTypography.reading(
-                  term.shortDefinition.resolvedLanguage(language),
-                ).copyWith(color: theme.colorScheme.onSurface),
-              ),
-              AnimatedCrossFade(
-                duration: MotionTokens.quick,
-                sizeCurve: MotionTokens.standard,
-                crossFadeState: _expanded
-                    ? CrossFadeState.showSecond
-                    : CrossFadeState.showFirst,
-                firstChild: const SizedBox(width: double.infinity),
-                secondChild: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    if (long != null) ...<Widget>[
-                      const SizedBox(height: Spacing.md),
-                      Text(
-                        long.resolve(language),
-                        style: AppTypography.reading(
-                          long.resolvedLanguage(language),
-                        ).copyWith(color: theme.colorScheme.onSurfaceVariant),
-                      ),
-                    ],
-                    if (conceptId != null) ...<Widget>[
-                      const SizedBox(height: Spacing.md),
-                      Align(
-                        alignment: AlignmentDirectional.centerStart,
-                        child: FilledButton.tonalIcon(
-                          onPressed: () => context.push(
-                            EntityRef(EntityKind.concept, conceptId).route,
-                          ),
-                          icon: const Icon(Icons.article_outlined, size: 18),
-                          label: Text(l10n.glossaryOpenEntry),
-                        ),
-                      ),
-                    ],
-                  ],
+                native,
+                style: theme.textTheme.labelMedium?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
                 ),
               ),
             ],
-          ),
+            const SizedBox(height: Spacing.sm),
+            Text(
+              term.shortDefinition.resolve(language),
+              style: AppTypography.reading(
+                term.shortDefinition.resolvedLanguage(language),
+              ).copyWith(color: theme.colorScheme.onSurface),
+            ),
+            AnimatedCrossFade(
+              duration: MotionTokens.quick,
+              sizeCurve: MotionTokens.standard,
+              crossFadeState: _expanded
+                  ? CrossFadeState.showSecond
+                  : CrossFadeState.showFirst,
+              firstChild: const SizedBox(width: double.infinity),
+              secondChild: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  if (long != null) ...<Widget>[
+                    const SizedBox(height: Spacing.md),
+                    Text(
+                      long.resolve(language),
+                      style: AppTypography.reading(
+                        long.resolvedLanguage(language),
+                      ).copyWith(color: theme.colorScheme.onSurfaceVariant),
+                    ),
+                  ],
+                  if (conceptId != null) ...<Widget>[
+                    const SizedBox(height: Spacing.md),
+                    Align(
+                      alignment: AlignmentDirectional.centerStart,
+                      child: FilledButton.tonalIcon(
+                        onPressed: () => context.push(
+                          EntityRef(EntityKind.concept, conceptId).route,
+                        ),
+                        icon: const Icon(Icons.article_outlined, size: 18),
+                        label: Text(l10n.glossaryOpenEntry),
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );
