@@ -246,39 +246,42 @@ class TileCard extends StatelessWidget {
                   ),
               ],
             ),
-            // Flexible, not a bare Column: a grid gives every tile the same
-            // height, and the longest title in the set decides whether that
-            // height is enough. When it is not — a two-line Persian caption at
-            // a large text scale — this ellipsizes instead of throwing, which
-            // is the difference between a tight tile and a yellow-and-black
-            // overflow stripe across the front page.
-            Flexible(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Flexible(
-                    child: Text(
-                      title,
-                      style: theme.textTheme.titleSmall,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                  if (caption != null) ...<Widget>[
-                    const SizedBox(height: Spacing.xxs),
+            // `Expanded`, not `Flexible`: loose flex only *permits* the child
+            // to be smaller, so a text block one pixel taller than the space
+            // left still overflowed. A tight fit hands it exactly the room
+            // that remains, and the ellipsis takes it from there — which means
+            // no measurement of the caller's can put a yellow-and-black stripe
+            // across the front page, however close it runs.
+            Expanded(
+              child: Align(
+                alignment: AlignmentDirectional.bottomStart,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
                     Flexible(
                       child: Text(
-                        caption,
-                        style: theme.textTheme.bodySmall?.copyWith(
-                          color: theme.colorScheme.onSurfaceVariant,
-                        ),
+                        title,
+                        style: theme.textTheme.titleSmall,
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
+                    if (caption != null) ...<Widget>[
+                      const SizedBox(height: Spacing.xxs),
+                      Flexible(
+                        child: Text(
+                          caption,
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: theme.colorScheme.onSurfaceVariant,
+                          ),
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
                   ],
-                ],
+                ),
               ),
             ),
           ],

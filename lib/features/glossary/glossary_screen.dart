@@ -251,11 +251,14 @@ class _TermCardState extends State<_TermCard> {
                   ),
                 ],
               ),
-              // Not shown when it is the word already above it: for an
-              // Arabic-script term the original and the Persian are the same
-              // string, and «اجتهاد» printed twice reads as a rendering fault.
+              // Not shown when it repeats a word already on the card. The
+              // header prints both languages, so the check has to cover both:
+              // comparing only against the active one left «قیاس» printed
+              // twice on the English card, once as the translation and once as
+              // the original, which reads as a rendering fault.
               if (native != null &&
-                  native != term.term.resolve(language)) ...<Widget>[
+                  native != term.term.en &&
+                  native != term.term.fa) ...<Widget>[
                 const SizedBox(height: Spacing.xxs),
                 Text(
                   native,

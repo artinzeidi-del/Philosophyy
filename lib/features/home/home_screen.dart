@@ -538,7 +538,8 @@ class _SectionTiles extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppL10n.of(context);
-    final scheme = Theme.of(context).colorScheme;
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
 
     final tiles =
         <
@@ -587,42 +588,89 @@ class _SectionTiles extends StatelessWidget {
           ),
         ];
 
-    return GridView.builder(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: columns,
-        mainAxisSpacing: Spacing.md,
-        crossAxisSpacing: Spacing.md,
-        // Measured rather than guessed. At 1.15 a two-column phone overflowed
-        // the tile by twelve pixels, because the icon chip, a two-line title
-        // and a two-line caption need almost as much height as the tile has
-        // width. The `Flexible` inside the tile is the backstop for text
-        // scales this does not anticipate.
-        childAspectRatio: 0.95,
-      ),
-      itemCount: tiles.length,
-      itemBuilder: (context, index) {
-        final tile = tiles[index];
-        return EntranceAnimation(
-          index: index,
-          child: TileCard(
-            icon: tile.icon,
-            title: tile.title,
-            caption: tile.caption,
-            accent: tile.accent,
-            // Tabs inside the shell are switched, not pushed: pushing Explore
-            // on top of Home leaves the reader with a back arrow where the
-            // navigation bar already says where they are.
-            onTap: () => switch (tile.route) {
-              AppRouter.explore ||
-              AppRouter.search ||
-              AppRouter.library => context.go(tile.route),
-              _ => context.push(tile.route),
-            },
+    // Sized by extent, not by column count. A fixed count with an aspect ratio
+    // ties the tile's height to the window's width, and on a tablet that
+    // produced two 580-pixel squares holding an icon and six words.
+    //
+    // The height is then measured from the strings that will actually be in
+    // it. Two guessed constants have already been wrong here — 1.15 overflowed
+    // an English phone by twelve pixels, and the 178 that replaced it
+    // overflowed a Persian one by a single pixel — and a third guess would
+    // only be right until somebody turned their text size up.
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final columns = (constraints.maxWidth / _maxTileWidth).ceil().clamp(
+          1,
+          tiles.length,
+        );
+        final width =
+            (constraints.maxWidth - Spacing.md * (columns - 1)) / columns;
+        final scaler = MediaQuery.textScalerOf(context);
+
+        double lines(String text, TextStyle? style, int maxLines) {
+          final painter = TextPainter(
+            text: TextSpan(text: text, style: style),
+            textDirection: Directionality.of(context),
+            textScaler: scaler,
+            maxLines: maxLines,
+          )..layout(maxWidth: width - Spacing.lg * 2);
+          final height = painter.height;
+          painter.dispose();
+          return height;
+        }
+
+        var tallest = 0.0;
+        for (final tile in tiles) {
+          final height =
+              lines(tile.title, theme.textTheme.titleSmall, 2) +
+              Spacing.xxs +
+              lines(tile.caption, theme.textTheme.bodySmall, 2);
+          if (height > tallest) tallest = height;
+        }
+
+        // The icon chip, the gap the tile keeps between it and the words, and
+        // the tile's own padding.
+        final extent = _iconChipHeight + Spacing.lg + tallest + Spacing.lg * 2;
+
+        return GridView.builder(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: columns,
+            mainAxisSpacing: Spacing.md,
+            crossAxisSpacing: Spacing.md,
+            mainAxisExtent: extent,
           ),
+          itemCount: tiles.length,
+          itemBuilder: (context, index) {
+            final tile = tiles[index];
+            return EntranceAnimation(
+              index: index,
+              child: TileCard(
+                icon: tile.icon,
+                title: tile.title,
+                caption: tile.caption,
+                accent: tile.accent,
+                // Tabs inside the shell are switched, not pushed: pushing
+                // Explore on top of Home leaves the reader with a back arrow
+                // where the navigation bar already says where they are.
+                onTap: () => switch (tile.route) {
+                  AppRouter.explore ||
+                  AppRouter.search ||
+                  AppRouter.library => context.go(tile.route),
+                  _ => context.push(tile.route),
+                },
+              ),
+            );
+          },
         );
       },
     );
   }
+
+  /// The widest a tile is allowed to be before another column is added.
+  static const double _maxTileWidth = 220;
+
+  /// The icon chip's height: the glyph plus its padding.
+  static const double _iconChipHeight = 22 + Spacing.md * 2;
 }

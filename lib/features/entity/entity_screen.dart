@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
-import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/format/date_format.dart';
@@ -251,7 +251,13 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
           SliverAppBar(
             pinned: true,
             expandedHeight: 0,
-            backgroundColor: semantic.readingSurface,
+            // The bar takes the masthead's first stop rather than the reading
+            // surface, so the top of the screen is one block of colour instead
+            // of a beige strip with a coloured panel below it. It keeps the
+            // colour when the reader scrolls into the prose, which is what
+            // says which entry they are still inside.
+            backgroundColor: AppGradients.forSeed(entity.name.en).colors.first,
+            foregroundColor: AppGradients.onGradient,
             // The title only appears once the reader has scrolled past the
             // real one, so the screen opens with a single heading rather than
             // the same words twice.
@@ -265,12 +271,29 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               const SizedBox(width: Spacing.xs),
             ],
           ),
+          // Full-bleed, and therefore its own sliver rather than a child of
+          // the reading column: an article's masthead runs edge to edge while
+          // its prose keeps the measure.
+          SliverToBoxAdapter(
+            child: _Masthead(
+              entity: entity,
+              language: language,
+              // A reference entry for the Republic that never says Plato wrote
+              // it is not a reference entry. The author is resolved here
+              // rather than inside the masthead so the masthead stays free of
+              // the corpus.
+              author: switch (entity) {
+                final Work work => corpus.philosopher(work.authorId),
+                _ => null,
+              },
+            ),
+          ),
           SliverToBoxAdapter(
             child: ReadingColumn(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(
                   Spacing.lg,
-                  Spacing.sm,
+                  Spacing.lg,
                   Spacing.lg,
                   Spacing.xxxl,
                 ),
@@ -281,14 +304,6 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                       entity: entity,
                       taxonomy: corpus.taxonomy,
                       language: language,
-                      // A reference entry for the Republic that never says
-                      // Plato wrote it is not a reference entry. The author is
-                      // resolved here rather than inside the header so the
-                      // header stays free of the corpus.
-                      author: switch (entity) {
-                        final Work work => corpus.philosopher(work.authorId),
-                        _ => null,
-                      },
                     ),
                     // Only as much room as there is something to put in it.
                     // Every school in the corpus has no article, and the page
@@ -602,125 +617,45 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
   }
 }
 
+/// The classification chips, under the masthead.
+///
+/// The name, the dates and the summary used to live here too. They moved to
+/// [_Masthead] when the article got a coloured head, and what is left is the
+/// part that belongs on the reading surface: the tags a reader uses to leave.
 class _Header extends StatelessWidget {
   const _Header({
     required this.entity,
     required this.taxonomy,
     required this.language,
-    this.author,
   });
 
   final KnowledgeEntity entity;
   final Taxonomy taxonomy;
   final AppLanguage language;
 
-  /// The author, when the entity is a work whose author is in the corpus.
-  final Philosopher? author;
-
   @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final l10n = AppL10n.of(context);
-
-    final native = switch (entity) {
-      final Philosopher philosopher => philosopher.nativeName,
-      final Concept concept => concept.nativeTerm,
-      final Work work => work.originalTitle,
-      final School school => school.nativeName,
-      _ => null,
-    };
-
-    final meta = switch (entity) {
-      final Philosopher philosopher => AppDates.lifeSpan(
-        philosopher.life,
-        language,
-        l10n,
-      ),
-      final Work work => AppDates.range(work.composed, language, l10n),
-      final School school => AppDates.range(school.period, language, l10n),
-      _ => null,
-    };
-
-    return EntranceAnimation(
-      distance: 12,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          // Dates lead, in the accent colour and letter-spaced, so the reader
-          // is placed in history before they are given a name.
-          if (meta != null) ...<Widget>[
-            Text(
-              meta,
-              style: theme.textTheme.labelSmall?.copyWith(
-                color: theme.colorScheme.secondary,
-                letterSpacing: 0.8,
-              ),
-            ),
-            const SizedBox(height: Spacing.sm),
-          ],
-          Semantics(
-            header: true,
-            child: Text(
-              entity.name.resolve(language),
-              style: theme.textTheme.displaySmall?.copyWith(height: 1.08),
-            ),
+  Widget build(BuildContext context) => EntranceAnimation(
+    distance: 12,
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        if (entity.branches.isNotEmpty || entity.traditions.isNotEmpty)
+          Wrap(
+            spacing: Spacing.xs,
+            runSpacing: Spacing.xs,
+            children: <Widget>[
+              for (final tradition in entity.traditions)
+                TagChip(
+                  label: taxonomy.nameOf(tradition).resolve(language),
+                  emphasised: true,
+                ),
+              for (final branch in entity.branches)
+                TagChip(label: taxonomy.nameOf(branch).resolve(language)),
+            ],
           ),
-          if (native != null) ...<Widget>[
-            const SizedBox(height: Spacing.xs),
-            // The original script is set large and quiet rather than as a
-            // footnote. For a great many readers it is the name they know, and
-            // shrinking it to metadata quietly says whose language is primary.
-            Text(
-              native,
-              style: theme.textTheme.headlineSmall?.copyWith(
-                color: theme.colorScheme.onSurfaceVariant,
-                fontWeight: FontWeight.w400,
-              ),
-              // The original script has its own direction, which is frequently
-              // not the interface's.
-              textDirection: _scriptDirection(native),
-            ),
-          ],
-          if (author != null) ...<Widget>[
-            const SizedBox(height: Spacing.xs),
-            _AuthorLine(author: author!, language: language),
-          ],
-          const SizedBox(height: Spacing.lg),
-          const TitleRule(),
-          const SizedBox(height: Spacing.lg),
-          Text(
-            entity.oneLine.resolve(language),
-            style: theme.textTheme.titleLarge?.copyWith(height: 1.45),
-          ),
-          if (entity.branches.isNotEmpty || entity.traditions.isNotEmpty) ...[
-            const SizedBox(height: Spacing.lg),
-            Wrap(
-              spacing: Spacing.xs,
-              runSpacing: Spacing.xs,
-              children: <Widget>[
-                for (final tradition in entity.traditions)
-                  TagChip(
-                    label: taxonomy.nameOf(tradition).resolve(language),
-                    emphasised: true,
-                  ),
-                for (final branch in entity.branches)
-                  TagChip(label: taxonomy.nameOf(branch).resolve(language)),
-              ],
-            ),
-          ],
-        ],
-      ),
-    );
-  }
-
-  /// The direction a name in its original script should be laid out in.
-  ///
-  /// `ابن سينا` must run right-to-left even when the interface is English, and
-  /// `Πλάτων` must run left-to-right even when the interface is Persian.
-  TextDirection _scriptDirection(String text) =>
-      TextNormalizer.containsArabicScript(text)
-      ? TextDirection.rtl
-      : TextDirection.ltr;
+      ],
+    ),
+  );
 }
 
 /// Lets the reader move between depths, and says plainly when there is no more.
@@ -749,8 +684,10 @@ class _AuthorLine extends StatelessWidget {
         child: Text(
           l10n.workBy(name),
           style: theme.textTheme.titleSmall?.copyWith(
-            color: theme.colorScheme.primary,
+            color: AppGradients.onGradient,
             fontWeight: FontWeight.w500,
+            decoration: TextDecoration.underline,
+            decorationColor: AppGradients.onGradientMuted,
           ),
         ),
       ),
@@ -1021,7 +958,10 @@ class _BookmarkButton extends ConsumerWidget {
     return IconButton(
       tooltip: isSaved ? l10n.bookmarkRemove : l10n.bookmarkAdd,
       icon: Icon(isSaved ? Icons.bookmark : Icons.bookmark_border),
-      color: isSaved ? Theme.of(context).colorScheme.secondary : null,
+      // Both states are measured against the masthead's colour, not the page's
+      // — the button sits in an app bar that carries the entry's gradient, and
+      // the theme's secondary is a light-mode accent that vanishes on it.
+      color: isSaved ? AppGradients.onGradient : AppGradients.onGradientMuted,
       onPressed: () async {
         final messenger = ScaffoldMessenger.of(context);
         final saved = await ref
@@ -1189,6 +1129,145 @@ class _NoteComposerState extends State<_NoteComposer> {
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+/// The article's coloured head: dates, name, original script, summary.
+///
+/// ## Why this is coloured when the prose is not
+///
+/// The rule the reading surface follows — that decoration under long-form text
+/// is noise — is right, and it is about the prose. It left the article opening
+/// on a page indistinguishable from every other article in the product, and a
+/// reference work of two hundred entries needs the reader to feel they have
+/// arrived somewhere in particular.
+///
+/// The gradient is seeded from the entity's name, which is the same seed the
+/// coloured initial on its card uses. So a reader who taps a slate-blue chip
+/// in a list lands on a slate-blue page: the colour carries no meaning, but it
+/// is consistent, and consistency is what makes it recognition rather than
+/// decoration.
+class _Masthead extends StatelessWidget {
+  const _Masthead({required this.entity, required this.language, this.author});
+
+  final KnowledgeEntity entity;
+  final AppLanguage language;
+
+  /// The author, when the entity is a work whose author is in the corpus.
+  final Philosopher? author;
+
+  /// The direction a name in its original script should be laid out in.
+  ///
+  /// `ابن سينا` must run right-to-left even when the interface is English, and
+  /// `Πλάτων` must run left-to-right even when the interface is Persian.
+  TextDirection _scriptDirection(String text) =>
+      TextNormalizer.containsArabicScript(text)
+      ? TextDirection.rtl
+      : TextDirection.ltr;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final gradient = AppGradients.forSeed(entity.name.en);
+
+    final native = switch (entity) {
+      final Philosopher philosopher => philosopher.nativeName,
+      final Concept concept => concept.nativeTerm,
+      final Work work => work.originalTitle,
+      final School school => school.nativeName,
+      _ => null,
+    };
+
+    final meta = switch (entity) {
+      final Philosopher philosopher => AppDates.lifeSpan(
+        philosopher.life,
+        language,
+        l10n,
+      ),
+      final Work work => AppDates.range(work.composed, language, l10n),
+      final School school => AppDates.range(school.period, language, l10n),
+      _ => null,
+    };
+
+    return DecoratedBox(
+      decoration: BoxDecoration(gradient: gradient),
+      child: GradientSheen(
+        alignment: const Alignment(0.9, -1),
+        child: SafeArea(
+          top: false,
+          bottom: false,
+          child: ReadingColumn(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(
+                Spacing.lg,
+                Spacing.lg,
+                Spacing.lg,
+                Spacing.xl,
+              ),
+              child: EntranceAnimation(
+                distance: 12,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    // Dates lead, so the reader is placed in history before
+                    // they are given a name.
+                    if (meta != null) ...<Widget>[
+                      Text(
+                        meta,
+                        style: theme.textTheme.labelSmall?.copyWith(
+                          color: AppGradients.onGradientMuted,
+                          letterSpacing: 0.8,
+                        ),
+                      ),
+                      const SizedBox(height: Spacing.sm),
+                    ],
+                    Semantics(
+                      header: true,
+                      child: Text(
+                        entity.name.resolve(language),
+                        style: theme.textTheme.displaySmall?.copyWith(
+                          height: 1.08,
+                          color: AppGradients.onGradient,
+                        ),
+                      ),
+                    ),
+                    if (native != null) ...<Widget>[
+                      const SizedBox(height: Spacing.xs),
+                      // The original script is set large and quiet rather than
+                      // as a footnote. For a great many readers it is the name
+                      // they know, and shrinking it to metadata quietly says
+                      // whose language is primary.
+                      Text(
+                        native,
+                        textDirection: _scriptDirection(native),
+                        style: theme.textTheme.headlineSmall?.copyWith(
+                          color: AppGradients.onGradientMuted,
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                    ],
+                    if (author != null) ...<Widget>[
+                      const SizedBox(height: Spacing.xs),
+                      _AuthorLine(author: author!, language: language),
+                    ],
+                    const SizedBox(height: Spacing.lg),
+                    Text(
+                      entity.oneLine.resolve(language),
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        height: 1.45,
+                        color: AppGradients.onGradient,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }

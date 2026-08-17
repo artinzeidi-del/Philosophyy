@@ -207,20 +207,36 @@ class EntityCard extends StatelessWidget {
               ],
             ),
             const SizedBox(height: Spacing.sm),
-            Text(
-              summary,
-              maxLines: maxSummaryLines,
-              overflow: maxSummaryLines == null ? null : TextOverflow.ellipsis,
-              style: theme.textTheme.bodyMedium?.copyWith(
-                color: scheme.onSurfaceVariant,
+            // In a grid the card has a fixed height, so the summary is the
+            // part that has to give: it takes the room left over and
+            // ellipsizes inside it. A plain `Text` with a `Spacer` under it
+            // does not — adding the coloured initial made the header a single
+            // pixel taller in Persian, and the card overflowed rather than
+            // shortening a summary that was already being truncated.
+            //
+            // In a list there is no fixed height and nothing to distribute, so
+            // the summary is left to be as tall as it needs.
+            if (maxSummaryLines != null)
+              Expanded(
+                child: Align(
+                  alignment: AlignmentDirectional.topStart,
+                  child: Text(
+                    summary,
+                    maxLines: maxSummaryLines,
+                    overflow: TextOverflow.ellipsis,
+                    style: theme.textTheme.bodyMedium?.copyWith(
+                      color: scheme.onSurfaceVariant,
+                    ),
+                  ),
+                ),
+              )
+            else
+              Text(
+                summary,
+                style: theme.textTheme.bodyMedium?.copyWith(
+                  color: scheme.onSurfaceVariant,
+                ),
               ),
-            ),
-            // In a grid every card is the same height, so without this the
-            // tags float in the middle and leave a hole underneath. Pushing
-            // them to the foot makes the fixed height read as a decision. In a
-            // list the card is only as tall as its content and there is
-            // nothing to distribute.
-            if (maxSummaryLines != null) const Spacer(),
             if (tags.isNotEmpty) ...<Widget>[
               SizedBox(
                 height: maxSummaryLines == null ? Spacing.md : Spacing.sm,
@@ -1161,6 +1177,29 @@ class ReadingColumn extends StatelessWidget {
   );
 }
 
+/// The glyph shown on an entity's coloured chip.
+///
+/// Taken with `characters` rather than `title[0]`, because a Dart string index
+/// returns a UTF-16 code unit: on «افلاطون» that is fine, on a name beginning
+/// with a character outside the basic plane it is half of one and renders as a
+/// replacement box.
+///
+/// A leading English article is skipped. "The Forms" was showing a T, which
+/// tells a reader nothing and files every title beginning with an article
+/// under the same letter — and the article is not what anyone would look it up
+/// under.
+String entityInitial(String title) {
+  var trimmed = title.trim();
+  for (final article in const <String>['The ', 'A ', 'An ']) {
+    if (trimmed.startsWith(article)) {
+      trimmed = trimmed.substring(article.length).trim();
+      break;
+    }
+  }
+  if (trimmed.isEmpty) return '?';
+  return trimmed.characters.first.toUpperCase();
+}
+
 /// A coloured chip carrying one glyph, standing in for a portrait.
 ///
 /// The product holds no images of philosophers and is not going to generate
@@ -1172,18 +1211,6 @@ class _Monogram extends StatelessWidget {
   const _Monogram({required this.seed});
 
   final String seed;
-
-  /// The first glyph of [seed], as a reader would see it.
-  ///
-  /// Taken with `characters` rather than `seed[0]`, because a Dart string index
-  /// returns a UTF-16 code unit: on «افلاطون» that is fine, on a name beginning
-  /// with a character outside the basic plane it is half of one and renders as
-  /// a replacement box.
-  String get _glyph {
-    final trimmed = seed.trim();
-    if (trimmed.isEmpty) return '?';
-    return trimmed.characters.first.toUpperCase();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -1198,7 +1225,7 @@ class _Monogram extends StatelessWidget {
         boxShadow: AppGradients.shadowFor(gradient.colors.last),
       ),
       child: Text(
-        _glyph,
+        entityInitial(seed),
         style: Theme.of(context).textTheme.titleMedium
             ?.copyWith(color: AppGradients.onGradient, height: 1),
       ),

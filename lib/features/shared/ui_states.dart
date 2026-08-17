@@ -143,18 +143,37 @@ class EmptyView extends StatelessWidget {
         constraints: const BoxConstraints(maxWidth: Breakpoints.readingMeasure),
         child: Padding(
           padding: const EdgeInsets.all(Spacing.xl),
+          // Centred, not left-aligned. An empty state is the whole screen,
+          // and a short heading pinned to the left edge of a blank page reads
+          // as content that failed to load rather than as a considered state.
           child: Column(
             mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               if (icon != null) ...<Widget>[
-                Icon(icon, size: 32, color: theme.colorScheme.onSurfaceVariant),
+                Container(
+                  padding: const EdgeInsets.all(Spacing.lg),
+                  decoration: BoxDecoration(
+                    color: theme.colorScheme.surfaceContainer,
+                    shape: BoxShape.circle,
+                  ),
+                  child: Icon(
+                    icon,
+                    size: 32,
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
                 const SizedBox(height: Spacing.lg),
               ],
-              Text(title, style: theme.textTheme.titleLarge),
+              Text(
+                title,
+                style: theme.textTheme.titleLarge,
+                textAlign: TextAlign.center,
+              ),
               const SizedBox(height: Spacing.sm),
               Text(
                 body,
+                textAlign: TextAlign.center,
                 style: theme.textTheme.bodyMedium?.copyWith(
                   color: theme.colorScheme.onSurfaceVariant,
                 ),
