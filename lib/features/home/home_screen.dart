@@ -209,32 +209,37 @@ class _HomeBody extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(height: Spacing.xl),
-
-                  // The quotation is the screen's one hero, so it gets the
-                  // gradient, the deep shadow and the whole width. Everything
-                  // else on the page is quieter than it on purpose.
-                  if (quote != null) ...<Widget>[
-                    EntranceAnimation(
-                      index: step++,
-                      child: _DailyQuoteHero(
-                        quote: quote,
-                        language: language,
-                        label: l10n.homeDailyIdea,
-                        speakerName:
-                            corpus
-                                .philosopher(quote.speakerId)
-                                ?.name
-                                .resolve(language) ??
-                            quote.speakerId,
-                        onTap: () => context.push(quote.speakerRef.route),
-                      ),
-                    ),
-                    const SizedBox(height: Spacing.xxl),
-                  ],
                 ],
               ),
             ),
+
+            // The quotation is the screen's one hero, so it gets the gradient,
+            // the deep shadow and the whole width — which it did not, because
+            // it sat inside the reading column above and stopped 350 pixels
+            // short of the tiles beneath it on a desktop, lining its right
+            // edge up with nothing. It is out here now, on the content measure
+            // the rest of the page uses. The quotation *inside* keeps the
+            // reading measure: an aligned edge is worth having, a 1,000-pixel
+            // line of prose is not.
+            if (quote != null) ...<Widget>[
+              const SizedBox(height: Spacing.xl),
+              EntranceAnimation(
+                index: step++,
+                child: _DailyQuoteHero(
+                  quote: quote,
+                  language: language,
+                  label: l10n.homeDailyIdea,
+                  speakerName:
+                      corpus
+                          .philosopher(quote.speakerId)
+                          ?.name
+                          .resolve(language) ??
+                      quote.speakerId,
+                  onTap: () => context.push(quote.speakerRef.route),
+                ),
+              ),
+              const SizedBox(height: Spacing.xxl),
+            ],
 
             // A grid rather than a stack of rows. A list of links tells a
             // reader what exists; a grid tells them how many kinds of thing
@@ -496,11 +501,18 @@ class _DailyQuoteHero extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: Spacing.lg),
-                Text(
-                  quote.text.resolve(language),
-                  style: AppTypography.quote(
-                    quote.text.resolvedLanguage(language),
-                  ).copyWith(color: AppGradients.onGradient),
+                // The card takes the content measure so its edge lines up with
+                // the tiles below; the quotation keeps the reading measure, so
+                // a wide window does not hand the reader a thousand-pixel line
+                // to track back across.
+                ReadingColumn(
+                  alignToStart: true,
+                  child: Text(
+                    quote.text.resolve(language),
+                    style: AppTypography.quote(
+                      quote.text.resolvedLanguage(language),
+                    ).copyWith(color: AppGradients.onGradient),
+                  ),
                 ),
                 const SizedBox(height: Spacing.lg),
                 Row(
