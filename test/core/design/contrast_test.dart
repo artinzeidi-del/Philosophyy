@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/core/design/color_tokens.dart';
 import 'package:philosophyy/core/design/contrast.dart';
+import 'package:philosophyy/core/design/gradients.dart';
 
 /// Guards the palette against accessibility regressions.
 ///
@@ -19,15 +20,15 @@ void main() {
 
     test('a colour against itself is 1:1', () {
       expect(
-        Contrast.ratio(AppColors.lapis, AppColors.lapis),
+        Contrast.ratio(AppColors.emberDeep, AppColors.emberDeep),
         closeTo(1.0, 0.0001),
       );
     });
 
     test('ratio is symmetric', () {
       expect(
-        Contrast.ratio(AppColors.ink, AppColors.paper),
-        closeTo(Contrast.ratio(AppColors.paper, AppColors.ink), 0.0001),
+        Contrast.ratio(AppColors.ink, AppColors.blush),
+        closeTo(Contrast.ratio(AppColors.blush, AppColors.ink), 0.0001),
       );
     });
 
@@ -48,7 +49,7 @@ void main() {
     });
 
     test('compositing a translucent foreground reduces its contrast', () {
-      const background = AppColors.paper;
+      const background = AppColors.blush;
       final opaque = Contrast.ratio(AppColors.ink, background);
       final translucent = Contrast.ratio(
         Contrast.composite(AppColors.ink.withValues(alpha: 0.5), background),
@@ -181,6 +182,38 @@ void main() {
         Contrast.ratio(AppColors.dark.onSurface, AppColors.dark.surface),
         greaterThanOrEqualTo(Contrast.aaaNormalText),
       );
+    });
+
+    test('every gradient stop can carry the gradient foreground', () {
+      // The ramp is handed out by index, so a caller colours a list of thirty
+      // traditions without being asked whether its label will survive. That is
+      // only safe if every stop clears AA, and the doc comment on AppGradients
+      // said this test checked it before this test checked it.
+      for (final stop in AppGradients.allStops) {
+        final ratio = Contrast.ratio(AppGradients.onGradient, stop);
+        expect(
+          ratio,
+          greaterThanOrEqualTo(Contrast.aaNormalText),
+          reason:
+              'the gradient foreground is ${ratio.toStringAsFixed(2)}:1 on '
+              '$stop, below the AA minimum',
+        );
+      }
+    });
+
+    test('the muted gradient foreground clears AA for large text', () {
+      // Used for captions and metadata on a gradient, which are set larger
+      // than body text; below the large-text bar it would be decoration.
+      for (final stop in AppGradients.allStops) {
+        final ratio = Contrast.ratio(AppGradients.onGradientMuted, stop);
+        expect(
+          ratio,
+          greaterThanOrEqualTo(Contrast.aaLargeText),
+          reason:
+              'the muted gradient foreground is ${ratio.toStringAsFixed(2)}:1 '
+              'on $stop',
+        );
+      }
     });
 
     test('neither theme uses pure black or pure white as a reading surface', () {

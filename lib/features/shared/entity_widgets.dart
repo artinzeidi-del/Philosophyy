@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
@@ -144,32 +145,20 @@ class EntityCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
-    final isDark = scheme.brightness == Brightness.dark;
-
     return PressableSurface(
       onTap: onTap,
       borderRadius: Radii.surfaceRadius,
       semanticLabel: '$title. $summary',
       // Handed to PressableSurface rather than painted inside the child, so the
       // ink ripple lands on top of the card instead of behind it.
+      // Glass rather than a fill: the canvas shows through, so a list of
+      // cards reads as panes laid on a lit surface instead of as a stack of
+      // rectangles. The hairline is what defines the edge; there is no shadow,
+      // because a shadow under a translucent panel makes it look printed.
       decoration: BoxDecoration(
-        color: scheme.surfaceContainer,
+        color: Glass.fill(context),
         borderRadius: Radii.surfaceRadius,
-        border: Border.all(
-          color: isDark ? scheme.outlineVariant : Colors.transparent,
-        ),
-        // Light mode gets a soft lift; dark mode separates by surface
-        // lightness instead, because a shadow on near-black is invisible and
-        // only muddies the edge it was meant to define.
-        boxShadow: isDark
-            ? null
-            : <BoxShadow>[
-                BoxShadow(
-                  color: scheme.shadow.withValues(alpha: 0.05),
-                  blurRadius: 14,
-                  offset: const Offset(0, 4),
-                ),
-              ],
+        border: Border.all(color: Glass.border(context)),
       ),
       child: Padding(
         padding: const EdgeInsets.all(Spacing.lg),

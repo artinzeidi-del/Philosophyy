@@ -4,15 +4,21 @@ import 'package:flutter/material.dart';
 ///
 /// ## Why these colours
 ///
-/// The identity is built from lapis lazuli and gold — the two pigments that
-/// illuminated both European medieval manuscripts and Persian miniatures. That
-/// gives a bilingual product covering many traditions a visual centre that
-/// belongs to none of them exclusively, and it reads as intellectual and
-/// durable rather than fashionable.
+/// The identity is an ember against deep water: a warm coral that carries every
+/// action, on cool teal-slate surfaces, over a canvas that runs from warm light
+/// in one corner to deep green-blue in the other. It reads as a lit instrument
+/// in a dim room, which is the register a reference work wants — attentive
+/// rather than clinical, and belonging to no single tradition's palette.
 ///
-/// Neither theme uses pure white or pure black. Light mode is warm paper,
+/// Dark is the primary form of the theme and light is its daylight variant, in
+/// the same two hues rather than a different scheme wearing the same name. The
+/// coral has to darken considerably in light mode: a coral light enough to glow
+/// on slate cannot carry text on paper, and the palette would rather change the
+/// value than fail the ratio.
+///
+/// Neither theme uses pure white or pure black. Light mode is warm blush paper,
 /// because a page of sustained reading set on #FFFFFF glares; dark mode is a
-/// blue-black with warm off-white text, because pure white on pure black
+/// deep teal-slate with warm off-white text, because pure white on pure black
 /// produces halation that makes long passages tiring.
 ///
 /// Every foreground/background pair used by [AppColors.light] and
@@ -21,47 +27,47 @@ import 'package:flutter/material.dart';
 /// re-running that test is how an accessible palette silently stops being one.
 abstract final class AppColors {
   // ---------------------------------------------------------------------
-  // Light theme — "paper"
+  // Light theme — "daylight"
   // ---------------------------------------------------------------------
 
-  /// Warm paper. The base reading surface in light mode.
-  static const Color paper = Color(0xFFFBF8F3);
+  /// Warm blush paper. The base reading surface in light mode.
+  static const Color blush = Color(0xFFFBF2ED);
 
-  /// A slightly recessed paper tone for grouped content.
-  static const Color paperContainer = Color(0xFFF4EFE7);
+  /// A slightly recessed blush tone for grouped content.
+  static const Color blushContainer = Color(0xFFF3E7E1);
 
-  /// The most recessed paper tone, for nested surfaces.
-  static const Color paperContainerHigh = Color(0xFFEBE4D8);
+  /// The most recessed blush tone, for nested surfaces.
+  static const Color blushContainerHigh = Color(0xFFEADAD3);
 
-  /// Near-black warm ink. Primary text in light mode.
-  static const Color ink = Color(0xFF1C1A17);
+  /// Deep teal ink. Primary text in light mode.
+  static const Color ink = Color(0xFF17242A);
 
   /// Softer ink for secondary text and metadata.
-  static const Color inkMuted = Color(0xFF4F4A43);
+  static const Color inkMuted = Color(0xFF48595F);
 
   /// Borders and dividers that need to be seen.
-  static const Color outlineLight = Color(0xFF7A736A);
+  static const Color outlineLight = Color(0xFF6E7E83);
 
   /// Hairline dividers that should recede.
-  static const Color outlineVariantLight = Color(0xFFD5CCBE);
+  static const Color outlineVariantLight = Color(0xFFD8C7C0);
 
-  /// Lapis. The primary accent in light mode.
-  static const Color lapis = Color(0xFF23407D);
+  /// Ember, darkened until it can carry text on paper.
+  static const Color emberDeep = Color(0xFFAE3A26);
 
-  /// A lapis-tinted fill for selected and highlighted states.
-  static const Color lapisContainer = Color(0xFFDCE3F6);
+  /// An ember-tinted fill for selected and highlighted states.
+  static const Color emberContainerLight = Color(0xFFFBDDD4);
 
-  /// Text and icons drawn on [lapisContainer].
-  static const Color onLapisContainer = Color(0xFF152547);
+  /// Text and icons drawn on [emberContainerLight].
+  static const Color onEmberContainerLight = Color(0xFF48130A);
 
-  /// Gold. The secondary accent in light mode, dark enough to carry text.
-  static const Color gold = Color(0xFF7A5B14);
+  /// Verdigris, the cool counterpart, dark enough to carry text on paper.
+  static const Color verdigrisDeep = Color(0xFF1C5F55);
 
-  /// A gold-tinted fill, used for quotations and editorial highlights.
-  static const Color goldContainer = Color(0xFFF5E7C6);
+  /// A verdigris-tinted fill, used for quotations and editorial highlights.
+  static const Color verdigrisContainerLight = Color(0xFFCFE9E2);
 
-  /// Text and icons drawn on [goldContainer].
-  static const Color onGoldContainer = Color(0xFF3D2C00);
+  /// Text and icons drawn on [verdigrisContainerLight].
+  static const Color onVerdigrisContainerLight = Color(0xFF00201B);
 
   /// Error red for light mode.
   static const Color errorLight = Color(0xFF9B2318);
@@ -73,53 +79,53 @@ abstract final class AppColors {
   static const Color onErrorContainerLight = Color(0xFF410E0B);
 
   // ---------------------------------------------------------------------
-  // Dark theme — "lamplight"
+  // Dark theme — "ember"
   // ---------------------------------------------------------------------
 
-  /// Deep blue-black. The base reading surface in dark mode.
-  static const Color night = Color(0xFF101319);
+  /// Deep teal-slate. The base reading surface in dark mode.
+  static const Color slate = Color(0xFF121E24);
 
-  /// A raised night tone for grouped content.
-  static const Color nightContainer = Color(0xFF191D26);
+  /// A raised slate tone for grouped content.
+  static const Color slateContainer = Color(0xFF1B2A32);
 
-  /// The most raised night tone, for nested surfaces.
-  static const Color nightContainerHigh = Color(0xFF232833);
+  /// The most raised slate tone, for nested surfaces.
+  static const Color slateContainerHigh = Color(0xFF243740);
 
   /// Warm off-white. Primary text in dark mode; deliberately not #FFFFFF.
-  static const Color lamplight = Color(0xFFE9E4DB);
+  static const Color daylight = Color(0xFFE6EDEE);
 
-  /// Softer lamplight for secondary text and metadata.
-  static const Color lamplightMuted = Color(0xFFB6B0A5);
+  /// Softer daylight for secondary text and metadata.
+  static const Color daylightMuted = Color(0xFFAABDC4);
 
   /// Borders and dividers that need to be seen in dark mode.
-  static const Color outlineDark = Color(0xFF8A8479);
+  static const Color outlineDark = Color(0xFF7C949C);
 
   /// Hairline dividers that should recede in dark mode.
-  static const Color outlineVariantDark = Color(0xFF3B404B);
+  static const Color outlineVariantDark = Color(0xFF354A54);
 
-  /// Lapis lifted for legibility against [night].
-  static const Color lapisLight = Color(0xFFA8BEF2);
+  /// Ember. The primary accent, and the colour every action is drawn in.
+  static const Color ember = Color(0xFFFF9E8A);
 
-  /// Text and icons drawn on [lapisLight] when it is used as a fill.
-  static const Color onLapisLight = Color(0xFF0E1D3C);
+  /// Text and icons drawn on [ember] when it is used as a fill.
+  static const Color onEmber = Color(0xFF3E120A);
 
-  /// A lapis fill for selected states in dark mode.
-  static const Color lapisContainerDark = Color(0xFF2A3F6C);
+  /// An ember fill for selected states in dark mode.
+  static const Color emberContainerDark = Color(0xFF6B2A1D);
 
-  /// Text and icons drawn on [lapisContainerDark].
-  static const Color onLapisContainerDark = Color(0xFFD9E2FB);
+  /// Text and icons drawn on [emberContainerDark].
+  static const Color onEmberContainerDark = Color(0xFFFFDBD2);
 
-  /// Gold lifted for legibility against [night].
-  static const Color goldLight = Color(0xFFE3C47E);
+  /// Verdigris lifted for legibility against [slate].
+  static const Color verdigris = Color(0xFF86D8C4);
 
-  /// Text and icons drawn on [goldLight] when it is used as a fill.
-  static const Color onGoldLight = Color(0xFF3A2A00);
+  /// Text and icons drawn on [verdigris] when it is used as a fill.
+  static const Color onVerdigris = Color(0xFF00352C);
 
-  /// A gold fill for quotations in dark mode.
-  static const Color goldContainerDark = Color(0xFF524012);
+  /// A verdigris fill for quotations in dark mode.
+  static const Color verdigrisContainerDark = Color(0xFF1D4E45);
 
-  /// Text and icons drawn on [goldContainerDark].
-  static const Color onGoldContainerDark = Color(0xFFF6E4BC);
+  /// Text and icons drawn on [verdigrisContainerDark].
+  static const Color onVerdigrisContainerDark = Color(0xFFB8ECDF);
 
   /// Error red for dark mode.
   static const Color errorDark = Color(0xFFF2B8B5);
@@ -131,41 +137,54 @@ abstract final class AppColors {
   static const Color onErrorContainerDark = Color(0xFFF9DEDC);
 
   // ---------------------------------------------------------------------
+  // The canvas
+  // ---------------------------------------------------------------------
+
+  /// The warm corner of the ambient wash.
+  static const Color auroraWarm = Color(0xFFF0A88C);
+
+  /// The cool corner of the ambient wash.
+  static const Color auroraCool = Color(0xFF2E6E68);
+
+  /// The deep corner the wash settles into.
+  static const Color auroraDeep = Color(0xFF10333A);
+
+  // ---------------------------------------------------------------------
   // Schemes
   // ---------------------------------------------------------------------
 
   /// The light colour scheme.
   static const ColorScheme light = ColorScheme(
     brightness: Brightness.light,
-    primary: lapis,
+    primary: emberDeep,
     onPrimary: Color(0xFFFFFFFF),
-    primaryContainer: lapisContainer,
-    onPrimaryContainer: onLapisContainer,
-    secondary: gold,
+    primaryContainer: emberContainerLight,
+    onPrimaryContainer: onEmberContainerLight,
+    secondary: verdigrisDeep,
     onSecondary: Color(0xFFFFFFFF),
-    secondaryContainer: goldContainer,
-    onSecondaryContainer: onGoldContainer,
-    tertiary: Color(0xFF4A5F52),
+    secondaryContainer: verdigrisContainerLight,
+    onSecondaryContainer: onVerdigrisContainerLight,
+    tertiary: Color(0xFF2F5C86),
     onTertiary: Color(0xFFFFFFFF),
-    tertiaryContainer: Color(0xFFD6E5DA),
-    onTertiaryContainer: Color(0xFF15291D),
+    tertiaryContainer: Color(0xFFD4E4F5),
+    onTertiaryContainer: Color(0xFF0C2237),
     error: errorLight,
     onError: Color(0xFFFFFFFF),
     errorContainer: errorContainerLight,
     onErrorContainer: onErrorContainerLight,
-    surface: paper,
+    surface: blush,
     onSurface: ink,
     onSurfaceVariant: inkMuted,
-    surfaceContainerLowest: Color(0xFFFFFDF9),
-    surfaceContainerLow: Color(0xFFF8F4ED),
-    surfaceContainer: paperContainer,
-    surfaceContainerHigh: paperContainerHigh,
-    surfaceContainerHighest: Color(0xFFE3DBCC),
+    surfaceContainerLowest: Color(0xFFFFFAF7),
+    surfaceContainerLow: Color(0xFFF8EDE8),
+    surfaceContainer: blushContainer,
+    surfaceContainerHigh: blushContainerHigh,
+    surfaceContainerHighest: Color(0xFFE1CFC7),
     outline: outlineLight,
     outlineVariant: outlineVariantLight,
-    inverseSurface: Color(0xFF32302C),
-    onInverseSurface: Color(0xFFF5F0E8),
-    inversePrimary: lapisLight,
+    inverseSurface: Color(0xFF2B3A3F),
+    onInverseSurface: Color(0xFFF1F5F5),
+    inversePrimary: ember,
     scrim: Color(0xFF000000),
     shadow: Color(0xFF000000),
   );
@@ -173,35 +192,35 @@ abstract final class AppColors {
   /// The dark colour scheme.
   static const ColorScheme dark = ColorScheme(
     brightness: Brightness.dark,
-    primary: lapisLight,
-    onPrimary: onLapisLight,
-    primaryContainer: lapisContainerDark,
-    onPrimaryContainer: onLapisContainerDark,
-    secondary: goldLight,
-    onSecondary: onGoldLight,
-    secondaryContainer: goldContainerDark,
-    onSecondaryContainer: onGoldContainerDark,
-    tertiary: Color(0xFFA8C7B4),
-    onTertiary: Color(0xFF13301F),
-    tertiaryContainer: Color(0xFF2C4636),
-    onTertiaryContainer: Color(0xFFC4E3D0),
+    primary: ember,
+    onPrimary: onEmber,
+    primaryContainer: emberContainerDark,
+    onPrimaryContainer: onEmberContainerDark,
+    secondary: verdigris,
+    onSecondary: onVerdigris,
+    secondaryContainer: verdigrisContainerDark,
+    onSecondaryContainer: onVerdigrisContainerDark,
+    tertiary: Color(0xFF9DC3EE),
+    onTertiary: Color(0xFF0B2338),
+    tertiaryContainer: Color(0xFF2B4B6B),
+    onTertiaryContainer: Color(0xFFD3E4F7),
     error: errorDark,
     onError: Color(0xFF601410),
     errorContainer: errorContainerDark,
     onErrorContainer: onErrorContainerDark,
-    surface: night,
-    onSurface: lamplight,
-    onSurfaceVariant: lamplightMuted,
-    surfaceContainerLowest: Color(0xFF0B0D12),
-    surfaceContainerLow: Color(0xFF14181F),
-    surfaceContainer: nightContainer,
-    surfaceContainerHigh: nightContainerHigh,
-    surfaceContainerHighest: Color(0xFF2D323E),
+    surface: slate,
+    onSurface: daylight,
+    onSurfaceVariant: daylightMuted,
+    surfaceContainerLowest: Color(0xFF0C161B),
+    surfaceContainerLow: Color(0xFF16232A),
+    surfaceContainer: slateContainer,
+    surfaceContainerHigh: slateContainerHigh,
+    surfaceContainerHighest: Color(0xFF2D444E),
     outline: outlineDark,
     outlineVariant: outlineVariantDark,
-    inverseSurface: lamplight,
-    onInverseSurface: Color(0xFF1C1A17),
-    inversePrimary: lapis,
+    inverseSurface: daylight,
+    onInverseSurface: Color(0xFF17242A),
+    inversePrimary: emberDeep,
     scrim: Color(0xFF000000),
     shadow: Color(0xFF000000),
   );

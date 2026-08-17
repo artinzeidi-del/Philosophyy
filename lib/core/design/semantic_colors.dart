@@ -28,9 +28,9 @@ class AppSemanticColors extends ThemeExtension<AppSemanticColors> {
 
   /// The light-theme values.
   static const AppSemanticColors light = AppSemanticColors(
-    quoteSurface: AppColors.goldContainer,
-    onQuoteSurface: AppColors.onGoldContainer,
-    quoteAccent: AppColors.gold,
+    quoteSurface: AppColors.verdigrisContainerLight,
+    onQuoteSurface: AppColors.onVerdigrisContainerLight,
+    quoteAccent: AppColors.verdigrisDeep,
     verified: Color(0xFF2F6B43),
     probable: Color(0xFF6B5A16),
     disputed: Color(0xFF9A5A12),
@@ -44,14 +44,14 @@ class AppSemanticColors extends ThemeExtension<AppSemanticColors> {
 
   /// The dark-theme values.
   static const AppSemanticColors dark = AppSemanticColors(
-    quoteSurface: AppColors.goldContainerDark,
-    onQuoteSurface: AppColors.onGoldContainerDark,
-    quoteAccent: AppColors.goldLight,
+    quoteSurface: AppColors.verdigrisContainerDark,
+    onQuoteSurface: AppColors.onVerdigrisContainerDark,
+    quoteAccent: AppColors.verdigris,
     verified: Color(0xFF8FCCA3),
     probable: Color(0xFFD8C177),
     disputed: Color(0xFFEBAE72),
     misattributed: AppColors.errorDark,
-    unknownProvenance: AppColors.lamplightMuted,
+    unknownProvenance: AppColors.daylightMuted,
     interpretation: Color(0xFFB3A8EE),
     scholarlyDisagreement: Color(0xFFDCA7CE),
     readingSurface: Color(0xFF0E1116),

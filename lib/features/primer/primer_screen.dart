@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/responsive.dart';
 import 'package:philosophyy/core/design/typography.dart';
@@ -39,6 +40,10 @@ class PrimerScreen extends ConsumerWidget {
 
     return Scaffold(
       backgroundColor: Colors.transparent,
+      // The body paints the canvas, so the bar has to sit *on* it. Without
+      // this the bar is a transparent strip over whatever is behind the
+      // route — which is white — and the title vanished into it.
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: Text(AppL10n.of(context).primerTitle),
         backgroundColor: Colors.transparent,
@@ -67,9 +72,12 @@ class PrimerScreen extends ConsumerWidget {
     return SafeArea(
       child: ContentColumn(
         child: ListView.builder(
+          // The body runs behind the bar, so the list has to start below it.
+          // `SafeArea` clears the status bar and knows nothing about the app
+          // bar above it.
           padding: EdgeInsets.fromLTRB(
             ResponsiveLayout.gutterFor(context),
-            Spacing.md,
+            kToolbarHeight + Spacing.md,
             ResponsiveLayout.gutterFor(context),
             Spacing.xxxl,
           ),
@@ -149,11 +157,18 @@ class _StepCardState extends State<_StepCard> {
     final reads = step.reads.map(widget.corpus.resolve).nonNulls.toList();
 
     return Material(
-      color: theme.colorScheme.surfaceContainerLow,
+      color: Glass.fill(context),
       clipBehavior: Clip.antiAlias,
       shape: RoundedRectangleBorder(
         borderRadius: Radii.surfaceRadius,
-        side: BorderSide(color: theme.colorScheme.outlineVariant),
+        // The step a reader is on is the live one, so it carries the accent
+        // on its edge; the rest are quiet. This is the only place in the
+        // primer that uses colour to say anything.
+        side: BorderSide(
+          color: _open
+              ? theme.colorScheme.primary.withValues(alpha: 0.55)
+              : Glass.border(context),
+        ),
       ),
       child: InkWell(
         onTap: () => setState(() => _open = !_open),

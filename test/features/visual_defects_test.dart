@@ -3,8 +3,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/app/app.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/core/search/text_normalizer.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
+import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/gradient_surfaces.dart';
@@ -114,46 +116,69 @@ void main() {
   });
 
   group('The glossary', () {
-    test('never prints the same word twice on one card', () {
-      // «قیاس» appeared twice on the English card for "Analogy" — once as the
-      // Persian translation in the header, once as the original underneath.
-      // The guard compared the original against the *active* language only,
-      // so it fired in Persian and not in English.
-      final duplicates = corpus.glossary
-          .where(
-            (term) =>
-                term.nativeTerm != null &&
-                (term.nativeTerm == term.term.en ||
-                    term.nativeTerm == term.term.fa),
-          )
-          .map((term) => term.id)
-          .toList();
+    /// The terms whose original would look, to a reader, like a word already
+    /// printed on their card.
+    ///
+    /// Compared through the search normaliser rather than byte for byte: the
+    /// first version of this check used `==`, and «قیاس» against «قياس» —
+    /// Persian yeh against Arabic yeh — is two different strings that render
+    /// identically. The card printed both and looked broken.
+    List<GlossaryTerm> lookalikes() => corpus.glossary
+        .where(
+          (term) =>
+              term.nativeTerm != null &&
+              (TextNormalizer.normalize(term.nativeTerm!) ==
+                      TextNormalizer.normalize(term.term.en) ||
+                  (term.term.fa != null &&
+                      TextNormalizer.normalize(term.nativeTerm!) ==
+                          TextNormalizer.normalize(term.term.fa!))),
+        )
+        .toList();
 
-      // The content may legitimately carry such a term; what must not happen
-      // is the card printing it twice. This asserts the data case exists so
-      // the widget test below is testing something real.
+    test('the corpus still contains a term that could print twice', () {
+      // Asserts the fixture the widget test below depends on actually exists,
+      // so that test cannot start passing by testing nothing.
       expect(
-        duplicates,
+        lookalikes(),
         isNotEmpty,
         reason:
-            'no term now repeats its own name, so the widget test below '
-            'no longer proves anything — pick a different fixture',
+            'no glossary term now repeats its own name, so the widget test '
+            'below no longer proves anything — pick a different fixture',
       );
     });
 
-    testWidgets('shows a repeated original once', (tester) async {
-      final repeated = corpus.glossary.firstWhere(
-        (term) => term.nativeTerm != null && term.nativeTerm == term.term.fa,
-      );
-      await pump(tester, '/glossary?term=${repeated.id}');
-
-      expect(
-        find.text(repeated.nativeTerm!),
-        findsOneWidget,
-        reason:
-            '"${repeated.nativeTerm}" is printed more than once on the '
-            '${repeated.id} card',
-      );
+    testWidgets('shows a look-alike original once, in both languages', (
+      tester,
+    ) async {
+      for (final language in const <String?>[null, 'fa']) {
+        for (final term in lookalikes()) {
+          await pump(
+            tester,
+            '/glossary?term=${term.id}',
+            preferences: language == null
+                ? const <String, Object>{}
+                : <String, Object>{'flutter.settings.language': language},
+          );
+          final shown = find
+              .byType(Text)
+              .evaluate()
+              .map((element) => (element.widget as Text).data)
+              .nonNulls
+              .where(
+                (text) =>
+                    TextNormalizer.normalize(text) ==
+                    TextNormalizer.normalize(term.nativeTerm!),
+              )
+              .length;
+          expect(
+            shown,
+            lessThanOrEqualTo(1),
+            reason:
+                '"${term.nativeTerm}" is printed $shown times on the '
+                '${term.id} card in ${language ?? 'en'}',
+          );
+        }
+      }
     });
   });
 

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
@@ -242,137 +243,145 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
     return Scaffold(
       // Reading gets its own surface, a shade apart from the rest of the app,
       // so that opening an article feels like arriving somewhere quieter. The
-      // lamplight backdrop used on the front-of-house screens is deliberately
-      // absent here: under long-form text, decoration is noise.
       backgroundColor: semantic.readingSurface,
-      body: CustomScrollView(
-        controller: _scrollController,
-        slivers: <Widget>[
-          SliverAppBar(
-            pinned: true,
-            expandedHeight: 0,
-            // The bar takes the masthead's first stop rather than the reading
-            // surface, so the top of the screen is one block of colour instead
-            // of a beige strip with a coloured panel below it. It keeps the
-            // colour when the reader scrolls into the prose, which is what
-            // says which entry they are still inside.
-            backgroundColor: AppGradients.forSeed(entity.name.en).colors.first,
-            foregroundColor: AppGradients.onGradient,
-            // The title only appears once the reader has scrolled past the
-            // real one, so the screen opens with a single heading rather than
-            // the same words twice.
-            title: AnimatedOpacity(
-              opacity: showCompactTitle ? 1 : 0,
-              duration: Motion.duration(context, MotionTokens.quick),
-              child: Text(entity.name.resolve(language)),
+      // The article keeps the canvas, at a quarter strength. The rule that
+      // decoration under long-form text is noise is right, and a wash this
+      // faint is not decoration — it is what stops the one screen a reader
+      // spends most of their time on from being the one screen that looks
+      // like a different product.
+      body: LamplightBackdrop(
+        intensity: 0.25,
+        child: CustomScrollView(
+          controller: _scrollController,
+          slivers: <Widget>[
+            SliverAppBar(
+              pinned: true,
+              expandedHeight: 0,
+              // The bar takes the masthead's first stop rather than the reading
+              // surface, so the top of the screen is one block of colour instead
+              // of a beige strip with a coloured panel below it. It keeps the
+              // colour when the reader scrolls into the prose, which is what
+              // says which entry they are still inside.
+              backgroundColor: AppGradients.forSeed(entity.name.en)
+                  .colors
+                  .first,
+              foregroundColor: AppGradients.onGradient,
+              // The title only appears once the reader has scrolled past the
+              // real one, so the screen opens with a single heading rather than
+              // the same words twice.
+              title: AnimatedOpacity(
+                opacity: showCompactTitle ? 1 : 0,
+                duration: Motion.duration(context, MotionTokens.quick),
+                child: Text(entity.name.resolve(language)),
+              ),
+              actions: <Widget>[
+                _BookmarkButton(target: entity.ref),
+                const SizedBox(width: Spacing.xs),
+              ],
             ),
-            actions: <Widget>[
-              _BookmarkButton(target: entity.ref),
-              const SizedBox(width: Spacing.xs),
-            ],
-          ),
-          // Full-bleed, and therefore its own sliver rather than a child of
-          // the reading column: an article's masthead runs edge to edge while
-          // its prose keeps the measure.
-          SliverToBoxAdapter(
-            child: _Masthead(
-              entity: entity,
-              language: language,
-              // A reference entry for the Republic that never says Plato wrote
-              // it is not a reference entry. The author is resolved here
-              // rather than inside the masthead so the masthead stays free of
-              // the corpus.
-              author: switch (entity) {
-                final Work work => corpus.philosopher(work.authorId),
-                _ => null,
-              },
+            // Full-bleed, and therefore its own sliver rather than a child of
+            // the reading column: an article's masthead runs edge to edge while
+            // its prose keeps the measure.
+            SliverToBoxAdapter(
+              child: _Masthead(
+                entity: entity,
+                language: language,
+                // A reference entry for the Republic that never says Plato wrote
+                // it is not a reference entry. The author is resolved here
+                // rather than inside the masthead so the masthead stays free of
+                // the corpus.
+                author: switch (entity) {
+                  final Work work => corpus.philosopher(work.authorId),
+                  _ => null,
+                },
+              ),
             ),
-          ),
-          SliverToBoxAdapter(
-            child: ReadingColumn(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(
-                  Spacing.lg,
-                  Spacing.lg,
-                  Spacing.lg,
-                  Spacing.xxxl,
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    _Header(
-                      entity: entity,
-                      taxonomy: corpus.taxonomy,
-                      language: language,
-                    ),
-                    // Only as much room as there is something to put in it.
-                    // Every school in the corpus has no article, and the page
-                    // reserved the space anyway — a hole between the tags and
-                    // the first real section that read as a rendering fault.
-                    if (!entity.article.isEmpty) ...<Widget>[
-                      const SizedBox(height: Spacing.xl),
-                      if (entity.article.hasMoreBeyond(ContentDepth.quick) ||
-                          depth != ContentDepth.quick)
-                        _DepthSelector(
+            SliverToBoxAdapter(
+              child: ReadingColumn(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(
+                    Spacing.lg,
+                    Spacing.lg,
+                    Spacing.lg,
+                    Spacing.xxxl,
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      _Header(
+                        entity: entity,
+                        taxonomy: corpus.taxonomy,
+                        language: language,
+                      ),
+                      // Only as much room as there is something to put in it.
+                      // Every school in the corpus has no article, and the page
+                      // reserved the space anyway — a hole between the tags and
+                      // the first real section that read as a rendering fault.
+                      if (!entity.article.isEmpty) ...<Widget>[
+                        const SizedBox(height: Spacing.xl),
+                        if (entity.article.hasMoreBeyond(ContentDepth.quick) ||
+                            depth != ContentDepth.quick)
+                          _DepthSelector(
+                            article: entity.article,
+                            depth: depth,
+                            language: language,
+                            onChanged: onDepthChanged,
+                          ),
+                        const SizedBox(height: Spacing.lg),
+                      ],
+                      // Changing depth replaces the whole article. Without the
+                      // cross-fade the page snaps to a new length while the
+                      // reader's eye is still on the old text.
+                      SmoothSwitcher(
+                        child: ArticleView(
+                          key: ValueKey<String>('${entity.id}-${depth.id}'),
                           article: entity.article,
                           depth: depth,
                           language: language,
-                          onChanged: onDepthChanged,
+                          resolveSource: corpus.source,
+                          highlights: ref
+                              .watch(libraryProvider)
+                              .highlightsFor(entity.ref),
+                          // A reader who meets a word they do not know should
+                          // not have to leave the sentence to find out what it
+                          // means.
+                          glossary: corpus.glossary,
+                          onTermTapped: (term) =>
+                              showGlossaryTerm(context, term, language),
+                          onHighlight: _addHighlight,
+                          onRemoveHighlight: _removeHighlight,
                         ),
-                      const SizedBox(height: Spacing.lg),
-                    ],
-                    // Changing depth replaces the whole article. Without the
-                    // cross-fade the page snaps to a new length while the
-                    // reader's eye is still on the old text.
-                    SmoothSwitcher(
-                      child: ArticleView(
-                        key: ValueKey<String>('${entity.id}-${depth.id}'),
-                        article: entity.article,
-                        depth: depth,
-                        language: language,
-                        resolveSource: corpus.source,
-                        highlights: ref
-                            .watch(libraryProvider)
-                            .highlightsFor(entity.ref),
-                        // A reader who meets a word they do not know should
-                        // not have to leave the sentence to find out what it
-                        // means.
-                        glossary: corpus.glossary,
-                        onTermTapped: (term) =>
-                            showGlossaryTerm(context, term, language),
-                        onHighlight: _addHighlight,
-                        onRemoveHighlight: _removeHighlight,
                       ),
-                    ),
-                    ..._kindSpecificSections(context),
-                    _ConnectionsSection(
-                      entity: entity,
-                      corpus: corpus,
-                      language: language,
-                    ),
-                    _NotesSection(target: entity.ref),
-                    if (entity.citations.isNotEmpty) ...<Widget>[
+                      ..._kindSpecificSections(context),
+                      _ConnectionsSection(
+                        entity: entity,
+                        corpus: corpus,
+                        language: language,
+                      ),
+                      _NotesSection(target: entity.ref),
+                      if (entity.citations.isNotEmpty) ...<Widget>[
+                        const SizedBox(height: Spacing.xl),
+                        SectionHeader(title: l10n.sectionSources),
+                        CitationList(
+                          citations: entity.citations,
+                          language: language,
+                          resolveSource: corpus.source,
+                        ),
+                      ],
                       const SizedBox(height: Spacing.xl),
-                      SectionHeader(title: l10n.sectionSources),
-                      CitationList(
-                        citations: entity.citations,
-                        language: language,
-                        resolveSource: corpus.source,
+                      Text(
+                        _provenanceNote(language),
+                        style: theme.textTheme.labelSmall?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
                       ),
                     ],
-                    const SizedBox(height: Spacing.xl),
-                    Text(
-                      _provenanceNote(language),
-                      style: theme.textTheme.labelSmall?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

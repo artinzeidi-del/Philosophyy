@@ -92,8 +92,8 @@ class FloatingNavBar extends StatelessWidget {
     // interface that inverts, which is exactly what makes it read as floating
     // above the page rather than as part of it.
     final barColor = dark
-        ? AppColors.nightContainerHigh.withValues(alpha: 0.92)
-        : const Color(0xFF2C2A28).withValues(alpha: 0.94);
+        ? const Color(0xFF16242B).withValues(alpha: 0.88)
+        : const Color(0xFF16242B).withValues(alpha: 0.94);
 
     return SafeArea(
       top: false,
@@ -209,10 +209,10 @@ class _NavItem extends StatelessWidget {
     final theme = Theme.of(context);
     // Both foregrounds are measured against the near-black bar, not against the
     // page, which is why they do not come from the colour scheme.
-    const idle = Color(0xFF9E978C);
-    final active = theme.brightness == Brightness.dark
-        ? AppColors.goldLight
-        : const Color(0xFFE8C88C);
+    const idle = Color(0xFF93A4AB);
+    // The accent, in both themes: the bar is near-black either way, so the
+    // light theme's darkened ember would disappear on it.
+    const active = AppColors.ember;
 
     return Semantics(
       selected: selected,

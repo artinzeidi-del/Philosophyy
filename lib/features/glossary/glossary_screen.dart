@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/responsive.dart';
 import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/search/text_normalizer.dart';
@@ -42,6 +43,10 @@ class _GlossaryScreenState extends ConsumerState<GlossaryScreen> {
 
     return Scaffold(
       backgroundColor: Colors.transparent,
+      // The body paints the canvas, so the bar has to sit *on* it. Without
+      // this the bar is a transparent strip over whatever is behind the
+      // route — which is white — and the title vanished into it.
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: Text(AppL10n.of(context).glossaryTitle),
         backgroundColor: Colors.transparent,
@@ -115,9 +120,12 @@ class _GlossaryScreenState extends ConsumerState<GlossaryScreen> {
         child: CustomScrollView(
           slivers: <Widget>[
             SliverPadding(
+              // The body runs behind the bar, so the list has to start below
+              // it. `SafeArea` clears the status bar and knows nothing about
+              // the app bar above it.
               padding: EdgeInsets.fromLTRB(
                 ResponsiveLayout.gutterFor(context),
-                Spacing.md,
+                kToolbarHeight + Spacing.md,
                 ResponsiveLayout.gutterFor(context),
                 Spacing.lg,
               ),
@@ -203,6 +211,15 @@ class _TermCard extends StatefulWidget {
 class _TermCardState extends State<_TermCard> {
   late bool _expanded = widget.startExpanded;
 
+  /// Whether two strings would look the same to a reader.
+  ///
+  /// Arabic-script text carries several pairs of code points that render
+  /// alike — Arabic yeh against Persian yeh, Arabic kaf against keheh — and a
+  /// byte comparison treats them as different words. The search normaliser
+  /// already folds exactly these, so it is the right authority here too.
+  static bool _looksLike(String a, String? b) =>
+      b != null && TextNormalizer.normalize(a) == TextNormalizer.normalize(b);
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -215,11 +232,11 @@ class _TermCardState extends State<_TermCard> {
     final canExpand = long != null || conceptId != null;
 
     return Material(
-      color: theme.colorScheme.surfaceContainerLow,
+      color: Glass.fill(context),
       clipBehavior: Clip.antiAlias,
       shape: RoundedRectangleBorder(
         borderRadius: Radii.surfaceRadius,
-        side: BorderSide(color: theme.colorScheme.outlineVariant),
+        side: BorderSide(color: Glass.border(context)),
       ),
       child: InkWell(
         onTap: canExpand ? () => setState(() => _expanded = !_expanded) : null,
@@ -252,13 +269,14 @@ class _TermCardState extends State<_TermCard> {
                 ],
               ),
               // Not shown when it repeats a word already on the card. The
-              // header prints both languages, so the check has to cover both:
-              // comparing only against the active one left «قیاس» printed
-              // twice on the English card, once as the translation and once as
-              // the original, which reads as a rendering fault.
+              // header prints both languages, so the check covers both — and
+              // it compares them the way a reader sees them rather than byte
+              // for byte. «قیاس» and «قياس» differ only in which yeh they use,
+              // Persian against Arabic, and printing both put what looks like
+              // the same word on the card twice.
               if (native != null &&
-                  native != term.term.en &&
-                  native != term.term.fa) ...<Widget>[
+                  !_looksLike(native, term.term.en) &&
+                  !_looksLike(native, term.term.fa)) ...<Widget>[
                 const SizedBox(height: Spacing.xxs),
                 Text(
                   native,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 
@@ -190,17 +191,9 @@ class TileCard extends StatelessWidget {
       onTap: onTap,
       borderRadius: const BorderRadius.all(Radius.circular(Radii.lg)),
       decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceContainerLowest,
+        color: Glass.fill(context),
         borderRadius: const BorderRadius.all(Radius.circular(Radii.lg)),
-        border: Border.all(color: theme.colorScheme.outlineVariant),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: theme.colorScheme.shadow.withValues(alpha: 0.05),
-            blurRadius: 12,
-            offset: const Offset(0, 4),
-            spreadRadius: -4,
-          ),
-        ],
+        border: Border.all(color: Glass.border(context)),
       ),
       child: Padding(
         padding: const EdgeInsets.all(Spacing.lg),
@@ -213,15 +206,23 @@ class TileCard extends StatelessWidget {
           children: <Widget>[
             Row(
               children: <Widget>[
-                Container(
-                  padding: const EdgeInsets.all(Spacing.md),
+                // The icon chip carries a trace of the accent's bloom rather
+                // than a flat tint. It is a tenth of the strength the primary
+                // action uses, which is enough to look lit and not enough to
+                // compete with the one thing on the screen that is asking to
+                // be pressed.
+                DecoratedBox(
                   decoration: BoxDecoration(
-                    color: accent.withValues(alpha: 0.12),
+                    color: accent.withValues(alpha: 0.14),
                     borderRadius: const BorderRadius.all(
                       Radius.circular(Radii.md),
                     ),
+                    boxShadow: Glass.glow(accent, strength: 0.35),
                   ),
-                  child: Icon(icon, size: 22, color: accent),
+                  child: Padding(
+                    padding: const EdgeInsets.all(Spacing.md),
+                    child: Icon(icon, size: 22, color: accent),
+                  ),
                 ),
                 const Spacer(),
                 if (badge != null)

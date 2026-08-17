@@ -7,6 +7,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/responsive.dart';
@@ -459,59 +460,67 @@ class _DailyQuoteHero extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        GradientCard(
-          gradient: AppGradients.hero,
-          strongShadow: true,
-          onTap: onTap,
-          padding: const EdgeInsets.all(Spacing.xl),
-          semanticLabel:
-              '$label. ${quote.text.resolve(language)} — $speakerName',
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Row(
-                children: <Widget>[
-                  const Icon(
-                    Icons.format_quote_rounded,
-                    size: 18,
-                    color: AppGradients.onGradientMuted,
-                  ),
-                  const SizedBox(width: Spacing.sm),
-                  Text(
-                    label,
-                    style: theme.textTheme.labelMedium?.copyWith(
+        // The screen's one live thing, so it is the one thing that blooms —
+        // three passes on arrival and then a steady glow. Everything else on
+        // the page is quiet enough for that to mean something.
+        PulsingGlow(
+          colour: theme.colorScheme.primary,
+          strength: 0.9,
+          borderRadius: Radii.surfaceRadius,
+          child: GradientCard(
+            gradient: AppGradients.hero,
+            strongShadow: false,
+            onTap: onTap,
+            padding: const EdgeInsets.all(Spacing.xl),
+            semanticLabel:
+                '$label. ${quote.text.resolve(language)} — $speakerName',
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Row(
+                  children: <Widget>[
+                    const Icon(
+                      Icons.format_quote_rounded,
+                      size: 18,
                       color: AppGradients.onGradientMuted,
-                      letterSpacing: 0.6,
                     ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: Spacing.lg),
-              Text(
-                quote.text.resolve(language),
-                style: AppTypography.quote(
-                  quote.text.resolvedLanguage(language),
-                ).copyWith(color: AppGradients.onGradient),
-              ),
-              const SizedBox(height: Spacing.lg),
-              Row(
-                children: <Widget>[
-                  Expanded(
-                    child: Text(
-                      '— $speakerName',
-                      style: theme.textTheme.titleSmall?.copyWith(
-                        color: AppGradients.onGradient,
+                    const SizedBox(width: Spacing.sm),
+                    Text(
+                      label,
+                      style: theme.textTheme.labelMedium?.copyWith(
+                        color: AppGradients.onGradientMuted,
+                        letterSpacing: 0.6,
                       ),
                     ),
-                  ),
-                  const Icon(
-                    Icons.arrow_outward_rounded,
-                    size: 18,
-                    color: AppGradients.onGradientMuted,
-                  ),
-                ],
-              ),
-            ],
+                  ],
+                ),
+                const SizedBox(height: Spacing.lg),
+                Text(
+                  quote.text.resolve(language),
+                  style: AppTypography.quote(
+                    quote.text.resolvedLanguage(language),
+                  ).copyWith(color: AppGradients.onGradient),
+                ),
+                const SizedBox(height: Spacing.lg),
+                Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Text(
+                        '— $speakerName',
+                        style: theme.textTheme.titleSmall?.copyWith(
+                          color: AppGradients.onGradient,
+                        ),
+                      ),
+                    ),
+                    const Icon(
+                      Icons.arrow_outward_rounded,
+                      size: 18,
+                      color: AppGradients.onGradientMuted,
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
         if (caveat != null)
