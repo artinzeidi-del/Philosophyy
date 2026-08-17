@@ -3,6 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/color_tokens.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
+import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 
 /// The phone navigation: a dark pill that floats over the content.
@@ -91,9 +93,12 @@ class FloatingNavBar extends StatelessWidget {
     // Near-black in both themes. In light mode this is the one piece of the
     // interface that inverts, which is exactly what makes it read as floating
     // above the page rather than as part of it.
+    // Near-black in both themes, and darker than any surface the app paints,
+    // so the bar reads as an object laid on the page rather than as part of
+    // it. At the canvas's own lightness it disappeared.
     final barColor = dark
-        ? const Color(0xFF16242B).withValues(alpha: 0.88)
-        : const Color(0xFF16242B).withValues(alpha: 0.94);
+        ? const Color(0xFF060D11).withValues(alpha: 0.90)
+        : const Color(0xFF0B151A).withValues(alpha: 0.94);
 
     return SafeArea(
       top: false,
@@ -114,51 +119,73 @@ class FloatingNavBar extends StatelessWidget {
               decoration: BoxDecoration(
                 color: barColor,
                 borderRadius: const BorderRadius.all(Radius.circular(Radii.xl)),
+                // The hairline is what turns a dark rectangle into an object
+                // with an edge; the shadow underneath is what lifts it off the
+                // page.
+                border: Border.all(color: Colors.white.withValues(alpha: 0.10)),
                 boxShadow: <BoxShadow>[
                   BoxShadow(
-                    color: Colors.black.withValues(alpha: dark ? 0.5 : 0.22),
-                    blurRadius: 26,
-                    offset: const Offset(0, 10),
+                    color: Colors.black.withValues(alpha: dark ? 0.5 : 0.28),
+                    blurRadius: 28,
+                    offset: const Offset(0, 12),
                     spreadRadius: -6,
                   ),
                 ],
               ),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: Spacing.sm,
-                  vertical: Spacing.sm,
+              child: DecoratedBox(
+                // A pool of light along the top edge, so the bar reads as a
+                // glossy object catching the room rather than as a flat fill.
+                decoration: BoxDecoration(
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(Radii.xl),
+                  ),
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    stops: const <double>[0, 0.55],
+                    colors: <Color>[
+                      Colors.white.withValues(alpha: 0.10),
+                      Colors.white.withValues(alpha: 0),
+                    ],
+                  ),
                 ),
-                // Five icons plus one label does not fit a 320-wide phone —
-                // "Settings" and «تنظیمات» both overflowed by enough to break
-                // the row. Below the threshold the bar keeps the icons and
-                // drops the label, which is the part a reader can do without:
-                // the selected pill still says where they are.
-                child: LayoutBuilder(
-                  builder: (context, constraints) {
-                    final showLabel = _hasRoomForLabel(
-                      context,
-                      constraints.maxWidth,
-                      destinations[selectedIndex.clamp(
-                            0,
-                            destinations.length - 1,
-                          )]
-                          .label,
-                      destinations.length,
-                    );
-                    return Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        for (var i = 0; i < destinations.length; i++)
-                          _NavItem(
-                            key: destinations[i].key,
-                            destination: destinations[i],
-                            selected: i == selectedIndex,
-                            showLabel: showLabel,
-                            onTap: () => onSelected(i),
-                          ),
-                      ],
-                    );
-                  },
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: Spacing.sm,
+                    vertical: Spacing.sm,
+                  ),
+                  // Five icons plus one label does not fit a 320-wide phone —
+                  // "Settings" and «تنظیمات» both overflowed by enough to break
+                  // the row. Below the threshold the bar keeps the icons and
+                  // drops the label, which is the part a reader can do without:
+                  // the selected pill still says where they are.
+                  child: LayoutBuilder(
+                    builder: (context, constraints) {
+                      final showLabel = _hasRoomForLabel(
+                        context,
+                        constraints.maxWidth,
+                        destinations[selectedIndex.clamp(
+                              0,
+                              destinations.length - 1,
+                            )]
+                            .label,
+                        destinations.length,
+                      );
+                      return Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: <Widget>[
+                          for (var i = 0; i < destinations.length; i++)
+                            _NavItem(
+                              key: destinations[i].key,
+                              destination: destinations[i],
+                              selected: i == selectedIndex,
+                              showLabel: showLabel,
+                              onTap: () => onSelected(i),
+                            ),
+                        ],
+                      );
+                    },
+                  ),
                 ),
               ),
             ),
@@ -209,10 +236,13 @@ class _NavItem extends StatelessWidget {
     final theme = Theme.of(context);
     // Both foregrounds are measured against the near-black bar, not against the
     // page, which is why they do not come from the colour scheme.
-    const idle = Color(0xFF93A4AB);
+    const idle = Color(0xFF8A9BA3);
     // The accent, in both themes: the bar is near-black either way, so the
-    // light theme's darkened ember would disappear on it.
+    // light theme's darkened ember would disappear on it. It colours the pill;
+    // the label and icon on top of the pill go white, which is what the
+    // reference does and what keeps them legible on a lit fill.
     const active = AppColors.ember;
+    const onActive = AppGradients.onGradient;
 
     return Semantics(
       selected: selected,
@@ -237,13 +267,31 @@ class _NavItem extends StatelessWidget {
                     : FloatingNavBar._idlePadding,
                 vertical: Spacing.md,
               ),
+              // The lit pill from the reference navigation: a sweep that runs
+              // from almost nothing to the accent at its trailing edge, over a
+              // bloom in the same colour and inside a hairline. A flat tint is
+              // a button; a sweep brighter at one end reads as lit, which is
+              // what makes the current destination look current.
               decoration: BoxDecoration(
-                color: selected
-                    ? active.withValues(alpha: 0.16)
-                    : Colors.transparent,
                 borderRadius: const BorderRadius.all(
                   Radius.circular(Radii.pill),
                 ),
+                gradient: selected
+                    ? LinearGradient(
+                        begin: AlignmentDirectional.centerStart,
+                        end: AlignmentDirectional.centerEnd,
+                        colors: <Color>[
+                          active.withValues(alpha: 0.22),
+                          active.withValues(alpha: 0.72),
+                        ],
+                      )
+                    : null,
+                border: Border.all(
+                  color: selected
+                      ? active.withValues(alpha: 0.32)
+                      : Colors.transparent,
+                ),
+                boxShadow: selected ? Glass.glow(active, strength: 0.55) : null,
               ),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -251,7 +299,7 @@ class _NavItem extends StatelessWidget {
                   Icon(
                     selected ? destination.selectedIcon : destination.icon,
                     size: FloatingNavBar._iconSize,
-                    color: selected ? active : idle,
+                    color: selected ? onActive : idle,
                   ),
                   // The label appears only for the selected destination. Five
                   // labels at once is what forces the icons small enough to stop
@@ -289,7 +337,7 @@ class _NavItem extends StatelessWidget {
                               maxLines: 1,
                               softWrap: false,
                               style: theme.textTheme.labelLarge?.copyWith(
-                                color: active,
+                                color: onActive,
                               ),
                             ),
                           ),

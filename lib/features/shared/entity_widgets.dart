@@ -34,26 +34,31 @@ class TagChip extends StatelessWidget {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
 
+    // Both variants are glass pills. The emphasised one is not a solid block
+    // of the container colour — that was legible but it read as a filled
+    // button sitting among the glass, and a tag is not something to press. It
+    // is tinted, outlined and lettered in the accent instead, which says
+    // "this one matters" without changing what kind of object it is.
     return Container(
       padding: const EdgeInsets.symmetric(
-        horizontal: Spacing.sm,
-        vertical: Spacing.xxs,
+        horizontal: Spacing.md,
+        vertical: Spacing.xs,
       ),
       decoration: BoxDecoration(
         color: emphasised
-            ? scheme.primaryContainer
-            : scheme.surfaceContainerHigh,
-        borderRadius: const BorderRadius.all(Radius.circular(Radii.sm)),
+            ? scheme.primary.withValues(alpha: 0.14)
+            : Glass.fill(context, tint: scheme.surfaceContainerHigh),
+        borderRadius: const BorderRadius.all(Radius.circular(Radii.pill)),
         border: Border.all(
-          color: emphasised ? Colors.transparent : scheme.outlineVariant,
+          color: emphasised
+              ? scheme.primary.withValues(alpha: 0.45)
+              : Glass.border(context),
         ),
       ),
       child: Text(
         label,
         style: theme.textTheme.labelSmall?.copyWith(
-          color: emphasised
-              ? scheme.onPrimaryContainer
-              : scheme.onSurfaceVariant,
+          color: emphasised ? scheme.primary : scheme.onSurfaceVariant,
         ),
       ),
     );

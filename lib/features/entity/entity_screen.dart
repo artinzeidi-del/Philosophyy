@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glow_segments.dart';
 import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
@@ -266,6 +267,14 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                   .colors
                   .first,
               foregroundColor: AppGradients.onGradient,
+              // The title's colour has to be named here as well as on the bar.
+              // `foregroundColor` tints the icons, but the title takes
+              // `titleTextStyle`, and the theme's carries an explicit
+              // `onSurface` — dark ink in light mode, so the entry's name was
+              // near-black on its own coloured masthead.
+              titleTextStyle: theme.textTheme.titleLarge?.copyWith(
+                color: AppGradients.onGradient,
+              ),
               // The title only appears once the reader has scrolled past the
               // real one, so the screen opens with a single heading rather than
               // the same words twice.
@@ -748,17 +757,16 @@ class _DepthSelector extends StatelessWidget {
           ),
         ),
         const SizedBox(height: Spacing.sm),
-        SegmentedButton<ContentDepth>(
-          segments: <ButtonSegment<ContentDepth>>[
+        GlowSegments<ContentDepth>(
+          segments: <GlowSegment<ContentDepth>>[
             for (final candidate in available)
-              ButtonSegment<ContentDepth>(
+              GlowSegment<ContentDepth>(
                 value: candidate,
-                label: Text(TaxonomyLabels.depth(candidate).resolve(language)),
+                label: TaxonomyLabels.depth(candidate).resolve(language),
               ),
           ],
-          selected: <ContentDepth>{depth},
-          showSelectedIcon: false,
-          onSelectionChanged: (selection) => onChanged(selection.first),
+          selected: depth,
+          onChanged: onChanged,
         ),
         if (!article.hasMoreBeyond(depth)) ...<Widget>[
           const SizedBox(height: Spacing.sm),

@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glow_segments.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/responsive.dart';
 import 'package:philosophyy/core/format/date_format.dart';
@@ -286,22 +287,21 @@ class _AxisSwitch extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: Spacing.md),
       child: Align(
         alignment: AlignmentDirectional.centerStart,
-        child: SegmentedButton<_BrowseAxis>(
-          segments: <ButtonSegment<_BrowseAxis>>[
-            ButtonSegment<_BrowseAxis>(
+        child: GlowSegments<_BrowseAxis>(
+          segments: <GlowSegment<_BrowseAxis>>[
+            GlowSegment<_BrowseAxis>(
               value: _BrowseAxis.tradition,
-              label: Text(l10n.browseByTraditionShort),
-              icon: const Icon(Icons.public_outlined, size: 18),
+              label: l10n.browseByTraditionShort,
+              icon: Icons.public_outlined,
             ),
-            ButtonSegment<_BrowseAxis>(
+            GlowSegment<_BrowseAxis>(
               value: _BrowseAxis.branch,
-              label: Text(l10n.browseByBranchShort),
-              icon: const Icon(Icons.account_tree_outlined, size: 18),
+              label: l10n.browseByBranchShort,
+              icon: Icons.account_tree_outlined,
             ),
           ],
-          selected: <_BrowseAxis>{axis},
-          showSelectedIcon: false,
-          onSelectionChanged: (selection) => onChanged(selection.first),
+          selected: axis,
+          onChanged: onChanged,
         ),
       ),
     );
