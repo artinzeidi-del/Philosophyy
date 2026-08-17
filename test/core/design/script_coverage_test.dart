@@ -51,13 +51,55 @@ void main() {
       }
     });
 
-    test('the CJK faces carry the scripts they are bundled for', () {
+    test('the CJK faces carry the characters the content sets in them', () {
       // Guards the specific mistake of wiring up a font that turns out to be
-      // the wrong subset: an SC face with no hanzi, a KR face with no hangul.
+      // the wrong one: an SC face with no hanzi, a JP face with no kana.
+      //
+      // The specimens are drawn from the shipped content rather than from the
+      // script at large, because these faces are subset to it — see
+      // `tool/subset_fonts.py`. Asserting hiragana the corpus never prints
+      // would be asserting that the subsetting had not happened. What the
+      // content does print is checked exhaustively in `font_coverage_test`.
       expect(coverage['NotoSerifSC'], contains('孔'.runes.first));
-      expect(coverage['NotoSerifJP'], contains('あ'.runes.first));
-      expect(coverage['NotoSerifJP'], contains('ア'.runes.first));
-      expect(coverage['NotoSerifKR'], contains('한'.runes.first));
+      // 善の研究 — Nishida, and the corpus's only kana.
+      expect(coverage['NotoSerifJP'], contains('の'.runes.first));
+      // The Korean face carries hanja rather than hangul: the corpus writes
+      // 元曉 and 李滉 in Chinese characters, which Korean draws its own way.
+      expect(coverage['NotoSerifKR'], contains('元'.runes.first));
+      expect(coverage['NotoSerifKR'], contains('曉'.runes.first));
+    });
+
+    test('a name is set in the face its own tradition uses', () {
+      // Han unification gives Chinese, Japanese and Korean one codepoint for
+      // characters they draw differently, which is the whole reason three
+      // faces are bundled. Bundling them achieved nothing on its own: the
+      // fallback chain listed them in a fixed order, so the Chinese face
+      // answered first for every name and 道元 and 元曉 were both set in
+      // Chinese letterforms. Nothing looked broken — a wrong letterform is
+      // still a letterform — which is why it survived so long.
+      List<String> chain(Set<String> traditions) =>
+          AppTypography.nativeNameFallbacks(AppLanguage.en, traditions);
+
+      String firstCjk(List<String> families) => families.firstWhere(
+        (family) => family.startsWith('NotoSerif') && family.length <= 13,
+        orElse: () => 'none',
+      );
+
+      expect(firstCjk(chain(<String>{'japanese'})), 'NotoSerifJP');
+      expect(firstCjk(chain(<String>{'korean'})), 'NotoSerifKR');
+      expect(firstCjk(chain(<String>{'chinese'})), 'NotoSerifSC');
+      // A tradition with no CJK face of its own keeps the default order.
+      expect(firstCjk(chain(<String>{'ancient-greek'})), 'NotoSerifSC');
+
+      // Every face stays reachable: choosing one moves it to the front, it
+      // does not drop the others, or a Japanese page could not print a
+      // Chinese name.
+      for (final traditions in <Set<String>>[
+        <String>{'japanese'},
+        <String>{'korean'},
+      ]) {
+        expect(chain(traditions).toSet(), chain(<String>{}).toSet());
+      }
     });
 
     test('the Devanagari face carries Sanskrit', () {

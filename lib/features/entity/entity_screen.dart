@@ -10,6 +10,7 @@ import 'package:philosophyy/core/design/glow_segments.dart';
 import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
+import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/core/search/text_normalizer.dart';
@@ -1271,6 +1272,14 @@ class _Masthead extends StatelessWidget {
                         style: theme.textTheme.headlineSmall?.copyWith(
                           color: AppGradients.onGradientMuted,
                           fontWeight: FontWeight.w400,
+                          // The entity's own tradition chooses which CJK face
+                          // answers first. Without this every Japanese and
+                          // Korean name was drawn by the Chinese face, which
+                          // is what bundling three of them was meant to avoid.
+                          fontFamilyFallback: AppTypography.nativeNameFallbacks(
+                            language,
+                            entity.traditions,
+                          ),
                         ),
                       ),
                     ],

@@ -180,6 +180,34 @@ abstract final class AppTypography {
           ...cjkFamilies,
         ];
 
+  /// The fallback chain for a name printed in its own script, with the CJK
+  /// face that belongs to [traditions] put first.
+  ///
+  /// Han unification gives Chinese, Japanese and Korean the same codepoint for
+  /// characters they draw differently, which is why three faces are bundled
+  /// rather than one. Bundling them was not enough: [fallbacksFor] lists them
+  /// in a fixed order, so the Chinese face answered first for every name and
+  /// 道元 and 元曉 were both being set in Chinese letterforms — the exact thing
+  /// the three faces exist to prevent. Nothing looked broken, because the
+  /// wrong letterform is still a letterform.
+  ///
+  /// A tradition the corpus does not mark as Japanese or Korean keeps the
+  /// default order, which puts Chinese first — correct for Chinese names, and
+  /// the only defensible guess for a character arriving from anywhere else.
+  static List<String> nativeNameFallbacks(
+    AppLanguage language,
+    Set<String> traditions,
+  ) {
+    final preferred = traditions.contains('japanese')
+        ? japaneseFamily
+        : traditions.contains('korean')
+        ? koreanFamily
+        : null;
+    final base = fallbacksFor(language);
+    if (preferred == null) return base;
+    return <String>[preferred, ...base.where((family) => family != preferred)];
+  }
+
   static double _size(AppLanguage language, double base) =>
       language == AppLanguage.fa ? base * persianSizeFactor : base;
 
