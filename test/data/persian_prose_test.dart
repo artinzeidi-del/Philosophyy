@@ -124,6 +124,33 @@ void main() {
     });
   });
 
+  group('Script', () {
+    test('no Persian word has Latin letters inside it', () {
+      // A word that is half Persian and half Latin is not a loanword and not a
+      // transliteration; it is a slip made while typing in two scripts. It
+      // renders as a broken word whose halves run in opposite directions, and
+      // it survives every other check here because both halves are legal.
+      //
+      // Written after «برauwer» — Brouwer's name, half typed and half not —
+      // shipped in an article and was found by grep rather than by the suite.
+      final offences = <String>[
+        for (final entry in strings)
+          for (final match in RegExp(
+            r'[\u0600-\u06FF]+[A-Za-z]+|[A-Za-z]+[\u0600-\u06FF]+',
+          ).allMatches(entry.text))
+            '${entry.file} ${entry.path}: "${match.group(0)}"',
+      ];
+
+      expect(
+        offences,
+        isEmpty,
+        reason:
+            'a word is written in two scripts at once:\n  '
+            '${offences.join('\n  ')}',
+      );
+    });
+  });
+
   group('Register', () {
     test('plain words are used where a plain word exists', () {
       // Not a ban on difficult ideas — a ban on making an ordinary idea sound
