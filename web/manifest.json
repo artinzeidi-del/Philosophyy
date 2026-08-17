@@ -1,11 +1,11 @@
 {
-    "name": "philosophyy",
-    "short_name": "philosophyy",
+    "name": "Philosophia",
+    "short_name": "Philosophia",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#FBF2ED",
+    "theme_color": "#FBF2ED",
+    "description": "A bilingual reference work for world philosophy \u2014 philosophers, ideas, works and schools, in Persian and English.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

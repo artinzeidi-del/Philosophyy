@@ -1,0 +1,35 @@
+<!--
+  The product mark.
+
+  This file is the single source for every launcher icon on every platform;
+  `python3 tool/make_icons.py` renders it into the Android mipmaps, the iOS
+  AppIcon set and the web icons. Editing an icon by hand is how a product ends
+  up with five slightly different marks, so nothing downstream is hand-edited.
+
+  Geometry notes, because the pieces have to stay in register:
+  - The canvas is 1024 square and the mark is centred on x=512.
+  - The bowl is a true semicircle (r=126, from y=252 to y=504), so its height
+    is fixed by its radius. Changing one without the other dents it.
+  - The stem's rounded bottom and the ring's inner circle overlap on purpose;
+    they are the same colour and read as one shape flowing into the ring.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#F5EDE1"/>
+
+  <!-- The point above the letter. -->
+  <rect x="481" y="144" width="64" height="64" rx="4"
+        transform="rotate(45 513 176)" fill="#8A7247"/>
+
+  <!-- The tail sweeping out of the ring to the left. -->
+  <path d="M 231 583 C 247 668, 318 702, 402 700"
+        stroke="#C1A882" stroke-width="58" fill="none" stroke-linecap="round"/>
+
+  <!-- The ring the stem descends into. -->
+  <circle cx="521" cy="660" r="140" fill="#C1A882"/>
+
+  <!-- The bowl, then the stem over it, then the ring's eye: three shapes in
+       one colour whose union is the letter. -->
+  <path d="M 520 252 H 628 A 126 126 0 0 1 628 504 H 520 Z" fill="#FCF9F1"/>
+  <rect x="470" y="252" width="99" height="392" rx="49.5" fill="#FCF9F1"/>
+  <circle cx="521" cy="660" r="64" fill="#FCF9F1"/>
+</svg>
