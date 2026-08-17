@@ -258,12 +258,18 @@ class _TermCardState extends State<_TermCard> {
                   // whose Persian reader cannot see the English word is only
                   // half a glossary: the English is what they will meet in a
                   // paper or a search box.
-                  Text(
-                    language == AppLanguage.fa
-                        ? term.term.en
-                        : term.term.fa ?? '',
-                    style: theme.textTheme.labelMedium?.copyWith(
-                      color: theme.colorScheme.onSurfaceVariant,
+                  // Flexible: at 1.5x a Persian term and its English beside it
+                  // ran 46 pixels off the card, and the second word had no
+                  // flex to give.
+                  Flexible(
+                    child: Text(
+                      language == AppLanguage.fa
+                          ? term.term.en
+                          : term.term.fa ?? '',
+                      textAlign: TextAlign.end,
+                      style: theme.textTheme.labelMedium?.copyWith(
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
                     ),
                   ),
                 ],

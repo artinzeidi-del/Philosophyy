@@ -427,12 +427,6 @@ class _CardSliver extends StatelessWidget {
   final int count;
   final Widget Function(BuildContext, int) builder;
 
-  /// How tall a card is in the grid.
-  ///
-  /// Fixed, because a grid row is only as tidy as its shortest card; the
-  /// summary is clamped to match. In a list nothing is clamped.
-  static const double _gridCardHeight = 220;
-
   @override
   Widget build(BuildContext context) {
     final columns = ResponsiveLayout.columnsFor(context);
@@ -462,7 +456,7 @@ class _CardSliver extends StatelessWidget {
           crossAxisCount: columns,
           mainAxisSpacing: Spacing.md,
           crossAxisSpacing: Spacing.md,
-          mainAxisExtent: _gridCardHeight,
+          mainAxisExtent: EntityCard.gridExtent(context),
         ),
         itemCount: count,
         itemBuilder: (context, index) =>

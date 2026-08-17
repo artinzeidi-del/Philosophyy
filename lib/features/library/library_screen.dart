@@ -291,8 +291,9 @@ class _HighlightCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final entity = corpus.resolve(highlight.target);
-    final title = entity?.name.resolve(language) ?? highlight.target.id;
+    final title =
+        corpus.nameOf(highlight.target)?.resolve(language) ??
+        highlight.target.id;
 
     return PressableSurface(
       onTap: () => context.push(highlight.target.route),
@@ -395,8 +396,8 @@ class _NoteCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final l10n = AppL10n.of(context);
-    final entity = corpus.resolve(note.target);
-    final title = entity?.name.resolve(language) ?? note.target.id;
+    final title =
+        corpus.nameOf(note.target)?.resolve(language) ?? note.target.id;
 
     return PressableSurface(
       onTap: () => context.push(note.target.route),

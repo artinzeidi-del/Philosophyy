@@ -382,10 +382,6 @@ class _EntryGrid extends StatelessWidget {
   final int columns;
   final AppLanguage language;
 
-  /// Matches the grid on the explore screen, so a card is the same object in
-  /// both places rather than nearly the same.
-  static const double _cardHeight = 220;
-
   @override
   Widget build(BuildContext context) {
     final l10n = AppL10n.of(context);
@@ -419,7 +415,7 @@ class _EntryGrid extends StatelessWidget {
         crossAxisCount: columns,
         mainAxisSpacing: Spacing.md,
         crossAxisSpacing: Spacing.md,
-        mainAxisExtent: _cardHeight,
+        mainAxisExtent: EntityCard.gridExtent(context),
       ),
       itemCount: philosophers.length,
       itemBuilder: (context, index) => card(philosophers[index], index),
@@ -485,11 +481,16 @@ class _DailyQuoteHero extends StatelessWidget {
                       color: AppGradients.onGradientMuted,
                     ),
                     const SizedBox(width: Spacing.sm),
-                    Text(
-                      label,
-                      style: theme.textTheme.labelMedium?.copyWith(
-                        color: AppGradients.onGradientMuted,
-                        letterSpacing: 0.6,
+                    // Flexible, because a caption beside an icon is still text
+                    // and text grows: at 1.5x on a 320-wide phone this row ran
+                    // 34 pixels off the card.
+                    Flexible(
+                      child: Text(
+                        label,
+                        style: theme.textTheme.labelMedium?.copyWith(
+                          color: AppGradients.onGradientMuted,
+                          letterSpacing: 0.6,
+                        ),
                       ),
                     ),
                   ],

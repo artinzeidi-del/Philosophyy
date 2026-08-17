@@ -46,50 +46,81 @@ class ErrorView extends StatelessWidget {
     final l10n = AppL10n.of(context);
     final theme = Theme.of(context);
 
-    return Center(
-      child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: Breakpoints.readingMeasure),
-        child: Padding(
-          padding: const EdgeInsets.all(Spacing.xl),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Text(l10n.errorTitle, style: theme.textTheme.headlineSmall),
-              const SizedBox(height: Spacing.md),
-              Text(
-                l10n.errorBody,
-                style: theme.textTheme.bodyMedium?.copyWith(
-                  color: theme.colorScheme.onSurfaceVariant,
+    return _CentredMessage(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(l10n.errorTitle, style: theme.textTheme.headlineSmall),
+          const SizedBox(height: Spacing.md),
+          Text(
+            l10n.errorBody,
+            style: theme.textTheme.bodyMedium?.copyWith(
+              color: theme.colorScheme.onSurfaceVariant,
+            ),
+          ),
+          if (details != null) ...<Widget>[
+            const SizedBox(height: Spacing.lg),
+            _DebugOnly(
+              child: Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(Spacing.md),
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.surfaceContainerHigh,
+                  borderRadius: Radii.cardRadius,
                 ),
-              ),
-              if (details != null) ...<Widget>[
-                const SizedBox(height: Spacing.lg),
-                _DebugOnly(
-                  child: Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.all(Spacing.md),
-                    decoration: BoxDecoration(
-                      color: theme.colorScheme.surfaceContainerHigh,
-                      borderRadius: Radii.cardRadius,
-                    ),
-                    child: Text(
-                      details!,
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        fontFamily: 'monospace',
-                      ),
-                    ),
+                child: Text(
+                  details!,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    fontFamily: 'monospace',
                   ),
                 ),
-              ],
-              const SizedBox(height: Spacing.xl),
-              FilledButton(onPressed: onRetry, child: Text(l10n.retry)),
-            ],
-          ),
-        ),
+              ),
+            ),
+          ],
+          const SizedBox(height: Spacing.xl),
+          FilledButton(onPressed: onRetry, child: Text(l10n.retry)),
+        ],
       ),
     );
   }
+}
+
+/// A short message held in the middle of whatever space it is given.
+///
+/// Centred when there is room to centre it, and scrollable when there is not.
+/// A heading, a paragraph and a button fit any phone at the default text size
+/// and do not fit a 320-wide phone at 1.5x, where the empty state overflowed by
+/// 315 pixels — most of the message. A reader who has turned text size up is
+/// exactly the reader who cannot afford to lose it.
+class _CentredMessage extends StatelessWidget {
+  const _CentredMessage({required this.child});
+
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) => LayoutBuilder(
+    builder: (context, constraints) => SingleChildScrollView(
+      child: ConstrainedBox(
+        // Tall enough to centre in, when the height is known. Inside another
+        // scroll view it is not, and asking for it there is meaningless.
+        constraints: BoxConstraints(
+          minHeight: constraints.maxHeight.isFinite ? constraints.maxHeight : 0,
+        ),
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              maxWidth: Breakpoints.readingMeasure,
+            ),
+            child: Padding(
+              padding: const EdgeInsets.all(Spacing.xl),
+              child: child,
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
 }
 
 /// Renders its child only in debug builds.
@@ -138,53 +169,47 @@ class EmptyView extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    return Center(
-      child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: Breakpoints.readingMeasure),
-        child: Padding(
-          padding: const EdgeInsets.all(Spacing.xl),
-          // Centred, not left-aligned. An empty state is the whole screen,
-          // and a short heading pinned to the left edge of a blank page reads
-          // as content that failed to load rather than as a considered state.
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              if (icon != null) ...<Widget>[
-                Container(
-                  padding: const EdgeInsets.all(Spacing.lg),
-                  decoration: BoxDecoration(
-                    color: theme.colorScheme.surfaceContainer,
-                    shape: BoxShape.circle,
-                  ),
-                  child: Icon(
-                    icon,
-                    size: 32,
-                    color: theme.colorScheme.onSurfaceVariant,
-                  ),
-                ),
-                const SizedBox(height: Spacing.lg),
-              ],
-              Text(
-                title,
-                style: theme.textTheme.titleLarge,
-                textAlign: TextAlign.center,
+    return _CentredMessage(
+      // Centred, not left-aligned. An empty state is the whole screen, and a
+      // short heading pinned to the left edge of a blank page reads as content
+      // that failed to load rather than as a considered state.
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          if (icon != null) ...<Widget>[
+            Container(
+              padding: const EdgeInsets.all(Spacing.lg),
+              decoration: BoxDecoration(
+                color: theme.colorScheme.surfaceContainer,
+                shape: BoxShape.circle,
               ),
-              const SizedBox(height: Spacing.sm),
-              Text(
-                body,
-                textAlign: TextAlign.center,
-                style: theme.textTheme.bodyMedium?.copyWith(
-                  color: theme.colorScheme.onSurfaceVariant,
-                ),
+              child: Icon(
+                icon,
+                size: 32,
+                color: theme.colorScheme.onSurfaceVariant,
               ),
-              if (action != null) ...<Widget>[
-                const SizedBox(height: Spacing.xl),
-                action!,
-              ],
-            ],
+            ),
+            const SizedBox(height: Spacing.lg),
+          ],
+          Text(
+            title,
+            style: theme.textTheme.titleLarge,
+            textAlign: TextAlign.center,
           ),
-        ),
+          const SizedBox(height: Spacing.sm),
+          Text(
+            body,
+            textAlign: TextAlign.center,
+            style: theme.textTheme.bodyMedium?.copyWith(
+              color: theme.colorScheme.onSurfaceVariant,
+            ),
+          ),
+          if (action != null) ...<Widget>[
+            const SizedBox(height: Spacing.xl),
+            action!,
+          ],
+        ],
       ),
     );
   }

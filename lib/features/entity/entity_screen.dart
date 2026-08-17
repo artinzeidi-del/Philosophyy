@@ -810,7 +810,15 @@ class _ConnectionsSection extends StatelessWidget {
             builder: (context) {
               final other = corpus.resolve(relation.object);
               final label = TaxonomyLabels.relation(relation).resolve(language);
-              final name = other?.name.resolve(language) ?? relation.object.id;
+              // Named through the corpus rather than through `other`: a
+              // relation can point at a quotation, an argument or a source,
+              // and those have no page — `other` is null for all three. Using
+              // it for the name as well as for the link printed the identifier
+              // where the name belongs, so Kant's page read "criticised
+              // contingency-argument".
+              final name =
+                  corpus.nameOf(relation.object)?.resolve(language) ??
+                  relation.object.id;
               final note = relation.note;
 
               return Padding(

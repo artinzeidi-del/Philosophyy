@@ -14,6 +14,7 @@ import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
+import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
 /// The whole corpus, in memory, with the graph indexed for traversal.
@@ -222,6 +223,26 @@ class KnowledgeBase {
     EntityKind.argument => null,
     EntityKind.quote => null,
     EntityKind.source => null,
+  };
+
+  /// What to call [ref] in running text, whatever kind it is.
+  ///
+  /// [resolve] answers only for the four kinds that have a page, which is right
+  /// for deciding whether a card can be tapped and wrong for deciding what it
+  /// says. Kant's page carries a relation to Avicenna's contingency argument;
+  /// the connection card asked [resolve] for a name, got nothing, and fell back
+  /// to the identifier, so a reader was shown "criticised contingency-argument".
+  ///
+  /// A quotation has no title, so it is named by its own words — a connection
+  /// to a quotation should read as the quotation.
+  LocalizedText? nameOf(EntityRef ref) => switch (ref.kind) {
+    EntityKind.philosopher ||
+    EntityKind.concept ||
+    EntityKind.work ||
+    EntityKind.school => resolve(ref)?.name,
+    EntityKind.argument => argument(ref.id)?.name,
+    EntityKind.quote => quote(ref.id)?.text,
+    EntityKind.source => source(ref.id)?.title,
   };
 
   /// Whether [ref] points at something that exists.

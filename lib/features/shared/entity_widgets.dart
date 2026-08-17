@@ -81,13 +81,23 @@ class SectionHeader extends StatelessWidget {
     final theme = Theme.of(context);
     return Padding(
       padding: const EdgeInsets.only(bottom: Spacing.md),
-      child: Row(
+      // A `Wrap` rather than a `Row`, because the two are not always going to
+      // fit on one line. `Expanded` protects the heading from a wide trailing
+      // control and does nothing for the control itself: at 1.5x text the
+      // "Surprise me" button overflowed the row by 84 pixels, and no amount of
+      // flex on the other child can make a button narrower than its label.
+      //
+      // On one run `spaceBetween` puts the heading at the start and the control
+      // at the end, which is the row this replaces. When they no longer fit,
+      // the control drops to its own line instead of off the screen.
+      child: Wrap(
+        alignment: WrapAlignment.spaceBetween,
+        crossAxisAlignment: WrapCrossAlignment.center,
+        runSpacing: Spacing.sm,
         children: <Widget>[
-          Expanded(
-            child: Semantics(
-              header: true,
-              child: Text(title, style: theme.textTheme.titleMedium),
-            ),
+          Semantics(
+            header: true,
+            child: Text(title, style: theme.textTheme.titleMedium),
           ),
           ?trailing,
         ],
@@ -146,6 +156,23 @@ class EntityCard extends StatelessWidget {
   /// Null in a list, where a card may be as tall as its text; set in a grid,
   /// where a ragged row of different-height cards reads as a mistake.
   final int? maxSummaryLines;
+
+  /// How tall this card is when it is laid out in a grid.
+  ///
+  /// A grid row is only as tidy as its shortest card, so the height is fixed
+  /// and the summary is clamped to match. Fixed in *logical* pixels was the
+  /// mistake: the card's header is text, and at 1.5x the name and dates alone
+  /// were taller than the 220 the grid allowed, so the card overflowed by 36
+  /// pixels however far the summary shrank.
+  ///
+  /// Scaling the extent by the same factor the text scales by is the only
+  /// version of this number that cannot be right at one setting and wrong at
+  /// another. The padding does not need to grow with it, which is why the
+  /// result has room to spare at 1.0 rather than being tight everywhere.
+  static double gridExtent(BuildContext context) =>
+      MediaQuery.textScalerOf(context).scale(_gridExtent);
+
+  static const double _gridExtent = 220;
 
   @override
   Widget build(BuildContext context) {
@@ -323,9 +350,14 @@ class AttributionBadge extends StatelessWidget {
                 color: colour,
               ),
               const SizedBox(width: Spacing.xs),
-              Text(
-                label,
-                style: theme.textTheme.labelSmall?.copyWith(color: colour),
+              // The badge sizes to its label, and the label is text: «محتمل»
+              // at 1.5x ran the badge 21 pixels past the card. Flexible lets
+              // it wrap inside the pill instead of pushing the pill outward.
+              Flexible(
+                child: Text(
+                  label,
+                  style: theme.textTheme.labelSmall?.copyWith(color: colour),
+                ),
               ),
             ],
           ),
@@ -1078,16 +1110,21 @@ class QuoteCard extends StatelessWidget {
                   ).copyWith(color: semantic.onQuoteSurface),
                 ),
                 const SizedBox(height: Spacing.md),
-                Row(
+                // A `Wrap`, because the badge beside the name cannot shrink:
+                // it is a word in a pill, and `Expanded` on the name only
+                // moves the problem. At 1.5x the two ran 27 pixels past the
+                // card's edge, and on one run this is the same row.
+                Wrap(
+                  alignment: WrapAlignment.spaceBetween,
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  runSpacing: Spacing.sm,
                   children: <Widget>[
-                    Expanded(
-                      child: GestureDetector(
-                        onTap: onTapSpeaker,
-                        child: Text(
-                          '— $speakerName',
-                          style: theme.textTheme.labelMedium?.copyWith(
-                            color: semantic.onQuoteSurface,
-                          ),
+                    GestureDetector(
+                      onTap: onTapSpeaker,
+                      child: Text(
+                        '— $speakerName',
+                        style: theme.textTheme.labelMedium?.copyWith(
+                          color: semantic.onQuoteSurface,
                         ),
                       ),
                     ),
