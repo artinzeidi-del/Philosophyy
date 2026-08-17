@@ -14,7 +14,12 @@
       },
       "composed": { "start": { "year": -380, "precision": "circa" } },
       "traditions": ["ancient-greek"],
-      "branches": ["political-philosophy", "ethics", "metaphysics", "epistemology"],
+      "branches": [
+        "political-philosophy",
+        "ethics",
+        "metaphysics",
+        "epistemology"
+      ],
       "article": {
         "sections": [
           {
@@ -24,7 +29,9 @@
               "en": "The question that opens the dialogue is whether it pays to be just. To answer it Socrates proposes building a city in speech, on the grounds that justice will be easier to see written large. The detour occupies most of the book, and the city is never quite left behind — which is why readers still argue about whether the political content was ever the point.",
               "fa": "پرسشی که گفت‌وگو را می‌گشاید این است که آیا عادل‌بودن به‌صرفه است. سقراط برای پاسخ پیشنهاد می‌کند شهری در گفتار بنا کنند، به این دلیل که دیدن عدالت در مقیاس بزرگ آسان‌تر است. همین انحراف بیشتر کتاب را می‌گیرد، و شهر هرگز به‌تمامی رها نمی‌شود؛ و به همین سبب است که خوانندگان هنوز بر سر اینکه آیا محتوای سیاسی اصلاً مقصود بوده یا نه بحث می‌کنند."
             },
-            "citations": [{ "source": "plato-republic", "locator": "368d–369a" }]
+            "citations": [
+              { "source": "plato-republic", "locator": "368d–369a" }
+            ]
           }
         ]
       },
@@ -67,7 +74,27 @@
       "branches": ["ethics", "epistemology"],
       "concepts": ["socratic-method"],
       "editions": ["plato-apology", "perseus"],
-      "citations": [{ "source": "plato-apology" }, { "source": "sep" }]
+      "citations": [{ "source": "plato-apology" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Socrates is on trial for corrupting the young and not believing in the city's gods. He does not plead. He explains why he has lived as he has, tells the jury that a good man cannot be harmed by a worse one, and is condemned by a narrow margin — then makes matters worse by proposing that his penalty should be free meals at public expense.",
+              "fa": "سقراط به گمراه‌کردن جوانان و بی‌اعتقادی به خدایان شهر متهم است. التماس نمی‌کند. توضیح می‌دهد چرا چنین زیسته، به هیئت داوران می‌گوید مرد نیک را مردِ بدتر نمی‌تواند بیازارد، و با اختلافی اندک محکوم می‌شود — و بعد اوضاع را بدتر می‌کند و پیشنهاد می‌دهد که کیفرش خوراک رایگان به هزینهٔ دولت باشد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The speech turns on an oracle. The god at Delphi said no one was wiser than Socrates, and Socrates, certain he knew nothing, spent years trying to refute it — questioning politicians, poets and craftsmen and finding that each knew his own trade and imagined that qualified him about everything else. He concludes that the oracle meant something narrow: he alone does not think he knows what he does not.\n\nThat is the defence, and it is also the offence. He is telling a jury of exactly those men why they are unqualified. The famous line — that the unexamined life is not worth living for a human being — is not a maxim about self-improvement; it is his answer to the offer of exile on condition that he stop philosophising, which is to say his reason for choosing to die. Whether Plato is reporting or composing is the oldest open question in Socratic scholarship.",
+              "fa": "این سخنرانی بر یک پیشگویی می‌چرخد. خدای دلفی گفته بود کسی از سقراط داناتر نیست، و سقراط که یقین داشت چیزی نمی‌داند سال‌ها کوشید ردّش کند — از سیاستمداران و شاعران و پیشه‌وران پرسید و دید هر یک کار خود را می‌داند و می‌پندارد همین او را در باقی چیزها هم صاحب‌نظر می‌کند. نتیجه گرفت که پیشگویی چیز باریکی می‌گفت: تنها اوست که نمی‌پندارد آنچه را نمی‌داند می‌داند.\n\nاین دفاع است، و همان حمله هم هست. او به هیئتی از دقیقاً همان مردان می‌گوید چرا صلاحیت ندارند. آن جملهٔ مشهور — که زندگیِ نیازموده برای آدمی ارزش زیستن ندارد — اندرزی دربارهٔ خودسازی نیست؛ پاسخ اوست به پیشنهاد تبعید به شرط ترک فلسفه، یعنی دلیلِ اینکه مرگ را برگزید. اینکه افلاطون گزارش می‌کند یا می‌سازد، کهن‌ترین پرسشِ گشودهٔ سقراط‌پژوهی است."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "nicomachean-ethics",
@@ -87,7 +114,27 @@
       "citations": [
         { "source": "aristotle-nicomachean-ethics" },
         { "source": "sep" }
-      ]
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aristotle asks what a human life is for, and answers: eudaimonia — living and doing well, which is not a feeling but an activity. Virtues are settled dispositions, learned the way crafts are learned, by doing the thing until it becomes what you are. Courage is not knowing about courage; it is what you do when frightened.",
+              "fa": "ارسطو می‌پرسد زندگی آدمی برای چیست، و پاسخ می‌دهد: «اِئودایمونیا» — نیک زیستن و نیک کردن، که حالتی احساسی نیست بلکه فعالیتی است. فضایل خوی‌های پایدارند و همان‌گونه آموخته می‌شوند که پیشه‌ها آموخته می‌شوند، با انجام‌دادن تا وقتی که همان بشوی که هستی. شجاعت، دانستنِ دربارهٔ شجاعت نیست؛ آن است که در ترس چه می‌کنی."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The famous doctrine of the mean is more careful than its reputation. It is not moderation in all things, and Aristotle says so: some acts admit of no mean, and the right amount of anger at a real injustice may be a great deal. The mean is relative to the person and the situation, and there is no formula for it. What identifies it is the judgement of a person of practical wisdom — which looks circular and is meant to. Ethics on this account is not a body of rules that could be applied by someone who lacked the character to see the case rightly.\n\nThe book ends somewhere its own argument does not obviously go. Having spent nine books on a social, active, political life, Aristotle argues in the tenth that the highest happiness is contemplation, because it is the activity of the best part of us and needs the least. Readers have been arguing about whether this contradicts the rest for two thousand years.",
+              "fa": "آموزهٔ مشهورِ «حد وسط» دقیق‌تر از آوازه‌اش است. میانه‌روی در همه‌چیز نیست، و ارسطو خودش این را می‌گوید: برخی کارها حد وسط ندارند، و مقدار درستِ خشم در برابر بی‌عدالتیِ واقعی می‌تواند بسیار باشد. حد وسط نسبت به شخص و موقعیت است، و فرمولی برایش نیست. آنچه آن را بازمی‌شناسد داوریِ انسانِ صاحبِ حکمت عملی است — که دوری می‌نماید و عمداً چنین است. اخلاق در این روایت مجموعه‌ای از قواعد نیست که کسی بی‌بهره از منشِ لازم برای درست‌دیدنِ مورد بتواند به کارشان بندد.\n\nکتاب جایی پایان می‌یابد که استدلال خودش آشکارا به آن نمی‌رود. پس از نُه کتاب دربارهٔ زندگیِ اجتماعی و فعال و سیاسی، ارسطو در کتاب دهم می‌گوید بالاترین سعادت تأمل است، چون فعالیتِ بهترین بخشِ ماست و کمترین نیاز را دارد. خوانندگان دو هزار سال است بر سر اینکه آیا این با باقیِ کتاب ناسازگار است بحث می‌کنند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "enchiridion",
@@ -105,12 +152,35 @@
       "branches": ["ethics"],
       "concepts": ["dichotomy-of-control"],
       "editions": ["epictetus-enchiridion", "epictetus-discourses"],
-      "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }]
+      "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Fifty-three short chapters, compiled by a student from Epictetus' lectures. It opens with the division that carries the whole of Stoicism — some things are up to us and some are not — and then applies it, bluntly and without consolation, to illness, loss, insult and death.",
+              "fa": "پنجاه‌وسه فصل کوتاه، که شاگردی از درس‌های اپیکتتوس گرد آورده. با همان تقسیمی آغاز می‌شود که تمام رواقی‌گری را نگه می‌دارد — برخی چیزها در اختیار ماست و برخی نه — و بعد آن را بی‌پرده و بی‌تسلی بر بیماری و فقدان و اهانت و مرگ به کار می‌بندد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Epictetus had been enslaved, and the book reads like it. Its examples are a broken cup, a delayed ship, a child who dies, a person who insults you in the street — and the advice is never that these do not matter, only that your judgement about them is the part you hold. 'People are disturbed not by things, but by the views they take of them' is chapter five, and everything else is a way of making that operational.\n\nThe handbook is short because it is meant to be carried and re-read, not studied. That is also its limitation: stripped of the physics that made sense of it — the claim that the world is a single rational order you belong to — the advice can read as instruction in not caring. Epictetus was teaching something else. He thought you should love your child in full knowledge that the child is mortal, and that pretending otherwise is what makes the loss unbearable.",
+              "fa": "اپیکتتوس برده بوده، و کتاب همان‌طور خوانده می‌شود. مثال‌هایش کوزهٔ شکسته است، کشتیِ دیرکرده، کودکی که می‌میرد، کسی که در کوچه به تو اهانت می‌کند — و اندرز هرگز این نیست که این‌ها اهمیت ندارند، تنها این است که داوری تو دربارهٔ آن‌ها همان بخشی است که در دست توست. «مردم را چیزها نمی‌آشوبند، بلکه نظرهایی که دربارهٔ آن‌ها دارند» فصل پنجم است، و باقی کتاب راه‌هایی است برای عملی‌کردن همین.\n\nاین دستنامه کوتاه است چون قرار بوده همراه برده و بارها خوانده شود، نه اینکه بر آن درس بخوانند. همین محدودیتش هم هست: جدا از آن طبیعیاتی که معنایش می‌داد — این ادعا که جهان نظمی عقلانیِ یگانه است و تو به آن تعلق داری — اندرز می‌تواند چون آموزشِ بی‌اعتنایی خوانده شود. اپیکتتوس چیز دیگری می‌آموخت. می‌پنداشت باید فرزندت را با آگاهیِ کامل از میرایی‌اش دوست بداری، و وانمود به خلاف آن است که فقدان را تحمل‌ناپذیر می‌کند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "isharat",
-      "title": { "en": "Pointers and Reminders", "fa": "اشارات و تنبیهات",
-        "ar": "الإشارات والتنبيهات" },
+      "title": {
+        "en": "Pointers and Reminders",
+        "fa": "اشارات و تنبیهات",
+        "ar": "الإشارات والتنبيهات"
+      },
       "originalTitle": "الإشارات و التنبیهات",
       "transliteration": "al-Ishārāt wa-l-Tanbīhāt",
       "author": "ibn-sina",
@@ -123,7 +193,27 @@
       "branches": ["metaphysics", "logic", "epistemology"],
       "concepts": ["essence-existence-distinction"],
       "editions": ["avicenna-isharat"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ibn Sīnā's last major work, and his most compressed: logic, physics and metaphysics set down in pointers rather than expositions, ending with chapters on the stations of the mystics. He said he was writing for readers who did not need everything spelled out.",
+              "fa": "آخرین اثر بزرگ ابن‌سینا، و فشرده‌ترینشان: منطق و طبیعیات و الهیات، نه به صورت شرح که به صورت «اشارات»، و در پایان فصل‌هایی دربارهٔ مقامات عارفان. خودش گفت برای خوانندگانی می‌نویسد که نیازی به گفتن همه‌چیز ندارند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The metaphysics turns on a distinction he made permanent: between what a thing is and that it is. A triangle's nature tells you everything about triangles and nothing about whether any exist; existence is therefore something additional. Run that back through every existing thing and you reach something whose essence is its existence, which cannot fail to be — the necessary existent. This is the argument from contingency, and it entered Latin philosophy through translation and entered Jewish philosophy through Maimonides.\n\nThe last three chapters are the reason the book was read for nine centuries. Having built a demonstrative philosophy, Ibn Sīnā describes the mystic's path in the same voice, treating it as knowledge rather than as an alternative to it. Al-Ghazālī attacked the metaphysics in The Incoherence of the Philosophers; Ṭūsī defended it two centuries later in a commentary that is still printed alongside the text.",
+              "fa": "الهیاتِ آن بر تمایزی می‌چرخد که او همیشگی‌اش کرد: میان اینکه چیزی چیست و اینکه هست. سرشتِ مثلث همه‌چیز را دربارهٔ مثلث‌ها می‌گوید و هیچ نمی‌گوید که آیا مثلثی هست؛ پس وجود چیزی افزوده است. همین را در هر موجودی به عقب ببر تا به چیزی برسی که ماهیتش همان وجود اوست و نمی‌تواند نباشد — واجب‌الوجود. این همان برهان امکان است، که از راه ترجمه به فلسفهٔ لاتین رفت و از راه ابن‌میمون به فلسفهٔ یهودی.\n\nسه فصل پایانی سبب آن است که این کتاب نُه قرن خوانده شد. ابن‌سینا پس از ساختن فلسفه‌ای برهانی، راه عارف را با همان لحن وصف می‌کند و آن را معرفت می‌شمارد نه بدیلی برای معرفت. غزالی در «تهافت الفلاسفه» به این الهیات تاخت؛ خواجه نصیر دو قرن بعد در شرحی از آن دفاع کرد که هنوز در کنار متن چاپ می‌شود."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "tahafut",
@@ -143,7 +233,27 @@
       "traditions": ["islamic", "persian"],
       "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
       "editions": ["ghazali-tahafut", "ghazali-munqidh"],
-      "citations": [{ "source": "ghazali-tahafut" }, { "source": "sep" }]
+      "citations": [{ "source": "ghazali-tahafut" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Al-Ghazālī takes twenty philosophical theses — mostly Ibn Sīnā's — and argues that the philosophers have not demonstrated any of them. His target is not the conclusions so much as the claim to have proved them: they are asserting on authority what they present as necessity.",
+              "fa": "غزالی بیست گزارهٔ فلسفی را برمی‌گیرد — بیشترشان از ابن‌سینا — و استدلال می‌کند که فیلسوفان هیچ‌یک را اثبات نکرده‌اند. هدفش نه چندان خودِ نتایج، که ادعای اثبات آن‌هاست: چیزی را که ضرورت می‌نمایانند، در واقع بر پایهٔ اقتدار می‌گویند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The seventeenth discussion is the one philosophers still teach. Al-Ghazālī points out that we never observe necessity between cause and effect, only that one thing follows another — fire is applied and cotton burns, and the burning is not seen to be compelled. Since God could produce the effect without the usual cause, the connection is habitual rather than necessary. Hume made the same observation seven centuries later without knowing of it, and drew a different conclusion.\n\nThe book is often blamed for ending philosophy in Islam, which is not what happened: Ibn Rushd answered it point by point in The Incoherence of the Incoherence, and Persian philosophy went on to Suhrawardī, Ṭūsī and Mullā Ṣadrā. What did change is that the burden shifted. After al-Ghazālī, a philosopher writing in Arabic had to say what kind of certainty he was claiming, which is a harder discipline than the one he interrupted.",
+              "fa": "بحث هفدهم همان است که فیلسوفان هنوز درسش می‌دهند. غزالی یادآور می‌شود که ما هرگز ضرورتِ میان علت و معلول را مشاهده نمی‌کنیم، تنها می‌بینیم که چیزی از پیِ چیزی می‌آید — آتش می‌رسد و پنبه می‌سوزد، و اجبارِ سوختن دیده نمی‌شود. چون خدا می‌تواند معلول را بی‌علتِ معهود پدید آورد، این پیوند عادی است نه ضروری. هیوم هفت قرن بعد بی‌خبر از این، همان مشاهده را کرد و نتیجهٔ دیگری گرفت.\n\nاین کتاب را بارها متهم کرده‌اند که فلسفه را در اسلام پایان داد، و چنین نشد: ابن‌رشد در «تهافت التهافت» بند به بند پاسخش داد، و فلسفهٔ ایرانی به سهروردی و خواجه نصیر و ملاصدرا رسید. آنچه تغییر کرد این بود که بار جابه‌جا شد. پس از غزالی، فیلسوفی که به عربی می‌نوشت باید می‌گفت چه نوع یقینی ادعا می‌کند، و این انضباطی سخت‌تر از همانی است که او قطعش کرد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "asfar",
@@ -160,7 +270,27 @@
       "branches": ["metaphysics", "philosophy-of-religion"],
       "concepts": ["substantial-motion", "essence-existence-distinction"],
       "editions": ["sadra-asfar"],
-      "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
+      "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mullā Ṣadrā's summa, arranged as four journeys: from the creature to God, in God, from God back to the creature, and among creatures with God. The structure is borrowed from Sufi practice and used to organise metaphysics, which is the book's argument in miniature.",
+              "fa": "جامعِ ملاصدرا، سامان‌یافته در چهار سفر: از خلق به حق، در حق، از حق به خلق، و در خلق با حق. این ساختار را از سلوک عرفانی گرفته و برای سامان‌دادن به الهیات به کار برده، و همین استدلالِ کتاب در کوچک‌ترین صورتش است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Two theses do the work. The first is the primacy of existence: Ibn Sīnā had treated existence as something added to an essence, and Ṣadrā reversed it. There is one reality, being, and essences are the limits at which we grasp it — so a thing's whatness is a boundary rather than an ingredient. The second is substantial motion. Aristotle let a substance change its qualities and stay the substance it was; Ṣadrā argued that the substance itself is in flux, that a thing is a process.\n\nThe pay-off is his account of the soul. If substance moves, the soul can begin bodily and end immaterial without anything being inserted from outside — it is bodily in origination and spiritual in survival, which had been a scandal for every earlier system. The book is still the culminating text of the philosophical curriculum in Iranian seminaries, taught after Ibn Sīnā and Suhrawardī rather than instead of them.",
+              "fa": "دو گزاره کار را پیش می‌برند. نخست اصالت وجود: ابن‌سینا وجود را چیزی می‌دانست که بر ماهیت افزوده می‌شود، و صدرا وارونه‌اش کرد. یک حقیقت هست، هستی، و ماهیات همان حدودی‌اند که ما آن را در آن‌ها درمی‌یابیم — پس چیستیِ یک شیء مرز است نه جزء. دوم حرکت جوهری. ارسطو می‌گذاشت جوهر کیفیاتش را عوض کند و همان جوهر بماند؛ صدرا گفت خودِ جوهر در سیلان است، و شیء فرایند است.\n\nثمره‌اش تحلیل او از نفس است. اگر جوهر حرکت کند، نفس می‌تواند جسمانی آغاز شود و مجرد پایان یابد بی‌آنکه چیزی از بیرون درج شود — در حدوث جسمانی و در بقا روحانی، که برای هر دستگاه پیشین رسوایی بود. این کتاب هنوز متن اوجِ برنامهٔ فلسفی در حوزه‌های ایران است، که پس از ابن‌سینا و سهروردی تدریس می‌شود نه به‌جای آنان."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "analects",
@@ -180,7 +310,27 @@
       "branches": ["ethics", "political-philosophy", "philosophy-of-education"],
       "concepts": ["ren"],
       "editions": ["confucius-analects"],
-      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }]
+      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Short exchanges between Confucius and his students, assembled by later hands. There is no system and no argument in the Greek sense — a question is asked, an answer is given to this person on this occasion, and the same question gets a different answer elsewhere because a different student asked it.",
+              "fa": "گفت‌وگوهای کوتاه میان کنفوسیوس و شاگردانش، که دست‌های بعدی گرد آورده‌اند. نه دستگاهی هست و نه استدلالی به معنای یونانی‌اش — پرسشی طرح می‌شود، پاسخی به این شخص در این موقعیت داده می‌شود، و همان پرسش جای دیگر پاسخ دیگری می‌گیرد چون شاگردِ دیگری پرسیده."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "That inconsistency is the method, not a defect in the editing. Confucius refuses to define rén — the central term, roughly humaneness — and instead describes people who have it and people who do not. A definition can be memorised and applied without understanding; a character has to be grown, and what grows it differs by who is doing the growing.\n\nThe political claim is that this scales. Asked about government, he talks about the ruler's own conduct: if those in charge are worth imitating, people will imitate them, and law becomes a fallback rather than the mechanism. It is easy to read as naive and hard to dismiss, because the alternative he is arguing against — govern by reward and punishment alone — was tried by Qin and produced the shortest dynasty in Chinese history. The book's negative formulation of the golden rule, do not do to others what you would not want for yourself, predates the positive one by centuries.",
+              "fa": "این ناهمسانی خودِ روش است، نه عیبی در ویرایش. کنفوسیوس از تعریفِ «رِن» — اصطلاح مرکزی، تقریباً انسانیت — سر باز می‌زند و به‌جایش کسانی را وصف می‌کند که آن را دارند و کسانی که ندارند. تعریف را می‌توان از بر کرد و بی‌فهم به کار بست؛ منش را باید پروراند، و آنچه آن را می‌پروراند بسته به آن است که چه کسی می‌پروراند.\n\nادعای سیاسی این است که این مقیاس‌پذیر است. وقتی از او دربارهٔ حکومت می‌پرسند، از رفتار خودِ فرمانروا سخن می‌گوید: اگر آنان که در رأس‌اند شایستهٔ تقلید باشند، مردم تقلیدشان می‌کنند، و قانون به‌جای سازوکار، پشتوانه می‌شود. آسان است ساده‌لوحانه بخوانیمش و دشوار است کنارش بگذاریم، چون بدیلی که او با آن مخالف است — حکومت تنها با پاداش و کیفر — را «چین» آزمود و کوتاه‌ترین سلسلهٔ تاریخ چین را پدید آورد. صورت منفیِ قاعدهٔ زرین در این کتاب، «آنچه بر خود نمی‌پسندی بر دیگران مپسند»، قرن‌ها بر صورت مثبتش تقدم دارد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "mulamadhyamakakarika",
@@ -201,7 +351,27 @@
       "branches": ["metaphysics", "logic", "philosophy-of-religion"],
       "concepts": ["sunyata"],
       "editions": ["nagarjuna-mmk"],
-      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }]
+      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Twenty-seven chapters of verse, each taking one candidate for something that exists in its own right — cause, motion, the senses, fire, time, the self, the Buddha, nirvana — and showing that it cannot be described without contradiction. Nothing is put in their place, and that is the argument rather than a gap in it.",
+              "fa": "بیست‌وهفت فصل منظوم، که هر یک نامزدی را برمی‌گیرد برای چیزی که به خودی خود موجود باشد — علت، حرکت، حواس، آتش، زمان، خود، بودا، نیروانه — و نشان می‌دهد بی‌تناقض وصف‌شدنی نیست. چیزی به‌جای آن‌ها نمی‌نشیند، و همین خودِ استدلال است نه رخنه‌ای در آن."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The method is to take the opponent's own commitments and run them out. If a thing arises from itself, nothing happens; if from something else, then anything could produce anything; if from both, both problems; if from neither, it is uncaused. Nāgārjuna does this to motion, and finds that the moving thing does not move on the path already travelled, nor on the path not yet reached, and there is no third path.\n\nWhat saves this from nihilism is chapter twenty-four, which is why it is the chapter everyone quotes. Emptiness is not the denial of things; it is another name for their arising in dependence, and someone who takes emptiness itself to be a thing has misunderstood so thoroughly that Nāgārjuna compares them to a person grasping a snake by the wrong end. The two truths are set out here: conventionally everything works exactly as it appears, ultimately nothing stands on its own, and the first is not damaged by the second.",
+              "fa": "روش این است که تعهدات خودِ حریف را برگیری و تا آخر ببری. اگر چیزی از خود پدید آید، هیچ رخ نداده؛ اگر از دیگری، پس هر چیز می‌تواند هر چیز را پدید آورد؛ اگر از هر دو، هر دو اشکال؛ و اگر از هیچ‌یک، بی‌علت است. ناگارجونا همین را با حرکت می‌کند و می‌یابد که رونده نه در راهِ پیموده می‌رود و نه در راهِ نپیموده، و راه سومی نیست.\n\nآنچه این را از نیست‌انگاری نجات می‌دهد فصل بیست‌وچهارم است، و به همین سبب همان فصلی است که همه نقل می‌کنند. تهیت انکار چیزها نیست؛ نامی دیگر است برای پیدایشِ وابستهٔ آن‌ها، و کسی که خودِ تهیت را یک چیز بگیرد چنان بد فهمیده که ناگارجونا او را به کسی مانند می‌کند که مار را از سر نادرست گرفته. دو حقیقت همین‌جا بیان می‌شود: در سطح قراردادی همه‌چیز درست همان‌گونه که می‌نماید کار می‌کند، در سطح نهایی هیچ‌چیز بر پای خود نمی‌ایستد، و اولی از دومی آسیب نمی‌بیند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "meditations",
@@ -220,7 +390,27 @@
       "branches": ["epistemology", "metaphysics", "philosophy-of-mind"],
       "concepts": ["cogito"],
       "editions": ["descartes-meditations", "descartes-discourse"],
-      "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }]
+      "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Six days of systematic doubt. Descartes sets out to find something that cannot be doubted, and to that end doubts everything he can — the senses, the existence of a world, even mathematics, on the supposition that a powerful deceiver might be arranging his errors.",
+              "fa": "شش روز شکِ روشمند. دکارت می‌خواهد چیزی بیابد که نتوان در آن شک کرد، و برای همین در هرچه بتواند شک می‌کند — در حواس، در هستیِ جهان، حتی در ریاضیات، با این فرض که فریبکاری توانا شاید خطاهایش را ترتیب می‌دهد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "What survives is one thing: while he is being deceived, there is something being deceived. I think, therefore I am — though the Meditations phrases it as 'I am, I exist', necessarily true whenever it is put forward. This is not an inference from a premise so much as something that cannot be doubted while doubting is going on.\n\nThe rest of the book is the hard part, and most readers think it fails. To get from his own mind back to the world, Descartes needs a God who is not a deceiver, and the arguments for that God are the weakest chapters. Worse, they seem to need the reliability of clear reasoning to establish the God who is supposed to guarantee it — the circle Arnauld pointed out in the objections Descartes himself printed with the text. What survived is not the system but the starting point: modern philosophy begins by asking what a mind can know from the inside.",
+              "fa": "آنچه جان به در می‌برد یک چیز است: تا هنگامی که فریب می‌خورد، چیزی هست که فریب می‌خورد. می‌اندیشم پس هستم — هرچند «تأملات» آن را چنین می‌گوید: «من هستم، من وجود دارم»، که هرگاه بر زبان آید ناگزیر صادق است. این چندان استنتاج از یک مقدمه نیست، بیشتر چیزی است که تا شک جریان دارد نمی‌توان در آن شک کرد.\n\nباقی کتاب بخش دشوار است، و بیشتر خوانندگان می‌پندارند شکست می‌خورد. برای بازگشت از ذهن خود به جهان، دکارت به خدایی نیاز دارد که فریبکار نباشد، و استدلال‌ها برای آن خدا ضعیف‌ترین فصل‌هایند. بدتر آنکه چنین می‌نماید که برای اثبات آن خدا به اعتمادپذیریِ استدلالِ روشن نیاز دارند، همان که قرار بوده خدا ضامنش باشد — همان دوری که آرنو در اعتراض‌هایی که خودِ دکارت همراه متن چاپ کرد نشان داد. آنچه ماند دستگاه نبود بلکه نقطهٔ آغاز بود: فلسفهٔ جدید با این پرسش آغاز می‌شود که ذهن از درون چه می‌تواند بداند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "critique-of-pure-reason",
@@ -241,7 +431,27 @@
       "citations": [
         { "source": "kant-critique-pure-reason" },
         { "source": "sep" }
-      ]
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Kant asks what reason can establish without help from experience, and answers: the structure of experience itself, and nothing beyond it. Space, time and causation are not features we find in the world but the form any experience must take for us — which is why we can know them in advance, and why that knowledge cannot reach past appearances.",
+              "fa": "کانت می‌پرسد عقل بی‌یاریِ تجربه چه می‌تواند اثبات کند، و پاسخ می‌دهد: ساختارِ خودِ تجربه را، و هیچ فراتر از آن. مکان و زمان و علیت ویژگی‌هایی نیستند که در جهان بیابیم، بلکه صورتی‌اند که هر تجربه‌ای برای ما ناگزیر به خود می‌گیرد — و برای همین است که می‌توانیم پیشاپیش بشناسیمشان، و برای همین است که آن شناخت از پدیدارها فراتر نمی‌رود."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Kant called this his Copernican turn: instead of asking how knowledge conforms to objects, ask how objects must conform to the conditions of being known. The gain is that mathematics and the principle that every event has a cause come out necessary and informative at once, which neither Hume's empiricism nor Leibniz's rationalism could deliver.\n\nThe cost is the thing in itself. Whatever reality is apart from the conditions under which it appears to us, we cannot say — and the second half of the book is a demonstration of what goes wrong when reason tries. Arguments for the soul, for the world having or not having a beginning, and for God all fail, and the failures are systematic rather than accidental. Kant thought he had made room for faith by showing that knowledge stops short, and readers since have been divided over whether the thing in itself is a genuine limit, an unnecessary residue, or an incoherence.",
+              "fa": "کانت این را چرخش کوپرنیکیِ خود خواند: به‌جای پرسیدن اینکه معرفت چگونه با متعلَقات مطابق می‌شود، بپرس متعلَقات چگونه باید با شرایط شناخته‌شدن مطابق شوند. سودش این است که ریاضیات و این اصل که هر رویدادی علتی دارد، هم‌زمان ضروری و آگاهی‌بخش از آب درمی‌آیند، و این چیزی است که نه تجربه‌گراییِ هیوم می‌توانست بدهد و نه عقل‌گراییِ لایب‌نیتس.\n\nهزینه‌اش «شیء فی‌نفسه» است. اینکه واقعیت جدا از شرایطی که در آن‌ها بر ما نمودار می‌شود چیست، نمی‌توانیم بگوییم — و نیمهٔ دوم کتاب نمایشِ آن است که وقتی عقل می‌کوشد، چه پیش می‌آید. استدلال‌ها برای نفس، برای اینکه جهان آغازی دارد یا ندارد، و برای خدا همه شکست می‌خورند، و این شکست‌ها نظام‌مندند نه اتفاقی. کانت می‌پنداشت با نشان‌دادن اینکه معرفت پیش از رسیدن بازمی‌ایستد جا برای ایمان باز کرده، و خوانندگان از آن پس بر سر اینکه شیء فی‌نفسه حدی راستین است، ته‌ماندهٔ زائدی است، یا ناسازگاری است، دو دسته شده‌اند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "gay-science",
@@ -259,7 +469,27 @@
       "traditions": ["european"],
       "branches": ["ethics", "aesthetics", "metaphysics"],
       "editions": ["nietzsche-gay-science"],
-      "citations": [{ "source": "nietzsche-gay-science" }, { "source": "sep" }]
+      "citations": [{ "source": "nietzsche-gay-science" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aphorisms, songs and jokes, and in the middle of them two of the most quoted passages in modern philosophy: the madman announcing that God is dead, and the demon proposing that you will live this same life again, endlessly, in every detail.",
+              "fa": "قطعات کوتاه، ترانه‌ها و شوخی‌ها، و در میانشان دو تا از پرنقل‌ترین بندهای فلسفهٔ جدید: دیوانه‌ای که اعلام می‌کند خدا مرده است، و دیوی که پیشنهاد می‌دهد همین زندگی را بار دیگر، بی‌پایان، و مو به مو خواهی زیست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The death of God is not presented as good news, and the madman is not celebrating. He runs into the marketplace with a lantern in daylight and is laughed at by people who already do not believe — which is the point. They have not noticed what they have done. Nietzsche's claim is that European morality, meaning and confidence in truth were all supported by something now withdrawn, and that the consequences have not begun to arrive.\n\nThe eternal recurrence is the counter-move. Asked whether you would accept living this life again in every detail, most people would not; and Nietzsche treats that answer as a measurement of how much of your life you are actually willing to affirm. It is not a cosmological claim so much as a test. The title's 'gay science' translates a Provençal phrase for the troubadours' art, and the book's form — light, mocking, unsystematic — is doing work its content would be undermined by abandoning.",
+              "fa": "مرگ خدا چون خبری خوش عرضه نمی‌شود، و آن دیوانه جشن نگرفته است. با فانوسی در روز روشن به میدان می‌دود و کسانی به او می‌خندند که پیشاپیش باور ندارند — و نکته همین است. آنان متوجه نشده‌اند چه کرده‌اند. ادعای نیچه این است که اخلاق و معنا و اعتماد به حقیقت در اروپا همه بر چیزی تکیه داشتند که اکنون برداشته شده، و پیامدهایش هنوز از راه نرسیده‌اند.\n\nبازگشت جاودان حرکت متقابل است. اگر بپرسند حاضری این زندگی را مو به مو دوباره بزیی، بیشتر مردم حاضر نیستند؛ و نیچه این پاسخ را اندازه‌گیری آن می‌گیرد که چه اندازه از زندگی‌ات را به‌راستی می‌توانی تصدیق کنی. این چندان ادعایی کیهان‌شناختی نیست، بیشتر یک آزمون است. «دانش شاد» در عنوان، برگردان عبارتی پرووانسی برای هنر تروبادورهاست، و فرم کتاب — سبک، ریشخندآمیز، بی‌دستگاه — کاری می‌کند که رهاکردنش محتوایش را سست می‌کرد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "second-sex",
@@ -279,7 +509,27 @@
         "political-philosophy"
       ],
       "editions": ["beauvoir-second-sex"],
-      "citations": [{ "source": "beauvoir-second-sex" }, { "source": "sep" }]
+      "citations": [{ "source": "beauvoir-second-sex" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nine hundred pages establishing a single sentence: one is not born, but rather becomes, a woman. Beauvoir separates the biological fact from everything built on it, and then examines what has been built — in biology, psychoanalysis, history, myth, and in the ordinary shape of a life from childhood to old age.",
+              "fa": "نهصد صفحه برای اثباتِ یک جمله: زن زاده نمی‌شود، زن می‌شود. بووار واقعیت زیستی را از هرچه بر آن ساخته شده جدا می‌کند، و بعد آنچه را ساخته شده وارسی می‌کند — در زیست‌شناسی، روان‌کاوی، تاریخ، اسطوره، و در شکل معمولِ یک زندگی از کودکی تا پیری."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The organising idea is that man has been posited as the standard human and woman as the deviation from him — the Other, defined relationally in a way he is not. A man is not asked what it is like to think as a man. That asymmetry is not a complaint about rudeness; it is a claim about how a whole vocabulary was built.\n\nThe book is existentialist in its bones and corrects existentialism as it goes. Sartre's freedom is easiest to assert from a position with few obstacles; Beauvoir insists that freedom is situated, that a life is lived inside conditions the liver did not choose, and that the conditions are the subject matter. The volumes on lived experience — the girl, the married woman, the mother, the woman in old age — were what made it dangerous, and they are why it was placed on the Vatican's index of prohibited books.",
+              "fa": "ایدهٔ سامان‌دهنده این است که مرد چون معیارِ انسان نهاده شده و زن چون انحراف از او — «دیگری»، که به‌گونه‌ای نسبی تعریف می‌شود که مرد نمی‌شود. از مرد نمی‌پرسند اندیشیدن همچون مرد چگونه است. این ناهمسانی گلایه از بی‌ادبی نیست؛ ادعایی است دربارهٔ اینکه یک واژگانِ کامل چگونه ساخته شده.\n\nکتاب در استخوان‌بندی‌اش اگزیستانسیالیستی است و در همان حال اگزیستانسیالیسم را تصحیح می‌کند. اثباتِ آزادیِ سارتری از موضعی آسان‌تر است که موانع کمی داشته باشد؛ بووار پافشاری می‌کند که آزادی موقعیت‌مند است، که زندگی درون شرایطی زیسته می‌شود که زیستنده برنگزیده، و همان شرایط موضوعِ بحث‌اند. جلدهای مربوط به تجربهٔ زیسته — دختر، زن شوهردار، مادر، زن سالخورده — همان‌هایی بودند که کتاب را خطرناک کردند، و به همین سبب در فهرست کتاب‌های ممنوعهٔ واتیکان قرار گرفت."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "souls-of-black-folk",
@@ -291,10 +541,34 @@
       },
       "composed": { "start": { "year": 1903, "precision": "exact" } },
       "traditions": ["american", "african", "contemporary"],
-      "branches": ["social-philosophy", "political-philosophy", "philosophy-of-history"],
+      "branches": [
+        "social-philosophy",
+        "political-philosophy",
+        "philosophy-of-history"
+      ],
       "concepts": ["double-consciousness"],
       "editions": ["dubois-souls"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Fourteen essays that put a question at the centre of American philosophy: what is it like to be looked at as a problem rather than as a person? Du Bois answers with sociology, history, autobiography and a chapter on the sorrow songs, and each chapter opens with a bar of music.",
+              "fa": "چهارده جستار که پرسشی را در کانون فلسفهٔ امریکایی می‌نشانند: چگونه است که به تو نه چون یک آدم بلکه چون یک مسئله نگاه کنند؟ دوبوا با جامعه‌شناسی و تاریخ و شرح‌حال و فصلی دربارهٔ ترانه‌های اندوه پاسخ می‌دهد، و هر فصل با میزانی موسیقی آغاز می‌شود."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Double consciousness is the book's contribution to philosophy proper. Du Bois describes the sensation of always seeing oneself through the eyes of others — measuring your soul by the tape of a world that looks on in contempt — and of carrying two unreconciled strivings in one body. It is a phenomenological claim before phenomenology had that name in English, and it has been taken up in every subsequent account of what oppression does to the person who lives under it.\n\nThe political chapters were the ones that made trouble at the time. Du Bois takes Booker T. Washington's programme of accommodation and vocational training and argues, respectfully and unmistakably, that a people who give up the vote, civic equality and higher education for their most able will not receive them back later. The prophecy about the twentieth century and the colour line opens the book, and it was published in 1903.",
+              "fa": "«آگاهیِ دوگانه» سهم این کتاب در فلسفهٔ به‌معنای دقیق است. دوبوا این حس را وصف می‌کند که آدمی همواره خود را از چشم دیگران ببیند — جانِ خود را با متری بسنجد که جهانی تحقیرآمیز در دست دارد — و دو کوششِ آشتی‌ناپذیر را در یک تن حمل کند. این ادعایی پدیدارشناختی است پیش از آنکه پدیدارشناسی در انگلیسی چنین نامی داشته باشد، و در هر روایت بعدی از آنچه ستم بر ستم‌دیده می‌کند به کار گرفته شده.\n\nفصل‌های سیاسی همان‌هایی بودند که در زمان خود دردسر ساختند. دوبوا برنامهٔ بوکر تی. واشنگتن را — سازش و آموزش فنی — برمی‌گیرد و با احترام و بی‌ابهام استدلال می‌کند که مردمی که رأی و برابری مدنی و آموزش عالیِ توانمندترین‌هایشان را واگذارند، بعداً پسشان نمی‌گیرند. آن پیشگویی دربارهٔ سدهٔ بیستم و خط رنگ، کتاب را می‌گشاید، و کتاب در ۱۹۰۳ منتشر شد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "daodejing",
