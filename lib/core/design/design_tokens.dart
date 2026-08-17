@@ -76,6 +76,13 @@ abstract final class MotionTokens {
   /// 520ms — a deliberate, once-per-screen reveal.
   static const Duration deliberate = Duration(milliseconds: 520);
 
+  /// 1100ms — one there-and-back of anything that breathes.
+  ///
+  /// The period of the loading shimmer and of the arrival glow. Both were
+  /// carrying their own copy of this number, which is how two things that are
+  /// meant to pulse together drift apart.
+  static const Duration pulse = Duration(milliseconds: 1100);
+
   /// The standard easing for elements entering the screen.
   static const Curve enter = Curves.easeOutCubic;
 

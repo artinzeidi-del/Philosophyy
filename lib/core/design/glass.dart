@@ -200,7 +200,7 @@ class _PulsingGlowState extends State<PulsingGlow>
 
   late final AnimationController _controller = AnimationController(
     vsync: this,
-    duration: const Duration(milliseconds: 1100 * _passes),
+    duration: MotionTokens.pulse * _passes,
   );
 
   @override

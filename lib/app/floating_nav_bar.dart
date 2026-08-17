@@ -90,15 +90,12 @@ class FloatingNavBar extends StatelessWidget {
     final theme = Theme.of(context);
     final dark = theme.brightness == Brightness.dark;
 
-    // Near-black in both themes. In light mode this is the one piece of the
-    // interface that inverts, which is exactly what makes it read as floating
-    // above the page rather than as part of it.
-    // Near-black in both themes, and darker than any surface the app paints,
-    // so the bar reads as an object laid on the page rather than as part of
-    // it. At the canvas's own lightness it disappeared.
+    // Near-black in both themes — see the tokens for why it is not a scheme
+    // colour. The light variant is a shade lighter and a shade more opaque,
+    // because it has a bright page behind it rather than a dark one.
     final barColor = dark
-        ? const Color(0xFF060D11).withValues(alpha: 0.90)
-        : const Color(0xFF0B151A).withValues(alpha: 0.94);
+        ? AppColors.navSurfaceDark.withValues(alpha: 0.90)
+        : AppColors.navSurfaceLight.withValues(alpha: 0.94);
 
     return SafeArea(
       top: false,
@@ -236,7 +233,7 @@ class _NavItem extends StatelessWidget {
     final theme = Theme.of(context);
     // Both foregrounds are measured against the near-black bar, not against the
     // page, which is why they do not come from the colour scheme.
-    const idle = Color(0xFF8A9BA3);
+    const idle = AppColors.navIdle;
     // The accent, in both themes: the bar is near-black either way, so the
     // light theme's darkened ember would disappear on it. It colours the pill;
     // the label and icon on top of the pill go white, which is what the

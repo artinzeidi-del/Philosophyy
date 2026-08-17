@@ -34,7 +34,9 @@ class _SkeletonBoxState extends State<SkeletonBox>
     with SingleTickerProviderStateMixin {
   late final AnimationController _controller = AnimationController(
     vsync: this,
-    duration: const Duration(milliseconds: 1100),
+    // The same period the arrival glow breathes at, so two things pulsing on
+    // one screen stay in step.
+    duration: MotionTokens.pulse,
   );
 
   @override

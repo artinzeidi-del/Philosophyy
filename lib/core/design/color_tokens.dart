@@ -154,6 +154,30 @@ abstract final class AppColors {
   static const Color auroraDeep = Color(0xFF10333A);
 
   // ---------------------------------------------------------------------
+  // The floating navigation
+  // ---------------------------------------------------------------------
+
+  /// The navigation bar's fill in dark mode.
+  ///
+  /// Darker than any surface either theme paints, deliberately. The bar is an
+  /// object laid on the page rather than part of it, and at the canvas's own
+  /// lightness it disappeared into the content behind it. In light mode this
+  /// is the one piece of the interface that inverts, which is exactly what
+  /// makes it read as floating.
+  ///
+  /// It sits here rather than in the scheme because no `ColorScheme` slot means
+  /// "a dark object over either theme" — but it is still a palette decision,
+  /// and palette decisions belong in the palette.
+  static const Color navSurfaceDark = Color(0xFF060D11);
+
+  /// The navigation bar's fill in light mode.
+  static const Color navSurfaceLight = Color(0xFF0B151A);
+
+  /// An unselected destination's icon, measured against the bar rather than
+  /// against the page — which is why it comes from neither scheme.
+  static const Color navIdle = Color(0xFF8A9BA3);
+
+  // ---------------------------------------------------------------------
   // Schemes
   // ---------------------------------------------------------------------
 
