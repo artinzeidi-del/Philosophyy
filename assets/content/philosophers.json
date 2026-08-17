@@ -1207,6 +1207,14 @@
               { "source": "text-hanfeizi-text", "locator": "ch. 49" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Han Feizi's system rests on three terms held together: fa, the published standard; shi, the authority attaching to a position rather than to the person in it; and shu, the techniques by which a ruler keeps officials measurable. The last is the coldest and the most original. The ruler should not display preferences, because officials will supply what is preferred rather than what is true; he should hold each to the exact terms of his appointment, rewarding the match between what was promised and what was delivered, and punishing overperformance as well as under.\n\nThat last provision is the one that shows what kind of theory this is. An official who does more than his office specifies is not a keen servant but an unpredictable one, and a system that depends on nobody exceeding their brief does not depend on anyone's judgement — which is the whole design. Han Feizi is building a state that a mediocre ruler cannot break, because he thinks most rulers are mediocre and history bears him out.\n\nHe wrote as an aristocrat of a small state watching it be absorbed, he stammered and could not argue at court, and the king of Qin read his essays and wanted the man. He got him, and Li Si — a fellow student under Xunzi, and by then chancellor — arranged his imprisonment and death. Qin then unified China on his blueprint in 221 BCE and fell in fifteen years, which every later dynasty cited as the refutation while quietly keeping the institutions.",
+              "fa": "دستگاه هان فی‌زی بر سه اصطلاح استوار است که هم را نگه می‌دارند: «فا»، معیارِ منتشرشده؛ «شی»، اقتداری که به یک منصب می‌چسبد نه به شخصِ در آن؛ و «شو»، فنونی که فرمانروا با آن‌ها کارگزاران را سنجش‌پذیر نگه می‌دارد. آخری سردترین و اصیل‌ترین است. فرمانروا نباید سلیقه‌اش را نشان دهد، چون کارگزاران آنچه را پسندیده است عرضه می‌کنند نه آنچه را راست است؛ باید هر یک را دقیقاً به شرایط انتصابش پایبند بدارد، انطباقِ میان آنچه وعده داده شد و آنچه تحویل شد را پاداش دهد، و کم‌کاری و بیش‌کاری هر دو را کیفر.\n\nهمین بند آخر است که نشان می‌دهد این چه نوع نظریه‌ای است. کارگزاری که بیش از آنچه منصبش تعیین کرده انجام دهد خادمِ پرشور نیست بلکه پیش‌بینی‌ناپذیر است، و نظامی که بر این استوار است که کسی از حدود اختیارش فراتر نرود، به داوریِ هیچ‌کس وابسته نیست — و تمام طرح همین است. هان فی‌زی دولتی می‌سازد که فرمانروای متوسط نتواند خرابش کند، چون می‌پندارد بیشتر فرمانروایان متوسط‌اند و تاریخ حق را به او می‌دهد.\n\nاو چون اشراف‌زادهٔ دولتی کوچک می‌نوشت که می‌دید بلعیده می‌شود، لکنت داشت و در دربار نمی‌توانست بحث کند، و پادشاه «چین» مقاله‌هایش را خواند و خودِ مرد را خواست. به دستش آورد، و لی سی — هم‌شاگردی‌اش نزد شونزی و آن زمان صدراعظم — زندان و مرگش را ترتیب داد. سپس «چین» در ۲۲۱ پیش از میلاد بر نقشهٔ او کشور را یکپارچه کرد و در پانزده سال افتاد، و هر سلسلهٔ بعدی همین را چون ردیّه نقل کرد و در سکوت نهادها را نگه داشت."
+            }
           }
         ]
       },
@@ -1567,6 +1575,14 @@
               { "source": "text-nyayapravesa" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Dignāga rebuilt Indian epistemology by cutting the accepted list of knowledge sources down to two. There is perception, which is free of conceptual construction and grasps the particular; and there is inference, which works with concepts and grasps the general. Everything else that other schools had accepted — comparison, testimony, presumption — is either one of these two or is not knowledge.\n\nThe cut follows from a claim about what there is. Only particulars are causally efficacious and therefore real; universals are constructions. That leaves a problem: if concepts do not correspond to anything, how does inference work at all? His answer is apoha, exclusion — the word 'cow' does not name a shared cow-essence but excludes everything that is not a cow, so general terms operate by negation rather than by picking out a common property. It is a nominalism reached by a different route from Ockham's, seven hundred years earlier.\n\nHis other achievement is the formalisation of what makes an inference sound: the reason must be present in the case at issue, present in similar cases, and absent from every dissimilar one. Stated as a three-part test it turned Indian debate into something checkable, and philosophers of every competing school adopted it and then fought over its application — one of the rare periods in which schools that agreed on almost nothing shared a standard for settling who had won.",
+              "fa": "دیگناگه معرفت‌شناسی هندی را از نو ساخت، با فروکاستنِ فهرست پذیرفته‌شدهٔ سرچشمه‌های معرفت به دو تا. ادراک هست، که از ساختِ مفهومی آزاد است و جزئی را درمی‌یابد؛ و استنتاج هست، که با مفاهیم کار می‌کند و کلی را درمی‌یابد. هرچه دیگر که مکاتب دیگر پذیرفته بودند — مقایسه، شهادت، فرض — یا یکی از این دوست یا معرفت نیست.\n\nاین برش از ادعایی دربارهٔ اینکه چه چیز هست برمی‌آید. تنها جزئیات اثر علّی دارند و پس واقعی‌اند؛ کلی‌ها ساخته‌اند. اما این مسئله‌ای بر جای می‌گذارد: اگر مفاهیم با چیزی متناظر نباشند، استنتاج اصلاً چگونه کار می‌کند؟ پاسخش «اَپوهه» است، یعنی طرد — واژهٔ «گاو» ذاتِ مشترک گاوی را نام نمی‌برد بلکه هرچه را گاو نیست بیرون می‌گذارد، پس واژه‌های کلی با نفی کار می‌کنند نه با برگزیدنِ ویژگی‌ای مشترک. این نام‌گرایی است که از راهی متفاوت با راه اوکام، هفتصد سال زودتر، به دست آمده.\n\nدستاورد دیگرش صوری‌کردنِ آن چیزی است که استنتاج را درست می‌کند: آن دلیل باید در موردِ مورد بحث حاضر باشد، در موارد مشابه حاضر باشد، و از هر موردِ نامشابه غایب. بیان‌شده چون آزمونی سه‌بخشی، مناظرهٔ هندی را به چیزی وارسی‌پذیر بدل کرد، و فیلسوفان بودایی و نیایه و میمانسا یکسان پذیرفتند و بر سرش بحث کردند — یکی از دوره‌های نادری که مکاتبی که بر هیچ چیز توافق نداشتند معیاری مشترک برای تعیین برنده داشتند."
+            }
           }
         ]
       },
@@ -3424,6 +3440,14 @@
               { "source": "text-ethics-of-liberation" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Dussel's starting question is who philosophy has been addressing, and his answer is that European thought speaks from a centre while taking its own location to be nowhere in particular. The consequence is not that its arguments are false but that its silences are structured: a philosophy that begins from the experience of the modern subject has already chosen which experiences count as the human ones.\n\nHe takes his apparatus from Levinas and turns it outward. Levinas had argued that ethics begins in the encounter with an other who exceeds my categories; Dussel identifies that other concretely — the poor, the colonised, the excluded — and argues that any philosophy which begins elsewhere has taken a side by pretending it has not. The move is contested by Levinas scholars, who read the original as deliberately not naming the other, and Dussel's answer is that an unnamed other is a comfortable one.\n\nHis historical work argues that modernity begins in 1492 rather than with Descartes or the Enlightenment, because the conquest is what produced the wealth, the self-image and the category of the non-European against which the modern subject was defined. The obvious risk in the whole programme is that it becomes a way of dismissing an argument by its origin rather than answering it, and Dussel's better work is explicit that a position's provenance settles nothing about its truth — only about what it is likely to have failed to ask.",
+              "fa": "پرسش آغازین دوسل این است که مخاطب فلسفه که بوده، و پاسخش این است که اندیشهٔ اروپایی از یک مرکز سخن می‌گوید و در همان حال جایگاه خود را «هیچ‌جای خاصی» می‌گیرد. پیامدش این نیست که استدلال‌هایش کاذب‌اند بلکه این است که سکوت‌هایش ساختار دارند: فلسفه‌ای که از تجربهٔ سوژهٔ مدرن آغاز می‌کند پیشاپیش برگزیده که کدام تجربه‌ها انسانی به شمار می‌آیند.\n\nدستگاهش را از لویناس می‌گیرد و رو به بیرون می‌چرخاند. لویناس گفته بود اخلاق در مواجهه با دیگری‌ای آغاز می‌شود که از مقولات من فراتر می‌رود؛ دوسل آن دیگری را به‌طور مشخص شناسایی می‌کند — تهیدست، مستعمَره، طردشده — و می‌گوید هر فلسفه‌ای که از جای دیگری آغاز کند با وانمود به بی‌طرفی طرفی برگزیده است. لویناس‌پژوهان در این حرکت مناقشه دارند و متن اصلی را عمداً بی‌نام‌بردنِ دیگری می‌خوانند، و پاسخ دوسل این است که دیگریِ بی‌نام، دیگریِ راحتی است.\n\nکار تاریخی‌اش می‌گوید مدرنیته از ۱۴۹۲ آغاز می‌شود نه با دکارت یا روشنگری، چون همان فتح بود که ثروت و خودانگاره و آن مقولهٔ «غیراروپایی» را پدید آورد که سوژهٔ مدرن در برابرش تعریف شد. خطر آشکار در تمام این برنامه این است که به راهی برای ردکردن یک استدلال به‌سبب خاستگاهش بدل شود به‌جای پاسخ‌دادن به آن، و کارهای بهترِ دوسل صریح‌اند که خاستگاهِ یک موضع دربارهٔ صدقش هیچ تعیین نمی‌کند — تنها دربارهٔ آنچه احتمالاً نپرسیده."
+            }
           }
         ]
       },
@@ -3946,6 +3970,14 @@
               { "source": "text-empedocles-fragments", "locator": "DK 31 B17" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Empedocles answers Parmenides by conceding the premise and dividing the conclusion. Nothing comes to be from nothing and nothing is destroyed — but there are four roots, earth, water, air and fire, which are themselves ungenerated, and what we call birth and death is their mixing and separation. That preserves Parmenides' logic and gives back the world of change, which is the move atomism would make differently a generation later.\n\nThe forces are the original part. Mixing and separating need causes, and he supplies two — Love and Strife — which alternate in a cosmic cycle, one gathering the roots into unity and the other pulling them apart, with a world like ours existing only in the transitional phases. This is the first physical theory with distinct attractive and repulsive principles, and it is stated in hexameter verse, because he wrote poems rather than treatises.\n\nHe also wrote on purification and transmigration, claiming to have been a boy, a girl, a bush, a bird and a fish, and forbidding the eating of animals on the ground that the animal may be a relative. Whether the physics and the purifications are one work or two, and whether their author could consistently hold both, has been argued since antiquity — and a papyrus found at Strasbourg in 1994 added significant new text and did not settle it. The legend that he leapt into Etna to prove himself a god is late and probably invented by hostile sources.",
+              "fa": "امپدوکلس به پارمنیدس پاسخ می‌دهد با پذیرفتن مقدمه و تقسیم‌کردن نتیجه. هیچ‌چیز از هیچ پدید نمی‌آید و هیچ‌چیز نابود نمی‌شود — اما چهار ریشه هست، خاک و آب و هوا و آتش، که خود پدیدنیامده‌اند، و آنچه زایش و مرگ می‌نامیم آمیختن و جداشدنِ آن‌هاست. این منطق پارمنیدس را نگه می‌دارد و جهانِ دگرگونی را بازمی‌گرداند، و همان حرکتی است که اتم‌گرایی یک نسل بعد به شکلی دیگر کرد.\n\nنیروها بخش اصیل‌اند. آمیختن و جداشدن به علت نیاز دارند، و او دو تا فراهم می‌کند — مهر و ستیز — که در چرخه‌ای کیهانی متناوب می‌شوند، یکی ریشه‌ها را در وحدت گرد می‌آورد و دیگری از هم می‌کشدشان، و جهانی مثل جهان ما تنها در مراحل گذار هست. این نخستین نظریهٔ فیزیکی با اصول جذب و دفعِ متمایز است، و در وزن شش‌رکنی بیان شده، چون او شعر می‌نوشت نه رساله.\n\nدربارهٔ تطهیر و تناسخ هم نوشت، و مدعی شد که پسر و دختر و بوته و پرنده و ماهی بوده، و خوردن جانوران را منع کرد بر این پایه که آن جانور شاید خویشاوند باشد. اینکه طبیعیات و تطهیرها یک اثرند یا دو، و اینکه آیا نویسنده‌شان می‌توانست هر دو را سازگار نگه دارد، از دوران باستان محل بحث بوده — و پاپیروسی که در ۱۹۹۴ در استراسبورگ یافته شد متن تازهٔ مهمی افزود و حلش نکرد. افسانهٔ اینکه در آتشفشان اتنا پرید تا خدایی خود را ثابت کند متأخر است و احتمالاً ساختهٔ منابع دشمن."
+            }
           }
         ]
       },
@@ -4315,6 +4347,14 @@
               { "source": "text-svf", "locator": "SVF II" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Chrysippus is the reason Stoicism is a system rather than a set of attitudes. The ancient judgement was that without him there would have been no Stoa, and he is credited with over seven hundred books, of which nothing survives whole. What we have is quotation, mostly by opponents, which is a hazard worth naming: the school's most rigorous thinker reaches us through people arguing against him.\n\nHis logic is a genuine rival to Aristotle's and was mistaken for a confused version of it until the twentieth century. Where Aristotle analyses arguments about terms, Chrysippus analyses arguments about whole propositions — if the first then the second, but the first, therefore the second — which is propositional logic, and it went unrecognised for two thousand years because Aristotle's had become the standard against which anything else looked deficient.\n\nHis hardest problem is the one every determinist inherits. If everything is fated, why blame anyone? His answer distinguishes the antecedent causes that come from outside from the nature of the thing they act on: a cylinder pushed rolls and a cone spins, and the push explains the movement while the shape explains which movement. Our assent to an impression is like the shape — caused, and ours. Whether that is a solution or a relabelling has been the argument ever since, and it is the same argument compatibilists are still having.",
+              "fa": "کریسیپوس همان دلیلی است که رواقی‌گری یک دستگاه است نه مجموعه‌ای از نگرش‌ها. داوری باستانیان این بود که بی او رواقی در کار نمی‌بود، و بیش از هفتصد کتاب به او نسبت داده‌اند که هیچ‌یک سالم نمانده. آنچه داریم نقل‌قول است، عمدتاً به دست مخالفان، و این خطری است که باید نامش را برد: سخت‌گیرترین اندیشمند این مکتب از راه کسانی به ما می‌رسد که علیه او استدلال می‌کردند.\n\nمنطق او رقیبی راستین برای منطق ارسطوست و تا سدهٔ بیستم روایتی آشفته از آن پنداشته می‌شد. آنجا که ارسطو استدلال‌های مبتنی بر حدود را تحلیل می‌کند، کریسیپوس استدلال‌های مبتنی بر گزاره‌های کامل را تحلیل می‌کند — اگر اولی پس دومی، اما اولی، پس دومی — و این منطق گزاره‌هاست، و دو هزار سال بازشناخته نشد چون منطق ارسطو معیاری شده بود که هر چیز دیگر در برابرش ناقص می‌نمود.\n\nدشوارترین مسئله‌اش همان است که هر جبرگرایی به ارث می‌برد. اگر همه‌چیز مقدر است، چرا کسی را سرزنش کنیم؟ پاسخش میان علل بیرونیِ مقدم و طبیعتِ چیزی که بر آن اثر می‌گذارند تمایز می‌نهد: استوانه را هل بدهی می‌غلتد و مخروط می‌چرخد، و آن هل حرکت را توضیح می‌دهد و شکل توضیح می‌دهد کدام حرکت. رضایتِ ما به یک انطباع مثل همان شکل است — معلول، و از آنِ ما. اینکه این راه‌حل است یا تغییر برچسب، از آن پس محل بحث بوده، و همان بحثی است که سازگارگرایان هنوز دارند."
+            }
           }
         ]
       },
@@ -4760,6 +4800,14 @@
               { "source": "text-consolation-of-philosophy", "locator": "V.6" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The Consolation was written in a cell while its author awaited execution on a charge of treason, and the circumstance is the argument's test case rather than its background. Philosophy appears as a woman, finds him writing self-pitying verse, and dismisses the Muses attending him as bad company for a sick man. What follows is a course of treatment, moving from the gentler remedies to the harder ones.\n\nFortune's wheel is the image the Middle Ages took from him and it is more astringent than its later decoration suggests. Fortune, given a voice, points out that she never promised otherwise: rising and falling is what she is, everyone who took the ascent accepted the terms, and a man complaining at the descent is complaining that a wheel is round. What she gave was never his, so nothing has been taken.\n\nThe book contains no Christian doctrine at all, which is remarkable in a work by a Christian awaiting death — no scripture, no redemption, no afterlife of the sort his other theological writings assume. Readers have argued about that silence for fifteen centuries: whether he was consoling himself with what reason alone could reach, whether the genre forbade it, or whether the faith had not survived the cell. It became one of the most translated books in Europe, by Alfred, by Chaucer, and by Elizabeth I.",
+              "fa": "«تسلای فلسفه» در سلولی نوشته شد که نویسنده‌اش در آن منتظر اعدام به اتهام خیانت بود، و این وضعیت آزمونِ خودِ استدلال است نه پس‌زمینهٔ آن. «فلسفه» چون زنی پدیدار می‌شود، او را در حال سرودن شعرِ خودترحم می‌یابد، و الهگان شعر را که گردش نشسته‌اند چون همنشینان بدی برای یک بیمار مرخص می‌کند. آنچه از پی می‌آید یک دورهٔ درمان است، از داروهای ملایم‌تر به سخت‌ترها.\n\nچرخ بخت تصویری است که قرون وسطا از او گرفت و گزنده‌تر از آن است که آرایه‌های بعدی می‌رسانند. به بخت که زبان داده می‌شود، یادآور می‌شود که هرگز جز این وعده نداده بود: بالا و پایین‌رفتن همان چیزی است که او هست، هر که صعود را پذیرفت شرایط را پذیرفته، و مردی که از فرود می‌نالد دارد می‌نالد که چرخ گرد است. آنچه داده بود هرگز از آنِ او نبود، پس چیزی گرفته نشده.\n\nاین کتاب هیچ آموزهٔ مسیحی در خود ندارد، و این در اثری از یک مسیحی در انتظار مرگ شگفت است — نه آیه‌ای، نه رستگاری‌ای، نه آن جهانِ پس از مرگی که نوشته‌های کلامیِ دیگرش مفروضش می‌گیرند. خوانندگان پانزده قرن است بر سر این سکوت بحث می‌کنند: اینکه آیا خود را با آنچه عقلِ تنها می‌توانست بدان برسد تسلی می‌داد، یا ژانر اجازه نمی‌داد، یا آن ایمان از سلول جان به در نبرده بود. این کتاب یکی از پرترجمه‌ترین کتاب‌های اروپا شد، به دست آلفرد، چاسر، و الیزابت اول."
+            }
           }
         ]
       },
@@ -4811,6 +4859,14 @@
               { "source": "text-fi-al-falsafa-al-ula" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Al-Kindī directed the translation movement in ninth-century Baghdad rather than doing all the translating, and the distinction matters — he was choosing what Arabic would receive, and revising the results against the arguments rather than against the Greek. The corpus he assembled is what al-Fārābī and Ibn Sīnā inherited already sorted, which is a form of authorship.\n\nThe choices had consequences nobody could have intended. A paraphrase of Plotinus circulated under the title Theology of Aristotle, and for five centuries Arabic philosophy read Aristotle as a Neoplatonist on that authority. Ibn Rushd was the first to say the attribution could not be right, and by then the misreading had built the systems he was arguing with.\n\nWhere al-Kindī differs from his successors is on the eternity of the world, and he is closer to the theologians than to the Greeks. Aristotle held the cosmos had no beginning; al-Kindī argued that an actual infinite cannot exist, so the world's duration must be finite, so it began. The argument was developed by the kalām tradition and reached Latin Europe under his influence. He also wrote on optics, medicine, pharmacology and music, and the frequency analysis he described for breaking ciphers is the earliest known anywhere.",
+              "fa": "کِندی نهضت ترجمه را در بغدادِ سدهٔ نهم هدایت می‌کرد نه اینکه همهٔ ترجمه‌ها را خود انجام دهد، و این تمایز مهم است — او برمی‌گزید که عربی چه چیز را دریافت کند، و نتیجه‌ها را در برابر استدلال‌ها بازبینی می‌کرد نه در برابر متن یونانی. آن پیکره‌ای که گرد آورد همان است که فارابی و ابن‌سینا از پیش مرتب‌شده به ارث بردند، و این خود نوعی مؤلف‌بودن است.\n\nاین انتخاب‌ها پیامدهایی داشت که کسی قصدشان را نکرده بود. بازنویسی‌ای از فلوطین زیر عنوان «اثولوجیای ارسطو» دست به دست شد، و پنج قرن فلسفهٔ عربی به اعتبار همین، ارسطو را نوافلاطونی خواند. ابن‌رشد نخستین کسی بود که گفت این انتساب نمی‌تواند درست باشد، و تا آن زمان همان بدخوانی، دستگاه‌هایی را ساخته بود که او با آن‌ها بحث می‌کرد.\n\nآنجا که کِندی با جانشینانش تفاوت دارد بر سر قدمِ عالم است، و به متکلمان نزدیک‌تر است تا به یونانیان. ارسطو می‌گفت جهان آغازی ندارد؛ کِندی گفت بی‌نهایتِ بالفعل نمی‌تواند باشد، پس مدت جهان باید متناهی باشد، پس آغاز داشته. این استدلال را سنت کلام بسط داد و زیر نفوذ او به اروپای لاتین رسید. دربارهٔ نورشناسی و پزشکی و داروشناسی و موسیقی هم نوشت، و تحلیل بسامدی که برای شکستن رمز وصف کرد کهن‌ترین نمونهٔ شناخته‌شده در هر جای جهان است."
+            }
           }
         ]
       },
@@ -5467,6 +5523,14 @@
               { "source": "text-mabahith-mashriqiyya" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Fakhr al-Dīn al-Rāzī is the most formidable critic Ibn Sīnā's system faced from inside the same technical vocabulary, and his commentary on the Pointers is famous for being an attack rather than an exposition — Ṭūsī's later commentary is largely a defence against it. He took the philosophers' arguments seriously enough to state them better than they had and then find where they did not close.\n\nHis method is to multiply the objections until the strongest survives, and his enormous Qur'anic commentary works the same way: a verse is followed by every question that could be raised about it, from grammarians, theologians, philosophers and astronomers, before an answer is attempted. Critics complained it contains everything except exegesis, which is a fair description and possibly the point.\n\nWhat he damaged most is the claim that reason alone can establish the specific structure Ibn Sīnā had built — the hierarchy of intellects, the necessary emanation of the world from the One. He argued that the demonstrations do not have the force claimed for them, that God's power is not constrained by the philosophers' necessities, and that several conclusions the falāsifa treated as proved are merely possible. That is closer to al-Ghazālī's project than to Ibn Sīnā's, executed with more technical apparatus, and it shaped the later Islamic theological tradition more than either.",
+              "fa": "فخر رازی نیرومندترین منتقدی است که دستگاه ابن‌سینا از درونِ همان واژگان فنی با آن روبه‌رو شد، و شرحش بر «اشارات» به این شهره است که حمله است نه شرح — و شرح بعدیِ خواجه نصیر عمدتاً دفاعی در برابر آن است. او استدلال‌های فیلسوفان را چنان جدی گرفت که بهتر از خودشان بیانشان کند و بعد بیابد کجا بسته نمی‌شوند.\n\nروشش این است که اعتراض‌ها را تکثیر کند تا قوی‌ترین باقی بماند، و تفسیر قرآنیِ عظیمش هم به همین شیوه کار می‌کند: پس از هر آیه هر پرسشی که می‌شد دربارهٔ آن طرح کرد می‌آید، از نحویان و متکلمان و فیلسوفان و منجمان، پیش از آنکه پاسخی کوشیده شود. منتقدان گلایه کردند که همه‌چیز در آن هست جز تفسیر، که وصف منصفانه‌ای است و شاید همان نکته باشد.\n\nآنچه بیش از همه آسیبش زد این ادعا بود که عقلِ تنها می‌تواند همان ساختار معینی را اثبات کند که ابن‌سینا ساخته بود — سلسله‌مراتب عقول، صدور ضروریِ جهان از واحد. گفت آن براهین نیرویی را که مدعی‌اند ندارند، که قدرت خدا به ضرورت‌های فیلسوفان مقید نیست، و چند نتیجه که فلاسفه مبرهن می‌دانستند صرفاً ممکن‌اند. این به پروژهٔ غزالی نزدیک‌تر است تا به ابن‌سینا، و با دستگاه فنیِ بیشتری اجرا شده، و سنت کلامیِ اسلامیِ بعدی را بیش از هر دو شکل داد."
+            }
           }
         ]
       },
@@ -6550,6 +6614,14 @@
               },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Bentham's project was to replace appeals to natural rights, common law tradition and moral sentiment with a single measurable question: does this increase or decrease the sum of pleasure over pain. He called natural rights nonsense upon stilts, and the contempt was aimed at a specific problem — that a right asserted without argument is a way of ending discussion rather than having it, and that the appeal was routinely made by whoever benefited from the arrangement in question.\n\nThe felicific calculus, with its intensity, duration, certainty, propinquity, fecundity, purity and extent, has been mocked since it was published and the mockery misses the point. Bentham did not think anyone would compute; he thought that if you cannot say even roughly what would make a proposal better or worse, you are not reasoning about it. Applied, it produced positions two centuries ahead of their reception: he argued against slavery, for the decriminalisation of homosexual acts, for animal welfare on the ground that the question is whether they can suffer, and for legal equality between the sexes.\n\nThe Panopticon is the part that has darkened his reputation, and he meant it as reform. A prison whose inmates cannot tell when they are observed needs fewer guards and less violence than one that governs by force, which he took to be a humane gain. Foucault took the same design as the emblem of a power that produces self-surveillance, and both readings are of the same drawings.",
+              "fa": "پروژهٔ بنتام این بود که توسل به حقوق طبیعی و سنت کامن‌لا و احساس اخلاقی را با یک پرسشِ سنجش‌پذیر جایگزین کند: آیا این جمعِ لذت منهای رنج را زیاد می‌کند یا کم. حقوق طبیعی را «مهملاتِ روی چوب‌پا» خواند، و این تحقیر مسئله‌ای معین را نشانه می‌رفت — اینکه حقی که بی‌استدلال ادعا شود راهی است برای پایان‌دادن به بحث نه انجام‌دادنش، و اینکه این توسل را معمولاً همان کسی می‌کرد که از ترتیب موجود سود می‌برد.\n\n«حسابِ سعادت»، با شدت و مدت و یقین و نزدیکی و باروری و خلوص و گستره‌اش، از همان انتشار مسخره شده و آن مسخره نکته را از دست می‌دهد. بنتام نمی‌پنداشت کسی محاسبه خواهد کرد؛ می‌پنداشت اگر نتوانی حتی به‌تقریب بگویی چه چیز یک پیشنهاد را بهتر یا بدتر می‌کند، داری دربارهٔ آن استدلال نمی‌کنی. به کار که بسته شد، مواضعی پدید آورد دو قرن جلوتر از پذیرششان: علیه برده‌داری، برای جرم‌زدایی از کنش‌های همجنس‌گرایانه، برای رفاه جانوران بر این پایه که پرسش این است که آیا می‌توانند رنج ببرند، و برای برابری حقوقی زن و مرد.\n\n«سراسربین» بخشی است که آوازه‌اش را تیره کرده، و او آن را اصلاح می‌دانست. زندانی که زندانیانش نمی‌توانند بدانند کِی تحت نظرند به نگهبانِ کمتر و خشونتِ کمتری نیاز دارد از زندانی که با زور اداره می‌شود، و او این را دستاوردی انسانی می‌گرفت. فوکو همان طرح را نشانِ قدرتی گرفت که خودپایی تولید می‌کند، و هر دو خوانش از روی یک نقشه‌اند."
+            }
           }
         ]
       },
@@ -6860,6 +6932,14 @@
               { "source": "text-structural-transformation" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Habermas's problem is one the Frankfurt School bequeathed him. If reason is compromised all the way down — if the Enlightenment carried domination inside it from the start — then the critique has nothing to stand on, and Adorno's answer was to keep writing in a way that refused to conclude. Habermas thought that was a dead end and looked for a use of reason that is not instrumental.\n\nHe found it, he argues, in communication itself. When two people genuinely try to reach understanding rather than to manoeuvre each other, they are already committed to standards they did not choose: that claims can be questioned, that the better argument should decide, that nobody competent is excluded. These are counterfactual — no actual discussion meets them — but they are presupposed by the attempt, so they can be used to criticise the discussions we have.\n\nThe historical work is where this is most concrete. The Structural Transformation of the Public Sphere traces the emergence of coffee-house and newspaper publics in which private people reasoned about common matters, and then their absorption by mass media and organised interest, which turns a discussing public into a consuming one. The account has been criticised for idealising a sphere that excluded women and the propertyless, which Habermas has largely accepted while arguing the norm it made available outran the people who first used it.",
+              "fa": "مسئلهٔ هابرماس همان است که مکتب فرانکفورت برایش بر جای گذاشت. اگر عقل تا آخرین لایه آلوده باشد — اگر روشنگری سلطه را از آغاز در خود داشته — آنگاه آن نقد چیزی برای ایستادن ندارد، و پاسخ آدورنو این بود که به شیوه‌ای بنویسد که از نتیجه‌گرفتن سر باز می‌زند. هابرماس این را بن‌بست دانست و در پی کاربردی از عقل گشت که ابزاری نباشد.\n\nمی‌گوید آن را در خودِ ارتباط یافت. وقتی دو نفر به‌راستی می‌کوشند به تفاهم برسند نه اینکه یکدیگر را دور بزنند، پیشاپیش به معیارهایی ملتزم‌اند که برنگزیده‌اند: اینکه ادعاها را می‌توان به پرسش گرفت، اینکه استدلال بهتر باید تعیین‌کننده باشد، اینکه هیچ صاحب‌صلاحیتی کنار گذاشته نشود. این‌ها خلافِ واقع‌اند — هیچ گفت‌وگوی واقعی به آن‌ها نمی‌رسد — اما خودِ آن کوشش مفروضشان می‌گیرد، پس می‌توان با آن‌ها گفت‌وگوهایی را که داریم نقد کرد.\n\nکار تاریخی جایی است که این ملموس‌ترین است. «دگرگونی ساختاری حوزهٔ عمومی» پیدایش عرصه‌های قهوه‌خانه و روزنامه را پی می‌گیرد که در آن‌ها افراد خصوصی دربارهٔ امور مشترک استدلال می‌کردند، و سپس بلعیده‌شدنشان به دست رسانهٔ انبوه و منافع سازمان‌یافته را، که مردمِ بحث‌کننده را به مردمِ مصرف‌کننده بدل می‌کند. این روایت به آرمانی‌کردنِ عرصه‌ای نقد شده که زنان و بی‌چیزان را بیرون می‌گذاشت، و هابرماس این را عمدتاً پذیرفته و در همان حال گفته آن هنجاری که این عرصه در دسترس گذاشت از کسانی که نخست به کارش بردند فراتر رفت."
+            }
           }
         ]
       },
@@ -7514,6 +7594,14 @@
               { "source": "text-bodies-that-matter" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Gender Trouble's argument runs against a distinction feminism had relied on. Sex was supposed to be the biological given and gender the cultural overlay, which lets you criticise the overlay while leaving the given alone. Butler asks what work 'given' is doing: the categories through which a body is read as male or female are themselves cultural, applied at birth by someone with a chart, so the supposedly pre-cultural layer is reached only through the cultural one.\n\nPerformativity is the constructive half and is not about pretending. Austin had noticed that some utterances do rather than describe — a verdict, a promise, a naming — and Butler applies this to identity: gender is not an inner state that behaviour expresses but is constituted by acts read as expressing it, with the appearance of an interior fact as the residue of repetition rather than its cause.\n\nThe misreading she has spent thirty years correcting is that this makes gender voluntary, a costume selected each morning. Her position is nearly the reverse. The script precedes anyone performing it, the repetition is compelled, the penalties for departure are material and sometimes fatal — and that is exactly why the analysis matters, since it explains how something so heavily enforced can nonetheless vary across history. Her later work on precarity and grievability applies the same question to whose deaths a public registers as losses.",
+              "fa": "استدلال «آشفتگی جنسیتی» علیه تمایزی می‌رود که فمینیسم به آن تکیه کرده بود. قرار بود «جنس» دادهٔ زیستی باشد و «جنسیت» روکشی فرهنگی، و این می‌گذارد آن روکش را نقد کنی و آن داده را دست‌نخورده بگذاری. باتلر می‌پرسد واژهٔ «داده» چه کاری می‌کند: مقولاتی که یک تن از خلال آن‌ها مذکر یا مؤنث خوانده می‌شود خود فرهنگی‌اند و در بدو تولد به دست کسی با یک برگه اعمال می‌شوند، پس آن لایهٔ به‌ظاهر پیشافرهنگی تنها از راه لایهٔ فرهنگی در دسترس است.\n\n«اجراگری» نیمهٔ سازنده است و دربارهٔ وانمودکردن نیست. آستین دیده بود که برخی گفته‌ها به‌جای وصف‌کردن، انجام می‌دهند — یک حکم، یک وعده، یک نام‌گذاری — و باتلر این را بر هویت به کار می‌بندد: جنسیت حالتی درونی نیست که رفتار بیانش کند بلکه با کنش‌هایی برساخته می‌شود که چون بیانِ آن خوانده می‌شوند، و نمودِ آن واقعیت درونی ته‌ماندهٔ تکرار است نه علتش.\n\nبدخوانی‌ای که سی سال است تصحیحش می‌کند این است که گویا جنسیت را اختیاری می‌کند، جامه‌ای که هر بامداد برمی‌گزینی. موضع او تقریباً وارونهٔ این است. متن پیش از هر اجراکننده‌ای هست، تکرار اجباری است، و کیفرِ عدول مادی و گاه کشنده است — و دقیقاً به همین سبب این تحلیل اهمیت دارد، چون توضیح می‌دهد چگونه چیزی چنین سخت اجراشده می‌تواند در تاریخ تغییر کند. کار متأخر او دربارهٔ ناایمنی و «سوگ‌پذیری» همین پرسش را بر این به کار می‌بندد که یک جامعه مرگ چه کسانی را فقدان به شمار می‌آورد."
+            }
           }
         ]
       },
@@ -7956,6 +8044,14 @@
               { "source": "text-gandhi-autobiography" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Satyāgraha is built from satya, truth, and āgraha, holding firmly, and Gandhi coined it because 'passive resistance' described neither the activity nor the point. The mechanism is not moral appeal but cost: a state governs by a consent it has stopped noticing, and withdrawing that consent from its courts, its cloth and its salt forces the machinery to be operated by visible force, which is expensive and hard to justify. Accepting the punishment is what makes the refusal legible as principle rather than as evasion.\n\nHe insisted this was a duty and not a tactic — non-cooperation with evil is as much a duty as cooperation with good — and the distinction matters, because a tactic is abandoned when it stops working and a duty is not. The standing objection is what happens against an opponent indifferent to how it looks, and Gandhi's answer is about the actor rather than the outcome: the alternative corrupts the person who uses it.\n\nThe record is not clean and the philosophy is better served by saying so. His writings from South Africa contain contemptuous language about Africans that he never fully repudiated. His position on caste shifted late and under pressure, and Ambedkar's charge — that a man who would not attack the institution itself was defending it — has never been answered to the satisfaction of those it concerns. Hind Swaraj rejects industrial civilisation wholesale in terms most of his own followers quietly abandoned.",
+              "fa": "«ساتیاگْرَهه» از «ساتیه» (حقیقت) و «آگرَهه» (سخت‌گرفتن) ساخته شده، و گاندی آن را ساخت چون «مقاومت منفی» نه فعالیت را وصف می‌کرد و نه نکته را. سازوکارش توسل اخلاقی نیست بلکه هزینه است: دولت با رضایتی حکم می‌راند که دیگر متوجهش نیست، و پس‌گرفتن آن رضایت از دادگاه‌ها و پارچه و نمکش، چرخ را وامی‌دارد با زورِ دیدنی بچرخد، که هم پرهزینه است و هم توجیهش دشوار. پذیرفتن کیفر همان است که سرباززدن را چون یک اصل خوانا می‌کند نه چون طفره.\n\nپافشاری داشت که این وظیفه است نه تاکتیک — ناهمکاری با شر به همان اندازه وظیفه است که همکاری با خیر — و این تمایز مهم است، چون تاکتیک را وقتی کار نکند وامی‌نهند و وظیفه را نه. اعتراض همیشگی این است که در برابر حریفی بی‌اعتنا به ظاهر کار چه پیش می‌آید، و پاسخ گاندی دربارهٔ کنشگر است نه نتیجه: بدیلش کسی را که به کارش می‌برد فاسد می‌کند.\n\nپرونده پاکیزه نیست و صادقانه‌گفتنش به این فلسفه بیشتر خدمت می‌کند. نوشته‌هایش از آفریقای جنوبی زبانی تحقیرآمیز دربارهٔ آفریقایی‌ها دارد که هرگز به‌تمامی از آن تبری نجست. موضعش دربارهٔ کاست دیر و زیر فشار تغییر کرد، و اتهام آمبدکار — که مردی که حاضر نبود به خودِ آن نهاد بتازد داشت از آن دفاع می‌کرد — هرگز به رضایت کسانی که موضوع آن‌اند پاسخ نگرفت. «هند سوراج» تمدن صنعتی را یکجا رد می‌کند، با عباراتی که بیشتر پیروان خودش در سکوت وانهادند."
+            }
           }
         ]
       },
@@ -8006,6 +8102,14 @@
               { "source": "text-buddha-and-his-dhamma" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Annihilation of Caste was written as a speech and never delivered — the organisation that invited him withdrew the invitation after reading it, and Ambedkar published it himself with the correspondence attached, which is itself part of the argument. Its claim is that caste is not a division of labour but a division of labourers, hierarchically ranked and fixed at birth, and that reform of its practices leaves the thing intact.\n\nThe demand that follows is what made it unpublishable. If caste rests on religious sanction, then attacking untouchability while leaving the scriptures authoritative is treating a symptom; the texts themselves must lose their standing. He addresses the point at which most reformers stop and keeps going past it, and his exchange with Gandhi appended to the second edition is the clearest statement of what divides a reformer from an abolitionist.\n\nAs chair of the drafting committee he wrote constitutional protections into a document for a society whose majority did not want them, and he said in the closing debate that a political democracy laid on top of a social hierarchy would not survive on contradiction alone. In 1956, months before his death, he converted to Buddhism with several hundred thousand followers, having concluded that a tradition without a caste order was the exit — and having chosen, deliberately, an Indian one.",
+              "fa": "«نابودی کاست» چون یک سخنرانی نوشته شد و هرگز ایراد نشد — سازمانی که دعوتش کرده بود پس از خواندن متن دعوت را پس گرفت، و آمبدکار خودش آن را همراه با نامه‌ها منتشر کرد، و همین خود بخشی از استدلال است. ادعایش این است که کاست تقسیم کار نیست بلکه تقسیمِ کارگران است، مرتبه‌بندی‌شده و در بدو تولد تثبیت‌شده، و اصلاحِ رویه‌هایش خودِ آن چیز را دست‌نخورده می‌گذارد.\n\nمطالبه‌ای که از پی می‌آید همان است که کتاب را چاپ‌ناپذیر کرد. اگر کاست بر تأیید دینی استوار است، پس تاختن به نجس‌انگاری در حالی که متون مقدس معتبر می‌مانند، درمانِ نشانه است؛ خودِ آن متون باید اعتبارشان را از دست بدهند. او به همان نقطه‌ای می‌رسد که بیشتر اصلاح‌طلبان می‌ایستند و از آن می‌گذرد، و مکاتبه‌اش با گاندی که در ویرایش دوم پیوست شده روشن‌ترین بیانِ آن چیزی است که اصلاح‌طلب را از الغاگرا جدا می‌کند.\n\nچون رئیس کمیتهٔ تدوین، حمایت‌های قانون اساسی را در سندی نوشت برای جامعه‌ای که اکثریتش آن‌ها را نمی‌خواست، و در مناظرهٔ پایانی گفت دموکراسیِ سیاسی که بر سلسله‌مراتبی اجتماعی نهاده شود تنها با تناقض دوام نمی‌آورد. در ۱۹۵۶، چند ماه پیش از مرگش، همراه چند صد هزار پیرو به بودیسم گروید، چون نتیجه گرفته بود سنتی بدون نظام کاست همان راهِ خروج است — و عمداً سنتی هندی را برگزید."
+            }
           }
         ]
       },
@@ -8155,6 +8259,14 @@
               { "source": "text-cahier" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Discourse on Colonialism is a short book with one argument delivered from several angles: that colonisation decivilises the coloniser. A nation that habituates itself to conquest, to racial contempt and to administering people as material acquires those habits, and cannot then be surprised when they are turned inward. Césaire's most damaging sentence is that what Europe could not forgive Hitler was not the crime itself but the fact that it was applied to Europeans, with methods Europe had used elsewhere for centuries.\n\nThe method is the equation: he sets colonial atrocity beside European self-description and lets the two sit. There is no theory of history, no programme, and the effect depends on refusing to convert the material into a system — a system would have offered a place to argue rather than an accusation to answer.\n\nHe was a poet before he was a polemicist, and Notebook of a Return to the Native Land does the same work in a form that resists summary. He also spent decades as a deputy and as mayor of Fort-de-France, and shepherded the 1946 law making Martinique a French department — a position his student Fanon regarded as accommodation and which Césaire defended as the achievable improvement in front of him. The two of them left the argument unresolved, and it is still the argument in Caribbean political thought.",
+              "fa": "«گفتار دربارهٔ استعمار» کتابی کوتاه است با یک استدلال که از چند زاویه عرضه می‌شود: اینکه استعمار، استعمارگر را از تمدن تهی می‌کند. ملتی که خود را به فتح و به تحقیر نژادی و به ادارهٔ آدمیان چون ماده عادت می‌دهد، همین خوی‌ها را کسب می‌کند، و بعد نمی‌تواند شگفت‌زده شود که به درون بازگردانده شده‌اند. ویرانگرترین جملهٔ سزر این است که آنچه اروپا بر هیتلر نبخشید خودِ آن جنایت نبود بلکه این بود که بر اروپاییان اعمال شد، با روش‌هایی که اروپا قرن‌ها در جاهای دیگر به کار برده بود.\n\nروشش همان معادله است: فجایع استعماری را کنار خودتوصیفیِ اروپایی می‌گذارد و می‌گذارد این دو کنار هم بنشینند. نه نظریه‌ای از تاریخ در کار است، نه برنامه‌ای، و اثرش به همین بستگی دارد که از تبدیل این مواد به یک دستگاه سر باز می‌زند — دستگاه، به‌جای اتهامی که باید پاسخ داده شود، جایی برای بحث عرضه می‌کرد.\n\nپیش از آنکه جدلی‌نویس باشد شاعر بود، و «دفتر بازگشت به زادبوم» همان کار را در قالبی می‌کند که در برابر خلاصه‌شدن مقاومت می‌کند. دهه‌ها هم نمایندهٔ مجلس و شهردار فور-دو-فرانس بود، و قانون ۱۹۴۶ را پیش برد که مارتینیک را به یکی از استان‌های فرانسه بدل کرد — موضعی که شاگردش فانون سازش می‌دانست و سزر آن را بهبودِ دست‌یافتنیِ پیشِ رو می‌خواند. این دو آن بحث را ناحل‌شده گذاشتند، و هنوز همان بحثِ اندیشهٔ سیاسیِ کارائیب است."
+            }
           }
         ]
       },
@@ -8207,6 +8319,14 @@
               { "source": "sep" }
             ],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Senghor's Négritude asserts a distinctively African way of being in the world, and the single line that made him famous is the same line that left him exposed — the one pairing feeling with his own continent and analysis with Greece. Read as it is usually quoted, it concedes the colonial hierarchy and reverses its valuation — which is precisely Fanon's objection, and Sartre's, and that of a generation of anglophone African philosophers after him.\n\nHis defence, which he made repeatedly and which is rarely quoted alongside the slogan, is that he was denying that discursive reason is the only kind. What he calls intuitive or participatory knowing — apprehending a thing by entering into it rather than by holding it at a distance — he presents as a mode of knowledge with its own rigour, and he took the European tradition to have narrowed itself by discarding it. Whether that reframing rescues the original sentence is the question the literature has not settled.\n\nHe was also, for twenty years, president of Senegal, and the philosophy has to be read with that. He argued for a socialism adapted to African communal life rather than imported, and for the French language as an inheritance to be used rather than refused. He resigned voluntarily in 1980, which almost none of his contemporaries did, and was elected to the Académie française. His critics say the accommodations show in the theory; his defenders say the theory was always about synthesis, and that he practised what it recommended.",
+              "fa": "نگریتودِ سنگور شیوه‌ای متمایز از بودن در جهان را به آفریقا نسبت می‌دهد، و همان فرمولی که مشهورش کرد آسیب‌پذیرش هم کرد: اینکه احساس آفریقایی است چنان‌که عقل یونانی است. اگر همان‌گونه که معمولاً نقل می‌شود خوانده شود، سلسله‌مراتب استعماری را می‌پذیرد و تنها ارزش‌گذاری‌اش را وارونه می‌کند — و اعتراض فانون دقیقاً همین است، و اعتراض سارتر، و اعتراض نسلی از فیلسوفان آفریقاییِ انگلیسی‌زبان پس از او.\n\nدفاع او، که بارها کرد و به‌ندرت کنار آن شعار نقل می‌شود، این است که داشت انکار می‌کرد که عقلِ گفتاری تنها نوع عقل باشد. آنچه دانستنِ شهودی یا مشارکتی می‌نامد — دریافتنِ چیزی با درآمدن در آن به‌جای نگه‌داشتنش در فاصله — را چون شیوه‌ای از معرفت با سخت‌گیریِ خاص خود عرضه می‌کند، و می‌پنداشت سنت اروپایی با کنارگذاشتنش خود را تنگ کرده. اینکه آیا این بازقاب‌بندی آن جملهٔ نخستین را نجات می‌دهد، پرسشی است که این ادبیات حلش نکرده.\n\nاو بیست سال رئیس‌جمهور سنگال هم بود، و فلسفه را باید با این خواند. از سوسیالیسمی دفاع کرد که با زندگی اشتراکیِ آفریقایی سازگار باشد نه وارداتی، و از زبان فرانسه چون میراثی که باید به کار گرفته شود نه ردش کرد. در ۱۹۸۰ داوطلبانه کناره گرفت، که تقریباً هیچ‌یک از هم‌روزگارانش نکردند، و به فرهنگستان فرانسه راه یافت. منتقدانش می‌گویند آن سازش‌ها در نظریه پیداست؛ مدافعانش می‌گویند نظریه همیشه دربارهٔ ترکیب بود، و او همان را که توصیه می‌کرد عمل کرد."
+            }
           }
         ]
       },
@@ -8541,6 +8661,14 @@
               { "source": "text-pedagogy-of-the-oppressed" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Freire's banking metaphor names a model rather than mocking teachers. In it, knowledge is a quantity possessed by one party and deposited in another, the learner's own experience is irrelevant to the transaction, and the arrangement teaches something beyond its content — that the world is described by others and received by you. He argues this is not a bad method for delivering literacy but a good method for delivering passivity, and that it works.\n\nHis alternative starts from generative words: terms drawn from the learners' own circumstances — well, wage, land — which are simultaneously phonetic material and topics with something at stake. Learning to write 'land' while discussing who owns it makes literacy and analysis one activity, which is also why the programme was regarded as political. He was imprisoned after the 1964 coup and spent fifteen years in exile.\n\nThe part most often skipped is his warning about his own method. He says explicitly that a teacher who arrives with the answer the learners are supposed to reach has reproduced the banking model with better manners, and that the temptation is strongest among people who are certain they are on the right side. Whether the pedagogy can survive practitioners who ignore that warning is the standing question, and the classroom version that keeps the dialogue while pre-deciding the conclusion is common enough to be worth naming.",
+              "fa": "استعارهٔ بانکیِ فریره یک مدل را نام می‌برد نه اینکه معلمان را دست بیندازد. در آن، دانش کمیتی است که یک طرف دارد و در دیگری سپرده می‌شود، تجربهٔ خودِ فراگیر به این معامله ربطی ندارد، و این ترتیب چیزی فراتر از محتوایش می‌آموزد — اینکه جهان را دیگران وصف می‌کنند و تو دریافتش می‌کنی. می‌گوید این روشِ بدی برای رساندنِ سواد نیست بلکه روشِ خوبی برای رساندنِ انفعال است، و کار می‌کند.\n\nبدیل او از «واژه‌های زایا» آغاز می‌کند: اصطلاحاتی برگرفته از اوضاع خودِ فراگیران — چاه، دستمزد، زمین — که هم‌زمان مادهٔ آوایی‌اند و موضوعاتی که چیزی در آن‌ها در گرو است. آموختنِ نوشتنِ «زمین» در حین بحث دربارهٔ اینکه از آنِ کیست، سواد و تحلیل را یک فعالیت می‌کند، و به همین سبب هم این برنامه سیاسی شمرده شد. پس از کودتای ۱۹۶۴ زندانی شد و پانزده سال در تبعید گذراند.\n\nبخشی که بیش از همه از رویش می‌پرند هشدار او دربارهٔ روش خودش است. صریح می‌گوید معلمی که با پاسخی می‌آید که قرار است فراگیران به آن برسند، همان مدل بانکی را با ادب بهتر بازتولید کرده، و این وسوسه در میان کسانی قوی‌ترین است که یقین دارند در سمت درست ایستاده‌اند. اینکه آیا این آموزش‌شناسی از دست مجریانی که آن هشدار را نادیده می‌گیرند جان به در می‌برد، پرسش همیشگی است، و آن روایت کلاسی که گفت‌وگو را نگه می‌دارد و نتیجه را از پیش تعیین می‌کند به‌قدر کافی رایج هست که نام‌بردنش بیرزد."
+            }
           }
         ]
       },
