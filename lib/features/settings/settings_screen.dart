@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
+import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
@@ -36,49 +38,41 @@ class SettingsScreen extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   _GroupLabel(text: l10n.settingsLanguage),
-                  RadioGroup<AppLanguage?>(
-                    groupValue: settings.language,
+                  _ChoicePanel<AppLanguage?>(
+                    selected: settings.language,
                     onChanged: controller.setLanguage,
-                    child: Column(
-                      children: <Widget>[
-                        RadioListTile<AppLanguage?>(
-                          value: null,
-                          title: Text(l10n.settingsThemeSystem),
-                        ),
-                        for (final option in AppLanguage.values)
-                          RadioListTile<AppLanguage?>(
-                            value: option,
-                            // Each language is named in itself, so a reader who
-                            // has landed in the wrong one can still read the
-                            // way out.
-                            title: Text(option.endonym),
-                          ),
-                      ],
-                    ),
+                    options: <_Choice<AppLanguage?>>[
+                      _Choice(value: null, label: l10n.settingsThemeSystem),
+                      // Each language is named in itself, so a reader who has
+                      // landed in the wrong one can still read the way out.
+                      for (final option in AppLanguage.values)
+                        _Choice(value: option, label: option.endonym),
+                    ],
                   ),
 
                   _GroupLabel(text: l10n.settingsTheme),
-                  RadioGroup<ThemeMode>(
-                    groupValue: settings.themeMode,
+                  _ChoicePanel<ThemeMode>(
+                    selected: settings.themeMode,
                     onChanged: (mode) {
                       if (mode != null) controller.setThemeMode(mode);
                     },
-                    child: Column(
-                      children: <Widget>[
-                        RadioListTile<ThemeMode>(
-                          value: ThemeMode.system,
-                          title: Text(l10n.settingsThemeSystem),
-                        ),
-                        RadioListTile<ThemeMode>(
-                          value: ThemeMode.light,
-                          title: Text(l10n.settingsThemeLight),
-                        ),
-                        RadioListTile<ThemeMode>(
-                          value: ThemeMode.dark,
-                          title: Text(l10n.settingsThemeDark),
-                        ),
-                      ],
-                    ),
+                    options: <_Choice<ThemeMode>>[
+                      _Choice(
+                        value: ThemeMode.system,
+                        label: l10n.settingsThemeSystem,
+                        icon: Icons.brightness_auto_outlined,
+                      ),
+                      _Choice(
+                        value: ThemeMode.light,
+                        label: l10n.settingsThemeLight,
+                        icon: Icons.light_mode_outlined,
+                      ),
+                      _Choice(
+                        value: ThemeMode.dark,
+                        label: l10n.settingsThemeDark,
+                        icon: Icons.dark_mode_outlined,
+                      ),
+                    ],
                   ),
 
                   _GroupLabel(text: l10n.settingsReadingLevel),
@@ -92,26 +86,20 @@ class SettingsScreen extends ConsumerWidget {
                     ),
                   ),
                   const SizedBox(height: Spacing.sm),
-                  RadioGroup<LearningLevel>(
-                    groupValue: settings.readingLevel,
+                  _ChoicePanel<LearningLevel>(
+                    selected: settings.readingLevel,
                     onChanged: (level) {
                       if (level != null) controller.setReadingLevel(level);
                     },
-                    child: Column(
-                      children: <Widget>[
-                        for (final level in LearningLevel.values)
-                          RadioListTile<LearningLevel>(
-                            value: level,
-                            title: Text(
-                              TaxonomyLabels.level(level).resolve(language),
-                            ),
-                            subtitle: Text(
-                              TaxonomyLabels.depth(level.defaultDepth)
-                                  .resolve(language),
-                            ),
-                          ),
-                      ],
-                    ),
+                    options: <_Choice<LearningLevel>>[
+                      for (final level in LearningLevel.values)
+                        _Choice(
+                          value: level,
+                          label: TaxonomyLabels.level(level).resolve(language),
+                          detail: TaxonomyLabels.depth(level.defaultDepth)
+                              .resolve(language),
+                        ),
+                    ],
                   ),
 
                   _GroupLabel(text: l10n.navLibrary),
@@ -191,6 +179,179 @@ Future<void> _confirmClear(BuildContext context, WidgetRef ref) async {
   messenger.showSnackBar(
     SnackBar(content: Text(cleared ? l10n.clearLibraryDone : l10n.saveFailed)),
   );
+}
+
+/// One option inside a [_ChoicePanel].
+class _Choice<T> {
+  const _Choice({
+    required this.value,
+    required this.label,
+    this.detail,
+    this.icon,
+  });
+
+  final T value;
+  final String label;
+
+  /// A second line, for a choice whose name does not explain itself.
+  final String? detail;
+
+  final IconData? icon;
+}
+
+/// A group of mutually exclusive settings, drawn the way the rest of the app
+/// draws things.
+///
+/// ## Why not `RadioListTile`
+///
+/// Because it was the one screen that did not look like the product. Every
+/// other surface here is a glass panel with a hairline and a lit accent;
+/// Settings was a column of bare Material radios on a flat background, which is
+/// what a form looks like before anyone has designed it.
+///
+/// The selection is shown three times over — an ember wash, a hairline in the
+/// accent, and a bloom underneath — because that is how selection reads
+/// everywhere else in the app, on the navigation pill and on the depth control.
+/// A reader should not have to learn a second visual language for the settings
+/// screen.
+///
+/// The radio itself stays. It is what makes the group announce itself as "one
+/// of four, second selected" to a screen reader, and a row of tappable
+/// rectangles does not.
+class _ChoicePanel<T> extends StatelessWidget {
+  const _ChoicePanel({
+    required this.options,
+    required this.selected,
+    required this.onChanged,
+  });
+
+  final List<_Choice<T>> options;
+  final T selected;
+  final ValueChanged<T?> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: Spacing.lg),
+      child: GlassPanel(
+        padding: const EdgeInsets.all(Spacing.xs),
+        child: RadioGroup<T>(
+          groupValue: selected,
+          onChanged: onChanged,
+          child: Column(
+            children: <Widget>[
+              for (final option in options)
+                _ChoiceRow<T>(
+                  option: option,
+                  selected: option.value == selected,
+                  onTap: () => onChanged(option.value),
+                  theme: theme,
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ChoiceRow<T> extends StatelessWidget {
+  const _ChoiceRow({
+    required this.option,
+    required this.selected,
+    required this.onTap,
+    required this.theme,
+  });
+
+  final _Choice<T> option;
+  final bool selected;
+  final VoidCallback onTap;
+  final ThemeData theme;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = theme.colorScheme;
+    final detail = option.detail;
+    final icon = option.icon;
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: Spacing.xxs),
+      child: AnimatedContainer(
+        duration: Motion.duration(context, MotionTokens.quick),
+        curve: MotionTokens.standard,
+        decoration: BoxDecoration(
+          borderRadius: Radii.cardRadius,
+          color: selected
+              ? scheme.primary.withValues(alpha: 0.12)
+              : Colors.transparent,
+          border: Border.all(
+            color: selected
+                ? scheme.primary.withValues(alpha: 0.42)
+                : Colors.transparent,
+          ),
+          boxShadow: selected
+              ? Glass.glow(scheme.primary, strength: 0.45)
+              : null,
+        ),
+        child: Material(
+          color: Colors.transparent,
+          child: InkWell(
+            onTap: onTap,
+            borderRadius: Radii.cardRadius,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: Spacing.md,
+                vertical: Spacing.sm,
+              ),
+              child: Row(
+                children: <Widget>[
+                  // Excluded from semantics: the radio below already announces
+                  // the state, and a screen reader that says "selected" twice
+                  // for one row is worse than one that says it once.
+                  ExcludeSemantics(child: Radio<T>(value: option.value)),
+                  if (icon != null) ...<Widget>[
+                    Icon(
+                      icon,
+                      size: 18,
+                      color: selected
+                          ? scheme.primary
+                          : scheme.onSurfaceVariant,
+                    ),
+                    const SizedBox(width: Spacing.sm),
+                  ],
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text(
+                          option.label,
+                          style: theme.textTheme.bodyLarge?.copyWith(
+                            color: scheme.onSurface,
+                            fontWeight: selected
+                                ? FontWeight.w600
+                                : FontWeight.w400,
+                          ),
+                        ),
+                        if (detail != null)
+                          Text(
+                            detail,
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: scheme.onSurfaceVariant,
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 class _GroupLabel extends StatelessWidget {
