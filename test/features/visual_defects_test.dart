@@ -237,4 +237,55 @@ void main() {
       );
     });
   });
+  group('A screen whose body runs behind its app bar', () {
+    // `extendBodyBehindAppBar` lets the canvas show through the bar. It also
+    // adds the bar's height to the body's own `MediaQuery.padding.top`, so a
+    // `SafeArea` in the body already clears it. Both screens that use it also
+    // added `kToolbarHeight` by hand, and the second inset was pure dead
+    // space: 83 pixels between the glossary's title and its first line, on a
+    // screen whose whole job is to be scanned.
+    //
+    // The bound is one toolbar height rather than a tuned number, because the
+    // defect is exactly "the inset was applied twice" and that is what this
+    // says.
+    for (final screen in const <String, String>{
+      'the glossary': '/glossary',
+      'the primer': '/start',
+    }.entries) {
+      testWidgets('${screen.key} starts its content just below the bar', (
+        tester,
+      ) async {
+        await pump(tester, screen.value);
+
+        final bar = tester.getRect(find.byType(AppBar));
+
+        // The topmost text that is not the bar's own title. Taking "the second
+        // `Text` in the tree" instead found something 210 pixels down the page,
+        // which would have let this pass at any inset at all.
+        final inBar = find
+            .descendant(of: find.byType(AppBar), matching: find.byType(Text))
+            .evaluate()
+            .toSet();
+        final first = find
+            .byType(Text)
+            .evaluate()
+            .where((element) => !inBar.contains(element))
+            .map((element) => tester.getRect(find.byWidget(element.widget)).top)
+            .reduce((a, b) => a < b ? a : b);
+
+        expect(
+          first,
+          greaterThanOrEqualTo(bar.bottom),
+          reason: 'content is hidden behind the app bar',
+        );
+        expect(
+          first - bar.bottom,
+          lessThan(kToolbarHeight),
+          reason:
+              'content starts ${first - bar.bottom} below the bar — the bar '
+              'height looks like it has been added twice',
+        );
+      });
+    }
+  });
 }

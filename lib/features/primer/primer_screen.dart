@@ -72,12 +72,14 @@ class PrimerScreen extends ConsumerWidget {
     return SafeArea(
       child: ContentColumn(
         child: ListView.builder(
-          // The body runs behind the bar, so the list has to start below it.
-          // `SafeArea` clears the status bar and knows nothing about the app
-          // bar above it.
+          // `Spacing.md`, not `kToolbarHeight + Spacing.md`. A `Scaffold`
+          // with `extendBodyBehindAppBar` adds the bar's height to the body's
+          // own top padding, so the `SafeArea` above already clears it —
+          // adding it again put 56 pixels of nothing between the title and
+          // the first line.
           padding: EdgeInsets.fromLTRB(
             ResponsiveLayout.gutterFor(context),
-            kToolbarHeight + Spacing.md,
+            Spacing.md,
             ResponsiveLayout.gutterFor(context),
             Spacing.xxxl,
           ),
