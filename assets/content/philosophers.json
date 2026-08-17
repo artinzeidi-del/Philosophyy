@@ -107,16 +107,15 @@
           },
           {
             "id": "cave",
-            "heading": {
-              "en": "The Cave",
-              "fa": "غار"
-            },
+            "heading": { "en": "The Cave", "fa": "غار" },
             "depth": "standard",
             "body": {
               "en": "In the Republic Plato asks us to imagine prisoners chained facing a wall, who have seen nothing but shadows cast on it and take those shadows for the whole world. One is freed, turns around, and eventually walks out into the sun. The image is doing several jobs at once: it is a claim about knowledge, a claim about what education actually is, and a warning about what happens to the person who returns and tries to explain.",
               "fa": "در «جمهوری»، افلاطون از ما می‌خواهد زندانیانی را تصور کنیم که رو به دیواری در زنجیرند، چیزی جز سایه‌های افتاده بر آن ندیده‌اند و همان سایه‌ها را تمام جهان می‌پندارند. یکی آزاد می‌شود، برمی‌گردد، و سرانجام به آفتاب بیرون می‌رود. این تصویر هم‌زمان چند کار می‌کند: ادعایی است دربارهٔ معرفت، ادعایی است دربارهٔ اینکه آموزش به‌راستی چیست، و هشداری است دربارهٔ سرنوشت کسی که بازمی‌گردد و می‌کوشد توضیح دهد."
             },
-            "citations": [{ "source": "plato-republic", "locator": "514a–520a" }]
+            "citations": [
+              { "source": "plato-republic", "locator": "514a–520a" }
+            ]
           },
           {
             "id": "politics",
@@ -175,10 +174,7 @@
           },
           {
             "id": "break-with-plato",
-            "heading": {
-              "en": "The break with Plato",
-              "fa": "گسست از افلاطون"
-            },
+            "heading": { "en": "The break with Plato", "fa": "گسست از افلاطون" },
             "depth": "standard",
             "body": {
               "en": "Aristotle's central objection to the Forms is that separating them from things makes them useless. If what makes this horse a horse is a Form standing outside all horses, nothing has been explained — the question of how the two connect simply replaces the question we started with. His alternative is that form is in the thing: what makes a horse a horse is its organisation, not a copy of something elsewhere.",
@@ -205,6 +201,14 @@
                 "locator": "1098a, 1103a"
               }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The four causes are usually taught as a list and are better understood as four different questions that a complete explanation has to answer. What is it made of, what shape or organisation does it have, what set it going, and what is it for. Modern science kept the first three and dropped the fourth, and the argument about whether that was a gain has never quite stopped — biology in particular keeps reaching for functional language it cannot easily paraphrase away.\n\nHis logic held for two thousand years and its limits are as instructive as its reach. The syllogism handles arguments about terms and cannot handle relations: 'every horse is an animal, therefore every horse's head is an animal's head' is valid and unprovable in it, a gap Frege closed in 1879 and nobody had closed before. That is not a small failure — it means the tradition's formal apparatus could not represent much of mathematics — and it is compatible with Aristotle having invented the subject.\n\nThe Ethics is where he is least dispensable. Its claim is that moral knowledge is not a body of propositions but a capacity to see what a situation calls for, that it is acquired by habituation rather than instruction, and that the person who has it is the standard. This looks circular and Aristotle accepts the appearance: he is denying that ethics can be reduced to a procedure someone without judgement could apply. Virtue ethics revived in the twentieth century largely because rule-based and consequence-based theories kept producing verdicts their own defenders could not accept, and Aristotle had already said why.",
+              "fa": "علل اربعه را معمولاً چون فهرستی درس می‌دهند و بهتر است چون چهار پرسش متفاوت فهمیده شوند که تبیینی تمام باید به آن‌ها پاسخ دهد. از چه ساخته شده، چه صورت یا سازمانی دارد، چه به حرکتش انداخته، و برای چیست. علم جدید سه تای نخست را نگه داشت و چهارمی را انداخت، و بحث بر سر اینکه این سود بود یا نه هرگز کاملاً نایستاده — به‌ویژه زیست‌شناسی پیوسته به زبانی کارکردی دست می‌برد که به‌آسانی نمی‌تواند از آن بگذرد.\n\nمنطق او دو هزار سال برقرار ماند و حدودش به‌اندازهٔ گستره‌اش آموزنده است. قیاس از پس استدلال‌های مبتنی بر حدود برمی‌آید و از پس نسبت‌ها برنمی‌آید: «هر اسبی حیوان است، پس سرِ هر اسبی سرِ یک حیوان است» معتبر است و در آن اثبات‌ناپذیر، رخنه‌ای که فرگه در ۱۸۷۹ بست و پیش از او کسی نبسته بود. این ناکامی کوچکی نیست — یعنی دستگاه صوریِ این سنت نمی‌توانست بخش بزرگی از ریاضیات را بازنمایی کند — و با اینکه ارسطو خودِ این رشته را اختراع کرده سازگار است.\n\n«اخلاق» جایی است که کمتر از همه بی‌نیازی از او هست. ادعایش این است که معرفت اخلاقی پیکره‌ای از گزاره‌ها نیست بلکه توانِ دیدنِ آن چیزی است که موقعیت می‌طلبد، که با عادت‌دادن به دست می‌آید نه با آموزش، و آنکه داراست خود معیار است. این دوری می‌نماید و ارسطو این نمود را می‌پذیرد: او انکار می‌کند که اخلاق به رویه‌ای فروکاستنی باشد که کسی بی‌قوهٔ داوری بتواند به کارش بندد. اخلاق فضیلت در سدهٔ بیستم عمدتاً از آن رو احیا شد که نظریه‌های قاعده‌محور و نتیجه‌محور پیوسته احکامی می‌دادند که مدافعان خودشان هم نمی‌پذیرفتند، و ارسطو پیشاپیش گفته بود چرا."
+            }
           }
         ]
       },
@@ -255,6 +259,14 @@
             "citations": [
               { "source": "epictetus-enchiridion", "locator": "ch. 1" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The dichotomy of control is doing more philosophical work than its plainness suggests, and the hard question is where the line actually falls. Epictetus draws it at judgement and impulse: not my body, not my property, not my reputation, and — the part that is easy to miss — not my first reaction either. The involuntary flinch is not up to me; what I do with it afterwards is. That makes the doctrine considerably less demanding than 'do not feel', and considerably harder than it looks.\n\nHe was enslaved, lamed by his owner, and later exiled by Domitian, and the biography is not decoration. His examples are unsentimental in a way that would be intolerable from someone comfortable: the child who dies is compared to a returned loan, the broken cup to a broken cup. Read as consolation this is monstrous; read as what he meant — that you have loved a mortal thing knowingly, and the knowing is what makes the love not a delusion — it is something else.\n\nThe modern revival keeps the practices and drops the physics, and that changes the doctrine's status. The Stoic claim was that the universe is a single rational order and human reason a part of it, so accepting what happens is agreement with something you belong to. Take that away and 'focus on what you control' is a coping technique with no argument behind it — useful, widely taught, and not what Epictetus was teaching. Whether the ethics can stand without the cosmology is the live question in Stoic scholarship.",
+              "fa": "تقسیم‌بندیِ آنچه در اختیار ماست کاری فلسفی بیش از آنچه سادگی‌اش می‌رساند می‌کند، و پرسش دشوار این است که این خط دقیقاً کجا می‌افتد. اپیکتتوس آن را بر داوری و انگیزش می‌کشد: نه تنم، نه دارایی‌ام، نه آبرویم، و — بخشی که آسان از دست می‌رود — نه حتی واکنش نخستم. آن تکانِ بی‌اختیار در اختیار من نیست؛ آنچه پس از آن با آن می‌کنم هست. این آموزه را به‌مراتب کم‌توقع‌تر از «احساس نکن» می‌کند، و به‌مراتب دشوارتر از آنچه می‌نماید.\n\nبرده بود، اربابش او را لنگ کرد، و بعدها دومیتیانوس تبعیدش کرد، و این شرح‌حال تزیین نیست. مثال‌هایش چنان بی‌احساسات‌اند که از کسی در آسایش تحمل‌ناپذیر می‌بود: کودکی که می‌میرد به وامی بازگردانده‌شده مانند می‌شود، و کوزهٔ شکسته به کوزهٔ شکسته. اگر چون تسلی خوانده شود هولناک است؛ اگر چنان خوانده شود که او قصد داشت — که چیزی میرا را آگاهانه دوست داشته‌ای، و همان آگاهی است که این عشق را توهم نمی‌کند — چیز دیگری است.\n\nاحیای امروزی تمرین‌ها را نگه می‌دارد و طبیعیات را وامی‌نهد، و این وضعِ آموزه را عوض می‌کند. ادعای رواقی این بود که جهان نظمی عقلانیِ یگانه است و عقل آدمی پاره‌ای از آن، پس پذیرشِ آنچه رخ می‌دهد همراهی با چیزی است که به آن تعلق داری. این را بردار و «بر آنچه در اختیار داری تمرکز کن» فنی برای تاب‌آوردن می‌شود بی‌هیچ استدلالی پشتش — سودمند، پرتدریس، و آنچه اپیکتتوس می‌آموخت نیست. اینکه آیا این اخلاق بی‌آن کیهان‌شناسی می‌ایستد، پرسش زندهٔ رواقی‌پژوهی است."
+            }
           }
         ]
       },
@@ -316,6 +328,14 @@
               "fa": "خواننده‌ای که برای اخلاق به «مکالمات» می‌آید بندهای بلندی دربارهٔ تعظیم و جامهٔ سوگ و ترتیب غذا می‌یابد، و این آداب‌دانی می‌نماید. استدلالِ زیرِ آن این است که خوی‌ها با تمرین شکل می‌گیرند نه با تصمیم: آدمی با تکرارِ کارِ ملاحظه‌کارانه در موقعیت‌هایی که آن را می‌طلبند ملاحظه‌کار می‌شود، و آیین همان انبارِ انباشتهٔ آن موقعیت‌هاست."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The Analects has no arguments in it, and that is the first thing to reckon with. Confucius states, describes and refuses; he does not derive. Readers trained on Greek philosophy have often taken this as a lack, and the more interesting reading is that it is a position: if what has to be transmitted is a capacity for judgement, then a demonstration would be the wrong instrument, because a demonstration can be followed by someone who has understood nothing.\n\nThe refusal to define rén is the clearest case. Twelve students ask what it is and get twelve answers, each fitted to what that student in particular is getting wrong. Fan Chi is told it is loving people; Yan Hui, the best of them, is given something far more demanding. A definition would have been available and would have destroyed the pedagogy.\n\nThe political theory is the part most often dismissed and hardest to dismiss. Confucius holds that a ruler governs by being worth imitating and that law is the fallback for when that has failed — which sounds naive until you notice what the alternative produced. The Legalists took the opposite view with total consistency and Qin unified China on it in 221 BCE and collapsed in fifteen years. Every dynasty after ran Legalist institutions inside Confucian language, which is either hypocrisy or the practical synthesis neither school would state.",
+              "fa": "«مکالمات» هیچ استدلالی در خود ندارد، و نخستین چیزی که باید با آن کنار آمد همین است. کنفوسیوس می‌گوید، وصف می‌کند و سر باز می‌زند؛ استنتاج نمی‌کند. خوانندگانِ پرورده در فلسفهٔ یونانی این را اغلب کاستی گرفته‌اند، و خوانش جالب‌تر این است که خود یک موضع است: اگر آنچه باید منتقل شود توانِ داوری است، آنگاه برهان ابزار نادرستی است، چون از برهان می‌تواند کسی پیروی کند که هیچ نفهمیده.\n\nسرباززدن از تعریفِ «رِن» روشن‌ترین نمونه است. دوازده شاگرد می‌پرسند چیست و دوازده پاسخ می‌گیرند، هریک بر آنچه همان شاگرد به‌خصوص در آن خطا می‌کند دوخته شده. به فان چی می‌گوید دوست‌داشتنِ مردم است؛ به یان هوئی که بهترینشان بود چیزی به‌مراتب سخت‌گیرانه‌تر می‌دهد. تعریف در دسترس بود و آموزش را ویران می‌کرد.\n\nنظریهٔ سیاسی همان بخشی است که بیش از همه کنارش می‌گذارند و کنارگذاشتنش از همه دشوارتر است. کنفوسیوس می‌گوید فرمانروا با شایستهٔ تقلید بودن حکم می‌راند و قانون پشتوانه‌ای است برای وقتی که این شکست خورده — و این ساده‌لوحانه می‌نماید تا وقتی ببینی بدیلش چه به بار آورد. قانون‌گرایان نظر وارونه را با سازگاری تمام گرفتند و «چین» در ۲۲۱ پیش از میلاد بر همان پایه کشور را یکپارچه کرد و در پانزده سال فروپاشید. هر سلسلهٔ پس از آن نهادهای قانون‌گرا را در پوشش زبان کنفوسیوسی گرداند، که یا ریاکاری است یا همان ترکیب عملی که هیچ‌یک از دو مکتب حاضر به بیانش نبود."
+            }
           }
         ]
       },
@@ -412,12 +432,7 @@
       },
       "deathPlace": { "en": "Hamadan", "fa": "همدان" },
       "traditions": ["islamic", "persian"],
-      "branches": [
-        "metaphysics",
-        "philosophy-of-mind",
-        "logic",
-        "epistemology"
-      ],
+      "branches": ["metaphysics", "philosophy-of-mind", "logic", "epistemology"],
       "article": {
         "sections": [
           {
@@ -439,26 +454,17 @@
               "en": "You can understand completely what a triangle is without that telling you whether any triangle exists. Ibn Sīnā takes this ordinary observation and makes it structural: for everything except one being, essence and existence come apart, which means existence is something received rather than something a thing has of itself. What it is received from must be a being whose essence just is to exist. The argument runs from the structure of contingency rather than from the world's beginning, which is why it is not the same as arguing that the universe must have had a first cause in time.",
               "fa": "می‌توان کاملاً فهمید مثلث چیست، بی‌آنکه این فهم بگوید آیا مثلثی وجود دارد یا نه. ابن‌سینا این مشاهدهٔ ساده را می‌گیرد و ساختاری‌اش می‌کند: در همه‌چیز جز یک موجود، ماهیت و وجود از هم جدا می‌شوند؛ و این یعنی وجود چیزی است دریافت‌شده، نه چیزی که شیء از خود دارد. آنچه وجود از او دریافت می‌شود باید موجودی باشد که ماهیتش عین وجود اوست. این استدلال از ساختار امکان آغاز می‌شود نه از آغازِ جهان، و به همین سبب با استدلال بر ضرورت یک علت نخستین در زمان یکی نیست."
             },
-            "citations": [
-              { "source": "avicenna-isharat" },
-              { "source": "sep" }
-            ]
+            "citations": [{ "source": "avicenna-isharat" }, { "source": "sep" }]
           },
           {
             "id": "flying-man",
-            "heading": {
-              "en": "The Flying Man",
-              "fa": "انسان معلق"
-            },
+            "heading": { "en": "The Flying Man", "fa": "انسان معلق" },
             "depth": "deep",
             "body": {
               "en": "Imagine a person created fully formed in mid-air, in the dark, limbs apart, touching nothing — no sight, no sound, no sensation of the body at all. Ibn Sīnā claims such a person would still affirm that they exist. If that is right, awareness of oneself does not come through the senses and is not an inference from the body. The thought experiment predates Descartes' cogito by six centuries and is not identical to it: Ibn Sīnā is arguing about the soul's independence from the body, not building a foundation against scepticism.",
               "fa": "انسانی را تصور کنید که یکباره کامل در هوا آفریده شده است؛ در تاریکی، با اندام‌های گشوده، بی‌تماس با هیچ‌چیز؛ نه دیدنی، نه شنیدنی، نه هیچ احساسی از بدن. ابن‌سینا مدعی است چنین کسی باز هم به هستیِ خود اذعان می‌کند. اگر چنین باشد، آگاهی از خویشتن از راه حواس نمی‌آید و استنتاجی از بدن نیست. این آزمون فکری شش قرن بر «کوگیتو»ی دکارت مقدم است و با آن یکی نیست: ابن‌سینا دربارهٔ استقلال نفْس از بدن استدلال می‌کند، نه دربارهٔ ساختن بنیادی در برابر شکاکیت."
             },
-            "citations": [
-              { "source": "avicenna-shifa" },
-              { "source": "sep" }
-            ]
+            "citations": [{ "source": "avicenna-shifa" }, { "source": "sep" }]
           }
         ]
       },
@@ -576,16 +582,21 @@
           },
           {
             "id": "substantial-motion",
-            "heading": {
-              "en": "Substantial motion",
-              "fa": "حرکت جوهری"
-            },
+            "heading": { "en": "Substantial motion", "fa": "حرکت جوهری" },
             "depth": "standard",
             "body": {
               "en": "Aristotle allowed that a substance can change in quality, quantity, place — but not that the substance itself is in motion, since motion needs something stable underneath it to be the thing that moves. Mullā Ṣadrā denies the requirement: substance itself is continuously renewed, and what looks like a persisting thing is a process holding a form. It is a genuinely radical position, and the nearest thing in classical philosophy to treating being as flow rather than as stuff.",
               "fa": "ارسطو می‌پذیرفت که جوهر می‌تواند در کیف، کم و مکان دگرگون شود، اما نه اینکه خودِ جوهر در حرکت باشد؛ زیرا حرکت به چیزی پایدار در زیر خود نیاز دارد تا آنچه حرکت می‌کند باشد. ملاصدرا این شرط را انکار می‌کند: خودِ جوهر پیوسته تجدید می‌شود، و آنچه شیئی پایدار می‌نماید فرآیندی است که صورتی را نگاه می‌دارد. این موضعی به‌راستی رادیکال است و نزدیک‌ترین چیز در فلسفهٔ کلاسیک به فهم هستی همچون جریان، نه همچون مادّه."
             },
             "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The primacy of existence sounds like a scholastic quarrel and decides everything downstream. If essence were primary, then what a thing is would be fixed and its existence an accident that befalls it — which is Ibn Sīnā's picture, and it makes the world a set of natures switched on. If existence is primary, then being is one graded reality and essences are the limits at which we grasp it. Ṣadrā's arguments for the reversal are technical, and the one that carries most weight is that a distinction we make in thought had been mistaken for a division in the thing.\n\nSubstantial motion follows and does the work. Because being admits of degrees, a substance can move along them, and Ṣadrā takes the soul to do exactly that: bodily in origination and spiritual in persistence, with nothing added from outside at any point. This dissolves a problem every earlier system had failed on — where the immaterial soul comes from — and it costs him the ordinary notion of an enduring identical substance, which he accepts.\n\nThe method is what makes him unusual. He treats demonstration, Illuminationist presence and mystical disclosure as three sources of evidence about one subject, and refuses to let any of them override the others. Critics in his own tradition, then and since, have said this lets him take a conclusion from one register and a proof from another. His defenders say a philosopher who ignores an entire class of evidence is deciding in advance what can be known. The dispute is live in Iranian seminaries, where the Asfār is still the culminating text.",
+              "fa": "اصالت وجود چون نزاعی مدرسی به گوش می‌آید و همه‌چیزِ پس از خود را تعیین می‌کند. اگر ماهیت اصیل بود، آنگاه چیستیِ یک شیء ثابت می‌بود و وجودش عارضی که بر آن می‌آید — و این تصویر ابن‌سیناست، و جهان را مجموعه‌ای از طبایعِ روشن‌شده می‌کند. اگر وجود اصیل باشد، آنگاه هستی یک حقیقتِ ذومراتب است و ماهیات همان حدودی‌اند که ما آن را در آن‌ها درمی‌یابیم. استدلال‌های صدرا برای این وارونگی فنی‌اند، و آنکه بیش از همه وزن دارد این است که تمایزی که ما در ذهن می‌نهیم به‌جای تقسیمی در خودِ شیء گرفته شده بود.\n\nحرکت جوهری از پی می‌آید و کار را می‌کند. چون هستی مراتب دارد، جوهر می‌تواند بر آن‌ها حرکت کند، و صدرا نفس را دقیقاً چنین می‌گیرد: در حدوث جسمانی و در بقا روحانی، بی‌آنکه در هیچ نقطه‌ای چیزی از بیرون افزوده شود. این مسئله‌ای را منحل می‌کند که هر دستگاه پیشین در آن ناکام مانده بود — اینکه نفسِ مجرد از کجا می‌آید — و به بهای مفهوم معمولِ جوهرِ پایدارِ این‌همان تمام می‌شود، که او می‌پذیرد.\n\nروش او همان است که نامعمولش می‌کند. برهان، حضورِ اشراقی و کشفِ عرفانی را سه سرچشمهٔ شاهد دربارهٔ یک موضوع می‌گیرد و نمی‌گذارد هیچ‌یک بر دیگری چیره شود. منتقدان در سنت خودش، آن روز و از آن پس، گفته‌اند این به او امکان می‌دهد نتیجه را از یک ساحت و برهان را از ساحتی دیگر بگیرد. مدافعانش می‌گویند فیلسوفی که تمام یک ردهٔ شاهد را نادیده بگیرد، پیشاپیش تصمیم گرفته چه چیز دانستنی است. این نزاع در حوزه‌های ایران زنده است، جایی که «اسفار» هنوز متن اوج است."
+            }
           }
         ]
       },
@@ -644,6 +655,14 @@
               { "source": "descartes-meditations", "locator": "Meditation II" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The cogito is often reported as an inference and Descartes denies that it is one. If it were — I think, all thinkers exist, therefore I exist — it would rest on a premise more doubtful than its conclusion. What he claims instead is that the proposition is self-verifying in the act of entertaining it: any attempt to doubt it enacts what it asserts. That is a narrower and stronger result than the syllogism would give.\n\nWhat it establishes is also narrower than usually reported. It gives him a thinking thing, at the moment of thinking, and nothing about a body, a past, or a world. The rest of the Meditations is an attempt to get those back, and it needs a God who is no deceiver — which is why the weakest arguments in the book are carrying the most weight. Arnauld's circle, printed with Descartes' own reply in the Objections, has never been fully answered: clear and distinct perception is being used to prove the God who is supposed to guarantee clear and distinct perception.\n\nThe dualism is the part that caused the most trouble afterwards. Mind and body are distinct substances with nothing in common, and yet a decision moves an arm. Elisabeth of Bohemia put the question in a letter and got no adequate answer from him, which he more or less conceded. Every subsequent position in philosophy of mind is a way of avoiding paying that bill — occasionalism, parallelism, materialism, functionalism — and the question she asked is still the one that sorts them.",
+              "fa": "«کوگیتو» را اغلب چون استنتاج گزارش می‌کنند و دکارت انکار می‌کند که استنتاج باشد. اگر بود — می‌اندیشم، هر اندیشنده‌ای هست، پس من هستم — بر مقدمه‌ای تکیه می‌داشت مشکوک‌تر از نتیجه‌اش. آنچه به‌جایش ادعا می‌کند این است که این گزاره در همان کنشِ در‌نظر‌آوردنش خود را تصدیق می‌کند: هر کوششی برای شک در آن، همان را که می‌گوید به اجرا درمی‌آورد. این نتیجه‌ای است باریک‌تر و نیرومندتر از آنچه قیاس می‌داد.\n\nآنچه اثبات می‌کند نیز باریک‌تر از گزارش رایج است. به او یک چیزِ اندیشنده می‌دهد، در لحظهٔ اندیشیدن، و هیچ دربارهٔ تن و گذشته و جهان. باقی «تأملات» کوششی است برای بازآوردن این‌ها، و به خدایی نیاز دارد که فریبکار نباشد — و به همین سبب ضعیف‌ترین استدلال‌های کتاب سنگین‌ترین بار را می‌برند. دورِ آرنو، که همراه پاسخ خودِ دکارت در «اعتراضات» چاپ شده، هرگز به‌تمامی پاسخ نگرفته: ادراکِ روشن و متمایز به کار می‌رود تا خدایی را اثبات کند که قرار است ضامنِ ادراکِ روشن و متمایز باشد.\n\nدوگانه‌انگاری همان بخشی است که بعدها بیشترین دردسر را ساخت. ذهن و تن دو جوهر متمایزند بی‌هیچ اشتراکی، و با این حال یک تصمیم بازویی را حرکت می‌دهد. الیزابت بوهمیایی این پرسش را در نامه‌ای طرح کرد و پاسخ بسنده‌ای از او نگرفت، و دکارت کم‌وبیش این را پذیرفت. هر موضع بعدی در فلسفهٔ ذهن راهی است برای نپرداختن آن صورت‌حساب — موقعیت‌گرایی، توازی، مادی‌گرایی، کارکردگرایی — و پرسشی که او پرسید هنوز همان است که آن‌ها را از هم جدا می‌کند."
+            }
           }
         ]
       },
@@ -663,10 +682,7 @@
         "birth": { "year": 1724, "precision": "exact" },
         "death": { "year": 1804, "precision": "exact" }
       },
-      "birthPlace": {
-        "en": "Königsberg, Prussia",
-        "fa": "کونیگسبرگ، پروس"
-      },
+      "birthPlace": { "en": "Königsberg, Prussia", "fa": "کونیگسبرگ، پروس" },
       "deathPlace": { "en": "Königsberg, Prussia", "fa": "کونیگسبرگ، پروس" },
       "traditions": ["european"],
       "branches": [
@@ -688,10 +704,7 @@
           },
           {
             "id": "copernican",
-            "heading": {
-              "en": "The Copernican turn",
-              "fa": "چرخش کوپرنیکی"
-            },
+            "heading": { "en": "The Copernican turn", "fa": "چرخش کوپرنیکی" },
             "depth": "standard",
             "body": {
               "en": "Kant's own image: astronomers made progress when they stopped assuming the heavens turn around the observer. Philosophy should try the same reversal — instead of asking how our concepts manage to conform to objects, ask what objects must be like in order to be experienced by minds structured as ours are. The cost is that things as they are in themselves fall outside what can be known.",
@@ -700,6 +713,14 @@
             "citations": [
               { "source": "kant-critique-pure-reason", "locator": "Bxvi" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The Critique's hardest chapter is the Transcendental Deduction, and Kant rewrote it entirely between the first and second editions — which tells you he knew it was carrying the weight. The question it answers is why the categories, which come from us, should apply to objects, which do not. His argument is that they must, because otherwise experience would not be experience: a manifold of sensations that could not be brought under one consciousness would not be anybody's, and there would be no one to whom anything appeared.\n\nThe ethics is built on the same structural move. Kant does not begin from what is good and derive a rule; he begins from the form a maxim must have to be a law at all — universalisable, and so not dependent on my position — and argues that a will bound by nothing but that form is precisely a free will. Autonomy is not doing what you want but giving yourself the law, and the two are opposites more often than not.\n\nThe famous applications are where he is weakest and his critics have been merciless. The claim that lying is impermissible even to a murderer asking where your friend is has been read as the moment the system's rigour becomes its defect. Defenders point out that the categorical imperative is a test for maxims and that Kant applied it badly, which leaves the machinery intact and the examples in ruins. What is not disputable is the reframing: after Kant, an ethics that grounds obligation in consequences or in God has to explain why it is not grounding it in something the agent happens to want.",
+              "fa": "دشوارترین فصل «نقد»، استنتاج استعلایی است، و کانت آن را میان ویرایش اول و دوم یکسره از نو نوشت — و همین می‌گوید که می‌دانست بار اصلی بر دوش آن است. پرسشی که پاسخ می‌دهد این است که چرا مقولات، که از ما می‌آیند، باید بر متعلَقات، که از ما نمی‌آیند، صدق کنند. استدلالش این است که ناگزیر باید، چون در غیر این صورت تجربه تجربه نمی‌بود: انبوهی از احساس‌ها که نتوان زیر یک آگاهی آورد از آنِ کسی نمی‌بود، و کسی نمی‌بود که چیزی بر او نمودار شود.\n\nاخلاقش بر همان حرکت ساختاری بنا شده. کانت از خیر آغاز نمی‌کند تا قاعده‌ای بیرون بکشد؛ از صورتی آغاز می‌کند که یک قاعده باید داشته باشد تا اصلاً قانون باشد — کلی‌شدنی، و از این رو ناوابسته به جایگاه من — و می‌گوید اراده‌ای که تنها به همین صورت مقید است دقیقاً همان ارادهٔ آزاد است. خودآیینی، کردنِ آنچه می‌خواهی نیست بلکه دادنِ قانون به خویش است، و این دو بیشتر اوقات متضادند.\n\nکاربردهای مشهورش همان‌جایی است که ضعیف‌ترین است و منتقدانش رحم نکرده‌اند. این ادعا که دروغ حتی به قاتلی که می‌پرسد دوستت کجاست ناروا است، چون لحظه‌ای خوانده شده که سخت‌گیریِ دستگاه به عیب آن بدل می‌شود. مدافعان یادآور می‌شوند که امر مطلق آزمونی برای قواعد است و کانت آن را بد به کار بست، و این سازوکار را سالم می‌گذارد و مثال‌ها را ویران. آنچه محل انکار نیست بازقاب‌بندی است: پس از کانت، اخلاقی که تعهد را بر پیامد یا بر خدا بنیاد می‌نهد باید توضیح دهد چرا آن را بر چیزی که فاعل اتفاقاً می‌خواهد بنیاد ننهاده."
+            }
           }
         ]
       },
@@ -808,6 +829,14 @@
               "fa": "دهه‌ها دوبووار را چنین می‌خواندند که اگزیستانسیالیسم سارتر را بر زندگی زنان اطلاق کرده است. این خوانش تا حد زیادی بازنگری شده است: «اخلاق ابهام» او تبیینی از آزادی می‌پرورد که ناگزیر با آزادی دیگران گره خورده است، چیزی که موضع نخستین خودِ سارتر نمی‌توانست فراهم کند؛ و استدلالی هست که تأثیر دوسویه بوده است. دیدگاه قدیمی‌تر در خلاصه‌های عامه باقی مانده است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The Ethics of Ambiguity is the book that shows she was not applying Sartre. Its problem is one his framework generates and does not solve: if we are radically free and there are no given values, what stops any choice being as good as another? Her answer is that freedom is not a property one has alone. To will myself free is to will the conditions of freedom, and those conditions include other people being free — so oppression is not merely wrong by some external standard, it is incoherent as an exercise of the freedom that justifies it.\n\nThat argument is what The Second Sex is built on, and it is why the book is not a catalogue of grievances. If freedom is situated, the interesting question is what a situation permits, and the volumes on lived experience are an inventory: the girl taught to be an object of regard, the wife whose work leaves no trace, the mother handed a task and denied the standing that would make it a project. Beauvoir's own conclusion is uncomfortable and honest — that women have often been complicit, because the position offers real compensations and refusing it is expensive.\n\nHer reputation suffered for decades from the assumption that the philosophy was Sartre's and the application hers. The chronology does not support it: the ethics of the situation is in her work before it is in his, and Being and Nothingness has no adequate account of why the freedom of others should constrain mine. The correction is now standard in the scholarship and slow to reach the popular picture.",
+              "fa": "«اخلاق ابهام» کتابی است که نشان می‌دهد او سارتر را به کار نمی‌بست. مسئله‌اش مسئله‌ای است که چارچوب او می‌سازد و حل نمی‌کند: اگر ریشه‌ای آزادیم و هیچ ارزشِ داده‌شده‌ای نیست، چه چیز مانع می‌شود که هر انتخابی به‌اندازهٔ انتخاب دیگر خوب باشد؟ پاسخ او این است که آزادی ویژگی‌ای نیست که آدمی به‌تنهایی داشته باشد. خواستنِ آزادیِ خود یعنی خواستنِ شرایط آزادی، و آن شرایط شامل آزادبودنِ دیگران است — پس ستم نه‌فقط به معیاری بیرونی نادرست است، بلکه چون اعمالِ همان آزادی‌ای که توجیهش می‌کند ناسازگار است.\n\n«جنس دوم» بر همین استدلال بنا شده، و به همین سبب کتابی از گلایه‌ها نیست. اگر آزادی موقعیت‌مند است، پرسش جالب این است که موقعیت چه اجازه می‌دهد، و جلدهای تجربهٔ زیسته سیاهه‌ای‌اند: دختری که آموخته متعلَق نگاه باشد، همسری که کارش نشانی به جا نمی‌گذارد، مادری که وظیفه‌ای به او سپرده‌اند و جایگاهی را که آن را به یک پروژه بدل می‌کرد از او دریغ کرده‌اند. نتیجه‌گیریِ خودِ بووار ناخوشایند و صادقانه است — که زنان بارها همدست بوده‌اند، چون آن جایگاه جبران‌های واقعی دارد و ردکردنش پرهزینه است.\n\nآوازهٔ او دهه‌ها از این فرض آسیب دید که فلسفه از سارتر بوده و کاربردش از او. گاه‌شماری این را تأیید نمی‌کند: اخلاقِ موقعیت پیش از آنکه در کار او باشد در کار بووار هست، و «هستی و نیستی» تبیین بسنده‌ای ندارد از اینکه چرا آزادی دیگران باید آزادی مرا محدود کند. این تصحیح اکنون در پژوهش‌ها استاندارد است و دیر به تصویر عمومی می‌رسد."
+            }
           }
         ]
       },
@@ -864,6 +893,14 @@
               { "source": "dubois-souls", "locator": "ch. 1" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Double consciousness is a phenomenological claim, and reading it as a description of low self-esteem loses it. Du Bois is describing a structural feature of a position: a person who is looked at as a problem acquires a second, borrowed vantage on themselves, and cannot simply put it down — it becomes part of the equipment they see with. The gift he attributes to it, second sight, is not consolation; it is the observation that a subordinated position often affords a better view of how the system works than the dominant one does, which is the ancestor of every later standpoint epistemology.\n\nThe methodological achievement is separate and underrated. The Philadelphia Negro was the first large empirical sociological study conducted in the United States, and Du Bois did it with door-to-door interviews across a whole ward, precisely because he thought the prevailing explanations were assertions dressed as knowledge. He believed at the time that the facts would be enough. He later wrote that he had been wrong about that, and the shift from research to organising follows the disappointment.\n\nHis quarrel with Booker T. Washington is the political core of The Souls of Black Folk and it is conducted with unusual care — he opens by granting the achievement before dismantling the programme. The argument is that a people who accept the loss of the vote, of civil equality and of higher education for their ablest will not be given them back once they have earned them, because the exchange was never really offered. The prophecy about the colour line and the twentieth century stands at the front of the book, in 1903.",
+              "fa": "«آگاهیِ دوگانه» ادعایی پدیدارشناختی است، و خواندنش چون وصفِ عزت‌نفسِ پایین آن را از دست می‌دهد. دوبوا ویژگیِ ساختاریِ یک جایگاه را وصف می‌کند: کسی که چون یک مسئله به او نگاه می‌کنند، منظری دوم و عاریتی نسبت به خودش پیدا می‌کند و نمی‌تواند به‌سادگی زمینش بگذارد — بخشی از ابزاری می‌شود که با آن می‌بیند. آن بخششی که به آن نسبت می‌دهد، «بینشِ دوم»، تسلی نیست؛ این مشاهده است که جایگاهِ فرودست اغلب دیدِ بهتری از چگونگیِ کارکرد نظام می‌دهد تا جایگاه فرادست، و این نیای هر معرفت‌شناسیِ منظرگرایانهٔ بعدی است.\n\nدستاورد روش‌شناختی جداست و کم‌قدر دیده شده. «سیاهپوستِ فیلادلفیا» نخستین پژوهش بزرگ تجربیِ جامعه‌شناختی در ایالات متحده بود، و دوبوا آن را با مصاحبهٔ خانه‌به‌خانه در تمام یک ناحیه انجام داد، دقیقاً از آن رو که تبیین‌های رایج را ادعاهایی در جامهٔ دانش می‌دانست. در آن زمان باور داشت که واقعیت‌ها بس خواهند بود. بعدها نوشت که در این خطا کرده، و گذارِ او از پژوهش به سازمان‌دهی از پیِ همان سرخوردگی می‌آید.\n\nنزاعش با بوکر تی. واشنگتن هستهٔ سیاسیِ «جان‌های سیاهان» است و با احتیاطی نامعمول پیش می‌رود — نخست دستاورد را به رسمیت می‌شناسد و بعد برنامه را برمی‌چیند. استدلال این است که مردمی که از دست‌دادنِ رأی و برابری مدنی و آموزش عالیِ توانمندترین‌هایشان را بپذیرند، پس از آنکه شایستگی‌اش را نشان دادند آن‌ها را پس نخواهند گرفت، چون آن معامله هرگز واقعاً پیشنهاد نشده بود. پیشگویی دربارهٔ خط رنگ و سدهٔ بیستم در آغاز کتاب می‌ایستد، در ۱۹۰۳."
+            }
           }
         ]
       },
@@ -2304,6 +2341,14 @@
               { "source": "text-essays-montaigne" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Montaigne invented a form in order to have a method. The essai is a trial, an attempt — the word means weighing — and the point of writing that way is that a conclusion arrived at in advance and then defended is not an examination of anything. He revised the Essays for twenty years by adding rather than correcting, so the later layers argue with the earlier ones and both are printed.\n\n'Que sais-je?' is not a rhetorical flourish. He puts it on a medal with a balance in equilibrium, and he means the question to include itself — a scepticism that asserted its own truth would have exempted the one claim that mattered. His argument for it is cumulative rather than formal: the variety of custom, the unreliability of the senses, the ease with which we are moved by a bad night's sleep, and above all the fact that people have been certain of contradictory things with equal conviction.\n\nThe essay on cannibals is where the method does its hardest work. He reports what he learned from Brazilians brought to Rouen, notes that they were shocked by beggars outside a palace, and concludes that everyone calls barbarism whatever is not their own practice. He does not go on to say that all customs are equal, and he does not exempt his own society from the comparison — sixteenth-century France was burning people alive, and he says that eating a dead enemy is less cruel. That is the whole technique: not tolerance as a doctrine but the discipline of noticing where you happen to be standing.",
+              "fa": "مونتنی برای آنکه روشی داشته باشد فرمی اختراع کرد. «اِسه» یعنی آزمودن و کوشیدن — این واژه از سنجیدن می‌آید — و نکتهٔ نوشتن به این شیوه این است که نتیجه‌ای که پیشاپیش گرفته و بعد از آن دفاع شود، وارسیِ هیچ‌چیز نیست. او بیست سال «جستارها» را بازبینی کرد و به‌جای تصحیح افزود، چنان‌که لایه‌های متأخر با لایه‌های پیشین بحث می‌کنند و هر دو چاپ شده‌اند.\n\n«چه می‌دانم؟» آرایهٔ خطابی نیست. آن را بر مدالی با ترازویی در تعادل نقش کرد، و می‌خواهد این پرسش خودش را هم دربر بگیرد — شکاکیتی که صدقِ خود را اثبات می‌کرد همان یک ادعای مهم را مستثنا کرده بود. استدلالش برای آن انباشتی است نه صوری: گوناگونی رسوم، نااعتمادپذیریِ حواس، سهولتی که یک شب بدخوابی ما را با آن جابه‌جا می‌کند، و از همه بیشتر این واقعیت که مردم به چیزهای متناقض با یقینی برابر یقین داشته‌اند.\n\nجستارِ آدمخواران جایی است که این روش دشوارترین کارش را می‌کند. گزارش می‌کند که از برزیلیانِ آورده‌شده به روئن چه آموخته، یادآور می‌شود که آنان از دیدن گدایان بیرون کاخ یکه خوردند، و نتیجه می‌گیرد که هرکس بربریت را همان می‌نامد که رسمِ خودش نیست. سپس نمی‌گوید همهٔ رسوم برابرند، و جامعهٔ خودش را هم از این مقایسه مستثنا نمی‌کند — فرانسهٔ سدهٔ شانزدهم مردم را زنده می‌سوزاند، و او می‌گوید خوردنِ دشمنِ مرده کم‌رحمانه‌تر است. تمام فن همین است: نه مدارا چون یک آموزه، بلکه انضباطِ توجه به اینکه اتفاقاً کجا ایستاده‌ای."
+            }
           }
         ]
       },
@@ -2503,6 +2548,14 @@
               "fa": "«رساله» و «پژوهش‌ها» را معمولاً چون گسست درس می‌دهند، و ویتگنشتاین خواست که با هم چاپ شوند تا دومی در برابر اولی خوانده شود. آنچه هر دو در آن شریک‌اند این دیدگاه است که مسائل فلسفی از بدفهمیِ کارکرد زبان می‌آیند. آنچه عوض شد تشخیص است: در کتاب نخست، زبان یک ساختار منطقیِ پنهان دارد، و در کتاب متأخر به‌اندازهٔ کاربردهایش ساختار دارد، و گشتن به دنبال آن ساختارِ پنهان، خودِ خطاست."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The two philosophies are usually presented as a reversal, and the continuity matters more. Both are about the limits of what can be said, and both trace philosophical trouble to a picture of language rather than to a fact about the world. What changes is which picture. In the Tractatus the trouble is that we say things which have no logical form and therefore no sense; in the Investigations it is that we take one use of language — naming — as the model for all of them.\n\nThe private language argument is the sharpest thing in the later work and the hardest to state without breaking it. Suppose you name a private sensation S and write it in a diary when it recurs. What makes the second use correct? There is no independent check — whatever seems right is right — and where that holds, Wittgenstein says, we cannot talk about right, which means the sign has no rule and so no meaning. The conclusion is not that inner experience is unreal but that a language logically private to one person is not a possibility, which removes the ground Descartes had built on.\n\nHis view of what philosophy is follows from that. It has no theses; it assembles reminders about how we already use words, and it succeeds when a problem stops seeming urgent rather than when it is solved. That is either the most honest account of the subject anyone has given or a way of declining to do it, and Wittgenstein knew the objection — he compares his work to a ladder, and to therapy, and neither image leaves a body of results behind.",
+              "fa": "دو فلسفهٔ او را معمولاً چون یک وارونگی عرضه می‌کنند، و پیوستگی مهم‌تر است. هر دو دربارهٔ حدودِ گفتنی‌اند، و هر دو می‌گویند مسائل فلسفی از بدفهمیِ کارکرد زبان برمی‌خیزند. آنچه عوض می‌شود تشخیص است. در «رساله» گرفتاری این است که چیزهایی می‌گوییم که صورت منطقی و از این رو معنا ندارند؛ در «پژوهش‌ها» این است که یک کاربردِ زبان — نام‌گذاری — را الگوی همهٔ کاربردها می‌گیریم.\n\nاستدلال زبان خصوصی تیزترین چیز در کار متأخر اوست و بیان‌کردنش بی‌شکستنش از همه دشوارتر. فرض کن احساسی خصوصی را «الف» بنامی و هر بار که بازمی‌گردد در دفتری بنویسی. چه چیز کاربرد دوم را درست می‌کند؟ هیچ محکِ مستقلی نیست — هرچه درست بنماید درست است — و آنجا که چنین باشد، ویتگنشتاین می‌گوید نمی‌توانیم از درستی سخن بگوییم، و این یعنی آن نشانه قاعده‌ای ندارد و پس معنایی. نتیجه این نیست که تجربهٔ درونی ناواقعی است، بلکه این است که زبانی که منطقاً خصوصیِ یک تن باشد ممکن نیست، و این زمینی را که دکارت بر آن ساخته بود برمی‌دارد.\n\nنگاهش به اینکه فلسفه چیست از همین برمی‌آید. گزاره‌ای ندارد؛ یادآوری‌هایی گرد می‌آورد دربارهٔ اینکه ما پیشاپیش واژه‌ها را چگونه به کار می‌بریم، و وقتی کامیاب است که مسئله‌ای از فوریت بیفتد نه وقتی که حل شود. این یا صادقانه‌ترین روایتی است که کسی از این رشته داده یا راهی است برای سر باززدن از انجامش، و ویتگنشتاین این اعتراض را می‌دانست — کارش را به نردبان مانند می‌کند و به درمان، و هیچ‌یک از این دو تصویر پیکره‌ای از نتایج بر جای نمی‌گذارد."
+            }
           }
         ]
       },
@@ -2654,6 +2707,14 @@
               "fa": "بدنیتی دروغ نیست، چون دروغگو حقیقتی را که پنهان می‌کند می‌داند و آدمِ بدنیت باید آن را از خودش پنهان کند. پاسخ سارتر این است که آگاهی چیزی با محفظه‌های مهرشده نیست: می‌تواند در همان کنشِ روبرگرداندن، از آنچه می‌کند آگاه باشد، و به همین سبب این حالت ناپایدار است و باید نگه داشته شود. پیشخدمتی که «پیشخدمت‌بودن» را اجرا می‌کند نمونهٔ همیشگی است، و نکته این نیست که او ریاکار است، بلکه این است که آن اجرا او را از انتخاب‌کردن معاف می‌کند."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Being and Nothingness is built on a distinction that does more work than its name suggests. Being-in-itself is what a thing simply is — solid, coincident with itself, a stone. Being-for-itself is consciousness, which is never simply what it is, because it is always at a distance from itself, taking a view. That gap is what Sartre calls nothingness, and it is not a substance but a structure: a person is the being through whom nothingness comes into the world.\n\nFreedom follows directly and is absolute in a specific and easily misread sense. It does not mean I can do anything; it means no situation determines its own significance, so the obstacle only becomes an obstacle in the light of a project I have chosen. The rock is unclimbable only for someone who wanted to climb it. He pushes this to conclusions most readers reject — that even torture leaves a choice, that we are responsible for the war we did not start — and he does not soften them.\n\nThe ethics he promised at the end of the book never arrived in the form advertised, and the reason is structural. If all values are chosen and none is grounded, it is hard to say why one project should be criticised. Beauvoir supplied what he could not: that willing my own freedom commits me to willing the conditions of freedom, which includes other people's. Sartre's later Critique of Dialectical Reason takes a different route through Marxism and material scarcity, and much of the earlier vocabulary does not survive it.",
+              "fa": "«هستی و نیستی» بر تمایزی بنا شده که کاری بیش از آنچه نامش می‌رساند می‌کند. هستیِ در-خود همان است که چیزی به‌سادگی هست — سخت، منطبق بر خود، یک سنگ. هستیِ برای-خود آگاهی است، که هرگز به‌سادگی همان نیست که هست، چون همیشه از خودش فاصله دارد و نظری می‌گیرد. سارتر همین شکاف را نیستی می‌نامد، و آن جوهر نیست بلکه ساختار است: آدمی همان هستی‌ای است که نیستی از راه او به جهان می‌آید.\n\nآزادی مستقیماً از پی می‌آید و به معنایی معین و به‌آسانی بدخوانده‌شدنی مطلق است. یعنی این نیست که هر کاری می‌توانم بکنم؛ یعنی هیچ موقعیتی معنای خودش را تعیین نمی‌کند، پس مانع تنها در پرتوِ پروژه‌ای که من برگزیده‌ام مانع می‌شود. آن صخره تنها برای کسی صعودناپذیر است که می‌خواست از آن بالا برود. او این را تا نتایجی می‌بَرد که بیشتر خوانندگان ردشان می‌کنند — که حتی شکنجه هم انتخابی باقی می‌گذارد، که ما مسئول جنگی هستیم که آغازش نکرده‌ایم — و نرمشان نمی‌کند.\n\nآن اخلاقی که در پایان کتاب وعده داد هرگز به صورت اعلام‌شده نیامد، و دلیلش ساختاری است. اگر همهٔ ارزش‌ها برگزیده شوند و هیچ‌کدام بنیادی نداشته باشد، گفتنِ اینکه چرا باید پروژه‌ای را نقد کرد دشوار است. بووار آنچه را او نتوانست فراهم کرد: اینکه خواستنِ آزادی خودم مرا به خواستنِ شرایط آزادی ملتزم می‌کند، و آن شرایط شامل آزادی دیگران است. «نقد عقل دیالکتیکی»ِ متأخرِ سارتر راه دیگری از میان مارکسیسم و کمیابیِ مادی می‌رود، و بخش بزرگی از واژگان پیشین از آن جان به در نمی‌برد."
+            }
           }
         ]
       },
@@ -3063,6 +3124,14 @@
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Black Skin, White Masks is a clinical book. Fanon was a psychiatrist, and his material is what colonisation does inside a person: the Antillean who speaks French to be counted as a man, the patient whose symptoms have no organic cause and no cure that does not involve the world he lives in. The philosophical claim is that recognition, in Hegel's sense, cannot be won inside a structure that has already decided who is recognisable — the slave in Hegel achieves independence through work, and the colonised subject works and is still not seen.\n\nHis break with Négritude follows from that. Senghor answered the colonial denial of African value by affirming an African essence; Fanon's objection is that the category was the colonisers' and celebrating it leaves the frame standing. He describes trying it himself — reading the ethnologists, finding a past to be proud of — and finding that the man opposite him was not persuaded and did not need to be.\n\nThe psychiatry was not a day job he did alongside the writing. At Blida-Joinville in Algeria he inherited a ward run on restraint and rebuilt it around work, meetings and a newspaper the patients produced, on the argument that a person cannot be treated in isolation from the culture that made them ill — and he documented the failure of his first attempt, when he imported French methods wholesale and the Muslim patients did not respond. He resigned in 1956 in a letter to the Resident Minister saying that a psychiatry which returns people to a society that is itself the disorder is not medicine. The clinical case notes at the end of his last book are the evidence for the political argument, and they are usually skipped.",
+              "fa": "«پوست سیاه، صورتک‌های سفید» کتابی بالینی است. فانون روان‌پزشک بود، و ماده‌اش آن است که استعمار در درون آدمی چه می‌کند: آنتیلیِ فرانسه‌گویی که سخن می‌گوید تا مرد به شمار آید، بیماری که نشانه‌هایش علت اندامی ندارند و درمانی ندارند که جهانِ زیسته‌اش را در بر نگیرد. ادعای فلسفی این است که بازشناسی به معنای هگلی، درون ساختاری که پیشاپیش تصمیم گرفته چه کسی بازشناختنی است به دست نمی‌آید — بندهٔ هگل با کار به استقلال می‌رسد، و سوژهٔ مستعمَره کار می‌کند و باز دیده نمی‌شود.\n\nگسستش از نگریتود از همین برمی‌آید. سنگور به انکار استعماریِ ارزش آفریقایی با اثباتِ ذاتی آفریقایی پاسخ داد؛ اعتراض فانون این است که آن مقوله از آنِ استعمارگران بود و ستایشش چارچوب را سرِ پا نگه می‌دارد. وصف می‌کند که خودش هم آزمود — قوم‌شناسان را خواند، گذشته‌ای برای فخرکردن یافت — و دید آن مردی که روبه‌رویش بود قانع نشد و لازم هم نبود بشود.\n\nروان‌پزشکی شغل روزانه‌ای نبود که در کنار نوشتن انجام دهد. در بلیدا-ژوئنویل الجزایر بخشی را تحویل گرفت که بر مهار و بستن می‌چرخید و آن را بر کار و نشست و روزنامه‌ای که خودِ بیماران درمی‌آوردند از نو ساخت، با این استدلال که آدمی را نمی‌توان جدا از فرهنگی که بیمارش کرده درمان کرد — و ناکامیِ کوشش نخستش را هم ثبت کرد، آنگاه که روش‌های فرانسوی را یکجا وارد کرد و بیماران مسلمان پاسخ ندادند. در ۱۹۵۶ در نامه‌ای به وزیر مقیم استعفا داد و نوشت روان‌پزشکی‌ای که مردم را به جامعه‌ای بازمی‌گرداند که خودْ همان اختلال است، پزشکی نیست. یادداشت‌های بالینیِ پایان آخرین کتابش شاهدِ آن استدلال سیاسی‌اند، و معمولاً از رویشان می‌پرند."
+            }
           }
         ]
       },
@@ -3581,6 +3650,14 @@
               { "source": "sep" }
             ],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The poem argues that what is, is, and cannot not be; that whatever is not can neither be named nor held in mind; and therefore that coming-to-be, perishing, motion and plurality are all impossible, since each requires something to pass into or out of not-being. The conclusion is that reality is one, ungenerated, changeless and complete — and that the world our senses report is not it.\n\nThe reason this could not be ignored is that the argument is valid-looking and the premises are hard to reject. To say that something came into being is to say that before it there was nothing of it, and 'nothing' is precisely what Parmenides argues cannot be referred to. Every subsequent Greek physics is a strategy for getting motion back: the atomists conceded him being and posited void as a real not-being, Empedocles made the elements eternal and let only their arrangements change, Plato had to commit what he calls parricide in the Sophist to allow that not-being in some sense is.\n\nHe is also where Western philosophy first prefers argument to observation. Zeno's paradoxes are defences of the master's position, and their force is exactly that they make an evident falsehood follow from apparently sound reasoning. The choice that opened — between trusting the argument and trusting the eyes — is still the deepest methodological divide there is, and Parmenides is the earliest figure who unambiguously chose the argument.",
+              "fa": "این شعر استدلال می‌کند که آنچه هست، هست، و نمی‌تواند نباشد؛ که آنچه نیست را نه می‌توان گفت و نه اندیشید؛ و پس پدیدآمدن، از میان رفتن، حرکت و کثرت همه ناممکن‌اند، چون هریک نیازمند آن است که چیزی به نیستی درآید یا از آن بیرون آید. نتیجه این است که واقعیت یکی است، ناپدیدآمده، بی‌دگرگونی و تمام — و آن جهانی که حواس ما گزارش می‌کنند آن نیست.\n\nسببِ نادیده‌نگرفتنی‌بودنِ این، آن است که استدلال معتبر می‌نماید و ردکردن مقدماتش دشوار است. گفتنِ اینکه چیزی پدید آمد یعنی گفتنِ اینکه پیش از آن هیچ از آن نبود، و «هیچ» دقیقاً همان است که پارمنیدس می‌گوید نمی‌توان به آن ارجاع داد. هر طبیعیاتِ یونانیِ پس از او راهبردی است برای بازآوردن حرکت: اتم‌گرایان «هستی» را به او واگذاشتند و «خلأ» را چون نیستی‌ای واقعی نهادند، امپدوکلس عناصر را ازلی کرد و تنها آرایششان را تغییرپذیر گذاشت، و افلاطون ناچار شد در «سوفیست» آنچه را خود «پدرکشی» می‌نامد مرتکب شود تا بپذیرد نیستی به معنایی هست.\n\nاو همچنین جایی است که فلسفهٔ غرب نخستین‌بار استدلال را بر مشاهده ترجیح می‌دهد. پارادوکس‌های زنون دفاع از موضع استادند، و نیرویشان دقیقاً در این است که دروغی آشکار را از استدلالی به‌ظاهر درست نتیجه می‌گیرند. آن انتخابی که گشوده شد — میان اعتماد به استدلال و اعتماد به چشم — هنوز ژرف‌ترین شکاف روش‌شناختیِ موجود است، و پارمنیدس نخستین چهره‌ای است که بی‌ابهام استدلال را برگزید."
+            }
           }
         ]
       },
@@ -4715,6 +4792,14 @@
               { "source": "text-tahafut-al-tahafut" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Ibn Rushd's commentaries were an attempt to recover Aristotle from his interpreters, and the target was as much Ibn Sīnā as anyone Greek. He thought the Persian tradition had let Neoplatonism into the text — emanation, a hierarchy of intellects — and that the result was neither Aristotle nor demonstrably true. The commentaries are minute, and in Latin translation they were authoritative enough that Aquinas calls him simply the Commentator.\n\nThe Decisive Treatise makes the argument he is remembered for in Arabic. Scripture and demonstration cannot conflict, because both are true; where they appear to, the scriptural text admits of interpretation and the demonstration does not, so the text is what yields. He adds a claim that reads badly now and was doing careful work then: not everyone should be given the interpretation, because most people are persuaded by rhetoric rather than proof and would lose the text without gaining the argument.\n\nHis answer to al-Ghazālī, The Incoherence of the Incoherence, is a line-by-line reply printed with its opponent's text inside it, which is a form worth noticing. On causation he holds that denying necessary connection destroys knowledge itself: if fire does not burn by its nature, then nothing has a nature, and the word for a thing names nothing stable. Hume would later accept something close to al-Ghazālī's premise and decline the conclusion. Ibn Rushd's own influence ran west rather than east — Latin Averroism was a live and dangerous position in Paris for two centuries, while the Islamic east followed Ibn Sīnā and Suhrawardī.",
+              "fa": "شرح‌های ابن‌رشد کوششی بود برای بازیافتن ارسطو از دست مفسرانش، و هدف به‌همان‌اندازه ابن‌سینا بود که هر یونانی. می‌پنداشت سنت ایرانی نوافلاطونی‌گری را به متن راه داده — صدور، سلسله‌مراتب عقول — و حاصل نه ارسطوست و نه به‌طور برهانی صادق. شرح‌ها موشکافانه‌اند، و در ترجمهٔ لاتین چنان معتبر بودند که آکویناس او را فقط «شارح» می‌خواند.\n\n«فصل المقال» استدلالی را می‌آورد که در عربی به آن شناخته می‌شود. شریعت و برهان نمی‌توانند تعارض کنند، چون هر دو صادق‌اند؛ آنجا که به تعارض می‌نمایند، متنِ شرعی تأویل‌پذیر است و برهان نیست، پس آن متن است که کوتاه می‌آید. ادعایی هم می‌افزاید که امروز بد خوانده می‌شود و آن روز کار دقیقی می‌کرد: تأویل را نباید به همه داد، چون بیشتر مردم با خطابه قانع می‌شوند نه با برهان و متن را از دست می‌دهند بی‌آنکه استدلال را به دست آورند.\n\nپاسخش به غزالی، «تهافت التهافت»، ردیّه‌ای است بند به بند که متنِ حریف را درون خود چاپ کرده، و این شکلی است که به توجه می‌ارزد. در باب علیت می‌گوید انکارِ پیوند ضروری خودِ معرفت را ویران می‌کند: اگر آتش به طبیعت خود نسوزاند، پس هیچ‌چیز طبیعتی ندارد، و نامِ هر چیز بر هیچ امر پایداری دلالت نمی‌کند. هیوم بعدها چیزی نزدیک به مقدمهٔ غزالی را پذیرفت و از نتیجه سر باز زد. نفوذ خودِ ابن‌رشد به غرب رفت نه به شرق — ابن‌رشدگراییِ لاتین دو قرن در پاریس موضعی زنده و خطرناک بود، در حالی که شرق اسلامی از ابن‌سینا و سهروردی پیروی کرد."
+            }
           }
         ]
       },
@@ -6035,6 +6120,14 @@
               { "source": "sep" }
             ],
             "claim": "interpretation"
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Hegel's method is the part that survives disagreement with everything else. A position is stated, its own internal tension is drawn out until it undermines itself, and what replaces it is not a rejection but the position with the tension resolved — which then develops a tension of its own. Nothing is refuted from outside. The textbook labels thesis, antithesis and synthesis are not his and flatten what he does.\n\nThe Phenomenology applies this to consciousness itself, and the master–slave passage is the section everyone reads. Two self-consciousnesses meet and each needs recognition from the other to be a self at all; one risks life and one submits, and the outcome inverts. The master receives recognition from someone he has defined as not counting, which is worthless; the slave works on the world, sees himself in what he has made, and acquires the independence the master gave up. Marx read this and took the labour rather than the recognition; Kojève read it and took the recognition rather than the labour, and twentieth-century French philosophy came largely from that reading.\n\nWhat makes Hegel hard is that he takes the history of thought to be internal to thought — you cannot state the truth without stating how it was arrived at, because the arriving is part of it. That is either the deepest thing in modern philosophy or the reason it lost a century to obscurity, and both verdicts have been defended by serious people. His own line, that the owl of Minerva flies at dusk, concedes the least flattering version: philosophy understands a form of life when it is already over.",
+              "fa": "روش هگل همان بخشی است که از مخالفت با هرچیز دیگر جان به در می‌برد. موضعی بیان می‌شود، تنشِ درونیِ خودش بیرون کشیده می‌شود تا آنجا که خود را زیر آب بزند، و آنچه جایش می‌نشیند رد کردن نیست بلکه همان موضع است با تنشِ حل‌شده — که آنگاه تنش تازه‌ای می‌پروراند. هیچ‌چیز از بیرون رد نمی‌شود. برچسب‌های کتاب درسیِ تز و آنتی‌تز و سنتز از او نیست و آنچه را می‌کند مسطح می‌کند.\n\n«پدیدارشناسی» این را بر خودِ آگاهی به کار می‌بندد، و بند خدایگان و بنده همان بخشی است که همه می‌خوانند. دو خودآگاهی به هم می‌رسند و هریک برای آنکه اصلاً خودی باشد به بازشناسیِ دیگری نیاز دارد؛ یکی جان را به خطر می‌اندازد و یکی تسلیم می‌شود، و نتیجه وارونه می‌شود. خدایگان بازشناسی را از کسی می‌گیرد که خودش او را به‌حساب‌نیامدنی تعریف کرده، و این بی‌ارزش است؛ بنده بر جهان کار می‌کند، خود را در ساختهٔ خود می‌بیند، و استقلالی را به دست می‌آورد که خدایگان از دست داده. مارکس این را خواند و کار را برداشت نه بازشناسی را؛ کوژو خواند و بازشناسی را برداشت نه کار را، و فلسفهٔ فرانسویِ سدهٔ بیستم عمدتاً از همان خوانش برآمد.\n\nآنچه هگل را دشوار می‌کند این است که تاریخ اندیشه را درونیِ اندیشه می‌گیرد — نمی‌توانی حقیقت را بگویی بی‌آنکه بگویی چگونه بدان رسیده‌اند، چون همان رسیدن بخشی از آن است. این یا ژرف‌ترین چیز در فلسفهٔ جدید است یا سببِ آنکه یک قرن را به ابهام باخت، و از هر دو حکم آدم‌های جدی دفاع کرده‌اند. جملهٔ خودش، که جغد مینروا در شامگاه پر می‌گشاید، کم‌تعارف‌ترین روایت را می‌پذیرد: فلسفه شکلی از زندگی را وقتی می‌فهمد که دیگر تمام شده."
+            }
           }
         ]
       },
