@@ -108,8 +108,12 @@ class SearchHit implements Comparable<SearchHit> {
 /// The index is built once when the corpus loads and then only read, so it is
 /// safe to share across the app without synchronisation.
 class SearchIndex {
-  SearchIndex._(this._postings, this._entities, this._allTokens)
-    : _documentFrequency = <String, int>{
+  SearchIndex._(
+    this._postings,
+    this._entities,
+    this._allTokens,
+    this._exactNames,
+  ) : _documentFrequency = <String, int>{
         for (final entry in _postings.entries)
           entry.key: entry.value.map((posting) => posting.ref).toSet().length,
       };
@@ -118,6 +122,7 @@ class SearchIndex {
   factory SearchIndex.build(KnowledgeBase corpus) {
     final postings = <String, List<_Posting>>{};
     final entities = <EntityRef, KnowledgeEntity>{};
+    final exactNames = <String, Set<EntityRef>>{};
 
     void index(EntityRef ref, String text, MatchField field) {
       for (final token in TextNormalizer.tokenize(text)) {
@@ -131,11 +136,28 @@ class SearchIndex {
       }
     }
 
+    /// Remembers a name the reader could type in full.
+    ///
+    /// A name is indexed token by token, which is right for finding things and
+    /// wrong for ranking them: «افلاطون‌گرایی» contains «افلاطون», so Platonism
+    /// matched the query "Plato" in its *name* field, at the same weight as
+    /// Plato — and once the school had a long article mentioning him, the body
+    /// matches broke the tie the wrong way. Someone who types a name in full
+    /// wants the thing with that name.
+    void remember(EntityRef ref, String? name) {
+      if (name == null) return;
+      final key = TextNormalizer.tokenize(name).join(' ');
+      if (key.isEmpty) return;
+      exactNames.putIfAbsent(key, () => <EntityRef>{}).add(ref);
+    }
+
     for (final entity in corpus.allEntities) {
       entities[entity.ref] = entity;
       index(entity.ref, entity.name.en, MatchField.name);
+      remember(entity.ref, entity.name.en);
       final persianName = entity.name.fa;
       if (persianName != null) index(entity.ref, persianName, MatchField.name);
+      remember(entity.ref, persianName);
 
       // searchableStrings carries native scripts, transliterations and
       // alternative names; the display name is already indexed above, so
@@ -165,6 +187,7 @@ class SearchIndex {
       postings,
       entities,
       postings.keys.toList(growable: false),
+      exactNames,
     );
   }
 
@@ -175,7 +198,20 @@ class SearchIndex {
 
   final Map<String, List<_Posting>> _postings;
   final Map<EntityRef, KnowledgeEntity> _entities;
+
+  /// How much being named exactly by the query is worth.
+  ///
+  /// Large enough that no amount of body text can overturn it, because no
+  /// amount of body text should: the reader typed the name.
+  static const double _exactNameBoost = 2.5;
+
   final List<String> _allTokens;
+
+  /// Entities whose whole name is exactly this normalised string.
+  ///
+  /// A map rather than one entity per name, because two things can genuinely
+  /// share a name and neither should be picked arbitrarily.
+  final Map<String, Set<EntityRef>> _exactNames;
 
   /// How many distinct entities each token appears in.
   ///
@@ -278,6 +314,16 @@ class SearchIndex {
       }
     }
 
+    // Whoever is named by exactly this query, if anyone is.
+    //
+    // Typing a name in full is the least ambiguous thing a reader can do, and
+    // it was losing: «افلاطون» reached Platonism through the first half of
+    // «افلاطون‌گرایی» at full name weight, and the school's body text settled
+    // the tie against Plato himself. A whole-name match is different in kind
+    // from matching one token of a longer name, so it is scored that way
+    // rather than by adjusting weights until this one case comes out right.
+    final named = _exactNames[queryTokens.join(' ')] ?? const <EntityRef>{};
+
     final hits = <SearchHit>[];
     for (final entry in scores.entries) {
       final entity = _entities[entry.key];
@@ -289,7 +335,10 @@ class SearchIndex {
       hits.add(
         SearchHit(
           entity: entity,
-          score: entry.value * (0.4 + 0.6 * coverage),
+          score:
+              entry.value *
+              (0.4 + 0.6 * coverage) *
+              (named.contains(entry.key) ? _exactNameBoost : 1),
           bestField: bestField[entry.key] ?? MatchField.body,
           bestQuality: bestQuality[entry.key] ?? MatchQuality.fuzzy,
           matchedTokens: tokensMatched,

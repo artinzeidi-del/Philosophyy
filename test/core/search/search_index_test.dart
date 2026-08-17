@@ -106,6 +106,21 @@ void main() {
       expect(topHitId('افلاطون'), 'plato');
     });
 
+    test('a whole name outranks a longer name that contains it', () {
+      // «افلاطون‌گرایی» tokenises to «افلاطون» + «گرایی», so Platonism matched
+      // the query «افلاطون» in its *name* field at the same weight as Plato.
+      // That was survivable while the school had no article; the moment it got
+      // one, the body mentions settled the tie against the man himself.
+      //
+      // The reader typed a name in full, which is the least ambiguous thing
+      // they can do.
+      expect(topHitId('افلاطون'), 'plato');
+      expect(topHitId('Platonism'), 'platonism');
+      expect(topHitId('افلاطون‌گرایی'), 'platonism');
+      expect(topHitId('Stoicism'), 'stoicism');
+      expect(topHitId('Zen'), 'zen');
+    });
+
     test('a Greek term finds the concept it names', () {
       expect(contains('εὐδαιμονία', 'eudaimonia'), isTrue);
       expect(contains('eudaimonia', 'eudaimonia'), isTrue);

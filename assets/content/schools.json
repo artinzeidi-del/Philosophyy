@@ -24,7 +24,27 @@
       "members": ["socrates", "plato"],
       "concepts": ["theory-of-forms"],
       "opposes": ["aristotelianism"],
-      "citations": [{ "source": "plato-republic" }, { "source": "sep" }]
+      "citations": [{ "source": "plato-republic" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Plato's Academy outlasted him by nine centuries, and what held it together was one claim: that the things we can know are not the things we can see. Circles drawn in sand are never quite circular, but geometry is exact — so geometry must be about something other than the drawing. Platonists extended that thought from mathematics to justice, beauty and goodness.",
+              "fa": "آکادمی افلاطون نُه قرن پس از او دوام آورد، و آنچه آن را یکپارچه نگه داشت یک ادعا بود: آنچه می‌توانیم بدانیم همان چیزی نیست که می‌توانیم ببینیم. دایره‌ای که روی خاک می‌کشند هرگز کاملاً دایره نیست، اما هندسه دقیق است — پس هندسه باید دربارهٔ چیزی جز آن نقش باشد. افلاطونیان همین فکر را از ریاضیات به عدالت و زیبایی و نیکی هم کشاندند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The school changed shape more than once. Under Arcesilaus and Carneades the Academy turned sceptical for two centuries, arguing that Plato's real lesson was Socratic — that we should suspend judgement rather than build systems. Later, Plotinus and the Neoplatonists went the other way, arranging the Forms into a descending order from a single source, and it was that version which reached Augustine, the Islamic falāsifa and the Latin Middle Ages. What survives in modern philosophy is narrower and more stubborn: mathematical Platonism, the view that numbers exist and are discovered rather than invented. Its strongest argument is still Plato's — mathematics is true of something, and it is not true of the marks on the page.",
+              "fa": "این مکتب بیش از یک بار شکل عوض کرد. زیر دست آرکسیلائوس و کارنئادس، آکادمی دو قرن شکاک شد و استدلال کرد که درس واقعی افلاطون سقراطی است: باید داوری را معلق گذاشت، نه دستگاه ساخت. بعدها فلوطین و نوافلاطونیان راه دیگری رفتند و «صورت‌ها» را در نظمی نزولی از یک سرچشمه مرتب کردند؛ و همین روایت بود که به آگوستین، به فلاسفهٔ اسلامی و به قرون وسطای لاتین رسید. آنچه در فلسفهٔ امروز باقی مانده باریک‌تر و سرسخت‌تر است: افلاطون‌گراییِ ریاضی، این دیدگاه که اعداد وجود دارند و کشف می‌شوند نه اختراع. قوی‌ترین استدلالش هنوز همان استدلال افلاطون است — ریاضیات دربارهٔ چیزی صادق است، و آن چیز علامت‌های روی کاغذ نیست."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "aristotelianism",
@@ -53,7 +73,27 @@
       "citations": [
         { "source": "aristotle-nicomachean-ethics" },
         { "source": "sep" }
-      ]
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aristotle disagreed with his teacher about where the universal lives. For Plato it stood apart from the particular thing; for Aristotle it is in the thing — the form of a horse is not elsewhere, it is what makes this animal a horse. That single move turned philosophy toward looking at things, and Aristotle spent much of his life dissecting sea creatures.",
+              "fa": "ارسطو با استادش بر سر جای «کلی» اختلاف داشت. برای افلاطون کلی جدا از شیء جزئی می‌ایستاد؛ برای ارسطو در خودِ شیء است — صورتِ اسب جای دیگری نیست، همان است که این جانور را اسب می‌کند. همین یک حرکت، فلسفه را به سمت نگاه‌کردن به چیزها چرخاند، و ارسطو بخش بزرگی از عمرش را صرف کالبدشکافی جانوران دریایی کرد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Aristotelianism is less a set of doctrines than a way of asking: to understand anything, ask what it is made of, what shape it has, what brought it about, and what it is for. The last of those — the end or purpose — is what later science threw out and what ethics keeps returning to. His account of virtue as a settled disposition, learned by practice and sitting between two failures, is still the standard alternative to rule-based and consequence-based ethics.\n\nThe tradition's second life was longer than its first. Translated into Arabic in ninth-century Baghdad, developed by al-Fārābī and Ibn Sīnā, then commented on by Ibn Rushd, it returned to Latin Europe in the twelfth century and became the framework Aquinas built theology inside. When the seventeenth century revolted, it was against this Aristotle rather than the Greek one — and the revolt kept more of him than it admitted.",
+              "fa": "ارسطوگرایی بیش از آنکه مجموعه‌ای از آموزه‌ها باشد، شیوه‌ای از پرسیدن است: برای فهم هر چیز بپرس از چه ساخته شده، چه صورتی دارد، چه آن را پدید آورده، و برای چیست. آخری — غایت یا هدف — همان است که علم بعدی دورش انداخت و اخلاق پیوسته به آن بازمی‌گردد. تحلیل او از فضیلت همچون خویی پایدار که با تمرین آموخته می‌شود و میان دو خطا می‌نشیند، هنوز بدیل استاندارد اخلاقِ قاعده‌محور و نتیجه‌محور است.\n\nزندگی دوم این سنت از زندگی اولش درازتر بود. در بغدادِ سدهٔ نهم به عربی ترجمه شد، فارابی و ابن‌سینا بسطش دادند، ابن‌رشد بر آن شرح نوشت، و در سدهٔ دوازدهم به اروپای لاتین بازگشت و چارچوبی شد که آکویناس الهیات را درونش ساخت. وقتی سدهٔ هفدهم شورید، علیه همین ارسطو شورید نه ارسطوی یونانی — و آن شورش بیش از آنچه اعتراف می‌کرد از او نگه داشت."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "stoicism",
@@ -82,7 +122,27 @@
       ],
       "members": ["epictetus"],
       "concepts": ["dichotomy-of-control"],
-      "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }]
+      "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Stoics divided everything into what is up to us and what is not. Our judgements, intentions and responses are ours; our bodies, reputations and circumstances are not. Almost all suffering, they argued, comes from treating the second group as though it were the first.",
+              "fa": "رواقیان همه‌چیز را به دو بخش کردند: آنچه در اختیار ماست و آنچه نیست. داوری‌ها، نیت‌ها و واکنش‌های ما از آنِ ماست؛ بدن، آبرو و اوضاع ما نه. استدلال آنان این بود که تقریباً همهٔ رنج از آنجا می‌آید که با دستهٔ دوم چنان رفتار کنیم که گویی دستهٔ اول است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "It is easy to read this as advice for enduring hardship, and it was — Epictetus had been enslaved, Seneca was ordered to kill himself, Marcus Aurelius wrote his notes on campaign. But the ethics rests on a physics. The Stoics held that the universe is a single rational whole and that human reason is a fragment of the same order. Accepting what happens is not resignation on that view; it is agreeing with something you are already part of.\n\nThe modern revival keeps the ethics and drops the physics, which changes it. Without the claim that the world is rationally ordered, 'accept what you cannot change' becomes a coping technique rather than a truth about your place in things — useful, and much smaller than what Epictetus was teaching.",
+              "fa": "آسان است که این را اندرزی برای تحمل سختی بخوانیم، و بود — اپیکتتوس برده بوده، به سنکا فرمان خودکشی دادند، مارکوس اورلیوس یادداشت‌هایش را در لشکرکشی نوشت. اما این اخلاق بر یک طبیعیات استوار است. رواقیان می‌گفتند جهان یک کلِ عقلانیِ واحد است و عقل آدمی پاره‌ای از همان نظم. پذیرشِ آنچه رخ می‌دهد در این نگاه تسلیم نیست؛ همراهی با چیزی است که خودت پیشاپیش جزئی از آنی.\n\nاحیای امروزی اخلاق را نگه می‌دارد و طبیعیات را وامی‌نهد، و این تغییرش می‌دهد. بی آن ادعا که جهان به‌سامانِ عقل است، «آنچه را نمی‌توانی تغییر دهی بپذیر» به جای حقیقتی دربارهٔ جایگاه تو در هستی، فنی برای تاب‌آوردن می‌شود — سودمند، و بسیار کوچک‌تر از آنچه اپیکتتوس می‌آموخت."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "madhyamaka",
@@ -105,7 +165,27 @@
       "founders": ["nagarjuna"],
       "members": ["nagarjuna"],
       "concepts": ["sunyata"],
-      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }]
+      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nāgārjuna's school takes its name from the middle way — between saying that things exist in their own right and saying that nothing exists at all. Its claim is that everything depends on something else for what it is, and that a thing which depends on others has no independent nature of its own. That absence is what 'emptiness' names.",
+              "fa": "مکتب ناگارجونا نامش را از «راه میانه» گرفته — میان اینکه بگوییم چیزها به خودی خود موجودند و اینکه بگوییم اصلاً چیزی موجود نیست. ادعایش این است که هر چیز برای آنکه آن چیز باشد به چیزی دیگر وابسته است، و آنچه به دیگری وابسته است طبیعتی مستقل از آنِ خود ندارد. «تهیت» نام همین نبود است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is destructive by design. Nāgārjuna does not offer a picture of reality to replace the one he takes apart; he takes each position his opponents hold and shows it collapses on its own terms. Causation, motion, time, the self and even emptiness itself are examined and found to have no independent standing.\n\nThe obvious objection is that this leaves nothing to say and no reason to act. His answer is the school's most important move: emptiness is not nothingness, and the two truths are not rivals. Conventionally there are chariots, promises and suffering, and they work exactly as they appear to. Ultimately none of them has a nature that holds independently. Denying the second does not restore the first; it was never in danger. This is the framework Tibetan philosophy has argued inside for eight hundred years.",
+              "fa": "این استدلال به‌عمد ویرانگر است. ناگارجونا تصویری از واقعیت به‌جای آنچه فرومی‌پاشد پیشنهاد نمی‌کند؛ هر موضعی را که مخالفانش دارند برمی‌گیرد و نشان می‌دهد به شرط خودش فرومی‌ریزد. علیت، حرکت، زمان، خود، و حتی خودِ تهیت را می‌آزماید و می‌یابد که هیچ‌کدام قوامی مستقل ندارند.\n\nاعتراض آشکار این است که پس چیزی برای گفتن و انگیزه‌ای برای عمل نمی‌ماند. پاسخ او مهم‌ترین حرکت این مکتب است: تهیت هیچی نیست، و دو حقیقت رقیب هم نیستند. در سطح قراردادی ارابه هست، وعده هست، رنج هست، و درست همان‌گونه که می‌نمایند کار می‌کنند. در سطح نهایی هیچ‌کدام طبیعتی ندارند که مستقل بایستد. انکار دومی اولی را بازنمی‌گرداند؛ اولی هرگز در خطر نبوده. فلسفهٔ تبتی هشتصد سال درون همین چارچوب بحث کرده است."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "confucianism",
@@ -128,7 +208,27 @@
       "founders": ["confucius"],
       "members": ["confucius"],
       "concepts": ["ren"],
-      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }]
+      "citations": [{ "source": "confucius-analects" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Confucius was asked how to govern and answered by talking about families. His view was that a person is made by their relationships — to parents, to rulers, to friends — and that a society is repaired by people becoming worth imitating, not by better rules. Ritual, in this tradition, is not empty form; it is the practised shape of treating others well.",
+              "fa": "از کنفوسیوس پرسیدند چگونه باید حکومت کرد، و او دربارهٔ خانواده سخن گفت. نگاهش این بود که آدمی را نسبت‌هایش می‌سازند — با پدر و مادر، با فرمانروا، با دوستان — و جامعه با آدم‌هایی که شایستهٔ تقلیدند اصلاح می‌شود، نه با قوانین بهتر. «آیین» در این سنت صورتِ تهی نیست؛ شکلِ تمرین‌شدهٔ نیک‌رفتاری با دیگران است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The tradition's central term, rén, is translated as benevolence, humaneness or co-humanity, and Confucius refuses to define it — he describes people who have it and people who do not. That refusal is deliberate. A rule can be followed without understanding; a character has to be grown.\n\nMencius and Xunzi then divided over the material you grow it from. Mencius held that human nature tends toward the good and that anyone seeing a child about to fall into a well feels alarm before they can calculate; cultivation is watering what is already sprouting. Xunzi held the opposite — that nature is crooked and that ritual and teaching are the straightening — and pointed out that a farmer does not congratulate the soil. The disagreement was never settled, and both positions became state orthodoxy at different times.",
+              "fa": "اصطلاح مرکزی این سنت، «رِن»، را به نیکخواهی یا انسانیت ترجمه کرده‌اند، و کنفوسیوس از تعریفش سر باز می‌زند — کسانی را وصف می‌کند که آن را دارند و کسانی که ندارند. این سرباززدن عمدی است. از قاعده می‌توان بی‌فهم پیروی کرد؛ منش را باید پروراند.\n\nسپس منسیوس و شونزی بر سر ماده‌ای که آن را از آن می‌پرورانی جدا شدند. منسیوس می‌گفت سرشت آدمی به نیکی گرایش دارد و هر کس کودکی را ببیند که در آستانهٔ افتادن در چاه است، پیش از آنکه حساب کند دلش می‌لرزد؛ پرورش یعنی آب‌دادن به آنچه پیشاپیش جوانه زده. شونزی خلاف این را می‌گفت — که سرشت کج است و آیین و آموزش همان راست‌کردن است — و یادآور می‌شد که کشاورز به خاک تبریک نمی‌گوید. این اختلاف هرگز حل نشد، و هر دو موضع در دوره‌هایی آیین رسمی دولت شدند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "transcendent-wisdom",
@@ -155,7 +255,27 @@
       "founders": ["mulla-sadra"],
       "members": ["mulla-sadra"],
       "concepts": ["substantial-motion", "essence-existence-distinction"],
-      "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
+      "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mullā Ṣadrā's school, al-ḥikma al-mutaʿāliya, was an attempt to stop three Islamic traditions arguing past each other. Peripatetic demonstration, Illuminationist vision and Sufi experience were, in his view, three routes to one set of conclusions, and a philosophy that used only one of them would be missing evidence.",
+              "fa": "مکتب ملاصدرا، «حکمت متعالیه»، کوششی بود برای آنکه سه سنت اسلامی از کنار هم رد نشوند. برهانِ مشائی، شهودِ اشراقی و تجربهٔ عرفانی در نگاه او سه راه به یک مجموعه نتیجه بودند، و فلسفه‌ای که تنها از یکی از آن‌ها بهره ببرد، شاهدی را از دست می‌دهد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Two claims carry the system. The first is that existence is prior to essence: what a thing is, is a limit on the single reality of being, not a separate ingredient added to it. Ibn Sīnā had treated existence as something that happens to an essence; Ṣadrā reversed the order, and everything else follows from the reversal.\n\nThe second is substantial motion — the claim that change reaches all the way down. Aristotle allowed a substance to change its qualities while remaining the substance it was; Ṣadrā argued that the substance itself is in motion, that a thing is a process rather than a thing that undergoes processes. This gave him an account of how the soul can be bodily at its beginning and immaterial at its end without anything being added from outside. The school remains the living framework of philosophical instruction in Iran.",
+              "fa": "دو ادعا این دستگاه را نگه می‌دارد. نخست، تقدم وجود بر ماهیت: آنچه یک چیز هست، حدّی است بر حقیقت یگانهٔ هستی، نه جزئی جدا که بر آن افزوده شده باشد. ابن‌سینا وجود را چیزی می‌دانست که بر ماهیت عارض می‌شود؛ صدرا ترتیب را وارونه کرد، و باقی از همین وارونگی برمی‌آید.\n\nدوم، حرکت جوهری — این ادعا که دگرگونی تا ژرف‌ترین لایه می‌رسد. ارسطو اجازه می‌داد جوهر کیفیاتش را عوض کند و همان جوهر بماند؛ صدرا گفت خودِ جوهر در حرکت است، و چیز، فرایند است نه چیزی که فرایندها بر آن می‌گذرد. همین به او تبیینی داد از اینکه نفس چگونه می‌تواند در آغاز جسمانی و در پایان مجرد باشد، بی‌آنکه چیزی از بیرون افزوده شود. این مکتب هنوز چارچوب زندهٔ آموزش فلسفه در ایران است."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "daoism",
@@ -182,7 +302,27 @@
       "founders": ["laozi"],
       "members": ["laozi", "zhuangzi"],
       "opposes": ["legalism", "confucianism"],
-      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
+      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Daoism distrusts the very thing Confucianism relies on: deliberate cultivation. Its claim is that the most effective action looks like no action at all — wúwéi — and that most human trouble comes from forcing what would have arranged itself. The Dao is not a thing you can name; the Daodejing opens by saying so.",
+              "fa": "دائوئیسم به همان چیزی بدگمان است که کنفوسیوس‌گرایی بر آن تکیه دارد: پرورشِ عامدانه. ادعایش این است که مؤثرترین کنش همان است که به بی‌کنشی می‌ماند — «وو وی» — و بیشترِ گرفتاری آدمی از آنجاست که چیزی را به زور پیش می‌برد که خود سامان می‌گرفت. «دائو» چیزی نیست که بتوان نامش نهاد؛ دائودجینگ با همین جمله آغاز می‌شود."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Wúwéi is easy to mistake for passivity. The texts describe it with craftsmen: a butcher whose blade has not been sharpened in nineteen years because he cuts along the joints rather than through them, a swimmer who survives a waterfall by going with the water. This is skill so complete that effort disappears from it — not the absence of action but the absence of forcing.\n\nZhuangzi pushes the same thought further and stranger. If our categories are our own, then so is the confidence that we are awake, or human, or right. He wakes from dreaming he was a butterfly and cannot establish which way round it goes. Where the Daodejing offers advice to rulers, Zhuangzi offers something closer to a loosening — and the two together gave Chinese thought its permanent counterweight to the Confucian insistence that things must be put in order.",
+              "fa": "«وو وی» را آسان می‌توان با انفعال اشتباه گرفت. متن‌ها آن را با پیشه‌وران وصف می‌کنند: قصابی که نوزده سال است تیغش را تیز نکرده، چون از میان بندها می‌بُرد نه از میان استخوان؛ شناگری که از آبشار جان به در می‌برد چون با آب می‌رود. این مهارتی است چنان تمام که کوشش از آن ناپدید شده — نه نبودِ کنش، که نبودِ زور.\n\nجوانگ‌زی همین فکر را دورتر و غریب‌تر می‌بَرد. اگر مقوله‌های ما از خود ماست، پس این اطمینان هم که بیداریم، یا آدمی‌ایم، یا بر حقیم، از خود ماست. از خوابی برمی‌خیزد که در آن پروانه بوده و نمی‌تواند تعیین کند کدام سو درست است. آنجا که دائودجینگ به فرمانروایان اندرز می‌دهد، جوانگ‌زی چیزی نزدیک‌تر به گشودن گره عرضه می‌کند — و این دو با هم به اندیشهٔ چینی وزنهٔ متقابلِ همیشگی‌اش را در برابر اصرار کنفوسیوسی بر سامان‌دادن به کارها دادند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "legalism",
@@ -209,7 +349,27 @@
       "founders": ["han-feizi"],
       "members": ["han-feizi", "xunzi"],
       "opposes": ["confucianism", "mohism"],
-      "citations": [{ "source": "text-hanfeizi-book" }, { "source": "sep" }]
+      "citations": [{ "source": "text-hanfeizi-book" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Legalists agreed with Xunzi that human nature is self-interested and drew the opposite conclusion from Confucius. If people respond to reward and punishment, then a state should be built out of clear law applied without exception — and should not depend on finding a virtuous ruler, because virtuous rulers are rare.",
+              "fa": "قانون‌گرایان با شونزی هم‌داستان بودند که سرشت آدمی خودخواه است، و از کنفوسیوس نتیجهٔ وارونه گرفتند. اگر مردم به پاداش و کیفر پاسخ می‌دهند، پس دولت را باید از قانونِ روشن و بی‌استثنا ساخت — و نباید به یافتن فرمانروای بافضیلت وابسته‌اش کرد، چون فرمانروای بافضیلت کمیاب است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Han Feizi's argument is uncomfortable and hard to answer. A carpenter does not hope the wood will be straight; he uses a plumb line. A state that needs a sage on the throne has no answer for the ordinary ruler, and most rulers are ordinary. So the ruler's own preferences should be invisible, positions should be filled by measured performance rather than by reputation, and the law should be published so that nobody can plead ignorance.\n\nQin used this to unify China in 221 BCE and collapsed within fifteen years, which every later dynasty cited as the refutation. The citation is not quite fair: the machinery survived the ideology, and Chinese statecraft afterwards ran on Legalist institutions inside Confucian language. Han Feizi had studied under Xunzi, and was executed on the advice of a fellow student.",
+              "fa": "استدلال هان فِی‌زی ناخوشایند است و پاسخ‌دادنش دشوار. نجار امید نمی‌بندد که چوب راست باشد؛ شاقول به کار می‌برد. دولتی که به فرزانه‌ای بر تخت نیاز دارد، برای فرمانروای معمولی پاسخی ندارد، و بیشتر فرمانروایان معمولی‌اند. پس سلیقهٔ خودِ فرمانروا باید نامرئی بماند، مناصب باید با کارکردِ سنجیده پر شود نه با آوازه، و قانون باید منتشر شود تا کسی نتواند ادعای بی‌خبری کند.\n\nچین با همین در ۲۲۱ پیش از میلاد به دست «چین» یکپارچه شد و در کمتر از پانزده سال فروپاشید، و هر سلسلهٔ بعدی همین را چون ردیّه نقل کرد. این نقل چندان منصفانه نیست: سازوکار از ایدئولوژی جان به در برد، و کشورداری چینی از آن پس بر نهادهای قانون‌گرا در پوشش زبان کنفوسیوسی چرخید. هان فی‌زی شاگرد شونزی بود، و به توصیهٔ هم‌شاگردی‌اش اعدام شد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "mohism",
@@ -236,7 +396,27 @@
       "founders": ["mozi"],
       "members": ["mozi"],
       "opposes": ["confucianism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mozi asked why we should care more about our own family than about strangers, and could find no defensible answer. His school argued for impartial concern — that everyone's welfare counts the same — and tested every custom by whether it fed people or wasted them. Elaborate funerals and court music failed the test.",
+              "fa": "مو زی پرسید چرا باید به خانوادهٔ خودمان بیش از بیگانگان اهمیت دهیم، و پاسخی که قابل دفاع باشد نیافت. مکتب او از «توجه بی‌طرفانه» دفاع کرد — که رفاه همه یکسان به حساب می‌آید — و هر رسمی را با این محک آزمود که مردم را سیر می‌کند یا هدر می‌دهد. تشییع‌های پرخرج و موسیقی درباری از این آزمون سربلند بیرون نیامدند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "This is the earliest sustained consequentialism anywhere, and it came with the earliest Chinese work on logic and optics. The Mohists needed argument because they were arguing against the strongest intuition their society had — that obligation runs outward from kin — and they could not appeal to tradition, since tradition was what they were attacking.\n\nThey were also engineers. Holding that aggressive war is the largest destroyer of welfare, they travelled to threatened cities and built the defences, which made pacifism a matter of siege machinery rather than sentiment. Mencius named them as one of the two doctrines that had to be refuted. The school disappeared under the Han and was barely read for two thousand years; its logical writings were only reconstructed in the twentieth century.",
+              "fa": "این نخستین پیامدگراییِ پیوسته در هر جای جهان است، و همراهش نخستین کار چینی در منطق و نورشناسی آمد. موهیان به استدلال نیاز داشتند چون در برابر نیرومندترین شهودِ جامعه‌شان می‌ایستادند — که تعهد از خویشاوند به بیرون می‌رود — و نمی‌توانستند به سنت متوسل شوند، چون سنت همان بود که به آن می‌تاختند.\n\nمهندس هم بودند. چون جنگِ تجاوزکارانه را بزرگ‌ترین ویرانگر رفاه می‌دانستند، به شهرهای در خطر سفر می‌کردند و استحکامات می‌ساختند؛ و این صلح‌طلبی را به کار ماشین‌آلات محاصره بدل کرد نه احساسات. منسیوس آنان را یکی از دو آموزه‌ای خواند که باید رد شود. این مکتب زیر سلسلهٔ هان ناپدید شد و دو هزار سال تقریباً خوانده نشد؛ نوشته‌های منطقی‌اش تازه در سدهٔ بیستم بازسازی شد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "neo-confucianism",
@@ -262,7 +442,27 @@
       ],
       "founders": ["zhu-xi"],
       "members": ["zhu-xi", "wang-yangming", "mou-zongsan"],
-      "citations": [{ "source": "text-chuanxilu" }, { "source": "sep" }]
+      "citations": [{ "source": "text-chuanxilu" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "After centuries in which Buddhism held the deepest questions, Song-dynasty thinkers rebuilt Confucianism with a metaphysics of its own. Everything, they said, has both li — pattern or principle — and qi, the stuff that pattern is realised in. Moral cultivation became the work of clearing one's qi so that the pattern already there could show.",
+              "fa": "پس از قرن‌هایی که بودیسم ژرف‌ترین پرسش‌ها را در دست داشت، اندیشمندان دورهٔ سونگ کنفوسیوس‌گرایی را با متافیزیکی از آنِ خود بازساختند. گفتند هر چیز هم «لی» دارد — الگو یا اصل — و هم «چی»، مایه‌ای که آن الگو در آن تحقق می‌یابد. پرورش اخلاقی شد کارِ زدودنِ چیِ خود تا الگویی که پیشاپیش آنجاست پیدا شود."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Zhu Xi's synthesis became the examination curriculum for six hundred years, which is a strange fate for a philosophy about looking closely at things. His method was the investigation of things: examine particulars patiently, and the pattern common to them will eventually become clear.\n\nWang Yangming rejected the method on the strength of having tried it. He sat before bamboo for seven days investigating it, fell ill, and concluded that the pattern is not out there waiting to be assembled — mind and principle are one, and moral knowledge is innate and immediate. His slogan, the unity of knowing and acting, means that anyone who knows what is right and does not do it does not really know it. The dispute between the two runs through Korean and Japanese philosophy as much as Chinese.",
+              "fa": "ترکیبِ جو شی ششصد سال برنامهٔ آزمون‌های دولتی شد، که سرنوشت غریبی است برای فلسفه‌ای دربارهٔ نیک نگریستن به چیزها. روش او «کاوش در چیزها» بود: جزئیات را با شکیبایی بیازمای تا الگوی مشترکشان سرانجام آشکار شود.\n\nوانگ یانگ‌مینگ این روش را رد کرد، آن هم به اعتبار اینکه آزموده بودش. هفت روز برابر بامبو نشست و در آن کاوید، بیمار شد، و نتیجه گرفت که الگو آن بیرون در انتظار گردآوری نیست — ذهن و اصل یکی‌اند، و معرفت اخلاقی درونی و بی‌واسطه است. شعار او، یگانگی دانستن و کردن، یعنی هر که بداند چه درست است و نکند، در حقیقت نمی‌داند. نزاع این دو در فلسفهٔ کره‌ای و ژاپنی به همان اندازهٔ چینی جاری است."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "advaita-vedanta",
@@ -292,7 +492,27 @@
       "citations": [
         { "source": "text-brahma-sutra-bhasya" },
         { "source": "sep" }
-      ]
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Advaita means not-two. Śaṅkara's claim is that the self at the centre of your experience and the ground of everything that exists are not two things — and that the appearance of a world of separate objects is a misreading, the way a coiled rope in dim light is taken for a snake.",
+              "fa": "«اَدوَیته» یعنی نادو. ادعای شنکره این است که آن خودی که در مرکز تجربهٔ توست و بنیادِ هرچه هست دو چیز نیستند — و نمودِ جهانی از اشیای جدا از هم بدخوانی است، همان‌گونه که ریسمانِ پیچیده در نور کم را مار می‌گیرند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The rope and the snake is doing careful work. The fear is real, the snake is not, and nothing has to be destroyed for the mistake to end — you only have to see what was there. So liberation is not an achievement or a journey; it is the removal of an error, and the self was never bound.\n\nThe hard question is why the error occurs at all, and Advaita's answer, māyā, is more a name for the problem than a solution — a charge its rivals pressed hard. Rāmānuja's objection is the most serious: if the world is unreal, the scriptures that teach this are unreal too, and so is the teacher. His own school kept the unity and gave the world and the individual soul a real, dependent existence inside it.",
+              "fa": "ریسمان و مار کار دقیقی می‌کند. ترس واقعی است، مار نیست، و برای پایان‌یافتن خطا هیچ‌چیز نباید نابود شود — تنها باید آنچه را هست ببینی. پس رهایی دستاورد یا سفر نیست؛ برداشتن یک خطاست، و آن خود هرگز در بند نبوده.\n\nپرسش دشوار این است که اصلاً چرا خطا رخ می‌دهد، و پاسخ اَدوَیته، «مایا»، بیش از آنکه حل باشد نامی است برای همان مسئله — ایرادی که رقیبان سخت بر آن فشار آوردند. اعتراض رامانوجه از همه جدی‌تر است: اگر جهان ناواقعی است، آن متون مقدس که این را می‌آموزند نیز ناواقعی‌اند، و آموزگار هم. مکتب خودِ او یگانگی را نگه داشت و به جهان و نفس فردی هستیِ واقعی اما وابسته‌ای درون آن داد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "vishishtadvaita",
@@ -319,7 +539,27 @@
       "founders": ["ramanuja"],
       "members": ["ramanuja"],
       "opposes": ["advaita-vedanta"],
-      "citations": [{ "source": "text-sri-bhasya" }, { "source": "sep" }]
+      "citations": [{ "source": "text-sri-bhasya" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Rāmānuja accepted that reality is one and denied that this makes the world an illusion. His formula is qualified non-dualism: the world and individual souls are real, and they stand to the divine as a body stands to the self that lives in it — distinct, never separate, and not reducible to it.",
+              "fa": "رامانوجه پذیرفت که واقعیت یکی است و انکار کرد که این جهان را وهم می‌کند. فرمول او نادوگراییِ مقید است: جهان و نفوس فردی واقعی‌اند، و نسبتشان با خداوند همان نسبتِ تن است با خودی که در آن زندگی می‌کند — متمایز، هرگز جدا، و تحویل‌ناپذیر به آن."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The body-and-self analogy is the whole position in one image. Your hand is genuinely yours and genuinely a hand; it is not you, and it has no existence apart from you. Souls are real in that sense — which matters, because a devotional tradition needs someone left to do the loving.\n\nThat is the practical stake. Advaita ends in the recognition that there was never anyone separate; Rāmānuja's school ends in a relationship, and a relationship needs two terms. His attack on māyā is direct: if ignorance is unreal it cannot bind anything, and if it is real then non-dualism has already failed. The Śrī Vaiṣṇava tradition that grew from this remains one of the largest living philosophical communities in India.",
+              "fa": "تمثیلِ تن و خود، تمامِ این موضع در یک تصویر است. دستِ تو به‌راستی از آنِ توست و به‌راستی دست است؛ تو نیست، و جدا از تو هستی ندارد. نفوس به همین معنا واقعی‌اند — و این مهم است، چون سنتی که بر پرستش استوار است به کسی نیاز دارد که عشق بورزد.\n\nگرو کار همین‌جاست. اَدوَیته به این بازشناسی می‌رسد که هرگز کسی جدا نبوده؛ مکتب رامانوجه به یک نسبت می‌رسد، و نسبت به دو طرف نیاز دارد. حملهٔ او به مایا مستقیم است: اگر جهل ناواقعی است نمی‌تواند چیزی را ببندد، و اگر واقعی است پس نادوگرایی همان‌جا شکست خورده. سنت «شری وَیشنَوه» که از این برآمد، هنوز یکی از بزرگ‌ترین جامعه‌های زندهٔ فلسفی در هند است."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "yogacara",
@@ -346,7 +586,27 @@
       "founders": ["vasubandhu"],
       "members": ["vasubandhu", "dignaga"],
       "opposes": ["madhyamaka"],
-      "citations": [{ "source": "text-vimsatika" }, { "source": "sep" }]
+      "citations": [{ "source": "text-vimsatika" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Yogācāra begins from what meditators notice: that experience never presents an object without also presenting a way of taking it. Its claim is that what we treat as an outside world is known only as it appears in consciousness, and that the split between knower and known is itself something the mind produces.",
+              "fa": "یوگاچاره از آنچه اهل مراقبه درمی‌یابند آغاز می‌کند: تجربه هرگز متعلَقی را عرضه نمی‌کند بی‌آنکه شیوه‌ای از گرفتن آن را هم عرضه کند. ادعایش این است که آنچه جهانِ بیرون می‌گیریم تنها چنان‌که در آگاهی می‌نماید شناخته می‌شود، و خودِ شکافِ میان شناسنده و شناخته‌شده چیزی است که ذهن می‌سازد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Whether this is idealism is disputed and probably the wrong question. The school's target is not the existence of a world but a habit — the taking of appearance as an independent thing standing over against us. Its most original apparatus is the storehouse consciousness, a substratum in which the traces of past action are held and from which experience is coloured before it reaches us. That explains continuity without a self and karma without a bearer, which Buddhism had needed and not had.\n\nAsaṅga and Vasubandhu built it in fourth-century India, and the argument with Madhyamaka over which school was the middle way ran for centuries. In Tibet it became the standard second stage of study; in China it fed Huayan and Chan, and through Chan it reached Japan.",
+              "fa": "اینکه این ایده‌آلیسم هست یا نه محل نزاع است و احتمالاً پرسش درستی نیست. هدفِ این مکتب هستیِ جهان نیست، بلکه یک عادت است — گرفتنِ نمود همچون چیزی مستقل که در برابر ما ایستاده. اصیل‌ترین دستگاه آن «آگاهیِ انبار» است، زیرلایه‌ای که ردّ کردارهای گذشته در آن نگه داشته می‌شود و تجربه پیش از رسیدن به ما از آن رنگ می‌گیرد. این پیوستگی را بی‌خود، و کارما را بی‌حامل توضیح می‌دهد؛ چیزی که بودیسم به آن نیاز داشت و نداشت.\n\nاَسَنگه و وَسوبَندهو آن را در هندِ سدهٔ چهارم ساختند، و بحث با مَدهیَمَکه بر سر اینکه کدام مکتب راه میانه است قرن‌ها ادامه یافت. در تبت مرحلهٔ دوم استاندارد آموزش شد؛ در چین به هوایان و چان خوراک داد، و از راه چان به ژاپن رسید."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "jainism",
@@ -372,7 +632,27 @@
       ],
       "founders": ["mahavira"],
       "members": ["mahavira"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Jain philosophy holds that reality has more sides than any one description can catch, and turns that into a formal method: every claim is true only from a standpoint, and must be stated with the standpoint attached. Its ethics follows from the same modesty — if you cannot be certain, you had better not harm.",
+              "fa": "فلسفهٔ جَین می‌گوید واقعیت وجوهی بیش از آن دارد که یک توصیف بتواند بگیرد، و همین را به روشی صوری بدل می‌کند: هر ادعا تنها از یک منظر صادق است، و باید با ذکر آن منظر بیان شود. اخلاقش از همین فروتنی برمی‌آید — اگر نمی‌توانی یقین داشته باشی، بهتر است آزار نرسانی."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The doctrine is called anekāntavāda, many-sidedness, and its illustration is the blind men and the elephant — each report accurate, each mistaken in taking a part for the whole. The formal version, syādvāda, prefixes assertions with 'in some respect', and gives seven combinations of affirmation, denial and inexpressibility. Critics from Śaṅkara onward have called it evasion. Jains reply that a philosophy which claims one complete description is the thing actually being evasive.\n\nAhiṃsā, non-harm, is not a separate commitment but the practical face of the same thought: certainty is what licenses violence. Mahāvīra taught this in the fifth century BCE, and the tradition worked it out in unusual detail, down to the ethics of agriculture and of breathing. Gandhi, raised among Jains, took both ideas into politics.",
+              "fa": "این آموزه را «اَنِکانته‌واده» می‌نامند، چندوجهی‌بودن، و مثالش نابینایان و فیل است — هر گزارش دقیق، و هر یک در گرفتن جزء به‌جای کل خطاکار. صورت صوری‌اش، «سیاد واده»، پیش از هر حکم «از جهتی» می‌گذارد و هفت ترکیب از اثبات و نفی و بیان‌ناپذیری به دست می‌دهد. منتقدان از شنکره به این سو آن را طفره خوانده‌اند. جَین‌ها پاسخ می‌دهند فلسفه‌ای که مدعی یک توصیف تمام است، همان است که در واقع طفره می‌رود.\n\n«اَهیمسا»، نیازردن، تعهدی جدا نیست بلکه چهرهٔ عملی همان فکر است: این یقین است که جواز خشونت می‌دهد. مَهاویره این را در سدهٔ پنجم پیش از میلاد آموخت، و این سنت آن را با تفصیلی نامعمول پرورد، تا اخلاق کشاورزی و حتی نفس‌کشیدن. گاندی که میان جَین‌ها بزرگ شده بود، هر دو فکر را به سیاست برد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "zen",
@@ -402,7 +682,27 @@
       ],
       "founders": ["dogen"],
       "members": ["dogen"],
-      "citations": [{ "source": "text-shobogenzo" }, { "source": "sep" }]
+      "citations": [{ "source": "text-shobogenzo" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Zen is the Japanese descendant of Chinese Chan, and its distinguishing claim is about method rather than doctrine: that the understanding which matters cannot be transmitted by explanation. Sitting, and the relationship with a teacher, do what argument cannot.",
+              "fa": "ذن فرزند ژاپنیِ «چان» چینی است، و ادعای متمایزش دربارهٔ روش است نه آموزه: آن فهمی که به کار می‌آید با توضیح منتقل نمی‌شود. نشستن، و نسبت با آموزگار، کاری می‌کنند که استدلال نمی‌تواند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "It is easy to take this as anti-intellectualism, and Dōgen is the standing refutation. He wrote thousands of pages of close, difficult prose, and his central claim is philosophically precise: practice is not a means to enlightenment but its expression. Sitting in order to become enlightened later has the relation backwards, because it treats the practice as instrumental and the practitioner as deficient.\n\nHis argument about time is stranger and more original. Being and time are not two things; existence is time, and each moment is complete rather than a step toward the next. The Rinzai line took a different route through kōans — questions built so that the ordinary way of answering cannot get purchase. Both agree that the obstacle is not ignorance of a fact but the shape of the asking.",
+              "fa": "آسان است که این را ضدیت با خرد بگیریم، و دوگن ردّیهٔ همیشگی آن است. او هزاران صفحه نثرِ دقیق و دشوار نوشت، و ادعای مرکزی‌اش از نظر فلسفی موشکافانه است: تمرین وسیلهٔ روشن‌شدگی نیست بلکه بیانِ آن است. نشستن برای آنکه بعداً روشن شوی نسبت را وارونه گرفته، چون تمرین را ابزاری و تمرین‌کننده را ناقص می‌انگارد.\n\nاستدلال او دربارهٔ زمان غریب‌تر و اصیل‌تر است. بودن و زمان دو چیز نیستند؛ هستی زمان است، و هر لحظه تمام است نه گامی به‌سوی لحظهٔ بعد. شاخهٔ رینزای راه دیگری از میان «کوآن»ها رفت — پرسش‌هایی چنان ساخته‌شده که شیوهٔ معمولِ پاسخ‌دادن بر آن‌ها چنگ نمی‌اندازد. هر دو هم‌داستان‌اند که مانع، ناآگاهی از یک واقعیت نیست بلکه شکلِ خودِ پرسیدن است."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "kyoto-school",
@@ -436,7 +736,27 @@
       "citations": [
         { "source": "text-inquiry-into-the-good" },
         { "source": "sep" }
-      ]
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Kyoto School is what happened when philosophers trained in Zen read Kant and Hegel and refused to choose. Nishida's question was whether European philosophy had built its entire apparatus on a distinction — subject facing object — that experience does not actually contain.",
+              "fa": "مکتب کیوتو حاصل آن است که فیلسوفانی پرورده در ذن، کانت و هگل خواندند و از انتخاب میان این دو سر باز زدند. پرسش نیشیدا این بود که آیا فلسفهٔ اروپایی تمام دستگاهش را بر تمایزی نساخته است — فاعل در برابر متعلَق — که تجربه در واقع آن را در خود ندارد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Nishida called the starting point pure experience: the moment of hearing a sound before it has been sorted into a hearer and a thing heard. He argued that the split is added by reflection and then mistaken for what was there. From this he built toward the logic of place — the claim that the deepest term is not a subject at all but the field in which subject and object arise, which he called absolute nothingness. It is nothingness in the sense that it is not one more being among beings, not in the sense of blank absence.\n\nThe school's history is not clean. Several of its members lent philosophical language to Japanese wartime nationalism, and the argument over how far that follows from the ideas has never been settled. Reading them requires holding both things at once: the questions are real, and so is what was done with them.",
+              "fa": "نیشیدا نقطهٔ آغاز را «تجربهٔ ناب» نامید: لحظهٔ شنیدنِ صدا پیش از آنکه به شنونده و شنیده تفکیک شود. استدلال می‌کرد که این شکاف را بازتاب می‌افزاید و سپس به‌جای آنچه بوده گرفته می‌شود. از همین به‌سوی «منطق مکان» ساخت — این ادعا که ژرف‌ترین اصطلاح اصلاً فاعل نیست بلکه میدانی است که فاعل و متعلَق در آن پدید می‌آیند، و آن را «نیستیِ مطلق» خواند. نیستی به این معنا که یک موجودِ دیگر در میان موجودات نیست، نه به معنای غیابِ تهی.\n\nتاریخ این مکتب پاکیزه نیست. چند تن از اعضایش زبان فلسفی را به ناسیونالیسم ژاپن در سال‌های جنگ عاریه دادند، و بحث بر سر اینکه این تا چه اندازه از خودِ آن اندیشه‌ها برمی‌آید هرگز حل نشده. خواندن آنان مستلزم نگه‌داشتن هر دو چیز با هم است: پرسش‌ها واقعی‌اند، و آنچه با آن‌ها کردند نیز."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "gelug",
@@ -467,7 +787,27 @@
       ],
       "founders": ["tsongkhapa"],
       "members": ["tsongkhapa"],
-      "citations": [{ "source": "text-lamrim-chenmo" }, { "source": "sep" }]
+      "citations": [{ "source": "text-lamrim-chenmo" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Tsongkhapa founded the Gelug in fifteenth-century Tibet on an unpopular claim: that emptiness has to be reached by argument, not by setting argument aside. Meditation without analysis, on his view, produces a blankness that feels like insight and is not.",
+              "fa": "تسونگ‌خاپا مکتب گِلوگ را در تبتِ سدهٔ پانزدهم بر ادعایی نامحبوب بنیاد نهاد: تهیت را باید با استدلال به دست آورد، نه با کنارگذاشتن استدلال. به نظر او مراقبه بی‌تحلیل، تهیّتی می‌سازد که حسِ بصیرت می‌دهد و بصیرت نیست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The position is a hard one to hold from both sides. Against those who took emptiness to mean that nothing exists, Tsongkhapa insisted that emptiness and dependent origination say the same thing — a thing is empty precisely because it arises dependently, so emptiness is the reason things work rather than a reason they cannot. Against those who took the highest realisation to be beyond conceptual thought altogether, he argued that you cannot negate what you have not first identified, and that identifying it is conceptual work.\n\nThe institutional result was a monastic curriculum of extraordinary rigour, built on formal debate, that has run for six centuries and still does — in exile since 1959. The Dalai Lamas belong to this school, which is why its epistemology is the tradition that has engaged most closely with modern science.",
+              "fa": "این موضعی است که از هر دو سو نگه‌داشتنش دشوار است. در برابر کسانی که تهیت را به معنای نبودِ هرچیز می‌گرفتند، تسونگ‌خاپا اصرار داشت که تهیت و پیدایشِ وابسته یک چیز می‌گویند — چیزی تهی است دقیقاً از آن رو که وابسته پدید می‌آید، پس تهیت دلیلِ کارکردنِ چیزهاست نه دلیلِ ناتوانی‌شان. در برابر کسانی که بالاترین دریافت را یکسره فراسوی اندیشهٔ مفهومی می‌دانستند، استدلال کرد که آنچه را نخست بازنشناخته باشی نمی‌توانی نفی کنی، و بازشناختن کاری مفهومی است.\n\nنتیجهٔ نهادی، برنامه‌ای رهبانی با سخت‌گیری کم‌نظیر بود، استوار بر مناظرهٔ صوری، که شش قرن دوام آورده و هنوز جاری است — از ۱۹۵۹ در تبعید. دالایی‌لاماها به این مکتب تعلق دارند، و به همین سبب معرفت‌شناسی‌اش سنتی است که بیش از همه با علم جدید درگیر شده."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "scholasticism",
@@ -491,7 +831,27 @@
       ],
       "founders": ["anselm"],
       "members": ["anselm", "aquinas", "scotus", "ockham", "abelard"],
-      "citations": [{ "source": "text-proslogion" }, { "source": "sep" }]
+      "citations": [{ "source": "text-proslogion" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Scholasticism is a method before it is a set of views: pose a question, set out the strongest objections, give the contrary authority, answer, then reply to each objection in turn. It was built for teaching, and it forces a writer to state the case against them better than an opponent would.",
+              "fa": "مدرسی پیش از آنکه مجموعه‌ای از آرا باشد یک روش است: پرسشی طرح کن، قوی‌ترین اعتراض‌ها را بیاور، مرجعِ مخالف را نقل کن، پاسخ بده، و سپس یک‌به‌یک به اعتراض‌ها جواب بده. برای آموزش ساخته شده بود، و نویسنده را وامی‌دارد دلیلِ مخالف را بهتر از خودِ مخالف بیان کند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The material it worked on arrived from outside. Aristotle's full corpus reached Latin Europe in the twelfth century largely through Arabic, together with the commentaries of Ibn Sīnā and Ibn Rushd, and it did not fit what the universities already taught. Much of scholasticism is the work of deciding what to do about that — a philosophy of managed collision.\n\nAquinas took the position that reason and revelation cannot really conflict, since both come from one source, so an apparent conflict means one side has been misread. Others disagreed sharply: Duns Scotus and Ockham thought this made God's freedom hostage to Aristotle's necessities. The method's reputation was ruined by later parody — the angels and the pin — but the habit of stating your opponent's case first is one of the more durable things philosophy has produced.",
+              "fa": "ماده‌ای که بر آن کار می‌کرد از بیرون رسید. مجموعهٔ کامل آثار ارسطو در سدهٔ دوازدهم عمدتاً از راه عربی به اروپای لاتین رسید، همراه با شرح‌های ابن‌سینا و ابن‌رشد، و با آنچه دانشگاه‌ها پیشاپیش می‌آموختند جور درنمی‌آمد. بخش بزرگی از مدرسی، کارِ تصمیم‌گیری دربارهٔ همین است — فلسفه‌ای برای مدیریت یک برخورد.\n\nآکویناس این موضع را گرفت که عقل و وحی نمی‌توانند به‌راستی در تعارض باشند، چون هر دو از یک سرچشمه‌اند، پس تعارضِ ظاهری یعنی یک سو بد خوانده شده. دیگران به‌تندی مخالفت کردند: دونس اسکوتوس و اوکام می‌پنداشتند این آزادی خدا را گروگانِ ضرورت‌های ارسطو می‌کند. آوازهٔ این روش را هجوهای بعدی ویران کرد — فرشتگان و نوک سوزن — اما عادتِ بیان‌کردنِ دلیل حریف پیش از دلیل خود، از پایدارترین چیزهایی است که فلسفه پدید آورده."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "nominalism",
@@ -516,7 +876,27 @@
       "founders": ["ockham"],
       "members": ["ockham", "abelard"],
       "opposes": ["platonism"],
-      "citations": [{ "source": "text-summa-logicae" }, { "source": "sep" }]
+      "citations": [{ "source": "text-summa-logicae" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nominalists deny that the thing many horses have in common exists in addition to the horses. There are individuals, and there are the words we group them with — and the grouping is real work done by us, not a further object discovered out there.",
+              "fa": "نام‌گرایان انکار می‌کنند که آنچه اسب‌های بسیار در آن مشترک‌اند، افزون بر خودِ اسب‌ها وجود داشته باشد. جزئیات هست، و واژه‌هایی هست که با آن‌ها دسته‌بندی‌شان می‌کنیم — و دسته‌بندی کاری واقعی است که ما می‌کنیم، نه شیئی دیگر که آن بیرون کشف شده باشد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Ockham's argument is economy: do not multiply entities beyond necessity. If everything that needs explaining can be explained by individuals and by the mind's capacity to sort them, then universals are an extra population with no work to do. His deeper motive was theological — a God constrained by eternal essences is not free — which is worth noticing, because the doctrine is usually presented as pure logic.\n\nThe cost is real and the debate has not closed. If 'red' names nothing shared, it becomes hard to say what makes two things both red without smuggling the resemblance back in as another universal. The dispute reappeared intact in twentieth-century metaphysics, and mathematical Platonism is its liveliest front: nominalists have to explain what mathematics is about, and no answer has yet convinced everybody.",
+              "fa": "استدلال اوکام صرفه‌جویی است: موجودات را بیش از ضرورت مکثّر مکن. اگر هرچه نیازمند تبیین است با جزئیات و با توانِ ذهن در دسته‌بندی آن‌ها تبیین شود، پس کلی‌ها جمعیتی اضافی‌اند که کاری برای انجام‌دادن ندارند. انگیزهٔ ژرف‌تر او الهیاتی بود — خدایی که ماهیت‌های ازلی محدودش کنند آزاد نیست — و توجه به این می‌ارزد، چون این آموزه را معمولاً منطقِ ناب معرفی می‌کنند.\n\nهزینه‌اش واقعی است و بحث بسته نشده. اگر «سرخ» بر هیچ امر مشترکی دلالت نکند، گفتن اینکه چه چیز دو شیء را هر دو سرخ می‌کند دشوار می‌شود، مگر آنکه شباهت را چون کلیِ دیگری از راه پنهان بازگردانیم. همین نزاع دست‌نخورده در متافیزیک سدهٔ بیستم سر برآورد، و افلاطون‌گراییِ ریاضی زنده‌ترین جبههٔ آن است: نام‌گرایان باید توضیح دهند ریاضیات دربارهٔ چیست، و هنوز پاسخی همه را قانع نکرده."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "rationalism",
@@ -541,7 +921,27 @@
       "founders": ["descartes"],
       "members": ["descartes", "spinoza", "leibniz"],
       "opposes": ["empiricism"],
-      "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }]
+      "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The rationalists held that the mind has resources the senses cannot supply. We know that every event has a cause, and that the shortest distance between two points is a line, without checking — and no amount of checking could establish that they hold everywhere and always.",
+              "fa": "عقل‌گرایان می‌گفتند ذهن سرمایه‌هایی دارد که حواس نمی‌توانند فراهم کنند. ما بی‌آنکه وارسی کنیم می‌دانیم هر رویدادی علتی دارد، و کوتاه‌ترین فاصلهٔ میان دو نقطه خط است — و هیچ اندازه وارسی نمی‌تواند ثابت کند که این‌ها همه‌جا و همیشه برقرارند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Descartes, Spinoza and Leibniz agreed on that much and on almost nothing else, which is a sign that the label was applied later. Descartes tried to rebuild knowledge from a single certainty and needed God to get from his own mind back to the world. Spinoza accepted the method and followed it past where Descartes stopped, concluding that there is exactly one substance, that mind and body are two ways of describing it, and that free will is a misunderstanding. Leibniz found both unacceptable and built an infinity of independent substances instead.\n\nWhat unites them is the conviction that reality is intelligible all the way down — that everything has a reason, whether or not we can find it. Kant's response was to grant that the mind supplies structure and deny that the structure tells us about things as they are in themselves, which ended the dispute by dissolving it.",
+              "fa": "دکارت، اسپینوزا و لایب‌نیتس بر همین اندازه هم‌داستان بودند و تقریباً بر هیچ چیز دیگر، و این نشانهٔ آن است که این برچسب را بعدها زده‌اند. دکارت کوشید معرفت را از یک یقین بازسازد و برای بازگشت از ذهنِ خود به جهان به خدا نیاز داشت. اسپینوزا روش را پذیرفت و آن را تا فراتر از جایی که دکارت ایستاده بود دنبال کرد و نتیجه گرفت که تنها یک جوهر هست، که ذهن و تن دو شیوهٔ وصف آن‌اند، و که ارادهٔ آزاد بدفهمی است. لایب‌نیتس هر دو را نپذیرفت و به‌جایش بی‌نهایت جوهرِ مستقل ساخت.\n\nآنچه اینان را به هم می‌پیوندد این باور است که واقعیت تا آخرین لایه فهم‌پذیر است — که هر چیز دلیلی دارد، چه بیابیمش چه نه. پاسخ کانت این بود که بپذیرد ذهن ساختار را فراهم می‌کند و انکار کند که آن ساختار از چیزها آن‌گونه که فی‌نفسه هستند خبر می‌دهد؛ و این نزاع را با منحل‌کردنش پایان داد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "empiricism",
@@ -570,7 +970,27 @@
       "founders": ["locke"],
       "members": ["locke", "berkeley", "hume"],
       "opposes": ["rationalism"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The empiricists denied that the mind brings anything of its own to knowledge. Locke's image is a blank sheet: whatever is in the understanding arrived through the senses, and an idea that cannot be traced back to experience has not been shown to mean anything.",
+              "fa": "تجربه‌گرایان انکار کردند که ذهن چیزی از آنِ خود به معرفت می‌آورد. تصویر لاک صفحه‌ای سفید است: هرچه در فهم هست از راه حواس رسیده، و ایده‌ای که نتوان تا تجربه پی‌اش را گرفت، معنادار بودنش نشان داده نشده است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The programme is more corrosive than it first looks, and Hume is where that shows. If every idea must come from an impression, then look for the impression of causation: we see one billiard ball move after another, never the necessity between them. Hume concluded that the necessity is a habit of expectation in us, projected onto the world. The same test dissolves the self — introspect and you find perceptions, never the thing having them.\n\nHe took this to be a discovery about the limits of reason rather than a licence for doubt in daily life, and said plainly that he stopped believing it when he left his study. Kant said it woke him from dogmatic slumber. The tradition continued through Mill to the logical positivists, whose demand that a meaningful claim be verifiable was the empiricist test made sharper — and it failed its own test, which is why the programme in that form ended.",
+              "fa": "این برنامه فرساینده‌تر از آن است که در نگاه نخست می‌نماید، و هیوم جایی است که این آشکار می‌شود. اگر هر ایده باید از یک انطباع بیاید، پس انطباعِ علیت را بجوی: می‌بینیم گویی پس از گویِ دیگر حرکت می‌کند، اما ضرورتِ میانشان را هرگز نمی‌بینیم. هیوم نتیجه گرفت که آن ضرورت عادتی از انتظار در ماست که بر جهان فرافکنده می‌شود. همین آزمون «خود» را هم منحل می‌کند — به درون بنگر و ادراک‌ها را می‌یابی، نه آن چیزی که داراشان است.\n\nاو این را کشفی دربارهٔ حدود عقل می‌دانست نه جوازی برای شک در زندگی روزمره، و بی‌پرده گفت که چون از اتاق مطالعه بیرون می‌رود دیگر باورش نمی‌کند. کانت گفت این او را از خواب جزمی بیدار کرد. این سنت از راه میل به پوزیتیویست‌های منطقی رسید، که مطالبهٔ آنان — یعنی اینکه ادعای معنادار باید تحقیق‌پذیر باشد — همان آزمون تجربه‌گرایانه بود با لبهٔ تیزتر؛ و از آزمون خودش سربلند بیرون نیامد، و برنامه در آن صورت به همین سبب پایان یافت."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "utilitarianism",
@@ -599,7 +1019,27 @@
       ],
       "founders": ["bentham"],
       "members": ["bentham", "mill"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Utilitarianism holds that an action is right if it produces more well-being than the alternatives, and that everyone's well-being counts equally — including, Bentham noted, animals, since the question is not whether they can reason but whether they can suffer.",
+              "fa": "سودگرایی می‌گوید کنشی درست است که رفاهی بیش از بدیل‌هایش پدید آورد، و رفاه همه به یک اندازه به حساب می‌آید — از جمله، چنان‌که بنتام یادآور شد، جانوران؛ چون پرسش این نیست که آیا می‌توانند بیندیشند، بلکه این است که آیا می‌توانند رنج ببرند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Its historical force came from that equality. In a society organised by rank, a doctrine on which a labourer's pain weighs exactly as much as a duke's is a political weapon, and it was used as one — on prison reform, on the franchise, and by Mill on the subjection of women.\n\nThe standing objections are as old as the theory. It appears to permit anything if the numbers are large enough, including punishing someone known to be innocent to prevent a riot. It asks for calculations nobody can perform. And Mill's attempt to rank pleasures by quality — better Socrates dissatisfied than a fool satisfied — is hard to state without abandoning the single measure the theory needs. Rule utilitarianism and the later work on preference and capability are all attempts to keep the equality while losing the monstrosities.",
+              "fa": "نیروی تاریخی‌اش از همان برابری آمد. در جامعه‌ای که بر پایهٔ رتبه سامان یافته، آموزه‌ای که در آن درد یک کارگر دقیقاً به‌اندازهٔ درد یک اشراف‌زاده وزن دارد سلاحی سیاسی است، و همچون سلاح به کار رفت — در اصلاح زندان‌ها، در حق رأی، و به دست میل در «انقیاد زنان».\n\nاعتراض‌های همیشگی به قدمت خودِ نظریه‌اند. چنین می‌نماید که اگر اعداد به‌قدر کافی بزرگ باشند هر کاری را مجاز می‌کند، از جمله کیفردادنِ کسی که می‌دانیم بی‌گناه است تا شورشی جلوگیری شود. حساب‌هایی می‌خواهد که کسی نمی‌تواند انجام دهد. و کوشش میل برای رتبه‌بندی لذت‌ها بر پایهٔ کیفیت — سقراطِ ناخرسند بهتر از ابلهِ خرسند — به‌سختی بیان‌شدنی است بی‌آنکه همان مقیاس یگانه‌ای که نظریه به آن نیاز دارد رها شود. سودگراییِ قاعده‌محور و کارهای بعدی دربارهٔ ترجیح و قابلیت، همه کوشش‌هایی‌اند برای نگه‌داشتن آن برابری و از دست‌دادن آن هیولاها."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "phenomenology",
@@ -623,7 +1063,27 @@
       ],
       "founders": ["husserl"],
       "members": ["husserl", "heidegger", "merleau-ponty", "levinas"],
-      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }]
+      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Phenomenology asks what experience is actually like before theory gets to it. Husserl's instruction — back to the things themselves — means setting aside the question of whether the world is really as it appears, in order to describe carefully how it appears.",
+              "fa": "پدیدارشناسی می‌پرسد تجربه پیش از آنکه نظریه به آن برسد به‌راستی چگونه است. دستورِ هوسرل — بازگشت به خودِ چیزها — یعنی پرسشِ اینکه آیا جهان واقعاً همان‌گونه است که می‌نماید کنار گذاشته شود، تا بتوان با دقت وصف کرد که چگونه می‌نماید."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The method produced results that were not available any other way. Consciousness is always of something — intentionality — so a mind is not a container with contents but a directedness. Heidegger then argued that even this was too theoretical: we do not primarily observe a hammer, we hammer with it, and the hammer only becomes an object of contemplation when it breaks. Merleau-Ponty extended that downward into the body, arguing that perception is something a body does rather than something a mind receives.\n\nThis is where twentieth-century European philosophy divided from the English-speaking one, and the division was more about method than doctrine. The tradition's afterlife is wide: it is the source of most existentialism, of Sartre's and Beauvoir's ethics, and of the language cognitive science now uses when it talks about embodiment.",
+              "fa": "این روش نتایجی داد که از هیچ راه دیگری در دسترس نبود. آگاهی همیشه آگاهی از چیزی است — التفات — پس ذهن ظرفی با محتویات نیست بلکه نوعی رو به سوی داشتن است. سپس هایدگر استدلال کرد که همین هم بیش از حد نظری است: ما چکش را در وهلهٔ نخست مشاهده نمی‌کنیم، با آن می‌کوبیم، و چکش تنها وقتی متعلَق تأمل می‌شود که بشکند. مرلوپونتی این را به‌سوی تن پایین برد و گفت ادراک کاری است که تن می‌کند نه چیزی که ذهن دریافت می‌کند.\n\nاینجاست که فلسفهٔ اروپاییِ سدهٔ بیستم از فلسفهٔ انگلیسی‌زبان جدا شد، و این جدایی بیش از آنکه بر سر آموزه باشد بر سر روش بود. میراث این سنت گسترده است: سرچشمهٔ بیشترِ اگزیستانسیالیسم، اخلاق سارتر و بووار، و زبانی که علوم شناختی امروز هنگام سخن‌گفتن از «تن‌مندی» به کار می‌برد."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "existentialism",
@@ -655,7 +1115,27 @@
       "citations": [
         { "source": "text-being-and-nothingness" },
         { "source": "sep" }
-      ]
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Existentialism's slogan is that existence precedes essence: there is no human nature settled in advance that a life is supposed to realise. You arrive first and are defined by what you do — which makes freedom less a gift than a weight.",
+              "fa": "شعار اگزیستانسیالیسم این است که وجود بر ماهیت مقدم است: هیچ سرشت آدمیِ از پیش تعیین‌شده‌ای نیست که زندگی قرار باشد تحققش بخشد. تو نخست می‌رسی و با آنچه می‌کنی تعریف می‌شوی — و این آزادی را کمتر بخشش و بیشتر بار می‌کند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Kierkegaard began it a century early by attacking the idea that a system could tell you how to live — the individual, he said, is precisely what a system has no term for. Sartre gave it the formula and the vocabulary: we are condemned to be free, and bad faith is the ordinary dodge of pretending our choices were not ours.\n\nBeauvoir made the sharpest correction. Sartre's freedom is easiest to assert from a position that has few obstacles in it; a woman, she argued in The Second Sex, is not born but made, and the making is done by conditions she did not choose. Freedom is real, and it is situated. Fanon then took the same argument to colonisation. That line of development — from a metaphysics of freedom to an analysis of the conditions under which freedom is possible — is what the school left behind.",
+              "fa": "کیرکگور یک قرن زودتر آن را آغاز کرد، با حمله به این ایده که یک دستگاه بتواند بگوید چگونه باید زیست — می‌گفت «فرد» دقیقاً همان است که دستگاه اصطلاحی برایش ندارد. سارتر فرمول و واژگان را به آن داد: ما محکوم به آزادی‌ایم، و «سوءنیت» همان طفرهٔ معمولی است که وانمود کنیم انتخاب‌هایمان از آنِ ما نبوده.\n\nبووار تیزترین تصحیح را کرد. اثباتِ آزادیِ سارتری از موضعی آسان‌تر است که موانع کمی در آن باشد؛ در «جنس دوم» استدلال کرد که زن زاده نمی‌شود، ساخته می‌شود، و این ساختن را شرایطی انجام می‌دهد که او برنگزیده. آزادی واقعی است، و موقعیت‌مند. سپس فانون همین استدلال را به استعمار برد. همین سیر — از متافیزیکِ آزادی به تحلیلِ شرایطی که آزادی را ممکن می‌کنند — چیزی است که این مکتب بر جای گذاشت."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "pragmatism",
@@ -684,7 +1164,27 @@
       ],
       "founders": ["peirce"],
       "members": ["peirce", "james", "dewey", "rorty"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The pragmatists proposed a test for meaning: to know what a belief amounts to, ask what difference it would make if it were true. A dispute in which no possible experience could come out differently either way is not a deep dispute but an empty one.",
+              "fa": "پراگماتیست‌ها آزمونی برای معنا پیشنهاد کردند: برای دانستن اینکه یک باور به چه می‌انجامد، بپرس اگر صادق بود چه تفاوتی می‌کرد. نزاعی که در آن هیچ تجربهٔ ممکنی به هیچ‌یک از دو سو فرق نمی‌گذارد، نزاعی ژرف نیست، تهی است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Peirce meant this as a rule for clarifying concepts and was annoyed by what James did with it. James extended the test to truth itself — a belief is true if it works, if it pays its way in experience — which critics read as saying that whatever is comforting is true, and he never fully shook the charge.\n\nDewey took it somewhere more useful. Thought, on his account, is not a spectator's picture of a world but an instrument organisms use to reorganise a situation that has broken down. That makes enquiry continuous with action, and it made him a philosopher of education and democracy: a public that cannot enquire together cannot govern itself. The tradition thinned mid-century and returned through Quine and Rorty, and its test — what would be different? — is still the fastest way to find out whether an argument is about anything.",
+              "fa": "پیرس این را قاعده‌ای برای روشن‌کردن مفاهیم می‌دانست و از کاری که جیمز با آن کرد آزرده بود. جیمز آزمون را به خودِ صدق کشاند — باوری صادق است که کار کند، که در تجربه هزینه‌اش را دربیاورد — و منتقدان این را چنین خواندند که هرچه دلگرم‌کننده باشد صادق است، و او هرگز به‌تمامی از این اتهام رها نشد.\n\nدیویی آن را به جای سودمندتری برد. به روایت او اندیشه تصویرِ تماشاگر از جهان نیست، ابزاری است که جانداران برای بازسازمان‌دادن به وضعیتی که از کار افتاده به کار می‌برند. این کاوش را با کنش پیوسته می‌کند، و او را فیلسوف آموزش و دموکراسی کرد: مردمی که نتوانند با هم بکاوند نمی‌توانند خود را اداره کنند. این سنت در میانهٔ قرن نازک شد و از راه کواین و رورتی بازگشت، و آزمونش — چه فرقی می‌کرد؟ — هنوز سریع‌ترین راه فهمیدن این است که آیا استدلالی دربارهٔ چیزی هست یا نه."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "analytic-philosophy",
@@ -720,7 +1220,27 @@
         "anscombe",
         "rawls"
       ],
-      "citations": [{ "source": "text-begriffsschrift" }, { "source": "sep" }]
+      "citations": [{ "source": "text-begriffsschrift" }, { "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Analytic philosophy began with the thought that some philosophical problems are produced by language rather than found in the world, and that the cure is to make the logical form of what we say explicit. Its founding technique was Frege's logic, which could finally represent arguments that Aristotle's could not.",
+              "fa": "فلسفهٔ تحلیلی با این فکر آغاز شد که برخی مسائل فلسفی را زبان می‌سازد نه اینکه در جهان یافته شوند، و درمانش این است که صورت منطقیِ آنچه می‌گوییم صریح شود. فنِ بنیان‌گذارش منطقِ فرگه بود، که سرانجام می‌توانست استدلال‌هایی را بازنمایی کند که منطق ارسطو نمی‌توانست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Russell's example became the model: 'the present King of France is bald' looks like it refers to somebody, and there is nobody, so it seems we must either call it meaningless or populate the world with non-existent kings. Russell showed the sentence is really a compound claim — there is exactly one such king, and he is bald — which is simply false, and no metaphysics is needed.\n\nThe early programme was that all such problems would dissolve this way, and it did not hold. Wittgenstein, having written the most uncompromising version of it, spent his later life arguing that meaning is not logical form but use, and that the search for hidden structure was the confusion rather than the cure. What survived is not a doctrine but a manner: state the claim, give the argument, take the objection seriously. Most English-language philosophy is written this way, including by people who reject everything the founders believed.",
+              "fa": "نمونهٔ راسل الگو شد: «پادشاه کنونی فرانسه کچل است» چنان می‌نماید که به کسی ارجاع می‌دهد، و کسی نیست؛ پس گویی یا باید بی‌معنایش بخوانیم یا جهان را از پادشاهانِ ناموجود پر کنیم. راسل نشان داد این جمله در واقع ادعایی مرکب است — دقیقاً یک چنین پادشاهی هست، و کچل است — که به‌سادگی کاذب است، و هیچ متافیزیکی لازم نیست.\n\nبرنامهٔ نخستین این بود که همهٔ چنین مسائلی به همین شیوه منحل شوند، و نپایید. ویتگنشتاین که سازش‌ناپذیرترین صورت آن را نوشته بود، بقیهٔ عمرش را به این استدلال گذراند که معنا صورت منطقی نیست بلکه کاربرد است، و جست‌وجوی ساختار پنهان خود همان آشفتگی بود نه درمانش. آنچه ماند آموزه نیست، شیوه است: ادعا را بیان کن، استدلال را بیاور، اعتراض را جدی بگیر. بیشترِ فلسفهٔ انگلیسی‌زبان به همین شیوه نوشته می‌شود، حتی به دست کسانی که هرچه بنیان‌گذاران باور داشتند رد می‌کنند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "critical-theory",
@@ -749,7 +1269,27 @@
       ],
       "founders": ["adorno"],
       "members": ["adorno", "benjamin", "habermas"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Frankfurt School asked why the most educated society in Europe produced Nazism, and refused the comfortable answer that reason had been abandoned. Their claim is harder: that a particular kind of reason — the kind that asks only how to do things efficiently, never whether they are worth doing — produced it.",
+              "fa": "مکتب فرانکفورت پرسید چرا تحصیل‌کرده‌ترین جامعهٔ اروپا نازیسم را پدید آورد، و پاسخِ راحت را نپذیرفت که عقل رها شده بود. ادعای آنان دشوارتر است: نوعی خاص از عقل — همان که فقط می‌پرسد کارها را چگونه کارآمد انجام دهیم و هرگز نمی‌پرسد آیا ارزش انجام‌دادن دارند — آن را پدید آورد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Adorno and Horkheimer called this instrumental reason, and argued that the Enlightenment carried it inside itself from the start: the project of mastering nature does not stop at nature. The culture industry chapter extends the analysis to entertainment, which they read as producing agreement rather than distraction — the pleasure is real and it is the mechanism.\n\nThe theory has an obvious problem, which its critics and Habermas both pressed: if reason is compromised all the way down, the critique has no ground to stand on. Habermas's answer was to distinguish the instrumental use from a communicative one — reason as what happens between people trying to reach understanding rather than a tool one person uses on another — and to build the school's second generation on it. The tradition is the ancestor of most academic work that calls itself critical.",
+              "fa": "آدورنو و هورکهایمر این را «عقل ابزاری» نامیدند و استدلال کردند که روشنگری از همان آغاز آن را در خود داشت: پروژهٔ چیرگی بر طبیعت در طبیعت متوقف نمی‌شود. فصلِ «صنعت فرهنگ» تحلیل را به سرگرمی می‌کشاند، که آن را نه حواس‌پرتی بلکه تولیدِ همرأیی می‌خواندند — لذت واقعی است و همان لذت سازوکار کار است.\n\nاین نظریه اشکالی آشکار دارد که هم منتقدانش و هم هابرماس بر آن فشار آوردند: اگر عقل تا آخرین لایه آلوده است، این نقد جایی برای ایستادن ندارد. پاسخ هابرماس تمایزنهادن میان کاربرد ابزاری و کاربرد ارتباطی بود — عقل همچون آنچه میان آدمیانی می‌گذرد که می‌کوشند به تفاهم برسند، نه ابزاری که یکی بر دیگری به کار می‌بندد — و نسل دوم این مکتب را بر همین بنا کرد. این سنت نیای بیشترِ کارهای دانشگاهی است که خود را «انتقادی» می‌نامند."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "negritude",
@@ -778,7 +1318,27 @@
       ],
       "founders": ["cesaire"],
       "members": ["cesaire", "senghor"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Négritude was formed by Black students in 1930s Paris who were being offered French culture on condition that they treat their own as an absence. Its answer was to affirm a Black identity and a Black contribution to civilisation — first as poetry, then as philosophy and as politics.",
+              "fa": "نگریتود را دانشجویان سیاه‌پوست در پاریسِ دههٔ ۱۹۳۰ ساختند؛ کسانی که فرهنگ فرانسوی به آنان عرضه می‌شد به این شرط که فرهنگ خود را یک غیاب بشمارند. پاسخشان اثباتِ هویتی سیاه و سهمی سیاه در تمدن بود — نخست همچون شعر، سپس همچون فلسفه و سیاست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Césaire's Discourse on Colonialism makes the argument that did most damage: colonisation degrades the coloniser as well, and Europe's horror at Nazism was the horror of having the method applied to Europeans. Senghor took the more contested route, describing a distinctively African way of knowing — participatory rather than analytic — which he intended as a claim of equal value and which critics read as accepting the colonial division and merely reversing its signs.\n\nFanon, who had been Césaire's student, made exactly that objection. To accept the category and celebrate it is to leave the category standing; he argued for refusing the terms altogether. The disagreement is unresolved and productive, and it set the questions for African and Caribbean philosophy afterwards — whether liberation runs through recovering an identity or through dismantling the frame that assigned it.",
+              "fa": "«گفتار دربارهٔ استعمار» سزر ویرانگرترین استدلال را می‌آورد: استعمار استعمارگر را نیز فرومی‌کاهد، و وحشتِ اروپا از نازیسم وحشت از این بود که همان روش بر اروپاییان اعمال شد. سنگور راهی پرمناقشه‌تر رفت و شیوه‌ای متمایز از دانستنِ آفریقایی را وصف کرد — مشارکتی نه تحلیلی — که آن را ادعای ارزشِ برابر می‌خواست و منتقدان چنین خواندندش که تقسیم‌بندی استعماری را پذیرفته و تنها علامت‌هایش را وارونه کرده.\n\nفانون که شاگرد سزر بود، دقیقاً همین اعتراض را کرد. پذیرفتن آن مقوله و ستایشش، مقوله را سر پا نگه می‌دارد؛ او از ردکردنِ یکسرهٔ آن اصطلاحات دفاع کرد. این اختلاف ناحل‌شده و بارور است، و پرسش‌های فلسفهٔ آفریقایی و کارائیبی پس از آن را تعیین کرد — اینکه رهایی از بازیافتن یک هویت می‌گذرد یا از برچیدن چارچوبی که آن را تخصیص داده."
+            }
+          }
+        ]
+      }
     },
     {
       "id": "liberation-philosophy",
@@ -807,7 +1367,27 @@
       ],
       "founders": ["dussel"],
       "members": ["dussel", "freire", "mariategui"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Philosophy of liberation began in Argentina in the 1970s with a question about who philosophy has been addressing. If European thought speaks from the centre and takes its own position as neutral, then thinking from the periphery is not a lesser version of it but a different starting point.",
+              "fa": "فلسفهٔ رهایی‌بخش در دههٔ ۱۹۷۰ در آرژانتین با پرسشی دربارهٔ مخاطبِ فلسفه آغاز شد. اگر اندیشهٔ اروپایی از مرکز سخن می‌گوید و موضع خود را خنثی می‌گیرد، پس اندیشیدن از پیرامون روایتی فروتر از آن نیست، نقطهٔ آغازی دیگر است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Dussel took the apparatus from Levinas and turned it outward. Levinas had argued that ethics begins in the encounter with another person who cannot be reduced to my categories; Dussel identified that other concretely — the poor, the colonised, the excluded — and argued that a philosophy which begins anywhere else has already chosen a side by pretending not to.\n\nThe method is a demand for provenance: every position is asked where it is spoken from and who it leaves out. Freire's work in literacy is the same argument in practice, teaching reading in a way that treats learners as people with knowledge rather than as empty containers. The obvious risk is that it becomes a way of dismissing arguments by their origin instead of answering them, and the tradition's better work is careful about exactly that.",
+              "fa": "دوسل دستگاه را از لویناس گرفت و رو به بیرون چرخاند. لویناس استدلال کرده بود که اخلاق در مواجهه با دیگری‌ای آغاز می‌شود که به مقولات من تحویل نمی‌رود؛ دوسل آن دیگری را به‌طور مشخص شناسایی کرد — تهیدست، مستعمَره، طردشده — و گفت فلسفه‌ای که از جای دیگری آغاز کند، با وانمود به بی‌طرفی پیشاپیش طرفی برگزیده است.\n\nروشش مطالبهٔ خاستگاه است: از هر موضعی پرسیده می‌شود از کجا گفته می‌شود و چه کسی را بیرون می‌گذارد. کار فریره در سوادآموزی همین استدلال در عمل است؛ آموختنِ خواندن به شیوه‌ای که با فراگیران چون کسانی دارای دانش رفتار کند نه چون ظرف‌های خالی. خطر آشکار این است که به راهی برای ردکردن استدلال‌ها به‌سبب خاستگاهشان بدل شود به‌جای پاسخ‌دادن به آن‌ها، و کارهای بهترِ این سنت دقیقاً مراقب همین‌اند."
+            }
+          }
+        ]
+      }
     }
   ]
 }
