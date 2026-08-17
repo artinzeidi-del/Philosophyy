@@ -103,10 +103,7 @@
     },
     {
       "id": "descartes-cogito",
-      "text": {
-        "en": "I think, therefore I am.",
-        "fa": "می‌اندیشم، پس هستم."
-      },
+      "text": { "en": "I think, therefore I am.", "fa": "می‌اندیشم، پس هستم." },
       "originalText": "je pense, donc je suis",
       "speaker": "descartes",
       "attribution": "verified",
@@ -184,6 +181,10 @@
       "attributionNote": {
         "en": "Preserved only in later quotation, in more than one wording. Which words are Heraclitus's own cannot be settled.",
         "fa": "تنها در نقل‌قول‌های بعدی و با بیش از یک عبارت‌بندی حفظ شده است. اینکه کدام واژه‌ها از خود هراکلیتوس است فیصله‌پذیر نیست."
+      },
+      "citation": {
+        "source": "text-heraclitus-fragments",
+        "locator": "DK 22 B91"
       }
     },
     {
@@ -194,7 +195,7 @@
       },
       "originalText": "πάντων χρημάτων μέτρον ἐστὶν ἄνθρωπος",
       "speaker": "protagoras",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The opening of a lost work, quoted by Plato and others. It is the earliest relativism in the Western record, and what it makes relative — perception, truth, or value — is exactly what the argument since has been about.",
         "fa": "آغاز اثری گم‌شده که افلاطون و دیگران نقلش کرده‌اند. نخستین نسبی‌گرایی در سند غرب است، و اینکه چه چیزی را نسبی می‌کند — ادراک، حقیقت، یا ارزش — دقیقاً همان چیزی است که بحث از آن زمان تا کنون بر سرش بوده."
@@ -202,7 +203,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-theaetetus", "locator": "152a" }
     },
     {
       "id": "epicurus-death",
@@ -211,7 +213,7 @@
         "fa": "مرگ برای ما هیچ است: آنجا که مرگ هست، ما نیستیم؛ آنجا که ما هستیم، مرگ نیست."
       },
       "speaker": "epicurus",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "An argument compressed into a sentence, not a consolation. If being dead is not a state anyone is in, then it is not a state that can be bad for them — and the fear is a mistake about what a person is.",
         "fa": "استدلالی فشرده در یک جمله، نه یک تسلی. اگر «مرده‌بودن» حالتی نباشد که کسی در آن باشد، پس حالتی نیست که بتواند برای او بد باشد — و آن ترس، خطایی است دربارهٔ اینکه آدمی چیست."
@@ -219,7 +221,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-letter-to-menoeceus", "locator": "§125" }
     },
     {
       "id": "marcus-aurelius-morning",
@@ -228,7 +231,7 @@
         "fa": "چون بیدار شدی به خود بگو: امروز با مردمی روبه‌رو می‌شوم فضول و ناسپاس و متکبر."
       },
       "speaker": "marcus-aurelius",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "Not misanthropy. The passage continues that they are like this through ignorance of good and bad, that they are kin, and that he cannot be harmed by any of them — the point of naming the day's irritations in advance is to arrive at them already unsurprised.",
         "fa": "این مردم‌گریزی نیست. متن ادامه می‌دهد که آنان از ناآگاهی به خیر و شر چنین‌اند، که خویشاوندند، و که هیچ‌یک نمی‌توانند به او آسیب بزنند — مقصود از نام‌بردنِ پیشاپیشِ دلخوری‌های روز این است که غافلگیر نشده با آن‌ها روبه‌رو شود."
@@ -236,7 +239,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-meditations", "locator": "II.1" }
     },
     {
       "id": "seneca-poverty",
@@ -245,7 +249,7 @@
         "fa": "فقیر آن نیست که کم دارد، آن است که بیشتر می‌خواهد."
       },
       "speaker": "seneca",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "Written by one of the richest men in Rome, which readers have found hard to square with the letters since antiquity.",
         "fa": "نوشتهٔ یکی از ثروتمندترین مردان رم، و خوانندگان از دوران باستان تا امروز جمع‌کردنِ این با آن نامه‌ها را دشوار یافته‌اند."
@@ -253,6 +257,10 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-letters-to-lucilius",
+        "locator": "Letter 2.6"
       }
     },
     {
@@ -264,7 +272,7 @@
       "originalText": "千里之行，始於足下",
       "speaker": "laozi",
       "work": "daodejing",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "Usually quoted as beginning with a single step, which turns it into encouragement. The Chinese says beneath the foot, and the chapter is about acting on things while they are still small — closer to a warning than to a slogan.",
         "fa": "معمولاً چنین نقل می‌شود که «با یک قدم آغاز می‌شود»، و همین آن را به تشویق بدل می‌کند. متن چینی می‌گوید «زیر پا»، و آن فصل دربارهٔ اقدام‌کردن به کارها در حالی است که هنوز کوچک‌اند — به هشدار نزدیک‌تر است تا به شعار."
@@ -272,7 +280,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-daodejing", "locator": "ch. 64" }
     },
     {
       "id": "laozi-knowing-others",
@@ -283,11 +292,12 @@
       "originalText": "知人者智，自知者明",
       "speaker": "laozi",
       "work": "daodejing",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-daodejing", "locator": "ch. 33" }
     },
     {
       "id": "zhuangzi-butterfly",
@@ -298,7 +308,7 @@
       "originalText": "不知周之夢為胡蝶與，胡蝶之夢為周與",
       "speaker": "zhuangzi",
       "work": "zhuangzi-book",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The passage does not end in doubt. It closes by saying there must be some distinction between Zhuang Zhou and a butterfly, and calls that the transformation of things.",
         "fa": "این بند در تردید پایان نمی‌یابد. با گفتنِ اینکه میان جوانگ ژو و پروانه باید تمایزی باشد بسته می‌شود، و آن را «دگردیسی چیزها» می‌نامد."
@@ -306,6 +316,10 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-zhuangzi-book",
+        "locator": "ch. 2, Qíwùlùn"
       }
     },
     {
@@ -316,11 +330,12 @@
       },
       "speaker": "confucius",
       "work": "analects",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "confucius-analects", "locator": "XV.30" }
     },
     {
       "id": "mencius-child",
@@ -330,7 +345,7 @@
       },
       "speaker": "mencius",
       "work": "mengzi",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The premise of his argument that moral feeling is native rather than taught: the reaction arrives before any calculation about the parents' gratitude or one's reputation.",
         "fa": "مقدمهٔ استدلال او که احساس اخلاقی زادی است نه آموخته: آن واکنش پیش از هر محاسبه‌ای دربارهٔ سپاسِ پدر و مادر یا نامِ خود می‌آید."
@@ -338,19 +353,25 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-mengzi", "locator": "2A6" }
     },
     {
       "id": "buddha-suffering",
       "text": {
-        "en": "I teach one thing and one thing only: suffering, and the end of suffering.",
-        "fa": "من یک چیز می‌آموزم و تنها یک چیز: رنج، و پایان رنج."
+        "en": "Both formerly and now, it is suffering that I describe, and the cessation of suffering.",
+        "fa": "پیش‌تر نیز و اکنون نیز، آنچه بیان می‌کنم رنج است و پایانِ رنج."
       },
       "speaker": "buddha",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "Widely quoted in this form and consistent with the early discourses, but the phrasing is a modern English compression rather than a translation of a single located passage.",
         "fa": "در همین صورت بسیار نقل می‌شود و با خطابه‌های نخستین سازگار است، اما این عبارت‌بندی فشرده‌سازی انگلیسیِ امروزی است، نه ترجمهٔ یک بندِ مشخص."
+      },
+      "citation": { "source": "text-samyutta-nikaya", "locator": "SN 22.86" },
+      "context": {
+        "en": "Said to Anurādha, refusing four questions about what becomes of a Buddha after death. The popular English form — 'I teach one thing and one thing only' — reads the Pali particle as exclusive when it is only emphatic, and turns a reply about one topic into a claim that he taught nothing else.",
+        "fa": "خطاب به انورادها، در ردّ چهار پرسش دربارهٔ سرنوشت بودا پس از مرگ. صورت رایج انگلیسی — «من یک چیز و تنها یک چیز می‌آموزم» — ادات پالی را حصری خوانده در حالی که فقط تأکیدی است، و پاسخی دربارهٔ یک موضوع را به ادعای آموختن هیچ چیز دیگر بدل کرده."
       }
     },
     {
@@ -361,7 +382,7 @@
       },
       "speaker": "nagarjuna",
       "work": "mulamadhyamakakarika",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The line that blocks the standard objection: emptiness is not the claim that nothing exists but the claim that nothing exists independently.",
         "fa": "سطری که اعتراض همیشگی را می‌بندد: تهیّت این ادعا نیست که هیچ‌چیز نیست، بلکه این ادعاست که هیچ‌چیز مستقل نیست."
@@ -370,7 +391,8 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["sunyata", "dependent-origination"]
+      "concepts": ["sunyata", "dependent-origination"],
+      "citation": { "source": "nagarjuna-mmk", "locator": "24.18" }
     },
     {
       "id": "shankara-rope",
@@ -387,6 +409,10 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-brahma-sutra-bhasya",
+        "locator": "Adhyāsa-bhāṣya"
       }
     },
     {
@@ -405,16 +431,17 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "avicenna-shifa", "locator": "De anima I.1" }
     },
     {
       "id": "rumi-wound",
       "text": {
-        "en": "The wound is the place where the light enters you.",
-        "fa": "زخم همان جایی است که نور از آن به تو وارد می‌شود."
+        "en": "Listen to this reed, how it complains; it tells the tale of separations.",
+        "fa": "بشنو این نی چون شکایت می‌کند / از جدایی‌ها حکایت می‌کند"
       },
       "speaker": "rumi",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "Circulates everywhere in English and corresponds to no located line in the Masnavī. It is a modern rendering in the tradition of loose versions made from earlier translations, and its Persian original — if there is one — has not been identified here.",
         "fa": "در انگلیسی همه‌جا در گردش است و با هیچ سطرِ مشخصی در مثنوی مطابقت ندارد. برگردانی امروزی است در سنتِ روایت‌های آزاد از ترجمه‌های پیشین، و اصل فارسی‌اش — اگر باشد — در اینجا شناسایی نشده است."
@@ -422,6 +449,12 @@
       "actualSource": {
         "en": "Attributed to Rūmī in English collections; not traced to a Persian line.",
         "fa": "در مجموعه‌های انگلیسی به مولوی نسبت داده شده؛ به سطری فارسی ردیابی نشده است."
+      },
+      "citation": { "source": "text-masnavi", "locator": "Daftar I, lines 1–2" },
+      "originalText": "بشنو این نی چون شکایت می‌کند / از جدایی‌ها حکایت می‌کند",
+      "context": {
+        "en": "The opening couplet of the Masnavi. The reed has been cut from the reed bed and its music is the sound of that cut — Rumi's figure for a soul separated from its origin. The line often circulated in English as Rumi's, 'the wound is the place where the light enters you', is not a translation of anything in the Masnavi; it is a modern paraphrase of a long passage in Book I.",
+        "fa": "بیت آغازین مثنوی. نی را از نیستان بریده‌اند و نوای آن صدای همان بریدن است — تصویر مولوی از جانی که از اصل خود جدا افتاده. آن جملهٔ انگلیسی مشهور که به مولوی نسبت می‌دهند، «زخم همان جایی است که نور از آن وارد می‌شود»، ترجمهٔ هیچ بیتی از مثنوی نیست؛ بازنویسی امروزی یک بخش بلند از دفتر اول است."
       }
     },
     {
@@ -439,6 +472,10 @@
       "actualSource": {
         "en": "Edward FitzGerald, working from the quatrains attributed to Khayyam.",
         "fa": "ادوارد فیتزجرالد، با تکیه بر رباعیات منسوب به خیام."
+      },
+      "citation": {
+        "source": "khayyam-rubaiyat-fitzgerald",
+        "locator": "quatrain 71 (1859)"
       }
     },
     {
@@ -453,7 +490,8 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["asabiyyah"]
+      "concepts": ["asabiyyah"],
+      "citation": { "source": "text-muqaddimah", "locator": "ch. 2, §7" }
     },
     {
       "id": "maimonides-negative",
@@ -463,12 +501,16 @@
       },
       "speaker": "maimonides",
       "work": "guide-for-the-perplexed",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["negative-theology"]
+      "concepts": ["negative-theology"],
+      "citation": {
+        "source": "text-guide-for-the-perplexed",
+        "locator": "I.58"
+      }
     },
     {
       "id": "augustine-time",
@@ -478,7 +520,7 @@
       },
       "speaker": "augustine",
       "work": "confessions",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "Book XI. The admission is the beginning of the argument rather than a shrug: what follows is an account of past and future as present memory and present expectation.",
         "fa": "کتاب یازدهم. این اعتراف آغاز استدلال است نه شانه‌بالاانداختن: آنچه در پی می‌آید شرحی است از گذشته و آینده همچون حافظهٔ حاضر و انتظار حاضر."
@@ -486,7 +528,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-confessions", "locator": "XI.14" }
     },
     {
       "id": "aquinas-straw",
@@ -509,7 +552,7 @@
       },
       "speaker": "machiavelli",
       "work": "the-prince",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The sentence is usually quoted without its condition — Machiavelli's preference is to be both, and the chapter says so a line earlier.",
         "fa": "این جمله را معمولاً بی‌شرطش نقل می‌کنند — ترجیح ماکیاوللی این است که هر دو باشد، و همان فصل یک سطر پیش‌تر همین را می‌گوید."
@@ -517,7 +560,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-the-prince", "locator": "ch. 17" }
     },
     {
       "id": "montaigne-what-do-i-know",
@@ -525,7 +569,7 @@
       "originalText": "Que sais-je ?",
       "speaker": "montaigne",
       "work": "essays-montaigne",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "His motto, struck on a medal with a pair of scales. Asked as a real question rather than a rhetorical one — the scales are balanced.",
         "fa": "شعار او، که بر مدالی با یک ترازو ضرب شده بود. پرسشی واقعی است نه بلاغی — کفه‌های ترازو در تعادل‌اند."
@@ -533,7 +577,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-essays-montaigne", "locator": "II.12" }
     },
     {
       "id": "spinoza-free-man",
@@ -543,11 +588,12 @@
       },
       "speaker": "spinoza",
       "work": "ethics-spinoza",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-ethics-spinoza", "locator": "IV, P67" }
     },
     {
       "id": "hobbes-life",
@@ -556,7 +602,7 @@
         "fa": "زندگی آدمی: تنها، فقیر، زشت، خشن، و کوتاه."
       },
       "speaker": "hobbes",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "A description of life without a common power, not of life as such — the sentence is the premise of the argument for the sovereign, not its conclusion.",
         "fa": "وصفِ زندگی بی‌قدرتی مشترک است، نه وصفِ زندگی به‌طور کلی — این جمله مقدمهٔ استدلال برای حاکم است، نه نتیجهٔ آن."
@@ -564,7 +610,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-leviathan", "locator": "ch. XIII" }
     },
     {
       "id": "locke-consent",
@@ -573,11 +620,12 @@
         "fa": "چون آدمیان به طبیعت همه آزاد و برابر و مستقل‌اند، هیچ‌کس را بی‌رضایت خودش نمی‌توان از این حال بیرون کرد."
       },
       "speaker": "locke",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-two-treatises", "locator": "II, §95" }
     },
     {
       "id": "hume-reason-passions",
@@ -586,7 +634,7 @@
         "fa": "خرد بندهٔ عواطف است، و تنها باید چنین باشد."
       },
       "speaker": "hume",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "Not a celebration of impulse. The claim is that reason works out how to get what is wanted and cannot by itself supply the wanting — which is the argument behind the is–ought gap.",
         "fa": "این ستایشِ تکانه نیست. ادعا این است که خرد راهِ رسیدن به خواسته را می‌یابد و خودش نمی‌تواند «خواستن» را فراهم کند — و همین استدلالِ پشتِ شکاف هست و باید است."
@@ -595,7 +643,11 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["is-ought-gap"]
+      "concepts": ["is-ought-gap"],
+      "citation": {
+        "source": "text-treatise-human-nature",
+        "locator": "II.3.3"
+      }
     },
     {
       "id": "rousseau-chains",
@@ -604,7 +656,7 @@
         "fa": "آدمی آزاد زاده می‌شود، و همه‌جا در زنجیر است."
       },
       "speaker": "rousseau",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The opening of the Social Contract. The next sentence says he does not know how this came about but believes he can explain what makes it legitimate — the book is an argument, not a lament.",
         "fa": "آغاز «قرارداد اجتماعی». جملهٔ بعد می‌گوید نمی‌داند این چگونه پیش آمده اما گمان می‌کند می‌تواند توضیح دهد چه چیزی مشروعش می‌کند — این کتاب استدلال است، نه شکوه."
@@ -613,7 +665,8 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["social-contract"]
+      "concepts": ["social-contract"],
+      "citation": { "source": "text-social-contract", "locator": "I.1" }
     },
     {
       "id": "wollstonecraft-reason",
@@ -626,7 +679,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-vindication-woman", "locator": "ch. 4" }
     },
     {
       "id": "kant-crooked-timber",
@@ -635,10 +689,14 @@
         "fa": "از چوبِ کجِ آدمیت هرگز چیز راستی ساخته نشده است."
       },
       "speaker": "kant",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "kant-idea-universal-history",
+        "locator": "Sixth Proposition"
       }
     },
     {
@@ -648,7 +706,7 @@
         "fa": "جغد مینروا تنها با فرارسیدن شامگاه بال می‌گشاید."
       },
       "speaker": "hegel",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "Philosophy understands an age only once the age is over — offered as a limit on what philosophy can do, by a philosopher usually accused of claiming too much.",
         "fa": "فلسفه یک دوران را تنها وقتی می‌فهمد که آن دوران به سر آمده باشد — این را همچون حدی بر توانِ فلسفه می‌گوید، آن هم فیلسوفی که معمولاً متهم است بیش از حد ادعا می‌کند."
@@ -656,20 +714,22 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-philosophy-of-right", "locator": "Preface" }
     },
     {
       "id": "schopenhauer-will",
       "text": {
-        "en": "The world is my representation — and it is will.",
-        "fa": "جهان بازنمودِ من است — و اراده است."
+        "en": "The world is my representation.",
+        "fa": "جهان بازنمودِ من است."
       },
       "speaker": "schopenhauer",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-world-as-will", "locator": "I, §1" }
     },
     {
       "id": "kierkegaard-backwards",
@@ -691,7 +751,7 @@
         "fa": "فیلسوفان تنها جهان را به شیوه‌های گوناگون تفسیر کرده‌اند؛ مسئله دگرگون‌کردن آن است."
       },
       "speaker": "marx",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The last of the theses on Feuerbach, written in a notebook and published after his death by Engels, who edited the wording.",
         "fa": "آخرینِ «تزهایی دربارهٔ فویرباخ»، که در دفتری نوشته شد و پس از مرگش انگلس منتشرش کرد و در عبارت‌بندی‌اش دست برد."
@@ -699,6 +759,10 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-theses-on-feuerbach",
+        "locator": "Thesis XI"
       }
     },
     {
@@ -708,7 +772,7 @@
         "fa": "تنها هدفی که بر پایهٔ آن می‌توان بر عضوی از جامعه‌ای متمدن، بر خلاف میلش، قدرت اعمال کرد، جلوگیری از آسیب به دیگران است."
       },
       "speaker": "mill",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The harm principle in its own words. Mill immediately excludes offence and disapproval, however widely shared, which is the demanding part.",
         "fa": "اصل ضرر به زبان خودش. میل بی‌درنگ رنجش و ناخرسندی را — هرقدر هم فراگیر — بیرون می‌گذارد، و همین بخشِ سختِ آن است."
@@ -716,7 +780,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-on-liberty", "locator": "ch. 1" }
     },
     {
       "id": "nietzsche-abyss",
@@ -725,7 +790,7 @@
         "fa": "اگر دیرزمانی در مغاک بنگری، مغاک نیز در تو می‌نگرد."
       },
       "speaker": "nietzsche",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The first half of the aphorism is a warning to whoever fights monsters not to become one. It is usually quoted without that half, which is where the sense is.",
         "fa": "نیمهٔ نخست این کلامِ قصار هشداری است به آنکه با هیولاها می‌جنگد که خود هیولا نشود. معمولاً بی آن نیمه نقل می‌شود، و معنا همان‌جاست."
@@ -733,7 +798,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "nietzsche-beyond-good-evil", "locator": "§146" }
     },
     {
       "id": "husserl-things",
@@ -743,24 +809,29 @@
       },
       "originalText": "Zu den Sachen selbst",
       "speaker": "husserl",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-logical-investigations",
+        "locator": "II, Introduction §2"
       }
     },
     {
       "id": "heidegger-thrown",
       "text": {
-        "en": "We are thrown into a world we did not choose, and have to be there anyway.",
-        "fa": "ما به جهانی پرتاب شده‌ایم که برنگزیده‌ایم، و به‌هرحال باید در آن باشیم."
+        "en": "Dasein is an entity for which, in its being, that being is at issue.",
+        "fa": "دازاین موجودی است که در هستی‌اش، خودِ آن هستی برایش مسئله است."
       },
       "speaker": "heidegger",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "A paraphrase of the analysis of thrownness rather than a sentence from the text, kept because the idea is asked about constantly and the German sentences that carry it are long and technical.",
         "fa": "بازگفتی از تحلیل «پرتاب‌شدگی» است نه جمله‌ای از متن، و نگه داشته شده چون مدام دربارهٔ این ایده پرسیده می‌شود و جمله‌های آلمانی حاملش بلند و فنی‌اند."
-      }
+      },
+      "citation": { "source": "text-being-and-time", "locator": "§4" }
     },
     {
       "id": "sartre-condemned",
@@ -770,7 +841,7 @@
       },
       "speaker": "sartre",
       "work": "being-and-nothingness",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "Condemned, because he did not create himself and yet is responsible for everything he does. The word is doing work: freedom here is a burden before it is anything else.",
         "fa": "محکوم، چون خودش را نیافریده و با این حال مسئول هر کاری است که می‌کند. این واژه کار می‌کند: آزادی اینجا پیش از هر چیز یک بار است."
@@ -779,24 +850,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["bad-faith"]
-    },
-    {
-      "id": "beauvoir-becomes",
-      "text": {
-        "en": "One is not born, but rather becomes, a woman.",
-        "fa": "زن زاده نمی‌شوند، بلکه زن می‌شوند."
-      },
-      "speaker": "beauvoir",
-      "work": "second-sex",
-      "attribution": "probable",
-      "context": {
-        "en": "Already in the corpus in a shorter form; kept here in the standard rendering because it is the sentence the argument is known by.",
-        "fa": "پیش‌تر در پیکره به صورتی کوتاه‌تر آمده؛ اینجا در برگردان معیار نگه داشته شده چون همان جمله‌ای است که استدلال با آن شناخته می‌شود."
-      },
-      "attributionNote": {
-        "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
-        "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      "concepts": ["bad-faith"],
+      "citation": {
+        "source": "text-being-and-nothingness",
+        "locator": "Part IV, ch. 1"
       }
     },
     {
@@ -806,7 +863,7 @@
         "fa": "باید سیزیف را خوشبخت انگاشت."
       },
       "speaker": "camus",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The last line of the essay. It is not consolation: the claim is that the struggle towards the summit is enough to fill a heart, which is an argument about what a life needs rather than a wish about how it feels.",
         "fa": "سطر پایانی آن جستار. تسلی نیست: ادعا این است که همان کوششِ رو به قله برای پرکردن یک دل بس است، و این استدلالی است دربارهٔ آنچه یک زندگی لازم دارد، نه آرزویی دربارهٔ احساسِ آن."
@@ -815,7 +872,11 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["the-absurd"]
+      "concepts": ["the-absurd"],
+      "citation": {
+        "source": "text-myth-of-sisyphus",
+        "locator": "closing line"
+      }
     },
     {
       "id": "arendt-thinking",
@@ -840,7 +901,7 @@
       "originalText": "Wovon man nicht sprechen kann, darüber muss man schweigen",
       "speaker": "wittgenstein",
       "work": "tractatus",
-      "attribution": "probable",
+      "attribution": "verified",
       "context": {
         "en": "The last proposition of the Tractatus, and it applies to the book: the propositions before it are described as a ladder to be thrown away once climbed.",
         "fa": "آخرین گزارهٔ «رساله»، و بر خودِ کتاب هم صدق می‌کند: گزاره‌های پیش از آن را نردبانی می‌خواند که پس از بالارفتن باید دورش انداخت."
@@ -848,7 +909,8 @@
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-tractatus", "locator": "§7" }
     },
     {
       "id": "wittgenstein-meaning",
@@ -858,10 +920,14 @@
       },
       "speaker": "wittgenstein",
       "work": "philosophical-investigations",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-philosophical-investigations",
+        "locator": "§43"
       }
     },
     {
@@ -885,11 +951,12 @@
         "fa": "گزاره‌های ما دربارهٔ جهان بیرون، نه یکی‌یکی بلکه همچون یک پیکر، به محکمهٔ تجربهٔ حسی می‌روند."
       },
       "speaker": "quine",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-two-dogmas", "locator": "§6" }
     },
     {
       "id": "rawls-veil",
@@ -898,12 +965,13 @@
         "fa": "هیچ‌کس جایگاه خود در جامعه، موقعیت طبقاتی یا منزلت اجتماعی‌اش را نمی‌داند."
       },
       "speaker": "rawls",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["veil-of-ignorance"]
+      "concepts": ["veil-of-ignorance"],
+      "citation": { "source": "text-theory-of-justice", "locator": "§24" }
     },
     {
       "id": "foucault-power",
@@ -926,10 +994,14 @@
       },
       "speaker": "fanon",
       "work": "black-skin-white-masks",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-black-skin-white-masks",
+        "locator": "Conclusion"
       }
     },
     {
@@ -940,12 +1012,13 @@
       },
       "speaker": "du-bois",
       "work": "souls-of-black-folk",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["double-consciousness"]
+      "concepts": ["double-consciousness"],
+      "citation": { "source": "dubois-souls", "locator": "Forethought" }
     },
     {
       "id": "gandhi-satyagraha",
@@ -968,11 +1041,12 @@
         "fa": "کاست تقسیمِ کار نیست؛ تقسیمِ کارگران است."
       },
       "speaker": "ambedkar",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-annihilation-of-caste", "locator": "§14" }
     },
     {
       "id": "zera-yacob-reason",
@@ -982,11 +1056,12 @@
       },
       "speaker": "zera-yacob",
       "work": "hatata",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      }
+      },
+      "citation": { "source": "text-hatata", "locator": "ch. 4" }
     },
     {
       "id": "sor-juana-study",
@@ -996,10 +1071,14 @@
       },
       "speaker": "sor-juana",
       "work": "respuesta",
-      "attribution": "probable",
+      "attribution": "verified",
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      },
+      "citation": {
+        "source": "text-respuesta",
+        "locator": "Respuesta a Sor Filotea"
       }
     },
     {
@@ -1009,7 +1088,7 @@
         "fa": "حقِ اندیشیدنت را نگه دار، که حتی بد اندیشیدن بهتر از نیندیشیدن است."
       },
       "speaker": "hypatia",
-      "attribution": "probable",
+      "attribution": "misattributed",
       "attributionNote": {
         "en": "No writing by Hypatia survives, and this appears in no ancient source. It circulates widely under her name and is almost certainly modern; it is kept here so the record can be corrected rather than repeated.",
         "fa": "هیچ نوشته‌ای از هوپاتیا نمانده و این در هیچ منبع باستانی نیست. زیر نام او فراوان در گردش است و تقریباً به‌یقین امروزی است؛ اینجا نگه داشته شده تا سند تصحیح شود نه تکرار."
@@ -1017,6 +1096,10 @@
       "actualSource": {
         "en": "Unknown. It appears in no source earlier than the twentieth century.",
         "fa": "ناشناخته. در هیچ منبعی پیش از قرن بیستم نیامده است."
+      },
+      "context": {
+        "en": "Hypatia wrote nothing that survives — what is known of her teaching comes from her student Synesius' letters and from later historians. This sentence appears on quotation sites and nowhere in any ancient source. It is a modern invention put in her mouth.",
+        "fa": "از هیپاتیا هیچ نوشته‌ای بر جای نمانده؛ آنچه از آموزشش می‌دانیم از نامه‌های شاگردش سینسیوس و از مورخان بعدی است. این جمله فقط در سایت‌های نقل‌قول دیده می‌شود و در هیچ منبع باستانی نیست. ساختهٔ دوران جدید است که به دهان او گذاشته‌اند."
       }
     },
     {
@@ -1068,23 +1151,6 @@
       "actualSource": {
         "en": "Unknown. A twentieth-century American condensation of a longer passage.",
         "fa": "ناشناخته. فشرده‌سازی آمریکاییِ قرن بیستمی از بندی بلندتر."
-      }
-    },
-    {
-      "id": "aristotle-we-are-what-we-repeatedly-do",
-      "text": {
-        "en": "We are what we repeatedly do. Excellence, then, is not an act but a habit.",
-        "fa": "ما همان چیزی هستیم که مکرر انجام می‌دهیم. پس فضیلت کنش نیست، عادت است."
-      },
-      "speaker": "aristotle",
-      "attribution": "misattributed",
-      "attributionNote": {
-        "en": "Written by Will Durant in 1926, summarising Aristotle in his own words. Durant said so himself. The underlying claim is genuinely Aristotle's; the sentence is not.",
-        "fa": "ویل دورانت آن را در ۱۹۲۶ به قلم خودش و در خلاصه‌کردن ارسطو نوشت. خود دورانت هم همین را گفت. ادعای زیرین واقعاً از ارسطوست؛ این جمله نه."
-      },
-      "actualSource": {
-        "en": "Will Durant, The Story of Philosophy, 1926.",
-        "fa": "ویل دورانت، «داستان فلسفه»، ۱۹۲۶."
       }
     },
     {

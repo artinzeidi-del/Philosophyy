@@ -28,16 +28,30 @@ abstract final class AppTypography {
 
   /// The Persian reading face.
   ///
-  /// Persian books are set in naskh, and setting long-form Persian in the UI
-  /// sans made the reading surface feel like an interface rather than a page.
-  /// This is the Persian half of the serif/sans split the English side already
-  /// had — content and chrome should not feel like the same activity.
+  /// Vazirmatn, the same face as the chrome — deliberately, and against the
+  /// symmetry with the English side.
   ///
-  /// Chosen over Amiri, which is the more beautiful face but applies Arabic
-  /// conventions to Persian: a dotted final yeh in آتنی‌ای, where Persian
-  /// writes it bare. Letterforms that are wrong for the language are not a
-  /// style choice.
-  static const String persianReadingFamily = 'NotoNaskhArabic';
+  /// The argument for naskh was that Persian books are set in naskh and that
+  /// content and chrome should not feel like the same activity. That is a real
+  /// argument about texture, and it lost to a measurement. Set beside each
+  /// other at the same point size, Noto Naskh Arabic renders visibly smaller,
+  /// thinner and tighter than Vazirmatn: on a phone the metadata line at 13
+  /// went grey and the body ran together. Persian readers are this product's
+  /// primary audience, and a bookish texture is not worth paying for in
+  /// legibility.
+  ///
+  /// The split between reading and operating survives in weight, size and
+  /// leading rather than in the family. Amiri was already rejected for the
+  /// harder reason — it applies Arabic conventions to Persian, dotting the
+  /// final yeh in آتنی‌ای where Persian writes it bare — and letterforms that
+  /// are wrong for the language are not a style choice.
+  ///
+  /// Naskh stays in the fallback chain, where it sets Arabic-script text that
+  /// Vazirmatn has no glyph for.
+  static const String persianReadingFamily = 'Vazirmatn';
+
+  /// The naskh face, kept for fallback and for Arabic set inside English.
+  static const String naskhFamily = 'NotoNaskhArabic';
 
   /// The polytonic Greek face.
   ///
@@ -104,7 +118,13 @@ abstract final class AppTypography {
 
   /// Point-size multiplier applied to Persian text so it reads at the same
   /// optical size as the Latin scale.
-  static const double persianSizeFactor = 1.06;
+  ///
+  /// The number belongs to the face, not to the language: 1.06 was measured
+  /// against naskh, and carried over to Vazirmatn it overshot, because
+  /// Vazirmatn is the optically larger of the two. Set against Spectral at the
+  /// same nominal size, 1.03 is the match. Changing [persianReadingFamily]
+  /// means measuring this again.
+  static const double persianSizeFactor = 1.03;
 
   /// Extra leading added to Persian, whose diacritics and descenders need more
   /// vertical room than Latin at the same size.
@@ -124,8 +144,9 @@ abstract final class AppTypography {
 
   /// The font family used for buttons, labels, tabs and other chrome.
   ///
-  /// Persian chrome stays in Vazirmatn while content moves to naskh, which is
-  /// the same division the English side makes between Roboto and Spectral.
+  /// English splits chrome from content by family, Roboto against Spectral.
+  /// Persian uses one face for both — see [persianReadingFamily] — and makes
+  /// the same distinction with weight and leading instead.
   static String chromeFamily(AppLanguage language) =>
       language == AppLanguage.fa ? persianFamily : sansFamily;
 
@@ -140,9 +161,10 @@ abstract final class AppTypography {
   static List<String> fallbacksFor(AppLanguage language) =>
       language == AppLanguage.fa
       ? const <String>[
-          // Vazirmatn first among the Persian faces here: it is the sibling of
-          // whichever Persian face is primary, and covers anything naskh omits.
-          persianFamily,
+          // Naskh behind Vazirmatn: it carries the Arabic-script letters and
+          // vowel marks Vazirmatn has no glyph for, which is what a fallback
+          // is for now that it is no longer the primary face.
+          naskhFamily,
           serifFamily,
           greekFamily,
           ...scriptFamilies,
@@ -152,7 +174,7 @@ abstract final class AppTypography {
           greekFamily,
           // Naskh ahead of the UI sans, so an Arabic-script name inside an
           // English sentence is set in a face that belongs next to a serif.
-          persianReadingFamily,
+          naskhFamily,
           persianFamily,
           ...scriptFamilies,
           ...cjkFamilies,

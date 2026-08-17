@@ -4,70 +4,49 @@
     {
       "id": "plato-republic",
       "kind": "primary-text",
-      "title": {
-        "en": "Republic",
-        "fa": "جمهوری"
-      },
+      "title": { "en": "Republic", "fa": "جمهوری" },
       "authors": ["Plato"],
       "rightsNote": "Cited by Stephanus number, which is stable across all editions and translations."
     },
     {
       "id": "plato-apology",
       "kind": "primary-text",
-      "title": {
-        "en": "Apology",
-        "fa": "آپولوژی (دفاعیهٔ سقراط)"
-      },
+      "title": { "en": "Apology", "fa": "آپولوژی (دفاعیهٔ سقراط)" },
       "authors": ["Plato"],
       "rightsNote": "Cited by Stephanus number."
     },
     {
       "id": "plato-meno",
       "kind": "primary-text",
-      "title": {
-        "en": "Meno",
-        "fa": "منون"
-      },
+      "title": { "en": "Meno", "fa": "منون" },
       "authors": ["Plato"],
       "rightsNote": "Cited by Stephanus number."
     },
     {
       "id": "aristotle-nicomachean-ethics",
       "kind": "primary-text",
-      "title": {
-        "en": "Nicomachean Ethics",
-        "fa": "اخلاق نیکوماخوس"
-      },
+      "title": { "en": "Nicomachean Ethics", "fa": "اخلاق نیکوماخوس" },
       "authors": ["Aristotle"],
       "rightsNote": "Cited by Bekker number, which is stable across all editions and translations."
     },
     {
       "id": "aristotle-metaphysics",
       "kind": "primary-text",
-      "title": {
-        "en": "Metaphysics",
-        "fa": "متافیزیک"
-      },
+      "title": { "en": "Metaphysics", "fa": "متافیزیک" },
       "authors": ["Aristotle"],
       "rightsNote": "Cited by Bekker number."
     },
     {
       "id": "epictetus-enchiridion",
       "kind": "primary-text",
-      "title": {
-        "en": "Enchiridion",
-        "fa": "انکیریدیون (دستنامه)"
-      },
+      "title": { "en": "Enchiridion", "fa": "انکیریدیون (دستنامه)" },
       "authors": ["Epictetus"],
       "rightsNote": "Compiled by Arrian from Epictetus' teaching; Epictetus wrote nothing himself. Cited by chapter."
     },
     {
       "id": "epictetus-discourses",
       "kind": "primary-text",
-      "title": {
-        "en": "Discourses",
-        "fa": "گفتارها"
-      },
+      "title": { "en": "Discourses", "fa": "گفتارها" },
       "authors": ["Epictetus"],
       "rightsNote": "Recorded by Arrian. Cited by book and chapter."
     },
@@ -85,11 +64,7 @@
     {
       "id": "avicenna-shifa",
       "kind": "primary-text",
-      "title": {
-        "en": "The Book of Healing",
-        "fa": "شفا",
-        "ar": "الشفاء"
-      },
+      "title": { "en": "The Book of Healing", "fa": "شفا", "ar": "الشفاء" },
       "authors": ["Ibn Sīnā"],
       "rightsNote": "Avicenna's philosophical encyclopedia, covering logic, natural science, mathematics and metaphysics."
     },
@@ -107,10 +82,7 @@
     {
       "id": "ghazali-munqidh",
       "kind": "primary-text",
-      "title": {
-        "en": "Deliverance from Error",
-        "fa": "المنقذ من الضلال"
-      },
+      "title": { "en": "Deliverance from Error", "fa": "المنقذ من الضلال" },
       "authors": ["Abū Ḥāmid al-Ghazālī"],
       "rightsNote": "Al-Ghazālī's autobiographical account of his sceptical crisis and its resolution."
     },
@@ -128,10 +100,7 @@
     {
       "id": "confucius-analects",
       "kind": "primary-text",
-      "title": {
-        "en": "Analects",
-        "fa": "مکالمات (لون‌یو)"
-      },
+      "title": { "en": "Analects", "fa": "مکالمات (لون‌یو)" },
       "authors": ["Confucius (attributed)"],
       "rightsNote": "Compiled by later followers over an extended period rather than written by Confucius. Cited by book and passage."
     },
@@ -158,20 +127,14 @@
     {
       "id": "descartes-discourse",
       "kind": "primary-text",
-      "title": {
-        "en": "Discourse on the Method",
-        "fa": "گفتار در روش"
-      },
+      "title": { "en": "Discourse on the Method", "fa": "گفتار در روش" },
       "authors": ["René Descartes"],
       "rightsNote": "Cited by part."
     },
     {
       "id": "kant-critique-pure-reason",
       "kind": "primary-text",
-      "title": {
-        "en": "Critique of Pure Reason",
-        "fa": "سنجش خرد ناب"
-      },
+      "title": { "en": "Critique of Pure Reason", "fa": "سنجش خرد ناب" },
       "authors": ["Immanuel Kant"],
       "rightsNote": "Cited by the A (1781) and B (1787) pagination, which every scholarly edition reproduces in the margin."
     },
@@ -188,30 +151,21 @@
     {
       "id": "nietzsche-gay-science",
       "kind": "primary-text",
-      "title": {
-        "en": "The Gay Science",
-        "fa": "حکمت شادان"
-      },
+      "title": { "en": "The Gay Science", "fa": "حکمت شادان" },
       "authors": ["Friedrich Nietzsche"],
       "rightsNote": "German title: Die fröhliche Wissenschaft. Cited by section number."
     },
     {
       "id": "beauvoir-second-sex",
       "kind": "primary-text",
-      "title": {
-        "en": "The Second Sex",
-        "fa": "جنس دوم"
-      },
+      "title": { "en": "The Second Sex", "fa": "جنس دوم" },
       "authors": ["Simone de Beauvoir"],
       "rightsNote": "French title: Le Deuxième Sexe."
     },
     {
       "id": "dubois-souls",
       "kind": "primary-text",
-      "title": {
-        "en": "The Souls of Black Folk",
-        "fa": "جان‌های سیاهان"
-      },
+      "title": { "en": "The Souls of Black Folk", "fa": "جان‌های سیاهان" },
       "authors": ["W. E. B. Du Bois"],
       "rightsNote": "Cited by chapter."
     },
@@ -2542,6 +2496,36 @@
       "title": { "en": "Introduction to Logic", "fa": "درآمدی بر منطق" },
       "authors": ["Dignaga"],
       "rightsNote": "Dignaga's logical works survive mainly in Tibetan and Chinese translation; most of the Sanskrit is lost."
+    },
+    {
+      "id": "kant-idea-universal-history",
+      "kind": "primary-text",
+      "title": {
+        "en": "Idea for a Universal History with a Cosmopolitan Purpose",
+        "fa": "ایدهٔ تاریخ کلی از منظری جهان‌وطنی"
+      },
+      "authors": ["Immanuel Kant"],
+      "year": { "year": 1784 },
+      "rightsNote": "Cited by proposition, which is stable across editions and translations."
+    },
+    {
+      "id": "nietzsche-beyond-good-evil",
+      "kind": "primary-text",
+      "title": { "en": "Beyond Good and Evil", "fa": "فراسوی نیک و بد" },
+      "authors": ["Friedrich Nietzsche"],
+      "year": { "year": 1886 },
+      "rightsNote": "Cited by numbered aphorism, which is stable across editions."
+    },
+    {
+      "id": "khayyam-rubaiyat-fitzgerald",
+      "kind": "scholarly-edition",
+      "title": {
+        "en": "Rubáiyát of Omar Khayyám, translated by Edward FitzGerald",
+        "fa": "رباعیات عمر خیام، ترجمهٔ ادوارد فیتزجرالد"
+      },
+      "authors": ["Edward FitzGerald"],
+      "year": { "year": 1859 },
+      "rightsNote": "FitzGerald called his own work a paraphrase rather than a translation, and the quatrains he worked from are themselves only attributed to Khayyam. Quoted here as FitzGerald's English, not as Khayyam's Persian."
     }
   ]
 }
