@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:philosophyy/core/design/decorative.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/gradients.dart';
@@ -298,7 +299,12 @@ class AttributionBadge extends StatelessWidget {
             horizontal: Spacing.sm,
             vertical: Spacing.xxs,
           ),
+          // The badge fills itself with the reading surface rather than
+          // sitting on whatever it happens to be placed over. Its colour is
+          // chosen against that surface and asserted against it; on a
+          // quotation card's own fill the same colour came to 4.32:1.
           decoration: BoxDecoration(
+            color: theme.colorScheme.surface,
             borderRadius: const BorderRadius.all(Radius.circular(Radii.sm)),
             border: Border.all(color: colour),
           ),
@@ -1047,7 +1053,7 @@ class QuoteCard extends StatelessWidget {
           PositionedDirectional(
             top: -10,
             end: 10,
-            child: ExcludeSemantics(
+            child: Decorative(
               child: Text(
                 '”',
                 style: TextStyle(

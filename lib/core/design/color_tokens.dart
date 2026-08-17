@@ -52,7 +52,11 @@ abstract final class AppColors {
   static const Color outlineVariantLight = Color(0xFFD8C7C0);
 
   /// Ember, darkened until it can carry text on paper.
-  static const Color emberDeep = Color(0xFFAE3A26);
+  ///
+  /// Dark enough for the *tinted* paper as well as the plain kind: an ember
+  /// wash under a tag lowers the ground it has to clear, and the first value
+  /// here passed on the surface and came to 4.41:1 on a tag.
+  static const Color emberDeep = Color(0xFFA8371F);
 
   /// An ember-tinted fill for selected and highlighted states.
   static const Color emberContainerLight = Color(0xFFFBDDD4);

@@ -280,9 +280,20 @@ class _NavItem extends StatelessWidget {
                     ? LinearGradient(
                         begin: AlignmentDirectional.centerStart,
                         end: AlignmentDirectional.centerEnd,
+                        // The bright end is the last fifth, past where the
+                        // label ends — in the reference the glow sits beyond
+                        // the words rather than under them. The ceiling is set
+                        // so white clears AA even at the brightest point:
+                        // Persian mirrors the row, so the label does not
+                        // reliably sit on the dark end, and a label legible
+                        // only because of where it happens to fall is not
+                        // legible. The bloom outside the pill supplies the
+                        // brightness the fill gives up.
+                        stops: const <double>[0, 0.8, 1],
                         colors: <Color>[
-                          active.withValues(alpha: 0.22),
-                          active.withValues(alpha: 0.72),
+                          active.withValues(alpha: 0.16),
+                          active.withValues(alpha: 0.30),
+                          active.withValues(alpha: 0.38),
                         ],
                       )
                     : null,

@@ -184,12 +184,27 @@ void main() {
       );
     });
 
+    /// Every stop as it actually appears, which is under the sheen.
+    ///
+    /// Measuring the declared stops is measuring a colour that is never on
+    /// screen: every gradient surface in the product puts [GradientSheen] over
+    /// it, and a wash of the foreground colour lightens the background the
+    /// foreground then has to survive. Checked the declared way, the muted
+    /// foreground looked safe at 3.86:1 and was 2.89:1 on the hero card.
+    List<Color> stopsAsPainted() => <Color>[
+      for (final stop in AppGradients.allStops) ...<Color>[
+        stop,
+        Contrast.composite(
+          AppGradients.onGradient.withValues(alpha: GradientSheen.peakStrength),
+          stop,
+        ),
+      ],
+    ];
+
     test('every gradient stop can carry the gradient foreground', () {
       // The ramp is handed out by index, so a caller colours a list of thirty
-      // traditions without being asked whether its label will survive. That is
-      // only safe if every stop clears AA, and the doc comment on AppGradients
-      // said this test checked it before this test checked it.
-      for (final stop in AppGradients.allStops) {
+      // traditions without being asked whether its label will survive.
+      for (final stop in stopsAsPainted()) {
         final ratio = Contrast.ratio(AppGradients.onGradient, stop);
         expect(
           ratio,
@@ -201,14 +216,14 @@ void main() {
       }
     });
 
-    test('the muted gradient foreground clears AA for large text', () {
-      // Used for captions and metadata on a gradient, which are set larger
-      // than body text; below the large-text bar it would be decoration.
-      for (final stop in AppGradients.allStops) {
+    test('the muted gradient foreground clears AA for body text', () {
+      // It labels captions and metadata, which are set small. The large-text
+      // bar would be the wrong one to hold it to.
+      for (final stop in stopsAsPainted()) {
         final ratio = Contrast.ratio(AppGradients.onGradientMuted, stop);
         expect(
           ratio,
-          greaterThanOrEqualTo(Contrast.aaLargeText),
+          greaterThanOrEqualTo(Contrast.aaNormalText),
           reason:
               'the muted gradient foreground is ${ratio.toStringAsFixed(2)}:1 '
               'on $stop',
