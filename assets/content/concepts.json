@@ -20,6 +20,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ask someone who claims to know something for a definition, take the definition seriously, and then find a case it gets wrong. Repeat. Socrates never supplies an answer of his own, and the conversations usually end with both parties knowing less than they thought they did — which he treats as progress.",
+              "fa": "از کسی که مدعی است چیزی می‌داند تعریفی بخواه، تعریف را جدی بگیر، و بعد موردی بیاب که تعریف در آن غلط از آب در می‌آید. دوباره تکرار کن. سقراط هرگز پاسخ خودش را نمی‌دهد، و گفت‌وگوها معمولاً چنان تمام می‌شوند که هر دو طرف کمتر از آنچه می‌پنداشتند می‌دانند — و او همین را پیشرفت می‌شمارد."
+            }
+          },
+          {
             "id": "how",
             "depth": "standard",
             "body": {
@@ -84,6 +92,14 @@
       "branches": ["metaphysics", "epistemology"],
       "article": {
         "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Many different things are beautiful, and none of them is beauty. Plato's answer is that there is one thing they all stand in a relation to — the Form — which does not change, is not anywhere in particular, and is what we are actually thinking of when we use the word.",
+              "fa": "چیزهای بسیار گوناگونی زیبایند، و هیچ‌کدامشان خودِ زیبایی نیستند. پاسخ افلاطون این است که یک چیز هست که همه با آن نسبتی دارند — یعنی مُثُل — که دگرگون نمی‌شود، جای معیّنی ندارد، و همان است که وقتی این واژه را به کار می‌بریم واقعاً به آن می‌اندیشیم."
+            }
+          },
           {
             "id": "problem",
             "heading": {
@@ -156,6 +172,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Greek word usually rendered happiness, and rendered badly. It names a life that is going well as a whole, judged over its length, and it is something you do rather than something you feel — which is why Aristotle says a child cannot yet have it.",
+              "fa": "واژهٔ یونانی‌ای که معمولاً «خوشبختی» ترجمه می‌شود، و بد ترجمه می‌شود. نام زندگی‌ای است که در کل خوب پیش می‌رود، و در سراسر درازایش داوری می‌شود، و چیزی است که می‌کنی نه چیزی که حس می‌کنی — و برای همین است که ارسطو می‌گوید کودک هنوز نمی‌تواند آن را داشته باشد."
+            }
+          },
+          {
             "id": "translation",
             "heading": {
               "en": "Why \"happiness\" is a bad translation",
@@ -226,6 +250,14 @@
       "branches": ["ethics"],
       "article": {
         "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Every virtue sits between two ways of getting it wrong: courage between recklessness and cowardice, generosity between waste and meanness. Where exactly it sits depends on the person and the situation, and no rule can be written down that settles it in advance.",
+              "fa": "هر فضیلتی میان دو گونه خطاکردن می‌نشیند: شجاعت میان بی‌پروایی و ترسویی، بخشندگی میان اسراف و خست. اینکه دقیقاً کجا می‌نشیند به شخص و موقعیت بستگی دارد، و هیچ قاعده‌ای نمی‌توان نوشت که آن را از پیش تعیین کند."
+            }
+          },
           {
             "id": "not-moderation",
             "heading": {
@@ -301,6 +333,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Stoic first move: sort everything into what is up to you and what is not, then stop investing in the second column. The list on your side is very short — what you judge and what you choose — and does not include your body, your reputation or the results of anything you attempt.",
+              "fa": "نخستین حرکت رواقی: هر چیزی را در یکی از دو ستون بگذار، آنچه به تو مربوط است و آنچه نیست، و بعد دست از سرمایه‌گذاری روی ستون دوم بردار. فهرست سمت تو بسیار کوتاه است — آنچه داوری می‌کنی و آنچه برمی‌گزینی — و تن تو و آبروی تو و نتیجهٔ هر کاری که می‌کنی در آن نیست."
+            }
+          },
+          {
             "id": "severity",
             "depth": "standard",
             "claim": "interpretation",
@@ -359,6 +399,14 @@
       "branches": ["metaphysics"],
       "article": {
         "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "You can know exactly what a phoenix is without knowing whether there are any. Its nature and its being there come apart — a small observation that carries most of medieval metaphysics on its back.",
+              "fa": "می‌توانی دقیقاً بدانی ققنوس چیست و همچنان ندانی که اصلاً ققنوسی هست یا نه. پس اینکه یک چیز چیست و اینکه هست، دو مسئلهٔ جدا هستند — نکته‌ای کوچک که بیشتر متافیزیک قرون وسطا را بر دوش می‌کشد."
+            }
+          },
           {
             "id": "why-it-matters",
             "depth": "standard",
@@ -469,6 +517,26 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Doubt everything you can, and one thing refuses to go: while you are doubting, there is something doing the doubting. Descartes takes that as the first certainty and tries to rebuild the rest of knowledge from it.",
+              "fa": "در هر چیزی که می‌توانی شک کن، و یک چیز حاضر نیست برود: تا وقتی داری شک می‌کنی، چیزی هست که شک می‌کند. دکارت همین را نخستین یقین می‌گیرد و می‌کوشد باقی دانش را از روی آن از نو بسازد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The Latin formula everyone quotes is not the one in the Meditations. There the claim is put as 'I am, I exist', necessarily true whenever it is put forward or conceived in the mind — a proposition tied to the occasion of thinking it, not a standing truth about a permanent self.\n\nThat restriction matters, because it is exactly how much the argument delivers. It gives a thinking thing while it thinks. It does not give a body, a world, a memory that can be trusted, or the same self persisting from yesterday — and everything Descartes needs to recover those depends on the proofs of God that follow, which are the weakest part of the book. What survived him is not the system but the starting point: modern philosophy begins by asking what a mind can establish from the inside.",
+              "fa": "آن عبارت لاتینی که همه نقل می‌کنند، همان چیزی نیست که در «تأملات» آمده. آنجا ادعا این‌گونه گذاشته می‌شود: «من هستم، من وجود دارم»، که هر بار بر زبان آورده یا در ذهن تصور شود ضرورتاً صادق است — گزاره‌ای بسته به همان لحظهٔ اندیشیدن، نه حقیقتی پابرجا دربارهٔ خویشتنی ماندگار.\n\nاین محدودیت مهم است، چون دقیقاً همان اندازه‌ای است که استدلال به دست می‌دهد. یک چیزِ اندیشنده را در حین اندیشیدن می‌دهد. تن نمی‌دهد، جهان نمی‌دهد، حافظه‌ای که بتوان به آن اعتماد کرد نمی‌دهد، و همان خویشتنی که از دیروز مانده باشد هم نمی‌دهد — و هرچه دکارت برای بازیافتن این‌ها لازم دارد به برهان‌های خدا وابسته است که پس از آن می‌آیند و ضعیف‌ترین بخش کتاب‌اند. آنچه از او ماند دستگاهش نبود بلکه نقطهٔ آغازش بود: فلسفهٔ جدید با این پرسش آغاز می‌شود که ذهن از درون چه می‌تواند اثبات کند."
+            },
+            "citations": [
+              { "source": "descartes-meditations" },
+              { "source": "sep" }
+            ]
+          },
+          {
             "id": "not-an-inference",
             "depth": "deep",
             "claim": "scholarly-disagreement",
@@ -510,6 +578,14 @@
       "branches": ["ethics"],
       "article": {
         "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Before doing something, state the rule your action would follow and ask whether you could will everyone to act on it. If the rule falls apart when everyone follows it — lying promises only work while most promises are kept — then it was never a rule you were entitled to.",
+              "fa": "پیش از انجام کاری، قاعده‌ای را که بر پایه‌اش عمل می‌کنی بیان کن و بپرس آیا می‌توانی بخواهی همه بر پایهٔ آن عمل کنند. اگر آن قاعده با پیروی همگان از هم بپاشد — وعدهٔ دروغین تا وقتی کار می‌کند که بیشتر وعده‌ها نگه داشته شوند — پس از اول هم قاعده‌ای نبوده که حق داشته باشی به آن عمل کنی."
+            }
+          },
           {
             "id": "second-formulation",
             "depth": "standard",
@@ -580,6 +656,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nothing has a nature of its own. A cart is a cart because of its parts, their arrangement and the use we put them to, and the same goes all the way down — including for the self, and including for emptiness itself. This is not the claim that nothing exists.",
+              "fa": "هیچ‌چیز سرشتی از آنِ خود ندارد. یک گاری از آن رو گاری است که اجزایی دارد و چیدمانی و کاربردی که ما از آن می‌گیریم، و همین تا ته پیش می‌رود — از جمله دربارهٔ خویشتن، و از جمله دربارهٔ خود تهیّت. این ادعا نیست که هیچ‌چیز وجود ندارد."
+            }
+          },
+          {
             "id": "not-nihilism",
             "heading": { "en": "Not nihilism", "fa": "نه نیست‌انگاری" },
             "depth": "standard",
@@ -647,6 +731,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The central Confucian virtue, and the one he refuses to define. Asked what it is, he describes people who have it and people who do not, and answers one student unlike the next — because what it amounts to depends on who is asking and what they are about to do.",
+              "fa": "فضیلت مرکزی کنفوسیوسی، و همان که او از تعریف‌کردنش سر باز می‌زند. وقتی می‌پرسند چیست، کسانی را که آن را دارند و کسانی را که ندارند وصف می‌کند، و به شاگردان گوناگون پاسخ‌های گوناگون می‌دهد — چون معنایش به این بستگی دارد که چه کسی می‌پرسد و در آستانهٔ چه کاری است."
+            }
+          },
+          {
             "id": "why-no-definition",
             "depth": "standard",
             "body": {
@@ -688,6 +780,14 @@
       "branches": ["social-philosophy", "philosophy-of-mind", "epistemology"],
       "article": {
         "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Du Bois' name for the experience of measuring yourself by the standards of a world that holds you in contempt, and carrying two ways of seeing yourself at once without being able to put either down.",
+              "fa": "نامی که دوبویس بر این تجربه گذاشت: اینکه خودت را با معیارهای جهانی بسنجی که تحقیرت می‌کند، و دو شیوهٔ دیدنِ خود را همزمان با خود ببری، بی‌آنکه بتوانی هیچ‌کدام را زمین بگذاری."
+            }
+          },
           {
             "id": "precision",
             "depth": "standard",

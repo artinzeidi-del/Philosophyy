@@ -2731,6 +2731,15 @@
             }
           },
           {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The break with everything written before him is announced in one sentence: he will follow the effectual truth of the matter rather than the imagination of it. The genre he was writing in described the virtues a ruler ought to cultivate; he describes instead what has actually kept people in power, using examples his readers could check.\n\nThe conclusions that follow are narrower than the reputation suggests. He does not recommend cruelty, he distinguishes cruelty used once and stopped from cruelty that grows. He does not recommend being hated; the advice is to be feared while avoiding hatred, which chiefly means leaving people's property alone. And he does not say virtue is useless — he says a ruler must be able to depart from it when circumstances require, and will be judged on what follows.",
+              "fa": "گسست او از هرچه پیش از او نوشته شده بود در یک جمله اعلام می‌شود: او حقیقتِ کارآمدِ ماجرا را دنبال می‌کند نه تصور آن را. ژانری که در آن می‌نوشت فضیلت‌هایی را وصف می‌کرد که فرمانروا باید در خود بپرورد؛ او در عوض وصف می‌کند چه چیزی واقعاً مردم را بر سر قدرت نگه داشته، با نمونه‌هایی که خوانندگانش می‌توانستند وارسی کنند.\n\nنتیجه‌هایی که از این در می‌آید باریک‌تر از شهرت اوست. سنگدلی را توصیه نمی‌کند؛ میان سنگدلی‌ای که یک‌بار به کار می‌رود و متوقف می‌شود با سنگدلی‌ای که رشد می‌کند فرق می‌گذارد. توصیه نمی‌کند که فرمانروا منفور باشد؛ توصیه این است که ترسناک باشد و از نفرت بپرهیزد، که عمدتاً یعنی به مال مردم دست نزند. و نمی‌گوید فضیلت بی‌فایده است — می‌گوید فرمانروا باید بتواند هرجا اوضاع اقتضا کرد از آن فاصله بگیرد، و بر پایهٔ آنچه در پی می‌آید داوری خواهد شد."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-the-prince" }]
+          },
+          {
             "id": "reading",
             "heading": { "en": "Three readings", "fa": "سه خوانش" },
             "depth": "deep",
@@ -3879,6 +3888,18 @@
             }
           },
           {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The Nahua word for the class he belonged to is tlamatinime, those who know things, and the surviving poems show what that knowing was about. The recurring question asks after roots: whether we are truly here, or here the way a flower is here, briefly and then not.\n\nThe answers offered are not consoling. One line says that we come only to sleep, only to dream, and that it is not true that we come to live on the earth. Another treats art as the one thing that lasts a little longer than a life, so that song and painting become a kind of answer rather than a distraction from the question. Miguel León-Portilla, who did most to establish this material as philosophy rather than folklore, reads the whole body of it as a sustained inquiry into what can be said to be real.",
+              "fa": "واژهٔ ناواتلی برای طبقه‌ای که او به آن تعلق داشت تلاماتینیمه است، یعنی کسانی که چیزها را می‌دانند، و شعرهای بازمانده نشان می‌دهند این دانستن دربارهٔ چه بود. پرسش پرتکرار این است که آیا چیزی بر زمین ریشه دارد — آیا ما به‌راستی اینجاییم، یا آن‌گونه اینجاییم که یک گل اینجاست، کوتاه و بعد دیگر نه.\n\nپاسخ‌هایی که داده می‌شود دلداری‌دهنده نیستند. سطری می‌گوید ما تنها برای خوابیدن می‌آییم، تنها برای رؤیا دیدن، و راست نیست که برای زیستن بر زمین می‌آییم. سطری دیگر هنر را تنها چیزی می‌داند که کمی بیش از یک زندگی می‌ماند، چنان‌که آواز و نقاشی خودشان نوعی پاسخ می‌شوند نه گریزی از پرسش. میگل لئون‌پورتیا، که بیش از همه کوشید این مواد را فلسفه بنمایاند نه فرهنگ عامه، همهٔ این پیکره را کاوشی پیوسته در این می‌خواند که چه چیزی را می‌توان واقعی خواند."
+            },
+            "citations": [
+              { "source": "text-cantares-mexicanos" },
+              { "source": "sep" }
+            ]
+          },
+          {
             "id": "attribution",
             "heading": {
               "en": "How the poems reach us",
@@ -4515,6 +4536,19 @@
               "en": "Almost nothing can be attributed to Pythagoras himself with confidence; what survives is the practice of a community that treated number as the structure of reality, kept dietary and ritual rules, and held that the soul is reborn. The theorem carrying his name was known in Babylon centuries earlier.",
               "fa": "تقریباً هیچ‌چیز را نمی‌توان با اطمینان به شخص فیثاغورس نسبت داد؛ آنچه مانده رویّهٔ جماعتی است که عدد را ساختار واقعیت می‌گرفت، قواعد خوراک و آیین داشت، و به بازتولد روح باور داشت. قضیه‌ای که نامش را دارد قرن‌ها پیش در بابل شناخته بود."
             }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "What the school held can be stated even where the man cannot be reached. Number is not a tool for describing things but the structure things have: the discovery that concordant musical intervals correspond to simple ratios of string length was taken as evidence that the same holds everywhere.\n\nAttached to that was a way of life. The community kept dietary rules, held property in common in some accounts, practised silence for long periods, and taught that the soul is reborn into other bodies, including animal ones — which is why the rules about eating mattered. The combination is unusual and consequential: a mathematical claim about reality and a discipline for living were parts of the same teaching, and Plato inherited the pairing.",
+              "fa": "آنچه این مکتب باور داشت را می‌توان گفت، حتی آنجا که به خود آن مرد نمی‌توان رسید. عدد ابزاری برای توصیف چیزها نیست بلکه ساختاری است که چیزها دارند: این کشف که فاصله‌های هماهنگ موسیقایی با نسبت‌های ساده‌ای از درازای سیم می‌خوانند، گواه گرفته شد بر اینکه همین در همه‌جا برقرار است.\n\nبه این، شیوه‌ای از زیستن پیوسته بود. آن جماعت قاعده‌های خوراکی داشت، بنا بر برخی روایت‌ها دارایی را مشترک می‌داشت، دوره‌های دراز سکوت را تمرین می‌کرد، و می‌آموخت که نفس در بدن‌های دیگر، از جمله بدن جانوران، دوباره زاده می‌شود — و برای همین بود که قاعده‌های خوراک اهمیت داشتند. این ترکیب غیرعادی و پرپیامد است: یک ادعای ریاضی دربارهٔ واقعیت و یک انضباط برای زیستن، دو بخش از یک تعلیم بودند، و افلاطون همین جفت را به ارث برد."
+            },
+            "citations": [
+              { "source": "aristotle-metaphysics" },
+              { "source": "text-lives-of-eminent-philosophers" },
+              { "source": "sep" }
+            ]
           },
           {
             "id": "attribution",
@@ -6182,6 +6216,19 @@
               "en": "Al-Rāzī was the most independent thinker of the Arabic tradition and the least tolerated: he held that reason is distributed to everyone, that no one therefore needs an intermediary, and that religions cause more harm than good. His philosophical works survive largely through the quotations of opponents refuting him.",
               "fa": "رازی مستقل‌ترین متفکر سنت عربی بود و کمتر از همه تحمل شد: معتقد بود خرد میان همه پخش شده، پس کسی به واسطه نیاز ندارد، و ادیان زیانشان بیش از سودشان است. آثار فلسفی‌اش بیشتر از راه نقل‌قول مخالفانی که ردش می‌کردند باقی مانده است."
             }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Three positions are reported consistently enough to be treated as his. Reason is given to everyone in sufficient measure, so no class of people is needed to interpret truth for the rest. Prophecy is therefore unnecessary, and worse than unnecessary, since rival revelations set communities against each other. And the world is explained by five eternal principles — creator, soul, matter, time and space — rather than by creation from nothing.\n\nHis medicine is not separate from this. The Comprehensive Book records case histories including his own failures, and his treatise on smallpox and measles distinguishes the two diseases by observation, which is the first such account anywhere. The same commitment runs through both halves of the work: what can be checked outranks what has been handed down, including when the authority handed down is Galen, whom he wrote a book against.",
+              "fa": "سه موضع آن‌قدر یکدست گزارش شده‌اند که بتوان از آنِ او دانستشان. خرد به همه به اندازهٔ کافی داده شده، پس طبقه‌ای از مردم لازم نیست که حقیقت را برای بقیه تفسیر کند. پس نبوت لازم نیست، و بدتر از لازم‌نبودن، چون وحی‌های رقیب جماعت‌ها را به جان هم می‌اندازند. و جهان با پنج اصل قدیم توضیح داده می‌شود — آفریدگار، نفس، ماده، زمان و مکان — نه با آفرینش از عدم.\n\nپزشکی او از این جدا نیست. «الحاوی» شرح‌حال بیماران را ثبت می‌کند، از جمله شکست‌های خودش، و رساله‌اش دربارهٔ آبله و سرخک این دو بیماری را با مشاهده از هم جدا می‌کند، و این نخستین شرح از این دست در همه‌جاست. همان تعهد در هر دو نیمهٔ کارش جاری است: آنچه وارسی‌پذیر است بر آنچه به ارث رسیده مقدم است، حتی وقتی آن مرجعِ به‌ارث‌رسیده جالینوس باشد، که کتابی در ردّ او نوشت."
+            },
+            "citations": [
+              { "source": "text-al-sira-al-falsafiyya" },
+              { "source": "sep" },
+              { "source": "text-al-tibb-al-ruhani" }
+            ]
           },
           {
             "id": "sources",
@@ -9349,6 +9396,18 @@
               "en": "The Maxims attributed to Ptahhotep, an Old Kingdom vizier, are among the earliest ethical texts anywhere: instructions on listening, on speaking to superiors and inferiors, on greed, and on how to hear an argument from someone with no power. The organising idea is maat — order, truth and right dealing as one thing.",
               "fa": "«اندرزهای» منسوب به پتاح‌حوتپ، وزیر پادشاهی کهن، از نخستین متن‌های اخلاقی در هر جای جهان‌اند: دستورهایی دربارهٔ شنیدن، دربارهٔ سخن‌گفتن با فرادست و فرودست، دربارهٔ آز، و دربارهٔ اینکه چگونه استدلال کسی را که قدرتی ندارد بشنویم. ایدهٔ سامان‌دهنده «مَعات» است: نظم و راستی و درست‌رفتاری، هر سه یک چیز."
             }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The instructions are addressed by an old official to his successor, and their subject is conduct under conditions of unequal power. How to listen to a petitioner who cannot reward you. How to answer a superior who is wrong. How to behave toward someone who was once your equal and no longer is. What to do about greed, which the text calls a disease with no cure.\n\nBehind the particular advice is maat, a word covering order, truth and right dealing at once, and treated as a feature of the world rather than a rule imposed on it — which is why conduct that violates it is presented as ineffective as well as wrong. The most quoted maxim says that good speech is more hidden than the green stone and is found with the women grinding grain, which sets the source of wisdom deliberately outside the court the book was written for.",
+              "fa": "این اندرزها را کارگزاری سالخورده به جانشین خود می‌گوید، و موضوعشان رفتار در وضعیت نابرابری قدرت است. چگونه به دادخواهی گوش بدهی که نمی‌تواند پاداشت دهد. چگونه به بالادستی پاسخ دهی که بر خطاست. با کسی که زمانی همتای تو بود و دیگر نیست چگونه رفتار کنی. با آز چه کنی، که متن آن را بیماری‌ای بی‌درمان می‌خواند.\n\nپشت این توصیه‌های جزئی، مااِت ایستاده است، واژه‌ای که نظم و حقیقت و درست‌رفتاری را یک‌جا در بر می‌گیرد و ویژگی خود جهان شمرده می‌شود نه قاعده‌ای که بر آن تحمیل شده — و برای همین است که رفتار ناقض آن، هم نادرست و هم بی‌اثر معرفی می‌شود. پرنقل‌ترین اندرز می‌گوید سخن نیک از سنگ سبز هم پنهان‌تر است و نزد زنانی یافت می‌شود که غله می‌سایند، و این سرچشمهٔ حکمت را عمداً بیرون از همان دربار می‌گذارد که کتاب برایش نوشته شده بود."
+            },
+            "citations": [
+              { "source": "text-maxims-of-ptahhotep" },
+              { "source": "sep" }
+            ]
           },
           {
             "id": "authorship",
