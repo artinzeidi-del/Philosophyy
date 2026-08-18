@@ -3676,6 +3676,14 @@
               { "source": "sep" }
             ],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "What makes Thales the first philosopher is not the answer but the shape of the question. Asking what everything is made of presumes that the variety of things has a single underlying account, and that the account can be given without invoking a god's decision — and once that presumption is in place, the enquiry can be continued and corrected by other people, which is what happened immediately.\n\nWater is a less arbitrary guess than it appears. It is the only substance a Greek would routinely see in three states, it is required by everything living, and seeds and semen are moist. Aristotle, our main source, reports these as the likely reasons and admits he is reconstructing. Whether Thales meant that everything is water now or that everything came from water is not recoverable.\n\nThe corrections came from his own city within two generations, which is the real evidence that something new had started. Anaximander objected that if the origin were one of the opposed elements it would have swamped the others, and posited an indefinite substrate instead; Anaximenes returned to a definite material but added a mechanism, condensation and rarefaction, so that one stuff could become the others. Nobody appealed to authority. The anecdotes — the olive presses, falling into a well while watching the sky — are later and each carries a moral about philosophy's usefulness that the teller had already decided.",
+              "fa": "آنچه تالس را نخستین فیلسوف می‌کند پاسخ نیست بلکه شکل پرسش است. پرسیدنِ اینکه همه‌چیز از چه ساخته شده مفروض می‌گیرد که گوناگونیِ چیزها یک تبیینِ زیرین دارد، و اینکه آن تبیین را می‌توان بی‌توسل به تصمیم یک خدا داد — و همین که این فرض جا افتاد، کاوش را دیگران می‌توانند ادامه و تصحیح کنند، و همین بی‌درنگ رخ داد.\n\nآب حدسِ کم‌دلبخواهی‌تری است از آنچه می‌نماید. تنها ماده‌ای است که یک یونانی به‌طور معمول در سه حالت می‌دید، هر زنده‌ای به آن نیاز دارد، و دانه و نطفه مرطوب‌اند. ارسطو که منبع اصلی ماست همین‌ها را چون دلایل محتمل گزارش می‌کند و می‌پذیرد که دارد بازسازی می‌کند. اینکه تالس می‌گفت همه‌چیز اکنون آب است یا همه‌چیز از آب آمده، بازیافتنی نیست.\n\nتصحیح‌ها ظرف دو نسل از شهر خودش آمدند، و این شاهد واقعیِ آن است که چیز تازه‌ای آغاز شده بود. آناکسیمندر اعتراض کرد که اگر آن سرچشمه یکی از عناصر متقابل بود دیگران را غرق می‌کرد، و به‌جایش بستری نامتعین نهاد؛ آناکسیمنس به ماده‌ای متعین بازگشت اما سازوکاری افزود، چگالش و تُنُک‌شدن، تا یک مایه بتواند دیگران شود. کسی به اقتدار متوسل نشد. حکایت‌ها — چرخ‌های روغن‌کشی، افتادن در چاه هنگام نگریستن به آسمان — متأخرند و هریک اندرزی دربارهٔ سودمندیِ فلسفه دارد که راوی از پیش تصمیمش را گرفته بوده."
+            }
           }
         ]
       },
@@ -3839,6 +3847,14 @@
               { "source": "text-aristotle-physics", "locator": "Physics 239b" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The paradoxes are defences of Parmenides rather than puzzles for their own sake. If plurality and motion produce contradictions when analysed, then the sensible world cannot be what is ultimately real, and Zeno's method is to grant his opponents their assumptions and derive absurdity from them. Aristotle credits him with inventing dialectic, meaning argument that works entirely on what the other side has conceded.\n\nAchilles and the tortoise is the famous one and the dichotomy is the sharper. To cross a stadium you must first cross half, and before that half of the half, and the series has no first member — so the motion cannot begin. Calculus supplies a convergent sum and is widely taken to have settled the matter, but the sum answers a question about totals rather than about how a task with no first step is started, which is why the paradoxes are still in the literature.\n\nThe arrow is the one that has aged best. At any instant the arrow occupies a space equal to itself and so is at rest; time is composed of instants; so the arrow never moves. What is being denied is that motion can be a property of an instant, and the modern reply — that velocity is defined over a limit of intervals rather than at a point — grants the denial and relocates the property. Zeno was right that instantaneous motion is not a simple notion, which is more than most refuted arguments achieve.",
+              "fa": "پارادوکس‌ها دفاع از پارمنیدس‌اند نه معماهایی برای خودشان. اگر کثرت و حرکت هنگام تحلیل تناقض بزایند، پس جهان محسوس نمی‌تواند آن چیزی باشد که در نهایت واقعی است، و روش زنون این است که فرض‌های حریف را بپذیرد و از آن‌ها ناسازگاری بیرون بکشد. ارسطو اختراع «دیالکتیک» را به او نسبت می‌دهد، به معنای استدلالی که یکسره بر آنچه طرف مقابل پذیرفته کار می‌کند.\n\nآشیل و لاک‌پشت مشهورترین است و «دوپاره‌سازی» تیزتر. برای گذشتن از ورزشگاه باید نخست از نیمه بگذری، و پیش از آن از نیمهٔ نیمه، و این سلسله عضو نخست ندارد — پس آن حرکت نمی‌تواند آغاز شود. حساب دیفرانسیل مجموعی همگرا می‌دهد و بسیاری آن را فیصلهٔ ماجرا می‌دانند، اما آن مجموع به پرسشی دربارهٔ کل‌ها پاسخ می‌دهد نه به اینکه کاری بی‌گامِ نخست چگونه آغاز می‌شود، و به همین سبب این پارادوکس‌ها هنوز در ادبیات فلسفی‌اند.\n\n«تیر» همان است که بهتر از همه کهنه شده. در هر آن، تیر فضایی برابر خودش را اشغال می‌کند و پس ساکن است؛ زمان از آن‌ها ساخته شده؛ پس تیر هرگز حرکت نمی‌کند. آنچه انکار می‌شود این است که حرکت بتواند ویژگیِ یک آن باشد، و پاسخ امروزی — که سرعت بر حدِ بازه‌ها تعریف می‌شود نه در یک نقطه — همان انکار را می‌پذیرد و آن ویژگی را جابه‌جا می‌کند. زنون در این حق داشت که حرکتِ آنی مفهوم ساده‌ای نیست، و این بیش از آن است که بیشترِ استدلال‌های ردشده به دست می‌آورند."
+            }
           }
         ]
       },
@@ -4100,6 +4116,14 @@
               { "source": "sep" }
             ],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Of all things the measure is the human being — of the things that are, that they are, and of the things that are not, that they are not. The sentence is the most quoted line of sophistic thought and its scope is disputed at every joint. Is the measure each individual or humanity collectively? Does it range over truth or only over appearances? Plato reads it individually in the Theaetetus, which makes it easy to refute, and the refutation is famous: if every belief is true for the believer, then the belief that Protagoras is wrong is true for whoever holds it.\n\nWhat survives that reply is the practical programme. The sophists taught how to argue both sides of a question, and the reason is the same as the doctrine: if there is no view from outside human perspectives, then persuasion is what settles matters, and a citizen who cannot argue is at the mercy of one who can. That was a democratic skill and was resented as such by people who had other sources of authority.\n\nHe was equally cautious about the gods — that he could not know whether they exist, the question being obscure and life short — and the sentence is the first agnostic statement in the Greek record. Ancient sources say he was prosecuted and his books burned in the Athenian marketplace. The story may be a later invention, but the fact that it was thought plausible tells you what the position cost.",
+              "fa": "«انسان مقیاس همه‌چیز است — آنچه هست، که هست، و آنچه نیست، که نیست.» این جمله پرنقل‌ترین سطر اندیشهٔ سوفیستی است و دامنه‌اش در هر بندش محل نزاع. آیا مقیاس هر فرد است یا آدمی به‌طور جمعی؟ آیا بر حقیقت دامن می‌گسترد یا تنها بر نمودها؟ افلاطون در «تئای‌تتوس» آن را فردی می‌خواند، که ردکردنش را آسان می‌کند، و آن ردیّه مشهور است: اگر هر باوری برای باورنده صادق باشد، پس این باور که پروتاگوراس در خطاست برای هرکه داردش صادق است.\n\nآنچه از این پاسخ جان به در می‌برد برنامهٔ عملی است. سوفیست‌ها می‌آموختند که چگونه هر دو سوی یک مسئله را استدلال کنی، و دلیلش همان آموزه است: اگر نگاهی از بیرونِ منظرهای آدمی نباشد، آنگاه اقناع است که کارها را فیصله می‌دهد، و شهروندی که نتواند استدلال کند در دستِ کسی است که می‌تواند. این مهارتی دموکراتیک بود و کسانی که سرچشمه‌های دیگری برای اقتدار داشتند از همین بابت از آن آزرده بودند.\n\nدربارهٔ خدایان هم به همان اندازه محتاط بود — که نمی‌تواند بداند هستند یا نه، چون مسئله تاریک است و عمر کوتاه — و این جمله نخستین بیان لاادری در کارنامهٔ یونانی است. منابع باستانی می‌گویند محاکمه شد و کتاب‌هایش را در میدان آتن سوزاندند. شاید این داستان ساختهٔ بعدی باشد، اما همین که باورپذیر می‌نمود می‌گوید آن موضع چه هزینه‌ای داشت."
+            }
           }
         ]
       },
@@ -4145,6 +4169,14 @@
               { "source": "text-encomium-of-helen", "locator": "§8-14" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "On Not-Being argues three things in sequence: that nothing exists; that if anything existed it could not be known; and that if it could be known it could not be communicated. Read as sincere metaphysics it is bizarre. Read as a parody of Eleatic method — turning Parmenides' own deductive machinery against Parmenides' conclusion — it is a demonstration that the machinery proves whatever it is pointed at, which is the sophists' standing suspicion about argument.\n\nThe third thesis is the one with a life beyond the joke. Words are not the things they refer to, they are a different kind of item entirely, and what passes between speakers is words rather than experiences — so understanding is at best a reconstruction, and there is no guarantee it matches. That is a serious problem and Gorgias states it two and a half millennia before it becomes a discipline.\n\nThe Encomium of Helen is where the theory of language shows what it is for. He takes the least defensible reputation in Greek culture and argues that if she was taken by force she is a victim, if by a god she could not resist, and if by persuasion then speech is a powerful master which accomplishes the most divine works with the smallest body — so persuasion is a kind of force and she is a victim of that too. He then calls the whole thing an amusement, which is either modesty or the last move in the argument.",
+              "fa": "«دربارهٔ نابود» سه چیز را پشت هم استدلال می‌کند: که هیچ‌چیز نیست؛ که اگر چیزی می‌بود شناختنی نمی‌بود؛ و که اگر شناختنی می‌بود انتقال‌پذیر نمی‌بود. اگر چون متافیزیکی جدی خوانده شود عجیب است. اگر چون هجوِ روشِ الئایی خوانده شود — چرخاندنِ همان دستگاه قیاسی پارمنیدس علیه نتیجهٔ پارمنیدس — نمایشی است از اینکه آن دستگاه هرچه را نشانه بروی اثبات می‌کند، و این همان بدگمانیِ همیشگی سوفیست‌ها به استدلال است.\n\nگزارهٔ سوم همان است که زندگی‌ای فراتر از آن شوخی دارد. واژه‌ها آن چیزهایی نیستند که به آن‌ها ارجاع می‌دهند، یکسره از نوع دیگری‌اند، و آنچه میان گویندگان رد و بدل می‌شود واژه است نه تجربه — پس فهمیدن در بهترین حالت بازسازی است، و ضمانتی نیست که جور دربیاید. این مسئلهٔ جدی‌ای است و گورگیاس دو هزار و پانصد سال پیش از آنکه به یک رشته بدل شود بیانش می‌کند.\n\n«ستایش هلن» جایی است که آن نظریهٔ زبان نشان می‌دهد برای چیست. دفاع‌ناپذیرترین آوازهٔ فرهنگ یونانی را دست می‌گیرد و می‌گوید اگر به زور برده شده قربانی است، اگر به دست خدایی نمی‌توانسته مقاومت کند، و اگر با اقناع، پس سخن اربابی نیرومند است که با کوچک‌ترین تن الهی‌ترین کارها را می‌کند — پس اقناع خود نوعی زور است و او قربانی آن هم هست. بعد تمام این را «سرگرمی» می‌خواند، که یا فروتنی است یا آخرین حرکتِ استدلال."
+            }
           }
         ]
       },
@@ -4425,6 +4457,14 @@
               { "source": "sep" }
             ],
             "claim": "scholarly-disagreement"
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Pyrrho wrote nothing, and what we have runs through his student Timon and then through Sextus four centuries later, which makes the historical figure and the school named after him hard to separate. The core report is a recommendation: things are equally indifferent, unmeasurable and undecidable, so our perceptions neither tell truth nor lie, and therefore we should be without opinions, and what follows is speechlessness and then tranquillity.\n\nThe biographical anecdotes are almost certainly hostile invention — that he had to be steered away from carts and cliffs by friends, that he showed no distress when his teacher fell into a ditch. Their point is that a consistent sceptic cannot cross a road, which is the objection the later school answered by distinguishing suspension of belief from suspension of behaviour: the sceptic follows appearances and custom without holding that they report how things are.\n\nHe travelled to India with Alexander's army and met people the Greeks called gymnosophists, and whether that contact shaped his thought is one of the more tantalising unanswerable questions in ancient philosophy. The parallels with Indian scepticism and with early Buddhist accounts of suspending views are real; the evidence that they are causal is not. What is certain is that the tranquillity he promised is the same aim the Hellenistic schools all had, reached by refusing the doctrines they built.",
+              "fa": "پیرهون چیزی ننوشت، و آنچه داریم از راه شاگردش تیمون و بعد از راه سکستوس چهار قرن بعد می‌گذرد، و این جداکردن آن چهرهٔ تاریخی از مکتبی که به نامش است را دشوار می‌کند. گزارش اصلی یک توصیه است: چیزها به یک اندازه بی‌تفاوت و اندازه‌ناپذیر و تصمیم‌ناپذیرند، پس ادراک‌های ما نه راست می‌گویند و نه دروغ، و از این رو باید بی‌رأی باشیم، و آنچه از پی می‌آید خاموشی است و سپس آرامش.\n\nحکایت‌های زندگی‌نامه‌ای تقریباً به‌یقین ساخته‌های دشمنانه‌اند — اینکه دوستانش باید او را از پیش گاری‌ها و پرتگاه‌ها کنار می‌کشیدند، اینکه وقتی استادش در گودالی افتاد پریشان نشد. نکته‌شان این است که شکاکِ سازگار نمی‌تواند از خیابان بگذرد، و مکتب بعدی این اعتراض را با تمایز میان تعلیقِ باور و تعلیقِ رفتار پاسخ داد: شکاک از نمودها و رسم پیروی می‌کند بی‌آنکه بپذیرد آن‌ها از چگونگیِ امور خبر می‌دهند.\n\nبا لشکر اسکندر به هند رفت و با کسانی دیدار کرد که یونانیان «حکیمان برهنه» می‌خواندندشان، و اینکه آیا آن تماس اندیشه‌اش را شکل داد یکی از وسوسه‌انگیزترین پرسش‌های بی‌پاسخ فلسفهٔ باستان است. شباهت‌ها با شکاکیت هندی و با گزارش‌های بودایی متقدم از تعلیق آرا واقعی‌اند؛ شاهدی بر علّی‌بودنشان نیست. آنچه یقینی است این است که آرامشی که وعده داد همان هدفی است که همهٔ مکاتب هلنیستی داشتند، و او از راه ردکردنِ آموزه‌هایی که آنان ساختند بدان رسید."
+            }
           }
         ]
       },
@@ -4534,6 +4574,14 @@
               { "source": "text-enneads", "locator": "Enneads V.2.1" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The One is not a being among beings, and Plotinus is stricter about this than most of his readers. It is not a thing that exists, because existence is already a determination and the source of all determination cannot be one of them; it is not even properly said to be one, since number applies to what can be counted. Every positive statement about it has to be withdrawn as soon as it is made, which is where negative theology in the West begins.\n\nEmanation is his answer to how a plural world comes from something without parts. The One does not decide or act, since deciding is a change and it does not change; it overflows the way a source overflows, without diminishing, and what overflows first is Intellect, which contains the Forms and knows itself, and from Intellect comes Soul, which touches matter. Each level is less unified than the one above and turns back toward it, and the turning back is what constitutes it.\n\nThe ethics follows from the structure. A person is Soul, and can move up the scale by contemplation, which is not an escape from the world so much as a recognition of where the world came from — Plotinus is not a dualist who despises matter, and he wrote against the Gnostics who did. Porphyry says he was ashamed of having a body, which is quoted more than the argument. The Latin West met him mostly through Augustine and the Arabic world through a paraphrase mistakenly attributed to Aristotle.",
+              "fa": "«واحد» موجودی در میان موجودات نیست، و فلوطین در این از بیشتر خوانندگانش سخت‌گیرتر است. چیزی نیست که وجود داشته باشد، چون وجود خود یک تعیّن است و سرچشمهٔ هر تعیّنی نمی‌تواند یکی از آن‌ها باشد؛ حتی به‌درستی نمی‌توان گفت «یک» است، چون عدد بر شمردنی‌ها صدق می‌کند. هر گزارهٔ ایجابی دربارهٔ آن باید همان دم که گفته می‌شود پس گرفته شود، و الهیات سلبی در غرب از همین‌جا آغاز می‌شود.\n\nصدور پاسخ او به این است که جهانِ کثیر چگونه از چیزی بی‌جزء می‌آید. واحد تصمیم نمی‌گیرد و عمل نمی‌کند، چون تصمیم دگرگونی است و او دگرگون نمی‌شود؛ سرریز می‌کند چنان‌که چشمه سرریز می‌کند، بی‌آنکه کم شود، و آنچه نخست سرریز می‌شود «عقل» است که صورت‌ها را در خود دارد و خود را می‌شناسد، و از عقل «نفس» می‌آید که ماده را لمس می‌کند. هر مرتبه از مرتبهٔ بالاتر کم‌یگانه‌تر است و رو به آن بازمی‌گردد، و همین بازگشتن است که قوامش می‌بخشد.\n\nاخلاق از همین ساختار برمی‌آید. آدمی نفس است و می‌تواند با تأمل بر این نردبان بالا رود، و این چندان گریز از جهان نیست که بازشناسیِ اینکه جهان از کجا آمده — فلوطین دوگانه‌انگاری نیست که ماده را خوار بدارد، و علیه گنوسی‌هایی نوشت که چنین می‌کردند. پورفوریوس می‌گوید از داشتنِ تن شرمنده بود، و این بیش از خودِ استدلال نقل می‌شود. غرب لاتین عمدتاً از راه آگوستین با او آشنا شد و جهان عربی از راه بازنویسی‌ای که به خطا به ارسطو نسبت داده شده بود."
+            }
           }
         ]
       },
@@ -4643,6 +4691,14 @@
               { "source": "text-de-natura-deorum", "locator": "III.95" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Cicero is usually filed as a transmitter rather than a philosopher, and the filing is unfair in a specific way. He was a member of the sceptical Academy, and its method was to argue every side of a question and endorse none, so a body of work that presents Stoic, Epicurean and Academic positions in dialogue without adjudicating is not an anthology — it is the doctrine being practised.\n\nThe practical achievement is enormous and easy to underrate. Latin had no philosophical vocabulary, and Cicero built one: qualitas, essentia, moralis, individuum and a hundred others are his coinages or his adaptations, and every subsequent philosopher writing in Latin, and then in the languages descended from it, thinks in words he chose. When Augustine says he was turned toward philosophy by a book of Cicero's, the influence is not only the exhortation but the terms available to describe it.\n\nHis own commitments show through the impartiality where it matters most. On Duties, written in the months after Caesar's death and addressed to his son, argues that nothing genuinely advantageous can be dishonourable, and that a state exists to protect property and agreements rather than to be the instrument of whoever holds it. He was proscribed and killed a year later. The book was among the first printed after Gutenberg's Bible and was standard schooling in Europe for fifteen hundred years.",
+              "fa": "سیسرون را معمولاً به‌جای فیلسوف، ناقل می‌شمارند، و این دسته‌بندی به شیوهٔ معینی ناعادلانه است. او عضو آکادمیِ شکاک بود، و روش آن این بود که هر سوی یک مسئله را استدلال کنی و هیچ‌یک را تأیید نکنی، پس پیکره‌ای از آثار که مواضع رواقی و اپیکوری و آکادمیک را در گفت‌وگو عرضه می‌کند بی‌آنکه داوری کند، گلچین نیست — همان آموزه است که به عمل درآمده.\n\nدستاورد عملی عظیم است و آسان دست‌کم گرفته می‌شود. لاتین واژگان فلسفی نداشت، و سیسرون یکی ساخت: qualitas و essentia و moralis و individuum و صدها واژهٔ دیگر ساخته یا برساختهٔ اویند، و هر فیلسوف بعدی که به لاتین نوشت، و سپس به زبان‌های برآمده از آن، با واژه‌هایی می‌اندیشد که او برگزید. وقتی آگوستین می‌گوید کتابی از سیسرون او را به‌سوی فلسفه چرخاند، آن تأثیر تنها آن ترغیب نیست بلکه اصطلاحاتی است که برای وصفش در دسترس بود.\n\nتعهدات خودش آنجا که بیش از همه اهمیت دارد از میان آن بی‌طرفی پیداست. «دربارهٔ وظایف»، که در ماه‌های پس از مرگ سزار و خطاب به پسرش نوشته شد، می‌گوید هیچ چیزِ به‌راستی سودمند نمی‌تواند ننگین باشد، و دولت برای پاسداری از مالکیت و پیمان‌هاست نه ابزارِ هرکه در دست داردش. یک سال بعد نامش در فهرست محکومان آمد و کشته شد. آن کتاب از نخستین کتاب‌هایی بود که پس از انجیل گوتنبرگ چاپ شد و پانزده قرن در اروپا درسِ استاندارد بود."
+            }
           }
         ]
       },
@@ -4780,6 +4836,14 @@
               { "source": "text-de-rerum-natura", "locator": "I.936-950" },
               { "source": "sep" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "On the Nature of Things sets Epicurean physics in hexameter verse, and Lucretius says why: the doctrine is bitter medicine and poetry is the honey round the cup. The strategy is deliberate and it worked — the poem is the fullest surviving account of a philosophy whose own prose has almost entirely perished.\n\nThe argument is that fear is the disease and physics is the cure. If what a person calls a soul is atoms that scatter at death, there is nothing left to be punished; if the gods are made of atoms too and live in the spaces between worlds, they do not superintend yours. He spends the third book on the mortality of the soul with a directness that has no parallel in ancient writing, and ends it with the symmetry argument: you were not distressed by the eternity before your birth, and the eternity after is the same absence.\n\nThe passages that startle a modern reader are the ones nobody asked him to write. He describes what amounts to a struggle for existence among early forms of life, atoms swerving unpredictably to leave room for choice, an account of language arising from need rather than from a lawgiver, and a plague at Athens that ends the poem without consolation. The manuscript was recovered in 1417 after being effectively lost for a thousand years, and its arrival is one of the better-documented cases of a single book changing what was thinkable.",
+              "fa": "«دربارهٔ طبیعت اشیا» طبیعیات اپیکوری را در وزن شش‌رکنی می‌نشاند، و لوکرتیوس می‌گوید چرا: این آموزه داروی تلخی است و شعر عسلی است که بر لبهٔ جام می‌مالند. این راهبرد عمدی بود و کار کرد — این شعر کامل‌ترین روایت بازمانده از فلسفه‌ای است که نثر خودش تقریباً یکسره از میان رفته.\n\nاستدلال این است که ترس بیماری است و طبیعیات درمان. اگر آنچه کسی نفس می‌نامد اتم‌هایی است که در مرگ پراکنده می‌شوند، چیزی نمی‌ماند که کیفر ببیند؛ اگر خدایان هم از اتم‌اند و در فاصله‌های میان جهان‌ها می‌زیند، بر جهان تو نظارت نمی‌کنند. دفتر سوم را با صراحتی به میرایی نفس می‌پردازد که در نوشتار باستانی همتا ندارد، و با استدلال تقارن پایانش می‌دهد: ازلیتِ پیش از تولدت آزارت نداد، و ازلیتِ پس از آن همان غیاب است.\n\nبندهایی که خوانندهٔ امروزی را یکه می‌کنند همان‌هایی‌اند که کسی از او نخواسته بود بنویسد. چیزی را وصف می‌کند که به تنازع بقا میان صورت‌های نخستین زندگی می‌ماند، اتم‌هایی که پیش‌بینی‌ناپذیر منحرف می‌شوند تا جا برای انتخاب بماند، روایتی از پیدایش زبان از نیاز نه از قانون‌گذار، و طاعونی در آتن که شعر را بی‌هیچ تسلی‌ای پایان می‌دهد. دست‌نوشته در ۱۴۱۷ بازیافته شد پس از آنکه هزار سال عملاً گم بود، و رسیدنش یکی از مستندترین نمونه‌های آن است که یک کتاب چه چیزهایی را اندیشیدنی کرده."
+            }
           }
         ]
       },
