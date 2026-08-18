@@ -218,6 +218,56 @@ void main() {
     });
   });
 
+  group('A reading column', () {
+    testWidgets('holds the measure whatever is in it', (tester) async {
+      // ReadingColumn centres its child inside a maximum width, and the child
+      // was free to be narrower than that maximum — so the column's width, and
+      // therefore its left edge, followed whatever happened to be in it. In a
+      // real browser the library's heading sat 260 pixels further right when
+      // the only thing saved was a two-character highlight than when a saved
+      // entry was there too, which reads as a page that failed to lay out.
+      const desktop = Size(1280, 900);
+      tester.view.physicalSize = desktop;
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.reset);
+
+      Future<double> leftEdgeOf(String text) async {
+        await tester.pumpWidget(
+          MaterialApp(
+            home: Scaffold(
+              body: ListView(
+                children: <Widget>[
+                  ReadingColumn(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[Text(text)],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        );
+        await tester.pumpAndSettle();
+        return tester.getRect(find.text(text)).left;
+      }
+
+      final short = await leftEdgeOf('re');
+      final long = await leftEdgeOf(
+        'a line long enough to reach the whole reading measure on a desktop '
+        'window, which is what the column is supposed to be',
+      );
+
+      expect(
+        short,
+        long,
+        reason:
+            'a short child starts at $short and a long one at $long, so the '
+            'column is sized by its content instead of by the measure',
+      );
+    });
+  });
+
   group('An empty state', () {
     testWidgets('is centred, not pinned to the left edge', (tester) async {
       // An empty state is the whole screen. A short heading against the left

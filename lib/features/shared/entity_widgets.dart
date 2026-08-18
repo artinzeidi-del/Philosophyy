@@ -1205,11 +1205,17 @@ class ReadingColumn extends StatelessWidget {
     alignment: alignToStart
         ? AlignmentDirectional.topStart
         : Alignment.topCenter,
+    // `width: infinity` under a maxWidth constraint means "the measure, or the
+    // window if the window is narrower" — not "as wide as the content happens
+    // to be". Without it the column shrink-wraps, and a centred column that
+    // shrink-wraps moves: the library's heading sat 260 pixels further right
+    // when the only thing in it was a two-character highlight than when it
+    // held a saved entry.
     child: ConstrainedBox(
       constraints: BoxConstraints(
         maxWidth: maxWidth ?? Breakpoints.readingMeasure,
       ),
-      child: child,
+      child: SizedBox(width: double.infinity, child: child),
     ),
   );
 }
