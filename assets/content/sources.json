@@ -6,49 +6,56 @@
       "kind": "primary-text",
       "title": { "en": "Republic", "fa": "جمهوری" },
       "authors": ["Plato"],
-      "rightsNote": "Cited by Stephanus number, which is stable across all editions and translations."
+      "rightsNote": "Cited by Stephanus number, which is stable across all editions and translations.",
+      "authorsFa": ["افلاطون"]
     },
     {
       "id": "plato-apology",
       "kind": "primary-text",
       "title": { "en": "Apology", "fa": "آپولوژی (دفاعیهٔ سقراط)" },
       "authors": ["Plato"],
-      "rightsNote": "Cited by Stephanus number."
+      "rightsNote": "Cited by Stephanus number.",
+      "authorsFa": ["افلاطون"]
     },
     {
       "id": "plato-meno",
       "kind": "primary-text",
       "title": { "en": "Meno", "fa": "منون" },
       "authors": ["Plato"],
-      "rightsNote": "Cited by Stephanus number."
+      "rightsNote": "Cited by Stephanus number.",
+      "authorsFa": ["افلاطون"]
     },
     {
       "id": "aristotle-nicomachean-ethics",
       "kind": "primary-text",
       "title": { "en": "Nicomachean Ethics", "fa": "اخلاق نیکوماخوس" },
       "authors": ["Aristotle"],
-      "rightsNote": "Cited by Bekker number, which is stable across all editions and translations."
+      "rightsNote": "Cited by Bekker number, which is stable across all editions and translations.",
+      "authorsFa": ["ارسطو"]
     },
     {
       "id": "aristotle-metaphysics",
       "kind": "primary-text",
       "title": { "en": "Metaphysics", "fa": "متافیزیک" },
       "authors": ["Aristotle"],
-      "rightsNote": "Cited by Bekker number."
+      "rightsNote": "Cited by Bekker number.",
+      "authorsFa": ["ارسطو"]
     },
     {
       "id": "epictetus-enchiridion",
       "kind": "primary-text",
       "title": { "en": "Enchiridion", "fa": "انکیریدیون (دستنامه)" },
       "authors": ["Epictetus"],
-      "rightsNote": "Compiled by Arrian from Epictetus' teaching; Epictetus wrote nothing himself. Cited by chapter."
+      "rightsNote": "Compiled by Arrian from Epictetus' teaching; Epictetus wrote nothing himself. Cited by chapter.",
+      "authorsFa": ["اپیکتتوس"]
     },
     {
       "id": "epictetus-discourses",
       "kind": "primary-text",
       "title": { "en": "Discourses", "fa": "گفتارها" },
       "authors": ["Epictetus"],
-      "rightsNote": "Recorded by Arrian. Cited by book and chapter."
+      "rightsNote": "Recorded by Arrian. Cited by book and chapter.",
+      "authorsFa": ["اپیکتتوس"]
     },
     {
       "id": "avicenna-isharat",
@@ -59,14 +66,16 @@
         "ar": "الإشارات والتنبيهات"
       },
       "authors": ["Ibn Sīnā"],
-      "rightsNote": "Avicenna's late summation of his logic, physics and metaphysics."
+      "rightsNote": "Avicenna's late summation of his logic, physics and metaphysics.",
+      "authorsFa": ["ابن‌سینا"]
     },
     {
       "id": "avicenna-shifa",
       "kind": "primary-text",
       "title": { "en": "The Book of Healing", "fa": "شفا", "ar": "الشفاء" },
       "authors": ["Ibn Sīnā"],
-      "rightsNote": "Avicenna's philosophical encyclopedia, covering logic, natural science, mathematics and metaphysics."
+      "rightsNote": "Avicenna's philosophical encyclopedia, covering logic, natural science, mathematics and metaphysics.",
+      "authorsFa": ["ابن‌سینا"]
     },
     {
       "id": "ghazali-tahafut",
@@ -77,14 +86,16 @@
         "ar": "تهافت الفلاسفة"
       },
       "authors": ["Abū Ḥāmid al-Ghazālī"],
-      "rightsNote": "Al-Ghazālī's critique of twenty theses held by the Islamic Aristotelians, chiefly Avicenna and al-Fārābī."
+      "rightsNote": "Al-Ghazālī's critique of twenty theses held by the Islamic Aristotelians, chiefly Avicenna and al-Fārābī.",
+      "authorsFa": ["غزالی"]
     },
     {
       "id": "ghazali-munqidh",
       "kind": "primary-text",
       "title": { "en": "Deliverance from Error", "fa": "المنقذ من الضلال" },
       "authors": ["Abū Ḥāmid al-Ghazālī"],
-      "rightsNote": "Al-Ghazālī's autobiographical account of his sceptical crisis and its resolution."
+      "rightsNote": "Al-Ghazālī's autobiographical account of his sceptical crisis and its resolution.",
+      "authorsFa": ["غزالی"]
     },
     {
       "id": "sadra-asfar",
@@ -95,14 +106,16 @@
         "ar": "الحكمة المتعالية في الأسفار العقلية الأربعة"
       },
       "authors": ["Mullā Ṣadrā"],
-      "rightsNote": "The principal work of the school of Transcendent Wisdom."
+      "rightsNote": "The principal work of the school of Transcendent Wisdom.",
+      "authorsFa": ["ملاصدرا"]
     },
     {
       "id": "confucius-analects",
       "kind": "primary-text",
       "title": { "en": "Analects", "fa": "مکالمات (لون‌یو)" },
       "authors": ["Confucius (attributed)"],
-      "rightsNote": "Compiled by later followers over an extended period rather than written by Confucius. Cited by book and passage."
+      "rightsNote": "Compiled by later followers over an extended period rather than written by Confucius. Cited by book and passage.",
+      "authorsFa": ["منسوب به کنفوسیوس"]
     },
     {
       "id": "nagarjuna-mmk",
@@ -112,7 +125,8 @@
         "fa": "ریشه‌های راه میانه"
       },
       "authors": ["Nāgārjuna"],
-      "rightsNote": "Sanskrit title: Mūlamadhyamakakārikā. Cited by chapter and verse."
+      "rightsNote": "Sanskrit title: Mūlamadhyamakakārikā. Cited by chapter and verse.",
+      "authorsFa": ["ناگارجونا"]
     },
     {
       "id": "descartes-meditations",
@@ -122,21 +136,24 @@
         "fa": "تأملات در فلسفهٔ اولی"
       },
       "authors": ["René Descartes"],
-      "rightsNote": "Cited by Meditation number."
+      "rightsNote": "Cited by Meditation number.",
+      "authorsFa": ["رنه دکارت"]
     },
     {
       "id": "descartes-discourse",
       "kind": "primary-text",
       "title": { "en": "Discourse on the Method", "fa": "گفتار در روش" },
       "authors": ["René Descartes"],
-      "rightsNote": "Cited by part."
+      "rightsNote": "Cited by part.",
+      "authorsFa": ["رنه دکارت"]
     },
     {
       "id": "kant-critique-pure-reason",
       "kind": "primary-text",
       "title": { "en": "Critique of Pure Reason", "fa": "سنجش خرد ناب" },
       "authors": ["Immanuel Kant"],
-      "rightsNote": "Cited by the A (1781) and B (1787) pagination, which every scholarly edition reproduces in the margin."
+      "rightsNote": "Cited by the A (1781) and B (1787) pagination, which every scholarly edition reproduces in the margin.",
+      "authorsFa": ["ایمانوئل کانت"]
     },
     {
       "id": "kant-groundwork",
@@ -146,28 +163,32 @@
         "fa": "بنیاد مابعدالطبیعهٔ اخلاق"
       },
       "authors": ["Immanuel Kant"],
-      "rightsNote": "Cited by the Academy edition pagination."
+      "rightsNote": "Cited by the Academy edition pagination.",
+      "authorsFa": ["ایمانوئل کانت"]
     },
     {
       "id": "nietzsche-gay-science",
       "kind": "primary-text",
       "title": { "en": "The Gay Science", "fa": "حکمت شادان" },
       "authors": ["Friedrich Nietzsche"],
-      "rightsNote": "German title: Die fröhliche Wissenschaft. Cited by section number."
+      "rightsNote": "German title: Die fröhliche Wissenschaft. Cited by section number.",
+      "authorsFa": ["فریدریش نیچه"]
     },
     {
       "id": "beauvoir-second-sex",
       "kind": "primary-text",
       "title": { "en": "The Second Sex", "fa": "جنس دوم" },
       "authors": ["Simone de Beauvoir"],
-      "rightsNote": "French title: Le Deuxième Sexe."
+      "rightsNote": "French title: Le Deuxième Sexe.",
+      "authorsFa": ["سیمون دوبووار"]
     },
     {
       "id": "dubois-souls",
       "kind": "primary-text",
       "title": { "en": "The Souls of Black Folk", "fa": "جان‌های سیاهان" },
       "authors": ["W. E. B. Du Bois"],
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["دبلیو. ای. بی. دوبویز"]
     },
     {
       "id": "sep",
@@ -205,31 +226,36 @@
       "id": "text-daodejing",
       "kind": "primary-text",
       "title": { "en": "Daodejing", "fa": "دائو ده جینگ" },
-      "authors": ["Laozi"]
+      "authors": ["Laozi"],
+      "authorsFa": ["لائوتزه"]
     },
     {
       "id": "text-zhuangzi-book",
       "kind": "primary-text",
       "title": { "en": "Zhuangzi", "fa": "جوانگ‌دزه" },
-      "authors": ["Zhuangzi"]
+      "authors": ["Zhuangzi"],
+      "authorsFa": ["جوانگ‌تزه"]
     },
     {
       "id": "text-mengzi",
       "kind": "primary-text",
       "title": { "en": "Mencius", "fa": "منسیوس" },
-      "authors": ["Mencius"]
+      "authors": ["Mencius"],
+      "authorsFa": ["منسیوس"]
     },
     {
       "id": "text-xunzi-book",
       "kind": "primary-text",
       "title": { "en": "Xunzi", "fa": "شون‌دزه" },
-      "authors": ["Xunzi"]
+      "authors": ["Xunzi"],
+      "authorsFa": ["شون‌تزه"]
     },
     {
       "id": "text-hanfeizi-book",
       "kind": "primary-text",
       "title": { "en": "Han Feizi", "fa": "هان فی‌دزه" },
-      "authors": ["Han Feizi"]
+      "authors": ["Han Feizi"],
+      "authorsFa": ["هان فی‌تزه"]
     },
     {
       "id": "text-chuanxilu",
@@ -238,7 +264,8 @@
         "en": "Instructions for Practical Living",
         "fa": "آموزه‌های زندگی عملی"
       },
-      "authors": ["Wang Yangming"]
+      "authors": ["Wang Yangming"],
+      "authorsFa": ["وانگ یانگ‌مینگ"]
     },
     {
       "id": "text-brahma-sutra-bhasya",
@@ -247,19 +274,22 @@
         "en": "Commentary on the Brahma Sūtras",
         "fa": "شرح برهمه‌سوتره"
       },
-      "authors": ["Śaṅkara"]
+      "authors": ["Śaṅkara"],
+      "authorsFa": ["شنکره"]
     },
     {
       "id": "text-sri-bhasya",
       "kind": "primary-text",
       "title": { "en": "Śrī Bhāṣya", "fa": "شری‌بهاشیه" },
-      "authors": ["Rāmānuja"]
+      "authors": ["Rāmānuja"],
+      "authorsFa": ["رامانوجه"]
     },
     {
       "id": "text-vimsatika",
       "kind": "primary-text",
       "title": { "en": "Twenty Verses", "fa": "بیست بیت" },
-      "authors": ["Vasubandhu"]
+      "authors": ["Vasubandhu"],
+      "authorsFa": ["واسوباندو"]
     },
     {
       "id": "text-pramanasamuccaya",
@@ -268,19 +298,22 @@
         "en": "Compendium of Valid Cognition",
         "fa": "مجموعهٔ معرفت معتبر"
       },
-      "authors": ["Dignāga"]
+      "authors": ["Dignāga"],
+      "authorsFa": ["دیگناگه"]
     },
     {
       "id": "text-shobogenzo",
       "kind": "primary-text",
       "title": { "en": "Shōbōgenzō", "fa": "شوبوگنزو" },
-      "authors": ["Dōgen"]
+      "authors": ["Dōgen"],
+      "authorsFa": ["دوگن"]
     },
     {
       "id": "text-inquiry-into-the-good",
       "kind": "primary-text",
       "title": { "en": "An Inquiry into the Good", "fa": "پژوهشی در باب خیر" },
-      "authors": ["Nishida Kitarō"]
+      "authors": ["Nishida Kitarō"],
+      "authorsFa": ["نیشیدا کیتارو"]
     },
     {
       "id": "text-lamrim-chenmo",
@@ -289,67 +322,78 @@
         "en": "The Great Treatise on the Stages of the Path",
         "fa": "رسالهٔ بزرگ مراحل راه"
       },
-      "authors": ["Tsongkhapa"]
+      "authors": ["Tsongkhapa"],
+      "authorsFa": ["تسونگ‌کاپا"]
     },
     {
       "id": "text-guide-for-the-perplexed",
       "kind": "primary-text",
       "title": { "en": "The Guide for the Perplexed", "fa": "راهنمای سرگشتگان" },
-      "authors": ["Maimonides"]
+      "authors": ["Maimonides"],
+      "authorsFa": ["ابن میمون"]
     },
     {
       "id": "text-confessions",
       "kind": "primary-text",
       "title": { "en": "Confessions", "fa": "اعترافات" },
-      "authors": ["Augustine of Hippo"]
+      "authors": ["Augustine of Hippo"],
+      "authorsFa": ["آگوستین"]
     },
     {
       "id": "text-city-of-god",
       "kind": "primary-text",
       "title": { "en": "The City of God", "fa": "شهر خدا" },
-      "authors": ["Augustine of Hippo"]
+      "authors": ["Augustine of Hippo"],
+      "authorsFa": ["آگوستین"]
     },
     {
       "id": "text-summa-theologiae",
       "kind": "primary-text",
       "title": { "en": "Summa Theologiae", "fa": "خلاصهٔ الهیات" },
-      "authors": ["Thomas Aquinas"]
+      "authors": ["Thomas Aquinas"],
+      "authorsFa": ["توماس آکوئیناس"]
     },
     {
       "id": "text-proslogion",
       "kind": "primary-text",
       "title": { "en": "Proslogion", "fa": "پروسلوگیون" },
-      "authors": ["Anselm of Canterbury"]
+      "authors": ["Anselm of Canterbury"],
+      "authorsFa": ["آنسلم"]
     },
     {
       "id": "text-summa-logicae",
       "kind": "primary-text",
       "title": { "en": "Summa Logicae", "fa": "خلاصهٔ منطق" },
-      "authors": ["William of Ockham"]
+      "authors": ["William of Ockham"],
+      "authorsFa": ["اکام"]
     },
     {
       "id": "text-the-prince",
       "kind": "primary-text",
       "title": { "en": "The Prince", "fa": "شهریار" },
-      "authors": ["Niccolò Machiavelli"]
+      "authors": ["Niccolò Machiavelli"],
+      "authorsFa": ["ماکیاولی"]
     },
     {
       "id": "text-essays-montaigne",
       "kind": "primary-text",
       "title": { "en": "Essays", "fa": "مقالات" },
-      "authors": ["Michel de Montaigne"]
+      "authors": ["Michel de Montaigne"],
+      "authorsFa": ["مونتنی"]
     },
     {
       "id": "text-ethics-spinoza",
       "kind": "primary-text",
       "title": { "en": "Ethics", "fa": "اخلاق" },
-      "authors": ["Baruch Spinoza"]
+      "authors": ["Baruch Spinoza"],
+      "authorsFa": ["اسپینوزا"]
     },
     {
       "id": "text-begriffsschrift",
       "kind": "primary-text",
       "title": { "en": "Begriffsschrift", "fa": "مفهوم‌نگاشت" },
-      "authors": ["Gottlob Frege"]
+      "authors": ["Gottlob Frege"],
+      "authorsFa": ["فرگه"]
     },
     {
       "id": "text-tractatus",
@@ -358,25 +402,29 @@
         "en": "Tractatus Logico-Philosophicus",
         "fa": "رسالهٔ منطقی–فلسفی"
       },
-      "authors": ["Ludwig Wittgenstein"]
+      "authors": ["Ludwig Wittgenstein"],
+      "authorsFa": ["ویتگنشتاین"]
     },
     {
       "id": "text-philosophical-investigations",
       "kind": "primary-text",
       "title": { "en": "Philosophical Investigations", "fa": "پژوهش‌های فلسفی" },
-      "authors": ["Ludwig Wittgenstein"]
+      "authors": ["Ludwig Wittgenstein"],
+      "authorsFa": ["ویتگنشتاین"]
     },
     {
       "id": "text-being-and-time",
       "kind": "primary-text",
       "title": { "en": "Being and Time", "fa": "هستی و زمان" },
-      "authors": ["Martin Heidegger"]
+      "authors": ["Martin Heidegger"],
+      "authorsFa": ["هایدگر"]
     },
     {
       "id": "text-being-and-nothingness",
       "kind": "primary-text",
       "title": { "en": "Being and Nothingness", "fa": "هستی و نیستی" },
-      "authors": ["Jean-Paul Sartre"]
+      "authors": ["Jean-Paul Sartre"],
+      "authorsFa": ["سارتر"]
     },
     {
       "id": "text-phenomenology-of-perception",
@@ -385,19 +433,22 @@
         "en": "Phenomenology of Perception",
         "fa": "پدیدارشناسی ادراک"
       },
-      "authors": ["Maurice Merleau-Ponty"]
+      "authors": ["Maurice Merleau-Ponty"],
+      "authorsFa": ["مرلوپونتی"]
     },
     {
       "id": "text-discipline-and-punish",
       "kind": "primary-text",
       "title": { "en": "Discipline and Punish", "fa": "مراقبت و تنبیه" },
-      "authors": ["Michel Foucault"]
+      "authors": ["Michel Foucault"],
+      "authorsFa": ["فوکو"]
     },
     {
       "id": "text-hatata",
       "kind": "primary-text",
       "title": { "en": "The Hatata", "fa": "حَتَتَه" },
-      "authors": ["Zera Yacob"]
+      "authors": ["Zera Yacob"],
+      "authorsFa": ["زرا یعقوب"]
     },
     {
       "id": "text-black-skin-white-masks",
@@ -406,13 +457,15 @@
         "en": "Black Skin, White Masks",
         "fa": "پوست سیاه، صورتک‌های سفید"
       },
-      "authors": ["Frantz Fanon"]
+      "authors": ["Frantz Fanon"],
+      "authorsFa": ["فرانتس فانون"]
     },
     {
       "id": "text-wretched-of-the-earth",
       "kind": "primary-text",
       "title": { "en": "The Wretched of the Earth", "fa": "دوزخیان روی زمین" },
-      "authors": ["Frantz Fanon"]
+      "authors": ["Frantz Fanon"],
+      "authorsFa": ["فرانتس فانون"]
     },
     {
       "id": "text-respuesta",
@@ -421,14 +474,16 @@
         "en": "Reply to Sister Filotea",
         "fa": "پاسخ به خواهر فیلوته‌آ"
       },
-      "authors": ["Sor Juana Inés de la Cruz"]
+      "authors": ["Sor Juana Inés de la Cruz"],
+      "authorsFa": ["سور خوانا"]
     },
     {
       "id": "text-heraclitus-fragments",
       "kind": "scholarly-edition",
       "title": { "en": "Fragments", "fa": "پاره‌ها" },
       "authors": ["Heraclitus"],
-      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books.",
+      "authorsFa": ["هراکلیتوس"]
     },
     {
       "id": "text-parmenides-poem",
@@ -438,14 +493,16 @@
         "fa": "دربارهٔ طبیعت (پاره‌ها)"
       },
       "authors": ["Parmenides"],
-      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books.",
+      "authorsFa": ["پارمنیدس"]
     },
     {
       "id": "text-democritus-fragments",
       "kind": "scholarly-edition",
       "title": { "en": "Fragments", "fa": "پاره‌ها" },
       "authors": ["Democritus"],
-      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books.",
+      "authorsFa": ["دموکریتوس"]
     },
     {
       "id": "text-empedocles-fragments",
@@ -455,35 +512,40 @@
         "fa": "دربارهٔ طبیعت و تطهیرها (پاره‌ها)"
       },
       "authors": ["Empedocles"],
-      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books.",
+      "authorsFa": ["امپدوکلس"]
     },
     {
       "id": "text-anaxagoras-fragments",
       "kind": "scholarly-edition",
       "title": { "en": "Fragments", "fa": "پاره‌ها" },
       "authors": ["Anaxagoras"],
-      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books."
+      "rightsNote": "Cited by Diels-Kranz number, the standard scheme for the Presocratic fragments; the fragments survive only as quotations inside later authors' books.",
+      "authorsFa": ["آناکساگوراس"]
     },
     {
       "id": "text-aristotle-physics",
       "kind": "primary-text",
       "title": { "en": "Physics", "fa": "طبیعیات" },
       "authors": ["Aristotle"],
-      "rightsNote": "Cited by Bekker number, which is stable across all editions."
+      "rightsNote": "Cited by Bekker number, which is stable across all editions.",
+      "authorsFa": ["ارسطو"]
     },
     {
       "id": "text-theaetetus",
       "kind": "primary-text",
       "title": { "en": "Theaetetus", "fa": "تئای‌تتوس" },
       "authors": ["Plato"],
-      "rightsNote": "Cited by Stephanus number."
+      "rightsNote": "Cited by Stephanus number.",
+      "authorsFa": ["افلاطون"]
     },
     {
       "id": "text-encomium-of-helen",
       "kind": "primary-text",
       "title": { "en": "Encomium of Helen", "fa": "ستایش هلن" },
       "authors": ["Gorgias"],
-      "rightsNote": "Cited by the section numbers of the standard text."
+      "rightsNote": "Cited by the section numbers of the standard text.",
+      "authorsFa": ["گرگیاس"]
     },
     {
       "id": "text-lives-of-eminent-philosophers",
@@ -493,21 +555,24 @@
         "fa": "زندگی فیلسوفان نامدار"
       },
       "authors": ["Diogenes Laertius"],
-      "rightsNote": "Compiled in the third century CE, centuries after most of the philosophers it reports; cited by book and section."
+      "rightsNote": "Compiled in the third century CE, centuries after most of the philosophers it reports; cited by book and section.",
+      "authorsFa": ["دیوگنس لائرتیوس"]
     },
     {
       "id": "text-letter-to-menoeceus",
       "kind": "primary-text",
       "title": { "en": "Letter to Menoeceus", "fa": "نامه به منویکئوس" },
       "authors": ["Epicurus"],
-      "rightsNote": "Preserved complete inside Diogenes Laertius, Book X; cited by the section numbers of that text."
+      "rightsNote": "Preserved complete inside Diogenes Laertius, Book X; cited by the section numbers of that text.",
+      "authorsFa": ["اپیکور"]
     },
     {
       "id": "text-principal-doctrines",
       "kind": "primary-text",
       "title": { "en": "Principal Doctrines", "fa": "آموزه‌های اصلی" },
       "authors": ["Epicurus"],
-      "rightsNote": "Forty numbered maxims; cited by number."
+      "rightsNote": "Forty numbered maxims; cited by number.",
+      "authorsFa": ["اپیکور"]
     },
     {
       "id": "text-svf",
@@ -517,28 +582,32 @@
         "fa": "پاره‌های رواقیان کهن"
       },
       "authors": ["Hans von Arnim (ed.)"],
-      "rightsNote": "A modern collection of early Stoic fragments gathered from quotations in other authors; cited by volume and fragment number. No early Stoic treatise survives whole."
+      "rightsNote": "A modern collection of early Stoic fragments gathered from quotations in other authors; cited by volume and fragment number. No early Stoic treatise survives whole.",
+      "authorsFa": ["هانس فون آرنیم (ویراستار)"]
     },
     {
       "id": "text-outlines-of-pyrrhonism",
       "kind": "primary-text",
       "title": { "en": "Outlines of Pyrrhonism", "fa": "طرح‌های پورونی" },
       "authors": ["Sextus Empiricus"],
-      "rightsNote": "Cited as PH by book and section."
+      "rightsNote": "Cited as PH by book and section.",
+      "authorsFa": ["سکستوس امپیریکوس"]
     },
     {
       "id": "text-praeparatio-evangelica",
       "kind": "primary-text",
       "title": { "en": "Preparation for the Gospel", "fa": "آمادگی برای انجیل" },
       "authors": ["Eusebius of Caesarea"],
-      "rightsNote": "Cited here only as the container that preserves Aristocles' summary of Pyrrho, which is itself second-hand."
+      "rightsNote": "Cited here only as the container that preserves Aristocles' summary of Pyrrho, which is itself second-hand.",
+      "authorsFa": ["اوسبیوس قیصریه‌ای"]
     },
     {
       "id": "text-enneads",
       "kind": "primary-text",
       "title": { "en": "Enneads", "fa": "انئادها" },
       "authors": ["Plotinus"],
-      "rightsNote": "Arranged and published by Porphyry; cited by ennead, tractate and chapter."
+      "rightsNote": "Arranged and published by Porphyry; cited by ennead, tractate and chapter.",
+      "authorsFa": ["افلوطین"]
     },
     {
       "id": "text-de-natura-deorum",
@@ -548,7 +617,8 @@
         "fa": "دربارهٔ سرشت خدایان"
       },
       "authors": ["Cicero"],
-      "rightsNote": "Cited by book and section."
+      "rightsNote": "Cited by book and section.",
+      "authorsFa": ["سیسرون"]
     },
     {
       "id": "text-letters-to-lucilius",
@@ -558,28 +628,32 @@
         "fa": "نامه‌های اخلاقی به لوکیلیوس"
       },
       "authors": ["Seneca"],
-      "rightsNote": "Cited by letter number."
+      "rightsNote": "Cited by letter number.",
+      "authorsFa": ["سنکا"]
     },
     {
       "id": "text-meditations",
       "kind": "primary-text",
       "title": { "en": "Meditations", "fa": "تأملات" },
       "authors": ["Marcus Aurelius"],
-      "rightsNote": "Private notebooks, untitled by their author; cited by book and section."
+      "rightsNote": "Private notebooks, untitled by their author; cited by book and section.",
+      "authorsFa": ["مارکوس اورلیوس"]
     },
     {
       "id": "text-de-rerum-natura",
       "kind": "primary-text",
       "title": { "en": "On the Nature of Things", "fa": "دربارهٔ سرشت چیزها" },
       "authors": ["Lucretius"],
-      "rightsNote": "Cited by book and line number."
+      "rightsNote": "Cited by book and line number.",
+      "authorsFa": ["لوکرتیوس"]
     },
     {
       "id": "text-consolation-of-philosophy",
       "kind": "primary-text",
       "title": { "en": "The Consolation of Philosophy", "fa": "تسلای فلسفه" },
       "authors": ["Boethius"],
-      "rightsNote": "Cited by book and by prose or metre section."
+      "rightsNote": "Cited by book and by prose or metre section.",
+      "authorsFa": ["بوئتیوس"]
     },
     {
       "id": "text-de-aeternitate-mundi",
@@ -588,7 +662,8 @@
         "en": "Against Proclus on the Eternity of the World",
         "fa": "در رد پروکلوس دربارهٔ ازلیت جهان"
       },
-      "authors": ["John Philoponus"]
+      "authors": ["John Philoponus"],
+      "authorsFa": ["یوحنای نحوی"]
     },
     {
       "id": "text-philoponus-physics-commentary",
@@ -598,7 +673,8 @@
         "fa": "شرح طبیعیات ارسطو"
       },
       "authors": ["John Philoponus"],
-      "rightsNote": "Cited by the page and line numbers of the Berlin edition of the Greek commentators, the standard reference for that corpus."
+      "rightsNote": "Cited by the page and line numbers of the Berlin edition of the Greek commentators, the standard reference for that corpus.",
+      "authorsFa": ["یوحنای نحوی"]
     },
     {
       "id": "text-problems-of-philosophy",
@@ -606,7 +682,8 @@
       "title": { "en": "The Problems of Philosophy", "fa": "مسائل فلسفه" },
       "authors": ["Bertrand Russell"],
       "year": { "year": 1912 },
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["برتراند راسل"]
     },
     {
       "id": "text-on-denoting",
@@ -614,7 +691,8 @@
       "title": { "en": "On Denoting", "fa": "دربارهٔ دلالت" },
       "authors": ["Bertrand Russell"],
       "publisher": "Mind",
-      "year": { "year": 1905 }
+      "year": { "year": 1905 },
+      "authorsFa": ["برتراند راسل"]
     },
     {
       "id": "text-ideas-i",
@@ -625,14 +703,16 @@
       },
       "authors": ["Edmund Husserl"],
       "year": { "year": 1913 },
-      "rightsNote": "Cited by section (§), as the text itself is numbered."
+      "rightsNote": "Cited by section (§), as the text itself is numbered.",
+      "authorsFa": ["هوسرل"]
     },
     {
       "id": "text-logical-investigations",
       "kind": "primary-text",
       "title": { "en": "Logical Investigations", "fa": "پژوهش‌های منطقی" },
       "authors": ["Edmund Husserl"],
-      "rightsNote": "Cited by investigation and section."
+      "rightsNote": "Cited by investigation and section.",
+      "authorsFa": ["هوسرل"]
     },
     {
       "id": "text-how-to-make-our-ideas-clear",
@@ -643,7 +723,8 @@
       },
       "authors": ["Charles Sanders Peirce"],
       "publisher": "Popular Science Monthly",
-      "year": { "year": 1878 }
+      "year": { "year": 1878 },
+      "authorsFa": ["پرس"]
     },
     {
       "id": "text-fixation-of-belief",
@@ -651,7 +732,8 @@
       "title": { "en": "The Fixation of Belief", "fa": "تثبیت باور" },
       "authors": ["Charles Sanders Peirce"],
       "publisher": "Popular Science Monthly",
-      "year": { "year": 1877 }
+      "year": { "year": 1877 },
+      "authorsFa": ["پرس"]
     },
     {
       "id": "text-pragmatism-james",
@@ -662,7 +744,8 @@
       },
       "authors": ["William James"],
       "year": { "year": 1907 },
-      "rightsNote": "Cited by lecture."
+      "rightsNote": "Cited by lecture.",
+      "authorsFa": ["ویلیام جیمز"]
     },
     {
       "id": "text-varieties-of-religious-experience",
@@ -673,7 +756,8 @@
       },
       "authors": ["William James"],
       "year": { "year": 1902 },
-      "rightsNote": "Cited by lecture."
+      "rightsNote": "Cited by lecture.",
+      "authorsFa": ["ویلیام جیمز"]
     },
     {
       "id": "text-quest-for-certainty",
@@ -681,7 +765,8 @@
       "title": { "en": "The Quest for Certainty", "fa": "جست‌وجوی یقین" },
       "authors": ["John Dewey"],
       "year": { "year": 1929 },
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["جان دیویی"]
     },
     {
       "id": "text-democracy-and-education",
@@ -689,14 +774,16 @@
       "title": { "en": "Democracy and Education", "fa": "دموکراسی و آموزش" },
       "authors": ["John Dewey"],
       "year": { "year": 1916 },
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["جان دیویی"]
     },
     {
       "id": "text-phaedo",
       "kind": "primary-text",
       "title": { "en": "Phaedo", "fa": "فایدون" },
       "authors": ["Plato"],
-      "rightsNote": "Cited by Stephanus number."
+      "rightsNote": "Cited by Stephanus number.",
+      "authorsFa": ["افلاطون"]
     },
     {
       "id": "text-fi-al-falsafa-al-ula",
@@ -707,7 +794,8 @@
         "ar": "في الفلسفة الأولى"
       },
       "authors": ["al-Kindi"],
-      "rightsNote": "Survives incomplete; only the first of its four parts is known."
+      "rightsNote": "Survives incomplete; only the first of its four parts is known.",
+      "authorsFa": ["الکندی"]
     },
     {
       "id": "text-madina-fadila",
@@ -717,7 +805,8 @@
         "fa": "آرای اهل مدینهٔ فاضله",
         "ar": "مبادئ آراء أهل المدينة الفاضلة"
       },
-      "authors": ["al-Farabi"]
+      "authors": ["al-Farabi"],
+      "authorsFa": ["فارابی"]
     },
     {
       "id": "text-kitab-al-huruf",
@@ -727,7 +816,8 @@
         "fa": "کتاب الحروف",
         "ar": "كتاب الحروف"
       },
-      "authors": ["al-Farabi"]
+      "authors": ["al-Farabi"],
+      "authorsFa": ["فارابی"]
     },
     {
       "id": "text-fasl-al-maqal",
@@ -737,7 +827,8 @@
         "fa": "فصل المقال",
         "ar": "فصل المقال"
       },
-      "authors": ["Ibn Rushd"]
+      "authors": ["Ibn Rushd"],
+      "authorsFa": ["ابن‌رشد"]
     },
     {
       "id": "text-tahafut-al-tahafut",
@@ -748,7 +839,8 @@
         "ar": "تهافت التهافت"
       },
       "authors": ["Ibn Rushd"],
-      "rightsNote": "Quotes al-Ghazali's Tahafut in full before answering it passage by passage, which is why both texts survive together."
+      "rightsNote": "Quotes al-Ghazali's Tahafut in full before answering it passage by passage, which is why both texts survive together.",
+      "authorsFa": ["ابن‌رشد"]
     },
     {
       "id": "text-futuhat",
@@ -759,7 +851,8 @@
         "ar": "الفتوحات المكية"
       },
       "authors": ["Ibn Arabi"],
-      "rightsNote": "Cited by chapter; the work runs to several thousand pages and chapter numbers are the only locator stable across editions."
+      "rightsNote": "Cited by chapter; the work runs to several thousand pages and chapter numbers are the only locator stable across editions.",
+      "authorsFa": ["ابن‌عربی"]
     },
     {
       "id": "text-fusus",
@@ -770,7 +863,8 @@
         "ar": "فصوص الحكم"
       },
       "authors": ["Ibn Arabi"],
-      "rightsNote": "Cited by chapter, each named for a prophet."
+      "rightsNote": "Cited by chapter, each named for a prophet.",
+      "authorsFa": ["ابن‌عربی"]
     },
     {
       "id": "text-hikmat-al-ishraq",
@@ -780,20 +874,23 @@
         "fa": "حکمت الاشراق",
         "ar": "حكمة الإشراق"
       },
-      "authors": ["Suhrawardi"]
+      "authors": ["Suhrawardi"],
+      "authorsFa": ["سهروردی"]
     },
     {
       "id": "text-muqaddimah",
       "kind": "primary-text",
       "title": { "en": "The Muqaddimah", "fa": "مقدمه" },
       "authors": ["Ibn Khaldun"],
-      "rightsNote": "The introductory volume of a universal history; cited by chapter and section."
+      "rightsNote": "The introductory volume of a universal history; cited by chapter and section.",
+      "authorsFa": ["ابن‌خلدون"]
     },
     {
       "id": "text-hayy-ibn-yaqzan",
       "kind": "primary-text",
       "title": { "en": "Hayy ibn Yaqzan", "fa": "حی بن یقظان" },
-      "authors": ["Ibn Tufayl"]
+      "authors": ["Ibn Tufayl"],
+      "authorsFa": ["ابن‌طفیل"]
     },
     {
       "id": "text-al-tibb-al-ruhani",
@@ -803,7 +900,8 @@
         "fa": "الطب الروحانی",
         "ar": "الطب الروحاني"
       },
-      "authors": ["Abu Bakr al-Razi"]
+      "authors": ["Abu Bakr al-Razi"],
+      "authorsFa": ["محمد زکریای رازی"]
     },
     {
       "id": "text-al-sira-al-falsafiyya",
@@ -814,21 +912,24 @@
         "ar": "السيرة الفلسفية"
       },
       "authors": ["Abu Bakr al-Razi"],
-      "rightsNote": "Written as a reply to critics who said his life did not match his doctrine."
+      "rightsNote": "Written as a reply to critics who said his life did not match his doctrine.",
+      "authorsFa": ["محمد زکریای رازی"]
     },
     {
       "id": "text-masnavi",
       "kind": "primary-text",
       "title": { "en": "Masnavi-ye Ma'navi", "fa": "مثنوی معنوی" },
       "authors": ["Rumi"],
-      "rightsNote": "Cited by book and line; line numbering follows Nicholson's edition, the standard reference."
+      "rightsNote": "Cited by book and line; line numbering follows Nicholson's edition, the standard reference.",
+      "authorsFa": ["مولوی"]
     },
     {
       "id": "text-divan-shams",
       "kind": "primary-text",
       "title": { "en": "Divan-e Shams-e Tabrizi", "fa": "دیوان شمس تبریزی" },
       "authors": ["Rumi"],
-      "rightsNote": "Cited by ghazal number in Foruzanfar's edition."
+      "rightsNote": "Cited by ghazal number in Foruzanfar's edition.",
+      "authorsFa": ["مولوی"]
     },
     {
       "id": "text-khayyam-algebra",
@@ -837,7 +938,8 @@
         "en": "Treatise on Demonstration of Problems of Algebra",
         "fa": "رساله در براهین مسائل جبر و مقابله"
       },
-      "authors": ["Omar Khayyam"]
+      "authors": ["Omar Khayyam"],
+      "authorsFa": ["خیام"]
     },
     {
       "id": "text-khayyam-euclid",
@@ -846,13 +948,15 @@
         "en": "Commentary on the Difficulties of Certain Postulates of Euclid",
         "fa": "شرح ما أشکل من مصادرات کتاب اقلیدس"
       },
-      "authors": ["Omar Khayyam"]
+      "authors": ["Omar Khayyam"],
+      "authorsFa": ["خیام"]
     },
     {
       "id": "text-akhlaq-i-nasiri",
       "kind": "primary-text",
       "title": { "en": "The Nasirean Ethics", "fa": "اخلاق ناصری" },
-      "authors": ["Nasir al-Din al-Tusi"]
+      "authors": ["Nasir al-Din al-Tusi"],
+      "authorsFa": ["خواجه نصیرالدین طوسی"]
     },
     {
       "id": "text-tajrid-al-itiqad",
@@ -863,13 +967,15 @@
         "ar": "تجريد الاعتقاد"
       },
       "authors": ["Nasir al-Din al-Tusi"],
-      "rightsNote": "The base text of Twelver Shi'i theology; commented on continuously for seven centuries."
+      "rightsNote": "The base text of Twelver Shi'i theology; commented on continuously for seven centuries.",
+      "authorsFa": ["خواجه نصیرالدین طوسی"]
     },
     {
       "id": "text-tahqiq-ma-li-l-hind",
       "kind": "primary-text",
       "title": { "en": "India", "fa": "تحقیق ما للهند", "ar": "تحقيق ما للهند" },
-      "authors": ["al-Biruni"]
+      "authors": ["al-Biruni"],
+      "authorsFa": ["ابوریحان بیرونی"]
     },
     {
       "id": "text-al-athar-al-baqiya",
@@ -879,7 +985,8 @@
         "fa": "آثار الباقیه",
         "ar": "الآثار الباقية عن القرون الخالية"
       },
-      "authors": ["al-Biruni"]
+      "authors": ["al-Biruni"],
+      "authorsFa": ["ابوریحان بیرونی"]
     },
     {
       "id": "text-mabahith-mashriqiyya",
@@ -889,7 +996,8 @@
         "fa": "مباحث مشرقیه",
         "ar": "المباحث المشرقية"
       },
-      "authors": ["Fakhr al-Din al-Razi"]
+      "authors": ["Fakhr al-Din al-Razi"],
+      "authorsFa": ["فخر رازی"]
     },
     {
       "id": "text-tadbir-al-mutawahhid",
@@ -900,7 +1008,8 @@
         "ar": "تدبير المتوحد"
       },
       "authors": ["Ibn Bajja"],
-      "rightsNote": "Survives incomplete."
+      "rightsNote": "Survives incomplete.",
+      "authorsFa": ["ابن‌باجه"]
     },
     {
       "id": "text-kitab-al-manazir",
@@ -910,7 +1019,8 @@
         "fa": "کتاب المناظر",
         "ar": "كتاب المناظر"
       },
-      "authors": ["Ibn al-Haytham"]
+      "authors": ["Ibn al-Haytham"],
+      "authorsFa": ["ابن هیثم"]
     },
     {
       "id": "text-al-shukuk-ala-batlamyus",
@@ -920,7 +1030,8 @@
         "fa": "الشکوک علی بطلمیوس",
         "ar": "الشكوك على بطلميوس"
       },
-      "authors": ["Ibn al-Haytham"]
+      "authors": ["Ibn al-Haytham"],
+      "authorsFa": ["ابن هیثم"]
     },
     {
       "id": "text-periphyseon",
@@ -929,32 +1040,37 @@
         "en": "Periphyseon (On the Division of Nature)",
         "fa": "پری‌فوسئون (دربارهٔ تقسیم طبیعت)"
       },
-      "authors": ["John Scotus Eriugena"]
+      "authors": ["John Scotus Eriugena"],
+      "authorsFa": ["یوهانس اسکوتوس اریوگنا"]
     },
     {
       "id": "text-sic-et-non",
       "kind": "primary-text",
       "title": { "en": "Sic et Non", "fa": "آری و نه" },
-      "authors": ["Peter Abelard"]
+      "authors": ["Peter Abelard"],
+      "authorsFa": ["پیر آبلار"]
     },
     {
       "id": "text-scito-te-ipsum",
       "kind": "primary-text",
       "title": { "en": "Ethics (Know Yourself)", "fa": "اخلاق (خود را بشناس)" },
-      "authors": ["Peter Abelard"]
+      "authors": ["Peter Abelard"],
+      "authorsFa": ["پیر آبلار"]
     },
     {
       "id": "text-scivias",
       "kind": "primary-text",
       "title": { "en": "Scivias", "fa": "سکیویاس" },
-      "authors": ["Hildegard of Bingen"]
+      "authors": ["Hildegard of Bingen"],
+      "authorsFa": ["هیلدگارد بینگنی"]
     },
     {
       "id": "text-ordinatio",
       "kind": "primary-text",
       "title": { "en": "Ordinatio", "fa": "اُردیناتیو" },
       "authors": ["John Duns Scotus"],
-      "rightsNote": "Scotus' own revision of his Sentences commentary, left unfinished at his death; cited by book, distinction and question."
+      "rightsNote": "Scotus' own revision of his Sentences commentary, left unfinished at his death; cited by book, distinction and question.",
+      "authorsFa": ["دانز اسکوتوس"]
     },
     {
       "id": "text-triads",
@@ -963,26 +1079,30 @@
         "en": "The Triads: In Defence of the Holy Hesychasts",
         "fa": "سه‌گانه‌ها: در دفاع از هسیخاست‌های مقدس"
       },
-      "authors": ["Gregory Palamas"]
+      "authors": ["Gregory Palamas"],
+      "authorsFa": ["گریگوری پالاماس"]
     },
     {
       "id": "text-de-docta-ignorantia",
       "kind": "primary-text",
       "title": { "en": "On Learned Ignorance", "fa": "دربارهٔ جهل عالمانه" },
-      "authors": ["Nicholas of Cusa"]
+      "authors": ["Nicholas of Cusa"],
+      "authorsFa": ["نیکلاس کوزایی"]
     },
     {
       "id": "text-praise-of-folly",
       "kind": "primary-text",
       "title": { "en": "The Praise of Folly", "fa": "ستایش حماقت" },
-      "authors": ["Desiderius Erasmus"]
+      "authors": ["Desiderius Erasmus"],
+      "authorsFa": ["اراسموس"]
     },
     {
       "id": "text-de-libero-arbitrio",
       "kind": "primary-text",
       "title": { "en": "On Free Will", "fa": "دربارهٔ ارادهٔ آزاد" },
       "authors": ["Desiderius Erasmus"],
-      "rightsNote": "Written against Luther, who answered it with On the Bondage of the Will."
+      "rightsNote": "Written against Luther, who answered it with On the Bondage of the Will.",
+      "authorsFa": ["اراسموس"]
     },
     {
       "id": "text-de-linfinito",
@@ -991,35 +1111,40 @@
         "en": "On the Infinite Universe and Worlds",
         "fa": "دربارهٔ جهان و عوالم بی‌کران"
       },
-      "authors": ["Giordano Bruno"]
+      "authors": ["Giordano Bruno"],
+      "authorsFa": ["جوردانو برونو"]
     },
     {
       "id": "text-dhammapada",
       "kind": "primary-text",
       "title": { "en": "Dhammapada", "fa": "دمّه‌پده" },
       "authors": ["Attributed to the Buddha"],
-      "rightsNote": "A verse anthology in the Pali Canon, cited by verse number; compiled well after the Buddha's lifetime from oral transmission."
+      "rightsNote": "A verse anthology in the Pali Canon, cited by verse number; compiled well after the Buddha's lifetime from oral transmission.",
+      "authorsFa": ["بودا"]
     },
     {
       "id": "text-samyutta-nikaya",
       "kind": "primary-text",
       "title": { "en": "Samyutta Nikaya", "fa": "سَمیوتَه نیکایه" },
       "authors": ["Pali Canon"],
-      "rightsNote": "Cited by collection and sutta number (e.g. SN 56.11). Written down some four centuries after the Buddha, after transmission by memorisation."
+      "rightsNote": "Cited by collection and sutta number (e.g. SN 56.11). Written down some four centuries after the Buddha, after transmission by memorisation.",
+      "authorsFa": ["کانون پالی"]
     },
     {
       "id": "text-acaranga-sutra",
       "kind": "primary-text",
       "title": { "en": "Acaranga Sutra", "fa": "آچارانگه سوتره" },
       "authors": ["Jain Agamas"],
-      "rightsNote": "The oldest surviving Svetambara canonical text, and the closest the Jain canon comes to Mahavira's own teaching; cited by book and lecture."
+      "rightsNote": "The oldest surviving Svetambara canonical text, and the closest the Jain canon comes to Mahavira's own teaching; cited by book and lecture.",
+      "authorsFa": ["آگاماهای جین"]
     },
     {
       "id": "text-tattvartha-sutra",
       "kind": "primary-text",
       "title": { "en": "Tattvartha Sutra", "fa": "تتوارته سوتره" },
       "authors": ["Umasvati"],
-      "rightsNote": "Not Mahavira's own work: a systematic statement composed centuries later, and the only text both Jain sects accept. Cited by chapter and sutra."
+      "rightsNote": "Not Mahavira's own work: a systematic statement composed centuries later, and the only text both Jain sects accept. Cited by chapter and sutra.",
+      "authorsFa": ["اوماسواتی"]
     },
     {
       "id": "text-sokushin-jobutsu",
@@ -1028,7 +1153,8 @@
         "en": "Attaining Buddhahood in This Very Body",
         "fa": "رسیدن به بودایی در همین تن"
       },
-      "authors": ["Kukai"]
+      "authors": ["Kukai"],
+      "authorsFa": ["کوکای"]
     },
     {
       "id": "text-hizo-hoyaku",
@@ -1037,7 +1163,8 @@
         "en": "The Precious Key to the Secret Treasury",
         "fa": "کلید گران‌بهای گنجینهٔ نهان"
       },
-      "authors": ["Kukai"]
+      "authors": ["Kukai"],
+      "authorsFa": ["کوکای"]
     },
     {
       "id": "text-gisillon-so",
@@ -1046,7 +1173,8 @@
         "en": "Commentary on the Awakening of Mahayana Faith",
         "fa": "شرح بیداری ایمان مهایانه"
       },
-      "authors": ["Wonhyo"]
+      "authors": ["Wonhyo"],
+      "authorsFa": ["وونهیو"]
     },
     {
       "id": "text-simmun-hwajaeng-non",
@@ -1056,7 +1184,8 @@
         "fa": "ده راه برای آشتی‌دادن اختلاف‌های آموزه‌ای"
       },
       "authors": ["Wonhyo"],
-      "rightsNote": "Survives only in fragments and in later quotation."
+      "rightsNote": "Survives only in fragments and in later quotation.",
+      "authorsFa": ["وونهیو"]
     },
     {
       "id": "text-seonghak-sipdo",
@@ -1066,7 +1195,8 @@
         "fa": "ده نمودار در آموختن حکمت"
       },
       "authors": ["Yi Hwang"],
-      "rightsNote": "Presented to the king in 1568 as a course of study; cited by diagram number."
+      "rightsNote": "Presented to the king in 1568 as a course of study; cited by diagram number.",
+      "authorsFa": ["یی هوانگ"]
     },
     {
       "id": "text-cu-tran-lac-dao",
@@ -1076,7 +1206,8 @@
         "fa": "در جهان زیستن، در راه شادمان"
       },
       "authors": ["Tran Nhan Tong"],
-      "rightsNote": "A poem in vernacular Vietnamese Nom script, one of the earliest surviving works in that script."
+      "rightsNote": "A poem in vernacular Vietnamese Nom script, one of the earliest surviving works in that script.",
+      "authorsFa": ["ترن نان تونگ"]
     },
     {
       "id": "text-zhuzi-yulei",
@@ -1086,7 +1217,8 @@
         "fa": "گفت‌وگوهای دسته‌بندی‌شدهٔ استاد ژو"
       },
       "authors": ["Zhu Xi"],
-      "rightsNote": "Notes taken by students over decades and compiled after his death; not a treatise he wrote."
+      "rightsNote": "Notes taken by students over decades and compiled after his death; not a treatise he wrote.",
+      "authorsFa": ["جو شی"]
     },
     {
       "id": "text-jinsilu",
@@ -1096,14 +1228,16 @@
         "fa": "تأمل در چیزهای نزدیک"
       },
       "authors": ["Zhu Xi", "Lu Zuqian"],
-      "rightsNote": "An anthology of earlier Song thinkers, selected and arranged by the compilers; the selection is itself the argument."
+      "rightsNote": "An anthology of earlier Song thinkers, selected and arranged by the compilers; the selection is itself the argument.",
+      "authorsFa": ["جو شی", "لو زوچیان"]
     },
     {
       "id": "text-mozi-book",
       "kind": "primary-text",
       "title": { "en": "Mozi", "fa": "مو‌دزه" },
       "authors": ["Mohist school"],
-      "rightsNote": "A school compilation rather than a single author's book; cited by chapter."
+      "rightsNote": "A school compilation rather than a single author's book; cited by chapter.",
+      "authorsFa": ["مکتب موهی"]
     },
     {
       "id": "text-xianxiang-yu-wuzishen",
@@ -1112,7 +1246,8 @@
         "en": "Phenomenon and Thing-in-itself",
         "fa": "پدیدار و شیء فی‌نفسه"
       },
-      "authors": ["Mou Zongsan"]
+      "authors": ["Mou Zongsan"],
+      "authorsFa": ["مو زونگ‌سان"]
     },
     {
       "id": "text-zhi-de-zhijue",
@@ -1121,7 +1256,8 @@
         "en": "Intellectual Intuition and Chinese Philosophy",
         "fa": "شهود عقلی و فلسفهٔ چینی"
       },
-      "authors": ["Mou Zongsan"]
+      "authors": ["Mou Zongsan"],
+      "authorsFa": ["مو زونگ‌سان"]
     },
     {
       "id": "text-fushikaden",
@@ -1131,34 +1267,39 @@
         "fa": "آموزه‌هایی دربارهٔ سبک و شکوفه"
       },
       "authors": ["Zeami"],
-      "rightsNote": "Written for his family and kept secret for some five hundred years; first published in 1909."
+      "rightsNote": "Written for his family and kept secret for some five hundred years; first published in 1909.",
+      "authorsFa": ["زئامی"]
     },
     {
       "id": "text-yoga-sutras",
       "kind": "primary-text",
       "title": { "en": "Yoga Sutras", "fa": "یوگه‌سوتره‌ها" },
       "authors": ["Patanjali"],
-      "rightsNote": "Cited by chapter and sutra (e.g. 1.2). The text is aphoristic to the point of being unreadable without a commentary, and the commentaries disagree."
+      "rightsNote": "Cited by chapter and sutra (e.g. 1.2). The text is aphoristic to the point of being unreadable without a commentary, and the commentaries disagree.",
+      "authorsFa": ["پتنجلی"]
     },
     {
       "id": "text-tantraloka",
       "kind": "primary-text",
       "title": { "en": "Tantraloka", "fa": "تنتره‌آلوکه" },
-      "authors": ["Abhinavagupta"]
+      "authors": ["Abhinavagupta"],
+      "authorsFa": ["ابهیناواگوپتا"]
     },
     {
       "id": "text-abhinavabharati",
       "kind": "primary-text",
       "title": { "en": "Abhinavabharati", "fa": "ابهینوه‌بهارتی" },
       "authors": ["Abhinavagupta"],
-      "rightsNote": "A commentary on Bharata's Natyashastra, and the source of the developed theory of rasa."
+      "rightsNote": "A commentary on Bharata's Natyashastra, and the source of the developed theory of rasa.",
+      "authorsFa": ["ابهیناواگوپتا"]
     },
     {
       "id": "text-hind-swaraj",
       "kind": "primary-text",
       "title": { "en": "Hind Swaraj", "fa": "هند سوراج" },
       "authors": ["Mohandas K. Gandhi"],
-      "year": { "year": 1909 }
+      "year": { "year": 1909 },
+      "authorsFa": ["گاندی"]
     },
     {
       "id": "text-gandhi-autobiography",
@@ -1167,7 +1308,8 @@
         "en": "An Autobiography: The Story of My Experiments with Truth",
         "fa": "زندگی‌نامه: داستان آزمایش‌های من با حقیقت"
       },
-      "authors": ["Mohandas K. Gandhi"]
+      "authors": ["Mohandas K. Gandhi"],
+      "authorsFa": ["گاندی"]
     },
     {
       "id": "text-annihilation-of-caste",
@@ -1175,20 +1317,23 @@
       "title": { "en": "Annihilation of Caste", "fa": "برانداختن کاست" },
       "authors": ["B. R. Ambedkar"],
       "year": { "year": 1936 },
-      "rightsNote": "Written as an address to a reform conference, which then withdrew the invitation; published by the author with the correspondence attached."
+      "rightsNote": "Written as an address to a reform conference, which then withdrew the invitation; published by the author with the correspondence attached.",
+      "authorsFa": ["آمبدکار"]
     },
     {
       "id": "text-buddha-and-his-dhamma",
       "kind": "primary-text",
       "title": { "en": "The Buddha and His Dhamma", "fa": "بودا و دَمّهٔ او" },
       "authors": ["B. R. Ambedkar"],
-      "year": { "year": 1957 }
+      "year": { "year": 1957 },
+      "authorsFa": ["آمبدکار"]
     },
     {
       "id": "text-life-divine",
       "kind": "primary-text",
       "title": { "en": "The Life Divine", "fa": "زندگی الهی" },
-      "authors": ["Sri Aurobindo"]
+      "authors": ["Sri Aurobindo"],
+      "authorsFa": ["سری آروبیندو"]
     },
     {
       "id": "text-sadhana",
@@ -1198,28 +1343,32 @@
         "fa": "سادهانا: تحقق زندگی"
       },
       "authors": ["Rabindranath Tagore"],
-      "year": { "year": 1913 }
+      "year": { "year": 1913 },
+      "authorsFa": ["رابیندرانات تاگور"]
     },
     {
       "id": "text-nationalism-tagore",
       "kind": "primary-text",
       "title": { "en": "Nationalism", "fa": "ملی‌گرایی" },
       "authors": ["Rabindranath Tagore"],
-      "year": { "year": 1917 }
+      "year": { "year": 1917 },
+      "authorsFa": ["رابیندرانات تاگور"]
     },
     {
       "id": "text-maxims-of-ptahhotep",
       "kind": "primary-text",
       "title": { "en": "The Maxims of Ptahhotep", "fa": "اندرزهای پتاح‌حوتپ" },
       "authors": ["Attributed to Ptahhotep"],
-      "rightsNote": "Known from copies several centuries later than its supposed date; cited by maxim number."
+      "rightsNote": "Known from copies several centuries later than its supposed date; cited by maxim number.",
+      "authorsFa": ["پتاح‌حوتپ"]
     },
     {
       "id": "text-cantares-mexicanos",
       "kind": "scholarly-edition",
       "title": { "en": "Cantares Mexicanos", "fa": "سرودهای مکزیکی" },
       "authors": ["Nahua poets"],
-      "rightsNote": "A manuscript collection of Nahuatl song-poems written down after the conquest, in which the poems traditionally ascribed to Nezahualcoyotl appear; the ascriptions are not contemporary."
+      "rightsNote": "A manuscript collection of Nahuatl song-poems written down after the conquest, in which the poems traditionally ascribed to Nezahualcoyotl appear; the ascriptions are not contemporary.",
+      "authorsFa": ["شاعران ناهوا"]
     },
     {
       "id": "text-nueva-coronica",
@@ -1230,7 +1379,8 @@
       },
       "authors": ["Felipe Guaman Poma de Ayala"],
       "year": { "year": 1615 },
-      "rightsNote": "A 1,200-page illustrated letter to the king of Spain, which never reached him; rediscovered in Copenhagen in 1908."
+      "rightsNote": "A 1,200-page illustrated letter to the king of Spain, which never reached him; rediscovered in Copenhagen in 1908.",
+      "authorsFa": ["گوامان پوما"]
     },
     {
       "id": "text-leviathan",
@@ -1238,14 +1388,16 @@
       "title": { "en": "Leviathan", "fa": "لویاتان" },
       "authors": ["Thomas Hobbes"],
       "year": { "year": 1651 },
-      "rightsNote": "Cited by part and chapter."
+      "rightsNote": "Cited by part and chapter.",
+      "authorsFa": ["توماس هابز"]
     },
     {
       "id": "text-de-cive",
       "kind": "primary-text",
       "title": { "en": "On the Citizen", "fa": "دربارهٔ شهروند" },
       "authors": ["Thomas Hobbes"],
-      "year": { "year": 1642 }
+      "year": { "year": 1642 },
+      "authorsFa": ["توماس هابز"]
     },
     {
       "id": "text-essay-human-understanding",
@@ -1256,7 +1408,8 @@
       },
       "authors": ["John Locke"],
       "year": { "year": 1689 },
-      "rightsNote": "Cited by book, chapter and section."
+      "rightsNote": "Cited by book, chapter and section.",
+      "authorsFa": ["جان لاک"]
     },
     {
       "id": "text-two-treatises",
@@ -1267,7 +1420,8 @@
       },
       "authors": ["John Locke"],
       "year": { "year": 1689 },
-      "rightsNote": "Cited by treatise and numbered section."
+      "rightsNote": "Cited by treatise and numbered section.",
+      "authorsFa": ["جان لاک"]
     },
     {
       "id": "text-monadology",
@@ -1275,14 +1429,16 @@
       "title": { "en": "The Monadology", "fa": "مونادولوژی" },
       "authors": ["Gottfried Wilhelm Leibniz"],
       "year": { "year": 1714 },
-      "rightsNote": "Ninety numbered paragraphs; cited by paragraph."
+      "rightsNote": "Ninety numbered paragraphs; cited by paragraph.",
+      "authorsFa": ["لایب‌نیتس"]
     },
     {
       "id": "text-theodicy",
       "kind": "primary-text",
       "title": { "en": "Theodicy", "fa": "تئودیسه" },
       "authors": ["Gottfried Wilhelm Leibniz"],
-      "year": { "year": 1710 }
+      "year": { "year": 1710 },
+      "authorsFa": ["لایب‌نیتس"]
     },
     {
       "id": "text-new-essays",
@@ -1292,7 +1448,8 @@
         "fa": "جستارهای نو در فهم بشری"
       },
       "authors": ["Gottfried Wilhelm Leibniz"],
-      "rightsNote": "Written as a dialogue answering Locke chapter by chapter; withheld from publication when Locke died, and unpublished for fifty years."
+      "rightsNote": "Written as a dialogue answering Locke chapter by chapter; withheld from publication when Locke died, and unpublished for fifty years.",
+      "authorsFa": ["لایب‌نیتس"]
     },
     {
       "id": "text-berkeley-principles",
@@ -1303,7 +1460,8 @@
       },
       "authors": ["George Berkeley"],
       "year": { "year": 1710 },
-      "rightsNote": "Cited by numbered section."
+      "rightsNote": "Cited by numbered section.",
+      "authorsFa": ["جرج برکلی"]
     },
     {
       "id": "text-three-dialogues",
@@ -1313,7 +1471,8 @@
         "fa": "سه گفت‌وگو میان هایلاس و فیلونوس"
       },
       "authors": ["George Berkeley"],
-      "year": { "year": 1713 }
+      "year": { "year": 1713 },
+      "authorsFa": ["جرج برکلی"]
     },
     {
       "id": "text-treatise-human-nature",
@@ -1323,7 +1482,8 @@
         "fa": "رساله‌ای دربارهٔ طبیعت آدمی"
       },
       "authors": ["David Hume"],
-      "rightsNote": "Cited by book, part and section."
+      "rightsNote": "Cited by book, part and section.",
+      "authorsFa": ["دیوید هیوم"]
     },
     {
       "id": "text-enquiry-human-understanding",
@@ -1334,7 +1494,8 @@
       },
       "authors": ["David Hume"],
       "year": { "year": 1748 },
-      "rightsNote": "Cited by section."
+      "rightsNote": "Cited by section.",
+      "authorsFa": ["دیوید هیوم"]
     },
     {
       "id": "text-dialogues-natural-religion",
@@ -1344,7 +1505,8 @@
         "fa": "گفت‌وگوهایی دربارهٔ دین طبیعی"
       },
       "authors": ["David Hume"],
-      "rightsNote": "Published after Hume's death, on his instructions."
+      "rightsNote": "Published after Hume's death, on his instructions.",
+      "authorsFa": ["دیوید هیوم"]
     },
     {
       "id": "text-social-contract",
@@ -1352,7 +1514,8 @@
       "title": { "en": "The Social Contract", "fa": "قرارداد اجتماعی" },
       "authors": ["Jean-Jacques Rousseau"],
       "year": { "year": 1762 },
-      "rightsNote": "Cited by book and chapter."
+      "rightsNote": "Cited by book and chapter.",
+      "authorsFa": ["ژان‌ژاک روسو"]
     },
     {
       "id": "text-discourse-inequality",
@@ -1362,7 +1525,8 @@
         "fa": "گفتار دربارهٔ خاستگاه نابرابری"
       },
       "authors": ["Jean-Jacques Rousseau"],
-      "year": { "year": 1755 }
+      "year": { "year": 1755 },
+      "authorsFa": ["ژان‌ژاک روسو"]
     },
     {
       "id": "text-emile",
@@ -1372,7 +1536,8 @@
         "fa": "امیل، یا دربارهٔ آموزش"
       },
       "authors": ["Jean-Jacques Rousseau"],
-      "year": { "year": 1762 }
+      "year": { "year": 1762 },
+      "authorsFa": ["ژان‌ژاک روسو"]
     },
     {
       "id": "text-vindication-woman",
@@ -1383,7 +1548,8 @@
       },
       "authors": ["Mary Wollstonecraft"],
       "year": { "year": 1792 },
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["مری ولستون‌کرافت"]
     },
     {
       "id": "text-vindication-men",
@@ -1394,14 +1560,16 @@
       },
       "authors": ["Mary Wollstonecraft"],
       "year": { "year": 1790 },
-      "rightsNote": "The first published reply to Burke's Reflections on the Revolution in France."
+      "rightsNote": "The first published reply to Burke's Reflections on the Revolution in France.",
+      "authorsFa": ["مری ولستون‌کرافت"]
     },
     {
       "id": "text-scienza-nuova",
       "kind": "primary-text",
       "title": { "en": "The New Science", "fa": "علم جدید" },
       "authors": ["Giambattista Vico"],
-      "rightsNote": "Cited by the paragraph numbers of the 1744 edition, which are standard."
+      "rightsNote": "Cited by the paragraph numbers of the 1744 edition, which are standard.",
+      "authorsFa": ["جامباتیستا ویکو"]
     },
     {
       "id": "text-principles-morals-legislation",
@@ -1412,14 +1580,16 @@
       },
       "authors": ["Jeremy Bentham"],
       "year": { "year": 1789 },
-      "rightsNote": "Cited by chapter and section."
+      "rightsNote": "Cited by chapter and section.",
+      "authorsFa": ["جرمی بنتام"]
     },
     {
       "id": "text-anarchical-fallacies",
       "kind": "primary-text",
       "title": { "en": "Anarchical Fallacies", "fa": "مغالطه‌های آنارشیک" },
       "authors": ["Jeremy Bentham"],
-      "rightsNote": "Written in the 1790s against the French Declaration of Rights; published posthumously."
+      "rightsNote": "Written in the 1790s against the French Declaration of Rights; published posthumously.",
+      "authorsFa": ["جرمی بنتام"]
     },
     {
       "id": "text-on-liberty",
@@ -1427,21 +1597,24 @@
       "title": { "en": "On Liberty", "fa": "دربارهٔ آزادی" },
       "authors": ["John Stuart Mill"],
       "year": { "year": 1859 },
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["جان استیوارت میل"]
     },
     {
       "id": "text-utilitarianism",
       "kind": "primary-text",
       "title": { "en": "Utilitarianism", "fa": "فایده‌گرایی" },
       "authors": ["John Stuart Mill"],
-      "year": { "year": 1861 }
+      "year": { "year": 1861 },
+      "authorsFa": ["جان استیوارت میل"]
     },
     {
       "id": "text-subjection-of-women",
       "kind": "primary-text",
       "title": { "en": "The Subjection of Women", "fa": "انقیاد زنان" },
       "authors": ["John Stuart Mill"],
-      "year": { "year": 1869 }
+      "year": { "year": 1869 },
+      "authorsFa": ["جان استیوارت میل"]
     },
     {
       "id": "text-phenomenology-of-spirit",
@@ -1449,7 +1622,8 @@
       "title": { "en": "Phenomenology of Spirit", "fa": "پدیدارشناسی روح" },
       "authors": ["G. W. F. Hegel"],
       "year": { "year": 1807 },
-      "rightsNote": "Cited by the numbered paragraphs of Miller's translation, the usual reference in English."
+      "rightsNote": "Cited by the numbered paragraphs of Miller's translation, the usual reference in English.",
+      "authorsFa": ["هگل"]
     },
     {
       "id": "text-philosophy-of-right",
@@ -1460,7 +1634,8 @@
       },
       "authors": ["G. W. F. Hegel"],
       "year": { "year": 1820 },
-      "rightsNote": "Cited by numbered section."
+      "rightsNote": "Cited by numbered section.",
+      "authorsFa": ["هگل"]
     },
     {
       "id": "text-world-as-will",
@@ -1470,7 +1645,8 @@
         "fa": "جهان همچون اراده و تصور"
       },
       "authors": ["Arthur Schopenhauer"],
-      "rightsNote": "Cited by volume, book and section. The second volume, of commentary on the first, appeared twenty-six years later."
+      "rightsNote": "Cited by volume, book and section. The second volume, of commentary on the first, appeared twenty-six years later.",
+      "authorsFa": ["شوپنهاور"]
     },
     {
       "id": "text-fear-and-trembling",
@@ -1478,7 +1654,8 @@
       "title": { "en": "Fear and Trembling", "fa": "ترس و لرز" },
       "authors": ["Soren Kierkegaard"],
       "year": { "year": 1843 },
-      "rightsNote": "Published under the pseudonym Johannes de Silentio, which Kierkegaard asked readers to treat as an author in his own right."
+      "rightsNote": "Published under the pseudonym Johannes de Silentio, which Kierkegaard asked readers to treat as an author in his own right.",
+      "authorsFa": ["سورن کیرکگور"]
     },
     {
       "id": "text-either-or",
@@ -1486,7 +1663,8 @@
       "title": { "en": "Either/Or", "fa": "این یا آن" },
       "authors": ["Soren Kierkegaard"],
       "year": { "year": 1843 },
-      "rightsNote": "Published under the pseudonym Victor Eremita."
+      "rightsNote": "Published under the pseudonym Victor Eremita.",
+      "authorsFa": ["سورن کیرکگور"]
     },
     {
       "id": "text-concluding-postscript",
@@ -1497,7 +1675,8 @@
       },
       "authors": ["Soren Kierkegaard"],
       "year": { "year": 1846 },
-      "rightsNote": "Published under the pseudonym Johannes Climacus, with Kierkegaard named on the title page as editor."
+      "rightsNote": "Published under the pseudonym Johannes Climacus, with Kierkegaard named on the title page as editor.",
+      "authorsFa": ["سورن کیرکگور"]
     },
     {
       "id": "text-1844-manuscripts",
@@ -1507,14 +1686,16 @@
         "fa": "دست‌نوشته‌های اقتصادی و فلسفی ۱۸۴۴"
       },
       "authors": ["Karl Marx"],
-      "rightsNote": "Notebooks Marx never published; first printed in 1932, which is why the reading of Marx they support is a twentieth-century event."
+      "rightsNote": "Notebooks Marx never published; first printed in 1932, which is why the reading of Marx they support is a twentieth-century event.",
+      "authorsFa": ["کارل مارکس"]
     },
     {
       "id": "text-theses-on-feuerbach",
       "kind": "primary-text",
       "title": { "en": "Theses on Feuerbach", "fa": "تزهایی دربارهٔ فویرباخ" },
       "authors": ["Karl Marx"],
-      "rightsNote": "Eleven numbered notes; cited by number."
+      "rightsNote": "Eleven numbered notes; cited by number.",
+      "authorsFa": ["کارل مارکس"]
     },
     {
       "id": "text-capital",
@@ -1522,7 +1703,8 @@
       "title": { "en": "Capital, Volume I", "fa": "سرمایه، جلد اول" },
       "authors": ["Karl Marx"],
       "year": { "year": 1867 },
-      "rightsNote": "Cited by part and chapter."
+      "rightsNote": "Cited by part and chapter.",
+      "authorsFa": ["کارل مارکس"]
     },
     {
       "id": "text-moral-sentiments",
@@ -1533,7 +1715,8 @@
       },
       "authors": ["Adam Smith"],
       "year": { "year": 1759 },
-      "rightsNote": "Revised by Smith six times, the last in the year of his death, seventeen years after the Wealth of Nations."
+      "rightsNote": "Revised by Smith six times, the last in the year of his death, seventeen years after the Wealth of Nations.",
+      "authorsFa": ["آدام اسمیت"]
     },
     {
       "id": "text-wealth-of-nations",
@@ -1544,14 +1727,16 @@
       },
       "authors": ["Adam Smith"],
       "year": { "year": 1776 },
-      "rightsNote": "Cited by book and chapter."
+      "rightsNote": "Cited by book and chapter.",
+      "authorsFa": ["آدام اسمیت"]
     },
     {
       "id": "text-interpretation-of-dreams",
       "kind": "primary-text",
       "title": { "en": "The Interpretation of Dreams", "fa": "تعبیر خواب" },
       "authors": ["Sigmund Freud"],
-      "year": { "year": 1900 }
+      "year": { "year": 1900 },
+      "authorsFa": ["زیگموند فروید"]
     },
     {
       "id": "text-civilization-discontents",
@@ -1561,14 +1746,16 @@
         "fa": "تمدن و ناخرسندی‌های آن"
       },
       "authors": ["Sigmund Freud"],
-      "year": { "year": 1930 }
+      "year": { "year": 1930 },
+      "authorsFa": ["زیگموند فروید"]
     },
     {
       "id": "text-justification-of-the-good",
       "kind": "primary-text",
       "title": { "en": "The Justification of the Good", "fa": "توجیه خیر" },
       "authors": ["Vladimir Solovyov"],
-      "year": { "year": 1897 }
+      "year": { "year": 1897 },
+      "authorsFa": ["ولادیمیر سالاویف"]
     },
     {
       "id": "text-tale-of-the-antichrist",
@@ -1578,14 +1765,16 @@
         "fa": "حکایت کوتاه دجال"
       },
       "authors": ["Vladimir Solovyov"],
-      "year": { "year": 1900 }
+      "year": { "year": 1900 },
+      "authorsFa": ["ولادیمیر سالاویف"]
     },
     {
       "id": "text-slavery-and-freedom",
       "kind": "primary-text",
       "title": { "en": "Slavery and Freedom", "fa": "بردگی و آزادی" },
       "authors": ["Nikolai Berdyaev"],
-      "year": { "year": 1939 }
+      "year": { "year": 1939 },
+      "authorsFa": ["نیکلای بردیایف"]
     },
     {
       "id": "text-meaning-of-creative-act",
@@ -1595,14 +1784,16 @@
         "fa": "معنای کنش آفرینشگر"
       },
       "authors": ["Nikolai Berdyaev"],
-      "year": { "year": 1916 }
+      "year": { "year": 1916 },
+      "authorsFa": ["نیکلای بردیایف"]
     },
     {
       "id": "text-i-and-thou",
       "kind": "primary-text",
       "title": { "en": "I and Thou", "fa": "من و تو" },
       "authors": ["Martin Buber"],
-      "year": { "year": 1923 }
+      "year": { "year": 1923 },
+      "authorsFa": ["مارتین بوبر"]
     },
     {
       "id": "text-dostoevsky-poetics",
@@ -1612,21 +1803,24 @@
         "fa": "مسائل بوطیقای داستایفسکی"
       },
       "authors": ["Mikhail Bakhtin"],
-      "rightsNote": "First published in 1929, then heavily revised and republished in 1963 after decades in which Bakhtin could not publish."
+      "rightsNote": "First published in 1929, then heavily revised and republished in 1963 after decades in which Bakhtin could not publish.",
+      "authorsFa": ["میخائیل باختین"]
     },
     {
       "id": "text-rabelais-and-his-world",
       "kind": "primary-text",
       "title": { "en": "Rabelais and His World", "fa": "رابله و جهان او" },
       "authors": ["Mikhail Bakhtin"],
-      "rightsNote": "Written as a dissertation in the 1940s; the degree was refused and the book not published until 1965."
+      "rightsNote": "Written as a dissertation in the 1940s; the degree was refused and the book not published until 1965.",
+      "authorsFa": ["میخائیل باختین"]
     },
     {
       "id": "text-human-condition",
       "kind": "primary-text",
       "title": { "en": "The Human Condition", "fa": "وضع بشری" },
       "authors": ["Hannah Arendt"],
-      "year": { "year": 1958 }
+      "year": { "year": 1958 },
+      "authorsFa": ["هانا آرنت"]
     },
     {
       "id": "text-origins-totalitarianism",
@@ -1636,7 +1830,8 @@
         "fa": "خاستگاه‌های توتالیتاریسم"
       },
       "authors": ["Hannah Arendt"],
-      "year": { "year": 1951 }
+      "year": { "year": 1951 },
+      "authorsFa": ["هانا آرنت"]
     },
     {
       "id": "text-eichmann-in-jerusalem",
@@ -1644,7 +1839,8 @@
       "title": { "en": "Eichmann in Jerusalem", "fa": "آیشمان در اورشلیم" },
       "authors": ["Hannah Arendt"],
       "year": { "year": 1963 },
-      "rightsNote": "First published as a series of reports in The New Yorker."
+      "rightsNote": "First published as a series of reports in The New Yorker.",
+      "authorsFa": ["هانا آرنت"]
     },
     {
       "id": "text-gravity-and-grace",
@@ -1652,7 +1848,8 @@
       "title": { "en": "Gravity and Grace", "fa": "جاذبه و فیض" },
       "authors": ["Simone Weil"],
       "year": { "year": 1947 },
-      "rightsNote": "Assembled after her death from her notebooks by a friend, who chose and arranged the passages; not a book she wrote."
+      "rightsNote": "Assembled after her death from her notebooks by a friend, who chose and arranged the passages; not a book she wrote.",
+      "authorsFa": ["سیمون وی"]
     },
     {
       "id": "text-need-for-roots",
@@ -1660,14 +1857,16 @@
       "title": { "en": "The Need for Roots", "fa": "نیاز به ریشه" },
       "authors": ["Simone Weil"],
       "year": { "year": 1949 },
-      "rightsNote": "Written in 1943 for the Free French as a report on the obligations a postwar France would owe its people."
+      "rightsNote": "Written in 1943 for the Free French as a report on the obligations a postwar France would owe its people.",
+      "authorsFa": ["سیمون وی"]
     },
     {
       "id": "text-dialectic-of-enlightenment",
       "kind": "primary-text",
       "title": { "en": "Dialectic of Enlightenment", "fa": "دیالکتیک روشنگری" },
       "authors": ["Max Horkheimer", "Theodor W. Adorno"],
-      "year": { "year": 1947 }
+      "year": { "year": 1947 },
+      "authorsFa": ["ماکس هورکهایمر", "تئودور آدورنو"]
     },
     {
       "id": "text-minima-moralia",
@@ -1675,14 +1874,16 @@
       "title": { "en": "Minima Moralia", "fa": "مینیما مورالیا" },
       "authors": ["Theodor W. Adorno"],
       "year": { "year": 1951 },
-      "rightsNote": "A hundred and fifty-three numbered fragments; cited by number."
+      "rightsNote": "A hundred and fifty-three numbered fragments; cited by number.",
+      "authorsFa": ["تئودور آدورنو"]
     },
     {
       "id": "text-negative-dialectics",
       "kind": "primary-text",
       "title": { "en": "Negative Dialectics", "fa": "دیالکتیک منفی" },
       "authors": ["Theodor W. Adorno"],
-      "year": { "year": 1966 }
+      "year": { "year": 1966 },
+      "authorsFa": ["تئودور آدورنو"]
     },
     {
       "id": "text-work-of-art-benjamin",
@@ -1692,7 +1893,8 @@
         "fa": "اثر هنری در عصر بازتولید فنی"
       },
       "authors": ["Walter Benjamin"],
-      "rightsNote": "Exists in three versions written between 1935 and 1939, which differ on points the argument turns on."
+      "rightsNote": "Exists in three versions written between 1935 and 1939, which differ on points the argument turns on.",
+      "authorsFa": ["والتر بنیامین"]
     },
     {
       "id": "text-on-the-concept-of-history",
@@ -1702,7 +1904,8 @@
         "fa": "دربارهٔ مفهوم تاریخ"
       },
       "authors": ["Walter Benjamin"],
-      "rightsNote": "Eighteen numbered theses, left unpublished at his death in 1940; cited by thesis number."
+      "rightsNote": "Eighteen numbered theses, left unpublished at his death in 1940; cited by thesis number.",
+      "authorsFa": ["والتر بنیامین"]
     },
     {
       "id": "text-theory-communicative-action",
@@ -1712,7 +1915,8 @@
         "fa": "نظریهٔ کنش ارتباطی"
       },
       "authors": ["Jurgen Habermas"],
-      "year": { "year": 1981 }
+      "year": { "year": 1981 },
+      "authorsFa": ["یورگن هابرماس"]
     },
     {
       "id": "text-structural-transformation",
@@ -1722,63 +1926,72 @@
         "fa": "دگرگونی ساختاری حوزهٔ عمومی"
       },
       "authors": ["Jurgen Habermas"],
-      "year": { "year": 1962 }
+      "year": { "year": 1962 },
+      "authorsFa": ["یورگن هابرماس"]
     },
     {
       "id": "text-truth-and-method",
       "kind": "primary-text",
       "title": { "en": "Truth and Method", "fa": "حقیقت و روش" },
       "authors": ["Hans-Georg Gadamer"],
-      "year": { "year": 1960 }
+      "year": { "year": 1960 },
+      "authorsFa": ["هانس گئورگ گادامر"]
     },
     {
       "id": "text-totality-and-infinity",
       "kind": "primary-text",
       "title": { "en": "Totality and Infinity", "fa": "تمامیت و بی‌نهایت" },
       "authors": ["Emmanuel Levinas"],
-      "year": { "year": 1961 }
+      "year": { "year": 1961 },
+      "authorsFa": ["امانوئل لویناس"]
     },
     {
       "id": "text-otherwise-than-being",
       "kind": "primary-text",
       "title": { "en": "Otherwise than Being", "fa": "به‌گونه‌ای جز بودن" },
       "authors": ["Emmanuel Levinas"],
-      "year": { "year": 1974 }
+      "year": { "year": 1974 },
+      "authorsFa": ["امانوئل لویناس"]
     },
     {
       "id": "text-of-grammatology",
       "kind": "primary-text",
       "title": { "en": "Of Grammatology", "fa": "دربارهٔ گراماتولوژی" },
       "authors": ["Jacques Derrida"],
-      "year": { "year": 1967 }
+      "year": { "year": 1967 },
+      "authorsFa": ["ژاک دریدا"]
     },
     {
       "id": "text-writing-and-difference",
       "kind": "primary-text",
       "title": { "en": "Writing and Difference", "fa": "نوشتار و تفاوت" },
       "authors": ["Jacques Derrida"],
-      "year": { "year": 1967 }
+      "year": { "year": 1967 },
+      "authorsFa": ["ژاک دریدا"]
     },
     {
       "id": "text-difference-and-repetition",
       "kind": "primary-text",
       "title": { "en": "Difference and Repetition", "fa": "تفاوت و تکرار" },
       "authors": ["Gilles Deleuze"],
-      "year": { "year": 1968 }
+      "year": { "year": 1968 },
+      "authorsFa": ["ژیل دلوز"]
     },
     {
       "id": "text-thousand-plateaus",
       "kind": "primary-text",
       "title": { "en": "A Thousand Plateaus", "fa": "هزار فلات" },
       "authors": ["Gilles Deleuze", "Felix Guattari"],
-      "year": { "year": 1980 }
+      "year": { "year": 1980 },
+      "authorsFa": ["ژیل دلوز", "فلیکس گتاری"]
     },
     {
       "id": "text-myth-of-sisyphus",
       "kind": "primary-text",
       "title": { "en": "The Myth of Sisyphus", "fa": "افسانهٔ سیزیف" },
       "authors": ["Albert Camus"],
-      "year": { "year": 1942 }
+      "year": { "year": 1942 },
+      "authorsFa": ["آلبر کامو"]
     },
     {
       "id": "text-the-rebel",
@@ -1786,7 +1999,8 @@
       "title": { "en": "The Rebel", "fa": "عصیانگر" },
       "authors": ["Albert Camus"],
       "year": { "year": 1951 },
-      "rightsNote": "The book whose reception ended his friendship with Sartre."
+      "rightsNote": "The book whose reception ended his friendship with Sartre.",
+      "authorsFa": ["آلبر کامو"]
     },
     {
       "id": "text-origin-and-goal-of-history",
@@ -1797,7 +2011,8 @@
       },
       "authors": ["Karl Jaspers"],
       "year": { "year": 1949 },
-      "rightsNote": "The book that named the Axial Age."
+      "rightsNote": "The book that named the Axial Age.",
+      "authorsFa": ["کارل یاسپرس"]
     },
     {
       "id": "text-question-of-german-guilt",
@@ -1807,7 +2022,8 @@
         "fa": "مسئلهٔ گناه آلمانی"
       },
       "authors": ["Karl Jaspers"],
-      "year": { "year": 1946 }
+      "year": { "year": 1946 },
+      "authorsFa": ["کارل یاسپرس"]
     },
     {
       "id": "text-normal-and-pathological",
@@ -1817,14 +2033,16 @@
         "fa": "امر بهنجار و امر بیمارگون"
       },
       "authors": ["Georges Canguilhem"],
-      "rightsNote": "Originally a 1943 medical thesis, extended in 1966."
+      "rightsNote": "Originally a 1943 medical thesis, extended in 1966.",
+      "authorsFa": ["ژرژ کانگیلم"]
     },
     {
       "id": "text-technological-society",
       "kind": "primary-text",
       "title": { "en": "The Technological Society", "fa": "جامعهٔ تکنولوژیک" },
       "authors": ["Jacques Ellul"],
-      "year": { "year": 1954 }
+      "year": { "year": 1954 },
+      "authorsFa": ["ژاک الول"]
     },
     {
       "id": "text-propaganda-ellul",
@@ -1834,7 +2052,8 @@
         "fa": "پروپاگاندا: شکل‌گیری نگرش‌های آدمیان"
       },
       "authors": ["Jacques Ellul"],
-      "year": { "year": 1962 }
+      "year": { "year": 1962 },
+      "authorsFa": ["ژاک الول"]
     },
     {
       "id": "text-mode-of-existence-technical",
@@ -1844,21 +2063,24 @@
         "fa": "دربارهٔ نحوهٔ وجود اشیای فنی"
       },
       "authors": ["Gilbert Simondon"],
-      "year": { "year": 1958 }
+      "year": { "year": 1958 },
+      "authorsFa": ["ژیلبر سیموندون"]
     },
     {
       "id": "text-philosophy-of-liberation",
       "kind": "primary-text",
       "title": { "en": "Philosophy of Liberation", "fa": "فلسفهٔ رهایی‌بخشی" },
       "authors": ["Enrique Dussel"],
-      "year": { "year": 1977 }
+      "year": { "year": 1977 },
+      "authorsFa": ["انریکه دوسل"]
     },
     {
       "id": "text-ethics-of-liberation",
       "kind": "primary-text",
       "title": { "en": "Ethics of Liberation", "fa": "اخلاق رهایی‌بخشی" },
       "authors": ["Enrique Dussel"],
-      "year": { "year": 1998 }
+      "year": { "year": 1998 },
+      "authorsFa": ["انریکه دوسل"]
     },
     {
       "id": "text-amo-apatheia",
@@ -1868,7 +2090,8 @@
         "fa": "دربارهٔ بی‌انفعالی ذهن آدمی"
       },
       "authors": ["Anton Wilhelm Amo"],
-      "year": { "year": 1734 }
+      "year": { "year": 1734 },
+      "authorsFa": ["آنتون ویلهلم آمو"]
     },
     {
       "id": "text-amo-tractatus",
@@ -1878,7 +2101,8 @@
         "fa": "رساله در هنر فلسفیدنِ هشیار و دقیق"
       },
       "authors": ["Anton Wilhelm Amo"],
-      "year": { "year": 1738 }
+      "year": { "year": 1738 },
+      "authorsFa": ["آنتون ویلهلم آمو"]
     },
     {
       "id": "text-cultural-universals",
@@ -1888,7 +2112,8 @@
         "fa": "کلی‌ها و جزئی‌های فرهنگی"
       },
       "authors": ["Kwasi Wiredu"],
-      "year": { "year": 1996 }
+      "year": { "year": 1996 },
+      "authorsFa": ["کواسی ویردو"]
     },
     {
       "id": "text-philosophy-african-culture",
@@ -1898,7 +2123,8 @@
         "fa": "فلسفه و یک فرهنگ آفریقایی"
       },
       "authors": ["Kwasi Wiredu"],
-      "year": { "year": 1980 }
+      "year": { "year": 1980 },
+      "authorsFa": ["کواسی ویردو"]
     },
     {
       "id": "text-how-it-is-cordova",
@@ -1909,7 +2135,8 @@
       },
       "authors": ["Viola F. Cordova"],
       "year": { "year": 2007 },
-      "rightsNote": "Assembled from her papers and published after her death."
+      "rightsNote": "Assembled from her papers and published after her death.",
+      "authorsFa": ["ویولا کوردووا"]
     },
     {
       "id": "text-discourse-on-colonialism",
@@ -1919,7 +2146,8 @@
         "fa": "گفتار دربارهٔ استعمار"
       },
       "authors": ["Aime Cesaire"],
-      "year": { "year": 1950 }
+      "year": { "year": 1950 },
+      "authorsFa": ["امه سزر"]
     },
     {
       "id": "text-cahier",
@@ -1929,7 +2157,8 @@
         "fa": "دفترِ بازگشت به زادبوم"
       },
       "authors": ["Aime Cesaire"],
-      "year": { "year": 1939 }
+      "year": { "year": 1939 },
+      "authorsFa": ["امه سزر"]
     },
     {
       "id": "text-liberte-negritude",
@@ -1939,14 +2168,16 @@
         "fa": "آزادی ۱: نگریتود و انسان‌گرایی"
       },
       "authors": ["Leopold Sedar Senghor"],
-      "year": { "year": 1964 }
+      "year": { "year": 1964 },
+      "authorsFa": ["لئوپولد سدار سنگور"]
     },
     {
       "id": "text-consciencism",
       "kind": "primary-text",
       "title": { "en": "Consciencism", "fa": "آگاهی‌گرایی" },
       "authors": ["Kwame Nkrumah"],
-      "year": { "year": 1964 }
+      "year": { "year": 1964 },
+      "authorsFa": ["کوامه نکرومه"]
     },
     {
       "id": "text-neo-colonialism",
@@ -1956,14 +2187,16 @@
         "fa": "نواستعمار: آخرین مرحلهٔ امپریالیسم"
       },
       "authors": ["Kwame Nkrumah"],
-      "year": { "year": 1965 }
+      "year": { "year": 1965 },
+      "authorsFa": ["کوامه نکرومه"]
     },
     {
       "id": "text-in-my-fathers-house",
       "kind": "primary-text",
       "title": { "en": "In My Father's House", "fa": "در خانهٔ پدرم" },
       "authors": ["Kwame Anthony Appiah"],
-      "year": { "year": 1992 }
+      "year": { "year": 1992 },
+      "authorsFa": ["کوامه آنتونی آپیا"]
     },
     {
       "id": "text-cosmopolitanism-appiah",
@@ -1973,7 +2206,8 @@
         "fa": "جهان‌وطنی: اخلاق در جهانی از بیگانگان"
       },
       "authors": ["Kwame Anthony Appiah"],
-      "year": { "year": 2006 }
+      "year": { "year": 2006 },
+      "authorsFa": ["کوامه آنتونی آپیا"]
     },
     {
       "id": "text-invention-of-women",
@@ -1983,7 +2217,8 @@
         "fa": "اختراع زنان: فهمی آفریقایی از گفتارهای جنسیتی غربی"
       },
       "authors": ["Oyeronke Oyewumi"],
-      "year": { "year": 1997 }
+      "year": { "year": 1997 },
+      "authorsFa": ["اویرونکه اویه‌وومی"]
     },
     {
       "id": "text-unsettling-coloniality",
@@ -1994,7 +2229,8 @@
       },
       "authors": ["Sylvia Wynter"],
       "publisher": "CR: The New Centennial Review",
-      "year": { "year": 2003 }
+      "year": { "year": 2003 },
+      "authorsFa": ["سیلویا وینتر"]
     },
     {
       "id": "text-seven-essays",
@@ -2004,7 +2240,8 @@
         "fa": "هفت جستار تفسیری دربارهٔ واقعیت پرو"
       },
       "authors": ["Jose Carlos Mariategui"],
-      "year": { "year": 1928 }
+      "year": { "year": 1928 },
+      "authorsFa": ["خوسه کارلوس ماریاتگی"]
     },
     {
       "id": "text-borderlands",
@@ -2015,7 +2252,8 @@
       },
       "authors": ["Gloria Anzaldua"],
       "year": { "year": 1987 },
-      "rightsNote": "Written in English, Spanish, Nahuatl and several varieties of border speech, mostly untranslated within the text."
+      "rightsNote": "Written in English, Spanish, Nahuatl and several varieties of border speech, mostly untranslated within the text.",
+      "authorsFa": ["گلوریا آنزالدوا"]
     },
     {
       "id": "text-pedagogy-of-the-oppressed",
@@ -2023,14 +2261,16 @@
       "title": { "en": "Pedagogy of the Oppressed", "fa": "آموزش ستم‌دیدگان" },
       "authors": ["Paulo Freire"],
       "year": { "year": 1968 },
-      "rightsNote": "Written in exile after the 1964 Brazilian coup; published in Portuguese and English before it could appear in Brazil."
+      "rightsNote": "Written in exile after the 1964 Brazilian coup; published in Portuguese and English before it could appear in Brazil.",
+      "authorsFa": ["پائولو فریره"]
     },
     {
       "id": "text-gender-trouble",
       "kind": "primary-text",
       "title": { "en": "Gender Trouble", "fa": "آشفتگی جنسیت" },
       "authors": ["Judith Butler"],
-      "year": { "year": 1990 }
+      "year": { "year": 1990 },
+      "authorsFa": ["جودیت باتلر"]
     },
     {
       "id": "text-bodies-that-matter",
@@ -2038,7 +2278,8 @@
       "title": { "en": "Bodies That Matter", "fa": "بدن‌هایی که اهمیت دارند" },
       "authors": ["Judith Butler"],
       "year": { "year": 1993 },
-      "rightsNote": "Written largely to answer readers who took Gender Trouble to be denying that bodies are material."
+      "rightsNote": "Written largely to answer readers who took Gender Trouble to be denying that bodies are material.",
+      "authorsFa": ["جودیت باتلر"]
     },
     {
       "id": "text-aboriginal-worldviews",
@@ -2049,14 +2290,16 @@
       },
       "authors": ["Mary Graham"],
       "publisher": "Worldviews",
-      "year": { "year": 1999 }
+      "year": { "year": 1999 },
+      "authorsFa": ["مری گراهام"]
     },
     {
       "id": "text-our-sea-of-islands",
       "kind": "primary-text",
       "title": { "en": "Our Sea of Islands", "fa": "دریای جزیره‌های ما" },
       "authors": ["Epeli Hau'ofa"],
-      "year": { "year": 1993 }
+      "year": { "year": 1993 },
+      "authorsFa": ["اپلی هائوفا"]
     },
     {
       "id": "text-aint-i-a-woman",
@@ -2066,7 +2309,8 @@
         "fa": "مگر من زن نیستم: زنان سیاه و فمینیسم"
       },
       "authors": ["bell hooks"],
-      "year": { "year": 1981 }
+      "year": { "year": 1981 },
+      "authorsFa": ["بل هوکس"]
     },
     {
       "id": "text-teaching-to-transgress",
@@ -2076,14 +2320,16 @@
         "fa": "آموزش برای عبور از مرز"
       },
       "authors": ["bell hooks"],
-      "year": { "year": 1994 }
+      "year": { "year": 1994 },
+      "authorsFa": ["بل هوکس"]
     },
     {
       "id": "text-women-race-and-class",
       "kind": "primary-text",
       "title": { "en": "Women, Race and Class", "fa": "زنان، نژاد و طبقه" },
       "authors": ["Angela Y. Davis"],
-      "year": { "year": 1981 }
+      "year": { "year": 1981 },
+      "authorsFa": ["آنجلا دیویس"]
     },
     {
       "id": "text-are-prisons-obsolete",
@@ -2093,7 +2339,8 @@
         "fa": "آیا زندان‌ها منسوخ‌اند؟"
       },
       "authors": ["Angela Y. Davis"],
-      "year": { "year": 2003 }
+      "year": { "year": 2003 },
+      "authorsFa": ["آنجلا دیویس"]
     },
     {
       "id": "text-principia-ethica",
@@ -2101,21 +2348,24 @@
       "title": { "en": "Principia Ethica", "fa": "مبانی اخلاق" },
       "authors": ["G. E. Moore"],
       "year": { "year": 1903 },
-      "rightsNote": "Cited by section."
+      "rightsNote": "Cited by section.",
+      "authorsFa": ["جی. ای. مور"]
     },
     {
       "id": "text-language-truth-logic",
       "kind": "primary-text",
       "title": { "en": "Language, Truth and Logic", "fa": "زبان، حقیقت و منطق" },
       "authors": ["A. J. Ayer"],
-      "year": { "year": 1936 }
+      "year": { "year": 1936 },
+      "authorsFa": ["ای. جی. آیر"]
     },
     {
       "id": "text-concept-of-mind",
       "kind": "primary-text",
       "title": { "en": "The Concept of Mind", "fa": "مفهوم ذهن" },
       "authors": ["Gilbert Ryle"],
-      "year": { "year": 1949 }
+      "year": { "year": 1949 },
+      "authorsFa": ["گیلبرت رایل"]
     },
     {
       "id": "text-two-dogmas",
@@ -2123,14 +2373,16 @@
       "title": { "en": "Two Dogmas of Empiricism", "fa": "دو جزم تجربه‌گرایی" },
       "authors": ["W. V. O. Quine"],
       "publisher": "The Philosophical Review",
-      "year": { "year": 1951 }
+      "year": { "year": 1951 },
+      "authorsFa": ["کواین"]
     },
     {
       "id": "text-word-and-object",
       "kind": "primary-text",
       "title": { "en": "Word and Object", "fa": "واژه و شیء" },
       "authors": ["W. V. O. Quine"],
-      "year": { "year": 1960 }
+      "year": { "year": 1960 },
+      "authorsFa": ["کواین"]
     },
     {
       "id": "text-logic-scientific-discovery",
@@ -2140,7 +2392,8 @@
         "fa": "منطق اکتشاف علمی"
       },
       "authors": ["Karl Popper"],
-      "rightsNote": "Published in German in 1934 and in Popper's own English translation in 1959."
+      "rightsNote": "Published in German in 1934 and in Popper's own English translation in 1959.",
+      "authorsFa": ["کارل پوپر"]
     },
     {
       "id": "text-open-society",
@@ -2150,7 +2403,8 @@
         "fa": "جامعهٔ باز و دشمنانش"
       },
       "authors": ["Karl Popper"],
-      "year": { "year": 1945 }
+      "year": { "year": 1945 },
+      "authorsFa": ["کارل پوپر"]
     },
     {
       "id": "text-structure-scientific-revolutions",
@@ -2161,7 +2415,8 @@
       },
       "authors": ["Thomas S. Kuhn"],
       "year": { "year": 1962 },
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["توماس کوهن"]
     },
     {
       "id": "text-theory-of-justice",
@@ -2169,14 +2424,16 @@
       "title": { "en": "A Theory of Justice", "fa": "نظریه‌ای دربارهٔ عدالت" },
       "authors": ["John Rawls"],
       "year": { "year": 1971 },
-      "rightsNote": "Cited by section."
+      "rightsNote": "Cited by section.",
+      "authorsFa": ["جان رالز"]
     },
     {
       "id": "text-political-liberalism",
       "kind": "primary-text",
       "title": { "en": "Political Liberalism", "fa": "لیبرالیسم سیاسی" },
       "authors": ["John Rawls"],
-      "year": { "year": 1993 }
+      "year": { "year": 1993 },
+      "authorsFa": ["جان رالز"]
     },
     {
       "id": "text-modern-moral-philosophy",
@@ -2184,7 +2441,8 @@
       "title": { "en": "Modern Moral Philosophy", "fa": "فلسفهٔ اخلاق مدرن" },
       "authors": ["G. E. M. Anscombe"],
       "publisher": "Philosophy",
-      "year": { "year": 1958 }
+      "year": { "year": 1958 },
+      "authorsFa": ["الیزابت انسکوم"]
     },
     {
       "id": "text-intention-anscombe",
@@ -2192,28 +2450,32 @@
       "title": { "en": "Intention", "fa": "قصد" },
       "authors": ["G. E. M. Anscombe"],
       "year": { "year": 1957 },
-      "rightsNote": "Cited by numbered section."
+      "rightsNote": "Cited by numbered section.",
+      "authorsFa": ["الیزابت انسکوم"]
     },
     {
       "id": "text-sovereignty-of-good",
       "kind": "primary-text",
       "title": { "en": "The Sovereignty of Good", "fa": "حاکمیت خیر" },
       "authors": ["Iris Murdoch"],
-      "year": { "year": 1970 }
+      "year": { "year": 1970 },
+      "authorsFa": ["آیریس مرداک"]
     },
     {
       "id": "text-fragility-of-goodness",
       "kind": "primary-text",
       "title": { "en": "The Fragility of Goodness", "fa": "شکنندگی نیکی" },
       "authors": ["Martha Nussbaum"],
-      "year": { "year": 1986 }
+      "year": { "year": 1986 },
+      "authorsFa": ["مارتا نوسباوم"]
     },
     {
       "id": "text-creating-capabilities",
       "kind": "primary-text",
       "title": { "en": "Creating Capabilities", "fa": "آفریدن قابلیت‌ها" },
       "authors": ["Martha Nussbaum"],
-      "year": { "year": 2011 }
+      "year": { "year": 2011 },
+      "authorsFa": ["مارتا نوسباوم"]
     },
     {
       "id": "text-philosophy-and-mirror",
@@ -2223,7 +2485,8 @@
         "fa": "فلسفه و آینهٔ طبیعت"
       },
       "authors": ["Richard Rorty"],
-      "year": { "year": 1979 }
+      "year": { "year": 1979 },
+      "authorsFa": ["ریچارد رورتی"]
     },
     {
       "id": "text-contingency-irony-solidarity",
@@ -2233,14 +2496,16 @@
         "fa": "امکان، طعنه و همبستگی"
       },
       "authors": ["Richard Rorty"],
-      "year": { "year": 1989 }
+      "year": { "year": 1989 },
+      "authorsFa": ["ریچارد رورتی"]
     },
     {
       "id": "text-road-to-serfdom",
       "kind": "primary-text",
       "title": { "en": "The Road to Serfdom", "fa": "راه بردگی" },
       "authors": ["Friedrich Hayek"],
-      "year": { "year": 1944 }
+      "year": { "year": 1944 },
+      "authorsFa": ["فریدریش هایک"]
     },
     {
       "id": "text-use-of-knowledge",
@@ -2251,21 +2516,24 @@
       },
       "authors": ["Friedrich Hayek"],
       "publisher": "The American Economic Review",
-      "year": { "year": 1945 }
+      "year": { "year": 1945 },
+      "authorsFa": ["فریدریش هایک"]
     },
     {
       "id": "text-development-as-freedom",
       "kind": "primary-text",
       "title": { "en": "Development as Freedom", "fa": "توسعه همچون آزادی" },
       "authors": ["Amartya Sen"],
-      "year": { "year": 1999 }
+      "year": { "year": 1999 },
+      "authorsFa": ["آمارتیا سن"]
     },
     {
       "id": "text-idea-of-justice",
       "kind": "primary-text",
       "title": { "en": "The Idea of Justice", "fa": "ایدهٔ عدالت" },
       "authors": ["Amartya Sen"],
-      "year": { "year": 2009 }
+      "year": { "year": 2009 },
+      "authorsFa": ["آمارتیا سن"]
     },
     {
       "id": "text-ethics-inventing",
@@ -2275,7 +2543,8 @@
         "fa": "اخلاق: اختراع درست و نادرست"
       },
       "authors": ["J. L. Mackie"],
-      "year": { "year": 1977 }
+      "year": { "year": 1977 },
+      "authorsFa": ["جی. ال. مکی"]
     },
     {
       "id": "text-virtues-and-vices",
@@ -2283,21 +2552,24 @@
       "title": { "en": "Virtues and Vices", "fa": "فضیلت‌ها و رذیلت‌ها" },
       "authors": ["Philippa Foot"],
       "year": { "year": 1978 },
-      "rightsNote": "Collects the 1967 paper in which the trolley case first appears, as one example among several in an argument about abortion and double effect."
+      "rightsNote": "Collects the 1967 paper in which the trolley case first appears, as one example among several in an argument about abortion and double effect.",
+      "authorsFa": ["فیلیپا فوت"]
     },
     {
       "id": "text-natural-goodness",
       "kind": "primary-text",
       "title": { "en": "Natural Goodness", "fa": "نیکیِ طبیعی" },
       "authors": ["Philippa Foot"],
-      "year": { "year": 2001 }
+      "year": { "year": 2001 },
+      "authorsFa": ["فیلیپا فوت"]
     },
     {
       "id": "text-animal-liberation",
       "kind": "primary-text",
       "title": { "en": "Animal Liberation", "fa": "رهایی حیوانات" },
       "authors": ["Peter Singer"],
-      "year": { "year": 1975 }
+      "year": { "year": 1975 },
+      "authorsFa": ["پیتر سینگر"]
     },
     {
       "id": "text-famine-affluence-morality",
@@ -2308,7 +2580,8 @@
       },
       "authors": ["Peter Singer"],
       "publisher": "Philosophy & Public Affairs",
-      "year": { "year": 1972 }
+      "year": { "year": 1972 },
+      "authorsFa": ["پیتر سینگر"]
     },
     {
       "id": "text-defense-of-abortion",
@@ -2316,28 +2589,32 @@
       "title": { "en": "A Defense of Abortion", "fa": "دفاعی از سقط جنین" },
       "authors": ["Judith Jarvis Thomson"],
       "publisher": "Philosophy & Public Affairs",
-      "year": { "year": 1971 }
+      "year": { "year": 1971 },
+      "authorsFa": ["جودیت جارویس تامسون"]
     },
     {
       "id": "text-concept-of-law",
       "kind": "primary-text",
       "title": { "en": "The Concept of Law", "fa": "مفهوم قانون" },
       "authors": ["H. L. A. Hart"],
-      "year": { "year": 1961 }
+      "year": { "year": 1961 },
+      "authorsFa": ["اچ. ال. ای. هارت"]
     },
     {
       "id": "text-taking-rights-seriously",
       "kind": "primary-text",
       "title": { "en": "Taking Rights Seriously", "fa": "جدی‌گرفتن حقوق" },
       "authors": ["Ronald Dworkin"],
-      "year": { "year": 1977 }
+      "year": { "year": 1977 },
+      "authorsFa": ["رونالد دورکین"]
     },
     {
       "id": "text-laws-empire",
       "kind": "primary-text",
       "title": { "en": "Law's Empire", "fa": "امپراتوری قانون" },
       "authors": ["Ronald Dworkin"],
-      "year": { "year": 1986 }
+      "year": { "year": 1986 },
+      "authorsFa": ["رونالد دورکین"]
     },
     {
       "id": "text-godel-1931",
@@ -2348,7 +2625,8 @@
       },
       "authors": ["Kurt Godel"],
       "publisher": "Monatshefte fur Mathematik und Physik",
-      "year": { "year": 1931 }
+      "year": { "year": 1931 },
+      "authorsFa": ["کورت گودل"]
     },
     {
       "id": "text-brouwer-intuitionism",
@@ -2359,7 +2637,8 @@
       },
       "authors": ["L. E. J. Brouwer"],
       "publisher": "Bulletin of the American Mathematical Society",
-      "year": { "year": 1913 }
+      "year": { "year": 1913 },
+      "authorsFa": ["ال. ای. یی. براوئر"]
     },
     {
       "id": "text-transfiguration-commonplace",
@@ -2369,7 +2648,8 @@
         "fa": "استحالهٔ امر پیش‌پاافتاده"
       },
       "authors": ["Arthur C. Danto"],
-      "year": { "year": 1981 }
+      "year": { "year": 1981 },
+      "authorsFa": ["آرتور دانتو"]
     },
     {
       "id": "text-cyborg-manifesto",
@@ -2377,7 +2657,8 @@
       "title": { "en": "A Cyborg Manifesto", "fa": "بیانیهٔ سایبورگ" },
       "authors": ["Donna Haraway"],
       "publisher": "Socialist Review",
-      "year": { "year": 1985 }
+      "year": { "year": 1985 },
+      "authorsFa": ["دانا هاراوی"]
     },
     {
       "id": "text-situated-knowledges",
@@ -2385,14 +2666,16 @@
       "title": { "en": "Situated Knowledges", "fa": "معرفت‌های موقعیت‌مند" },
       "authors": ["Donna Haraway"],
       "publisher": "Feminist Studies",
-      "year": { "year": 1988 }
+      "year": { "year": 1988 },
+      "authorsFa": ["دانا هاراوی"]
     },
     {
       "id": "text-staying-with-the-trouble",
       "kind": "primary-text",
       "title": { "en": "Staying with the Trouble", "fa": "ماندن با دردسر" },
       "authors": ["Donna Haraway"],
-      "year": { "year": 2016 }
+      "year": { "year": 2016 },
+      "authorsFa": ["دانا هاراوی"]
     },
     {
       "id": "text-science-as-social-knowledge",
@@ -2402,35 +2685,40 @@
         "fa": "علم همچون معرفت اجتماعی"
       },
       "authors": ["Helen Longino"],
-      "year": { "year": 1990 }
+      "year": { "year": 1990 },
+      "authorsFa": ["هلن لانجینو"]
     },
     {
       "id": "text-fate-of-knowledge",
       "kind": "primary-text",
       "title": { "en": "The Fate of Knowledge", "fa": "سرنوشت معرفت" },
       "authors": ["Helen Longino"],
-      "year": { "year": 2002 }
+      "year": { "year": 2002 },
+      "authorsFa": ["هلن لانجینو"]
     },
     {
       "id": "text-synesius-letters",
       "kind": "primary-text",
       "title": { "en": "Letters", "fa": "نامه‌ها" },
       "authors": ["Synesius of Cyrene"],
-      "rightsNote": "Seven of the surviving letters are addressed to Hypatia, and are the only near-contemporary evidence about her teaching; none of her own writing survives."
+      "rightsNote": "Seven of the surviving letters are addressed to Hypatia, and are the only near-contemporary evidence about her teaching; none of her own writing survives.",
+      "authorsFa": ["سینسیوس کورنه‌ای"]
     },
     {
       "id": "text-proslogion-anselm-reply",
       "kind": "primary-text",
       "title": { "en": "Reply to Gaunilo", "fa": "پاسخ به گاونیلو" },
       "authors": ["Anselm of Canterbury"],
-      "rightsNote": "Printed with the Proslogion together with Gaunilo's objection, at Anselm's own instruction."
+      "rightsNote": "Printed with the Proslogion together with Gaunilo's objection, at Anselm's own instruction.",
+      "authorsFa": ["آنسلم"]
     },
     {
       "id": "text-ockham-quodlibeta",
       "kind": "primary-text",
       "title": { "en": "Quodlibetal Questions", "fa": "پرسش‌های آزاد" },
       "authors": ["William of Ockham"],
-      "rightsNote": "Records of public disputations in which any question could be put; cited by quodlibet and question."
+      "rightsNote": "Records of public disputations in which any question could be put; cited by quodlibet and question.",
+      "authorsFa": ["اکام"]
     },
     {
       "id": "text-frege-sinn-bedeutung",
@@ -2438,7 +2726,8 @@
       "title": { "en": "On Sense and Reference", "fa": "دربارهٔ معنا و مصداق" },
       "authors": ["Gottlob Frege"],
       "publisher": "Zeitschrift fur Philosophie und philosophische Kritik",
-      "year": { "year": 1892 }
+      "year": { "year": 1892 },
+      "authorsFa": ["فرگه"]
     },
     {
       "id": "text-grundlagen",
@@ -2446,56 +2735,64 @@
       "title": { "en": "The Foundations of Arithmetic", "fa": "مبانی حساب" },
       "authors": ["Gottlob Frege"],
       "year": { "year": 1884 },
-      "rightsNote": "Cited by section."
+      "rightsNote": "Cited by section.",
+      "authorsFa": ["فرگه"]
     },
     {
       "id": "text-visible-invisible",
       "kind": "primary-text",
       "title": { "en": "The Visible and the Invisible", "fa": "مرئی و نامرئی" },
       "authors": ["Maurice Merleau-Ponty"],
-      "rightsNote": "Left unfinished at his death in 1961 and published with his working notes."
+      "rightsNote": "Left unfinished at his death in 1961 and published with his working notes.",
+      "authorsFa": ["مرلوپونتی"]
     },
     {
       "id": "text-primer-sueno",
       "kind": "primary-text",
       "title": { "en": "First Dream", "fa": "خواب نخستین" },
       "authors": ["Sor Juana Ines de la Cruz"],
-      "rightsNote": "A philosophical poem of nearly a thousand lines, and the work she said was the only one she wrote for her own pleasure."
+      "rightsNote": "A philosophical poem of nearly a thousand lines, and the work she said was the only one she wrote for her own pleasure.",
+      "authorsFa": ["سور خوانا"]
     },
     {
       "id": "text-mencius-book",
       "kind": "primary-text",
       "title": { "en": "Mengzi", "fa": "منگ‌دزه" },
       "authors": ["Mencius"],
-      "rightsNote": "Cited by book and passage."
+      "rightsNote": "Cited by book and passage.",
+      "authorsFa": ["منسیوس"]
     },
     {
       "id": "text-xunzi-text",
       "kind": "primary-text",
       "title": { "en": "Xunzi", "fa": "شون‌دزه" },
       "authors": ["Xunzi"],
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["شون‌تزه"]
     },
     {
       "id": "text-hanfeizi-text",
       "kind": "primary-text",
       "title": { "en": "Han Feizi", "fa": "هان فی‌دزه" },
       "authors": ["Han Feizi"],
-      "rightsNote": "Cited by chapter."
+      "rightsNote": "Cited by chapter.",
+      "authorsFa": ["هان فی‌تزه"]
     },
     {
       "id": "text-abhidharmakosa",
       "kind": "primary-text",
       "title": { "en": "Treasury of Abhidharma", "fa": "گنجینهٔ ابهیدرمه" },
       "authors": ["Vasubandhu"],
-      "rightsNote": "Verses with the author's own commentary, in which he argues against several of the positions the verses set out."
+      "rightsNote": "Verses with the author's own commentary, in which he argues against several of the positions the verses set out.",
+      "authorsFa": ["واسوباندو"]
     },
     {
       "id": "text-nyayapravesa",
       "kind": "primary-text",
       "title": { "en": "Introduction to Logic", "fa": "درآمدی بر منطق" },
       "authors": ["Dignaga"],
-      "rightsNote": "Dignaga's logical works survive mainly in Tibetan and Chinese translation; most of the Sanskrit is lost."
+      "rightsNote": "Dignaga's logical works survive mainly in Tibetan and Chinese translation; most of the Sanskrit is lost.",
+      "authorsFa": ["دیگناگه"]
     },
     {
       "id": "kant-idea-universal-history",
@@ -2506,7 +2803,8 @@
       },
       "authors": ["Immanuel Kant"],
       "year": { "year": 1784 },
-      "rightsNote": "Cited by proposition, which is stable across editions and translations."
+      "rightsNote": "Cited by proposition, which is stable across editions and translations.",
+      "authorsFa": ["ایمانوئل کانت"]
     },
     {
       "id": "nietzsche-beyond-good-evil",
@@ -2514,7 +2812,8 @@
       "title": { "en": "Beyond Good and Evil", "fa": "فراسوی نیک و بد" },
       "authors": ["Friedrich Nietzsche"],
       "year": { "year": 1886 },
-      "rightsNote": "Cited by numbered aphorism, which is stable across editions."
+      "rightsNote": "Cited by numbered aphorism, which is stable across editions.",
+      "authorsFa": ["فریدریش نیچه"]
     },
     {
       "id": "khayyam-rubaiyat-fitzgerald",
@@ -2525,7 +2824,8 @@
       },
       "authors": ["Edward FitzGerald"],
       "year": { "year": 1859 },
-      "rightsNote": "FitzGerald called his own work a paraphrase rather than a translation, and the quatrains he worked from are themselves only attributed to Khayyam. Quoted here as FitzGerald's English, not as Khayyam's Persian."
+      "rightsNote": "FitzGerald called his own work a paraphrase rather than a translation, and the quatrains he worked from are themselves only attributed to Khayyam. Quoted here as FitzGerald's English, not as Khayyam's Persian.",
+      "authorsFa": ["ادوارد فیتزجرالد"]
     }
   ]
 }

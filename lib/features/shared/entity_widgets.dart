@@ -1004,7 +1004,7 @@ class CitationList extends StatelessWidget {
               if (source == null) return const SizedBox.shrink();
               final locator = citation.locator;
               final title = source.title.resolve(language);
-              final authors = source.authors.join(', ');
+              final authors = source.authorsIn(language).join('، ');
               final parts = <String>[
                 if (authors.isNotEmpty) authors,
                 title,

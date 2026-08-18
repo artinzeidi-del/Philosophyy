@@ -283,6 +283,33 @@ void main() {
       }
     });
 
+    test('every cited author has a Persian name', () {
+      // Under a Persian article the citation line read «Plato · جمهوری · 507b»
+      // — the work translated and the author left in Latin, in the middle of a
+      // right-to-left line, in a product whose main audience reads Persian.
+      //
+      // Most Persian renderings come from the philosopher's own record, so the
+      // two cannot drift apart; the rest are editors and canons with no entry
+      // of their own. Either way a source with authors must have both forms.
+      final bare = <String>[];
+      for (final source in corpus.sources) {
+        if (source.authors.isEmpty) continue;
+        if (source.authorsFa.length != source.authors.length) {
+          bare.add(
+            'source:${source.id} prints ${source.authors.join(', ')} in '
+            'Persian too',
+          );
+        }
+      }
+      expect(
+        bare,
+        isEmpty,
+        reason:
+            'add the Persian form to assets/content/sources.json:\n  '
+            '${bare.join('\n  ')}',
+      );
+    });
+
     test('every passage of authored prose names its sources', () {
       // Sourcing used to be uneven in a way a reader would notice: a
       // philosopher's standard section carried its citations and the in-depth

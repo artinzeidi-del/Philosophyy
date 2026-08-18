@@ -179,6 +179,7 @@ abstract final class ContentMappers {
     kind: reader.requiredEnum('kind', SourceKind.fromId, _sourceKindIds),
     title: requiredLocalized(reader, 'title'),
     authors: reader.stringList('authors'),
+    authorsFa: reader.stringList('authorsFa'),
     year: optionalYear(reader, 'year'),
     publisher: reader.string('publisher'),
     edition: reader.string('edition'),

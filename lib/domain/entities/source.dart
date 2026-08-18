@@ -1,3 +1,4 @@
+import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/historical_date.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
@@ -19,6 +20,7 @@ class Source {
     required this.kind,
     required this.title,
     this.authors = const <String>[],
+    this.authorsFa = const <String>[],
     this.year,
     this.publisher,
     this.edition,
@@ -41,6 +43,19 @@ class Source {
 
   /// Author or editor names, as printed.
   final List<String> authors;
+
+  /// The same names in Persian.
+  ///
+  /// A citation under a Persian article used to read «Plato · جمهوری · 507b»:
+  /// the work translated, the author left in Latin, in the middle of a
+  /// right-to-left line. Held separately rather than as a [LocalizedText]
+  /// because there can be several authors and they are localised as a set.
+  final List<String> authorsFa;
+
+  /// The author names to print in [language], falling back to the English
+  /// forms when no Persian rendering has been recorded.
+  List<String> authorsIn(AppLanguage language) =>
+      language == AppLanguage.fa && authorsFa.isNotEmpty ? authorsFa : authors;
 
   /// Year of this edition or of composition, when known.
   final HistoricalYear? year;
