@@ -282,6 +282,44 @@ void main() {
         );
       }
     });
+
+    test('a quotation does not contradict its own attribution', () {
+      // Found on screen rather than by any test: the opening couplet of the
+      // Masnavī — a line every Persian reader knows — was displayed badged as
+      // verified and captioned "corresponds to no located line". The audit
+      // that removed a fabricated Rūmī line had put the genuine couplet in its
+      // place and left the debunking note behind, so the app was warning
+      // readers away from the one quotation on the card that was certainly
+      // real.
+      //
+      // Two rules, both mechanical. `actualSource` names where a line really
+      // comes from when it is attributed to the wrong person; on a verified
+      // quotation it has nothing to say. And a note that reports failure to
+      // trace the line cannot sit under a badge asserting it was traced.
+      final untraced = RegExp(
+        r'not (been )?(traced|identified|located)|no located|does not appear',
+        caseSensitive: false,
+      );
+      final problems = <String>[];
+
+      for (final quote in corpus.quotes) {
+        if (quote.attribution != AttributionStatus.verified) continue;
+        if (quote.actualSource != null) {
+          problems.add(
+            'quote:${quote.id} is verified and still carries an actualSource, '
+            'which is the field for a line attributed to the wrong person',
+          );
+        }
+        final note = quote.attributionNote?.en;
+        if (note != null && untraced.hasMatch(note)) {
+          problems.add(
+            'quote:${quote.id} is badged verified and its note says the line '
+            'could not be traced: "$note"',
+          );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
   });
 
   group('Coverage', () {

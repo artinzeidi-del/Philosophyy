@@ -435,7 +435,7 @@
       "citation": { "source": "avicenna-shifa", "locator": "De anima I.1" }
     },
     {
-      "id": "rumi-wound",
+      "id": "rumi-reed",
       "text": {
         "en": "Listen to this reed, how it complains; it tells the tale of separations.",
         "fa": "بشنو این نی چون شکایت می‌کند / از جدایی‌ها حکایت می‌کند"
@@ -443,12 +443,8 @@
       "speaker": "rumi",
       "attribution": "verified",
       "attributionNote": {
-        "en": "Circulates everywhere in English and corresponds to no located line in the Masnavī. It is a modern rendering in the tradition of loose versions made from earlier translations, and its Persian original — if there is one — has not been identified here.",
-        "fa": "در انگلیسی همه‌جا در گردش است و با هیچ سطرِ مشخصی در مثنوی مطابقت ندارد. برگردانی امروزی است در سنتِ روایت‌های آزاد از ترجمه‌های پیشین، و اصل فارسی‌اش — اگر باشد — در اینجا شناسایی نشده است."
-      },
-      "actualSource": {
-        "en": "Attributed to Rūmī in English collections; not traced to a Persian line.",
-        "fa": "در مجموعه‌های انگلیسی به مولوی نسبت داده شده؛ به سطری فارسی ردیابی نشده است."
+        "en": "The opening couplet of the Masnavī, quoted here in a plain rendering. English versions differ widely, because the Persian puns on the reed flute and the reed pen and no translation carries both.",
+        "fa": "بیت آغازین مثنوی، که اینجا به‌سادگی نقل شده است. روایت‌های انگلیسی بسیار با هم فرق دارند، چون فارسیِ بیت میان نیِ نوازنده و نیِ نویسنده بازی می‌کند و هیچ ترجمه‌ای هر دو را با خود نمی‌برد."
       },
       "citation": { "source": "text-masnavi", "locator": "Daftar I, lines 1–2" },
       "originalText": "بشنو این نی چون شکایت می‌کند / از جدایی‌ها حکایت می‌کند",
