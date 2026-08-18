@@ -539,9 +539,5 @@
   "homeTileGlossaryCaption": "Words worth defining",
   "@homeTileGlossaryCaption": {
     "description": "Caption under the glossary tile."
-  },
-  "homeReadOn": "Read on",
-  "@homeReadOn": {
-    "description": "Label on the card that reopens the last entry read."
   }
 }

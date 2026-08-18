@@ -132,6 +132,9 @@ class SettingsScreen extends ConsumerWidget {
                     onTap: () => showLicensePage(
                       context: context,
                       applicationName: l10n.appName,
+                      // The tagline belongs on a page a reader opens once,
+                      // not under the masthead on every visit.
+                      applicationLegalese: l10n.appTagline,
                     ),
                   ),
                 ],
