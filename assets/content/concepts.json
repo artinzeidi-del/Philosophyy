@@ -51,7 +51,14 @@
       "name": { "en": "The Forms", "fa": "نظریهٔ صور (مُثُل)" },
       "nativeTerm": "εἶδος",
       "transliteration": "eidos",
-      "alsoKnownAs": ["Ideas", "Platonic Forms", "مُثُل افلاطونی", "ایده‌ها"],
+      "alsoKnownAs": [
+        "Ideas",
+        "Platonic Forms",
+        "مُثُل افلاطونی",
+        "ایده‌ها",
+        "Theory of Forms",
+        "Platonic Ideas"
+      ],
       "oneLine": {
         "en": "The claim that what makes many things beautiful is one thing that is beauty itself.",
         "fa": "این ادعا که آنچه چیزهای بسیار را زیبا می‌کند، یک چیز است: خودِ زیبایی."
@@ -115,7 +122,14 @@
       "name": { "en": "Eudaimonia", "fa": "سعادت (اِئودایمونیا)" },
       "nativeTerm": "εὐδαιμονία",
       "transliteration": "eudaimonia",
-      "alsoKnownAs": ["flourishing", "happiness", "شکوفایی", "بهروزی"],
+      "alsoKnownAs": [
+        "flourishing",
+        "happiness",
+        "شکوفایی",
+        "بهروزی",
+        "Flourishing",
+        "Human flourishing"
+      ],
       "oneLine": {
         "en": "Not feeling good, but a whole life going well.",
         "fa": "نه احساس خوب، بلکه یک زندگیِ تمام که خوب پیش می‌رود."
@@ -450,14 +464,23 @@
       "citations": [
         { "source": "kant-critique-pure-reason" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Kant's moral law", "The moral law"]
     },
     {
       "id": "sunyata",
       "name": { "en": "Emptiness", "fa": "تهی‌بودگی (شونیه‌تا)" },
       "nativeTerm": "शून्यता",
       "transliteration": "śūnyatā",
-      "alsoKnownAs": ["sunyata", "shunyata", "emptiness", "خلأ"],
+      "alsoKnownAs": [
+        "sunyata",
+        "shunyata",
+        "emptiness",
+        "خلأ",
+        "Śūnyatā",
+        "Sunyata",
+        "voidness"
+      ],
       "oneLine": {
         "en": "Nothing stands on its own; everything is what it is by depending on other things.",
         "fa": "هیچ‌چیز روی پای خودش نمی‌ایستد؛ هر چیز به‌خاطر وابستگی به چیزهای دیگر همان است که هست."
@@ -503,7 +526,15 @@
       "name": { "en": "Ren", "fa": "رِن (انسان‌دوستی)" },
       "nativeTerm": "仁",
       "transliteration": "rén",
-      "alsoKnownAs": ["benevolence", "humaneness", "co-humanity"],
+      "alsoKnownAs": [
+        "benevolence",
+        "humaneness",
+        "co-humanity",
+        "Ren",
+        "Jen",
+        "Benevolence",
+        "Humaneness"
+      ],
       "oneLine": {
         "en": "The quality that makes someone worth being around, which no rule can fully specify.",
         "fa": "همان کیفیتی که بودن در کنار کسی را ارزشمند می‌کند، و هیچ قاعده‌ای نمی‌تواند کاملاً تعریفش کند."
@@ -559,7 +590,8 @@
       },
       "philosophers": ["du-bois"],
       "works": ["souls-of-black-folk"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "alsoKnownAs": ["Double consciousness", "Twoness"]
     },
     {
       "id": "dao",
@@ -599,7 +631,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Tao", "the Way"]
     },
     {
       "id": "wu-wei",
@@ -639,7 +672,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Wu-wei", "Wuwei", "non-action", "effortless action"]
     },
     {
       "id": "li-ritual",
@@ -678,7 +712,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Li", "Ritual propriety"]
     },
     {
       "id": "anekantavada",
@@ -909,7 +944,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Pratītyasamutpāda", "Conditioned arising"]
     },
     {
       "id": "negative-theology",
@@ -991,7 +1027,12 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": [
+        "Wahdat al-wujud",
+        "Unity of being",
+        "Oneness of existence"
+      ]
     },
     {
       "id": "asabiyyah",
@@ -1033,7 +1074,13 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": [
+        "Asabiyya",
+        "Asabiyyah",
+        "Group feeling",
+        "Social solidarity"
+      ]
     },
     {
       "id": "illumination",
@@ -1484,7 +1531,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Banality of evil"]
     },
     {
       "id": "capabilities-approach",
@@ -1602,7 +1650,10 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Ubuntu", "Umuntu ngumuntu ngabantu"],
+      "nativeTerm": "ubuntu",
+      "transliteration": "ubuntu"
     },
     {
       "id": "normal-and-pathological",
@@ -1725,7 +1776,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Unconscious mind", "Subconscious"]
     },
     {
       "id": "category-mistake",
@@ -2104,7 +2156,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Effective altruism", "Famine, affluence and morality"]
     },
     {
       "id": "legal-positivism",
@@ -2323,7 +2376,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Absurdism", "The absurd"]
     },
     {
       "id": "intersecting-oppression",
@@ -2363,7 +2417,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Intersectionality", "Intersecting oppressions"]
     },
     {
       "id": "prison-abolition",
@@ -2403,7 +2458,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Prison abolition", "Abolitionism"]
     },
     {
       "id": "scientific-method-doubt",
@@ -2442,7 +2498,8 @@
             }
           }
         ]
-      }
+      },
+      "alsoKnownAs": ["Scientific method", "Experimental method"]
     }
   ]
 }

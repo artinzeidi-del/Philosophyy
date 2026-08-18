@@ -280,7 +280,7 @@
       "name": { "en": "Confucius", "fa": "کنفوسیوس" },
       "nativeName": "孔子",
       "transliteration": "Kǒngzǐ",
-      "alsoKnownAs": ["Kong Qiu", "Kongzi", "Master Kong"],
+      "alsoKnownAs": ["Kong Qiu", "Kongzi", "Master Kong", "Kung Fu-tzu"],
       "oneLine": {
         "en": "Taught that a society is repaired by people becoming worth imitating, not by better rules.",
         "fa": "آموخت که جامعه با آدم‌هایی که الگو می‌شوند سامان می‌گیرد، نه با قانون‌های بهتر."
@@ -404,7 +404,8 @@
       "concepts": ["dependent-origination", "sunyata"],
       "works": ["mulamadhyamakakarika"],
       "schools": ["madhyamaka"],
-      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }]
+      "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }],
+      "alsoKnownAs": ["Nagarjuna"]
     },
     {
       "id": "ibn-sina",
@@ -558,7 +559,13 @@
       "name": { "en": "Mullā Ṣadrā", "fa": "ملاصدرا" },
       "nativeName": "صدر الدین محمد شیرازی",
       "transliteration": "Ṣadr al-Dīn Muḥammad Shīrāzī",
-      "alsoKnownAs": ["Sadr al-Din Shirazi", "صدرالمتألهین"],
+      "alsoKnownAs": [
+        "Sadr al-Din Shirazi",
+        "صدرالمتألهین",
+        "Mulla Sadra",
+        "Sadr al-Din al-Shirazi",
+        "Sadra"
+      ],
       "oneLine": {
         "en": "Held that existence is prior to essence, and that substances themselves are in motion.",
         "fa": "معتقد بود هستی بر ماهیت مقدم است و خودِ جوهرها در حرکت‌اند."
@@ -726,7 +733,8 @@
       },
       "concepts": ["categorical-imperative"],
       "works": ["critique-of-pure-reason"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "alsoKnownAs": ["Noumenon", "Thing-in-itself", "Noumena"]
     },
     {
       "id": "nietzsche",
@@ -784,7 +792,8 @@
         ]
       },
       "works": ["gay-science"],
-      "citations": [{ "source": "nietzsche-gay-science" }, { "source": "sep" }]
+      "citations": [{ "source": "nietzsche-gay-science" }, { "source": "sep" }],
+      "alsoKnownAs": ["Übermensch", "Ubermensch", "Overman", "Superman"]
     },
     {
       "id": "beauvoir",
@@ -962,7 +971,8 @@
       "works": ["daodejing"],
       "schools": ["daoism"],
       "concepts": ["dao", "wu-wei"],
-      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
+      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }],
+      "alsoKnownAs": ["Lao Tzu", "Lao-tzu", "Lao Zi", "Laotse"]
     },
     {
       "id": "zhuangzi",
@@ -1013,7 +1023,8 @@
       "works": ["zhuangzi-book"],
       "schools": ["daoism"],
       "concepts": ["dao", "wu-wei"],
-      "citations": [{ "source": "text-zhuangzi-book" }, { "source": "sep" }]
+      "citations": [{ "source": "text-zhuangzi-book" }, { "source": "sep" }],
+      "alsoKnownAs": ["Chuang Tzu", "Chuang-tzu", "Chuang Chou", "Zhuang Zhou"]
     },
     {
       "id": "mencius",
@@ -1072,7 +1083,8 @@
         { "source": "text-mencius-book" },
         { "source": "text-mengzi" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Mengzi", "Meng Ke"]
     },
     {
       "id": "xunzi",
@@ -1129,7 +1141,8 @@
         { "source": "text-xunzi-text" },
         { "source": "text-xunzi-book" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Hsun Tzu", "Xun Kuang"]
     },
     {
       "id": "mozi",
@@ -1183,7 +1196,8 @@
       "nativeName": "墨子",
       "transliteration": "Mòzǐ",
       "schools": ["mohism"],
-      "citations": [{ "source": "text-mozi-book" }, { "source": "sep" }]
+      "citations": [{ "source": "text-mozi-book" }, { "source": "sep" }],
+      "alsoKnownAs": ["Mo Tzu", "Mo Di", "Micius"]
     },
     {
       "id": "han-feizi",
@@ -1413,6 +1427,12 @@
         { "source": "text-samyutta-nikaya" },
         { "source": "text-dhammapada" },
         { "source": "sep" }
+      ],
+      "alsoKnownAs": [
+        "Siddhartha Gautama",
+        "Gautama Buddha",
+        "Shakyamuni",
+        "Sakyamuni"
       ]
     },
     {
@@ -1469,7 +1489,8 @@
       "citations": [
         { "source": "text-brahma-sutra-bhasya" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Shankara", "Adi Shankara", "Shankaracharya"]
     },
     {
       "id": "ramanuja",
@@ -1522,7 +1543,8 @@
       "works": ["sri-bhasya"],
       "schools": ["vishishtadvaita"],
       "concepts": ["pramana"],
-      "citations": [{ "source": "text-sri-bhasya" }, { "source": "sep" }]
+      "citations": [{ "source": "text-sri-bhasya" }, { "source": "sep" }],
+      "alsoKnownAs": ["Ramanuja"]
     },
     {
       "id": "vasubandhu",
@@ -1700,7 +1722,8 @@
         { "source": "text-tattvartha-sutra" },
         { "source": "text-acaranga-sutra" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Mahavira", "Vardhamana"]
     },
     {
       "id": "dogen",
@@ -1756,7 +1779,8 @@
       "transliteration": "Dōgen Zenji",
       "works": ["shobogenzo"],
       "schools": ["zen"],
-      "citations": [{ "source": "text-shobogenzo" }, { "source": "sep" }]
+      "citations": [{ "source": "text-shobogenzo" }, { "source": "sep" }],
+      "alsoKnownAs": ["Dogen", "Dogen Zenji", "Eihei Dogen"]
     },
     {
       "id": "nishida",
@@ -1884,7 +1908,8 @@
         { "source": "sep" }
       ],
       "nativeName": "空海",
-      "transliteration": "Kūkai"
+      "transliteration": "Kūkai",
+      "alsoKnownAs": ["Kukai", "Kobo Daishi"]
     },
     {
       "id": "wonhyo",
@@ -2161,7 +2186,8 @@
       "citations": [
         { "source": "text-guide-for-the-perplexed" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Moses ben Maimon", "Rambam", "Musa ibn Maymun"]
     },
     {
       "id": "augustine",
@@ -2894,7 +2920,8 @@
       },
       "works": ["being-and-time"],
       "schools": ["phenomenology"],
-      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }]
+      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }],
+      "alsoKnownAs": ["Dasein"]
     },
     {
       "id": "sartre",
@@ -3298,7 +3325,8 @@
       "nativeName": "ዘርአ ያዕቆብ",
       "transliteration": "Zärʾa Yaʿəqob",
       "works": ["hatata"],
-      "citations": [{ "source": "text-hatata" }, { "source": "sep" }]
+      "citations": [{ "source": "text-hatata" }, { "source": "sep" }],
+      "alsoKnownAs": ["Zera Yacob", "Zara Yaqob"]
     },
     {
       "id": "anton-wilhelm-amo",
@@ -3522,7 +3550,8 @@
         { "source": "sep" }
       ],
       "nativeName": "Nezahualcōyōtl",
-      "transliteration": "Nezahualcōyōtl"
+      "transliteration": "Nezahualcōyōtl",
+      "alsoKnownAs": ["Nezahualcoyotl"]
     },
     {
       "id": "sor-juana",
@@ -3583,7 +3612,8 @@
         { "source": "text-primer-sueno" },
         { "source": "text-respuesta" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Sor Juana", "Juana Ines de la Cruz"]
     },
     {
       "id": "dussel",
@@ -4496,7 +4526,8 @@
         { "source": "sep" }
       ],
       "nativeName": "Ἐπίκουρος",
-      "transliteration": "Epikouros"
+      "transliteration": "Epikouros",
+      "alsoKnownAs": ["Epicureanism", "Epicurean"]
     },
     {
       "id": "zeno-of-citium",
@@ -4555,7 +4586,8 @@
         { "source": "sep" }
       ],
       "nativeName": "Ζήνων ὁ Κιτιεύς",
-      "transliteration": "Zēnōn ho Kitieus"
+      "transliteration": "Zēnōn ho Kitieus",
+      "alsoKnownAs": ["Zeno of Citium", "Stoicism founder"]
     },
     {
       "id": "chrysippus",
@@ -5171,7 +5203,8 @@
         { "source": "sep" }
       ],
       "nativeName": "أبو يوسف يعقوب بن إسحاق الكندي",
-      "transliteration": "al-Kindī"
+      "transliteration": "al-Kindī",
+      "alsoKnownAs": ["Alkindus"]
     },
     {
       "id": "al-farabi",
@@ -5234,7 +5267,8 @@
         { "source": "sep" }
       ],
       "nativeName": "أبو نصر محمد الفارابي",
-      "transliteration": "al-Fārābī"
+      "transliteration": "al-Fārābī",
+      "alsoKnownAs": ["Alpharabius", "Alfarabi"]
     },
     {
       "id": "ibn-rushd",
@@ -5297,7 +5331,8 @@
         { "source": "sep" }
       ],
       "nativeName": "أبو الوليد محمد بن أحمد بن رشد",
-      "transliteration": "Ibn Rushd"
+      "transliteration": "Ibn Rushd",
+      "alsoKnownAs": ["Averroes"]
     },
     {
       "id": "ibn-arabi",
@@ -5357,7 +5392,8 @@
         { "source": "text-fusus" },
         { "source": "text-futuhat" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Ibn Arabi", "Ibn al-Arabi", "The Greatest Master"]
     },
     {
       "id": "suhrawardi",
@@ -5411,7 +5447,8 @@
       "nativeName": "شهاب‌الدین یحیی سهروردی",
       "transliteration": "Suhrawardī",
       "concepts": ["illumination"],
-      "citations": [{ "source": "text-hikmat-al-ishraq" }, { "source": "sep" }]
+      "citations": [{ "source": "text-hikmat-al-ishraq" }, { "source": "sep" }],
+      "alsoKnownAs": ["Shaykh al-Ishraq", "Master of Illumination"]
     },
     {
       "id": "ibn-khaldun",
@@ -5471,7 +5508,8 @@
       "nativeName": "عبد الرحمن بن خلدون",
       "transliteration": "Ibn Khaldūn",
       "concepts": ["asabiyyah"],
-      "citations": [{ "source": "text-muqaddimah" }, { "source": "sep" }]
+      "citations": [{ "source": "text-muqaddimah" }, { "source": "sep" }],
+      "alsoKnownAs": ["Ibn Khaldun"]
     },
     {
       "id": "ibn-tufayl",
@@ -5524,7 +5562,8 @@
       },
       "citations": [{ "source": "text-hayy-ibn-yaqzan" }, { "source": "sep" }],
       "nativeName": "أبو بكر بن طفيل",
-      "transliteration": "Ibn Ṭufayl"
+      "transliteration": "Ibn Ṭufayl",
+      "alsoKnownAs": ["Abubacer", "Ibn Tufayl"]
     },
     {
       "id": "al-razi",
@@ -5579,7 +5618,8 @@
         { "source": "sep" }
       ],
       "nativeName": "أبو بكر محمد بن زكرياء الرازي",
-      "transliteration": "al-Rāzī"
+      "transliteration": "al-Rāzī",
+      "alsoKnownAs": ["Rhazes", "Al-Razi", "Rasis"]
     },
     {
       "id": "rumi",
@@ -5642,7 +5682,14 @@
         { "source": "sep" }
       ],
       "nativeName": "جلال‌الدین محمد بلخی",
-      "transliteration": "Jalāl al-Dīn Rūmī"
+      "transliteration": "Jalāl al-Dīn Rūmī",
+      "alsoKnownAs": [
+        "Rumi",
+        "Mawlana",
+        "Mevlana",
+        "Jalal al-Din Rumi",
+        "Molana"
+      ]
     },
     {
       "id": "khayyam",
@@ -5709,7 +5756,8 @@
         { "source": "sep" }
       ],
       "nativeName": "عمر خیام نیشابوری",
-      "transliteration": "ʿUmar Khayyām"
+      "transliteration": "ʿUmar Khayyām",
+      "alsoKnownAs": ["Omar Khayyam", "Umar al-Khayyami"]
     },
     {
       "id": "nasir-al-din-tusi",
@@ -5768,7 +5816,8 @@
         { "source": "sep" }
       ],
       "nativeName": "نصیر الدین الطوسی",
-      "transliteration": "al-Ṭūsī"
+      "transliteration": "al-Ṭūsī",
+      "alsoKnownAs": ["Nasir al-Din Tusi", "Khwaja Nasir"]
     },
     {
       "id": "al-biruni",
@@ -5830,7 +5879,8 @@
         { "source": "sep" }
       ],
       "nativeName": "أبو الريحان البيروني",
-      "transliteration": "al-Bīrūnī"
+      "transliteration": "al-Bīrūnī",
+      "alsoKnownAs": ["Alberonius", "Al-Biruni"]
     },
     {
       "id": "fakhr-al-din-razi",
@@ -5947,7 +5997,8 @@
         { "source": "sep" }
       ],
       "nativeName": "أبو بكر بن باجة",
-      "transliteration": "Ibn Bājja"
+      "transliteration": "Ibn Bājja",
+      "alsoKnownAs": ["Avempace", "Ibn Bajja"]
     },
     {
       "id": "eriugena",
@@ -8409,7 +8460,8 @@
       },
       "citations": [{ "source": "text-nueva-coronica" }, { "source": "sep" }],
       "nativeName": "Waman Puma",
-      "transliteration": "Waman Puma"
+      "transliteration": "Waman Puma",
+      "alsoKnownAs": ["Guaman Poma", "Waman Puma"]
     },
     {
       "id": "mary-graham",
@@ -8522,7 +8574,8 @@
       "citations": [
         { "source": "text-our-sea-of-islands" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Epeli Hauofa", "Hauofa"]
     },
     {
       "id": "patanjali",
@@ -8581,7 +8634,8 @@
       },
       "citations": [{ "source": "text-yoga-sutras" }, { "source": "sep" }],
       "nativeName": "पतञ्जलि",
-      "transliteration": "Patañjali"
+      "transliteration": "Patañjali",
+      "alsoKnownAs": ["Patanjali"]
     },
     {
       "id": "abhinavagupta",
@@ -9162,7 +9216,8 @@
       "citations": [
         { "source": "text-invention-of-women" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Oyewumi", "Oyeronke Oyewumi"]
     },
     {
       "id": "wynter",
@@ -9323,7 +9378,8 @@
           }
         ]
       },
-      "citations": [{ "source": "text-borderlands" }, { "source": "sep" }]
+      "citations": [{ "source": "text-borderlands" }, { "source": "sep" }],
+      "alsoKnownAs": ["Gloria Anzaldua", "Anzaldua"]
     },
     {
       "id": "freire",
@@ -9551,7 +9607,8 @@
         { "source": "text-al-shukuk-ala-batlamyus" },
         { "source": "text-kitab-al-manazir" },
         { "source": "sep" }
-      ]
+      ],
+      "alsoKnownAs": ["Alhazen", "Alhacen", "Ibn al-Haytham"]
     },
     {
       "id": "canguilhem",

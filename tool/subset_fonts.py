@@ -16,6 +16,18 @@ reads every character in `assets/content` and asserts a bundled face has a glyph
 for it, so adding a Korean philosopher without re-running this fails the build
 rather than shipping a row of empty boxes.
 
+## Why the sources live in tool/fonts
+
+The first version of this script read `assets/fonts` and wrote back to it, which
+works exactly once. Every later run subsets an already-subset face, so the
+operation only ever removes glyphs — and when the content grew to include 氣 and
+दुःख, re-running the script could not put them back. The faces had to be dug out
+of the commit that first cut them.
+
+So the pristine faces live in `tool/fonts` and are never touched; every run
+rebuilds `assets/fonts` from them. That directory is not in the pubspec asset
+list, so the nine megabytes stay in the repository and out of the download.
+
 Usage:  python3 tool/subset_fonts.py [--check]
 
 `--check` reports what would change without writing, which is what CI wants.
@@ -77,10 +89,19 @@ def main() -> int:
     changed = []
 
     for family in sorted(SCRIPT_ONLY):
-        for font in sorted(glob.glob(str(ROOT / f'assets/fonts/{family}/*.ttf'))):
+        originals = sorted(glob.glob(str(ROOT / f'tool/fonts/{family}/*.ttf')))
+        if not originals:
+            print(
+                f'no pristine face for {family} in tool/fonts — recover it '
+                f'before subsetting, or this run will only cut further',
+                file=sys.stderr,
+            )
+            return 1
+        for font in originals:
             source = Path(font)
-            before = source.stat().st_size
-            out = source.with_suffix('.subset.tmp')
+            target = ROOT / 'assets/fonts' / family / source.name
+            before = target.stat().st_size if target.exists() else 0
+            out = target.with_suffix('.subset.tmp')
 
             subprocess.run(
                 [
@@ -101,12 +122,13 @@ def main() -> int:
             after = out.stat().st_size
             total_before += before
             total_after += after
-            if after < before:
+            if after != before:
                 changed.append((source.name, before, after))
             if check:
                 out.unlink()
             else:
-                out.replace(source)
+                target.parent.mkdir(parents=True, exist_ok=True)
+                out.replace(target)
 
     for name, before, after in changed:
         print(f'{name:44} {before/1024:9.1f} KB -> {after/1024:8.1f} KB')

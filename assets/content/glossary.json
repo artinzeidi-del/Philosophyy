@@ -574,6 +574,300 @@
       },
       "aliases": ["canonical", "کانن"],
       "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "dukkha",
+      "term": { "en": "Dukkha", "fa": "دوکهه" },
+      "nativeTerm": "दुःख",
+      "transliteration": "duḥkha",
+      "short": {
+        "en": "The unsatisfactoriness of experience: not only pain, but the way nothing stays as wanted.",
+        "fa": "ناخرسندکنندگی تجربه: نه فقط درد، بلکه اینکه هیچ چیز آن‌گونه که خواسته می‌شود نمی‌ماند."
+      },
+      "aliases": ["duhkha", "suffering", "رنج"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "anatta",
+      "term": { "en": "Anattā", "fa": "اناتّا" },
+      "nativeTerm": "अनात्मन्",
+      "transliteration": "anātman",
+      "short": {
+        "en": "No-self: the claim that no unchanging person is found behind experience, only the experience.",
+        "fa": "بی‌خویشتنی: این ادعا که پشت تجربه هیچ شخص تغییرناپذیری یافت نمی‌شود، فقط خود تجربه."
+      },
+      "aliases": ["anatman", "no-self", "not-self", "بی‌خویشتنی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "anicca",
+      "term": { "en": "Anicca", "fa": "انیچّا" },
+      "nativeTerm": "अनित्य",
+      "transliteration": "anitya",
+      "short": {
+        "en": "Impermanence: everything that arises is already on its way out.",
+        "fa": "ناپایداری: هرچه پدید می‌آید از پیش در راه رفتن است."
+      },
+      "aliases": ["anitya", "impermanence", "ناپایداری"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "samsara",
+      "term": { "en": "Saṃsāra", "fa": "سمساره" },
+      "nativeTerm": "संसार",
+      "transliteration": "saṃsāra",
+      "short": {
+        "en": "The round of birth and death that Indian traditions treat as the condition to be got out of.",
+        "fa": "چرخهٔ زایش و مرگ که سنت‌های هندی آن را وضعی می‌دانند که باید از آن بیرون آمد."
+      },
+      "aliases": ["samsara", "cycle of rebirth", "تناسخ"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "nirvana",
+      "term": { "en": "Nirvāṇa", "fa": "نیروانا" },
+      "nativeTerm": "निर्वाण",
+      "transliteration": "nirvāṇa",
+      "short": {
+        "en": "The going out of the fire: the end of craving, and so of what keeps the round turning.",
+        "fa": "خاموش شدن آتش: پایانِ خواهش، و پس پایان آنچه آن چرخه را می‌گرداند."
+      },
+      "aliases": ["nibbana", "nirvana", "نیروانه"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "bodhisattva",
+      "term": { "en": "Bodhisattva", "fa": "بودی‌ستوه" },
+      "nativeTerm": "बोधिसत्त्व",
+      "transliteration": "bodhisattva",
+      "short": {
+        "en": "One who could pass into release and stays, on the ground that nobody is released alone.",
+        "fa": "کسی که می‌تواند به رهایی درگذرد و می‌ماند، به این دلیل که هیچ‌کس تنها رها نمی‌شود."
+      },
+      "aliases": ["bodhisatta"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "atman",
+      "term": { "en": "Ātman", "fa": "آتمن" },
+      "nativeTerm": "आत्मन्",
+      "transliteration": "ātman",
+      "short": {
+        "en": "The self, in the Indian traditions that hold there is one — the term Buddhism denies.",
+        "fa": "خویشتن، در سنت‌های هندی‌ای که به بودنش باور دارند — همان اصطلاحی که بودیسم انکارش می‌کند."
+      },
+      "aliases": ["atman", "self"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "brahman",
+      "term": { "en": "Brahman", "fa": "برهمن" },
+      "nativeTerm": "ब्रह्मन्",
+      "transliteration": "brahman",
+      "short": {
+        "en": "The one reality, in Vedānta — not a god among things but what there ultimately is.",
+        "fa": "آن واقعیت یگانه در ودانته — نه خدایی در میان چیزها، بلکه آنچه در نهایت هست."
+      },
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "moksha",
+      "term": { "en": "Mokṣa", "fa": "موکشه" },
+      "nativeTerm": "मोक्ष",
+      "transliteration": "mokṣa",
+      "short": {
+        "en": "Release: the end of the round, however a given school explains what is released and from what.",
+        "fa": "رهایی: پایان آن چرخه، هر مکتبی هر گونه توضیح دهد که چه چیزی از چه چیزی رها می‌شود."
+      },
+      "aliases": ["moksa", "moksha", "liberation", "رهایی"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "maya",
+      "term": { "en": "Māyā", "fa": "مایا" },
+      "nativeTerm": "माया",
+      "transliteration": "māyā",
+      "short": {
+        "en": "Appearance taken for reality — in Advaita, how a single reality comes to look like many things.",
+        "fa": "نمودی که واقعیت گرفته می‌شود — در ادویته، اینکه چگونه یک واقعیت یگانه چون چیزهای بسیار می‌نماید."
+      },
+      "aliases": ["maya", "illusion"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "tawhid",
+      "term": { "en": "Tawḥīd", "fa": "توحید" },
+      "nativeTerm": "توحيد",
+      "transliteration": "tawḥīd",
+      "short": {
+        "en": "The oneness of God, and the discipline of not smuggling anything creaturely into the idea of it.",
+        "fa": "یگانگی خدا، و آن انضباطی که نمی‌گذارد چیزی از جنس آفریدگان به این اندیشه راه یابد."
+      },
+      "aliases": ["tauhid", "divine unity"],
+      "concept": "negative-theology",
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "kalam",
+      "term": { "en": "Kalām", "fa": "کلام" },
+      "nativeTerm": "كلام",
+      "transliteration": "kalām",
+      "short": {
+        "en": "Islamic theology conducted by argument — the discipline that defends doctrine rather than deriving it.",
+        "fa": "الهیات اسلامی که با استدلال پیش می‌رود — دانشی که از عقیده دفاع می‌کند نه اینکه آن را استنتاج کند."
+      },
+      "aliases": ["ilm al-kalam", "علم کلام"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "falsafa",
+      "term": { "en": "Falsafa", "fa": "فلسفه (در برابر کلام)" },
+      "nativeTerm": "فلسفة",
+      "transliteration": "falsafa",
+      "short": {
+        "en": "The Greek-derived philosophical tradition in Arabic, as against kalām, which starts from revelation.",
+        "fa": "سنت فلسفی برگرفته از یونان در زبان عربی، در برابر کلام که از وحی آغاز می‌کند."
+      },
+      "aliases": ["falasifa", "Arabic philosophy"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "noumenon",
+      "term": { "en": "Noumenon", "fa": "شیء فی‌نفسه" },
+      "short": {
+        "en": "A thing as it is in itself, apart from how it must appear to us — on Kant's account, unknowable.",
+        "fa": "چیزی چنان‌که در خودش هست، جدا از آنکه چگونه ناچار بر ما پدیدار می‌شود — به رأی کانت، ناشناختنی."
+      },
+      "aliases": ["noumena", "thing-in-itself", "نومن"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "atomism",
+      "term": { "en": "Atomism", "fa": "اتم‌گرایی" },
+      "short": {
+        "en": "The view that everything is made of indivisible parts moving in empty space, and nothing else.",
+        "fa": "این دیدگاه که همه چیز از اجزای تقسیم‌ناپذیری ساخته شده که در فضای تهی حرکت می‌کنند، و هیچ چیز دیگر."
+      },
+      "aliases": ["atomist"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "universals",
+      "term": { "en": "Universals", "fa": "کلیات" },
+      "short": {
+        "en": "What several particular things are supposed to share — redness, humanity — if there is any such thing.",
+        "fa": "آنچه چند چیز جزئی قرار است در آن شریک باشند — سرخی، انسانیت — اگر چنین چیزی در کار باشد."
+      },
+      "aliases": ["universal", "problem of universals"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "alienation",
+      "term": { "en": "Alienation", "fa": "ازخودبیگانگی" },
+      "nativeTerm": "Entfremdung",
+      "short": {
+        "en": "Being separated from something that is properly yours — your work, your product, or yourself.",
+        "fa": "جدا افتادن از چیزی که به‌درستی از آنِ توست — کارت، فراورده‌ات، یا خودت."
+      },
+      "aliases": ["estrangement", "Entfremdung"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "authenticity",
+      "term": { "en": "Authenticity", "fa": "اصالت" },
+      "nativeTerm": "Eigentlichkeit",
+      "short": {
+        "en": "Living as the one deciding, rather than as anyone would in your position — a term of art, not praise.",
+        "fa": "زیستن چون کسی که تصمیم می‌گیرد، نه چون هرکسی که در جای تو باشد — اصطلاحی فنی است، نه ستایش."
+      },
+      "aliases": ["Eigentlichkeit", "authentic"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "verificationism",
+      "term": { "en": "Verificationism", "fa": "تحقیق‌پذیری" },
+      "short": {
+        "en": "The rule that a sentence means something only if experience could check it, or it is true by definition.",
+        "fa": "این قاعده که جمله‌ای معنا دارد تنها اگر تجربه بتواند وارسی‌اش کند، یا به حکم تعریف درست باشد."
+      },
+      "aliases": ["verification principle", "verifiability criterion"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "sense-data",
+      "term": { "en": "Sense data", "fa": "داده‌های حسی" },
+      "short": {
+        "en": "What is supposedly given directly in perception — a patch of colour, before it is taken as a thing.",
+        "fa": "آنچه گویا در ادراک بی‌واسطه داده می‌شود — لکه‌ای از رنگ، پیش از آنکه چیزی گرفته شود."
+      },
+      "aliases": ["sense datum", "sensa"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "solipsism",
+      "term": { "en": "Solipsism", "fa": "خودتنهاانگاری" },
+      "short": {
+        "en": "The position that only one's own mind can be known to exist — usually raised as a problem, not a belief.",
+        "fa": "این موضع که تنها می‌توان به بودنِ ذهن خود یقین داشت — معمولاً چون مسئله طرح می‌شود نه چون باور."
+      },
+      "aliases": ["solipsist"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "structuralism",
+      "term": { "en": "Structuralism", "fa": "ساختارگرایی" },
+      "short": {
+        "en": "Explaining meaning by a system of differences rather than by what any single term refers to.",
+        "fa": "توضیح معنا با یک دستگاه از تفاوت‌ها، نه با آنچه هر اصطلاح به‌تنهایی به آن ارجاع می‌دهد."
+      },
+      "aliases": ["structuralist"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "postmodernism",
+      "term": { "en": "Postmodernism", "fa": "پسامدرنیسم" },
+      "short": {
+        "en": "A loose label for positions doubting that any single account of reason or history covers everyone.",
+        "fa": "برچسبی گشاده برای مواضعی که تردید دارند هیچ روایت یگانه‌ای از عقل یا تاریخ همه را در بر بگیرد."
+      },
+      "aliases": ["postmodern", "post-modernism"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "qi",
+      "term": { "en": "Qi", "fa": "چی" },
+      "nativeTerm": "氣",
+      "transliteration": "qi",
+      "short": {
+        "en": "The stuff and energy things are made of and act by, in Chinese thought — neither matter nor spirit.",
+        "fa": "آن ماده و نیرویی که در اندیشهٔ چینی چیزها از آن ساخته‌اند و با آن عمل می‌کنند — نه ماده است نه روح."
+      },
+      "aliases": ["chi", "ch'i", "ki"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "yin-yang",
+      "term": { "en": "Yin and yang", "fa": "یین و یانگ" },
+      "nativeTerm": "陰陽",
+      "transliteration": "yinyang",
+      "short": {
+        "en": "A pair of relative terms — shaded and sunlit — used to describe how opposed aspects depend on each other.",
+        "fa": "جفتی از اصطلاح‌های نسبی — سایه‌دار و آفتاب‌خورده — که برای وصف وابستگی جهت‌های متقابل به یکدیگر به کار می‌روند."
+      },
+      "aliases": ["yin", "yang"],
+      "citations": [{ "source": "sep" }]
+    },
+    {
+      "id": "junzi",
+      "term": { "en": "Junzi", "fa": "جون‌زی" },
+      "nativeTerm": "君子",
+      "transliteration": "jūnzǐ",
+      "short": {
+        "en": "The person Confucian teaching aims at: cultivated, reliable, and defined by conduct rather than by birth.",
+        "fa": "کسی که آموزهٔ کنفوسیوسی هدفش اوست: پرورده، اعتمادپذیر، و تعریف‌شده با رفتار نه با تبار."
+      },
+      "aliases": ["chun-tzu", "gentleman", "exemplary person"],
+      "citations": [{ "source": "sep" }]
     }
   ]
 }

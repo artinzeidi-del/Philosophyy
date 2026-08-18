@@ -597,7 +597,8 @@
         ]
       },
       "concepts": ["dao", "wu-wei"],
-      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
+      "citations": [{ "source": "text-daodejing" }, { "source": "sep" }],
+      "alsoKnownAs": ["Tao Te Ching", "Tao Teh Ching", "Laozi"]
     },
     {
       "id": "zhuangzi-book",
@@ -626,7 +627,8 @@
         ]
       },
       "concepts": ["dao"],
-      "citations": [{ "source": "text-zhuangzi-book" }, { "source": "sep" }]
+      "citations": [{ "source": "text-zhuangzi-book" }, { "source": "sep" }],
+      "alsoKnownAs": ["Chuang Tzu"]
     },
     {
       "id": "mengzi",
@@ -654,7 +656,8 @@
           }
         ]
       },
-      "citations": [{ "source": "text-mengzi" }, { "source": "sep" }]
+      "citations": [{ "source": "text-mengzi" }, { "source": "sep" }],
+      "alsoKnownAs": ["Mencius"]
     },
     {
       "id": "xunzi-book",
@@ -710,7 +713,8 @@
           }
         ]
       },
-      "citations": [{ "source": "text-hanfeizi-book" }, { "source": "sep" }]
+      "citations": [{ "source": "text-hanfeizi-book" }, { "source": "sep" }],
+      "alsoKnownAs": ["Han Feizi"]
     },
     {
       "id": "chuanxilu",
@@ -1366,7 +1370,8 @@
           }
         ]
       },
-      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }]
+      "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }],
+      "alsoKnownAs": ["Sein und Zeit", "Dasein"]
     },
     {
       "id": "being-and-nothingness",
