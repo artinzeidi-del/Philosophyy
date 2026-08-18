@@ -237,6 +237,34 @@ void main() {
       );
     });
   });
+  group('A search that matched only the glossary', () {
+    testWidgets('does not announce that it found nothing', (tester) async {
+      // Searching "dukkha" printed "No results" and then, immediately below
+      // it, the glossary chip defining dukkha. The count row is about entries
+      // and was being read as a verdict on the screen, so the app told a
+      // reader it had nothing on a word it defines.
+      await pump(tester, '/search');
+      await tester.enterText(find.byType(TextField), 'dukkha');
+      await tester.pumpAndSettle();
+
+      final en = await AppL10n.delegate.load(const Locale('en'));
+
+      // The fixture has to hold: a query that matches the glossary and no
+      // entry, or this test passes by testing nothing.
+      expect(
+        corpus.glossaryMatching('dukkha'),
+        isNotEmpty,
+        reason: 'no glossary term matches "dukkha" any more — pick another',
+      );
+      expect(
+        find.text(en.searchResultCount(0)),
+        findsNothing,
+        reason: 'the screen says it found nothing while showing a result',
+      );
+      expect(find.text(en.searchOnlyGlossary), findsOneWidget);
+    });
+  });
+
   group('A screen whose body runs behind its app bar', () {
     // `extendBodyBehindAppBar` lets the canvas show through the bar. It also
     // adds the bar's height to the body's own `MediaQuery.padding.top`, so a

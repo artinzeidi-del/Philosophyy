@@ -12,6 +12,7 @@
   "searchNoResultsTitle": "چیزی برای «{query}» یافت نشد",
   "searchNoResultsBody": "املا را بررسی کنید، یا واژه‌ای عام‌تر بیازمایید: یک سنت، یک شاخهٔ فلسفه، یا یک پرسش.",
   "searchResultCount": "{count, plural, =0{بدون نتیجه} =1{۱ نتیجه} other{{count} نتیجه}}",
+  "searchOnlyGlossary": "مدخلی با این نام نیست — اما واژه‌نامه آن را دارد.",
   "searchMatchedInBody": "یافت‌شده در متن مقاله",
   "homeDailyIdea": "اندیشهٔ امروز",
   "homeStartHere": "از اینجا آغاز کنید",

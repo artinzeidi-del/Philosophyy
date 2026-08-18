@@ -58,6 +58,10 @@
       }
     }
   },
+  "searchOnlyGlossary": "No entry under that name — but the glossary has it.",
+  "@searchOnlyGlossary": {
+    "description": "Shown in place of the result count when nothing matched by name but the glossary defines the word."
+  },
   "searchMatchedInBody": "matched in the article",
   "@searchMatchedInBody": {
     "description": "Shown on a result whose title does not contain the query, so the reader understands why it is listed."

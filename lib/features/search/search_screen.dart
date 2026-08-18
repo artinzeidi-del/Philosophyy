@@ -112,14 +112,21 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                         const SizedBox(height: Spacing.md),
                     itemBuilder: (context, index) {
                       if (index == 0) {
+                        // "No results" above a glossary chip told the reader
+                        // there was nothing and then showed them something.
+                        // The count is about entries; when there are none but
+                        // the word is defined, say that instead.
+                        final label = results.isEmpty
+                            ? l10n.searchOnlyGlossary
+                            : AppNumbers.localizeDigits(
+                                l10n.searchResultCount(results.length),
+                                language,
+                              );
                         return ReadingColumn(
                           child: Padding(
                             padding: const EdgeInsets.only(bottom: Spacing.sm),
                             child: Text(
-                              AppNumbers.localizeDigits(
-                                l10n.searchResultCount(results.length),
-                                language,
-                              ),
+                              label,
                               style: Theme.of(context).textTheme.labelMedium
                                   ?.copyWith(
                                     color: Theme.of(context)
