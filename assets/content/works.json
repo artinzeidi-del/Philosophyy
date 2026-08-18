@@ -23,6 +23,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ten books of conversation, set in a house at the Piraeus over a single night. It opens with a challenge — show that a just person is better off than an unjust one, even when nobody is watching — and before answering it Socrates has redesigned education, described three parts of the human soul, banished most poetry, and told a myth about what happens after death.",
+              "fa": "ده کتاب گفت‌وگو، در خانه‌ای در بندر پیرایه و در یک شب. با یک چالش آغاز می‌شود — نشان بده آدم دادگر از آدم ستمگر بهتر است، حتی وقتی کسی نگاه نمی‌کند — و سقراط پیش از پاسخ‌دادن، آموزش را از نو طراحی کرده، سه بخش برای جان آدمی شمرده، بیشتر شعر را بیرون رانده و افسانه‌ای دربارهٔ پس از مرگ گفته است."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -32,6 +40,15 @@
             "citations": [
               { "source": "plato-republic", "locator": "368d–369a" }
             ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The first book stands apart. It ends the way the early dialogues end, with everyone confused and Thrasymachus sulking, and it may have circulated on its own. What follows is a different kind of writing. Glaucon and Adeimantus are not satisfied by a refutation; they restate the case for injustice better than its defender did — the ring that makes its wearer invisible, the unjust man with a perfect reputation against the just man with a ruined one — and demand a positive account rather than a rebuttal.\n\nThe answer rests on an analogy, and the analogy is where the book is most often attacked. Socrates argues that a soul has three parts as a city has three classes, and that each is well ordered when the reasoning part rules. Aristotle already doubted that order in a person and order in a state are the same relation, and modern readers add that the analogy quietly does the work an argument was supposed to do. Around it sit the proposals that make the book notorious: the guardians hold property and family in common, the rulers may lie for the public good, and poets who misrepresent the gods are expelled. In the middle of the same stretch comes the claim that women should be given the same training as men, which few Greek writers were prepared to put in print.\n\nHow to read all this is itself an old argument. Karl Popper treated the ideal city as a blueprint for a closed society and Plato as its architect; others answer that a city founded in speech, admitted to be impossible until philosophers rule, was never a programme, and that the point was always the soul. Neither camp disputes that the middle books are also a work of metaphysics: the sun, the divided line and the cave are an account of what knowledge is, attached to the political argument by a single claim — that only someone who knows the good can be trusted to arrange anything else.",
+              "fa": "کتاب یکم جداست. همان‌طور تمام می‌شود که گفت‌وگوهای نخستین تمام می‌شوند، با سردرگمی همه و قهر تراسیماخوس، و شاید روزگاری جداگانه دست‌به‌دست می‌شده است. آنچه پس از آن می‌آید نوشتاری از گونهٔ دیگر است. گلاوکن و آدیمانتوس به ردّ حریف قانع نمی‌شوند؛ پروندهٔ ستم را بهتر از خود مدافعش از نو می‌چینند — انگشتری که دارنده‌اش را نامرئی می‌کند، مرد ستمگر با آبرویی بی‌عیب در برابر مرد دادگر با آبرویی بر باد رفته — و به‌جای پاسخ کوبنده، شرحی مثبت می‌خواهند.\n\nپاسخ بر یک همانندی تکیه دارد، و همین همانندی بیش از هر چیز دیگری در این کتاب آماج نقد بوده است. سقراط می‌گوید جان آدمی سه بخش دارد چنان‌که شهر سه طبقه دارد، و هر دو وقتی سامان دارند که بخش خردورز فرمان براند. ارسطو همان زمان تردید داشت که سامان در یک تن و سامان در یک کشور یک نسبت باشند، و خوانندگان امروزی می‌افزایند که این همانندی بی‌سروصدا کاری را می‌کند که قرار بود استدلال بکند. پیرامون آن، پیشنهادهایی نشسته که کتاب را بدنام کرده‌اند: نگهبانان دارایی و خانواده را مشترک دارند، فرمانروایان می‌توانند به مصلحت همگانی دروغ بگویند، و شاعرانی که خدایان را وارونه نشان می‌دهند بیرون رانده می‌شوند. در میانهٔ همین بخش این ادعا هم می‌آید که زنان باید همان آموزشی را ببینند که مردان می‌بینند، و کمتر نویسندهٔ یونانی حاضر بود چنین چیزی بنویسد.\n\nاینکه همهٔ این‌ها را چگونه باید خواند خودش دعوایی کهنه است. کارل پوپر شهر آرمانی را نقشهٔ یک جامعهٔ بسته دانست و افلاطون را معمار آن؛ دیگران پاسخ می‌دهند شهری که در سخن بنیاد شده و خودِ متن می‌پذیرد تا فرمانروایی فیلسوفان ناممکن است، هرگز برنامهٔ عمل نبوده و موضوع همیشه جان آدمی بوده است. هیچ‌یک از دو طرف انکار نمی‌کند که کتاب‌های میانی کاری در متافیزیک هم هستند: خورشید و خط تقسیم‌شده و غار شرحی از چیستی دانش‌اند که با یک ادعا به استدلال سیاسی بند می‌شوند — اینکه تنها کسی که نیکی را می‌شناسد می‌توان به سامان‌دادن باقی چیزها امینش دانست."
+            },
+            "citations": [{ "source": "plato-republic" }, { "source": "sep" }]
           }
         ]
       },
@@ -620,6 +637,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Eighty-one very short chapters, most of them a few lines long, in verse that turns on reversals: the empty vessel is the useful one, the ruler who does least governs best, water wears away stone. It is one of the most translated books in the world, and no two translations agree, because the classical Chinese leaves out almost everything a European sentence has to supply.",
+              "fa": "هشتاد و یک فصل بسیار کوتاه، بیشترشان چند سطر، به شعری که بر وارونگی می‌چرخد: ظرف تهی همان است که به کار می‌آید، فرمانروایی که کمترین کار را می‌کند بهتر از همه فرمان می‌راند، آب سنگ را می‌ساید. از پرترجمه‌ترین کتاب‌های جهان است و هیچ دو ترجمه‌ای با هم نمی‌خوانند، چون چینی کلاسیک تقریباً هر چیزی را که یک جملهٔ اروپایی ناچار است بیاورد، نمی‌آورد."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -627,6 +652,15 @@
               "fa": "متن قصار است و عمداً متناقض‌نما: راهی که بتوان نامش برد راهِ همیشگی نیست؛ نرم‌ترین چیز بر سخت‌ترین چیره می‌شود. به همان اندازه که پند به فرمانروایان خوانده می‌شود پند به افراد هم خوانده می‌شود، و این دو خوانش به‌آسانی از هم جدا نمی‌شوند."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "For two thousand years the book was known in the version arranged by Wang Bi in the third century. Then in 1973 two manuscripts on silk came out of a tomb at Mawangdui, and in 1993 bamboo strips from a tomb at Guodian, older still. They put the two halves in the opposite order, differ in wording throughout, and the Guodian material is only about a third of the received length. This does not overturn the text, but it does settle one question: what we have is a compilation that grew, not the single sitting of a single author, and the figure of Laozi is later than the chapters.\n\nThe word translated 'way' is ordinary Chinese for a road or a method, and the opening line says that the one being discussed cannot be fixed in speech. Everything after that has to be read as pointing rather than defining. The practical core is wu wei, usually rendered 'non-action', though nothing in the text recommends idleness; the recommendation is to stop pushing against the grain of a situation, and its political form is a state that leaves people alone and therefore is not resented. The recurring images — the uncarved block, the infant, the valley, the female — all name something that has not yet been shaped into a use, and are valued for exactly that.\n\nReaders have taken it in incompatible directions. It became scripture for organised Daoist religion, a manual of statecraft for Legalist-influenced ministers, a handbook for generals through Sunzi's tradition, and in the twentieth century a text about ecology and about power without force. Sinologists warn that the mystical reading familiar in Europe owes a good deal to translators who came to the book expecting scripture. The text's own claim, that a way put into words is already the wrong way, makes every one of these readings hard to refute and hard to trust.",
+              "fa": "دو هزار سال این کتاب را در تدوین وانگ بی از سدهٔ سوم می‌شناختند. بعد در ۱۹۷۳ دو دست‌نویس روی ابریشم از گوری در ماوانگ‌دویی بیرون آمد، و در ۱۹۹۳ نوارهای خیزران از گوری در گوئودیان، کهن‌تر از آن. دو نیمهٔ کتاب را وارونه چیده‌اند، در سرتاسر متن واژه‌ها فرق دارند، و آنچه در گوئودیان هست تنها حدود یک‌سوم درازای متن رایج است. این‌ها متن را باطل نمی‌کنند، اما یک پرسش را می‌بندند: آنچه در دست داریم مجموعه‌ای است که رشد کرده، نه نشستِ یک نویسنده در یک زمان، و چهرهٔ لائوتزه از خود فصل‌ها دیرتر است.\n\nواژه‌ای که «راه» ترجمه می‌شود در چینی عادی به معنای جاده یا روش است، و سطر آغازین می‌گوید آن یکی که سخنش می‌رود در گفتار بند نمی‌شود. هرچه پس از آن می‌آید باید اشاره خوانده شود نه تعریف. هستهٔ عملی، وو وی است که معمولاً «بی‌کنشی» ترجمه می‌شود، هرچند هیچ‌جای متن تن‌آسانی را توصیه نمی‌کند؛ توصیه این است که خلاف جهت یک وضعیت فشار نیاوری، و صورت سیاسی‌اش دولتی است که کاری به مردم ندارد و از همین رو کسی از آن بیزار نیست. تصویرهای پرتکرار — چوب تراش‌نخورده، نوزاد، درّه، مادینه — همه چیزی را نام می‌برند که هنوز به شکل یک کاربرد در نیامده است، و دقیقاً به همین سبب ارزشمندند.\n\nخوانندگان آن را به راه‌های ناسازگار برده‌اند. برای دین سازمان‌یافتهٔ دائویی کتاب مقدس شد، برای وزیران زیر نفوذ قانون‌گرایان دستورنامهٔ کشورداری، از راه سنت سون‌تزو راهنمای سرداران، و در سدهٔ بیستم متنی دربارهٔ بوم‌شناسی و دربارهٔ قدرتِ بدون زور. چین‌شناسان هشدار می‌دهند که خوانش عارفانه‌ای که در اروپا آشناست، تا حد زیادی وامدار مترجمانی است که با انتظار متن مقدس سراغ کتاب رفتند. ادعای خود متن، که راهی که به کلام درآید دیگر راه درست نیست، ردکردن و اعتمادکردن به هر یک از این خوانش‌ها را به یک اندازه دشوار می‌کند."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-daodejing" }]
           }
         ]
       },
@@ -650,6 +684,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Thirty-three chapters of stories, jokes, invented conversations and short arguments, held together by one suspicion: that the distinctions we live by — useful and useless, right and wrong, life and death — look absolute only from inside the standpoint that produced them. It is the funniest of the classical Chinese books and the hardest to summarise without ruining.",
+              "fa": "سی و سه فصل از داستان و شوخی و گفت‌وگوهای ساختگی و استدلال‌های کوتاه، که یک بدگمانی به هم پیوندشان می‌دهد: تمایزهایی که با آن‌ها زندگی می‌کنیم — به‌درد‌خور و بی‌مصرف، درست و نادرست، زندگی و مرگ — تنها از درون همان چشم‌اندازی که پدیدشان آورده مطلق به نظر می‌رسند. بامزه‌ترین کتاب‌های کلاسیک چینی است و سخت‌ترینشان برای خلاصه‌کردن بی‌آنکه خرابش کنی."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -657,6 +699,18 @@
               "fa": "فصل‌های درونی بخشی است که پژوهشگران به خود جوانگ‌دزه نسبت می‌دهند. کارشان با قصه پیش می‌رود — خواب پروانه، درخت بی‌فایده، آشپزی که تیغش کند نمی‌شود — و استدلال مکرر این است که داوری‌های سودمند و بی‌فایده، بزرگ و کوچک، نسبت به منظری‌اند که هیچ امتیازی ندارد."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The book is in three layers. Chapters one to seven, the inner chapters, are the ones scholars assign to a single fourth-century hand; the outer and miscellaneous chapters collect later writers of several persuasions, some of whom argue positions the inner chapters would find absurd. The text as we read it was cut down and rearranged by Guo Xiang in the third century, from a longer version he thought padded. Guo also wrote the commentary that shaped how everyone afterwards read it, so 'what Zhuangzi says' is usually at least two people saying it.\n\nThe second chapter carries the load. It runs a chain of cases in which a judgement holds only relative to a creature or a position — what counts as a comfortable bed, a beautiful face, a wet place to sleep — and then turns the same move on the debate it is having: if you and I disagree and call in a third person, that person either agrees with one of us or with neither, and in no case does the disagreement get settled from outside. The chapter closes on the man who dreamt he was a butterfly and could not afterwards say which way round it was. Where this lands is disputed. It is read as scepticism, as relativism, as a therapy meant to loosen the grip of judgement rather than to assert a doctrine — the last reading being the one that best explains why the book argues in stories.\n\nWhat it is not is a counsel of despair. Its exemplars are skilled: the cook whose blade stays sharp for nineteen years because he cuts where the joints already open, the wheelwright who cannot put his craft into words, the swimmer who follows the water rather than fighting it. Skill of this kind is what remains when the categories are set down, and it is why the book mattered so much to Chan Buddhism and, later, to Japanese writing on art. Its treatment of death — Zhuangzi drumming on a pot after his wife dies, refusing to mourn a change he cannot show is a loss — is the same argument applied where it costs most.",
+              "fa": "کتاب سه لایه دارد. فصل یک تا هفت، یعنی فصل‌های درونی، همان‌هایی است که پژوهشگران به یک دستِ سدهٔ چهارم پیش از میلاد نسبت می‌دهند؛ فصل‌های بیرونی و متفرقه نوشته‌های کسان دیرتری را گرد آورده‌اند، از گرایش‌های گوناگون، که برخی‌شان از مواضعی دفاع می‌کنند که فصل‌های درونی بی‌معنا می‌دانستند. متنی که ما می‌خوانیم را گوئو شیانگ در سدهٔ سوم از نسخه‌ای بلندتر که به نظرش پرحرف بود کوتاه و بازچینی کرد. گوئو شرحی هم نوشت که خوانش همه پس از او را شکل داد، پس «آنچه جوانگ‌تزه می‌گوید» معمولاً دست‌کم دو نفر می‌گویندش.\n\nفصل دوم بار اصلی را می‌کشد. زنجیره‌ای از نمونه‌ها می‌آورد که در آن‌ها یک داوری فقط نسبت به یک جانور یا یک جایگاه درست است — اینکه بستر راحت چیست، چهرهٔ زیبا کدام است، جای خوابِ نمناک خوب است یا بد — و بعد همین حرکت را روی خودِ بحثی که در آن است می‌آورد: اگر من و تو اختلاف کنیم و سومی را داور بگیریم، آن سوم یا با یکی از ما هم‌رأی است یا با هیچ‌کدام، و در هیچ حالتی اختلاف از بیرون فیصله نمی‌یابد. فصل با مردی بسته می‌شود که خواب دید پروانه است و بعد نتوانست بگوید کدام کدام بود. اینکه این حرف کجا می‌نشیند محل بحث است. آن را شکاکیت خوانده‌اند، نسبی‌گرایی خوانده‌اند، و درمانی خوانده‌اند برای شل‌کردن چنگ داوری نه برای اثبات یک آموزه — و همین خوانش آخر بهتر از همه توضیح می‌دهد چرا کتاب با داستان استدلال می‌کند.\n\nآنچه این کتاب نیست، دعوت به نومیدی است. سرمشق‌هایش کاردان‌اند: آشپزی که تیغش نوزده سال تیز می‌ماند چون از جایی می‌برد که بندها خودشان باز می‌شوند، چرخ‌سازی که نمی‌تواند کارش را به کلام درآورد، شناگری که به‌جای جنگیدن با آب دنبال آب می‌رود. مهارتی از این جنس همان چیزی است که وقتی مقوله‌ها را زمین بگذاری باقی می‌ماند، و همین است که کتاب را برای بودیسم چان و بعدها برای نوشته‌های ژاپنی دربارهٔ هنر این‌قدر مهم کرد. برخوردش با مرگ — جوانگ‌تزه که پس از مرگ همسرش بر خمره می‌کوبد و حاضر نیست بر دگرگونی‌ای سوگ بگیرد که نمی‌تواند نشان دهد باخت است — همان استدلال است، آنجا که گران‌ترین بهایش را دارد."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-zhuangzi-book" }
+            ]
           }
         ]
       },
@@ -680,6 +734,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Seven books of recorded conversations, most of them between Mencius and rulers he was trying to persuade. Two claims run through them: that people start with the beginnings of goodness rather than having to be forced into it, and that a government exists for the governed, so that one which starves them has ended its own authority.",
+              "fa": "هفت کتاب گفت‌وگوی ثبت‌شده، بیشترشان میان منسیوس و فرمانروایانی که می‌کوشید متقاعدشان کند. دو ادعا در سرتاسرشان جاری است: اینکه آدمیان با جوانه‌های نیکی آغاز می‌کنند و لازم نیست به زور به نیکی رانده شوند، و اینکه حکومت برای فرمان‌برداران هست، پس حکومتی که گرسنه نگهشان دارد اقتدار خودش را پایان داده است."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -687,6 +749,15 @@
               "fa": "استدلال مشهور از یک آزمایش ذهنی می‌گذرد: هرکس کودکی را در آستانهٔ افتادن در چاه ببیند، پیش از هر محاسبه‌ای هراسان می‌شود، و همین واکنش نشانهٔ توانی اخلاقی است که با آن آغاز می‌کنیم نه اینکه به دستش آوریم. منسیوس از همین ریشه استدلال می‌کند که فرمانروایی که مردمش را گرسنه بدارد دیگر فرمانروا نیست."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Mencius does not claim that people are already good. His term is 'sprouts': four tendencies — compassion, shame, deference, and a sense of right — that are present the way a seedling is present, and that die without cultivation as easily as a hillside is stripped by grazing. That image, the Ox Mountain passage, is his answer to the obvious objection that people behave badly all the time. The claim is about what human nature tends toward when nothing prevents it, not about what people reliably do.\n\nThe argument for it is not deductive. Book 2A offers a case and asks the reader to check it: a toddler on the lip of an open well, and whoever notices feels a jolt of alarm that arrives before any calculation about the parents' gratitude or the neighbours' opinion. Mencius takes the timing to be the evidence. Against Gaozi, who held that morality is imposed on nature the way a cup is carved out of a willow, he answers that carving destroys the willow, so the analogy proves the opposite of what it was offered for. Modern philosophers have found the moral-psychology arguments here worth taking seriously on their own terms, which is not true of every classical text.\n\nThe political half follows from the same root. A ruler is asked to extend the concern he already feels — the king who spared an ox being led to sacrifice is told he has the feeling and merely fails to reach it as far as his people. Where the extension fails altogether, Mencius is willing to say what almost nobody else in his tradition said in print: that killing the tyrant Zhou was not regicide, because a man who mutilates benevolence is a mere fellow and not a sovereign. This is why the text was both canonised as one of the Four Books under Zhu Xi and, at moments, resented by the throne that canonised it.",
+              "fa": "منسیوس نمی‌گوید مردم از پیش نیک‌اند. اصطلاحش «جوانه» است: چهار گرایش — دلسوزی، شرم، فروتنی، و حسّ درست و نادرست — که همان‌گونه حاضرند که یک نهال حاضر است، و بی‌پرورش به همان آسانی می‌میرند که دامنهٔ کوهی زیر چرای دام لخت می‌شود. همین تصویر، یعنی بند کوه گاو، پاسخ او به آن اعتراض آشکار است که مردم مدام بد رفتار می‌کنند. ادعا دربارهٔ آن است که سرشت آدمی وقتی چیزی جلویش را نگیرد به کدام سو می‌رود، نه دربارهٔ آنکه مردم عملاً چه می‌کنند.\n\nاستدلالش قیاسی نیست. کتاب دوم نمونه‌ای می‌آورد و از خواننده می‌خواهد خودش وارسی کند: هرکس کودکی را ببیند که دارد در چاه می‌افتد، تکانی از هراس در خود می‌یابد، و این احساس پیش از هر حسابی دربارهٔ سپاس پدر و مادر یا داوری همسایه‌ها می‌رسد. منسیوس همین ترتیبِ زمانی را گواه می‌گیرد. در برابر گائوتزه که می‌گفت اخلاق را بر سرشت تحمیل می‌کنند چنان‌که پیاله را از چوب بید می‌تراشند، پاسخ می‌دهد که تراشیدن بید را نابود می‌کند، پس این همانندی خلاف آنچه برایش آورده شده را ثابت می‌کند. فیلسوفان امروزی استدلال‌های روان‌شناسی اخلاقی این کتاب را ارزش آن دانسته‌اند که به زبان خودشان جدی گرفته شوند، و این دربارهٔ هر متن کلاسیکی صادق نیست.\n\nنیمهٔ سیاسی از همین ریشه در می‌آید. از فرمانروا خواسته می‌شود همان دلسوزی‌ای را که دارد گسترش دهد — به پادشاهی که گاوی را در راه قربانی بخشیده بود می‌گویند احساسش را داری و فقط نمی‌گذاری تا مردمت برسد. آنجا که این گسترش یکسره شکست بخورد، منسیوس حاضر است چیزی بگوید که تقریباً هیچ‌کس دیگری در سنتش ننوشت: که کشتن جبّار، شاه‌کشی نبود، چون کسی که نیکخواهی را مثله می‌کند یک آدم معمولی است نه یک فرمانروا. برای همین است که این متن هم زیر دست ژو شی یکی از چهار کتاب شد و هم گاه همان تختی که مقدسش کرده بود از آن دل خوشی نداشت."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-mengzi" }]
           }
         ]
       },
@@ -709,6 +780,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Thirty-two essays, written as essays rather than collected as sayings, arguing that we are born with appetites and no moral shape, and that everything worth having — ritual, music, law, learning — is a human invention that works on us the way heat and pressure work on a piece of warped timber.",
+              "fa": "سی و دو جستار، که جستار نوشته شده‌اند نه سخنانی گردآمده، و استدلال می‌کنند که ما با اشتها زاده می‌شویم و بی هیچ شکل اخلاقی، و هر چیز ارزشمندی — آیین، موسیقی، قانون، آموختن — ساختهٔ آدمی است که همان‌گونه بر ما کار می‌کند که گرما و فشار بر چوبی تاب‌برداشته."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -716,6 +795,15 @@
               "fa": "شون‌دزه معتقد است آدمی خواهنده زاده می‌شود، و آیین و آموزش ابداع‌های عمدی بشرند که زندگی اجتماعی را ممکن می‌کنند. او نظام‌مندترین استدلال‌کنندهٔ فلسفهٔ کلاسیک چین است، و مقاله‌هایش به‌شکل استدلال ساخته شده‌اند نه گردآوریِ سخنان."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The chapter that made his reputation is usually translated 'human nature is evil', which overstates it. The Chinese term is closer to crooked or defective: we are born wanting food, comfort and advantage, and if those wants run unchecked the result is conflict, not because anyone is wicked but because there is not enough to go round. What makes us good is the deliberate effort that comes after — a second word in his vocabulary, standing for everything a person is not born with. On this reading he and Mencius disagree less about what people do than about where credit for their goodness belongs.\n\nRitual is his answer, and he defends it without appealing to spirits. Sacrifices and mourning rites are not effective because heaven is watching; heaven, he says, does not act for or against anyone, and a state that governs well prospers in a drought while a badly governed one starves in good weather. The rites work because they shape desire, distribute goods without a fight, and give grief a form. The gentleman performs them knowing this and the common people perform them thinking spirits are involved, and Xunzi does not think the difference matters for the outcome — a position that has struck readers as either admirably clear or quietly cynical.\n\nHis chapter on names is the most technical logic in early China: names are conventional, fixed by agreement, and the damage done by loose terms is political before it is intellectual. Two of his students, Han Fei and Li Si, took the institutional conclusions and dropped the ritual, and Li Si went on to serve the Qin unification. That association, plus his flat contradiction of Mencius, kept him out of orthodoxy for a thousand years after Zhu Xi settled the canon. Recent scholarship treats him as the most rigorous arguer of the classical period, whatever his students did.",
+              "fa": "فصلی که نامش را ساخت معمولاً «سرشت آدمی بد است» ترجمه می‌شود، و این بزرگ‌نمایی است. واژهٔ چینی به کج یا ناقص نزدیک‌تر است: ما با خواستِ خوراک و آسایش و سود زاده می‌شویم، و اگر این خواست‌ها لجام نداشته باشند نتیجه ستیز است، نه چون کسی شریر است بلکه چون به‌اندازهٔ همه نیست. آنچه ما را نیک می‌کند کوشش سنجیده‌ای است که پس از آن می‌آید — واژهٔ دومی در دستگاه او، که جای هر چیزی است که آدمی با آن زاده نشده. با این خوانش، او و منسیوس کمتر بر سر آنکه مردم چه می‌کنند اختلاف دارند تا بر سر آنکه نیکی‌شان را به حساب چه کسی باید نوشت.\n\nپاسخ او آیین است، و بی‌آنکه به ارواح متوسل شود از آن دفاع می‌کند. قربانی و سوگواری کارگرند، اما نه چون آسمان نگاه می‌کند؛ می‌گوید آسمان نه به سود کسی کار می‌کند نه به زیانش، و کشوری که خوب اداره شود در خشکسالی هم می‌بالد و کشوری که بد اداره شود در هوای خوب هم گرسنه می‌ماند. آیین‌ها از آن رو کار می‌کنند که خواهش را شکل می‌دهند، کالاها را بی‌دعوا پخش می‌کنند، و به اندوه قالبی می‌بخشند. مرد فرهیخته آن‌ها را با آگاهی از این نکته به جا می‌آورد و مردم عادی به گمان دخالت ارواح، و به نظر شون‌تزه این تفاوت در نتیجه اثری ندارد — موضعی که به چشم خوانندگان یا ستودنی صریح آمده یا آرام‌آرام بدبینانه.\n\nفصل او دربارهٔ نام‌ها فنی‌ترین منطق چین باستان است: نام‌ها قراردادی‌اند و با توافق بسته می‌شوند، و زیانی که واژه‌های شل می‌رسانند پیش از آنکه فکری باشد سیاسی است. دو شاگردش، هان فی و لی سی، نتیجه‌های نهادی را برداشتند و آیین را کنار گذاشتند، و لی سی بعدها در خدمت یکپارچه‌سازی چین به دست چین قرار گرفت. همین همنشینی، به‌علاوهٔ مخالفت صریحش با منسیوس، هزار سال پس از آنکه ژو شی فهرست معتبر را بست او را بیرون از سنت رسمی نگه داشت. پژوهش‌های تازه او را دقیق‌ترین استدلال‌کنندهٔ دورهٔ کلاسیک می‌دانند، هر کاری که شاگردانش کرده باشند."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-xunzi-book" }]
           }
         ]
       },
@@ -737,6 +825,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Fifty-five chapters of political analysis written for a ruler, on the assumption that ministers, relatives and generals all have interests of their own and that a state which depends on their loyalty is already lost. What it offers instead is machinery: published law, the authority of the office rather than the man, and techniques for checking whether what officials say matches what they do.",
+              "fa": "پنجاه و پنج فصل تحلیل سیاسی، نوشته برای یک فرمانروا، با این فرض که وزیران و خویشان و سرداران هر یک سود خود را دارند و کشوری که به وفاداری‌شان بند باشد از پیش باخته است. آنچه به جایش پیشنهاد می‌کند سازوکار است: قانون منتشرشده، اقتدارِ مقام به‌جای اقتدارِ شخص، و روش‌هایی برای سنجیدن اینکه گفتهٔ کارگزاران با کردارشان می‌خواند یا نه."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -744,6 +840,18 @@
               "fa": "استدلال هان فی‌دزه نهادی است: تکیه بر فضیلت فرمانروا یعنی دولت هرگاه فرمانروایی بد بیاید فرو می‌ریزد، پس قانون و جایگاه و فن اداره را باید چنان سامان داد که نتیجه به منش کسی وابسته نباشد. نخستین امپراتور از این نظریه استفاده کرد، و همین از آن پس رنگ پذیرشش را تعیین کرده است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Three earlier strands come together here. From Shang Yang he takes fa, published standards applied to everyone without regard to rank; from Shen Dao he takes shi, the leverage that belongs to a position rather than to the person occupying it; from Shen Buhai he takes shu, the ruler's administrative technique. The synthesis is the point: law without leverage is unenforced, leverage without technique is captured by whoever stands nearest the throne.\n\nThe most quoted method is 'matching name and performance'. An official states in advance what he will deliver; he is then punished for falling short and also for exceeding it. The second half strikes readers as perverse until they see what it is for — it is not results that are being measured but the reliability of speech, and a minister who overshoots has misdescribed his own capacity just as surely as one who fails. The famous illustration is the keeper of the hat who covered a sleeping ruler with a robe: kindly, outside his office, and punished for it. Han Fei's stories are almost always like this, and they are the reason a treatise on administration is readable at all.\n\nHe was a student of Xunzi and shares the premise that people pursue advantage, but he drops the cure. Where Xunzi thought ritual could reshape desire, Han Fei thinks only reward and punishment reach it, and that arguing from the sage kings is useless because circumstances have changed — the farmer waiting by the stump for another rabbit to run into it. His own end is the standard irony of his reception: sent to Qin, admired by the king who had read him, and forced to suicide by Li Si, his fellow student. Later Chinese statecraft used his institutions constantly while denouncing his name, which is roughly what he predicted people would do.",
+              "fa": "سه رشتهٔ پیشین اینجا به هم می‌رسند. از شانگ یانگ «فا» را می‌گیرد، یعنی معیارهای منتشرشده‌ای که بی‌اعتنا به مرتبه بر همه اجرا می‌شوند؛ از شن دائو «شی» را می‌گیرد، یعنی اهرمی که به یک جایگاه تعلق دارد نه به کسی که در آن نشسته؛ از شن بوهای «شو» را می‌گیرد، یعنی فنّ اداری فرمانروا. نکته در همین ترکیب است: قانونِ بی‌اهرم اجرا نمی‌شود، و اهرمِ بی‌فن به دست هرکه به تخت نزدیک‌تر است می‌افتد.\n\nپرنقل‌ترین روشش «تطبیق نام و کارکرد» است. کارگزار از پیش می‌گوید چه تحویل خواهد داد؛ آنگاه هم برای کم‌آوردن کیفر می‌بیند و هم برای بیشتر آوردن. نیمهٔ دوم تا وقتی کارکردش را نبینی وارونه به نظر می‌رسد — آنچه سنجیده می‌شود نتیجه نیست بلکه اعتبار گفتار است، و وزیری که بیش از قولش می‌آورد به همان اندازهٔ وزیری که کم می‌آورد توان خودش را غلط توصیف کرده است. نمونهٔ مشهور، متصدی کلاه است که بر فرمانروای خفته ردایی انداخت: مهربان، بیرون از حدود مقامش، و کیفر دید. داستان‌های هان فی تقریباً همیشه از این دست‌اند، و همین‌هاست که رساله‌ای دربارهٔ اداره را اصلاً خواندنی می‌کند.\n\nاو شاگرد شون‌تزه بود و در این مقدمه با او شریک است که مردم پی سود می‌روند، اما درمان را کنار می‌گذارد. آنجا که شون‌تزه گمان می‌کرد آیین می‌تواند خواهش را از نو شکل دهد، هان فی می‌اندیشد تنها پاداش و کیفر به آن می‌رسند، و استدلال‌آوردن از پادشاهان فرزانهٔ باستان بی‌فایده است چون اوضاع عوض شده — همان دهقانی که کنار کندهٔ درخت نشست تا خرگوش دیگری خودش را به آن بکوبد. پایان کار خودش همان کنایهٔ همیشگی در سرگذشت اوست: به چین فرستاده شد، پادشاهی که نوشته‌هایش را خوانده بود ستودش، و به دست لی سی، هم‌شاگردی‌اش، به خودکشی واداشته شد. کشورداری چینیِ پس از او مدام از نهادهایش استفاده کرد و مدام نامش را نکوهید، و این کمابیش همان است که خودش پیش‌بینی کرده بود مردم بکنند."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-hanfeizi-book" }
+            ]
           }
         ]
       },
@@ -769,6 +877,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A record of Wang Yangming's teaching, put together by students from conversations and letters. Its best-known claim is that knowing and doing are one activity, not two stages — so that a person who says he knows what is right but cannot bring himself to do it has told us something about his knowledge rather than about his will.",
+              "fa": "گزارشی از تعلیم وانگ یانگ‌مینگ که شاگردانش از گفت‌وگوها و نامه‌ها فراهم آورده‌اند. مشهورترین ادعایش این است که دانستن و کردن یک کارند نه دو مرحله — پس کسی که می‌گوید می‌دانم چه درست است اما نمی‌توانم انجامش دهم، چیزی دربارهٔ دانشش به ما گفته است نه دربارهٔ ارادهٔ خود."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -776,6 +892,15 @@
               "fa": "این متن که شاگردان ثبتش کرده‌اند استدلال می‌کند کسی که می‌داند کاری درست است و نمی‌کندش، در واقع نمی‌داند — پس معرفت اخلاقی اطلاعاتی نیست که منتظر به‌کاربستن باشد. وانگ نمونهٔ دانستنِ وظیفهٔ فرزندی و رهاکردن پدر و مادر را می‌آورد: به گفتهٔ او ادعای دانستن، به‌سادگی باطل است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The target is the orthodoxy Wang was examined on. Zhu Xi had read the phrase 'the investigation of things' as study: to know what is right you attend to the pattern in each thing, case by case, over a lifetime of reading. Wang tried it literally, sat in front of a bamboo for seven days to investigate it, got nothing and fell ill. The story is told in the text as the origin of the break. His alternative is to relocate the pattern: it is not distributed among the objects but present in the mind that meets them, so what needs correcting is the mind, and there is no first stage of learning after which action begins.\n\nThe unity of knowledge and action follows from that, and Wang is careful about what it does not mean. He is not saying that we always act on what we know. He is saying that the case people offer as a counterexample — a son who can state what he owes his father and still neglects him — is better described as a failure of knowledge that has been obscured by desire, on the model of a mirror with dust on it. The practical payoff is that self-cultivation stops being preparation for life and becomes something done in the middle of it, which is also why Wang's own biography — a general, a governor, an exile who put the doctrine together while banished to a post in the far southwest — is treated as part of the argument.\n\nThe later formula is 'the extension of innate knowing': everyone already has an immediate sense of right that operates before deliberation, and the work is to clear what blocks it rather than to acquire what is missing. Critics then and since have said this licenses anyone to trust an impulse and call it conscience, and the wilder branches of his school after his death did rather bear that out. It travelled well: Wang's thought became a major current in Japan as Ōyōmei-gaku and was read by reformers there in the nineteenth century for exactly the reason Chinese authorities distrusted it — it puts the standard inside the person and not in the examination hall.",
+              "fa": "هدف، همان سنت رسمی‌ای است که وانگ در امتحانش پس داد. ژو شی عبارت «وارسی چیزها» را مطالعه خوانده بود: برای دانستن آنچه درست است باید نظم درونی هر چیز را، مورد به مورد، در عمری خواندن دنبال کنی. وانگ لفظ‌به‌لفظ امتحانش کرد، هفت روز روبه‌روی یک خیزران نشست تا وارسی‌اش کند، چیزی به دست نیاورد و بیمار شد. متن همین ماجرا را سرآغاز گسست می‌داند. راه‌حل او جابه‌جاکردن آن نظم است: نظم میان اشیا پخش نشده بلکه در ذهنی حاضر است که با آن‌ها روبه‌رو می‌شود، پس آنچه باید اصلاح شود ذهن است، و مرحلهٔ نخستی از آموختن وجود ندارد که پس از آن عمل آغاز شود.\n\nیگانگی دانستن و کردن از همین‌جا در می‌آید، و وانگ مراقب است که معنایش را زیاد نکند. نمی‌گوید ما همیشه به آنچه می‌دانیم عمل می‌کنیم. می‌گوید موردی که مردم به عنوان نمونهٔ نقض می‌آورند — دانستن حق پدر و مادر و کوتاهی در آن — بهتر است شکستی در خودِ دانستن توصیف شود که خواهش تیره‌اش کرده، بر الگوی آینه‌ای که گردوغبار رویش نشسته. سود عملی‌اش این است که خودسازی دیگر آمادگی برای زندگی نیست و کاری می‌شود که در میانهٔ زندگی انجام می‌گیرد، و برای همین است که زندگی‌نامهٔ خود وانگ — سردار، فرماندار، تبعیدی‌ای که این آموزه را در تبعیدگاهی در جنوب باختری دور به هم رساند — بخشی از استدلال شمرده می‌شود.\n\nفرمول متأخرش «گستردن دانشِ فطری» است: هرکس از پیش حسّ بی‌واسطه‌ای از درست دارد که پیش از سنجیدن کار می‌کند، و کار آدمی برداشتن موانع آن است نه به‌دست‌آوردن چیزی که ندارد. منتقدان آن روز و امروز گفته‌اند این به هرکسی اجازه می‌دهد به یک انگیزهٔ آنی اعتماد کند و نامش را وجدان بگذارد، و شاخه‌های افراطی‌تر مکتبش پس از مرگش کمابیش همین را نشان دادند. این اندیشه خوب سفر کرد: فکر وانگ در ژاپن با نام اویومه‌ای‌گاکو جریانی بزرگ شد و اصلاح‌طلبان ژاپنی سدهٔ نوزدهم دقیقاً به همان دلیلی خواندندش که مقامات چینی به آن بدگمان بودند — معیار را در درون آدمی می‌گذارد، نه در تالار امتحان."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-chuanxilu" }]
           }
         ]
       },
@@ -800,6 +925,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A line-by-line commentary on a very compressed set of aphorisms about the absolute. Shankara uses it to argue that the self within a person and the ground of everything are not two things that resemble each other but one thing under two descriptions, and that the plurality we see is real enough to live by and not real in the last analysis.",
+              "fa": "شرحی سطر به سطر بر مجموعه‌ای بسیار فشرده از گزین‌گویه‌ها دربارهٔ مطلق. شنکره از آن استفاده می‌کند تا استدلال کند که خویشتنِ درون آدمی و بنیاد همه‌چیز دو چیز شبیه هم نیستند بلکه یک چیزند زیر دو توصیف، و اینکه کثرتی که می‌بینیم آن‌قدر واقعی هست که با آن زندگی کنیم و در تحلیل نهایی واقعی نیست."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -807,6 +940,18 @@
               "fa": "شرح شنکره متن بنیان‌گذار «ادویته ودانته» است. حرکت مرکزی‌اش این است که کثرت جهان را برای مقاصد عملی واقعی می‌گیرد و در نهایت ناواقعی، و استدلال می‌کند گزاره‌های متن مقدس که «خود» و «مطلق» را یکی می‌گیرند باید تحت‌اللفظی خوانده شوند نه مجازی."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The root text is unreadable alone. Its aphorisms are a few words each, written to be memorised by someone who already knows the debate, and every school of Vedānta produced a commentary claiming the same words for an incompatible position. Shankara's is the earliest that survives complete. That means the argument here is conducted twice over: against Buddhists, Sāṃkhya theorists and logicians on one side, and against rival readings of the same scripture on the other.\n\nThe opening pages are the most read part. Before any doctrine is stated, Shankara asks how the error he is going to diagnose is possible at all, and answers with superimposition: we lay the properties of one thing over another, as a rope in dim light is taken for a snake, and in the fundamental case we lay the body, senses and history over the witnessing self. Everything else depends on this. Ignorance is not lack of information but an active mistake that has structure, which is why it can be removed by knowledge and why removing it changes nothing in the world. The two levels — the standpoint from which the world and its god are perfectly real, and the standpoint from which only the undivided is — are introduced to keep this from collapsing into the claim that nothing exists, a charge Shankara spends considerable effort throwing back at the Buddhists.\n\nThe reading has been contested from inside the tradition more sharply than from outside it. Rāmānuja's commentary argues that scripture nowhere denies distinction, that qualities require a bearer, and that a self with no attributes cannot be the object of devotion the same texts command; Madhva goes further and reads the identity statements as differences. In the nineteenth and twentieth centuries Shankara's version was exported as Hinduism's philosophy, largely through Vivekananda, which flattened a long argument into a single school and is now itself a subject of scholarly complaint.",
+              "fa": "متن اصلی به‌تنهایی خواندنی نیست. گزین‌گویه‌هایش هر کدام چند واژه‌اند، نوشته شده تا کسی که از پیش بحث را می‌داند از بر کند، و هر مکتب ودانته شرحی نوشت که همان واژه‌ها را برای موضعی ناسازگار مصادره می‌کرد. شرح شنکره کهن‌ترین شرحی است که کامل مانده است. یعنی استدلال اینجا دو بار پیش می‌رود: از یک سو در برابر بودایی‌ها و نظریه‌پردازان سانکهیه و منطق‌دانان، و از سوی دیگر در برابر خوانش‌های رقیب از همان کتاب مقدس.\n\nصفحه‌های آغازین پرخواننده‌ترین بخش‌اند. پیش از آنکه آموزه‌ای گفته شود، شنکره می‌پرسد اصلاً خطایی که می‌خواهد تشخیصش دهد چگونه ممکن است، و با «برنهادن» پاسخ می‌دهد: ویژگی‌های یک چیز را روی چیز دیگر می‌گذاریم، چنان‌که ریسمان در نور کم مار دیده می‌شود، و در موردِ بنیادی، تن و حواس و گذشته را روی خویشتنِ شاهد می‌گذاریم. باقی همه بر همین بند است. نادانی کمبود اطلاعات نیست بلکه خطایی فعال و ساختاردار است، و برای همین است که دانش می‌تواند برش دارد و برداشتنش چیزی را در جهان عوض نمی‌کند. آن دو سطح — جایگاهی که از آن جهان و خدایش تماماً واقعی‌اند، و جایگاهی که از آن تنها امر بی‌بخش واقعی است — برای آن آورده شده‌اند که این حرف به ادعای «هیچ‌چیز وجود ندارد» فرو نریزد، اتهامی که شنکره زحمت زیادی می‌کشد تا به بودایی‌ها برگرداند.\n\nاین خوانش را از درون سنت تندتر از بیرون آن به چالش کشیده‌اند. شرح رامانوجه استدلال می‌کند که کتاب مقدس هیچ‌جا تمایز را انکار نمی‌کند، که صفت بی‌موصوف نمی‌شود، و که خویشتنِ بی‌صفت نمی‌تواند متعلَّق آن پرستشی باشد که همان متن‌ها فرمان می‌دهند؛ مادهوه پیش‌تر می‌رود و همان جمله‌های این‌همانی را تفاوت می‌خواند. در سده‌های نوزدهم و بیستم روایت شنکره، بیشتر از راه ویوکاناندا، به عنوان فلسفهٔ هندوئیسم به بیرون صادر شد، و این یک بحث دراز را به یک مکتب فرو کاست و امروز خودش موضوع گلایهٔ پژوهشگران است."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-brahma-sutra-bhasya" }
+            ]
           }
         ]
       },
@@ -831,6 +976,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A commentary on the same aphorisms Shankara had already commented on, written to take them back. Rāmānuja accepts that reality is one and denies that it is featureless: the world and the selves in it are related to God as a body is to the person whose body it is — really distinct, never separable, and not an illusion to be seen through.",
+              "fa": "شرحی بر همان گزین‌گویه‌هایی که شنکره پیش‌تر شرحشان کرده بود، نوشته شده تا آن‌ها را پس بگیرد. رامانوجه می‌پذیرد که واقعیت یکی است و انکار می‌کند که بی‌ویژگی باشد: جهان و خویشتن‌های درونش با خدا همان نسبتی را دارند که تن با کسی که تن از آنِ اوست — واقعاً متمایز، هرگز جداشدنی نه، و توهمی نیست که باید از آن گذشت."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -838,6 +991,15 @@
               "fa": "رامانوجه استدلال می‌کند که ناثنویتِ شنکره جهان را وهمی می‌کند که کسی نمی‌تواند سازگارانه به آن باور داشته باشد، و متن مقدس واقعیتی یگانه را وصف می‌کند که جهان تنِ آن است و خدا جانِ آن — یکی، اما نه بی‌تمایز. بحث میان این دو شرح، استدلال مرکزی ودانته است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The book opens with a long attack before it states anything positive. Seven objections are brought against the doctrine that the absolute has no qualities and that ignorance veils it. Where does the ignorance sit? Not in the absolute, which is by hypothesis pure awareness; not in a finite self, since finite selves are supposed to be its products. What is the ignorance an ignorance of? If it can be described at all it has a nature, and a nature is a quality. And how is it removed by a knowledge that, on the same theory, is itself part of the appearance? Later Advaitins answered at length; the exchange runs for centuries.\n\nThe positive account is usually named qualified non-dualism, and the qualification is the whole of it. Rāmānuja's model is the relation of soul to body, applied twice: my consciousness is one thing with my body while remaining distinct from it, and in the same way all selves and all matter form the body of God. Nothing exists outside that one reality, so the position is non-dual; but a body has parts and states, so difference is not cancelled. The famous sentences of scripture — that you are that — are read as asserting inseparability rather than sameness, which is why the two commentators can quote the identical verse against each other.\n\nBehind the metaphysics is a practical worry. Devotion needs two parties, and a God with no attributes cannot be loved, trusted or praised; the same texts that say the absolute is one also command worship, and a reading that makes worship provisional makes most of scripture a concession to the slow. Rāmānuja belongs to a devotional movement, the south Indian Āḻvārs, and he is defending its practice in the technical language of the schools. That is also why his Vedānta rather than Shankara's became the philosophy behind the large Vaishnava traditions, while Shankara's became the one exported to Europe.",
+              "fa": "کتاب پیش از آنکه چیزی مثبت بگوید با حمله‌ای دراز آغاز می‌شود. هفت اشکال بر این آموزه می‌آورد که مطلق هیچ صفتی ندارد و نادانی آن را می‌پوشاند. این نادانی کجا نشسته است؟ نه در مطلق، که بنا به فرض آگاهی محض است؛ نه در خویشتن متناهی، چون قرار است خویشتن‌های متناهی خودشان فرآوردهٔ آن باشند. این نادانی، نادانی به چیست؟ اگر اصلاً بتوان توصیفش کرد پس طبیعتی دارد، و طبیعت یعنی صفت. و چگونه دانشی برش می‌دارد که بنا بر همان نظریه خودش بخشی از نمود است؟ ادویتی‌های بعدی مفصل پاسخ دادند؛ این داد و ستد سده‌ها ادامه دارد.\n\nشرح مثبت او را معمولاً نادوگانه‌انگاری مقید می‌نامند، و همهٔ حرف در همان قید است. الگوی رامانوجه نسبت جان و تن است، دو بار به کار رفته: آگاهی من با تنم یک چیز است و در همان حال از آن متمایز می‌ماند، و به همین‌سان همهٔ خویشتن‌ها و همهٔ ماده تنِ خدا را می‌سازند. بیرون از آن واقعیت یگانه چیزی نیست، پس موضع نادوگانه است؛ اما تن اجزا و حال‌ها دارد، پس تفاوت باطل نمی‌شود. جمله‌های مشهور کتاب مقدس — که تو آنی — نه یکسانی بلکه جدایی‌ناپذیری خوانده می‌شوند، و برای همین است که دو شارح می‌توانند یک بیت واحد را علیه هم نقل کنند.\n\nپشت این متافیزیک نگرانی‌ای عملی هست. پرستش دو طرف می‌خواهد، و خدای بی‌صفت را نمی‌توان دوست داشت و به او اعتماد کرد و ستودش؛ همان متن‌هایی که می‌گویند مطلق یکی است به پرستش هم فرمان می‌دهند، و خوانشی که پرستش را موقت می‌کند بیشتر کتاب مقدس را امتیازی به کندذهنان می‌سازد. رامانوجه به جنبشی پرستشی تعلق دارد، آلوارهای جنوب هند، و دارد از عمل آن جنبش به زبان فنی مکتب‌ها دفاع می‌کند. همین است که ودانتهٔ او، نه ودانتهٔ شنکره، فلسفهٔ پشت سنت‌های بزرگ ویشنویی شد، در حالی که ودانتهٔ شنکره همان بود که به اروپا صادر شد."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-sri-bhasya" }]
           }
         ]
       },
@@ -859,6 +1021,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Twenty short verses with the author's own commentary, arguing that we can explain everything we actually observe without supposing that anything exists outside consciousness. It is one of the tightest pieces of argumentation in Indian philosophy and takes about an hour to read.",
+              "fa": "بیست بیت کوتاه همراه با شرح خود نویسنده، که استدلال می‌کند می‌توان هرچه را واقعاً مشاهده می‌کنیم توضیح داد بی‌آنکه فرض کنیم چیزی بیرون از آگاهی هست. از فشرده‌ترین استدلال‌های فلسفهٔ هند است و خواندنش حدود یک ساعت می‌برد."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -866,6 +1036,15 @@
               "fa": "استدلال فشرده است: هرچه به‌عنوان شاهد بر اشیای بیرونی آورده می‌شود — اینکه تجربه منظم است، مشترک است، و پیامد دارد — بی آن اشیا هم توضیح‌پذیر است، حال آنکه خودِ آن اشیا با این مشکل روبه‌رویند که چیزی بی‌جزء چگونه امتداد می‌یابد. اینکه این ایدئالیسم است یا چیزی ضعیف‌تر، محل اختلاف است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The structure is a defence, not an offensive. An opponent lists what only external objects could account for: that experiences are tied to particular places and times, that different observers agree, and that things do what they do — fire burns, food nourishes. Vasubandhu answers each with a case where the same features occur without an object. Dreams have places and times. Shared hallucination is possible, and he cites the Buddhist account of hell-beings who all see the same tormentors. Dream experiences have effects on the body. None of this proves there is no outside world; it removes the argument that there must be one.\n\nThe offensive comes in the middle, against the atom. Whatever an external object is made of must have parts or not. If the smallest units have no parts, then two of them touching would coincide, and no aggregate could ever be larger than a single unit; if they have parts, they are not the smallest units. This dilemma is aimed at the Vaiśeṣika and Sarvāstivāda atomists and is the sharpest thing in the text. What survives it, on Vasubandhu's account, is a stream of representations whose regularity comes from seeds carried in a storehouse consciousness rather than from things standing outside it.\n\nWhether this is idealism in the European sense has been argued for a century. The traditional Tibetan and East Asian reading takes it as the claim that nothing exists but mind. A number of modern scholars answer that the target is the subject–object structure itself, so that mind does not survive the argument as a thing either, and that the school's name — mere-representation — is a denial rather than an assertion. The final verse cuts against every strong reading: Vasubandhu says the matter is beyond the range of his reasoning and belongs to a buddha's knowledge, which is either intellectual honesty or a door left open, depending on the commentator.",
+              "fa": "ساختار متن دفاعی است نه تهاجمی. مخالفی فهرست می‌کند که چه چیزهایی را تنها اشیای بیرونی می‌توانند توضیح دهند: اینکه تجربه‌ها به جا و زمان معیّن بسته‌اند، اینکه ناظران گوناگون هم‌رأی می‌شوند، و اینکه چیزها کار خودشان را می‌کنند — آتش می‌سوزاند، خوراک نیرو می‌دهد. واسوباندهو به هر یک با موردی پاسخ می‌دهد که همان ویژگی بی هیچ شیئی رخ می‌دهد. خواب‌ها جا و زمان دارند. توهم مشترک ممکن است، و او روایت بودایی دوزخیانی را می‌آورد که همه یک شکنجه‌گر را می‌بینند. تجربه‌های خواب بر تن اثر می‌گذارند. هیچ‌کدام از این‌ها ثابت نمی‌کند جهان بیرونی نیست؛ فقط آن استدلال را برمی‌دارد که حتماً باید باشد.\n\nحمله در میانهٔ متن می‌آید، علیه ذره. هرچه شیء بیرونی از آن ساخته شده یا جزء دارد یا ندارد. اگر کوچک‌ترین واحدها جزء نداشته باشند، دو تاشان که به هم بچسبند بر هم منطبق می‌شوند و هیچ مجموعه‌ای هرگز از یک واحد بزرگ‌تر نمی‌شود؛ و اگر جزء داشته باشند، کوچک‌ترین واحد نیستند. این دوراهی ذره‌باوران ویشیشیکه و سروستیواده را نشانه می‌رود و تیزترین چیز این متن است. آنچه از آن جان به در می‌برد، به روایت واسوباندهو، جریانی از بازنمایی‌هاست که قاعده‌مندی‌اش از بذرهایی می‌آید که در آگاهیِ انباره حمل می‌شوند، نه از چیزهایی که بیرون ایستاده‌اند.\n\nاینکه این ایدئالیسم به معنای اروپایی هست یا نه، یک سده است محل بحث است. خوانش سنتی تبتی و آسیای شرقی آن را این ادعا می‌گیرد که جز ذهن چیزی نیست. شماری از پژوهشگران امروزی پاسخ می‌دهند که هدف، خودِ ساختار سوژه و ابژه است، پس ذهن هم به عنوان یک چیز از این استدلال جان به در نمی‌برد، و نام مکتب — صرفِ بازنمایی — انکاری است نه اثباتی. بیت پایانی زیر پای هر خوانش قاطعی را خالی می‌کند: واسوباندهو می‌گوید این مسئله از دسترس استدلال او بیرون است و به دانش یک بودا تعلق دارد، و این بسته به اینکه کدام شارح را بخوانی یا صداقت فکری است یا دری که باز گذاشته شده."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-vimsatika" }]
           }
         ]
       },
@@ -890,6 +1069,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The book that turned Indian debate into a discipline with rules. Dignāga argues that there are exactly two ways of knowing anything, states precisely what a good inference has to satisfy, and explains what a general word can mean if there are no universals for it to name. Almost every later Indian philosopher writes either with him or against him.",
+              "fa": "کتابی که مناظرهٔ هندی را به رشته‌ای قاعده‌مند تبدیل کرد. دیگناگه استدلال می‌کند که برای دانستن هر چیزی دقیقاً دو راه هست، به‌دقت می‌گوید یک استنتاج خوب باید چه شرطی را برآورد، و توضیح می‌دهد اگر کلی‌ای در کار نباشد که واژهٔ عام نامش را ببرد، آن واژه چه می‌تواند معنا بدهد. تقریباً هر فیلسوف هندی پس از او یا با او می‌نویسد یا در برابر او."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -897,6 +1084,18 @@
               "fa": "دیگناگه استدلال می‌کند که ادراک و استنتاج تنها ابزارهای معتبرند، که ادراک از ساخت مفهومی آزاد است، و استنتاج آنگاه معتبر است که «دلیل» در موردِ بحث حاضر باشد، در موارد مشابه حاضر باشد و از هر مورد ناهمانند غایب. نظریهٔ معنا بر پایهٔ «کنارگذاشتن» از همین صرفه‌جویی برمی‌آید."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The economy of two instruments is argued for, not assumed. Rival schools counted three, four or six, adding comparison, testimony, presumption and non-perception. Dignāga's answer is that objects come in exactly two kinds — the particular, which is unique and momentary, and the general, which is constructed — and that an instrument of knowledge is individuated by the kind of object it reaches. Testimony then reduces to inference, comparison to a mixture of the two, and the list closes.\n\nPerception, on this account, is entirely free of concepts. The moment of bare seeing carries no name, no class and no judgement; anything with the form 'this is a cow' is already inference wearing perception's clothes. That is a strong claim, and the objection that follows it — how a wordless flash could ever justify a sentence — occupied Indian epistemology for the next thousand years, with Dharmakīrti supplying the most influential repairs. For inference, Dignāga fixes the three conditions a reason must meet, and sets them out in a table of nine possible relations between reason and property, of which only two are valid. Presenting the space of cases exhaustively and then eliminating is what makes this logic rather than debating advice.\n\nThe theory of meaning by exclusion is the part that still gets written about. Buddhist metaphysics allows no real universals, so 'cow' cannot name a shared cowness; Dignāga says it works by cutting off everything that is not a cow. Critics from the Mīmāṃsā and Nyāya schools replied immediately that the account is circular — to exclude non-cows you must already know which things are cows — and the defence, that the exclusions are grounded in practical success rather than in a shared property, is close to arguments made much later in Europe about how general terms work without general things.",
+              "fa": "این صرفه‌جویی در دو ابزار، فرض گرفته نشده بلکه برایش استدلال شده است. مکتب‌های رقیب سه یا چهار یا شش ابزار می‌شمردند و قیاس و شهادت و فرضِ ناگزیر و عدم‌ادراک را می‌افزودند. پاسخ دیگناگه این است که متعلَّق‌ها دقیقاً دو گونه‌اند — جزئی، که یگانه و آنی است، و کلی، که ساخته شده است — و ابزار دانش را همان گونهٔ متعلَّقی که به آن می‌رسد از دیگری جدا می‌کند. آنگاه شهادت به استنتاج فرو کاسته می‌شود و قیاس به آمیزه‌ای از آن دو، و فهرست بسته می‌شود.\n\nادراک، بنا بر این شرح، یکسره از مفهوم تهی است. لحظهٔ دیدنِ برهنه نه نامی با خود دارد نه طبقه‌ای نه داوری‌ای؛ هرچه به صورت «این گاو است» باشد از پیش استنتاجی است که جامهٔ ادراک پوشیده. این ادعای سنگینی است، و اعتراضی که در پی‌اش می‌آید — اینکه یک جرقهٔ بی‌کلام چگونه می‌تواند یک جمله را موجه کند — هزار سال معرفت‌شناسی هند را مشغول کرد، و درمکیرتی مؤثرترین تعمیرها را برایش آورد. برای استنتاج، دیگناگه سه شرطی را که یک دلیل باید برآورد تثبیت می‌کند و آن‌ها را در جدولی از نه نسبت ممکن میان دلیل و صفت می‌چیند که تنها دوتایش معتبرند. چیدن کامل فضای حالت‌ها و بعد حذف‌کردن، همان است که این را منطق می‌کند نه توصیه‌های مناظره.\n\nنظریهٔ معنا به‌واسطهٔ طرد همان بخشی است که هنوز دربارهٔ آن می‌نویسند. متافیزیک بودایی کلیِ واقعی را نمی‌پذیرد، پس «گاو» نمی‌تواند نام گاوبودنی مشترک باشد؛ دیگناگه می‌گوید این واژه با بریدن هرچه گاو نیست کار می‌کند. منتقدان میمانسه و نیایه بی‌درنگ پاسخ دادند که این شرح دوری است — برای طردکردن ناگاوها باید از پیش بدانی کدام چیزها گاوند — و دفاعی که آمد، اینکه این طردها بر کامیابی عملی استوارند نه بر صفتی مشترک، به استدلال‌هایی نزدیک است که خیلی دیرتر در اروپا دربارهٔ کارکرد واژه‌های عام بدون چیزهای عام آورده شد."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-pramanasamuccaya" }
+            ]
           }
         ]
       },
@@ -923,6 +1122,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Around ninety-five essays written over about twenty years, most of them delivered as talks and then rewritten. Dōgen takes phrases from older Chinese Chan texts and reads them against their obvious sense until they say something else. It is the most demanding prose in Japanese philosophy and the reason he is read as a philosopher at all.",
+              "fa": "حدود نود و پنج جستار که در نزدیک بیست سال نوشته شده‌اند، بیشترشان نخست سخنرانی بوده و بعد بازنویسی شده‌اند. دوگن عبارت‌هایی را از متن‌های کهن‌تر چان چینی می‌گیرد و چنان خلاف معنای آشکارشان می‌خواند تا چیز دیگری بگویند. سخت‌ترین نثر فلسفهٔ ژاپنی است و اصلاً همین است که او را فیلسوف می‌کند."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -930,6 +1137,15 @@
               "fa": "مقاله‌های دوگن استدلال می‌کنند که نشستن، آمادگی برای بیداری نیست بلکه خودِ بیداری در حال انجام است — و همین پرسش از اینکه چقدر طول می‌کشد را منحل می‌کند. نوشتار عمداً دستور زبان ژاپنی و چینی را خم می‌کند، به این دلیل که نحو عادی فرض‌هایی دربارهٔ زمان و «خود» با خود دارد که استدلال ردشان می‌کند."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Dōgen went to China with a question he could not get answered at home: if we are already endowed with the buddha nature, why did anyone ever need to practise? The received answers treated sitting as a method that produces a result later. His answer refuses the shape of the question. Practice and realisation are not two events in sequence; sitting is not the cause of awakening but the form awakening takes while it is happening. Everything else in the collection follows from that single inversion, including its strangest passages.\n\nThe essay on being-time is the one philosophers reach for. The compound is ordinary Japanese for 'for the time being', and Dōgen reads it as a claim: time is not a container things sit in, and there is no being that is not a time. From this he denies that a moment passes into the next the way a traveller moves between towns — spring does not become summer, firewood does not become ash; each occupies its own position completely, and the sense of flow is an artefact of looking from one position at another. Readers have compared the result to Heidegger, and the comparison is old enough that it now comes with its own literature warning against it.\n\nThe writing is deliberately violent to its language. Dōgen punctuates Chinese quotations in the wrong place, converts nouns into verbs, and reads a sentence meaning 'mountains and rivers are not the same as the self' as saying that mountains are walking. He is explicit that this is not decoration: ordinary grammar carries the assumptions of a self that persists and a time that flows, so a philosophy denying both cannot be stated in it. The text was little read outside his own lineage for six hundred years, and its current status dates from the twentieth century, when Watsuji Tetsurō and then the Kyoto School presented him as Japan's great speculative thinker.",
+              "fa": "دوگن با پرسشی به چین رفت که در وطن پاسخی برایش نیافته بود: اگر از پیش سرشت بودایی داریم، اصلاً چرا کسی به تمرین نیاز داشت؟ پاسخ‌های رایج نشستن را روشی می‌دانستند که بعدها نتیجه می‌دهد. پاسخ او خودِ شکل پرسش را پس می‌زند. تمرین و تحقق دو رویداد پشت سر هم نیستند؛ نشستن علت بیداری نیست بلکه شکلی است که بیداری در حین رخ‌دادن می‌گیرد. باقی این مجموعه، از جمله غریب‌ترین بندهایش، از همین یک وارونگی در می‌آید.\n\nجستار «بودن‌ـ‌زمان» همان است که فیلسوفان سراغش می‌روند. این ترکیب در ژاپنی عادی یعنی «فعلاً»، و دوگن آن را یک ادعا می‌خواند: زمان ظرفی نیست که چیزها در آن بنشینند، و بودنی نیست که زمان نباشد. از اینجا انکار می‌کند که لحظه‌ای به لحظهٔ بعد می‌رود، آن‌گونه که مسافری میان دو شهر جابه‌جا می‌شود — بهار تابستان نمی‌شود، هیزم خاکستر نمی‌شود؛ هر یک جایگاه خودش را تمام‌وکمال اشغال کرده است، و آن حس جریان، فرآوردهٔ نگاه‌کردن از یک جایگاه به جایگاهی دیگر است. خوانندگان نتیجه را با هایدگر سنجیده‌اند، و این سنجش آن‌قدر کهنه است که حالا خودش ادبیاتی دارد که از آن برحذر می‌دارد.\n\nاین نثر عمداً به زبان خودش خشونت می‌کند. دوگن نقل‌قول‌های چینی را جای نادرست نقطه‌گذاری می‌کند، اسم را فعل می‌کند، و جمله‌ای را که معنایش این است «کوه‌ها و رودها همان خویشتن نیستند» چنان می‌خواند که گویی کوه‌ها راه می‌روند. صریح می‌گوید که این تزیین نیست: دستور زبان عادی فرضِ خویشتنی که می‌ماند و زمانی که می‌گذرد را با خود حمل می‌کند، پس فلسفه‌ای که هر دو را انکار می‌کند در آن گفتنی نیست. این متن ششصد سال بیرون از سلسلهٔ خودش کم خوانده شد، و جایگاه امروزی‌اش از سدهٔ بیستم است، وقتی واتسوجی تتسورو و بعد مکتب کیوتو او را متفکر بزرگ نظری ژاپن معرفی کردند."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-shobogenzo" }]
           }
         ]
       },
@@ -956,6 +1172,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The first work of philosophy written in Japanese that is not a commentary on someone else, published in 1911. Nishida starts from the instant of experience before it has been sorted into a person and a world, and tries to derive knowledge, morality and religion from that starting point rather than from a subject facing objects.",
+              "fa": "نخستین اثر فلسفی نوشته‌شده به ژاپنی که شرح کار کسی دیگر نیست، منتشرشده در ۱۹۱۱. نیشیدا از همان دمِ تجربه آغاز می‌کند، پیش از آنکه به یک شخص و یک جهان تقسیم شود، و می‌کوشد دانش و اخلاق و دین را از این نقطهٔ آغاز بیرون بکشد نه از سوژه‌ای که روبه‌روی ابژه‌ها ایستاده است."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -963,6 +1187,18 @@
               "fa": "نقطهٔ آغاز نیشیدا «تجربهٔ ناب» است: لحظهٔ شنیدن صدا، پیش از آنکه به شنونده و شنیده تقسیم شود. او استدلال می‌کند که ساختار فاعل–متعلق سامانی است که بعداً بر آن نهاده می‌شود، و بر همین وارونه‌سازی شرحی از معرفت و اخلاق و دین بنا می‌کند."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The book's key term is borrowed and then bent. William James had written about a stream of experience prior to conceptual carving; Nishida takes the phrase and makes it do metaphysical work James did not intend. His examples are of absorption — hearing a piece of music, climbing a rock face, the moment of seeing a colour before it is named — where there is activity and awareness but no room in the description for someone standing back and having the experience. He argues that the division into subject and object is a later organisation imposed for practical reasons, and that philosophy has gone wrong by treating the product as the starting point.\n\nThe move from that to ethics is the part most often challenged. If reality is a self-differentiating whole, Nishida says, then the good is what realises the personality's full development, and self-realisation and the good of others converge instead of competing. Critics point out that an account of experience does not by itself yield a criterion for action, and that the convergence is asserted more than argued. What the argument does supply is a reason to refuse the split between fact and value at the same place it refuses the split between knower and known.\n\nNishida had trained in Zen for a decade before writing this, and the relationship between the practice and the book is contested. He rarely cites Buddhist sources and writes throughout in the vocabulary of Fichte, Hegel, James and Bergson; some readers take that as a strategy for making an East Asian insight arguable in European terms, others as evidence that the book is straightforwardly a work of European philosophy written in Japan. The later Kyoto School grew from it, and so did the political entanglements of several of its members in the 1930s and 1940s, which any current account of the tradition has to address.",
+              "fa": "اصطلاح کلیدی کتاب وام گرفته شده و بعد خم شده است. ویلیام جیمز دربارهٔ جریانی از تجربه پیش از تقسیم مفهومی نوشته بود؛ نیشیدا این تعبیر را می‌گیرد و کاری متافیزیکی از آن می‌کشد که جیمز در نظر نداشت. نمونه‌هایش از جنس غرق‌شدن‌اند — شنیدن یک قطعهٔ موسیقی، بالارفتن از یک دیوارهٔ سنگی، لحظهٔ دیدن یک رنگ پیش از آنکه نامش را ببری — جایی که کنش و آگاهی هست اما در توصیف جایی برای کسی که کنار ایستاده و تجربه را دارد باقی نمی‌ماند. او می‌گوید تقسیم به سوژه و ابژه سامانی متأخر است که به دلایل عملی تحمیل شده، و فلسفه از آنجا به بیراهه رفته که فرآورده را نقطهٔ آغاز گرفته است.\n\nگذر از این به اخلاق همان بخشی است که بیش از همه به چالش کشیده شده. نیشیدا می‌گوید اگر واقعیت کلی خودتمایزبخش باشد، پس نیکی همان است که شکوفایی کامل شخصیت را محقق کند، و خودشکوفایی و خیر دیگران به‌جای رقابت به هم می‌رسند. منتقدان می‌گویند شرحی از تجربه به‌خودی‌خود معیاری برای عمل نمی‌دهد، و این همگرایی بیشتر ادعا شده تا اثبات. آنچه این استدلال واقعاً به دست می‌دهد دلیلی است برای نپذیرفتن شکاف واقعیت و ارزش، درست همان‌جا که شکاف داننده و دانسته را نمی‌پذیرد.\n\nنیشیدا پیش از نوشتن این کتاب ده سال ذن تمرین کرده بود، و نسبت میان آن تمرین و این کتاب محل بحث است. او به‌ندرت منابع بودایی را نقل می‌کند و سرتاسر متن را با واژگان فیشته و هگل و جیمز و برگسون می‌نویسد؛ برخی خوانندگان این را تدبیری می‌دانند برای آنکه بینشی آسیای شرقی را به زبان اروپایی قابل بحث کند، و برخی گواهی بر اینکه کتاب بی‌پرده کاری در فلسفهٔ اروپایی است که در ژاپن نوشته شده. مکتب کیوتوی بعدی از دل آن بیرون آمد، و همچنین گرفتاری‌های سیاسی چند تن از اعضایش در دههٔ ۱۹۳۰ و ۱۹۴۰، که هر روایت امروزی از این سنت ناچار است به آن بپردازد."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-inquiry-into-the-good" }
+            ]
           }
         ]
       },
@@ -995,6 +1231,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A very large book that lays out the whole Buddhist path in order, from what a beginner should do first to the analysis of emptiness at the end, with the sources quoted at every step. Tsongkhapa wrote it to stop practitioners from skipping stages, and its last section is one of the most argued-over passages in Tibetan philosophy.",
+              "fa": "کتابی بسیار بزرگ که تمام راه بودایی را به ترتیب می‌چیند، از آنچه یک نوآموز باید نخست انجام دهد تا تحلیل تهیّت در پایان، با نقل منابع در هر گام. تسونگ‌کاپا آن را نوشت تا جلوی پریدن از مرحله‌ها را بگیرد، و بخش پایانی‌اش یکی از پربحث‌ترین بندهای فلسفهٔ تبتی است."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1002,6 +1246,18 @@
               "fa": "این رساله تمرین را در مراحل می‌چیند و در هر مرحله بر ضد میان‌بری که همان مرحله وسوسه‌اش می‌کند استدلال می‌کند. پرمناقشه‌ترین بخشش می‌گوید بصیرت به تهیّت با استدلال به دست می‌آید، و مراقبه‌ای که اندیشیدن را متوقف کند پیش از رسیدن ایستاده است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The organising device is inherited from Atiśa: practitioners are sorted into three capacities, and each stage is presented with the reasoning that makes the next one necessary. What Tsongkhapa adds is a running polemic. At every level the treatise identifies the shortcut a student will be tempted by — treating ethical discipline as preliminary, treating study as an obstacle to meditation, treating the tantric path as a way around the rest — and argues that the shortcut removes the thing that was supposed to make the practice work.\n\nThe final section, on insight, is where the philosophy is. Tsongkhapa's target is a reading of Madhyamaka on which emptiness is grasped by stopping conceptual thought altogether, associated in Tibet with the Chinese position said to have lost the Samye debate. He argues instead that emptiness is a conclusion reached by analysis, that conceptual thought is therefore indispensable up to a very late point, and that a meditation which merely suspends thinking produces a blank rather than an insight. Paired with this is his insistence that emptiness and dependent arising are not two truths in tension but the same point: things lack intrinsic nature precisely because they arise dependently, so the analysis that empties them is also what secures them as functioning.\n\nThis is a minority reading and he knew it. Rival Tibetan schools hold that his account leaves something standing that Madhyamaka should have removed, or that it makes philosophical training a precondition for a realisation their own lineages reach otherwise; the Sakya and Nyingma replies to him fill their own libraries. The Geluk order that formed around Tsongkhapa made the treatise the backbone of a monastic curriculum lasting decades, which is why a book of this length is still worked through line by line rather than consulted.",
+              "fa": "ابزار سامان‌دهی از آتیشه به ارث رسیده است: تمرین‌کنندگان به سه ظرفیت تقسیم می‌شوند، و هر مرحله همراه با استدلالی می‌آید که مرحلهٔ بعد را ناگزیر می‌کند. آنچه تسونگ‌کاپا می‌افزاید جدلی پیوسته است. در هر سطح، رساله همان میان‌بری را که شاگرد وسوسه‌اش می‌شود شناسایی می‌کند — اینکه انضباط اخلاقی را مقدماتی بگیری، که آموختن را مانع مراقبه بدانی، که راه تنتره را راهی برای دور زدن باقی بشماری — و استدلال می‌کند که آن میان‌بر همان چیزی را برمی‌دارد که قرار بود تمرین را کارگر کند.\n\nبخش پایانی، دربارهٔ بصیرت، جایی است که فلسفه در آن است. آماج تسونگ‌کاپا خوانشی از مادهیمکه است که بنا بر آن تهیّت با یکسره متوقف‌کردن اندیشهٔ مفهومی دریافته می‌شود، خوانشی که در تبت با موضع چینیِ بازندهٔ مناظرهٔ سامیه پیوند خورده است. او در عوض استدلال می‌کند که تهیّت نتیجه‌ای است که با تحلیل به دست می‌آید، که پس اندیشهٔ مفهومی تا نقطه‌ای بسیار دیر ناگزیر است، و که مراقبه‌ای که فقط اندیشیدن را معلق کند خلأ می‌سازد نه بصیرت. همراه این، پافشاری اوست بر اینکه تهیّت و پیدایش وابسته دو حقیقتِ در کشمکش نیستند بلکه یک نکته‌اند: چیزها دقیقاً از آن رو سرشت ذاتی ندارند که وابسته پدید می‌آیند، پس همان تحلیلی که تهی‌شان می‌کند همان است که کارکردشان را تضمین می‌کند.\n\nاین خوانشی اقلیتی است و خودش می‌دانست. مکتب‌های رقیب تبتی می‌گویند شرح او چیزی را سرِپا می‌گذارد که مادهیمکه باید برمی‌داشت، یا آموزش فلسفی را پیش‌شرط تحققی می‌کند که سلسله‌های خودشان به راه دیگری به آن می‌رسند؛ پاسخ‌های ساکیه و نیینگما به او کتابخانه‌های خودشان را پر می‌کند. فرقهٔ گلوگ که پیرامون تسونگ‌کاپا شکل گرفت این رساله را ستون فقرات برنامه‌ای درسی کرد که ده‌ها سال طول می‌کشد، و برای همین است که کتابی به این درازا هنوز سطر به سطر کار می‌شود نه اینکه به آن مراجعه کنند."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-lamrim-chenmo" }
+            ]
           }
         ]
       },
@@ -1028,6 +1284,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Written in Arabic in Hebrew letters, as a long letter to one former student and, through him, to anyone who has studied philosophy and can no longer read scripture the way they used to. It works through the passages that describe God as having a body, a place or a temper, and argues that every one of them means something else.",
+              "fa": "به عربی و با حروف عبری نوشته شده، به شکل نامه‌ای بلند به یک شاگرد پیشین و، از راه او، به هر کسی که فلسفه خوانده و دیگر نمی‌تواند کتاب مقدس را آن‌گونه که پیش‌تر می‌خواند بخواند. بندهایی را یک‌به‌یک پیش می‌برد که خدا را دارای تن و جا و خشم توصیف می‌کنند و استدلال می‌کند که هر یک چیز دیگری می‌گوید."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1035,6 +1299,18 @@
               "fa": "ابن‌میمون استدلال می‌کند که زبان متن مقدس دربارهٔ تن و جا و عواطف خدا باید مجازی خوانده شود، چون خدایی با صفات، مرکب می‌شود. آنچه گفتنی می‌ماند بیشتر سلبی است: نه اینکه خدا داناست، بلکه اینکه خدا نادان نیست. کتاب عمداً چنان چیده شده که نتوان سرسری خواندش."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The doctrine of negative attributes is the engine. Anything with attributes is composed of a subject and what is predicated of it, and whatever is composed depends on its parts; a God who depends on anything is not the God the argument requires. So the positive statements have to go. What can still be said takes the form of denial: the sentence calling God powerful is refused and the sentence denying that God is powerless is allowed — and Maimonides insists this is not a polite way of saying the same thing, because the negation removes a defect without asserting a property. Later critics, Gersonides among them, replied that a term emptied this thoroughly can no longer support the religious life it was supposed to purify.\n\nOn creation he does something unusual: he argues that neither side can be demonstrated. Aristotle's proofs for an eternal world reason from how things behave inside a finished universe to how the universe itself began, which is an inference the evidence does not license; but the arguments for creation in time are no stronger. Since the question is undecided by reason, scripture may settle it, and he accepts creation — while noting that if eternity were ever demonstrated, the relevant verses could be read figuratively as easily as the verses about God's hand. That sentence has been read for eight centuries as either a concession or a signal.\n\nHe says openly that the book is arranged to be difficult, with the crucial claims scattered and sometimes contradicted on purpose, so that a reader who is not ready will not assemble them. This has produced two traditions of interpretation: one that takes the stated doctrines at face value, and one, associated in the twentieth century with Leo Strauss, that reads the contradictions as a deliberate surface concealing a more Aristotelian position underneath. The book's influence ran well past its own community — Aquinas cites him steadily on the limits of what can be proved about God, and Spinoza, who rejected the whole project, learned the method of reading scripture historically from it.",
+              "fa": "موتور کتاب، آموزهٔ صفات سلبی است. هرچه صفت داشته باشد از یک موضوع و آنچه بر آن حمل می‌شود ترکیب یافته، و هرچه ترکیب یافته به اجزایش وابسته است؛ خدایی که به چیزی وابسته باشد آن خدایی نیست که استدلال می‌طلبد. پس گزاره‌های مثبت باید بروند. آنچه هنوز گفتنی است شکل انکار دارد: جمله‌ای که خدا را توانا می‌خواند پذیرفته نمی‌شود و جمله‌ای که ناتوانی خدا را نفی می‌کند پذیرفته می‌شود — و ابن‌میمون پافشاری می‌کند که این شیوهٔ مؤدبانهٔ گفتن همان حرف نیست، چون نفی، نقصی را برمی‌دارد بی‌آنکه صفتی را اثبات کند. منتقدان بعدی، از جمله گرسونیدس، پاسخ دادند که واژه‌ای که تا این حد تهی شود دیگر نمی‌تواند زندگی دینی‌ای را که قرار بود پالایشش کند نگه دارد.\n\nدربارهٔ آفرینش کاری غیرمعمول می‌کند: استدلال می‌کند که هیچ‌یک از دو طرف اثبات‌پذیر نیست. برهان‌های ارسطو برای جهانِ ازلی از رفتار چیزها درون یک جهانِ تمام‌شده به چگونگی آغاز خود جهان می‌رسند، و شواهد چنین استنتاجی را مجاز نمی‌کنند؛ اما استدلال‌های آفرینش در زمان هم قوی‌تر نیستند. چون خرد این مسئله را فیصله نمی‌دهد، کتاب مقدس می‌تواند فیصله‌اش دهد، و او آفرینش را می‌پذیرد — و در همان حال یادآور می‌شود که اگر روزی ازلیت اثبات شود، آیات مربوط را می‌توان به همان آسانی مجازی خواند که آیات مربوط به دست خدا را. هشت سده است این جمله را یا امتیازدادن خوانده‌اند یا اشاره‌ای رمزی.\n\nخودش آشکارا می‌گوید کتاب را طوری چیده که دشوار باشد، با ادعاهای اصلیِ پراکنده و گاه عمداً متناقض، تا خواننده‌ای که آماده نیست نتواند کنار هم بگذاردشان. همین دو سنت تفسیری پدید آورده است: یکی که آموزه‌های اعلام‌شده را همان‌طور که هست می‌گیرد، و یکی که در سدهٔ بیستم با نام لئو اشتراوس گره خورد و تناقض‌ها را سطحی عمدی می‌خواند که موضعی ارسطویی‌تر را زیرش پنهان کرده است. نفوذ کتاب خیلی فراتر از جامعهٔ خودش رفت — آکویناس پیوسته او را دربارهٔ حدود آنچه می‌توان دربارهٔ خدا اثبات کرد نقل می‌کند، و اسپینوزا که کل این پروژه را رد کرد، روش خواندن تاریخیِ کتاب مقدس را از همین‌جا آموخت."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-guide-for-the-perplexed" }
+            ]
           }
         ]
       },
@@ -1064,6 +1340,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Thirteen books written in the second person, addressed throughout to God rather than to a reader. Nine of them follow Augustine's life to his conversion; the last four leave the story behind for questions about memory, about what time is, and about how the opening of Genesis should be read. The change of subject is the point, not a lapse.",
+              "fa": "سیزده کتاب نوشته‌شده به دوم شخص، که سرتاسر خطاب به خداست نه به خواننده. نه کتاب نخست زندگی آگوستین را تا گرویدنش دنبال می‌کنند؛ چهار کتاب پایانی داستان را رها می‌کنند و به پرسش‌هایی دربارهٔ حافظه، دربارهٔ اینکه زمان چیست، و دربارهٔ اینکه آغاز سفر پیدایش را چگونه باید خواند می‌پردازند. این تغییر موضوع خودِ نکته است، نه لغزش."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1071,6 +1355,15 @@
               "fa": "زندگی‌نامه قالب است نه محتوا. کتاب یازدهم می‌پرسد زمان چیست و به این پاسخ می‌رسد که گذشته و آینده تنها به‌صورت حافظهٔ حاضر و انتظار حاضر هستند. کتاب هشتم می‌پرسد چگونه ممکن است کسی چیزی را بخواهد و انجامش ندهد، و این مسئلهٔ ارادهٔ دوپاره است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Book XI is the most cited philosophical passage written before Descartes. It starts from a puzzle rather than a doctrine: we measure time, so time must be something, yet the past no longer exists, the future does not yet, and the present has no duration to measure. Augustine's answer moves the whole phenomenon inward. What we measure is not events but the impression they leave; there are three presents — of things past, of things present, of things future — and they are memory, attention and expectation. He tests it against reciting a psalm, where the part still to come shortens as the part already said lengthens, and the mind holds both. Husserl lectured on this passage, and every modern account of time-consciousness answers it.\n\nBook VIII sets a different problem. The mind commands the hand and the hand obeys instantly; the mind commands itself and meets resistance. Augustine refuses to explain this by positing two natures fighting, which is what he had believed as a Manichaean, and concludes that a single will can be genuinely divided against itself — willing incompletely is not willing something else. This is the ancestor of the long Western argument about weakness of will, and of the theology of grace, since a will in that condition cannot be repaired by its own effort.\n\nThe autobiography carries the arguments rather than decorating them. The stolen pears matter because the theft was motiveless and so raises the question of why anyone would want the wrong thing as such; the book on memory turns into a search for where in the mind God could be found; the grief for a dead friend becomes an argument about loving what cannot last. Scholars debate how much of the reported life is shaped to fit — the scene in the garden is told with unmistakable literary craft — but the philosophy does not depend on the reporting being exact.",
+              "fa": "کتاب یازدهم پرنقل‌ترین بند فلسفی نوشته‌شده پیش از دکارت است. از یک معما آغاز می‌کند نه از یک آموزه: ما زمان را اندازه می‌گیریم، پس زمان باید چیزی باشد، اما گذشته دیگر نیست، آینده هنوز نیست، و اکنون درازایی ندارد که اندازه‌اش بگیریم. پاسخ آگوستین کل پدیده را به درون می‌برد. آنچه اندازه می‌گیریم رویدادها نیستند بلکه نقشی است که بر جا می‌گذارند؛ سه اکنون هست — اکنونِ چیزهای گذشته، اکنونِ چیزهای حاضر، اکنونِ چیزهای آینده — و این سه یعنی حافظه و توجه و انتظار. آن را با خواندن یک مزمور می‌آزماید، جایی که بخش نیامده کوتاه می‌شود همان‌طور که بخش گفته‌شده بلند می‌شود، و ذهن هر دو را نگه می‌دارد. هوسرل دربارهٔ همین بند درس داد، و هر شرح امروزی از آگاهی زمانی پاسخی به آن است.\n\nکتاب هشتم مسئلهٔ دیگری می‌گذارد. ذهن به دست فرمان می‌دهد و دست بی‌درنگ اطاعت می‌کند؛ ذهن به خودش فرمان می‌دهد و با مقاومت روبه‌رو می‌شود. آگوستین حاضر نیست این را با فرضِ جنگ دو طبیعت توضیح دهد، که باور دوران مانوی‌بودنش بود، و نتیجه می‌گیرد که یک ارادهٔ واحد می‌تواند واقعاً با خودش دوپاره باشد — ناتمام خواستن، خواستنِ چیزی دیگر نیست. این نیای آن بحث دراز غربی دربارهٔ سستی اراده است، و نیای الهیات فیض، چون اراده‌ای در آن حال با کوشش خودش تعمیر نمی‌شود.\n\nزندگی‌نامه استدلال‌ها را حمل می‌کند نه اینکه تزیینشان کند. ماجرای گلابی‌های دزدیده از آن رو مهم است که دزدی بی‌انگیزه بود و پس این پرسش را پیش می‌کشد که چرا کسی خودِ کار نادرست را بخواهد؛ کتاب حافظه به جست‌وجویی بدل می‌شود برای اینکه خدا را در کجای ذهن می‌توان یافت؛ سوگ یک دوست مرده استدلالی می‌شود دربارهٔ دوست‌داشتن چیزی که ماندنی نیست. پژوهشگران بحث می‌کنند که چه اندازه از این زندگیِ گزارش‌شده برای جورشدن شکل داده شده — صحنهٔ باغ با صنعت ادبی آشکاری روایت شده — اما فلسفه به دقیق‌بودن گزارش وابسته نیست."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-confessions" }]
           }
         ]
       },
@@ -1096,6 +1389,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Twenty-two books written over thirteen years, begun after Alaric's troops took Rome in 410 and pagans blamed the Christians for it. The first half answers the accusation by going through Roman history; the second half sets out a whole account of history as the story of two communities that will not be separated until the end.",
+              "fa": "بیست و دو کتاب که در سیزده سال نوشته شده‌اند، آغازشده پس از آنکه سپاه آلاریک در سال ۴۱۰ رم را گرفت و مشرکان مسیحیان را مقصر دانستند. نیمهٔ نخست با مرور تاریخ رم به این اتهام پاسخ می‌دهد؛ نیمهٔ دوم شرحی کامل از تاریخ می‌گذارد به عنوان داستان دو جماعت که تا پایان از هم جدا نخواهند شد."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1103,6 +1404,15 @@
               "fa": "پاسخ آگوستین به غارت رم این است که هیچ شهر زمینی پایدار نیست و هیچ‌یک هرگز آن‌گونه که ادعا می‌کرد عادل نبوده است. او دو شهر را بر پایهٔ آنچه دوست می‌دارند از هم جدا می‌کند، و استدلال می‌کند که این دو در هر نهاد واقعی، از جمله کلیسا، در هم آمیخته‌اند."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The polemical half is more aggressive than its reputation suggests. Augustine does not argue that Rome fell for lack of Christian virtue; he argues that Rome had been sacked, starved and torn by civil war repeatedly while its gods were receiving full honours, and that the empire's famous virtues were a hunger for glory that happened to produce useful results. Along the way he demolishes the philosophical religion of his own education as thoroughly as the popular cults, sparing only the Platonists, and even they are told that a philosophy which cannot reach the many has failed at something.\n\nThe two cities are not church and state. They are defined by what a person loves — one by love of God carried as far as contempt of self, the other by love of self carried as far as contempt of God — and neither is visible from outside. Every actual institution contains members of both, the church included, which is why Augustine will not identify the empire with either. This blocks two readings that later writers nevertheless produced: the theocratic one, in which the church is the city of God and may command the earthly one, and the separatist one, in which political life is worthless. Book XIX takes the middle path, arguing that earthly peace is a real good that both cities use, though they use it for different ends.\n\nIts definition of a people is the piece political philosophers still quarrel with. Cicero had said a commonwealth requires agreement about justice; Augustine replies that on that definition Rome was never a commonwealth at all, and offers his own — a multitude united by the objects of its love — which lets you describe a political community without first certifying it as just, and lets you judge one by asking what it loves. The book also supplies the framework for a linear rather than cyclical history, which is why writers as far apart as Bossuet, Hegel and Marx are described, fairly or not, as working inside a scheme it set.",
+              "fa": "نیمهٔ جدلی کتاب تندتر از آن است که شهرتش نشان می‌دهد. آگوستین نمی‌گوید رم از کمبود فضیلت مسیحی افتاد؛ می‌گوید رم بارها غارت و گرسنه و در جنگ داخلی پاره‌پاره شده بود در همان روزگاری که خدایانش تمام‌وکمال گرامی داشته می‌شدند، و فضیلت‌های پرآوازهٔ آن امپراتوری گرسنگیِ نام و آوازه بود که اتفاقاً نتیجه‌های به‌دردبخور می‌داد. در همین راه، دینِ فلسفیِ تربیت خودش را به همان اندازهٔ آیین‌های عامیانه ویران می‌کند و تنها افلاطونیان را کنار می‌گذارد، و به آن‌ها هم می‌گوید فلسفه‌ای که به بسیاران نمی‌رسد جایی شکست خورده است.\n\nآن دو شهر، کلیسا و دولت نیستند. با آنچه آدمی دوست می‌دارد تعریف می‌شوند — یکی با عشق به خدا تا آنجا که خویشتن را خوار بدارد، دیگری با عشق به خویشتن تا آنجا که خدا را خوار بدارد — و هیچ‌کدام از بیرون دیدنی نیستند. هر نهاد واقعی عضوهایی از هر دو دارد، از جمله کلیسا، و برای همین است که آگوستین حاضر نیست امپراتوری را با هیچ‌کدام یکی بگیرد. این کار جلوی دو خوانش را می‌گیرد که نویسندگان بعدی با این حال ساختند: خوانش دین‌سالار، که کلیسا را شهر خدا می‌داند و مجاز به فرمان‌راندن بر شهر زمینی، و خوانش کناره‌گیر، که زندگی سیاسی را بی‌ارزش می‌شمارد. کتاب نوزدهم راه میانه را می‌رود و می‌گوید صلح زمینی خیری واقعی است که هر دو شهر از آن استفاده می‌کنند، هرچند برای هدف‌های متفاوت.\n\nتعریف او از «یک ملت» همان قطعه‌ای است که فیلسوفان سیاسی هنوز با آن سر و کله می‌زنند. سیسرون گفته بود جمهوری نیازمند توافق بر سر عدالت است؛ آگوستین پاسخ می‌دهد که با آن تعریف رم اصلاً هرگز جمهوری نبوده، و تعریف خودش را می‌آورد — انبوهی که متعلَّق‌های عشقش آن را یکی کرده — که به تو اجازه می‌دهد یک اجتماع سیاسی را توصیف کنی بی‌آنکه اول دادگربودنش را تأیید کنی، و اجازه می‌دهد با پرسیدن اینکه چه دوست دارد داوری‌اش کنی. این کتاب چارچوب تاریخی خطی به‌جای تاریخ دوری را هم فراهم کرد، و برای همین است که نویسندگانی به دوری بوسوئه و هگل و مارکس را، به‌حق یا ناحق، در حال کار درون طرحی توصیف می‌کنند که این کتاب گذاشت."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-city-of-god" }]
           }
         ]
       },
@@ -1128,6 +1438,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A textbook for beginners, in three parts and several thousand short articles, each one following the same shape: a question, the strongest arguments for the wrong answer, a quotation on the other side, a decision, and then a separate reply to every objection. Aquinas stopped writing it a few months before he died and never finished the third part.",
+              "fa": "کتابی درسی برای نوآموزان، در سه بخش و چند هزار مقالهٔ کوتاه که هر یک یک شکل دارند: یک پرسش، قوی‌ترین استدلال‌ها به سود پاسخ نادرست، نقلی از طرف مقابل، یک داوری، و بعد پاسخی جداگانه به هر اشکال. آکویناس چند ماه پیش از مرگش نوشتنش را رها کرد و بخش سوم را هرگز تمام نکرد."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1135,6 +1453,18 @@
               "fa": "ساختار خودِ استدلال است: هر مقاله نخست قوی‌ترین اعتراض‌ها را می‌آورد، سپس مرجعی برای طرف مقابل، سپس پاسخ، و در آخر جداگانه به هر اعتراض جواب می‌دهد. آکویناس آن را کتاب درسی طراحی کرد و ناتمام رهایش کرد، و نزدیک پایان گفت هرچه نوشته به نظرش کاه می‌آید."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The form is not packaging. An article that argues for a conclusion and then answers the objections one at a time commits its author to explaining why an intelligent opponent found the other view attractive, and Aquinas states the objections so well that they have been quoted against him. The order of the whole is also an argument: everything proceeds from God, the second part follows rational creatures moving back toward God, and the third treats Christ as the road by which they do it. Ethics is therefore placed inside a metaphysics rather than beside it.\n\nThe five ways at the start are the most quoted and the most misread pages. None of them is an argument that the universe must have had a beginning — Aquinas held explicitly that reason cannot settle whether the world is eternal, and the arguments are meant to work even if it is. What they trace is dependence at a moment, not succession in time: a series of causes each of which is acting only because something else is acting now. Whether such a series needs a first member, and whether the thing arrived at deserves the name God, are the two places every later critic has pressed.\n\nThe moral half is where recent philosophy has gone back to him. Aquinas takes Aristotle's account of virtue and habituation nearly whole, adds the theological virtues on top, and grounds obligation in a natural law that human reason can read off the ends creatures actually have. This makes ethics a matter of what fulfils a nature rather than what a rule commands, which is why twentieth-century writers dissatisfied with duty-based moralities — Anscombe and MacIntyre among them — went back through him. His own verdict on the project came after an experience during mass in December 1273, when he stopped work and told his secretary that compared with what he had seen, everything he had written seemed like straw.",
+              "fa": "این شکل، بسته‌بندی نیست. مقاله‌ای که برای یک نتیجه استدلال می‌آورد و بعد یکایک اشکال‌ها را پاسخ می‌دهد، نویسنده‌اش را موظف می‌کند توضیح دهد چرا مخالفی باهوش دیدگاه دیگر را جذاب یافته، و آکویناس اشکال‌ها را چنان خوب می‌نویسد که آن‌ها را علیه خودش نقل کرده‌اند. ترتیب کل اثر هم یک استدلال است: همه‌چیز از خدا بیرون می‌آید، بخش دوم آفریدگان خردمند را در بازگشت به سوی خدا دنبال می‌کند، و بخش سوم مسیح را همان راهی می‌داند که با آن بازمی‌گردند. پس اخلاق درون یک متافیزیک جا می‌گیرد نه کنار آن.\n\nپنج راهِ آغاز کتاب پرنقل‌ترین و بدخوانده‌ترین صفحه‌هایند. هیچ‌کدام استدلال بر این نیستند که جهان باید آغازی داشته باشد — آکویناس صریحاً می‌گفت خرد نمی‌تواند ازلی‌بودن جهان را فیصله دهد، و این استدلال‌ها طوری ساخته شده‌اند که حتی اگر جهان ازلی باشد کار کنند. آنچه دنبال می‌کنند وابستگی در یک لحظه است نه توالی در زمان: زنجیره‌ای از علت‌ها که هر یک تنها از آن رو کنشگر است که چیزی دیگر همین حالا کنش می‌کند. اینکه چنین زنجیره‌ای به عضو نخست نیاز دارد یا نه، و اینکه آنچه به آن می‌رسیم نام خدا را می‌شایَد یا نه، دو جایی است که هر منتقد بعدی فشار آورده است.\n\nنیمهٔ اخلاقی همان است که فلسفهٔ امروزی به آن بازگشته. آکویناس شرح ارسطو از فضیلت و عادت را تقریباً یکپارچه می‌گیرد، فضیلت‌های الهیاتی را رویش می‌افزاید، و الزام را در قانونی طبیعی ریشه می‌دهد که خرد آدمی می‌تواند آن را از غایت‌های واقعی آفریدگان بخواند. این کار اخلاق را به مسئلهٔ آنچه یک طبیعت را کامل می‌کند بدل می‌کند نه آنچه یک قاعده فرمان می‌دهد، و برای همین نویسندگان سدهٔ بیستم که از اخلاق‌های تکلیف‌محور ناراضی بودند — از جمله انسکوم و مک‌اینتایر — از راه او بازگشتند. داوری خودش دربارهٔ این پروژه پس از تجربه‌ای در مراسم عشای ربانی در دسامبر ۱۲۷۳ آمد، وقتی کار را زمین گذاشت و به منشی‌اش گفت در برابر آنچه دیده است، هرچه نوشته به نظرش کاه می‌آید."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-summa-theologiae" }
+            ]
           }
         ]
       },
@@ -1155,6 +1485,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A short book, written as a prayer, that tries to find a single argument needing no other premises. Chapter two produces it, and philosophers have been unable to leave it alone since: the claim that once you understand what the word God means, you cannot consistently deny that the thing exists.",
+              "fa": "کتابی کوتاه، نوشته‌شده به شکل نیایش، که می‌کوشد یک استدلال یگانه بیابد که به هیچ مقدمهٔ دیگری نیاز نداشته باشد. فصل دوم آن را می‌سازد، و از آن پس فیلسوفان نتوانسته‌اند رهایش کنند: این ادعا که همین‌که بفهمی واژهٔ خدا چه معنا می‌دهد، دیگر نمی‌توانی بی‌تناقض وجود آن را انکار کنی."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1162,6 +1500,15 @@
               "fa": "آنسلم خدا را چنین تعریف می‌کند: آنچه بزرگ‌تر از آن نتوان اندیشید، و استدلال می‌کند چنین موجودی نمی‌تواند تنها در فهم باشد، چون بودن در واقعیت بزرگ‌تر است. اعتراض‌ها بی‌درنگ آغاز شد، با راهبی به نام گاونیلو، و از آن پس تقریباً هر قرن یک بار این استدلال رد و دوباره احیا شده است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Anselm's formula is careful. He does not say God is the greatest being, which would presuppose a scale with a top; he says God is aliquid quo maius cogitari nequit — something beyond which no greater is conceivable — which describes a thought rather than a thing. The argument then runs on the fool of the psalm who says in his heart there is no God: to deny it, the fool must understand the phrase, so the thing exists at least in his understanding; but a thing existing in reality as well would be greater; so if it existed only in the understanding, the fool could conceive something greater than the very thing he had just understood, which is a contradiction. The next chapter goes further and argues that a being so described cannot even be conceived not to exist — the part later writers usually forget, and the part that makes the argument about necessity rather than about existence.\n\nThe first objection is printed with the text. Gaunilo, a monk at Marmoutier, replied that by the same reasoning one could prove an island than which no greater island can be thought, since an existing island beats an imagined one. Anselm's answer is that the parody fails because islands have no maximum — you can always add a beach — while the concept he is using is not the concept of the best thing of some kind. Whether that answer works is roughly where the argument still sits.\n\nIts history is a cycle. Aquinas rejected it, on the grounds that we do not have the knowledge of God's essence the argument needs; Descartes revived a version, Leibniz supplied the missing step by trying to prove the concept is consistent, and Kant's reply — that existence is not a predicate that could make anything greater — was taken as final for a century and a half. It was reopened in the 1960s, when Norman Malcolm and then Alvin Plantinga rebuilt the chapter-three version in modal logic, where the questionable step is not existence but the claim that the being is possible at all. Nothing about the argument has ever been settled, which is itself the reason it is still taught.",
+              "fa": "فرمول آنسلم دقیق است. نمی‌گوید خدا بزرگ‌ترین موجود است، که مقیاسی با یک نقطهٔ بالا را از پیش فرض می‌گیرد؛ می‌گوید خدا آن چیزی است که بزرگ‌تر از آن را نتوان اندیشید، و این توصیف یک اندیشه است نه توصیف یک چیز. استدلال بعد بر آن نادانِ مزمور می‌رود که در دل خود می‌گوید خدایی نیست: برای انکارکردن، نادان باید این عبارت را بفهمد، پس آن چیز دست‌کم در فهم او هست؛ اما چیزی که در واقعیت هم باشد بزرگ‌تر است؛ پس اگر تنها در فهم می‌بود، آن چیزی نمی‌بود که بزرگ‌تر از آن را نتوان اندیشید، و این همان است که خودش فهمیده بود. فصل بعد پیش‌تر می‌رود و می‌گوید چنین موجودی را حتی نمی‌توان ناموجود اندیشید — بخشی که نویسندگان بعدی معمولاً فراموشش می‌کنند، و همان بخشی که استدلال را به ضرورت مربوط می‌کند نه به وجود.\n\nنخستین اشکال همراه خود متن چاپ می‌شود. گائونیلو، راهبی در مارموتیه، پاسخ داد که با همین استدلال می‌توان جزیره‌ای را ثابت کرد که بزرگ‌تر از آن جزیره‌ای نتوان اندیشید، چون جزیرهٔ موجود از جزیرهٔ خیالی بهتر است. پاسخ آنسلم این است که این تقلید شکست می‌خورد چون جزیره‌ها بیشینه ندارند — همیشه می‌توان ساحلی افزود — در حالی که مفهومی که او به کار می‌برد مفهوم بهترینِ یک گونه نیست. اینکه این پاسخ کار می‌کند یا نه، کمابیش همان جایی است که استدلال هنوز در آن ایستاده است.\n\nتاریخ آن یک چرخه است. آکویناس ردش کرد، به این دلیل که ما آن شناختی از ذات خدا را که این استدلال لازم دارد نداریم؛ دکارت روایتی از آن را زنده کرد، لایبنیتس گام گمشده را با کوشش برای اثبات سازگاری آن مفهوم پر کرد، و پاسخ کانت — که وجود محمولی نیست که بتواند چیزی را بزرگ‌تر کند — یک سده و نیم قطعی شمرده شد. در دههٔ ۱۹۶۰ دوباره باز شد، وقتی نورمن مالکوم و بعد آلوین پلانتینگا روایت فصل سوم را در منطق موجهات از نو ساختند، جایی که گام محل تردید نه وجود بلکه این ادعاست که چنین موجودی اصلاً ممکن است. هیچ‌چیز در این استدلال هرگز فیصله نیافته، و همین خودش دلیل آن است که هنوز درس داده می‌شود."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-proslogion" }]
           }
         ]
       },
@@ -1182,6 +1529,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A complete logic course in three parts — terms, propositions, arguments — written on the assumption that nothing exists except individual things and individual minds. Ockham's problem is to show that all the general talk logic depends on can be kept while the general entities behind it are dropped.",
+              "fa": "یک دورهٔ کامل منطق در سه بخش — واژه‌ها، قضیه‌ها، استدلال‌ها — نوشته‌شده با این فرض که جز چیزهای جزئی و ذهن‌های جزئی چیزی وجود ندارد. مسئلهٔ اکام این است که نشان دهد می‌توان همهٔ آن سخن‌گفتنِ کلی را که منطق به آن بند است نگه داشت و در همان حال موجودات کلیِ پشت آن را کنار گذاشت."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1189,6 +1544,18 @@
               "fa": "اکام استدلال می‌کند که واژه‌های کلی نشانه‌هایی‌اند که جای بسیاری از افراد می‌نشینند، نه نام موجوداتی مشترک، و نشان می‌دهد منطق وقتی هیچ چیز کلی به جهان راه نیابد چه شکلی می‌شود. «تیغی» که معمولاً به او نسبت می‌دهند روشِ کارِ همین کتاب است نه شعاری در آن."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The apparatus that does the work is supposition theory: an account of what a term stands for in a given sentence rather than what it means in the dictionary. The same word 'man' picks out individual people in one sentence, stands for the concept in another, and refers to the written mark itself in a third, and Ockham's rules say which is happening where. Once you have that, the sentence 'man is a species' no longer forces you to admit a species into the world, because the term is not standing for anything outside the mind at all. This is how a nominalist keeps the science of universals without the universals.\n\nHis theory of concepts is the boldest part. A concept is a natural sign, produced in the mind by encountering individuals and resembling them, and mental language has syntax of its own that spoken languages translate. He is therefore committed to a language of thought before there was a phrase for it, and modern philosophers of mind have read him with recognition. He also changed his own view midstream: an earlier position treated concepts as mental objects, and he abandoned it for one on which the concept is just the act of thinking, on the ground that the extra object did no work — his razor turned on his own machinery.\n\nThe principle he is remembered for is not stated in the words usually quoted, and it is not a preference for simple theories. What he actually applies is a rule about explanation: nothing is to be posited without necessity, where necessity means required by experience, by argument, or by scripture. Applied to physics it eliminates real quantities and relations; applied to theology it separates what can be demonstrated from what must be believed, which is why the same method that made him a founder of modern logic also got him summoned to Avignon and eventually excommunicated.",
+              "fa": "دستگاهی که کار را پیش می‌برد نظریهٔ «سوپوزیسیو» است: شرحی از اینکه یک واژه در یک جملهٔ معیّن جانشین چه چیزی است، نه اینکه در فرهنگ لغت چه معنا می‌دهد. همان واژهٔ «انسان» در یک جمله به افراد اشاره می‌کند، در جملهٔ دیگر جانشین مفهوم است، و در سومی به خودِ نشانهٔ نوشته‌شده بازمی‌گردد، و قاعده‌های اکام می‌گویند کجا کدام رخ می‌دهد. وقتی این را داشته باشی، جملهٔ «انسان یک نوع است» دیگر تو را وادار نمی‌کند نوعی را به جهان راه دهی، چون آن واژه اصلاً جانشین چیزی بیرون از ذهن نیست. نام‌گرا این‌گونه دانشِ کلیات را بی کلیات نگه می‌دارد.\n\nنظریهٔ او دربارهٔ مفهوم‌ها جسورانه‌ترین بخش است. مفهوم نشانه‌ای طبیعی است که از برخورد با افراد در ذهن پدید می‌آید و به آن‌ها شبیه است، و زبان ذهنی نحو خودش را دارد که زبان‌های گفتاری ترجمه‌اش می‌کنند. پس او پیش از آنکه تعبیری برایش باشد به زبان اندیشه پایبند است، و فیلسوفان ذهن امروزی او را با حس آشنایی خوانده‌اند. دیدگاه خودش را هم در میانهٔ راه عوض کرد: موضع پیشینش مفهوم‌ها را ابژه‌های ذهنی می‌دانست، و آن را رها کرد به سود موضعی که در آن مفهوم فقط همان کنش اندیشیدن است، به این دلیل که آن ابژهٔ اضافی کاری نمی‌کرد — تیغش روی دستگاه خودش چرخید.\n\nاصلی که او را با آن به یاد می‌آورند به آن الفاظی که معمولاً نقل می‌شود در متن نیامده، و ترجیحِ نظریه‌های ساده هم نیست. آنچه واقعاً به کار می‌برد قاعده‌ای دربارهٔ تبیین است: هیچ‌چیز بی ضرورت نباید نهاده شود، و ضرورت یعنی آنچه تجربه یا استدلال یا کتاب مقدس اقتضا کند. در فیزیک که به کار رود کمیت‌ها و نسبت‌های واقعی را حذف می‌کند؛ در الهیات که به کار رود آنچه اثبات‌پذیر است را از آنچه باید ایمان آورد جدا می‌کند، و برای همین همان روشی که او را از بنیان‌گذاران منطق جدید کرد، به احضارش به آوینیون و سرانجام تکفیرش هم انجامید."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-summa-logicae" }
+            ]
           }
         ]
       },
@@ -1209,6 +1576,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Twenty-six short chapters written in 1513 by a man who had just lost his job in the Florentine republic, been imprisoned and tortured, and was hoping to be employed by the family that had replaced it. It reads like a manual, and the argument that made it notorious is that a ruler who insists on being good in every situation will be ruined by people who do not.",
+              "fa": "بیست و شش فصل کوتاه، نوشته در ۱۵۱۳ به دست مردی که همین تازه کارش را در جمهوری فلورانس از دست داده، زندانی و شکنجه شده بود، و امید داشت خاندانی که جای آن جمهوری را گرفته بود به کارش بگیرد. مثل یک دستورنامه خوانده می‌شود، و استدلالی که بدنامش کرد این است که فرمانروایی که اصرار دارد در هر وضعیتی نیک باشد، به دست کسانی که چنین نیستند نابود خواهد شد."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1216,6 +1591,15 @@
               "fa": "این کتاب با گونهٔ «اندرز به شاهان» می‌شکند، چون وصف می‌کند فرمانروایان چه می‌کنند نه اینکه فرمانروای خوب چه می‌کند، و استدلال می‌کند شهریاری که در همهٔ اوضاع نیک باشد به دست کسانی که نیستند نابود می‌شود. اینکه این واقع‌گرایی است یا هجو یا درخواست کار، پنج قرن است محل بحث است."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The break with the genre is visible in a single sentence near the middle, where Machiavelli says he will follow the effectual truth of the matter rather than the imagination of it, because many have imagined republics never seen. Everything before him in the mirror-for-princes tradition described the virtues a ruler should cultivate. He describes instead what has actually kept people in power, and the examples are recent and checkable — Cesare Borgia, Ferdinand of Aragon, the Italian city-states he had negotiated with as a diplomat.\n\nThe moral claim is narrower than the reputation. He does not say cruelty is good; he distinguishes cruelty used once, decisively, and then stopped, from cruelty that grows over time, and says the first can be defended and the second never. He does not say a prince should be hated; being feared and being hated are treated as different states, and the advice is to be feared while avoiding hatred, which chiefly means not taking people's property or their women. Nor does he say virtue is useless — the argument is that a ruler must be able to depart from it when circumstances require, and be judged on outcomes. The word usually translated 'virtue' in his Italian carries the sense of capacity and force rather than moral goodness, and much of the book's shock in English comes from a translation the Latin original does not quite license.\n\nWhat it is for remains disputed. He also wrote the Discourses, a long defence of republican government arguing that a free people is wiser and more reliable than a prince, and the two books are hard to hold together. Rousseau's solution was that this one is a satire teaching peoples what princes are like; Spinoza had said something similar earlier. Others read it as an application manual, written to a Medici by a man who needed work, or as a technical treatise indifferent to the question of what the state is for. The final chapter, an emotional appeal to free Italy from foreign armies, fits none of the cool readings and is usually explained away by all of them.",
+              "fa": "گسست از این ژانر در یک جمله در میانهٔ کتاب دیده می‌شود، آنجا که ماکیاولی می‌گوید حقیقتِ کارآمدِ ماجرا را دنبال می‌کند نه تصور آن را، چون بسیاری جمهوری‌هایی را تصور کرده‌اند که هرگز دیده نشده‌اند. هرچه پیش از او در سنت «آینهٔ شاهان» بود، فضیلت‌هایی را وصف می‌کرد که فرمانروا باید در خود بپرورد. او در عوض وصف می‌کند چه چیزی واقعاً مردم را بر سر قدرت نگه داشته است، و نمونه‌هایش تازه و وارسی‌پذیرند — چزاره بورجا، فردیناند آراگون، و دولت‌شهرهای ایتالیایی که خودش به عنوان دیپلمات با آن‌ها مذاکره کرده بود.\n\nادعای اخلاقی‌اش باریک‌تر از شهرتش است. نمی‌گوید سنگدلی خوب است؛ میان سنگدلی‌ای که یک‌بار و قاطع به کار می‌رود و بعد متوقف می‌شود با سنگدلی‌ای که به مرور رشد می‌کند فرق می‌گذارد و می‌گوید از اولی می‌توان دفاع کرد و از دومی هرگز. نمی‌گوید فرمانروا باید منفور باشد؛ ترسیده‌شدن و منفوربودن دو حال جداگانه شمرده می‌شوند، و توصیه این است که ترسناک باشی و از نفرت بپرهیزی، که عمدتاً یعنی به مال و ناموس مردم دست نزنی. این را هم نمی‌گوید که فضیلت بی‌فایده است — استدلال این است که فرمانروا باید بتواند هرجا اوضاع اقتضا کرد از آن فاصله بگیرد، و بر پایهٔ نتیجه‌ها داوری شود. واژه‌ای که در ایتالیایی او معمولاً «فضیلت» ترجمه می‌شود بیشتر بار توانایی و نیرو دارد تا نیکی اخلاقی، و بخش بزرگی از تکانی که کتاب در انگلیسی می‌دهد از ترجمه‌ای می‌آید که متن اصلی چندان مجازش نمی‌کند.\n\nاینکه این کتاب برای چیست هنوز محل بحث است. او «گفتارها» را هم نوشت، دفاعی بلند از حکومت جمهوری که استدلال می‌کند مردمِ آزاد از یک شاهزاده داناتر و قابل‌اعتمادترند، و کنار هم نگه‌داشتن این دو کتاب دشوار است. راه‌حل روسو این بود که این یکی هجویه‌ای است که به مردم می‌آموزد شاهزادگان چگونه‌اند؛ اسپینوزا پیش‌تر چیزی نزدیک به همین گفته بود. دیگران آن را درخواست کار می‌خوانند، نوشته به یک مدیچی از سوی مردی که به کار نیاز داشت، یا رساله‌ای فنی که به پرسش «دولت برای چیست» بی‌اعتناست. فصل پایانی، فراخوانی پرشور برای رهاندن ایتالیا از سپاه بیگانه، به هیچ‌یک از این خوانش‌های سرد نمی‌خورد و همهٔ آن‌ها معمولاً به شکلی از کنارش رد می‌شوند."
+            },
+            "citations": [{ "source": "sep" }, { "source": "text-the-prince" }]
           }
         ]
       },
@@ -1236,6 +1620,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "One hundred and seven pieces of wildly different lengths, revised and expanded over twenty years until the later additions argue with the earlier text on the same page. Montaigne calls them attempts, which is what the word meant before it named a school exercise, and the thing being attempted is an honest description of one particular mind.",
+              "fa": "صد و هفت قطعه با درازاهای بسیار متفاوت، که در بیست سال بازنویسی و افزوده شده‌اند تا جایی که افزوده‌های متأخر در همان صفحه با متن پیشین بحث می‌کنند. مونتنی نامشان را «کوشش» می‌گذارد، که معنای این واژه پیش از آنکه نام یک تمرین درسی شود همین بود، و آنچه کوشش می‌شود توصیفی صادقانه از یک ذهن معیّن است."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1243,6 +1635,18 @@
               "fa": "مونتنی دربارهٔ آدم‌خواران، شست، خواب، دوستی و سنگ کلیهٔ خودش نوشت، با این استدلال که کسی که خودش را دقیق گزارش کند وضع بشر را گزارش کرده است. پرسش مکررش — «چه می‌دانم؟» — پرسشی واقعی است نه بلاغی."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The long central essay, the Apology for Raymond Sebond, is where the scepticism is worked out, and it is more radical than the tone suggests. Montaigne assembles the standard ancient arguments — the senses disagree, animals perceive differently and have no worse claim to be right, our judgements shift with health and mood and custom, and any criterion offered to settle disputes needs a criterion of its own — and pushes them against human self-importance rather than toward a theory. The motto he had struck on a medal, asking what he knows, is deliberately in the present tense and the interrogative: it is a report of a state, not a doctrine that could be refuted.\n\nThe essay on cannibals shows the method at work on something concrete. Having talked to Brazilians brought to Rouen, he compares their treatment of enemies with French religious warfare and concludes that roasting a dead man is less barbarous than torturing a living one under the name of piety, and that we call barbarous whatever is not our own custom. The argument is not that all customs are equal — he keeps judging — but that the yardstick people reach for is usually just familiarity. Shakespeare read this essay in Florio's translation and used it in The Tempest.\n\nWhat holds the book together is the decision to write about himself in a period when that was not done. He reports his digestion, his memory failing, his fear of pain, his sexual habits, the death of his friend La Boétie, and the kidney stones that eventually killed him, on the argument that every person carries the whole form of the human condition, so a mind described accurately is not merely a private matter. The Vatican put the book on the index for two centuries. Descartes builds his method out of the same sceptical materials and reaches the opposite conclusion; Pascal wrote against him repeatedly and could not stop quoting him; Nietzsche said that such a man writing increased the joy of living on this earth.",
+              "fa": "جستار بلند میانی، یعنی «دفاعیه‌ای برای ریمون سبوند»، همان جایی است که شکاکیت در آن پرورده می‌شود، و رادیکال‌تر از لحنش است. مونتنی استدلال‌های استاندارد باستانی را کنار هم می‌چیند — حواس با هم نمی‌خوانند، جانوران جور دیگری ادراک می‌کنند و ادعای درست‌بودنشان کمتر از ما نیست، داوری‌های ما با تندرستی و حال و عادت جابه‌جا می‌شود، و هر معیاری که برای فیصله‌دادن اختلاف بیاورند خودش معیاری می‌خواهد — و آن‌ها را به‌جای آنکه به سوی یک نظریه ببرد، بر خودبزرگ‌بینی آدمی می‌کوبد. آن جمله‌ای که بر مدالی کوبیده بود و می‌پرسد چه می‌داند، عمداً در زمان حال و به صورت پرسشی است: گزارش یک حال است، نه آموزه‌ای که بشود ردش کرد.\n\nجستار «آدم‌خواران» این روش را در کار روی چیزی عینی نشان می‌دهد. پس از گفت‌وگو با برزیلیانی که به روئن آورده بودند، رفتار آن‌ها با دشمن را با جنگ‌های مذهبی فرانسه می‌سنجد و نتیجه می‌گیرد که کباب‌کردن مرده کمتر از شکنجه‌کردن زنده به نام دین‌داری وحشیانه است، و اینکه ما هرچه را عادت خودمان نباشد وحشیانه می‌نامیم. استدلال این نیست که همهٔ عادت‌ها برابرند — او همچنان داوری می‌کند — بلکه این است که خط‌کشی که مردم برمی‌دارند معمولاً چیزی جز آشنابودن نیست. شکسپیر این جستار را در ترجمهٔ فلوریو خواند و در «توفان» به کارش برد.\n\nآنچه کتاب را به هم می‌بندد تصمیم نوشتن دربارهٔ خود است، در روزگاری که چنین کاری نمی‌شد. از هاضمه‌اش می‌گوید، از حافظه‌ای که دارد از دست می‌رود، از ترسش از درد، از عادت‌های جنسی‌اش، از مرگ دوستش لا بوئسی، و از سنگ کلیه‌ای که سرانجام کشتش، با این استدلال که هر آدمی صورت کامل وضع بشری را با خود حمل می‌کند، پس ذهنی که دقیق توصیف شود صرفاً یک امر خصوصی نیست. واتیکان دو سده این کتاب را در فهرست کتاب‌های ممنوع نگه داشت. دکارت روش خود را از همین مصالح شکاکانه می‌سازد و به نتیجهٔ وارونه می‌رسد؛ پاسکال بارها علیه او نوشت و نتوانست از نقل‌کردنش دست بکشد؛ نیچه گفت نوشتنِ چنین مردی شادی زیستن بر این زمین را بیشتر کرده است."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-essays-montaigne" }
+            ]
           }
         ]
       },
@@ -1268,6 +1672,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Five parts, each built like a book of Euclid: definitions first, then axioms, then numbered propositions with proofs. It moves from the nature of substance to the mind, the emotions, human bondage and finally freedom. Spinoza would not publish it in his lifetime, and it appeared a few months after he died.",
+              "fa": "پنج بخش، که هر یک مانند کتابی از اقلیدس ساخته شده است: اول تعریف‌ها، بعد اصول موضوعه، بعد قضیه‌های شماره‌دار با برهان. از سرشت جوهر به ذهن، به عواطف، به بندگی آدمی و سرانجام به آزادی می‌رود. اسپینوزا حاضر نشد در زمان زندگی‌اش منتشرش کند، و کتاب چند ماه پس از مرگش بیرون آمد."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1275,6 +1687,18 @@
               "fa": "تعریف، اصل موضوع، قضیه، برهان. خودِ این صورت یک ادعا است: اگر نتیجه‌ها لازم می‌آیند، خوش‌نیامدن از آن‌ها اعتراض نیست. آنچه لازم می‌آید این است که یک جوهر هست، که «خدا» و «طبیعت» دو نام برای اویند، که ذهن و تن یک چیزند که دوگونه وصف می‌شوند، و آزادی فهمیدنِ ضرورت است نه گریختن از آن."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The opening definitions do almost all the damage. A substance is defined as what exists in itself and is conceived through itself; from that, within fifteen propositions, it follows that two substances could not share an attribute, that substance cannot be produced by anything else, and therefore that there is exactly one substance, which has infinite attributes and which may be called God or nature indifferently. Everything ordinarily called a thing — a body, a person, a state — is a mode, a way that one substance is currently modified. Readers who accept the definitions find the conclusions hard to resist, which is precisely the effect the geometrical form was chosen for.\n\nTwo consequences did the most to make him notorious. There is no free will: a decision is a mode caused by prior modes, and the feeling of freedom is only ignorance of the causes, the way a stone in flight would think itself free if it were conscious. And mind and body are not two things interacting but one thing expressed under two attributes, so no explanation ever crosses between them — a position that avoids Descartes' problem of how a soul pushes a body by denying that anything pushes. Part III then treats emotions as the ordinary subject-matter of a science, to be analysed as if they were lines and planes, and derives them all from one drive: everything strives to persist in its own being, and joy and sadness are just increase and decrease in that power.\n\nThe last part, on freedom, is where readers divide. Freedom cannot mean escaping necessity, since there is none to escape; it means understanding the causes of one's own states, because a passion adequately understood stops being a passion. The book ends with an intellectual love of God that is God's love of himself, and with the flat sentence that all excellent things are as difficult as they are rare. Whether the final propositions are earned by the proofs or smuggled past them is an old complaint, made by Hegel among others. What is not disputed is the reception: 'Spinozist' was an accusation for a century, and then Lessing, Goethe, Novalis and Coleridge turned it into a badge.",
+              "fa": "تعریف‌های آغازین تقریباً همهٔ کار را می‌کنند. جوهر چنین تعریف می‌شود: آنچه در خود هست و از راه خود تصور می‌شود؛ و از همین، در پانزده قضیه، برمی‌آید که دو جوهر نمی‌توانند صفتی مشترک داشته باشند، که جوهر را چیزی دیگر نمی‌تواند پدید آورد، و پس دقیقاً یک جوهر هست، که صفت‌های بی‌شمار دارد و می‌توان بی‌تفاوت خدا یا طبیعتش خواند. هرچه در زبان عادی «چیز» خوانده می‌شود — یک تن، یک شخص، یک دولت — یک حالت است، یعنی شیوه‌ای که آن جوهر یگانه هم‌اکنون بدان دگرگون شده است. خواننده‌ای که تعریف‌ها را بپذیرد مقاومت در برابر نتیجه‌ها را دشوار می‌یابد، و صورت هندسی دقیقاً برای همین اثر انتخاب شده بود.\n\nدو نتیجه بیش از همه بدنامش کردند. ارادهٔ آزاد وجود ندارد: یک تصمیم حالتی است که حالت‌های پیشین علتش‌اند، و احساس آزادی چیزی جز ناآگاهی از علت‌ها نیست، همان‌طور که سنگی در پرواز اگر آگاه می‌بود خود را آزاد می‌پنداشت. و ذهن و تن دو چیزِ در تعامل نیستند بلکه یک چیزند که زیر دو صفت بیان شده، پس هیچ تبیینی میان آن دو رفت‌وآمد نمی‌کند — موضعی که مسئلهٔ دکارت را، یعنی اینکه جان چگونه تن را هل می‌دهد، با انکار هرگونه هل‌دادن کنار می‌زند. بخش سوم آنگاه عواطف را موضوع عادی یک علم می‌گیرد، تا چنان تحلیل شوند که گویی خط و سطح‌اند، و همه را از یک رانه بیرون می‌کشد: هر چیزی می‌کوشد در بودن خود پایدار بماند، و شادی و اندوه چیزی جز افزایش و کاهش همان توان نیستند.\n\nبخش پایانی، دربارهٔ آزادی، همان جایی است که خوانندگان دو دسته می‌شوند. آزادی نمی‌تواند به معنای گریز از ضرورت باشد، چون ضرورتی نیست که از آن بگریزی؛ یعنی فهمیدن علت‌های حال‌های خود، چون شوری که به‌درستی فهمیده شود دیگر شور نیست. کتاب با عشقی عقلی به خدا پایان می‌گیرد که همان عشق خدا به خویش است، و با این جملهٔ صریح که هر چیز والا به همان اندازه که کمیاب است دشوار هم هست. اینکه قضیه‌های پایانی را برهان‌ها به دست آورده‌اند یا از کنارشان قاچاق شده‌اند گلایه‌ای کهنه است که از جمله هگل آن را کرده است. آنچه محل بحث نیست سرگذشت کتاب است: «اسپینوزایی» یک سده یک اتهام بود، و بعد لسینگ و گوته و نوالیس و کولریج آن را به نشان افتخار بدل کردند."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-ethics-spinoza" }
+            ]
           }
         ]
       },
@@ -1299,6 +1723,14 @@
       "article": {
         "sections": [
           {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A pamphlet of about eighty pages, published in 1879, presenting a written notation for reasoning that Frege designed from scratch. It is where quantifiers, bound variables and formal proof in the modern sense first appear together, and it did more to change logic than anything since Aristotle.",
+              "fa": "جزوه‌ای حدود هشتاد صفحه، منتشرشده در ۱۸۷۹، که نشانه‌گذاری نوشتاری‌ای برای استدلال عرضه می‌کند که فرگه از صفر طراحی کرده بود. همان‌جاست که سورها و متغیرهای مقید و برهان صوری به معنای امروزی نخستین‌بار کنار هم پیدا می‌شوند، و بیش از هر چیزی پس از ارسطو منطق را دگرگون کرد."
+            }
+          },
+          {
             "id": "shape",
             "depth": "standard",
             "body": {
@@ -1306,6 +1738,18 @@
               "fa": "فرگه به‌جای موضوع و محمول، تابع و آرگومان نشاند، سورها را وارد کرد، و بدین‌سان صوری‌کردنِ جمله‌هایی با چند سور را ممکن ساخت — «هر پسری دختری را دوست دارد» — که از زمان ارسطو منطق را شکست داده بود. کتاب بد فروخت و بیست سال تقریباً کسی نخواندش."
             },
             "citations": [{ "source": "sep" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The decisive move is to stop analysing sentences into subject and predicate and analyse them into function and argument instead, borrowing the pair from mathematics. In 'Cato killed Cato' the traditional analysis has to choose one of the names as the subject; Frege's lets you hold either name fixed and see the rest as a function with a gap, which is what makes it possible to say something general about whichever position you left open. Quantifiers then fill those gaps, and because a quantifier can sit inside the scope of another one, sentences with mixed generality — that every number has a larger one, that someone loves everyone — become expressible for the first time. Syllogistic could not reach them, and neither could Boole's algebra of classes.\n\nTwo further pieces of the modern apparatus are here in recognisable form. Proof is defined purely by rules on written shapes, with axioms and modus ponens and nothing left to intuition, so that a gap in an argument becomes visible as a missing line rather than hiding in a persuasive sentence — which was the point, since Frege's real target was whether arithmetic depends on anything beyond logic. And the third part gives a definition of following in a series that is effectively the ancestral of a relation, which is what lets mathematical induction be justified rather than assumed.\n\nIt was almost completely ignored. The two-dimensional notation, with judgements drawn as branching horizontal and vertical strokes, was expensive to print and hard to read; Schröder reviewed it as a step backwards from Boole. Frege kept the notation for the rest of his life and it died with him — the symbols now used descend from Peano and Russell — but the ideas were picked up by Russell and Wittgenstein and became the frame everything since has been built in. The system in this pamphlet is also sound, unlike the later one in the Basic Laws whose fifth axiom Russell's paradox destroyed.",
+              "fa": "حرکت تعیین‌کننده این است که تحلیل جمله به نهاد و گزاره کنار گذاشته شود و به‌جایش تحلیل به تابع و آرگومان بنشیند، که این جفت از ریاضیات وام گرفته شده است. در «کاتو کاتو را کشت» تحلیل سنتی ناچار است یکی از دو نام را نهاد بگیرد؛ تحلیل فرگه می‌گذارد هر کدام را که خواستی ثابت نگه داری و باقی را تابعی با یک جای خالی ببینی، و همین است که ممکن می‌کند دربارهٔ هر جایگاهی که باز گذاشته‌ای چیزی کلی بگویی. آنگاه سورها آن جاهای خالی را پر می‌کنند، و چون یک سور می‌تواند درون دامنهٔ سور دیگر بنشیند، جمله‌هایی با عمومیت آمیخته — اینکه هر عددی عددی بزرگ‌تر دارد، اینکه کسی همه را دوست دارد — برای نخستین‌بار بیان‌پذیر می‌شوند. منطق قیاسی به آن‌ها نمی‌رسید، و جبر رده‌های بول هم نمی‌رسید.\n\nدو قطعهٔ دیگر از دستگاه امروزی هم اینجا به شکل قابل تشخیص هستند. برهان تنها با قاعده‌هایی روی شکل‌های نوشته تعریف می‌شود، با اصول موضوعه و قاعدهٔ وضع مقدم و هیچ چیزی که به شهود واگذار شده باشد، تا شکاف یک استدلال به صورت سطری غایب دیده شود نه اینکه در جمله‌ای متقاعدکننده پنهان بماند — و هدف همین بود، چون آماج واقعی فرگه این بود که آیا حساب به چیزی بیرون از منطق وابسته است یا نه. و بخش سوم تعریفی از «پی‌آمدن در یک رشته» می‌دهد که عملاً همان بستار جدی یک نسبت است، و همین است که می‌گذارد استقرای ریاضی موجه شود نه فرض.\n\nاین جزوه تقریباً یکسره نادیده گرفته شد. آن نشانه‌گذاری دوبعدی، با داوری‌هایی که به صورت خط‌های افقی و عمودی شاخه‌شاخه کشیده می‌شدند، چاپش گران و خواندنش دشوار بود؛ شرودر در نقدی آن را پس‌رفتی نسبت به بول خواند. فرگه تا پایان عمر همان نشانه‌گذاری را نگه داشت و با او مرد — نمادهایی که امروز به کار می‌روند از پئانو و راسل می‌آیند — اما ایده‌ها را راسل و ویتگنشتاین برداشتند و چارچوبی شد که هرچه پس از آن آمده در آن ساخته شده است. دستگاه همین جزوه، برخلاف دستگاه متأخرترِ «قوانین بنیادی» که پارادوکس راسل اصل پنجمش را ویران کرد، سازگار هم هست."
+            },
+            "citations": [
+              { "source": "sep" },
+              { "source": "text-begriffsschrift" }
+            ]
           }
         ]
       },
