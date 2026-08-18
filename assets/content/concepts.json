@@ -374,7 +374,8 @@
             "body": {
               "en": "The motivation is a problem every earlier system had failed on. If the soul begins as something bodily and ends as something immaterial, what happened? Adding an immaterial part from outside at some moment is arbitrary; denying the change contradicts the observation. Substantial motion dissolves the question: the soul is bodily in its origination and spiritual in its persistence, because a substance can move along the scale of existence the way a body moves along a road.\n\nThe cost is that identity has to be rethought. If the substance is never the same twice, what makes this the same person? Ṣadrā's answer is that continuity is the continuity of a single motion rather than of a stationary thing — the river, not the water. Modern readers have noticed the resemblance to process philosophy, and the resemblance is real, though the route to it was entirely different.",
               "fa": "انگیزه‌اش مسئله‌ای است که هر دستگاه پیشین در آن ناکام مانده بود. اگر نفس چیزی جسمانی آغاز می‌شود و چیزی مجرد پایان می‌یابد، چه رخ داده؟ افزودن جزئی مجرد از بیرون در لحظه‌ای معین دلبخواهی است؛ انکار این دگرگونی با مشاهده ناسازگار است. حرکت جوهری پرسش را منحل می‌کند: نفس در حدوث جسمانی است و در بقا روحانی، چون جوهر می‌تواند بر نردبان هستی حرکت کند همان‌گونه که تن در راه حرکت می‌کند.\n\nهزینه‌اش این است که «این‌همانی» باید از نو اندیشیده شود. اگر جوهر هرگز دو بار یکی نیست، چه چیز این را همان شخص می‌کند؟ پاسخ صدرا این است که پیوستگی، پیوستگیِ یک حرکت واحد است نه پیوستگیِ چیزی ساکن — رود، نه آب. خوانندگان امروزی شباهت آن را به فلسفهٔ فرایند دیده‌اند، و شباهت واقعی است، هرچند راهِ رسیدن به آن یکسره متفاوت بود."
-            }
+            },
+            "citations": [{ "source": "sadra-asfar" }, { "source": "sep" }]
           }
         ]
       }
@@ -628,7 +629,8 @@
             "body": {
               "en": "The warning is doing real work. If the Dao were a thing among things it would have a boundary, and a boundary is something imposed. So the text describes it by what it is like rather than what it is: water, which yields and wears down stone; an uncarved block, which is valuable precisely because nothing has been decided about it; the empty hub that makes a wheel useful.\n\nThis is not vagueness for its own sake. The practical claim is that most human failure comes from imposing a shape rather than finding one, and a doctrine stated as a rule would be one more imposition. Where Confucianism asks what a person should cultivate, Daoism asks what they should stop doing — and the two ran alongside each other in Chinese thought for two thousand years without either winning.",
               "fa": "این هشدار کار واقعی می‌کند. اگر دائو چیزی در میان چیزها بود مرزی می‌داشت، و مرز چیزی است تحمیل‌شده. پس متن آن را با آنچه بدان می‌ماند وصف می‌کند نه با آنچه هست: آب، که نرمی می‌کند و سنگ را می‌ساید؛ کُندهٔ نتراشیده، که ارزشش دقیقاً از آن است که دربارهٔ آن چیزی تصمیم گرفته نشده؛ و آن میان‌تهیِ توپیِ چرخ که چرخ را به کار می‌آورد.\n\nاین ابهام برای ابهام نیست. ادعای عملی این است که بیشترِ ناکامی آدمی از تحمیل‌کردن یک شکل می‌آید نه یافتن آن، و آموزه‌ای که به‌صورت قاعده بیان شود خود تحمیلی دیگر است. آنجا که کنفوسیوس‌گرایی می‌پرسد آدمی چه باید بپرورد، دائوئیسم می‌پرسد از چه باید دست بکشد — و این دو دو هزار سال در اندیشهٔ چینی کنار هم دویدند بی‌آنکه هیچ‌یک ببرد."
-            }
+            },
+            "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
           }
         ]
       },
@@ -669,7 +671,8 @@
             "body": {
               "en": "The examples in the Zhuangzi are all craftsmen, and that matters: this is skill, not passivity. A swimmer survives the waterfall by going with the water rather than fighting it, and he says he has no technique — he simply follows the way the water goes. What has disappeared is not the doing but the straining, and the straining is what the texts identify as the source of most failure.\n\nThe political version is what made it dangerous. A ruler who governs by wu wei does not issue more decrees; he removes the conditions that make the decrees necessary, and the people say they did it themselves. Whether this is deep statecraft or an excuse for doing nothing was argued about from the start, and Legalists borrowed the language for something considerably harder.",
               "fa": "مثال‌های جوانگ‌زی همه پیشه‌ورانند، و این مهم است: این مهارت است نه انفعال. شناگری از آبشار جان به در می‌برد چون با آب می‌رود نه در برابرش، و می‌گوید فنی ندارم — تنها راهی را که آب می‌رود دنبال می‌کنم. آنچه ناپدید شده کردن نیست، زور زدن است، و متن‌ها همین زور زدن را سرچشمهٔ بیشترِ ناکامی می‌شناسند.\n\nصورت سیاسی‌اش همان بود که خطرناکش کرد. فرمانروایی که به وو وی حکم می‌راند فرمان‌های بیشتر صادر نمی‌کند؛ شرایطی را برمی‌دارد که فرمان را لازم می‌کنند، و مردم می‌گویند خودمان کردیم. اینکه این کشورداریِ ژرف است یا بهانه‌ای برای هیچ‌نکردن، از همان آغاز محل بحث بود، و قانون‌گرایان همین زبان را برای چیزی به‌مراتب سخت‌تر وام گرفتند."
-            }
+            },
+            "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
           }
         ]
       },
@@ -709,7 +712,11 @@
             "body": {
               "en": "The obvious objection is that this is formalism — that what matters is the feeling, and the bow is decoration. Confucius agrees that ritual without rén is worthless and says so directly. But he holds the reverse too: a feeling with no practised form to carry it is unreliable, and the forms are how a disposition gets built in the first place, the way scales build a musician.\n\nXunzi took this furthest. Since he thought human nature crooked, ritual is the straightening — not the expression of a good character but the tool that manufactures one. Mozi attacked the whole apparatus as waste, and the argument between them is one of the sharpest in classical Chinese philosophy: whether the cost of elaborate funerals is a moral education or food taken from the living.",
               "fa": "اعتراض آشکار این است که این صورت‌گرایی است — که آنچه اهمیت دارد احساس است و تعظیم تزیین. کنفوسیوس می‌پذیرد که آیینِ بی‌«رِن» بی‌ارزش است و همین را صریح می‌گوید. اما عکسش را هم می‌گوید: احساسی که صورتی تمرین‌شده آن را حمل نکند نااعتمادپذیر است، و اصلاً همین صورت‌هاست که خوی را می‌سازد، همان‌گونه که تمرین‌های ساده نوازنده را می‌سازد.\n\nشونزی این را تا آخر برد. چون سرشت آدمی را کج می‌دانست، آیین همان راست‌کردن است — نه بیانِ منشِ نیک، که ابزاری که آن را می‌سازد. مو زی به تمام این دستگاه چون اسراف تاخت، و بحث میان آنان از تیزترین بحث‌های فلسفهٔ کلاسیک چین است: اینکه هزینهٔ تشییع‌های پرخرج آموزشی اخلاقی است یا نانی که از دهان زندگان گرفته شده."
-            }
+            },
+            "citations": [
+              { "source": "confucius-analects" },
+              { "source": "sep" }
+            ]
           }
         ]
       },
@@ -748,7 +755,8 @@
             "body": {
               "en": "The formal apparatus is syādvāda: every assertion is prefixed with syāt, 'in some respect', and seven combinations of affirmation, denial and inexpressibility are generated. Critics from Śaṅkara onward have called this evasion — a doctrine that never commits and so can never be refuted.\n\nThe Jain reply is that the objection assumes what is at issue. If reality really does exceed any one description, then a philosophy claiming a complete one is the evasive party, and the seven-fold formula is simply honest bookkeeping about the limits of a claim. The ethical link is direct and is the reason the doctrine mattered outside logic: certainty is what licenses violence, and a tradition built on non-harm has a reason to be careful about it.",
               "fa": "دستگاه صوری‌اش «سیاد واده» است: پیش از هر حکم «سیات» می‌آید، یعنی «از جهتی»، و هفت ترکیب از اثبات و نفی و بیان‌ناپذیری پدید می‌آید. منتقدان از شنکره به این سو این را طفره خوانده‌اند — آموزه‌ای که هرگز تعهد نمی‌کند و پس هرگز رد نمی‌شود.\n\nپاسخ جَین این است که این اعتراض همان چیزی را مفروض می‌گیرد که محل نزاع است. اگر واقعیت به‌راستی از هر توصیف واحدی فراتر رود، آنگاه فلسفه‌ای که مدعی توصیفی تمام است همان طرفِ طفره‌رو است، و فرمول هفت‌گانه صرفاً حسابداریِ صادقانه دربارهٔ حدود یک ادعاست. پیوند اخلاقی مستقیم است و همان سبب اهمیت این آموزه بیرون از منطق است: این یقین است که جواز خشونت می‌دهد، و سنتی که بر نیازردن بنا شده دلیلی دارد که در آن محتاط باشد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -786,7 +794,8 @@
             "body": {
               "en": "Taken seriously the principle is impossible to satisfy, and Jain thought treats that as informative rather than as a reason to relax it. A life cannot be lived without harm, so the question becomes how much harm a given life requires and what it is for — which turns the principle into a scale rather than a line, and makes the monastic and lay paths different in degree rather than in kind.\n\nGandhi, raised among Jains in Gujarat, moved it into politics. Non-cooperation with an unjust order, accepting the penalty rather than inflicting one, is ahiṃsā used as a method of pressure — and he was explicit that it is not passivity but a way of refusing to grant an opponent the fight they are equipped to win. Whether it generalises to opponents who are not embarrassed by publicity has been the standing objection since.",
               "fa": "اگر جدی گرفته شود، برآوردن این اصل ناممکن است، و اندیشهٔ جَین این را آگاهی‌بخش می‌داند نه دلیلی برای سست‌گرفتنش. زندگی بی‌آزار زیسته نمی‌شود، پس پرسش این می‌شود که یک زندگیِ معین چه اندازه آزار لازم دارد و برای چیست — و این اصل را به‌جای خط، به طیف بدل می‌کند، و راه راهبانه و راه عامیانه را به تفاوت در درجه بدل می‌کند نه در نوع.\n\nگاندی که در گجرات میان جَین‌ها بزرگ شد، آن را به سیاست برد. ناهمکاری با نظمی ناعادلانه، و پذیرفتن کیفر به‌جای واردکردن آن، همان اهیمسا است که چون روشی برای فشار به کار رفته — و او صریح بود که این انفعال نیست بلکه راهی است برای ندادنِ آن نبردی به حریف که برای بردنش مجهز است. اینکه آیا این در برابر حریفانی که از انتشار خبر شرمنده نمی‌شوند هم کار می‌کند، از آن پس اعتراض همیشگی بوده."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -825,7 +834,8 @@
             "body": {
               "en": "The mechanism is not moral appeal but cost. A state governs by consent it has stopped noticing; withdraw the consent — from its courts, its cloth, its salt monopoly — and the machinery has to be run by force in public, which is expensive and hard to justify. Accepting the punishment is what makes the refusal legible as principle rather than as evasion.\n\nGandhi insisted this was a duty and not a tactic, saying that non-cooperation with evil is as much a duty as cooperation with good. Critics have pressed the obvious question about opponents who do not care how it looks, and Gandhi's own answer — that it would still be right, and that the alternative corrupts the person using it — is a claim about the actor rather than about the outcome. King and the American civil rights movement adopted the method and made the same claim.",
               "fa": "سازوکارش نه توسل اخلاقی که هزینه است. دولت با رضایتی حکم می‌راند که دیگر متوجهش نیست؛ آن رضایت را پس بگیر — از دادگاه‌هایش، از پارچه‌اش، از انحصار نمکش — و آنگاه چرخ باید در ملأ عام با زور بچرخد، که هم پرهزینه است و هم توجیهش دشوار. پذیرفتن کیفر همان است که سرباززدن را چون یک اصل خوانا می‌کند نه چون طفره.\n\nگاندی پافشاری داشت که این وظیفه است نه تاکتیک، و می‌گفت ناهمکاری با شر به همان اندازه وظیفه است که همکاری با خیر. منتقدان پرسش آشکار را دربارهٔ حریفانی که به ظاهر کار اهمیت نمی‌دهند پیش کشیده‌اند، و پاسخ خودِ گاندی — که باز هم درست می‌بود، و اینکه بدیلش کسی را که به کارش می‌برد فاسد می‌کند — ادعایی است دربارهٔ کنشگر نه دربارهٔ نتیجه. کینگ و جنبش حقوق مدنی امریکا این روش را گرفتند و همان ادعا را کردند."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -863,7 +873,8 @@
             "body": {
               "en": "The word means juice or taste, and the analogy is careful: as a dish has a flavour that is not any one ingredient, a work has a rasa that is not any one thing represented in it. The Nāṭyaśāstra lists eight, later nine, including the erotic, the comic, the pitiable, the furious and the peaceful.\n\nAbhinavagupta's contribution was to say what makes the experience aesthetic rather than merely emotional. Grief at a play is not grief: it is depersonalised, not about your loss, and it is enjoyable in a way real grief is not. What blocks the ordinary personal response is what he calls the removal of obstacles, and what remains is a relishing of the emotion itself. This is a serious rival to the Western tradition's focus on the object and the maker, and it starts from the audience instead.",
               "fa": "این واژه یعنی عصاره یا مزه، و تشبیه دقیق است: چنان‌که خوراک مزه‌ای دارد که هیچ‌یک از مواد آن نیست، اثر هم «رسه»ای دارد که هیچ‌یک از چیزهای بازنمایی‌شده در آن نیست. «ناتیه‌شاستره» هشت تا برمی‌شمارد و بعدها نُه تا، از جمله عاشقانه، خنده‌آور، ترحم‌انگیز، خشمگین و آرام.\n\nسهم اَبهینَوَگوپته این بود که بگوید چه چیز این تجربه را زیبایی‌شناختی می‌کند نه صرفاً عاطفی. اندوه در نمایش اندوه نیست: غیرشخصی است، دربارهٔ فقدان تو نیست، و به شیوه‌ای لذت‌بخش است که اندوه واقعی نیست. آنچه پاسخ شخصیِ معمول را سد می‌کند همان است که او «برداشتن موانع» می‌خواندش، و آنچه می‌ماند چشیدنِ خودِ آن عاطفه است. این رقیبی جدی است برای تمرکز سنت غربی بر اثر و آفریننده، و به‌جای آن‌ها از مخاطب آغاز می‌کند."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -902,7 +913,11 @@
             "body": {
               "en": "Perception and inference are accepted by nearly everyone. After that the schools diverge sharply. The Cārvāka materialists accept perception alone and are therefore committed to denying almost everything else. Nyāya adds comparison and testimony, and the argument for testimony is strong: almost everything anyone knows — their own birthday, the existence of distant countries — arrived that way, and a theory that cannot license it proves too much.\n\nThe Mīmāṃsā school added more, including a means for knowing absence: you know the jug is not in the room by a distinct faculty rather than by inference. What makes the tradition unusual is that this was pursued as a shared technical vocabulary across schools that agreed on nothing else, so a Buddhist and a Naiyāyika could disagree precisely rather than talk past one another.",
               "fa": "ادراک و استنتاج را تقریباً همه می‌پذیرند. پس از آن مکاتب به‌تندی جدا می‌شوند. مادی‌گرایان چارواکه تنها ادراک را می‌پذیرند و از این رو ناگزیرند تقریباً هرچیز دیگر را انکار کنند. نیایه مقایسه و شهادت را می‌افزاید، و استدلال برای شهادت قوی است: تقریباً هرچه هرکس می‌داند — تاریخ تولد خودش، وجود سرزمین‌های دور — از همین راه رسیده، و نظریه‌ای که نتواند آن را مجاز بشمارد بیش از حد اثبات می‌کند.\n\nمکتب میمانسا بیشتر افزود، از جمله ابزاری برای دانستنِ نبود: اینکه کوزه در اتاق نیست را با قوه‌ای متمایز می‌دانی نه با استنتاج. آنچه این سنت را نامعمول می‌کند این است که همهٔ این‌ها چون واژگانی فنیِ مشترک میان مکاتبی دنبال شد که بر هیچ چیز دیگر توافق نداشتند، پس یک بودایی و یک نیایه‌ای می‌توانستند دقیق مخالفت کنند نه اینکه از کنار هم رد شوند."
-            }
+            },
+            "citations": [
+              { "source": "text-pramanasamuccaya" },
+              { "source": "sep" }
+            ]
           }
         ]
       }
@@ -941,7 +956,8 @@
             "body": {
               "en": "The earliest formula is a chain of twelve links running from ignorance to suffering, and it was offered as a diagnosis: if suffering arises from conditions, then removing a condition removes what depends on it, and the chain is a map of where to cut. That is the practical point, and it came before any metaphysics.\n\nNāgārjuna then drew the metaphysical conclusion the formula had always implied. If a thing arises dependently, it has no independent nature — and that absence is what emptiness names. So dependent origination and emptiness are not two doctrines but one seen from two sides, which is why he says that whoever understands one understands the other, and that a person who thinks emptiness means nothingness has taken the snake by the wrong end.",
               "fa": "کهن‌ترین فرمول، زنجیره‌ای از دوازده حلقه است که از نادانی تا رنج می‌رود، و همچون یک تشخیص عرضه شد: اگر رنج از شرایط برمی‌آید، برداشتن یک شرط آنچه را بدان وابسته است برمی‌دارد، و زنجیره نقشه‌ای است از اینکه کجا باید برید. نکتهٔ عملی همین است، و پیش از هر متافیزیکی آمد.\n\nسپس ناگارجونا نتیجهٔ متافیزیکی‌ای را گرفت که این فرمول همیشه در خود داشت. اگر چیزی وابسته پدید آید، سرشتی مستقل ندارد — و «تهیت» نام همین نبود است. پس پیدایشِ وابسته و تهیت دو آموزه نیستند بلکه یکی‌اند که از دو سو دیده می‌شود، و به همین سبب می‌گوید هر که یکی را بفهمد دیگری را فهمیده، و کسی که تهیت را به معنای هیچی بگیرد مار را از سر نادرست گرفته است."
-            }
+            },
+            "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }]
           }
         ]
       },
@@ -986,7 +1002,11 @@
             "body": {
               "en": "Maimonides pushes this further than most. In the Guide he argues that the only true description of God is by negations, and that each negation removes an error without adding a positive claim — God is not ignorant, not powerless, not many — so that the attributes are a discipline of subtraction rather than a portrait.\n\nThe obvious problem is whether anything is left to worship or to reason about, and whether the practice quietly says a great deal while claiming to say nothing. The tradition runs through Pseudo-Dionysius in Greek, Maimonides in Arabic, Aquinas — who tried to keep some positive content through analogy — and Ibn ʿArabī, who took the opposite route and multiplied the names rather than removing them.",
               "fa": "ابن‌میمون این را از بیشتر کسان جلوتر می‌برد. در «دلالت الحائرین» استدلال می‌کند که تنها توصیف صادق از خدا با سلب است، و هر سلب خطایی را برمی‌دارد بی‌آنکه ادعایی ایجابی بیفزاید — خدا نادان نیست، ناتوان نیست، بسیار نیست — چنان‌که صفات انضباطی از کاستن‌اند نه یک تصویر.\n\nاشکال آشکار این است که آیا چیزی برای پرستیدن یا اندیشیدن می‌ماند، و آیا این شیوه در سکوت چیز بسیاری نمی‌گوید در حالی که مدعی است هیچ نمی‌گوید. این سنت از دیونیسیوس مجعول در یونانی، به ابن‌میمون در عربی، به آکویناس — که کوشید با «تمثیل» اندکی محتوای ایجابی نگه دارد — و به ابن‌عربی می‌رسد که راه وارونه رفت و به‌جای برداشتن نام‌ها، آن‌ها را تکثیر کرد."
-            }
+            },
+            "citations": [
+              { "source": "text-guide-for-the-perplexed" },
+              { "source": "sep" }
+            ]
           }
         ]
       }
@@ -1024,7 +1044,8 @@
             "body": {
               "en": "The phrase is later than Ibn ʿArabī himself and became a battleground. Read one way it is pantheism and was condemned as such; read another it is a claim about degrees of existence — creatures exist, but derivatively, the way a reflection exists — and this is how its defenders took it. Ibn Taymiyya's attack made the term permanently contested in Sunni thought.\n\nThe philosophical stakes are real and not only theological. If existence is one, individuality has to be explained rather than assumed, and the explanation Mullā Ṣadrā gave — that essences are the limits at which one being is grasped — is what let him combine this Sufi claim with a demonstrative metaphysics. That combination is the whole project of Transcendent Wisdom.",
               "fa": "این تعبیر متأخرتر از خودِ ابن‌عربی است و به میدان نزاع بدل شد. به یک خوانش، همه‌خداانگاری است و چنین محکومش کردند؛ به خوانشی دیگر ادعایی است دربارهٔ مراتب وجود — مخلوقات هستند، اما به‌تبع، همان‌گونه که بازتاب هست — و مدافعانش چنین گرفتندش. حملهٔ ابن‌تیمیه این اصطلاح را در اندیشهٔ سنی برای همیشه محل نزاع کرد.\n\nگروِ فلسفی‌اش واقعی است و تنها الهیاتی نیست. اگر وجود یکی است، فردیت را باید تبیین کرد نه مفروض گرفت، و تبیینی که ملاصدرا داد — که ماهیات همان حدودی‌اند که یک هستی در آن‌ها دریافت می‌شود — همان است که به او امکان داد این ادعای عرفانی را با متافیزیکی برهانی جمع کند. تمام پروژهٔ حکمت متعالیه همین جمع است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1071,7 +1092,8 @@
             "body": {
               "en": "The cycle he describes is mechanical and bleak. A group with strong ʿaṣabiyya takes a city; the city's comfort is what the group wanted and also what dissolves the bond that got them there; the third generation has never known the conditions that produced it, and the fourth is taken by someone from outside who still has it. He read Islamic North African history as this pattern repeating.\n\nWhat makes the Muqaddimah unusual is the level of the explanation. Ibn Khaldūn is not explaining events by the virtue or vice of rulers, which was the available genre; he is looking for the conditions that make a certain kind of history likely, and he says explicitly that he is founding a new science. That is why he is claimed by sociology as much as by philosophy of history.",
               "fa": "چرخه‌ای که وصف می‌کند مکانیکی و تلخ است. گروهی با عصبیت نیرومند شهری را می‌گیرد؛ آسایشِ شهر همان است که گروه می‌خواست و همان است که پیوندِ رساننده‌شان را می‌گسلد؛ نسل سوم هرگز شرایطی را که آن را ساخته ندیده، و نسل چهارم به دست کسی از بیرون که هنوز آن را دارد گرفته می‌شود. او تاریخ شمال آفریقای اسلامی را تکرار همین الگو خواند.\n\nآنچه «مقدمه» را نامعمول می‌کند سطح تبیین است. ابن‌خلدون رویدادها را با فضیلت یا رذیلت فرمانروایان توضیح نمی‌دهد، که ژانر در دسترس همین بود؛ او در پی شرایطی است که نوعی از تاریخ را محتمل می‌کنند، و صریح می‌گوید که علمی نو بنیاد می‌نهد. به همین سبب جامعه‌شناسی به همان اندازهٔ فلسفهٔ تاریخ او را از آنِ خود می‌داند."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1115,7 +1137,8 @@
             "body": {
               "en": "The metaphysics is built from light, and the choice of image is an argument. Light needs no definition — you cannot explain it to someone who has not seen it, and anyone who has needs no explanation — and Suhrawardī says being is like that: self-evident, and obscured rather than clarified by defining it. Degrees of reality become degrees of luminosity, and what is dark is what is dependent.\n\nHis target is the Peripatetic account of knowledge as acquiring a form. If knowing X means having a form of X in the mind, then what you know is the form, not X, and the gap never closes. Knowledge by presence closes it by denying there were two things. This is why Illuminationism reads as mysticism to some and as a technical epistemology to others, and it is both.",
               "fa": "متافیزیکش از نور ساخته شده، و همین انتخابِ تصویر خود یک استدلال است. نور به تعریف نیاز ندارد — نمی‌توان آن را به کسی که ندیده توضیح داد، و آن که دیده به توضیح نیاز ندارد — و سهروردی می‌گوید هستی هم چنین است: بدیهی، و تعریف‌کردنش پوشاننده است نه روشن‌کننده. مراتب واقعیت مراتب نورانیت می‌شوند، و آنچه تاریک است همان است که وابسته است.\n\nهدفش تحلیل مشائی از معرفت است که آن را کسبِ صورت می‌داند. اگر دانستنِ الف یعنی داشتنِ صورتی از الف در ذهن، پس آنچه می‌دانی صورت است نه الف، و این شکاف هرگز بسته نمی‌شود. علم حضوری آن را با انکار اینکه دو چیز در کار بوده می‌بندد. به همین سبب اشراق برای برخی عرفان خوانده می‌شود و برای برخی معرفت‌شناسیِ فنی، و هر دو هست."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1151,7 +1174,8 @@
             "body": {
               "en": "Hume's presentation is the sharpest. The inference from observed cases to unobserved ones is not deductive, since the conclusion could be false with the premises true; and it cannot be supported by experience, since that would be the same inference again. So the practice has no rational foundation — and Hume adds that we will go on doing it anyway, because it is a habit of mind rather than a conclusion, and that this is fortunate.\n\nEvery subsequent answer has been contested. Kant argued that uniformity is a condition of experience rather than a discovery within it. Popper accepted the problem and proposed that science does not induce at all but conjectures and refutes. Bayesians reconstruct the reasoning as probability updating, which critics say relocates the assumption into the priors. It remains the clearest example of a philosophical problem that everyone lives past and nobody has closed.",
               "fa": "بیان هیوم از همه تیزتر است. استنتاج از موارد مشاهده‌شده به مشاهده‌نشده قیاسی نیست، چون نتیجه می‌تواند با صدق مقدمات کاذب باشد؛ و با تجربه هم پشتیبانی نمی‌شود، چون آن خودِ همان استنتاج دوباره است. پس این کار بنیادی عقلانی ندارد — و هیوم می‌افزاید که به‌هرحال ادامه‌اش خواهیم داد، چون عادتی ذهنی است نه یک نتیجه، و همین مایهٔ خوشبختی است.\n\nهر پاسخ بعدی محل نزاع بوده. کانت گفت یکنواختی شرطِ تجربه است نه کشفی درون آن. پوپر مسئله را پذیرفت و پیشنهاد کرد که علم اصلاً استقرا نمی‌کند بلکه حدس می‌زند و ابطال می‌کند. بیزی‌ها این استدلال را چون به‌روزرسانی احتمال بازسازی می‌کنند، که منتقدان می‌گویند فرض را به «پیشین‌ها» منتقل کرده. این هنوز روشن‌ترین نمونهٔ مسئله‌ای فلسفی است که همه از کنارش می‌گذرند و کسی نبسته است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1187,7 +1211,8 @@
             "body": {
               "en": "The observation is modest and its consequences are not. It does not say that moral conclusions are false or unfounded; it says that if they are founded, something other than a description of the world is doing part of the work, and that the something should be stated. Anyone arguing that a practice is natural and therefore right is being asked, politely, for the missing premise.\n\nThe main line of resistance holds that some concepts are already both — 'cruel', 'courageous', 'trustworthy' describe and evaluate in one word, and separating the two components may not be possible. Aristotelian and neo-Aristotelian ethics take this route, arguing that facts about what a creature needs to flourish are already normative. The gap is now less a proof than a demand for bookkeeping, which is arguably what Hume wanted.",
               "fa": "این مشاهده فروتنانه است و پیامدهایش نه. نمی‌گوید نتایج اخلاقی کاذب یا بی‌پایه‌اند؛ می‌گوید اگر پایه دارند، چیزی جز توصیفِ جهان بخشی از کار را می‌کند، و آن چیز باید بیان شود. از هر کس که استدلال کند فلان کار طبیعی است پس درست است، مؤدبانه مقدمهٔ گمشده خواسته می‌شود.\n\nخط اصلی مقاومت می‌گوید برخی مفاهیم پیشاپیش هر دو هستند — «بی‌رحم»، «شجاع»، «امانت‌دار» در یک واژه هم توصیف می‌کنند و هم ارزیابی، و شاید نتوان این دو مؤلفه را از هم جدا کرد. اخلاق ارسطویی و نوارسطویی همین راه را می‌روند و می‌گویند واقعیت‌ها دربارهٔ آنچه یک جاندار برای شکوفایی نیاز دارد پیشاپیش هنجارین‌اند. این شکاف اکنون کمتر یک برهان است و بیشتر مطالبهٔ حسابداری، و شاید همین چیزی بود که هیوم می‌خواست."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1223,7 +1248,8 @@
             "body": {
               "en": "The three classic versions disagree about what people are like without a state, and the disagreement decides everything after. Hobbes's state of nature is a war of everyone against everyone, so almost any sovereign is better than none and the contract is nearly unconditional. Locke's is inconvenient rather than terrible — people have rights already, and government is a trustee that can be dismissed for breach. Rousseau's is not bad at all, and it is society itself that corrupts, so the problem is to find an association in which each obeys only himself.\n\nThe standing objection is that a hypothetical agreement binds nobody: consent you never gave is not consent. Hume made it early and bluntly. The tradition's modern revival answers by changing the question — Rawls asks not what people did agree to but what they would choose without knowing which position in the resulting society they would occupy, which turns the contract from a piece of history into a test for fairness.",
               "fa": "سه روایت کلاسیک بر سر اینکه مردم بی‌دولت چگونه‌اند اختلاف دارند، و همین اختلاف باقی را تعیین می‌کند. وضع طبیعیِ هابز جنگ همه علیه همه است، پس تقریباً هر حاکمی بهتر از بی‌حاکمی است و قرارداد تقریباً بی‌قیدوشرط. وضع لاک ناخوشایند است نه هولناک — مردم پیشاپیش حق دارند، و حکومت امینی است که در صورت خیانت عزل می‌شود. وضع روسو اصلاً بد نیست، و همین جامعه است که فاسد می‌کند، پس مسئله یافتن اجتماعی است که در آن هرکس تنها از خود فرمان برد.\n\nاعتراض همیشگی این است که توافق فرضی کسی را ملزم نمی‌کند: رضایتی که هرگز نداده‌ای رضایت نیست. هیوم زود و بی‌پرده گفتش. احیای امروزی این سنت با تغییر پرسش پاسخ می‌دهد — رالز نمی‌پرسد مردم بر چه توافق کردند، بلکه می‌پرسد بی‌آنکه بدانند در جامعهٔ حاصل چه جایگاهی خواهند داشت چه برمی‌گزیدند، و این قرارداد را از یک تکه تاریخ به آزمونی برای انصاف بدل می‌کند."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1261,7 +1287,8 @@
             "body": {
               "en": "The distinction is easier to feel than to state. A club deciding its own rules is asking what is good for the club, and a member asking what is good for himself is answering a different question with the same vote. Rousseau holds that the first question has a right answer and that the second, aggregated, need not reach it.\n\nThis is the most dangerous idea he had, and he half knew it. The claim that someone can be forced to be free — that a person compelled to obey the general will is only being held to what they really willed — has been read as the ancestor of every regime that claimed to represent a people against their expressed preferences. Defenders reply that the concept is doing necessary work: without it there is no way to say that a majority can be wrong about the common good, and no way to distinguish a republic from a market.",
               "fa": "این تمایز آسان‌تر حس می‌شود تا بیان. باشگاهی که قواعد خود را تعیین می‌کند می‌پرسد چه چیز برای باشگاه خوب است، و عضوی که می‌پرسد چه چیز برای خودش خوب است با همان رأی به پرسشی دیگر پاسخ می‌دهد. روسو می‌گوید پرسش نخست پاسخی درست دارد و پرسش دوم، حتی جمع‌بسته، لزوماً به آن نمی‌رسد.\n\nاین خطرناک‌ترین ایدهٔ اوست، و نیمی از این را می‌دانست. آن ادعا که می‌توان کسی را به آزادی وادار کرد — که فردِ ناچار به اطاعت از ارادهٔ عمومی تنها به آنچه واقعاً خواسته پایبند نگه داشته می‌شود — چون نیای هر نظامی خوانده شده که مدعی نمایندگی مردم در برابر ترجیح‌های اعلام‌شدهٔ خودشان بوده. مدافعان پاسخ می‌دهند که این مفهوم کاری لازم می‌کند: بی‌آن راهی نیست که بگوییم اکثریت می‌تواند دربارهٔ خیر عمومی خطا کند، و راهی نیست که جمهوری را از بازار جدا کنیم."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1298,7 +1325,8 @@
             "body": {
               "en": "The device is a way of making impartiality operational rather than merely recommending it. You cannot argue for a rule that favours the rich if you might turn out poor, so self-interest under the veil produces the same answers fairness would — which is the point, since it does not require anyone to be unusually good.\n\nRawls concluded that the parties would choose equal basic liberties, and would allow inequalities only where they benefit the worst-off. Nozick objected that the whole set-up is loaded: it treats a distribution as something to be arranged rather than as the outcome of transactions people were entitled to make. Sen objected differently, that the goods being distributed are the wrong measure, because what matters is what a person can actually do. The device survived both, and it is now the standard way of testing whether a rule can be defended to the person it disadvantages.",
               "fa": "این ابزار راهی است برای عملیاتی‌کردن بی‌طرفی، نه صرفاً توصیه‌کردن آن. اگر ممکن باشد تهیدست از آب دربیایی نمی‌توانی از قاعده‌ای دفاع کنی که به سود توانگران است، پس نفع شخصی زیر آن پرده همان پاسخ‌هایی را می‌دهد که انصاف می‌داد — و نکته همین است، چون از کسی نمی‌خواهد به‌طور نامعمول نیک باشد.\n\nرالز نتیجه گرفت که طرف‌ها آزادی‌های بنیادین برابر را برمی‌گزینند و نابرابری را تنها آنجا مجاز می‌شمارند که به سود بدترین وضع باشد. نوزیک اعتراض کرد که تمام این صحنه‌آرایی جانبدارانه است: توزیع را چیزی می‌گیرد که باید ترتیب داده شود، نه حاصل مبادلاتی که مردم استحقاق انجامشان را داشته‌اند. سن به‌گونه‌ای دیگر اعتراض کرد که کالاهای توزیع‌شونده مقیاس درستی نیستند، چون آنچه اهمیت دارد این است که آدمی به‌واقع چه می‌تواند بکند. این ابزار از هر دو جان به در برد، و اکنون شیوهٔ استاندارد آزمودن این است که آیا می‌توان قاعده‌ای را در برابر کسی که از آن زیان می‌بیند توجیه کرد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1335,7 +1363,8 @@
             "body": {
               "en": "Popper's contrast was Einstein against the theories he saw explaining everything around him. General relativity predicted that starlight would bend by a specific amount, and an eclipse could have shown it did not. The theories he doubted absorbed every outcome — a patient who resisted the interpretation was resisting, which confirmed it — and their explanatory reach was the symptom rather than the strength.\n\nThe criterion is cleaner than science usually is. In practice no observation refutes a theory alone: an anomaly can always be assigned to an auxiliary assumption, and sometimes should be, since that is how Neptune was found. Kuhn argued that scientists rightly hold on to a paradigm through anomalies, and Lakatos tried to salvage Popper by judging research programmes over time rather than single tests. What survives is the demand itself: ask a theory what would count against it, and notice when there is no answer.",
               "fa": "تقابل پوپر، اینشتین بود در برابر نظریه‌هایی که می‌دید همه‌چیز را دور و برش توضیح می‌دهند. نسبیت عام پیش‌بینی کرد نور ستاره به اندازه‌ای معین خم می‌شود، و یک خورشیدگرفتگی می‌توانست نشان دهد که نشد. نظریه‌هایی که به آن‌ها بدگمان بود هر نتیجه‌ای را جذب می‌کردند — بیماری که تفسیر را نمی‌پذیرفت داشت مقاومت می‌کرد، و همین تأییدش بود — و گسترهٔ تبیینی‌شان نشانهٔ بیماری بود نه قوت.\n\nاین معیار پاکیزه‌تر از آن است که علم معمولاً هست. در عمل هیچ مشاهده‌ای به‌تنهایی نظریه‌ای را رد نمی‌کند: ناهنجاری را همیشه می‌توان به فرضی کمکی نسبت داد، و گاهی باید داد، چون نپتون این‌گونه یافته شد. کوهن گفت دانشمندان به‌درستی در برابر ناهنجاری‌ها به یک پارادایم می‌چسبند، و لاکاتوش کوشید پوپر را با داوری دربارهٔ برنامه‌های پژوهشی در طول زمان — نه آزمون‌های تکی — نجات دهد. آنچه می‌ماند خودِ آن مطالبه است: از نظریه بپرس چه چیز علیه آن به شمار می‌آید، و متوجه باش وقتی پاسخی نیست."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1375,7 +1404,8 @@
             "body": {
               "en": "Normal science, on Kuhn's account, is puzzle-solving: the framework is assumed, and a failure counts against the scientist rather than against the framework. That is what makes progress fast, because nobody is relitigating foundations. Anomalies accumulate, and at some point a new framework appears that handles them — and then the change is not a matter of evidence alone, because the two sides disagree about what the evidence is evidence for.\n\nThe contested claim is incommensurability: that terms shift meaning across a revolution, so mass in Newton and mass in Einstein are not the same concept, and the theories cannot be compared point by point. Critics read this as making science irrational and Kuhn spent years denying that reading. The book changed how science is talked about far outside philosophy, and 'paradigm shift' is now used for things that are not paradigms and do not shift.",
               "fa": "به روایت کوهن، علم عادی حل معماست: چارچوب مفروض است، و ناکامی به حساب دانشمند نوشته می‌شود نه چارچوب. همین است که پیشرفت را تند می‌کند، چون کسی بنیادها را از نو به دادگاه نمی‌برد. ناهنجاری‌ها انباشته می‌شوند، و در جایی چارچوبی نو پیدا می‌شود که از پسشان برمی‌آید — و آنگاه این تغییر تنها مسئلهٔ شواهد نیست، چون دو طرف بر سر اینکه شواهد شاهدِ چه‌اند اختلاف دارند.\n\nادعای محل نزاع «قیاس‌ناپذیری» است: که اصطلاحات در گذر از یک انقلاب معنا عوض می‌کنند، پس «جرم» نزد نیوتن و «جرم» نزد اینشتین یک مفهوم نیستند، و دو نظریه را نمی‌توان بند به بند سنجید. منتقدان این را چنین خواندند که علم را نامعقول می‌کند و کوهن سال‌ها این خوانش را انکار کرد. این کتاب شیوهٔ سخن‌گفتن از علم را بسیار فراتر از فلسفه دگرگون کرد، و «تغییر پارادایم» اکنون دربارهٔ چیزهایی به کار می‌رود که نه پارادایم‌اند و نه تغییر می‌کنند."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1416,7 +1446,11 @@
             "body": {
               "en": "The structure is a lie told to oneself, which looks impossible: a liar knows the truth, so how does the same person hold and hide it? Sartre's answer is that we are never simply one thing. I am my past and my situation, and I am also the freedom that has to take some attitude toward them, and bad faith works by treating one of the two as the whole story.\n\nSo it has two symmetrical forms. Denying the facts — I am not really the person who did that — and denying the freedom — I had no choice, this is simply who I am. The second is the commoner and the more comfortable. The concept is Sartre's most portable contribution, and it survives disagreement with almost everything else in his metaphysics, because the phenomenon it names is recognisable without the system.",
               "fa": "ساختارش دروغی است که به خود می‌گویی، و این ناممکن می‌نماید: دروغگو حقیقت را می‌داند، پس چگونه یک تن هم آن را دارد و هم پنهانش می‌کند؟ پاسخ سارتر این است که ما هرگز صرفاً یک چیز نیستیم. من گذشته و موقعیتم هستم، و همان آزادی‌ای هم هستم که باید نسبت به آن‌ها موضعی بگیرد، و سوءنیت با گرفتن یکی از این دو به‌جای تمام ماجرا کار می‌کند.\n\nپس دو صورت متقارن دارد. انکار واقعیت‌ها — من واقعاً آن کسی نیستم که این کار را کرد — و انکار آزادی — چاره‌ای نداشتم، من همینم. دومی رایج‌تر و راحت‌تر است. این مفهوم قابل‌حمل‌ترین سهم سارتر است، و از مخالفت با تقریباً هرچیز دیگر در متافیزیک او جان به در می‌برد، چون پدیده‌ای که نام می‌برد بی‌آن دستگاه هم بازشناختنی است."
-            }
+            },
+            "citations": [
+              { "source": "text-being-and-nothingness" },
+              { "source": "sep" }
+            ]
           }
         ]
       }
@@ -1452,7 +1486,11 @@
             "body": {
               "en": "The argument is aimed at the whole shape of Western philosophy, which Levinas reads as a long attempt to bring everything under a single account — and an account is exactly what the other person exceeds. To understand someone is already to have made them a case of something, and the face is what refuses that.\n\nSo ethics comes first, before metaphysics, and it is asymmetrical: my obligation to the other does not wait on theirs to me and is not cancelled by their failing it. The obvious question is how this scales, since a demand that is infinite and unilateral gives no guidance when two people need me at once — Levinas calls that the entry of the third and says it is where justice and politics begin. Dussel took the same apparatus and identified the other concretely as the poor and the colonised.",
               "fa": "این استدلال کلِ شکلِ فلسفهٔ غربی را نشانه می‌رود، که لویناس آن را کوششی دراز برای آوردن همه‌چیز زیر یک روایت می‌خواند — و روایت دقیقاً همان است که دیگری از آن فراتر می‌رود. فهمیدنِ کسی یعنی پیشاپیش او را نمونه‌ای از چیزی کرده‌ای، و چهره همان است که این را نمی‌پذیرد.\n\nپس اخلاق مقدم است، پیش از متافیزیک، و نامتقارن است: تعهد من به دیگری در انتظار تعهد او به من نمی‌ماند و با کوتاهی او لغو نمی‌شود. پرسش آشکار این است که این چگونه مقیاس می‌گیرد، چون مطالبه‌ای بی‌نهایت و یک‌سویه وقتی دو نفر هم‌زمان به من نیاز دارند راهنمایی نمی‌کند — لویناس این را ورودِ «سوم» می‌نامد و می‌گوید عدالت و سیاست از همین‌جا آغاز می‌شوند. دوسل همین دستگاه را گرفت و آن دیگری را به‌طور مشخص تهیدست و مستعمَره شناسایی کرد."
-            }
+            },
+            "citations": [
+              { "source": "beauvoir-second-sex" },
+              { "source": "sep" }
+            ]
           }
         ]
       }
@@ -1492,7 +1530,8 @@
             "body": {
               "en": "Austin found the category in ordinary language: promising, naming, betting and sentencing are not true or false but successful or not, and they need the right person in the right setting. Butler moved it to identity. On her account gender is not an inner fact that behaviour expresses; it is constituted by the repetition of acts that are read as expressing it, and the appearance of an inner fact is the effect of the repetition rather than its cause.\n\nThe common misreading is that this makes gender a costume chosen each morning. Butler has rejected that repeatedly: the repetition is compelled, the script precedes anyone performing it, and the sanctions for departing are real. What the analysis buys is an account of how something so heavily enforced can also be historically variable — and of why the variation is hard to see from inside.",
               "fa": "آستین این مقوله را در زبان روزمره یافت: وعده‌دادن، نام‌گذاشتن، شرط‌بستن و حکم‌دادن صادق یا کاذب نیستند بلکه کامیاب‌اند یا ناکام، و به شخص درست در موقعیت درست نیاز دارند. باتلر آن را به هویت برد. به روایت او جنسیت واقعیتی درونی نیست که رفتار بیانش کند؛ با تکرارِ کنش‌هایی برساخته می‌شود که چون بیانِ آن خوانده می‌شوند، و نمودِ آن واقعیت درونی معلولِ این تکرار است نه علتش.\n\nبدخوانیِ رایج این است که این جنسیت را جامه‌ای می‌کند که هر بامداد برمی‌گزینی. باتلر بارها این را رد کرده: آن تکرار اجباری است، متن پیش از هر اجراکننده‌ای وجود دارد، و کیفرِ عدول واقعی است. آنچه این تحلیل به دست می‌دهد تبیینی است از اینکه چگونه چیزی چنین سخت اجراشده می‌تواند در تاریخ هم متغیر باشد — و چرا دیدنِ آن تغییر از درون دشوار است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1528,7 +1567,8 @@
             "body": {
               "en": "The phrase caused more trouble than any other she wrote, and much of the trouble came from a misreading. Banal describes the perpetrator, not the crime; Arendt is not saying the harm was ordinary but that the capacity for it was more widely distributed than the demonology allowed. That is worse news, not better, and it was received as excuse-making.\n\nHer diagnosis is a specific absence. Eichmann spoke in clichés, could not report an event without an official phrase for it, and she took this as evidence that thinking — holding an internal conversation in which you are answerable to yourself — had not occurred. Historians have since shown he was a more committed ideologue than she believed, which damages the portrait and not obviously the philosophical claim: whether ordinary people, in the right structure, will do this remains the question the twentieth century actually posed.",
               "fa": "این تعبیر بیش از هر چیز دیگری که نوشت دردسر ساخت، و بخش بزرگی از آن دردسر از یک بدخوانی آمد. «پیش‌پاافتاده» مرتکب را وصف می‌کند نه جنایت را؛ آرنت نمی‌گوید آن آسیب عادی بود بلکه می‌گوید ظرفیتِ انجامش گسترده‌تر از آن بود که شیطان‌شناسی اجازه می‌داد. این خبر بدتری است نه بهتر، و آن را چون بهانه‌تراشی دریافت کردند.\n\nتشخیص او یک غیابِ معین است. آیشمن با کلیشه سخن می‌گفت، نمی‌توانست رویدادی را بی‌عبارتی اداری گزارش کند، و او این را شاهدی گرفت بر اینکه «اندیشیدن» — داشتنِ گفت‌وگویی درونی که در آن به خود پاسخگویی — رخ نداده. مورخان از آن پس نشان داده‌اند که او ایدئولوگی متعهدتر از آن بود که آرنت می‌پنداشت، و این به آن تصویر آسیب می‌زند و آشکارا به آن ادعای فلسفی نه: اینکه آیا آدم‌های معمولی در ساختاری مناسب چنین می‌کنند، هنوز همان پرسشی است که سدهٔ بیستم به‌واقع طرح کرد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1565,7 +1605,8 @@
             "body": {
               "en": "The approach was built by Sen as a correction to both utility and resource measures. Utility fails because people adapt: someone raised to expect little may report contentment with conditions nobody should accept, and satisfaction surveys will record that as success. Resources fail because converting them into a life takes different amounts for different people — disability, climate, social position and gender all change the exchange rate.\n\nNussbaum's development is more committal. She proposes a list of central capabilities — life, health, bodily integrity, senses and imagination, affiliation, play, control over one's environment — and argues that a decent society must secure a threshold of each. Sen has declined to fix a list, holding that it should come from public reasoning in each place. The disagreement between them is the liveliest thing in the literature, and the framework underlies the UN's Human Development Index.",
               "fa": "این رویکرد را سن چون تصحیحی بر هر دو مقیاسِ مطلوبیت و منابع ساخت. مطلوبیت ناکام است چون مردم سازگار می‌شوند: کسی که بار آمده کم انتظار داشته باشد ممکن است از شرایطی که هیچ‌کس نباید بپذیرد اظهار رضایت کند، و نظرسنجی‌های رضایت این را کامیابی ثبت می‌کنند. منابع ناکام‌اند چون تبدیل آن‌ها به یک زندگی برای افراد مختلف مقادیر متفاوتی می‌طلبد — ناتوانی، اقلیم، جایگاه اجتماعی و جنسیت همه نرخ تبدیل را عوض می‌کنند.\n\nبسط نوسبام تعهدآورتر است. او فهرستی از قابلیت‌های مرکزی پیشنهاد می‌کند — زندگی، سلامت، تمامیت جسمانی، حواس و تخیل، پیوند، بازی، مهار بر محیط خود — و می‌گوید جامعهٔ شایسته باید آستانه‌ای از هر یک را تضمین کند. سن از تعیین فهرست سر باز زده و می‌گوید باید از استدلال عمومی در هر جا برآید. اختلاف این دو زنده‌ترین چیز در این ادبیات است، و این چارچوب زیربنای شاخص توسعهٔ انسانی سازمان ملل است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1608,7 +1649,11 @@
             "body": {
               "en": "The distinction from colonialism is the whole point. Colonialism is a political arrangement with dates; coloniality is a pattern that continues to organise who counts as a knower, whose categories are treated as universal and whose as local, and which regions supply raw material and which supply theory. On this account a formally independent state can remain inside it.\n\nThe strongest version is about knowledge. If the modern disciplines were built in one place and exported as neutral, then their questions carry an origin that does not announce itself — and 'philosophy' meaning European philosophy, with everything else marked by a region, is the example nearest to hand. The obvious risk is that the framework becomes a way of dismissing arguments by their provenance instead of answering them, and the tradition's more careful work says so.",
               "fa": "تمایز آن از استعمار تمام نکته است. استعمار ترتیبی سیاسی با تاریخ‌های معین است؛ استعماریت الگویی است که همچنان سامان می‌دهد به اینکه چه کسی دانا به شمار می‌آید، مقولات چه کسی جهانی و مقولات چه کسی محلی گرفته می‌شود، و کدام مناطق مادهٔ خام می‌دهند و کدام نظریه. به این روایت دولتی که رسماً مستقل است می‌تواند همچنان درون آن بماند.\n\nقوی‌ترین صورتش دربارهٔ دانش است. اگر رشته‌های علمیِ جدید در یک جا ساخته و چون امری خنثی صادر شده باشند، پرسش‌هایشان خاستگاهی را حمل می‌کنند که خودش را اعلام نمی‌کند — و «فلسفه» به‌معنای فلسفهٔ اروپایی، در حالی که هرچیز دیگر با نام منطقه‌ای مشخص می‌شود، نزدیک‌ترین نمونه است. خطر آشکار این است که این چارچوب به راهی برای ردکردن استدلال‌ها به‌سبب خاستگاهشان بدل شود به‌جای پاسخ‌دادن، و کارهای محتاط‌ترِ این سنت خود این را می‌گویند."
-            }
+            },
+            "citations": [
+              { "source": "text-black-skin-white-masks" },
+              { "source": "sep" }
+            ]
           }
         ]
       }
@@ -1647,7 +1692,8 @@
             "body": {
               "en": "That last part is what makes it philosophically distinctive and what critics find hardest. If personhood admits of degrees, then someone can fail at it, and the language of a person 'not being a person' is available in a way that a rights-based vocabulary deliberately closes off. Defenders reply that the achievement in question is moral maturity, not moral standing, and that the two are being confused.\n\nThe practical demonstration was the Truth and Reconciliation Commission, where the concept was invoked to justify a process aimed at restoring relationships rather than assigning punishment. Whether that was justice or its avoidance was argued at the time and still is. The tradition's contribution to ethics generally is the reversal of the usual order: not what does an individual owe a community, but what has to be true of a community for individuals to exist at all.",
               "fa": "همان بخش آخر است که این را از نظر فلسفی متمایز می‌کند و منتقدان بیش از همه با آن سر ناسازگاری دارند. اگر آدم‌بودن درجه‌پذیر باشد، پس می‌توان در آن ناکام ماند، و آنگاه تعبیرِ «فلانی آدم نیست» در دسترس است، در حالی که واژگان حق‌محور عمداً این در را می‌بندد. مدافعان پاسخ می‌دهند که آنچه دستاورد است بلوغ اخلاقی است نه اعتبار اخلاقی، و این دو خلط شده‌اند.\n\nنمایش عملی‌اش کمیسیون حقیقت و آشتی بود، که این مفهوم برای توجیه فرایندی به کار رفت که به بازسازی روابط نظر داشت نه به تعیین کیفر. اینکه آن عدالت بود یا گریز از عدالت، در همان زمان محل بحث بود و هنوز هست. سهم این سنت در اخلاق به‌طور کلی وارونه‌کردنِ ترتیب معمول است: نه اینکه فرد به اجتماع چه بدهکار است، بلکه اینکه چه چیز باید دربارهٔ یک اجتماع صادق باشد تا اصلاً فردی وجود داشته باشد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1693,7 +1739,8 @@
             "body": {
               "en": "The target is a picture in which physiology describes the normal and pathology describes departures from it, so that disease is a quantitative variation on health. Canguilhem argues the order is reversed: it is the experience of illness that makes health visible as a subject at all, and the norm is set by the living thing rather than found in a table.\n\nThe consequence is that normality is not a fact medicine discovers but a value it uses, and that a value smuggled in as a measurement is the dangerous kind. This is where Foucault got his method — he was Canguilhem's student — and where the philosophy of medicine parts company with the assumption that a definition of disease can be purely biological. The clinical stake is real: whichever account you hold decides what counts as a condition to be treated.",
               "fa": "هدفش تصویری است که در آن فیزیولوژی امرِ بهنجار را وصف می‌کند و آسیب‌شناسی عدول از آن را، چنان‌که بیماری تغییری کمّی در سلامت باشد. کانگیلم می‌گوید ترتیب وارونه است: این تجربهٔ بیماری است که اصلاً سلامت را چون موضوعی دیدنی می‌کند، و هنجار را خودِ موجود زنده می‌نهد نه اینکه در جدولی یافته شود.\n\nپیامدش این است که بهنجاری واقعیتی نیست که پزشکی کشفش کند بلکه ارزشی است که به کارش می‌برد، و ارزشی که در لباس اندازه‌گیری قاچاق شود از نوع خطرناک است. فوکو روشش را از همین‌جا گرفت — شاگرد کانگیلم بود — و فلسفهٔ پزشکی از همین‌جا از این فرض جدا می‌شود که تعریف بیماری می‌تواند صرفاً زیستی باشد. گروِ بالینی‌اش واقعی است: هر روایتی را که بپذیری تعیین می‌کند چه چیزی وضعیتی درمان‌کردنی به شمار می‌آید."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1733,7 +1780,8 @@
             "body": {
               "en": "The argument is not that knowledge is relative. Haraway is explicit that she wants a stronger objectivity, not a weaker one, and her case is that unlocatable claims are exactly the ones that cannot be held accountable — if nobody is speaking from anywhere, nobody can be asked what their position lets them see and what it hides.\n\nSo partiality becomes a condition of the account rather than a defect in it, and knowledge is assembled from positions that are declared. The obvious objection is that this could collapse into everyone's view being equally good, which she rejects: some positions afford better views of some things, and a view from the underside of a system is often better on how the system works. The framework is now standard in feminist epistemology and in the philosophy of science that studies laboratories rather than logic.",
               "fa": "استدلال این نیست که معرفت نسبی است. هاراوی صریح می‌گوید عینیتی قوی‌تر می‌خواهد نه ضعیف‌تر، و دلیلش این است که ادعاهای بی‌مکان دقیقاً همان‌هایی‌اند که نمی‌توان پاسخگویشان کرد — اگر کسی از هیچ‌جا سخن نگوید، از کسی نمی‌توان پرسید موضعش چه چیز را می‌گذارد ببیند و چه چیز را می‌پوشاند.\n\nپس جزئی‌بودن شرطِ روایت می‌شود نه عیبی در آن، و معرفت از مواضعی چیده می‌شود که اعلام شده‌اند. اعتراض آشکار این است که این می‌تواند به «نگاه همه به یک اندازه خوب است» فروبریزد، و او ردش می‌کند: برخی مواضع دربارهٔ برخی چیزها دید بهتری می‌دهند، و نگاه از زیرِ یک نظام اغلب دربارهٔ چگونگیِ کارکرد آن نظام بهتر است. این چارچوب اکنون در معرفت‌شناسی فمینیستی و در آن فلسفهٔ علمی که آزمایشگاه‌ها را مطالعه می‌کند نه منطق را، استاندارد است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1773,7 +1821,8 @@
             "body": {
               "en": "The philosophical difficulty is exactly that last clause, and it is why the idea has never settled. A theory in which denial confirms the diagnosis has removed the reader's ability to disagree with it, which is Popper's objection and it is a good one. Freud's defenders answer that the mechanism is independently motivated — slips, dreams, symptoms that resolve when the material is recovered — and that the structure of the objection would also rule out much of medicine.\n\nWhat is not in doubt is the effect. After Freud, the assumption that a person is the authority on why they did something could no longer be taken for granted, and that assumption had been carrying a great deal of weight in ethics and law. Much of twentieth-century philosophy of mind, including work that rejects psychoanalysis entirely, is written in a world where self-knowledge is a question rather than a starting point.",
               "fa": "دشواری فلسفی دقیقاً همان بند آخر است، و به همین سبب این ایده هرگز جا نیفتاده. نظریه‌ای که در آن انکار، تشخیص را تأیید می‌کند، توانِ مخالفت را از خواننده گرفته است، و این اعتراض پوپر است و اعتراض خوبی است. مدافعان فروید پاسخ می‌دهند که این سازوکار انگیزهٔ مستقل دارد — لغزش‌های زبانی، رؤیاها، نشانه‌هایی که با بازیابی مواد فروکش می‌کنند — و اینکه ساختار این اعتراض بخش بزرگی از پزشکی را هم کنار می‌گذارد.\n\nآنچه محل تردید نیست اثر آن است. پس از فروید دیگر نمی‌شد این فرض را مسلم گرفت که آدمی خودش مرجعِ اینکه چرا کاری کرده است، و آن فرض بار سنگینی در اخلاق و حقوق بر دوش داشت. بخش بزرگی از فلسفهٔ ذهنِ سدهٔ بیستم، از جمله کارهایی که روان‌کاوی را یکسره رد می‌کنند، در جهانی نوشته شده که در آن خودشناسی یک پرسش است نه نقطهٔ آغاز."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -1814,7 +1863,8 @@
             "body": {
               "en": "Ryle's target was the picture of the mind as a second thing alongside the body — the ghost in the machine. On his account the mistake is not that the ghost is invisible but that the whole question is malformed: mental terms describe how someone does what they do, dispositions and capacities, not events in a private theatre. To say a person is intelligent is to say something about how they behave and would behave, not to report an inner occurrence that caused it.\n\nThe diagnosis is powerful and does not obviously finish the job. Critics have pressed that the behaviour and the experience come apart — a person can be in pain and not show it, and pretending is not the same as hurting — so something is left over that dispositions do not capture. The tool itself outlived the theory: asking whether a question has confused two kinds of thing is standard practice now, including against Ryle.",
               "fa": "هدف رایل تصویرِ ذهن چون چیزی دوم در کنار تن بود — روحِ درون ماشین. به روایت او خطا این نیست که آن روح نامرئی است، بلکه این است که کل پرسش بدساخت است: اصطلاحات ذهنی وصف می‌کنند که کسی کارش را چگونه می‌کند، یعنی خوی‌ها و توانایی‌ها، نه رویدادهایی در تماشاخانه‌ای خصوصی. گفتن اینکه کسی باهوش است یعنی چیزی دربارهٔ رفتار او و رفتاری که می‌کرد گفتن، نه گزارشِ رخدادی درونی که سببش شده.\n\nاین تشخیص نیرومند است و آشکارا کار را تمام نمی‌کند. منتقدان فشار آورده‌اند که رفتار و تجربه از هم جدا می‌شوند — آدمی می‌تواند درد داشته باشد و نشان ندهد، و تظاهر همان دردکشیدن نیست — پس چیزی می‌ماند که خوی‌ها نمی‌گیرندش. اما خودِ این ابزار از نظریه بیشتر عمر کرد: پرسیدن اینکه آیا پرسشی دو نوع چیز را خلط کرده اکنون رویه‌ای استاندارد است، از جمله علیه خودِ رایل."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1851,7 +1901,8 @@
             "body": {
               "en": "The claim that gives the book its force is that technique is autonomous — not that machines decide, but that once efficiency is the criterion, the range of acceptable answers is set before anyone deliberates, and the deliberation becomes ceremonial. A committee asked to choose the best method has already been told what best means.\n\nEllul is often read as a pessimist and did not think he was offering a solution, which critics have called a counsel of despair. The reply available to him is that naming the condition is not the same as accepting it, and that the demand for a solution is itself the technical reflex. Whether or not the diagnosis holds in full, it is the sharpest available statement of a worry that recurs whenever a new capability arrives faster than any account of what it is for.",
               "fa": "ادعایی که به این کتاب نیرو می‌دهد این است که تکنیک خودآیین است — نه اینکه ماشین‌ها تصمیم می‌گیرند، بلکه اینکه همین که کارآمدی معیار شد، دامنهٔ پاسخ‌های پذیرفتنی پیش از هر مشورتی تعیین شده، و مشورت تشریفاتی می‌شود. کمیته‌ای که از آن خواسته‌اند بهترین روش را برگزیند، پیشاپیش شنیده که «بهترین» یعنی چه.\n\nالول را اغلب بدبین می‌خوانند و خودش نمی‌پنداشت راه‌حلی عرضه می‌کند، و منتقدان این را اندرزِ نومیدی خوانده‌اند. پاسخی که در دسترس اوست این است که نام‌بردن از یک وضع پذیرفتنِ آن نیست، و اینکه خودِ مطالبهٔ راه‌حل همان بازتاب تکنیکی است. چه این تشخیص به‌تمامی درست باشد چه نه، تیزترین بیانِ در دسترسِ نگرانی‌ای است که هرگاه توانایی تازه‌ای زودتر از هر روایتی دربارهٔ کارکردش از راه برسد، باز می‌گردد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1891,7 +1942,8 @@
             "body": {
               "en": "The phrase appears three times in Smith's whole output and never as the slogan it became. What he was pointing at is a genuine and surprising phenomenon: order can be a by-product rather than a design, and an explanation that reaches for someone's intention every time it sees a pattern will be wrong most of the time.\n\nSmith was also the author of The Theory of Moral Sentiments and did not think self-interest was sufficient or admirable. He wrote that people of the same trade seldom meet without the conversation ending in a conspiracy against the public, and he expected law and moral sentiment to do work the market cannot. Reading the hand as a claim that markets are self-justifying takes one image out of a two-book argument, and the argument does not survive the extraction.",
               "fa": "این تعبیر در کل آثار اسمیت سه بار می‌آید و هرگز نه به آن معنایی که شعار شد. آنچه او نشانه می‌رفت پدیده‌ای واقعی و شگفت است: نظم می‌تواند فرآورده‌ای جانبی باشد نه یک طرح، و تبیینی که هر بار الگویی می‌بیند دست به دامان قصد کسی می‌شود، بیشتر اوقات خطا خواهد کرد.\n\nاسمیت نویسندهٔ «نظریهٔ عواطف اخلاقی» هم بود و نفع شخصی را نه کافی می‌دانست و نه ستودنی. نوشت که هم‌صنفان کمتر گرد هم می‌آیند بی‌آنکه گفت‌وگو به توطئه‌ای علیه مردم ختم شود، و انتظار داشت قانون و عاطفهٔ اخلاقی کاری کنند که بازار نمی‌تواند. خواندنِ آن «دست» چون ادعایی که بازارها خودتوجیه‌اند، یک تصویر را از استدلالی دو کتابی بیرون می‌کشد، و آن استدلال از این بیرون‌کشیدن جان به در نمی‌برد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1931,7 +1983,8 @@
             "body": {
               "en": "Hayek's argument is epistemic rather than moral, and that is what gives it force: it does not depend on planners being selfish or stupid. Prices, on his account, are a mechanism for compressing distributed information into a single number that people can act on without understanding its causes. A tin shortage somewhere raises the price, and users economise without knowing why.\n\nThe standing replies are that markets transmit some information well and others badly — nothing in the price registers a harm to someone outside the transaction — and that large firms plan internally on enormous scales without collapsing. Hayek's own conclusion was more modest than his reputation: he took it to be an argument against comprehensive central planning specifically, not against public provision, and he supported a guaranteed minimum income.",
               "fa": "استدلال هایک معرفتی است نه اخلاقی، و نیرویش از همین است: به خودخواه یا نادان بودنِ برنامه‌ریزان وابسته نیست. به روایت او قیمت‌ها سازوکاری‌اند برای فشرده‌کردنِ اطلاعات پراکنده در یک عدد که مردم می‌توانند بی‌فهمِ علت‌هایش بر پایه‌اش عمل کنند. کمبود قلع در جایی قیمت را بالا می‌برد، و مصرف‌کنندگان بی‌آنکه بدانند چرا صرفه‌جویی می‌کنند.\n\nپاسخ‌های همیشگی این است که بازارها برخی اطلاعات را خوب منتقل می‌کنند و برخی را بد — هیچ‌چیز در قیمت، آسیب به کسی بیرون از معامله را ثبت نمی‌کند — و اینکه بنگاه‌های بزرگ در ابعادی عظیم درون‌سازمانی برنامه‌ریزی می‌کنند و فرونمی‌پاشند. نتیجه‌گیریِ خودِ هایک فروتنانه‌تر از آوازه‌اش بود: آن را استدلالی مشخصاً علیه برنامه‌ریزی متمرکزِ فراگیر می‌دانست نه علیه تأمین عمومی، و از حداقل درآمد تضمین‌شده پشتیبانی می‌کرد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -1968,7 +2021,8 @@
             "body": {
               "en": "The Bengal famine of 1943 is the case that made the argument. Food availability had not fallen much; what collapsed was the exchange entitlement of rural labourers, whose wages did not keep pace with prices driven up by wartime demand and speculation. People with money ate. The failure was in distribution and in who could claim, which is not visible if you only count the crop.\n\nSen's further claim is political: no substantial famine has occurred in a functioning democracy with a free press. The mechanism is unglamorous — a government facing an election and a newspaper cannot afford not to notice — and it makes famine a failure of accountability rather than of nature. Both claims have been contested in detail and neither has been overturned in outline, and together they redirected development economics away from output toward what people can actually do.",
               "fa": "قحطی بنگال در ۱۹۴۳ همان موردی است که این استدلال را ساخت. موجودیِ خوراک چندان کاهش نیافته بود؛ آنچه فروریخت «استحقاق مبادله»ای کارگران روستایی بود، که دستمزدشان با قیمت‌های بالارفته از تقاضای جنگ و سوداگری همگام نشد. آنان که پول داشتند خوردند. ناکامی در توزیع بود و در اینکه چه کسی می‌توانست ادعا کند، و این اگر تنها محصول را بشماری دیده نمی‌شود.\n\nادعای دیگر سن سیاسی است: هیچ قحطیِ بزرگی در دموکراسیِ کارآمدی با مطبوعات آزاد رخ نداده. سازوکارش پرزرق‌وبرق نیست — دولتی که با انتخابات و روزنامه روبه‌روست نمی‌تواند نبیند — و قحطی را ناکامیِ پاسخگویی می‌کند نه ناکامیِ طبیعت. هر دو ادعا در جزئیات محل نزاع بوده‌اند و هیچ‌یک در کلیت واژگون نشده، و این دو با هم اقتصاد توسعه را از تولید به‌سوی آنچه مردم به‌واقع می‌توانند بکنند چرخاندند."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2008,7 +2062,8 @@
             "body": {
               "en": "The open question argument is the whole case. 'Is what we desire good?' is a question someone can ask without confusion; 'is a bachelor unmarried?' is not. Moore concluded that good is simple and unanalysable, known by a kind of direct recognition — which is a strong conclusion drawn from a test about what sounds odd.\n\nThe test has been pressed hard since. A correct definition can be informative and surprising — water is H₂O, and someone can competently wonder whether it is — so failing the open question may show only that the analysis is not obvious. What survived is the caution rather than the conclusion: any move from a natural fact to a moral one is being asked what licenses it, which is Hume's demand with a different label, and Moore's own intuitionism is now the least popular part of his position.",
               "fa": "«استدلال پرسش گشوده» تمام ماجراست. «آیا آنچه می‌خواهیم خوب است؟» پرسشی است که می‌توان بی‌سردرگمی پرسید؛ «آیا مجرد بی‌همسر است؟» نه. مور نتیجه گرفت که «خوب» بسیط و تحلیل‌ناپذیر است و با نوعی بازشناسی مستقیم شناخته می‌شود — و این نتیجه‌ای قوی است که از آزمونی دربارهٔ اینکه چه چیز غریب به گوش می‌آید گرفته شده.\n\nاین آزمون از آن پس زیر فشار سختی بوده. تعریف درست می‌تواند آگاهی‌بخش و شگفت باشد — آب H₂O است، و کسی می‌تواند شایسته‌وار در آن تردید کند — پس ناکامی در پرسش گشوده شاید تنها نشان دهد که آن تحلیل بدیهی نیست. آنچه ماند احتیاط بود نه نتیجه: از هر گذری از واقعیتی طبیعی به واقعیتی اخلاقی پرسیده می‌شود چه چیز آن را مجاز می‌کند، و این همان مطالبهٔ هیوم با برچسبی دیگر است، و شهودگراییِ خودِ مور اکنون کم‌طرفدارترین بخش موضع اوست."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2044,7 +2099,8 @@
             "body": {
               "en": "The theory arrived with logical positivism and inherits its motive: a sentence is meaningful if it can be verified, moral sentences cannot, so they must be doing something other than describing. Ayer's version is blunt. Stevenson's is subtler, adding that moral language is also used to influence — it expresses an attitude and recommends it.\n\nThe famous objection is Geach's. If 'stealing is wrong' merely expresses an attitude, what is it doing inside 'if stealing is wrong, then getting your brother to steal is wrong'? Nobody is expressing anything in the antecedent, and yet the inference is valid. Emotivism has no obvious account of that, and the attempts to supply one produced the whole later literature of expressivism, which is the theory's serious modern descendant.",
               "fa": "این نظریه با پوزیتیویسم منطقی آمد و انگیزهٔ آن را به ارث برد: جمله وقتی معنادار است که تحقیق‌پذیر باشد، جمله‌های اخلاقی نیستند، پس باید کاری جز توصیف بکنند. روایت ایر بی‌پرده است. روایت استیونسون ظریف‌تر است و می‌افزاید که زبان اخلاقی برای اثرگذاری هم به کار می‌رود — نگرشی را بیان می‌کند و توصیه‌اش می‌کند.\n\nاعتراض مشهور از گیچ است. اگر «دزدی بد است» صرفاً نگرشی را بیان کند، درون «اگر دزدی بد است، پس واداشتنِ برادرت به دزدی هم بد است» چه می‌کند؟ کسی در مقدم چیزی بیان نمی‌کند، و با این حال استنتاج معتبر است. عاطفه‌گرایی تبیین آشکاری برای این ندارد، و کوشش‌ها برای فراهم‌کردنش تمام ادبیات بعدیِ بیان‌گرایی را پدید آورد، که فرزند جدیِ امروزیِ این نظریه است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2081,7 +2137,8 @@
             "body": {
               "en": "Mackie's two arguments are queerness and relativity. Objective values would have to be entities unlike anything else we know of — they would have to be prescriptive in themselves, motivating anyone who perceived them, which no ordinary fact does. And the sheer variation between moral codes is better explained by their being expressions of ways of life than by most societies having been badly mistaken about the same objective subject matter.\n\nThe position is unusual in accepting the ordinary meaning and denying the ordinary truth, which is why it cannot be answered by pointing out that people really do mean it. The obvious question is what to do next, and Mackie's answer — that morality is something we invent, and had better invent well — makes the theory less nihilistic than it sounds and has struck critics as having quietly reinstated what it denied.",
               "fa": "دو استدلال مکی «غرابت» و «نسبیت» است. ارزش‌های عینی باید موجوداتی می‌بودند بی‌شباهت به هرچه می‌شناسیم — باید فی‌نفسه تجویزی می‌بودند و هرکس را که درکشان می‌کرد برمی‌انگیختند، و هیچ واقعیتِ معمولی چنین نمی‌کند. و همین گوناگونیِ چشمگیر میان نظام‌های اخلاقی بهتر با این توضیح داده می‌شود که آن‌ها بیانِ شیوه‌های زندگی‌اند تا با اینکه بیشتر جوامع دربارهٔ یک موضوع عینیِ واحد سخت در خطا بوده‌اند.\n\nاین موضع از این رو نامعمول است که معنای معمول را می‌پذیرد و صدق معمول را انکار می‌کند، و به همین سبب نمی‌توان با یادآوریِ اینکه مردم واقعاً همان را قصد می‌کنند پاسخش داد. پرسش آشکار این است که پس چه باید کرد، و پاسخ مکی — که اخلاق چیزی است که ما اختراع می‌کنیم و بهتر است خوب اختراعش کنیم — نظریه را کم‌نیست‌انگارانه‌تر از آنچه می‌نماید می‌کند و به نظر منتقدان در سکوت همان را که انکار کرده بازگردانده."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2117,7 +2174,8 @@
             "body": {
               "en": "Foot introduced the case and Thomson refined it, and the point was never to settle what to do. It is a way of isolating a variable: hold the outcome fixed and vary the structure of the act, and see what the reaction tracks. Candidate explanations include the distinction between intending a harm and foreseeing it, between doing and allowing, and between using a person as a means and merely affecting them.\n\nThe standing complaint is that no situation is ever this clean and that training on artificial cases distorts judgement. The reply is that a controlled case is how you find out which feature is doing the work, and that ordinary situations vary everything at once. It has become unexpectedly practical: anyone writing collision behaviour for an autonomous vehicle is answering some version of it, whether or not they say so.",
               "fa": "فوت این مورد را طرح کرد و تامسون پرداختش، و هدف هرگز تعیین اینکه چه باید کرد نبود. این راهی است برای جداکردنِ یک متغیر: نتیجه را ثابت نگه دار و ساختار کنش را تغییر بده، و ببین واکنش چه چیز را دنبال می‌کند. تبیین‌های نامزد شامل تمایز میان قصدِ آسیب و پیش‌بینی آن، میان کردن و اجازه‌دادن، و میان به‌کارگرفتنِ آدمی چون وسیله و صرفاً اثرگذاشتن بر او هستند.\n\nگلایهٔ همیشگی این است که هیچ موقعیتی هرگز این‌قدر پاکیزه نیست و تمرین بر موارد مصنوعی داوری را کج می‌کند. پاسخ این است که موردِ کنترل‌شده همان راهی است که می‌فهمی کدام ویژگی کار می‌کند، و موقعیت‌های معمولی همه‌چیز را هم‌زمان تغییر می‌دهند. این به‌طور غیرمنتظره‌ای عملی شده: هرکس رفتارِ برخورد را برای خودروی خودران می‌نویسد دارد به روایتی از آن پاسخ می‌دهد، چه بگوید چه نگوید."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2153,7 +2211,8 @@
             "body": {
               "en": "The argument has two premises and both look hard to reject. Suffering and death from lack of food and shelter are bad; and if we can prevent something bad without sacrificing anything of comparable moral importance, we ought to. The pond makes the second vivid, and the conclusion is that most people in rich countries are failing an obligation rather than declining an option.\n\nThe objections are all attempts to find a relevant difference. Proximity is the obvious candidate and is hard to defend as a moral factor. Numbers is another — one child is a case, thousands is a policy — and here the demand becomes so heavy that it may leave no room for a life, which is the standard objection to it. Singer has generally accepted the demandingness rather than avoiding it, and the movement that grew from the argument has spent much of its energy on how much is enough.",
               "fa": "این استدلال دو مقدمه دارد و ردکردن هر دو دشوار می‌نماید. رنج و مرگ از نبودِ خوراک و سرپناه بد است؛ و اگر بتوانیم چیزی بد را بی‌فداکردنِ چیزی با اهمیت اخلاقیِ همسنگ جلوگیری کنیم، باید بکنیم. برکه دومی را ملموس می‌کند، و نتیجه این است که بیشتر مردم کشورهای ثروتمند در انجام یک تعهد کوتاهی می‌کنند نه اینکه از یک گزینه صرف‌نظر کنند.\n\nاعتراض‌ها همه کوششی برای یافتن تفاوتی مربوط‌اند. نزدیکی نامزد آشکار است و دفاع از آن چون عاملی اخلاقی دشوار است. شمار نامزد دیگری است — یک کودک یک مورد است و هزاران کودک یک سیاست — و اینجا مطالبه چنان سنگین می‌شود که شاید جایی برای یک زندگی نگذارد، و اعتراض استاندارد به آن همین است. سینگر عموماً این سنگینی را پذیرفته نه از آن گریخته، و جنبشی که از این استدلال برآمد بخش بزرگی از توانش را صرف این کرده که چقدر کافی است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2190,7 +2249,8 @@
             "body": {
               "en": "Hart's version identifies law by a rule of recognition — a practice among officials of treating certain sources as authoritative — rather than by content. That makes law a social fact, and it makes the separation deliberate rather than indifferent: Hart's point is that a citizen facing a wicked statute is better served by 'this is law and you should not obey it' than by a definition that makes the problem disappear.\n\nThe long argument with Fuller and later Dworkin is about whether the separation can be maintained. Fuller held that a legal system must meet minimal standards of generality, publicity and consistency to function at all, and that these are already moral. Dworkin argued that hard cases are decided by principles that are part of the law without being posited by anyone. The debate is unresolved and is the central axis of legal philosophy in English.",
               "fa": "روایت هارت قانون را با «قاعدهٔ شناسایی» بازمی‌شناسد — رویه‌ای میان مقامات که منابعی معین را معتبر می‌شمارند — نه با محتوا. این قانون را به واقعیتی اجتماعی بدل می‌کند، و آن جدایی را عامدانه می‌کند نه بی‌تفاوت: نکتهٔ هارت این است که شهروندی که با قانونی شریرانه روبه‌روست از «این قانون است و نباید از آن اطاعت کنی» بیشتر سود می‌برد تا از تعریفی که مسئله را ناپدید می‌کند.\n\nبحث دراز با فولر و بعدتر دورکین بر سر این است که آیا این جدایی نگه‌داشتنی است. فولر می‌گفت یک نظام حقوقی برای آنکه اصلاً کار کند باید حداقلی از کلیت و علنی‌بودن و سازگاری را برآورده کند، و این‌ها پیشاپیش اخلاقی‌اند. دورکین گفت پرونده‌های دشوار با اصولی حل می‌شوند که بخشی از قانون‌اند بی‌آنکه کسی وضعشان کرده باشد. این بحث ناحل‌شده است و محور مرکزی فلسفهٔ حقوق در زبان انگلیسی است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2226,7 +2286,8 @@
             "body": {
               "en": "The construction works by coding statements about the system as statements of arithmetic, so that the system can talk about its own proofs. The sentence produced says, in effect, that it is not provable here. If the system proved it, the system would prove a falsehood; so if the system is consistent, the sentence is true and unproved. The second theorem then shows that a system cannot prove its own consistency.\n\nThis ended Hilbert's programme of grounding mathematics in a complete finitary system, which is what it was aimed at. It is also the most misapplied result in mathematics: it says nothing about human minds exceeding machines without further premises, nothing about truth in general, and nothing about systems too weak to encode arithmetic. What it does say is precise and permanent — formal proof is strictly narrower than arithmetical truth.",
               "fa": "این ساخت با کدگذاریِ گزاره‌هایی دربارهٔ دستگاه به‌صورت گزاره‌های حسابی کار می‌کند، چنان‌که دستگاه بتواند دربارهٔ اثبات‌های خودش سخن بگوید. جمله‌ای که پدید می‌آید در عمل می‌گوید که در اینجا اثبات‌پذیر نیست. اگر دستگاه اثباتش می‌کرد، دروغی را اثبات کرده بود؛ پس اگر دستگاه سازگار باشد، آن جمله صادق است و اثبات‌نشده. قضیهٔ دوم آنگاه نشان می‌دهد که دستگاه نمی‌تواند سازگاری خودش را اثبات کند.\n\nاین به برنامهٔ هیلبرت برای بنیادنهادنِ ریاضیات بر دستگاهی تمام و متناهی پایان داد، که هدفش هم همین بود. و این پرسوءاستفاده‌ترین نتیجهٔ ریاضیات هم هست: بی‌مقدمات افزوده چیزی دربارهٔ برتری ذهن آدمی بر ماشین نمی‌گوید، چیزی دربارهٔ صدق به‌طور کلی نمی‌گوید، و چیزی دربارهٔ دستگاه‌هایی که برای کدگذاریِ حساب ضعیف‌اند نمی‌گوید. آنچه می‌گوید دقیق و همیشگی است — اثباتِ صوری اکیداً باریک‌تر از حقیقتِ حسابی است."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2263,7 +2324,8 @@
             "body": {
               "en": "The casualty is proof by contradiction in one of its uses. Showing that the assumption of no such object leads to absurdity establishes, classically, that the object exists; for an intuitionist it establishes only that its non-existence is untenable, which is weaker and is not a construction. The law of excluded middle is therefore not a logical truth but a claim about a domain, and it holds where every question can be decided.\n\nThe cost is that a good deal of classical mathematics has to be redone or given up. The gain is that everything remaining carries a method with it: an intuitionistic existence proof tells you how to find the thing. That property is why the position, once a minority eccentricity, matters in computer science — constructive proofs correspond to programs, and a proof assistant is in effect an intuitionist.",
               "fa": "قربانی، برهان خلف در یکی از کاربردهایش است. نشان‌دادن اینکه فرضِ نبودِ چنین شیئی به ناسازگاری می‌انجامد، به‌طور کلاسیک ثابت می‌کند که آن شیء هست؛ برای شهودگرا تنها ثابت می‌کند که نبودنش نگه‌داشتنی نیست، که ضعیف‌تر است و ساخت نیست. پس اصل طرد شق ثالث حقیقتی منطقی نیست بلکه ادعایی دربارهٔ یک قلمرو است، و آنجا برقرار است که هر پرسشی تعیین‌شدنی باشد.\n\nهزینه‌اش این است که بخش بزرگی از ریاضیات کلاسیک باید از نو ساخته یا رها شود. سودش این است که هرچه می‌ماند روشی را با خود حمل می‌کند: اثباتِ وجودِ شهودگرایانه به تو می‌گوید چگونه آن چیز را بیابی. همین ویژگی است که این موضع را — که روزی نامتعارف و اقلیت بود — در علوم رایانه مهم می‌کند: اثبات‌های سازنده با برنامه‌ها متناظرند، و یک دستیار اثبات در عمل شهودگراست."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2299,7 +2361,8 @@
             "body": {
               "en": "The conclusion is that the difference lies in a context: a history, a body of theory, and an institutional practice that Danto called the artworld. Something becomes art by being placed in a conversation, and the same object outside that conversation is a carton. This ends the long project of defining art by properties of the object — beauty, form, expressive quality — because two objects can share every visible property and differ in status.\n\nDickie turned it into an institutional definition, which drew the obvious complaint that it makes art whatever the galleries say, and offers no way to call an institution wrong. Danto's own version is less circular, since it appeals to interpretation and historical position rather than to authority. Either way the question moved: not what is in the work, but what has to be true around it.",
               "fa": "نتیجه این است که تفاوت در یک زمینه است: تاریخی، پیکره‌ای از نظریه، و رویه‌ای نهادی که دانتو آن را «جهانِ هنر» نامید. چیزی با قرارگرفتن در یک گفت‌وگو هنر می‌شود، و همان شیء بیرون از آن گفت‌وگو یک جعبهٔ مقوایی است. این به پروژهٔ درازِ تعریف هنر با ویژگی‌های خودِ شیء پایان می‌دهد — زیبایی، فرم، کیفیت بیانی — چون دو شیء می‌توانند در هر ویژگی دیدنی مشترک باشند و در وضعیت فرق کنند.\n\nدیکی آن را به تعریفی نهادی بدل کرد، که گلایهٔ آشکار را برانگیخت که هنر را هرچه گالری‌ها بگویند می‌کند و راهی برای خطاکار خواندنِ یک نهاد نمی‌گذارد. روایت خودِ دانتو کمتر دوری است، چون به تفسیر و جایگاه تاریخی متوسل می‌شود نه به اقتدار. به هر روی پرسش جابه‌جا شد: نه آنکه در اثر چیست، بلکه آنکه پیرامون آن چه باید صادق باشد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2337,7 +2400,8 @@
             "body": {
               "en": "The insight is that the effect is relational. A young actor has a flower simply by being young, and Zeami warns that this one is temporary and that mistaking it for accomplishment ends careers. The true flower is what a performer can still produce at sixty, and it comes from knowing what the audience is ready for and withholding what they are not.\n\nThat makes concealment part of the art rather than a trick played on the viewer — Zeami says plainly that what is hidden is the flower, and what is not hidden is not. The treatise was a family secret for five hundred years, transmitted from father to son and unpublished until 1909, which gives the doctrine an unusual demonstration: the writing about concealment was itself concealed.",
               "fa": "بصیرت این است که آن اثر نسبی است. بازیگر جوان تنها به‌سبب جوانی گلی دارد، و زه‌آمی هشدار می‌دهد که این گل موقتی است و اشتباه‌گرفتنش با دستاورد، کارنامه‌ها را پایان می‌دهد. گلِ راستین آن است که بازیگر در شصت‌سالگی هم بتواند پدیدش آورد، و از دانستنِ اینکه تماشاگر آمادهٔ چیست و دریغ‌کردنِ آنچه آماده‌اش نیست برمی‌آید.\n\nاین پنهان‌کاری را بخشی از هنر می‌کند نه ترفندی در حق بیننده — زه‌آمی صریح می‌گوید آنچه پنهان است گل است، و آنچه پنهان نیست گل نیست. این رساله پانصد سال راز خانوادگی بود، از پدر به پسر منتقل می‌شد و تا ۱۹۰۹ منتشر نشد، و این به آن آموزه نمایشی نامعمول می‌دهد: نوشته‌ای دربارهٔ پنهان‌کاری، خودش پنهان بود."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       }
@@ -2373,7 +2437,8 @@
             "body": {
               "en": "That is why he treats suicide as the one serious philosophical problem and then rejects it: it removes one term of the relation, which is an evasion rather than an answer. The same charge is laid against what he calls philosophical suicide — taking a leap to a meaning that has not been shown, which removes the other term.\n\nWhat is left is to hold the contradiction open, and Sisyphus is the image for it. He knows the stone will roll down, has no hope that it will not, and is not deceived about any of it — and Camus says we must imagine him happy, because the awareness that condemns him is also what makes the descent his own. Critics have found the ending willed rather than argued. Camus does not really dispute this; he calls it a description of a way of living rather than a proof.",
               "fa": "به همین سبب خودکشی را تنها مسئلهٔ جدی فلسفی می‌داند و بعد ردش می‌کند: یک طرف نسبت را برمی‌دارد، و این طفره است نه پاسخ. همین اتهام را به آنچه «خودکشی فلسفی» می‌نامد وارد می‌کند — جهیدن به معنایی که نشان داده نشده، که طرف دیگر را برمی‌دارد.\n\nآنچه می‌ماند نگه‌داشتنِ گشودهٔ این تناقض است، و سیزیف تصویر آن است. می‌داند سنگ فرو خواهد غلتید، امیدی ندارد که نغلتد، و دربارهٔ هیچ‌یک فریب نخورده — و کامو می‌گوید باید او را خوشبخت انگاشت، چون همان آگاهی‌ای که محکومش می‌کند همان است که فرودآمدن را از آنِ او می‌کند. منتقدان این پایان را خواسته‌شده دانسته‌اند نه استدلال‌شده. کامو چندان با این مخالف نیست؛ آن را وصفِ شیوه‌ای از زیستن می‌خواند نه یک برهان."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2414,7 +2479,8 @@
             "body": {
               "en": "The origin is a legal case, which is what makes the argument concrete. A firm hired Black men and white women; a Black woman alleging discrimination could not prove it as race, because Black people were hired, nor as sex, because women were hired. Each category, taken alone, disproved her claim, and the law had no place to put a harm that required both at once.\n\nThe Combahee River Collective had made the political version earlier: a movement addressing one axis will produce solutions that fail whoever is caught by the others. The concept has since been criticised for spreading into a general claim about identity and losing the structural analysis it started as, which is a fair worry — the original argument is not about complexity but about a specific way that institutions produce gaps.",
               "fa": "خاستگاهش یک پروندهٔ حقوقی است، و همین استدلال را ملموس می‌کند. شرکتی مردان سیاه‌پوست و زنان سفیدپوست را استخدام می‌کرد؛ زنی سیاه‌پوست که مدعی تبعیض بود نمی‌توانست آن را نژادی اثبات کند، چون سیاه‌پوستان استخدام می‌شدند، و نه جنسیتی، چون زنان استخدام می‌شدند. هر مقوله به‌تنهایی ادعای او را رد می‌کرد، و قانون جایی برای گذاشتنِ آسیبی که هم‌زمان به هر دو نیاز داشت نداشت.\n\nجمع کومباهی ریور پیش‌تر صورت سیاسی‌اش را گفته بود: جنبشی که به یک محور می‌پردازد راه‌حل‌هایی می‌سازد که برای هر که در محورهای دیگر گرفتار است ناکام‌اند. این مفهوم از آن پس به این نقد خورده که به ادعایی کلی دربارهٔ هویت گسترش یافته و آن تحلیل ساختاری را که با آن آغاز شد از دست داده، و این نگرانی بجایی است — استدلال اصلی دربارهٔ پیچیدگی نیست بلکه دربارهٔ شیوهٔ معینی است که نهادها با آن شکاف تولید می‌کنند."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2455,7 +2521,8 @@
             "body": {
               "en": "The historical argument is that the prison is roughly two centuries old, replaced punishments that were themselves once obvious, and in the American case stands in a traceable line from slavery through convict leasing. That does not by itself show it is wrong; it does show that its obviousness is a fact about us rather than about crime.\n\nThe constructive half is what distinguishes abolition from a demand for fewer prisoners: the claim is that the institution absorbs problems — poverty, addiction, untreated illness, housing — which have their own answers, and that building those answers is the work. The standing objection is what to do about people who are genuinely dangerous, and the honest state of the argument is that abolitionists have better answers for the large majority of the incarcerated than for that remainder.",
               "fa": "استدلال تاریخی این است که زندان تقریباً دویست سال عمر دارد، جای کیفرهایی را گرفت که خود روزی بدیهی می‌نمودند، و در مورد امریکا در خطی پیگیرانی از برده‌داری و اجارهٔ محکومان می‌ایستد. این به‌خودی‌خود نشان نمی‌دهد که زندان نادرست است؛ نشان می‌دهد که بداهتِ آن واقعیتی دربارهٔ ماست نه دربارهٔ جرم.\n\nنیمهٔ سازنده همان است که «الغا» را از مطالبهٔ زندانیانِ کمتر جدا می‌کند: ادعا این است که این نهاد مسائلی را در خود می‌بلعد — فقر، اعتیاد، بیماریِ درمان‌نشده، مسکن — که پاسخ‌های خود را دارند، و ساختنِ آن پاسخ‌ها همان کار است. اعتراض همیشگی این است که با کسانی که به‌راستی خطرناک‌اند چه باید کرد، و وضع صادقانهٔ بحث این است که الغاگرایان برای اکثریت بزرگ زندانیان پاسخ‌های بهتری دارند تا برای آن باقی‌مانده."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },
@@ -2495,7 +2562,8 @@
             "body": {
               "en": "The rule is stated as a moral discipline rather than a procedure, and the Book of Optics shows what it produces. Ptolemy and the earlier tradition held that vision works by something leaving the eye; Ibn al-Haytham built a dark chamber, worked out that light travels from objects to the eye, and settled a question that argument alone had left open for a thousand years — by arranging a situation in which the answer could come out either way.\n\nWhat makes the passage remarkable is the direction of the suspicion. Most methodological advice is about detecting other people's errors; his is about the standing likelihood that the person most invested in a conclusion will find reasons for it. That is the same worry that pre-registration and blinding are built to answer, and it was stated in Cairo around 1020.",
               "fa": "این قاعده چون انضباطی اخلاقی بیان شده نه یک رویه، و «کتاب المناظر» نشان می‌دهد چه به بار می‌آورد. بطلمیوس و سنت پیش از او می‌گفتند دیدن با بیرون‌آمدن چیزی از چشم کار می‌کند؛ ابن‌هیثم اتاقی تاریک ساخت، دریافت که نور از اشیا به چشم می‌رود، و پرسشی را که استدلالِ تنها هزار سال گشوده گذاشته بود فیصله داد — با ترتیب‌دادنِ وضعیتی که پاسخ می‌توانست در آن هر یک از دو سو دربیاید.\n\nآنچه این بند را چشمگیر می‌کند جهتِ گمان است. بیشترِ اندرزهای روش‌شناختی دربارهٔ یافتن خطای دیگران است؛ اندرز او دربارهٔ این احتمالِ همیشگی است که هرکس بیش از همه در یک نتیجه سرمایه‌گذاری کرده، دلیل‌هایی برایش خواهد یافت. این همان نگرانی است که «پیش‌ثبت» و «کورسازی» برای پاسخ‌دادن به آن ساخته شده‌اند، و حدود سال ۱۰۲۰ در قاهره بیان شد."
-            }
+            },
+            "citations": [{ "source": "sep" }]
           }
         ]
       },

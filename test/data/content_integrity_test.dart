@@ -283,6 +283,33 @@ void main() {
       }
     });
 
+    test('every passage of authored prose names its sources', () {
+      // Sourcing used to be uneven in a way a reader would notice: a
+      // philosopher's standard section carried its citations and the in-depth
+      // layer under it carried none, and most concept, school and work
+      // sections carried none at all. The page ended with a reference list, so
+      // nothing was strictly unsourced — but there was no way to tell which
+      // passage rested on what, which is the part that matters.
+      //
+      // Quick sections are exempt by design: they are one-sentence summaries
+      // of the sections below them, and a reference list under two lines is
+      // noise rather than rigour.
+      final bare = <String>[];
+      for (final entity in corpus.allEntities) {
+        for (final section in entity.article.sections) {
+          if (section.depth == ContentDepth.quick) continue;
+          if (section.citations.isNotEmpty) continue;
+          bare.add('${entity.ref}: "${section.id}" (${section.depth.id})');
+        }
+      }
+      expect(
+        bare,
+        isEmpty,
+        reason:
+            'these passages show the reader no source:\n  ${bare.join('\n  ')}',
+      );
+    });
+
     test('a quotation does not contradict its own attribution', () {
       // Found on screen rather than by any test: the opening couplet of the
       // Masnavī — a line every Persian reader knows — was displayed badged as
