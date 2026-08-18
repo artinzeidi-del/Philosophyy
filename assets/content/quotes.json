@@ -1180,6 +1180,841 @@
         "en": "An inscription at the temple of Apollo at Delphi, predating Socrates.",
         "fa": "کتیبه‌ای بر معبد آپولون در دلفی، مقدم بر سقراط."
       }
+    },
+    {
+      "id": "plato-cave",
+      "text": {
+        "en": "Picture human beings living in an underground cave, with a long entrance open to the light, and legs and necks chained so that they cannot move.",
+        "fa": "آدمیانی را در غاری زیرزمینی تصور کن، با دهانه‌ای بلند که رو به روشنایی باز است، و پاها و گردن‌هایی چنان در زنجیر که نمی‌توانند بجنبند."
+      },
+      "speaker": "plato",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The opening of the cave passage, which runs to 517a and is spoken by Socrates to Glaucon.",
+        "fa": "آغاز تمثیل غار، که تا انتهای بند ۵۱۷ ادامه دارد و سقراط آن را برای گلاوکن می‌گوید."
+      },
+      "citation": { "source": "plato-republic", "locator": "514a" }
+    },
+    {
+      "id": "plato-philosopher-kings",
+      "text": {
+        "en": "Until philosophers rule as kings, or those now called kings genuinely philosophise, cities will have no rest from their troubles.",
+        "fa": "تا زمانی که فیلسوفان چون شاهان فرمان نرانند، یا آنان که اکنون شاه خوانده می‌شوند به‌راستی فلسفه نورزند، شهرها از گرفتاری‌هایشان نخواهند آسود."
+      },
+      "speaker": "plato",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Socrates calls this the wave most likely to drown him — he presents it as the least believable thing he has said.",
+        "fa": "سقراط این را موجی می‌خواند که بیش از همه ممکن است غرقش کند — آن را باورنکردنی‌ترین چیزی که گفته عرضه می‌کند."
+      },
+      "citation": { "source": "plato-republic", "locator": "473c–d" }
+    },
+    {
+      "id": "plato-practice-dying",
+      "text": {
+        "en": "Those who practise philosophy in the right way are training for dying, and they fear death least of all people.",
+        "fa": "کسانی که به شیوهٔ درست فلسفه می‌ورزند خود را برای مردن تمرین می‌دهند، و از همهٔ مردم کمتر از مرگ می‌ترسند."
+      },
+      "speaker": "plato",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Spoken by Socrates on the day of his execution, which is part of the argument rather than a coincidence.",
+        "fa": "سقراط این را در روز اعدامش می‌گوید، که بخشی از استدلال است نه اتفاق."
+      },
+      "citation": { "source": "text-phaedo", "locator": "67e" }
+    },
+    {
+      "id": "aristotle-one-swallow",
+      "text": {
+        "en": "One swallow does not make a spring, nor does one day; and so too one day or a short time does not make a man blessed and happy.",
+        "fa": "یک پرستو بهار نمی‌آورد، و یک روز هم؛ و همچنین یک روز یا زمانی کوتاه آدمی را خجسته و سعادتمند نمی‌کند."
+      },
+      "speaker": "aristotle",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The reason eudaimonia is assessed over a complete life rather than a good afternoon.",
+        "fa": "دلیل اینکه سعادت در یک زندگی کامل سنجیده می‌شود نه در یک بعدازظهر خوش."
+      },
+      "citation": {
+        "source": "aristotle-nicomachean-ethics",
+        "locator": "1098a"
+      }
+    },
+    {
+      "id": "aristotle-precision",
+      "text": {
+        "en": "It is the mark of an educated person to look for precision in each class of things just so far as the nature of the subject admits.",
+        "fa": "نشانهٔ آدم آموزش‌دیده این است که در هر رده از چیزها دقت را تنها تا آنجا بجوید که سرشت آن موضوع اجازه می‌دهد."
+      },
+      "speaker": "aristotle",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Stated at the outset, as a warning about what ethics can and cannot deliver.",
+        "fa": "در همان آغاز گفته می‌شود، چون هشداری دربارهٔ آنچه اخلاق می‌تواند و نمی‌تواند بدهد."
+      },
+      "citation": {
+        "source": "aristotle-nicomachean-ethics",
+        "locator": "1094b"
+      }
+    },
+    {
+      "id": "epictetus-up-to-us",
+      "text": {
+        "en": "Some things are up to us and some are not. Up to us are opinion, impulse, desire and aversion; not up to us are the body, property, reputation and office.",
+        "fa": "برخی چیزها به ما بستگی دارند و برخی نه. به ما بستگی دارند: رأی، انگیزه، میل و بیزاری؛ به ما بستگی ندارند: تن، دارایی، آبرو و منصب."
+      },
+      "speaker": "epictetus",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The opening sentence of the Handbook, and the whole system in one line.",
+        "fa": "نخستین جملهٔ «انکیریدیون»، و کل آن دستگاه در یک سطر."
+      },
+      "citation": { "source": "epictetus-enchiridion", "locator": "1.1" }
+    },
+    {
+      "id": "marcus-be-good",
+      "text": {
+        "en": "Waste no more time arguing what a good man should be. Be one.",
+        "fa": "دیگر وقت را بر سر بحث دربارهٔ اینکه آدم خوب چگونه باید باشد تلف نکن. یکی باش."
+      },
+      "speaker": "marcus-aurelius",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "A note to himself, like the rest of the book.",
+        "fa": "یادداشتی به خودش، مثل باقی آن کتاب."
+      },
+      "citation": { "source": "text-meditations", "locator": "X.16" }
+    },
+    {
+      "id": "seneca-imagination",
+      "text": {
+        "en": "There are more things likely to frighten us than to crush us; we suffer more often in imagination than in reality.",
+        "fa": "چیزهایی که ما را می‌ترسانند بیش از چیزهایی‌اند که ما را می‌شکنند؛ بیشتر در خیال رنج می‌کشیم تا در واقعیت."
+      },
+      "speaker": "seneca",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The Latin is plura sunt quae nos terrent quam quae premunt; the second clause is the standard English rendering rather than a literal one.",
+        "fa": "جملهٔ دوم برگردان رایج انگلیسی است نه ترجمهٔ تحت‌اللفظی. متن لاتین چنین است: plura sunt quae nos terrent quam quae premunt."
+      },
+      "citation": {
+        "source": "text-letters-to-lucilius",
+        "locator": "Letter 13.4"
+      }
+    },
+    {
+      "id": "lucretius-religion",
+      "text": {
+        "en": "So great are the evils that religion could prompt.",
+        "fa": "دین توانست به چه اندازه از بدی‌ها برانگیزد."
+      },
+      "speaker": "lucretius",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Written of Agamemnon's sacrifice of his daughter, which is the example the line is attached to.",
+        "fa": "دربارهٔ قربانی کردن دختر آگاممنون نوشته شده، که همان نمونه‌ای است که این سطر به آن بسته است."
+      },
+      "citation": { "source": "text-de-rerum-natura", "locator": "I.101" }
+    },
+    {
+      "id": "plotinus-withdraw",
+      "text": {
+        "en": "Withdraw into yourself and look. If you do not yet see beauty there, do as the sculptor does with a statue that must be made beautiful.",
+        "fa": "به درون خود بازگرد و بنگر. اگر هنوز زیبایی را آنجا نمی‌بینی، همان کن که پیکرتراش با تندیسی می‌کند که باید زیبا شود."
+      },
+      "speaker": "plotinus",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The sculptor image continues: cut away what is superfluous rather than add anything.",
+        "fa": "تصویر پیکرتراش ادامه دارد: آنچه زائد است را بتراش، به‌جای آنکه چیزی بیفزایی."
+      },
+      "citation": { "source": "text-enneads", "locator": "I.6.9" }
+    },
+    {
+      "id": "laozi-way-spoken",
+      "text": {
+        "en": "The way that can be spoken of is not the constant way; the name that can be named is not the constant name.",
+        "fa": "راهی که بتوان از آن سخن گفت راه همیشگی نیست؛ نامی که بتوان بر زبان آورد نام همیشگی نیست."
+      },
+      "speaker": "laozi",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The opening lines, and an unusual way to begin a book about the way.",
+        "fa": "سطرهای آغازین، و شیوهٔ نامعمولی برای آغاز کتابی دربارهٔ آن راه."
+      },
+      "citation": { "source": "text-daodejing", "locator": "ch. 1" }
+    },
+    {
+      "id": "laozi-soft",
+      "text": {
+        "en": "The softest thing in the world overcomes the hardest.",
+        "fa": "نرم‌ترین چیز جهان بر سخت‌ترین چیره می‌شود."
+      },
+      "speaker": "laozi",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Water is the standing example throughout the book.",
+        "fa": "آب در سراسر این کتاب نمونهٔ همیشگی است."
+      },
+      "citation": { "source": "text-daodejing", "locator": "ch. 43" }
+    },
+    {
+      "id": "zhuangzi-fish-trap",
+      "text": {
+        "en": "The fish trap exists because of the fish; once you have got the fish, you can forget the trap. Words exist because of meaning; once you have got the meaning, you can forget the words.",
+        "fa": "تله برای ماهی است؛ همین که ماهی را گرفتی، می‌توانی تله را از یاد ببری. واژه‌ها برای معنایند؛ همین که معنا را گرفتی، می‌توانی واژه‌ها را از یاد ببری."
+      },
+      "speaker": "zhuangzi",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "He ends by asking where he can find a person who has forgotten words, so that he can have a word with him.",
+        "fa": "پایانش این است که می‌پرسد کجا می‌توانم کسی را بیابم که واژه‌ها را از یاد برده باشد، تا با او سخنی بگویم."
+      },
+      "citation": { "source": "text-zhuangzi-book", "locator": "ch. 26" }
+    },
+    {
+      "id": "confucius-learning-thought",
+      "text": {
+        "en": "Learning without thought is labour lost; thought without learning is perilous.",
+        "fa": "آموختن بی‌اندیشیدن رنج بیهوده است؛ اندیشیدن بی‌آموختن خطرناک."
+      },
+      "speaker": "confucius",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "One of the shortest and most quoted passages in the book.",
+        "fa": "از کوتاه‌ترین و پرنقل‌ترین بندهای این کتاب."
+      },
+      "citation": { "source": "confucius-analects", "locator": "II.15" }
+    },
+    {
+      "id": "confucius-seventy",
+      "text": {
+        "en": "At seventy I could follow what my heart desired without overstepping the line.",
+        "fa": "در هفتادسالگی می‌توانستم از خواستهٔ دلم پیروی کنم بی‌آنکه از خط بیرون بزنم."
+      },
+      "speaker": "confucius",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The end of a short account of his own life in six stages, which is the only autobiography in the book.",
+        "fa": "پایان روایتی کوتاه از زندگی خودش در شش مرحله، که تنها زندگی‌نامهٔ خودنوشت این کتاب است."
+      },
+      "citation": { "source": "confucius-analects", "locator": "II.4" }
+    },
+    {
+      "id": "xunzi-nature-bad",
+      "text": {
+        "en": "Human nature is bad; its goodness is the result of deliberate activity.",
+        "fa": "سرشت آدمی بد است؛ خوبی‌اش حاصل کارِ عامدانه است."
+      },
+      "speaker": "xunzi",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The chapter title states the thesis, and the argument against Mencius runs through it.",
+        "fa": "عنوان آن فصل همین تز است، و استدلال علیه منسیوس در سراسر آن می‌رود."
+      },
+      "citation": { "source": "text-xunzi-text", "locator": "ch. 23" }
+    },
+    {
+      "id": "mozi-benefit",
+      "text": {
+        "en": "It is the business of the benevolent to seek to promote what benefits the world and to eliminate what harms it.",
+        "fa": "کار آدم نیکخواه این است که بکوشد آنچه را به جهان سود می‌رساند بیفزاید و آنچه را زیان می‌زند بردارد."
+      },
+      "speaker": "mozi",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The standard formula, repeated at the head of several chapters.",
+        "fa": "فرمول همیشگی، که در سرِ چند فصل تکرار می‌شود."
+      },
+      "citation": { "source": "text-mozi-book", "locator": "ch. 16" }
+    },
+    {
+      "id": "dhammapada-mind",
+      "text": {
+        "en": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
+        "fa": "هرچه هستیم حاصل آن است که اندیشیده‌ایم: بر اندیشه‌های ما بنا شده و از اندیشه‌های ما ساخته شده."
+      },
+      "speaker": "buddha",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The opening verse, in the nineteenth-century rendering that made it famous; more literal translations read closer to 'mind precedes all states'.",
+        "fa": "بیت آغازین، در برگردانی از قرن نوزدهم که مشهورش کرد؛ ترجمه‌های دقیق‌تر چیزی نزدیک به «ذهن بر همهٔ حالت‌ها پیشی دارد» می‌دهند."
+      },
+      "citation": { "source": "text-dhammapada", "locator": "1.1" }
+    },
+    {
+      "id": "patanjali-stilling",
+      "text": {
+        "en": "Yoga is the stilling of the movements of the mind. Then the seer abides in its own form.",
+        "fa": "یوگا آرام کردن جنبش‌های ذهن است. آن‌گاه بیننده در صورت خودش می‌ماند."
+      },
+      "speaker": "patanjali",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The definition and its consequence, in the second and third aphorisms of the text.",
+        "fa": "تعریف و پیامدش، در بند دوم و سوم این متن."
+      },
+      "citation": { "source": "text-yoga-sutras", "locator": "1.2–1.3" }
+    },
+    {
+      "id": "mahavira-all-beings",
+      "text": {
+        "en": "All beings are fond of life; they like pleasure and hate pain, shun destruction and like to live.",
+        "fa": "همهٔ جانداران زندگی را دوست دارند؛ لذت را می‌پسندند و از درد بیزارند، از نابودی می‌گریزند و می‌خواهند زنده بمانند."
+      },
+      "speaker": "mahavira",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The argument for non-harm is made as an observation rather than as a command.",
+        "fa": "استدلال برای نیازردن چون یک مشاهده آورده می‌شود نه چون یک فرمان."
+      },
+      "citation": { "source": "text-acaranga-sutra", "locator": "1.2.3" }
+    },
+    {
+      "id": "umasvati-mutual",
+      "text": {
+        "en": "Souls render service to one another.",
+        "fa": "جان‌ها به یکدیگر خدمت می‌کنند."
+      },
+      "speaker": "mahavira",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Three words in Sanskrit, and the sentence the Jain tradition puts on its emblem.",
+        "fa": "در سنسکریت سه واژه است، و همان جمله‌ای که سنت جین بر نشان خود می‌نویسد."
+      },
+      "citation": { "source": "text-tattvartha-sutra", "locator": "5.21" }
+    },
+    {
+      "id": "dogen-study-self",
+      "text": {
+        "en": "To study the Buddha way is to study the self. To study the self is to forget the self. To forget the self is to be enlightened by all things.",
+        "fa": "آموختنِ راه بودا آموختنِ خویشتن است. آموختنِ خویشتن از یاد بردنِ خویشتن است. از یاد بردنِ خویشتن یعنی روشن شدن به دست همه چیز."
+      },
+      "speaker": "dogen",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "From the essay usually placed first in the collection.",
+        "fa": "از جستاری که معمولاً نخستین قطعهٔ این مجموعه گذاشته می‌شود."
+      },
+      "citation": { "source": "text-shobogenzo", "locator": "Genjōkōan" }
+    },
+    {
+      "id": "zeami-hidden-flower",
+      "text": {
+        "en": "If it is hidden, it is the flower; if it is not hidden, it is not the flower.",
+        "fa": "اگر پنهان باشد، شکوفه است؛ اگر پنهان نباشد، شکوفه نیست."
+      },
+      "speaker": "zeami",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The sentence the treatise's doctrine of concealment is built on, in a book that was itself kept secret for five hundred years.",
+        "fa": "جمله‌ای که آموزهٔ پنهان‌کاریِ این رساله بر آن بنا شده، در کتابی که خودش پانصد سال پنهان نگه داشته شد."
+      },
+      "citation": { "source": "text-fushikaden", "locator": "ch. 7" }
+    },
+    {
+      "id": "nishida-experience",
+      "text": {
+        "en": "To experience means to know facts just as they are, to know in accordance with facts by completely relinquishing one's own fabrications.",
+        "fa": "تجربه کردن یعنی دانستن واقعیت‌ها همان‌گونه که هستند، دانستن بر وفق واقعیت‌ها با یکسره وانهادن ساخته‌های خود."
+      },
+      "speaker": "nishida",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The opening definition of pure experience, and the start of the book.",
+        "fa": "تعریف آغازین «تجربهٔ محض»، و آغاز آن کتاب."
+      },
+      "citation": {
+        "source": "text-inquiry-into-the-good",
+        "locator": "Part I, ch. 1"
+      }
+    },
+    {
+      "id": "ibn-rushd-truth",
+      "text": {
+        "en": "Truth does not contradict truth but accords with it and bears witness to it.",
+        "fa": "حقیقت با حقیقت ناسازگار نیست، با آن می‌خواند و بر آن گواهی می‌دهد."
+      },
+      "speaker": "ibn-rushd",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The premise of the whole treatise: if demonstration reaches one conclusion and scripture appears to state another, the text needs interpretation.",
+        "fa": "مقدمهٔ کل آن رساله: اگر برهان به نتیجه‌ای برسد و ظاهر شرع چیز دیگری بگوید، آن متن به تأویل نیاز دارد."
+      },
+      "citation": { "source": "text-fasl-al-maqal" }
+    },
+    {
+      "id": "ibn-al-haytham-doubt",
+      "text": {
+        "en": "The seeker after truth is not one who studies the writings of the ancients and puts his trust in them, but rather the one who suspects his faith in them and questions what he gathers from them.",
+        "fa": "جویندهٔ حقیقت آن نیست که نوشته‌های پیشینیان را می‌خواند و به آنان اعتماد می‌کند، بلکه آن است که به اعتماد خود به آنان مشکوک می‌شود و در آنچه از ایشان می‌گیرد می‌پرسد."
+      },
+      "speaker": "ibn-al-haytham",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "From the book taking Ptolemy apart, which is what gives the sentence its force: he had just done it.",
+        "fa": "از کتابی که بطلمیوس را تکه‌تکه می‌کند، و همین است که به این جمله نیرو می‌دهد: او همین کار را کرده بود."
+      },
+      "citation": { "source": "text-al-shukuk-ala-batlamyus" }
+    },
+    {
+      "id": "anselm-believe-understand",
+      "text": {
+        "en": "I do not seek to understand in order that I may believe, but I believe in order to understand.",
+        "fa": "نمی‌کوشم بفهمم تا ایمان بیاورم، ایمان می‌آورم تا بفهمم."
+      },
+      "speaker": "anselm",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Stated just before the argument for God's existence, which is why the argument is addressed to God in prayer.",
+        "fa": "درست پیش از استدلال بر هستی خدا گفته می‌شود، و برای همین آن استدلال به صورت دعا خطاب به خدا نوشته شده."
+      },
+      "citation": { "source": "text-proslogion", "locator": "ch. 1" }
+    },
+    {
+      "id": "augustine-restless",
+      "text": {
+        "en": "You have made us for yourself, and our heart is restless until it rests in you.",
+        "fa": "ما را برای خود ساخته‌ای، و دل ما ناآرام است تا در تو بیارامد."
+      },
+      "speaker": "augustine",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The second sentence of the book, and the sentence the rest of it is arguing for.",
+        "fa": "دومین جملهٔ کتاب، و همان جمله‌ای که باقی کتاب برایش استدلال می‌کند."
+      },
+      "citation": { "source": "text-confessions", "locator": "I.1" }
+    },
+    {
+      "id": "spinoza-difficult-rare",
+      "text": {
+        "en": "All things excellent are as difficult as they are rare.",
+        "fa": "همهٔ چیزهای والا به همان اندازه که کمیاب‌اند دشوارند."
+      },
+      "speaker": "spinoza",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The last sentence of the Ethics, after four hundred propositions.",
+        "fa": "آخرین جملهٔ «اخلاق»، پس از چهارصد گزاره."
+      },
+      "citation": {
+        "source": "text-ethics-spinoza",
+        "locator": "Part V, final line"
+      }
+    },
+    {
+      "id": "locke-white-paper",
+      "text": {
+        "en": "Let us then suppose the mind to be, as we say, white paper, void of all characters, without any ideas.",
+        "fa": "پس بگذار فرض کنیم ذهن، چنان‌که می‌گوییم، کاغذی سفید است، تهی از هر نقش، بی‌هیچ ایده‌ای."
+      },
+      "speaker": "locke",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The image is a supposition offered for the argument, not a doctrine asserted, which is often lost in quotation.",
+        "fa": "این تصویر فرضی است که برای استدلال گذاشته شده نه آموزه‌ای که اعلام شود، و این در نقل قول اغلب گم می‌شود."
+      },
+      "citation": {
+        "source": "text-essay-human-understanding",
+        "locator": "II.1.2"
+      }
+    },
+    {
+      "id": "leibniz-windows",
+      "text": {
+        "en": "Monads have no windows through which anything could come in or go out.",
+        "fa": "مونادها پنجره‌ای ندارند که چیزی از آن وارد یا خارج شود."
+      },
+      "speaker": "leibniz",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Which is why the harmony between them has to be established in advance.",
+        "fa": "و برای همین است که هماهنگی میانشان باید از پیش برقرار شده باشد."
+      },
+      "citation": { "source": "text-monadology", "locator": "§7" }
+    },
+    {
+      "id": "berkeley-esse",
+      "text": {
+        "en": "Their being is to be perceived, nor is it possible they should have any existence out of the minds which perceive them.",
+        "fa": "بودنِ آن‌ها ادراک‌شدن است، و ممکن نیست بیرون از ذهن‌هایی که ادراکشان می‌کنند هستی‌ای داشته باشند."
+      },
+      "speaker": "berkeley",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The Latin tag esse is percipi comes from this passage.",
+        "fa": "آن عبارت لاتین esse is percipi از همین بند می‌آید."
+      },
+      "citation": { "source": "text-berkeley-principles", "locator": "§3" }
+    },
+    {
+      "id": "kant-thoughts-empty",
+      "text": {
+        "en": "Thoughts without content are empty, intuitions without concepts are blind.",
+        "fa": "اندیشه‌های بی‌محتوا تهی‌اند، شهودهای بی‌مفهوم کورند."
+      },
+      "speaker": "kant",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The sentence in which the quarrel between rationalism and empiricism is settled by giving each half of it.",
+        "fa": "جمله‌ای که در آن نزاع عقل‌گرایی و تجربه‌گرایی با دادن نیمی به هر یک فیصله می‌یابد."
+      },
+      "citation": {
+        "source": "kant-critique-pure-reason",
+        "locator": "A51/B75"
+      }
+    },
+    {
+      "id": "kant-universal-law",
+      "text": {
+        "en": "Act only according to that maxim by which you can at the same time will that it should become a universal law.",
+        "fa": "تنها بر پایهٔ آن قاعده‌ای عمل کن که بتوانی هم‌زمان بخواهی قانونی همگانی شود."
+      },
+      "speaker": "kant",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The first formulation of the categorical imperative, in the standard Academy pagination.",
+        "fa": "نخستین صورت‌بندی امر مطلق، در شماره‌گذاری متعارف آکادمی."
+      },
+      "citation": { "source": "kant-groundwork", "locator": "4:421" }
+    },
+    {
+      "id": "rousseau-emile-opening",
+      "text": {
+        "en": "Everything is good as it leaves the hands of the Author of things; everything degenerates in the hands of man.",
+        "fa": "هر چیزی نیک است آن‌گاه که از دست آفریدگار چیزها بیرون می‌آید؛ هر چیزی در دست آدمی تباه می‌شود."
+      },
+      "speaker": "rousseau",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The first line of the book on education, and the premise of everything in it.",
+        "fa": "نخستین سطر کتابِ تربیت، و مقدمهٔ هرچه در آن است."
+      },
+      "citation": { "source": "text-emile", "locator": "Book I, opening" }
+    },
+    {
+      "id": "hume-is-ought",
+      "text": {
+        "en": "In every system of morality I have met with, the author proceeds for some time in the ordinary way of reasoning — and then, instead of the usual copulations of propositions, is and is not, I meet with no proposition that is not connected with an ought.",
+        "fa": "در هر دستگاه اخلاقی‌ای که دیده‌ام، نویسنده مدتی به شیوهٔ معمول استدلال پیش می‌رود — و بعد، به‌جای آن ربط‌های همیشگی میان گزاره‌ها، «هست» و «نیست»، به هیچ گزاره‌ای برنمی‌خورم که با «باید» بسته نشده باشد."
+      },
+      "speaker": "hume",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The whole passage is four sentences long and appears at the end of a section about something else.",
+        "fa": "کل این بند چهار جمله است و در پایان بخشی دربارهٔ چیزی دیگر می‌آید."
+      },
+      "citation": { "source": "text-treatise-human-nature", "locator": "3.1.1" }
+    },
+    {
+      "id": "hegel-true-whole",
+      "text": {
+        "en": "The True is the whole. But the whole is nothing other than the essence completing itself through its development.",
+        "fa": "امر راستین همان کل است. اما کل چیزی نیست جز ذاتی که با بسط خود کامل می‌شود."
+      },
+      "speaker": "hegel",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The claim that a part stated on its own is not yet true, which is what makes the book so long.",
+        "fa": "این ادعا که جزئی که تنها بیان شود هنوز راست نیست، و همین است که این کتاب را این‌قدر بلند می‌کند."
+      },
+      "citation": {
+        "source": "text-phenomenology-of-spirit",
+        "locator": "Preface, §20"
+      }
+    },
+    {
+      "id": "mill-socrates-dissatisfied",
+      "text": {
+        "en": "It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied.",
+        "fa": "بهتر است آدمی ناخرسند باشی تا خوکی خرسند؛ بهتر است سقراطِ ناخرسند باشی تا ابلهِ خرسند."
+      },
+      "speaker": "mill",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The sentence in which the qualitative distinction between pleasures is introduced, and with it the theory's hardest problem.",
+        "fa": "جمله‌ای که در آن تمایز کیفی میان لذت‌ها معرفی می‌شود، و با آن سخت‌ترین مسئلهٔ این نظریه."
+      },
+      "citation": { "source": "text-utilitarianism", "locator": "ch. 2" }
+    },
+    {
+      "id": "mill-subjection-opening",
+      "text": {
+        "en": "The principle which regulates the existing social relations between the two sexes — the legal subordination of one sex to the other — is wrong in itself, and now one of the chief hindrances to human improvement.",
+        "fa": "اصلی که مناسبات اجتماعی موجود میان دو جنس را تنظیم می‌کند — فرودستی قانونی یک جنس در برابر دیگری — در خودش نادرست است، و اکنون یکی از موانع اصلی بهبود بشر."
+      },
+      "speaker": "mill",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The book was written in 1861 and held back until 1869.",
+        "fa": "این کتاب در ۱۸۶۱ نوشته شد و تا ۱۸۶۹ نگه داشته شد."
+      },
+      "citation": {
+        "source": "text-subjection-of-women",
+        "locator": "ch. 1, opening"
+      }
+    },
+    {
+      "id": "marx-capital-opening",
+      "text": {
+        "en": "The wealth of societies in which the capitalist mode of production prevails appears as an immense collection of commodities.",
+        "fa": "ثروت جامعه‌هایی که شیوهٔ تولید سرمایه‌دارانه در آن‌ها چیره است چون انبوهی عظیم از کالاها پدیدار می‌شود."
+      },
+      "speaker": "marx",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The word appears is doing work: the book is about what that appearance conceals.",
+        "fa": "واژهٔ «پدیدار می‌شود» کار می‌کند: این کتاب دربارهٔ آن چیزی است که این پدیدار پنهانش می‌کند."
+      },
+      "citation": {
+        "source": "text-capital",
+        "locator": "vol. I, ch. 1, opening"
+      }
+    },
+    {
+      "id": "wittgenstein-limits",
+      "text": {
+        "en": "The limits of my language mean the limits of my world.",
+        "fa": "مرزهای زبان من مرزهای جهان من‌اند."
+      },
+      "speaker": "wittgenstein",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "One of the numbered propositions, three steps before the book's last line.",
+        "fa": "یکی از گزاره‌های شماره‌دار، سه گام پیش از آخرین سطر کتاب."
+      },
+      "citation": { "source": "text-tractatus", "locator": "5.6" }
+    },
+    {
+      "id": "wittgenstein-fly-bottle",
+      "text": {
+        "en": "What is your aim in philosophy? — To show the fly the way out of the fly-bottle.",
+        "fa": "هدف تو در فلسفه چیست؟ — نشان دادن راه بیرون رفتن به مگسی که در شیشه گیر افتاده."
+      },
+      "speaker": "wittgenstein",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The clearest statement of what he thought the later work was for.",
+        "fa": "روشن‌ترین بیان از اینکه کار متأخرش به گمان خودش برای چه بود."
+      },
+      "citation": {
+        "source": "text-philosophical-investigations",
+        "locator": "§309"
+      }
+    },
+    {
+      "id": "ryle-ghost",
+      "text": {
+        "en": "I shall speak of it, with deliberate abusiveness, as the dogma of the Ghost in the Machine.",
+        "fa": "از آن، با گستاخی عامدانه، چون آموزهٔ «شبح در ماشین» سخن خواهم گفت."
+      },
+      "speaker": "ryle",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "He coins the phrase and says in the same sentence that he means it as an insult.",
+        "fa": "او این عبارت را می‌سازد و در همان جمله می‌گوید که آن را چون توهین به کار می‌برد."
+      },
+      "citation": { "source": "text-concept-of-mind", "locator": "ch. 1" }
+    },
+    {
+      "id": "rawls-first-virtue",
+      "text": {
+        "en": "Justice is the first virtue of social institutions, as truth is of systems of thought.",
+        "fa": "عدالت نخستین فضیلت نهادهای اجتماعی است، چنان‌که حقیقت نخستین فضیلت دستگاه‌های اندیشه است."
+      },
+      "speaker": "rawls",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The first sentence of the book, and the reason the argument does not trade justice against anything else.",
+        "fa": "نخستین جملهٔ کتاب، و دلیل اینکه این استدلال عدالت را با هیچ چیز دیگری معاوضه نمی‌کند."
+      },
+      "citation": {
+        "source": "text-theory-of-justice",
+        "locator": "§1, opening"
+      }
+    },
+    {
+      "id": "sartre-useless-passion",
+      "text": {
+        "en": "Man is a useless passion.",
+        "fa": "آدمی شوری بیهوده است."
+      },
+      "speaker": "sartre",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The conclusion of the argument that consciousness cannot become the self-sufficient thing it is trying to be.",
+        "fa": "نتیجهٔ آن استدلال که آگاهی نمی‌تواند همان چیز خودبسنده‌ای شود که می‌کوشد باشد."
+      },
+      "citation": {
+        "source": "text-being-and-nothingness",
+        "locator": "Part IV, conclusion"
+      }
+    },
+    {
+      "id": "buber-encounter",
+      "text": {
+        "en": "All actual life is encounter.",
+        "fa": "همهٔ زندگی واقعی، رویارویی است."
+      },
+      "speaker": "buber",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The shortest statement of the book's thesis, in a book made of short statements.",
+        "fa": "کوتاه‌ترین بیان تز این کتاب، در کتابی که از بیان‌های کوتاه ساخته شده."
+      },
+      "citation": { "source": "text-i-and-thou", "locator": "Part I" }
+    },
+    {
+      "id": "weil-attention-prayer",
+      "text": {
+        "en": "Attention, taken to its highest degree, is the same thing as prayer. It presupposes faith and love.",
+        "fa": "توجه، اگر به بالاترین درجه‌اش برسد، همان دعاست. ایمان و عشق را پیش‌فرض می‌گیرد."
+      },
+      "speaker": "weil",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "From the notebooks, assembled and published after her death.",
+        "fa": "از دفترهای یادداشت، که پس از مرگش گرد آمد و منتشر شد."
+      },
+      "citation": {
+        "source": "text-gravity-and-grace",
+        "locator": "Attention and Will"
+      }
+    },
+    {
+      "id": "fanon-generation",
+      "text": {
+        "en": "Each generation must, out of relative obscurity, discover its mission, fulfil it or betray it.",
+        "fa": "هر نسل باید، از دل ابهامی نسبی، رسالت خود را کشف کند، و آن را به انجام برساند یا به آن خیانت کند."
+      },
+      "speaker": "fanon",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "From the chapter on the pitfalls of national consciousness, which is addressed to movements that have already won.",
+        "fa": "از فصلی دربارهٔ دام‌های آگاهی ملی، که خطاب به جنبش‌هایی است که از پیش برده‌اند."
+      },
+      "citation": { "source": "text-wretched-of-the-earth", "locator": "ch. 3" }
+    },
+    {
+      "id": "cesaire-thingification",
+      "text": {
+        "en": "Between coloniser and colonised there is room only for forced labour, intimidation, pressure, contempt — no human contact, but relations of domination.",
+        "fa": "میان استعمارگر و استعمارشده تنها جا برای کار اجباری، ارعاب، فشار و تحقیر هست — نه تماس انسانی، بلکه رابطه‌های سلطه."
+      },
+      "speaker": "cesaire",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The passage ends with the word he coined for what colonisation does: it turns people into things.",
+        "fa": "این بند با واژه‌ای که او برای کارِ استعمار ساخت پایان می‌یابد: آدم‌ها را به شیء بدل می‌کند."
+      },
+      "citation": { "source": "text-discourse-on-colonialism" }
+    },
+    {
+      "id": "mariategui-land",
+      "text": {
+        "en": "The problem of the Indian is the problem of the land.",
+        "fa": "مسئلهٔ بومیان مسئلهٔ زمین است."
+      },
+      "speaker": "mariategui",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Stated in order to refuse four other framings — education, race, morals and administration — that had each been proposed.",
+        "fa": "این را می‌گوید تا چهار قاب دیگر را رد کند — آموزش، نژاد، اخلاق و اداره — که هر یک پیشنهاد شده بودند."
+      },
+      "citation": { "source": "text-seven-essays", "locator": "Essay 2" }
+    },
+    {
+      "id": "hauofa-sea-of-islands",
+      "text": {
+        "en": "There is a world of difference between viewing the Pacific as islands in a far sea and as a sea of islands.",
+        "fa": "میان دیدن اقیانوس آرام چون «جزیره‌هایی در دریایی دور» و چون «دریایی از جزیره‌ها» جهانی تفاوت هست."
+      },
+      "speaker": "epeli-hauofa",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The first framing counts the land and finds it small; the second counts the water and finds it large.",
+        "fa": "قاب نخست خشکی را می‌شمارد و کوچکش می‌یابد؛ دومی آب را می‌شمارد و بزرگش می‌یابد."
+      },
+      "citation": { "source": "text-our-sea-of-islands" }
+    },
+    {
+      "id": "hooks-classroom",
+      "text": {
+        "en": "The classroom remains the most radical space of possibility in the academy.",
+        "fa": "کلاس درس هنوز رادیکال‌ترین فضای امکان در دانشگاه است."
+      },
+      "speaker": "bell-hooks",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "Written by someone who left an elite institution to teach in Kentucky.",
+        "fa": "نوشتهٔ کسی که نهادی نخبه را رها کرد تا در کنتاکی درس بدهد."
+      },
+      "citation": {
+        "source": "text-teaching-to-transgress",
+        "locator": "Introduction"
+      }
+    },
+    {
+      "id": "davis-prisons-disappear",
+      "text": {
+        "en": "Prisons do not disappear problems, they disappear human beings.",
+        "fa": "زندان‌ها مسئله‌ها را ناپدید نمی‌کنند، آدم‌ها را ناپدید می‌کنند."
+      },
+      "speaker": "angela-davis",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The sentence the abolitionist argument is built around.",
+        "fa": "جمله‌ای که استدلال لغو زندان حول آن ساخته شده."
+      },
+      "citation": { "source": "text-are-prisons-obsolete", "locator": "ch. 1" }
+    },
+    {
+      "id": "haraway-cyborg-goddess",
+      "text": {
+        "en": "I would rather be a cyborg than a goddess.",
+        "fa": "ترجیح می‌دهم سایبورگ باشم تا الهه."
+      },
+      "speaker": "haraway",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The last line of the essay, and a rejection of the feminism that wanted a return to nature.",
+        "fa": "آخرین سطر آن جستار، و رد کردن آن فمینیسمی که بازگشت به طبیعت می‌خواست."
+      },
+      "citation": { "source": "text-cyborg-manifesto", "locator": "final line" }
+    },
+    {
+      "id": "freire-education",
+      "text": {
+        "en": "There is no such thing as a neutral educational process.",
+        "fa": "چیزی به نام فرایند آموزشیِ خنثی وجود ندارد."
+      },
+      "speaker": "freire",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The claim continues: education either brings about conformity or becomes the practice of freedom.",
+        "fa": "این ادعا ادامه دارد: آموزش یا هم‌رنگی می‌آورد یا به تمرین آزادی بدل می‌شود."
+      },
+      "citation": {
+        "source": "text-pedagogy-of-the-oppressed",
+        "locator": "ch. 2"
+      }
+    },
+    {
+      "id": "nkrumah-neocolonial",
+      "text": {
+        "en": "The essence of neo-colonialism is that the State which is subject to it is, in theory, independent — but in reality its economic system and its political policy are directed from outside.",
+        "fa": "جانِ نواستعمار این است که دولتی که زیر آن است، در نظر، مستقل است — اما در واقع نظام اقتصادی و سیاست سیاسی‌اش از بیرون هدایت می‌شود."
+      },
+      "speaker": "nkrumah",
+      "attribution": "verified",
+      "attributionNote": {
+        "en": "The formulation that gave the term its currency, from the book's first page.",
+        "fa": "همان صورت‌بندی که این اصطلاح را رایج کرد، از نخستین صفحهٔ کتاب."
+      },
+      "citation": {
+        "source": "text-neo-colonialism",
+        "locator": "Introduction"
+      }
     }
   ]
 }
