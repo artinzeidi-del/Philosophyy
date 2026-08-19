@@ -300,6 +300,24 @@ class _TermCardState extends State<_TermCard> {
                     ),
                   ),
                 ),
+                // Only eighteen of the seventy-six terms have anything behind
+                // the short definition, and the cards were identical whether
+                // they did or not — so most of the glossary answered a press
+                // with nothing, and a reader had no way to tell which ones
+                // would. The chevron marks the ones that open.
+                if (canExpand) ...<Widget>[
+                  const SizedBox(width: Spacing.xs),
+                  AnimatedRotation(
+                    duration: MotionTokens.quick,
+                    curve: MotionTokens.standard,
+                    turns: _expanded ? 0.5 : 0,
+                    child: Icon(
+                      Icons.expand_more,
+                      size: 20,
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ],
               ],
             ),
             // Not shown when it repeats a word already on the card. The

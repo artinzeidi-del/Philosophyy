@@ -118,6 +118,7 @@ void main() {
     'phone': Size(390, 844),
     'tablet': Size(834, 1112),
     'desktop': Size(1440, 900),
+    'phone landscape': Size(844, 390),
   };
 
   for (final language in <String?>[null, 'fa']) {
@@ -128,7 +129,7 @@ void main() {
       // the first failure and names the group, so a run that breaks on the
       // first of fourteen screens says nothing about the other thirteen — and
       // the whole point of a sweep is the list it produces.
-      for (final scale in <double>[1.0, 1.5]) {
+      for (final scale in <double>[1.0, 1.5, 2.0]) {
         final scaleName = scale == 1.0 ? '' : ' at ${scale}x text';
 
         group('${size.key}, $languageName$scaleName', () {
