@@ -186,6 +186,14 @@ class _PressableSurfaceState extends State<PressableSurface>
     super.dispose();
   }
 
+  /// Whether a pointer is resting on the surface.
+  ///
+  /// Only a mouse produces this; a touch goes straight to pressed. It is what
+  /// gives the interface its depth on a desktop — a card that rises slightly
+  /// under the cursor and drops back reads as a physical object on a surface
+  /// rather than as a rectangle that happens to be clickable.
+  bool _hovered = false;
+
   void _setPressed(bool pressed) {
     if (Motion.isReduced(context) || widget.onTap == null) return;
     if (pressed) {
@@ -193,6 +201,12 @@ class _PressableSurfaceState extends State<PressableSurface>
     } else {
       _controller.reverse();
     }
+  }
+
+  void _setHovered(bool hovered) {
+    if (widget.onTap == null || _hovered == hovered) return;
+    if (Motion.isReduced(context)) return;
+    setState(() => _hovered = hovered);
   }
 
   @override
@@ -208,23 +222,28 @@ class _PressableSurfaceState extends State<PressableSurface>
       // arena does not resolve until the pointer lifts — so the press response
       // would appear at the moment the press ended, which is worse than not
       // having one. Listener sees pointer events directly and never competes.
-      child: Listener(
-        onPointerDown: enabled ? (_) => _setPressed(true) : null,
-        onPointerUp: enabled ? (_) => _setPressed(false) : null,
-        onPointerCancel: enabled ? (_) => _setPressed(false) : null,
-        child: AnimatedBuilder(
-          animation: _controller,
-          builder: (context, child) => Transform.scale(
-            scale: 1 - (1 - widget.pressedScale) * _controller.value,
-            child: child,
-          ),
-          child: _decorated(
-            Material(
-              type: MaterialType.transparency,
-              child: InkWell(
-                onTap: widget.onTap,
-                borderRadius: widget.borderRadius,
-                child: widget.child,
+      child: MouseRegion(
+        cursor: enabled ? SystemMouseCursors.click : MouseCursor.defer,
+        onEnter: (_) => _setHovered(true),
+        onExit: (_) => _setHovered(false),
+        child: Listener(
+          onPointerDown: enabled ? (_) => _setPressed(true) : null,
+          onPointerUp: enabled ? (_) => _setPressed(false) : null,
+          onPointerCancel: enabled ? (_) => _setPressed(false) : null,
+          child: AnimatedBuilder(
+            animation: _controller,
+            builder: (context, child) => Transform.scale(
+              scale: 1 - (1 - widget.pressedScale) * _controller.value,
+              child: child,
+            ),
+            child: _decorated(
+              Material(
+                type: MaterialType.transparency,
+                child: InkWell(
+                  onTap: widget.onTap,
+                  borderRadius: widget.borderRadius,
+                  child: widget.child,
+                ),
               ),
             ),
           ),
@@ -238,10 +257,32 @@ class _PressableSurfaceState extends State<PressableSurface>
   Widget _decorated(Widget surface) {
     final decoration = widget.decoration;
     if (decoration == null) return surface;
-    return DecoratedBox(
-      decoration: decoration,
-      // Clipped so a splash cannot escape a rounded corner.
-      child: ClipRRect(borderRadius: widget.borderRadius, child: surface),
+    // Under the cursor the surface rises: a couple of pixels of lift and a
+    // deeper shadow, animated rather than switched, so a grid of cards reads
+    // as objects on a table rather than as a printed sheet. Both are dropped
+    // when the reader has asked for reduced motion.
+    return AnimatedSlide(
+      duration: MotionTokens.quick,
+      curve: MotionTokens.standard,
+      offset: _hovered ? const Offset(0, -0.012) : Offset.zero,
+      child: AnimatedContainer(
+        duration: MotionTokens.quick,
+        curve: MotionTokens.standard,
+        decoration: _hovered
+            ? decoration.copyWith(
+                boxShadow: <BoxShadow>[
+                  ...?decoration.boxShadow,
+                  BoxShadow(
+                    color: Colors.black.withValues(alpha: 0.22),
+                    blurRadius: 22,
+                    offset: const Offset(0, 8),
+                  ),
+                ],
+              )
+            : decoration,
+        // Clipped so a splash cannot escape a rounded corner.
+        child: ClipRRect(borderRadius: widget.borderRadius, child: surface),
+      ),
     );
   }
 }

@@ -56,6 +56,43 @@ abstract final class Glass {
     );
   }
 
+  /// The surface that marks the one thing currently selected.
+  ///
+  /// A sweep running from almost nothing to the accent at its trailing edge,
+  /// over a bloom in the same colour, inside a hairline. A flat tint reads as
+  /// a button; a sweep brighter at one end reads as lit, which is what makes
+  /// the current destination look current rather than merely filled.
+  ///
+  /// It lives here because it was written twice. The floating bar had the lit
+  /// sweep and the desktop rail had a flat `secondaryContainer` fill, so the
+  /// same product said "you are here" two different ways depending on the
+  /// width of the window. One decoration, two callers, and no way for them to
+  /// drift again.
+  ///
+  /// The bright end stops short of full strength on purpose: Persian mirrors
+  /// the row, so a label cannot be relied on to fall at the dark end, and a
+  /// label legible only because of where it happens to sit is not legible.
+  /// The bloom outside the shape supplies the brightness the fill gives up.
+  static BoxDecoration active(
+    Color colour, {
+    required BorderRadius radius,
+    double strength = 1,
+  }) => BoxDecoration(
+    borderRadius: radius,
+    gradient: LinearGradient(
+      begin: AlignmentDirectional.centerStart,
+      end: AlignmentDirectional.centerEnd,
+      stops: const <double>[0, 0.8, 1],
+      colors: <Color>[
+        colour.withValues(alpha: 0.16 * strength),
+        colour.withValues(alpha: 0.30 * strength),
+        colour.withValues(alpha: 0.38 * strength),
+      ],
+    ),
+    border: Border.all(color: colour.withValues(alpha: 0.32 * strength)),
+    boxShadow: glow(colour, strength: 0.55 * strength),
+  );
+
   /// A coloured bloom, for something that is live.
   ///
   /// Two shadows rather than one: a tight, brighter core and a wide, faint

@@ -264,43 +264,22 @@ class _NavItem extends StatelessWidget {
                     : FloatingNavBar._idlePadding,
                 vertical: Spacing.md,
               ),
-              // The lit pill from the reference navigation: a sweep that runs
-              // from almost nothing to the accent at its trailing edge, over a
-              // bloom in the same colour and inside a hairline. A flat tint is
-              // a button; a sweep brighter at one end reads as lit, which is
-              // what makes the current destination look current.
-              decoration: BoxDecoration(
-                borderRadius: const BorderRadius.all(
-                  Radius.circular(Radii.pill),
-                ),
-                gradient: selected
-                    ? LinearGradient(
-                        begin: AlignmentDirectional.centerStart,
-                        end: AlignmentDirectional.centerEnd,
-                        // The bright end is the last fifth, past where the
-                        // label ends — in the reference the glow sits beyond
-                        // the words rather than under them. The ceiling is set
-                        // so white clears AA even at the brightest point:
-                        // Persian mirrors the row, so the label does not
-                        // reliably sit on the dark end, and a label legible
-                        // only because of where it happens to fall is not
-                        // legible. The bloom outside the pill supplies the
-                        // brightness the fill gives up.
-                        stops: const <double>[0, 0.8, 1],
-                        colors: <Color>[
-                          active.withValues(alpha: 0.16),
-                          active.withValues(alpha: 0.30),
-                          active.withValues(alpha: 0.38),
-                        ],
-                      )
-                    : null,
-                border: Border.all(
-                  color: selected
-                      ? active.withValues(alpha: 0.32)
-                      : Colors.transparent,
-                ),
-                boxShadow: selected ? Glass.glow(active, strength: 0.55) : null,
-              ),
+              // The lit pill from the reference navigation, declared once in
+              // `Glass.active` so that the desktop rail says "you are here"
+              // the same way this does. It used to be written out here only,
+              // and the rail had a flat fill.
+              decoration: selected
+                  ? Glass.active(
+                      active,
+                      radius: const BorderRadius.all(
+                        Radius.circular(Radii.pill),
+                      ),
+                    )
+                  : const BoxDecoration(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(Radii.pill),
+                      ),
+                    ),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[

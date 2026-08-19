@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/floating_nav_bar.dart';
+import 'package:philosophyy/core/design/color_tokens.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/features/entity/entity_screen.dart';
@@ -417,14 +419,17 @@ class _RailDestinationState extends State<_RailDestination> {
     final selected = widget.selected;
     final reduced = Motion.isReduced(context);
 
-    final background = selected
-        ? scheme.secondaryContainer
-        : _hovered
-        ? scheme.surfaceContainerHigh
-        : Colors.transparent;
-    final foreground = selected
-        ? scheme.onSecondaryContainer
-        : scheme.onSurfaceVariant;
+    // The selected destination is drawn by the same lit surface the floating
+    // bar uses, so the product says "you are here" one way rather than two.
+    const accent = AppColors.ember;
+    const radius = BorderRadius.all(Radius.circular(Radii.lg));
+    final decoration = selected
+        ? Glass.active(accent, radius: radius)
+        : BoxDecoration(
+            color: _hovered ? scheme.surfaceContainerHigh : Colors.transparent,
+            borderRadius: radius,
+          );
+    final foreground = selected ? scheme.onSurface : scheme.onSurfaceVariant;
 
     return Padding(
       padding: const EdgeInsets.symmetric(
@@ -449,10 +454,7 @@ class _RailDestinationState extends State<_RailDestination> {
                 horizontal: widget.extended ? Spacing.md : Spacing.xs,
                 vertical: widget.extended ? Spacing.md : Spacing.sm,
               ),
-              decoration: BoxDecoration(
-                color: background,
-                borderRadius: const BorderRadius.all(Radius.circular(Radii.lg)),
-              ),
+              decoration: decoration,
               // The label is shown at every width, stacked under the icon when
               // the rail is narrow. An icon-only rail asks the reader to learn
               // five glyphs before they can navigate, and the bottom bar this
