@@ -7,6 +7,7 @@ import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/design/typography.dart';
+import 'package:philosophyy/core/format/bidi_text.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/core/search/glossary_matcher.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
@@ -1003,7 +1004,7 @@ class SourceLine extends StatelessWidget {
               ),
               if (detail.isNotEmpty)
                 Text(
-                  detail.join(' · '),
+                  joinIsolated(detail, ' · '),
                   style: AppTypography.citation(language)
                       .copyWith(color: theme.colorScheme.onSurfaceVariant),
                 ),
@@ -1056,7 +1057,7 @@ class CitationList extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.only(bottom: Spacing.xxs),
                 child: Text(
-                  parts.join(' · '),
+                  joinIsolated(parts, ' · '),
                   style: AppTypography.citation(language)
                       .copyWith(color: theme.colorScheme.onSurfaceVariant),
                 ),
@@ -1068,16 +1069,48 @@ class CitationList extends StatelessWidget {
   }
 }
 
+/// Where a quotation comes from, as one line: the text and the place in it.
+///
+/// The speaker is already named beside the badge, so the source's authors are
+/// left out — repeating "Nietzsche" under a line signed "— Nietzsche" says
+/// nothing. What is missing without this is the part a reader can act on: the
+/// title to open and the section to turn to.
+///
+/// Returns `null` when the quotation carries no citation, or names a source
+/// that is not in the corpus, so the caller renders nothing rather than an
+/// empty line.
+String? quoteSourceLabel(
+  Quote quote,
+  Source? Function(String id) resolveSource,
+  AppLanguage language,
+) {
+  final citation = quote.citation;
+  if (citation == null) return null;
+  final source = resolveSource(citation.sourceId);
+  if (source == null) return null;
+  return joinIsolated(<String>[
+    source.title.resolve(language),
+    ?citation.locator,
+  ], ' · ');
+}
+
 /// A pulled-out quotation with its attribution.
 ///
 /// The attribution badge is not optional decoration: it is the reason this
 /// product can show a famous misattributed line at all without becoming part of
 /// the problem.
+///
+/// Neither is the source line under it. Every quotation in the corpus records
+/// the text and the place in it that the words come from, and for a long time
+/// this card displayed none of that — the badge said «تأییدشده» and gave the
+/// reader no way to go and check. A verification a reader cannot repeat is a
+/// claim, not a verification.
 class QuoteCard extends StatelessWidget {
   const QuoteCard({
     required this.quote,
     required this.language,
     required this.speakerName,
+    this.resolveSource,
     this.onTapSpeaker,
     super.key,
   });
@@ -1091,6 +1124,12 @@ class QuoteCard extends StatelessWidget {
   /// The attributed speaker's display name.
   final String speakerName;
 
+  /// Looks up the cited source, so the card can say where the words are from.
+  ///
+  /// Optional only because a caller may have no corpus to hand; every caller
+  /// that has one should pass it.
+  final Source? Function(String id)? resolveSource;
+
   /// Invoked when the reader taps the speaker's name.
   final VoidCallback? onTapSpeaker;
 
@@ -1101,6 +1140,10 @@ class QuoteCard extends StatelessWidget {
     final l10n = AppL10n.of(context);
     final note = quote.attributionNote;
     final actualSource = quote.actualSource;
+    final resolve = resolveSource;
+    final sourceLabel = resolve == null
+        ? null
+        : quoteSourceLabel(quote, resolve, language);
 
     return Container(
       clipBehavior: Clip.antiAlias,
@@ -1177,6 +1220,38 @@ class QuoteCard extends StatelessWidget {
                     ),
                   ],
                 ),
+                if (sourceLabel != null) ...<Widget>[
+                  const SizedBox(height: Spacing.sm),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.only(top: 2),
+                        child: Icon(
+                          Icons.menu_book_outlined,
+                          size: 14,
+                          color: semantic.onQuoteSurface.withValues(
+                            alpha: 0.72,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: Spacing.xs),
+                      Expanded(
+                        child: Text(
+                          sourceLabel,
+                          // Full strength, not a faded one. Dimming this to
+                          // 0.82 put it at 4.41:1 on the dark quote surface —
+                          // under the 4.5:1 floor, and caught by the painted
+                          // contrast sweep. The smaller citation face is what
+                          // sets this line apart from the note; the colour
+                          // does not have to.
+                          style: AppTypography.citation(language)
+                              .copyWith(color: semantic.onQuoteSurface),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
                 if (quote.needsCaveat) ...<Widget>[
                   const SizedBox(height: Spacing.md),
                   Text(

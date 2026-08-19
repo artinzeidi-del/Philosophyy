@@ -1636,14 +1636,14 @@
     {
       "id": "berkeley-esse",
       "text": {
-        "en": "Their being is to be perceived, nor is it possible they should have any existence out of the minds which perceive them.",
-        "fa": "بودنِ آن‌ها ادراک‌شدن است، و ممکن نیست بیرون از ذهن‌هایی که ادراکشان می‌کنند هستی‌ای داشته باشند."
+        "en": "Their esse is percipi, nor is it possible they should have any existence out of the minds or thinking things which perceive them.",
+        "fa": "بودنِ آن‌ها ادراک‌شدن است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
       },
       "speaker": "berkeley",
       "attribution": "verified",
       "attributionNote": {
-        "en": "The Latin tag esse is percipi comes from this passage.",
-        "fa": "آن عبارت لاتین esse is percipi از همین بند می‌آید."
+        "en": "Berkeley's own words: two Latin terms inside an English sentence. The Latin tag he is remembered by, esse est percipi, is a later compression of it.",
+        "fa": "این جملهٔ خودِ برکلی است: دو واژهٔ لاتین در میان جمله‌ای انگلیسی. آن عبارت لاتین که نامش با آن به یاد می‌ماند، esse est percipi، فشرده‌شدهٔ بعدی همین جمله است."
       },
       "citation": { "source": "text-berkeley-principles", "locator": "§3" }
     },

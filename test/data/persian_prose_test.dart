@@ -133,10 +133,19 @@ void main() {
       //
       // Written after «برauwer» — Brouwer's name, half typed and half not —
       // shipped in an article and was found by grep rather than by the suite.
+      //
+      // Matched by script rather than by code-point range. The Arabic block
+      // also holds the punctuation Persian shares with every other language
+      // written in that script \u2014 \u00AB\u060C\u00BB \u00AB\u061B\u00BB \u00AB\u061F\u00BB \u2014 so a range spanning the block
+      // reported `percipi\u060C` as a word in two scripts. That is a Latin word
+      // followed by a Persian comma, which is what a Latin word at the end of
+      // a Persian clause is supposed to look like. Twice this was worked
+      // around by rewriting the prose; the fault was here.
       final offences = <String>[
         for (final entry in strings)
           for (final match in RegExp(
-            r'[\u0600-\u06FF]+[A-Za-z]+|[A-Za-z]+[\u0600-\u06FF]+',
+            r'\p{Script=Arabic}+[A-Za-z]+|[A-Za-z]+\p{Script=Arabic}+',
+            unicode: true,
           ).allMatches(entry.text))
             '${entry.file} ${entry.path}: "${match.group(0)}"',
       ];

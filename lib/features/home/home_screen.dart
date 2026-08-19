@@ -235,6 +235,7 @@ class _HomeBody extends StatelessWidget {
                           ?.name
                           .resolve(language) ??
                       quote.speakerId,
+                  sourceLabel: quoteSourceLabel(quote, corpus.source, language),
                   onTap: () => context.push(quote.speakerRef.route),
                 ),
               ),
@@ -442,6 +443,7 @@ class _DailyQuoteHero extends StatelessWidget {
     required this.language,
     required this.label,
     required this.speakerName,
+    required this.sourceLabel,
     required this.onTap,
   });
 
@@ -449,6 +451,11 @@ class _DailyQuoteHero extends StatelessWidget {
   final AppLanguage language;
   final String label;
   final String speakerName;
+
+  /// The text and place the words come from, or `null` when the quotation
+  /// carries no citation.
+  final String? sourceLabel;
+
   final VoidCallback onTap;
 
   @override
@@ -532,6 +539,17 @@ class _DailyQuoteHero extends StatelessWidget {
                     ),
                   ],
                 ),
+                // The source, under the name. A quotation on the front page
+                // with no way to trace it is the shape of the problem this
+                // product exists to avoid.
+                if (sourceLabel != null) ...<Widget>[
+                  const SizedBox(height: Spacing.xs),
+                  Text(
+                    sourceLabel!,
+                    style: AppTypography.citation(language)
+                        .copyWith(color: AppGradients.onGradientMuted),
+                  ),
+                ],
               ],
             ),
           ),

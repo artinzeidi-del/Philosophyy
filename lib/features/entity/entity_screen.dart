@@ -12,6 +12,7 @@ import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/design/typography.dart';
+import 'package:philosophyy/core/format/bidi_text.dart';
 import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/core/search/text_normalizer.dart';
@@ -495,6 +496,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                 quote: quote,
                 language: language,
                 speakerName: philosopher.name.resolve(language),
+                resolveSource: corpus.source,
               ),
           ],
         ),
@@ -562,10 +564,13 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        <String?>[
-                          division.title.resolve(language),
-                          division.locator,
-                        ].whereType<String>().join(' · '),
+                        joinIsolated(
+                          <String?>[
+                            division.title.resolve(language),
+                            division.locator,
+                          ].whereType<String>(),
+                          ' · ',
+                        ),
                         style: Theme.of(context).textTheme.titleSmall,
                       ),
                       if (division.summary != null) ...<Widget>[

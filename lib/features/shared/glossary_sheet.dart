@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/typography.dart';
+import 'package:philosophyy/core/format/bidi_text.dart';
 import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
@@ -71,10 +72,10 @@ class _GlossarySheet extends StatelessWidget {
               if (native != null) ...<Widget>[
                 const SizedBox(height: Spacing.xxs),
                 Text(
-                  <String?>[
-                    native,
-                    term.transliteration,
-                  ].whereType<String>().join(' · '),
+                  joinIsolated(
+                    <String?>[native, term.transliteration].whereType<String>(),
+                    ' · ',
+                  ),
                   style: theme.textTheme.titleSmall?.copyWith(
                     color: theme.colorScheme.onSurfaceVariant,
                   ),
