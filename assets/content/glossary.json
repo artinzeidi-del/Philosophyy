@@ -36,6 +36,10 @@
         "en": "The part of metaphysics that asks what kinds of thing exist.",
         "fa": "آن بخش از مابعدالطبیعه که می‌پرسد چه نوع چیزهایی هستند."
       },
+      "long": {
+        "en": "Metaphysics asks what reality is like; ontology asks the narrower question of what there is. An ontology is a list of the kinds of thing a theory is committed to — particles, or numbers, or obligations — and much of the argument is about what can be struck off the list without losing the ability to say what needs saying.",
+        "fa": "مابعدالطبیعه می‌پرسد واقعیت چگونه است؛ هستی‌شناسی پرسش باریک‌تری دارد: چه چیزهایی هست. یک هستی‌شناسی فهرستی است از گونه‌هایی که یک نظریه به آن‌ها پایبند است — ذره‌ها، یا عددها، یا تکلیف‌ها — و بخش بزرگی از بحث بر سر این است که چه چیزی را می‌توان از فهرست خط زد بی‌آنکه توان گفتن آنچه باید گفته شود از دست برود."
+      },
       "aliases": ["ontological", "هستی‌شناختی"],
       "citations": [{ "source": "sep" }]
     },
@@ -88,6 +92,10 @@
         "en": "What a thing must be in order to be that thing at all.",
         "fa": "آنچه یک چیز باید باشد تا اصلاً همان چیز باشد."
       },
+      "long": {
+        "en": "The old contrast is with accident: a triangle must have three sides, and may be drawn in red. What is disputed is whether essences belong to things or to the words we sort them with. Locke separated the real essence, whatever actually makes gold gold, from the nominal one we use to pick it out, and much of modern metaphysics is a quarrel over whether the first exists.",
+        "fa": "تقابل کهن آن با «عرض» است: مثلث ناچار سه ضلع دارد، و ممکن است سرخ کشیده شده باشد. آنچه محل نزاع است این است که ذات از آنِ خود چیزهاست یا از آنِ واژه‌هایی که با آن‌ها دسته‌بندی‌شان می‌کنیم. لاک ذات واقعی را، یعنی هرچه واقعاً طلا را طلا می‌کند، از ذات اسمی‌ای که برای بازشناختنش به کار می‌بریم جدا کرد، و بخش بزرگی از متافیزیک جدید دعوا بر سر وجودِ اولی است."
+      },
       "aliases": ["essential", "essences", "ماهوی"],
       "concept": "essence-existence-distinction",
       "citations": [{ "source": "sep" }]
@@ -113,6 +121,10 @@
         "en": "Describing experience as it is lived, before explaining it.",
         "fa": "وصف تجربه چنان‌که زیسته می‌شود، پیش از تبیین آن."
       },
+      "long": {
+        "en": "The instruction is to describe rather than explain: not what causes the experience of a melody, but what the experience is like while it runs — that it has a past still sounding in it and a next note already expected. Husserl made it a method, Heidegger turned it on everyday practical life, and Merleau-Ponty on the body.",
+        "fa": "دستور کار، توصیف است نه تبیین: نه اینکه چه چیزی تجربهٔ یک ملودی را پدید می‌آورد، بلکه اینکه آن تجربه در حین جریانش چگونه است — اینکه گذشته‌ای هنوز در آن می‌نوازد و نتی بعدی از پیش انتظار می‌رود. هوسرل آن را روش کرد، هایدگر آن را به زندگی عملی روزمره برد، و مرلوپونتی به تن."
+      },
       "aliases": ["phenomenological", "پدیدارشناختی"],
       "citations": [{ "source": "sep" }]
     },
@@ -122,6 +134,10 @@
       "short": {
         "en": "The study of interpretation — how understanding a text or a period works.",
         "fa": "بررسی تفسیر — اینکه فهمِ یک متن یا یک دوره چگونه کار می‌کند."
+      },
+      "long": {
+        "en": "It began as the craft of reading scripture and law, and became a general account of understanding. Its central puzzle is the circle: a sentence is understood through the whole text and the whole text through its sentences. Gadamer argued this is not a fault to be escaped but the shape understanding has, and that a reader's own situation is what makes reading possible rather than what spoils it.",
+        "fa": "از فنّ خواندن متن مقدس و قانون آغاز شد و به شرحی عام از فهمیدن بدل شد. معمای مرکزی‌اش آن دور است: یک جمله از راه کل متن فهمیده می‌شود و کل متن از راه جمله‌هایش. گادامر می‌گفت این عیبی نیست که باید از آن گریخت بلکه شکلی است که فهم دارد، و موقعیت خود خواننده همان است که خواندن را ممکن می‌کند نه آنکه خرابش کند."
       },
       "aliases": ["hermeneutic", "هرمنوتیکی"],
       "citations": [{ "source": "sep" }]
@@ -133,6 +149,10 @@
         "en": "The view that everything in the mind got there through the senses.",
         "fa": "این دیدگاه که هرچه در ذهن هست از راه حواس آمده."
       },
+      "long": {
+        "en": "The slogan is that the mind starts empty, and the work is in the exceptions. Locke allowed reflection on the mind's own operations as a second source; Hume used the rule as a weapon, asking of each idea which impression it came from, and reported that causation and the self do not pass. Its modern form is about evidence rather than about the furniture of the mind.",
+        "fa": "شعارش این است که ذهن تهی آغاز می‌کند، و کار اصلی در استثناهاست. لاک تأمل بر کارکردهای خود ذهن را سرچشمه‌ای دوم پذیرفت؛ هیوم همین قاعده را سلاح کرد و از هر ایده‌ای پرسید از کدام انطباع آمده، و گزارش داد که علیت و خویشتن از این آزمون رد نمی‌شوند. صورت امروزی‌اش دربارهٔ شواهد است نه دربارهٔ اثاث ذهن."
+      },
       "aliases": ["empiricist", "empirical", "تجربه‌گرا", "تجربی"],
       "citations": [{ "source": "sep" }]
     },
@@ -142,6 +162,10 @@
       "short": {
         "en": "The view that some substantive knowledge is available to reason alone.",
         "fa": "این دیدگاه که بخشی از معرفت واقعی تنها با خرد به دست می‌آید."
+      },
+      "long": {
+        "en": "Not the claim that reason matters — everyone grants that — but that reason alone delivers substantive truths about the world, not merely about the meanings of words. Mathematics is the standing example, and the disagreement is over how far the same certainty reaches: to substance and God for Descartes and Spinoza, nowhere beyond possible experience for Kant.",
+        "fa": "این ادعا نیست که خرد مهم است — همه می‌پذیرند — بلکه این است که خرد به‌تنهایی حقیقت‌هایی دربارهٔ جهان به دست می‌دهد، نه صرفاً دربارهٔ معنای واژه‌ها. ریاضیات نمونهٔ همیشگی است، و اختلاف بر سر آن است که همین یقین تا کجا می‌رسد: تا جوهر و خدا نزد دکارت و اسپینوزا، و نزد کانت تا هیچ‌جای بیرون از تجربهٔ ممکن."
       },
       "aliases": ["rationalist", "خردگرا"],
       "citations": [{ "source": "sep" }]
@@ -167,6 +191,10 @@
         "en": "The view that everything that exists is physical.",
         "fa": "این دیدگاه که هرچه هست فیزیکی است."
       },
+      "long": {
+        "en": "The modern form is usually called physicalism, and the change of name matters: what counts as physical is whatever physics ends up recognising, which may include fields and probabilities rather than little lumps. The pressure on it comes from consciousness — whether a complete physical description of a person would leave anything out — and from numbers, which are hard to locate anywhere.",
+        "fa": "صورت امروزی‌اش را معمولاً فیزیکالیسم می‌نامند، و همین تغییر نام مهم است: فیزیکی همان است که فیزیک سرانجام به رسمیت بشناسد، که ممکن است میدان و احتمال باشد نه تکه‌های کوچک ماده. فشار بر آن از سوی آگاهی می‌آید — اینکه آیا توصیف فیزیکی کاملِ یک آدم چیزی را جا می‌گذارد یا نه — و از سوی عددها، که یافتن جایی برایشان دشوار است."
+      },
       "aliases": ["materialist", "physicalism", "مادی‌گرایی", "ماده‌گرا"],
       "citations": [{ "source": "sep" }]
     },
@@ -176,6 +204,10 @@
       "short": {
         "en": "The view that mind and body are two different kinds of thing.",
         "fa": "این دیدگاه که ذهن و بدن دو نوع چیزِ متفاوت‌اند."
+      },
+      "long": {
+        "en": "Descartes' version makes mind and body two substances, and inherits the question Elisabeth of Bohemia put to him: how something with no location moves an arm. Softer versions keep one substance and two kinds of property. What keeps the position alive is not religion but the difficulty of saying what a physical account of pain would have to include.",
+        "fa": "روایت دکارت ذهن و تن را دو جوهر می‌کند، و همان پرسشی را به ارث می‌برد که الیزابت بوهم پیش او گذاشت: چیزی که جا ندارد چگونه بازویی را حرکت می‌دهد. روایت‌های ملایم‌تر یک جوهر و دو گونه صفت را نگه می‌دارند. آنچه این موضع را زنده نگه می‌دارد دین نیست، بلکه دشواری گفتنِ این است که یک شرح فیزیکی از درد باید شامل چه باشد."
       },
       "aliases": ["dualist", "دوگانه‌انگار"],
       "citations": [{ "source": "sep" }]
@@ -187,6 +219,10 @@
         "en": "The view that everything that happens was fixed by what came before.",
         "fa": "این دیدگاه که هرچه رخ می‌دهد با آنچه پیش‌تر بوده معین شده است."
       },
+      "long": {
+        "en": "It is a claim about the world, not about fatalism: that the state of things at one moment plus the laws fixes the next. Whether it rules out free will is a separate question, and compatibilists answer no — acting freely means acting from one's own reasons without compulsion, which a determined world allows. Indeterminism does not obviously help, since a random act is not a chosen one.",
+        "fa": "ادعایی است دربارهٔ جهان، نه جبرگرایی به معنای تسلیم: اینکه وضع چیزها در یک لحظه به‌علاوهٔ قوانین، لحظهٔ بعد را تعیین می‌کند. اینکه این، ارادهٔ آزاد را باطل می‌کند یا نه پرسشی جداست، و سازگارگرایان پاسخ منفی می‌دهند — آزادانه عمل‌کردن یعنی از روی دلایل خود و بی اجبار عمل‌کردن، که جهانی معیّن‌شده اجازه‌اش را می‌دهد. نامعیّنی هم آشکارا کمکی نمی‌کند، چون کار تصادفی، کارِ برگزیده نیست."
+      },
       "aliases": ["determinist", "deterministic", "جبرگرا", "جبری"],
       "citations": [{ "source": "sep" }]
     },
@@ -196,6 +232,10 @@
       "short": {
         "en": "About what ought to be, rather than about what is.",
         "fa": "دربارهٔ آنچه باید باشد، نه آنچه هست."
+      },
+      "long": {
+        "en": "The contrast is with descriptive. A normative claim says what ought to be done, or what would be good, or what a person has reason to do; a descriptive one reports how things stand. Hume's point that the second never entails the first without a further premise is what makes the distinction worth keeping, and much bad argument consists of sliding across it unannounced.",
+        "fa": "تقابلش با توصیفی است. گزارهٔ هنجاری می‌گوید چه باید کرد، یا چه چیزی خوب است، یا آدمی چه دلیلی برای کاری دارد؛ گزارهٔ توصیفی گزارش می‌کند اوضاع چگونه است. نکتهٔ هیوم که دومی بی یک مقدمهٔ افزوده هرگز اولی را نتیجه نمی‌دهد، همان است که نگه‌داشتن این تمایز را ارزشمند می‌کند، و بسیاری از استدلال‌های بد چیزی جز لغزیدن بی‌اعلام از این مرز نیست."
       },
       "aliases": ["norm", "norms", "هنجار", "هنجارها"],
       "citations": [{ "source": "sep" }]
@@ -207,6 +247,10 @@
         "en": "Judging an act only by its results.",
         "fa": "داوری دربارهٔ یک کار تنها بر پایهٔ نتایجش."
       },
+      "long": {
+        "en": "Everything turns on which results count and to whom. Classical utilitarianism counts pleasure and pain, everyone's equally; later versions count preferences satisfied, or capabilities available. The standing objections are that it can license terrible acts when the sums work out, and that it asks more of a person than anyone can give, since there is always more good to be done somewhere.",
+        "fa": "همه‌چیز به این بستگی دارد که کدام نتیجه‌ها و برای چه کسانی به حساب می‌آیند. سودگرایی کلاسیک لذت و رنج را می‌شمارد، و همه را به یک اندازه؛ روایت‌های بعدی ترجیح‌های برآورده‌شده یا قابلیت‌های در دسترس را. اشکال‌های همیشگی این است که وقتی جمع‌وتفریق جور در بیاید می‌تواند کارهای هولناک را مجاز کند، و اینکه از آدمی بیش از توانش می‌خواهد، چون همیشه جایی خیر بیشتری هست که بتوان کرد."
+      },
       "aliases": ["consequentialist", "پیامدگرا"],
       "citations": [{ "source": "sep" }]
     },
@@ -217,6 +261,10 @@
         "en": "Judging an act by whether it conforms to a duty, whatever the results.",
         "fa": "داوری دربارهٔ یک کار بر پایهٔ سازگاری‌اش با یک تکلیف، هر نتیجه‌ای که داشته باشد."
       },
+      "long": {
+        "en": "Some acts are forbidden however good the outcome, and some required however costly. Kant grounds this in what a rational will can consistently intend; others in rights, which mark off what may not be done to a person for the sake of a total. The hard case is the one where keeping the rule produces a disaster, and the honest versions of the position say so.",
+        "fa": "برخی کارها هر اندازه هم نتیجه خوب باشد ممنوع‌اند، و برخی هر اندازه هم پرهزینه باشد واجب. کانت این را در آنچه یک ارادهٔ خردمند می‌تواند بی‌تناقض بخواهد ریشه می‌دهد؛ دیگران در حقوق، که مرزِ آنچه نباید به بهانهٔ یک جمع بر سر کسی آورد را مشخص می‌کند. مورد دشوار همان است که نگه‌داشتن قاعده به فاجعه می‌انجامد، و روایت‌های صادق این موضع خودشان این را می‌گویند."
+      },
       "aliases": ["deontological", "وظیفه‌گرا"],
       "citations": [{ "source": "sep" }]
     },
@@ -226,6 +274,10 @@
       "short": {
         "en": "Asking what kind of person to be rather than which act to do.",
         "fa": "پرسیدنِ اینکه چه کسی باید بود، نه اینکه چه کاری باید کرد."
+      },
+      "long": {
+        "en": "The question moves from the act to the agent, and from rules to character formed by habit. Aristotle is the source, and Anscombe revived it in 1958 by arguing that duty and obligation are leftovers of a law conception of ethics with no lawgiver left. The standing complaint is that it gives less guidance than a rule does; the reply is that no rule ever gave as much as it promised.",
+        "fa": "پرسش از کار به کننده جابه‌جا می‌شود، و از قاعده به منشی که با عادت شکل گرفته است. سرچشمه‌اش ارسطوست، و انسکوم در ۱۹۵۸ با این استدلال زنده‌اش کرد که تکلیف و الزام ته‌ماندهٔ برداشتی قانونی از اخلاق‌اند که دیگر قانون‌گذاری ندارد. گلایهٔ همیشگی این است که کمتر از یک قاعده راهنمایی می‌دهد؛ پاسخ این است که هیچ قاعده‌ای هرگز آن‌قدر که وعده می‌داد راهنمایی نکرد."
       },
       "aliases": ["virtue", "فضیلت"],
       "citations": [{ "source": "sep" }]
@@ -238,6 +290,10 @@
       "short": {
         "en": "Socrates' method: testing a claim until its holder contradicts themselves.",
         "fa": "روش سقراط: آزمودن یک ادعا تا آنجا که صاحبش خود را نقض کند."
+      },
+      "long": {
+        "en": "The pattern is fixed: a definition is offered, further claims are agreed to, and the two turn out to conflict. What it establishes is narrow — that this person's beliefs cannot all be true — and Socrates does not conclude that his own answer is right, because he says he has none. Whether the method can ever build rather than only clear is the oldest question about it.",
+        "fa": "الگویش ثابت است: تعریفی عرضه می‌شود، ادعاهایی دیگر پذیرفته می‌شود، و بعد معلوم می‌شود این دو با هم نمی‌خوانند. آنچه اثبات می‌کند باریک است — اینکه باورهای این شخص نمی‌توانند همه درست باشند — و سقراط نتیجه نمی‌گیرد که پاسخ خودش درست است، چون می‌گوید پاسخی ندارد. اینکه این روش می‌تواند بسازد یا فقط پاک می‌کند، کهن‌ترین پرسش دربارهٔ آن است."
       },
       "aliases": ["elenctic"],
       "concept": "socratic-method",
@@ -279,6 +335,10 @@
         "en": "The medieval method of arguing by stating objections first, then answering.",
         "fa": "روش قرون‌وسطایی استدلال: نخست گفتنِ اعتراض‌ها، سپس پاسخ‌دادن."
       },
+      "long": {
+        "en": "The word is often used as an insult and names a real discipline: state the question, list the strongest objections, quote an authority for the other side, decide, then answer each objection in turn. It forces a writer to put the case against themselves in its best form, which is why Aquinas' objections are sometimes quoted against him.",
+        "fa": "این واژه اغلب دشنام به کار می‌رود و در واقع نام یک انضباط واقعی است: پرسش را بگذار، قوی‌ترین اشکال‌ها را بشمار، از طرف مقابل نقلی بیاور، داوری کن، و بعد یکایک اشکال‌ها را پاسخ بده. این کار نویسنده را وامی‌دارد پروندهٔ علیه خودش را در بهترین صورتش بنویسد، و برای همین است که گاهی اشکال‌های آکویناس را علیه خودش نقل می‌کنند."
+      },
       "aliases": ["scholastic", "مدرسی"],
       "citations": [{ "source": "sep" }]
     },
@@ -288,6 +348,10 @@
       "short": {
         "en": "Close reading of a text to establish what it says.",
         "fa": "خوانش دقیق یک متن برای تعیین اینکه چه می‌گوید."
+      },
+      "long": {
+        "en": "The aim is what the text says, as against what one would like it to say — which is why the discipline has always been paired with rules for reading: the plain sense first, figurative readings only where the plain one fails, and a passage read against the whole work before it is read alone. Every tradition with a canon has developed a version of it.",
+        "fa": "هدف این است که متن چه می‌گوید، در برابر آنچه آدمی دوست دارد بگوید — و برای همین این رشته همیشه با قاعده‌هایی برای خواندن همراه بوده است: نخست معنای ظاهر، خوانش مجازی تنها آنجا که ظاهر از کار بیفتد، و خواندن یک بند در برابر کل اثر پیش از خواندنش به‌تنهایی. هر سنتی که متنی معتبر دارد، روایتی از این را ساخته است."
       },
       "aliases": ["exegetical"],
       "citations": [{ "source": "sep" }]
@@ -313,6 +377,10 @@
         "en": "The study of art, beauty and what it is to find something beautiful.",
         "fa": "بررسی هنر و زیبایی و اینکه زیبا‌یافتنِ چیزی یعنی چه."
       },
+      "long": {
+        "en": "Two questions run through it. What makes something a work of art — a question that got harder once a urinal was exhibited — and what a judgement of beauty is, given that it feels like reporting a property and behaves like expressing a response. Kant's answer, that such judgements claim agreement without being able to prove it, is still the frame most arguments use.",
+        "fa": "دو پرسش در آن جاری است. اینکه چه چیزی یک چیز را اثر هنری می‌کند — پرسشی که پس از به‌نمایش‌درآمدن یک ادرارگاه سخت‌تر شد — و اینکه داوری زیبایی چیست، حال آنکه هم به گزارشِ یک ویژگی می‌ماند و هم مانند بیان یک واکنش رفتار می‌کند. پاسخ کانت، که چنین داوری‌هایی هم‌رأیی را طلب می‌کنند بی‌آنکه بتوانند اثباتش کنند، هنوز چارچوب بیشتر بحث‌هاست."
+      },
       "aliases": ["aesthetic", "زیبایی‌شناختی"],
       "citations": [{ "source": "sep" }]
     },
@@ -324,6 +392,10 @@
       "short": {
         "en": "Mind or intellect, as a principle in the world rather than only in a head.",
         "fa": "ذهن یا عقل، همچون اصلی در جهان و نه فقط در یک سر."
+      },
+      "long": {
+        "en": "In Anaxagoras it is what sets the cosmos in order; in Aristotle it is the part of the soul that grasps first principles, which cannot themselves be proved without circularity; in Plotinus it is the level of reality below the One, where thought and its object are not yet separate. Translating it as 'mind' loses that it was never only a human faculty.",
+        "fa": "نزد آناکساگوراس آن چیزی است که کیهان را سامان می‌دهد؛ نزد ارسطو بخشی از نفس است که اصول نخستین را درمی‌یابد، اصولی که خودشان بی دور اثبات نمی‌شوند؛ نزد فلوطین مرتبه‌ای از واقعیت است زیر احد، جایی که اندیشه و متعلَّقش هنوز از هم جدا نشده‌اند. ترجمهٔ آن به «ذهن» این را از دست می‌دهد که هرگز فقط قوه‌ای انسانی نبوده است."
       },
       "aliases": ["intellect"],
       "citations": [{ "source": "sep" }]
@@ -337,6 +409,10 @@
         "en": "Word, reason, or the ordering principle of the world — depending on the author.",
         "fa": "کلمه، خرد، یا اصلِ سامان‌بخشِ جهان — بسته به اینکه چه کسی می‌گوید."
       },
+      "long": {
+        "en": "Heraclitus uses it for the pattern the world runs on, which most people live by and do not notice; the Stoics for the rational order identical with nature and with god; the opening of John's gospel for something that was with God and was God. The same word also means an account, a ratio and a speech, and translators have to choose.",
+        "fa": "هراکلیتوس آن را برای نظمی به کار می‌برد که جهان بر آن می‌گردد و بیشتر مردم با آن زندگی می‌کنند و متوجهش نیستند؛ رواقیان برای نظم خردمندی که با طبیعت و با خدا یکی است؛ آغاز انجیل یوحنا برای چیزی که نزد خدا بود و خدا بود. همین واژه معنای شرح و نسبت و سخن هم می‌دهد، و مترجم ناچار است یکی را برگزیند."
+      },
       "citations": [{ "source": "sep" }]
     },
     {
@@ -347,6 +423,10 @@
       "short": {
         "en": "Action, and the claim that action has consequences that outlast it.",
         "fa": "کنش، و این ادعا که کنش پیامدهایی دارد که از خودش دیرپاترند."
+      },
+      "long": {
+        "en": "The word means action, and the doctrine is that action leaves a residue which conditions what comes later. Traditions differ sharply on the mechanism: Buddhists tie it to intention and deny a self for it to attach to, Jains treat it as a fine material that adheres, and several Hindu schools make it the ground of a moral order the universe enforces without anyone judging.",
+        "fa": "این واژه یعنی کنش، و آموزه این است که کنش ته‌مانده‌ای بر جا می‌گذارد که آنچه بعد می‌آید را مشروط می‌کند. سنت‌ها بر سر سازوکارش به‌شدت اختلاف دارند: بودایی‌ها آن را به نیت گره می‌زنند و خویشتنی را که به آن بچسبد انکار می‌کنند، جین‌ها آن را ماده‌ای لطیف می‌دانند که می‌چسبد، و چند مکتب هندو آن را بنیاد نظمی اخلاقی می‌کنند که جهان بی‌آنکه کسی داوری کند اجرایش می‌کند."
       },
       "aliases": ["کرمه"],
       "citations": [{ "source": "sep" }]
@@ -376,6 +456,10 @@
         "en": "Reasoning from a known case to a new one that resembles it.",
         "fa": "استدلال از موردی شناخته به موردی نو که به آن می‌ماند."
       },
+      "long": {
+        "en": "In Islamic legal reasoning the analogy is disciplined: the jurist must identify the feature of the original case that the ruling actually turned on, and show the new case shares it. Wine is forbidden because it intoxicates, so the ruling extends to whatever else does. Schools disagree over how far it may be pushed, and some reject it in favour of stricter textual grounds.",
+        "fa": "در استدلال فقهی اسلامی، قیاس منضبط است: فقیه باید ویژگی‌ای از مورد اصلی را که حکم واقعاً بر آن سوار بوده بازشناسد و نشان دهد مورد تازه هم آن را دارد. شراب از آن رو حرام است که مست می‌کند، پس حکم به هر چیز دیگری که چنین کند گسترش می‌یابد. مکتب‌ها بر سر اینکه تا کجا می‌توان پیش رفت اختلاف دارند، و برخی آن را به سود مبانی متنیِ سخت‌گیرانه‌تر نمی‌پذیرند."
+      },
       "citations": [{ "source": "sep" }]
     },
     {
@@ -387,6 +471,10 @@
         "en": "Working out an answer by reasoning rather than by following an authority.",
         "fa": "به‌دست‌آوردن پاسخ با استدلال، نه با پیرویِ از مرجع."
       },
+      "long": {
+        "en": "The contrast is with taqlid, following a qualified authority. A jurist exercising ijtihad reasons from the sources to a ruling nobody has handed down. Whether the door to it closed after the early centuries is one of the long arguments of Islamic legal history; reformers from the nineteenth century onward have insisted it never did.",
+        "fa": "تقابلش با تقلید است، یعنی پیروی از مرجعی صاحب صلاحیت. فقیهی که اجتهاد می‌کند از منابع به حکمی می‌رسد که کسی به او نداده است. اینکه باب اجتهاد پس از سده‌های نخستین بسته شد یا نه، یکی از بحث‌های دراز تاریخ فقه اسلامی است؛ اصلاح‌طلبان از سدهٔ نوزدهم به این سو پافشاری کرده‌اند که هرگز بسته نشد."
+      },
       "citations": [{ "source": "sep" }]
     },
     {
@@ -395,6 +483,10 @@
       "short": {
         "en": "Saying what God is not, because no positive description would be accurate.",
         "fa": "گفتنِ آنچه خدا نیست، چون هیچ وصف ایجابی دقیق نخواهد بود."
+      },
+      "long": {
+        "en": "The reasoning is that any positive predicate makes God one thing among others and therefore composite. What remains is denial: not that God is powerful, but that God is not powerless. Maimonides presses it hardest, Pseudo-Dionysius gives it to the Greek tradition, and the standing objection is whether a term emptied that thoroughly can still support worship.",
+        "fa": "استدلال این است که هر محمول مثبتی خدا را یک چیز در میان چیزها و پس مرکب می‌کند. آنچه می‌ماند نفی است: نه اینکه خدا تواناست، بلکه اینکه خدا ناتوان نیست. ابن‌میمون بیش از همه بر آن فشار می‌آورد، دیونیسیوس مجعول آن را به سنت یونانی می‌سپارد، و اشکال همیشگی این است که آیا واژه‌ای که تا این حد تهی شود هنوز می‌تواند پرستش را نگه دارد."
       },
       "aliases": ["apophasis", "via negativa"],
       "concept": "negative-theology",
@@ -406,6 +498,10 @@
       "short": {
         "en": "The felt quality of an experience — what red looks like from inside.",
         "fa": "کیفیتِ احساس‌شدهٔ یک تجربه — اینکه قرمز از درون چگونه است."
+      },
+      "long": {
+        "en": "The word names the part of experience a complete physical story seems to leave out. Two thought experiments carry the argument: a scientist who knows every physical fact about colour but has never seen red, and a creature physically identical to you with no inner life at all. Both are contested, and both are still doing work.",
+        "fa": "این واژه بخشی از تجربه را نام می‌برد که یک روایت کاملِ فیزیکی به نظر می‌رسد جا می‌گذارد. دو آزمایش ذهنی این استدلال را می‌برند: دانشمندی که هر واقعیت فیزیکی دربارهٔ رنگ را می‌داند و هرگز سرخ ندیده، و موجودی که از نظر فیزیکی همانند توست و هیچ زندگی درونی ندارد. هر دو محل نزاع‌اند و هر دو هنوز کار می‌کنند."
       },
       "aliases": ["quale"],
       "citations": [{ "source": "sep" }]
@@ -431,6 +527,10 @@
         "en": "One level of facts fixed entirely by another, without reducing to it.",
         "fa": "سطحی از واقعیت‌ها که سطحی دیگر کاملاً معینش می‌کند، بی‌آنکه به آن فروکاسته شود."
       },
+      "long": {
+        "en": "The relation holds when there can be no difference of one kind without a difference of another: no two situations identical in every physical respect could differ morally, or mentally. It was introduced to let philosophers say that the mental depends on the physical without saying it reduces to it, and the question is whether that middle position is stable.",
+        "fa": "این نسبت وقتی برقرار است که هیچ تفاوتی از یک نوع بی تفاوتی از نوع دیگر ممکن نباشد: دو وضعیت که از هر جهت فیزیکی یکسان‌اند نمی‌توانند از نظر اخلاقی یا ذهنی فرق کنند. این مفهوم آمد تا فیلسوفان بتوانند بگویند امر ذهنی به امر فیزیکی وابسته است بی‌آنکه بگویند به آن فرو کاسته می‌شود، و پرسش این است که آیا این موضع میانی پایدار می‌ماند."
+      },
       "aliases": ["supervenes"],
       "citations": [{ "source": "sep" }]
     },
@@ -441,6 +541,10 @@
         "en": "Explaining one level of description entirely in terms of a lower one.",
         "fa": "توضیح‌دادن کاملِ یک سطح از توصیف با سطحی پایین‌تر."
       },
+      "long": {
+        "en": "Sometimes it works: chemistry did reduce to physics in the sense that bonds are explained by electrons. The dispute is over whether biology, mind and society go the same way, or whether their regularities are real and would be lost in the translation. Anti-reductionists usually grant that nothing extra exists and deny that the lower description says everything.",
+        "fa": "گاهی جواب می‌دهد: شیمی به این معنا به فیزیک فرو کاسته شد که پیوندها با الکترون‌ها توضیح داده می‌شوند. نزاع بر سر آن است که آیا زیست‌شناسی و ذهن و جامعه هم همان راه را می‌روند، یا قاعده‌مندی‌هایشان واقعی‌اند و در ترجمه از دست می‌روند. ضدفروکاست‌گرایان معمولاً می‌پذیرند که چیز افزوده‌ای وجود ندارد و انکار می‌کنند که توصیف پایین‌تر همه‌چیز را بگوید."
+      },
       "aliases": ["reductionist", "reduce", "فروکاست‌گرا"],
       "citations": [{ "source": "sep" }]
     },
@@ -450,6 +554,10 @@
       "short": {
         "en": "Rule that works through consent and common sense rather than through force.",
         "fa": "سلطه‌ای که از راه رضایت و عقل سلیم کار می‌کند، نه از راه زور."
+      },
+      "long": {
+        "en": "Gramsci's term for the way a class rules by making its own view of the world into ordinary common sense, so that consent is given rather than extracted. Force stays in reserve. The practical consequence he drew is that opposition has to be built in schools, newspapers and unions before it can be built anywhere else.",
+        "fa": "اصطلاح گرامشی برای شیوه‌ای که یک طبقه با بدل‌کردن جهان‌بینی خود به فهم عادی همگانی فرمان می‌راند، چنان‌که رضایت داده می‌شود نه گرفته. زور در ذخیره می‌ماند. نتیجهٔ عملی‌ای که او گرفت این است که مخالفت باید نخست در مدرسه و روزنامه و اتحادیه ساخته شود، پیش از آنکه جای دیگری ساخته شود."
       },
       "aliases": ["hegemonic"],
       "citations": [{ "source": "sep" }]
@@ -463,6 +571,10 @@
         "en": "Practice as a form of knowing, not merely the application of theory.",
         "fa": "عمل همچون گونه‌ای از دانستن، نه صرفاً به‌کاربستنِ نظریه."
       },
+      "long": {
+        "en": "Aristotle separates it from production: making a table has its end in the table, acting well has its end in the acting. Marx gives the word a second life — labour is how human beings make both the world and themselves — and Freire a third, where reflection and action have to alternate or the first becomes idle talk and the second becomes thrashing.",
+        "fa": "ارسطو آن را از ساختن جدا می‌کند: ساختن یک میز غایتش در خود میز است، و نیک عمل‌کردن غایتش در خود عمل. مارکس به این واژه زندگی دومی می‌بخشد — کار همان راهی است که آدمی هم جهان و هم خودش را می‌سازد — و فریره زندگی سومی، که در آن تأمل و کنش باید پیاپی بیایند وگرنه اولی حرف بیهوده می‌شود و دومی دست‌وپازدن."
+      },
       "citations": [{ "source": "sep" }]
     },
     {
@@ -471,6 +583,10 @@
       "short": {
         "en": "Treating a relationship or a process as though it were a thing.",
         "fa": "رفتارکردن با یک رابطه یا فرآیند چنان‌که گویی یک شیء است."
+      },
+      "long": {
+        "en": "A wage is a relation between people and looks like a property of an hour. Lukács took the term from Marx's account of the commodity and made it general: social arrangements appear as facts of nature, and therefore as things nobody can be blamed for and nobody can change. The diagnosis is what most later critical theory is built on.",
+        "fa": "دستمزد نسبتی میان آدمیان است و به صفتی از یک ساعت می‌ماند. لوکاچ این اصطلاح را از شرح مارکس دربارهٔ کالا گرفت و عام کرد: سامان‌های اجتماعی به صورت واقعیت‌های طبیعت پدیدار می‌شوند، و پس به صورت چیزهایی که کسی مقصرشان نیست و کسی نمی‌تواند عوضشان کند. بیشتر نظریهٔ انتقادی بعدی بر همین تشخیص بنا شده است."
       },
       "aliases": ["reify", "reified"],
       "citations": [{ "source": "sep" }]
@@ -481,6 +597,10 @@
       "short": {
         "en": "Concerning what it is to exist as this particular person, deciding.",
         "fa": "مربوط به اینکه بودن همچون این شخص معین، در حال تصمیم‌گرفتن، چگونه است."
+      },
+      "long": {
+        "en": "The adjective marks questions that cannot be answered from outside: not what a human being is, but what to do given that one is this one, now, and will die. Kierkegaard put the emphasis on the individual who must choose without a proof; the twentieth-century writers who took the label up disagreed about almost everything else.",
+        "fa": "این صفت پرسش‌هایی را نشان می‌کند که از بیرون پاسخ نمی‌گیرند: نه اینکه آدمی چیست، بلکه اینکه با توجه به اینکه آدمی همین یکی است، همین حالا، و خواهد مرد، چه باید کرد. کیرکگور تأکید را بر فردی گذاشت که باید بی برهان انتخاب کند؛ نویسندگان سدهٔ بیستم که این برچسب را برداشتند تقریباً بر سر هر چیز دیگری اختلاف داشتند."
       },
       "aliases": ["existentialism", "existentialist", "اگزیستانسیالیسم"],
       "citations": [{ "source": "sep" }]
@@ -494,6 +614,10 @@
         "en": "Declining to affirm or deny, as a deliberate position.",
         "fa": "خودداری از تأیید و انکار، همچون موضعی عامدانه."
       },
+      "long": {
+        "en": "The ancient sceptics reached it by setting equally strong arguments against each other until neither could be affirmed, and reported that tranquillity followed. Husserl borrowed the word for something else: bracketing the question whether the world exists, in order to describe how it presents itself. The two uses share a gesture and little else.",
+        "fa": "شکاکان باستان با گذاشتن استدلال‌های هم‌وزن در برابر هم تا جایی که هیچ‌کدام تأیید نشود به آن می‌رسیدند، و گزارش می‌دادند که آرامش در پی می‌آید. هوسرل این واژه را برای چیز دیگری وام گرفت: در پرانتز گذاشتن این پرسش که آیا جهان وجود دارد، تا بتوان توصیف کرد که چگونه خودش را می‌نمایاند. این دو کاربرد یک حرکت را مشترک دارند و کمی بیش از آن نه."
+      },
       "aliases": ["epoché", "epoche"],
       "citations": [{ "source": "sep" }]
     },
@@ -504,6 +628,10 @@
         "en": "An argument in a fixed form, where the conclusion follows from two premises.",
         "fa": "استدلالی با صورتی معین، که نتیجه از دو مقدمه در آن لازم می‌آید."
       },
+      "long": {
+        "en": "All men are mortal; Socrates is a man; therefore Socrates is mortal. Aristotle catalogued which of the possible forms are valid, and the system stood for two thousand years. What it cannot express is mixed generality — that every number has a larger one — which is why Frege had to start again rather than extend it.",
+        "fa": "هر انسانی میراست؛ سقراط انسان است؛ پس سقراط میراست. ارسطو فهرست کرد که کدام صورت‌های ممکن معتبرند، و این دستگاه دو هزار سال پابرجا ماند. آنچه نمی‌تواند بیان کند عمومیت آمیخته است — اینکه هر عددی عددی بزرگ‌تر دارد — و برای همین فرگه ناچار شد از نو آغاز کند نه اینکه آن را گسترش دهد."
+      },
       "aliases": ["syllogistic", "syllogisms"],
       "citations": [{ "source": "sep" }]
     },
@@ -513,6 +641,10 @@
       "short": {
         "en": "A statement an argument starts from and asks you to grant.",
         "fa": "گزاره‌ای که استدلال از آن آغاز می‌کند و می‌خواهد بپذیری‌اش."
+      },
+      "long": {
+        "en": "An argument asks you to grant its premises and shows what follows. Two ways to resist it: deny a premise, or deny that the conclusion follows. A valid argument with a conclusion you cannot accept is not a proof of the conclusion but a reason to go back and find which premise you were never entitled to.",
+        "fa": "یک استدلال از تو می‌خواهد مقدماتش را بپذیری و نشان می‌دهد چه چیزی از آن‌ها بر می‌آید. دو راه برای مقاومت هست: مقدمه‌ای را انکار کن، یا انکار کن که نتیجه از آن‌ها در می‌آید. استدلالی معتبر با نتیجه‌ای که نمی‌توانی بپذیری، برهانِ آن نتیجه نیست بلکه دلیلی است برای بازگشتن و یافتن مقدمه‌ای که از اول حق نداشتی بپذیری."
       },
       "aliases": ["premises", "مقدمات"],
       "citations": [{ "source": "sep" }]
@@ -538,6 +670,10 @@
         "en": "A pattern of reasoning that looks like it works and does not.",
         "fa": "الگویی از استدلال که به نظر کار می‌کند و نمی‌کند."
       },
+      "long": {
+        "en": "The named fallacies — attacking the person, appealing to the crowd, assuming what is to be proved — are useful shorthand and dangerous as a checklist, because several of them are perfectly good reasoning in the right setting. Whether an authority's word counts depends on whether the authority is one, which is a question about the case and not about the form.",
+        "fa": "مغالطه‌های نام‌دار — حمله به شخص، توسل به جماعت، فرض‌گرفتن آنچه باید اثبات شود — کوته‌نوشت‌های به‌دردبخوری‌اند و به‌عنوان سیاههٔ وارسی خطرناک، چون چند تایشان در جای درست استدلال کاملاً درستی‌اند. اینکه سخن یک مرجع به حساب می‌آید یا نه به این بستگی دارد که آیا او واقعاً مرجع است، و این پرسشی دربارهٔ مورد است نه دربارهٔ صورت."
+      },
       "aliases": ["fallacies", "fallacious", "مغالطات"],
       "citations": [{ "source": "sep" }]
     },
@@ -548,6 +684,10 @@
         "en": "An imagined case designed to test what a principle actually commits you to.",
         "fa": "موردی تصورشده که برای آزمودنِ التزامات واقعیِ یک اصل ساخته شده."
       },
+      "long": {
+        "en": "It is not a substitute for evidence but a test of consistency: given what you already claim, what would you have to say about this case? The trolley, the ring of invisibility, the brain in a vat and the veil of ignorance all work that way. The standing worry is that intuitions about impossible cases may be worth nothing.",
+        "fa": "جایگزین شواهد نیست بلکه آزمون سازگاری است: با توجه به آنچه از پیش ادعا می‌کنی، دربارهٔ این مورد چه باید بگویی؟ واگن برقی، انگشتری نامرئی‌کننده، مغز در خمره و پردهٔ بی‌خبری همه چنین کار می‌کنند. نگرانی همیشگی این است که شهود دربارهٔ موردهای ناممکن شاید هیچ ارزشی نداشته باشد."
+      },
       "aliases": ["thought experiments", "آزمایش‌های ذهنی"],
       "citations": [{ "source": "sep" }]
     },
@@ -557,6 +697,10 @@
       "short": {
         "en": "Not resting on religious authority — which is not the same as against religion.",
         "fa": "نااستوار بر اقتدار دینی — که با «ضد دین» یکی نیست."
+      },
+      "long": {
+        "en": "Three different things travel under the word: a state that does not establish a religion, a society in which religious practice has declined, and an argument that proceeds without appeal to revelation. They do not imply each other, and a good deal of confused public argument comes from treating them as one.",
+        "fa": "سه چیز متفاوت زیر این واژه سفر می‌کنند: دولتی که دینی را رسمی نمی‌کند، جامعه‌ای که در آن عمل دینی کم شده، و استدلالی که بی توسل به وحی پیش می‌رود. این‌ها یکدیگر را ایجاب نمی‌کنند، و بخش بزرگی از بحث‌های عمومی مغشوش از یکی‌گرفتن آن‌ها می‌آید."
       },
       "aliases": ["secularism", "سکولار"],
       "citations": [{ "source": "sep" }]
@@ -584,6 +728,10 @@
         "en": "The unsatisfactoriness of experience: not only pain, but the way nothing stays as wanted.",
         "fa": "ناخرسندکنندگی تجربه: نه فقط درد، بلکه اینکه هیچ چیز آن‌گونه که خواسته می‌شود نمی‌ماند."
       },
+      "long": {
+        "en": "Usually translated suffering, which is too narrow: the term covers pain, but also the way a good moment will not hold still, and the strain of holding together a self out of parts that keep changing. The first of the four truths states it as a diagnosis rather than a complaint, which is why the remaining three are about a cause and a way out.",
+        "fa": "معمولاً «رنج» ترجمه می‌شود که بیش از حد باریک است: این اصطلاح درد را در بر می‌گیرد، اما همچنین این را که لحظهٔ خوب سرِ جایش نمی‌ماند، و فشار سرِهم‌نگه‌داشتن یک خویشتن از اجزایی که مدام عوض می‌شوند. حقیقت نخست از چهار حقیقت آن را به‌عنوان تشخیص می‌گذارد نه گلایه، و برای همین سه حقیقت دیگر دربارهٔ علت و راه بیرون‌رفت‌اند."
+      },
       "aliases": ["duhkha", "suffering", "رنج"],
       "citations": [{ "source": "sep" }]
     },
@@ -595,6 +743,10 @@
       "short": {
         "en": "No-self: the claim that no unchanging person is found behind experience, only the experience.",
         "fa": "بی‌خویشتنی: این ادعا که پشت تجربه هیچ شخص تغییرناپذیری یافت نمی‌شود، فقط خود تجربه."
+      },
+      "long": {
+        "en": "Look for the self and you find perceptions, feelings, dispositions and awareness — never an owner of them. The claim is not that a person is nothing but that a person is a process, and the Buddhist schools then have to explain what carries memory and moral responsibility across a life without becoming the self they denied.",
+        "fa": "دنبال خویشتن بگرد و ادراک و احساس و گرایش و آگاهی می‌یابی — و هرگز صاحبی برای آن‌ها. ادعا این نیست که شخص هیچ است بلکه این است که شخص یک فرایند است، و آنگاه مکتب‌های بودایی باید توضیح دهند چه چیزی حافظه و مسئولیت اخلاقی را در طول یک زندگی حمل می‌کند بی‌آنکه همان خویشتنی شود که انکارش کردند."
       },
       "aliases": ["anatman", "no-self", "not-self", "بی‌خویشتنی"],
       "citations": [{ "source": "sep" }]
@@ -608,6 +760,10 @@
         "en": "Impermanence: everything that arises is already on its way out.",
         "fa": "ناپایداری: هرچه پدید می‌آید از پیش در راه رفتن است."
       },
+      "long": {
+        "en": "The claim is stronger than the observation that things end. It is that nothing persists unchanged for any interval at all, so what looks like a lasting object is a rapid succession. Paired with no-self and unsatisfactoriness it forms the three marks, and it is the premise the other two lean on.",
+        "fa": "این ادعا از این مشاهده که چیزها تمام می‌شوند قوی‌تر است. می‌گوید هیچ‌چیز در هیچ بازه‌ای بی‌تغییر نمی‌ماند، پس آنچه شیئی ماندگار به نظر می‌رسد توالی‌ای تند است. کنار بی‌خویشتنی و ناخرسندی، سه نشان را می‌سازد، و همان مقدمه‌ای است که آن دوی دیگر بر آن تکیه دارند."
+      },
       "aliases": ["anitya", "impermanence", "ناپایداری"],
       "citations": [{ "source": "sep" }]
     },
@@ -619,6 +775,10 @@
       "short": {
         "en": "The round of birth and death that Indian traditions treat as the condition to be got out of.",
         "fa": "چرخهٔ زایش و مرگ که سنت‌های هندی آن را وضعی می‌دانند که باید از آن بیرون آمد."
+      },
+      "long": {
+        "en": "The wheel is not presented as an afterlife to look forward to but as a condition to be released from, and the traditions that share the term disagree about what is bound to it — a self, in most Hindu schools, and in Buddhism a process with no self in it at all. What they agree on is that ignorance is what keeps it turning.",
+        "fa": "این چرخ نه به‌عنوان زندگی پس از مرگی که باید چشم‌انتظارش بود بلکه به‌عنوان وضعیتی که باید از آن رها شد عرضه می‌شود، و سنت‌هایی که این اصطلاح را مشترک دارند بر سر آنکه چه چیزی به آن بسته است اختلاف دارند — در بیشتر مکتب‌های هندو یک خویشتن، و در بودیسم فرایندی که هیچ خویشتنی در آن نیست. آنچه بر سرش هم‌رأی‌اند این است که نادانی چرخاندنش را ادامه می‌دهد."
       },
       "aliases": ["samsara", "cycle of rebirth", "تناسخ"],
       "citations": [{ "source": "sep" }]
@@ -632,6 +792,10 @@
         "en": "The going out of the fire: the end of craving, and so of what keeps the round turning.",
         "fa": "خاموش شدن آتش: پایانِ خواهش، و پس پایان آنچه آن چرخه را می‌گرداند."
       },
+      "long": {
+        "en": "The image is a fire going out for want of fuel, and the fuel is craving. Early texts refuse to say whether one who has reached it exists after death, on the ground that the question assumes what has been given up. Later Mahayana thought pushes further, and Nagarjuna says there is not the slightest difference between it and the round of rebirth.",
+        "fa": "تصویرش آتشی است که از نبودِ سوخت خاموش می‌شود، و سوخت همان خواهش است. متن‌های نخستین از گفتن اینکه آیا کسی که به آن رسیده پس از مرگ هست یا نه سر باز می‌زنند، به این دلیل که پرسش، همان چیزی را فرض می‌گیرد که واگذاشته شده است. اندیشهٔ مهایانه‌ای بعدی پیش‌تر می‌رود، و ناگارجونه می‌گوید میان آن و چرخهٔ تولد دوباره کوچک‌ترین تفاوتی نیست."
+      },
       "aliases": ["nibbana", "nirvana", "نیروانه"],
       "citations": [{ "source": "sep" }]
     },
@@ -643,6 +807,10 @@
       "short": {
         "en": "One who could pass into release and stays, on the ground that nobody is released alone.",
         "fa": "کسی که می‌تواند به رهایی درگذرد و می‌ماند، به این دلیل که هیچ‌کس تنها رها نمی‌شود."
+      },
+      "long": {
+        "en": "The Mahayana ideal, set against the earlier picture of an individual reaching release. The vow is to keep returning until every being is free, which turns the goal from an escape into a project, and gives compassion the same standing as wisdom rather than a lesser one.",
+        "fa": "آرمان مهایانه، در برابر تصویر پیشین از فردی که به رهایی می‌رسد. نذر این است که تا آزادشدن هر موجودی بازگردد، و این هدف را از گریز به یک طرح بدل می‌کند، و به شفقت همان جایگاهی را می‌دهد که به حکمت، نه جایگاهی فروتر."
       },
       "aliases": ["bodhisatta"],
       "citations": [{ "source": "sep" }]
@@ -656,6 +824,10 @@
         "en": "The self, in the Indian traditions that hold there is one — the term Buddhism denies.",
         "fa": "خویشتن، در سنت‌های هندی‌ای که به بودنش باور دارند — همان اصطلاحی که بودیسم انکارش می‌کند."
       },
+      "long": {
+        "en": "In the Upanishads the search for the self ends by identifying it with the ground of everything, and Advaita reads those sentences literally. Ramanuja reads them as inseparability rather than identity. Buddhism denies the term outright, which is the sharpest disagreement in Indian philosophy and the reason the two traditions argued for a millennium.",
+        "fa": "در اوپانیشادها جست‌وجوی خویشتن با یکی‌گرفتن آن با بنیاد همه‌چیز پایان می‌گیرد، و ادویته آن جمله‌ها را لفظ‌به‌لفظ می‌خواند. رامانوجه آن‌ها را جدایی‌ناپذیری می‌خواند نه این‌همانی. بودیسم این اصطلاح را یکسره انکار می‌کند، و این تندترین اختلاف فلسفهٔ هند است و دلیل آنکه این دو سنت هزار سال بحث کردند."
+      },
       "aliases": ["atman", "self"],
       "citations": [{ "source": "sep" }]
     },
@@ -668,6 +840,10 @@
         "en": "The one reality, in Vedānta — not a god among things but what there ultimately is.",
         "fa": "آن واقعیت یگانه در ودانته — نه خدایی در میان چیزها، بلکه آنچه در نهایت هست."
       },
+      "long": {
+        "en": "Not a god among gods. The word names what there ultimately is, and the schools of Vedanta differ over whether it has qualities: Shankara says the qualified descriptions are provisional, Ramanuja that a reality with no attributes could not be the object of the devotion the same scriptures command.",
+        "fa": "خدایی در میان خدایان نیست. این واژه آنچه را در نهایت هست نام می‌برد، و مکتب‌های ودانته بر سر صفت‌داشتن یا نداشتنش اختلاف دارند: شنکره می‌گوید توصیف‌های صفت‌دار موقت‌اند، و رامانوجه می‌گوید واقعیتی بی‌صفت نمی‌تواند متعلَّق آن پرستشی باشد که همان متن‌های مقدس فرمان می‌دهند."
+      },
       "citations": [{ "source": "sep" }]
     },
     {
@@ -678,6 +854,10 @@
       "short": {
         "en": "Release: the end of the round, however a given school explains what is released and from what.",
         "fa": "رهایی: پایان آن چرخه، هر مکتبی هر گونه توضیح دهد که چه چیزی از چه چیزی رها می‌شود."
+      },
+      "long": {
+        "en": "Every Indian school has a version and they disagree about almost everything except that ignorance is what binds. What is released — a self, a stream, a soul rejoining the absolute — and whether release can happen in this life rather than at death, are exactly the points the schools were built to settle differently.",
+        "fa": "هر مکتب هندی روایتی دارد و بر سر تقریباً همه‌چیز اختلاف دارند جز اینکه نادانی همان چیزی است که می‌بندد. اینکه چه چیزی رها می‌شود — یک خویشتن، یک جریان، جانی که به مطلق می‌پیوندد — و اینکه رهایی در همین زندگی ممکن است یا در مرگ، دقیقاً همان نقطه‌هایی است که مکتب‌ها برای پاسخ متفاوت به آن‌ها ساخته شدند."
       },
       "aliases": ["moksa", "moksha", "liberation", "رهایی"],
       "citations": [{ "source": "sep" }]
@@ -691,6 +871,10 @@
         "en": "Appearance taken for reality — in Advaita, how a single reality comes to look like many things.",
         "fa": "نمودی که واقعیت گرفته می‌شود — در ادویته، اینکه چگونه یک واقعیت یگانه چون چیزهای بسیار می‌نماید."
       },
+      "long": {
+        "en": "Not illusion in the sense that nothing is there. The rope taken for a snake is really a rope, and the fear is real while it lasts. Advaita uses the word for how a single reality comes to be experienced as many, and is careful to say that the appearance is neither real nor unreal, since either answer collapses the position.",
+        "fa": "توهم به این معنا نیست که چیزی آنجا نیست. ریسمانی که مار گرفته شده واقعاً ریسمان است، و ترس تا وقتی هست واقعی است. ادویته این واژه را برای آن به کار می‌برد که یک واقعیت یگانه چگونه به صورت بسیار تجربه می‌شود، و مراقب است بگوید آن نمود نه واقعی است نه ناواقعی، چون هر دو پاسخ این موضع را فرو می‌ریزد."
+      },
       "aliases": ["maya", "illusion"],
       "citations": [{ "source": "sep" }]
     },
@@ -702,6 +886,10 @@
       "short": {
         "en": "The oneness of God, and the discipline of not smuggling anything creaturely into the idea of it.",
         "fa": "یگانگی خدا، و آن انضباطی که نمی‌گذارد چیزی از جنس آفریدگان به این اندیشه راه یابد."
+      },
+      "long": {
+        "en": "The theological work is negative: nothing created may be smuggled into the description of God, which rules out a body, a place, and eventually — for some schools — attributes distinct from the essence. The long dispute between those who read the divine attributes as real and those who read them as identical with the essence turns on how far the principle is pushed.",
+        "fa": "کار الهیاتی‌اش سلبی است: هیچ‌چیز آفریده‌ای نباید در توصیف خدا قاچاق شود، و این تن و مکان را کنار می‌گذارد و سرانجام — نزد برخی مکتب‌ها — صفت‌های متمایز از ذات را. نزاع دراز میان کسانی که صفات الهی را واقعی می‌خوانند و کسانی که آن‌ها را عین ذات می‌دانند، بر سر آن است که این اصل تا کجا پیش برده شود."
       },
       "aliases": ["tauhid", "divine unity"],
       "concept": "negative-theology",
@@ -716,6 +904,10 @@
         "en": "Islamic theology conducted by argument — the discipline that defends doctrine rather than deriving it.",
         "fa": "الهیات اسلامی که با استدلال پیش می‌رود — دانشی که از عقیده دفاع می‌کند نه اینکه آن را استنتاج کند."
       },
+      "long": {
+        "en": "The discipline argues rather than merely expounds, and it argued first with opponents and then with itself: the Mu'tazila made God's justice a constraint reason could recognise, the Ash'ari made God's will prior to any standard. Al-Ghazali came out of it, and used its methods against the philosophers rather than against unbelievers.",
+        "fa": "این رشته استدلال می‌کند نه اینکه صرفاً شرح دهد، و نخست با مخالفان و بعد با خودش بحث کرد: معتزله عدل الهی را قیدی کردند که خرد می‌تواند بشناسدش، و اشاعره ارادهٔ الهی را بر هر معیاری مقدم کردند. غزالی از دل آن بیرون آمد، و روش‌هایش را به‌جای بی‌دینان علیه فیلسوفان به کار بست."
+      },
       "aliases": ["ilm al-kalam", "علم کلام"],
       "citations": [{ "source": "sep" }]
     },
@@ -728,6 +920,10 @@
         "en": "The Greek-derived philosophical tradition in Arabic, as against kalām, which starts from revelation.",
         "fa": "سنت فلسفی برگرفته از یونان در زبان عربی، در برابر کلام که از وحی آغاز می‌کند."
       },
+      "long": {
+        "en": "The word is Arabic for the Greek one, and marks a specific tradition: al-Kindi, al-Farabi, Ibn Sina, Ibn Rushd, working from Aristotle and the Neoplatonists on demonstration rather than on revelation. Kalam is the other discipline in the same culture, and the two did not merge — al-Ghazali attacked the first using the second's methods.",
+        "fa": "این واژه صورت عربی واژهٔ یونانی است و سنتی معیّن را نشان می‌کند: کندی، فارابی، ابن‌سینا، ابن‌رشد، که از ارسطو و نوافلاطونیان کار می‌کردند و بر برهان تکیه داشتند نه بر وحی. کلام رشتهٔ دیگر همان فرهنگ است، و این دو در هم نیامیختند — غزالی با روش‌های دومی به اولی حمله کرد."
+      },
       "aliases": ["falasifa", "Arabic philosophy"],
       "citations": [{ "source": "sep" }]
     },
@@ -737,6 +933,10 @@
       "short": {
         "en": "A thing as it is in itself, apart from how it must appear to us — on Kant's account, unknowable.",
         "fa": "چیزی چنان‌که در خودش هست، جدا از آنکه چگونه ناچار بر ما پدیدار می‌شود — به رأی کانت، ناشناختنی."
+      },
+      "long": {
+        "en": "Kant's term marks a limit rather than a place. We know appearances, which are structured by space, time and the categories we bring; what a thing is apart from those conditions cannot be described, because describing is one of the conditions. Readers have been arguing since 1781 whether the notion is a genuine boundary or an incoherent remainder.",
+        "fa": "اصطلاح کانت یک حد را نشان می‌کند نه یک جا. ما نمودها را می‌شناسیم که با فضا و زمان و مقولاتی که خودمان می‌آوریم ساختار یافته‌اند؛ اینکه یک چیز جدا از این شرط‌ها چیست توصیف‌پذیر نیست، چون توصیف‌کردن خودش یکی از آن شرط‌هاست. خوانندگان از ۱۷۸۱ بحث می‌کنند که آیا این مفهوم مرزی واقعی است یا ته‌مانده‌ای ناسازگار."
       },
       "aliases": ["noumena", "thing-in-itself", "نومن"],
       "citations": [{ "source": "sep" }]
@@ -748,6 +948,10 @@
         "en": "The view that everything is made of indivisible parts moving in empty space, and nothing else.",
         "fa": "این دیدگاه که همه چیز از اجزای تقسیم‌ناپذیری ساخته شده که در فضای تهی حرکت می‌کنند، و هیچ چیز دیگر."
       },
+      "long": {
+        "en": "Leucippus and Democritus invented it to answer Parmenides: if what is not cannot be, nothing can move, so they granted the premise and asserted that the void exists. Indian atomism, in Vaisesika and in Buddhist schools, developed separately and faced the same objection Vasubandhu presses — that a partless unit could not combine into anything extended.",
+        "fa": "لئوکیپوس و دموکریتوس آن را برای پاسخ به پارمنیدس ساختند: اگر ناموجود نتواند باشد، هیچ‌چیز نمی‌تواند حرکت کند، پس آن‌ها مقدمه را پذیرفتند و ادعا کردند که خلأ هست. ذره‌باوری هندی، در ویشیشیکه و در مکتب‌های بودایی، جداگانه رشد کرد و با همان اشکالی روبه‌رو شد که واسوباندهو می‌آورد — اینکه واحدِ بی‌جزء نمی‌تواند به چیزی دارای امتداد ترکیب شود."
+      },
       "aliases": ["atomist"],
       "citations": [{ "source": "sep" }]
     },
@@ -757,6 +961,10 @@
       "short": {
         "en": "What several particular things are supposed to share — redness, humanity — if there is any such thing.",
         "fa": "آنچه چند چیز جزئی قرار است در آن شریک باشند — سرخی، انسانیت — اگر چنین چیزی در کار باشد."
+      },
+      "long": {
+        "en": "Realists say the shared thing is out there; conceptualists that it is in the mind; nominalists that there is nothing shared and only a word used of many. The last position has to explain how the word works, and Ockham's answer — a natural sign produced by encountering individuals — is the most worked out medieval version.",
+        "fa": "واقع‌گرایان می‌گویند آن امر مشترک بیرون است؛ مفهوم‌گرایان می‌گویند در ذهن است؛ نام‌گرایان می‌گویند چیز مشترکی نیست و فقط واژه‌ای هست که دربارهٔ بسیاری به کار می‌رود. موضع آخر باید توضیح دهد آن واژه چگونه کار می‌کند، و پاسخ اکام — نشانه‌ای طبیعی که از برخورد با افراد پدید می‌آید — پرداخته‌ترین روایت قرون‌وسطایی است."
       },
       "aliases": ["universal", "problem of universals"],
       "citations": [{ "source": "sep" }]
@@ -769,6 +977,10 @@
         "en": "Being separated from something that is properly yours — your work, your product, or yourself.",
         "fa": "جدا افتادن از چیزی که به‌درستی از آنِ توست — کارت، فراورده‌ات، یا خودت."
       },
+      "long": {
+        "en": "Marx names four separations at once: from the product, which belongs to someone else; from the activity, which is directed by someone else; from what he calls species-being, the capacity to make a world deliberately; and from other people, who become competitors. The term came to him from Hegel, where it does philosophical rather than economic work.",
+        "fa": "مارکس چهار جدایی را یک‌جا نام می‌برد: از فرآورده، که از آنِ کسی دیگر است؛ از خود فعالیت، که کسی دیگر هدایتش می‌کند؛ از آنچه او «هستیِ نوعی» می‌نامد، یعنی توان ساختن سنجیدهٔ یک جهان؛ و از دیگران، که رقیب می‌شوند. این اصطلاح از هگل به او رسید، جایی که کاری فلسفی می‌کند نه اقتصادی."
+      },
       "aliases": ["estrangement", "Entfremdung"],
       "citations": [{ "source": "sep" }]
     },
@@ -780,9 +992,13 @@
         "en": "Living as the one deciding, rather than as anyone would in your position — a term of art, not praise.",
         "fa": "زیستن چون کسی که تصمیم می‌گیرد، نه چون هرکسی که در جای تو باشد — اصطلاحی فنی است، نه ستایش."
       },
+      "long": {
+        "en": "The word promises more than the philosophy delivers, and the better accounts are careful about that. Heidegger's version is not being true to a fixed inner self but owning a life instead of drifting in what anyone does; Sartre's is refusing the excuse that one's role or nature decided. Neither says what to choose.",
+        "fa": "این واژه بیش از آنچه فلسفه تحویل می‌دهد وعده می‌کند، و شرح‌های بهتر مراقب این نکته‌اند. روایت هایدگر، وفاداری به خویشتنی درونی و ثابت نیست بلکه از آنِ خود کردن یک زندگی است به‌جای شناور بودن در آنچه همه می‌کنند؛ روایت سارتر، نپذیرفتن این بهانه است که نقش یا سرشت آدمی تصمیم گرفته. هیچ‌کدام نمی‌گویند چه باید برگزید."
+      },
       "aliases": ["Eigentlichkeit", "authentic"],
-      "citations": [{ "source": "sep" }],
-      "concept": "bad-faith"
+      "concept": "bad-faith",
+      "citations": [{ "source": "sep" }]
     },
     {
       "id": "verificationism",
@@ -790,6 +1006,10 @@
       "short": {
         "en": "The rule that a sentence means something only if experience could check it, or it is true by definition.",
         "fa": "این قاعده که جمله‌ای معنا دارد تنها اگر تجربه بتواند وارسی‌اش کند، یا به حکم تعریف درست باشد."
+      },
+      "long": {
+        "en": "The Vienna Circle's rule was meant to end metaphysics by declaring it meaningless rather than false. It failed on its own terms: the rule is not itself verifiable, and no formulation could be found that admitted scientific laws while excluding what it was aimed at. Its wreck is why Popper substituted falsifiability, and why Quine attacked the underlying distinction.",
+        "fa": "قاعدهٔ حلقهٔ وین قرار بود متافیزیک را با بی‌معنا خواندن — نه نادرست خواندن — تمام کند. به حکم خودش شکست خورد: خود قاعده تحقیق‌پذیر نیست، و هیچ صورت‌بندی‌ای پیدا نشد که قوانین علمی را راه دهد و آنچه را نشانه رفته بود بیرون بگذارد. از خرابهٔ آن است که پوپر ابطال‌پذیری را جایگزین کرد و کواین به آن تمایز بنیادی حمله برد."
       },
       "aliases": ["verification principle", "verifiability criterion"],
       "citations": [{ "source": "sep" }]
@@ -801,6 +1021,10 @@
         "en": "What is supposedly given directly in perception — a patch of colour, before it is taken as a thing.",
         "fa": "آنچه گویا در ادراک بی‌واسطه داده می‌شود — لکه‌ای از رنگ، پیش از آنکه چیزی گرفته شود."
       },
+      "long": {
+        "en": "The theory was built to explain illusion: what you see when a straight stick looks bent in water must be something, and it is not the stick. Its cost is a screen between the perceiver and the world, which then has to be argued across. Direct-realist replies deny the first step, and Austin's is the most quoted.",
+        "fa": "این نظریه برای توضیح خطای حسی ساخته شد: آنچه می‌بینی وقتی چوبی راست در آب خمیده می‌نماید باید چیزی باشد، و آن چیز خود چوب نیست. بهایش پرده‌ای است میان ادراک‌کننده و جهان، که بعد باید از رویش استدلال کرد و گذشت. پاسخ‌های واقع‌گرایان مستقیم گام نخست را انکار می‌کنند، و پاسخ آستین پرنقل‌ترین آن‌هاست."
+      },
       "aliases": ["sense datum", "sensa"],
       "citations": [{ "source": "sep" }]
     },
@@ -810,6 +1034,10 @@
       "short": {
         "en": "The position that only one's own mind can be known to exist — usually raised as a problem, not a belief.",
         "fa": "این موضع که تنها می‌توان به بودنِ ذهن خود یقین داشت — معمولاً چون مسئله طرح می‌شود نه چون باور."
+      },
+      "long": {
+        "en": "Almost nobody has held it; it matters as a place an argument must not end up. Descartes' method reaches it and needs God to get out, which most readers find the weakest step. Wittgenstein's private-language argument is designed to cut the road to it earlier, by denying that a purely inner vocabulary could mean anything.",
+        "fa": "تقریباً هیچ‌کس به آن باور نداشته؛ اهمیتش در این است که جایی است که استدلال نباید به آن ختم شود. روش دکارت به آن می‌رسد و برای بیرون‌آمدن به خدا نیاز دارد، و بیشتر خوانندگان همین را ضعیف‌ترین گام می‌دانند. استدلال زبان خصوصی ویتگنشتاین برای بریدن راه به آن در مرحله‌ای زودتر طراحی شده، با انکار اینکه واژگانی یکسره درونی بتواند چیزی معنا بدهد."
       },
       "aliases": ["solipsist"],
       "citations": [{ "source": "sep" }]
@@ -821,6 +1049,10 @@
         "en": "Explaining meaning by a system of differences rather than by what any single term refers to.",
         "fa": "توضیح معنا با یک دستگاه از تفاوت‌ها، نه با آنچه هر اصطلاح به‌تنهایی به آن ارجاع می‌دهد."
       },
+      "long": {
+        "en": "Saussure's point about language — that a sign means by differing from other signs, not by resembling a thing — was extended to myth, kinship, fashion and the unconscious. What it buys is a method for reading systems; what it costs is the actor, and the reaction against it in the 1960s was largely about putting history and agency back.",
+        "fa": "نکتهٔ سوسور دربارهٔ زبان — اینکه یک نشانه با تفاوت‌داشتن از نشانه‌های دیگر معنا می‌دهد، نه با شباهت به یک چیز — به اسطوره و خویشاوندی و مد و ناخودآگاه گسترش یافت. آنچه به دست می‌دهد روشی است برای خواندن نظام‌ها؛ آنچه می‌گیرد کنشگر است، و واکنش علیه آن در دههٔ ۱۹۶۰ عمدتاً بر سر بازگرداندن تاریخ و عاملیت بود."
+      },
       "aliases": ["structuralist"],
       "citations": [{ "source": "sep" }]
     },
@@ -830,6 +1062,10 @@
       "short": {
         "en": "A loose label for positions doubting that any single account of reason or history covers everyone.",
         "fa": "برچسبی گشاده برای مواضعی که تردید دارند هیچ روایت یگانه‌ای از عقل یا تاریخ همه را در بر بگیرد."
+      },
+      "long": {
+        "en": "The word is used by its critics far more than by anyone it names. Lyotard's definition — incredulity toward grand narratives — is the usable one: a doubt that any single story of reason, progress or emancipation can cover everything. Most of the writers filed under it rejected the label, and they disagree with each other more than the label suggests.",
+        "fa": "این واژه را منتقدانش بسیار بیشتر از کسانی که نامشان را می‌برد به کار می‌برند. تعریف لیوتار — بی‌باوری به روایت‌های کلان — همان تعریف کارآمد است: تردید در اینکه هیچ روایت یگانه‌ای از خرد یا پیشرفت یا رهایی بتواند همه‌چیز را بپوشاند. بیشتر نویسندگانی که زیر این برچسب بایگانی شده‌اند آن را نپذیرفتند، و بیش از آنچه برچسب می‌نماید با هم اختلاف دارند."
       },
       "aliases": ["postmodern", "post-modernism"],
       "citations": [{ "source": "sep" }]
@@ -843,6 +1079,10 @@
         "en": "The stuff and energy things are made of and act by, in Chinese thought — neither matter nor spirit.",
         "fa": "آن ماده و نیرویی که در اندیشهٔ چینی چیزها از آن ساخته‌اند و با آن عمل می‌کنند — نه ماده است نه روح."
       },
+      "long": {
+        "en": "Not a mystical fluid but the general term for what things are made of and act by — breath, air, vapour, energy, matter, depending on context. Neo-Confucians pair it with pattern: pattern is what a thing should be, qi is the stuff it is realised in, and the clarity or turbidity of a person's qi is how they explain moral difference.",
+        "fa": "سیّالی رازآلود نیست بلکه اصطلاحی عام است برای آنچه چیزها از آن ساخته شده‌اند و با آن کار می‌کنند — دم، هوا، بخار، انرژی، ماده، بسته به بافت. نوکنفوسیوسیان آن را با «نظم» جفت می‌کنند: نظم آن است که یک چیز باید باشد، و «چی» ماده‌ای است که در آن محقق می‌شود، و صافی یا تیرگیِ چیِ یک آدم همان است که با آن تفاوت اخلاقی را توضیح می‌دهند."
+      },
       "aliases": ["chi", "ch'i", "ki"],
       "citations": [{ "source": "sep" }]
     },
@@ -855,6 +1095,10 @@
         "en": "A pair of relative terms — shaded and sunlit — used to describe how opposed aspects depend on each other.",
         "fa": "جفتی از اصطلاح‌های نسبی — سایه‌دار و آفتاب‌خورده — که برای وصف وابستگی جهت‌های متقابل به یکدیگر به کار می‌روند."
       },
+      "long": {
+        "en": "They are not two forces but a pair of relative terms: the shaded and the sunlit side of the same hill. Nothing is yin absolutely — it is yin in relation to something else, and yang in relation to a third — which is why the pair is used to describe changing situations rather than to classify substances.",
+        "fa": "این دو نیرو نیستند بلکه جفتی از اصطلاح‌های نسبی‌اند: سویهٔ سایه‌دار و سویهٔ آفتاب‌گیر یک تپه. هیچ‌چیز مطلقاً یین نیست — نسبت به چیزی یین است و نسبت به چیزی سوم یانگ — و برای همین این جفت برای توصیف وضعیت‌های متغیر به کار می‌رود نه برای دسته‌بندی جوهرها."
+      },
       "aliases": ["yin", "yang"],
       "citations": [{ "source": "sep" }]
     },
@@ -866,6 +1110,10 @@
       "short": {
         "en": "The person Confucian teaching aims at: cultivated, reliable, and defined by conduct rather than by birth.",
         "fa": "کسی که آموزهٔ کنفوسیوسی هدفش اوست: پرورده، اعتمادپذیر، و تعریف‌شده با رفتار نه با تبار."
+      },
+      "long": {
+        "en": "Originally it meant a ruler's son, and Confucius took the word away from birth and gave it to conduct: the junzi is whoever has cultivated themselves, whatever their family. That transfer is one of the most consequential things in the Analects, because it makes an aristocratic term into a standard anyone can be held to.",
+        "fa": "در اصل به معنای پسر فرمانروا بود، و کنفوسیوس این واژه را از نسب گرفت و به رفتار داد: جون‌تزه هرکسی است که خودش را پرورده باشد، از هر خانواده‌ای. همین جابه‌جایی یکی از پرپیامدترین چیزها در «مکالمات» است، چون اصطلاحی اشرافی را به معیاری بدل می‌کند که هرکسی را می‌توان با آن سنجید."
       },
       "aliases": ["chun-tzu", "gentleman", "exemplary person"],
       "citations": [{ "source": "sep" }]
