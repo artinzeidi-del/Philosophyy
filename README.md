@@ -3,11 +3,11 @@
 A bilingual (فارسی / English) reference, library and learning platform for world
 philosophy, built with Flutter.
 
-> **Status: early foundation.** The architecture, design system, content
-> pipeline and search engine are built, tested and verified. The corpus is small
-> and most of the planned product surface does not exist yet. See
-> [`docs/CHECKPOINT.md`](docs/CHECKPOINT.md) for an honest, evidence-backed
-> account of what is and is not done.
+> **Status: the reference is written; the product around it is not.** Every
+> entry in the corpus is written to three reading depths in both languages and
+> every claim carries its sources. The reader, the learning tools and the graph
+> view do not exist yet. See [`docs/STATUS.md`](docs/STATUS.md) for what is and
+> is not done, with every number produced by running against the files.
 
 ## What is actually here
 
@@ -20,8 +20,9 @@ philosophy, built with Flutter.
 | Domain model and content pipeline | Built, integrity-checked by test |
 | Search (cross-script, fuzzy, Persian-aware) | Built, 26 tests |
 | Home, Explore, Search, Settings, Article screens | Built |
-| Corpus | 14 philosophers, 12 concepts, 14 works, 6 schools, 10 quotations, 2 arguments, 24 sources |
-| Reader, learning platform, quizzes, graph view, AI assistant | **Not started** |
+| Glossary, primer, library (saves, notes, highlights) | Built |
+| Corpus | 191 philosophers, 61 concepts, 47 works, 29 schools, 124 quotations, 12 arguments, 303 sources, 76 glossary terms |
+| Reader, learning platform, quizzes, graph view | **Not started** |
 
 ## Running it
 
@@ -37,7 +38,7 @@ flutter run          # or: flutter build web --release
 
 ```bash
 flutter analyze                 # must report no issues
-flutter test                    # 164 tests
+flutter test                    # 553 tests
 flutter build web --release     # must succeed
 ```
 
@@ -71,7 +72,7 @@ lib/
 assets/
   content/      The corpus, as JSON
   fonts/        Vazirmatn (Persian) and Spectral (English), both SIL OFL 1.1
-docs/           Architecture decisions, content policy, checkpoint
+docs/           Architecture decisions, content policy, project status
 ```
 
 ## Documentation
@@ -80,8 +81,8 @@ docs/           Architecture decisions, content policy, checkpoint
   behind it, with the trade-offs stated
 - [`docs/CONTENT_POLICY.md`](docs/CONTENT_POLICY.md) — the editorial rules,
   including the ones enforced by tests
-- [`docs/CHECKPOINT.md`](docs/CHECKPOINT.md) — verified project state and the
-  next steps
+- [`docs/STATUS.md`](docs/STATUS.md) — what is built, what has been measured
+  and what is still missing
 
 ## Licences
 
