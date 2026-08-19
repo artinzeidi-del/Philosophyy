@@ -8,6 +8,10 @@ on:
     branches: ["develop"]
   workflow_dispatch:
 
+# The release step needs to write to the repository.
+permissions:
+  contents: write
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -73,3 +77,28 @@ jobs:
           name: philosophia-apk
           path: artifacts/*.apk
           retention-days: 30
+
+      # An artifact is a zip behind a login, which is an awkward thing to open
+      # on a phone. A release asset is a direct download, so installing is
+      # tapping a link. The tag is moved rather than added to, so there is one
+      # place to go for the current build instead of a list that grows on
+      # every push.
+      - name: Publish the build as a release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=latest
+          NOTES="Built from ${GITHUB_SHA::7} on $(date -u '+%Y-%m-%d %H:%M UTC').
+
+          Install **app-arm64-v8a-release.apk** unless you know your phone
+          needs another. Nearly every phone made since 2017 is arm64-v8a.
+          app-release.apk is the universal build: it works everywhere and is
+          about three times the size.
+
+          Signed with a debug key, so Android will ask you to allow
+          installation from this source."
+          gh release delete "$TAG" --yes --cleanup-tag || true
+          gh release create "$TAG" artifacts/*.apk \
+            --title "Philosophia (latest)" \
+            --notes "$NOTES" \
+            --latest
