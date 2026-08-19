@@ -20,6 +20,12 @@ import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
+/// The smallest a control may be before a finger starts missing it.
+///
+/// Android's accessibility guideline asks for forty-eight logical pixels and
+/// Apple's for forty-four points; the larger figure satisfies both.
+const double minimumTapTarget = 48;
+
 /// A small label — a branch, a tradition, an era.
 ///
 /// Interactive only where [onTap] is given. On an article the chips name the
@@ -79,16 +85,24 @@ class TagChip extends StatelessWidget {
     );
 
     if (tap == null) return pill;
+    // The pill is 25 pixels tall, which is right for a label and far too small
+    // for a finger. Making these chips interactive without giving them a hit
+    // area was a defect introduced with the interaction itself; the guideline
+    // check named it. The tappable box is padded out to the platform minimum
+    // while the pill keeps its size, so the chips still read as labels.
     return Semantics(
       button: true,
       child: Material(
         color: Colors.transparent,
         borderRadius: const BorderRadius.all(Radius.circular(Radii.pill)),
-        clipBehavior: Clip.antiAlias,
         child: InkWell(
           onTap: tap,
           borderRadius: const BorderRadius.all(Radius.circular(Radii.pill)),
-          child: pill,
+          child: Container(
+            constraints: const BoxConstraints(minHeight: minimumTapTarget),
+            alignment: Alignment.center,
+            child: pill,
+          ),
         ),
       ),
     );

@@ -57,6 +57,9 @@ class GlowSegments<T> extends StatelessWidget {
   /// The gap between the track's edge and the lit segment.
   static const double _inset = 4;
 
+  /// The smallest a segment may be.
+  static const double minimumTapTarget = 48;
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -202,6 +205,10 @@ class _Row<T> extends StatelessWidget {
   );
 }
 
+/// Vertical padding chosen so a segment reaches the platform minimum touch
+/// target. The spacing token gave 44, four short of it.
+const double _segmentPadding = 14;
+
 class _SegmentLabel<T> extends StatelessWidget {
   const _SegmentLabel({
     required this.segment,
@@ -218,10 +225,14 @@ class _SegmentLabel<T> extends StatelessWidget {
     final theme = Theme.of(context);
     final icon = segment.icon;
 
+    // A minimum height rather than padding alone. The segments came out 44
+    // tall, four short of the figure Android's accessibility guideline asks
+    // for, and this control is how a reader changes what the whole screen is
+    // showing. Nothing looked wrong; the guideline check said so.
     final content = Padding(
       padding: const EdgeInsets.symmetric(
         horizontal: Spacing.lg,
-        vertical: Spacing.md,
+        vertical: _segmentPadding,
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,

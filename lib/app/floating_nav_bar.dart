@@ -49,7 +49,20 @@ class FloatingNavBar extends StatelessWidget {
 
   /// The icon's own size, and the padding around it in each state.
   static const double _iconSize = 22;
-  static const double _idlePadding = Spacing.md;
+
+  /// The smallest a destination may be, whatever its icon and padding work
+  /// out to.
+  ///
+  /// An idle destination came to 46×46 — two pixels under the figure both
+  /// platform guidelines settle on, and this is the control a reader presses
+  /// more than any other in the product. Nothing looked wrong, and the
+  /// framework's own accessibility guideline said so the first time it was
+  /// asked.
+  static const double minimumTapTarget = 48;
+
+  /// Chosen so an idle destination reaches [minimumTapTarget] exactly,
+  /// rather than the 46 pixels the spacing token happened to give.
+  static const double _idlePadding = (minimumTapTarget - _iconSize) / 2;
   static const double _selectedPadding = Spacing.lg;
 
   /// Whether the row has room to show [label] on the selected destination.
@@ -147,8 +160,15 @@ class FloatingNavBar extends StatelessWidget {
                   ),
                 ),
                 child: Padding(
+                  // Half the horizontal inset the vertical one uses. Raising
+                  // each destination to the platform's minimum touch target
+                  // added eight pixels across the row, which was enough to
+                  // push the selected label out at 390 — a common phone
+                  // width. The eight pixels come back from here, where they
+                  // cost nothing: the bar is a floating pill and its own
+                  // rounding already reads as an inset.
                   padding: const EdgeInsets.symmetric(
-                    horizontal: Spacing.sm,
+                    horizontal: Spacing.xs,
                     vertical: Spacing.sm,
                   ),
                   // Five icons plus one label does not fit a 320-wide phone —
@@ -262,7 +282,7 @@ class _NavItem extends StatelessWidget {
                 horizontal: selected && showLabel
                     ? FloatingNavBar._selectedPadding
                     : FloatingNavBar._idlePadding,
-                vertical: Spacing.md,
+                vertical: FloatingNavBar._idlePadding,
               ),
               // The lit pill from the reference navigation, declared once in
               // `Glass.active` so that the desktop rail says "you are here"
