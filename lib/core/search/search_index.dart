@@ -116,7 +116,13 @@ class SearchIndex {
   ) : _documentFrequency = <String, int>{
         for (final entry in _postings.entries)
           entry.key: entry.value.map((posting) => posting.ref).toSet().length,
-      };
+      },
+      _sortedTokens = List<String>.of(_allTokens)..sort(),
+      _tokensByLength = <int, List<String>>{} {
+    for (final token in _allTokens) {
+      _tokensByLength.putIfAbsent(token.length, () => <String>[]).add(token);
+    }
+  }
 
   /// Builds an index over everything in [corpus].
   factory SearchIndex.build(KnowledgeBase corpus) {
@@ -213,6 +219,52 @@ class SearchIndex {
   /// share a name and neither should be picked arbitrarily.
   final Map<String, Set<EntityRef>> _exactNames;
 
+  /// Every indexed token, in code-unit order.
+  ///
+  /// Prefix matching used to walk all nineteen thousand tokens, twice, for
+  /// every token of every query — once for prefixes and once for near-misses —
+  /// on every keystroke. Sorted, the tokens sharing a prefix form one
+  /// contiguous run, so the same answer is a binary search and a short walk.
+  final List<String> _sortedTokens;
+
+  /// Indexed tokens grouped by length.
+  ///
+  /// The fuzzy pass accepts at most one insertion, deletion or substitution, so
+  /// only three lengths can possibly qualify. It was testing all of them.
+  final Map<int, List<String>> _tokensByLength;
+
+  /// The first index in [_sortedTokens] at or after [prefix].
+  ///
+  /// A plain lower-bound binary search. Everything starting with [prefix] sits
+  /// from here until the first token that does not, because sorting by code
+  /// unit puts a string immediately before its own extensions.
+  int _lowerBound(String prefix) {
+    var low = 0;
+    var high = _sortedTokens.length;
+    while (low < high) {
+      final middle = (low + high) >> 1;
+      if (_sortedTokens[middle].compareTo(prefix) < 0) {
+        low = middle + 1;
+      } else {
+        high = middle;
+      }
+    }
+    return low;
+  }
+
+  /// The indexed tokens beginning with [prefix].
+  Iterable<String> _tokensStartingWith(String prefix) sync* {
+    for (
+      var index = _lowerBound(prefix);
+      index < _sortedTokens.length;
+      index++
+    ) {
+      final token = _sortedTokens[index];
+      if (!token.startsWith(prefix)) return;
+      yield token;
+    }
+  }
+
   /// How many distinct entities each token appears in.
   ///
   /// The basis of [_rarityOf]. Computed once at build time because it is a
@@ -288,6 +340,7 @@ class SearchIndex {
             final contribution =
                 field.key.weight *
                 match.quality.multiplier *
+                match.closeness *
                 rarity *
                 math.sqrt(field.value);
             scores.update(
@@ -354,12 +407,11 @@ class SearchIndex {
   List<String> suggestions(String partial, {int limit = 8}) {
     final normalized = TextNormalizer.normalize(partial);
     if (normalized.length < 2) return const <String>[];
-    final matches =
-        _allTokens.where((token) => token.startsWith(normalized)).toList()
-          ..sort((a, b) {
-            final byLength = a.length.compareTo(b.length);
-            return byLength != 0 ? byLength : a.compareTo(b);
-          });
+    final matches = _tokensStartingWith(normalized).toList()
+      ..sort((a, b) {
+        final byLength = a.length.compareTo(b.length);
+        return byLength != 0 ? byLength : a.compareTo(b);
+      });
     return matches.length <= limit ? matches : matches.sublist(0, limit);
   }
 
@@ -372,12 +424,13 @@ class SearchIndex {
     // Prefix matching is what makes search feel live: a reader who has typed
     // "aris" should already be seeing Aristotle.
     if (token.length >= 2) {
-      for (final candidate in _allTokens) {
-        if (candidate != token && candidate.startsWith(token)) {
+      for (final candidate in _tokensStartingWith(token)) {
+        if (candidate != token) {
           yield _TokenMatch(
             candidate,
             _postings[candidate]!,
             MatchQuality.prefix,
+            closeness: token.length / candidate.length,
           );
         }
       }
@@ -386,16 +439,25 @@ class SearchIndex {
     // Fuzzy matching is deliberately restricted to longer tokens. On short
     // tokens an edit distance of one matches so much that it drowns the
     // results it was meant to rescue.
+    //
+    // One edit cannot change a length by more than one, so only three of the
+    // length buckets can hold a candidate. The other sixteen thousand tokens
+    // were being length-checked one at a time.
     if (token.length >= 4) {
-      for (final candidate in _allTokens) {
-        if (candidate == token || candidate.startsWith(token)) continue;
-        if ((candidate.length - token.length).abs() > 1) continue;
-        if (_isWithinOneEdit(token, candidate)) {
-          yield _TokenMatch(
-            candidate,
-            _postings[candidate]!,
-            MatchQuality.fuzzy,
-          );
+      for (
+        var length = token.length - 1;
+        length <= token.length + 1;
+        length++
+      ) {
+        for (final candidate in _tokensByLength[length] ?? const <String>[]) {
+          if (candidate == token || candidate.startsWith(token)) continue;
+          if (_isWithinOneEdit(token, candidate)) {
+            yield _TokenMatch(
+              candidate,
+              _postings[candidate]!,
+              MatchQuality.fuzzy,
+            );
+          }
         }
       }
     }
@@ -474,7 +536,12 @@ class _Posting {
 }
 
 class _TokenMatch {
-  const _TokenMatch(this.token, this.postings, this.quality);
+  const _TokenMatch(
+    this.token,
+    this.postings,
+    this.quality, {
+    this.closeness = 1,
+  });
 
   /// The indexed token that matched, which is not always the query token —
   /// rarity is a property of what was found, not of what was typed.
@@ -482,4 +549,23 @@ class _TokenMatch {
 
   final List<_Posting> postings;
   final MatchQuality quality;
+
+  /// How near the indexed token is to what the reader typed, from 0 to 1.
+  ///
+  /// ## Why a prefix match is not worth a flat amount
+  ///
+  /// Typing `aris` returned Aristotelianism above Aristotle. Both are prefix
+  /// matches on a name, so both scored the same for the match itself, and the
+  /// tie went to the school because a long article about Aristotle mentions him
+  /// often — and because `aristotelianism` appears in fewer entries than
+  /// `aristotle`, so the rarity weighting actively favoured it.
+  ///
+  /// Neither of those facts is about what the reader wanted. Someone four
+  /// letters into a word is guessing at a completion, and the shorter
+  /// completion is the likelier guess: `aris` is four ninths of `aristotle`
+  /// and four fifteenths of `aristotelianism`. That ratio is this.
+  ///
+  /// Exact and fuzzy matches leave it at 1: an exact match is not a guess, and
+  /// a fuzzy one is already discounted by [MatchQuality].
+  final double closeness;
 }

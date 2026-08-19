@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -32,6 +34,46 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
   void initState() {
     super.initState();
     _controller = TextEditingController(text: ref.read(searchQueryProvider));
+
+    // Build the index now, while this screen is painting, rather than on the
+    // reader's first keystroke. It is half a second of work on the UI isolate,
+    // and it used to land the moment they pressed a key — which is why typing
+    // felt like the app had stopped. Nothing here waits for it: the empty
+    // state below is drawn from the corpus, not the index.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) warmSearchIndex(ref);
+    });
+  }
+
+  /// Runs [query] as though the reader had typed it.
+  void _runQuery(String query) {
+    _controller.text = query;
+    _controller.selection = TextSelection.collapsed(offset: query.length);
+    ref.read(searchQueryProvider.notifier).set(query);
+  }
+
+  /// Replaces the word the reader is in the middle of with [completion].
+  ///
+  /// The earlier words are kept exactly as typed. A completion that rewrote the
+  /// whole query would undo a reader who had already narrowed it.
+  void _completeLastWord(String completion) {
+    final query = ref.read(searchQueryProvider);
+    final parts = query.split(' ');
+    parts[parts.length - 1] = completion;
+    _runQuery('${parts.join(' ')} ');
+  }
+
+  /// Opens [route], recording what was searched for on the way.
+  ///
+  /// Recorded here rather than as the reader types: a history built from
+  /// keystrokes fills with every prefix of every word.
+  void _openResult(String route) {
+    unawaited(
+      ref
+          .read(recentSearchesProvider.notifier)
+          .record(ref.read(searchQueryProvider)),
+    );
+    context.push(route);
   }
 
   @override
@@ -83,15 +125,22 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                   ),
                 ),
               ),
+              if (query.trim().isNotEmpty)
+                _CompletionsStrip(onChoose: _completeLastWord),
               Expanded(
                 child: switch ((
                   query.trim().isEmpty,
                   results.isEmpty && terms.isEmpty,
                 )) {
-                  (true, _) => EmptyView(
-                    icon: Icons.travel_explore,
-                    title: l10n.searchInvitationTitle,
-                    body: l10n.searchInvitationBody,
+                  // Before anything is typed the screen used to be a single
+                  // illustration and two sentences of advice, which is a poster
+                  // rather than a tool: it told the reader search existed and
+                  // gave them nothing to press. What replaces it is what they
+                  // were doing last, and where the corpus itself is densest.
+                  (true, _) => _SearchInvitation(
+                    language: language,
+                    onSearch: _runQuery,
+                    onOpen: _openResult,
                   ),
                   (false, true) => EmptyView(
                     icon: Icons.search_off,
@@ -155,7 +204,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                         footnote: hit.bestField == MatchField.body
                             ? l10n.searchMatchedInBody
                             : null,
-                        onTap: () => context.push(hit.entity.ref.route),
+                        onTap: () => _openResult(hit.entity.ref.route),
                       );
 
                       // Only the first screenful animates in. Items further
@@ -182,6 +231,215 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// Words the corpus knows that begin with what the reader is typing.
+///
+/// Sits between the field and the results, where it is visible whether or not
+/// the query found anything — a completion is most useful in the case where
+/// nothing was found, because the usual reason is that the word is half typed.
+class _CompletionsStrip extends ConsumerWidget {
+  const _CompletionsStrip({required this.onChoose});
+
+  final ValueChanged<String> onChoose;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final completions = ref.watch(searchCompletionsProvider);
+    if (completions.isEmpty) return const SizedBox.shrink();
+
+    final theme = Theme.of(context);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: Spacing.md),
+      // Named for a screen reader rather than with a visible heading. Chips
+      // directly under a search field read as completions to anyone who can
+      // see where they are; a reader who cannot gets a row of loose words with
+      // no idea what pressing one would do, and a heading here would cost the
+      // results a line of a phone screen.
+      child: Semantics(
+        container: true,
+        label: AppL10n.of(context).searchCompletionsTitle,
+        // Scrolls rather than wraps: this sits above the results and must not
+        // push them off the screen when a common prefix returns eight words.
+        child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          padding: const EdgeInsets.symmetric(horizontal: Spacing.lg),
+          child: Row(
+            children: <Widget>[
+              for (final completion in completions)
+                Padding(
+                  padding: const EdgeInsetsDirectional.only(end: Spacing.sm),
+                  child: ActionChip(
+                    label: Text(completion),
+                    labelStyle: theme.textTheme.labelMedium,
+                    onPressed: () => onChoose(completion),
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// What the search screen offers before a word has been typed.
+///
+/// ## Why not the illustration that was here
+///
+/// An empty state that names the feature and explains how to use it is the
+/// right shape for a form a reader has to fill in. A search box is not that:
+/// the reader already knows what it does, and what they lack is not
+/// instruction but a starting point. The advice about spelling is still worth
+/// saying, so it stays — underneath the things that can be pressed rather than
+/// in place of them.
+class _SearchInvitation extends ConsumerWidget {
+  const _SearchInvitation({
+    required this.language,
+    required this.onSearch,
+    required this.onOpen,
+  });
+
+  final AppLanguage language;
+
+  /// Runs a query the reader chose from their history.
+  final ValueChanged<String> onSearch;
+
+  /// Opens an entry the reader chose directly.
+  final ValueChanged<String> onOpen;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final recent = ref.watch(recentSearchesProvider);
+    final startingPoints = ref.watch(searchStartingPointsProvider);
+
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(
+        Spacing.lg,
+        0,
+        Spacing.lg,
+        Spacing.xxxl,
+      ),
+      children: <Widget>[
+        // The screen's one sentence of voice, kept from the empty state this
+        // replaced. Everything under it can be pressed; this says what the
+        // pressing is for.
+        ReadingColumn(
+          alignToStart: true,
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: Spacing.lg),
+            child: Text(
+              l10n.searchInvitationTitle,
+              style: theme.textTheme.titleMedium,
+            ),
+          ),
+        ),
+        if (recent.isNotEmpty)
+          ReadingColumn(
+            alignToStart: true,
+            child: _Section(
+              title: l10n.searchRecentTitle,
+              action: TextButton(
+                onPressed: () => unawaited(
+                  ref.read(recentSearchesProvider.notifier).clear(),
+                ),
+                child: Text(l10n.searchRecentClear),
+              ),
+              child: Wrap(
+                spacing: Spacing.sm,
+                runSpacing: Spacing.sm,
+                children: <Widget>[
+                  for (final query in recent)
+                    ActionChip(
+                      avatar: const Icon(Icons.history, size: 16),
+                      label: Text(query),
+                      onPressed: () => onSearch(query),
+                    ),
+                ],
+              ),
+            ),
+          ),
+        if (startingPoints.isNotEmpty)
+          ReadingColumn(
+            alignToStart: true,
+            child: _Section(
+              title: l10n.searchStartingPointsTitle,
+              child: Column(
+                children: <Widget>[
+                  for (var index = 0; index < startingPoints.length; index++)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: Spacing.md),
+                      child: EntranceAnimation(
+                        index: index,
+                        child: EntityCard(
+                          title: startingPoints[index].name.resolve(language),
+                          summary: startingPoints[index].oneLine.resolve(
+                            language,
+                          ),
+                          onTap: () => onOpen(startingPoints[index].ref.route),
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ),
+        ReadingColumn(
+          alignToStart: true,
+          child: Padding(
+            padding: const EdgeInsets.only(top: Spacing.md),
+            child: Text(
+              l10n.searchInvitationBody,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// A titled block in the search screen's empty state.
+class _Section extends StatelessWidget {
+  const _Section({required this.title, required this.child, this.action});
+
+  final String title;
+  final Widget child;
+
+  /// An optional control on the far end of the heading.
+  final Widget? action;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: Spacing.lg),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Expanded(
+                child: Text(
+                  title,
+                  style: theme.textTheme.labelMedium?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ),
+              ?action,
+            ],
+          ),
+          const SizedBox(height: Spacing.sm),
+          child,
+        ],
       ),
     );
   }

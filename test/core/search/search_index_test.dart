@@ -144,6 +144,25 @@ void main() {
       expect(contains('nietz', 'nietzsche'), isTrue);
     });
 
+    test('the nearer completion of a prefix ranks first', () {
+      // Typing `aris` put Aristotelianism above Aristotle. Both are prefix
+      // matches on a name, so the match itself scored the same, and the tie
+      // went to the school twice over: a long article about Aristotle mentions
+      // him often, and `aristotelianism` appears in fewer entries than
+      // `aristotle`, so the rarity weighting favoured it too. Neither fact is
+      // about what the reader wanted. Four letters into a word is a guess at a
+      // completion, and the shorter completion is the likelier guess.
+      final ranked = index.search('aris').map((hit) => hit.entity.ref.id);
+      expect(
+        ranked.toList().indexOf('aristotle'),
+        lessThan(ranked.toList().indexOf('aristotelianism')),
+      );
+
+      // The same rule, where the corpus has a long name containing a short one.
+      final platonic = index.search('plat').map((hit) => hit.entity.ref.id);
+      expect(platonic.first, 'plato');
+    });
+
     test('suggestions complete a partial word', () {
       final suggestions = index.suggestions('socr');
       expect(suggestions, isNotEmpty);

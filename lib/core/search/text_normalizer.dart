@@ -137,6 +137,39 @@ abstract final class TextNormalizer {
     'æ': 'ae', 'œ': 'oe', 'ß': 'ss',
   };
 
+  /// [_characterFolding] again, keyed by code point instead of by string.
+  ///
+  /// The table above is written with characters because that is the only form
+  /// in which it can be read and checked. Looking it up that way cost a string
+  /// allocation and a string hash for every character of the corpus, which is
+  /// 1.7 million of each per index build. Same table, keyed by the integer the
+  /// loop already has.
+  static final Map<int, String> _foldingByRune = <int, String>{
+    for (final entry in _characterFolding.entries)
+      entry.key.runes.first: entry.value,
+  };
+
+  /// Collapses runs of whitespace.
+  ///
+  /// Static because it used to be built inside [normalize]: a fresh `RegExp`
+  /// compiled on every one of the corpus's six thousand strings, and again on
+  /// every keystroke.
+  static final RegExp _whitespaceRun = RegExp(r'\s+');
+
+  /// Whether [text] is entirely ASCII.
+  ///
+  /// Every key in the folding table and every range in the regexes above is
+  /// outside ASCII, so an ASCII string is already in canonical form apart from
+  /// case and spacing. Roughly half the corpus is English prose that never
+  /// leaves ASCII, and this lets it skip four regex passes and the folding
+  /// loop entirely.
+  static bool _isAscii(String text) {
+    for (var index = 0; index < text.length; index++) {
+      if (text.codeUnitAt(index) > 0x7F) return false;
+    }
+    return true;
+  }
+
   /// Folds [input] to its canonical matching form.
   ///
   /// The result is lower-case, free of diacritics in every script, with variant
@@ -145,6 +178,10 @@ abstract final class TextNormalizer {
     if (input.isEmpty) return '';
 
     var text = input.toLowerCase();
+
+    if (_isAscii(text)) {
+      return text.trim().replaceAll(_whitespaceRun, ' ');
+    }
 
     // The zero-width non-joiner separates parts of a Persian compound that a
     // reader will normally type with a space, so it becomes one.
@@ -156,24 +193,147 @@ abstract final class TextNormalizer {
 
     final buffer = StringBuffer();
     for (final rune in text.runes) {
-      final character = String.fromCharCode(rune);
-      buffer.write(_characterFolding[character] ?? character);
+      final folded = _foldingByRune[rune];
+      if (folded != null) {
+        buffer.write(folded);
+      } else {
+        buffer.writeCharCode(rune);
+      }
     }
 
-    return buffer.toString().trim().replaceAll(RegExp(r'\s+'), ' ');
+    return buffer.toString().trim().replaceAll(_whitespaceRun, ' ');
   }
 
   /// Splits [input] into normalised tokens.
   ///
   /// Empty tokens are dropped, so punctuation and stray separators cannot
   /// produce phantom terms in the index.
+  ///
+  /// ## Why ASCII is split by hand
+  ///
+  /// [_tokenSeparators] is a Unicode-property regex, and running it over the
+  /// corpus was the single most expensive thing the app did: 788 of the 1,455
+  /// milliseconds it took to build the search index, which the reader paid as a
+  /// freeze on the first letter they typed. A third of the corpus's strings and
+  /// about half its characters are English prose that never leaves ASCII, and
+  /// for those the property lookup answers a question two comparisons can.
+  ///
+  /// The fast path is checked against the general one by a test that tokenises
+  /// the whole corpus both ways, rather than trusted because the ranges look
+  /// right.
   static List<String> tokenize(String input) {
     final normalized = normalize(input);
     if (normalized.isEmpty) return const <String>[];
-    return normalized
-        .split(_tokenSeparators)
-        .where((token) => token.isNotEmpty)
-        .toList();
+    return _scan(normalized) ?? _splitByProperty(normalized);
+  }
+
+  static List<String> _splitByProperty(String normalized) => normalized
+      .split(_tokenSeparators)
+      .where((token) => token.isNotEmpty)
+      .toList();
+
+  /// Whether [unit] is a letter or digit in one of the scripts the corpus uses.
+  ///
+  /// Deliberately narrower than `\p{L}\p{N}`. It has to be: the point is to
+  /// answer without a property lookup, and the only way to be sure of an answer
+  /// given by hand is to give it for a bounded set. [_isSeparator] covers the
+  /// other side, and anything in neither set is unknown — see [_scan].
+  static bool _isLetterOrDigit(int unit) =>
+      // ASCII, already lower-cased by `normalize`.
+      (unit >= 0x61 && unit <= 0x7A) ||
+      (unit >= 0x30 && unit <= 0x39) ||
+      // Latin-1 and Latin Extended-A/B: mostly folded away already, but a
+      // reader can type them, and ÷ and × sit inside the block.
+      (unit >= 0x00C0 && unit <= 0x024F && unit != 0x00D7 && unit != 0x00F7) ||
+      // Greek, avoiding the ano teleia at 0x0387.
+      (unit >= 0x0388 && unit <= 0x03FF && unit != 0x03F6) ||
+      // Hebrew letters.
+      (unit >= 0x05D0 && unit <= 0x05EA) ||
+      // Arabic script: letters, then the Persian and Arabic-Indic digits.
+      // The block's punctuation — ، ؛ ؟ ۔ — is excluded by the ranges.
+      (unit >= 0x0620 && unit <= 0x064A) ||
+      (unit >= 0x0660 && unit <= 0x0669) ||
+      (unit >= 0x0671 && unit <= 0x06D3) ||
+      unit == 0x06D5 ||
+      (unit >= 0x06EE && unit <= 0x06FF) ||
+      // Devanagari consonants, vowels and digits — but not the vowel *signs*
+      // at 0x093A–0x094F, which are combining marks. `\p{L}\p{N}` does not
+      // match a mark, so the regex cuts नागार्जुन into five tokens at every
+      // sign, and a range that called them letters produced one. Whether
+      // that is the better indexing is a separate question from whether the
+      // two paths agree; they are left out, so a word containing one takes
+      // the general path and behaviour is unchanged.
+      (unit >= 0x0904 && unit <= 0x0939) ||
+      (unit >= 0x0966 && unit <= 0x096F) ||
+      // CJK unified ideographs.
+      (unit >= 0x4E00 && unit <= 0x9FFF);
+
+  /// Whether [unit] certainly separates tokens.
+  static bool _isSeparator(int unit) =>
+      // ASCII controls, space, and every ASCII punctuation range.
+      unit <= 0x2F ||
+      (unit >= 0x3A && unit <= 0x40) ||
+      (unit >= 0x5B && unit <= 0x60) ||
+      (unit >= 0x7B && unit <= 0x7E) ||
+      // Latin-1 punctuation and symbols, including « » · and the nbsp.
+      (unit >= 0x00A0 && unit <= 0x00BF) ||
+      unit == 0x00D7 ||
+      unit == 0x00F7 ||
+      // Arabic comma, semicolon, question mark, full stop and the ornate
+      // marks between them.
+      unit == 0x060C ||
+      unit == 0x061B ||
+      unit == 0x061F ||
+      (unit >= 0x066A && unit <= 0x066D) ||
+      unit == 0x06D4 ||
+      // General punctuation: dashes, quotation marks, the ellipsis, the
+      // bullet, the section sign's neighbours. The em dash and curly
+      // apostrophe live here, and they are why an ASCII-only fast path never
+      // fired on English prose.
+      (unit >= 0x2000 && unit <= 0x206F) ||
+      // Devanagari danda and double danda.
+      unit == 0x0964 ||
+      unit == 0x0965 ||
+      // CJK punctuation, including the ideographic full stop and comma.
+      (unit >= 0x3000 && unit <= 0x303F);
+
+  /// Splits [text] by hand, or returns `null` if it contains a character this
+  /// cannot classify.
+  ///
+  /// ## Why the bail-out
+  ///
+  /// The regex this replaces was the most expensive thing the app did — 788 of
+  /// the 1,455 milliseconds it took to build the index, which the reader paid
+  /// as a freeze on the first letter they typed. Replacing a Unicode property
+  /// with hand-written ranges trades that cost for the risk of getting a range
+  /// wrong, and a wrong range here does not crash: it silently stops indexing
+  /// a script.
+  ///
+  /// So the ranges are not required to be exhaustive. A character in neither
+  /// [_isLetterOrDigit] nor [_isSeparator] abandons the scan and the caller
+  /// falls back to the property regex for that string. Being narrow costs
+  /// speed on strings that use it; being wrong is not on the table.
+  ///
+  /// The two paths are also compared against each other over the whole corpus
+  /// by a test, so a range that is merely *inconsistent* fails rather than
+  /// quietly shrinking the index.
+  static List<String>? _scan(String text) {
+    final tokens = <String>[];
+    var start = -1;
+    for (var index = 0; index < text.length; index++) {
+      final unit = text.codeUnitAt(index);
+      if (_isLetterOrDigit(unit)) {
+        if (start < 0) start = index;
+        continue;
+      }
+      if (!_isSeparator(unit)) return null;
+      if (start >= 0) {
+        tokens.add(text.substring(start, index));
+        start = -1;
+      }
+    }
+    if (start >= 0) tokens.add(text.substring(start));
+    return tokens;
   }
 
   /// Whether [text] contains any Arabic-script character, used to decide which

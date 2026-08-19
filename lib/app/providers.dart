@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:philosophyy/app/settings/app_settings.dart';
 import 'package:philosophyy/core/search/search_index.dart';
+import 'package:philosophyy/core/search/text_normalizer.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/data/user/stored_user_data_repository.dart';
+import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/repositories/knowledge_repository.dart';
 import 'package:philosophyy/domain/repositories/user_data_repository.dart';
@@ -43,11 +45,43 @@ final corpusProvider = FutureProvider<KnowledgeBase>(
 ///
 /// Building the index is pure work over immutable data, so it is derived rather
 /// than stored, and rebuilt only if the corpus itself is ever replaced.
+///
+/// ## Why it is warmed rather than left to be asked for
+///
+/// A `Provider` is lazy, and [searchResultsProvider] returns early for an empty
+/// query without reading this one. So nothing built the index until the reader
+/// pressed the first key in the search box — and the build then ran on the UI
+/// isolate and held it for the better part of a second. Typing one letter and
+/// watching the app stop is precisely the "sluggish" the reader reported.
+///
+/// The work is the same work; the only question is when it is done.
+/// [warmSearchIndex] moves it to the moment the search screen opens, which is
+/// the last quiet moment before a reader can possibly need it.
 final searchIndexProvider = Provider<SearchIndex>((ref) {
   final corpus = ref.watch(corpusProvider).value;
   if (corpus == null) return SearchIndex.build(KnowledgeBase.empty);
   return SearchIndex.build(corpus);
 });
+
+/// Builds the search index ahead of the reader needing it.
+///
+/// Reading the provider is what builds it, and Riverpod caches the result, so
+/// this is a request rather than a value.
+///
+/// Called when the search screen appears rather than when the app starts. The
+/// screen is on the reader's path to typing and nothing else is: warming at
+/// launch would make every screen wait for a structure most sessions never
+/// touch, and would put the same cost into every widget test that opens the
+/// app. Warming here puts it in the gap between arriving at the search box and
+/// pressing a key, which is exactly where there is time to spare.
+///
+/// Does nothing if the corpus has not arrived yet — [searchIndexProvider]
+/// watches it and will rebuild when it does, so building now would only
+/// produce an index of nothing.
+void warmSearchIndex(WidgetRef ref) {
+  if (ref.read(corpusProvider).value == null) return;
+  ref.read(searchIndexProvider);
+}
 
 /// The reader's preferences, persisted on every change.
 final settingsProvider = NotifierProvider<SettingsController, AppSettings>(
@@ -161,6 +195,133 @@ class SearchQueryController extends Notifier<String> {
   /// Empties the query.
   void clear() => state = '';
 }
+
+/// Searches the reader has run before, most recent first.
+final recentSearchesProvider =
+    NotifierProvider<RecentSearchesController, List<String>>(
+      RecentSearchesController.new,
+    );
+
+/// Remembers what the reader looked for, so the search screen has something to
+/// offer before they type.
+///
+/// ## What counts as a search
+///
+/// Only a query the reader acted on — one where they opened a result. A live
+/// search box sees every prefix of every word, and a history built from
+/// keystrokes fills with `a`, `ar`, `ari`, `aris` and tells the reader nothing
+/// they did not already know a moment later.
+class RecentSearchesController extends Notifier<List<String>> {
+  /// Storage key for the history.
+  static const String storageKey = 'search.recent';
+
+  /// How many are kept.
+  ///
+  /// Short on purpose: this is a shortcut back to something the reader was just
+  /// doing, not a record of their reading. A long list is harder to scan than
+  /// retyping the word.
+  static const int limit = 6;
+
+  /// Separates entries in storage.
+  ///
+  /// A newline, because a query can contain anything else a reader can type —
+  /// including the commas and semicolons an obvious separator would use — but
+  /// cannot contain a line break: the field is single-line.
+  static const String _separator = '\n';
+
+  @override
+  List<String> build() {
+    final stored = ref.watch(sharedPreferencesProvider).getString(storageKey);
+    if (stored == null || stored.isEmpty) return const <String>[];
+    return stored
+        .split(_separator)
+        .where((entry) => entry.isNotEmpty)
+        .toList(growable: false);
+  }
+
+  /// Records [query], moving it to the front if it is already known.
+  ///
+  /// Comparison is case-insensitive and ignores surrounding space, so
+  /// searching "Plato" after "plato " does not produce two entries that look
+  /// identical to a reader.
+  Future<void> record(String query) async {
+    final trimmed = query.trim();
+    if (trimmed.isEmpty) return;
+    final folded = trimmed.toLowerCase();
+    final next = <String>[
+      trimmed,
+      for (final existing in state)
+        if (existing.toLowerCase() != folded) existing,
+    ];
+    state = next.length <= limit ? next : next.sublist(0, limit);
+    await _persist();
+  }
+
+  /// Forgets everything.
+  Future<void> clear() async {
+    state = const <String>[];
+    await _persist();
+  }
+
+  Future<void> _persist() => ref
+      .read(sharedPreferencesProvider)
+      .setString(storageKey, state.join(_separator));
+}
+
+/// Entries to offer a reader who has not typed anything yet.
+///
+/// ## Why these entries
+///
+/// The obvious thing is a hand-written list of famous names, and it would be a
+/// small lie: it would say "start here" on grounds that are really the editor's
+/// taste, and it would fossilise as the corpus grew. These are the entities the
+/// corpus itself connects to most — the ones the most articles point at — which
+/// is a fact about the material rather than an opinion about it, and which
+/// changes on its own as entries are added.
+final searchStartingPointsProvider = Provider<List<KnowledgeEntity>>((ref) {
+  final corpus = ref.watch(corpusProvider).value;
+  if (corpus == null) return const <KnowledgeEntity>[];
+
+  final entities = corpus.allEntities.toList();
+  entities.sort((a, b) {
+    final byConnections = corpus
+        .relationsFor(b.ref)
+        .length
+        .compareTo(corpus.relationsFor(a.ref).length);
+    // Ties break by name so the list is the same on every launch. A "suggested"
+    // row that reshuffles between visits reads as randomness, and a reader who
+    // saw something a moment ago should be able to find it again.
+    return byConnections != 0
+        ? byConnections
+        : a.name.en.toLowerCase().compareTo(b.name.en.toLowerCase());
+  });
+
+  return entities.take(8).toList(growable: false);
+});
+
+/// Completions for the word the reader is in the middle of typing.
+///
+/// [SearchIndex.suggestions] has existed since the index was written, is
+/// covered by tests, and was called by nothing — so a reader who typed
+/// «اپیک» saw whatever that prefix scored and no hint that «اپیکوری» was a
+/// word the corpus knows.
+///
+/// Only the last word is completed. The earlier words of a query are ones the
+/// reader has finished with, and offering to rewrite them turns a search box
+/// into an argument.
+final searchCompletionsProvider = Provider<List<String>>((ref) {
+  final query = ref.watch(searchQueryProvider);
+  final lastWord = query.split(RegExp(r'\s+')).last;
+  if (lastWord.isEmpty) return const <String>[];
+
+  final normalized = TextNormalizer.normalize(lastWord);
+  return ref
+      .watch(searchIndexProvider)
+      .suggestions(lastWord)
+      // A completion identical to what is already typed is not a completion.
+      .where((suggestion) => suggestion != normalized)
+      .toList(growable: false);
+});
 
 /// Results for the live query, recomputed as the reader types.
 final searchResultsProvider = Provider<List<SearchHit>>((ref) {

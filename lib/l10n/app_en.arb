@@ -24,6 +24,22 @@
   "@navSettings": {
     "description": "Bottom navigation label for settings."
   },
+  "searchRecentTitle": "Recent searches",
+  "@searchRecentTitle": {
+    "description": "Heading above the reader's previous searches."
+  },
+  "searchRecentClear": "Clear",
+  "@searchRecentClear": {
+    "description": "Button that forgets the search history."
+  },
+  "searchStartingPointsTitle": "Most connected",
+  "@searchStartingPointsTitle": {
+    "description": "Heading above the entries the corpus links to most, offered as somewhere to begin."
+  },
+  "searchCompletionsTitle": "Keep typing",
+  "@searchCompletionsTitle": {
+    "description": "Heading above word completions for a partly typed query."
+  },
   "searchHint": "Philosophers, ideas, works…",
   "@searchHint": {
     "description": "Placeholder inside the search field."
