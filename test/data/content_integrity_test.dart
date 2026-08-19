@@ -377,6 +377,50 @@ void main() {
   });
 
   group('Coverage', () {
+    test('no article is a dead end', () {
+      // An article with nothing to press leaves a reader at the end of a
+      // corridor: back is the only move. Forty-eight philosophers were in
+      // that state — no concepts, no works, no school, no relations — and
+      // nothing failed, because every one of them was internally valid.
+      //
+      // Traditions and branches count, since the chips carrying them open
+      // Explore filtered to that term. They are also the only route that does
+      // not depend on an entry having been given cross-references by hand,
+      // which is why every entry is required to carry at least one.
+      final stranded = <String>[];
+      for (final entity in corpus.allEntities) {
+        final ways =
+            entity.traditions.length +
+            entity.branches.length +
+            corpus.relationsFor(entity.ref).length;
+        if (ways == 0) stranded.add(entity.ref.toString());
+      }
+      expect(
+        stranded,
+        isEmpty,
+        reason:
+            'these articles offer the reader nowhere to go:\n  '
+            '${stranded.join('\n  ')}',
+      );
+    });
+
+    test('a philosopher listed in a school lists the school back', () {
+      // The link is rendered from the philosopher's own record, so a
+      // membership recorded only on the school's side is invisible on the
+      // page where a reader would look for it.
+      final missing = <String>[];
+      for (final school in corpus.schools) {
+        for (final id in school.memberIds) {
+          final philosopher = corpus.philosopher(id);
+          if (philosopher == null) continue;
+          if (!philosopher.schoolIds.contains(school.id)) {
+            missing.add('${philosopher.id} is a member of ${school.id}');
+          }
+        }
+      }
+      expect(missing, isEmpty, reason: missing.join('\n'));
+    });
+
     test('the corpus is not confined to one tradition', () {
       // A product claiming to cover world philosophy fails silently if its
       // content drifts back toward the European canon, because nothing breaks.

@@ -11,6 +11,7 @@ import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/features/entity/entity_screen.dart';
+import 'package:philosophyy/features/explore/explore_screen.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -103,6 +104,34 @@ void main() {
   });
 
   group('Navigation', () {
+    testWidgets('a tradition chip on an article opens Explore', (tester) async {
+      // The chips naming an entry's tradition and branches were inert. That
+      // was invisible to every test and to the compiler, and it mattered most
+      // on the forty-eight philosopher pages that had no concepts, no works,
+      // no school and no relations: from those, a reader had nowhere to go
+      // but back.
+      tester.view.physicalSize = const Size(1000, 3000);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.reset);
+
+      await pumpApp(tester);
+      await tester.tap(find.byType(EntityCard).first);
+      await tester.pumpAndSettle();
+      expect(find.byType(EntityScreen), findsOneWidget);
+
+      final chip = find.byType(TagChip).first;
+      expect(chip, findsOneWidget, reason: 'the article shows no tag chips');
+      await tester.tap(chip);
+      await tester.pumpAndSettle();
+
+      expect(
+        find.byType(ExploreScreen),
+        findsOneWidget,
+        reason: 'tapping a tag chip did not open Explore',
+      );
+      expect(tester.takeException(), isNull);
+    });
+
     testWidgets('a reader can open an article and come back', (tester) async {
       // A viewport tall enough that the "Start here" cards are on screen. The
       // default 800×600 test surface puts them below the fold, and scrolling

@@ -493,7 +493,8 @@
       },
       "concepts": ["essence-existence-distinction"],
       "works": ["isharat"],
-      "citations": [{ "source": "sep" }]
+      "citations": [{ "source": "sep" }],
+      "schools": ["aristotelianism"]
     },
     {
       "id": "al-ghazali",

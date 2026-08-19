@@ -119,6 +119,10 @@
   "@sectionWorks": {
     "description": "Heading for a philosopher's works."
   },
+  "sectionSchools": "Schools",
+  "@sectionSchools": {
+    "description": "Heading over the schools a philosopher belongs to."
+  },
   "sectionConcepts": "Key ideas",
   "@sectionConcepts": {
     "description": "Heading for related concepts."

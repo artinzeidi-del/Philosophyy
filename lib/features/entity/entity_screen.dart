@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:philosophyy/app/providers.dart';
+import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/glow_segments.dart';
@@ -422,8 +423,28 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         .map(corpus.concept)
         .whereType<Concept>()
         .toList();
+    // Schools were parsed from the corpus and then dropped on the floor: a
+    // philosopher's page never said which traditions of thought they belong
+    // to, though the data was sitting on the record. For several entries it
+    // is the only outbound link they have.
+    final schools = philosopher.schoolIds
+        .map(corpus.school)
+        .whereType<School>()
+        .toList();
 
     return <Widget>[
+      if (schools.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionSchools,
+          children: <Widget>[
+            for (final school in schools)
+              EntityCard(
+                title: school.name.resolve(language),
+                summary: school.oneLine.resolve(language),
+                onTap: () => context.push(school.ref.route),
+              ),
+          ],
+        ),
       if (concepts.isNotEmpty)
         _CardSection(
           title: l10n.sectionConcepts,
@@ -663,13 +684,29 @@ class _Header extends StatelessWidget {
             spacing: Spacing.xs,
             runSpacing: Spacing.xs,
             children: <Widget>[
+              // The chips are the only route out of an article that does not
+              // depend on the entry having been given cross-references, and
+              // forty-eight philosophers had none — from those pages a reader
+              // could go nowhere but back. They open Explore filtered to the
+              // term they name.
               for (final tradition in entity.traditions)
                 TagChip(
                   label: taxonomy.nameOf(tradition).resolve(language),
                   emphasised: true,
+                  // `go`, not `push`: Explore is a tab in the shell, and
+                  // pushing another branch's route onto this branch's
+                  // navigator duplicates its key and throws.
+                  onTap: () => context.go(
+                    '${AppRouter.explore}?axis=tradition&term=$tradition',
+                  ),
                 ),
               for (final branch in entity.branches)
-                TagChip(label: taxonomy.nameOf(branch).resolve(language)),
+                TagChip(
+                  label: taxonomy.nameOf(branch).resolve(language),
+                  onTap: () => context.go(
+                    '${AppRouter.explore}?axis=branch&term=$branch',
+                  ),
+                ),
             ],
           ),
       ],

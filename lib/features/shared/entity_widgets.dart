@@ -20,9 +20,19 @@ import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
-/// A small, non-interactive label — a branch, a tradition, an era.
+/// A small label — a branch, a tradition, an era.
+///
+/// Interactive only where [onTap] is given. On an article the chips name the
+/// tradition and the branches the entry is filed under, and those are the
+/// obvious next places to go, so there they navigate; used as a caption
+/// elsewhere they stay inert.
 class TagChip extends StatelessWidget {
-  const TagChip({required this.label, this.emphasised = false, super.key});
+  const TagChip({
+    required this.label,
+    this.emphasised = false,
+    this.onTap,
+    super.key,
+  });
 
   /// The text to show.
   final String label;
@@ -30,17 +40,21 @@ class TagChip extends StatelessWidget {
   /// Whether this tag is the most significant one on its row.
   final bool emphasised;
 
+  /// Where this tag leads, if anywhere.
+  final VoidCallback? onTap;
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
+    final tap = onTap;
 
     // Both variants are glass pills. The emphasised one is not a solid block
     // of the container colour — that was legible but it read as a filled
     // button sitting among the glass, and a tag is not something to press. It
     // is tinted, outlined and lettered in the accent instead, which says
     // "this one matters" without changing what kind of object it is.
-    return Container(
+    final pill = Container(
       padding: const EdgeInsets.symmetric(
         horizontal: Spacing.md,
         vertical: Spacing.xs,
@@ -60,6 +74,21 @@ class TagChip extends StatelessWidget {
         label,
         style: theme.textTheme.labelSmall?.copyWith(
           color: emphasised ? scheme.primary : scheme.onSurfaceVariant,
+        ),
+      ),
+    );
+
+    if (tap == null) return pill;
+    return Semantics(
+      button: true,
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: const BorderRadius.all(Radius.circular(Radii.pill)),
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: tap,
+          borderRadius: const BorderRadius.all(Radius.circular(Radii.pill)),
+          child: pill,
         ),
       ),
     );
