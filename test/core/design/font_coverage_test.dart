@@ -101,8 +101,99 @@ Set<int> _contentCharacters() {
     }
   }
 
+  // And the literals written into the widgets themselves. The conclusion of
+  // an argument was marked with the therefore symbol, which no bundled font
+  // draws: Flutter web answers a missing glyph by fetching a Noto face from
+  // Google, so a single character in one widget made an offline reference
+  // work phone out on every article with an argument in it, and drew a broken
+  // box while it waited. Nothing caught it, because this check read the
+  // content and the translations and never the source.
+  //
+  // Only string literals count. Comments are excluded deliberately — this
+  // very explanation names the character it is about.
+  for (final entry in Directory('lib').listSync(recursive: true)) {
+    if (entry is! File || !entry.path.endsWith('.dart')) continue;
+    // Generated from the .arb files, which are already covered above.
+    if (entry.path.contains('/generated/')) continue;
+    // The normaliser's folding tables are the one place where a character is
+    // a key rather than something drawn: a reader who types ṝ is answered
+    // with entries spelled r, and the app never prints the character back.
+    if (entry.path.endsWith('core/search/text_normalizer.dart')) continue;
+    found.addAll(_stringLiteralRunes(entry.readAsStringSync()));
+  }
+
   // Control characters are not drawn and have no glyph anywhere.
   found.removeWhere((rune) => rune < 0x20 || (rune >= 0x7F && rune <= 0x9F));
+  return found;
+}
+
+/// The runes inside string literals in a Dart source file.
+///
+/// A small scanner rather than a regular expression: quotes appear inside
+/// comments and comment markers appear inside quotes, and a pattern that
+/// ignores the difference reports characters the app never prints.
+Set<int> _stringLiteralRunes(String source) {
+  final found = <int>{};
+  final units = source.runes.toList();
+
+  var index = 0;
+  while (index < units.length) {
+    final rune = units[index];
+    final next = index + 1 < units.length ? units[index + 1] : -1;
+
+    // Comments run to the end of the line, or to the closing marker.
+    if (rune == 0x2F && next == 0x2F) {
+      while (index < units.length && units[index] != 0x0A) {
+        index++;
+      }
+      continue;
+    }
+    if (rune == 0x2F && next == 0x2A) {
+      index += 2;
+      while (index + 1 < units.length &&
+          !(units[index] == 0x2A && units[index + 1] == 0x2F)) {
+        index++;
+      }
+      index += 2;
+      continue;
+    }
+
+    if (rune == 0x27 || rune == 0x22) {
+      final quote = rune;
+      // Triple-quoted strings close only on a matching triple.
+      final triple =
+          next == quote &&
+          index + 2 < units.length &&
+          units[index + 2] == quote;
+      index += triple ? 3 : 1;
+      while (index < units.length) {
+        final current = units[index];
+        if (current == 0x5C) {
+          // An escape consumes the character after it, so a quote cannot end
+          // the string here.
+          index += 2;
+          continue;
+        }
+        if (current == quote) {
+          if (!triple) {
+            index++;
+            break;
+          }
+          if (index + 2 < units.length &&
+              units[index + 1] == quote &&
+              units[index + 2] == quote) {
+            index += 3;
+            break;
+          }
+        }
+        found.add(current);
+        index++;
+      }
+      continue;
+    }
+
+    index++;
+  }
   return found;
 }
 

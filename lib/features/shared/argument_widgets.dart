@@ -109,7 +109,7 @@ class _ArgumentPanelState extends State<ArgumentPanel> {
           const SizedBox(height: Spacing.md),
           _Label(l10n.argumentConclusion),
           _Statement(
-            marker: '∴',
+            marker: conclusionMarker,
             statement: argument.conclusion,
             language: language,
             emphasised: true,
@@ -166,6 +166,18 @@ class _ArgumentPanelState extends State<ArgumentPanel> {
     );
   }
 }
+
+/// The siglum standing for the conclusion, beside the P1, P2 … of the
+/// premises.
+///
+/// It was the therefore symbol, ∴, which no bundled font has a glyph for.
+/// Flutter web answers a missing glyph by downloading a Noto face from
+/// Google's servers, so one character in a widget turned a self-contained,
+/// offline-capable reference work into one that reached out to a third party
+/// on every article carrying an argument — and drew a broken box in the
+/// meantime. Latin sigla are already the convention here, P being Latin in
+/// the Persian interface too.
+const String conclusionMarker = 'C';
 
 /// One premise or conclusion, with its marker and optional plain restatement.
 class _Statement extends StatelessWidget {
@@ -258,7 +270,7 @@ class _ObjectionBlock extends StatelessWidget {
     final targets = <String>[
       for (final id in objection.targetStatementIds)
         if (argument.conclusion.id == id)
-          '∴'
+          conclusionMarker
         else
           'P${argument.premises.indexWhere((p) => p.id == id) + 1}',
     ].where((label) => label != 'P0').toList();
