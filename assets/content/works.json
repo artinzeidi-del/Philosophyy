@@ -7856,6 +7856,464 @@
       },
       "editions": ["text-idea-of-justice", "text-development-as-freedom"],
       "citations": [{ "source": "text-idea-of-justice" }]
+    },
+    {
+      "id": "kitab-al-manazir",
+      "title": { "en": "Book of Optics", "fa": "کتاب المناظر" },
+      "originalTitle": "كتاب المناظر",
+      "transliteration": "Kitāb al-manāẓir",
+      "alsoKnownAs": ["De aspectibus", "Perspectiva"],
+      "author": "ibn-al-haytham",
+      "oneLine": {
+        "en": "Settles how vision works by experiment, and states a method of inquiry along the way.",
+        "fa": "با آزمایش روشن می‌کند دیدن چگونه کار می‌کند، و در راه، روشی برای پژوهش می‌گوید."
+      },
+      "composed": { "start": { "year": 1021, "precision": "circa" } },
+      "traditions": ["islamic"],
+      "branches": [
+        "philosophy-of-science",
+        "epistemology",
+        "philosophy-of-mind",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The Greeks had two rival theories: that the eye emits something which reaches the object, or that the object sends something to the eye. Ibn al-Haytham settles it by experiment — a dark room, a small aperture, an inverted image on the far wall — and shows that light travels from the object into the eye, which nothing before him had demonstrated.",
+              "fa": "یونانیان دو نظریه رقیب داشتند: اینکه چشم چیزی می‌فرستد که به آن شیء می‌رسد، یا اینکه آن شیء چیزی به چشم می‌فرستد. ابن هیثم با آزمایش تکلیف را روشن می‌کند؛ اتاقی تاریک، روزنه‌ای کوچک، تصویری وارونه بر دیوار روبه‌رو؛ و نشان می‌دهد نور از شیء به چشم می‌آید، که پیش از او کسی نشانش نداده بود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The methodological statement matters as much as the result. He says that the seeker after truth must not simply follow the writings of predecessors, and must suspect his own findings as much as theirs, because a person examining a claim is inclined to favour it. So the procedure is to vary the conditions deliberately and see whether the result survives.",
+              "fa": "آن گفته روش‌شناختی به اندازه خود نتیجه اهمیت دارد. می‌گوید جوینده حقیقت نباید صرفا از نوشته‌های پیشینیان پیروی کند، و باید به یافته‌های خودش همان اندازه بدگمان باشد که به یافته‌های آنان، چون کسی که ادعایی را وارسی می‌کند به جانبداری از آن گرایش دارد. پس آن روند این است که شرایط را عمدا تغییر دهی و ببینی نتیجه دوام می‌آورد یا نه."
+            },
+            "citations": [
+              { "source": "text-kitab-al-manazir", "locator": "Book I, ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His account of perception is philosophically substantial and often overlooked. Seeing, he argues, is not a passive impression: what reaches the eye is a pattern of light, and recognising a shape as a shape involves judgement and inference performed so quickly that it is not noticed. That places a cognitive step inside ordinary vision, which is a position that had to be rediscovered several times.\n\nThe biography includes a story that may be true. Having claimed that the Nile could be regulated, he was summoned to Egypt by the caliph al-Ḥākim, saw the terrain, understood the project was impossible with the means available, and is reported to have feigned madness until the caliph died — spending the years under house arrest, which is when the Optics was written. The report is late enough that scholars treat it with caution, and it is repeated more confidently than the sources warrant.",
+              "fa": "شرح او از ادراک از نظر فلسفی جدی است و بارها نادیده می‌ماند. می‌گوید دیدن اثرپذیری منفعل نیست: آنچه به چشم می‌رسد الگویی از نور است، و بازشناختن یک شکل چون یک شکل، داوری و استنتاجی را در بر دارد که چنان تند انجام می‌شود که به چشم نمی‌آید. همین گامی شناختی را درون دیدن معمولی می‌نشاند، و این موضعی است که چند بار باید از نو کشف می‌شد.\n\nزندگی‌نامه‌اش داستانی دارد که شاید راست باشد. پس از ادعای اینکه می‌توان نیل را مهار کرد، خلیفه الحاکم او را به مصر خواند، زمین را دید، فهمید آن طرح با ابزار موجود ناممکن است، و گزارش می‌شود که خود را به دیوانگی زد تا خلیفه مرد؛ و آن سال‌ها را در حبس خانگی گذراند، که همان زمان نوشتن «المناظر» است. این گزارش چندان دیرهنگام است که پژوهشگران با احتیاط می‌گیرندش، و مطمئن‌تر از آنچه منابع اجازه می‌دهند تکرار می‌شود."
+            },
+            "citations": [
+              { "source": "text-al-shukuk-ala-batlamyus", "locator": "opening" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-kitab-al-manazir", "text-al-shukuk-ala-batlamyus"],
+      "citations": [{ "source": "text-kitab-al-manazir" }]
+    },
+    {
+      "id": "tahqiq-ma-li-l-hind",
+      "title": { "en": "The Book of India", "fa": "تحقیق ما للهند" },
+      "originalTitle": "تحقيق ما للهند من مقولة مقبولة في العقل أو مرذولة",
+      "transliteration": "Taḥqīq mā li-l-Hind",
+      "alsoKnownAs": ["India", "Alberuni's India"],
+      "author": "al-biruni",
+      "oneLine": {
+        "en": "A study of Indian thought written by someone who learned Sanskrit in order to get it right.",
+        "fa": "پژوهشی درباره اندیشه هند از کسی که سنسکریت آموخت تا درست بفهمدش."
+      },
+      "composed": { "start": { "year": 1030, "precision": "circa" } },
+      "traditions": ["islamic", "persian", "indian"],
+      "branches": [
+        "comparative-philosophy",
+        "philosophy-of-religion",
+        "epistemology",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Bīrūnī states his method at the start: he will report what Indians say in their own terms and will translate their books rather than summarise hearsay, and where he disagrees he will say so separately. He is describing a discipline that did not have a name and would not be practised systematically again for a very long time.",
+              "fa": "بیرونی روشش را در آغاز می‌گوید: آنچه را هندیان می‌گویند با اصطلاح‌های خودشان گزارش می‌کند و کتاب‌هایشان را ترجمه می‌کند نه اینکه شنیده‌ها را خلاصه کند، و هر جا مخالف باشد جداگانه می‌گوید. او انضباطی را وصف می‌کند که نامی نداشت و تا مدت‌ها بعد دوباره نظام‌مند ورزیده نشد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The comparative sections are the philosophically interesting ones. He sets Indian doctrines beside Greek ones — Sāṃkhya against the Neoplatonists, the Indian view of the soul against Plato — not to rank them but because he thinks a reader understands an unfamiliar position best when it is placed next to one they already hold.",
+              "fa": "بخش‌های تطبیقی همان‌هایند که از نظر فلسفی جالب‌اند. آموزه‌های هندی را کنار یونانی می‌نهد، سانکهیه را در برابر نوافلاطونیان و دیدگاه هندی درباره نفس را در برابر افلاطون، نه برای رتبه‌دادن، بلکه چون می‌پندارد خواننده موضعی ناآشنا را وقتی بهتر می‌فهمد که کنار موضعی که از پیش دارد نهاده شود."
+            },
+            "citations": [
+              { "source": "text-tahqiq-ma-li-l-hind", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He does not pretend to neutrality and that is part of the honesty. He is blunt about what he considers superstition, criticises Indian astronomers for mixing计算 with mythology, and is equally blunt about Muslim rulers, writing that Mahmud's raids scattered Indian learning and made Hindus deeply suspicious of Muslims — a sentence written while employed at Mahmud's court.\n\nSetting his practice against the ordinary standard of his time makes it look stranger, not less so. Most accounts of foreign religions in any medieval literature were written to refute, from translations made by opponents. Bīrūnī learned the language, sought out scholars, quoted his sources by name, and distinguished between what educated Indians held and what he was told in markets — and then said plainly which parts he could not verify.",
+              "fa": "وانمود به بی‌طرفی نمی‌کند و این بخشی از همان صداقت است. درباره آنچه خرافه می‌داند رک است، اخترشناسان هندی را برای آمیختن محاسبه با اسطوره نقد می‌کند، و درباره فرمانروایان مسلمان هم به همان اندازه رک است و می‌نویسد یورش‌های محمود دانش هند را پراکند و هندوان را نسبت به مسلمانان سخت بدگمان کرد؛ جمله‌ای که در حال خدمت در دربار محمود نوشته شده.\n\nنهادن رویه او در برابر معیار معمول روزگارش آن را غریب‌تر می‌نماید نه کمتر. بیشتر گزارش‌های دین‌های بیگانه در هر ادبیات سده‌های میانه برای ردکردن نوشته می‌شد، از روی ترجمه‌هایی به دست مخالفان. بیرونی آن زبان را آموخت، دانشمندان را یافت، منابعش را با نام نقل کرد، و میان آنچه هندیان تحصیل‌کرده باور داشتند و آنچه در بازار به او گفته بودند فرق نهاد، و آنگاه آشکارا گفت کدام بخش‌ها را نتوانسته وارسی کند."
+            },
+            "citations": [
+              { "source": "text-al-athar-al-baqiya", "locator": "introduction" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-tahqiq-ma-li-l-hind", "text-al-athar-al-baqiya"],
+      "citations": [{ "source": "text-tahqiq-ma-li-l-hind" }]
+    },
+    {
+      "id": "akhlaq-i-nasiri",
+      "title": { "en": "The Nasirean Ethics", "fa": "اخلاق ناصری" },
+      "originalTitle": "اخلاق ناصری",
+      "transliteration": "Akhlāq-i Nāṣirī",
+      "author": "nasir-al-din-tusi",
+      "oneLine": {
+        "en": "Ethics, household management and politics in one Persian treatise, built on a Greek frame.",
+        "fa": "اخلاق و تدبیر منزل و سیاست در یک رساله فارسی، بر قابی یونانی."
+      },
+      "composed": { "start": { "year": 1235, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "social-philosophy",
+        "philosophy-of-education"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ṭūsī began it as a translation of an earlier Arabic work and turned it into something of his own, in Persian, in three parts: the refinement of character, the ordering of a household, and the governance of a city. It became the standard ethical text in Persian for centuries.",
+              "fa": "طوسی آن را چون ترجمه اثری عربی آغاز کرد و به چیزی از آن خود بدل کرد، به فارسی، در سه بخش: تهذیب اخلاق، تدبیر منزل، و سیاست مدن. سده‌ها متن استاندارد اخلاق به فارسی شد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The structure carries a claim: character, household and city are the same problem at three scales, and none of them can be got right in isolation. A just city is not an aggregate of just individuals only, since the arrangements a person lives inside form the character that then sustains or wrecks them.",
+              "fa": "این ساختار ادعایی می‌برد: منش و خانواده و شهر یک مسئله‌اند در سه مقیاس، و هیچ‌یک را جدا نمی‌توان درست کرد. شهر عادل تنها جمع افراد عادل نیست، چون ترتیباتی که آدمی درونشان می‌زید همان منشی را می‌سازد که سپس نگاهشان می‌دارد یا ویرانشان می‌کند."
+            },
+            "citations": [
+              { "source": "text-akhlaq-i-nasiri", "locator": "Discourse I" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His life is the hardest thing to assess and it should not be smoothed over. Ṭūsī spent years in Ismāʿīlī fortresses, where much of this book was written, and then served Hülegü during the Mongol campaign that destroyed those same fortresses and took Baghdad in 1258. Accounts differ sharply on whether he was a captive who changed sides, a survivor making the only available choice, or an advisor who encouraged the conquest.\n\nWhat is not in dispute is what he did afterwards. He obtained funding for the observatory at Marāgha, assembled instruments and astronomers from as far as China, and produced planetary models — the device now called the Ṭūsī couple among them — that appear later in Copernicus in a form close enough that transmission is widely suspected and not proven. A philosopher's political record and his scientific one can be assessed separately, and in this case both are unusually well documented.",
+              "fa": "زندگی او دشوارترین چیز برای داوری است و نباید هموارش کرد. طوسی سال‌هایی را در دژهای اسماعیلی گذراند، که بخش زیادی از این کتاب همان‌جا نوشته شد، و سپس در لشکرکشی مغول که همان دژها را ویران کرد و در ۱۲۵۸ بغداد را گرفت در خدمت هولاکو بود. گزارش‌ها سخت اختلاف دارند که او اسیری بود که سو عوض کرد، یا بازمانده‌ای که تنها گزینه موجود را برگزید، یا مشاوری که آن فتح را تشویق کرد.\n\nآنچه محل نزاع نیست کاری است که پس از آن کرد. برای رصدخانه مراغه بودجه گرفت، ابزار و اخترشناسان را از دوردست‌هایی چون چین گرد آورد، و مدل‌های سیاره‌ای ساخت، از جمله ابزاری که امروز «جفت طوسی» خوانده می‌شود، که بعدها در کوپرنیک به صورتی چنان نزدیک پیدا می‌شود که انتقال را بسیاری گمان می‌برند و اثبات نشده است. کارنامه سیاسی یک فیلسوف و کارنامه علمی‌اش را می‌توان جدا سنجید، و در این مورد هر دو به‌طور غیرمعمول مستندند."
+            },
+            "citations": [
+              { "source": "text-tajrid-al-itiqad", "locator": "section 1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-akhlaq-i-nasiri", "text-tajrid-al-itiqad"],
+      "citations": [{ "source": "text-akhlaq-i-nasiri" }]
+    },
+    {
+      "id": "tadbir-al-mutawahhid",
+      "title": { "en": "The Governance of the Solitary", "fa": "تدبیر المتوحد" },
+      "originalTitle": "تدبير المتوحد",
+      "transliteration": "Tadbīr al-mutawaḥḥid",
+      "author": "ibn-bajja",
+      "oneLine": {
+        "en": "Asks how a philosopher should live when the city he lives in cannot be reformed.",
+        "fa": "می‌پرسد فیلسوف چگونه باید بزید وقتی شهری که در آن می‌زید اصلاح‌پذیر نیست."
+      },
+      "composed": { "start": { "year": 1130, "precision": "circa" } },
+      "traditions": ["islamic"],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "philosophy-of-mind",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Fārābī had described the virtuous city. Ibn Bājja takes the case Fārābī left open: what if you are not in one and cannot make one. His answer is that a person can govern themselves as a city is governed, and that such a person is a stranger in their own society without being a hermit.",
+              "fa": "فارابی شهر فاضله را وصف کرده بود. ابن باجه موردی را برمی‌گیرد که فارابی باز گذاشته بود: اگر در چنین شهری نباشی و نتوانی بسازی‌اش چه. پاسخش این است که آدمی می‌تواند خود را چنان تدبیر کند که شهری تدبیر می‌شود، و چنین کسی در جامعه خودش بیگانه است بی‌آنکه گوشه‌نشین باشد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The solitary is not asked to withdraw. Ibn Bājja calls such people the weeds of the city — his own image, and not a compliment from the city's side — plants that grow where they were not planted, and he says their presence is how a better arrangement could begin, since they are the only ones holding the standard by which the current one is deficient.",
+              "fa": "از این تنها خواسته نمی‌شود کناره بگیرد. ابن باجه چنین کسانی را «علف‌های هرز شهر» می‌خواند، که تصویر خود اوست و از سوی شهر تعریف نیست؛ گیاهانی که آنجا می‌رویند که کاشته نشده‌اند، و می‌گوید حضورشان همان است که سامانی بهتر می‌تواند از آن آغاز شود، چون تنها کسانی‌اند که معیاری را نگاه داشته‌اند که سامان کنونی با آن ناقص است."
+            },
+            "citations": [
+              { "source": "text-tadbir-al-mutawahhid", "locator": "section 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The book is unfinished, as most of his work is. He died at about forty, reportedly poisoned, and what survives comes through manuscripts that break off. Ibn Ṭufayl says of him that he was the most gifted of them and that he wasted his time on other things, which is a complaint from a successor who had to reconstruct the argument.\n\nThe idea travelled directly. Ḥayy ibn Yaqẓān is the same problem given a plot, and Ibn Ṭufayl's ending — the philosopher who tries to teach the islanders and fails — is a verdict on this book's position. Ibn Rushd read both and moved the emphasis back toward the community, arguing that philosophy needs a legal framework to protect it rather than a private strategy for surviving without one.",
+              "fa": "این کتاب ناتمام است، چنانکه بیشتر کار اوست. در حدود چهل سالگی مرد، و گزارش شده که مسمومش کردند، و آنچه مانده از راه دست‌نویس‌هایی می‌آید که ناگهان می‌برند. ابن طفیل درباره‌اش می‌گوید که بااستعدادترینشان بود و وقتش را بر چیزهای دیگر تلف کرد، و این شکایت جانشینی است که ناچار شد آن استدلال را بازسازی کند.\n\nاین فکر مستقیم سفر کرد. «حی بن یقظان» همان مسئله است که پیرنگی گرفته، و پایان ابن طفیل، یعنی فیلسوفی که می‌کوشد به مردم جزیره بیاموزد و ناکام می‌ماند، داوری‌ای است درباره موضع این کتاب. ابن رشد هر دو را خواند و تأکید را به سوی جامعه بازگرداند و گفت فلسفه به چارچوبی حقوقی برای پاسداری از خود نیاز دارد نه به راهبردی خصوصی برای دوام‌آوردن بی‌آن."
+            },
+            "citations": [
+              { "source": "text-tadbir-al-mutawahhid", "locator": "section 4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-tadbir-al-mutawahhid"],
+      "citations": [{ "source": "text-tadbir-al-mutawahhid" }]
+    },
+    {
+      "id": "justification-of-the-good",
+      "title": { "en": "The Justification of the Good", "fa": "توجیه خیر" },
+      "originalTitle": "Оправдание добра",
+      "transliteration": "Opravdanie dobra",
+      "author": "solovyov",
+      "oneLine": {
+        "en": "Builds an ethics upward from three basic feelings and ends with an argument about international politics.",
+        "fa": "اخلاقی را از سه احساس بنیادی رو به بالا می‌سازد و به استدلالی درباره سیاست بین‌الملل می‌رسد."
+      },
+      "composed": { "start": { "year": 1897, "precision": "exact" } },
+      "traditions": ["russian", "christian"],
+      "branches": [
+        "ethics",
+        "philosophy-of-religion",
+        "political-philosophy",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Solovyov starts from three feelings he takes to be universal and irreducible: shame, which is a relation to what is below us; pity, which is a relation to what is beside us; and reverence, which is a relation to what is above. Every moral requirement, he argues, is a development of one of these.",
+              "fa": "سولوویف از سه احساس آغاز می‌کند که کلی و فروکاست‌ناپذیرشان می‌داند: شرم، که نسبتی است با آنچه فرودست ماست؛ ترحم، که نسبتی است با آنچه کنار ماست؛ و حرمت، که نسبتی است با آنچه فرادست ماست. می‌گوید هر الزام اخلاقی گسترشی از یکی از این‌هاست."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The move that matters is his refusal to found ethics on religion in the order of knowing. He argues the moral sense is available to anyone and does not require a prior belief in God — while also holding that its full account leads to one. That order allows him to argue with unbelievers without asking them to concede anything first.",
+              "fa": "حرکتی که اهمیت دارد امتناع او از بنانهادن اخلاق بر دین در ترتیب شناخت است. می‌گوید حس اخلاقی برای هر کس در دسترس است و باور پیشین به خدا نمی‌خواهد، و در همان حال می‌گوید شرح تمامش به یکی می‌رسد. همین ترتیب به او امکان می‌دهد با بی‌باوران بحث کند بی‌آنکه از آنان بخواهد نخست چیزی را بپذیرند."
+            },
+            "citations": [
+              {
+                "source": "text-justification-of-the-good",
+                "locator": "Part I, ch. 1"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His late work turned dark and it is the part usually read now. Having spent a career arguing that history moves toward a unification of humanity, he wrote at the end a short narrative in which that unification arrives — a benevolent world ruler who solves poverty and war and asks only that the churches recognise him. The point is that the counterfeit is nearly indistinguishable from the thing hoped for, and he had spent decades hoping for it.\n\nHe is also the author of a strong argument against a certain kind of moralised pacifism: that refusing to use force against an aggressor is not innocence but the transfer of the cost onto the victim. He raises this against Tolstoy by name, and the exchange between them is one of the sharpest in Russian thought, made harder by the fact that both were arguing from the same Gospel.",
+              "fa": "کار متأخر او تیره شد و همان بخشی است که امروز بیشتر خوانده می‌شود. پس از عمری استدلال بر اینکه تاریخ به سوی یگانگی بشر می‌رود، در پایان روایتی کوتاه نوشت که در آن آن یگانگی می‌رسد؛ فرمانروایی جهانی و نیکوکار که فقر و جنگ را حل می‌کند و تنها می‌خواهد کلیساها به رسمیتش بشناسند. نکته این است که آن بدل تقریبا از آنچه امیدش می‌رفت تشخیص‌ناپذیر است، و او ده‌ها سال امیدش را داشت.\n\nنویسنده استدلالی قوی بر ضد گونه‌ای صلح‌طلبی اخلاقی‌شده هم هست: اینکه سر باز زدن از به‌کاربردن زور در برابر متجاوز بی‌گناهی نیست، انتقال هزینه به قربانی است. این را با نام در برابر تولستوی پیش می‌کشد، و داد و ستد میان آن دو از تیزترین‌ها در اندیشه روسی است، و اینکه هر دو از یک انجیل استدلال می‌کردند دشوارترش می‌کند."
+            },
+            "citations": [
+              { "source": "text-tale-of-the-antichrist", "locator": "closing" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-justification-of-the-good",
+        "text-tale-of-the-antichrist"
+      ],
+      "citations": [{ "source": "text-justification-of-the-good" }]
+    },
+    {
+      "id": "meaning-of-creative-act",
+      "title": {
+        "en": "The Meaning of the Creative Act",
+        "fa": "معنای کنش آفرینشگر"
+      },
+      "originalTitle": "Смысл творчества",
+      "transliteration": "Smysl tvorchestva",
+      "author": "berdyaev",
+      "oneLine": {
+        "en": "Argues that creating is not one human activity among others but the human answer to being made.",
+        "fa": "می‌گوید آفریدن یکی از کارهای آدمی در کنار دیگران نیست، پاسخ آدمی است به آفریده‌شدن."
+      },
+      "composed": { "start": { "year": 1916, "precision": "exact" } },
+      "traditions": ["russian", "christian"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "aesthetics",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Berdyaev's complaint against the religious tradition he belonged to is that it treats obedience as the whole of the human vocation and has no account of what a person is for beyond not sinning. His claim is that the creature made in the image of a creator is meant to create, and that this is not permitted but required.",
+              "fa": "شکایت بردیایف از سنت دینی‌ای که به آن تعلق داشت این است که اطاعت را تمام رسالت آدمی می‌گیرد و شرحی ندارد از اینکه آدمی جز گناه‌نکردن برای چیست. ادعایش این است که آفریده‌ای که به صورت آفریدگاری ساخته شده برای آفریدن است، و این مجاز نیست، لازم است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Freedom, for him, is prior to being rather than a property of beings. He takes from Boehme the idea of an ungrounded abyss out of which both God and the world arise, which means freedom is not created and therefore not God's responsibility — his solution to the problem of evil, and one that most theologians regard as too expensive.",
+              "fa": "آزادی نزد او مقدم بر هستی است نه خاصیتی از موجودات. از بومه این فکر را می‌گیرد که ژرفایی بی‌بنیاد هست که هم خدا و هم جهان از آن برمی‌آیند، و این یعنی آزادی آفریده نشده و پس بر عهده خدا نیست؛ راه حل او برای مسئله شر، و راه حلی که بیشتر الهی‌دانان بیش از حد گران می‌دانندش."
+            },
+            "citations": [
+              { "source": "text-meaning-of-creative-act", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He was expelled from Russia in 1922 on one of the ships carrying intellectuals into exile, having earlier been sentenced under the Tsar for an article against the Holy Synod. Being unacceptable to both the imperial church and the Soviet state is a fair summary of his position, and he spent the rest of his life in Paris writing books that fitted no faction.\n\nThe later work on objectification is the more careful statement. Every act of knowing or organising, he argues, converts a subject into an object — necessary for living together and fatal when treated as the whole truth, since a person made fully into an object is a thing to be administered. That is his ground for calling both the collectivism he fled and the individualism he found in the west forms of the same error.",
+              "fa": "در سال ۱۹۲۲ با یکی از کشتی‌هایی که روشنفکران را به تبعید می‌برد از روسیه اخراج شد، و پیش‌تر در دوره تزار برای مقاله‌ای بر ضد سینود مقدس محکوم شده بود. ناپذیرفتنی‌بودن هم برای کلیسای امپراتوری و هم برای دولت شوروی خلاصه‌ای منصفانه از جایگاه اوست، و باقی عمرش را در پاریس به نوشتن کتاب‌هایی گذراند که به هیچ جناحی نمی‌خورد.\n\nکار متأخرش درباره «شیءشدگی» بیان سنجیده‌تری است. می‌گوید هر کنش دانستن یا سازمان‌دادن، فاعلی را به متعلقی بدل می‌کند؛ برای با هم زیستن لازم است و اگر تمام حقیقت گرفته شود کشنده، چون کسی که به‌تمامی شیء شده چیزی است که باید اداره‌اش کرد. همین زمینه اوست برای اینکه هم جمع‌گرایی‌ای را که از آن گریخت و هم فردگرایی‌ای را که در غرب یافت، دو صورت یک خطا بخواند."
+            },
+            "citations": [
+              { "source": "text-slavery-and-freedom", "locator": "Part I" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-meaning-of-creative-act", "text-slavery-and-freedom"],
+      "citations": [{ "source": "text-meaning-of-creative-act" }]
+    },
+    {
+      "id": "cultural-universals-particulars",
+      "title": {
+        "en": "Cultural Universals and Particulars",
+        "fa": "کلیات و جزئیات فرهنگی"
+      },
+      "originalTitle": "Cultural Universals and Particulars: An African Perspective",
+      "author": "kwasi-wiredu",
+      "oneLine": {
+        "en": "Separates what is genuinely shared across cultures from what a language happens to make easy to say.",
+        "fa": "آنچه را به‌راستی میان فرهنگ‌ها مشترک است از آنچه یک زبان اتفاقا آسان‌گفتنی می‌کند جدا می‌کند."
+      },
+      "composed": { "start": { "year": 1996, "precision": "exact" } },
+      "traditions": ["african", "africana", "analytic"],
+      "branches": [
+        "comparative-philosophy",
+        "epistemology",
+        "philosophy-of-language",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Wiredu's method is to try saying a philosophical claim in Akan and see what happens. Some claims translate and some do not, and the failures are informative: a doctrine that cannot be stated in a language may be tracking a feature of the original language rather than of the world.",
+              "fa": "روش ویردو این است که بکوشد ادعایی فلسفی را به آکان بگوید و ببیند چه می‌شود. برخی ادعاها ترجمه می‌شوند و برخی نه، و همان ناکامی‌ها آموزنده‌اند: آموزه‌ای که در زبانی گفتنی نیست، شاید ویژگی‌ای از زبان اصلی را دنبال می‌کند نه از جهان."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His example is existence. Akan has no verb corresponding to the copula in the way English does; to say something exists is to say it is at some place. If that is right, then a philosophical tradition that asks whether God exists in a way that abstracts from any location is asking a question its own grammar generated — which does not settle the question, but relocates it.",
+              "fa": "نمونه‌اش «هستی» است. آکان فعلی ندارد که به شیوه انگلیسی با رابطه برابر باشد؛ گفتن اینکه چیزی هست یعنی گفتن اینکه در جایی است. اگر چنین باشد، آنگاه سنتی فلسفی که می‌پرسد آیا خدا به شیوه‌ای که از هر مکانی انتزاع کند هست یا نه، پرسشی می‌پرسد که دستور زبان خودش ساخته است، و این آن پرسش را فیصله نمی‌دهد، جایش را عوض می‌کند."
+            },
+            "citations": [
+              { "source": "text-cultural-universals", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He is not a relativist and says so repeatedly. Some things must be universal — a norm of truthfulness, a principle of sympathetic impartiality — because no community could function without them, and he argues these can be derived from what communication itself requires. The point of the linguistic work is to find which claims are in that category and which only look like it.\n\nThe political application is his proposal for consensual democracy, based on the Ashanti practice of continuing deliberation until a position everyone can live with is reached, rather than voting and installing a permanent minority. He is careful about what he is claiming: not that the traditional system was democratic in the modern sense, and not that it can be reinstalled, but that a decision procedure without parties is possible and was practised, which is worth knowing in states where party competition has mapped onto ethnicity with bad results.",
+              "fa": "نسبی‌گرا نیست و بارها همین را می‌گوید. برخی چیزها باید کلی باشند، مانند هنجار راستگویی و اصل بی‌طرفی همدلانه، چون هیچ اجتماعی بی‌آن‌ها کار نمی‌کند، و می‌گوید این‌ها را می‌توان از آنچه خود ارتباط می‌طلبد بیرون کشید. فایده آن کار زبانی یافتن این است که کدام ادعاها در آن رده‌اند و کدام تنها چنین می‌نمایند.\n\nکاربرد سیاسی‌اش پیشنهاد «دموکراسی اجماعی» است، بر پایه رویه آشانتی در ادامه‌دادن مشورت تا رسیدن به موضعی که همه بتوانند با آن سر کنند، به جای رأی‌گیری و نشاندن اقلیتی همیشگی. مراقب است که چه ادعا می‌کند: نه اینکه آن نظام سنتی به معنای امروزی دموکراتیک بود، و نه اینکه می‌توان بازش گرداند، بلکه اینکه روندی برای تصمیم بی‌حزب ممکن است و ورزیده شده، و این در کشورهایی که رقابت حزبی بر قومیت افتاده و بد از آب درآمده دانستنی است."
+            },
+            "citations": [
+              {
+                "source": "text-philosophy-african-culture",
+                "locator": "ch. 1"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-cultural-universals",
+        "text-philosophy-african-culture"
+      ],
+      "citations": [{ "source": "text-cultural-universals" }]
+    },
+    {
+      "id": "our-sea-of-islands",
+      "title": { "en": "Our Sea of Islands", "fa": "دریای جزیره‌های ما" },
+      "originalTitle": "Our Sea of Islands",
+      "author": "epeli-hauofa",
+      "oneLine": {
+        "en": "Rejects the description of Pacific nations as small and isolated by changing what counts as the unit.",
+        "fa": "وصف ملت‌های اقیانوسیه را چون کوچک و منزوی رد می‌کند، با عوض‌کردن اینکه واحد چیست."
+      },
+      "composed": { "start": { "year": 1993, "precision": "exact" } },
+      "traditions": ["pacific-islander", "indigenous"],
+      "branches": [
+        "social-philosophy",
+        "political-philosophy",
+        "philosophy-of-history",
+        "decolonial-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Hau'ofa was teaching in Fiji and realised he had been passing on to students a description of their own countries as too small and too remote ever to be viable. The essay is his correction: islands in a far sea is a colonial unit of account, and a sea of islands is the one his ancestors used.",
+              "fa": "هائوفا در فیجی درس می‌داد و دریافت که وصفی را به دانشجویان می‌رساند که کشورهای خودشان را بیش از حد کوچک و بیش از حد دورافتاده برای دوام می‌خواند. این جستار تصحیح اوست: «جزیره‌هایی در دریایی دور» واحدی استعماری برای حساب است، و «دریایی از جزیره‌ها» واحدی است که نیاکانش به کار می‌بردند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is that the boundaries were drawn by empires that needed administrable units and were fixed by the states that succeeded them. Before that, ocean-going peoples moved between islands routinely, and the relevant space was the whole of Oceania rather than the land above water — which is roughly a thousandth of it.",
+              "fa": "استدلال این است که آن مرزها را امپراتوری‌هایی کشیدند که واحدهای اداره‌شدنی می‌خواستند، و دولت‌هایی که جانشینشان شدند تثبیتشان کردند. پیش از آن، مردمان دریانورد به‌طور معمول میان جزیره‌ها می‌رفتند، و فضای مربوط تمام اقیانوسیه بود نه خشکی بالای آب، که در حدود یک هزارم آن است."
+            },
+            "citations": [
+              { "source": "text-our-sea-of-islands", "locator": "opening" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He anticipated the objection and answered it in a follow-up. Yes, the essay is partly a story people tell themselves, and no, telling it does not repeal the balance of trade or the price of shipping. His reply is that the previous description was also a story, told by people with an interest in it, and that a population which has been told for a century that it is inherently dependent will behave accordingly.\n\nThe argument has become sharper rather than dated. Pacific states now negotiate at climate conferences as custodians of an ocean area larger than any continent, using exactly the framing this essay proposed, and the sentence about a sea of islands is quoted in the region's diplomacy. Whether that is a philosophical vindication or a demonstration that a good metaphor is politically useful is a distinction Hau'ofa would probably have refused.",
+              "fa": "اعتراض را پیش‌بینی کرد و در نوشته‌ای بعدی پاسخ داد. بله، این جستار تا حدی داستانی است که مردم برای خود می‌گویند، و نه، گفتنش تراز بازرگانی یا بهای حمل دریایی را لغو نمی‌کند. پاسخش این است که آن وصف پیشین هم داستانی بود، که کسانی با نفعی در آن گفتندش، و اینکه جمعیتی که یک سده به او گفته‌اند ذاتا وابسته است، بر همان پایه رفتار خواهد کرد.\n\nاین استدلال به جای کهنه‌شدن، تیزتر شده است. کشورهای اقیانوسیه اکنون در کنفرانس‌های اقلیمی چون نگهبانان پهنه‌ای اقیانوسی بزرگ‌تر از هر قاره‌ای گفت‌وگو می‌کنند، و دقیقا از همان قابی که این جستار پیش نهاد بهره می‌برند، و آن جمله درباره دریایی از جزیره‌ها در دیپلماسی این منطقه نقل می‌شود. اینکه این اثبات فلسفی است یا نمایشی از اینکه استعاره‌ای خوب سیاسی به کار می‌آید، تمایزی است که هائوفا احتمالا نمی‌پذیرفتش."
+            },
+            "citations": [
+              { "source": "text-our-sea-of-islands", "locator": "closing" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-our-sea-of-islands"],
+      "citations": [{ "source": "text-our-sea-of-islands" }]
     }
   ]
 }
