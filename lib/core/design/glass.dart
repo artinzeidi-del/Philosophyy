@@ -56,6 +56,82 @@ abstract final class Glass {
     );
   }
 
+  /// The fill for a glass surface, as a lit gradient rather than a flat colour.
+  ///
+  /// ## Why the flat fill was not enough
+  ///
+  /// [fill] gives a panel the right colour and, on a canvas the same hue as the
+  /// panel, almost nothing else: on a phone a list of cards came out as
+  /// rectangles a shade darker than the page. Nothing was wrong with the
+  /// translucency — there was simply nothing behind it worth seeing through to,
+  /// and a pane with no light on it does not read as a pane.
+  ///
+  /// A pane is legible because its top edge catches the light. A gradient costs
+  /// one; a backdrop blur costs a frame.
+  ///
+  /// ## Why the light stops a third of the way down
+  ///
+  /// The first version ran the whole height, and in the dark theme that lifted
+  /// the panel from `#46464a` to `#4c4c4f` — enough to drop a settings label
+  /// from 4.50:1 to 4.38:1 and fail the painted-contrast sweep. A lit edge is
+  /// an edge: past the top of a panel there is nothing left to light, and
+  /// running the gradient on merely repaints the surface a lighter colour under
+  /// every word on it.
+  ///
+  /// The dark theme takes a sixth of the light the light theme does, for the
+  /// same reason: text on dark is light, so anything that lifts the surface
+  /// costs contrast, while on a pale surface it costs nothing.
+  static LinearGradient surfaceGradient(BuildContext context, {Color? tint}) {
+    final scheme = Theme.of(context).colorScheme;
+    final dark = scheme.brightness == Brightness.dark;
+    final base = fill(context, tint: tint);
+
+    // White in the light theme; the foreground in the dark one, where white
+    // blows out into a grey haze instead of reading as a lit edge. Mixed at the
+    // base's own opacity so the pane does not become more solid at the top than
+    // at the bottom.
+    final light = (dark ? scheme.onSurface : Colors.white).withValues(
+      alpha: base.a,
+    );
+
+    return LinearGradient(
+      begin: Alignment.topCenter,
+      end: Alignment.bottomCenter,
+      stops: const <double>[0, 0.34],
+      colors: <Color>[Color.lerp(base, light, dark ? 0.05 : 0.30)!, base],
+    );
+  }
+
+  /// The shadow that lifts a surface off the page.
+  ///
+  /// ## Why two shadows
+  ///
+  /// One shadow is a drop shadow and looks stuck on. Real objects cast two: a
+  /// tight, darker one where they meet the surface, and a wide, faint one from
+  /// the light in the room. The pair is what reads as an object resting on
+  /// something rather than a rectangle with a grey edge.
+  ///
+  /// Kept deliberately light. On a near-black canvas a black shadow is
+  /// invisible and a lighter one reads as a smudge, so in the dark theme the
+  /// contact shadow does nearly all the work and the ambient one is faint.
+  static List<BoxShadow> lift(BuildContext context, {double strength = 1}) {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    return <BoxShadow>[
+      BoxShadow(
+        color: Colors.black.withValues(alpha: (dark ? 0.30 : 0.05) * strength),
+        blurRadius: 6 * strength,
+        offset: Offset(0, 1.5 * strength),
+        spreadRadius: -1,
+      ),
+      BoxShadow(
+        color: Colors.black.withValues(alpha: (dark ? 0.16 : 0.045) * strength),
+        blurRadius: 22 * strength,
+        offset: Offset(0, 8 * strength),
+        spreadRadius: -6,
+      ),
+    ];
+  }
+
   /// The surface that marks the one thing currently selected.
   ///
   /// A sweep running from almost nothing to the accent at its trailing edge,
@@ -157,13 +233,15 @@ class GlassPanel extends StatelessWidget {
 
     final panel = DecoratedBox(
       decoration: BoxDecoration(
-        color: Glass.fill(context, tint: tint),
+        gradient: Glass.surfaceGradient(context, tint: tint),
         borderRadius: borderRadius,
         border: Border.all(
           color: Glass.border(context, strength: borderStrength),
         ),
+        // A live panel blooms; an inert one is merely lifted. Both at once and
+        // the bloom reads as a shadow with a colour cast.
         boxShadow: glow == null
-            ? null
+            ? Glass.lift(context)
             : Glass.glow(glow, strength: glowStrength),
       ),
       child: ClipRRect(

@@ -228,14 +228,26 @@ class EntityCard extends StatelessWidget {
       semanticLabel: '$title. $summary',
       // Handed to PressableSurface rather than painted inside the child, so the
       // ink ripple lands on top of the card instead of behind it.
-      // Glass rather than a fill: the canvas shows through, so a list of
-      // cards reads as panes laid on a lit surface instead of as a stack of
-      // rectangles. The hairline is what defines the edge; there is no shadow,
-      // because a shadow under a translucent panel makes it look printed.
+      //
+      // ## Why this is a gradient and a shadow rather than a flat fill
+      //
+      // It was `Glass.fill` and a hairline, on the reasoning that a shadow
+      // under a translucent panel makes it look printed. On a screen the result
+      // was a list of rectangles a shade darker than the page: the translucency
+      // was real and there was nothing behind it worth seeing through to, so
+      // nothing read as glass.
+      //
+      // What a pane actually looks like is light on its top edge and a shadow
+      // under its bottom one. The gradient supplies the first and `Glass.lift`
+      // the second — a tight contact shadow and a wide ambient one, which is
+      // what separates an object resting on a surface from a rectangle with a
+      // grey edge. The earlier note was right that one heavy shadow looks
+      // printed; the answer was a lighter pair, not none.
       decoration: BoxDecoration(
-        color: Glass.fill(context),
+        gradient: Glass.surfaceGradient(context),
         borderRadius: Radii.surfaceRadius,
         border: Border.all(color: Glass.border(context)),
+        boxShadow: Glass.lift(context),
       ),
       child: Padding(
         padding: const EdgeInsets.all(Spacing.lg),
