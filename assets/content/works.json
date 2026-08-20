@@ -3418,6 +3418,884 @@
       },
       "editions": ["text-gender-trouble", "text-bodies-that-matter"],
       "citations": [{ "source": "text-gender-trouble" }]
+    },
+    {
+      "id": "madina-fadila",
+      "title": { "en": "The Virtuous City", "fa": "آرای اهل مدینه فاضله" },
+      "originalTitle": "مبادئ آراء أهل المدينة الفاضلة",
+      "transliteration": "Mabādiʾ ārāʾ ahl al-madīna al-fāḍila",
+      "alsoKnownAs": [
+        "The Principles of the Opinions of the People of the Virtuous City"
+      ],
+      "author": "al-farabi",
+      "oneLine": {
+        "en": "Begins with the first cause and descends, book by book, to how a city ought to be arranged.",
+        "fa": "از علت نخستین آغاز می‌کند و بخش به بخش فرود می‌آید تا به اینکه شهر را چگونه باید سامان داد."
+      },
+      "composed": { "start": { "year": 942, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": [
+        "political-philosophy",
+        "metaphysics",
+        "ethics",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The shape of the book is its argument. Fārābī will not discuss politics until he has said what exists, how intellect works and what a human being is for, because a city is an arrangement for getting people somewhere and you cannot arrange it without knowing where. The virtuous city is the one whose parts cooperate toward happiness; every other kind is a way of failing at that.",
+              "fa": "شکل کتاب همان استدلال آن است. فارابی تا نگوید چه چیزی هست، عقل چگونه کار می‌کند و آدمی برای چیست، از سیاست سخن نمی‌گوید؛ چون شهر ترتیبی است برای رساندن مردم به جایی، و بی‌دانستن آن جا نمی‌توان ترتیبش داد. شهر فاضله آن است که اجزایش برای رسیدن به سعادت با هم کار می‌کنند؛ هر گونه دیگر شیوه‌ای از ناکامی در همین است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Prophecy is where the system does its most surprising work. Fārābī treats the prophet not as an exception to philosophy but as someone whose imagination is strong enough to receive from the Active Intellect what the philosopher receives through reasoning, and to render it in images a whole population can act on. Revelation and demonstration then have one source and two languages, which makes religion a translation of philosophy rather than a rival to it.",
+              "fa": "نبوت جایی است که این دستگاه شگفت‌ترین کار خود را می‌کند. فارابی پیامبر را نه استثنایی بر فلسفه، بلکه کسی می‌داند که نیروی خیالش چندان هست که از عقل فعال همان را بگیرد که فیلسوف با استدلال می‌گیرد، و آن را در صورت‌هایی بریزد که همه مردم بتوانند بر پایه‌اش عمل کنند. آنگاه وحی و برهان یک سرچشمه دارند و دو زبان، و این دین را ترجمه فلسفه می‌کند نه رقیب آن."
+            },
+            "citations": [
+              { "source": "text-madina-fadila", "locator": "ch. 15" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Read one way this is generous to religion and read another way it subordinates it, and both readings have been defended since the tenth century. If the images are true only in the way images are true, the ordinary believer holds something the philosopher has outgrown; if they are the same content differently clothed, nothing has been demoted. Fārābī does not settle it, and the ambiguity is probably deliberate in a man writing under courts that could take either view badly.\n\nThe classification of failed cities is the part later readers found most useful. The ignorant city pursues wealth, honour or pleasure and mistakes them for the end; the wicked city knows better and chooses otherwise; the errant city has been misled about what happiness is. That third category is the interesting one, because it locates a political failure in a false belief rather than in a bad will, and makes correcting the teaching a political act.",
+              "fa": "یک خوانش این را در حق دین بخشنده می‌بیند و خوانشی دیگر آن را فرودست‌ساز، و از سده دهم تا کنون از هر دو دفاع شده است. اگر صورت‌ها تنها به شیوه صورت‌ها راست باشند، مؤمن عادی چیزی را نگاه داشته که فیلسوف از آن گذشته است؛ و اگر همان محتوا در جامه‌ای دیگر باشند، چیزی فرو نیامده است. فارابی تکلیف را روشن نمی‌کند، و این دوپهلویی در مردی که زیر نظر دربارهایی می‌نوشت که هر دو خوانش را می‌توانستند بد بگیرند، احتمالا عمدی است.\n\nرده‌بندی شهرهای ناکام همان بخشی است که خوانندگان بعدی بیش از همه به کارش گرفتند. شهر جاهله در پی ثروت یا عزت یا لذت است و آن‌ها را به جای غایت می‌گیرد؛ شهر فاسقه بهتر می‌داند و دیگرگونه برمی‌گزیند؛ شهر ضاله را درباره چیستی سعادت گمراه کرده‌اند. همین رده سوم جالب است، چون ناکامی سیاسی را در باوری نادرست می‌نشاند نه در اراده‌ای بد، و اصلاح آموزش را کاری سیاسی می‌کند."
+            },
+            "citations": [
+              { "source": "text-kitab-al-huruf", "locator": "§108-115" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-madina-fadila", "text-kitab-al-huruf"],
+      "citations": [{ "source": "text-madina-fadila" }]
+    },
+    {
+      "id": "tahafut-al-tahafut",
+      "title": {
+        "en": "The Incoherence of the Incoherence",
+        "fa": "تهافت التهافت"
+      },
+      "originalTitle": "تهافت التهافت",
+      "transliteration": "Tahāfut al-tahāfut",
+      "author": "ibn-rushd",
+      "oneLine": {
+        "en": "A line-by-line reply to Ghazālī's attack on the philosophers, quoting him in full before answering.",
+        "fa": "پاسخی سطر به سطر به حمله غزالی بر فیلسوفان، که هر بار سخن او را تمام می‌آورد و سپس جواب می‌دهد."
+      },
+      "composed": { "start": { "year": 1180, "precision": "circa" } },
+      "traditions": ["islamic"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "epistemology",
+        "logic"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ghazālī had listed twenty points on which the philosophers contradict themselves or contradict Islam. Ibn Rushd goes through all twenty, prints the objection, and replies. Because he quotes so fully, the book preserves its opponent better than most polemics do, and a reader can follow the dispute without holding both volumes open.",
+              "fa": "غزالی بیست موضع را برشمرده بود که فیلسوفان در آن‌ها یا با خود یا با اسلام ناسازگارند. ابن رشد هر بیست را از سر می‌گیرد، اعتراض را می‌آورد و پاسخ می‌دهد. چون سخن حریف را چنین تمام نقل می‌کند، این کتاب مخالفش را بهتر از بیشتر جدل‌ها نگاه داشته، و خواننده می‌تواند نزاع را دنبال کند بی‌آنکه هر دو کتاب را باز نگه دارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The dispute over causation is the sharpest of the twenty. Ghazālī had said that fire does not burn cotton — God does, in the regular manner we mistake for necessity. Ibn Rushd answers that if things have no natures of their own, nothing has a definition, and a science of anything becomes impossible; to deny that fire burns is to deny that there is such a thing as fire.",
+              "fa": "نزاع بر سر علیت تیزترین آن بیست است. غزالی گفته بود آتش پنبه را نمی‌سوزاند، بلکه خدا می‌سوزاند، به شیوه‌ای مرتب که ما آن را ضرورت می‌پنداریم. ابن رشد پاسخ می‌دهد که اگر چیزها طبیعتی از آن خود نداشته باشند، هیچ چیز تعریفی ندارد و دانش درباره هیچ چیز ممکن نمی‌شود؛ انکار سوزاندن آتش انکار این است که چیزی به نام آتش هست."
+            },
+            "citations": [
+              {
+                "source": "text-tahafut-al-tahafut",
+                "locator": "Discussion 17"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The book's later career is stranger than its argument. In the Islamic east it was largely set aside, and Ghazālī's side of the exchange is the one that shaped the schools. In Latin Europe, translated and read against a Christian syllabus, Ibn Rushd became simply the Commentator, and a set of positions he may not have held — the eternity of the world, one intellect shared by all humans, truth that differs between philosophy and faith — was condemned at Paris in 1277 under his name.\n\nThe last of those, the so-called double truth, he explicitly denies. The Decisive Treatise argues that scripture and demonstration cannot conflict, because both are true, and that where the surface of a verse contradicts a proof the verse is to be read allegorically — by those trained to do it, and not by everyone. That restriction is doing real work: it makes interpretation a competence rather than a right, which is the part modern readers who enjoy the rationalism tend to skip past.",
+              "fa": "سرنوشت بعدی کتاب از استدلالش شگفت‌تر است. در شرق جهان اسلام تا حد زیادی کنار گذاشته شد و همان سوی غزالی بود که مدرسه‌ها را شکل داد. در اروپای لاتین، ترجمه‌شده و در برابر برنامه درسی مسیحی خوانده‌شده، ابن رشد به سادگی «شارح» شد، و مجموعه‌ای از مواضع که شاید هرگز از آن او نبود، یعنی قدم عالم و یگانگی عقل میان همه آدمیان و اختلاف حقیقت میان فلسفه و ایمان، در سال ۱۲۷۷ در پاریس به نام او محکوم شد.\n\nآخرین آن‌ها، یعنی همان «حقیقت دوگانه»، را صریحا انکار می‌کند. «فصل المقال» می‌گوید شرع و برهان نمی‌توانند ناسازگار باشند چون هر دو راست‌اند، و آنجا که ظاهر آیه‌ای با برهانی می‌ستیزد باید آیه را تأویل کرد، آن هم به دست کسانی که برایش پرورده شده‌اند نه همه کس. همین محدودیت کار جدی می‌کند: تأویل را به توانایی بدل می‌کند نه به حق، و این همان بخشی است که خوانندگان امروزی خوش‌آمده از خردگرایی او معمولا از رویش می‌گذرند."
+            },
+            "citations": [
+              { "source": "text-fasl-al-maqal", "locator": "ch. 2" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-tahafut-al-tahafut", "text-fasl-al-maqal"],
+      "citations": [{ "source": "text-tahafut-al-tahafut" }]
+    },
+    {
+      "id": "fusus-al-hikam",
+      "title": { "en": "The Bezels of Wisdom", "fa": "فصوص الحکم" },
+      "originalTitle": "فصوص الحكم",
+      "transliteration": "Fuṣūṣ al-ḥikam",
+      "alsoKnownAs": ["The Ringstones of Wisdom"],
+      "author": "ibn-arabi",
+      "oneLine": {
+        "en": "Twenty-seven short chapters, each hanging a whole metaphysics on one prophet's name.",
+        "fa": "بیست و هفت فصل کوتاه، که هر یک تمام یک متافیزیک را بر نام یک پیامبر می‌آویزد."
+      },
+      "composed": { "start": { "year": 1229, "precision": "exact" } },
+      "traditions": ["islamic"],
+      "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ibn ʿArabī says he received the book from the Prophet in a dream at Damascus and wrote it down as given. Each chapter takes a prophet — Adam, Noah, Abraham, on to Muhammad — and treats him as a facet through which one aspect of reality shows itself, so the history of revelation becomes a map of being rather than a sequence of events.",
+              "fa": "ابن عربی می‌گوید کتاب را در دمشق در خوابی از پیامبر گرفته و همان‌گونه که داده شده نوشته است. هر فصل پیامبری را برمی‌گیرد، از آدم و نوح و ابراهیم تا محمد، و او را وجهی می‌گیرد که رویه‌ای از واقعیت در آن پیدا می‌شود؛ چنانکه تاریخ وحی به جای رشته‌ای از رویدادها نقشه‌ای از هستی می‌شود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The phrase everything turns on is waḥdat al-wujūd, the oneness of being, though Ibn ʿArabī never uses it and his students coined it later. The claim is not that the world is God. It is that there is one existence, that creatures have no existence of their own to set beside it, and that what distinguishes them is not being but the particular way each receives and limits what it has been given.",
+              "fa": "عبارتی که همه چیز بر آن می‌چرخد وحدت وجود است، هرچند خود ابن عربی هرگز به کارش نمی‌برد و شاگردانش بعدها ساختندش. ادعا این نیست که جهان خداست. این است که یک وجود هست، آفریدگان وجودی از آن خود ندارند که در برابرش بنشانند، و آنچه جدایشان می‌کند نه هستی، بلکه شیوه ویژه‌ای است که هر یک آنچه را داده شده می‌گیرد و محدود می‌کند."
+            },
+            "citations": [{ "source": "text-fusus", "locator": "ch. 1" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "This is the most contested book in Islamic intellectual history, and the arguments about it were not academic. Ibn Taymiyya read it as plain unbelief dressed in scripture; three centuries of commentators in Persian, Turkish and Arabic read it as the summit of the tradition; Ottoman and Safavid authorities at various points banned it and at other points funded its study. Reading it settles nothing, because the prose is deliberately built so that a sentence can carry a heretical and an orthodox sense at once.\n\nThe technical machinery behind the poetry is precise. The fixed entities are the unrealised possibilities of things as known eternally in the divine knowledge; they never enter existence themselves, but existence is given to them, so what a thing is remains its own and that it is never does. Later Persian philosophy — Ṣadrā above all — takes this apparatus over and argues with it rather than around it, which is why a book of visions ends up inside the technical vocabulary of a school of metaphysics.",
+              "fa": "این پرمنازعه‌ترین کتاب تاریخ اندیشه اسلامی است، و بحث‌ها بر سرش هرگز دانشگاهی نبود. ابن تیمیه آن را کفری آشکار در جامه شرع خواند؛ سه سده شارح فارسی و ترکی و عربی آن را قله این سنت دانستند؛ حکومت‌های عثمانی و صفوی گاه منعش کردند و گاه بر تحصیلش خرج کردند. خواندنش چیزی را فیصله نمی‌دهد، چون نثر عمدا چنان ساخته شده که یک جمله بتواند هم‌زمان معنایی بدعت‌آمیز و معنایی هم‌ساز با شرع را بردارد.\n\nدستگاه فنی پشت این شعر دقیق است. اعیان ثابته همان امکان‌های تحقق‌نیافته چیزها هستند چنانکه در علم الهی ازلا دانسته‌اند؛ خودشان هرگز به وجود نمی‌آیند، بلکه وجود به آن‌ها داده می‌شود، پس چیستی هر چیز از آن خودش می‌ماند و هستی‌اش هرگز. فلسفه بعدی ایران، و بیش از همه ملاصدرا، همین ابزار را برمی‌گیرد و با آن بحث می‌کند نه بر کنارش، و از همین رو کتابی از مکاشفات به درون واژگان فنی یک مکتب متافیزیک راه می‌یابد."
+            },
+            "citations": [{ "source": "text-futuhat", "locator": "ch. 73" }]
+          }
+        ]
+      },
+      "editions": ["text-fusus", "text-futuhat"],
+      "citations": [{ "source": "text-fusus" }]
+    },
+    {
+      "id": "hikmat-al-ishraq",
+      "title": { "en": "The Philosophy of Illumination", "fa": "حکمت الاشراق" },
+      "originalTitle": "حكمة الإشراق",
+      "transliteration": "Ḥikmat al-ishrāq",
+      "author": "suhrawardi",
+      "oneLine": {
+        "en": "Rebuilds metaphysics with light as the basic term, and rejects definition by genus and difference on the way.",
+        "fa": "متافیزیک را با نور همچون واژه بنیادی از نو می‌سازد، و در راه، تعریف به جنس و فصل را وامی‌نهد."
+      },
+      "composed": { "start": { "year": 1186, "precision": "exact" } },
+      "traditions": ["islamic", "persian"],
+      "branches": ["metaphysics", "epistemology", "logic", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Suhrawardī was about thirty-five when he finished it and about thirty-eight when he was executed at Aleppo. The book opens with logic, spends its attack on the Aristotelian definition, and then proposes that what is most real is not substance but light, graded by intensity, with everything else describable as degrees of its absence.",
+              "fa": "سهروردی هنگام پایان بردن این کتاب حدود سی و پنج ساله بود و حدود سی و هشت ساله که در حلب کشته شد. کتاب با منطق آغاز می‌شود، حمله خود را بر تعریف ارسطویی می‌گذارد، و آنگاه پیش می‌نهد که واقعی‌ترین چیز نه جوهر، بلکه نور است که به شدت درجه می‌خورد و هر چیز دیگر را می‌توان به درجات نبودش وصف کرد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The objection to definition is the hinge. To define a thing by genus and difference you must already know the difference, and you cannot know it except through the thing — so the definition either presupposes what it delivers or delivers nothing. Suhrawardī concludes that the essences of things are not reached by that route at all but by a direct presence, knowledge by presence, of the kind each of us already has of ourselves.",
+              "fa": "اعتراض به تعریف همان لولای کار است. برای تعریف چیزی به جنس و فصل باید فصل را از پیش بدانی، و فصل را جز از راه خود آن چیز نمی‌توان دانست؛ پس تعریف یا همان را پیش‌فرض می‌گیرد که قرار بود بدهد یا هیچ نمی‌دهد. سهروردی نتیجه می‌گیرد که ذات چیزها اصلا از این راه به دست نمی‌آید، بلکه از حضوری بی‌واسطه، یعنی علم حضوری، از همان گونه که هر یک از ما همین حالا نسبت به خود داریم."
+            },
+            "citations": [
+              {
+                "source": "text-hikmat-al-ishraq",
+                "locator": "Part 1, Discourse 3"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "It is easy to read the light language as metaphor and it is not meant as one. Suhrawardī is claiming that intensity, not kind, is the fundamental way reality differs from itself: two lights are not two species but one thing more and less. That is a real metaphysical proposal with real consequences — it makes the boundary between things soft, it makes the scale continuous, and it removes the need for a separate account of how a cause resembles its effect.\n\nHe also does something few philosophers in any tradition attempt: he treats pre-Islamic Iranian kingship and Greek philosophy as two branches of one wisdom, names Zoroastrian figures alongside Plato, and presents his own book as recovering rather than inventing. Scholars still divide on whether the Iranian material is a genuine source or a rhetorical frame. What is not in doubt is that the school he founded outlasted him by centuries and gave Persian philosophy a vocabulary it still uses.",
+              "fa": "آسان است که زبان نور را استعاره بخوانیم، و چنین قصد نشده است. سهروردی مدعی است شدت، نه نوع، شیوه بنیادی تفاوت واقعیت با خودش است: دو نور دو گونه نیستند، یک چیزند بیشتر و کمتر. این پیشنهادی راستین در متافیزیک است با پیامدهایی راستین؛ مرز میان چیزها را نرم می‌کند، مقیاس را پیوسته می‌کند، و نیاز به شرحی جداگانه برای شباهت علت به معلول را برمی‌دارد.\n\nکاری هم می‌کند که کمتر فیلسوفی در هیچ سنتی به آن دست می‌زند: پادشاهی ایران پیش از اسلام و فلسفه یونان را دو شاخه یک حکمت می‌گیرد، نام‌های زرتشتی را در کنار افلاطون می‌آورد، و کتاب خود را نه ابداع بلکه بازیافت می‌نمایاند. پژوهشگران هنوز بر سر اینکه مایه ایرانی سرچشمه‌ای راستین است یا قابی سخنورانه اختلاف دارند. آنچه در آن تردیدی نیست این است که مکتبی که او بنیاد نهاد سده‌ها پس از خودش ماند و به فلسفه ایران واژگانی داد که هنوز به کارش می‌برد."
+            },
+            "citations": [
+              {
+                "source": "text-hikmat-al-ishraq",
+                "locator": "Part 2, Discourse 1"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-hikmat-al-ishraq"],
+      "citations": [{ "source": "text-hikmat-al-ishraq" }]
+    },
+    {
+      "id": "hayy-ibn-yaqzan",
+      "title": { "en": "Hayy ibn Yaqzan", "fa": "حی بن یقظان" },
+      "originalTitle": "حي بن يقظان",
+      "transliteration": "Ḥayy ibn Yaqẓān",
+      "alsoKnownAs": ["The Self-Taught Philosopher", "Philosophus Autodidactus"],
+      "author": "ibn-tufayl",
+      "oneLine": {
+        "en": "A child grows up alone on an island and works out physics, metaphysics and God without being told anything.",
+        "fa": "کودکی تنها در جزیره‌ای بزرگ می‌شود و طبیعیات و متافیزیک و خدا را بی‌آنکه کسی چیزی به او بگوید درمی‌یابد."
+      },
+      "composed": { "start": { "year": 1160, "precision": "circa" } },
+      "traditions": ["islamic"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-religion",
+        "metaphysics",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A gazelle raises him. When she dies he dissects her looking for what left, and that is his first inquiry. Over seven-year stages he reaches the elements, the heavens, the necessity of a maker, and finally a contemplative union — arriving unaided at conclusions the philosophers reached in libraries.",
+              "fa": "آهویی بزرگش می‌کند. چون آهو می‌میرد، او پیکرش را می‌شکافد تا ببیند چه چیز رفته است، و همین نخستین کاوش اوست. در مرحله‌های هفت‌ساله به عناصر می‌رسد و به افلاک و به ضرورت صانع، و سرانجام به اتصالی از سر تأمل؛ یعنی بی‌یاور به همان نتیجه‌ها می‌رسد که فیلسوفان در کتابخانه‌ها رسیده بودند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The ending is what makes it a philosophical work rather than a fable. A believer from a neighbouring island arrives, the two find that revealed religion and unaided reason have reached the same place, and Ḥayy sails over to teach the islanders directly. It fails. They cannot follow him, they take offence, and he returns to his island having concluded that images and law are what most people need and that the plain truth would only harm them.",
+              "fa": "پایان کتاب است که آن را از افسانه به کاری فلسفی بدل می‌کند. مؤمنی از جزیره همسایه می‌رسد، آن دو درمی‌یابند که دین وحیانی و خرد بی‌یاور به یک جا رسیده‌اند، و حی به آن سو می‌رود تا مستقیم به مردم جزیره بیاموزد. ناکام می‌ماند. نمی‌توانند دنبالش کنند، می‌رنجند، و او به جزیره خود بازمی‌گردد با این نتیجه که بیشتر مردم به صورت و شریعت نیاز دارند و حقیقت برهنه جز زیان به آنان نمی‌رساند."
+            },
+            "citations": [
+              { "source": "text-hayy-ibn-yaqzan", "locator": "final section" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Whether that ending is elitist or realistic has been argued for eight centuries. It grants full authority to reason and then declares reason unteachable to most, which is either an honest observation about how instruction actually works or a wall built around a class of readers. Ibn Ṭufayl was court physician to an Almohad caliph and had every reason to be careful about which of those he seemed to be saying.\n\nThe Latin translation of 1671 turned the book into something its author did not intend. Read in a Europe arguing about innate ideas, Ḥayy became evidence in a different quarrel: a mind furnished by experience alone, arriving at the whole of natural theology. Locke may have known it; Defoe's island is at least a cousin. It is one of the few premodern Arabic books whose European career is as consequential as its Islamic one.",
+              "fa": "هشت سده است بر سر اینکه این پایان نخبه‌گرایانه است یا واقع‌بینانه بحث می‌کنند. اقتدار تمام را به خرد می‌دهد و آنگاه خرد را برای بیشتر مردم آموزش‌ناپذیر می‌خواند، و این یا مشاهده‌ای صادقانه درباره کارکرد واقعی آموزش است یا دیواری گرد طبقه‌ای از خوانندگان. ابن طفیل پزشک دربار خلیفه‌ای موحدی بود و هر دلیلی داشت که مراقب باشد کدام یک را می‌نماید.\n\nترجمه لاتین سال ۱۶۷۱ کتاب را به چیزی بدل کرد که نویسنده‌اش قصد نکرده بود. در اروپایی که بر سر تصورات فطری می‌جنگید، حی شاهدی در نزاعی دیگر شد: ذهنی که تنها از تجربه آراسته شده و به تمام الهیات طبیعی می‌رسد. شاید لاک آن را می‌شناخت؛ جزیره دفو دست کم عموزاده آن است. این از معدود کتاب‌های عربی پیشامدرن است که سرنوشت اروپایی‌اش به اندازه سرنوشت اسلامی‌اش پیامد داشته است."
+            },
+            "citations": [
+              { "source": "text-hayy-ibn-yaqzan", "locator": "introduction" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-hayy-ibn-yaqzan"],
+      "citations": [{ "source": "text-hayy-ibn-yaqzan" }]
+    },
+    {
+      "id": "al-tibb-al-ruhani",
+      "title": { "en": "The Spiritual Medicine", "fa": "الطب الروحانی" },
+      "originalTitle": "الطب الروحاني",
+      "transliteration": "Al-ṭibb al-rūḥānī",
+      "author": "al-razi",
+      "oneLine": {
+        "en": "A physician's ethics: the passions treated as illnesses, with a regimen for each.",
+        "fa": "اخلاقی از قلم یک پزشک: هوس‌ها همچون بیماری گرفته می‌شوند و برای هر یک دستور درمانی هست."
+      },
+      "composed": { "start": { "year": 910, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": ["ethics", "philosophy-of-mind", "philosophy-of-medicine"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Rāzī was the best clinician of his century and wrote this as the companion to his medical work: one book for the body, one for the soul. Envy, lying, greed, excessive attachment, the fear of death — each gets a diagnosis and a course of treatment, and the treatment is always the same in form, which is to bring reason to bear on a habit before the habit is fixed.",
+              "fa": "رازی بهترین پزشک بالینی سده خود بود و این را همتای کار پزشکی‌اش نوشت: کتابی برای تن و کتابی برای جان. حسد و دروغ و آز و دلبستگی افراطی و ترس از مرگ، هر یک تشخیصی می‌گیرند و دوره‌ای درمانی، و صورت درمان همیشه یکی است: پیش از آنکه عادتی بسته شود، خرد را بر آن بگمار."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "What separates him from the moralists is that he does not ask for renunciation. Pleasure is not the enemy; unregulated pleasure is, because it costs more than it returns. The measure he proposes is arithmetical rather than pious — take the pleasure whose pursuit does not cost you a greater one later — and it produces conclusions a religious ethics would not reach by that route.",
+              "fa": "آنچه او را از اخلاق‌نویسان جدا می‌کند این است که ترک دنیا نمی‌خواهد. لذت دشمن نیست؛ لذت بی‌قاعده دشمن است، چون بیش از آنچه می‌دهد می‌ستاند. معیاری که پیش می‌نهد به جای پارسایانه، حسابگرانه است: لذتی را برگیر که در پی‌اش لذتی بزرگ‌تر را بعدها از دست ندهی. و این به نتیجه‌هایی می‌رسد که اخلاقی دینی از این راه به آن‌ها نمی‌رسید."
+            },
+            "citations": [
+              { "source": "text-al-tibb-al-ruhani", "locator": "ch. 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Rāzī is the hardest case in the tradition for anyone who wants Islamic philosophy to be a single conversation. He appears to have held that prophecy is unnecessary, that reason is given to everyone and is sufficient, and that the disagreement of the revealed religions is itself evidence against all of them. The works where he says this survive mainly through the quotations of opponents furious enough to reproduce them, which is a hazardous way for a position to reach us.\n\nSo the caution matters: the two treatises here are securely his and are not where the scandal lies, and the reports of his views on prophecy come from hostile Ismāʿīlī sources that had a stake in how he sounded. That he was a rationalist of some radical kind is not in dispute. Exactly how radical is a question the surviving evidence does not close, and the confident summaries in circulation are more certain than the record allows.",
+              "fa": "رازی دشوارترین مورد این سنت است برای هر کس که بخواهد فلسفه اسلامی را یک گفت‌وگوی یکپارچه ببیند. چنین می‌نماید که او نبوت را غیرلازم می‌دانست، خرد را به همه داده و بسنده می‌شمرد، و اختلاف دین‌های وحیانی را خود گواهی بر ضد همه آن‌ها می‌گرفت. آثاری که این را در آن‌ها می‌گوید بیشتر از راه نقل مخالفانی به ما رسیده که چندان خشمگین بودند که عین سخن را بازآورند، و این راهی پرخطر برای رسیدن یک موضع به ماست.\n\nپس این احتیاط اهمیت دارد: دو رساله‌ای که اینجا آمده به‌درستی از اوست و جای رسوایی نیست، و گزارش‌های دیدگاهش درباره نبوت از منابع اسماعیلی ناخرسندی می‌آید که در چگونگی نمایاندن او نفع داشتند. اینکه خردگرایی از گونه‌ای تندرو بوده محل بحث نیست. اینکه دقیقا تا کجا تندرو بوده پرسشی است که شواهد بازمانده آن را نمی‌بندد، و خلاصه‌های مطمئنی که دست به دست می‌شود از آنچه سند اجازه می‌دهد مطمئن‌ترند."
+            },
+            "citations": [
+              { "source": "text-al-sira-al-falsafiyya", "locator": "opening" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-al-tibb-al-ruhani", "text-al-sira-al-falsafiyya"],
+      "citations": [{ "source": "text-al-tibb-al-ruhani" }]
+    },
+    {
+      "id": "masnavi",
+      "title": { "en": "The Masnavi", "fa": "مثنوی معنوی" },
+      "originalTitle": "مثنوی معنوی",
+      "transliteration": "Masnavī-yi maʿnavī",
+      "alsoKnownAs": ["Masnavi-ye Ma'navi", "The Spiritual Couplets"],
+      "author": "rumi",
+      "oneLine": {
+        "en": "Twenty-six thousand couplets in which a story keeps breaking off to argue about what the story means.",
+        "fa": "بیست و شش هزار بیت که در آن هر حکایت پیوسته می‌گسلد تا بر سر معنای خودش بحث کند."
+      },
+      "composed": {
+        "start": { "year": 1258, "precision": "circa" },
+        "end": { "year": 1273, "precision": "circa" }
+      },
+      "traditions": ["islamic", "persian"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "ethics",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Six books, dictated over roughly fifteen years to a disciple who wrote them down. The method is deliberate digression: a tale starts, a line in it suggests a difficulty, and the difficulty is pursued for two hundred couplets before the tale resumes, if it resumes. The reader is being trained out of wanting the plot.",
+              "fa": "شش دفتر، که در نزدیک به پانزده سال به شاگردی املا شد و او نوشت. روش، گریز عمدی است: حکایتی آغاز می‌شود، بیتی در آن دشواری‌ای را پیش می‌کشد، و آن دشواری دویست بیت دنبال می‌شود پیش از آنکه حکایت از سر گرفته شود، اگر از سر گرفته شود. خواننده را از میل به دانستن سرانجام قصه باز می‌پرورند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The recurring philosophical claim is that separation is the condition of knowledge. The reed torn from the reed bed makes music because it was torn; the longing is not an obstacle to union but the only form union takes in a being who is not identical with what it longs for. Everything else in the poem — the arguments about intellect, about the senses, about love — is worked out inside that frame.",
+              "fa": "ادعای فلسفی که پیوسته بازمی‌گردد این است که جدایی شرط شناخت است. نی بریده از نیستان از همان بریدگی نغمه می‌سازد؛ اشتیاق مانع وصل نیست، بلکه تنها صورتی است که وصل در موجودی می‌گیرد که با آنچه در اشتیاقش است یکی نیست. هر چیز دیگر این منظومه، یعنی بحث‌ها درباره عقل و حواس و عشق، درون همین قاب پرداخته می‌شود."
+            },
+            "citations": [
+              { "source": "text-masnavi", "locator": "Book I, opening" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Calling it a work of philosophy is a decision that needs defending, and the defence is that it makes arguments and takes objections. The famous story of the elephant in a dark room is not decoration; it is a compressed treatment of how partial evidence yields incompatible descriptions of one object, and the poem states the sceptical worry sharply enough that its own answer has to earn its place.\n\nThe reception is a caution about what translation does. In English, Rumi is a poet of undifferentiated love, largely because the versions that sold were made by people who did not read Persian and worked from paraphrase, dropping the Quranic citation, the legal disputes, and the passages that are hard to like. The Masnavi is a book by a jurist and a teacher, saturated in scripture, and much of it is difficult and some of it is severe. What circulates under his name in translation is often a different book.",
+              "fa": "فلسفه نامیدن این کتاب تصمیمی است که دفاع می‌خواهد، و دفاع این است که استدلال می‌کند و اعتراض می‌پذیرد. حکایت مشهور فیل در خانه تاریک آرایه نیست؛ پرداختی فشرده است از اینکه چگونه شاهد ناتمام توصیف‌های ناسازگار از یک چیز به بار می‌آورد، و منظومه آن نگرانی شکاکانه را چنان تیز می‌گوید که پاسخ خودش باید جای خود را به دست آورد.\n\nسرنوشت این کتاب هشداری است درباره آنچه ترجمه می‌کند. در انگلیسی، مولوی شاعر عشقی بی‌تمایز است، بیشتر از آن رو که نسخه‌های پرفروش را کسانی ساختند که فارسی نمی‌خواندند و از روی بازگفت کار کردند، و ارجاع قرآنی و بحث فقهی و بندهای دشوارپسند را انداختند. مثنوی کتاب یک فقیه و آموزگار است، آکنده از آیه، و بخش زیادی از آن دشوار و پاره‌ای از آن سختگیرانه است. آنچه به نام او در ترجمه می‌گردد بارها کتابی دیگر است."
+            },
+            "citations": [
+              { "source": "text-divan-shams", "locator": "ghazal 1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-masnavi", "text-divan-shams"],
+      "citations": [{ "source": "text-masnavi" }]
+    },
+    {
+      "id": "khayyam-algebra-treatise",
+      "title": {
+        "en": "Treatise on Demonstrations of Problems of Algebra",
+        "fa": "رساله در برهان‌های مسائل جبر و مقابله"
+      },
+      "originalTitle": "رسالة في براهين أعمال الجبر والمقابلة",
+      "transliteration": "Risāla fī barāhīn aʿmāl al-jabr wa-l-muqābala",
+      "author": "khayyam",
+      "oneLine": {
+        "en": "Classifies the cubic equations and solves them by intersecting conic sections, centuries before anyone had the algebra.",
+        "fa": "معادله‌های درجه سوم را رده‌بندی می‌کند و با تقاطع مقاطع مخروطی حلشان می‌کند، سده‌ها پیش از آنکه کسی جبرش را داشته باشد."
+      },
+      "composed": { "start": { "year": 1070, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": ["philosophy-of-mathematics", "logic", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Khayyām sorts cubics into fourteen types that cannot be reduced to simpler equations, and gives each a geometric construction: draw the right circle and parabola, and the length where they cross is the root. He also says plainly that he cannot find a numerical solution and that he expects someone will.",
+              "fa": "خیام معادله‌های درجه سوم را به چهارده گونه دسته می‌کند که به معادله‌های ساده‌تر فرو نمی‌آیند، و برای هر یک ساختی هندسی می‌دهد: دایره و سهمی درست را رسم کن، و طولی که در آن یکدیگر را می‌برند ریشه است. آشکارا هم می‌گوید که راه حل عددی را نیافته و انتظار دارد کسی بیابد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The philosophical interest is in what he takes a solution to be. For Khayyām a magnitude constructed by a demonstrable geometric procedure is known, whether or not it can be written as a number, and the algebraic and the geometric are two ways of holding the same object rather than one being a shadow of the other. That is a position about mathematical existence, and he argues for it rather than assuming it.",
+              "fa": "جذابیت فلسفی در همین است که او چه چیز را حل می‌شمارد. برای خیام مقداری که با روندی هندسی و برهان‌پذیر ساخته شود دانسته است، چه بتوان به عدد نوشتش چه نتوان، و جبری و هندسی دو شیوه نگه‌داشتن یک چیزند نه اینکه یکی سایه دیگری باشد. این موضعی درباره هستی ریاضی است، و او برایش استدلال می‌کند نه اینکه مفروضش بگیرد."
+            },
+            "citations": [
+              { "source": "text-khayyam-algebra", "locator": "introduction" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His work on Euclid is the more radical of the two. Examining the parallel postulate, he replaces it with an assumption about the equality of two angles in a quadrilateral and derives consequences, effectively working inside what a later century would call non-Euclidean geometry without accepting that this is what he is doing. Saccheri repeats the construction in 1733; whether through a chain of transmission or independently is unsettled.\n\nThe quatrains are a separate problem and one worth stating honestly. Manuscripts attributing them to Khayyām are late, the number attached to his name grew for centuries, and a large share of the poems in circulation are certainly by other hands. FitzGerald's English version, which made the name famous, is a free composition on Persian material rather than a translation. The mathematician is documented; the poet is partly a construction, and the two should not be quietly merged.",
+              "fa": "کار او بر اقلیدس از آن دیگری تندروانه‌تر است. در بررسی اصل توازی، آن را با فرضی درباره برابری دو زاویه در یک چهارضلعی جایگزین می‌کند و پیامدهایش را بیرون می‌کشد، و در عمل درون چیزی کار می‌کند که سده‌ای بعد آن را هندسه نااقلیدسی خواهند نامید، بی‌آنکه بپذیرد کارش همین است. ساکری در سال ۱۷۳۳ همان ساخت را تکرار می‌کند؛ اینکه از راه زنجیره‌ای از انتقال بوده یا مستقل، روشن نیست.\n\nرباعیات مسئله‌ای جداگانه است و ارزش دارد صادقانه گفته شود. دست‌نویس‌هایی که آن‌ها را به خیام می‌دهند دیرهنگام‌اند، شمار آنچه به نامش بسته شده سده‌ها فزونی گرفته، و بخش بزرگی از شعرهای رایج بی‌گمان از دیگران است. برگردان انگلیسی فیتزجرالد، که این نام را پرآوازه کرد، سرودنی آزاد بر مایه‌ای فارسی است نه ترجمه. ریاضی‌دان مستند است؛ شاعر تا حدی ساخته شده است، و این دو را نباید بی‌سروصدا در هم آمیخت."
+            },
+            "citations": [
+              { "source": "text-khayyam-euclid", "locator": "Book I" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-khayyam-algebra", "text-khayyam-euclid"],
+      "citations": [
+        { "source": "text-khayyam-algebra" },
+        { "source": "khayyam-rubaiyat-fitzgerald" }
+      ]
+    },
+    {
+      "id": "heraclitus-fragments",
+      "title": { "en": "Fragments", "fa": "پاره‌ها" },
+      "originalTitle": "Περὶ φύσεως",
+      "transliteration": "Peri physeōs",
+      "alsoKnownAs": ["On Nature"],
+      "author": "heraclitus",
+      "oneLine": {
+        "en": "About a hundred sentences, quoted by later writers, from a book nobody has seen since antiquity.",
+        "fa": "نزدیک به صد جمله، که نویسندگان بعدی نقل کرده‌اند، از کتابی که از دوران باستان کسی ندیده است."
+      },
+      "composed": { "start": { "year": -500, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "ethics",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nothing Heraclitus wrote survives as a book. What we have are quotations preserved because someone else wanted to agree with him, refute him or show off, and the arrangement into a sequence is entirely the work of modern editors. Any account of his thought is therefore a reconstruction, and honest editions say so on the first page.",
+              "fa": "از هراکلیتوس هیچ کتابی بر جای نمانده است. آنچه داریم نقل‌هایی است که ماندند چون کسی دیگر می‌خواست با او هم‌رأی شود یا ردش کند یا فضل بفروشد، و چیدنشان در یک رشته یکسره کار ویراستاران امروزی است. پس هر شرحی از اندیشه او بازسازی است، و ویرایش‌های صادق همین را در صفحه نخست می‌گویند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The doctrine attached to his name in schoolbooks — everything flows, you cannot step into the same river twice — is a summary by Plato, not a sentence of his. What the fragments actually keep insisting on is that opposites are held together rather than cancelled: the road up and the road down are one road, the bow works because the string pulls against the frame, and a thing stays itself by being under tension.",
+              "fa": "آموزه‌ای که در کتاب‌های درسی به نامش بسته‌اند، یعنی همه چیز روان است و دو بار در یک رود نمی‌توان پا نهاد، خلاصه‌ای از افلاطون است نه جمله‌ای از او. آنچه پاره‌ها در واقع بر آن پای می‌فشارند این است که ضدها کنار هم نگاه داشته می‌شوند نه اینکه یکدیگر را باطل کنند: راه بالا و راه پایین یک راه است، کمان کار می‌کند چون زه در برابر چوب می‌کشد، و چیزی خودش می‌ماند از همان رو که در کشاکش است."
+            },
+            "citations": [
+              { "source": "text-heraclitus-fragments", "locator": "DK 22 B60" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The word logos carries more weight here than anywhere before it, and the difficulty is that Heraclitus uses it in at least three senses at once — his own account, the speech in which it is given, and the pattern in things that the account tracks. Later readers picked whichever sense their own project needed. The Stoics made it a cosmic reason; the Gospel of John made it a person; nineteenth-century Germans made it dialectic. Each reading is arguable and none can be proved from the text.\n\nThe reason for caution is structural, not fussy. A fragment reaches us inside a sentence written by someone with a purpose, and the seam between quotation and paraphrase is often invisible. Some famous lines survive only in Christian authors writing seven hundred years later. Treating the collection as a lost book recovered would mean reading an anthology assembled by his opponents as if it were his own table of contents.",
+              "fa": "واژه لوگوس اینجا بار سنگین‌تری از هر جای پیش از خود دارد، و دشواری این است که هراکلیتوس آن را دست کم در سه معنا هم‌زمان به کار می‌برد: شرح خودش، سخنی که در آن داده می‌شود، و الگویی در چیزها که آن شرح ردش را می‌گیرد. خوانندگان بعدی هر معنایی را که کارشان می‌خواست برگرفتند. رواقیان آن را خرد کیهانی کردند؛ انجیل یوحنا شخصش کرد؛ آلمانی‌های سده نوزدهم دیالکتیکش کردند. هر خوانش را می‌توان دفاع کرد و هیچ‌کدام را نمی‌توان از متن اثبات کرد.\n\nدلیل این احتیاط ساختاری است نه وسواسی. هر پاره در دل جمله‌ای به ما می‌رسد که کسی با قصدی نوشته، و درز میان نقل و بازگفت بارها نادیدنی است. برخی سطرهای مشهور تنها نزد نویسندگان مسیحی هفتصد سال بعد مانده‌اند. اگر این مجموعه را کتابی گم‌شده و بازیافته بگیریم، جنگی را که مخالفانش فراهم آورده‌اند چنان می‌خوانیم که گویی فهرست مطالب خود اوست."
+            },
+            "citations": [
+              { "source": "text-heraclitus-fragments", "locator": "DK 22 B1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-heraclitus-fragments"],
+      "citations": [{ "source": "text-heraclitus-fragments" }]
+    },
+    {
+      "id": "parmenides-on-nature",
+      "title": { "en": "On Nature", "fa": "درباره طبیعت" },
+      "originalTitle": "Περὶ φύσεως",
+      "transliteration": "Peri physeōs",
+      "alsoKnownAs": ["The Poem"],
+      "author": "parmenides",
+      "oneLine": {
+        "en": "A poem in which a goddess argues that what is cannot come to be, cannot perish and cannot move.",
+        "fa": "منظومه‌ای که در آن ایزدبانویی می‌گوید آنچه هست نه پدید می‌آید، نه از میان می‌رود و نه حرکت می‌کند."
+      },
+      "composed": { "start": { "year": -475, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": ["metaphysics", "logic", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "It opens with a chariot ride to the house of a goddess, which is the frame, and then becomes the first sustained deductive argument in European philosophy. The goddess offers two roads: that it is, and that it is not. The second, she says, cannot even be thought, and from that refusal the rest follows.",
+              "fa": "با سفری با ارابه به خانه ایزدبانویی آغاز می‌شود، که قاب کار است، و آنگاه به نخستین استدلال قیاسی پیوسته در فلسفه اروپا بدل می‌شود. ایزدبانو دو راه پیش می‌نهد: اینکه هست، و اینکه نیست. می‌گوید دومی را حتی نمی‌توان اندیشید، و باقی از همین انکار بیرون می‌آید."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is short enough to state and hard enough to escape. To say that something came into being is to say that before it there was nothing of it; but nothing is not anything, so there is no state described. The same move blocks perishing, and change, and any real difference between one part of what is and another. What is left is a single, whole, unmoving thing, and the senses that report otherwise are reporting badly.",
+              "fa": "استدلال چندان کوتاه است که بتوان بازگفتش و چندان سخت که نتوان از آن گریخت. گفتن اینکه چیزی پدید آمده یعنی پیش از آن هیچ از آن نبوده؛ اما هیچ چیزی نیست، پس حالتی وصف نشده است. همین حرکت جلوی نابودی را می‌گیرد و جلوی دگرگونی را و جلوی هر تفاوت واقعی میان بخشی از آنچه هست و بخشی دیگر. آنچه می‌ماند چیزی یگانه و تمام و بی‌حرکت است، و حواسی که خلاف آن گزارش می‌کنند بد گزارش می‌کنند."
+            },
+            "citations": [
+              { "source": "text-parmenides-poem", "locator": "DK 28 B8" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Every physicist after him works in the shadow of that argument. Empedocles keeps four unchanging roots and lets only their mixture vary; Anaxagoras keeps everything in everything; the atomists keep indivisible bits that are each a little Parmenidean one, and pay for motion by admitting the void, which is exactly the not-being he had forbidden. None of them ignores him, which is the strongest evidence that the reasoning was felt to be sound.\n\nThe second half of the poem is the unsolved problem. Having proved that the world of change cannot be, the goddess proceeds to give a detailed cosmology of it, warning that it is deceptive. Why write it at all? Every answer on offer — that it is the best available false view, that it is a diagnosis of how mortals go wrong, that it is a training exercise — has been defended, and the surviving text is too fragmentary to decide between them.",
+              "fa": "هر طبیعی‌دانی پس از او در سایه همان استدلال کار می‌کند. امپدوکلس چهار ریشه دگرگون‌ناپذیر نگاه می‌دارد و تنها به آمیزششان اجازه تغییر می‌دهد؛ آناکساگوراس همه چیز را در همه چیز نگاه می‌دارد؛ اتم‌گرایان ذره‌های تقسیم‌ناپذیری نگاه می‌دارند که هر یک پارمنیدسی کوچک است، و بهای حرکت را با پذیرفتن خلأ می‌پردازند، که همان نیستی ممنوع اوست. هیچ‌کدام نادیده‌اش نمی‌گیرند، و این قوی‌ترین گواه بر آن است که استدلال را درست می‌یافتند.\n\nنیمه دوم منظومه مسئله ناگشوده است. ایزدبانو پس از اثبات اینکه جهان دگرگونی نمی‌تواند باشد، کیهان‌شناسی مفصلی از همان جهان می‌دهد و هشدار می‌دهد که فریبنده است. اصلا چرا بنویسدش؟ هر پاسخی که در میان است، یعنی اینکه بهترین دیدگاه نادرست موجود است، یا تشخیص اینکه میرندگان کجا خطا می‌کنند، یا تمرینی آموزشی، از آن دفاع شده است، و متن بازمانده پاره‌تر از آن است که میانشان داوری کند."
+            },
+            "citations": [
+              { "source": "text-parmenides-poem", "locator": "DK 28 B1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-parmenides-poem"],
+      "citations": [{ "source": "text-parmenides-poem" }]
+    },
+    {
+      "id": "democritus-fragments",
+      "title": { "en": "Fragments", "fa": "پاره‌های دموکریتوس" },
+      "author": "democritus",
+      "oneLine": {
+        "en": "Ethical sayings survive in bulk; the atomic physics that made him famous survives mostly in report.",
+        "fa": "سخنان اخلاقی به فراوانی مانده‌اند؛ اما طبیعیات اتمی که او را نامدار کرد بیشتر در گزارش دیگران مانده است."
+      },
+      "composed": { "start": { "year": -420, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": [
+        "metaphysics",
+        "ethics",
+        "epistemology",
+        "philosophy-of-science"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Democritus wrote a great deal — the ancient catalogues list dozens of titles across physics, mathematics, music and medicine — and almost none of it came through. The imbalance in what survives is itself misleading: hundreds of moral maxims, and for the atomism a handful of lines plus the summaries of Aristotle, who was arguing against it.",
+              "fa": "دموکریتوس بسیار نوشت؛ فهرست‌های باستانی ده‌ها عنوان در طبیعیات و ریاضی و موسیقی و پزشکی برمی‌شمارند، و تقریبا هیچ‌یک نرسیده است. خود همین ناترازی در آنچه مانده گمراه‌کننده است: صدها حکمت اخلاقی، و برای اتم‌گرایی مشتی سطر به علاوه خلاصه‌های ارسطو، که در ردش می‌نوشت."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The atoms are Parmenidean units made plural: each is solid, uncuttable, without internal change, and differs from the others only in shape, arrangement and position. Everything we notice — colour, warmth, taste — belongs to the encounter rather than to the atoms, which is why the surviving line says that by convention there is sweet and bitter, but in reality atoms and void.",
+              "fa": "اتم‌ها همان یگانه‌های پارمنیدسی‌اند که کثیر شده‌اند: هر یک ستبر است و ناشکافتنی و بی‌دگرگونی درونی، و تنها در شکل و چینش و وضع با دیگران فرق دارد. هر آنچه ما درمی‌یابیم، یعنی رنگ و گرما و مزه، از آن برخورد است نه از آن اتم‌ها، و از همین روست که سطر بازمانده می‌گوید شیرین و تلخ به قرارداد است، اما در واقع اتم است و خلأ."
+            },
+            "citations": [
+              { "source": "text-democritus-fragments", "locator": "DK 68 B9" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The relation between the two halves of what survives is a genuine puzzle rather than a gap to be papered over. It is not obvious how a world of colliding shapes yields the cheerful, moderate ethics of the maxims, and Democritus does not connect them in anything we have. Some scholars think the ethical fragments are largely later material collected under a famous name; others read cheerfulness as exactly the state a person reaches on learning that the universe has no plans for them.\n\nThe transmission also has a villain, or at least a suspect. Aristotle took atomism seriously enough to refute it at length, and it is largely through his refutations that we know it — which means the version we have is shaped by the objections it was selected to answer. Epicurus later adopted the physics and changed it, adding the swerve, so even the school that continued the theory is not a clean witness to what its founder said.",
+              "fa": "نسبت میان دو نیمه آنچه مانده معمایی راستین است نه شکافی که بتوان رویش را پوشاند. آشکار نیست جهانی از شکل‌های برخوردکننده چگونه اخلاق شادمانه و میانه‌رو آن حکمت‌ها را به بار می‌آورد، و دموکریتوس در هیچ‌یک از آنچه داریم این دو را به هم نمی‌بندد. برخی پژوهشگران پاره‌های اخلاقی را بیشتر مایه‌ای متأخر می‌دانند که زیر نامی پرآوازه گرد آمده؛ دیگران شادمانی را دقیقا همان حالی می‌خوانند که آدمی با دانستن اینکه گیتی برایش نقشه‌ای ندارد به آن می‌رسد.\n\nراه انتقال هم بدکاری دارد، یا دست کم مظنونی. ارسطو اتم‌گرایی را چندان جدی گرفت که مفصل ردش کند، و ما بیشتر از راه همان ردیه‌ها می‌شناسیمش؛ یعنی روایتی که داریم به دست اعتراض‌هایی شکل گرفته که برای پاسخ به آن‌ها برگزیده شده بود. اپیکور بعدها این طبیعیات را برگرفت و دگرگونش کرد و انحراف را افزود، پس حتی مکتبی که این نظریه را ادامه داد شاهد پاکی بر گفته بنیادگذارش نیست."
+            },
+            "citations": [
+              {
+                "source": "text-lives-of-eminent-philosophers",
+                "locator": "Book IX"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-democritus-fragments",
+        "text-lives-of-eminent-philosophers"
+      ],
+      "citations": [{ "source": "text-democritus-fragments" }]
+    },
+    {
+      "id": "encomium-of-helen",
+      "title": { "en": "Encomium of Helen", "fa": "ستایش هلن" },
+      "originalTitle": "Ἑλένης ἐγκώμιον",
+      "transliteration": "Helenēs enkōmion",
+      "author": "gorgias",
+      "oneLine": {
+        "en": "A defence of the most blamed woman in Greek legend, written to show that speech can do anything.",
+        "fa": "دفاعی از نکوهیده‌ترین زن افسانه‌های یونان، نوشته‌شده تا نشان دهد سخن هر کاری از دستش برمی‌آید."
+      },
+      "composed": { "start": { "year": -414, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": [
+        "philosophy-of-language",
+        "ethics",
+        "aesthetics",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Helen left with Paris and a war followed. Gorgias lists the four things that could have caused her to go — the gods, force, speech, love — and argues that on each of them she is not to blame. Then he ends by calling the whole performance a plaything, which is either modesty or the point.",
+              "fa": "هلن با پاریس رفت و جنگی در پی آمد. گرگیاس چهار چیزی را که می‌توانست او را به رفتن وادارد برمی‌شمارد: خدایان، زور، سخن، عشق. و می‌گوید در هر یک او را سرزنشی نیست. آنگاه در پایان تمام این کار را بازیچه می‌خواند، که یا فروتنی است یا اصل مطلب."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The third cause is the philosophical one. Speech, Gorgias says, is a powerful master with a very small body, which does the work of a drug on a soul: it can stop fear, remove grief, produce joy, and it does this by persuasion, which shapes the soul as it likes. If words work on us the way a drug works on a body, then a person moved by words was acted upon, and consent is not what we thought it was.",
+              "fa": "سومین سبب همان سبب فلسفی است. گرگیاس می‌گوید سخن سروری نیرومند است با پیکری بسیار خرد، که با جان همان می‌کند که دارو با تن: می‌تواند ترس را بایستاند، اندوه را ببرد، شادی بیاورد، و این را با اقناع می‌کند که جان را هرگونه بخواهد شکل می‌دهد. اگر واژه‌ها چنان بر ما کار کنند که دارو بر تن، پس کسی که واژه‌ها به حرکتش آورده‌اند کنش‌پذیر بوده است، و رضایت آن نیست که می‌پنداشتیم."
+            },
+            "citations": [
+              { "source": "text-encomium-of-helen", "locator": "§8-14" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Plato spent a career answering this, and the answer required inventing something. If persuasion is simply a force, then a true speech and a false one differ only in their effects, and the philosopher has nothing to offer the orator but a weaker technique. Plato's reply is that there is a standard outside the exchange which speech can hit or miss — which is what the theory of Forms is for, at least in part.\n\nThe reputation of the sophists has recovered slowly and unevenly. Reading them mainly through Plato's dialogues, where they lose, produced two centuries of textbooks in which they are relativists who taught rhetoric for money. The surviving texts show something narrower and more interesting: an attention to how argument actually moves people, and a willingness to demonstrate it on a case where everyone had already made up their mind.",
+              "fa": "افلاطون عمری صرف پاسخ به این کرد، و پاسخ نیازمند ابداع چیزی بود. اگر اقناع صرفا نیرویی باشد، آنگاه سخن راست و سخن دروغ تنها در اثرشان فرق دارند، و فیلسوف جز فنی ضعیف‌تر چیزی برای عرضه به سخنور ندارد. پاسخ افلاطون این است که معیاری بیرون از این داد و ستد هست که سخن می‌تواند به آن بخورد یا نخورد، و نظریه مثل، دست کم تا حدی، برای همین است.\n\nآبروی سوفسطاییان کند و ناهموار بازگشته است. خواندنشان بیشتر از راه محاوره‌های افلاطون، جایی که می‌بازند، دو سده کتاب درسی پدید آورد که در آن‌ها نسبی‌گرایانی‌اند که سخنوری را به پول می‌آموختند. متن‌های بازمانده چیزی باریک‌تر و جالب‌تر نشان می‌دهند: توجهی به اینکه استدلال در عمل چگونه مردم را به حرکت درمی‌آورد، و آمادگی برای نشان‌دادنش در موردی که همه از پیش تصمیمشان را گرفته بودند."
+            },
+            "citations": [
+              { "source": "text-encomium-of-helen", "locator": "§21" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-encomium-of-helen"],
+      "citations": [{ "source": "text-encomium-of-helen" }]
+    },
+    {
+      "id": "letter-to-menoeceus",
+      "title": { "en": "Letter to Menoeceus", "fa": "نامه به منویکئوس" },
+      "originalTitle": "Ἐπιστολὴ πρὸς Μενοικέα",
+      "transliteration": "Epistolē pros Menoikea",
+      "author": "epicurus",
+      "oneLine": {
+        "en": "The whole ethics compressed into a letter short enough to memorise, which is how it was meant to be used.",
+        "fa": "تمام آن اخلاق در نامه‌ای فشرده شده که کوتاه‌تر از آن است که نتوان از بر کرد، و قرار هم همین بوده است."
+      },
+      "composed": { "start": { "year": -300, "precision": "circa" } },
+      "traditions": ["ancient-greek", "hellenistic"],
+      "branches": ["ethics", "metaphysics", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Epicurus wrote thirty-seven books on nature and we have three letters and a list of maxims, all preserved because Diogenes Laertius copied them into his biography. The letter states the practical conclusions: the gods are not to be feared, death is nothing to us, what is good is easy to get, and what is terrible is easy to endure.",
+              "fa": "اپیکور سی و هفت کتاب درباره طبیعت نوشت و ما سه نامه داریم و فهرستی از حکمت‌ها، که همه از آن رو مانده‌اند که دیوگنس لائرتیوس آن‌ها را در زندگی‌نامه‌اش رونویسی کرد. نامه نتیجه‌های عملی را می‌گوید: از خدایان نباید ترسید، مرگ برای ما هیچ است، آنچه خوب است آسان به دست می‌آید، و آنچه سهمگین است آسان تاب می‌آورد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument about death is the one that still gets taught. Where we are, death is not; where death is, we are not. Nothing that is not present to a subject can be bad for that subject, so being dead is not bad for the person who is dead — and the fear that poisons a life is a fear of a state that will contain no one to have it.",
+              "fa": "استدلال درباره مرگ همان است که هنوز تدریس می‌شود. آنجا که ما هستیم مرگ نیست؛ آنجا که مرگ هست ما نیستیم. چیزی که برای یک فاعل حاضر نباشد نمی‌تواند برای او بد باشد، پس مرده‌بودن برای کسی که مرده است بد نیست، و ترسی که زندگی را زهرآلود می‌کند ترس از حالی است که هیچ‌کس در آن نخواهد بود تا داشته باشدش."
+            },
+            "citations": [
+              { "source": "text-letter-to-menoeceus", "locator": "§124-125" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The obvious reply is that death is bad by depriving you of what you would have had, and the deprivation account has been the standard modern answer for fifty years. It has its own cost: if being dead is bad because of what it takes away, the same seems to hold of the endless time before you were born, which nobody minds. Epicurus takes the symmetry to show the fear is confused; his critics take it to show the analogy is imperfect, and the debate has not closed.\n\nThe name has fared worse than the argument. An epicure is now someone who cares about food, which inverts a school whose founder ate bread and water, kept a garden outside the city, and defined pleasure as the absence of bodily pain and mental disturbance rather than as any positive indulgence. The distortion is old: Roman moralists found the doctrine convenient to caricature, and Christian writers had a further reason to.",
+              "fa": "پاسخ آشکار این است که مرگ از آن رو بد است که تو را از آنچه می‌داشتی محروم می‌کند، و شرح محرومیت پنجاه سال است پاسخ استاندارد امروزی است. بهای خودش را دارد: اگر مرده‌بودن به سبب آنچه می‌ستاند بد باشد، همین درباره زمان بی‌پایان پیش از زاده‌شدنت هم صادق می‌نماید، که کسی از آن نمی‌رنجد. اپیکور این تقارن را گواه آشفتگی آن ترس می‌گیرد؛ منتقدانش آن را گواه ناتمامی آن قیاس می‌گیرند، و بحث بسته نشده است.\n\nنام او بدتر از استدلالش سرنوشت یافته است. امروز اپیکوری کسی است که به خوراک اهمیت می‌دهد، و این وارونه‌کردن مکتبی است که بنیادگذارش نان و آب می‌خورد، باغی بیرون شهر داشت، و لذت را نبود درد تن و آشفتگی ذهن تعریف می‌کرد نه هیچ کامجویی مثبتی. این تحریف کهن است: اخلاق‌نویسان رومی این آموزه را برای کاریکاتورکردن به‌کار می‌بردند، و نویسندگان مسیحی دلیل دیگری هم داشتند."
+            },
+            "citations": [
+              { "source": "text-principal-doctrines", "locator": "I-IV" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-letter-to-menoeceus", "text-principal-doctrines"],
+      "citations": [{ "source": "text-letter-to-menoeceus" }]
+    },
+    {
+      "id": "outlines-of-pyrrhonism",
+      "title": { "en": "Outlines of Pyrrhonism", "fa": "طرح‌های پیرهونی" },
+      "originalTitle": "Πυρρώνειοι ὑποτυπώσεις",
+      "transliteration": "Pyrrhōneioi hypotypōseis",
+      "author": "sextus-empiricus",
+      "oneLine": {
+        "en": "A manual of the moves that suspend judgement, written by a doctor who thought calm was the by-product.",
+        "fa": "راهنمای حرکت‌هایی که داوری را معلق می‌کنند، نوشته پزشکی که آرامش را فراورده جانبی آن می‌دانست."
+      },
+      "composed": { "start": { "year": 190, "precision": "circa" } },
+      "traditions": ["ancient-greek", "roman", "hellenistic"],
+      "branches": ["epistemology", "logic", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Sextus is not arguing that nothing can be known — that would be a claim, and claims are what he suspends. He sets out modes: ways of putting an appearance against an appearance until neither side outweighs the other, so that a person who wanted to settle the question finds they cannot, and stops trying.",
+              "fa": "سکستوس نمی‌گوید هیچ چیز را نمی‌توان دانست، چون این خود ادعایی است و ادعا همان است که او معلق می‌کند. شیوه‌هایی را برمی‌شمارد: راه‌هایی برای نهادن نمود در برابر نمود تا هیچ سو بر دیگری نچربد، چنانکه کسی که می‌خواست پرسش را فیصله دهد درمی‌یابد که نمی‌تواند، و از کوشش بازمی‌ایستد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The therapeutic claim is the one that makes it a philosophy rather than a game. The sceptic began, on Sextus's telling, as someone troubled by disagreement and hoping to resolve it. Resolution never came; suspension did; and with suspension came the untroubledness he had originally hoped resolution would bring. Calm follows as a shadow follows a body, which is his image and is careful — it is not aimed at, or it would not arrive.",
+              "fa": "ادعای درمانی همان است که این را به جای بازی، فلسفه می‌کند. به روایت سکستوس، شکاک کارش را چون کسی آغاز کرد که اختلاف آشفته‌اش کرده بود و امید فیصله داشت. فیصله هرگز نیامد؛ تعلیق آمد؛ و با تعلیق همان بی‌آشفتگی آمد که نخست امید داشت فیصله بیاوردش. آرامش چنان در پی می‌آید که سایه در پی تن، و این تصویر خود اوست و سنجیده است: هدف گرفته نمی‌شود، وگرنه نمی‌رسید."
+            },
+            "citations": [
+              {
+                "source": "text-outlines-of-pyrrhonism",
+                "locator": "Book I, §25-30"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The standard objection is that scepticism refutes itself, and Sextus has an answer prepared. The sceptical formulas are not assertions about how things are; they are reports of how things currently seem to the speaker, and they apply to themselves, purging themselves along with the rest — like a laxative that leaves the body with what it expelled. Whether that survives scrutiny is still argued, but the move is not naive and it is not an afterthought.\n\nThe historical detonation came much later. Latin translations printed in the 1560s reached a Europe already split by the Reformation and unable to agree on a criterion for religious truth, and the ancient arsenal was suddenly current. Montaigne read him; Descartes wrote the Meditations to answer a doubt in this shape; Hume revived it in another. The most consequential ancient sceptic is a compiler whose own views are hard to isolate from the positions he catalogues.",
+              "fa": "اعتراض همیشگی این است که شکاکیت خود را رد می‌کند، و سکستوس پاسخی آماده دارد. صیغه‌های شکاکانه گزاره‌هایی درباره چگونگی چیزها نیستند؛ گزارش‌هایی‌اند از اینکه چیزها اکنون به گوینده چگونه می‌نمایند، و بر خود نیز روا می‌شوند و همراه باقی، خود را هم می‌زدایند؛ چون مسهلی که با آنچه بیرون رانده از تن بیرون می‌رود. اینکه این در برابر وارسی دوام می‌آورد یا نه هنوز محل بحث است، اما این حرکت ساده‌لوحانه نیست و پس‌اندیشه هم نیست.\n\nانفجار تاریخی‌اش بسیار دیرتر رخ داد. ترجمه‌های لاتینی که در دهه ۱۵۶۰ چاپ شد به اروپایی رسید که اصلاح دینی دو نیمش کرده بود و نمی‌توانست بر معیاری برای حقیقت دینی توافق کند، و آن زرادخانه باستانی ناگهان روزآمد شد. مونتنی او را خواند؛ دکارت «تأملات» را در پاسخ به شکی به همین شکل نوشت؛ هیوم آن را به شکلی دیگر زنده کرد. پیامدسازترین شکاک باستان گردآورنده‌ای است که جداکردن دیدگاه‌های خودش از مواضعی که فهرست می‌کند دشوار است."
+            },
+            "citations": [
+              {
+                "source": "text-outlines-of-pyrrhonism",
+                "locator": "Book I, §206"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-outlines-of-pyrrhonism"],
+      "citations": [{ "source": "text-outlines-of-pyrrhonism" }]
+    },
+    {
+      "id": "enneads",
+      "title": { "en": "The Enneads", "fa": "انئادها" },
+      "originalTitle": "Ἐννεάδες",
+      "transliteration": "Enneades",
+      "alsoKnownAs": ["The Nines"],
+      "author": "plotinus",
+      "oneLine": {
+        "en": "Fifty-four essays that his student sorted into six groups of nine, in an order their author never chose.",
+        "fa": "پنجاه و چهار رساله که شاگردش در شش دسته نه‌تایی چیدشان، به ترتیبی که نویسنده‌اش هرگز برنگزید."
+      },
+      "composed": {
+        "start": { "year": 253, "precision": "circa" },
+        "end": { "year": 270, "precision": "circa" }
+      },
+      "traditions": ["ancient-greek", "roman"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "philosophy-of-mind",
+        "aesthetics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Porphyry edited his teacher's papers after his death, grouped them by subject, and arranged them from ethics upward to the One because that was a course of study he thought a reader should follow. The result reads as a system, and the reading order is an editor's argument about how the material should be met.",
+              "fa": "پورفوریوس پس از مرگ استادش نوشته‌هایش را ویراست، به موضوع دسته‌بندی کرد، و از اخلاق رو به بالا تا احد چیدشان، چون این را برنامه درسی‌ای می‌دانست که خواننده باید دنبال کند. آنچه به دست آمد چون یک دستگاه خوانده می‌شود، و ترتیب خواندن استدلال یک ویراستار است درباره اینکه این مایه را چگونه باید دید."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Three levels, each producing the next without losing anything. The One is beyond being and beyond description, since to describe is to divide; from it comes Intellect, which is thought thinking itself and holds the Forms; from Intellect comes Soul, which touches both eternity and time. The movement outward is not a decision and not an event — it is what fullness does, the way a light does not choose to shine.",
+              "fa": "سه مرتبه، که هر یک بعدی را می‌زاید بی‌آنکه چیزی از دست بدهد. احد برتر از هستی و برتر از وصف است، چون وصف‌کردن تقسیم‌کردن است؛ از او عقل می‌آید، که اندیشه‌ای است که خود را می‌اندیشد و مثل را در خود دارد؛ از عقل نفس می‌آید، که هم به ازل می‌رسد و هم به زمان. این حرکت رو به بیرون نه تصمیم است و نه رویداد؛ کاری است که پری می‌کند، چنانکه نور برای تابیدن تصمیم نمی‌گیرد."
+            },
+            "citations": [{ "source": "text-enneads", "locator": "V.1" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Plotinus thought he was expounding Plato and would have been puzzled to be called the founder of anything. Whether Neoplatonism is a reading of the dialogues or a new philosophy in their vocabulary is a real question, and the honest answer is that he is drawing on centuries of school Platonism that we mostly cannot read, so the size of his own contribution is hard to measure.\n\nWhat is measurable is the reach. Augustine says the Platonists set him on the road to Christianity; the vocabulary of emanation runs through Islamic falsafa into Fārābī and Ibn Sīnā; the treatise wrongly attributed to Aristotle and known as the Theology is in fact a paraphrase of the Enneads, and it shaped Arabic metaphysics for centuries under the wrong name. Three religious traditions built on him, and two of them did not know whose work they were building on.",
+              "fa": "پلوتینوس می‌پنداشت افلاطون را شرح می‌کند و اگر او را بنیادگذار چیزی می‌خواندند در می‌ماند. اینکه نوافلاطونی خوانشی از محاوره‌هاست یا فلسفه‌ای نو در واژگان آن‌ها، پرسشی راستین است، و پاسخ صادقانه این است که او بر سده‌ها افلاطون‌گرایی مدرسی تکیه دارد که ما بیشترش را نمی‌توانیم بخوانیم، پس اندازه سهم خودش را دشوار می‌توان سنجید.\n\nآنچه سنجیدنی است دامنه اوست. آگوستین می‌گوید افلاطونیان او را به راه مسیحیت انداختند؛ واژگان صدور از راه فلسفه اسلامی به فارابی و ابن سینا می‌رسد؛ و رساله‌ای که به خطا به ارسطو نسبت داده‌اند و «اثولوجیا» خوانده می‌شود در واقع بازگفتی از انئادهاست، که سده‌ها زیر نامی نادرست متافیزیک عربی را شکل داد. سه سنت دینی بر او ساختند، و دو تا از آن‌ها نمی‌دانستند بر کار چه کسی می‌سازند."
+            },
+            "citations": [{ "source": "text-enneads", "locator": "VI.9" }]
+          }
+        ]
+      },
+      "editions": ["text-enneads"],
+      "citations": [{ "source": "text-enneads" }]
+    },
+    {
+      "id": "letters-to-lucilius",
+      "title": { "en": "Letters to Lucilius", "fa": "نامه‌هایی به لوکیلیوس" },
+      "originalTitle": "Epistulae morales ad Lucilium",
+      "alsoKnownAs": ["Moral Letters", "Epistulae Morales"],
+      "author": "seneca",
+      "oneLine": {
+        "en": "A hundred and twenty-four letters on how to live, written by a man whose own life is the standing objection to them.",
+        "fa": "صد و بیست و چهار نامه درباره چگونه زیستن، از مردی که زندگی خودش اعتراض همیشگی به آن‌هاست."
+      },
+      "composed": {
+        "start": { "year": 63, "precision": "circa" },
+        "end": { "year": 65, "precision": "circa" }
+      },
+      "traditions": ["roman", "hellenistic"],
+      "branches": ["ethics", "philosophy-of-religion", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "They are addressed to a real official in Sicily and were almost certainly written for publication as well. Each takes an occasion — a noisy bathhouse below the apartment, a crowd at the games, an old friend's illness — and works from it to a point about how to hold what you cannot keep.",
+              "fa": "خطابشان به کارگزاری واقعی در سیسیل است و تقریبا بی‌گمان برای انتشار هم نوشته شده‌اند. هر یک مناسبتی را برمی‌گیرد، مثل گرمابه‌ای پرهیاهو زیر خانه، یا انبوه مردم در بازی‌ها، یا بیماری دوستی قدیمی، و از آن به نکته‌ای می‌رسد درباره اینکه آنچه را نمی‌توانی نگاه داری چگونه در دست بگیری."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Stoic doctrine holds that only virtue is good and that health, money and reputation are indifferent. Seneca keeps the doctrine and softens the edge: the indifferents are still to be preferred or avoided, and a wise man will take wealth rather than poverty while remaining ready to lose it. That concession is what makes the letters usable and what his stricter readers have never forgiven.",
+              "fa": "آموزه رواقی می‌گوید تنها فضیلت خیر است و تندرستی و مال و آبرو بی‌تفاوت‌اند. سنکا آموزه را نگاه می‌دارد و تیزی‌اش را نرم می‌کند: بی‌تفاوت‌ها همچنان ترجیح‌دادنی یا پرهیزکردنی‌اند، و فرزانه ثروت را بر تنگدستی برمی‌گزیند و در همان حال آماده از دست‌دادنش می‌ماند. همین گذشت است که نامه‌ها را به‌کارآمدنی می‌کند و خوانندگان سختگیرترش هرگز نبخشیده‌اندش."
+            },
+            "citations": [
+              { "source": "text-letters-to-lucilius", "locator": "Letter 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He was one of the richest men in Rome, tutor and then minister to Nero, and stayed in that position through years in which his pupil murdered his own mother. Tacitus reports that Seneca wrote the speech justifying it to the Senate. He then died on Nero's order, opening his veins and talking philosophy while it took effect, which the ancient sources describe with some admiration.\n\nWhat to do with that has been argued since Dio Cassius, and there is no reading that makes it comfortable. Taking the letters as a portrait of their author is plainly wrong. Taking them as therefore worthless assumes that only the achieved may prescribe, which would empty most of ethics. The most defensible position is that they are the work of someone who understood the failure from inside and wrote about it accurately, and that this is a real form of knowledge even when it does not issue in a life.",
+              "fa": "او از ثروتمندترین مردان روم بود، نخست آموزگار و سپس وزیر نرون، و سال‌هایی را در آن جایگاه ماند که شاگردش مادر خود را کشت. تاکیتوس گزارش می‌کند که سنکا سخنرانی توجیه آن را برای مجلس سنا نوشت. سپس به فرمان نرون مرد، رگ‌هایش را گشود و تا اثر کند از فلسفه سخن گفت، و منابع باستانی این را با تحسینی وصف می‌کنند.\n\nاینکه با این چه باید کرد از زمان دیون کاسیوس محل بحث بوده، و خوانشی نیست که آن را راحت کند. گرفتن نامه‌ها همچون تصویری از نویسنده‌شان آشکارا نادرست است. بی‌ارزش‌شمردنشان به همین سبب فرض می‌گیرد که تنها کامیاب حق تجویز دارد، و این بیشتر اخلاق را تهی می‌کند. دفاع‌پذیرترین موضع این است که این‌ها کار کسی است که ناکامی را از درون می‌فهمید و درست درباره‌اش نوشت، و این حتی وقتی به یک زندگی نمی‌انجامد صورتی راستین از دانستن است."
+            },
+            "citations": [
+              { "source": "text-letters-to-lucilius", "locator": "Letter 61" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-letters-to-lucilius"],
+      "citations": [{ "source": "text-letters-to-lucilius" }]
     }
   ]
 }
