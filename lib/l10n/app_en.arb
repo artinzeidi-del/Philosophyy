@@ -24,6 +24,43 @@
   "@navSettings": {
     "description": "Bottom navigation label for settings."
   },
+  "rank1": "Novice",
+  "@rank1": { "description": "The first rank, from the reader's first launch." },
+  "rank2": "Questioner",
+  "@rank2": { "description": "The second rank." },
+  "rank3": "Seeker",
+  "@rank3": { "description": "The third rank." },
+  "rank4": "Student",
+  "@rank4": { "description": "The fourth rank." },
+  "rank5": "Interlocutor",
+  "@rank5": { "description": "The fifth rank." },
+  "rank6": "Contemplative",
+  "@rank6": { "description": "The sixth rank." },
+  "rank7": "Dialectician",
+  "@rank7": { "description": "The seventh rank." },
+  "rank8": "Sage",
+  "@rank8": { "description": "The eighth rank." },
+  "rank9": "Philosopher",
+  "@rank9": { "description": "The last rank, for a reader who has answered everything the corpus can ask." },
+  "rankLevel": "Level {level} of {count}",
+  "@rankLevel": {
+    "description": "Where the reader is on the ladder.",
+    "placeholders": { "level": { "type": "int" }, "count": { "type": "int" } }
+  },
+  "rankToNext": "{count, plural, =1{1 more to the next rank} other{{count} more to the next rank}}",
+  "@rankToNext": {
+    "description": "How many facts remain before the next rank.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "rankTop": "Nothing left to answer.",
+  "@rankTop": { "description": "Shown at the highest rank." },
+  "rankMastered": "{mastered} of {total} answered",
+  "@rankMastered": {
+    "description": "How much of the corpus the reader has answered questions about.",
+    "placeholders": { "mastered": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "rankStart": "Answer a few questions to begin.",
+  "@rankStart": { "description": "Shown on the progress bar before the reader has answered anything." },
   "quizTitle": "Test",
   "@quizTitle": {
     "description": "Name of the quiz section."

@@ -264,6 +264,7 @@ class UserLibrary {
     this.highlights = const <Highlight>[],
     this.positions = const <ReadingPosition>[],
     this.readMarks = const <ReadMark>[],
+    this.masteredFacts = const <String>{},
   });
 
   /// A reader who has saved nothing yet.
@@ -284,13 +285,28 @@ class UserLibrary {
   /// Articles the reader has said they finished.
   final List<ReadMark> readMarks;
 
+  /// Things from the corpus the reader has answered a question about correctly.
+  ///
+  /// ## Why facts and not questions
+  ///
+  /// A fact is what the corpus records — that Ibn Sīnā belongs to the Islamic
+  /// tradition. The quiz can ask about one in several ways, and someone who
+  /// knows it knows it however it is asked. Keeping question identifiers would
+  /// let the same knowledge be banked twice by meeting it in its other
+  /// phrasing, and the ladder would then measure persistence rather than
+  /// reading.
+  ///
+  /// A set, because answering the same thing again is not progress.
+  final Set<String> masteredFacts;
+
   /// Whether the reader has saved anything at all.
   bool get isEmpty =>
       bookmarks.isEmpty &&
       notes.isEmpty &&
       highlights.isEmpty &&
       positions.isEmpty &&
-      readMarks.isEmpty;
+      readMarks.isEmpty &&
+      masteredFacts.isEmpty;
 
   /// How many things the reader has created, excluding reading positions —
   /// which they did not choose to create.
@@ -300,6 +316,16 @@ class UserLibrary {
   /// Whether [ref] is bookmarked.
   bool isBookmarked(EntityRef ref) =>
       bookmarks.any((bookmark) => bookmark.target == ref);
+
+  /// Records [facts] as answered, and reports whether any were new.
+  ///
+  /// Returns the same library when nothing changed, so a round of questions
+  /// the reader has already answered does not write to storage.
+  UserLibrary withMastered(Iterable<String> facts) {
+    final next = <String>{...masteredFacts, ...facts};
+    if (next.length == masteredFacts.length) return this;
+    return copyWith(masteredFacts: next);
+  }
 
   /// Whether the reader has marked [ref] as read.
   bool hasRead(EntityRef ref) => readMarks.any((mark) => mark.target == ref);
@@ -436,6 +462,10 @@ class UserLibrary {
     highlights: highlights.where((it) => it.target != ref).toList(),
     positions: positions.where((it) => it.target != ref).toList(),
     readMarks: readMarks.where((it) => it.target != ref).toList(),
+    // Mastery is not cleared with the entry. A fact names something in the
+    // corpus, not something of the reader's, and clearing an article they no
+    // longer want listed should not cost them the ladder they climbed.
+    masteredFacts: masteredFacts,
   );
 
   /// Returns a copy with the given collections replaced.
@@ -445,17 +475,19 @@ class UserLibrary {
     List<Highlight>? highlights,
     List<ReadingPosition>? positions,
     List<ReadMark>? readMarks,
+    Set<String>? masteredFacts,
   }) => UserLibrary(
     bookmarks: bookmarks ?? this.bookmarks,
     notes: notes ?? this.notes,
     highlights: highlights ?? this.highlights,
     positions: positions ?? this.positions,
     readMarks: readMarks ?? this.readMarks,
+    masteredFacts: masteredFacts ?? this.masteredFacts,
   );
 
   @override
   String toString() =>
       'UserLibrary(${bookmarks.length} bookmarks, ${notes.length} notes, '
       '${highlights.length} highlights, ${positions.length} positions, '
-      '${readMarks.length} read)';
+      '${readMarks.length} read, ${masteredFacts.length} mastered)';
 }

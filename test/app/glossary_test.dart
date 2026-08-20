@@ -6,6 +6,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
+import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -35,6 +36,7 @@ void main() {
         overrides: [
           sharedPreferencesProvider.overrideWithValue(preferences),
           corpusProvider.overrideWith((ref) => corpus),
+          initialLibraryProvider.overrideWithValue(UserLibrary.empty),
           initialRouteProvider.overrideWithValue(route),
         ],
         child: const PhilosophiaApp(),

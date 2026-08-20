@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/app/app.dart';
+import 'package:philosophyy/app/floating_nav_bar.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
@@ -126,10 +127,23 @@ void main() {
     ) async {
       Future<BoxDecoration> selectedDecoration(Size size) async {
         await pump(tester, AppRouter.home, size: size);
-        // The lit surface is the only decoration on the navigation carrying a
-        // gradient; everything else there is a flat fill or nothing.
-        final decorations = find
-            .byType(AnimatedContainer)
+
+        // Scoped to the navigation. The finder used to scan the whole tree on
+        // the reasoning that the lit pill was the only gradient
+        // `AnimatedContainer` anywhere — which was true when it was written
+        // and stopped being true the moment the home screen grew a progress
+        // bar whose fill is exactly that. The guard then compared the bar
+        // against the rail and reported the navigation had drifted.
+        final navigation = find.descendant(
+          of: find.byWidgetPredicate(
+            (widget) =>
+                widget is FloatingNavBar ||
+                widget.runtimeType.toString() == '_Rail',
+          ),
+          matching: find.byType(AnimatedContainer),
+        );
+
+        final decorations = navigation
             .evaluate()
             .map((element) => (element.widget as AnimatedContainer).decoration)
             .whereType<BoxDecoration>()

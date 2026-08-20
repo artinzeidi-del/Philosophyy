@@ -191,6 +191,82 @@ void main() {
       expect(rewritten['readMarks'], isEmpty);
     });
 
+    test('a version 2 library survives the upgrade with everything intact', () {
+      // The codec's rule again, for the step that added the facts a reader has
+      // answered. Their notes, marks and positions must come through untouched.
+      final version2 = jsonEncode(<String, Object?>{
+        'version': 2,
+        'bookmarks': <Object?>[
+          <String, Object?>{
+            'target': 'philosopher:plato',
+            'savedAt': '2026-01-01T00:00:00.000Z',
+          },
+        ],
+        'notes': <Object?>[
+          <String, Object?>{
+            'id': 'n1',
+            'target': 'concept:justice',
+            'body': 'یادداشتی که نباید گم شود',
+            'createdAt': '2026-01-02T00:00:00.000Z',
+            'updatedAt': '2026-01-03T00:00:00.000Z',
+          },
+        ],
+        'highlights': const <Object?>[],
+        'positions': const <Object?>[],
+        'readMarks': <Object?>[
+          <String, Object?>{
+            'target': 'philosopher:plato',
+            'markedAt': '2026-01-05T00:00:00.000Z',
+          },
+        ],
+      });
+
+      final library = UserLibraryCodec.decode(version2);
+
+      expect(library.bookmarks, hasLength(1));
+      expect(library.notes.single.body, 'یادداشتی که نباید گم شود');
+      expect(library.readMarks, hasLength(1));
+      expect(library.hasRead(plato), isTrue);
+
+      // The one thing version 2 could not carry.
+      expect(library.masteredFacts, isEmpty);
+
+      final rewritten =
+          jsonDecode(UserLibraryCodec.encode(library)) as Map<String, Object?>;
+      expect(rewritten['version'], UserLibraryCodec.currentVersion);
+      expect(rewritten['masteredFacts'], isEmpty);
+    });
+
+    test('mastered facts survive a round trip', () {
+      final library = UserLibrary.empty.withMastered(const <String>[
+        'tradition:plato',
+        'author:republic',
+      ]);
+
+      final restored = UserLibraryCodec.decode(
+        UserLibraryCodec.encode(library),
+      );
+
+      expect(restored.masteredFacts, <String>{
+        'author:republic',
+        'tradition:plato',
+      });
+    });
+
+    test('a mastered list holding something that is not a fact is refused', () {
+      final broken = jsonEncode(<String, Object?>{
+        'version': 3,
+        'masteredFacts': <Object?>[
+          'tradition:plato',
+          <String, Object?>{'not': 'a string'},
+        ],
+      });
+      expect(
+        () => UserLibraryCodec.decode(broken),
+        throwsA(isA<LibraryFormatException>()),
+      );
+    });
+
     test('read marks survive a round trip', () {
       final library = UserLibrary.empty.toggleRead(
         plato,

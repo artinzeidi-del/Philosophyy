@@ -38,7 +38,7 @@ class LibraryFormatException implements Exception {
 /// still on the device to be recovered.
 abstract final class UserLibraryCodec {
   /// The schema version this build writes.
-  static const int currentVersion = 2;
+  static const int currentVersion = 3;
 
   /// Serialises [library] to a JSON document.
   static String encode(UserLibrary library) => jsonEncode(<String, Object?>{
@@ -89,6 +89,9 @@ abstract final class UserLibraryCodec {
           'markedAt': mark.markedAt.toUtc().toIso8601String(),
         },
     ],
+    // Sorted, so two libraries holding the same facts serialise to the same
+    // bytes and a save that changed nothing is visibly one.
+    'masteredFacts': library.masteredFacts.toList()..sort(),
   });
 
   /// Parses a stored document.
@@ -126,6 +129,7 @@ abstract final class UserLibraryCodec {
         highlights: _list(document, 'highlights', _highlight),
         positions: _list(document, 'positions', _position),
         readMarks: _list(document, 'readMarks', _readMark),
+        masteredFacts: _stringSet(document, 'masteredFacts'),
       );
     } on LibraryFormatException {
       rethrow;
@@ -158,6 +162,17 @@ abstract final class UserLibraryCodec {
         'version': 2,
       };
       at = 2;
+    }
+
+    // 2→3 added the facts the reader has answered correctly. Nothing in
+    // version 2 changes shape, so the step supplies the absent list.
+    if (at == 2) {
+      migrated = <String, Object?>{
+        ...migrated,
+        'masteredFacts': const <Object?>[],
+        'version': 3,
+      };
+      at = 3;
     }
 
     // Each further step goes here, one at a time, so that a reader who upgrades
@@ -229,6 +244,24 @@ abstract final class UserLibraryCodec {
     if (raw is int) return raw;
     if (raw is num) return raw.toInt();
     throw LibraryFormatException('"$field" is not a number');
+  }
+
+  static Set<String> _stringSet(Map<String, Object?> document, String field) {
+    final raw = document[field];
+    if (raw == null) return const <String>{};
+    if (raw is! List) {
+      throw LibraryFormatException('"$field" is not a list');
+    }
+    final values = <String>{};
+    for (final entry in raw) {
+      if (entry is! String) {
+        throw LibraryFormatException(
+          '"$field" holds something that is not a string',
+        );
+      }
+      values.add(entry);
+    }
+    return values;
   }
 
   static ReadMark _readMark(Map<String, Object?> json) =>

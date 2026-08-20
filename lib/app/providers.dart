@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:philosophyy/app/settings/app_settings.dart';
@@ -15,6 +17,7 @@ import 'package:philosophyy/domain/repositories/knowledge_repository.dart';
 import 'package:philosophyy/domain/repositories/user_data_repository.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
+import 'package:philosophyy/domain/value_objects/ranks.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -182,10 +185,20 @@ class QuizSessionController extends Notifier<QuizSession?> {
   }
 
   /// Commits the choice and moves on.
+  ///
+  /// A fact answered correctly is banked here rather than at the end of the
+  /// round, so a reader who leaves halfway keeps what they got right. Leaving
+  /// is not failing.
   void advance() {
     final session = state;
     final chosen = session?.pending;
     if (session == null || chosen == null) return;
+
+    final question = session.current;
+    if (question != null && question.isCorrect(chosen)) {
+      unawaited(ref.read(libraryProvider.notifier).master(question.fact));
+    }
+
     state = session.copyWith(
       answers: <int>[...session.answers, chosen],
       clearPending: true,
@@ -503,6 +516,16 @@ class LibraryController extends Notifier<UserLibrary> {
   Future<bool> toggleRead(EntityRef target, {DateTime? at}) =>
       _commit(state.toggleRead(target, at: at ?? DateTime.now()));
 
+  /// Records that the reader has answered a question about [fact] correctly.
+  ///
+  /// Returns without writing when the fact is already known, so re-answering
+  /// something costs nothing and changes nothing.
+  Future<bool> master(String fact) {
+    final next = state.withMastered(<String>[fact]);
+    if (identical(next, state)) return Future<bool>.value(true);
+    return _commit(next);
+  }
+
   /// Adds a note, returning the note that was stored.
   Future<Note?> addNote({
     required EntityRef target,
@@ -648,6 +671,54 @@ final readTargetsProvider = Provider<Set<EntityRef>>(
     ),
   ),
 );
+
+/// Every fact the corpus can build a question about.
+///
+/// The denominator of the reader's rank, and a property of the corpus rather
+/// than of how much they have read — see [Ranks] for why it has to be.
+final quizCatalogueProvider = Provider<Set<String>>((ref) {
+  final corpus = ref.watch(corpusProvider).value;
+  if (corpus == null) return const <String>{};
+  return QuizBuilder.factsFor(
+    corpus,
+    corpus.allEntities.map((entity) => entity.ref).toSet(),
+  );
+});
+
+/// Where the reader stands on the ladder.
+final readerRankProvider = Provider<ReaderRank>((ref) {
+  final total = ref.watch(quizCatalogueProvider).length;
+  final mastered = ref.watch(
+    libraryProvider.select((library) => library.masteredFacts.length),
+  );
+  return ReaderRank(mastered: mastered, total: total);
+});
+
+/// A reader's standing, as the home screen needs it.
+class ReaderRank {
+  const ReaderRank({required this.mastered, required this.total});
+
+  /// Facts answered correctly.
+  final int mastered;
+
+  /// Facts there are.
+  final int total;
+
+  /// The rank index, from zero.
+  int get level => Ranks.levelFor(mastered, total);
+
+  /// The rank number a reader sees, which counts from one.
+  int get displayLevel => level + 1;
+
+  /// How far into this rank they are, from 0 to 1.
+  double get progress => Ranks.progressWithin(mastered, total);
+
+  /// How many more facts to the next rank, or `null` at the top.
+  int? get toNext => Ranks.factsToNext(mastered, total);
+
+  /// Whether there is nothing left to climb.
+  bool get isTop => level >= Ranks.top;
+}
 
 /// The notes on a given article.
 final notesForProvider = Provider.family<List<Note>, EntityRef>(

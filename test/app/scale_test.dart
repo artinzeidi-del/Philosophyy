@@ -7,6 +7,7 @@ import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/concept.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
+import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
@@ -93,6 +94,7 @@ void main() {
         overrides: [
           sharedPreferencesProvider.overrideWithValue(preferences),
           corpusProvider.overrideWith((ref) => corpus),
+          initialLibraryProvider.overrideWithValue(UserLibrary.empty),
         ],
         child: const PhilosophiaApp(),
       ),

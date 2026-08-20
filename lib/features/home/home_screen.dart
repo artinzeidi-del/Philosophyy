@@ -19,6 +19,7 @@ import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
+import 'package:philosophyy/features/home/rank_banner.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/gradient_surfaces.dart';
 import 'package:philosophyy/features/shared/skeletons.dart';
@@ -241,6 +242,19 @@ class _HomeBody extends StatelessWidget {
               ),
               const SizedBox(height: Spacing.xxl),
             ],
+
+            // Under the quotation and above everything else. It is the one
+            // thing on the page that changes because of something the reader
+            // did, and burying it below the section grid would mean they only
+            // ever met it by scrolling past what they came for.
+            EntranceAnimation(
+              index: step++,
+              child: const ReadingColumn(
+                alignToStart: true,
+                child: RankBanner(),
+              ),
+            ),
+            const SizedBox(height: Spacing.xxl),
 
             // A grid rather than a stack of rows. A list of links tells a
             // reader what exists; a grid tells them how many kinds of thing
