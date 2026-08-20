@@ -8314,6 +8314,452 @@
       },
       "editions": ["text-our-sea-of-islands"],
       "citations": [{ "source": "text-our-sea-of-islands" }]
+    },
+    {
+      "id": "dhammapada",
+      "title": { "en": "The Dhammapada", "fa": "دمه‌پده" },
+      "originalTitle": "धम्मपद",
+      "transliteration": "Dhammapada",
+      "alsoKnownAs": ["Verses on the Way"],
+      "author": "buddha",
+      "oneLine": {
+        "en": "Four hundred and twenty-three verses, the most read of the early Buddhist texts and the hardest to date.",
+        "fa": "چهارصد و بیست و سه بند، پرخوانده‌ترین متن بودایی نخستین و دشوارترینشان برای تاریخ‌گذاری."
+      },
+      "composed": { "start": { "year": -250, "precision": "circa" } },
+      "traditions": ["buddhist", "indian"],
+      "branches": [
+        "ethics",
+        "philosophy-of-mind",
+        "philosophy-of-religion",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nothing the Buddha said was written down in his lifetime. The Pāli canon was transmitted orally by trained reciters for roughly four centuries before being committed to writing in Sri Lanka, and the Dhammapada is an anthology drawn from that body — verses that also appear elsewhere in the canon, gathered by theme.",
+              "fa": "هیچ‌یک از سخنان بودا در زمان زندگی‌اش نوشته نشد. مجموعه پالی را قاریان آموزش‌دیده نزدیک چهار سده شفاهی منتقل کردند تا در سری‌لانکا به نوشته درآمد، و «دمه‌پده» گزیده‌ای است از همان پیکره؛ بندهایی که جای دیگر مجموعه هم می‌آیند و به موضوع گرد آمده‌اند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The first verse states the framework: all states are preceded by mind, made by mind, and if a person speaks or acts with a corrupted mind, suffering follows. That places the analysis in intention rather than in outward act, which is the point on which early Buddhism separates itself from the ritual ethics around it.",
+              "fa": "بند نخست چارچوب را می‌گوید: همه حالت‌ها را ذهن پیش می‌آید و ذهن می‌سازد، و اگر کسی با ذهنی آلوده بگوید یا کند، رنج در پی می‌آید. همین تحلیل را در نیت می‌نشاند نه در فعل بیرونی، و بوداییسم نخستین بر همین نکته خود را از اخلاق آیینی پیرامونش جدا می‌کند."
+            },
+            "citations": [
+              { "source": "text-dhammapada", "locator": "verses 1-2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "What the historical Buddha actually taught is not recoverable with confidence, and honest scholarship says so. The canon was fixed by a community that had already divided into schools, the Sanskrit and Chinese parallels differ from the Pāli in ways that matter, and the attribution of any particular verse to a person who lived two and a half centuries earlier rests on the reliability of an oral tradition rather than on a document.\n\nThe philosophical content is nonetheless coherent and can be assessed on its own. Impermanence, unsatisfactoriness and the absence of a fixed self are argued for rather than announced, and the argument about the self — that inspection finds processes and never the thing having them — is a genuine piece of philosophy of mind that has been taken up in exactly that spirit by philosophers with no religious commitment.",
+              "fa": "اینکه بودای تاریخی در واقع چه آموخت با اطمینان بازیافتنی نیست، و پژوهش صادق همین را می‌گوید. آن مجموعه را اجتماعی تثبیت کرد که پیشاپیش به مکتب‌هایی بخش شده بود، همتاهای سنسکریت و چینی به شیوه‌هایی مهم با پالی فرق دارند، و نسبت‌دادن هر بند خاص به کسی که دو سده و نیم پیش‌تر زیسته بر اعتمادپذیری سنتی شفاهی استوار است نه بر سندی.\n\nبا این حال محتوای فلسفی هم‌ساز است و می‌توان جدا سنجیدش. ناپایداری و ناخرسندی و نبود خویشتنی ثابت اعلام نمی‌شوند، برایشان استدلال می‌شود، و استدلال درباره خویشتن، یعنی اینکه وارسی روندها را می‌یابد و هرگز آن چیزی را که دارایشان است نمی‌یابد، پاره‌ای راستین از فلسفه ذهن است که فیلسوفانی بی‌هیچ تعهد دینی دقیقا با همین روحیه برگرفته‌اندش."
+            },
+            "citations": [
+              { "source": "text-samyutta-nikaya", "locator": "SN 22.59" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-dhammapada", "text-samyutta-nikaya"],
+      "citations": [{ "source": "text-dhammapada" }]
+    },
+    {
+      "id": "tattvartha-sutra",
+      "title": { "en": "Tattvārtha Sūtra", "fa": "تتوارته سوتره" },
+      "originalTitle": "तत्त्वार्थसूत्र",
+      "transliteration": "Tattvārtha Sūtra",
+      "alsoKnownAs": ["That Which Is"],
+      "author": "mahavira",
+      "oneLine": {
+        "en": "The compact statement of Jain doctrine that all its sects accept, including the theory of many-sidedness.",
+        "fa": "بیان فشرده آموزه جین که همه فرقه‌هایش می‌پذیرندش، از جمله نظریه چندسویگی."
+      },
+      "composed": { "start": { "year": 200, "precision": "circa" } },
+      "traditions": ["jain", "indian"],
+      "branches": ["metaphysics", "epistemology", "ethics", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A note on attribution is needed first. The sūtra is by Umāsvāti, several centuries after Mahāvīra, and sets out doctrine the tradition ascribes to him; the earlier Ācārāṅga preserves material closer to his own teaching. The Jain position, like the Buddhist, reaches us through a community rather than through the founder's own writing.",
+              "fa": "نخست یادداشتی درباره انتساب لازم است. این سوتره از اوماسواتی است، چند سده پس از مهاویرا، و آموزه‌ای را می‌نهد که سنت به او نسبت می‌دهد؛ «آچارانگه» کهن‌تر مایه‌ای نزدیک‌تر به آموزش خود او را نگاه داشته است. موضع جین، مانند بودایی، از راه یک اجتماع به ما می‌رسد نه از راه نوشته بنیادگذار."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The distinctive epistemology is anekāntavāda, many-sidedness: reality has more aspects than any single statement captures, so a claim is true from a standpoint and its denial may be true from another. This is not a licence for contradiction — the standpoints must be specified — and the accompanying doctrine of qualified assertion supplies the grammar for doing so.",
+              "fa": "معرفت‌شناسی متمایز آن «انکانته‌واده» یعنی چندسویگی است: واقعیت سویه‌هایی بیش از آن دارد که هیچ گزاره یگانه‌ای بگیرد، پس ادعایی از یک منظر راست است و انکارش شاید از منظری دیگر راست باشد. این پروانه تناقض نیست، چون منظرها باید معین شوند، و آموزه همراهش درباره گزاره مقید، دستور زبان این کار را می‌دهد."
+            },
+            "citations": [
+              { "source": "text-tattvartha-sutra", "locator": "ch. 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The parable of the elephant belongs to this tradition as much as to any, and the Jain use of it is the strictest: every describer is right about the part they touched and wrong only in the claim to have described the whole. Applied to philosophy itself, that yields a position on which rival systems are partial rather than false, which is generous and raises the obvious question of whether the many-sided doctrine is itself only one side.\n\nThe ethics follows from a metaphysics of souls in everything that lives, graded by how many senses they have. Non-violence is therefore not a rule about people but a policy toward all sentient life, and the graded scale is what makes a workable practice possible — a monastic can sweep the path and filter water because the doctrine specifies degrees of harm rather than demanding an impossible purity.",
+              "fa": "تمثیل فیل به همان اندازه که به هر سنتی، به این سنت هم تعلق دارد، و کاربرد جین از آن سختگیرانه‌ترین است: هر وصف‌کننده درباره پاره‌ای که لمس کرده بر حق است و تنها در ادعای وصف کل بر خطا. اگر بر خود فلسفه به کار رود، موضعی می‌دهد که در آن دستگاه‌های رقیب ناتمام‌اند نه نادرست، و این بخشنده است و آن پرسش آشکار را پیش می‌کشد که آیا خود آموزه چندسویگی هم تنها یک سوست.\n\nاخلاق از متافیزیکی برمی‌آید که در هر زنده‌ای نفسی می‌بیند، درجه‌بندی‌شده به شمار حواسشان. پس نافرمانی از خشونت قاعده‌ای درباره مردم نیست، سیاستی است نسبت به همه زندگی حساس، و همان مقیاس درجه‌بندی است که ورزه‌ای شدنی را ممکن می‌کند؛ راهبی می‌تواند راه را بروبد و آب را صاف کند چون آن آموزه به جای خواستن پاکی‌ای ناممکن، درجه‌های آسیب را معین می‌کند."
+            },
+            "citations": [
+              {
+                "source": "text-acaranga-sutra",
+                "locator": "Book I, lecture 4"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-tattvartha-sutra", "text-acaranga-sutra"],
+      "citations": [{ "source": "text-tattvartha-sutra" }]
+    },
+    {
+      "id": "philoponus-against-aristotle",
+      "title": {
+        "en": "Commentary on Aristotle's Physics",
+        "fa": "شرح طبیعیات ارسطو"
+      },
+      "originalTitle": "Εἰς τὰ Ἀριστοτέλους Φυσικά",
+      "transliteration": "Eis ta Aristotelous Physika",
+      "author": "philoponus",
+      "oneLine": {
+        "en": "A commentary that turns into a refutation, and proposes impetus a thousand years before Galileo.",
+        "fa": "شرحی که به ردیه بدل می‌شود، و هزار سال پیش از گالیله نظریه اندازه حرکت را پیش می‌نهد."
+      },
+      "composed": { "start": { "year": 517, "precision": "circa" } },
+      "traditions": ["byzantine", "ancient-greek", "christian"],
+      "branches": [
+        "philosophy-of-science",
+        "metaphysics",
+        "philosophy-of-religion",
+        "logic"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aristotle had said a projectile keeps moving because the air closes behind it and pushes. Philoponus objects that this is absurd — the air would have to be both the resistance and the motive force — and proposes instead that the thrower imparts an incorporeal power to the object, which then carries it until it is spent.",
+              "fa": "ارسطو گفته بود پرتابه از آن رو در حرکت می‌ماند که هوا پشتش بسته می‌شود و هلش می‌دهد. فیلوپونوس اعتراض می‌کند که این بیهوده است، چون هوا باید هم مقاومت باشد و هم نیروی محرک، و به جایش می‌گوید پرتاب‌کننده نیرویی غیرجسمانی به آن شیء می‌دهد که سپس تا تمام‌شدنش می‌بردش."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "He also denies that heavier bodies fall proportionally faster, and says he tested it: drop two weights of very different size from the same height and the difference in arrival is small, not proportional. Whether he performed the experiment or is reporting a thought experiment cannot be settled from the text, but the claim is stated as an observation.",
+              "fa": "این را هم انکار می‌کند که اجسام سنگین‌تر به نسبت تندتر می‌افتند، و می‌گوید آزمودش: دو وزنه با اندازه‌های بسیار متفاوت را از یک بلندی رها کن و تفاوت زمان رسیدن اندک است نه متناسب. اینکه آن آزمایش را انجام داده یا آزمایشی ذهنی گزارش می‌کند از متن روشن نمی‌شود، اما آن ادعا چون مشاهده گفته شده است."
+            },
+            "citations": [
+              {
+                "source": "text-philoponus-physics-commentary",
+                "locator": "on Physics IV.8"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His motivation is theological and the physics is a consequence. A Christian in a Neoplatonic school, he needed the world to have begun, and Aristotle's eternal universe stood in the way; so he attacked the doctrine of the fifth element, the eternity of motion, and the whole cosmological apparatus that supported it. The argument he built — that an actual infinite series of past events is impossible — reappears in al-Kindī, al-Ghazālī and eventually in modern debates under the name kalām cosmological argument.\n\nHe was condemned as a heretic after his death, for views on the Trinity rather than on physics, which removed him from the Greek curriculum. Arabic authors preserved and argued with him; Latin readers met him late; and the impetus theory reached Buridan and the Paris school in the fourteenth century, from where it runs to Galileo. It is one of the clearest examples of a scientific idea surviving because a different religious tradition found the theology congenial.",
+              "fa": "انگیزه او الهیاتی است و آن طبیعیات پیامد آن. مسیحی‌ای در مدرسه‌ای نوافلاطونی، نیاز داشت جهان آغازی داشته باشد، و گیتی جاودان ارسطو سر راه بود؛ پس به آموزه عنصر پنجم و جاودانگی حرکت و تمام دستگاه کیهان‌شناختی پشتیبانش تاخت. استدلالی که ساخت، یعنی اینکه سلسله‌ای بالفعل نامتناهی از رویدادهای گذشته ناممکن است، نزد کندی و غزالی بازمی‌آید و سرانجام در بحث‌های امروزی زیر نام استدلال کیهان‌شناختی کلامی.\n\nپس از مرگش بدعت‌گذار خوانده شد، به سبب دیدگاه‌هایی درباره تثلیث نه درباره طبیعیات، و همین او را از برنامه درسی یونانی بیرون برد. نویسندگان عربی نگاهش داشتند و با او بحث کردند؛ خوانندگان لاتین دیر به او رسیدند؛ و نظریه اندازه حرکت در سده چهاردهم به بوریدان و مکتب پاریس رسید، و از آنجا تا گالیله می‌رود. این از روشن‌ترین نمونه‌های بقای ایده‌ای علمی است، از آن رو که سنتی دینی دیگر الهیاتش را موافق یافت."
+            },
+            "citations": [
+              { "source": "text-de-aeternitate-mundi", "locator": "Book VI" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-philoponus-physics-commentary",
+        "text-de-aeternitate-mundi"
+      ],
+      "citations": [{ "source": "text-philoponus-physics-commentary" }]
+    },
+    {
+      "id": "amo-tractatus",
+      "title": {
+        "en": "Treatise on the Art of Philosophising Soberly and Accurately",
+        "fa": "رساله در هنر فلسفیدن هوشیارانه و دقیق"
+      },
+      "originalTitle": "Tractatus de arte sobrie et accurate philosophandi",
+      "author": "anton-wilhelm-amo",
+      "oneLine": {
+        "en": "A logic and method textbook by the first African known to have held a European university post.",
+        "fa": "کتابی در منطق و روش، از نخستین افریقایی که می‌دانیم کرسی دانشگاهی اروپایی داشته است."
+      },
+      "composed": { "start": { "year": 1738, "precision": "exact" } },
+      "traditions": ["african", "european", "africana"],
+      "branches": ["logic", "epistemology", "philosophy-of-mind", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Amo was taken from what is now Ghana as a small child, given to a German duke, educated at Halle and Wittenberg, took a doctorate and taught. This is his textbook: a treatment of the operations of the mind, of criteria for truth, and of how to conduct an inquiry without deceiving oneself.",
+              "fa": "آمو را در کودکی از سرزمینی که امروز غناست بردند، به دوکی آلمانی سپردند، در هاله و ویتنبرگ آموزش دید، دکتری گرفت و درس داد. این کتاب درسی اوست: بحثی درباره اعمال ذهن و معیارهای حقیقت و اینکه پژوهش را چگونه باید برد بی‌آنکه خود را بفریبی."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The earlier dissertation is the philosophically sharper one. Against Descartes, Amo argues that the mind does not sense at all: sensation belongs to the living body, and the mind knows about it rather than undergoing it. That preserves the mind's simplicity, which the interaction problem threatens, at the cost of a description of pain that many readers find hard to accept.",
+              "fa": "رساله پیشین از نظر فلسفی تیزتر است. آمو در برابر دکارت می‌گوید ذهن اصلا احساس نمی‌کند: احساس از آن تن زنده است، و ذهن درباره‌اش می‌داند نه اینکه از سر بگذراندش. این بساطت ذهن را نگاه می‌دارد، که مسئله تعامل تهدیدش می‌کند، به بهای وصفی از درد که بسیاری از خوانندگان دشوار می‌پذیرندش."
+            },
+            "citations": [
+              { "source": "text-amo-tractatus", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He also wrote, as a student, a legal dissertation on the rights of Africans in Europe, arguing from Roman law that they could not lawfully be held as slaves in the empire. Only the announcement of it survives; the text is lost. That gap is characteristic: the record of his life is assembled from university registers, dedications and a poem, and large parts of it are simply missing.\n\nAfter about twenty years he returned to the Gold Coast and is reported to have lived near his birthplace and died at a Dutch fort. Why he left is not documented. A satirical poem circulated in Halle mocking him over a rejected courtship, and the political climate had turned; both are cited as reasons, and neither is more than a plausible inference. He is a genuine early modern philosopher whose surviving corpus is two treatises and whose life is mostly a shape around an absence.",
+              "fa": "در دوره دانشجویی رساله‌ای حقوقی هم درباره حقوق افریقاییان در اروپا نوشت، و از حقوق روم استدلال کرد که آنان را در امپراتوری نمی‌توان قانونا برده نگاه داشت. تنها اعلان آن مانده است؛ متنش گم شده. این شکاف نشانه‌وار است: سند زندگی او از دفترهای دانشگاه و تقدیم‌نامه‌ها و یک شعر گرد آمده، و بخش‌های بزرگی از آن به‌سادگی نیست.\n\nپس از حدود بیست سال به ساحل طلا بازگشت و گزارش شده که نزدیک زادگاهش زیست و در دژی هلندی مرد. اینکه چرا رفت مستند نیست. شعری هجوآمیز در هاله دست به دست شد که او را بابت خواستگاری‌ای ردشده ریشخند می‌کرد، و فضای سیاسی هم برگشته بود؛ هر دو چون دلیل نقل می‌شوند، و هیچ‌کدام بیش از استنتاجی محتمل نیست. او فیلسوفی راستین از اوایل دوره مدرن است که پیکره بازمانده‌اش دو رساله است و زندگی‌اش بیشتر شکلی است گرد یک غیاب."
+            },
+            "citations": [{ "source": "text-amo-apatheia", "locator": "§1" }]
+          }
+        ]
+      },
+      "editions": ["text-amo-tractatus", "text-amo-apatheia"],
+      "citations": [{ "source": "text-amo-tractatus" }]
+    },
+    {
+      "id": "philosophy-of-liberation",
+      "title": { "en": "Philosophy of Liberation", "fa": "فلسفه رهایی" },
+      "originalTitle": "Filosofía de la liberación",
+      "author": "dussel",
+      "oneLine": {
+        "en": "Starts philosophy from the excluded rather than from the thinking subject, and calls the excluded the exterior.",
+        "fa": "فلسفه را از کنارگذاشته‌شدگان آغاز می‌کند نه از فاعل اندیشنده، و کنارگذاشته‌شدگان را «بیرون» می‌نامد."
+      },
+      "composed": { "start": { "year": 1977, "precision": "exact" } },
+      "traditions": ["latin-american"],
+      "branches": [
+        "political-philosophy",
+        "ethics",
+        "decolonial-philosophy",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Dussel's charge against European philosophy is that its universal subject was written from a particular place while claiming to be from nowhere, and that what falls outside its account is not a gap but a constitutive exclusion — the periphery is what the centre required in order to be a centre.",
+              "fa": "اتهام دوسل به فلسفه اروپایی این است که فاعل کلی‌اش از جایی خاص نوشته شده و ادعا کرده از ناکجاست، و اینکه آنچه بیرون از روایتش می‌افتد شکاف نیست، کنارگذاشتنی سازنده است؛ حاشیه همان است که مرکز برای مرکزبودن لازم داشت."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "He takes the encounter with the other from Levinas and gives it a geography. The face that makes a demand is not an abstract other but the poor, the colonised, the woman in a specific arrangement of power, and the demand is not only ethical but material. Analectics is his name for the method: reasoning that begins from a voice outside the system rather than from the system's own premises.",
+              "fa": "روبه‌روشدن با دیگری را از لویناس می‌گیرد و به آن جغرافیا می‌دهد. چهره‌ای که مطالبه می‌کند دیگری‌ای انتزاعی نیست، تهیدست است و مستعمره‌شده و زنی در سامانی معین از قدرت، و آن مطالبه تنها اخلاقی نیست، مادی هم هست. «آنالکتیک» نام او برای این روش است: استدلالی که از صدایی بیرون از آن نظام آغاز می‌کند نه از مقدمه‌های خود نظام."
+            },
+            "citations": [
+              { "source": "text-philosophy-of-liberation", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The objection put most often is that this risks making a philosophical claim unanswerable by locating its authority in who is speaking. Dussel's reply is that he is not claiming the excluded are automatically right, only that a system which has never had to answer them has not been tested — which is a claim about the conditions of criticism rather than about the truth of any particular assertion.\n\nHis debate with Apel ran for years and is the best place to see the position under pressure. Apel's discourse ethics grounds norms in what any participant in argument must presuppose; Dussel's objection is that this presumes everyone concerned is already in the conversation, and that the person whose exclusion is the issue is by definition not a participant. Neither converted the other, and the exchange is published in full, which is rarer than it should be.",
+              "fa": "اعتراضی که بیش از همه پیش کشیده می‌شود این است که این خطر آن را دارد که ادعایی فلسفی را پاسخ‌ناپذیر کند، چون اقتدارش را در اینکه چه کسی سخن می‌گوید می‌نشاند. پاسخ دوسل این است که ادعا نمی‌کند کنارگذاشته‌شدگان خودکار بر حق‌اند، تنها می‌گوید نظامی که هرگز ناچار نبوده به آنان پاسخ دهد آزموده نشده است، و این ادعایی است درباره شرایط نقد نه درباره راستی هیچ گزاره خاصی.\n\nمناظره‌اش با آپل سال‌ها ادامه یافت و بهترین جا برای دیدن این موضع زیر فشار است. اخلاق گفتمانی آپل هنجارها را در آنچه هر شرکت‌کننده در استدلال باید پیش‌فرض بگیرد می‌نشاند؛ اعتراض دوسل این است که این فرض می‌گیرد همه ذی‌نفعان از پیش در گفت‌وگو هستند، و کسی که کنارگذاشته‌شدنش موضوع است بنا به تعریف شرکت‌کننده نیست. هیچ‌کدام دیگری را برنگرداند، و آن داد و ستد به‌تمامی منتشر شده، که کمیاب‌تر از آن است که باید باشد."
+            },
+            "citations": [
+              { "source": "text-ethics-of-liberation", "locator": "ch. 4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-philosophy-of-liberation", "text-ethics-of-liberation"],
+      "citations": [{ "source": "text-philosophy-of-liberation" }]
+    },
+    {
+      "id": "nueva-coronica",
+      "title": {
+        "en": "The First New Chronicle and Good Government",
+        "fa": "نخستین گزارش نو و حکومت نیک"
+      },
+      "originalTitle": "El primer nueva corónica y buen gobierno",
+      "author": "guaman-poma",
+      "oneLine": {
+        "en": "Twelve hundred pages and four hundred drawings, addressed to a king who never received it.",
+        "fa": "هزار و دویست صفحه و چهارصد نقاشی، خطاب به پادشاهی که هرگز نگرفتش."
+      },
+      "composed": {
+        "start": { "year": 1600, "precision": "circa" },
+        "end": { "year": 1615, "precision": "circa" }
+      },
+      "traditions": ["andean", "indigenous", "latin-american"],
+      "branches": [
+        "political-philosophy",
+        "philosophy-of-history",
+        "ethics",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Guamán Poma was an Andean nobleman writing to Philip III of Spain in a Spanish full of Quechua, arguing that colonial rule was destroying Peru and could be reformed. The manuscript was never delivered; it turned up in the Danish Royal Library in 1908, having sat there unidentified for centuries.",
+              "fa": "گوامان پوما اشراف‌زاده‌ای آندی بود که به فیلیپ سوم اسپانیا می‌نوشت، به اسپانیایی‌ای آکنده از کچوایی، و می‌گفت فرمانروایی استعماری پرو را ویران می‌کند و اصلاح‌پذیر است. آن دست‌نویس هرگز نرسید؛ در سال ۱۹۰۸ در کتابخانه سلطنتی دانمارک پیدا شد، پس از سده‌ها ماندن ناشناخته."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His central argument is a reversal of the justification for conquest. Andean society, he claims, already had law, moral order and a god; it was not in need of conversion by force, and what arrived was not civilisation but theft carried out by priests, magistrates and encomenderos he names individually. The drawings do work the prose cannot: they show who is standing over whom.",
+              "fa": "استدلال مرکزی او وارونه‌کردن توجیه فتح است. می‌گوید جامعه آندی از پیش قانون و نظم اخلاقی و خدایی داشت؛ نیازی به گرواندن با زور نداشت، و آنچه رسید تمدن نبود، دزدی‌ای بود که کشیشان و قاضیان و ارباب‌هایی که تک‌تک نامشان را می‌برد انجامش دادند. آن نقاشی‌ها کاری می‌کنند که نثر نمی‌تواند: نشان می‌دهند چه کسی بر سر چه کسی ایستاده است."
+            },
+            "citations": [
+              { "source": "text-nueva-coronica", "locator": "folios 452-500" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Reading it as philosophy requires taking seriously a form that is not the treatise. He argues by juxtaposition — a drawing of Andean order beside a drawing of Spanish disorder — and by chronicle, placing Andean history in a sequence of ages that runs alongside biblical history rather than starting when Europeans arrive. That structural choice is itself the claim: two peoples with parallel pasts, one of whom is now robbing the other.\n\nHis proposal is not independence and this disappoints modern readers. He wants the Spanish king to rule, with Andean lords governing under him and the settlers removed, which is a position with an obvious flaw and an obvious explanation — he was writing to that king and needed the letter to be readable. What survives the political naivety is the documentary weight: a detailed, named, dated account of a colonial administration written from inside it by someone who had worked as an interpreter in its courts.",
+              "fa": "فلسفه‌خواندن این کار نیازمند جدی‌گرفتن صورتی است که رساله نیست. او با کنارهم‌نهادن استدلال می‌کند، یعنی نقاشی نظم آندی کنار نقاشی بی‌نظمی اسپانیایی، و با گزارش تاریخی، و تاریخ آند را در توالی‌ای از عصرها می‌نشاند که کنار تاریخ کتاب مقدس می‌رود نه اینکه با آمدن اروپاییان آغاز شود. همان گزینش ساختاری خودش آن ادعاست: دو ملت با گذشته‌های موازی، که یکی اکنون دیگری را غارت می‌کند.\n\nپیشنهاد او استقلال نیست و این خوانندگان امروزی را ناخرسند می‌کند. می‌خواهد پادشاه اسپانیا فرمان براند و اربابان آندی زیر نظر او حکومت کنند و مهاجران برداشته شوند، و این موضعی است با نقصی آشکار و توضیحی آشکار؛ او به همان پادشاه می‌نوشت و نامه باید خواندنی می‌ماند. آنچه از این ساده‌دلی سیاسی جان به در می‌برد وزن مستند آن است: گزارشی مفصل و نام‌به‌نام و تاریخ‌دار از یک اداره استعماری، نوشته از درون آن به دست کسی که در دادگاه‌هایش مترجم بوده."
+            },
+            "citations": [
+              { "source": "text-nueva-coronica", "locator": "folio 1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-nueva-coronica"],
+      "citations": [{ "source": "text-nueva-coronica" }]
+    },
+    {
+      "id": "cantares-mexicanos-songs",
+      "title": { "en": "Songs of Nezahualcoyotl", "fa": "سرودهای نساوالکویوتل" },
+      "originalTitle": "Cantares Mexicanos",
+      "author": "nezahualcoyotl",
+      "oneLine": {
+        "en": "Nahuatl poems on whether anything is true on earth, attributed to a fifteenth-century poet-king.",
+        "fa": "شعرهایی به زبان ناواتل درباره اینکه آیا چیزی بر زمین راست است، منسوب به شاه و شاعری از سده پانزدهم."
+      },
+      "composed": { "start": { "year": 1440, "precision": "circa" } },
+      "traditions": ["mesoamerican", "indigenous"],
+      "branches": [
+        "metaphysics",
+        "aesthetics",
+        "philosophy-of-religion",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The attribution needs stating plainly. These poems survive in manuscripts written down in the sixteenth century, after the conquest, by Nahua scribes trained by Spanish friars; the ascription to Nezahualcoyotl is traditional and cannot be verified. What can be said is that they preserve a philosophical vocabulary that is not Spanish and not Christian.",
+              "fa": "این انتساب را باید صریح گفت. این شعرها در دست‌نویس‌هایی مانده که در سده شانزدهم و پس از فتح، به دست کاتبان ناوا که راهبان اسپانیایی آموزششان داده بودند نوشته شده‌اند؛ نسبت‌دادنشان به نساوالکویوتل سنتی است و وارسی‌پذیر نیست. آنچه می‌توان گفت این است که واژگانی فلسفی را نگاه داشته‌اند که نه اسپانیایی است و نه مسیحی."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The recurring question is whether anything is nelli — a word usually translated as true and closer to rooted or well-founded. The poems ask repeatedly whether people are real on earth, and answer that we come only to dream, that nothing is forever, and that we are lent to each other. That is a metaphysics stated in verse and it is not a borrowed one.",
+              "fa": "پرسشی که بازمی‌گردد این است که آیا چیزی «نلی» هست؛ واژه‌ای که معمولا «راست» ترجمه می‌شود و به «ریشه‌دار» یا «بنیاددار» نزدیک‌تر است. این شعرها بارها می‌پرسند آیا مردم بر زمین واقعی‌اند، و پاسخ می‌دهند که تنها برای خواب‌دیدن می‌آییم، که هیچ چیز همیشگی نیست، و که ما به یکدیگر عاریه داده شده‌ایم."
+            },
+            "citations": [
+              { "source": "text-cantares-mexicanos", "locator": "folio 17" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The answer the poems give to their own question is aesthetic. If nothing on earth is rooted, then flower and song — in xochitl in cuicatl, the paired term for poetry — is what a person can make that comes closest, and the making is offered as the one form of the true available to beings who do not last. That is a substantive philosophical position, not a consolation appended to a metaphysics.\n\nHow much survived the conquest intact is genuinely disputed. The manuscripts were produced under supervision, the scribes were literate in a script the friars had taught them, and some poems show Christian phrasing. Miguel León-Portilla read them as authentic pre-conquest philosophy; others have argued the corpus is a colonial product throughout. The careful position is that the material is neither pure nor worthless, and that saying which lines are which is often not possible.",
+              "fa": "پاسخی که این شعرها به پرسش خودشان می‌دهند زیبایی‌شناختی است. اگر هیچ چیز بر زمین ریشه‌دار نباشد، آنگاه «گل و سرود»، که اصطلاح جفتی برای شعر است، همان است که آدمی می‌تواند بسازد و از همه به آن نزدیک‌تر است، و ساختن چون یگانه صورت راستی عرضه می‌شود که برای موجوداتی که نمی‌مانند در دسترس است. این موضعی فلسفی و جدی است نه دلداری‌ای که به متافیزیکی چسبانده شده باشد.\n\nاینکه چه اندازه از فتح دست‌نخورده مانده به‌راستی محل نزاع است. آن دست‌نویس‌ها زیر نظارت تولید شدند، کاتبان به خطی می‌نوشتند که راهبان آموخته بودندشان، و برخی شعرها تعبیر مسیحی دارند. میگل لئون پورتیا آن‌ها را فلسفه اصیل پیش از فتح خواند؛ دیگران گفته‌اند این پیکره یکسره فرآورده‌ای استعماری است. موضع سنجیده این است که این مایه نه ناب است و نه بی‌ارزش، و اینکه کدام سطر کدام است بارها گفتنی نیست."
+            },
+            "citations": [
+              { "source": "text-cantares-mexicanos", "locator": "folio 61" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-cantares-mexicanos"],
+      "citations": [{ "source": "text-cantares-mexicanos" }]
+    },
+    {
+      "id": "how-it-is-cordova",
+      "title": { "en": "How It Is", "fa": "چگونه است" },
+      "originalTitle": "How It Is: The Native American Philosophy of V. F. Cordova",
+      "author": "viola-cordova",
+      "oneLine": {
+        "en": "A Jicarilla Apache philosopher setting out a Native metaphysics in the vocabulary of the discipline that ignored it.",
+        "fa": "فیلسوفی از خیکاریا آپاچی که متافیزیکی بومی را در واژگان همان رشته‌ای می‌نهد که نادیده‌اش گرفت."
+      },
+      "composed": { "start": { "year": 2007, "precision": "exact" } },
+      "traditions": ["first-nations", "indigenous", "american"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "ethics",
+        "comparative-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Córdova was the first Native American woman to earn a doctorate in philosophy in the United States. The book was assembled by colleagues after her death from papers and lectures, so its arrangement is theirs; the arguments are hers, and they are made against named positions in the Western canon rather than beside it.",
+              "fa": "کوردووا نخستین زن بومی امریکا بود که در ایالات متحده دکتری فلسفه گرفت. این کتاب را همکارانش پس از مرگش از مقاله‌ها و درسگفتارها گرد آوردند، پس چینشش از آن آنان است؛ استدلال‌ها از آن اوست، و در برابر مواضعی نام‌برده در سنت غربی گفته می‌شوند نه در کنار آن."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Her core contrast is about what the universe is made of. A tradition that begins from matter shaped by an external creator produces a world of objects to be used and a human being placed above them; a tradition that begins from a single continuous process produces a world of relations in which a person is one participant among others, with obligations that follow from being in it rather than from a rule.",
+              "fa": "تقابل هسته‌ای او درباره این است که گیتی از چه ساخته شده. سنتی که از ماده‌ای شکل‌گرفته به دست آفریدگاری بیرونی آغاز می‌کند جهانی از اشیا می‌سازد که باید به کار روند و آدمی را بالای آن‌ها می‌نشاند؛ سنتی که از یک روند پیوسته آغاز می‌کند جهانی از نسبت‌ها می‌سازد که در آن آدمی یکی از شرکت‌کنندگان است، با تعهدهایی که از بودن در آن برمی‌آیند نه از قاعده‌ای."
+            },
+            "citations": [
+              { "source": "text-how-it-is-cordova", "locator": "Part I" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "She is impatient with the reception her own material usually gets. Native thought presented as spiritual wisdom, she argues, is being praised in a way that exempts it from argument and therefore from being taken seriously; the appropriate response to a metaphysics is to ask whether it is true, and she asks that her own be treated that way. Her training in the analytic tradition is used deliberately, as a way of making the demand hard to refuse.\n\nThe methodological problem she names is real and unsolved. Native philosophies were transmitted in languages with different resources, in forms — story, ceremony, place — that do not survive translation into propositions, and writing them down in English for a philosophy department changes them. Córdova's answer is that the alternative is silence, that a partial translation argued about is better than an authentic silence admired, and that she is prepared to accept the loss in order to get the argument started.",
+              "fa": "از پذیرشی که مایه خودش معمولا می‌گیرد بی‌تاب است. می‌گوید اندیشه بومی که چون حکمتی معنوی عرضه شود، به شیوه‌ای ستوده می‌شود که از استدلال و پس از جدی‌گرفته‌شدن معافش می‌کند؛ پاسخ درخور یک متافیزیک این است که بپرسیم راست است یا نه، و او می‌خواهد با مال خودش چنین کنند. تربیتش در سنت تحلیلی عمدا به کار می‌رود، چون راهی برای دشوارکردن ردکردن این خواسته.\n\nمسئله روش‌شناختی‌ای که نام می‌برد راستین و ناگشوده است. فلسفه‌های بومی در زبان‌هایی با منابعی دیگر منتقل می‌شدند، در صورت‌هایی مانند قصه و آیین و مکان، که در ترجمه به گزاره جان به در نمی‌برند، و نوشتنشان به انگلیسی برای یک گروه فلسفه دگرگونشان می‌کند. پاسخ کوردووا این است که جایگزینش خاموشی است، که ترجمه‌ای ناتمام که بر سرش بحث شود بهتر از خاموشی‌ای اصیل است که ستوده شود، و اینکه آماده است این زیان را بپذیرد تا آن بحث آغاز شود."
+            },
+            "citations": [
+              { "source": "text-how-it-is-cordova", "locator": "Part III" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-how-it-is-cordova"],
+      "citations": [{ "source": "text-how-it-is-cordova" }]
     }
   ]
 }
