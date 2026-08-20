@@ -5202,6 +5202,855 @@
       },
       "editions": ["text-gravity-and-grace", "text-need-for-roots"],
       "citations": [{ "source": "text-gravity-and-grace" }]
+    },
+    {
+      "id": "problems-of-philosophy",
+      "title": { "en": "The Problems of Philosophy", "fa": "مسائل فلسفه" },
+      "originalTitle": "The Problems of Philosophy",
+      "author": "russell",
+      "oneLine": {
+        "en": "A short introduction that begins with a table and ends without having settled whether it is there.",
+        "fa": "درآمدی کوتاه که با یک میز آغاز می‌شود و بی‌آنکه روشن کند آن میز هست یا نه به پایان می‌رسد."
+      },
+      "composed": { "start": { "year": 1912, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "epistemology",
+        "metaphysics",
+        "philosophy-of-language",
+        "logic"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Russell wrote it for a general series in a few weeks and it has stayed in print for a century. The first chapter takes an ordinary table, asks what we actually have in front of us, and separates the sense data from the object supposed to cause them — a distinction that then does work in every chapter after.",
+              "fa": "راسل آن را برای مجموعه‌ای همگانی در چند هفته نوشت و یک سده است که چاپش ادامه دارد. فصل نخست میزی معمولی برمی‌گیرد، می‌پرسد در واقع چه چیزی پیش روی ماست، و داده‌های حسی را از چیزی که فرض می‌شود سبب آن‌هاست جدا می‌کند؛ تمایزی که پس از آن در هر فصل کار می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The distinction he is best known for is between knowledge by acquaintance and knowledge by description. We are acquainted with our own sense data and perhaps with universals; everything else — other people, the past, physical objects — we know only as whatever it is that stands in a certain relation to what we are acquainted with. Ordinary names turn out to be abbreviated descriptions.",
+              "fa": "تمایزی که بیش از همه به آن شناخته می‌شود میان شناخت از راه آشنایی و شناخت از راه وصف است. ما با داده‌های حسی خود آشناییم و شاید با کلیات؛ هر چیز دیگر، یعنی دیگر مردمان و گذشته و اجسام، را تنها چون هر آنچه در نسبتی معین با آنچه با آن آشناییم می‌ایستد می‌شناسیم. نام‌های معمولی از آب درمی‌آیند که وصف‌های کوتاه‌شده‌اند."
+            },
+            "citations": [
+              { "source": "text-problems-of-philosophy", "locator": "ch. 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Behind the friendly prose sits the theory of descriptions, published seven years earlier and arguably the founding document of analytic method. The sentence about the present king of France is not about a person, since there is none; it is a claim that exactly one thing is king of France and that thing is bald, which is simply false rather than meaningless. Grammar had suggested a subject; logic showed there was none.\n\nThe last chapter is the one that outlives the epistemology. Asked what philosophy is for, Russell answers that its value lies not in a body of settled results but in the questions themselves, which enlarge what we conceive to be possible and keep the mind from the confident assumptions of ordinary life. That is an honest answer from someone who had already changed his own mind repeatedly and would do so again.",
+              "fa": "پشت آن نثر مهربان نظریه اوصاف نشسته است، که هفت سال پیش‌تر منتشر شد و می‌توان آن را سند بنیادین روش تحلیلی خواند. جمله درباره پادشاه کنونی فرانسه درباره یک شخص نیست، چون چنین شخصی نیست؛ ادعایی است که دقیقا یک چیز پادشاه فرانسه است و آن چیز کچل است، که به‌سادگی نادرست است نه بی‌معنا. دستور زبان فاعلی را می‌نمود؛ منطق نشان داد که فاعلی نیست.\n\nفصل پایانی همان است که بیش از آن معرفت‌شناسی می‌ماند. در پاسخ به اینکه فلسفه به چه کار می‌آید، راسل می‌گوید ارزشش در پیکره‌ای از نتیجه‌های مستقر نیست، در خود همان پرسش‌هاست، که گستره آنچه ممکن می‌پنداریم را بزرگ می‌کنند و ذهن را از فرض‌های مطمئن زندگی روزمره دور نگاه می‌دارند. این پاسخی است صادقانه از کسی که پیش‌تر بارها رأی خود را عوض کرده بود و باز هم می‌کرد."
+            },
+            "citations": [
+              { "source": "text-on-denoting", "locator": "opening" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-problems-of-philosophy", "text-on-denoting"],
+      "citations": [{ "source": "text-problems-of-philosophy" }]
+    },
+    {
+      "id": "principia-ethica",
+      "title": { "en": "Principia Ethica", "fa": "اصول اخلاق" },
+      "originalTitle": "Principia Ethica",
+      "author": "moore",
+      "oneLine": {
+        "en": "Argues that good cannot be defined, and that nearly every ethical theory has tried to define it anyway.",
+        "fa": "می‌گوید خیر تعریف‌پذیر نیست، و اینکه تقریبا هر نظریه اخلاقی به‌هرحال کوشیده تعریفش کند."
+      },
+      "composed": { "start": { "year": 1903, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": ["metaethics", "ethics", "philosophy-of-language"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Moore's target is any theory that identifies goodness with some natural property — pleasure, what we desire, what evolution favours. His argument is a test: for any proposed definition, it remains an open question whether the thing so defined is actually good, and a genuine definition would close that question.",
+              "fa": "آماج مور هر نظریه‌ای است که خوبی را با خاصیتی طبیعی یکی می‌گیرد؛ لذت، آنچه می‌خواهیم، آنچه تکامل می‌پسندد. استدلالش آزمونی است: برای هر تعریف پیشنهادی، این پرسش باز می‌ماند که آیا چیزی که چنین تعریف شده به‌راستی خوب است، و تعریفی راستین آن پرسش را می‌بست."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "He calls the mistake the naturalistic fallacy, and the name has caused a century of confusion because it names two different things at once: the semantic claim that good is a simple unanalysable property, and Hume's separate point that an ought does not follow from an is. Moore's own argument is the first, and it stands or falls on whether the open question test can distinguish a false definition from one that is true but not obvious.",
+              "fa": "او این خطا را مغالطه طبیعت‌گرایانه می‌نامد، و همین نام یک سده آشفتگی ساخته چون هم‌زمان دو چیز را نام می‌برد: ادعای معناشناختی که خیر خاصیتی بسیط و تحلیل‌ناپذیر است، و نکته جداگانه هیوم که «باید» از «هست» بیرون نمی‌آید. استدلال خود مور اولی است، و بسته به این است که آیا آزمون پرسش باز می‌تواند تعریفی نادرست را از تعریفی درست اما نااشکار جدا کند."
+            },
+            "citations": [
+              { "source": "text-principia-ethica", "locator": "ch. 1, §13" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The standard reply is that it cannot. Water is H2O is a true identity, and it was once an open question whether the stuff in rivers was that; if a definition can be informative, then finding a question open shows only that we have not finished analysing, not that no analysis exists. Moore's argument has therefore been widely judged to fail, while the distinction it was defending has proved harder to dislodge than the argument for it.\n\nThe final chapter is where the book actually landed. Having shown that good is indefinable, Moore says what things are good in themselves, and answers: personal affection and the appreciation of beauty. The Bloomsbury group took that as a licence, Keynes later described the effect on his generation with some embarrassment, and it is a striking case of a highly technical argument producing a way of life among people who had not followed the technicalities.",
+              "fa": "پاسخ همیشگی این است که نمی‌تواند. «آب همان H2O است» این‌همانی‌ای درست است، و زمانی پرسش باز بود که آنچه در رودهاست همان است یا نه؛ اگر تعریفی بتواند خبررسان باشد، پس باز یافتن یک پرسش تنها نشان می‌دهد که تحلیل را تمام نکرده‌ایم، نه اینکه تحلیلی نیست. پس استدلال مور را عموما ناکام دانسته‌اند، در حالی که تمایزی که از آن دفاع می‌کرد سرسخت‌تر از استدلالش از آب درآمده است.\n\nفصل پایانی همان جایی است که کتاب در واقع فرود آمد. مور پس از نشان‌دادن تعریف‌ناپذیری خیر می‌گوید چه چیزها فی‌نفسه خوب‌اند، و پاسخ می‌دهد: مهر شخصی و دریافت زیبایی. حلقه بلومزبری این را پروانه‌ای گرفت، کینز بعدها اثرش را بر نسل خود با اندکی شرمساری وصف کرد، و این نمونه‌ای چشمگیر است از استدلالی بسیار فنی که میان کسانی که آن فنون را دنبال نکرده بودند شیوه‌ای از زیستن پدید آورد."
+            },
+            "citations": [
+              { "source": "text-principia-ethica", "locator": "ch. 6" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-principia-ethica"],
+      "citations": [{ "source": "text-principia-ethica" }]
+    },
+    {
+      "id": "language-truth-logic",
+      "title": { "en": "Language, Truth and Logic", "fa": "زبان، حقیقت و منطق" },
+      "originalTitle": "Language, Truth and Logic",
+      "author": "ayer",
+      "oneLine": {
+        "en": "Announces that any sentence which cannot be verified says nothing, and applies the rule without flinching.",
+        "fa": "اعلام می‌کند هر جمله‌ای که تحقیق‌پذیر نباشد هیچ نمی‌گوید، و این قاعده را بی‌تردید به کار می‌بندد."
+      },
+      "composed": { "start": { "year": 1936, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "epistemology",
+        "metaethics",
+        "philosophy-of-language",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ayer was twenty-four, fresh from a few months attending the Vienna Circle, and wrote this to bring logical positivism into English. A statement is meaningful if it is true by definition or if experience could tell for or against it. Metaphysics, theology and value judgements fail the test and are classed as neither true nor false.",
+              "fa": "ایر بیست و چهار ساله بود، تازه از چند ماه حضور در حلقه وین بازگشته، و این را نوشت تا پوزیتیویسم منطقی را به انگلیسی بیاورد. گزاره‌ای معنادار است اگر به‌حکم تعریف راست باشد یا تجربه بتواند به سود یا زیانش گواهی دهد. متافیزیک و الهیات و داوری‌های ارزشی در این آزمون می‌مانند و نه راست به شمار می‌آیند و نه دروغ."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "On ethics the consequence is emotivism. Saying that stealing is wrong adds no factual content to saying that someone stole; it expresses an attitude and invites the hearer to share it, in the way a tone of voice does. Moral disagreement is then never about a fact, which is why, on this account, argument about values so often runs out.",
+              "fa": "در اخلاق پیامدش عاطفه‌گرایی است. گفتن اینکه دزدی نادرست است هیچ محتوای واقعی به گفتن اینکه کسی دزدید نمی‌افزاید؛ نگرشی را بیان می‌کند و شنونده را به شریک‌شدن در آن می‌خواند، چنانکه لحن صدا می‌کند. آنگاه اختلاف اخلاقی هرگز بر سر یک واقعیت نیست، و بر این شرح از همین روست که بحث بر سر ارزش‌ها چنین بارها به بن‌بست می‌رسد."
+            },
+            "citations": [
+              { "source": "text-language-truth-logic", "locator": "ch. 6" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The criterion could not be stated in a form that did the job. Strong verifiability — conclusive confirmation by observation — excludes every scientific law, since no finite set of observations settles a universal claim. Weak versions let too much in: with enough ingenuity almost any sentence can be made to bear on some observation when conjoined with the right auxiliary. Ayer revised it in a second edition, the revision was refuted, and he eventually conceded in an interview that nearly all of the book was false.\n\nThe honest verdict is that it failed as a doctrine and succeeded as a discipline. Its demand — say what would show you wrong — outlived every formulation of the criterion, and the anti-metaphysical style it set stayed dominant in Britain for a generation. It is also one of the few philosophy books to have been genuinely famous outside philosophy, which is why its collapse is better known than most successes.",
+              "fa": "آن معیار را نتوانستند به صورتی بگویند که کار را انجام دهد. تحقیق‌پذیری قوی، یعنی تأیید قطعی با مشاهده، هر قانون علمی را بیرون می‌گذارد، چون هیچ مجموعه متناهی از مشاهده‌ها ادعایی کلی را فیصله نمی‌دهد. روایت‌های ضعیف بیش از حد را راه می‌دهند: با کمی زیرکی می‌توان تقریبا هر جمله‌ای را با فرضی کمکی مناسب به مشاهده‌ای مربوط کرد. ایر در ویرایش دوم بازنگری‌اش کرد، آن بازنگری رد شد، و سرانجام در گفت‌وگویی پذیرفت که تقریبا تمام کتاب نادرست است.\n\nداوری صادقانه این است که چون آموزه ناکام ماند و چون انضباط کامیاب شد. خواسته‌اش، یعنی بگو چه چیز نادرستی‌ات را نشان می‌دهد، از هر صورت‌بندی آن معیار بیشتر ماند، و سبک ضدمتافیزیکی که نهاد یک نسل در بریتانیا چیره ماند. این از معدود کتاب‌های فلسفی است که بیرون از فلسفه به‌راستی نامدار شد، و از همین روست که فروریختنش بیش از بیشتر کامیابی‌ها شناخته است."
+            },
+            "citations": [
+              {
+                "source": "text-language-truth-logic",
+                "locator": "introduction to the second edition"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-language-truth-logic"],
+      "citations": [{ "source": "text-language-truth-logic" }]
+    },
+    {
+      "id": "two-dogmas",
+      "title": { "en": "Two Dogmas of Empiricism", "fa": "دو جزم تجربه‌گرایی" },
+      "originalTitle": "Two Dogmas of Empiricism",
+      "author": "quine",
+      "oneLine": {
+        "en": "Twenty pages that took apart the analytic-synthetic distinction and the idea that sentences face experience alone.",
+        "fa": "بیست صفحه که تمایز تحلیلی و ترکیبی را از هم گشود، و نیز این فکر را که جمله‌ها تک‌تک با تجربه روبه‌رو می‌شوند."
+      },
+      "composed": { "start": { "year": 1951, "precision": "exact" } },
+      "traditions": ["analytic", "american"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-language",
+        "logic",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The first dogma is that some truths hold by meaning alone. Quine tries every account of what that would amount to — synonymy, definition, semantic rule — and finds each one explains analyticity only by leaning on another member of the same family, so the circle never opens onto anything outside itself.",
+              "fa": "جزم نخست این است که برخی حقیقت‌ها تنها به‌حکم معنا برقرارند. کواین هر شرحی را که می‌تواند این را روشن کند می‌آزماید؛ ترادف، تعریف، قاعده معناشناختی؛ و می‌بیند هر یک تحلیلی‌بودن را تنها با تکیه بر عضوی دیگر از همان خانواده توضیح می‌دهد، پس آن دایره هرگز به بیرون از خودش گشوده نمی‌شود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The second dogma is reductionism: the belief that each meaningful statement has its own share of experience to answer to. Quine's alternative is holism. Our beliefs meet the tribunal of sense experience as a corporate body, so a recalcitrant observation can always be accommodated somewhere, and which belief we revise is decided by convenience and conservatism rather than dictated by the evidence.",
+              "fa": "جزم دوم فروکاست‌گرایی است: این باور که هر گزاره معنادار سهم خودش را از تجربه دارد که باید به آن پاسخ دهد. جایگزین کواین کل‌گرایی است. باورهای ما چون یک پیکر با دادگاه تجربه حسی روبه‌رو می‌شوند، پس مشاهده‌ای سرکش را همیشه می‌توان جایی جا داد، و اینکه کدام باور را بازبینی کنیم به آسانی کار و محافظه‌کاری بستگی دارد نه به حکم شواهد."
+            },
+            "citations": [{ "source": "text-two-dogmas", "locator": "§6" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The image at the end is the one that stuck: knowledge as a fabric that touches experience only at its edges, so that no statement is immune to revision and none is answerable to observation on its own. Even logic could be revised if the gain elsewhere were large enough — a claim Quine makes in passing and which is still argued over, since it is not obvious what revising logic would be reasoning with.\n\nThe consequences reached further than the argument. If there is no line between what we hold true by meaning and what we hold true by fact, then philosophy is not a separate discipline analysing concepts prior to inquiry; it is continuous with science, differing in generality rather than in kind. That conclusion, naturalised epistemology, reorganised what analytic philosophers thought they were doing, and it followed from twenty pages that Quine himself described as an attempt to be persuasive rather than conclusive.",
+              "fa": "تصویری که در پایان می‌آید همان است که ماند: دانش چون پارچه‌ای که تنها در کناره‌هایش تجربه را لمس می‌کند، چنانکه هیچ گزاره‌ای از بازنگری در امان نیست و هیچ‌یک به‌تنهایی پاسخگوی مشاهده نیست. حتی منطق را هم می‌شد بازنگری کرد اگر سود جای دیگر به‌قدر کافی بزرگ بود؛ ادعایی که کواین گذرا می‌گوید و هنوز بر سرش بحث است، چون آشکار نیست بازنگری منطق با چه چیزی استدلال خواهد کرد.\n\nپیامدها دورتر از خود استدلال رفتند. اگر خطی میان آنچه به‌حکم معنا راست می‌داریم و آنچه به‌حکم واقعیت راست می‌داریم نباشد، آنگاه فلسفه رشته‌ای جدا نیست که مفهوم‌ها را پیش از پژوهش تحلیل کند؛ با علم پیوسته است و در عمومیت فرق دارد نه در گونه. آن نتیجه، یعنی معرفت‌شناسی طبیعی‌شده، آنچه را فیلسوفان تحلیلی می‌پنداشتند مشغولش‌اند از نو سامان داد، و از بیست صفحه‌ای بیرون آمد که خود کواین آن را کوششی برای اقناع خواند نه برای اثبات."
+            },
+            "citations": [{ "source": "text-two-dogmas", "locator": "§5" }]
+          }
+        ]
+      },
+      "editions": ["text-two-dogmas"],
+      "citations": [{ "source": "text-two-dogmas" }]
+    },
+    {
+      "id": "concept-of-mind",
+      "title": { "en": "The Concept of Mind", "fa": "مفهوم ذهن" },
+      "originalTitle": "The Concept of Mind",
+      "author": "ryle",
+      "oneLine": {
+        "en": "Attacks the picture of a mind inside a body as a mistake about grammar rather than a false discovery.",
+        "fa": "تصویر ذهنی درون تن را نه چون کشفی نادرست بلکه چون خطایی درباره دستور زبان به نقد می‌کشد."
+      },
+      "composed": { "start": { "year": 1949, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "philosophy-of-mind",
+        "philosophy-of-language",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ryle gave Descartes's view the name that stuck: the ghost in the machine. His charge is that it rests on a category mistake — like a visitor shown the colleges, the library and the offices who then asks where the university is, having taken an institution for one more building.",
+              "fa": "رایل به دیدگاه دکارت نامی داد که ماندگار شد: شبح درون ماشین. اتهامش این است که آن دیدگاه بر خطای مقوله‌ای استوار است؛ چون میهمانی که دانشکده‌ها و کتابخانه و دفترها را به او نشان داده‌اند و آنگاه می‌پرسد دانشگاه کجاست، چون نهادی را ساختمانی دیگر پنداشته است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The positive account replaces inner episodes with dispositions. To say someone is vain is not to report a private occurrence but to say what they are apt to do in a range of situations, as saying glass is brittle says how it will behave if struck. Knowing how is likewise not a matter of first consulting an internal rule and then acting; the intelligence is in the performance itself.",
+              "fa": "شرح مثبت او رویدادهای درونی را با آمادگی‌ها جایگزین می‌کند. گفتن اینکه کسی خودپسند است گزارش رخدادی خصوصی نیست، گفتن این است که در گستره‌ای از موقعیت‌ها آماده چه کاری است، چنانکه گفتن اینکه شیشه شکننده است می‌گوید اگر ضربه بخورد چه خواهد کرد. «دانستن چگونه» نیز چنین نیست که نخست قاعده‌ای درونی را برسی و سپس عمل کنی؛ آن هوشمندی در خود اجرا هست."
+            },
+            "citations": [
+              { "source": "text-concept-of-mind", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The regress argument for knowing how is the sharpest thing in the book. If every intelligent act required first considering a proposition about how to act, then considering it would itself be an act needing prior consideration, and nothing would ever get done. So some competence must be exercised without being preceded by a piece of theory — which is why the distinction survives even where the behaviourism it was serving does not.\n\nAnd the behaviourism did not survive. Dispositions are not obviously reducible to behaviour, since what someone is apt to do depends on what else they want and believe, and specifying that brings the mental back in. Ryle is best read now not as the man who proved mental states are behavioural but as the man who showed how much of the Cartesian picture is imported by the way we talk, and how little of it survives being asked what exactly it claims.",
+              "fa": "استدلال تسلسل درباره «دانستن چگونه» تیزترین چیز این کتاب است. اگر هر کار هوشمندانه‌ای نیازمند آن بود که نخست گزاره‌ای درباره چگونگی عمل را در نظر بگیریم، آنگاه خود همان در نظر گرفتن کاری بود که در نظر گرفتنی پیشین می‌خواست، و هرگز کاری انجام نمی‌شد. پس برخی توانایی‌ها باید بی‌آنکه پاره‌ای نظریه پیشاپیش بیاید به کار بسته شوند، و از همین روست که آن تمایز حتی آنجا که رفتارگرایی خدمت‌گزارش نمانده، مانده است.\n\nو آن رفتارگرایی نماند. آمادگی‌ها آشکارا به رفتار فروکاستنی نیستند، چون آنچه کسی آماده انجامش است به آنچه دیگر می‌خواهد و باور دارد بستگی دارد، و مشخص‌کردن آن، ذهنی را بازمی‌گرداند. رایل را امروز بهتر است نه چون کسی بخوانیم که ثابت کرد حالات ذهنی رفتاری‌اند، بلکه چون کسی که نشان داد چه اندازه از تصویر دکارتی را شیوه سخن‌گفتن ما وارد می‌کند، و چه اندک از آن پس از پرسیدن اینکه دقیقا چه ادعایی دارد بر جای می‌ماند."
+            },
+            "citations": [
+              { "source": "text-concept-of-mind", "locator": "ch. 1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-concept-of-mind"],
+      "citations": [{ "source": "text-concept-of-mind" }]
+    },
+    {
+      "id": "intention",
+      "title": { "en": "Intention", "fa": "قصد" },
+      "originalTitle": "Intention",
+      "author": "anscombe",
+      "oneLine": {
+        "en": "Asks what makes an action intentional, and answers by asking when the question why applies.",
+        "fa": "می‌پرسد چه چیز کاری را قصدی می‌کند، و با پرسیدن اینکه پرسش «چرا» کی روا می‌شود پاسخ می‌دهد."
+      },
+      "composed": { "start": { "year": 1957, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "philosophy-of-mind",
+        "ethics",
+        "philosophy-of-language",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "An action is intentional, Anscombe says, when a certain sense of the question why has application — the sense in which the agent can answer without observing themselves. If asked why your arm is rising you might look and report; if asked why you are pumping water you simply know, and that knowledge without observation is the mark being sought.",
+              "fa": "انسکوم می‌گوید کاری قصدی است هنگامی که معنایی خاص از پرسش «چرا» بر آن روا شود؛ همان معنایی که در آن، کننده می‌تواند بی‌آنکه خود را رصد کند پاسخ دهد. اگر بپرسند چرا بازویت بالا می‌رود شاید نگاه کنی و گزارش دهی؛ اگر بپرسند چرا آب می‌کشی به‌سادگی می‌دانی، و همان دانستن بی‌رصد نشانه‌ای است که در پی‌اش بودیم."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "One action can be described in many ways — moving an arm, pumping water, replenishing a supply, poisoning the household — and it may be intentional under some of those descriptions and not others. That is the point the book is built on, and it dissolves a set of puzzles about whether a person meant a consequence by showing that meaning attaches to a description rather than to a bare event.",
+              "fa": "یک کار را به شیوه‌های بسیار می‌توان وصف کرد؛ حرکت‌دادن بازو، آب‌کشیدن، پرکردن مخزن، زهرآلودکردن خانه؛ و ممکن است زیر برخی از این وصف‌ها قصدی باشد و زیر برخی نه. کتاب بر همین نکته ساخته شده، و دسته‌ای از معماها را درباره اینکه آیا کسی پیامدی را قصد کرده بود از میان می‌برد، با نشان‌دادن اینکه قصد به یک وصف می‌چسبد نه به رویدادی برهنه."
+            },
+            "citations": [
+              { "source": "text-intention-anscombe", "locator": "§23-26" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Her contrast between two directions of fit has outlived the book's own argument. A shopping list and a detective's record of what a man bought may contain the same words; if the list and the basket disagree, the mistake is in the basket, and if the record and the basket disagree the mistake is in the record. Belief answers to the world and intention asks the world to answer to it, and much of later philosophy of mind runs on that distinction.\n\nHer other short paper reshaped ethics. Modern Moral Philosophy argues that the concepts of moral obligation and moral duty are survivals of a law conception of ethics that no longer has a lawgiver, and that we should stop using them until we have a workable philosophy of psychology. She coined consequentialism in that paper, as a term for a position she was rejecting, and the recovery of virtue ethics that followed was not what she had asked for but is what she got.",
+              "fa": "تقابل او میان دو جهت انطباق از خود استدلال کتاب بیشتر مانده است. فهرست خرید و یادداشت کارآگاهی از آنچه مردی خرید ممکن است همان واژه‌ها را داشته باشند؛ اگر فهرست و سبد نخوانند، خطا در سبد است، و اگر یادداشت و سبد نخوانند، خطا در یادداشت. باور به جهان پاسخ می‌دهد و قصد از جهان پاسخ می‌خواهد، و بخش زیادی از فلسفه ذهن بعدی بر همین تمایز می‌گردد.\n\nمقاله کوتاه دیگر او اخلاق را از نو شکل داد. «فلسفه اخلاق مدرن» می‌گوید مفهوم‌های الزام و تکلیف اخلاقی بازمانده تصوری قانونی از اخلاق‌اند که دیگر قانون‌گذاری ندارد، و باید تا داشتن فلسفه‌ای کارآمد از روان‌شناسی از به‌کاربردنشان دست بکشیم. واژه «پیامدگرایی» را در همان مقاله ساخت، چون نامی برای موضعی که ردش می‌کرد، و بازگشت اخلاق فضیلت که در پی آمد آن نبود که خواسته بود اما آن است که به دست آورد."
+            },
+            "citations": [
+              { "source": "text-modern-moral-philosophy", "locator": "opening" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-intention-anscombe", "text-modern-moral-philosophy"],
+      "citations": [{ "source": "text-intention-anscombe" }]
+    },
+    {
+      "id": "sovereignty-of-good",
+      "title": { "en": "The Sovereignty of Good", "fa": "حاکمیت خیر" },
+      "originalTitle": "The Sovereignty of Good",
+      "author": "murdoch",
+      "oneLine": {
+        "en": "Three essays arguing that moral life is mostly a matter of what we manage to see, not what we choose.",
+        "fa": "سه جستار که می‌گویند زندگی اخلاقی بیشتر بر سر آن چیزی است که می‌توانیم ببینیم، نه آنچه برمی‌گزینیم."
+      },
+      "composed": { "start": { "year": 1970, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": ["ethics", "metaethics", "philosophy-of-mind", "aesthetics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Murdoch's opponent is the picture of a person as a will that surveys neutral facts and then decides. On that picture everything moral happens at the moment of choice. She argues that by then most of the work is done, because what the situation looks like to you already contains the decision.",
+              "fa": "حریف مرداک تصویر آدمی است چون اراده‌ای که واقعیت‌های بی‌طرف را می‌نگرد و سپس تصمیم می‌گیرد. بر آن تصویر، هر چه اخلاقی است در لحظه گزینش رخ می‌دهد. او می‌گوید تا آن لحظه بیشتر کار انجام شده است، چون آنچه آن موقعیت به چشم تو می‌آید از پیش آن تصمیم را در خود دارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The example is a mother-in-law who finds her son's wife common and, over years and without any outward event, comes to see her as fresh and spontaneous instead. Nothing was chosen and nothing was done; a person looked again, and looked justly. Murdoch calls the effort involved attention, taking the word from Weil, and treats it as the central moral activity.",
+              "fa": "نمونه‌اش مادرشوهری است که همسر پسرش را عامی می‌یابد و در گذر سال‌ها و بی‌هیچ رویداد بیرونی، به جای آن او را سرزنده و بی‌تکلف می‌بیند. چیزی برگزیده نشد و کاری انجام نگرفت؛ کسی دوباره نگاه کرد و منصفانه نگاه کرد. مرداک کوششی را که در این هست «توجه» می‌نامد و واژه را از ویل می‌گیرد، و آن را کنش اخلاقی مرکزی می‌شمارد."
+            },
+            "citations": [
+              {
+                "source": "text-sovereignty-of-good",
+                "locator": "'The Idea of Perfection'"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "What makes attention hard is that the self keeps getting in the way. Murdoch's account of the human default is bleak: we are anxious, self-absorbed animals who convert whatever we look at into consoling fantasy, and the discipline of seeing anything as it is — a person, a painting, a kestrel outside a window — is unselfing, which is rare and does not last.\n\nShe wanted a moral realism without God, and the Good is her candidate for what fills that place: not a thing among things and not a projection of ours, but something more like the sun in Plato's image, which we see by rather than look at. Whether that is a defensible metaphysics or a beautiful evasion is the standing question about the book, and the fact that she was a novelist writing against the philosophy of her own department has made both verdicts easy to reach too quickly.",
+              "fa": "آنچه توجه را دشوار می‌کند این است که خویشتن پیوسته سر راه می‌آید. شرح مرداک از حال پیش‌فرض آدمی تیره است: ما جانورانی نگران و خودمشغولیم که هر چه را می‌نگریم به خیالی دلداری‌بخش بدل می‌کنیم، و ریاضت دیدن هر چیز چنانکه هست، خواه آدمی، خواه نقاشی، خواه پرنده‌ای پشت پنجره، از خودبیرون‌آمدن است، که کمیاب است و نمی‌پاید.\n\nاو رئالیسمی اخلاقی بی‌خدا می‌خواست، و «خیر» نامزد او برای پرکردن آن جایگاه است: نه چیزی میان چیزها و نه فرافکنی ما، بلکه چیزی بیشتر شبیه خورشید در تصویر افلاطون، که با آن می‌بینیم نه به آن نگاه می‌کنیم. اینکه این متافیزیکی دفاع‌پذیر است یا طفره‌ای زیبا، پرسش همیشگی درباره این کتاب است، و اینکه او رمان‌نویسی بود که بر ضد فلسفه گروه خودش می‌نوشت هر دو داوری را زودرس آسان کرده است."
+            },
+            "citations": [
+              {
+                "source": "text-sovereignty-of-good",
+                "locator": "'On God and Good'"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-sovereignty-of-good"],
+      "citations": [{ "source": "text-sovereignty-of-good" }]
+    },
+    {
+      "id": "godel-incompleteness-paper",
+      "title": {
+        "en": "On Formally Undecidable Propositions",
+        "fa": "درباره گزاره‌های صورتا تصمیم‌ناپذیر"
+      },
+      "originalTitle": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+      "author": "godel",
+      "oneLine": {
+        "en": "Proves that any consistent formal system strong enough for arithmetic contains truths it cannot prove.",
+        "fa": "ثابت می‌کند هر دستگاه صوری سازگاری که برای حساب به‌قدر کافی نیرومند باشد راست‌هایی دارد که نمی‌تواند اثباتشان کند."
+      },
+      "composed": { "start": { "year": 1931, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "logic",
+        "philosophy-of-mathematics",
+        "epistemology",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Gödel was twenty-five. Hilbert's programme had asked for a proof that mathematics is complete and consistent, carried out by finite means. This paper shows the first half cannot be had: for any such system there is a true arithmetical statement the system does not prove, and adding it as an axiom only produces another.",
+              "fa": "گودل بیست و پنج ساله بود. برنامه هیلبرت اثباتی خواسته بود بر تمامیت و سازگاری ریاضیات، که با ابزار متناهی انجام شود. این مقاله نشان می‌دهد نیمه نخست به دست نمی‌آید: برای هر چنین دستگاهی گزاره‌ای درست در حساب هست که دستگاه اثباتش نمی‌کند، و افزودنش چون اصل موضوع تنها یکی دیگر پدید می‌آورد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The technique is the achievement. Gödel assigns a number to every symbol, formula and proof, so that statements about what the system can prove become statements about numbers — which the system can talk about. He then builds a sentence that, read through that coding, says of itself that it is unprovable. If the system proves it the system is inconsistent; if it does not, the sentence is true.",
+              "fa": "این فن همان دستاورد است. گودل به هر نماد و فرمول و برهان عددی می‌دهد، چنانکه گزاره‌هایی درباره آنچه دستگاه می‌تواند اثبات کند به گزاره‌هایی درباره عددها بدل می‌شوند، که دستگاه می‌تواند درباره‌شان سخن بگوید. آنگاه جمله‌ای می‌سازد که خوانده‌شده از راه آن رمزگذاری، درباره خودش می‌گوید که اثبات‌ناپذیر است. اگر دستگاه اثباتش کند ناسازگار است؛ و اگر نکند، آن جمله راست است."
+            },
+            "citations": [
+              { "source": "text-godel-1931", "locator": "Theorem VI" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The second theorem is the one that ended the programme. A system of that strength cannot prove its own consistency, so the finitary security Hilbert wanted is unavailable from inside. Mathematics went on exactly as before, which is worth saying: the theorems constrain what a formal system can certify about itself, not what mathematicians can establish.\n\nAlmost every popular use of the result is wrong, and the errors run in a family. It does not show that truth is relative, that reason is limited in some general way, or that there are things nobody can ever know. It applies to formal systems meeting precise conditions, and it produces one specific undecidable sentence rather than a fog of unknowability. Gödel himself was a mathematical Platonist who took his theorem as evidence that mathematical truth outruns any particular formalism, which is roughly the opposite of the sceptical moral usually drawn from it.",
+              "fa": "قضیه دوم همان است که آن برنامه را به پایان برد. دستگاهی با آن نیرومندی نمی‌تواند سازگاری خودش را اثبات کند، پس آن امنیت متناهی که هیلبرت می‌خواست از درون در دسترس نیست. ریاضیات دقیقا چون گذشته ادامه یافت، و گفتنش می‌ارزد: این قضیه‌ها آنچه را یک دستگاه صوری می‌تواند درباره خودش گواهی کند محدود می‌کنند، نه آنچه را ریاضی‌دانان می‌توانند برقرار کنند.\n\nتقریبا هر کاربرد همگانی این نتیجه نادرست است، و خطاها از یک خانواده‌اند. این نشان نمی‌دهد که حقیقت نسبی است، یا خرد به شیوه‌ای کلی محدود است، یا چیزهایی هست که هیچ‌کس هرگز نمی‌تواند بداند. بر دستگاه‌های صوری‌ای روا می‌شود که شرط‌های دقیقی را برآورند، و یک جمله تصمیم‌ناپذیر معین می‌سازد نه مهی از نادانستنی. خود گودل افلاطونی‌ای در ریاضی بود و قضیه‌اش را گواهی می‌گرفت بر اینکه حقیقت ریاضی از هر صورت‌گرایی خاص فراتر می‌رود، که تقریبا وارونه درس شکاکانه‌ای است که معمولا از آن می‌گیرند."
+            },
+            "citations": [
+              { "source": "text-godel-1931", "locator": "Theorem XI" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-godel-1931", "text-grundlagen"],
+      "citations": [{ "source": "text-godel-1931" }]
+    },
+    {
+      "id": "concept-of-law",
+      "title": { "en": "The Concept of Law", "fa": "مفهوم قانون" },
+      "originalTitle": "The Concept of Law",
+      "author": "hart",
+      "oneLine": {
+        "en": "Explains a legal system as a union of two kinds of rule, and says why a gunman's order is not law.",
+        "fa": "دستگاه حقوقی را چون پیوند دو گونه قاعده توضیح می‌دهد، و می‌گوید چرا فرمان یک تفنگ‌به‌دست قانون نیست."
+      },
+      "composed": { "start": { "year": 1961, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "philosophy-of-law",
+        "political-philosophy",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Austin had defined law as the command of a sovereign backed by threats. Hart's objection is that this fits criminal statutes badly and fits contracts, wills and marriage not at all: those rules do not order anyone to do anything, they give people powers they would not otherwise have.",
+              "fa": "آستین قانون را فرمان حاکم همراه با تهدید تعریف کرده بود. اعتراض هارت این است که این با قوانین کیفری بد جور درمی‌آید و با قرارداد و وصیت و ازدواج اصلا جور درنمی‌آید: آن قاعده‌ها به کسی فرمان انجام کاری نمی‌دهند، به مردم اختیارهایی می‌دهند که در غیر آن نداشتند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His replacement is a union of primary rules, which tell people what to do, and secondary rules, which are about the primary ones — how they are made, changed, adjudicated, and above all recognised. The rule of recognition is the foundation, and it is not itself valid or invalid; it is a social practice, existing because officials in fact converge on it and treat departures as failures.",
+              "fa": "جایگزین او پیوند قاعده‌های نخستین است، که به مردم می‌گویند چه کنند، با قاعده‌های دومین، که درباره نخستین‌هایند؛ اینکه چگونه ساخته و دگرگون و داوری، و مهم‌تر از همه شناخته می‌شوند. قاعده شناسایی همان پایه است، و خودش نه معتبر است و نه نامعتبر؛ عملی اجتماعی است که هست چون کارگزاران در عمل بر آن هم‌گرا می‌شوند و انحراف از آن را ناکامی می‌شمارند."
+            },
+            "citations": [
+              { "source": "text-concept-of-law", "locator": "ch. 5-6" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Hart is a positivist: what the law is and what it ought to be are separate questions, and a wicked rule properly enacted is still law. He does not think this makes obedience obligatory — the point of keeping the questions apart is precisely that it leaves room to say this is law and it is too iniquitous to obey, which a definition that builds justice into legality cannot say.\n\nDworkin's attack came from inside the same department and took thirty years to answer. Hard cases, he argued, are decided by principles that no rule of recognition identifies and that judges nonetheless treat as binding law; so the picture of law as a set of rules with gaps filled by discretion misdescribes what courts actually do. Hart's posthumous reply concedes some ground and holds the core, and the dispute is still the axis on which English-language philosophy of law turns.",
+              "fa": "هارت اثبات‌گراست: اینکه قانون چیست و اینکه چه باید باشد دو پرسش جدایند، و قاعده‌ای پلید که درست وضع شده باز هم قانون است. او نمی‌پندارد این اطاعت را واجب می‌کند؛ فایده جداکردن این دو پرسش دقیقا همین است که جا می‌گذارد بگویی این قانون است و برای اطاعت بیش از حد ستمگر، و تعریفی که عدالت را در قانونی‌بودن می‌گنجاند نمی‌تواند این را بگوید.\n\nحمله دورکین از درون همان گروه آمد و سی سال پاسخ‌دادن برد. او می‌گفت پرونده‌های دشوار با اصولی فیصله می‌یابند که هیچ قاعده شناسایی نمی‌شناسدشان و قاضیان با این حال آن‌ها را قانونی الزام‌آور می‌گیرند؛ پس تصویر قانون چون مجموعه‌ای از قاعده‌ها با شکاف‌هایی که با صلاحدید پر می‌شوند، آنچه را دادگاه‌ها در عمل می‌کنند بد وصف می‌کند. پاسخ پس از مرگ هارت اندکی زمین وامی‌نهد و هسته را نگاه می‌دارد، و آن نزاع هنوز محوری است که فلسفه حقوق انگلیسی‌زبان بر آن می‌چرخد."
+            },
+            "citations": [
+              { "source": "text-concept-of-law", "locator": "Postscript" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-concept-of-law", "text-laws-empire"],
+      "citations": [{ "source": "text-concept-of-law" }]
+    },
+    {
+      "id": "laws-empire",
+      "title": { "en": "Law's Empire", "fa": "امپراتوری قانون" },
+      "originalTitle": "Law's Empire",
+      "author": "dworkin",
+      "oneLine": {
+        "en": "Treats law as an ongoing story each judge must continue in the way that makes it best.",
+        "fa": "قانون را داستانی در جریان می‌گیرد که هر قاضی باید آن را چنان ادامه دهد که بهترین شود."
+      },
+      "composed": { "start": { "year": 1986, "precision": "exact" } },
+      "traditions": ["analytic", "american"],
+      "branches": ["philosophy-of-law", "political-philosophy", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Dworkin's central image is the chain novel. Each judge writes a chapter of a book already begun by others: they must fit what has been written and also make the whole as good as it can be, and those two demands together leave far less freedom than discretion would.",
+              "fa": "تصویر مرکزی دورکین رمان زنجیره‌ای است. هر قاضی فصلی از کتابی می‌نویسد که دیگران آغازش کرده‌اند: باید هم با آنچه نوشته شده جور دربیاید و هم کل را تا آنجا که می‌شود خوب کند، و این دو خواسته با هم آزادی‌ای بسیار کمتر از صلاحدید بر جای می‌گذارند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "This is aimed at a real dilemma. If judges have discretion in hard cases, they are making law and applying it retrospectively to a loser who did not know the rule; if they have none, the law must already contain an answer, which positivism denies. Interpretation is Dworkin's third way: the answer is there to be constructed rather than found or invented, and there is a best construction even when reasonable lawyers disagree about it.",
+              "fa": "این به دوراهی‌ای راستین نشانه رفته است. اگر قاضیان در پرونده‌های دشوار صلاحدید داشته باشند، قانون می‌سازند و آن را با اثر قهقرایی بر بازنده‌ای اعمال می‌کنند که آن قاعده را نمی‌دانست؛ و اگر نداشته باشند، قانون باید از پیش پاسخی در خود داشته باشد، که اثبات‌گرایی انکارش می‌کند. تفسیر راه سوم دورکین است: آن پاسخ هست تا ساخته شود نه تا یافته یا ابداع شود، و بهترین ساختی هست حتی وقتی حقوق‌دانان معقول بر سرش اختلاف دارند."
+            },
+            "citations": [{ "source": "text-laws-empire", "locator": "ch. 7" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The claim that there is a right answer in every hard case is the one his critics find hardest to swallow, and he defends it more carefully than the slogan suggests. He is not claiming certainty or a decision procedure; he is denying that disagreement itself proves there is nothing to be right about, on the grounds that we make that inference nowhere else — two historians disagreeing does not show the past is indeterminate.\n\nThe political stakes run through everything. Dworkin's earlier work argued that individual rights are trumps over collective goals, so a majority's preference does not settle what may be done to a person; and he spent decades applying this in public to abortion, euthanasia, affirmative action and campaign finance, in a country where those questions are decided by a court reading a written constitution. The theory of interpretation is also an account of why nine appointed lawyers may overrule an elected legislature.",
+              "fa": "این ادعا که در هر پرونده دشوار پاسخی درست هست همان است که منتقدانش دشوارتر از همه می‌پذیرند، و او سنجیده‌تر از آنچه آن شعار می‌نماید از آن دفاع می‌کند. مدعی یقین یا روندی برای تصمیم نیست؛ انکار می‌کند که خود اختلاف ثابت کند چیزی برای درست‌بودن درباره‌اش نیست، به این دلیل که ما این استنتاج را هیچ جای دیگر نمی‌کنیم؛ اختلاف دو مورخ نشان نمی‌دهد گذشته نامعین است.\n\nگروِ سیاسی در همه چیز جاری است. کار پیشین دورکین می‌گفت حقوق فردی برگ برنده‌اند بر هدف‌های جمعی، پس ترجیح اکثریت روشن نمی‌کند با یک شخص چه می‌توان کرد؛ و او ده‌ها سال این را آشکارا درباره سقط جنین و مرگ خودخواسته و اقدام مثبت و تأمین مالی کارزارها به کار بست، در کشوری که این پرسش‌ها را دادگاهی با خواندن قانون اساسی مکتوب فیصله می‌دهد. آن نظریه تفسیر شرحی هم هست از اینکه چرا نه حقوق‌دان منصوب می‌توانند رأی مجلسی برگزیده را نقض کنند."
+            },
+            "citations": [
+              { "source": "text-taking-rights-seriously", "locator": "ch. 4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-laws-empire", "text-taking-rights-seriously"],
+      "citations": [{ "source": "text-laws-empire" }]
+    },
+    {
+      "id": "animal-liberation",
+      "title": { "en": "Animal Liberation", "fa": "رهایی جانوران" },
+      "originalTitle": "Animal Liberation",
+      "author": "singer",
+      "oneLine": {
+        "en": "Applies the principle of equal consideration of interests to every being that can suffer.",
+        "fa": "اصل توجه برابر به منافع را بر هر موجودی که می‌تواند رنج ببرد به کار می‌بندد."
+      },
+      "composed": { "start": { "year": 1975, "precision": "exact" } },
+      "traditions": ["analytic", "contemporary"],
+      "branches": [
+        "applied-ethics",
+        "ethics",
+        "political-philosophy",
+        "philosophy-of-biology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The argument does not claim animals are equal to people or have the same rights. It claims that if a being can suffer, its suffering counts, and that counting it less because it belongs to another species is the same kind of move as counting it less because of race — which is why he calls the practice speciesism.",
+              "fa": "این استدلال ادعا نمی‌کند جانوران با آدمیان برابرند یا همان حقوق را دارند. ادعا می‌کند که اگر موجودی بتواند رنج ببرد، رنجش به شمار می‌آید، و کمتر شمردنش به سبب تعلق به گونه‌ای دیگر همان گونه حرکتی است که کمتر شمردنش به سبب نژاد، و از همین رو این رویه را گونه‌گرایی می‌نامد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Half the book is not philosophy at all. Singer describes what happens in intensive farming and in laboratories, in detail and from published industry and research sources, on the theory that the argument only bites if the reader knows what is being defended. The combination of a short abstract argument with a long documentary section is deliberate and is much of why the book worked.",
+              "fa": "نیمی از کتاب اصلا فلسفه نیست. سینگر آنچه را در دامداری صنعتی و در آزمایشگاه‌ها می‌گذرد به تفصیل و از منابع منتشرشده صنعت و پژوهش وصف می‌کند، با این پیش‌فرض که آن استدلال تنها وقتی می‌گیرد که خواننده بداند از چه چیز دفاع می‌شود. آمیختن استدلالی کوتاه و انتزاعی با بخشی بلند و مستند عمدی است و بخش زیادی از دلیل کارکردن این کتاب است."
+            },
+            "citations": [
+              { "source": "text-animal-liberation", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Singer is a preference utilitarian, and the same framework that produces the argument about animals produces conclusions many of his readers reject. If what matters is the capacity for suffering and for having preferences about one's own future, then some non-human animals have a stronger claim than some humans, and he has said so in print about severely disabled infants. That has drawn sustained protest from disability rights organisations, and lectures of his have been cancelled.\n\nThe honest way to present this is that the two conclusions come from one premise. A reader who accepts the argument about factory farming and rejects the argument about infants owes an account of where the principle stops, and Singer's position is that no such account has been given. Whether that shows the framework is consistent or shows it is the wrong framework is precisely the argument, and it has not been settled.",
+              "fa": "سینگر سودگرای ترجیحی است، و همان چارچوبی که استدلال درباره جانوران را می‌زاید نتیجه‌هایی می‌زاید که بسیاری از خوانندگانش ردشان می‌کنند. اگر آنچه اهمیت دارد توان رنج‌بردن و داشتن ترجیح درباره آینده خویش باشد، آنگاه برخی جانوران غیرانسانی ادعایی قوی‌تر از برخی آدمیان دارند، و او این را درباره نوزادان با معلولیت شدید به‌صراحت نوشته است. این اعتراض پیوسته سازمان‌های حقوق معلولان را برانگیخته و سخنرانی‌هایش لغو شده است.\n\nشیوه صادقانه عرضه این، آن است که هر دو نتیجه از یک مقدمه می‌آیند. خواننده‌ای که استدلال درباره دامداری صنعتی را می‌پذیرد و استدلال درباره نوزادان را رد می‌کند، شرحی بدهکار است از اینکه آن اصل کجا می‌ایستد، و موضع سینگر این است که چنین شرحی داده نشده. اینکه این نشان می‌دهد آن چارچوب سازگار است یا نشان می‌دهد چارچوب نادرستی است، دقیقا همان بحث است، و فیصله نیافته."
+            },
+            "citations": [
+              {
+                "source": "text-famine-affluence-morality",
+                "locator": "opening"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-animal-liberation", "text-famine-affluence-morality"],
+      "citations": [{ "source": "text-animal-liberation" }]
+    },
+    {
+      "id": "defense-of-abortion",
+      "title": { "en": "A Defense of Abortion", "fa": "دفاعی از سقط جنین" },
+      "originalTitle": "A Defense of Abortion",
+      "author": "thomson",
+      "oneLine": {
+        "en": "Grants the opponent's premise that the foetus is a person, and argues the conclusion still does not follow.",
+        "fa": "مقدمه حریف را می‌پذیرد که جنین شخص است، و می‌گوید آن نتیجه باز هم بیرون نمی‌آید."
+      },
+      "composed": { "start": { "year": 1971, "precision": "exact" } },
+      "traditions": ["analytic", "american"],
+      "branches": ["applied-ethics", "ethics", "political-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The debate had stalled on when personhood begins. Thomson's move is to concede it from conception, for the sake of argument, and then ask what follows — because a right to life does not by itself entail a right to whatever is needed to sustain that life, if what is needed is another person's body.",
+              "fa": "آن بحث بر سر اینکه شخص‌بودن کی آغاز می‌شود مانده بود. حرکت تامسون این است که آن را از لحظه لقاح بپذیرد، برای پیشبرد استدلال، و آنگاه بپرسد چه بیرون می‌آید؛ چون حق حیات به‌خودی‌خود حق بر هر آنچه برای نگاه‌داشتن آن حیات لازم است در پی ندارد، اگر آنچه لازم است بدن شخصی دیگر باشد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The famous case is the violinist. You wake up connected to an unconscious stranger whose kidneys have failed and who will die if unplugged before nine months are up; a society of music lovers kidnapped you for the purpose. He is a person with a right to life. Almost nobody thinks you are obliged to stay attached, and Thomson asks what makes the pregnancy case different.",
+              "fa": "نمونه مشهور، ویولن‌نواز است. بیدار می‌شوی و می‌بینی به بیگانه‌ای بیهوش وصل شده‌ای که کلیه‌هایش از کار افتاده و اگر پیش از پایان نه ماه جدا شود می‌میرد؛ انجمنی از دوستداران موسیقی تو را برای همین ربوده‌اند. او شخصی است با حق حیات. تقریبا کسی نمی‌پندارد که تو موظفی وصل بمانی، و تامسون می‌پرسد چه چیز مورد بارداری را متفاوت می‌کند."
+            },
+            "citations": [
+              { "source": "text-defense-of-abortion", "locator": "§1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Objections cluster where the analogy is loosest. The violinist was forced on you, which fits pregnancy after rape and fits consensual conception much less well; a pregnancy usually involves one's own child rather than a stranger; and the distinction between killing and letting die does more work in the abortion case than in the hypothetical. Thomson anticipates most of these and answers some, and the subsequent literature is largely a map of which ones she did not.\n\nWhat the paper changed was method more than opinion. Before it, applied ethics in the English-speaking world was thin, and moral philosophers mostly wrote about the meaning of moral words. Thomson showed that a concrete case, carefully built, could isolate a principle better than a general theory could — and the trolley problem, which she also developed, did the same for a different question. Whether intuitions about invented cases are evidence about anything is now itself a live dispute.",
+              "fa": "اعتراض‌ها آنجا گرد می‌آیند که آن قیاس سست‌ترین است. ویولن‌نواز را بر تو تحمیل کرده‌اند، که با بارداری پس از تجاوز جور درمی‌آید و با لقاح از سر رضایت بسیار کمتر؛ بارداری معمولا فرزند خود آدم را در بر دارد نه بیگانه‌ای را؛ و تمایز میان کشتن و واگذاشتن به مرگ در مورد سقط بیش از آن فرض خیالی کار می‌کند. تامسون بیشتر این‌ها را پیش‌بینی می‌کند و به برخی پاسخ می‌دهد، و ادبیات پس از آن تا حد زیادی نقشه‌ای است از آن‌هایی که پاسخ نداد.\n\nآنچه این مقاله دگرگون کرد بیش از رأی، روش بود. پیش از آن، اخلاق کاربردی در جهان انگلیسی‌زبان نحیف بود و فیلسوفان اخلاق بیشتر درباره معنای واژه‌های اخلاقی می‌نوشتند. تامسون نشان داد موردی مشخص و با دقت ساخته‌شده می‌تواند اصلی را بهتر از نظریه‌ای کلی جدا کند، و مسئله ترامواژ، که آن را هم او پروراند، همین را برای پرسشی دیگر کرد. اینکه شهودها درباره موردهای ساختگی اصلا گواه چیزی هستند یا نه، خود اکنون نزاعی زنده است."
+            },
+            "citations": [
+              { "source": "text-defense-of-abortion", "locator": "§4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-defense-of-abortion"],
+      "citations": [{ "source": "text-defense-of-abortion" }]
+    },
+    {
+      "id": "natural-goodness",
+      "title": { "en": "Natural Goodness", "fa": "خوبی طبیعی" },
+      "originalTitle": "Natural Goodness",
+      "author": "foot",
+      "oneLine": {
+        "en": "Argues that calling a person good is the same kind of judgement as calling an oak or a wolf a good one.",
+        "fa": "می‌گوید خوب‌خواندن یک آدم همان گونه داوری است که خوب‌خواندن یک بلوط یا یک گرگ."
+      },
+      "composed": { "start": { "year": 2001, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": ["ethics", "metaethics", "philosophy-of-biology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Foot's model is the way we already evaluate living things. A plant with weak roots is a defective specimen, and that is a factual judgement about what a plant of that kind needs to live its characteristic life. She argues that moral evaluation of human beings has exactly this logic — not a projection of attitude onto neutral facts.",
+              "fa": "الگوی فوت همان شیوه‌ای است که با آن پیشاپیش موجودات زنده را ارزیابی می‌کنیم. گیاهی با ریشه‌های سست نمونه‌ای معیوب است، و این داوری‌ای واقعی است درباره آنچه گیاهی از آن گونه برای زیستن زندگی نوعی خود نیاز دارد. او می‌گوید ارزیابی اخلاقی آدمیان دقیقا همین منطق را دارد، نه فرافکنی نگرش بر واقعیت‌هایی بی‌طرف."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "This is a direct answer to the emotivism she had once been close to. If natural goodness is a real category, then vice is a defect in the way blindness is, and there is no gap left for the question why should I be moral to open into — the question becomes like asking why a plant should have roots.",
+              "fa": "این پاسخی مستقیم است به همان عاطفه‌گرایی که زمانی به آن نزدیک بود. اگر خوبی طبیعی رده‌ای واقعی باشد، آنگاه رذیلت نقصی است چنانکه نابینایی، و شکافی نمی‌ماند که پرسش «چرا باید اخلاقی باشم» در آن باز شود؛ آن پرسش مانند این می‌شود که چرا گیاه باید ریشه داشته باشد."
+            },
+            "citations": [
+              { "source": "text-natural-goodness", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The obvious objection is that humans have no fixed characteristic life to measure against, and that describing one smuggles in the values it claims to derive. Foot's answer is that the human form of life includes rationality, so what counts as flourishing for us is partly settled by what reasons we can act on — which some readers find a satisfying way out and others find a way of putting the values back by hand.\n\nHer earlier career makes the position more interesting. She had argued in the 1950s and 60s that moral judgements are hypothetical imperatives, binding only on those with the relevant desires, and she abandoned that view publicly and in detail. Reading the two phases together is a rare chance to watch a first-rate philosopher decide, over decades, that she had been wrong about the thing she was best known for.",
+              "fa": "اعتراض آشکار این است که آدمیان زندگی نوعی ثابتی ندارند که با آن سنجیده شوند، و وصف‌کردن یکی، همان ارزش‌هایی را که مدعی است بیرون می‌کشد پنهانی وارد می‌کند. پاسخ فوت این است که صورت زندگی آدمی خردورزی را در بر دارد، پس آنچه برای ما شکوفایی به شمار می‌آید تا حدی با دلیل‌هایی که می‌توانیم بر پایه‌شان عمل کنیم روشن می‌شود، و برخی خوانندگان این را راه بیرون‌رفتی خرسندکننده می‌یابند و برخی راهی برای بازگذاشتن دستی آن ارزش‌ها.\n\nکارنامه پیشین او این موضع را جالب‌تر می‌کند. در دهه‌های ۱۹۵۰ و ۱۹۶۰ گفته بود داوری‌های اخلاقی امرهای شرطی‌اند و تنها بر کسانی الزام‌آورند که خواست مربوط را دارند، و آن دیدگاه را آشکارا و به تفصیل وانهاد. خواندن این دو دوره در کنار هم فرصتی کمیاب است برای تماشای فیلسوفی درجه‌یک که در گذر دهه‌ها به این نتیجه می‌رسد که درباره همان چیزی که بیش از همه به آن شناخته می‌شد بر خطا بوده است."
+            },
+            "citations": [
+              { "source": "text-natural-goodness", "locator": "ch. 4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-natural-goodness", "text-modern-moral-philosophy"],
+      "citations": [{ "source": "text-natural-goodness" }]
+    },
+    {
+      "id": "totality-and-infinity",
+      "title": { "en": "Totality and Infinity", "fa": "تمامیت و بی‌نهایت" },
+      "originalTitle": "Totalité et Infini",
+      "author": "levinas",
+      "oneLine": {
+        "en": "Makes the encounter with another person prior to knowledge, and calls ethics first philosophy.",
+        "fa": "روبه‌روشدن با شخصی دیگر را مقدم بر شناخت می‌کند، و اخلاق را فلسفه اولی می‌خواند."
+      },
+      "composed": { "start": { "year": 1961, "precision": "exact" } },
+      "traditions": ["continental", "european", "jewish"],
+      "branches": [
+        "ethics",
+        "metaphysics",
+        "philosophy-of-religion",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Western philosophy, on Levinas's reading, has always tried to bring the other under a concept — to know it, and so to make it part of a totality the knower surveys. He argues that another person exceeds every concept applied to them, and that this excess registers first as a demand rather than as a puzzle.",
+              "fa": "به خوانش لویناس، فلسفه غربی همیشه کوشیده دیگری را زیر یک مفهوم بیاورد؛ بشناسدش، و بدین‌سان بخشی‌اش کند از تمامیتی که شناسنده بر آن اشراف دارد. او می‌گوید شخصی دیگر از هر مفهومی که بر او روا شود فراتر می‌رود، و این فراروی نخست چون یک خواسته ثبت می‌شود نه چون یک معما."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The face is his term for that encounter, and it does not mean a set of features. To face someone is to be addressed before one has decided to listen, and the address forbids: the first content of the relation is that this person may not be killed. Ethics precedes ontology because the claim arrives before any account of what the other is.",
+              "fa": "«چهره» اصطلاح او برای همین روبه‌روشدن است، و به معنای مجموعه‌ای از خطوط نیست. روبه‌روشدن با کسی یعنی مخاطب واقع‌شدن پیش از آنکه به شنیدن تصمیم گرفته باشی، و آن خطاب نهی می‌کند: نخستین محتوای این نسبت آن است که این شخص را نباید کشت. اخلاق بر هستی‌شناسی مقدم است چون آن مطالبه پیش از هر شرحی از چیستی دیگری می‌رسد."
+            },
+            "citations": [
+              {
+                "source": "text-totality-and-infinity",
+                "locator": "Section III"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Heidegger is the unnamed addressee of most of it. Levinas had been among the first to bring phenomenology into France and had translated and taught Husserl and Heidegger; he was also a prisoner of war whose family in Lithuania was murdered while he was held. The charge that a philosophy of being has no place from which to say that killing is wrong is not made as a debating point.\n\nThe difficulty everyone raises is the third party. A relation of infinite obligation to one other person gives no guidance when two of them make incompatible claims, and justice, institutions and law all require comparing what cannot be compared. Levinas takes this seriously and his second major book reworks the whole position partly in answer to it, moving from the face to a language of substitution and hostage that is harder to read and less easily domesticated.",
+              "fa": "هایدگر مخاطب نانوشته بیشتر این کتاب است. لویناس از نخستین کسانی بود که پدیدارشناسی را به فرانسه آورد و هوسرل و هایدگر را ترجمه و تدریس کرد؛ اسیر جنگی هم بود که خانواده‌اش در لیتوانی در همان مدت اسارتش کشته شدند. این اتهام که فلسفه‌ای درباره هستی جایی برای گفتن نادرستی کشتن ندارد، چون نکته‌ای در یک مناظره گفته نمی‌شود.\n\nدشواری‌ای که همه پیش می‌کشند شخص سوم است. نسبتی از تعهد بی‌نهایت به یک دیگری، وقتی دو تن ادعاهای ناسازگار داشته باشند راهنمایی نمی‌کند، و عدالت و نهاد و قانون همه سنجیدن آنچه سنجیدنی نیست را می‌طلبند. لویناس این را جدی می‌گیرد و کتاب مهم دومش تمام آن موضع را تا حدی در پاسخ به همین از نو می‌سازد، و از چهره به زبانی از جانشینی و گروگانی می‌رود که دشوارتر خوانده می‌شود و آسان‌تر رام نمی‌شود."
+            },
+            "citations": [
+              { "source": "text-otherwise-than-being", "locator": "ch. 4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-totality-and-infinity", "text-otherwise-than-being"],
+      "citations": [{ "source": "text-totality-and-infinity" }]
+    },
+    {
+      "id": "truth-and-method",
+      "title": { "en": "Truth and Method", "fa": "حقیقت و روش" },
+      "originalTitle": "Wahrheit und Methode",
+      "author": "gadamer",
+      "oneLine": {
+        "en": "Argues that understanding is not a method we apply but something that happens to us.",
+        "fa": "می‌گوید فهم روشی نیست که به کارش بندیم، چیزی است که بر ما رخ می‌دهد."
+      },
+      "composed": { "start": { "year": 1960, "precision": "exact" } },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-language",
+        "aesthetics",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The title is a warning rather than a pairing. Gadamer's claim is that the model of method borrowed from the sciences misses how the humanities actually reach truth, and that the attempt to secure interpretation by procedure destroys the thing it was meant to protect.",
+              "fa": "عنوان به جای جفت‌کردن، هشدار است. ادعای گادامر این است که الگوی روش که از علوم وام گرفته شده از چگونگی رسیدن واقعی علوم انسانی به حقیقت غافل است، و کوشش برای ایمن‌کردن تفسیر با یک روند همان چیزی را نابود می‌کند که قرار بود پاسش بدارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "He rehabilitates prejudice, meaning the judgements we bring before we start. The Enlightenment's prejudice against prejudice is itself one, and a reader with no prior expectations could not read at all, since there would be nothing for the text to correct. Understanding is a movement in which our expectations are put at risk by what we are reading, and revised — a fusion of horizons rather than a transfer of content.",
+              "fa": "او «پیش‌داوری» را اعاده حیثیت می‌کند، به معنای داوری‌هایی که پیش از آغاز با خود می‌آوریم. پیش‌داوری روشنگری بر ضد پیش‌داوری خود یکی از آن‌هاست، و خواننده‌ای بی‌هیچ انتظار پیشین اصلا نمی‌توانست بخواند، چون چیزی نبود که متن تصحیحش کند. فهم حرکتی است که در آن انتظارهای ما با آنچه می‌خوانیم به خطر می‌افتند و بازبینی می‌شوند؛ آمیزش افق‌ها نه انتقال محتوا."
+            },
+            "citations": [
+              { "source": "text-truth-and-method", "locator": "Part II, §2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The debate with Habermas is where the position gets tested. If tradition is the medium of understanding rather than an obstacle to it, what is the standing of a critique that says a tradition is systematically distorted by power? Habermas argued that hermeneutics has no leverage against ideology; Gadamer replied that critique too is conducted in a language one inherits, and cannot step outside it to a neutral platform. Neither conceded, and the exchange is a compact statement of a disagreement that runs through the whole century.\n\nHis model case is not the text but the game, and this is easy to miss. A game is not something the players use; it takes them up, has its own to-and-fro, and they play well when they are absorbed rather than in control. Gadamer says understanding a work of art or a text is like this — which is why he can call it an event rather than an achievement, and why the book resists being turned into the method its title refuses.",
+              "fa": "بحث با هابرماس همان جایی است که این موضع آزموده می‌شود. اگر سنت به جای مانع، محیط فهم باشد، جایگاه نقدی که می‌گوید سنتی به‌طور نظام‌مند به دست قدرت تحریف شده چیست؟ هابرماس می‌گفت هرمنوتیک اهرمی در برابر ایدئولوژی ندارد؛ گادامر پاسخ داد که نقد هم در زبانی انجام می‌شود که آدمی به ارث می‌برد، و نمی‌تواند از آن بیرون بر سکویی بی‌طرف بایستد. هیچ‌کدام کوتاه نیامدند، و آن داد و ستد بیان فشرده اختلافی است که در سراسر آن سده جاری است.\n\nنمونه الگویی او متن نیست، بازی است، و این را آسان می‌توان از دست داد. بازی چیزی نیست که بازیکنان به کارش برند؛ آن‌ها را برمی‌گیرد، رفت و برگشت خودش را دارد، و آنان وقتی خوب بازی می‌کنند که به جای در اختیار داشتن، جذب شده باشند. گادامر می‌گوید فهم یک اثر هنری یا یک متن چنین است، و از همین رو می‌تواند آن را رویداد بخواند نه دستاورد، و از همین رو این کتاب در برابر بدل‌شدن به روشی که عنوانش ردش می‌کند مقاومت می‌کند."
+            },
+            "citations": [
+              { "source": "text-truth-and-method", "locator": "Part I, §1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-truth-and-method"],
+      "citations": [{ "source": "text-truth-and-method" }]
+    },
+    {
+      "id": "of-grammatology",
+      "title": { "en": "Of Grammatology", "fa": "درباره دستور خط" },
+      "originalTitle": "De la grammatologie",
+      "author": "derrida",
+      "oneLine": {
+        "en": "Traces a long preference for speech over writing, and argues the preference is not innocent.",
+        "fa": "ترجیحی دیرپا برای گفتار بر نوشتار را پی می‌گیرد، و می‌گوید این ترجیح بی‌گناه نیست."
+      },
+      "composed": { "start": { "year": 1967, "precision": "exact" } },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "philosophy-of-language",
+        "metaphysics",
+        "epistemology",
+        "aesthetics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "From Plato to Saussure, Derrida argues, writing has been treated as a substitute for speech and speech as closer to thought — as if meaning were fully present in the moment of speaking and only degraded by being written down. The book asks what that ranking is protecting.",
+              "fa": "دریدا می‌گوید از افلاطون تا سوسور، نوشتار را جانشین گفتار گرفته‌اند و گفتار را نزدیک‌تر به اندیشه، چنانکه گویی معنا در لحظه گفتن تمام و حاضر است و تنها با نوشته‌شدن فرو می‌کاهد. کتاب می‌پرسد این رتبه‌بندی از چه پاسداری می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His answer is that the qualities blamed on writing — that a sign works in the absence of what it refers to and of whoever made it, that it can be repeated in contexts nobody foresaw — are conditions of any sign at all, spoken ones included. So writing is not a fallen version of speech; what was called writing was the structure of language, and the hierarchy inverts.",
+              "fa": "پاسخش این است که ویژگی‌هایی که به گردن نوشتار می‌اندازند، یعنی اینکه نشانه در غیاب آنچه به آن ارجاع می‌دهد و در غیاب سازنده‌اش کار می‌کند، و اینکه می‌توان در بافت‌هایی که کسی پیش‌بینی نکرده تکرارش کرد، شرط‌های هر نشانه‌ای‌اند، از جمله گفتاری. پس نوشتار روایتی هبوط‌کرده از گفتار نیست؛ آنچه نوشتار خوانده می‌شد ساختار زبان بود، و آن سلسله‌مراتب وارونه می‌شود."
+            },
+            "citations": [
+              { "source": "text-of-grammatology", "locator": "Part I, ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Deconstruction as he practises it is a way of reading, not a doctrine, and the difference matters for judging it. He does not assert from outside that a text contradicts itself; he follows the text's own terms until a passage the author treated as marginal turns out to be doing the load-bearing work. The long central reading of Rousseau on the supplement is the demonstration, and it is a piece of close reading before it is anything else.\n\nThe reception outside philosophy departments turned it into something else. In literary studies it became a licence for the claim that texts mean anything; in the popular press it became a byword for evasion. Derrida spent decades denying both, insisting that a reading can be wrong and that deconstruction presupposes rather than abolishes the discipline of getting a text right. Whether the writing itself invites the misreading is a fair question, and the prose is difficult in ways that are not always necessary.",
+              "fa": "واسازی چنانکه او می‌ورزدش شیوه‌ای از خواندن است نه آموزه‌ای، و این تفاوت در داوری درباره‌اش اهمیت دارد. او از بیرون ادعا نمی‌کند که متنی خود را نقض می‌کند؛ اصطلاح‌های خود متن را دنبال می‌کند تا آنکه بندی که نویسنده حاشیه‌ای می‌شمردش از آب درمی‌آید که بار اصلی را می‌برد. آن خوانش بلند و مرکزی از روسو درباره «مکمل» همان نمایش است، و پیش از هر چیز پاره‌ای از خوانش دقیق است.\n\nپذیرش آن بیرون از گروه‌های فلسفه چیز دیگری از آن ساخت. در مطالعات ادبی پروانه‌ای شد برای این ادعا که متن‌ها هر معنایی می‌دهند؛ در مطبوعات همگانی نامی شد برای طفره. دریدا ده‌ها سال هر دو را انکار کرد و پافشرد که خوانشی می‌تواند نادرست باشد و واسازی انضباط درست‌خواندن متن را پیش‌فرض می‌گیرد نه اینکه براندازد. اینکه خود آن نوشتار به بدخوانی دعوت می‌کند یا نه پرسشی بجاست، و آن نثر به شیوه‌هایی دشوار است که همیشه لازم نیستند."
+            },
+            "citations": [
+              { "source": "text-of-grammatology", "locator": "Part II, ch. 2" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-of-grammatology"],
+      "citations": [{ "source": "text-of-grammatology" }]
     }
   ]
 }
