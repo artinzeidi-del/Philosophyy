@@ -6486,6 +6486,461 @@
       },
       "editions": ["text-aint-i-a-woman", "text-teaching-to-transgress"],
       "citations": [{ "source": "text-aint-i-a-woman" }]
+    },
+    {
+      "id": "mozi-book",
+      "title": { "en": "Mozi", "fa": "موزی" },
+      "originalTitle": "墨子",
+      "transliteration": "Mòzǐ",
+      "author": "mozi",
+      "oneLine": {
+        "en": "A school's collected doctrines, arguing for impartial care and against inherited privilege and ritual expense.",
+        "fa": "آموزه‌های گردآمده یک مکتب، در دفاع از مهر بی‌طرفانه و بر ضد امتیاز موروثی و هزینه آیین."
+      },
+      "composed": {
+        "start": { "year": -400, "precision": "circa" },
+        "end": { "year": -221, "precision": "circa" }
+      },
+      "traditions": ["chinese"],
+      "branches": ["ethics", "political-philosophy", "logic", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Most chapters survive in sets of three versions of the same doctrine, which suggests the school split into branches that each kept their own recension. The core teaching is jian ai, usually rendered impartial care: concern extended to everyone without the graded intensity that Confucian ethics builds outward from the family.",
+              "fa": "بیشتر فصل‌ها در دسته‌های سه‌تایی از یک آموزه مانده‌اند، و این می‌رساند که آن مکتب به شاخه‌هایی بخش شد که هر یک روایت خود را نگاه داشت. آموزه مرکزی «جیان آی» است، که معمولا مهر بی‌طرفانه ترجمه می‌شود: توجهی که به همه کس می‌رسد، بی‌آن شدت درجه‌بندی‌شده‌ای که اخلاق کنفوسیوسی از خانواده رو به بیرون می‌سازد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Mohists argue by explicit standards rather than by appeal to precedent. A doctrine is tested by its origin, its verifiability in what people have seen and heard, and its consequences when applied in government — three criteria stated as a method. That makes this the most argumentatively self-conscious of the early Chinese schools and the one that developed a formal logic.",
+              "fa": "موهیان با معیارهای صریح استدلال می‌کنند نه با توسل به پیشینه. آموزه‌ای با خاستگاهش، با آزمون‌پذیری‌اش در آنچه مردم دیده و شنیده‌اند، و با پیامدهایش هنگام به‌کاربستن در حکومت سنجیده می‌شود؛ سه معیار که چون یک روش گفته شده‌اند. همین این را استدلالی‌ترین و خودآگاه‌ترین مکتب چین باستان می‌کند و همان که منطقی صوری پروراند."
+            },
+            "citations": [{ "source": "text-mozi-book", "locator": "ch. 35" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The later Mohist chapters contain definitions, a treatment of names and objects, optical and mechanical observations, and something close to a theory of inference. They are also badly damaged: the text was transmitted through centuries in which nobody read it, and reconstructing these chapters is one of the harder editorial problems in Chinese philosophy.\n\nThe school disappeared almost entirely after the Qin unification, and Confucian orthodoxy did not preserve its rivals. Mencius attacked it directly, saying that treating one's own father like any man is to be without a father, and that charge stuck for two thousand years. Modern interest revived partly because Mohist consequentialism and its logic looked unexpectedly close to arguments made elsewhere, and partly because it is the clearest ancient Chinese case of a philosophy that lost.",
+              "fa": "فصل‌های موهی متأخر تعریف‌ها و بحثی درباره نام و شیء و مشاهده‌هایی در نورشناسی و مکانیک و چیزی نزدیک به نظریه استنتاج دارند. سخت آسیب هم دیده‌اند: این متن سده‌هایی را پیمود که کسی نمی‌خواندش، و بازسازی این فصل‌ها از دشوارترین مسائل ویرایشی فلسفه چین است.\n\nآن مکتب پس از یکپارچگی چین به دست چین تقریبا یکسره ناپدید شد، و راست‌کیشی کنفوسیوسی رقیبانش را نگاه نداشت. منسیوس مستقیم به آن حمله کرد و گفت رفتار با پدر خود چون هر مردی یعنی بی‌پدر بودن، و آن اتهام دو هزار سال ماند. علاقه امروزی تا حدی از آن رو زنده شد که پیامدگرایی موهی و منطقش به‌طور غیرمنتظره به استدلال‌هایی در جاهای دیگر نزدیک می‌نمود، و تا حدی چون این روشن‌ترین نمونه چینی باستان از فلسفه‌ای است که باخت."
+            },
+            "citations": [
+              { "source": "text-mozi-book", "locator": "ch. 40-45" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-mozi-book"],
+      "citations": [{ "source": "text-mozi-book" }]
+    },
+    {
+      "id": "jinsilu",
+      "title": {
+        "en": "Reflections on Things at Hand",
+        "fa": "تأملاتی در چیزهای نزدیک"
+      },
+      "originalTitle": "近思錄",
+      "transliteration": "Jìnsīlù",
+      "author": "zhu-xi",
+      "oneLine": {
+        "en": "An anthology of four earlier masters, arranged so as to define what Neo-Confucianism would be.",
+        "fa": "گزیده‌ای از چهار استاد پیشین، چنان چیده شده که تعریف کند نوکنفوسیوس‌گرایی چه خواهد بود."
+      },
+      "composed": { "start": { "year": 1175, "precision": "exact" } },
+      "traditions": ["chinese"],
+      "branches": [
+        "metaphysics",
+        "ethics",
+        "philosophy-of-education",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Zhu Xi compiled it with Lü Zuqian over ten days, selecting from Zhou Dunyi, the two Cheng brothers and Zhang Zai. Editing is the philosophy here: what to include, in what order, under which headings, and the resulting sequence became the standard curriculum of East Asia for the next seven hundred years.",
+              "fa": "ژو شی آن را با لو زوچیان در ده روز گرد آورد و از ژو دون‌یی و دو برادر چنگ و ژانگ زای برگزید. ویرایش اینجا خود فلسفه است: اینکه چه بیاید، به چه ترتیب، زیر کدام عنوان؛ و توالی حاصل هفتصد سال برنامه درسی استاندارد شرق آسیا شد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The framework is li and qi. Every thing has a pattern that makes it the kind of thing it is, and a psycho-physical stuff that gives it its particular density and turbidity; nature is good because the pattern is, and people differ in conduct because their stuff is more or less clear. Learning is the work of clearing it, which is why the book is arranged as a course rather than as a treatise.",
+              "fa": "چارچوب، «لی» و «چی» است. هر چیزی الگویی دارد که آن را از گونه‌ای می‌کند که هست، و ماده‌ای روانی و تنی که چگالی و کدری ویژه‌اش را می‌دهد؛ سرشت خیر است چون آن الگو خیر است، و مردم در رفتار فرق دارند چون ماده‌شان کم و بیش صاف است. آموختن کار صاف‌کردن آن است، و از همین رو این کتاب چون یک دوره چیده شده نه چون یک رساله."
+            },
+            "citations": [{ "source": "text-jinsilu", "locator": "ch. 1" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The investigation of things is the phrase everything later turns on, and it is genuinely ambiguous. Zhu Xi reads it as sustained study of the pattern in particular things, accumulated until an inner coherence breaks through. Wang Yangming tried it literally, sat before bamboo for a week, got nothing but an illness, and concluded the pattern is in the mind rather than in the bamboo — which is where the other great school comes from.\n\nZhu Xi's own position was condemned as false learning during his lifetime, and his funeral was attended under official disapproval. Within a century his commentaries were the required text for the imperial examinations, and they stayed required until 1905. Few philosophers have had the state adopt their reading of the classics as the sole correct one, and the effect on Chinese, Korean and Japanese intellectual life is hard to overstate — as is the cost, since the syllabus that made him canonical also fixed him.",
+              "fa": "«بررسی چیزها» عبارتی است که هر چه بعدا آمد بر آن می‌چرخد، و به‌راستی دوپهلوست. ژو شی آن را مطالعه پیوسته الگو در چیزهای خاص می‌خواند، که انباشته می‌شود تا انسجامی درونی ناگهان بگشاید. وانگ یانگ‌مینگ آن را به‌ظاهر گرفت، یک هفته پیش خیزران نشست، جز بیماری چیزی نگرفت، و نتیجه گرفت که آن الگو در ذهن است نه در خیزران، و مکتب بزرگ دیگر از همین‌جا می‌آید.\n\nموضع خود ژو شی در زمان زندگی‌اش «آموزش دروغین» خوانده و محکوم شد، و در خاکسپاری‌اش با ناخرسندی رسمی حاضر شدند. یک سده بعد شرح‌هایش متن الزامی آزمون‌های دیوانی بود، و تا سال ۱۹۰۵ الزامی ماند. کمتر فیلسوفی دیده که دولتی خوانش او از متون کهن را یگانه خوانش درست بگیرد، و اثرش بر زندگی فکری چین و کره و ژاپن را دشوار می‌توان بزرگ‌نمایی کرد، و همچنین بهایش را، چون همان برنامه درسی که او را متنی مقدس کرد، او را از حرکت هم بازداشت."
+            },
+            "citations": [{ "source": "text-chuanxilu", "locator": "§3" }]
+          }
+        ]
+      },
+      "editions": ["text-jinsilu", "text-chuanxilu"],
+      "citations": [{ "source": "text-jinsilu" }]
+    },
+    {
+      "id": "seonghak-sipdo",
+      "title": {
+        "en": "Ten Diagrams on Sage Learning",
+        "fa": "ده نمودار در آموزش فرزانگی"
+      },
+      "originalTitle": "聖學十圖",
+      "transliteration": "Seonghak sipdo",
+      "author": "yi-hwang",
+      "oneLine": {
+        "en": "A whole moral philosophy presented as ten diagrams, made for a boy king to keep on a screen.",
+        "fa": "تمام یک فلسفه اخلاق در ده نمودار، ساخته‌شده برای پادشاهی نوجوان تا بر پرده‌ای نگاهش دارد."
+      },
+      "composed": { "start": { "year": 1568, "precision": "exact" } },
+      "traditions": ["korean", "chinese"],
+      "branches": [
+        "ethics",
+        "philosophy-of-education",
+        "metaphysics",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Yi Hwang was sixty-eight and retiring from court when he presented this to the seventeen-year-old King Seonjo. Each diagram carries a short commentary; together they run from the origin of the cosmos to the practice of daily attentiveness, so that the sequence is a path rather than a list.",
+              "fa": "یی هوانگ شصت و هشت ساله بود و از دربار کناره می‌گرفت که این را به سونجوی هفده ساله پیشکش کرد. هر نمودار شرحی کوتاه دارد؛ روی هم از خاستگاه گیتی تا ورزیدن هشیاری روزانه می‌روند، چنانکه آن توالی راهی است نه فهرستی."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Behind it lies the Four-Seven debate, the longest sustained philosophical controversy in Korean history. The four moral feelings — commiseration, shame, deference, right and wrong — and the seven ordinary emotions both arise in a person, and the question is whether they have different sources. Yi Hwang holds that the four issue from pattern and the seven from psycho-physical stuff, which makes the moral response irreducible.",
+              "fa": "پشت این، مناظره چهار و هفت نشسته است، درازترین نزاع فلسفی پیوسته تاریخ کره. چهار احساس اخلاقی، یعنی دلسوزی و شرم و فروتنی و تشخیص درست از نادرست، و هفت عاطفه معمولی، هر دو در آدمی برمی‌خیزند، و پرسش این است که آیا سرچشمه‌شان جداست. یی هوانگ می‌گوید آن چهار از الگو برمی‌آیند و آن هفت از ماده روانی و تنی، و همین پاسخ اخلاقی را فروکاست‌ناپذیر می‌کند."
+            },
+            "citations": [
+              { "source": "text-seonghak-sipdo", "locator": "Diagram 6" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His opponent Gi Daeseung objected that pattern cannot issue anything by itself, since it has no activity — that is what distinguishes it from stuff — so saying the four feelings are issued by pattern breaks the metaphysics to save the ethics. The exchange ran for eight years in letters, Yi Hwang revised his formulation more than once, and neither side conceded. Korean Confucianism split into schools along that line and stayed split for centuries.\n\nThe choice of form is itself an argument. A diagram can be held in view all at once, and Yi Hwang asks the king to have the ten mounted on a folding screen and looked at daily, because he thinks moral knowledge is not information to be acquired but a shape the mind takes by repeated attention. That places him closer to a practice of cultivation than to a doctrine, and it is why the work reads as a devotional object as much as a philosophical text.",
+              "fa": "حریفش گی دائه‌سونگ اعتراض کرد که الگو به‌خودی‌خود نمی‌تواند چیزی صادر کند، چون کنشی ندارد، و همین آن را از ماده جدا می‌کند؛ پس گفتن اینکه آن چهار احساس از الگو صادر می‌شوند متافیزیک را می‌شکند تا اخلاق را نجات دهد. این داد و ستد هشت سال در نامه‌ها ادامه یافت، یی هوانگ بیش از یک بار صورت‌بندی‌اش را بازنگری کرد، و هیچ سو کوتاه نیامد. کنفوسیوس‌گرایی کره بر همان خط به مکتب‌هایی بخش شد و سده‌ها بخش ماند.\n\nگزینش این صورت خود یک استدلال است. نموداری را می‌توان یکجا در نظر داشت، و یی هوانگ از پادشاه می‌خواهد آن ده را بر پرده‌ای تاشو نصب کند و روزانه به آن بنگرد، چون می‌پندارد دانش اخلاقی اطلاعاتی نیست که به دست آید، شکلی است که ذهن با توجه مکرر می‌گیرد. همین او را به ورزه پرورش نزدیک‌تر می‌کند تا به یک آموزه، و از همین روست که این اثر به همان اندازه که متنی فلسفی است، شیئی نیایشی خوانده می‌شود."
+            },
+            "citations": [
+              { "source": "text-seonghak-sipdo", "locator": "Diagram 10" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-seonghak-sipdo"],
+      "citations": [{ "source": "text-seonghak-sipdo" }]
+    },
+    {
+      "id": "sokushin-jobutsu",
+      "title": {
+        "en": "Attaining Buddhahood in This Very Body",
+        "fa": "رسیدن به بودایی در همین تن"
+      },
+      "originalTitle": "即身成佛義",
+      "transliteration": "Sokushin jōbutsu gi",
+      "author": "kukai",
+      "oneLine": {
+        "en": "Argues that enlightenment need not wait for another lifetime, and grounds the claim in a theory of language.",
+        "fa": "می‌گوید روشن‌شدگی نیازی به انتظار برای زندگی دیگر ندارد، و این ادعا را بر نظریه‌ای درباره زبان می‌نشاند."
+      },
+      "composed": { "start": { "year": 820, "precision": "circa" } },
+      "traditions": ["japanese", "buddhist"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "philosophy-of-language",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Kūkai went to China in 804, was given full esoteric transmission within two years, and returned to found Shingon. The doctrine named in the title was contentious because the standard Buddhist account required innumerable lifetimes of cultivation; he argues the goal is present in the practitioner already and the practice reveals rather than accumulates.",
+              "fa": "کوکای در سال ۸۰۴ به چین رفت، در کمتر از دو سال انتقال کامل باطنی گرفت، و بازگشت تا شینگون را بنیاد نهد. آموزه‌ای که عنوان نامش می‌برد پرمنازعه بود، چون روایت رایج بودایی زندگی‌های بی‌شمار پرورش می‌طلبید؛ او می‌گوید آن غایت از پیش در ورزنده حاضر است و ورزه به جای انباشتن، آشکار می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The support is a philosophy of language unusual in any tradition. Reality for Kūkai is the cosmic Buddha continuously expounding itself, so the phenomenal world is not a veil over truth but its articulation — sounds, letters and shapes are what the real is saying. Ritual speech therefore does not describe or petition; it participates in an utterance already under way.",
+              "fa": "پشتیبانش فلسفه‌ای درباره زبان است که در هر سنتی کمیاب است. واقعیت نزد کوکای همان بودای کیهانی است که پیوسته خود را شرح می‌دهد، پس جهان پدیداری پرده‌ای بر حقیقت نیست، بیان آن است؛ صداها و حروف و شکل‌ها همان‌اند که واقعیت می‌گوید. پس گفتار آیینی نه وصف می‌کند و نه درخواست؛ در گفتنی که پیشاپیش جاری است شرکت می‌کند."
+            },
+            "citations": [
+              { "source": "text-sokushin-jobutsu", "locator": "opening verses" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His classification of ten stages of mind is the other major work and it is a bold piece of comparative philosophy. It ranks positions from the appetite of an animal through Confucianism, Daoism, the Hīnayāna and Mahāyāna schools, up to Shingon at the tenth — and each lower stage is presented as true within its range rather than as error, which makes the scheme a hierarchy of partial views rather than a list of refutations.\n\nWhat he did outside philosophy is part of why he was remembered. He supervised the construction of an irrigation reservoir in Shikoku, founded a school open to commoners, and is credited by tradition with the ordering of the kana syllabary — an attribution scholars regard as legend rather than fact. The distance between the historical Kūkai and the Kōbō Daishi of folk devotion is wide, and the philosophical texts are the part of him that can be checked.",
+              "fa": "رده‌بندی ده مرتبه ذهن، آن کار مهم دیگر اوست و پاره‌ای دلیرانه از فلسفه تطبیقی است. مواضع را از اشتهای یک جانور تا کنفوسیوس‌گرایی و دائوگرایی و مکتب‌های هینه‌یانه و مهایانه، و بالا تا شینگون در مرتبه دهم می‌چیند، و هر مرتبه پایین‌تر در گستره خودش راست نموده می‌شود نه خطا، و همین این طرح را سلسله‌مراتبی از دیدگاه‌های ناتمام می‌کند نه فهرستی از ردیه‌ها.\n\nآنچه بیرون از فلسفه کرد بخشی از دلیل به‌یادماندنش است. بر ساخت آب‌بندی در شیکوکو نظارت کرد، مدرسه‌ای گشود که به مردم عادی باز بود، و سنت چینش الفبای کانا را به او می‌دهد؛ انتسابی که پژوهشگران افسانه می‌دانند نه واقعیت. فاصله میان کوکای تاریخی و کوبو دایشی دین عامه گشاده است، و همان متن‌های فلسفی بخشی از اویند که می‌توان وارسی‌شان کرد."
+            },
+            "citations": [
+              { "source": "text-hizo-hoyaku", "locator": "stage 10" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-sokushin-jobutsu", "text-hizo-hoyaku"],
+      "citations": [{ "source": "text-sokushin-jobutsu" }]
+    },
+    {
+      "id": "simmun-hwajaeng-non",
+      "title": {
+        "en": "Reconciliation of Doctrinal Disputes",
+        "fa": "آشتی‌دادن نزاع‌های آموزه‌ای"
+      },
+      "originalTitle": "十門和諍論",
+      "transliteration": "Simmun hwajaeng non",
+      "author": "wonhyo",
+      "oneLine": {
+        "en": "A method for showing that quarrelling Buddhist schools are each right about what they can see.",
+        "fa": "روشی برای نشان‌دادن اینکه مکتب‌های ستیزنده بودایی هر یک درباره آنچه می‌بینند بر حق‌اند."
+      },
+      "composed": { "start": { "year": 680, "precision": "circa" } },
+      "traditions": ["korean", "buddhist"],
+      "branches": [
+        "philosophy-of-religion",
+        "logic",
+        "epistemology",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Only fragments survive, quoted by later authors and recovered from a stele. What can be reconstructed is a procedure rather than a doctrine: take two schools that contradict each other, find the question each is answering, and show that the contradiction dissolves once the questions are distinguished.",
+              "fa": "تنها پاره‌هایی مانده است، که نویسندگان بعدی نقلشان کرده‌اند و از سنگ‌نوشته‌ای بازیافته شده‌اند. آنچه بازسازی‌پذیر است روندی است نه آموزه‌ای: دو مکتب را که یکدیگر را نقض می‌کنند برگیر، پرسشی را که هر یک پاسخ می‌دهد بیاب، و نشان بده که آن تناقض همین که پرسش‌ها جدا شوند از میان می‌رود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Wonhyo's image is the blind men and the elephant, which he uses more carefully than it is usually used. His point is not that everyone is equally wrong. It is that each report is accurate about what was touched, that the reports conflict only when each is taken as a description of the whole, and that the work of reconciliation is to locate the scope of each claim.",
+              "fa": "تصویر ونهیو، مردان نابینا و فیل است، که سنجیده‌تر از کاربرد رایجش به کارش می‌برد. نکته‌اش این نیست که همه به یک اندازه بر خطایند. این است که هر گزارش درباره آنچه لمس شده دقیق است، که گزارش‌ها تنها وقتی می‌ستیزند که هر یک وصف کل گرفته شود، و کار آشتی‌دادن یافتن دامنه هر ادعاست."
+            },
+            "citations": [
+              {
+                "source": "text-simmun-hwajaeng-non",
+                "locator": "surviving fragments"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The biography is the part every Korean schoolchild knows and it bears on the philosophy. Travelling to China to study, he sheltered in what he took to be a cave, drank water from a gourd in the dark and found it sweet, and woke to discover he had slept in a tomb and drunk from a skull. He turned back, having concluded that the mind makes the world it then reacts to, and never made the journey.\n\nHe also gave up monastic status, fathered a son who became a major scholar of Korean writing, and spent his later years teaching a simple practice to ordinary people in villages. That combination — an extremely technical philosopher who deliberately left the institution — is why he occupies a place in Korean thought that no purely doctrinal figure holds, and it is consistent with a philosophy whose central move is refusing to let one framework own the question.",
+              "fa": "زندگی‌نامه او همان بخشی است که هر دانش‌آموز کره‌ای می‌داند و بر آن فلسفه هم اثر دارد. در سفر به چین برای تحصیل، در جایی پناه گرفت که آن را غار پنداشت، در تاریکی از کدویی آب نوشید و شیرینش یافت، و بیدار شد و دید در گوری خفته و از کاسه سری نوشیده است. بازگشت، با این نتیجه که ذهن همان جهانی را می‌سازد که سپس به آن واکنش نشان می‌دهد، و آن سفر را هرگز نکرد.\n\nمقام رهبانی را هم وانهاد، پسری آورد که پژوهشگری بزرگ در نوشتار کره‌ای شد، و سال‌های آخر عمرش را به آموختن ورزه‌ای ساده به مردم عادی در روستاها گذراند. همین آمیزه، یعنی فیلسوفی بسیار فنی که عمدا نهاد را ترک کرد، دلیل جایگاهی است که در اندیشه کره دارد و هیچ چهره صرفا آموزه‌ای ندارد، و با فلسفه‌ای هم‌ساز است که حرکت مرکزی‌اش امتناع از سپردن پرسش به یک چارچوب است."
+            },
+            "citations": [
+              {
+                "source": "text-simmun-hwajaeng-non",
+                "locator": "stele inscription"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-simmun-hwajaeng-non"],
+      "citations": [{ "source": "text-simmun-hwajaeng-non" }]
+    },
+    {
+      "id": "cu-tran-lac-dao",
+      "title": {
+        "en": "Living in the World, Joyful in the Way",
+        "fa": "در جهان زیستن، شادمان در راه"
+      },
+      "originalTitle": "居塵樂道賦",
+      "transliteration": "Cư trần lạc đạo phú",
+      "author": "tran-nhan-tong",
+      "oneLine": {
+        "en": "A rhymed treatise by an emperor turned monk, on practising without leaving ordinary life.",
+        "fa": "رساله‌ای منظوم از امپراتوری که راهب شد، درباره ورزیدن بی‌ترک زندگی معمولی."
+      },
+      "composed": { "start": { "year": 1300, "precision": "circa" } },
+      "traditions": ["vietnamese", "buddhist"],
+      "branches": [
+        "philosophy-of-religion",
+        "ethics",
+        "philosophy-of-mind",
+        "aesthetics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Trần Nhân Tông had commanded the defence of Vietnam against two Mongol invasions and abdicated at thirty-five to take orders. Written in the vernacular in a Chinese verse form, the poem argues that the practice does not require withdrawal — that the way is available in the dust of the world, which the title states.",
+              "fa": "ترن نان تونگ فرماندهی دفاع ویتنام در برابر دو حمله مغول را بر عهده داشت و در سی و پنج سالگی کناره گرفت تا رهبانی گیرد. این منظومه که به زبان بومی و در قالبی شعری چینی نوشته شده می‌گوید این ورزه کناره‌گیری نمی‌خواهد؛ راه در گرد و غبار جهان در دسترس است، و عنوان همین را می‌گوید."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The philosophical content is a refusal of the two-world picture. There is no purified elsewhere to reach; hunger is met by eating, tiredness by sleeping, and the enlightened state differs from the ordinary one not in what is done but in whether anything is being added to it. The buddha is described as within, so that seeking outside is the error being named.",
+              "fa": "محتوای فلسفی، ردکردن تصویر دوجهانی است. جای پاک‌شده‌ای در دوردست نیست که به آن رسید؛ گرسنگی را با خوردن پاسخ می‌دهند و خستگی را با خفتن، و حال روشن‌شده از حال معمولی نه در آنچه انجام می‌شود، بلکه در این فرق دارد که چیزی بر آن افزوده می‌شود یا نه. بودا در درون وصف شده، چنانکه جستن در بیرون همان خطایی است که نام برده می‌شود."
+            },
+            "citations": [
+              { "source": "text-cu-tran-lac-dao", "locator": "section 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The political context is inseparable. He founded the Trúc Lâm school on Mount Yên Tử, which united the existing Vietnamese Zen lineages under one order with the throne's backing, and that consolidation gave the kingdom a Buddhism that was its own rather than an import from the north — at a moment when independence from China was the central question of state.\n\nSo it is fair to ask whether the doctrine of practising within the world was convenient for a ruler. The answer that survives is his conduct: he did abdicate, did live as a mendicant, and did walk the country teaching. Whether a philosophy is also useful to power and whether it is sincerely held are separate questions, and in this case the evidence for the second is unusually good.",
+              "fa": "زمینه سیاسی جدایی‌ناپذیر است. او مکتب چوک لام را در کوه ین تو بنیاد نهاد، که تبارهای موجود ذن ویتنامی را زیر یک فرقه و با پشتیبانی تخت یکی کرد، و آن یکپارچگی به آن پادشاهی بوداییسمی داد که از آن خودش بود نه وارداتی از شمال، در لحظه‌ای که استقلال از چین پرسش مرکزی حکومت بود.\n\nپس بجاست بپرسیم آیا آموزه ورزیدن درون جهان برای یک فرمانروا به‌صرفه بود. پاسخی که مانده رفتار اوست: به‌راستی کناره گرفت، به‌راستی چون درویشی زیست، و به‌راستی کشور را پیاده گشت و آموخت. اینکه فلسفه‌ای به کار قدرت هم می‌آید و اینکه صادقانه باور شده، دو پرسش جدایند، و در این مورد شاهد بر دومی به‌طور غیرمعمول خوب است."
+            },
+            "citations": [
+              { "source": "text-cu-tran-lac-dao", "locator": "closing verses" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-cu-tran-lac-dao"],
+      "citations": [{ "source": "text-cu-tran-lac-dao" }]
+    },
+    {
+      "id": "tantraloka",
+      "title": { "en": "Light on the Tantras", "fa": "روشنایی بر تنترها" },
+      "originalTitle": "तन्त्रालोक",
+      "transliteration": "Tantrāloka",
+      "author": "abhinavagupta",
+      "oneLine": {
+        "en": "Thirty-seven chapters systematising the Kashmiri Śaiva tantras into a single philosophy of recognition.",
+        "fa": "سی و هفت فصل که تنترهای شیوایی کشمیر را در یک فلسفه بازشناسی نظام می‌دهد."
+      },
+      "composed": { "start": { "year": 1000, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "aesthetics",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Abhinavagupta studied with teachers of several rival lineages, including ones his own school opposed, and this work is the result of trying to hold all of it together. The organising doctrine is pratyabhijñā, recognition: liberation is not attaining something absent but recognising what one already is, in the way a person recognises a face they had failed to place.",
+              "fa": "آبیناواگوپتا نزد استادانی از چند تبار رقیب، از جمله تبارهایی که مکتب خودش با آن‌ها مخالف بود، آموخت، و این اثر حاصل کوشش برای کنار هم نگاه‌داشتن همه آن است. آموزه سامان‌دهنده «پراتیابیجنا» یعنی بازشناسی است: رهایی به‌دست‌آوردن چیزی غایب نیست، بازشناختن همان است که آدمی از پیش هست، چنانکه کسی چهره‌ای را بازمی‌شناسد که پیش‌تر نتوانسته بود جایش دهد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The metaphysics is a non-dualism that keeps the world. Unlike Advaita, which treats appearance as a superimposition to be dissolved, Kashmiri Śaivism holds that the manifest universe is the free self-expression of consciousness, so the world is not a mistake and embodiment is not a fall. Consciousness is characterised by spanda, a pulsation, so that stillness is not its nature.",
+              "fa": "متافیزیک آن ناثنویتی است که جهان را نگاه می‌دارد. برخلاف اَدوَیتَه، که نمود را افزوده‌ای می‌گیرد که باید گشوده شود، شیوایی کشمیر می‌گوید گیتی آشکار، بیان آزاد آگاهی از خویش است، پس جهان خطا نیست و در تن‌بودن هبوط نیست. آگاهی به «اسپاندا» یعنی تپشی وصف می‌شود، چنانکه سکون سرشتش نیست."
+            },
+            "citations": [{ "source": "text-tantraloka", "locator": "ch. 1" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His work on aesthetics is read far more widely and comes from the same root. The commentary on Bharata's treatise on drama explains rasa, the savour an audience tastes, as a state in which one's own emotion is present without being one's own — no longer tied to a personal object, and so enjoyable even when it is grief. That is offered as a genuine although temporary approximation of the liberated state, which is why the theatre matters to him philosophically.\n\nThe Tantrāloka includes ritual material, some of it transgressive, that later commentators reinterpreted as symbolic and modern editions often abridge. Reading it honestly means neither treating it as pure metaphysics with an embarrassing appendix nor as exotica with a philosophical veneer. The system is an argument that the body and its states are not obstacles, and the practices follow from that argument rather than sitting beside it.",
+              "fa": "کار او در زیبایی‌شناسی بسیار بیشتر خوانده می‌شود و از همان ریشه می‌آید. شرحش بر رساله بهاراتا درباره نمایش، «راسا» یعنی مزه‌ای را که تماشاگر می‌چشد، حالی می‌خواند که در آن عاطفه خود آدمی حاضر است بی‌آنکه از آن او باشد؛ دیگر به موضوعی شخصی بسته نیست، و پس حتی وقتی اندوه است لذت‌بخش است. این چون تقریبی راستین اما گذرا از حال رهایی عرضه می‌شود، و از همین رو تئاتر برای او فلسفی اهمیت دارد.\n\n«تنترالوکه» مایه‌های آیینی هم دارد، پاره‌ای از آن‌ها هنجارشکن، که شارحان بعدی نمادین تفسیرشان کردند و ویرایش‌های امروزی بارها کوتاهشان می‌کنند. صادقانه خواندنش یعنی نه آن را متافیزیکی ناب با پیوستی شرم‌آور گرفتن و نه چیزی غریب با روکشی فلسفی. این دستگاه استدلالی است بر اینکه تن و حالاتش مانع نیستند، و آن ورزه‌ها از همین استدلال بیرون می‌آیند نه اینکه کنارش نشسته باشند."
+            },
+            "citations": [
+              {
+                "source": "text-abhinavabharati",
+                "locator": "on Nāṭyaśāstra VI"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-tantraloka", "text-abhinavabharati"],
+      "citations": [{ "source": "text-tantraloka" }]
+    },
+    {
+      "id": "hind-swaraj",
+      "title": { "en": "Hind Swaraj", "fa": "هند سوراج" },
+      "originalTitle": "હિંદ સ્વરાજ",
+      "transliteration": "Hind Svarāj",
+      "alsoKnownAs": ["Indian Home Rule"],
+      "author": "gandhi",
+      "oneLine": {
+        "en": "A dialogue written on a ship in ten days, arguing that expelling the British would not by itself be freedom.",
+        "fa": "گفت‌وگویی که در ده روز در کشتی نوشته شد، و می‌گوید بیرون‌راندن بریتانیایی‌ها به‌خودی‌خود آزادی نیست."
+      },
+      "composed": { "start": { "year": 1909, "precision": "exact" } },
+      "traditions": ["indian"],
+      "branches": [
+        "political-philosophy",
+        "ethics",
+        "philosophy-of-technology",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "It is a conversation between a Reader who wants armed revolution and an Editor who does not. The Editor's position is that a nation which drives out its rulers and keeps their railways, courts, medicine and appetite for power has changed the personnel and nothing else — English rule without the English.",
+              "fa": "گفت‌وگویی است میان خواننده‌ای که انقلاب مسلحانه می‌خواهد و سردبیری که نمی‌خواهد. موضع سردبیر این است که ملتی که فرمانروایانش را بیرون کند و راه‌آهن و دادگاه و پزشکی و اشتهای آنان به قدرت را نگاه دارد، تنها کارگزاران را عوض کرده و بس؛ فرمانروایی انگلیسی بی‌انگلیسی‌ها."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Swaraj is therefore self-rule in two senses at once, and Gandhi will not separate them: a people governs itself only to the extent that its members govern themselves. This is what ties the political programme to the personal discipline, and it is why he treats means and ends as one thing — there is no arrangement of the future that justifies what is done to reach it, since the doing is what arrives.",
+              "fa": "پس «سوراج» هم‌زمان به دو معنا خودفرمانی است، و گاندی این دو را جدا نمی‌کند: مردمی تنها تا آنجا خود را حکومت می‌کند که اعضایش خود را حکومت کنند. همین است که برنامه سیاسی را به آن ریاضت شخصی می‌بندد، و از همین رو وسیله و هدف را یک چیز می‌گیرد؛ هیچ سامانی در آینده آنچه را برای رسیدن به آن کرده‌اند توجیه نمی‌کند، چون همان کردن است که می‌رسد."
+            },
+            "citations": [
+              { "source": "text-hind-swaraj", "locator": "ch. 14-16" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The chapters on machinery, doctors and lawyers are the ones that embarrass his admirers, and he never withdrew them. Modern civilisation is called a disease; railways are said to spread famine and plague as efficiently as goods; hospitals are charged with making it easy to go on living badly. Nehru told him plainly that the picture of village India was unreal and that the argument was completely unrealistic, and the India that was actually built followed Nehru.\n\nThe part that travelled was the method rather than the diagnosis. Satyagraha — holding to truth, and accepting suffering rather than inflicting it — was developed in South Africa before this book and refined for decades after, and its influence on movements from the American South to Poland is documented and large. Reading Gandhi honestly means holding together a technique that changed the century and a social vision that its own country declined.",
+              "fa": "فصل‌های ماشین و پزشکان و وکیلان همان‌هایند که ستایندگانش را شرمنده می‌کنند، و او هرگز پسشان نگرفت. تمدن امروزی بیماری خوانده می‌شود؛ گفته می‌شود راه‌آهن قحطی و طاعون را به همان کارآمدی کالا پخش می‌کند؛ بیمارستان‌ها متهم می‌شوند که بد زیستن را آسان می‌کنند. نهرو رک به او گفت که تصویر هند روستایی غیرواقعی است و آن استدلال یکسره ناواقع‌بینانه، و هندی که در عمل ساخته شد از نهرو رفت.\n\nآنچه سفر کرد آن روش بود نه آن تشخیص. «ساتیاگراها»، یعنی چنگ‌زدن به حقیقت و پذیرفتن رنج به جای وارد کردنش، پیش از این کتاب در افریقای جنوبی پرورده شد و ده‌ها سال پس از آن پالوده شد، و اثرش بر جنبش‌هایی از جنوب امریکا تا لهستان مستند و بزرگ است. صادقانه خواندن گاندی یعنی کنار هم نگاه‌داشتن فنی که آن سده را دگرگون کرد و چشم‌اندازی اجتماعی که کشور خودش نپذیرفت."
+            },
+            "citations": [
+              { "source": "text-gandhi-autobiography", "locator": "Part IV" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-hind-swaraj", "text-gandhi-autobiography"],
+      "citations": [{ "source": "text-hind-swaraj" }]
     }
   ]
 }
