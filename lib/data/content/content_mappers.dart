@@ -209,7 +209,28 @@ abstract final class ContentMappers {
     workIds: reader.stringList('works'),
     schoolIds: reader.stringList('schools'),
     citations: citations(reader, 'citations'),
+    writings: _writings(reader),
   );
+
+  /// Reads the `writings` field, which says what became of the person's own
+  /// books.
+  ///
+  /// Absent means [Writings.extant], because that is the ordinary case and
+  /// tagging a hundred and eighty records with the default would be noise. An
+  /// unrecognised value is a content error rather than something to shrug at:
+  /// silently treating a typo as the default would hide exactly the note this
+  /// field exists to show.
+  static Writings _writings(JsonReader reader) {
+    final value = reader.string('writings');
+    if (value == null) return Writings.extant;
+    for (final candidate in Writings.values) {
+      if (candidate.name == value) return candidate;
+    }
+    reader.invalid(
+      'expected one of ${Writings.values.map((w) => w.name).join(', ')}',
+      field: 'writings',
+    );
+  }
 
   /// Reads one step of the guided introduction.
   static PrimerStep primerStep(JsonReader reader) => PrimerStep(

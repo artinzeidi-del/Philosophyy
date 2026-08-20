@@ -3,6 +3,7 @@
   "philosophers": [
     {
       "id": "socrates",
+      "writings": "none",
       "name": { "en": "Socrates", "fa": "سقراط" },
       "nativeName": "Σωκράτης",
       "transliteration": "Sōkratēs",
@@ -4265,6 +4266,7 @@
     },
     {
       "id": "thales",
+      "writings": "none",
       "name": { "en": "Thales", "fa": "تالس" },
       "oneLine": {
         "en": "Asked what everything is made of, and answered without appealing to a god.",
@@ -4330,6 +4332,7 @@
     },
     {
       "id": "heraclitus",
+      "writings": "fragments",
       "name": { "en": "Heraclitus", "fa": "هراکلیتوس" },
       "oneLine": {
         "en": "Held that things stay what they are only by constantly changing.",
@@ -4393,6 +4396,7 @@
     },
     {
       "id": "parmenides",
+      "writings": "fragments",
       "name": { "en": "Parmenides", "fa": "پارمنیدس" },
       "oneLine": {
         "en": "Argued that change is impossible, and made the argument hard to answer.",
@@ -4456,6 +4460,7 @@
     },
     {
       "id": "zeno-of-elea",
+      "writings": "none",
       "name": { "en": "Zeno of Elea", "fa": "زنون الئایی" },
       "oneLine": {
         "en": "Built the paradoxes that made motion look impossible.",
@@ -4517,6 +4522,7 @@
     },
     {
       "id": "pythagoras",
+      "writings": "none",
       "name": { "en": "Pythagoras", "fa": "فیثاغورس" },
       "oneLine": {
         "en": "Behind the name is a school that made mathematics a way of life.",
@@ -4583,6 +4589,7 @@
     },
     {
       "id": "democritus",
+      "writings": "fragments",
       "name": { "en": "Democritus", "fa": "دموکریتوس" },
       "oneLine": {
         "en": "Proposed that everything is atoms and empty space, and nothing else.",
@@ -4648,6 +4655,7 @@
     },
     {
       "id": "empedocles",
+      "writings": "fragments",
       "name": { "en": "Empedocles", "fa": "امپدوکلس" },
       "oneLine": {
         "en": "Explained a changing world from four unchanging elements and two forces.",
@@ -4712,6 +4720,7 @@
     },
     {
       "id": "anaxagoras",
+      "writings": "fragments",
       "name": { "en": "Anaxagoras", "fa": "آناکساگوراس" },
       "oneLine": {
         "en": "Put mind at the start of the world's order, and was tried for impiety.",
@@ -4778,6 +4787,7 @@
     },
     {
       "id": "protagoras",
+      "writings": "fragments",
       "name": { "en": "Protagoras", "fa": "پروتاگوراس" },
       "oneLine": {
         "en": "Said that the human being is the measure of all things.",
@@ -4898,6 +4908,7 @@
     },
     {
       "id": "diogenes",
+      "writings": "none",
       "name": { "en": "Diogenes the Cynic", "fa": "دیوژن کلبی" },
       "oneLine": {
         "en": "Argued by living: made poverty a demonstration that convention is optional.",
@@ -5035,6 +5046,7 @@
     },
     {
       "id": "zeno-of-citium",
+      "writings": "none",
       "name": { "en": "Zeno of Citium", "fa": "زنون کیتیومی" },
       "oneLine": {
         "en": "Founded Stoicism by teaching in a painted colonnade.",
@@ -5103,6 +5115,7 @@
     },
     {
       "id": "chrysippus",
+      "writings": "fragments",
       "name": { "en": "Chrysippus", "fa": "کریسیپوس" },
       "oneLine": {
         "en": "Built the logic Stoicism argued with, and it was better than Aristotle's.",
@@ -5161,6 +5174,7 @@
     },
     {
       "id": "pyrrho",
+      "writings": "none",
       "name": { "en": "Pyrrho", "fa": "پیرون" },
       "oneLine": {
         "en": "Suspended judgement about everything, and called the result peace.",
@@ -5353,6 +5367,7 @@
     },
     {
       "id": "hypatia",
+      "writings": "none",
       "name": { "en": "Hypatia", "fa": "هوپاتیا" },
       "oneLine": {
         "en": "Led the Platonist school at Alexandria and was murdered by a mob.",

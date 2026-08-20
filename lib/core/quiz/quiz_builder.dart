@@ -964,7 +964,7 @@ abstract final class QuizBuilder {
     detail: detail,
   );
 
-  static QuizQuestion _shuffledChoice({
+  static QuizQuestion? _shuffledChoice({
     required String id,
     required String fact,
     required String prompt,
@@ -973,6 +973,23 @@ abstract final class QuizBuilder {
     required EntityRef source,
     required Random random,
   }) {
+    // A distractor that reads the same as the answer makes the question
+    // unanswerable: two of the four options are correct and only one of them
+    // is marked so, and a reader who picks the other is told they are wrong.
+    //
+    // This is not hypothetical. Four Presocratics have a collection of their
+    // surviving quotations in the corpus, and in English all four were called
+    // "Fragments" — so a question about one of them could be offered with
+    // another as a decoy. The titles were made distinct, but the same trap is
+    // waiting for any two entries that ever share a display name, in either
+    // language, so the guard lives here rather than in the content.
+    //
+    // Dropping the duplicate and shipping three options would be worse: the
+    // shape of the question would tell the reader something had gone wrong.
+    // Skipping it costs one question out of thousands, and the round is
+    // assembled from whatever is offered.
+    if (distractors.any((option) => option == answer)) return null;
+
     final options = <String>[answer, ...distractors]..shuffle(random);
     return QuizQuestion(
       id: id,

@@ -7,6 +7,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/core/design/backdrop.dart';
 import 'package:philosophyy/core/design/design_tokens.dart';
+import 'package:philosophyy/core/design/glass.dart';
 import 'package:philosophyy/core/design/glow_segments.dart';
 import 'package:philosophyy/core/design/gradients.dart';
 import 'package:philosophyy/core/design/motion.dart';
@@ -460,10 +461,20 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ),
           ],
         ),
-      if (works.isNotEmpty)
+      // The works section appears whenever there is something to say about
+      // the works — which includes saying that there are none. Omitting it
+      // silently made Socrates and Hypatia look like entries somebody had not
+      // finished, when in fact the absence is the fact.
+      if (works.isNotEmpty || philosopher.writings != Writings.extant)
         _CardSection(
           title: l10n.sectionWorks,
           children: <Widget>[
+            if (philosopher.writings != Writings.extant)
+              _WritingsNote(
+                text: philosopher.writings == Writings.none
+                    ? l10n.writingsNone
+                    : l10n.writingsFragments,
+              ),
             for (final work in works)
               EntityCard(
                 title: work.name.resolve(language),
@@ -935,6 +946,49 @@ class _ConnectionsSection extends StatelessWidget {
             },
           ),
       ],
+    );
+  }
+}
+
+/// The note that stands where a philosopher's books would be.
+///
+/// Deliberately not an [EntityCard]: it is not a thing to open, and giving it
+/// the same shape as the works beside it would invite a tap that goes nowhere.
+/// A quieter surface with a mark beside the text reads as an editorial note,
+/// which is what it is.
+class _WritingsNote extends StatelessWidget {
+  const _WritingsNote({required this.text});
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
+
+    return GlassPanel(
+      padding: const EdgeInsets.all(Spacing.md),
+      borderStrength: 0.6,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Icon(
+            Icons.history_edu_outlined,
+            size: 20,
+            color: scheme.onSurfaceVariant,
+          ),
+          const SizedBox(width: Spacing.md),
+          Expanded(
+            child: Text(
+              text,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: scheme.onSurfaceVariant,
+                height: 1.6,
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

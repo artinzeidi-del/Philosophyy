@@ -1,6 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
+import 'package:philosophyy/domain/entities/knowledge_entity.dart';
+import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
@@ -72,6 +74,45 @@ void main() {
   });
 
   group('Editorial policy', () {
+    test('no two entries of a kind share a name', () {
+      // Two entries with the same title are a defect wherever the reader
+      // meets them. In a list they are indistinguishable; in search they
+      // produce two identical rows; in the quiz one can be offered as a decoy
+      // for the other, so a reader picking a correct answer is marked wrong.
+      //
+      // It has happened twice. Four Presocratics each had their surviving
+      // quotations gathered under the English title "Fragments", and Beauvoir
+      // ended up with two entries for The Second Sex — one of them added by a
+      // batch that checked for a clashing identifier and not for a clashing
+      // title. The identifier was different, so nothing complained.
+      //
+      // Scoped within a kind: a concept and a work may legitimately share a
+      // name, and the reader can tell them apart by where they are.
+      final problems = <String>[];
+      for (final entry in <String, List<KnowledgeEntity>>{
+        'philosopher': corpus.philosophers,
+        'work': corpus.works,
+        'concept': corpus.concepts,
+        'school': corpus.schools,
+      }.entries) {
+        for (final language in AppLanguage.values) {
+          final seen = <String, String>{};
+          for (final entity in entry.value) {
+            final name = entity.name.resolve(language);
+            final earlier = seen[name];
+            if (earlier != null) {
+              problems.add(
+                '${entry.key}: "$name" is the ${language.name} name of both '
+                '$earlier and ${entity.id}',
+              );
+            }
+            seen[name] = entity.id;
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('no entry can render as a blank article', () {
       // Every work and every school in the corpus opened with an empty space
       // where the article should be. Their sections are authored at

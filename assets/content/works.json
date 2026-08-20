@@ -3144,60 +3144,6 @@
       "citations": [{ "source": "text-muqaddimah" }]
     },
     {
-      "id": "second-sex-work",
-      "title": { "en": "The Second Sex", "fa": "جنس دوم" },
-      "originalTitle": "Le Deuxième Sexe",
-      "author": "beauvoir",
-      "oneLine": {
-        "en": "Nine hundred pages on how a human being is turned into a woman, and what that costs both parties.",
-        "fa": "نهصد صفحه دربارهٔ اینکه چگونه یک انسان به زن بدل می‌شود، و این برای هر دو طرف چه هزینه‌ای دارد."
-      },
-      "composed": { "start": { "year": 1949, "precision": "exact" } },
-      "traditions": ["european", "continental"],
-      "branches": [
-        "feminist-philosophy",
-        "existential-philosophy",
-        "social-philosophy",
-        "ethics"
-      ],
-      "article": {
-        "sections": [
-          {
-            "id": "quick",
-            "depth": "quick",
-            "body": {
-              "en": "Beauvoir starts from a question she found she could not answer quickly: what has it meant, for her, to be a woman. The book that came out of it surveys biology, psychoanalysis, historical materialism, myth and lived experience, and concludes that none of them describe a female nature — they describe a situation and mistake it for one.",
-              "fa": "بووار از پرسشی آغاز می‌کند که دید نمی‌تواند به‌سرعت پاسخش دهد: زن بودن، برای او، چه معنایی داشته است. کتابی که از آن بیرون آمد زیست‌شناسی و روان‌کاوی و ماتریالیسمِ تاریخی و اسطوره و تجربهٔ زیسته را می‌کاود، و نتیجه می‌گیرد که هیچ‌یک سرشتی زنانه را وصف نمی‌کنند — وضعیتی را وصف می‌کنند و آن را به‌اشتباه سرشت می‌گیرند."
-            }
-          },
-          {
-            "id": "shape",
-            "depth": "standard",
-            "body": {
-              "en": "The structural claim is that man has been posited as the subject, the absolute, the human being as such, and woman as the Other — defined in relation to him and not reciprocally. What makes this different from other accounts of oppression is that women are dispersed among men rather than gathered, share their homes and interests, and so have not had the shared history that lets a group say we.",
-              "fa": "ادعای ساختاری این است که مرد چون سوژه، چون مطلق، چون خودِ انسان نهاده شده، و زن چون «دیگری» — که در نسبت با او تعریف می‌شود و نه متقابلاً. آنچه این را از دیگر شرح‌های ستم جدا می‌کند این است که زنان به‌جای گردآمدن، میانِ مردان پراکنده‌اند، خانه و منافع با آنان دارند، و از همین رو آن تاریخِ مشترک را نداشته‌اند که به گروهی امکان می‌دهد بگوید «ما»."
-            },
-            "citations": [
-              { "source": "beauvoir-second-sex", "locator": "Introduction" }
-            ]
-          },
-          {
-            "id": "deep",
-            "depth": "deep",
-            "body": {
-              "en": "The second volume, which opens with the sentence everyone knows, follows a life through childhood, girlhood, initiation, marriage, motherhood and old age, showing at each stage how a person is trained into a position and then told the position is her nature. It is the part that was found scandalous — the chapters on marriage and motherhood were read as attacks on both — and the part that has aged best, because it is largely description and the descriptions were accurate.\n\nBeauvoir's existentialism is doing the philosophical work. If existence precedes essence, then there is no womanly essence for a life to express, and a situation that closes off transcendence is not a fate but a wrong. Her conclusion is not that women should become like men but that liberation is mutual: a man who requires an Other in order to be a subject is not free either, and no relation between unequals can be the reciprocal recognition both of them need.",
-              "fa": "جلدِ دوم، که با جمله‌ای آغاز می‌شود که همه می‌شناسند، یک زندگی را از کودکی و دخترانگی و آیینِ گذار و ازدواج و مادری تا پیری دنبال می‌کند، و در هر مرحله نشان می‌دهد چگونه کسی به جایگاهی خو داده می‌شود و بعد به او گفته می‌شود که آن جایگاه سرشتِ اوست. همین بخش بود که رسواکننده دانسته شد — فصل‌های ازدواج و مادری چون حمله به هر دو خوانده شدند — و همین بخش بهتر از همه کهنه شده، چون بیشترش وصف است و آن وصف‌ها درست بودند.\n\nاگزیستانسیالیسمِ بووار است که کارِ فلسفی را می‌کند. اگر وجود بر ماهیت مقدم باشد، آن‌گاه ماهیتی زنانه نیست که زندگی‌ای بیانش کند، و وضعیتی که راهِ تعالی را می‌بندد سرنوشت نیست، یک نادرستی است. نتیجهٔ او این نیست که زنان باید مانندِ مردان شوند، بلکه این است که رهایی دوسویه است: مردی که برای سوژه بودن به یک «دیگری» نیاز دارد نیز آزاد نیست، و هیچ نسبتی میانِ نابرابرها نمی‌تواند آن بازشناسیِ متقابلی باشد که هر دو بدان نیاز دارند."
-            },
-            "citations": [
-              { "source": "beauvoir-second-sex", "locator": "Volume II" }
-            ]
-          }
-        ]
-      },
-      "editions": ["beauvoir-second-sex"],
-      "citations": [{ "source": "beauvoir-second-sex" }]
-    },
-    {
       "id": "logic-scientific-discovery",
       "title": {
         "en": "The Logic of Scientific Discovery",
@@ -3864,7 +3810,10 @@
     },
     {
       "id": "heraclitus-fragments",
-      "title": { "en": "Fragments", "fa": "پاره‌ها" },
+      "title": {
+        "en": "The Fragments of Heraclitus",
+        "fa": "پاره‌های هراکلیتوس"
+      },
       "originalTitle": "Περὶ φύσεως",
       "transliteration": "Peri physeōs",
       "alsoKnownAs": ["On Nature"],
@@ -3971,7 +3920,10 @@
     },
     {
       "id": "democritus-fragments",
-      "title": { "en": "Fragments", "fa": "پاره‌های دموکریتوس" },
+      "title": {
+        "en": "The Fragments of Democritus",
+        "fa": "پاره‌های دموکریتوس"
+      },
       "author": "democritus",
       "oneLine": {
         "en": "Ethical sayings survive in bulk; the atomic physics that made him famous survives mostly in report.",
@@ -6889,7 +6841,6 @@
     {
       "id": "hind-swaraj",
       "title": { "en": "Hind Swaraj", "fa": "هند سوراج" },
-      "originalTitle": "હિંદ સ્વરાજ",
       "transliteration": "Hind Svarāj",
       "alsoKnownAs": ["Indian Home Rule"],
       "author": "gandhi",
@@ -6911,8 +6862,8 @@
             "id": "quick",
             "depth": "quick",
             "body": {
-              "en": "It is a conversation between a Reader who wants armed revolution and an Editor who does not. The Editor's position is that a nation which drives out its rulers and keeps their railways, courts, medicine and appetite for power has changed the personnel and nothing else — English rule without the English.",
-              "fa": "گفت‌وگویی است میان خواننده‌ای که انقلاب مسلحانه می‌خواهد و سردبیری که نمی‌خواهد. موضع سردبیر این است که ملتی که فرمانروایانش را بیرون کند و راه‌آهن و دادگاه و پزشکی و اشتهای آنان به قدرت را نگاه دارد، تنها کارگزاران را عوض کرده و بس؛ فرمانروایی انگلیسی بی‌انگلیسی‌ها."
+              "en": "Gandhi wrote it in Gujarati, on the return voyage from London, and translated it into English himself the following year. It is a conversation between a Reader who wants armed revolution and an Editor who does not. The Editor's position is that a nation which drives out its rulers and keeps their railways, courts, medicine and appetite for power has changed the personnel and nothing else — English rule without the English.",
+              "fa": "گاندی آن را به گجراتی و در سفر دریایی بازگشت از لندن نوشت و سال بعد خودش به انگلیسی برگرداند. گفت‌وگویی است میان خواننده‌ای که انقلاب مسلحانه می‌خواهد و سردبیری که نمی‌خواهد. موضع سردبیر این است که ملتی که فرمانروایانش را بیرون کند و راه‌آهن و دادگاه و پزشکی و اشتهای آنان به قدرت را نگاه دارد، تنها کارگزاران را عوض کرده و بس؛ فرمانروایی انگلیسی بی‌انگلیسی‌ها."
             }
           },
           {
@@ -9703,7 +9654,10 @@
     },
     {
       "id": "empedocles-fragments",
-      "title": { "en": "Fragments", "fa": "پاره‌های امپدوکلس" },
+      "title": {
+        "en": "The Fragments of Empedocles",
+        "fa": "پاره‌های امپدوکلس"
+      },
       "originalTitle": "Περὶ φύσεως / Καθαρμοί",
       "transliteration": "Peri physeōs / Katharmoi",
       "alsoKnownAs": ["On Nature", "Purifications"],
@@ -9762,7 +9716,10 @@
     },
     {
       "id": "anaxagoras-fragments",
-      "title": { "en": "Fragments", "fa": "پاره‌های آناکساگوراس" },
+      "title": {
+        "en": "The Fragments of Anaxagoras",
+        "fa": "پاره‌های آناکساگوراس"
+      },
       "originalTitle": "Περὶ φύσεως",
       "transliteration": "Peri physeōs",
       "author": "anaxagoras",
@@ -10143,6 +10100,63 @@
       },
       "editions": ["text-are-prisons-obsolete"],
       "citations": [{ "source": "text-are-prisons-obsolete" }]
+    },
+    {
+      "id": "aboriginal-worldviews-essay",
+      "title": {
+        "en": "Some Thoughts about the Philosophical Underpinnings of Aboriginal Worldviews",
+        "fa": "اندیشه‌هایی درباره بنیادهای فلسفی جهان‌بینی‌های بومیان استرالیا"
+      },
+      "originalTitle": "Some Thoughts about the Philosophical Underpinnings of Aboriginal Worldviews",
+      "author": "mary-graham",
+      "oneLine": {
+        "en": "States two axioms — that the land is the law, and that a person is their relations — and works out what follows.",
+        "fa": "دو اصل موضوع را می‌گوید، اینکه زمین همان قانون است و اینکه آدمی همان نسبت‌های اوست، و پیامدهایشان را بیرون می‌کشد."
+      },
+      "composed": { "start": { "year": 1999, "precision": "exact" } },
+      "traditions": ["indigenous-australian", "indigenous"],
+      "branches": [
+        "metaphysics",
+        "ethics",
+        "political-philosophy",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Graham sets out Aboriginal philosophy as a system with premises rather than as a set of customs, which is itself the argument. Everything else in the essay is derived from the two axioms, and she presents them the way a philosopher presents axioms: as claims that can be examined and that have consequences.",
+              "fa": "گراهام فلسفه بومیان استرالیا را به جای مجموعه‌ای از رسوم چون دستگاهی با مقدمه‌ها می‌نهد، و همین خودش آن استدلال است. هر چیز دیگر این جستار از آن دو اصل موضوع بیرون می‌آید، و او آن‌ها را چنان می‌نمایاند که فیلسوفی اصول موضوعه را: چون ادعاهایی که وارسی‌شدنی‌اند و پیامد دارند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The first axiom makes place prior to person. A person's identity is not carried around and applied to wherever they happen to be; it is constituted by a particular country, and obligations follow from that relation rather than from a contract or a choice. Custodianship, on this account, is not stewardship of property but a relation in which the land has the standing.",
+              "fa": "اصل نخست مکان را بر شخص مقدم می‌کند. هویت کسی چیزی نیست که با خود ببرد و بر هر جا که اتفاقا در آن است روا کند؛ سرزمینی معین آن را می‌سازد، و تعهدها از همان نسبت برمی‌آیند نه از قرارداد یا گزینش. به این روایت، سرپرستی، مباشرت بر ملک نیست، نسبتی است که در آن زمین جایگاه دارد."
+            },
+            "citations": [
+              { "source": "text-aboriginal-worldviews", "locator": "section 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The second axiom produces a political theory without a social contract. If a person is constituted by their relations, then the problem a contract solves — how separate individuals come to have obligations to each other — never arises in that form, and the question becomes how to keep a web of existing obligations balanced. Graham argues this yields a politics of ongoing negotiation rather than of settled authority.\n\nShe is direct about the difficulty of writing this down. The philosophy was transmitted through kinship, ceremony and country, and putting it in an English essay for an academic journal changes what it is; she does it anyway, on the grounds that the alternative is to have it discussed only by people describing it from outside. That is the same problem Córdova names about Native American thought, reached independently and answered the same way.",
+              "fa": "اصل دوم نظریه‌ای سیاسی بی‌قرارداد اجتماعی می‌سازد. اگر شخص را نسبت‌هایش بسازند، آنگاه مسئله‌ای که قرارداد حلش می‌کند، یعنی اینکه افراد جدا چگونه به یکدیگر تعهد پیدا می‌کنند، اصلا به آن صورت پیش نمی‌آید، و پرسش این می‌شود که تار و پودی از تعهدهای موجود را چگونه در توازن نگاه داریم. گراهام می‌گوید این سیاستی از گفت‌وگوی پیوسته می‌دهد نه از اقتدار مستقر.\n\nدرباره دشواری نوشتن این صریح است. آن فلسفه از راه خویشاوندی و آیین و سرزمین منتقل می‌شد، و نهادنش در جستاری انگلیسی برای مجله‌ای دانشگاهی چیستی‌اش را دگرگون می‌کند؛ با این حال می‌کندش، بر این پایه که جایگزینش این است که تنها کسانی درباره‌اش بحث کنند که از بیرون وصفش می‌کنند. این همان مسئله‌ای است که کوردووا درباره اندیشه بومیان امریکا نام می‌برد، که مستقل به آن رسیده و همان‌گونه پاسخش داده است."
+            },
+            "citations": [
+              { "source": "text-aboriginal-worldviews", "locator": "section 3" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-aboriginal-worldviews"],
+      "citations": [{ "source": "text-aboriginal-worldviews" }]
     }
   ]
 }

@@ -340,6 +340,14 @@
   "@sectionWorks": {
     "description": "Heading for a philosopher's works."
   },
+  "writingsNone": "Nothing they wrote has survived. Everything known about their thought comes through what other people reported, so every account of it — including this one — is a reconstruction.",
+  "@writingsNone": {
+    "description": "Note shown in place of the works section for a philosopher who left no writing, or none that survived."
+  },
+  "writingsFragments": "No book of theirs survives. What remains are passages quoted by later writers, gathered into a collection by modern editors, so the order and the selection are not the author's.",
+  "@writingsFragments": {
+    "description": "Note shown above the works section for a philosopher known only through quoted fragments."
+  },
   "sectionSchools": "Schools",
   "@sectionSchools": {
     "description": "Heading over the schools a philosopher belongs to."

@@ -5,6 +5,33 @@ import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/historical_date.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 
+/// What became of a philosopher's own writing.
+///
+/// ## Why this is recorded rather than inferred
+///
+/// A page that simply omits the works section when there are none tells the
+/// reader nothing about why. Socrates wrote nothing on principle; Hypatia's
+/// commentaries were destroyed; Heraclitus wrote a book that no one has seen
+/// since antiquity. Those are three different facts, and all three of them are
+/// part of what a reader should know about the person — but an empty section
+/// reads as an unfinished app in every case.
+///
+/// So the absence is stated. The alternative is for the reference to look
+/// incomplete exactly where it is being accurate.
+enum Writings {
+  /// At least one work survives as a work and can be read.
+  extant,
+
+  /// They left nothing in writing, or nothing that outlasted them. What is
+  /// known comes through other people.
+  none,
+
+  /// Only passages quoted by later writers survive. There is no book of theirs
+  /// to read, and any account of their thought is assembled from those
+  /// quotations.
+  fragments,
+}
+
 /// A philosopher.
 ///
 /// Names are held three ways — [name] for display, [nativeName] in the original
@@ -30,6 +57,7 @@ class Philosopher implements KnowledgeEntity {
     this.workIds = const <String>[],
     this.schoolIds = const <String>[],
     this.citations = const <Citation>[],
+    this.writings = Writings.extant,
   });
 
   @override
@@ -75,6 +103,9 @@ class Philosopher implements KnowledgeEntity {
 
   /// Works they wrote.
   final List<String> workIds;
+
+  /// What became of their writing. See [Writings].
+  final Writings writings;
 
   /// Schools they belonged to or founded.
   final List<String> schoolIds;
