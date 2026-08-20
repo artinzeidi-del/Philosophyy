@@ -9226,6 +9226,480 @@
       },
       "editions": ["text-transfiguration-commonplace"],
       "citations": [{ "source": "text-transfiguration-commonplace" }]
+    },
+    {
+      "id": "maxims-of-ptahhotep",
+      "title": { "en": "The Maxims of Ptahhotep", "fa": "اندرزهای پتاح‌حوتپ" },
+      "originalTitle": "sbAyt nt PtH-Htp",
+      "transliteration": "Sebayt en Ptahhotep",
+      "alsoKnownAs": ["The Instruction of Ptahhotep"],
+      "author": "ptahhotep",
+      "oneLine": {
+        "en": "Thirty-seven instructions from a vizier to his successor, and among the oldest ethical writing that survives.",
+        "fa": "سی و هفت اندرز از وزیری به جانشینش، و از کهن‌ترین نوشته‌های اخلاقی بازمانده."
+      },
+      "composed": { "start": { "year": -2350, "precision": "circa" } },
+      "traditions": ["ancient-egyptian", "african"],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "philosophy-of-education",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The frame is an old official asking permission to teach his son what he has learned. The maxims cover how to sit with someone who knows more than you, how to argue with an equal, how to treat a subordinate, how to behave at a table, and what to do when you are wrong.",
+              "fa": "قاب کار، کارگزاری کهنسال است که اجازه می‌خواهد آنچه را آموخته به پسرش بیاموزد. این اندرزها می‌گویند چگونه در برابر کسی بنشینی که بیش از تو می‌داند، چگونه با هم‌ترازت بحث کنی، با زیردست چه کنی، بر سر سفره چگونه رفتار کنی، و وقتی بر خطایی چه کنی."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The organising concept is maat, which covers truth, order and right action at once and is not divided as those words are in a modern language. Acting according to maat is not obedience to a command; it is aligning oneself with an order the world already has, which makes ethics and cosmology the same subject.",
+              "fa": "مفهوم سامان‌دهنده «مااِت» است، که هم‌زمان راستی و نظم و کنش درست را در بر می‌گیرد و چنانکه این واژه‌ها در زبانی امروزی، تقسیم نمی‌شود. عمل بر پایه مااِت اطاعت از فرمانی نیست؛ هم‌راستاکردن خود با نظمی است که جهان از پیش دارد، و همین اخلاق و کیهان‌شناسی را یک موضوع می‌کند."
+            },
+            "citations": [
+              { "source": "text-maxims-of-ptahhotep", "locator": "maxim 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Dating is contested and matters. The frame sets it in the Fifth Dynasty, around the twenty-fourth century before the common era, but the surviving copies are Middle Kingdom, several centuries later, and many Egyptologists take the attribution to be a literary device giving a new text the authority of an ancient name. What is not disputed is that the text itself is very old and predates every Greek philosopher by more than a millennium.\n\nWhether it is philosophy or wisdom literature is a real question and the answer depends on where the line is drawn. It gives no arguments in the Greek sense and does not consider objections. It does contain a general theory — of an order in things that human conduct can match or miss — and it derives particular advice from it, which is more than a collection of proverbs does. The honest position is to present it as what it is rather than to promote or demote it.",
+              "fa": "تاریخ‌گذاری محل نزاع است و اهمیت دارد. آن قاب، متن را در دودمان پنجم و در حدود سده بیست و چهارم پیش از میلاد می‌نشاند، اما نسخه‌های بازمانده از پادشاهی میانی‌اند، چند سده بعد، و بسیاری از مصرشناسان آن انتساب را ترفندی ادبی می‌دانند که به متنی نو اقتدار نامی کهن می‌دهد. آنچه محل نزاع نیست این است که خود این متن بسیار کهن است و بیش از هزار سال بر هر فیلسوف یونانی مقدم.\n\nاینکه این فلسفه است یا ادبیات حکمی پرسشی راستین است و پاسخ به این بستگی دارد که خط را کجا بکشیم. به معنای یونانی استدلال نمی‌کند و اعتراض‌ها را در نظر نمی‌گیرد. نظریه‌ای کلی در بر دارد، یعنی نظمی در چیزها که رفتار آدمی می‌تواند با آن بخواند یا نخواند، و اندرزهای خاص را از آن بیرون می‌کشد، و این بیش از آن است که مجموعه‌ای از ضرب‌المثل می‌کند. موضع صادقانه این است که آن را چنانکه هست عرضه کنیم نه اینکه ترفیعش دهیم یا تنزلش."
+            },
+            "citations": [
+              { "source": "text-maxims-of-ptahhotep", "locator": "epilogue" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-maxims-of-ptahhotep"],
+      "citations": [{ "source": "text-maxims-of-ptahhotep" }]
+    },
+    {
+      "id": "yoga-sutras",
+      "title": { "en": "The Yoga Sūtras", "fa": "یوگه سوتره‌ها" },
+      "originalTitle": "योगसूत्र",
+      "transliteration": "Yogasūtra",
+      "author": "patanjali",
+      "oneLine": {
+        "en": "One hundred and ninety-six aphorisms on stilling the mind, compressed to the point of needing commentary.",
+        "fa": "صد و نود و شش قطعه درباره آرام‌کردن ذهن، چنان فشرده که بی‌شرح خوانده نمی‌شود."
+      },
+      "composed": { "start": { "year": 400, "precision": "circa" } },
+      "traditions": ["indian"],
+      "branches": [
+        "philosophy-of-mind",
+        "metaphysics",
+        "ethics",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The second aphorism states the whole programme: yoga is the stilling of the movements of the mind. What follows is an analysis of what those movements are, why they persist, and an eight-limbed method for ending them that runs from ethical restraint through posture and breath to states of absorption.",
+              "fa": "قطعه دوم تمام برنامه را می‌گوید: یوگه آرام‌کردن جنبش‌های ذهن است. آنچه در پی می‌آید تحلیلی است از اینکه آن جنبش‌ها چیستند، چرا می‌مانند، و روشی هشت‌اندامی برای پایان‌دادنشان که از خویشتن‌داری اخلاقی تا نشستن و دم و بازدم و حالت‌های استغراق می‌رود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The metaphysics behind it is Sāṃkhya: two ultimate principles, consciousness and nature, and the fundamental error is taking the first to be identical with the products of the second. Liberation is not a change in the world or the acquisition of anything; it is consciousness ceasing to misidentify itself, which is why the method is subtractive rather than additive.",
+              "fa": "متافیزیک پشت آن سانکهیه است: دو اصل غایی، آگاهی و طبیعت، و خطای بنیادی این است که اولی را با فرآورده‌های دومی یکی بگیریم. رهایی دگرگونی‌ای در جهان یا به‌دست‌آوردن چیزی نیست؛ بازایستادن آگاهی از بدشناختن خویش است، و از همین رو این روش کاهنده است نه افزاینده."
+            },
+            "citations": [
+              { "source": "text-yoga-sutras", "locator": "1.2-1.4" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Two cautions about attribution. Nothing certain is known about Patañjali, and the identification with the grammarian of the same name, several centuries earlier, is traditional and rejected by most scholars. Some hold that the text is a compilation rather than one author's work, on the grounds that the third and fourth books differ in vocabulary and concern from the first two.\n\nThe modern reception has largely reversed the emphasis. Posture occupies three of the one hundred and ninety-six aphorisms and is described as a stable, comfortable seat for sitting still; the physical sequences now taught worldwide as yoga descend mostly from twentieth-century Indian gymnastics combined with European physical culture, and the text is cited as their authority. That is a fact about the twentieth century and not a criticism of either practice, but treating the sūtras as a manual of exercise misreads what they are about.",
+              "fa": "دو احتیاط درباره انتساب. درباره پتنجلی چیز مطمئنی دانسته نیست، و یکی‌گرفتنش با دستورنویسی هم‌نام، چند سده پیش‌تر، سنتی است و بیشتر پژوهشگران ردش می‌کنند. برخی می‌گویند این متن گردآوری است نه کار یک نویسنده، به این دلیل که دفترهای سوم و چهارم در واژگان و دغدغه با دو دفتر نخست فرق دارند.\n\nپذیرش امروزی تأکید را تا حد زیادی وارونه کرده است. «آسنه» سه قطعه از آن صد و نود و شش را می‌گیرد و چون نشستنگاهی پایدار و راحت برای بی‌حرکت نشستن وصف می‌شود؛ توالی‌های بدنی‌ای که امروز در جهان یوگه آموخته می‌شوند بیشتر از ورزش‌های هندی سده بیستم آمیخته با فرهنگ بدنی اروپایی می‌آیند، و این متن چون سند آن‌ها نقل می‌شود. این واقعیتی درباره سده بیستم است و نقدی بر هیچ‌یک از این دو ورزه نیست، اما گرفتن این سوتره‌ها چون کتابی ورزشی، موضوعشان را بد می‌خواند."
+            },
+            "citations": [
+              { "source": "text-yoga-sutras", "locator": "2.46-2.48" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-yoga-sutras"],
+      "citations": [{ "source": "text-yoga-sutras" }]
+    },
+    {
+      "id": "life-divine",
+      "title": { "en": "The Life Divine", "fa": "زندگی الهی" },
+      "originalTitle": "The Life Divine",
+      "author": "aurobindo",
+      "oneLine": {
+        "en": "Argues that evolution has a further stage, and that consciousness rather than form is what is evolving.",
+        "fa": "می‌گوید تکامل مرحله‌ای دیگر در پیش دارد، و آنچه تکامل می‌یابد آگاهی است نه صورت."
+      },
+      "composed": {
+        "start": { "year": 1914, "precision": "exact" },
+        "end": { "year": 1919, "precision": "exact" }
+      },
+      "traditions": ["indian"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "philosophy-of-mind",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aurobindo had been a revolutionary tried for conspiracy against the British before withdrawing to Pondicherry. The book was serialised in a monthly review over six years. Its claim is that matter, life and mind are successive emergences of something that was involved in matter from the start, and that mind is not the last of them.",
+              "fa": "آروبیندو انقلابی‌ای بود که به اتهام توطئه بر ضد بریتانیا محاکمه شد و سپس به پوندیچری کناره گرفت. این کتاب در شش سال در ماهنامه‌ای پاورقی شد. ادعایش این است که ماده و زندگی و ذهن پیدایش‌های پیاپی چیزی‌اند که از آغاز در ماده پیچیده بوده، و اینکه ذهن آخرینشان نیست."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His solution to the problem of how a perfect absolute produces an imperfect world is involution: the absolute descends into apparent unconsciousness, and evolution is the reverse movement, matter waking up by degrees. Ignorance is therefore not an error to be cancelled but a condition the process requires, which distinguishes him sharply from the Advaita reading in which the world is finally to be seen through.",
+              "fa": "راه حل او برای این مسئله که چگونه مطلقی کامل جهانی ناقص می‌سازد، «هبوط» است: آن مطلق به ناخودآگاهی ظاهری فرو می‌آید، و تکامل حرکت وارونه است، یعنی بیدارشدن پله‌پله ماده. پس نادانی خطایی نیست که باید باطل شود، شرطی است که این روند می‌طلبد، و همین او را به‌تندی از خوانش اَدوَیتَه جدا می‌کند که در آن سرانجام باید از جهان گذشت."
+            },
+            "citations": [
+              { "source": "text-life-divine", "locator": "Book II, ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The supermind is where readers divide. Aurobindo posits a level of consciousness above mind that is not a better version of thinking but a different mode, in which knowledge is by identity rather than by representation, and he holds that its descent into humanity is possible and is what the process has been for. He and Mirra Alfassa spent decades on the practice meant to bring it about.\n\nAssessing this honestly means separating three things. The critique of a purely material evolutionary account is philosophical and can be argued about. The synthesis of Vedantic sources into a developmental scheme is a substantial piece of comparative interpretation. The claim that a specific new level of consciousness is arriving is not the kind of claim that can be assessed by argument, and Aurobindo does not present it as if it could — he offers it as something to be verified in practice, which puts it outside what a reference can adjudicate.",
+              "fa": "«فراذهن» همان جایی است که خوانندگان دو دسته می‌شوند. آروبیندو مرتبه‌ای از آگاهی بالاتر از ذهن می‌نهد که روایتی بهتر از اندیشیدن نیست، شیوه‌ای دیگر است که در آن شناخت به این‌همانی است نه به بازنمود، و می‌گوید فرودآمدنش در آدمی ممکن است و این روند برای همین بوده. او و میرا آلفاسا ده‌ها سال بر ورزه‌ای گذاشتند که قرار بود آن را بیاورد.\n\nداوری صادقانه درباره این یعنی جداکردن سه چیز. نقد روایتی یکسره مادی از تکامل فلسفی است و می‌توان بر سرش بحث کرد. ترکیب منابع ودانتایی در طرحی تکاملی پاره‌ای جدی از تفسیر تطبیقی است. این ادعا که مرتبه‌ای نو و معین از آگاهی در راه است از آن گونه ادعاها نیست که با استدلال سنجیده شود، و آروبیندو هم چنان عرضه‌اش نمی‌کند که گویی می‌شود؛ آن را چون چیزی می‌دهد که باید در عمل راستی‌آزمایی شود، و همین بیرون از آن است که یک مرجع بتواند داوری‌اش کند."
+            },
+            "citations": [
+              { "source": "text-life-divine", "locator": "Book II, ch. 28" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-life-divine"],
+      "citations": [{ "source": "text-life-divine" }]
+    },
+    {
+      "id": "sadhana",
+      "title": {
+        "en": "Sadhana: The Realisation of Life",
+        "fa": "سادهنه: تحقق زندگی"
+      },
+      "originalTitle": "Sadhana: The Realisation of Life",
+      "author": "tagore",
+      "oneLine": {
+        "en": "Lectures arguing that the split between humanity and nature is a European habit rather than a fact.",
+        "fa": "درسگفتارهایی که می‌گویند جدایی آدمی از طبیعت عادتی اروپایی است نه یک واقعیت."
+      },
+      "composed": { "start": { "year": 1913, "precision": "exact" } },
+      "traditions": ["indian"],
+      "branches": [
+        "philosophy-of-religion",
+        "aesthetics",
+        "ethics",
+        "philosophy-of-education"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Delivered at Harvard and drawn from talks Tagore had given at his school in Bengal. His starting contrast is between a civilisation that grew in walled cities and one that grew in forests: the first meets nature as an obstacle to be subdued, the second as a surrounding to be understood, and the philosophies that follow differ accordingly.",
+              "fa": "در هاروارد ارائه شد و از سخنرانی‌هایی برآمده که تاگور در مدرسه‌اش در بنگال داده بود. تقابل آغازینش میان تمدنی است که در شهرهای دیواردار بالید و تمدنی که در جنگل‌ها؛ اولی با طبیعت چون مانعی روبه‌رو می‌شود که باید رامش کرد، دومی چون پیرامونی که باید فهمیدش، و فلسفه‌هایی که در پی می‌آیند به همین نسبت فرق دارند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "He is careful not to make this a claim about races or an argument for withdrawal. The point is that a metaphysics of separation makes certain problems inevitable — the problem of evil, of the self's isolation, of what nature is for — and that a tradition which never made the separation does not have to solve them, which is not the same as having solved them.",
+              "fa": "مراقب است که این را ادعایی درباره نژادها یا استدلالی برای کناره‌گیری نکند. نکته این است که متافیزیکی مبتنی بر جدایی، مسائلی را ناگزیر می‌کند، یعنی مسئله شر و انزوای خویشتن و اینکه طبیعت برای چیست، و اینکه سنتی که هرگز آن جدایی را نساخته ناچار نیست حلشان کند، و این با حل‌کردنشان یکی نیست."
+            },
+            "citations": [{ "source": "text-sadhana", "locator": "ch. 1" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His book on nationalism, from three years later, is the sharper political statement and it cost him readers everywhere. He argues that the nation is an organisation of politics and commerce that turns a people into a machine for competing with other peoples, that it is Europe's most damaging export, and that India should not want one — a position that made him unwelcome to the independence movement and to the imperial authorities at the same time. He returned his knighthood after Amritsar in 1919.\n\nHis disagreement with Gandhi is documented in their published exchanges and is more instructive than either man alone. Tagore thought the burning of foreign cloth was a rejection of the world's interdependence and that a movement demanding uniform conduct would suppress the individual judgement it needed; Gandhi answered that a starving weaver cannot wait for a cosmopolitan sensibility. They admired each other, said so publicly, and did not converge.",
+              "fa": "کتابش درباره ملی‌گرایی، از سه سال بعد، بیان سیاسی تیزتری است و همه جا برایش خواننده گرفت. می‌گوید ملت سازمانی سیاسی و بازرگانی است که مردمی را به ماشینی برای رقابت با مردمان دیگر بدل می‌کند، که زیان‌بارترین صادرات اروپاست، و اینکه هند نباید یکی بخواهد؛ موضعی که او را هم‌زمان نزد جنبش استقلال و نزد مقامات امپراتوری ناخوشایند کرد. پس از امریتسار در سال ۱۹۱۹ نشان شوالیه‌اش را پس داد.\n\nاختلافش با گاندی در نامه‌های منتشرشده‌شان مستند است و از هر یک به‌تنهایی آموزنده‌تر. تاگور می‌پنداشت سوزاندن پارچه بیگانه ردکردن درهم‌تنیدگی جهان است و اینکه جنبشی که رفتار یکسان می‌خواهد همان داوری فردی را که به آن نیاز دارد سرکوب می‌کند؛ گاندی پاسخ داد که بافنده گرسنه نمی‌تواند منتظر حسی جهان‌وطن بماند. یکدیگر را می‌ستودند، آشکارا می‌گفتند، و هم‌رأی نشدند."
+            },
+            "citations": [
+              {
+                "source": "text-nationalism-tagore",
+                "locator": "'Nationalism in India'"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-sadhana", "text-nationalism-tagore"],
+      "citations": [{ "source": "text-sadhana" }]
+    },
+    {
+      "id": "liberte-negritude",
+      "title": {
+        "en": "Liberté: Négritude and Humanism",
+        "fa": "آزادی: نگریتود و انسان‌گرایی"
+      },
+      "originalTitle": "Liberté I: Négritude et humanisme",
+      "author": "senghor",
+      "oneLine": {
+        "en": "Collected essays defining negritude as a cultural inheritance rather than a biological fact.",
+        "fa": "جستارهای گردآمده‌ای که نگریتود را میراثی فرهنگی تعریف می‌کنند نه واقعیتی زیستی."
+      },
+      "composed": { "start": { "year": 1964, "precision": "exact" } },
+      "traditions": ["african", "africana"],
+      "branches": [
+        "aesthetics",
+        "political-philosophy",
+        "decolonial-philosophy",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Senghor was a poet, a philosopher trained in Paris, and president of Senegal for twenty years — an unusual combination that shows in the essays, which move between literary criticism, political theory and policy. Negritude, in his definition, is the sum of the cultural values of the black world, held together by history rather than by blood.",
+              "fa": "سنگور شاعر بود و فیلسوفی پرورده پاریس و بیست سال رئیس‌جمهور سنگال؛ آمیزه‌ای غیرمعمول که در این جستارها پیداست، که میان نقد ادبی و نظریه سیاسی و سیاست‌گذاری حرکت می‌کنند. نگریتود به تعریف او مجموع ارزش‌های فرهنگی جهان سیاه است، که تاریخ کنار هم نگاهشان می‌دارد نه خون."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "One formulation has followed him ever since: that emotion is African as reason is Hellenic. He spent decades explaining that he did not mean Africans cannot reason, but that there are two ways of knowing — one that holds an object at a distance to analyse it and one that participates in it — and that the second is undervalued rather than absent in Europe.",
+              "fa": "یک صورت‌بندی از آن پس همیشه با او مانده است: اینکه عاطفه افریقایی است چنانکه خرد یونانی. ده‌ها سال توضیح داد که مقصودش این نیست که افریقاییان نمی‌توانند بیندیشند، بلکه اینکه دو شیوه دانستن هست، یکی که متعلق را در فاصله نگاه می‌دارد تا تحلیلش کند و یکی که در آن شرکت می‌کند، و اینکه دومی در اروپا کم‌ارزش شمرده می‌شود نه اینکه نباشد."
+            },
+            "citations": [
+              {
+                "source": "text-liberte-negritude",
+                "locator": "'Ce que l'homme noir apporte'"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The explanation has not satisfied his critics and the objection is serious. Accepting a division of labour in which one civilisation gets reason and another gets feeling means arguing inside the colonial categories, and Fanon said so directly: a defence conducted on the coloniser's terms concedes the ground it stands on. Soyinka's remark that a tiger does not proclaim its tigritude is the same objection made shorter.\n\nHis political record is where the philosophy was tested. Senghor governed for two decades, built one of the more stable states in the region, retired voluntarily — rare enough to note — and pursued an African socialism grounded in what he took to be existing communal practice rather than in class analysis. Critics point to a period of single-party rule and to close ties with France; the assessment of the presidency and the assessment of the essays are separate exercises and both are worth doing.",
+              "fa": "آن توضیح منتقدانش را خرسند نکرده و اعتراض جدی است. پذیرفتن تقسیم کاری که در آن یک تمدن خرد می‌گیرد و دیگری احساس، یعنی استدلال‌کردن درون همان مقوله‌های استعماری، و فانون مستقیم همین را گفت: دفاعی که به شرایط استعمارگر انجام شود همان زمینی را که بر آن ایستاده وامی‌گذارد. آن سخن سویینکا که ببر ببربودنش را جار نمی‌زند همان اعتراض است، کوتاه‌تر.\n\nکارنامه سیاسی او همان جایی است که آن فلسفه آزموده شد. سنگور دو دهه حکومت کرد، یکی از باثبات‌ترین دولت‌های منطقه را ساخت، به اراده خود کناره گرفت، که کمیاب‌تر از آن است که نگفته بماند، و سوسیالیسمی افریقایی را دنبال کرد که بر آنچه رویه اشتراکی موجود می‌دانست بنا شده بود نه بر تحلیل طبقاتی. منتقدان به دوره‌ای از حکومت تک‌حزبی و به پیوند نزدیک با فرانسه اشاره می‌کنند؛ داوری درباره ریاست‌جمهوری و داوری درباره این جستارها دو کار جدایند و هر دو ارزش انجام‌دادن دارند."
+            },
+            "citations": [
+              {
+                "source": "text-liberte-negritude",
+                "locator": "'Négritude et humanisme'"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-liberte-negritude"],
+      "citations": [{ "source": "text-liberte-negritude" }]
+    },
+    {
+      "id": "unsettling-coloniality",
+      "title": {
+        "en": "Unsettling the Coloniality of Being",
+        "fa": "برهم‌زدن استعماری‌بودن هستی"
+      },
+      "originalTitle": "Unsettling the Coloniality of Being/Power/Truth/Freedom: Towards the Human, After Man",
+      "author": "wynter",
+      "oneLine": {
+        "en": "Argues that Man is a particular local invention that has been mistaken for the human as such.",
+        "fa": "می‌گوید «انسان» ابداعی محلی و خاص است که آن را به جای آدمی به‌طور کلی گرفته‌اند."
+      },
+      "composed": { "start": { "year": 2003, "precision": "exact" } },
+      "traditions": ["africana", "latin-american", "contemporary"],
+      "branches": [
+        "decolonial-philosophy",
+        "social-philosophy",
+        "epistemology",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Wynter distinguishes the human from Man, and Man from itself in two versions. The first, emerging in the Renaissance, is the rational political subject defined against the irrational; the second, from the nineteenth century, is the biological organism defined by natural selection and against those judged less selected. Both are presented as descriptions of everyone.",
+              "fa": "واینتر «آدمی» را از «انسان» جدا می‌کند، و «انسان» را در دو روایت از خودش. نخستین، که در رنسانس پدید می‌آید، فاعل خردمند سیاسی است که در برابر ناخردمند تعریف می‌شود؛ دومین، از سده نوزدهم، موجودی زیستی است که با انتخاب طبیعی و در برابر کسانی تعریف می‌شود که کمتر برگزیده دانسته شده‌اند. هر دو چون وصفی از همه عرضه می‌شوند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Her claim is that this is not an ideology laid over a neutral biology. Human beings are the species that lives by narratives about what it is, so a description of the human is partly constitutive of it, and a description that installs one group as the paradigm case produces a world in which the others are measurably worse off — which is then read as confirming the description.",
+              "fa": "ادعای او این است که این ایدئولوژی‌ای نیست که بر زیست‌شناسی‌ای بی‌طرف نهاده شده باشد. آدمیان گونه‌ای‌اند که با روایت‌هایی درباره چیستی خود می‌زیند، پس وصف آدمی تا حدی سازنده اوست، و وصفی که یک گروه را نمونه الگویی می‌نشاند جهانی می‌سازد که در آن دیگران به‌طور سنجش‌پذیر بدترحال‌اند، و همین سپس چون تأیید همان وصف خوانده می‌شود."
+            },
+            "citations": [
+              {
+                "source": "text-unsettling-coloniality",
+                "locator": "section 1"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The essay is difficult to read and this is not incidental. It moves between the history of the Caribbean, the sociology of the categories used in demography, cognitive science and literary criticism, in long sentences carrying several arguments at once. Readers who find it impenetrable are not being unreasonable; readers who work through it generally report that the density is doing something rather than decorating.\n\nHer positive proposal is the harder half. She wants a new account of the human that treats us as hybrid — biological and storytelling at once, a species that co-evolves with its own descriptions — and she does not think this can be produced by criticism alone. What such an account would look like is left as a programme, which is a fair criticism of the essay and also an accurate statement of where the problem stands.",
+              "fa": "این جستار دشوارخوان است و این اتفاقی نیست. میان تاریخ کارائیب و جامعه‌شناسی مقوله‌های آماری جمعیت و علوم شناختی و نقد ادبی حرکت می‌کند، در جمله‌هایی بلند که چند استدلال را با هم می‌برند. خوانندگانی که نفوذناپذیرش می‌یابند بی‌انصاف نیستند؛ خوانندگانی که از آن می‌گذرند معمولا گزارش می‌کنند که این فشردگی کاری می‌کند نه اینکه آرایه باشد.\n\nپیشنهاد مثبت او نیمه دشوارتر است. روایتی نو از آدمی می‌خواهد که ما را دورگه بگیرد، یعنی هم‌زمان زیستی و قصه‌گو، گونه‌ای که با وصف‌های خودش هم‌تکامل می‌یابد، و نمی‌پندارد این را نقد به‌تنهایی می‌سازد. اینکه چنین روایتی چه شکلی خواهد بود چون برنامه‌ای باز مانده، و این نقدی بجا بر این جستار است و در همان حال بیانی دقیق از جایی که این مسئله در آن ایستاده."
+            },
+            "citations": [
+              {
+                "source": "text-unsettling-coloniality",
+                "locator": "section 4"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-unsettling-coloniality"],
+      "citations": [{ "source": "text-unsettling-coloniality" }]
+    },
+    {
+      "id": "zhi-de-zhijue",
+      "title": {
+        "en": "Intellectual Intuition and Chinese Philosophy",
+        "fa": "شهود عقلی و فلسفه چین"
+      },
+      "originalTitle": "智的直覺與中國哲學",
+      "transliteration": "Zhì de zhíjué yǔ Zhōngguó zhéxué",
+      "author": "mou-zongsan",
+      "oneLine": {
+        "en": "Argues against Kant that human beings do have intellectual intuition, and that Chinese philosophy assumes it.",
+        "fa": "در برابر کانت می‌گوید آدمیان شهود عقلی دارند، و فلسفه چین آن را مفروض می‌گیرد."
+      },
+      "composed": { "start": { "year": 1971, "precision": "exact" } },
+      "traditions": ["chinese", "contemporary"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "comparative-philosophy",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Kant held that intellectual intuition — a knowing that creates its object rather than receiving it — belongs to God alone, and that this is why the thing in itself is closed to us. Mou's claim is that Confucian, Daoist and Buddhist philosophy all presuppose a capacity of this kind in human beings, and that Kant's denial is a theological assumption rather than a result.",
+              "fa": "کانت می‌گفت شهود عقلی، یعنی دانستنی که متعلق خود را می‌آفریند نه اینکه بگیردش، تنها از آن خداست، و از همین رو شیء فی‌نفسه بر ما بسته است. ادعای مو این است که فلسفه کنفوسیوسی و دائویی و بودایی همگی توانی از این گونه را در آدمیان پیش‌فرض می‌گیرند، و انکار کانت فرضی الهیاتی است نه یک نتیجه."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "If that is right, the consequences are large in both directions. Kant's limitation of metaphysics falls, because the thing in itself would be reachable; and Chinese philosophy gains a technical vocabulary in which its own central claim — that a person can realise the moral nature completely, and that doing so is a kind of knowing — can be stated as a philosophical position rather than as an ideal.",
+              "fa": "اگر چنین باشد، پیامدها در هر دو سو بزرگ‌اند. محدودکردن متافیزیک به دست کانت فرو می‌ریزد، چون شیء فی‌نفسه دست‌یافتنی می‌شود؛ و فلسفه چین واژگانی فنی به دست می‌آورد که در آن ادعای مرکزی خودش، یعنی اینکه آدمی می‌تواند سرشت اخلاقی را به‌تمامی محقق کند و این کار گونه‌ای دانستن است، به جای آرمان چون موضعی فلسفی گفته شود."
+            },
+            "citations": [
+              { "source": "text-zhi-de-zhijue", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Mou translated the three Critiques into Chinese, in some cases twice, and the translations are part of the argument: choosing how to render a Kantian term in Chinese is already a decision about whether the two traditions are talking about the same thing. That is one answer to the charge that he simply imposed a Western frame on Chinese material.\n\nThe other charge is the reverse and comes from within. Some later Chinese philosophers argue that reading the tradition through Kant makes it answer questions it never asked, and that a moral metaphysics built to satisfy a German problem is not a recovery. Mou's defence is that no tradition survives by refusing to be restated, and that the alternative is to let the classics be studied as history. He was writing in Taiwan and Hong Kong while the mainland was dismantling the tradition entirely, which is the background to the urgency.",
+              "fa": "مو هر سه نقد را به چینی برگرداند، و برخی را دو بار، و آن ترجمه‌ها بخشی از استدلال‌اند: اینکه یک اصطلاح کانتی را چگونه به چینی بگردانی از پیش تصمیمی است درباره اینکه آیا این دو سنت درباره یک چیز سخن می‌گویند. این یکی از پاسخ‌ها به این اتهام است که او صرفا قابی غربی بر مایه چینی تحمیل کرده.\n\nاتهام دیگر وارونه است و از درون می‌آید. برخی فیلسوفان چینی بعدی می‌گویند خواندن این سنت از راه کانت وادارش می‌کند به پرسش‌هایی پاسخ دهد که هرگز نپرسیده، و متافیزیکی اخلاقی که برای برآوردن مسئله‌ای آلمانی ساخته شده بازیابی نیست. دفاع مو این است که هیچ سنتی با ردکردن بازگفته‌شدن دوام نمی‌آورد، و جایگزینش این است که متون کهن چون تاریخ مطالعه شوند. او در تایوان و هنگ‌کنگ می‌نوشت، در حالی که سرزمین اصلی آن سنت را یکسره برمی‌چید، و این پس‌زمینه آن شتاب است."
+            },
+            "citations": [
+              {
+                "source": "text-xianxiang-yu-wuzishen",
+                "locator": "introduction"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-zhi-de-zhijue", "text-xianxiang-yu-wuzishen"],
+      "citations": [{ "source": "text-zhi-de-zhijue" }]
+    },
+    {
+      "id": "fushikaden",
+      "title": {
+        "en": "Teachings on Style and the Flower",
+        "fa": "آموزه‌های سبک و گل"
+      },
+      "originalTitle": "風姿花伝",
+      "transliteration": "Fūshikaden",
+      "alsoKnownAs": [
+        "Kadensho",
+        "The Transmission of the Flower of Acting Style"
+      ],
+      "author": "zeami",
+      "oneLine": {
+        "en": "A working actor's treatise on how a performance holds an audience, kept secret within one family for centuries.",
+        "fa": "رساله بازیگری در کار، درباره اینکه اجرا چگونه تماشاگر را نگاه می‌دارد، که سده‌ها در یک خاندان پنهان ماند."
+      },
+      "composed": {
+        "start": { "year": 1400, "precision": "circa" },
+        "end": { "year": 1418, "precision": "circa" }
+      },
+      "traditions": ["japanese"],
+      "branches": [
+        "aesthetics",
+        "philosophy-of-education",
+        "ethics",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Zeami performed from childhood, was taken up by the shogun, and wrote for his successors rather than for readers; the treatises were transmitted within the school and only published in 1909. The organising term is hana, the flower — his word for whatever it is that makes a performance affect the people watching.",
+              "fa": "زئامی از کودکی اجرا می‌کرد، شوگون او را برکشید، و برای جانشینانش می‌نوشت نه برای خوانندگان؛ این رساله‌ها درون همان مکتب منتقل شد و تنها در سال ۱۹۰۹ منتشر شد. اصطلاح سامان‌دهنده «هانا» یعنی گل است؛ واژه او برای هر آنچه اجرا را بر تماشاگران اثرگذار می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The distinction that carries the book is between the flower of the moment and the true flower. A young performer is affecting because they are young, and this fades; the true flower is produced by technique so thorough that it is no longer visible, and it can be had at seventy when everything else has gone. The difference is not degree but source.",
+              "fa": "تمایزی که بار کتاب را می‌برد میان «گل لحظه» و «گل راستین» است. بازیگر جوان اثرگذار است چون جوان است، و این می‌رود؛ گل راستین را فنی می‌سازد چنان تمام که دیگر دیده نمی‌شود، و در هفتاد سالگی هم می‌توان داشتش، وقتی هر چیز دیگر رفته است. تفاوت در درجه نیست، در سرچشمه است."
+            },
+            "citations": [{ "source": "text-fushikaden", "locator": "ch. 7" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The concept doing the most philosophical work is what he calls concealment: the flower exists only if it is not shown as such. An audience that recognises the technique is admiring a performer; an audience that does not is moved. That makes the effect depend on a gap in the spectator's knowledge, which is an unusual thing to build an aesthetics on and is stated without embarrassment because the book was written for people who had to produce the effect.\n\nThe age-by-age training scheme is the other durable part. Zeami sets out what to teach at seven, at twelve, at seventeen, and so on, and the advice at each stage is shaped by what the body and the reputation can do then; the section on seventeen, when the voice breaks and the audience that adored a child turns away, is unusually candid about failure being structural rather than personal. It is a philosophy of a life in an art as much as of the art.",
+              "fa": "مفهومی که بیشترین کار فلسفی را می‌کند همان است که «پنهان‌داشتن» می‌نامدش: گل تنها آنگاه هست که چون گل نموده نشود. تماشاگری که آن فن را بازمی‌شناسد بازیگری را می‌ستاید؛ تماشاگری که بازنمی‌شناسد به حرکت درمی‌آید. همین آن اثر را به شکافی در دانش تماشاگر وابسته می‌کند، و بنانهادن زیبایی‌شناسی بر این غیرمعمول است و بی‌شرمساری گفته می‌شود چون این کتاب برای کسانی نوشته شد که باید آن اثر را می‌ساختند.\n\nطرح آموزش سن‌به‌سن آن بخش ماندگار دیگر است. زئامی می‌گوید در هفت سالگی چه بیاموزند، در دوازده، در هفده، و همین‌طور، و اندرز هر مرحله را آنچه تن و آوازه در آن هنگام می‌توانند شکل می‌دهد؛ بخش هفده سالگی، وقتی صدا می‌شکند و تماشاگری که کودکی را می‌پرستید رو برمی‌گرداند، به‌طور غیرمعمول درباره ساختاری‌بودن ناکامی به جای شخصی‌بودنش صریح است. این به همان اندازه که فلسفه یک هنر است، فلسفه یک عمر در آن هنر است."
+            },
+            "citations": [{ "source": "text-fushikaden", "locator": "ch. 1" }]
+          }
+        ]
+      },
+      "editions": ["text-fushikaden"],
+      "citations": [{ "source": "text-fushikaden" }]
     }
   ]
 }
