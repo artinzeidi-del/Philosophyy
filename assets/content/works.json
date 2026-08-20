@@ -6051,6 +6051,441 @@
       },
       "editions": ["text-of-grammatology"],
       "citations": [{ "source": "text-of-grammatology" }]
+    },
+    {
+      "id": "discourse-on-colonialism",
+      "title": {
+        "en": "Discourse on Colonialism",
+        "fa": "گفتاری درباره استعمار"
+      },
+      "originalTitle": "Discours sur le colonialisme",
+      "author": "cesaire",
+      "oneLine": {
+        "en": "Argues that what Europe called civilisation abroad returned home as fascism.",
+        "fa": "می‌گوید آنچه اروپا در بیرون تمدن می‌نامید، به خانه که بازگشت فاشیسم شد."
+      },
+      "composed": { "start": { "year": 1950, "precision": "exact" } },
+      "traditions": ["africana", "continental", "latin-american"],
+      "branches": [
+        "political-philosophy",
+        "decolonial-philosophy",
+        "social-philosophy",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A short pamphlet written five years after the war by a poet who was also a deputy for Martinique. Its central charge is that Europe was not shocked by Hitler in principle, only by his choice of victims — that the methods had been standard practice in the colonies for centuries and became intolerable when applied to Europeans.",
+              "fa": "جزوه‌ای کوتاه، پنج سال پس از جنگ، از شاعری که نماینده مارتینیک هم بود. اتهام مرکزی‌اش این است که اروپا اصولا از هیتلر یکه نخورد، تنها از گزینش قربانیانش یکه خورد؛ اینکه آن روش‌ها سده‌ها در مستعمره‌ها رویه عادی بود و وقتی بر اروپاییان به کار رفت تحمل‌ناپذیر شد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument about the coloniser is the part with philosophical teeth. Césaire says colonisation decivilises the one who does it: a man who rules by force must first stop seeing the ruled as men, and having learnt that he does not unlearn it on the way home. The damage is therefore not one-directional, and Europe's account of itself as the civilising party is exactly inverted.",
+              "fa": "استدلال درباره استعمارگر همان بخشی است که دندان فلسفی دارد. سزر می‌گوید استعمار خود استعمارگر را از تمدن می‌اندازد: کسی که با زور فرمان می‌راند باید نخست از دیدن فرمان‌بران چون آدمی دست بکشد، و چون این را آموخت در راه بازگشت از یادش نمی‌برد. پس آسیب یک‌سویه نیست، و روایت اروپا از خودش چون تمدن‌آور دقیقا وارونه است."
+            },
+            "citations": [
+              {
+                "source": "text-discourse-on-colonialism",
+                "locator": "opening"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He is careful about what he is not saying. Césaire refuses the option of returning to a pre-colonial past as if nothing had happened, and refuses assimilation into a French universal that was built without the colonised in it. What he wants is a universal enriched by every particular — his own phrase — and negritude was meant as a stage in reaching it rather than as a destination.\n\nThat put him at odds with people on the same side. Fanon, who had been his student, came to think negritude a trap that fixed the very racial category it meant to reclaim; Sartre had already described it as a moment destined to be superseded, which Fanon read as a Frenchman telling black writers when to stop. Césaire resigned from the French Communist Party in 1956 over the same problem in another form, saying in an open letter that no doctrine may ask a people to be a footnote to someone else's struggle.",
+              "fa": "او مراقب است که چه نمی‌گوید. سزر گزینه بازگشت به گذشته پیشااستعماری را چنانکه گویی چیزی رخ نداده رد می‌کند، و همانندسازی در یک کلی فرانسوی را که بی‌حضور مستعمره‌شدگان ساخته شده هم رد می‌کند. آنچه می‌خواهد کلی‌ای است که هر خاصی غنی‌اش کرده باشد، و این تعبیر خود اوست، و نگریتود را مرحله‌ای در راه رسیدن به آن می‌خواست نه مقصدی.\n\nهمین او را رویاروی کسانی نهاد که در همان سو بودند. فانون، که شاگردش بود، به این نتیجه رسید که نگریتود دامی است که همان مقوله نژادی را که می‌خواست بازپس گیرد تثبیت می‌کند؛ سارتر پیش‌تر آن را لحظه‌ای وصف کرده بود که سرنوشتش پشت سر گذاشته‌شدن است، و فانون این را چنین خواند که فرانسوی‌ای به نویسندگان سیاه می‌گوید کی بایستند. سزر در ۱۹۵۶ به سبب همین مسئله در صورتی دیگر از حزب کمونیست فرانسه کناره گرفت و در نامه‌ای سرگشاده گفت هیچ آموزه‌ای نمی‌تواند از مردمی بخواهد پانوشت مبارزه کسی دیگر باشند."
+            },
+            "citations": [{ "source": "text-cahier", "locator": "closing" }]
+          }
+        ]
+      },
+      "editions": ["text-discourse-on-colonialism", "text-cahier"],
+      "citations": [{ "source": "text-discourse-on-colonialism" }]
+    },
+    {
+      "id": "consciencism",
+      "title": { "en": "Consciencism", "fa": "ضمیرگرایی" },
+      "originalTitle": "Consciencism: Philosophy and Ideology for De-Colonisation",
+      "author": "nkrumah",
+      "oneLine": {
+        "en": "Written by a head of state, proposing a philosophy that could hold together three inheritances at once.",
+        "fa": "نوشته یک رئیس دولت، که فلسفه‌ای پیش می‌نهد تا سه میراث را هم‌زمان کنار هم نگاه دارد."
+      },
+      "composed": { "start": { "year": 1964, "precision": "exact" } },
+      "traditions": ["african", "africana"],
+      "branches": [
+        "political-philosophy",
+        "decolonial-philosophy",
+        "metaphysics",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Nkrumah had led Ghana to independence seven years earlier and was writing while governing. The problem he sets is practical: a modern African society carries an indigenous inheritance, an Islamic one and a Euro-Christian one, and a philosophy that simply picked among them would leave most of the population outside it.",
+              "fa": "نکرومه هفت سال پیش‌تر غنا را به استقلال رسانده بود و در حال حکومت می‌نوشت. مسئله‌ای که می‌نهد عملی است: جامعه امروزی افریقایی میراثی بومی و میراثی اسلامی و میراثی اروپایی و مسیحی با خود دارد، و فلسفه‌ای که یکی را برگزیند بیشتر مردم را بیرون از خود می‌گذارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His answer is a materialism with an ethical premise attached. Matter is primary and has within it the capacity for self-motion, so no spiritual addition is needed to explain change; and the egalitarian conclusion is derived from the claim that African traditional society already treated the person as an end, so socialism is a restatement of an inherited principle rather than an import.",
+              "fa": "پاسخ او ماده‌گرایی‌ای است با مقدمه‌ای اخلاقی بر آن. ماده نخستین است و توان حرکت از خود را در خویش دارد، پس برای توضیح دگرگونی افزوده‌ای معنوی لازم نیست؛ و نتیجه برابری‌خواهانه از این ادعا بیرون می‌آید که جامعه سنتی افریقایی از پیش شخص را غایت می‌گرفت، پس سوسیالیسم بازگفت اصلی به‌ارث‌رسیده است نه کالایی وارداتی."
+            },
+            "citations": [{ "source": "text-consciencism", "locator": "ch. 3" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The weakest link is the anthropology. Traditional African society is treated as one thing with one ethic, across a continent of enormous variety and including societies with slavery, caste and hereditary rule. Later African philosophers, Wiredu among them, argued that this romanticises in order to legitimate, and that a genuine recovery has to be prepared to find things in the tradition it does not want.\n\nWhat has held up better is the analysis of what independence did not change. Neo-Colonialism, published the following year, argues that a state can have its own flag, army and seat at the United Nations while its economy is directed from outside through ownership, debt and the terms of trade — so sovereignty becomes formal. The United States government protested the book officially. Nkrumah was overthrown by a coup fifteen months later, which has made it difficult ever since to read the argument apart from the biography.",
+              "fa": "سست‌ترین حلقه، آن انسان‌شناسی است. «جامعه سنتی افریقایی» چون یک چیز با یک اخلاق گرفته می‌شود، در قاره‌ای با تنوعی سترگ و شامل جامعه‌هایی با برده‌داری و طبقه و فرمانروایی موروثی. فیلسوفان افریقایی بعدی، از جمله ویردو، گفتند که این برای مشروعیت‌بخشی رمانتیک می‌کند، و بازیابی راستین باید آماده باشد در سنت چیزهایی بیابد که نمی‌خواهدشان.\n\nآنچه بهتر مانده تحلیل او از آن چیزی است که استقلال دگرگونش نکرد. «نواستعمار»، که سال بعد درآمد، می‌گوید کشوری می‌تواند پرچم و ارتش و کرسی در سازمان ملل داشته باشد در حالی که اقتصادش از بیرون و از راه مالکیت و بدهی و شرایط مبادله هدایت می‌شود، پس حاکمیت صوری می‌شود. دولت ایالات متحده رسما به آن کتاب اعتراض کرد. پانزده ماه بعد نکرومه با کودتا برکنار شد، و از آن پس خواندن آن استدلال جدا از زندگی‌نامه دشوار شده است."
+            },
+            "citations": [
+              { "source": "text-neo-colonialism", "locator": "introduction" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-consciencism", "text-neo-colonialism"],
+      "citations": [{ "source": "text-consciencism" }]
+    },
+    {
+      "id": "invention-of-women",
+      "title": { "en": "The Invention of Women", "fa": "ابداع زنان" },
+      "originalTitle": "The Invention of Women: Making an African Sense of Western Gender Discourses",
+      "author": "oyewumi",
+      "oneLine": {
+        "en": "Argues that gender was not the organising category in Yorùbá society, and that scholarship put it there.",
+        "fa": "می‌گوید جنسیت در جامعه یوروبا مقوله سامان‌دهنده نبود، و پژوهش دانشگاهی آن را آنجا نشاند."
+      },
+      "composed": { "start": { "year": 1997, "precision": "exact" } },
+      "traditions": ["african", "africana"],
+      "branches": [
+        "feminist-philosophy",
+        "social-philosophy",
+        "decolonial-philosophy",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Oyěwùmí's evidence starts with language. Yorùbá pronouns do not mark sex; the words usually translated as man and woman are better rendered as anatomical descriptions without social content; and the term that actually organises relations is seniority, which depends on order of arrival into a household and applies to everyone.",
+              "fa": "شواهد اویه‌وومی از زبان آغاز می‌شود. ضمیرهای یوروبا جنس را نشان نمی‌دهند؛ واژه‌هایی که معمولا مرد و زن ترجمه می‌شوند بهتر است چون وصف‌های کالبدشناختی بی‌محتوای اجتماعی برگردانده شوند؛ و اصطلاحی که در واقع نسبت‌ها را سامان می‌دهد «تقدم» است، که به ترتیب ورود به خانواده بستگی دارد و بر همه روا می‌شود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "From this she draws a methodological charge. Western social theory takes the body as the ground of social categories — what she calls body-reasoning — and researchers arriving with that assumption find gender everywhere because they translate every relation into it. The women of Yorùbá history are then an artefact of the questionnaire rather than a finding.",
+              "fa": "از این اتهامی روش‌شناختی بیرون می‌کشد. نظریه اجتماعی غربی تن را زمینه مقوله‌های اجتماعی می‌گیرد، که او آن را «تن‌اندیشی» می‌نامد، و پژوهشگرانی که با این فرض می‌رسند همه جا جنسیت می‌یابند چون هر نسبتی را به آن ترجمه می‌کنند. آنگاه «زنان» تاریخ یوروبا فرآورده آن پرسشنامه‌اند نه یافته‌ای."
+            },
+            "citations": [
+              { "source": "text-invention-of-women", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The book has been contested on its own ground by other Yorùbá scholars, and the disagreement is worth reporting rather than smoothing over. Bibi Bakare-Yusuf and others have argued that the linguistic evidence is thinner than presented, that absence of grammatical gender does not entail absence of gendered practice, and that colonial-era sources may have flattened distinctions that were there. Oyěwùmí's reply is that the burden of proof has been placed on the wrong side.\n\nWhat survives the dispute is the general point, which reaches beyond one case. If a category is treated as universal, a study designed around it will find it, and the finding will look like evidence. That applies to gender in Yorùbáland and equally to any other imported framework, which is why the book is now read in philosophy of social science as often as in African studies.",
+              "fa": "این کتاب را پژوهشگران یوروبای دیگر در همان زمین به چالش کشیده‌اند، و ارزش دارد این اختلاف گزارش شود نه هموار. بی‌بی باکاره یوسف و دیگران گفته‌اند شواهد زبانی نازک‌تر از آن است که نموده شده، اینکه نبود جنسیت دستوری نبود عمل جنسیت‌مند را در پی ندارد، و اینکه منابع دوره استعمار شاید تمایزهایی را که بوده صاف کرده باشند. پاسخ اویه‌وومی این است که بار اثبات را بر دوش نادرست گذاشته‌اند.\n\nآنچه از این نزاع جان به در می‌برد نکته کلی است، که از یک مورد فراتر می‌رود. اگر مقوله‌ای کلی گرفته شود، پژوهشی که گرد آن طراحی شده خواهد یافتش، و آن یافته چون شاهد خواهد نمود. این درباره جنسیت در سرزمین یوروبا صادق است و به همان اندازه درباره هر چارچوب وارداتی دیگر، و از همین روست که این کتاب اکنون در فلسفه علوم اجتماعی به همان فراوانی مطالعات افریقا خوانده می‌شود."
+            },
+            "citations": [
+              { "source": "text-invention-of-women", "locator": "ch. 6" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-invention-of-women"],
+      "citations": [{ "source": "text-invention-of-women" }]
+    },
+    {
+      "id": "in-my-fathers-house",
+      "title": { "en": "In My Father's House", "fa": "در خانه پدرم" },
+      "originalTitle": "In My Father's House: Africa in the Philosophy of Culture",
+      "author": "appiah",
+      "oneLine": {
+        "en": "Takes apart the idea of a single African identity while insisting the continent's philosophy be taken seriously.",
+        "fa": "ایده یک هویت یگانه افریقایی را از هم می‌گشاید و در همان حال پافشاری می‌کند که فلسفه این قاره جدی گرفته شود."
+      },
+      "composed": { "start": { "year": 1992, "precision": "exact" } },
+      "traditions": ["african", "africana", "analytic"],
+      "branches": [
+        "social-philosophy",
+        "political-philosophy",
+        "philosophy-of-language",
+        "decolonial-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Appiah's father was Ghanaian and his mother English, and the book closes with the funeral that its title refers to. The argument between those covers is that race has no biological basis, that pan-Africanism inherited its central category from the racial science it opposed, and that this can be said without conceding anything to anyone.",
+              "fa": "پدر آپیا غنایی و مادرش انگلیسی بود، و کتاب با همان مراسم خاکسپاری که عنوانش به آن اشاره دارد بسته می‌شود. استدلال میان این دو جلد این است که نژاد پایه زیستی ندارد، که پان‌افریقانیسم مقوله مرکزی خود را از همان دانش نژادی که با آن می‌جنگید به ارث برد، و اینکه این را می‌توان گفت بی‌آنکه به کسی امتیازی داده شود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The chapter on ethnophilosophy is the one that divides readers. Appiah objects to presenting a communal worldview, reconstructed from proverbs and ritual, as the philosophy of a people — partly because no European tradition is described that way, and partly because it removes disagreement, which is where philosophy lives. A tradition with no arguments in it is being treated as folklore while being called thought.",
+              "fa": "فصل قوم‌فلسفه همان است که خوانندگان را دو دسته می‌کند. آپیا اعتراض می‌کند به عرضه‌کردن جهان‌بینی‌ای جمعی، بازسازی‌شده از ضرب‌المثل و آیین، چون «فلسفه» یک ملت؛ تا حدی چون هیچ سنت اروپایی را چنین وصف نمی‌کنند، و تا حدی چون این اختلاف را برمی‌دارد، و فلسفه در همان اختلاف زندگی می‌کند. سنتی بی‌هیچ استدلالی در آن، چون فرهنگ عامه گرفته می‌شود و اندیشه خوانده می‌شود."
+            },
+            "citations": [
+              { "source": "text-in-my-fathers-house", "locator": "ch. 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His critics answer that the argument is made in the vocabulary of the discipline that excluded African thought in the first place, and that demanding written disputation as the mark of philosophy quietly reinstates the old standard. Appiah's position is that the alternative concedes more: if African philosophy is defined as whatever is unlike European philosophy, it can never be wrong about anything, which is not respect.\n\nHe has spent the years since building the positive side. The later work on cosmopolitanism argues for obligations that cross borders together with respect for particular attachments, and for conversation across difference as the practice that makes both possible — a position he traces to the Cynic answer about being a citizen of the world, and defends with an anthropologist's attention to how people actually change their minds, which is rarely by argument alone.",
+              "fa": "منتقدانش پاسخ می‌دهند که این استدلال در واژگان همان رشته‌ای گفته می‌شود که در وهله نخست اندیشه افریقایی را بیرون گذاشت، و اینکه خواستن مناظره مکتوب چون نشانه فلسفه، بی‌سروصدا همان معیار کهنه را بازمی‌گرداند. موضع آپیا این است که جایگزینش بیشتر امتیاز می‌دهد: اگر فلسفه افریقایی را چون هر آنچه شبیه فلسفه اروپایی نیست تعریف کنیم، هرگز نمی‌تواند درباره چیزی بر خطا باشد، و این حرمت نیست.\n\nاو سال‌های پس از آن را صرف ساختن سوی مثبت کرده است. کار متأخرش درباره جهان‌وطنی از تعهدهایی دفاع می‌کند که از مرزها می‌گذرند، همراه با حرمت‌نهادن به دلبستگی‌های خاص، و از گفت‌وگو در میان تفاوت چون عملی که هر دو را ممکن می‌کند؛ موضعی که ریشه‌اش را در پاسخ کلبی درباره شهروند جهان‌بودن می‌جوید، و با توجه یک مردم‌شناس به اینکه مردم در عمل چگونه رأیشان عوض می‌شود از آن دفاع می‌کند، که به‌ندرت تنها با استدلال است."
+            },
+            "citations": [
+              { "source": "text-cosmopolitanism-appiah", "locator": "ch. 1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-in-my-fathers-house", "text-cosmopolitanism-appiah"],
+      "citations": [{ "source": "text-in-my-fathers-house" }]
+    },
+    {
+      "id": "pedagogy-of-the-oppressed",
+      "title": { "en": "Pedagogy of the Oppressed", "fa": "آموزش ستم‌دیدگان" },
+      "originalTitle": "Pedagogia do Oprimido",
+      "author": "freire",
+      "oneLine": {
+        "en": "Attacks the model of teaching as deposit and proposes an education that begins from what learners already face.",
+        "fa": "الگوی آموزش چون سپرده‌گذاری را به نقد می‌کشد و آموزشی پیش می‌نهد که از آنچه یادگیرندگان با آن روبه‌رویند آغاز کند."
+      },
+      "composed": { "start": { "year": 1968, "precision": "exact" } },
+      "traditions": ["latin-american", "continental"],
+      "branches": [
+        "philosophy-of-education",
+        "political-philosophy",
+        "social-philosophy",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Freire ran literacy campaigns in north-eastern Brazil where the vote required being literate, and wrote this in exile after the 1964 coup. The banking model he names is the one where a teacher deposits information into students, who receive, file and store; its problem is not inefficiency but that it trains people to be receivers.",
+              "fa": "فریره در شمال شرقی برزیل، جایی که رأی‌دادن سواد می‌خواست، کارزارهای سوادآموزی می‌گرداند، و این را پس از کودتای ۱۹۶۴ در تبعید نوشت. الگوی بانکی‌ای که نام می‌برد همان است که در آن آموزگار اطلاعات را در دانش‌آموزان می‌سپارد و آنان می‌گیرند و بایگانی و انبار می‌کنند؛ اشکالش ناکارآمدی نیست، این است که مردم را برای گیرنده‌بودن می‌پرورد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The alternative is problem-posing education, in which teacher and students investigate together something the students actually confront, and the generative words used to teach reading are drawn from their own lives — well, land, wage. Literacy and political consciousness then develop in the same operation, which is the claim the book stands or falls on.",
+              "fa": "جایگزین آن آموزش مسئله‌طرح‌کن است، که در آن آموزگار و دانش‌آموزان با هم چیزی را می‌کاوند که دانش‌آموزان به‌راستی با آن روبه‌رویند، و واژه‌های زایایی که برای آموزش خواندن به کار می‌روند از زندگی خودشان گرفته می‌شود؛ چاه، زمین، مزد. آنگاه سواد و آگاهی سیاسی در یک عمل با هم رشد می‌کنند، و کتاب بر همین ادعا می‌ایستد یا می‌افتد."
+            },
+            "citations": [
+              { "source": "text-pedagogy-of-the-oppressed", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The subtlest part is about what oppression does to the oppressed. Freire says the oppressor's image of the world is internalised, so liberation cannot be handed over by anyone — a revolution conducted on behalf of people reproduces the banking relation in a new form. This is also his answer to the charge that he is prescribing a politics: the method fails if it is imposed, which is a constraint most political programmes do not accept.\n\nIts career has been odd. It is among the most cited books in the social sciences and is required reading in teacher training across several continents; it has also been banned, most recently in Arizona in 2010 as part of a ban on an ethnic studies programme. And the language of empowerment and dialogue it introduced now appears routinely in corporate training material, stripped of the analysis of power that gave the words their content — a fate Freire lived long enough to complain about.",
+              "fa": "ظریف‌ترین بخش درباره آن است که ستم با ستم‌دیده چه می‌کند. فریره می‌گوید تصویر ستمگر از جهان درونی می‌شود، پس رهایی را کسی نمی‌تواند دستی بسپارد؛ انقلابی که از سوی مردم انجام شود همان نسبت بانکی را در صورتی نو بازتولید می‌کند. این پاسخ او به این اتهام هم هست که سیاستی تجویز می‌کند: آن روش اگر تحمیل شود ناکام می‌ماند، و این قیدی است که بیشتر برنامه‌های سیاسی نمی‌پذیرندش.\n\nسرنوشت این کتاب عجیب بوده است. از پرارجاع‌ترین کتاب‌های علوم اجتماعی است و در چند قاره خواندنش در تربیت معلم الزامی است؛ ممنوع هم شده، و تازه‌ترینش در سال ۲۰۱۰ در آریزونا در چارچوب منع یک برنامه مطالعات قومی. و زبان توانمندسازی و گفت‌وگو که آورد اکنون به‌طور معمول در مواد آموزشی شرکت‌ها پیدا می‌شود، تهی‌شده از آن تحلیل قدرت که به این واژه‌ها محتوا می‌داد؛ سرنوشتی که فریره چندان زیست که از آن شکایت کند."
+            },
+            "citations": [
+              { "source": "text-pedagogy-of-the-oppressed", "locator": "ch. 1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-pedagogy-of-the-oppressed"],
+      "citations": [{ "source": "text-pedagogy-of-the-oppressed" }]
+    },
+    {
+      "id": "seven-essays",
+      "title": {
+        "en": "Seven Interpretive Essays on Peruvian Reality",
+        "fa": "هفت جستار تفسیری درباره واقعیت پرو"
+      },
+      "originalTitle": "7 ensayos de interpretación de la realidad peruana",
+      "author": "mariategui",
+      "oneLine": {
+        "en": "Reads Peru through its land question and refuses to force it into a European sequence of stages.",
+        "fa": "پرو را از راه مسئله زمینش می‌خواند و از فروکردنش در توالی مرحله‌های اروپایی سر باز می‌زند."
+      },
+      "composed": { "start": { "year": 1928, "precision": "exact" } },
+      "traditions": ["latin-american"],
+      "branches": [
+        "political-philosophy",
+        "social-philosophy",
+        "philosophy-of-history",
+        "decolonial-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mariátegui had no university education, lost a leg as a child and the other later, and died at thirty-five. The seven essays cover the economy, the indigenous question, land, education, religion, regionalism and literature, and the argument running through them is that these are one problem seen from seven angles.",
+              "fa": "ماریاتگی تحصیل دانشگاهی نداشت، در کودکی یک پا و بعدها پای دیگر را از دست داد، و در سی و پنج سالگی مرد. آن هفت جستار اقتصاد و مسئله بومیان و زمین و آموزش و دین و منطقه‌گرایی و ادبیات را در بر می‌گیرند، و استدلالی که در همه جاری است این است که این‌ها یک مسئله‌اند از هفت زاویه."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His central claim is that the indigenous question is not racial, cultural or moral but agrarian: it is the question of who holds the land, and every attempt to address it as a matter of education or humanitarian concern leaves the holding untouched. He also argues that the surviving communal forms of the ayllu are a basis to build on rather than a relic to be cleared away.",
+              "fa": "ادعای مرکزی او این است که مسئله بومیان نه نژادی است و نه فرهنگی و نه اخلاقی، بلکه ارضی است: پرسش این است که زمین در دست کیست، و هر کوششی برای پرداختن به آن چون امری آموزشی یا بشردوستانه، آن مالکیت را دست‌نخورده می‌گذارد. می‌گوید صورت‌های اشتراکی بازمانده «آیلو» پایه‌ای برای ساختن‌اند نه یادگاری برای برچیدن."
+            },
+            "citations": [
+              { "source": "text-seven-essays", "locator": "Essay 3" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "This put him at odds with the Communist International, which held that a country at Peru's stage needed a bourgeois revolution first and treated indigenous communal forms as feudal survivals. Mariátegui's reply was that socialism in Latin America must not be a copy — it has to be, in his phrase, a heroic creation — which was heterodox enough that the Comintern criticised him and his party was reorganised after his death.\n\nHe is one of the clearest cases of a philosopher whose method is inseparable from his location. The essays do not derive Peru from a theory; they start from land tenure records, literary history and the actual practice of villages, and let the theory be shaped by what is there. That has made him a founding reference for later Latin American thought, including the liberation philosophy that came four decades on, and the reason his name has outlasted most of his contemporaries.",
+              "fa": "همین او را رویاروی انترناسیونال کمونیستی نهاد، که می‌گفت کشوری در مرحله پرو نخست به انقلابی بورژوایی نیاز دارد و صورت‌های اشتراکی بومی را بازمانده فئودالی می‌شمرد. پاسخ ماریاتگی این بود که سوسیالیسم در امریکای لاتین نباید رونوشت باشد و باید، به تعبیر خودش، آفرینشی پهلوانانه باشد؛ و این چندان ناهم‌سو بود که کمینترن نقدش کرد و حزبش پس از مرگش از نو سازمان یافت.\n\nاو از روشن‌ترین نمونه‌های فیلسوفی است که روشش از جایگاهش جدایی‌ناپذیر است. آن جستارها پرو را از یک نظریه بیرون نمی‌کشند؛ از سندهای مالکیت زمین و تاریخ ادبیات و عمل واقعی روستاها آغاز می‌کنند و می‌گذارند نظریه را آنچه هست شکل دهد. همین او را مرجعی بنیادین برای اندیشه بعدی امریکای لاتین کرده، از جمله فلسفه رهایی‌بخش که چهار دهه بعد آمد، و دلیل ماندن نامش بیش از بیشتر هم‌روزگارانش."
+            },
+            "citations": [
+              { "source": "text-seven-essays", "locator": "Essay 2" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-seven-essays"],
+      "citations": [{ "source": "text-seven-essays" }]
+    },
+    {
+      "id": "borderlands",
+      "title": { "en": "Borderlands / La Frontera", "fa": "سرزمین‌های مرزی" },
+      "originalTitle": "Borderlands / La Frontera: The New Mestiza",
+      "author": "anzaldua",
+      "oneLine": {
+        "en": "Written in several languages at once, on what it is to be formed by a border rather than to cross one.",
+        "fa": "هم‌زمان به چند زبان نوشته شده، درباره اینکه شکل‌گرفتن به دست یک مرز چیست، نه گذشتن از آن."
+      },
+      "composed": { "start": { "year": 1987, "precision": "exact" } },
+      "traditions": ["latin-american", "american", "contemporary"],
+      "branches": [
+        "feminist-philosophy",
+        "social-philosophy",
+        "epistemology",
+        "decolonial-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The book moves between English, Spanish, Tex-Mex, Nahuatl and back, often within a paragraph, and does not translate itself. That is the argument enacted rather than illustrated: a reader who finds parts of it closed is being placed, briefly, where its subject lives permanently.",
+              "fa": "این کتاب میان انگلیسی و اسپانیایی و اسپانیایی تگزاسی و ناواتل و بازگشت به آن‌ها حرکت می‌کند، بارها در یک بند، و خودش را ترجمه نمی‌کند. این اجرای استدلال است نه نمونه‌آوردن برای آن: خواننده‌ای که بخش‌هایی را بسته می‌یابد، کوتاه‌مدت آنجا نهاده می‌شود که موضوع این کتاب همیشه در آن زندگی می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Anzaldúa's border is not only the line between Mexico and the United States. It is any place where two systems meet and a person is made to belong to both and neither, and the mestiza consciousness she describes is the capacity that develops there: holding contradictions without resolving them, because resolving them would mean discarding half of oneself.",
+              "fa": "مرز آنزالدوا تنها خط میان مکزیک و ایالات متحده نیست. هر جایی است که دو نظام به هم می‌رسند و کسی وادار می‌شود به هر دو و به هیچ‌کدام تعلق داشته باشد، و آگاهی مستیزایی که وصف می‌کند همان توانی است که آنجا پدید می‌آید: نگاه‌داشتن تناقض‌ها بی‌حل‌کردنشان، چون حل‌کردنشان یعنی دورانداختن نیمی از خویش."
+            },
+            "citations": [{ "source": "text-borderlands", "locator": "ch. 7" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The epistemological claim is the one philosophers have taken up. Being at an intersection of systems is not only a hardship; it is a position from which the seams are visible, because someone who fits inside one framework has no occasion to notice that it is a framework. That is a version of standpoint epistemology, arrived at independently and stated in a form that resists the usual objection, since she never claims the view from the border is complete.\n\nIt is a hard book to place in a syllabus and that is deliberate. It is part memoir, part history of the Texas borderlands, part poetry, and the theoretical passages sit inside the personal ones without a frame marking where argument begins. Readers trained to look for a thesis and its support find the form evasive; the counter-case is that a claim about knowledge produced by fracture would be undermined by a smooth academic surface.",
+              "fa": "ادعای معرفت‌شناختی همان است که فیلسوفان برگرفته‌اند. بودن در تقاطع نظام‌ها تنها سختی نیست؛ جایگاهی است که از آن درزها دیده می‌شوند، چون کسی که در یک چارچوب جا می‌شود مناسبتی ندارد که متوجه شود آن یک چارچوب است. این روایتی از معرفت‌شناسی منظرگاهی است، که مستقل به آن رسیده و به صورتی گفته شده که در برابر اعتراض همیشگی مقاومت می‌کند، چون او هرگز ادعا نمی‌کند منظر مرز تمام است.\n\nجای‌دادن این کتاب در یک برنامه درسی دشوار است و این عمدی است. بخشی خاطره است و بخشی تاریخ سرزمین‌های مرزی تگزاس و بخشی شعر، و بندهای نظری درون بندهای شخصی می‌نشینند بی‌قابی که بگوید استدلال از کجا آغاز می‌شود. خوانندگانی که آموخته‌اند دنبال یک ادعا و پشتیبانش بگردند این صورت را طفره‌رو می‌یابند؛ پاسخ متقابل این است که ادعایی درباره دانشی که از شکاف زاده می‌شود، با سطحی صاف و دانشگاهی سست می‌شد."
+            },
+            "citations": [
+              { "source": "text-borderlands", "locator": "preface" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-borderlands"],
+      "citations": [{ "source": "text-borderlands" }]
+    },
+    {
+      "id": "aint-i-a-woman",
+      "title": { "en": "Ain't I a Woman", "fa": "مگر من زن نیستم" },
+      "originalTitle": "Ain't I a Woman: Black Women and Feminism",
+      "author": "bell-hooks",
+      "oneLine": {
+        "en": "Shows that a movement organised around one axis at a time had no place to put the people at their intersection.",
+        "fa": "نشان می‌دهد جنبشی که هر بار گرد یک محور سامان می‌یابد جایی برای کسانی که در تقاطع‌اند ندارد."
+      },
+      "composed": { "start": { "year": 1981, "precision": "exact" } },
+      "traditions": ["africana", "american", "contemporary"],
+      "branches": [
+        "feminist-philosophy",
+        "social-philosophy",
+        "political-philosophy",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "hooks began writing it at nineteen. The title comes from the words attributed to Sojourner Truth, and the book's method is historical: it traces how the abolition movement and the women's movement each set the other aside, and what that repeatedly cost black women who belonged to both.",
+              "fa": "هوکس نوشتنش را در نوزده سالگی آغاز کرد. عنوان از سخنانی می‌آید که به سوجورنر تروث نسبت داده‌اند، و روش کتاب تاریخی است: پی می‌گیرد که چگونه جنبش الغای برده‌داری و جنبش زنان هر یک دیگری را کنار نهاد، و این بارها چه بهایی برای زنان سیاهی داشت که به هر دو تعلق داشتند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Her structural claim is that racism and sexism are not two burdens that add up but one arrangement that produces a distinct position. A feminism whose paradigm case is a middle-class white woman kept from work will produce demands that do not fit a woman who has never been kept from work, and will report her absence as apathy rather than as evidence about the analysis.",
+              "fa": "ادعای ساختاری او این است که نژادپرستی و مردسالاری دو باری نیستند که جمع شوند، یک سامان‌اند که جایگاهی متمایز می‌سازد. فمینیسمی که نمونه الگویی‌اش زنی سفیدپوست از طبقه متوسط است که از کار بازداشته شده، خواسته‌هایی می‌سازد که به زنی که هرگز از کار بازداشته نشده نمی‌خورد، و غیبت او را بی‌تفاوتی گزارش می‌کند نه شاهدی درباره خود آن تحلیل."
+            },
+            "citations": [
+              { "source": "text-aint-i-a-woman", "locator": "ch. 4" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The attribution in the title needs a note. The speech Sojourner Truth gave at Akron in 1851 was reported at the time in a version that does not contain the refrain; the famous wording comes from Frances Gage's account published twelve years later, in a southern dialect Truth, who grew up speaking Dutch in New York, is unlikely to have used. The line is genuinely important and its exact provenance is genuinely uncertain, and hooks's argument does not depend on settling it.\n\nShe wrote in plain language on purpose and kept the lowercase name to keep attention on the work rather than the author. Later books extend the argument to education, love and to men, and the volume on teaching is the one most used by people who do not otherwise read theory. Her insistence that theory can be a place of healing rather than an abstraction over suffering is either the most valuable thing in her work or its most contested claim, depending on the reader.",
+              "fa": "آن انتساب در عنوان یادداشتی می‌خواهد. سخنرانی سوجورنر تروث در آکرون به سال ۱۸۵۱ در همان زمان به روایتی گزارش شد که آن ترجیع را ندارد؛ آن عبارت مشهور از گزارش فرانسیس گیج می‌آید که دوازده سال بعد منتشر شد، به لهجه‌ای جنوبی که بعید است تروث، که در نیویورک با زبان هلندی بزرگ شده بود، به کار برده باشد. آن سطر به‌راستی مهم است و خاستگاه دقیقش به‌راستی نامعلوم، و استدلال هوکس به فیصله‌دادن آن بستگی ندارد.\n\nاو عمدا به زبانی ساده می‌نوشت و نام خود را با حروف کوچک نگاه داشت تا توجه بر کار بماند نه بر نویسنده. کتاب‌های بعدی این استدلال را به آموزش و عشق و به مردان می‌کشانند، و جلد مربوط به تدریس همان است که کسانی که در حالت عادی نظریه نمی‌خوانند بیش از همه به کارش می‌برند. پافشاری او بر اینکه نظریه می‌تواند جای بهبود باشد نه انتزاعی بر فراز رنج، بسته به خواننده یا ارزشمندترین چیز کار اوست یا پرمنازعه‌ترین ادعایش."
+            },
+            "citations": [
+              { "source": "text-teaching-to-transgress", "locator": "ch. 4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-aint-i-a-woman", "text-teaching-to-transgress"],
+      "citations": [{ "source": "text-aint-i-a-woman" }]
     }
   ]
 }
