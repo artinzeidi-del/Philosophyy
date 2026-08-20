@@ -2419,6 +2419,1005 @@
         ]
       },
       "citations": [{ "source": "text-respuesta" }, { "source": "sep" }]
+    },
+    {
+      "id": "leviathan",
+      "title": { "en": "Leviathan", "fa": "لویاتان" },
+      "originalTitle": "Leviathan, or The Matter, Forme and Power of a Common-Wealth Ecclesiasticall and Civill",
+      "alsoKnownAs": ["لویاتان یا ماده، صورت و قدرت یک دولت"],
+      "author": "hobbes",
+      "oneLine": {
+        "en": "Builds the state from the ground up, starting with what a human being is and ending with why almost any government beats none.",
+        "fa": "دولت را از پایه می‌سازد؛ از اینکه آدمی چیست آغاز می‌کند و به اینکه چرا تقریباً هر حکومتی بهتر از بی‌حکومتی است می‌رسد."
+      },
+      "composed": { "start": { "year": 1651, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": ["political-philosophy", "ethics", "philosophy-of-mind"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Written in exile during the English civil war, by a man who thought civil war was the worst thing that could happen to anyone. Hobbes argues that without a common power to hold everybody in awe, life is a war of all against all — and that a people would be right to hand almost unlimited authority to one sovereign to escape it.",
+              "fa": "در تبعید و در میانهٔ جنگ داخلی انگلستان نوشته شد، به دستِ مردی که جنگ داخلی را بدترین چیزِ ممکن می‌دانست. هابز می‌گوید بدون قدرتی مشترک که همه را در هراس نگه دارد، زندگی جنگِ همه بر ضدِ همه است — و مردم حق دارند برای گریز از آن، اختیاری تقریباً نامحدود به یک حاکم بسپارند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is built in a deliberate order, and the order is the point. Book one is about human beings — sensation, appetite, speech, reasoning — with no politics in it at all. Only once that is settled does Hobbes ask what such creatures would do without a state, and the answer follows from the psychology rather than from any claim that people are wicked. Equally matched, equally afraid, and unable to be sure of each other, they attack first.",
+              "fa": "استدلال به ترتیبی عمدی ساخته شده، و همان ترتیب نکته است. دفتر نخست دربارهٔ آدمیان است — احساس، میل، سخن، استدلال — و هیچ سیاستی در آن نیست. تنها پس از فیصلهٔ آن است که هابز می‌پرسد چنین موجوداتی بی‌دولت چه می‌کنند، و پاسخ از همان روان‌شناسی برمی‌آید نه از ادعایی دربارهٔ بدسرشتیِ آدمیان. برابر در توان، برابر در ترس، و ناتوان از اطمینان به یکدیگر، نخست حمله می‌کنند."
+            },
+            "citations": [{ "source": "text-leviathan", "locator": "I.13" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Two features of the covenant are argued over most. The sovereign is not a party to it — the subjects contract with each other, not with him — so there is no agreement he can be accused of breaking, and no ground on which to depose him. And the authority transferred is nearly total: religion, property, what may be taught. Hobbes accepts every one of these consequences openly, which is rare and is why the book still repays reading even where it repels.\n\nOne limit survives. The whole covenant exists to protect the life of the person making it, so nobody can be understood to have given up the right to resist someone come to kill them, and a sovereign who can no longer protect is owed nothing. Later liberalism did not adopt his conclusions; it adopted his method — build political authority out of what individuals would agree to — and then argued that individuals would agree to far less.",
+              "fa": "بر سرِ دو ویژگیِ آن پیمان بیش از همه بحث شده است. حاکم طرفِ آن نیست — اتباع با یکدیگر پیمان می‌بندند نه با او — پس توافقی نیست که بتوان او را به شکستنش متهم کرد، و زمینه‌ای برای خلعش نیست. و اختیارِ واگذارشده تقریباً تمام است: دین، مالکیت، آنچه می‌توان آموخت. هابز هر یک از این پیامدها را آشکارا می‌پذیرد، که کمیاب است و به همین سبب این کتاب هنوز حتی آنجا که دفع می‌کند خواندنش می‌ارزد.\n\nیک حد بر جای می‌ماند. تمامِ آن پیمان برای پاسداشتِ جانِ همان کسی است که می‌بنددش، پس نمی‌توان کسی را چنین فهمید که حقِ مقاومت در برابرِ آنکه به کشتنش آمده را واگذاشته باشد، و حاکمی که دیگر نمی‌تواند پاس دارد چیزی طلبکار نیست. لیبرالیسمِ بعدی نتیجه‌های او را نپذیرفت؛ روشش را پذیرفت — اقتدارِ سیاسی را از آنچه افراد بدان رضایت می‌دهند بساز — و سپس استدلال کرد که افراد به بسیار کمتر رضایت می‌دهند."
+            },
+            "citations": [{ "source": "text-leviathan", "locator": "II.17" }]
+          }
+        ]
+      },
+      "editions": ["text-leviathan", "text-de-cive"],
+      "citations": [{ "source": "text-leviathan" }]
+    },
+    {
+      "id": "essay-human-understanding",
+      "title": {
+        "en": "An Essay Concerning Human Understanding",
+        "fa": "جستاری در فهم آدمی"
+      },
+      "author": "locke",
+      "oneLine": {
+        "en": "Asks what the mind can know before asking what there is, and answers by tracing every idea back to experience.",
+        "fa": "پیش از آنکه بپرسد چه هست، می‌پرسد ذهن چه می‌تواند بداند، و پاسخ را با ردیابی هر تصور تا تجربه می‌دهد."
+      },
+      "composed": { "start": { "year": 1689, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-mind",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Locke's target is the claim that some knowledge is stamped on the mind at birth. If it were, he argues, everyone would assent to it — and children and the unschooled do not. What remains is a mind furnished entirely from sensation and from watching its own operations, an idea he compares to white paper.",
+              "fa": "هدفِ لاک این ادعاست که پاره‌ای دانش از بدو تولد بر ذهن نقش بسته است. می‌گوید اگر چنین بود همه بدان گردن می‌نهادند — و کودکان و ناآموختگان نمی‌نهند. آنچه می‌ماند ذهنی است که یکسره از احساس و از نگریستن به کارهای خودش آراسته شده، تصوری که آن را به کاغذ سفید مانند می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The book is long because the argument is cumulative: having denied innate content, Locke has to show that every difficult idea can be assembled from simple ones. Substance is where the programme strains. We have no idea of what holds a thing's qualities together, only of the qualities, so substance comes out as a something-we-know-not-what — an admission his critics seized on and Berkeley made a career of.",
+              "fa": "کتاب بلند است چون استدلال انباشتی است: لاک پس از انکارِ محتوای فطری، باید نشان دهد هر تصورِ دشوار را می‌توان از تصورهای ساده ساخت. «جوهر» جایی است که این برنامه تنگ می‌آید. ما تصوری از آنچه کیفیت‌های یک چیز را کنارِ هم نگه می‌دارد نداریم، تنها از خودِ کیفیت‌ها، پس جوهر «چیزی که نمی‌دانیم چیست» از آب درمی‌آید — اعترافی که منتقدانش بر آن چنگ زدند و برکلی از آن پیشه‌ای ساخت."
+            },
+            "citations": [
+              {
+                "source": "text-essay-human-understanding",
+                "locator": "II.1.2"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The chapter on personal identity was added in the second edition and has outlived much of the rest. Locke separates the man, the soul and the person, and locates the last in continuity of consciousness rather than in either of the others: if you remember doing it, you are the one who did it. The puzzles arrive immediately — the drunk who does not remember, the old officer who recalls his youth but not his childhood — and every subsequent theory of personal identity is a response to them.\n\nHis account of language is less read and did as much work. Words stand for ideas in the mind of the speaker, not for things, which makes disagreement mostly a matter of two people attaching one sound to two ideas. Locke thought most philosophical disputes were of this kind, and recommended defining terms before arguing — advice that reads as mild until you notice how much of the twentieth century took it as a programme.",
+              "fa": "فصلِ هویتِ شخصی در ویراستِ دوم افزوده شد و از بیشترِ باقیِ کتاب بیشتر عمر کرد. لاک «انسان» و «نفْس» و «شخص» را از هم جدا می‌کند و آخری را نه در آن دو، که در پیوستگیِ آگاهی می‌نشاند: اگر به یاد داری که کرده‌ای، همانی که کرده است. معماها بی‌درنگ می‌رسند — مستی که به یاد نمی‌آورد، افسرِ پیری که جوانی‌اش را به یاد دارد و کودکی‌اش را نه — و هر نظریهٔ بعدیِ هویتِ شخصی پاسخی به آن‌هاست.\n\nشرحِ او از زبان کمتر خوانده شده و به همان اندازه کار کرده است. واژه‌ها به‌جای تصورهای درونِ ذهنِ گوینده می‌نشینند نه به‌جای چیزها، و همین اختلاف را بیشتر به این بدل می‌کند که دو نفر یک صدا را به دو تصور بسته‌اند. لاک می‌پنداشت بیشترِ نزاع‌های فلسفی از همین گونه‌اند، و توصیه می‌کرد پیش از بحث اصطلاح‌ها تعریف شوند — اندرزی که ملایم می‌نماید تا وقتی ببینی چه بخشِ بزرگی از سدهٔ بیستم آن را چون یک برنامه گرفت."
+            },
+            "citations": [
+              { "source": "text-essay-human-understanding", "locator": "II.27" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-essay-human-understanding"],
+      "citations": [{ "source": "text-essay-human-understanding" }]
+    },
+    {
+      "id": "treatise-human-nature",
+      "title": {
+        "en": "A Treatise of Human Nature",
+        "fa": "رساله‌ای در طبیعت آدمی"
+      },
+      "author": "hume",
+      "oneLine": {
+        "en": "Applies the experimental method to the mind itself, and finds less standing behind causation, the self and morality than anyone expected.",
+        "fa": "روشِ تجربی را بر خودِ ذهن به کار می‌بندد، و پشتِ علیت و خویشتن و اخلاق کمتر از آنچه کسی انتظار داشت می‌یابد."
+      },
+      "composed": {
+        "start": { "year": 1739, "precision": "exact" },
+        "end": { "year": 1740, "precision": "exact" }
+      },
+      "traditions": ["european"],
+      "branches": [
+        "epistemology",
+        "metaphysics",
+        "ethics",
+        "philosophy-of-mind"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Hume was twenty-six. The book sold almost nothing — it fell dead-born from the press, he wrote later — and contains three of the most consequential arguments in modern philosophy: that we never observe causation, only one thing following another; that no amount of describing how things are yields a conclusion about how they ought to be; and that looking inward for a self finds perceptions and never the thing having them.",
+              "fa": "هیوم بیست‌وشش‌ساله بود. کتاب تقریباً هیچ نفروخت — خودش بعدها نوشت که مرده از چاپخانه بیرون آمد — و سه استدلال از پیامدسازترین‌های فلسفهٔ مدرن در آن است: اینکه ما هرگز علیت را مشاهده نمی‌کنیم، تنها پیاپی‌آمدنِ چیزها را؛ اینکه هیچ اندازه از وصفِ آنچه هست به نتیجه‌ای دربارهٔ آنچه باید باشد نمی‌رسد؛ و اینکه نگریستن به درون در جست‌وجوی خویشتن، ادراک‌ها می‌یابد و هرگز آن چیزی که ادراک می‌کند را نه."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The causal argument is often reported as scepticism about whether one billiard ball moves another. It is narrower and stranger than that. Hume grants the succession and the regularity; what he denies is that we perceive any necessary connection between them, and he traces the feeling of necessity to habit — the mind, having seen the pair often, comes to expect the second on seeing the first, and mistakes its own expectation for something in the objects.",
+              "fa": "استدلالِ علّی را بارها چون شکاکیت دربارهٔ اینکه آیا یک توپ بیلیارد دیگری را به حرکت درمی‌آورد گزارش می‌کنند. باریک‌تر و غریب‌تر از این است. هیوم توالی و قاعده‌مندی را می‌پذیرد؛ آنچه انکار می‌کند این است که ما پیوندی ضروری میانشان ادراک کنیم، و حسِ ضرورت را تا عادت پی می‌گیرد — ذهن که آن جفت را بارها دیده، با دیدنِ اولی چشم‌به‌راهِ دومی می‌شود، و انتظارِ خودش را به‌اشتباه چیزی در خودِ اشیا می‌گیرد."
+            },
+            "citations": [
+              { "source": "text-treatise-human-nature", "locator": "I.3.14" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The bundle theory of the self is the argument readers find hardest to shake. Enter most intimately into what you call yourself, Hume says, and you stumble on a perception — heat or cold, light or shade, love or hatred — never on yourself distinct from them. He concludes that a mind is a bundle of perceptions in perpetual flux, held together by relations rather than by an owner.\n\nIn an appendix he says the account will not do and he cannot see how to repair it. That admission is one of the most honest passages in philosophy and has been read two ways: as a young man's failure of nerve, and as a recognition that his own principles cannot explain what binds the bundle. Kant said the memory of Hume was what woke him from dogmatic slumber, and the Critique of Pure Reason is in large part an attempt to answer this book without giving up what it established.",
+              "fa": "نظریهٔ «دسته» دربارهٔ خویشتن، همان استدلالی است که خوانندگان بیش از همه در رهاکردنش می‌مانند. هیوم می‌گوید به صمیمی‌ترین وجه به آنچه خودت می‌خوانی درآی، و به ادراکی برمی‌خوری — گرما یا سرما، روشنی یا سایه، مهر یا کین — و هرگز به خودت جدا از آن‌ها نه. نتیجه می‌گیرد که ذهن دسته‌ای از ادراک‌ها در جریانی دائمی است، که نه با صاحبی، که با نسبت‌ها کنارِ هم می‌ماند.\n\nدر پیوستی می‌گوید این شرح کافی نیست و نمی‌داند چگونه ترمیمش کند. آن اعتراف از صادقانه‌ترین بندهای فلسفه است و دو گونه خوانده شده: چون از دست دادنِ جسارتِ مردی جوان، و چون بازشناسیِ اینکه اصولِ خودش نمی‌توانند توضیح دهند چه چیز آن دسته را به هم می‌بندد. کانت گفت یادِ هیوم بود که او را از خوابِ جزم‌اندیشی بیدار کرد، و «نقد عقل محض» تا حدِ زیادی کوششی است برای پاسخ‌دادن به این کتاب بی‌آنکه آنچه اثبات کرده رها شود."
+            },
+            "citations": [
+              { "source": "text-treatise-human-nature", "locator": "I.4.6" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-treatise-human-nature",
+        "text-enquiry-human-understanding"
+      ],
+      "citations": [{ "source": "text-treatise-human-nature" }]
+    },
+    {
+      "id": "social-contract",
+      "title": { "en": "The Social Contract", "fa": "قرارداد اجتماعی" },
+      "originalTitle": "Du contrat social",
+      "author": "rousseau",
+      "oneLine": {
+        "en": "Asks what could make political authority legitimate, given that nobody is born owing obedience to anybody.",
+        "fa": "می‌پرسد چه چیز می‌تواند اقتدارِ سیاسی را مشروع کند، با آنکه کسی بدهکارِ اطاعت از کسی زاده نمی‌شود."
+      },
+      "composed": { "start": { "year": 1762, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": ["political-philosophy", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "It opens with the most quoted sentence in political philosophy and immediately says something less quoted: Rousseau does not know how people came to be in chains, but believes he can say what would make the arrangement legitimate. The book is an answer rather than a complaint.",
+              "fa": "با پرنقل‌ترین جملهٔ فلسفهٔ سیاسی آغاز می‌شود و بی‌درنگ چیزی کم‌نقل‌تر می‌گوید: روسو نمی‌داند مردم چگونه به زنجیر افتادند، اما گمان می‌کند بتواند بگوید چه چیز این ترتیب را مشروع می‌کند. این کتاب پاسخ است نه شکایت."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The general will is the book's central term and its greatest difficulty. It is not the sum of what everybody happens to want, which Rousseau calls the will of all and treats as a different thing entirely. It is what the citizens would will considering the common good rather than their private interests — which means a majority can be mistaken about it, and a minority can be told it was wrong about its own will.",
+              "fa": "«ارادهٔ عمومی» اصطلاحِ مرکزیِ کتاب و بزرگ‌ترین دشواریِ آن است. جمعِ آنچه همه اتفاقاً می‌خواهند نیست، که روسو آن را «ارادهٔ همگان» می‌خواند و یکسره چیزِ دیگری می‌شمارد. آن است که شهروندان با در نظر گرفتنِ خیرِ مشترک، نه سودِ خصوصی‌شان، اراده می‌کردند — یعنی اکثریت می‌تواند دربارهٔ آن اشتباه کند، و به اقلیت می‌توان گفت دربارهٔ ارادهٔ خودش خطا کرده است."
+            },
+            "citations": [
+              { "source": "text-social-contract", "locator": "II.3" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "That last consequence produced the book's darkest sentence, that whoever refuses to obey the general will shall be forced to be free. Read one way it is the seed of every regime that claimed to know its people's interests better than they did; read another it says only that a citizen who breaks a law they themselves voted for is being held to their own commitment. Rousseau meant the second and the first was drawn from him, which is a fact about the text as much as about its readers.\n\nHis institutional proposals are stranger than his reputation suggests. He thought the general will could not be represented, so elected assemblies were a corruption rather than a mechanism; he thought a state large enough to need them was already too large. The book was banned in Paris and in Geneva, and read at the Revolution by people who took from it almost the opposite of what it argued.",
+              "fa": "همان پیامدِ آخر تیره‌ترین جملهٔ کتاب را ساخت، که هرکه از فرمانِ ارادهٔ عمومی سر باز زند «وادار به آزادی خواهد شد». به یک خوانش، این بذرِ هر رژیمی است که ادعا کرد منافعِ مردمش را بهتر از خودشان می‌داند؛ به خوانشی دیگر، تنها می‌گوید شهروندی که قانونی را می‌شکند که خودش به آن رأی داده، به تعهدِ خودش پایبند نگه داشته می‌شود. مرادِ روسو دومی بود و اولی از او بیرون کشیده شد، و این هم واقعیتی دربارهٔ متن است هم دربارهٔ خوانندگانش.\n\nپیشنهادهای نهادیِ او غریب‌تر از آوازه‌اش‌اند. می‌پنداشت ارادهٔ عمومی نمایندگی‌پذیر نیست، پس مجلسِ انتخابی فسادی بود نه سازوکاری؛ می‌پنداشت دولتی که به آن نیاز دارد از پیش بزرگ‌تر از حد است. کتاب در پاریس و در ژنو ممنوع شد، و در انقلاب کسانی خواندندش که تقریباً وارونهٔ استدلالش را از آن گرفتند."
+            },
+            "citations": [
+              { "source": "text-social-contract", "locator": "I.7" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-social-contract", "text-discourse-inequality"],
+      "citations": [{ "source": "text-social-contract" }]
+    },
+    {
+      "id": "on-liberty",
+      "title": { "en": "On Liberty", "fa": "دربارهٔ آزادی" },
+      "author": "mill",
+      "oneLine": {
+        "en": "Draws one line: society may interfere with a person only to stop them harming someone else.",
+        "fa": "یک خط می‌کشد: جامعه تنها برای بازداشتن کسی از آسیب‌رساندن به دیگری می‌تواند در کارش دخالت کند."
+      },
+      "composed": { "start": { "year": 1859, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": ["political-philosophy", "ethics", "social-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mill's worry is not mainly the state. It is the tyranny of the majority — the pressure of opinion, which needs no law to enforce it and reaches into places law cannot. A society can leave someone entirely free in the legal sense and make an unconventional life impossible.",
+              "fa": "نگرانیِ اصلیِ میل دولت نیست. استبدادِ اکثریت است — فشارِ عقیده، که برای اجرا به قانون نیازی ندارد و به جاهایی می‌رسد که قانون نمی‌رسد. جامعه می‌تواند کسی را به معنای حقوقی یکسره آزاد بگذارد و زندگیِ نامتعارف را ناممکن کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The case for free expression is made from the value to the listeners rather than from any right of the speaker, and it has four steps. A silenced opinion may be true. It may be partly true, and the received view partly false. Even a wholly false one keeps the true view from hardening into a formula nobody understands. And an opinion held without ever meeting its opposition is held as a prejudice, whatever its merits.",
+              "fa": "دفاع از آزادیِ بیان بر ارزشِ آن برای شنوندگان بنا شده نه بر حقی برای گوینده، و چهار گام دارد. عقیدهٔ خاموش‌شده ممکن است درست باشد. ممکن است بخشی از آن درست باشد و بخشی از دیدگاهِ پذیرفته نادرست. حتی عقیده‌ای یکسره نادرست نمی‌گذارد دیدگاهِ درست به فرمولی سخت‌شده بدل شود که کسی نمی‌فهمدش. و عقیده‌ای که هرگز با مخالفش روبه‌رو نشده، هرچه ارزشش باشد، چون پیش‌داوری نگه داشته می‌شود."
+            },
+            "citations": [{ "source": "text-on-liberty", "locator": "ch. 2" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The harm principle is easier to state than to apply, and Mill knew it. Almost nothing a person does affects only themselves; a man who drinks away his wages harms his family, and a life visibly wasted discourages others. Mill's answer is to distinguish harm from offence and from mere effect: being upset by how someone lives is not being harmed by it. Where exactly that line falls has been the subject of a century and a half of argument, most of it conducted in his vocabulary.\n\nThe essay was written with Harriet Taylor and Mill said so in terms that his contemporaries found excessive and later scholarship has taken seriously. His other books extend the same argument in directions the Victorians liked less: The Subjection of Women applies it to marriage and calls the legal position of wives a relic of slavery, and Utilitarianism has to explain how a doctrine of aggregate happiness leaves room for a liberty nobody may vote away.",
+              "fa": "بیانِ اصلِ آسیب آسان‌تر از به‌کاربستنِ آن است، و میل این را می‌دانست. تقریباً هیچ کارِ آدمی تنها بر خودش اثر نمی‌گذارد؛ مردی که مزدش را می‌نوشد به خانواده‌اش آسیب می‌زند، و زندگی‌ای که آشکارا هدر رفته دیگران را دلسرد می‌کند. پاسخِ میل جداکردنِ آسیب از رنجش و از اثرِ صرف است: از شیوهٔ زندگیِ کسی آزرده‌شدن، آسیب‌دیدن از آن نیست. اینکه آن خط دقیقاً کجا می‌افتد یک قرن و نیم موضوعِ بحث بوده، و بیشترش با واژگانِ او پیش رفته.\n\nاین جستار با هریت تیلور نوشته شد و میل چنان گفتش که هم‌روزگارانش زیاده‌روی دانستند و پژوهشِ بعدی جدی گرفت. کتاب‌های دیگرش همین استدلال را به جهت‌هایی می‌برند که ویکتوریایی‌ها کمتر خوش داشتند: «انقیاد زنان» آن را بر ازدواج به کار می‌بندد و موقعیتِ حقوقیِ همسران را بازماندهٔ بردگی می‌خواند، و «سودگرایی» ناچار است توضیح دهد چگونه آموزه‌ای دربارهٔ خوشبختیِ انباشته، جا برای آزادی‌ای می‌گذارد که کسی نمی‌تواند با رأی از میان ببرد."
+            },
+            "citations": [{ "source": "text-on-liberty", "locator": "ch. 4" }]
+          }
+        ]
+      },
+      "editions": [
+        "text-on-liberty",
+        "text-utilitarianism",
+        "text-subjection-of-women"
+      ],
+      "citations": [{ "source": "text-on-liberty" }]
+    },
+    {
+      "id": "meditations-aurelius",
+      "title": { "en": "Meditations", "fa": "تأملات" },
+      "originalTitle": "Τὰ εἰς ἑαυτόν",
+      "transliteration": "Ta eis heauton",
+      "alsoKnownAs": ["To Himself", "با خود"],
+      "author": "marcus-aurelius",
+      "oneLine": {
+        "en": "A Roman emperor's private notebook, written on campaign and never meant to be read by anyone.",
+        "fa": "دفترچهٔ خصوصیِ یک امپراتور روم، در لشکرکشی نوشته شده و هرگز قرار نبوده کسی بخواندش."
+      },
+      "composed": {
+        "start": { "year": 170, "precision": "circa" },
+        "end": { "year": 180, "precision": "circa" }
+      },
+      "traditions": ["roman", "hellenistic"],
+      "branches": ["ethics", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Not a treatise and not addressed to a reader. The Greek title means to himself, and the entries are a man reminding himself of things he already believed and kept failing to act on — that other people's faults are not his business, that fame outlives nobody, that he will be dead soon and so will everyone annoying him.",
+              "fa": "نه رساله است و نه خطاب به خواننده. عنوانِ یونانی یعنی «با خود»، و این یادداشت‌ها مردی است که چیزهایی را که از پیش باور داشت و مدام در عمل به آن‌ها درمی‌ماند به خود یادآوری می‌کند — که عیب‌های دیگران به او مربوط نیست، که آوازه از کسی بیشتر نمی‌ماند، که به‌زودی خواهد مرد و هرکه آزارش می‌دهد نیز."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The book's oddity is that its author had everything Stoicism teaches you not to need. He was the most powerful man alive and spends twelve books talking himself out of caring about power, reputation and the opinion of the senate. That is either the strongest possible evidence for the philosophy or the clearest evidence of how hard it is to hold.",
+              "fa": "غرابتِ کتاب در این است که نویسنده‌اش هرچه را رواقی‌گری می‌آموزد بی‌نیاز از آن باشی، داشت. تواناترین مردِ زنده بود و دوازده دفتر خود را از اهمیت‌دادن به قدرت و آوازه و نظرِ مجلس سنا بازمی‌دارد. این یا قوی‌ترین شاهدِ ممکن برای آن فلسفه است یا روشن‌ترین شاهد بر دشواریِ نگه‌داشتنش."
+            },
+            "citations": [{ "source": "text-meditations", "locator": "II.1" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Two things separate it from the handbooks. The repetition is not editorial failure but the form: these are exercises, meant to be run again each morning, and a thought that has been written once has not yet been learned. And the tone is bleak in a way Epictetus is not — Marcus keeps returning to how briefly anything lasts, how soon the names of the famous are forgotten, how little of what troubles him will matter in a decade.\n\nRead as consolation the book is thin. Read as what it is — a man losing children, fighting a war he did not want, presiding over a plague, and writing down each night the arguments that let him get up the next day — it is among the few philosophical works whose value does not depend on whether its arguments succeed.",
+              "fa": "دو چیز آن را از دستنامه‌ها جدا می‌کند. تکرار، شکستِ ویرایشی نیست بلکه خودِ صورت است: این‌ها تمرین‌اند، برای آنکه هر بامداد از نو اجرا شوند، و اندیشه‌ای که یک بار نوشته شده هنوز آموخته نشده. و لحن به گونه‌ای تیره است که لحنِ اپیکتتوس نیست — مارکوس مدام به این بازمی‌گردد که هر چیز چه کوتاه می‌پاید، نامِ نامداران چه زود فراموش می‌شود، و از آنچه امروز می‌آزاردش چه اندکی ده سالِ دیگر مهم خواهد بود.\n\nاگر چون تسلی خوانده شود کتاب نازک است. اگر چون آنچه هست خوانده شود — مردی که فرزندانش را از دست می‌دهد، در جنگی می‌جنگد که نمی‌خواست، بر طاعونی ریاست می‌کند، و هر شب استدلال‌هایی را می‌نویسد که فردا صبح از جا برخاستن را ممکن می‌کنند — از معدود آثارِ فلسفی است که ارزشش به کامیابیِ استدلال‌هایش بستگی ندارد."
+            },
+            "citations": [{ "source": "text-meditations", "locator": "IV.3" }]
+          }
+        ]
+      },
+      "editions": ["text-meditations"],
+      "citations": [{ "source": "text-meditations" }]
+    },
+    {
+      "id": "de-rerum-natura",
+      "title": { "en": "On the Nature of Things", "fa": "دربارهٔ طبیعتِ چیزها" },
+      "originalTitle": "De rerum natura",
+      "author": "lucretius",
+      "oneLine": {
+        "en": "Epicurean physics as a Latin poem: atoms, void, mortal souls, and an argument that fearing death is a mistake about what death is.",
+        "fa": "طبیعیاتِ اپیکوری در قالبِ شعرِ لاتین: اتم‌ها، خلأ، نفْس‌های میرا، و استدلالی که ترس از مرگ را خطایی دربارهٔ چیستیِ مرگ می‌داند."
+      },
+      "composed": { "start": { "year": -55, "precision": "circa" } },
+      "traditions": ["roman", "hellenistic"],
+      "branches": ["metaphysics", "ethics", "philosophy-of-science"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Six books of hexameter verse setting out a materialist universe: nothing comes from nothing, everything is atoms moving in void, the soul is made of atoms too and disperses at death. The purpose is therapeutic — Lucretius thinks most human misery comes from fear of the gods and fear of dying, and that both rest on false physics.",
+              "fa": "شش دفتر شعر در وزنِ شش‌رکنی که جهانی مادی را می‌نهد: هیچ از هیچ پدید نمی‌آید، همه چیز اتم‌هایی است که در خلأ می‌جنبند، نفْس هم از اتم ساخته شده و در مرگ پراکنده می‌شود. مقصود درمانی است — لوکرتیوس می‌پندارد بیشترِ بدبختیِ آدمی از ترسِ خدایان و ترسِ مردن می‌آید، و هر دو بر طبیعیاتی نادرست استوارند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument against fearing death is the book's most durable. Death is the absence of sensation; where death is, you are not, and where you are, death is not — so there is no moment at which it can be bad for you. Lucretius adds the symmetry: the infinite time before your birth did not trouble you, and the time after your death is the same stretch seen from the other end.",
+              "fa": "استدلال بر ضدِ ترسِ از مرگ پایاترین بخشِ کتاب است. مرگ نبودِ احساس است؛ آنجا که مرگ هست تو نیستی، و آنجا که تو هستی مرگ نیست — پس لحظه‌ای نیست که در آن برای تو بد باشد. لوکرتیوس تقارن را می‌افزاید: زمانِ بی‌کرانِ پیش از زادنت نیازردت، و زمانِ پس از مرگت همان کشیدگی است که از سرِ دیگر دیده شود."
+            },
+            "citations": [
+              { "source": "text-de-rerum-natura", "locator": "III.830" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The swerve is the strangest thing in it and the most argued over. Atoms falling through void in parallel lines would never collide, so Epicurus posited that they deviate slightly at no fixed time and no fixed place. Lucretius makes this do double duty: it explains why there is a world at all, and it leaves room for the will, since a universe of strict trajectories would have decided everything in advance. Whether that second argument works is still disputed.\n\nThe poem was nearly lost. One manuscript survived into the fifteenth century, found in a German monastery by a book-hunter, and its recovery put a fully worked-out materialism back into European hands at exactly the moment they were ready to use it. Its influence runs through Montaigne, Gassendi, Newton's atomism and Jefferson, who owned five copies.",
+              "fa": "«انحراف» غریب‌ترین چیزِ آن است و پرمشاجره‌ترین. اتم‌هایی که در خلأ بر خط‌های موازی می‌افتند هرگز به هم نمی‌خورند، پس اپیکور نهاد که آن‌ها در زمانی نامعین و جایی نامعین اندکی منحرف می‌شوند. لوکرتیوس این را دو کاره می‌کند: هم توضیح می‌دهد چرا اصلاً جهانی هست، و هم برای اراده جا می‌گذارد، چون جهانی از مسیرهای دقیق همه چیز را از پیش تعیین کرده بود. اینکه استدلالِ دوم کار می‌کند یا نه هنوز محلِ نزاع است.\n\nاین شعر نزدیک بود از میان برود. یک نسخه تا سدهٔ پانزدهم مانده بود، که کتاب‌جویی در صومعه‌ای آلمانی یافتش، و بازیافتنش ماده‌گرایی‌ای کامل و پرداخته را دقیقاً در همان لحظه که آمادهٔ به‌کارگیری‌اش بودند به دستِ اروپا بازگرداند. اثرش از مونتنی و گاسندی و اتم‌گراییِ نیوتن تا جفرسون، که پنج نسخه داشت، جاری است."
+            },
+            "citations": [
+              { "source": "text-de-rerum-natura", "locator": "II.216" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-de-rerum-natura"],
+      "citations": [{ "source": "text-de-rerum-natura" }]
+    },
+    {
+      "id": "consolation-of-philosophy",
+      "title": { "en": "The Consolation of Philosophy", "fa": "تسلای فلسفه" },
+      "originalTitle": "De consolatione philosophiae",
+      "author": "boethius",
+      "oneLine": {
+        "en": "Written in a cell while awaiting execution: a dialogue with Philosophy about whether fortune can take anything that was ever yours.",
+        "fa": "در سلولی و در انتظارِ اعدام نوشته شده: گفت‌وگویی با «فلسفه» بر سرِ اینکه آیا بخت می‌تواند چیزی را که هرگز از آنِ تو بوده بگیرد."
+      },
+      "composed": { "start": { "year": 524, "precision": "circa" } },
+      "traditions": ["roman", "christian", "medieval"],
+      "branches": ["ethics", "metaphysics", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Boethius had been consul and the emperor's closest adviser. Accused of treason, stripped of everything and sentenced to die, he writes a dialogue in which a woman called Philosophy visits his cell and takes apart, piece by piece, his reasons for despair. She does not once mention Christ, although he was a Christian.",
+              "fa": "بوئتیوس کنسول و نزدیک‌ترین مشاورِ امپراتور بود. متهم به خیانت، از همه چیز محروم و محکوم به مرگ، گفت‌وگویی می‌نویسد که در آن زنی به نامِ «فلسفه» به سلولش می‌آید و دلایلِ نومیدی‌اش را یک‌به‌یک از هم می‌گشاید. حتی یک بار از مسیح نامی نمی‌برد، با آنکه مسیحی بود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The image the book gave the Middle Ages is the wheel of Fortune. Philosophy's argument is not that Boethius has been unlucky but that he misunderstood the terms: Fortune never promised permanence, her whole nature is turning, and what she gave was on loan. To complain that she took it back is to complain that she was what she always was.",
+              "fa": "تصویری که این کتاب به قرون وسطا داد، «چرخِ بخت» است. استدلالِ «فلسفه» این نیست که بوئتیوس بدشانس بوده، بلکه این است که شرط‌ها را بد فهمیده: بخت هرگز وعدهٔ ماندگاری نداد، تمامِ سرشتش گردیدن است، و آنچه داد به عاریت بود. شکایت از اینکه پسش گرفت، شکایت از این است که همان بود که همیشه بوده."
+            },
+            "citations": [
+              {
+                "source": "text-consolation-of-philosophy",
+                "locator": "II, prose 2"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The last book takes on a harder problem: if God knows what you will do, how can the doing be free? Boethius answers by distinguishing kinds of knowing rather than kinds of event. God is outside time and sees all of it at once, the way a person on a hill sees a whole road that a traveller walks a step at a time — so what God has is not foreknowledge but simply knowledge, and seeing a free act does not make it unfree.\n\nThe solution held for a thousand years and is still the starting point for the argument. The book itself became the most widely read work of the Middle Ages after scripture: Alfred the Great translated it into Old English, Chaucer into Middle English, Elizabeth I into her own. That a book of consolation with no Christian consolation in it should have been the one that consoled Christendom is a fact nobody has explained away.",
+              "fa": "دفترِ آخر مسئله‌ای دشوارتر را برمی‌دارد: اگر خدا می‌داند چه خواهی کرد، آن کردن چگونه آزاد است؟ بوئتیوس با جداکردنِ گونه‌های دانستن، نه گونه‌های رویداد، پاسخ می‌دهد. خدا بیرون از زمان است و همهٔ آن را یکجا می‌بیند، چنان‌که کسی بر تپه تمامِ راهی را می‌بیند که مسافر گام‌به‌گام می‌پیماید — پس آنچه خدا دارد پیش‌دانی نیست، صرفاً دانش است، و دیدنِ کاری آزاد آن را ناآزاد نمی‌کند.\n\nاین راه‌حل هزار سال پایید و هنوز نقطهٔ آغازِ آن بحث است. خودِ کتاب پس از کتاب مقدس پرخواننده‌ترین اثرِ قرون وسطا شد: آلفرد کبیر به انگلیسیِ کهن برگرداندش، چاسر به انگلیسیِ میانه، و الیزابت اول به زبانِ خودش. اینکه کتابی تسلی‌بخش بدونِ هیچ تسلیِ مسیحی، همان باشد که جهانِ مسیحی را تسلی داد، واقعیتی است که کسی توضیحش نداده."
+            },
+            "citations": [
+              {
+                "source": "text-consolation-of-philosophy",
+                "locator": "V, prose 6"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-consolation-of-philosophy"],
+      "citations": [{ "source": "text-consolation-of-philosophy" }]
+    },
+    {
+      "id": "phenomenology-of-spirit",
+      "title": { "en": "Phenomenology of Spirit", "fa": "پدیدارشناسی روح" },
+      "originalTitle": "Phänomenologie des Geistes",
+      "author": "hegel",
+      "oneLine": {
+        "en": "Follows consciousness through every shape it can take, each one collapsing into the next, until it recognises itself in what it thought was other.",
+        "fa": "آگاهی را در هر شکلی که می‌تواند بگیرد دنبال می‌کند، که هر یک در بعدی فرومی‌ریزد، تا آنکه خود را در آنچه دیگری می‌پنداشت بازشناسد."
+      },
+      "composed": { "start": { "year": 1807, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "philosophy-of-mind",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Famously difficult, and difficult on purpose: Hegel thinks a result stated without the road to it is not knowledge but an opinion about a result. So the book walks consciousness through position after position — sense-certainty, perception, self-consciousness, reason, spirit, religion — showing each one failing by its own standard and producing the next.",
+              "fa": "به دشواری مشهور است، و عمداً دشوار: هگل می‌پندارد نتیجه‌ای که بی‌راهِ رسیدن به آن بیان شود دانش نیست، عقیده‌ای دربارهٔ یک نتیجه است. پس کتاب آگاهی را از موضعی به موضعی می‌برد — یقینِ حسی، ادراک، خودآگاهی، عقل، روح، دین — و نشان می‌دهد هر یک به معیارِ خودش شکست می‌خورد و بعدی را پدید می‌آورد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The section everyone reads is the one on lordship and bondage. Two self-consciousnesses meet, and each needs the other to recognise it in order to be a self at all. The struggle that follows ends with one submitting; but recognition from someone you have reduced to a thing is worth nothing, so the master's victory undoes what he fought for, while the bondsman, working on the world, comes to see himself in what he has made.",
+              "fa": "بخشی که همه می‌خوانند بخشِ خدایگان و بنده است. دو خودآگاهی به هم می‌رسند، و هر یک برای آنکه اصلاً خویشتنی باشد به بازشناسیِ دیگری نیاز دارد. کشمکشی که درمی‌گیرد با تسلیمِ یکی پایان می‌یابد؛ اما بازشناسی از سویِ کسی که او را به شیء فروکاسته‌ای هیچ نمی‌ارزد، پس پیروزیِ خدایگان همان را که برایش جنگید باطل می‌کند، در حالی که بنده با کارکردن بر جهان، خود را در آنچه ساخته می‌بیند."
+            },
+            "citations": [
+              { "source": "text-phenomenology-of-spirit", "locator": "§178" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Marx took that passage and turned it into a claim about labour under capitalism; Beauvoir turned it into an account of how women are positioned as the Other; Fanon turned it into an argument about colonised people whose recognition the coloniser does not want. None of these are misreadings so much as uses, and the fact that one section can carry all three is why the book is still worked over.\n\nWhat resists translation into any of them is the claim the whole thing is for: that the succession of failures is not a history of error but the movement by which spirit comes to know itself, so nothing that has been passed through is simply discarded. Read as a philosophy of history this is either the deepest thing Hegel says or the point at which he stops arguing and starts asserting, and two centuries have not settled which.",
+              "fa": "مارکس آن بند را گرفت و به ادعایی دربارهٔ کار در سرمایه‌داری بدل کرد؛ بووار آن را به شرحی از اینکه زنان چگونه در جایگاهِ «دیگری» نشانده می‌شوند بدل کرد؛ فانون به استدلالی دربارهٔ مردمِ مستعمره‌ای که استعمارگر بازشناسی‌شان را نمی‌خواهد. هیچ‌یک از این‌ها آن‌قدر که کاربرد باشند، بدفهمی نیستند، و اینکه یک بخش می‌تواند هر سه را بردارد، همان است که کتاب را هنوز محلِ کار نگه داشته.\n\nآنچه به هیچ‌یک از این‌ها ترجمه‌پذیر نیست همان ادعایی است که تمامِ کتاب برای آن است: که این توالیِ شکست‌ها تاریخِ خطا نیست، حرکتی است که با آن روح به شناختِ خود می‌رسد، پس هیچ‌چیز که از آن گذشته‌ایم صرفاً دور انداخته نمی‌شود. اگر چون فلسفهٔ تاریخ خوانده شود، این یا ژرف‌ترین چیزی است که هگل می‌گوید یا همان نقطه‌ای که استدلال را وامی‌نهد و به ادعا می‌رسد، و دو قرن این را فیصله نداده."
+            },
+            "citations": [
+              { "source": "text-phenomenology-of-spirit", "locator": "Preface" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-phenomenology-of-spirit"],
+      "citations": [{ "source": "text-phenomenology-of-spirit" }]
+    },
+    {
+      "id": "world-as-will",
+      "title": {
+        "en": "The World as Will and Representation",
+        "fa": "جهان همچون اراده و بازنمود"
+      },
+      "originalTitle": "Die Welt als Wille und Vorstellung",
+      "author": "schopenhauer",
+      "oneLine": {
+        "en": "Takes Kant's thing-in-itself and names it: a blind striving that we know from the inside because we are it.",
+        "fa": "«شیء فی‌نفسه»ی کانت را می‌گیرد و نامش را می‌گذارد: کوششی کور که از درون می‌شناسیمش، چون خودمان همانیم."
+      },
+      "composed": { "start": { "year": 1818, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": ["metaphysics", "ethics", "aesthetics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Schopenhauer accepts Kant's argument that we only ever meet the world as it appears to us, and then claims one exception: in willing my own arm to move I know something from the inside as well as the outside. He generalises that inside to everything — the world's inner nature is will, a striving with no object and no end.",
+              "fa": "شوپنهاور استدلالِ کانت را می‌پذیرد که ما همیشه تنها با جهان آن‌گونه که بر ما پدیدار می‌شود روبه‌روییم، و بعد یک استثنا ادعا می‌کند: در اراده‌کردنِ حرکتِ بازوی خودم، چیزی را هم از بیرون می‌شناسم هم از درون. آن درون را به همه چیز تعمیم می‌دهد — سرشتِ درونیِ جهان اراده است، کوششی بی‌موضوع و بی‌پایان."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The pessimism follows from the metaphysics rather than from temperament. If the world is striving, then satisfaction is only ever the momentary absence of a want, and a new want arrives to fill it; pleasure is negative and pain positive, and a life is a series of gaps between deprivations. Schopenhauer draws the conclusion his contemporaries would not: it would have been better had the world not been.",
+              "fa": "بدبینی از همان متافیزیک برمی‌آید نه از خلق‌وخو. اگر جهان کوشش باشد، ارضا همیشه تنها نبودِ لحظه‌ایِ یک خواست است، و خواستی تازه می‌آید تا جایش را پر کند؛ لذت منفی است و رنج مثبت، و یک زندگی رشته‌ای از فاصله‌ها میانِ محرومیت‌هاست. شوپنهاور نتیجه‌ای را می‌گیرد که هم‌روزگارانش نمی‌گرفتند: بهتر بود جهان نمی‌بود."
+            },
+            "citations": [
+              { "source": "text-world-as-will", "locator": "IV, §57" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Two ways out are offered, and only two. Art suspends willing for as long as it lasts: contemplating a form rather than wanting an object, the spectator stops being an individual with interests and becomes, for a moment, a knower without a stake. Music is placed highest because it does not represent the world of appearance at all but the will directly, which is why it moves people who can say nothing about what it means.\n\nThe other way is permanent and much harder: recognising that the will in you is the same will in everything, which makes another's suffering not an occasion for pity but a fact about yourself. Schopenhauer read the Upanishads every night and said Europe would need a century to absorb them. He was the first major European philosopher to take Indian thought as philosophy rather than as curiosity, and Nietzsche, Wagner, Freud, Wittgenstein and Beckett all began from him.",
+              "fa": "دو راهِ گریز عرضه می‌شود، و تنها دو. هنر تا وقتی می‌پاید اراده‌کردن را معلق می‌کند: تماشاگری که به‌جای خواستنِ یک شیء صورتی را تأمل می‌کند، از فردی با منافع بودن بازمی‌ایستد و لحظه‌ای شناسنده‌ای بی‌سهم می‌شود. موسیقی در بالاترین جا نشانده شده چون اصلاً جهانِ پدیدار را بازنمایی نمی‌کند بلکه مستقیماً خودِ اراده را، و به همین سبب کسانی را می‌جنباند که نمی‌توانند بگویند معنایش چیست.\n\nراهِ دیگر همیشگی و بسیار دشوارتر است: بازشناختنِ اینکه ارادهٔ درونِ تو همان اراده‌ای است که در همه چیز است، و همین رنجِ دیگری را نه فرصتی برای ترحم، که واقعیتی دربارهٔ خودت می‌کند. شوپنهاور هر شب اوپانیشادها را می‌خواند و می‌گفت اروپا یک قرن لازم دارد تا آن‌ها را در خود بگیرد. او نخستین فیلسوفِ بزرگِ اروپایی بود که اندیشهٔ هندی را نه چون کنجکاوی که چون فلسفه گرفت، و نیچه و واگنر و فروید و ویتگنشتاین و بکت همه از او آغاز کردند."
+            },
+            "citations": [
+              { "source": "text-world-as-will", "locator": "III, §52" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-world-as-will"],
+      "citations": [{ "source": "text-world-as-will" }]
+    },
+    {
+      "id": "human-condition",
+      "title": { "en": "The Human Condition", "fa": "وضع بشری" },
+      "author": "arendt",
+      "oneLine": {
+        "en": "Separates labour, work and action, and argues that a world which has forgotten the third has lost the capacity for politics.",
+        "fa": "کار و ساختن و کنش را از هم جدا می‌کند، و می‌گوید جهانی که سومی را از یاد برده، توانِ سیاست را از دست داده است."
+      },
+      "composed": { "start": { "year": 1958, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "political-philosophy",
+        "social-philosophy",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Three activities, and the distinctions carry the book. Labour keeps a body alive and leaves nothing behind. Work makes durable things and gives us a world that outlasts us. Action happens between people, with words, and is the only one that can begin something new — which is why Arendt treats it as the political activity and worries that modern life has no room for it.",
+              "fa": "سه فعالیت، و همین تمایزها کتاب را نگه می‌دارند. «کار» تن را زنده نگه می‌دارد و چیزی بر جای نمی‌گذارد. «ساختن» چیزهای پایدار می‌سازد و جهانی به ما می‌دهد که از ما بیشتر می‌ماند. «کنش» میانِ آدمیان و با واژه‌ها رخ می‌دهد، و تنها همان است که می‌تواند چیزی نو آغاز کند — و به همین سبب آرنت آن را فعالیتِ سیاسی می‌داند و نگران است که زندگیِ مدرن جایی برایش ندارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Plurality is her word for the condition action depends on: not that there are many people but that no two are the same. If everyone were interchangeable there would be nothing to say to anyone and nothing to be persuaded of, and politics would collapse into administration — which is exactly what she thinks has been happening.",
+              "fa": "«کثرت» واژهٔ اوست برای شرطی که کنش بدان وابسته است: نه اینکه آدمیان بسیارند، بلکه اینکه هیچ دو تن یکسان نیستند. اگر همه جایگزین‌پذیر بودند، نه چیزی برای گفتن به کسی می‌بود و نه چیزی برای متقاعدشدن، و سیاست به اداره‌گری فرومی‌ریخت — که به گمانِ او دقیقاً همان چیزی است که در حالِ رخ‌دادن بوده."
+            },
+            "citations": [
+              { "source": "text-human-condition", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The most original pages are on forgiveness and promising, which Arendt treats as political rather than private faculties. Action is irreversible — you cannot undo what you have started — and unpredictable, since it lands among other people who will do their own things with it. Forgiveness releases us from the first, promising binds enough of the future to make the second bearable, and without both nobody could afford to act at all.\n\nHer diagnosis of modernity is that the three activities have been reordered. Labour, the least durable, has risen to the top: we speak of jobs rather than work, consume rather than use, and measure a society by output. Arendt is careful not to make this a lament for a lost age — she has no interest in restoring the Greek polis, whose politics rested on slavery, and says so — but the argument does leave the reader with a problem it does not solve.",
+              "fa": "اصیل‌ترین صفحه‌ها دربارهٔ بخشیدن و وعده‌دادن است، که آرنت آن‌ها را نه قوه‌هایی خصوصی که سیاسی می‌شمارد. کنش بازگشت‌ناپذیر است — نمی‌توانی آنچه را آغاز کرده‌ای ناکرده کنی — و پیش‌بینی‌ناپذیر، چون میانِ آدمیانی می‌افتد که کارِ خودشان را با آن خواهند کرد. بخشیدن ما را از اولی رها می‌کند، وعده‌دادن آن‌قدر از آینده را می‌بندد که دومی تحمل‌پذیر شود، و بی‌هر دو کسی توانِ کنش‌کردن نداشت.\n\nتشخیصِ او از مدرنیته این است که آن سه فعالیت جابه‌جا شده‌اند. «کار»، که کم‌دوام‌ترین است، به بالا آمده: از شغل سخن می‌گوییم نه از ساختن، مصرف می‌کنیم نه استفاده، و جامعه را با ستانده می‌سنجیم. آرنت مراقب است که این را افسوسِ روزگاری از دست رفته نکند — به بازگرداندنِ دولت‌شهرِ یونانی که سیاستش بر بردگی استوار بود علاقه‌ای ندارد و همین را می‌گوید — اما این استدلال خواننده را با مسئله‌ای رها می‌کند که حلش نمی‌کند."
+            },
+            "citations": [
+              { "source": "text-human-condition", "locator": "ch. 5" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-human-condition"],
+      "citations": [{ "source": "text-human-condition" }]
+    },
+    {
+      "id": "myth-of-sisyphus",
+      "title": { "en": "The Myth of Sisyphus", "fa": "افسانهٔ سیزیف" },
+      "originalTitle": "Le Mythe de Sisyphe",
+      "author": "camus",
+      "oneLine": {
+        "en": "Opens by calling suicide the only serious philosophical problem, and spends the rest arguing that the answer is no.",
+        "fa": "با نامیدنِ خودکشی چون تنها مسئلهٔ جدیِ فلسفی آغاز می‌شود، و باقیِ کتاب را صرفِ این استدلال می‌کند که پاسخ منفی است."
+      },
+      "composed": { "start": { "year": 1942, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": ["existential-philosophy", "ethics", "metaphysics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The absurd, for Camus, is not a property of the world and not a mood. It is a relation: a person who demands that life make sense, meeting a universe that does not answer. Neither half can be removed — you cannot stop wanting sense and the world will not start giving it — so the question is whether one can live in the confrontation without resolving it.",
+              "fa": "«پوچی» نزد کامو نه ویژگیِ جهان است و نه یک حال. یک نسبت است: کسی که می‌خواهد زندگی معنا بدهد، در برابرِ جهانی که پاسخ نمی‌دهد. هیچ‌یک از دو سو برداشتنی نیست — نمی‌توانی از خواستنِ معنا دست بکشی و جهان هم دادنش را آغاز نمی‌کند — پس پرسش این است که آیا می‌توان در همین رویارویی و بی‌حل‌کردنش زیست."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "He rejects two ways out and calls both suicide. Physical suicide ends the confrontation by removing one term. What he calls philosophical suicide ends it by removing the other — the leap to God, to History, to any principle that restores meaning by fiat. Camus's charge against Kierkegaard and the religious existentialists is not that they are wrong about God but that they abandoned the problem at the moment it became clear.",
+              "fa": "او دو راهِ گریز را رد می‌کند و هر دو را خودکشی می‌خواند. خودکشیِ جسمانی با برداشتنِ یک طرف، رویارویی را پایان می‌دهد. آنچه او خودکشیِ فلسفی می‌خواند با برداشتنِ طرفِ دیگر پایانش می‌دهد — جهش به خدا، به تاریخ، به هر اصلی که معنا را با فرمان بازمی‌گرداند. اتهامِ کامو به کیرکگور و اگزیستانسیالیست‌های دینی این نیست که دربارهٔ خدا خطا کرده‌اند، بلکه این است که مسئله را درست در لحظه‌ای که روشن شد رها کردند."
+            },
+            "citations": [
+              { "source": "text-myth-of-sisyphus", "locator": "Part I" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "What remains is revolt, freedom and passion: staying with the contradiction, living without appeal, and taking as much of the world as one can. The examples are deliberately unedifying — the actor, the conqueror, the seducer — because Camus wants to show that the absurd yields no ethics on its own. It says nothing about how to treat people, and he admits it.\n\nThat gap is what The Rebel was written to close, nine years later, and it cost him his friendship with Sartre. If the absurd licenses everything, then nothing separates a man from a murderer; Camus argues that revolt against an unjust world commits the rebel to a value beyond himself, which is why he opposed both colonial violence and revolutionary terror and was attacked from both sides for it. The last line of Sisyphus — that one must imagine him happy — is not an answer to that problem but a refusal to let despair be the reason for anything.",
+              "fa": "آنچه می‌ماند شورش است و آزادی و شور: ماندن با آن تناقض، زیستنِ بی‌استیناف، و برگرفتنِ هرچه بیشتر از جهان. مثال‌ها عمداً غیراخلاقی‌اند — بازیگر، فاتح، فریبنده — چون کامو می‌خواهد نشان دهد پوچی به‌خودی‌خود هیچ اخلاقی نمی‌زاید. دربارهٔ چگونه رفتار کردن با آدمیان چیزی نمی‌گوید، و او خودش می‌پذیردش.\n\nهمین شکاف است که «عصیانگر» نه سال بعد برای بستنش نوشته شد، و دوستی‌اش با سارتر را بر باد داد. اگر پوچی همه چیز را مجاز کند، آن‌گاه چیزی آدمی را از یک قاتل جدا نمی‌کند؛ کامو می‌گوید شورش در برابرِ جهانی ناعادل، شورشگر را به ارزشی فراتر از خودش متعهد می‌کند، و به همین سبب هم با خشونتِ استعماری مخالف بود هم با ترورِ انقلابی، و از هر دو سو بابتش کوبیده شد. آخرین سطرِ «سیزیف» — که باید او را خوشبخت پنداشت — پاسخِ آن مسئله نیست، امتناع از این است که نومیدی دلیلِ کاری باشد."
+            },
+            "citations": [
+              { "source": "text-myth-of-sisyphus", "locator": "Final chapter" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-myth-of-sisyphus", "text-the-rebel"],
+      "citations": [{ "source": "text-myth-of-sisyphus" }]
+    },
+    {
+      "id": "theory-of-justice",
+      "title": { "en": "A Theory of Justice", "fa": "نظریه‌ای در باب عدالت" },
+      "author": "rawls",
+      "oneLine": {
+        "en": "Asks what principles people would choose for a society if they did not know which place in it they would occupy.",
+        "fa": "می‌پرسد اگر آدمیان نمی‌دانستند در جامعه کدام جایگاه را خواهند داشت، چه اصولی برای آن برمی‌گزیدند."
+      },
+      "composed": { "start": { "year": 1971, "precision": "exact" } },
+      "traditions": ["american", "analytic"],
+      "branches": ["political-philosophy", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The device is the original position: parties choosing the basic structure of a society from behind a veil of ignorance that hides their class, talents, race, sex and even their idea of a good life. Rawls argues they would not gamble, and would choose principles that protect whoever ends up worst off — because that might be them.",
+              "fa": "آن ابزار «وضعِ نخستین» است: کسانی که ساختارِ بنیادیِ جامعه را از پشتِ پرده‌ای از جهل برمی‌گزینند که طبقه و استعداد و نژاد و جنس و حتی تصورشان از زندگیِ خوب را می‌پوشاند. رالز می‌گوید آنان قمار نمی‌کنند، و اصولی برمی‌گزینند که از هرکه در بدترین وضع بیفتد پاسداری کند — چون ممکن است خودشان باشند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Two principles come out, in order. First, each person has an equal claim to the most extensive basic liberties compatible with the same for everyone; this has priority and cannot be traded for economic gain. Second, inequalities are permitted only where offices are genuinely open to all and where the arrangement works to the benefit of the least advantaged.",
+              "fa": "دو اصل بیرون می‌آید، به ترتیب. نخست، هرکس به گسترده‌ترین آزادی‌های بنیادینی که با همان برای همه سازگار باشد، حقی برابر دارد؛ این اولویت دارد و با سودِ اقتصادی معاوضه نمی‌شود. دوم، نابرابری‌ها تنها آنجا رواست که مناصب به‌راستی بر همه گشوده باشد و آن ترتیب به سودِ کم‌بهره‌ترین‌ها کار کند."
+            },
+            "citations": [
+              { "source": "text-theory-of-justice", "locator": "§11" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The difference principle is the radical part and the most attacked. It says that the distribution of natural talent is morally arbitrary — nobody deserves the genes or the family they were born into — so a society may not simply let the talented keep what their talents earn. Nozick's reply, that this treats people's abilities as a common asset and therefore treats people as means, set the terms of political philosophy for a generation.\n\nRawls spent the rest of his life on a problem the book had assumed away. A Theory of Justice argues that its principles would be chosen by anyone reasoning correctly; but a free society contains people with irreconcilable and reasonable views about how to live, and a theory that can only be accepted by those who share one such view is not a theory of *political* justice. Political Liberalism is the attempt to rebuild the argument so that it needs agreement only about the terms of shared political life, and readers still disagree about whether that succeeds or gives up too much.",
+              "fa": "«اصلِ تفاوت» بخشِ رادیکال و پرحمله‌ترین است. می‌گوید توزیعِ استعدادِ طبیعی از نظرِ اخلاقی دلبخواهی است — کسی ژن‌ها یا خانواده‌ای را که در آن زاده شده مستحق نیست — پس جامعه نمی‌تواند صرفاً بگذارد بااستعدادها آنچه استعدادشان می‌آورد را نگه دارند. پاسخِ نوزیک، که این توانایی‌های آدمیان را داراییِ مشترک می‌گیرد و بنابراین با آدمیان چون وسیله رفتار می‌کند، شرط‌های فلسفهٔ سیاسی را برای یک نسل تعیین کرد.\n\nرالز باقیِ عمرش را صرفِ مسئله‌ای کرد که کتاب آن را مفروض گرفته بود. «نظریه‌ای در باب عدالت» می‌گوید هرکه درست استدلال کند این اصول را برمی‌گزیند؛ اما جامعهٔ آزاد آدمیانی دارد با دیدگاه‌های آشتی‌ناپذیر و معقول دربارهٔ چگونه زیستن، و نظریه‌ای که تنها هم‌کیشانِ یکی از آن دیدگاه‌ها می‌پذیرندش نظریه‌ای در عدالتِ سیاسی نیست. «لیبرالیسم سیاسی» کوششی است برای بازسازیِ استدلال چنان‌که تنها به توافق بر سرِ شرط‌های زندگیِ سیاسیِ مشترک نیاز داشته باشد، و خوانندگان هنوز بر سرِ اینکه این کامیاب می‌شود یا زیادی وامی‌نهد اختلاف دارند."
+            },
+            "citations": [
+              { "source": "text-political-liberalism", "locator": "Lecture I" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-theory-of-justice", "text-political-liberalism"],
+      "citations": [{ "source": "text-theory-of-justice" }]
+    },
+    {
+      "id": "muqaddimah",
+      "title": { "en": "The Muqaddimah", "fa": "مقدمه" },
+      "originalTitle": "المقدمة",
+      "transliteration": "al-Muqaddima",
+      "alsoKnownAs": ["An Introduction to History", "مقدمهٔ ابن‌خلدون"],
+      "author": "ibn-khaldun",
+      "oneLine": {
+        "en": "The introduction to a universal history, which invents a science of society in order to say what histories are evidence for.",
+        "fa": "مقدمهٔ یک تاریخ عمومی، که برای گفتنِ اینکه تاریخ‌ها شاهدِ چه‌اند، دانشی از جامعه بنیاد می‌نهد."
+      },
+      "composed": { "start": { "year": 1377, "precision": "exact" } },
+      "traditions": ["islamic", "african"],
+      "branches": [
+        "philosophy-of-history",
+        "social-philosophy",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ibn Khaldun set out to write a history of the Berbers and stopped to explain what would make such a book reliable. The result is a treatise on how societies hold together and fall apart, written six centuries before anyone called that sociology, and it dwarfed the history it was meant to introduce.",
+              "fa": "ابن‌خلدون خواست تاریخِ بربرها را بنویسد و ایستاد تا توضیح دهد چه چیز چنین کتابی را معتبر می‌کند. نتیجه رساله‌ای شد دربارهٔ اینکه جامعه‌ها چگونه کنارِ هم می‌مانند و از هم می‌پاشند، شش قرن پیش از آنکه کسی نامش را جامعه‌شناسی بگذارد، و از تاریخی که قرار بود مقدمه‌اش باشد بسی بزرگ‌تر شد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The central term is asabiyya — the solidarity that binds a group tightly enough to act as one. Ibn Khaldun argues it is strongest among people living hard lives at the margins, that it is what lets them take a settled state, and that the comfort of ruling dissolves it. Roughly four generations, and a dynasty founded on solidarity has none left and is taken by the next group from the margin.",
+              "fa": "اصطلاحِ مرکزی «عصبیت» است — همبستگی‌ای که گروهی را چنان محکم می‌بندد که چون یک تن عمل کند. ابن‌خلدون می‌گوید این در میانِ مردمی که در حاشیه و به سختی می‌زیند قوی‌ترین است، همان است که به آنان امکان می‌دهد دولتی مستقر را بگیرند، و آسایشِ فرمانروایی از میان می‌بردش. تقریباً چهار نسل، و سلسله‌ای که بر همبستگی بنا شده دیگر هیچ ندارد و گروهِ بعدی از حاشیه می‌گیردش."
+            },
+            "citations": [{ "source": "text-muqaddimah", "locator": "II.7" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "What makes it philosophy rather than shrewd observation is the method he states first. Historians repeat impossible numbers and improbable stories because they check chains of transmission rather than the content; Ibn Khaldun insists that a report be tested against what is possible for a society of that kind and size, which requires knowing how societies work — and that knowledge is a science with its own subject matter, not a branch of anything else.\n\nHe applies it unsparingly to his own field. An army of six hundred thousand could not be fed or moved; a city cannot grow past what its hinterland produces; a state's tax revenue falls when its rates rise past a point, because production shrinks. The book was almost unknown in Europe until the nineteenth century, and its rediscovery embarrassed a discipline that had believed it invented these questions.",
+              "fa": "آنچه این را فلسفه می‌کند نه مشاهدهٔ تیزبینانه، همان روشی است که نخست بیانش می‌کند. تاریخ‌نویسان شمارهای ناممکن و داستان‌های نامحتمل را تکرار می‌کنند چون زنجیرهٔ نقل را می‌سنجند نه محتوا را؛ ابن‌خلدون اصرار دارد که هر گزارش در برابرِ آنچه برای جامعه‌ای از آن گونه و آن اندازه ممکن است آزموده شود، و این دانستنِ کارکردِ جامعه‌ها را می‌طلبد — و آن دانش، دانشی است با موضوعِ خودش، نه شاخه‌ای از چیزِ دیگر.\n\nاین را بی‌گذشت بر رشتهٔ خودش به کار می‌بندد. سپاهی ششصدهزار نفری را نمی‌شد خوراک داد یا جابه‌جا کرد؛ شهر نمی‌تواند از آنچه پیرامونش تولید می‌کند بزرگ‌تر شود؛ درآمدِ مالیاتیِ دولت وقتی نرخ‌ها از حدی بگذرند کاهش می‌یابد، چون تولید کوچک می‌شود. این کتاب تا سدهٔ نوزدهم در اروپا تقریباً ناشناخته بود، و بازیافتنش رشته‌ای را شرمنده کرد که می‌پنداشت این پرسش‌ها را خودش ابداع کرده."
+            },
+            "citations": [{ "source": "text-muqaddimah", "locator": "Preface" }]
+          }
+        ]
+      },
+      "editions": ["text-muqaddimah"],
+      "citations": [{ "source": "text-muqaddimah" }]
+    },
+    {
+      "id": "second-sex-work",
+      "title": { "en": "The Second Sex", "fa": "جنس دوم" },
+      "originalTitle": "Le Deuxième Sexe",
+      "author": "beauvoir",
+      "oneLine": {
+        "en": "Nine hundred pages on how a human being is turned into a woman, and what that costs both parties.",
+        "fa": "نهصد صفحه دربارهٔ اینکه چگونه یک انسان به زن بدل می‌شود، و این برای هر دو طرف چه هزینه‌ای دارد."
+      },
+      "composed": { "start": { "year": 1949, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "feminist-philosophy",
+        "existential-philosophy",
+        "social-philosophy",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Beauvoir starts from a question she found she could not answer quickly: what has it meant, for her, to be a woman. The book that came out of it surveys biology, psychoanalysis, historical materialism, myth and lived experience, and concludes that none of them describe a female nature — they describe a situation and mistake it for one.",
+              "fa": "بووار از پرسشی آغاز می‌کند که دید نمی‌تواند به‌سرعت پاسخش دهد: زن بودن، برای او، چه معنایی داشته است. کتابی که از آن بیرون آمد زیست‌شناسی و روان‌کاوی و ماتریالیسمِ تاریخی و اسطوره و تجربهٔ زیسته را می‌کاود، و نتیجه می‌گیرد که هیچ‌یک سرشتی زنانه را وصف نمی‌کنند — وضعیتی را وصف می‌کنند و آن را به‌اشتباه سرشت می‌گیرند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The structural claim is that man has been posited as the subject, the absolute, the human being as such, and woman as the Other — defined in relation to him and not reciprocally. What makes this different from other accounts of oppression is that women are dispersed among men rather than gathered, share their homes and interests, and so have not had the shared history that lets a group say we.",
+              "fa": "ادعای ساختاری این است که مرد چون سوژه، چون مطلق، چون خودِ انسان نهاده شده، و زن چون «دیگری» — که در نسبت با او تعریف می‌شود و نه متقابلاً. آنچه این را از دیگر شرح‌های ستم جدا می‌کند این است که زنان به‌جای گردآمدن، میانِ مردان پراکنده‌اند، خانه و منافع با آنان دارند، و از همین رو آن تاریخِ مشترک را نداشته‌اند که به گروهی امکان می‌دهد بگوید «ما»."
+            },
+            "citations": [
+              { "source": "beauvoir-second-sex", "locator": "Introduction" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The second volume, which opens with the sentence everyone knows, follows a life through childhood, girlhood, initiation, marriage, motherhood and old age, showing at each stage how a person is trained into a position and then told the position is her nature. It is the part that was found scandalous — the chapters on marriage and motherhood were read as attacks on both — and the part that has aged best, because it is largely description and the descriptions were accurate.\n\nBeauvoir's existentialism is doing the philosophical work. If existence precedes essence, then there is no womanly essence for a life to express, and a situation that closes off transcendence is not a fate but a wrong. Her conclusion is not that women should become like men but that liberation is mutual: a man who requires an Other in order to be a subject is not free either, and no relation between unequals can be the reciprocal recognition both of them need.",
+              "fa": "جلدِ دوم، که با جمله‌ای آغاز می‌شود که همه می‌شناسند، یک زندگی را از کودکی و دخترانگی و آیینِ گذار و ازدواج و مادری تا پیری دنبال می‌کند، و در هر مرحله نشان می‌دهد چگونه کسی به جایگاهی خو داده می‌شود و بعد به او گفته می‌شود که آن جایگاه سرشتِ اوست. همین بخش بود که رسواکننده دانسته شد — فصل‌های ازدواج و مادری چون حمله به هر دو خوانده شدند — و همین بخش بهتر از همه کهنه شده، چون بیشترش وصف است و آن وصف‌ها درست بودند.\n\nاگزیستانسیالیسمِ بووار است که کارِ فلسفی را می‌کند. اگر وجود بر ماهیت مقدم باشد، آن‌گاه ماهیتی زنانه نیست که زندگی‌ای بیانش کند، و وضعیتی که راهِ تعالی را می‌بندد سرنوشت نیست، یک نادرستی است. نتیجهٔ او این نیست که زنان باید مانندِ مردان شوند، بلکه این است که رهایی دوسویه است: مردی که برای سوژه بودن به یک «دیگری» نیاز دارد نیز آزاد نیست، و هیچ نسبتی میانِ نابرابرها نمی‌تواند آن بازشناسیِ متقابلی باشد که هر دو بدان نیاز دارند."
+            },
+            "citations": [
+              { "source": "beauvoir-second-sex", "locator": "Volume II" }
+            ]
+          }
+        ]
+      },
+      "editions": ["beauvoir-second-sex"],
+      "citations": [{ "source": "beauvoir-second-sex" }]
+    },
+    {
+      "id": "logic-scientific-discovery",
+      "title": {
+        "en": "The Logic of Scientific Discovery",
+        "fa": "منطق اکتشاف علمی"
+      },
+      "originalTitle": "Logik der Forschung",
+      "author": "popper",
+      "oneLine": {
+        "en": "Replaces the question of how theories are confirmed with the question of what would refute them.",
+        "fa": "پرسشِ اینکه نظریه‌ها چگونه تأیید می‌شوند را با پرسشِ اینکه چه چیز ردشان می‌کند جایگزین می‌کند."
+      },
+      "composed": { "start": { "year": 1934, "precision": "exact" } },
+      "traditions": ["european", "analytic"],
+      "branches": ["philosophy-of-science", "epistemology", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "No number of confirming instances proves a general law, and one counter-instance disproves it. Popper builds a whole account of science on that asymmetry: a theory is scientific not because evidence supports it but because it forbids something, and can therefore be found wrong.",
+              "fa": "هیچ شمارِ نمونهٔ تأییدکننده قانونی کلی را اثبات نمی‌کند، و یک نمونهٔ نقض ردش می‌کند. پوپر تمامِ شرحی از علم را بر همین عدمِ تقارن بنا می‌کند: نظریه‌ای علمی است نه چون شواهد تأییدش می‌کنند، بلکه چون چیزی را ممنوع می‌کند و پس می‌توان نادرست‌بودنش را یافت."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The demarcation line does not run between sense and nonsense, which is where the logical positivists put it, and Popper insists on the difference. Astrology and psychoanalysis are not meaningless; they are unfalsifiable, because every possible observation can be accommodated. A theory that fits whatever happens has told you nothing about which thing will happen.",
+              "fa": "مرزبندی میانِ معنا و بی‌معنایی نیست، که پوزیتیویست‌های منطقی آنجا نهاده بودندش، و پوپر بر این تفاوت پافشاری می‌کند. اخترگویی و روان‌کاوی بی‌معنا نیستند؛ ابطال‌ناپذیرند، چون هر مشاهدهٔ ممکن در آن‌ها جا می‌شود. نظریه‌ای که با هرچه رخ دهد جور درمی‌آید، دربارهٔ اینکه کدام رخ خواهد داد چیزی نگفته است."
+            },
+            "citations": [
+              {
+                "source": "text-logic-scientific-discovery",
+                "locator": "ch. 1, §6"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The obvious objection arrived early and Popper never fully answered it. No theory is ever tested alone: a failed prediction may indict the theory, an auxiliary assumption, the instrument or the observer, and nothing in logic says which to give up. Scientists in fact protect central theories and revise the periphery, which is exactly what falsificationism says they should not do — and which turned out, in Kuhn's account, to be how science makes progress.\n\nPopper thought the political stakes were the same as the scientific ones. A society is open to the extent that its arrangements can be criticised and changed without violence, and closed when a doctrine explains all objections in advance. The Open Society and Its Enemies applies the argument to Plato, Hegel and Marx, and is unfair to all three in ways specialists have documented at length — which has not stopped it being the most politically consequential thing he wrote.",
+              "fa": "اعتراضِ آشکار زود رسید و پوپر هرگز به‌تمامی پاسخش نداد. هیچ نظریه‌ای هرگز به‌تنهایی آزموده نمی‌شود: پیش‌بینیِ ناکام می‌تواند نظریه را متهم کند، یا فرضی کمکی، یا ابزار، یا مشاهده‌گر را، و در منطق چیزی نمی‌گوید کدام را باید وانهاد. دانشمندان در عمل نظریه‌های مرکزی را پاس می‌دارند و حاشیه را بازبینی می‌کنند، که دقیقاً همان است که ابطال‌گرایی می‌گوید نباید بکنند — و در روایتِ کوهن، همان است که علم را پیش می‌برد.\n\nپوپر می‌پنداشت گروِ سیاسی همان گروِ علمی است. جامعه تا آنجا باز است که ترتیباتش را بتوان بی‌خشونت نقد و دگرگون کرد، و بسته است وقتی آموزه‌ای همهٔ اعتراض‌ها را از پیش توضیح می‌دهد. «جامعهٔ باز و دشمنانش» این استدلال را بر افلاطون و هگل و مارکس به کار می‌بندد، و به هر سه به شیوه‌هایی بی‌انصافی می‌کند که متخصصان به‌تفصیل مستند کرده‌اند — و همین جلوی پیامدسازترین نوشتهٔ سیاسیِ او بودنش را نگرفته."
+            },
+            "citations": [
+              { "source": "text-open-society", "locator": "Volume I" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-logic-scientific-discovery", "text-open-society"],
+      "citations": [{ "source": "text-logic-scientific-discovery" }]
+    },
+    {
+      "id": "structure-scientific-revolutions",
+      "title": {
+        "en": "The Structure of Scientific Revolutions",
+        "fa": "ساختار انقلاب‌های علمی"
+      },
+      "author": "kuhn",
+      "oneLine": {
+        "en": "Argues that science does not accumulate steadily but works within a settled framework until the framework breaks.",
+        "fa": "می‌گوید علم به‌طور یکنواخت انباشته نمی‌شود، بلکه درونِ چارچوبی مستقر کار می‌کند تا آنکه آن چارچوب بشکند."
+      },
+      "composed": { "start": { "year": 1962, "precision": "exact" } },
+      "traditions": ["american", "analytic"],
+      "branches": [
+        "philosophy-of-science",
+        "epistemology",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Kuhn was trained as a physicist and got the idea while reading Aristotle's physics and finding it not stupid but built on different assumptions. Normal science, on his account, is puzzle-solving inside a paradigm nobody questions; anomalies pile up; a crisis follows; and a new paradigm replaces the old rather than absorbing it.",
+              "fa": "کوهن فیزیک خوانده بود و این فکر هنگامِ خواندنِ طبیعیاتِ ارسطو به سرش زد، وقتی دید آن نه احمقانه بلکه بر فرض‌هایی دیگر بنا شده است. «علمِ عادی» در روایتِ او حلِ معما درونِ الگویی است که کسی زیرِ سؤالش نمی‌برد؛ ناهنجاری‌ها انباشته می‌شوند؛ بحرانی درمی‌گیرد؛ و الگویی نو جایِ کهنه را می‌گیرد نه اینکه در خود بگیردش."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The most contested claim is incommensurability: that rival paradigms do not merely disagree but partly talk past each other, because the terms change meaning. Mass in Newton is not mass in Einstein, and the two cannot be laid side by side and scored against a neutral standard, because part of what is at stake is what counts as a standard.",
+              "fa": "پرمنازعه‌ترین ادعا «قیاس‌ناپذیری» است: اینکه الگوهای رقیب صرفاً اختلاف ندارند بلکه تا حدی از کنارِ هم رد می‌شوند، چون اصطلاح‌ها معنایشان عوض می‌شود. «جرم» نزد نیوتن جرمِ اینشتین نیست، و آن دو را نمی‌توان کنارِ هم نهاد و با معیاری بی‌طرف نمره داد، چون بخشی از آنچه بر سرش نزاع است همین است که چه چیز معیار به شمار می‌آید."
+            },
+            "citations": [
+              {
+                "source": "text-structure-scientific-revolutions",
+                "locator": "ch. 10"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Kuhn spent decades objecting to what was made of this. He did not think science was irrational or that paradigms are chosen by mob assent; he thought the choice is made on good grounds — accuracy, scope, simplicity, fruitfulness — which are real values that nonetheless do not add up to an algorithm, so reasonable people weighing them differently can disagree for a while without either being a fool.\n\nThe word paradigm escaped and became unusable, applied to marketing strategies and management fashions until it meant no more than approach. That is a fair index of the book's reach and an unfair one of its argument. What survives in the philosophy of science is narrower and harder to dismiss: that observation is not theory-neutral, that textbooks systematically rewrite the past to look like a straight road, and that a history of science honest about its own dead ends looks nothing like the story scientists tell about themselves.",
+              "fa": "کوهن دهه‌ها به آنچه از این ساختند اعتراض کرد. نمی‌پنداشت علم ناعقلانی است یا الگوها با رأیِ توده برگزیده می‌شوند؛ می‌پنداشت گزینش بر پایه‌های خوبی انجام می‌شود — دقت، دامنه، سادگی، باروری — که ارزش‌هایی واقعی‌اند و با این حال به یک الگوریتم جمع نمی‌شوند، پس آدمیانِ معقول که وزنِ متفاوتی به آن‌ها می‌دهند می‌توانند مدتی اختلاف داشته باشند بی‌آنکه هیچ‌کدام نادان باشد.\n\nواژهٔ «پارادایم» گریخت و غیرقابل‌استفاده شد، تا آنجا که بر راهبردهای بازاریابی و مدهای مدیریتی به کار رفت و دیگر بیش از «رویکرد» معنایی نداشت. این شاخصی منصفانه از بردِ کتاب است و ناعادلانه از استدلالش. آنچه در فلسفهٔ علم بر جای مانده باریک‌تر و دشوارتر برای کنارگذاشتن است: اینکه مشاهده نسبت به نظریه بی‌طرف نیست، اینکه کتاب‌های درسی به‌طور نظام‌مند گذشته را چنان بازمی‌نویسند که راهی مستقیم بنماید، و اینکه تاریخِ علمی که دربارهٔ بن‌بست‌های خودش صادق باشد هیچ شباهتی به داستانی ندارد که دانشمندان دربارهٔ خود می‌گویند."
+            },
+            "citations": [
+              {
+                "source": "text-structure-scientific-revolutions",
+                "locator": "ch. 11"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-structure-scientific-revolutions"],
+      "citations": [{ "source": "text-structure-scientific-revolutions" }]
+    },
+    {
+      "id": "annihilation-of-caste",
+      "title": { "en": "Annihilation of Caste", "fa": "برانداختن کاست" },
+      "author": "ambedkar",
+      "oneLine": {
+        "en": "A speech the organisers cancelled after reading it, published by the author at his own expense.",
+        "fa": "سخنرانی‌ای که برگزارکنندگان پس از خواندنش لغوش کردند، و نویسنده به هزینهٔ خودش منتشرش کرد."
+      },
+      "composed": { "start": { "year": 1936, "precision": "exact" } },
+      "traditions": ["indian", "buddhist"],
+      "branches": [
+        "political-philosophy",
+        "social-philosophy",
+        "ethics",
+        "decolonial-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "A reform association invited Ambedkar to speak on caste, read his draft, asked him to soften it, and withdrew the invitation when he refused. He printed the undelivered speech himself. It argues that caste cannot be reformed, that it is held in place by scripture, and that anyone serious about ending it must be willing to say so.",
+              "fa": "انجمنی اصلاح‌طلب از آمبدکار خواست دربارهٔ کاست سخن بگوید، پیش‌نویسش را خواند، خواست ملایمش کند، و وقتی نپذیرفت دعوت را پس گرفت. او خودش آن سخنرانیِ ایرادنشده را چاپ کرد. استدلال می‌کند که کاست اصلاح‌پذیر نیست، با متنِ مقدس سرِ جایش نگه داشته می‌شود، و هرکه جدی بخواهد پایانش دهد باید حاضر باشد همین را بگوید."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument that caste is not a division of labour but a division of labourers is the book's core. A division of labour assigns tasks by aptitude and lets people move; caste assigns them by birth, grades the assignments, and forbids movement. Ambedkar adds that it is not even efficient on its own terms, since it puts people in work they may be unsuited for and forbids them to leave it.",
+              "fa": "این استدلال که کاست تقسیمِ کار نیست بلکه تقسیمِ کارگران است، هستهٔ کتاب است. تقسیمِ کار وظیفه‌ها را بر پایهٔ استعداد می‌سپارد و به آدمیان امکانِ جابه‌جایی می‌دهد؛ کاست آن‌ها را با تولد می‌سپارد، رتبه‌بندی‌شان می‌کند، و جابه‌جایی را ممنوع. آمبدکار می‌افزاید که حتی به معیارِ خودش هم کارآمد نیست، چون آدمیان را در کاری می‌نهد که شاید برایش نامناسب باشند و ترکش را قدغن می‌کند."
+            },
+            "citations": [
+              { "source": "text-annihilation-of-caste", "locator": "§4" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His disagreement with Gandhi is the one the text is remembered for, and it is not about ends. Gandhi held that the fourfold order was sound and only untouchability was the abuse; Ambedkar held that untouchability is what the order produces and cannot be separated from it. Gandhi wrote a reply, Ambedkar printed it in the second edition along with his answer, and the exchange is bound into the book — which is unusual and tells you what kind of argument he thought he was having.\n\nThe conclusion follows from the diagnosis. If caste rests on the authority of shastra, then reform means denying that authority, and Ambedkar says a Hindu who does that has stopped being one in any sense the system recognises. He announced in the same year that he would not die a Hindu, and twenty years later converted to Buddhism with several hundred thousand others, having spent the interval writing the constitution of independent India.",
+              "fa": "اختلافش با گاندی همان است که این متن با آن به یاد می‌ماند، و بر سرِ هدف نیست. گاندی بر آن بود که نظامِ چهارگانه درست است و تنها نجس‌شماری سوءاستفاده است؛ آمبدکار بر آن بود که نجس‌شماری همان چیزی است که آن نظام تولید می‌کند و از آن جدایی‌پذیر نیست. گاندی پاسخی نوشت، آمبدکار آن را در ویراستِ دوم همراه با جوابِ خودش چاپ کرد، و آن مبادله در خودِ کتاب صحافی شده است — که غیرعادی است و می‌گوید او می‌پنداشت چه گونه بحثی در جریان است.\n\nنتیجه از همان تشخیص برمی‌آید. اگر کاست بر اقتدارِ شاستره استوار باشد، آن‌گاه اصلاح یعنی انکارِ آن اقتدار، و آمبدکار می‌گوید هندویی که چنین کند، به هیچ معنایی که آن نظام بازشناسد دیگر هندو نیست. همان سال اعلام کرد که هندو نخواهد مرد، و بیست سال بعد همراه با چند صد هزار تنِ دیگر بودایی شد، و آن فاصله را صرفِ نوشتنِ قانون اساسیِ هندِ مستقل کرده بود."
+            },
+            "citations": [
+              { "source": "text-annihilation-of-caste", "locator": "§14" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-annihilation-of-caste", "text-buddha-and-his-dhamma"],
+      "citations": [{ "source": "text-annihilation-of-caste" }]
+    },
+    {
+      "id": "gender-trouble",
+      "title": { "en": "Gender Trouble", "fa": "آشوب جنسیتی" },
+      "author": "butler",
+      "oneLine": {
+        "en": "Asks whether feminism's own category of woman is a description or a product of the system it opposes.",
+        "fa": "می‌پرسد آیا مقولهٔ «زن» در خودِ فمینیسم، یک وصف است یا فرآوردهٔ همان نظامی که با آن مخالف است."
+      },
+      "composed": { "start": { "year": 1990, "precision": "exact" } },
+      "traditions": ["american", "continental"],
+      "branches": [
+        "feminist-philosophy",
+        "social-philosophy",
+        "metaphysics",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Butler takes the sex-gender distinction that feminism had relied on — sex is biological, gender is what a culture makes of it — and asks why sex escapes the analysis. If gender is constructed, and sex is only ever encountered through the categories a culture already has, then the ground the distinction stood on is not as solid as it looked.",
+              "fa": "باتلر تمایزِ جنس و جنسیت را که فمینیسم بر آن تکیه کرده بود می‌گیرد — جنس زیست‌شناختی است، جنسیت آن است که فرهنگ از آن می‌سازد — و می‌پرسد چرا «جنس» از این تحلیل می‌گریزد. اگر جنسیت ساخته شده باشد، و جنس همیشه تنها از راهِ مقوله‌هایی که فرهنگ از پیش دارد با آن روبه‌رو شویم، آن‌گاه زمینی که این تمایز بر آن ایستاده به استواریِ ظاهرش نیست."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Performativity is the book's most used and most misused term. It does not mean that gender is a costume chosen each morning — Butler has spent thirty years correcting that reading. It means that the acts are what constitute the thing rather than expressing a prior identity, and that the repetition is compelled: the frame is described as rigid on purpose, and it is the compulsion that makes failure possible and punishable.",
+              "fa": "«اجرایی‌بودن» پرکاربردترین و پرسوءاستفاده‌ترین اصطلاحِ کتاب است. به این معنا نیست که جنسیت جامه‌ای است که هر بامداد برگزیده می‌شود — باتلر سی سال است این خوانش را تصحیح می‌کند. به این معناست که همان کنش‌ها آن چیز را برمی‌سازند نه اینکه هویتی پیشین را بیان کنند، و اینکه تکرار اجباری است: چارچوب عمداً «سخت‌گیرانه» وصف شده، و همان اجبار است که شکست را ممکن و مجازات‌پذیر می‌کند."
+            },
+            "citations": [
+              { "source": "text-gender-trouble", "locator": "ch. 3" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The political worry the book answers is a real one, and it was raised against it immediately: if woman is not a stable category, what is feminism a movement of? Butler's reply is that a coalition does not need a settled subject to act, that every attempt to specify one has excluded somebody — which is what women of colour and lesbian feminists had been saying for two decades — and that the exclusions are not accidents of a particular definition but a feature of defining.\n\nBodies That Matter was written because the first book was read as denying that bodies exist. Butler's position is narrower and harder: materiality is not denied, but it is never available except under some description, and which descriptions are available is not a natural fact. Whether that is a profound point about how categories work or an evasion of a plain question is still the argument, and it is conducted in a prose style that has done the book no favours.",
+              "fa": "نگرانیِ سیاسی‌ای که کتاب پاسخش می‌دهد واقعی است، و بی‌درنگ در برابرش طرح شد: اگر «زن» مقوله‌ای پایدار نباشد، فمینیسم جنبشِ چیست؟ پاسخِ باتلر این است که یک ائتلاف برای کنش به سوژه‌ای مستقر نیاز ندارد، که هر کوششی برای معین‌کردنِ یکی کسی را بیرون گذاشته — که همان چیزی است که زنانِ رنگین‌پوست و فمینیست‌های لزبین دو دهه می‌گفتند — و که این طردها اتفاقِ یک تعریفِ خاص نیستند بلکه ویژگیِ خودِ تعریف‌کردن‌اند.\n\n«بدن‌هایی که اهمیت دارند» نوشته شد چون کتابِ نخست چنین خوانده شده بود که وجودِ بدن‌ها را انکار می‌کند. موضعِ باتلر باریک‌تر و دشوارتر است: مادیت انکار نمی‌شود، اما هرگز جز زیرِ وصفی در دسترس نیست، و اینکه کدام وصف‌ها در دسترس‌اند واقعیتی طبیعی نیست. اینکه این نکته‌ای ژرف دربارهٔ کارکردِ مقوله‌هاست یا طفره‌رفتن از پرسشی ساده، هنوز محلِ بحث است، و به نثری پیش رفته که به کتاب لطفی نکرده."
+            },
+            "citations": [
+              { "source": "text-bodies-that-matter", "locator": "Introduction" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-gender-trouble", "text-bodies-that-matter"],
+      "citations": [{ "source": "text-gender-trouble" }]
     }
   ]
 }
