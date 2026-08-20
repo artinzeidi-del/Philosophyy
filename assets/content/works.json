@@ -9700,6 +9700,449 @@
       },
       "editions": ["text-fushikaden"],
       "citations": [{ "source": "text-fushikaden" }]
+    },
+    {
+      "id": "empedocles-fragments",
+      "title": { "en": "Fragments", "fa": "پاره‌های امپدوکلس" },
+      "originalTitle": "Περὶ φύσεως / Καθαρμοί",
+      "transliteration": "Peri physeōs / Katharmoi",
+      "alsoKnownAs": ["On Nature", "Purifications"],
+      "author": "empedocles",
+      "oneLine": {
+        "en": "Verse fragments of two poems, or possibly one, on four elements moved by love and strife.",
+        "fa": "پاره‌های منظوم دو شعر، یا شاید یک شعر، درباره چهار عنصر که مهر و ستیز به حرکتشان درمی‌آورند."
+      },
+      "composed": { "start": { "year": -450, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-biology",
+        "philosophy-of-religion",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Empedocles answers Parmenides by keeping the conclusion and changing the subject. Nothing comes to be or perishes — but there are four things rather than one, and they mix and separate, so what we call birth and death is rearrangement. Love draws them together and strife drives them apart, in a cycle.",
+              "fa": "امپدوکلس با نگاه‌داشتن نتیجه و عوض‌کردن موضوع به پارمنیدس پاسخ می‌دهد. هیچ چیز پدید نمی‌آید و از میان نمی‌رود، اما چهار چیز هست نه یکی، و می‌آمیزند و جدا می‌شوند، پس آنچه زایش و مرگ می‌نامیم بازچینش است. مهر گردشان می‌آورد و ستیز از هم می‌راندشان، در چرخه‌ای."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His account of how living things arose is the part that startles. In an early phase of the cycle, limbs and organs wandered separately and combined at random; most combinations could not survive and perished, and the ones that happened to fit went on. Aristotle quotes this in order to reject it, which is how it reached us, and it is the closest thing in antiquity to selection without design.",
+              "fa": "روایت او از پیدایش زندگان همان بخشی است که یکه می‌کند. در مرحله‌ای آغازین از آن چرخه، اندام‌ها و اعضا جدا سرگردان بودند و تصادفی به هم می‌پیوستند؛ بیشتر ترکیب‌ها نمی‌توانستند دوام بیاورند و از میان رفتند، و آن‌ها که اتفاقا جور درآمدند ماندند. ارسطو این را برای ردکردن نقل می‌کند، و از همین راه به ما رسیده، و نزدیک‌ترین چیز در دوران باستان به گزینش بی‌طراحی است."
+            },
+            "citations": [
+              {
+                "source": "text-empedocles-fragments",
+                "locator": "DK 31 B57-61"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The unity of the work is a live editorial problem. Ancient sources describe two poems, one physical and one religious, and the religious fragments speak of a soul exiled for bloodshed and reborn through plants and animals — which sits awkwardly beside a physics in which persons are mixtures. Whether these are two projects or one, and how they fit, is still argued; the Strasbourg papyrus published in 1999 added new lines and did not settle it.\n\nHe is also the source of the earliest surviving statement of the problem of perception: that we know like by like, that each element in us recognises its counterpart outside. That is a real theory with a real difficulty, since it makes error hard to explain, and Aristotle takes it seriously enough to argue against it at length. The legend that he leapt into Etna to prove himself a god is from a much later source and there is no reason to believe it.",
+              "fa": "یگانگی این اثر مسئله‌ای زنده در ویرایش است. منابع باستانی از دو شعر می‌گویند، یکی طبیعی و یکی دینی، و پاره‌های دینی از نفسی می‌گویند که به سبب خون‌ریزی تبعید شده و در گیاه و جانور از نو زاده می‌شود، و این کنار طبیعیاتی که در آن اشخاص آمیزه‌اند ناجور می‌نشیند. اینکه این‌ها دو طرح‌اند یا یکی و چگونه جور درمی‌آیند هنوز محل بحث است؛ پاپیروس استراسبورگ که در ۱۹۹۹ منتشر شد سطرهایی تازه افزود و فیصله‌اش نداد.\n\nکهن‌ترین بیان بازمانده از مسئله ادراک هم از اوست: اینکه همانند را با همانند می‌شناسیم، اینکه هر عنصر در ما همتای بیرونی‌اش را بازمی‌شناسد. این نظریه‌ای راستین با دشواری‌ای راستین است، چون توضیح خطا را سخت می‌کند، و ارسطو چندان جدی‌اش می‌گیرد که مفصل ردش کند. افسانه اینکه خود را در اتنا افکند تا خدایی خود را ثابت کند از منبعی بسیار متأخر است و دلیلی برای باورش نیست."
+            },
+            "citations": [
+              { "source": "text-empedocles-fragments", "locator": "DK 31 B109" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-empedocles-fragments"],
+      "citations": [{ "source": "text-empedocles-fragments" }]
+    },
+    {
+      "id": "anaxagoras-fragments",
+      "title": { "en": "Fragments", "fa": "پاره‌های آناکساگوراس" },
+      "originalTitle": "Περὶ φύσεως",
+      "transliteration": "Peri physeōs",
+      "author": "anaxagoras",
+      "oneLine": {
+        "en": "About twenty quoted passages, on a universe where everything contains a portion of everything.",
+        "fa": "نزدیک بیست بند نقل‌شده، درباره گیتی‌ای که در آن هر چیز بهره‌ای از هر چیز دارد."
+      },
+      "composed": { "start": { "year": -460, "precision": "circa" } },
+      "traditions": ["ancient-greek"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-science",
+        "philosophy-of-mind",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Anaxagoras keeps the Parmenidean ban on coming to be by making everything already present everywhere. Hair does not come from what is not hair; so bread must already contain hair, and flesh, and bone, in portions too small to notice, and what we call change is a shift in which portion predominates.",
+              "fa": "آناکساگوراس آن منع پارمنیدسی بر پدیدآمدن را با از پیش حاضرکردن همه چیز در همه جا نگاه می‌دارد. مو از آنچه مو نیست نمی‌آید؛ پس نان باید از پیش مو و گوشت و استخوان داشته باشد، به بهره‌هایی چندان خرد که به چشم نیاید، و آنچه دگرگونی می‌نامیم جابه‌جایی این است که کدام بهره چیرگی دارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Mind is the exception and the one thing not mixed with anything. It is what set the original mixture rotating, and the rotation separated things out; but having started the process, mind does the rest by mechanical means. Both Socrates and Aristotle complain about exactly this — that he introduces mind and then does not use it to explain why anything is as it is.",
+              "fa": "«ذهن» استثناست و یگانه چیزی که با هیچ چیز نیامیخته. همان است که آن آمیزه آغازین را به چرخش انداخت، و آن چرخش چیزها را جدا کرد؛ اما ذهن پس از آغازکردن این روند، باقی را با ابزار مکانیکی می‌کند. هم سقراط و هم ارسطو دقیقا از همین شکایت دارند؛ که ذهن را می‌آورد و سپس از آن برای توضیح اینکه چرا چیزی چنین است که هست بهره نمی‌برد."
+            },
+            "citations": [
+              { "source": "text-anaxagoras-fragments", "locator": "DK 59 B12" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He is the first philosopher known to have been prosecuted for his views. He held that the sun is a red-hot mass of stone larger than the Peloponnese and the moon reflects its light, which in Athens amounted to denying that they were gods, and he was charged with impiety and left the city. Pericles was his associate and the prosecution may have been aimed through him, which is a pattern the trial of Socrates would repeat.\n\nHis explanation of eclipses was correct in structure and is one of the earliest cases of a physical account replacing a divine one and being right. Whether the everything-in-everything doctrine is coherent is a separate question and a hard one: if every portion contains portions of everything, the division never bottoms out, and what makes something predominantly bread rather than hair is not obviously explained. The surviving fragments do not tell us whether he had an answer.",
+              "fa": "او نخستین فیلسوفی است که می‌دانیم به سبب دیدگاه‌هایش تعقیب شد. می‌گفت خورشید توده‌ای سنگی و سرخ‌تفته و بزرگ‌تر از پلوپونز است و ماه نورش را بازمی‌تاباند، و این در آتن به معنای انکار خدابودنشان بود، و به بی‌دینی متهم شد و شهر را ترک کرد. پریکلس همراهش بود و شاید آن تعقیب از راه او نشانه رفته بود، و همین الگو در محاکمه سقراط تکرار می‌شود.\n\nتوضیح او از خورشیدگرفتگی در ساختار درست بود و از نخستین نمونه‌های جایگزینی روایتی فیزیکی به جای روایتی الهی است که درست هم بوده. اینکه آموزه همه‌چیز در همه‌چیز منسجم است پرسشی جداگانه است و دشوار: اگر هر بهره بهره‌هایی از همه چیز داشته باشد، آن تقسیم هرگز به ته نمی‌رسد، و آشکارا توضیح نمی‌یابد که چه چیز چیزی را عمدتا نان می‌کند نه مو. پاره‌های بازمانده نمی‌گویند که او پاسخی داشت یا نه."
+            },
+            "citations": [
+              { "source": "text-anaxagoras-fragments", "locator": "DK 59 B1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-anaxagoras-fragments"],
+      "citations": [{ "source": "text-anaxagoras-fragments" }]
+    },
+    {
+      "id": "chrysippus-fragments",
+      "title": {
+        "en": "Fragments of the Early Stoics",
+        "fa": "پاره‌های رواقیان نخستین"
+      },
+      "originalTitle": "Stoicorum Veterum Fragmenta",
+      "alsoKnownAs": ["SVF"],
+      "author": "chrysippus",
+      "oneLine": {
+        "en": "The collected remains of a philosopher who wrote over seven hundred books, none of which survive.",
+        "fa": "بازمانده‌های گردآمده فیلسوفی که بیش از هفتصد کتاب نوشت و هیچ‌یک نمانده است."
+      },
+      "composed": { "start": { "year": -230, "precision": "circa" } },
+      "traditions": ["ancient-greek", "hellenistic"],
+      "branches": ["logic", "ethics", "metaphysics", "philosophy-of-language"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "An ancient saying held that without Chrysippus there would have been no Stoa. He systematised the school, wrote on everything, and was said to answer objections faster than anyone could raise them. What we have is a modern collection of quotations assembled by von Arnim from later authors, most of them hostile.",
+              "fa": "گفته‌ای باستانی می‌گفت اگر خروسیپوس نبود رواق هم نبود. او این مکتب را نظام داد، درباره هر چیز نوشت، و می‌گفتند تندتر از آنکه کسی اعتراضی بیاورد پاسخش را می‌دهد. آنچه داریم مجموعه‌ای امروزی از نقل‌هاست که فون آرنیم از نویسندگان بعدی گرد آورده، و بیشترشان مخالف بوده‌اند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His logic is the most important loss. Where Aristotle's syllogistic works on terms, Chrysippus built a propositional logic — reasoning about whole statements joined by if, and, or — with five basic argument forms and rules for reducing others to them. It was dismissed for two thousand years as inferior to Aristotle's and turned out to be the system modern logic recovered.",
+              "fa": "منطق او مهم‌ترین چیزی است که از دست رفته. آنجا که قیاس ارسطو بر حدود کار می‌کند، خروسیپوس منطقی گزاره‌ای ساخت، یعنی استدلال درباره گزاره‌های تمام که با «اگر» و «و» و «یا» به هم می‌پیوندند، با پنج صورت پایه استدلال و قاعده‌هایی برای فروکاستن دیگران به آن‌ها. دو هزار سال آن را فروتر از ارسطو دانستند و از آب درآمد که همان دستگاهی است که منطق امروزی بازیافت."
+            },
+            "citations": [{ "source": "text-svf", "locator": "Volume II" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "On fate he took the hardest available position and tried to make it work. Everything is causally determined, and praise and blame are still appropriate, because a cause external to me acts through what I am — the cylinder rolls when pushed, but that it rolls rather than slides is because of its own shape. Whether that answers the objection or renames it is the question, and it is the same question compatibilism still faces.\n\nReading the Stoics requires holding the transmission in mind. The three founders' works are lost; what survives complete is Roman and late — Seneca, Epictetus as recorded by a student, Marcus Aurelius writing to himself — and those are practical texts by people who took the physics and logic for granted. The result is a popular image of Stoicism as advice about resilience, detached from a system in which the advice followed from claims about causation, language and the structure of the cosmos.",
+              "fa": "درباره سرنوشت سخت‌ترین موضع موجود را گرفت و کوشید کارآمدش کند. همه چیز علی معین است، و ستایش و نکوهش همچنان بجاست، چون علتی بیرون از من از راه آنچه هستم اثر می‌کند؛ استوانه با هل‌دادن می‌غلتد، اما اینکه می‌غلتد و نمی‌لغزد به سبب شکل خودش است. اینکه این آن اعتراض را پاسخ می‌دهد یا نامش را عوض می‌کند همان پرسش است، و همان پرسشی است که سازگارگرایی هنوز با آن روبه‌روست.\n\nخواندن رواقیان نیازمند در نظر داشتن راه انتقال است. آثار سه بنیادگذار گم شده‌اند؛ آنچه تمام مانده رومی است و متأخر، یعنی سنکا و اپیکتتوس چنانکه شاگردی ثبت کرده و مارکوس اورلیوس که به خودش می‌نوشت، و این‌ها متن‌هایی عملی از کسانی‌اند که آن طبیعیات و منطق را مفروض می‌گرفتند. نتیجه، تصویری همگانی از رواقی‌گری چون اندرزهایی درباره تاب‌آوری است، جدا از دستگاهی که آن اندرزها در آن از ادعاهایی درباره علیت و زبان و ساختار گیتی بیرون می‌آمدند."
+            },
+            "citations": [
+              {
+                "source": "text-lives-of-eminent-philosophers",
+                "locator": "Book VII"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-svf", "text-lives-of-eminent-philosophers"],
+      "citations": [{ "source": "text-svf" }]
+    },
+    {
+      "id": "de-natura-deorum",
+      "title": { "en": "On the Nature of the Gods", "fa": "درباره سرشت خدایان" },
+      "originalTitle": "De natura deorum",
+      "author": "cicero",
+      "oneLine": {
+        "en": "A three-way debate on religion in which the author gives each school its best case and declines to conclude.",
+        "fa": "مناظره‌ای سه‌جانبه درباره دین که در آن نویسنده بهترین استدلال هر مکتب را می‌دهد و از نتیجه‌گیری سر باز می‌زند."
+      },
+      "composed": { "start": { "year": -45, "precision": "exact" } },
+      "traditions": ["roman", "hellenistic"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "epistemology",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Cicero wrote most of his philosophy in about two years, after his daughter's death and his exclusion from politics, with the explicit aim of putting Greek philosophy into Latin. An Epicurean, a Stoic and an Academic sceptic each speak; the Stoic argument from design and the sceptic's dismantling of it are both given at full strength.",
+              "fa": "سیسرون بیشتر فلسفه‌اش را در حدود دو سال نوشت، پس از مرگ دخترش و کنارگذاشته‌شدنش از سیاست، و آشکارا با این هدف که فلسفه یونان را به لاتین بیاورد. اپیکوری‌ای و رواقی‌ای و شکاکی از آکادمی سخن می‌گویند؛ استدلال رواقی از طرح و از هم گشودنش به دست شکاک، هر دو با تمام نیرو آورده می‌شوند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The design argument gets its classic ancient formulation here — a sundial or a water clock tells us by its workings that it was made, and the heavens are more intricate than either. The sceptical reply is equally classic: we have seen clocks being made and have no comparable experience of worlds, so the analogy is with the one case we cannot check.",
+              "fa": "استدلال طرح، صورت‌بندی کلاسیک باستانی‌اش را همین‌جا می‌گیرد؛ ساعت آفتابی یا ساعت آبی با کارکردش به ما می‌گوید که ساخته شده، و آسمان‌ها از هر دو پیچیده‌ترند. پاسخ شکاکانه به همان اندازه کلاسیک است: ما ساخته‌شدن ساعت را دیده‌ایم و تجربه‌ای همانند از جهان‌ها نداریم، پس آن قیاس با تنها موردی است که نمی‌توانیم وارسی‌اش کنیم."
+            },
+            "citations": [
+              { "source": "text-de-natura-deorum", "locator": "Book II, §87" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Whether Cicero is a philosopher or a translator was argued for centuries and the question is now generally regarded as badly posed. He was an Academic sceptic by training, and the method of setting out the strongest case on each side without deciding is the Academic method rather than an evasion of philosophy; the form is the position.\n\nHis practical importance is hard to overstate and easy to overlook. The Latin vocabulary of philosophy — quality, essence, moral, individual, appetite, comprehension — is largely his coinage or his choice, made while looking for words that did not exist. Every later Latin philosopher inherited a language he built, and Hume reread this dialogue closely before writing his own on the same subject, which follows its structure and reaches a similar reluctance to conclude.",
+              "fa": "اینکه سیسرون فیلسوف است یا مترجم سده‌ها محل بحث بود و امروز این پرسش را عموما بدطرح‌شده می‌دانند. او به تربیت شکاکی از آکادمی بود، و روش نهادن قوی‌ترین استدلال هر سو بی‌تصمیم‌گیری، روش آکادمی است نه طفره از فلسفه؛ آن صورت خودش همان موضع است.\n\nاهمیت عملی او را دشوار می‌توان بزرگ‌نمایی کرد و آسان می‌توان نادیده گرفت. واژگان لاتین فلسفه، یعنی کیفیت و ذات و اخلاقی و فرد و اشتها و ادراک، تا حد زیادی ساخته یا گزینش اوست، که در جست‌وجوی واژه‌هایی که نبودند انجام شد. هر فیلسوف لاتین بعدی زبانی را به ارث برد که او ساخت، و هیوم پیش از نوشتن گفت‌وگوی خودش درباره همین موضوع، این گفت‌وگو را با دقت بازخواند، و ساختارش را دنبال می‌کند و به بی‌میلی‌ای همانند در نتیجه‌گیری می‌رسد."
+            },
+            "citations": [
+              { "source": "text-de-natura-deorum", "locator": "Book III" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-de-natura-deorum"],
+      "citations": [{ "source": "text-de-natura-deorum" }]
+    },
+    {
+      "id": "fi-al-falsafa-al-ula",
+      "title": { "en": "On First Philosophy", "fa": "فی الفلسفه الاولی" },
+      "originalTitle": "في الفلسفة الأولى",
+      "transliteration": "Fī al-falsafa al-ūlā",
+      "author": "al-kindi",
+      "oneLine": {
+        "en": "The first work of philosophy written in Arabic, arguing that truth has no nationality.",
+        "fa": "نخستین اثر فلسفی نوشته‌شده به عربی، که می‌گوید حقیقت ملیت ندارد."
+      },
+      "composed": { "start": { "year": 850, "precision": "circa" } },
+      "traditions": ["islamic"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "epistemology",
+        "philosophy-of-mathematics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Kindī states the principle at the outset: we should not be ashamed to acknowledge truth from whatever source it comes, even from distant peoples, since nothing is of more value to the seeker of truth than truth itself. That sentence is doing political work in a context where Greek learning was suspected of being foreign to Islam.",
+              "fa": "کندی این اصل را در همان آغاز می‌گوید: نباید شرم کنیم از پذیرفتن حقیقت از هر سرچشمه‌ای که بیاید، حتی از مردمان دور، چون برای جوینده حقیقت چیزی ارزشمندتر از خود حقیقت نیست. این جمله در بافتی که در آن دانش یونانی را بیگانه با اسلام می‌پنداشتند، کاری سیاسی می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His central argument is that the world cannot be eternal. An actual infinite magnitude is impossible; if a finite quantity is added to a finite quantity the result is finite; time, motion and body are correlative, so if one is finite all are. From this he concludes creation from nothing, which Aristotle's system did not contain and which Kindī needed.",
+              "fa": "استدلال مرکزی او این است که جهان نمی‌تواند ازلی باشد. مقداری بالفعل نامتناهی ناممکن است؛ اگر مقداری متناهی به مقداری متناهی افزوده شود نتیجه متناهی است؛ زمان و حرکت و جسم به هم بسته‌اند، پس اگر یکی متناهی باشد همه متناهی‌اند. از این، آفرینش از عدم را نتیجه می‌گیرد، که در دستگاه ارسطو نبود و کندی به آن نیاز داشت."
+            },
+            "citations": [
+              { "source": "text-fi-al-falsafa-al-ula", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He ran the translation movement as much as he contributed to it. Working under the caliphs al-Maʾmūn and al-Muʿtaṣim, he supervised and revised translations from Greek and Syriac, commissioned others, and wrote introductions that told Arabic readers how to approach texts they had no tradition for. That editorial work shaped which Greek philosophy the Islamic world received and in what form.\n\nOne consequence of that role was a lasting confusion. The paraphrase of Plotinus that circulated as Aristotle's Theology came out of his circle, and because it was read as Aristotle for centuries, Islamic and later Latin readers built Neoplatonic elements into their picture of him. Kindī's own fortunes fell when a later caliph reversed the theological policy he was associated with; his library was confiscated and he was, by one report, beaten.",
+              "fa": "او همان اندازه که به نهضت ترجمه سهم داد، آن را می‌گرداند. زیر نظر مأمون و معتصم بر ترجمه‌ها از یونانی و سریانی نظارت و بازنگری می‌کرد، ترجمه‌های دیگری سفارش می‌داد، و مقدمه‌هایی می‌نوشت که به خوانندگان عربی می‌گفت با متن‌هایی که سنتی برایشان نداشتند چگونه روبه‌رو شوند. آن کار ویرایشی شکل داد که جهان اسلام کدام فلسفه یونانی را و به چه صورتی بگیرد.\n\nیک پیامد آن نقش، آشفتگی‌ای ماندگار بود. بازگفت پلوتینوس که چون «اثولوجیای ارسطو» می‌گشت از حلقه او بیرون آمد، و چون سده‌ها ارسطو خوانده شد، خوانندگان اسلامی و بعدها لاتین عناصر نوافلاطونی را در تصویرشان از او ساختند. بخت خود کندی برگشت وقتی خلیفه‌ای بعدی سیاست الهیاتی‌ای را که نامش با آن گره خورده بود وارونه کرد؛ کتابخانه‌اش مصادره شد و به یک گزارش، کتکش زدند."
+            },
+            "citations": [
+              { "source": "text-fi-al-falsafa-al-ula", "locator": "ch. 1" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-fi-al-falsafa-al-ula"],
+      "citations": [{ "source": "text-fi-al-falsafa-al-ula" }]
+    },
+    {
+      "id": "mabahith-mashriqiyya",
+      "title": { "en": "Eastern Investigations", "fa": "المباحث المشرقیه" },
+      "originalTitle": "المباحث المشرقية في علم الإلهيات والطبيعيات",
+      "transliteration": "Al-mabāḥith al-mashriqiyya",
+      "author": "fakhr-al-din-razi",
+      "oneLine": {
+        "en": "A survey of metaphysics and physics that reports each position, objects to it, and often leaves it open.",
+        "fa": "مروری بر متافیزیک و طبیعیات که هر موضع را گزارش می‌کند، اعتراض می‌آورد، و بارها بازش می‌گذارد."
+      },
+      "composed": { "start": { "year": 1200, "precision": "circa" } },
+      "traditions": ["islamic", "persian"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-science",
+        "logic",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Rāzī was a theologian who knew the philosophers better than most philosophers did, and his method is to reconstruct a position in its strongest form before attacking it. The result is a book that preserves arguments it means to refute, and that later philosophers read for the reconstructions.",
+              "fa": "رازی الهی‌دانی بود که فیلسوفان را بهتر از بیشتر فیلسوفان می‌شناخت، و روشش این است که موضعی را در قوی‌ترین صورتش بازسازی کند و سپس به آن بتازد. نتیجه، کتابی است که استدلال‌هایی را نگاه می‌دارد که قصد ردشان را دارد، و فیلسوفان بعدی برای همان بازسازی‌ها می‌خواندندش."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His most consequential move is against Ibn Sīnā's distinction between essence and existence as a real distinction in things. Rāzī argues that the arguments for it do not establish more than a distinction in how we conceive, which threatens the foundation of the whole Avicennan system and forced later philosophers to defend it rather than assume it.",
+              "fa": "پیامدسازترین حرکتش بر ضد تمایز ابن سینا میان ماهیت و وجود چون تمایزی واقعی در چیزهاست. رازی می‌گوید استدلال‌های آن، بیش از تمایزی در شیوه تصورکردن ما را برقرار نمی‌کنند، و این پایه تمام دستگاه سینوی را تهدید می‌کند و فیلسوفان بعدی را واداشت به جای مفروض‌گرفتنش از آن دفاع کنند."
+            },
+            "citations": [
+              { "source": "text-mabahith-mashriqiyya", "locator": "Book I" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He is often described as having refuted philosophy in the Islamic east, and that is too simple. What he did was absorb it into theology so thoroughly that the two became one discipline: after him, a work of kalām contains the philosophers' arguments as a matter of course, and a philosopher answers theological objections as a matter of course. That merger is a larger event than any single refutation.\n\nHis habit of raising objections he does not answer earned him a nickname among critics — the imam of the doubters — and it is a fair description of the effect if not of the intent. Ṭūsī wrote a long defence of Ibn Sīnā against him; Mullā Ṣadrā built a system designed to meet his objections about existence. A philosopher whose main influence is the quality of the problems he left behind is unusual, and the tradition after him is largely shaped by them.",
+              "fa": "بارها می‌گویند او فلسفه را در شرق جهان اسلام رد کرد، و این بیش از حد ساده است. آنچه کرد این بود که فلسفه را چنان تمام در الهیات جذب کرد که آن دو یک رشته شدند: پس از او، کاری در کلام استدلال‌های فیلسوفان را طبیعتا در بر دارد، و فیلسوفی طبیعتا به اعتراض‌های الهیاتی پاسخ می‌دهد. آن ادغام رویدادی بزرگ‌تر از هر ردیه یگانه است.\n\nعادتش در آوردن اعتراض‌هایی که پاسخشان نمی‌دهد نزد منتقدان لقبی برایش آورد، «امام المشککین»، و این وصفی منصفانه از اثر است اگر نه از نیت. طوسی دفاعی بلند از ابن سینا در برابر او نوشت؛ ملاصدرا دستگاهی ساخت که برای پاسخ به اعتراض‌های او درباره وجود طراحی شده بود. فیلسوفی که اثر اصلی‌اش کیفیت مسائلی است که بر جای گذاشته غیرمعمول است، و سنت پس از او تا حد زیادی به دست همان‌ها شکل گرفته."
+            },
+            "citations": [
+              { "source": "text-mabahith-mashriqiyya", "locator": "Book II" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-mabahith-mashriqiyya"],
+      "citations": [{ "source": "text-mabahith-mashriqiyya" }]
+    },
+    {
+      "id": "brouwer-intuitionism",
+      "title": {
+        "en": "Intuitionism and Formalism",
+        "fa": "شهودگرایی و صورت‌گرایی"
+      },
+      "originalTitle": "Intuitionism and Formalism",
+      "author": "brouwer",
+      "oneLine": {
+        "en": "Denies that a mathematical statement is true or false independently of a proof of it.",
+        "fa": "انکار می‌کند که گزاره‌ای ریاضی مستقل از برهانی برایش راست یا دروغ باشد."
+      },
+      "composed": { "start": { "year": 1912, "precision": "exact" } },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "philosophy-of-mathematics",
+        "logic",
+        "epistemology",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "For Brouwer mathematics is a mental construction, not a description of objects that exist independently. It follows that to assert a mathematical statement is to claim a construction, and that the law of excluded middle — either P or not P — is not available for infinite domains, because neither disjunct may be constructible.",
+              "fa": "نزد براوئر ریاضیات ساختی ذهنی است نه وصف اشیایی که مستقل هستند. از این برمی‌آید که گفتن یک گزاره ریاضی ادعای یک ساخت است، و اینکه اصل طرد شق ثالث، یعنی یا «پ» یا «نه پ»، برای قلمروهای نامتناهی در دسترس نیست، چون شاید هیچ‌یک از آن دو ساختنی نباشد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The consequence is that a large body of accepted mathematics has to go. Proofs by contradiction that establish existence without producing the object are rejected; so are many results in analysis and set theory. Brouwer accepted this cost and set about rebuilding, which is why intuitionistic mathematics is a different subject rather than a philosophical gloss on the usual one.",
+              "fa": "پیامدش این است که بخش بزرگی از ریاضیات پذیرفته‌شده باید برود. برهان خلفی که هستی را برقرار می‌کند بی‌آنکه آن شیء را بسازد رد می‌شود؛ و بسیاری از نتیجه‌ها در آنالیز و نظریه مجموعه‌ها هم. براوئر این بها را پذیرفت و به بازسازی پرداخت، و از همین رو ریاضیات شهودی موضوعی دیگر است نه حاشیه‌ای فلسفی بر ریاضیات معمول."
+            },
+            "citations": [
+              { "source": "text-brouwer-intuitionism", "locator": "§3" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Hilbert's response was that no one shall expel us from the paradise Cantor created, and the dispute became institutional. Brouwer was removed from the editorial board of the leading journal in 1928 in a manoeuvre widely regarded as personal; he stopped publishing for years. That episode is usually told as mathematics defending itself against a crank, which is not what happened — Brouwer had already proved major theorems in topology by methods his own philosophy would later disallow.\n\nThe position has aged better than its reception. Intuitionistic logic turned out to be exactly the logic of computation: a proof that constructs an object corresponds to a program that produces one, and the correspondence is now foundational in computer science and in proof assistants. A philosophy of mathematics rejected as unusably restrictive became the standard framework of a field that did not exist when it was proposed.",
+              "fa": "پاسخ هیلبرت این بود که کسی ما را از بهشتی که کانتور ساخت بیرون نخواهد راند، و آن نزاع نهادی شد. براوئر در سال ۱۹۲۸ با مانوری که عموما شخصی دانسته می‌شود از هیئت تحریریه مهم‌ترین مجله برکنار شد؛ سال‌ها انتشار را وانهاد. آن ماجرا معمولا چون دفاع ریاضیات از خود در برابر مدعی‌ای بی‌مایه گفته می‌شود، و چنین نبود؛ براوئر پیش‌تر قضیه‌هایی مهم در توپولوژی را با روش‌هایی اثبات کرده بود که فلسفه خودش بعدها منعشان می‌کرد.\n\nاین موضع بهتر از پذیرشش کهنه شده است. منطق شهودی از آب درآمد که دقیقا منطق محاسبه است: برهانی که شیئی می‌سازد با برنامه‌ای که یکی تولید می‌کند برابر است، و این تناظر اکنون در علوم رایانه و در دستیارهای اثبات بنیادی است. فلسفه‌ای در ریاضیات که چون سختگیری‌ای به‌کارنیامدنی رد شده بود، چارچوب استاندارد رشته‌ای شد که هنگام پیشنهادش وجود نداشت."
+            },
+            "citations": [
+              { "source": "text-brouwer-intuitionism", "locator": "§5" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-brouwer-intuitionism"],
+      "citations": [{ "source": "text-brouwer-intuitionism" }]
+    },
+    {
+      "id": "are-prisons-obsolete",
+      "title": { "en": "Are Prisons Obsolete?", "fa": "آیا زندان‌ها منسوخ‌اند" },
+      "originalTitle": "Are Prisons Obsolete?",
+      "author": "angela-davis",
+      "oneLine": {
+        "en": "Asks why imprisonment feels inevitable, and answers with the history of how it replaced what came before.",
+        "fa": "می‌پرسد چرا زندان ناگزیر می‌نماید، و با تاریخ اینکه چگونه جایگزین آنچه پیش‌تر بود شد پاسخ می‌دهد."
+      },
+      "composed": { "start": { "year": 2003, "precision": "exact" } },
+      "traditions": ["africana", "american", "contemporary"],
+      "branches": [
+        "political-philosophy",
+        "philosophy-of-law",
+        "applied-ethics",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Davis's method is historical rather than moral. The prison as a normal punishment is about two hundred years old and replaced public corporal punishment, which had seemed equally inevitable; showing that an institution has a beginning is the first step in arguing that it can have an end.",
+              "fa": "روش دیویس تاریخی است نه اخلاقی. زندان چون کیفر معمول حدود دویست سال قدمت دارد و جای کیفر بدنی همگانی را گرفت، که آن هم به همان اندازه ناگزیر می‌نمود؛ نشان‌دادن اینکه نهادی آغازی دارد نخستین گام در استدلال بر این است که می‌تواند پایانی داشته باشد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The economic analysis is what distinguishes the book from a moral appeal. She traces how imprisonment in the United States became an industry with construction contracts, supply chains, prison labour and rural towns dependent on facilities for employment — so that the number of prisoners is shaped by interests that have nothing to do with the rate of crime.",
+              "fa": "تحلیل اقتصادی همان است که این کتاب را از درخواستی اخلاقی جدا می‌کند. پی می‌گیرد که چگونه زندان در ایالات متحده به صنعتی بدل شد با قراردادهای ساخت و زنجیره تأمین و کار زندانیان و شهرهای روستایی که برای اشتغال به این تأسیسات وابسته‌اند، چنانکه شمار زندانیان را منافعی شکل می‌دهد که هیچ ربطی به نرخ جرم ندارند."
+            },
+            "citations": [
+              { "source": "text-are-prisons-obsolete", "locator": "ch. 5" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "She is careful about what abolition means and the care is usually lost in reporting. The proposal is not to open the gates tomorrow; it is to build the things that would make prisons unnecessary — housing, health care, education, and forms of accountability that do not consist of removal — and to treat the prison as the placeholder those absences produced. Whether that programme can address serious violence is the standard objection and she addresses it directly rather than avoiding it.\n\nHer own history is part of why the book is read. She was on the FBI's most wanted list, spent sixteen months in jail awaiting trial on charges carrying the death penalty, and was acquitted on all counts. That gives the descriptive chapters an authority they would not otherwise have and gives critics an argument they use — that the position is personal. The historical and economic claims can be checked independently, which is the appropriate response to both.",
+              "fa": "درباره معنای الغا مراقب است و این مراقبت معمولا در گزارش‌ها گم می‌شود. پیشنهاد این نیست که فردا درها را بگشایند؛ این است که چیزهایی ساخته شود که زندان را غیرلازم کند، یعنی مسکن و درمان و آموزش و صورت‌هایی از پاسخگویی که در برداشتن آدم از میان خلاصه نشوند، و زندان چون جایگزینی موقت دیده شود که آن نبودها ساختند. اینکه این برنامه می‌تواند به خشونت جدی بپردازد یا نه اعتراض همیشگی است و او به جای پرهیز مستقیم به آن می‌پردازد.\n\nتاریخ خود او بخشی از دلیل خوانده‌شدن این کتاب است. نامش در فهرست تحت تعقیب‌ترین‌های اف‌بی‌آی بود، شانزده ماه در بازداشت و در انتظار محاکمه‌ای با اتهام‌هایی با کیفر اعدام ماند، و از همه اتهام‌ها تبرئه شد. همین به فصل‌های توصیفی اقتداری می‌دهد که در غیر آن نداشتند و به منتقدان استدلالی می‌دهد که به کارش می‌برند؛ اینکه این موضع شخصی است. ادعاهای تاریخی و اقتصادی را می‌توان مستقل وارسی کرد، و این پاسخ درخور هر دوست."
+            },
+            "citations": [
+              { "source": "text-are-prisons-obsolete", "locator": "ch. 6" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-are-prisons-obsolete"],
+      "citations": [{ "source": "text-are-prisons-obsolete" }]
     }
   ]
 }
