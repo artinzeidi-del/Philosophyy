@@ -4296,6 +4296,912 @@
       },
       "editions": ["text-letters-to-lucilius"],
       "citations": [{ "source": "text-letters-to-lucilius" }]
+    },
+    {
+      "id": "periphyseon",
+      "title": { "en": "Periphyseon", "fa": "پری‌فوسئون" },
+      "originalTitle": "Periphyseon, seu De divisione naturae",
+      "alsoKnownAs": ["On the Division of Nature"],
+      "author": "eriugena",
+      "oneLine": {
+        "en": "A dialogue in five books dividing all of nature into four kinds, the last of which is God at rest.",
+        "fa": "گفت‌وگویی در پنج دفتر که همه طبیعت را به چهار گونه بخش می‌کند و گونه چهارم خداست در آرامش."
+      },
+      "composed": {
+        "start": { "year": 862, "precision": "circa" },
+        "end": { "year": 866, "precision": "circa" }
+      },
+      "traditions": ["medieval", "christian"],
+      "branches": ["metaphysics", "philosophy-of-religion", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Eriugena was an Irishman at the Frankish court who could read Greek when almost nobody in the Latin west could, and he translated the Greek Christian Neoplatonists before writing this. The fourfold division — what creates and is not created, what creates and is created, what is created and does not create, what neither creates nor is created — is the frame for everything else.",
+              "fa": "اریوگنا ایرلندی‌ای در دربار فرانک‌ها بود که یونانی می‌خواند در حالی که در مغرب لاتین کمتر کسی می‌توانست، و پیش از نوشتن این کتاب نوافلاطونیان مسیحی یونانی را ترجمه کرد. بخش‌بندی چهارگانه، یعنی آنچه می‌آفریند و آفریده نیست، آنچه می‌آفریند و آفریده است، آنچه آفریده است و نمی‌آفریند، و آنچه نه می‌آفریند و نه آفریده است، قاب همه چیز دیگر است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "God is not in any category, including the category of being, because every category is a limit and God is not limited. Eriugena therefore says God does not know what he is, not from a lack but because there is no what there to be known — a claim that reads as blasphemous and is meant as the strictest possible respect.",
+              "fa": "خدا در هیچ مقوله‌ای نیست، از جمله مقوله هستی، چون هر مقوله حدی است و خدا محدود نیست. پس اریوگنا می‌گوید خدا نمی‌داند که چیست، نه از سر کاستی بلکه از آن رو که چیستی‌ای آنجا نیست تا دانسته شود؛ ادعایی که کفرآمیز خوانده می‌شود و سختگیرانه‌ترین صورت ممکن حرمت‌نهادن است."
+            },
+            "citations": [{ "source": "text-periphyseon", "locator": "Book I" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The fourth division is what got the book condemned. If God is both the source everything comes from and the rest everything returns to, and if the return is complete, it is hard to say what remains of the individual creature at the end — and harder still to keep a doctrine of eternal punishment. Councils at Paris and Sens ordered copies burned; a papal condemnation followed in 1225, nearly four centuries after it was written, which is a measure of how long it kept circulating.\n\nHis position on evil is the cleanest consequence of the system and the most quietly radical. Evil has no nature, because everything with a nature is created and everything created is good; so evil is a failure of direction rather than a thing, and at the return there is nothing of it left to punish. Whether that is a coherent theodicy or a well-dressed refusal to have one is exactly what his readers have disagreed about.",
+              "fa": "همان بخش چهارم است که کتاب را محکوم کرد. اگر خدا هم سرچشمه‌ای باشد که همه چیز از او می‌آید و هم آرامشی که همه چیز به او بازمی‌گردد، و اگر آن بازگشت تمام باشد، دشوار می‌توان گفت در پایان از آفریده فردی چه می‌ماند، و دشوارتر می‌توان آموزه کیفر جاودان را نگاه داشت. شوراهایی در پاریس و سان فرمان سوزاندن نسخه‌ها را دادند؛ در سال ۱۲۲۵ محکومیتی پاپی در پی آمد، نزدیک به چهار سده پس از نوشته‌شدنش، و این اندازه‌ای است از اینکه چه مدت در گردش ماند.\n\nموضع او درباره شر پاک‌ترین پیامد این دستگاه است و بی‌صداترین موضع تندروانه‌اش. شر طبیعتی ندارد، چون هر چه طبیعت دارد آفریده است و هر آفریده خیر است؛ پس شر ناکامی در جهت است نه یک چیز، و در بازگشت چیزی از آن نمی‌ماند تا کیفر ببیند. اینکه این عدل‌الهی‌ای منسجم است یا امتناعی خوش‌پوش از داشتن آن، دقیقا همان است که خوانندگانش بر سرش اختلاف داشته‌اند."
+            },
+            "citations": [{ "source": "text-periphyseon", "locator": "Book V" }]
+          }
+        ]
+      },
+      "editions": ["text-periphyseon"],
+      "citations": [{ "source": "text-periphyseon" }]
+    },
+    {
+      "id": "sic-et-non",
+      "title": { "en": "Yes and No", "fa": "آری و نه" },
+      "originalTitle": "Sic et Non",
+      "author": "abelard",
+      "oneLine": {
+        "en": "A hundred and fifty-eight questions, each answered by authorities that flatly contradict each other.",
+        "fa": "صد و پنجاه و هشت پرسش، که به هر یک مرجع‌هایی پاسخ می‌دهند که آشکارا یکدیگر را نقض می‌کنند."
+      },
+      "composed": { "start": { "year": 1121, "precision": "circa" } },
+      "traditions": ["medieval", "christian"],
+      "branches": ["logic", "epistemology", "philosophy-of-religion"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "For each question Abelard lines up the Fathers on both sides and stops. He supplies no resolution. The prologue explains why: the reader is to learn how to tell a genuine conflict from a difference of context, wording, audience or date, and no summary can teach that, only the exercise can.",
+              "fa": "برای هر پرسش، آبلار پدران کلیسا را در دو سو می‌چیند و می‌ایستد. هیچ فیصله‌ای نمی‌دهد. مقدمه دلیلش را می‌گوید: خواننده باید بیاموزد که چگونه تعارض راستین را از اختلاف بافت و واژه و مخاطب و تاریخ بازشناسد، و هیچ خلاصه‌ای این را نمی‌آموزد، تنها همین تمرین می‌آموزد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The prologue is the philosophical part. It sets out rules for reading an authority: check whether the text is genuine, whether the author later retracted it, whether he is reporting someone else's view, whether the same word is being used in two senses. That is a method of criticism applied to sacred texts a century before anyone called it that, and it is offered as an act of respect rather than of doubt.",
+              "fa": "مقدمه همان بخش فلسفی است. قاعده‌هایی برای خواندن یک مرجع می‌نهد: بنگر که متن اصیل است یا نه، که نویسنده بعدها پسش گرفته یا نه، که رأی کسی دیگر را نقل می‌کند یا نه، که یک واژه در دو معنا به کار رفته یا نه. این روشی است در نقد که یک سده پیش از آنکه کسی چنین بنامدش بر متن مقدس به کار رفته، و چون کاری از سر حرمت عرضه می‌شود نه از سر تردید."
+            },
+            "citations": [
+              { "source": "text-sic-et-non", "locator": "prologue" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His ethics is the other lasting piece and it moves in the same direction: inward, toward the act of judgement. What makes an action a sin is not the deed and not the desire but the consent — the moment the will agrees to what it knows it should refuse. It follows that a man who kills in genuine ignorance does not sin by that act, and that two people doing the same thing may not be doing the same thing at all.\n\nThe biography has swallowed the philosophy in popular memory. The affair with Héloïse, the castration ordered by her uncle, the letters afterward, and Bernard of Clairvaux's successful campaign to have him condemned at Sens in 1141 make a better story than a treatise on universals. Héloïse's own letters, in which she argues the ethics of intention back at him more rigorously than he does, deserve more attention than they usually get.",
+              "fa": "اخلاق او آن پاره ماندگار دیگر است و در همان سو حرکت می‌کند: به درون، به سوی خود کنش داوری. آنچه کاری را گناه می‌کند نه فعل است و نه خواهش، بلکه رضاست؛ همان لحظه‌ای که اراده به آنچه می‌داند باید ردش کند تن می‌دهد. از این برمی‌آید که کسی که از سر نادانی راستین می‌کشد با آن فعل گناه نکرده است، و اینکه دو نفر که یک کار می‌کنند شاید اصلا یک کار نکنند.\n\nدر خاطره همگانی، زندگی‌نامه فلسفه را بلعیده است. ماجرای الوئیز، اختگی به فرمان عموی او، نامه‌های پس از آن، و کارزار کامیاب برنارد کلروو برای محکوم‌کردنش در سان به سال ۱۱۴۱، داستان بهتری می‌سازد تا رساله‌ای درباره کلیات. نامه‌های خود الوئیز، که در آن‌ها اخلاق نیت را سختگیرانه‌تر از خود او به رویش می‌آورد، سزاوار توجهی بیش از آن است که معمولا می‌گیرد."
+            },
+            "citations": [
+              { "source": "text-scito-te-ipsum", "locator": "ch. 3" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-sic-et-non", "text-scito-te-ipsum"],
+      "citations": [{ "source": "text-sic-et-non" }]
+    },
+    {
+      "id": "scivias",
+      "title": { "en": "Scivias", "fa": "اسکیویاس" },
+      "originalTitle": "Scivias",
+      "alsoKnownAs": ["Know the Ways"],
+      "author": "hildegard",
+      "oneLine": {
+        "en": "Twenty-six visions, each described and then interpreted at length by the woman who had them.",
+        "fa": "بیست و شش رؤیا، که هر یک را همان زنی که دیده‌شان وصف کرده و سپس به تفصیل تفسیر کرده است."
+      },
+      "composed": {
+        "start": { "year": 1141, "precision": "circa" },
+        "end": { "year": 1151, "precision": "circa" }
+      },
+      "traditions": ["medieval", "christian"],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "ethics",
+        "aesthetics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Hildegard was a Benedictine abbess on the Rhine who had seen these things since childhood and kept quiet about them until, at forty-two, she was told in one of them to write. She sought and obtained approval from Bernard of Clairvaux and from the pope, which is why the book survived at all and why she could go on to write two more.",
+              "fa": "هیلدگارد سرپرست دیری بندیکتی در کرانه راین بود که این چیزها را از کودکی می‌دید و درباره‌شان خاموش مانده بود تا آنکه در چهل و دو سالگی در یکی از همان‌ها به او گفته شد که بنویس. از برنارد کلروو و از پاپ تأیید خواست و گرفت، و از همین روست که این کتاب اصلا ماند و او توانست دو کتاب دیگر هم بنویسد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The philosophical content is a theory of the human place in the cosmos worked out in images rather than in propositions. Greenness — viriditas, her own word — is the vital force running through creation, and dryness is what sin does; the human being is the point where the material and the spiritual worlds are joined, so what happens in a soul has consequences in the elements.",
+              "fa": "محتوای فلسفی، نظریه‌ای است درباره جایگاه آدمی در گیتی که به جای گزاره در صورت پرداخته شده است. سبزینگی، که واژه خود اوست، نیروی زنده‌ای است که در آفرینش می‌دود، و خشکی همان است که گناه می‌کند؛ آدمی همان نقطه‌ای است که جهان مادی و جهان معنوی در آن به هم می‌پیوندند، پس آنچه در یک جان می‌گذرد در عناصر پیامد دارد."
+            },
+            "citations": [
+              { "source": "text-scivias", "locator": "Book I, Vision 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Reading her as a philosopher requires a decision about what counts, and the decision is defensible. She argues, she distinguishes, she anticipates objections and answers them; she simply does it inside a form that later academic philosophy stopped recognising. The alternative is to say that only work in the scholastic genre counts, which would exclude most of what was written by anyone barred from the universities — that is, by every woman of her century.\n\nThe practical scale of the work is part of the argument. She composed a full liturgical cycle of music, wrote two treatises on medicine and natural history that catalogue hundreds of plants and animals, invented an alphabet and a private language, and corresponded with emperors and popes about matters they had not asked her opinion on. The visions authorised all of it: they were the ground on which a woman could publicly claim to know something.",
+              "fa": "فیلسوف‌خواندن او تصمیمی درباره اینکه چه چیز به شمار می‌آید می‌طلبد، و آن تصمیم دفاع‌پذیر است. او استدلال می‌کند، تمایز می‌نهد، اعتراض‌ها را پیش‌بینی و پاسخ می‌دهد؛ فقط این را در صورتی می‌کند که فلسفه دانشگاهی بعدی دیگر به رسمیت نشناخت. جایگزینش این است که بگوییم تنها کار در قالب مدرسی به شمار می‌آید، و این بیشتر آنچه را هر کس محروم از دانشگاه نوشته کنار می‌گذارد؛ یعنی هر زن آن سده را.\n\nاندازه عملی کار او بخشی از همین استدلال است. یک دوره کامل موسیقی آیینی ساخت، دو رساله در پزشکی و تاریخ طبیعی نوشت که صدها گیاه و جانور را فهرست می‌کنند، الفبا و زبانی خصوصی ابداع کرد، و با امپراتوران و پاپ‌ها درباره اموری نامه نگاشت که رأی او را نپرسیده بودند. رؤیاها همه این‌ها را مجاز می‌کردند: زمینی بودند که یک زن می‌توانست بر آن آشکارا مدعی دانستن چیزی شود."
+            },
+            "citations": [
+              { "source": "text-scivias", "locator": "Book III, Vision 13" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-scivias"],
+      "citations": [{ "source": "text-scivias" }]
+    },
+    {
+      "id": "ordinatio",
+      "title": { "en": "Ordinatio", "fa": "اوردیناتیو" },
+      "originalTitle": "Ordinatio",
+      "alsoKnownAs": ["Opus Oxoniense"],
+      "author": "scotus",
+      "oneLine": {
+        "en": "His own revision of his Oxford lectures, left unfinished at his death and pieced together from drafts.",
+        "fa": "بازنگری خود او بر درس‌های آکسفوردش، که با مرگش ناتمام ماند و از پیش‌نویس‌ها گرد آمد."
+      },
+      "composed": {
+        "start": { "year": 1300, "precision": "circa" },
+        "end": { "year": 1308, "precision": "circa" }
+      },
+      "traditions": ["medieval", "christian"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "philosophy-of-religion",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Scotus died at forty-two with the book in pieces, and what circulated afterward mixed his own revisions with student reports and later additions. Sorting out which is which took a critical edition most of the twentieth century, and the reputation for impenetrability owes something to centuries of reading a corrupt text.",
+              "fa": "اسکوتوس در چهل و دو سالگی مرد و کتاب پاره‌پاره ماند، و آنچه پس از او گشت بازنگری‌های خودش را با گزارش شاگردان و افزوده‌های بعدی درآمیخته بود. جداکردن این‌ها از هم بیشتر سده بیستم را با یک ویرایش انتقادی گرفت، و شهرت او به دشوارفهمی تا حدی وامدار سده‌ها خواندن متنی مغشوش است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Two moves made him indispensable. The first is the univocity of being: the word exists must mean the same thing when said of God and of a creature, or no argument can run from one to the other. The second is haecceity — thisness — the individuating principle that makes this particular thing this one rather than another of its kind, which neither matter nor form had explained.",
+              "fa": "دو حرکت او را ناگزیر کرد. نخست اشتراک معنوی وجود: واژه «هست» باید وقتی درباره خدا و وقتی درباره آفریده گفته می‌شود یک معنا بدهد، وگرنه هیچ استدلالی از یکی به دیگری نمی‌رود. دوم «این‌بودگی»، یعنی همان اصل تشخصی که این چیز خاص را این می‌کند نه فردی دیگر از گونه‌اش، که نه ماده و نه صورت توضیحش نداده بود."
+            },
+            "citations": [
+              { "source": "text-ordinatio", "locator": "Book I, dist. 3" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Univocity looks like a technical repair and turns out to be a hinge in the history of metaphysics. If being is one notion applying across the whole of what there is, then metaphysics has a single subject matter and God falls inside it as the infinite instance; the alternative, Aquinas's analogy, keeps God outside every common concept at the cost of making inference upward harder to justify. Later readers have made this the moment where the modern conception of a univocal, surveyable reality begins, for praise or for blame.\n\nHis account of freedom is the part that has aged best. The will, for Scotus, is not a faculty that follows the intellect's last judgement automatically; it can choose between two goods with nothing determining which, because it has an affection for justice alongside its affection for advantage. That is a defence of a genuinely open will made in the thirteenth century, and it is more careful than most of what has been written since.",
+              "fa": "اشتراک معنوی تعمیری فنی می‌نماید و در واقع لولایی در تاریخ متافیزیک است. اگر هستی یک مفهوم باشد که بر تمام آنچه هست روا شود، آنگاه متافیزیک یک موضوع دارد و خدا درون آن می‌افتد چون نمونه نامتناهی؛ جایگزینش، یعنی تشکیک آکوئیناس، خدا را بیرون از هر مفهوم مشترک نگاه می‌دارد به بهای دشوارترشدن توجیه استنتاج رو به بالا. خوانندگان بعدی همین را لحظه آغاز تصور امروزی از واقعیتی یکدست و بازرسی‌پذیر دانسته‌اند، چه به ستایش چه به نکوهش.\n\nشرح او از آزادی همان بخشی است که بهتر از همه کهنه شده است. اراده نزد اسکوتوس قوه‌ای نیست که خودکار از آخرین داوری عقل پیروی کند؛ می‌تواند میان دو خیر برگزیند بی‌آنکه چیزی کدام را معین کند، چون در کنار میل به سود میلی به عدل هم دارد. این دفاعی است از اراده‌ای به‌راستی گشوده که در سده سیزدهم نوشته شده، و سنجیده‌تر از بیشتر آن چیزی است که از آن پس نوشته‌اند."
+            },
+            "citations": [
+              { "source": "text-ordinatio", "locator": "Book II, dist. 3" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-ordinatio"],
+      "citations": [{ "source": "text-ordinatio" }]
+    },
+    {
+      "id": "de-docta-ignorantia",
+      "title": { "en": "On Learned Ignorance", "fa": "درباره نادانی آموخته" },
+      "originalTitle": "De docta ignorantia",
+      "author": "nicholas-of-cusa",
+      "oneLine": {
+        "en": "Argues that the highest thing we can know about the infinite is the exact way in which we cannot know it.",
+        "fa": "می‌گوید بالاترین چیزی که درباره نامتناهی می‌توانیم بدانیم همان شیوه دقیقی است که نمی‌توانیم بدانیمش."
+      },
+      "composed": { "start": { "year": 1440, "precision": "exact" } },
+      "traditions": ["renaissance", "christian", "medieval"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "philosophy-of-religion",
+        "philosophy-of-mathematics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Cusanus says the idea came to him on a ship returning from Constantinople. Knowledge works by comparing a thing to a measure, and comparison needs proportion; the infinite stands in no proportion to anything finite, so it cannot be measured — and knowing precisely that is a form of knowledge rather than an absence of it.",
+              "fa": "کوزایی می‌گوید این فکر در کشتی بازگشت از قسطنطنیه به سرش آمد. دانش با سنجیدن چیزی با معیاری کار می‌کند، و سنجش نسبت می‌خواهد؛ نامتناهی با هیچ متناهی نسبتی ندارد، پس اندازه‌پذیر نیست، و دانستن دقیق همین صورتی از دانش است نه نبود آن."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His instrument is mathematics used as a ladder. Take a circle and increase its radius without limit: the arc flattens, and at infinity the curve and the straight line coincide. Take a triangle and stretch it: at infinity it becomes a line. So in the infinite, distinctions that are real everywhere else fall together — which is what the coincidence of opposites means, and it is offered as a demonstrable feature of magnitude rather than as a mystical saying.",
+              "fa": "ابزار او ریاضی است که چون نردبان به کار می‌رود. دایره‌ای بگیر و شعاعش را بی‌حد بزرگ کن: کمان صاف می‌شود، و در نامتناهی خم و خط راست بر هم منطبق می‌شوند. مثلثی بگیر و بکشش: در نامتناهی خط می‌شود. پس در نامتناهی تمایزهایی که همه جای دیگر واقعی‌اند بر هم می‌افتند، و معنای «تقارن ضدها» همین است، که چون ویژگی برهان‌پذیر مقدار عرضه می‌شود نه چون سخنی عارفانه."
+            },
+            "citations": [
+              {
+                "source": "text-de-docta-ignorantia",
+                "locator": "Book I, ch. 13"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "One consequence is astronomical and arrives ninety years before Copernicus. If the universe has no outer boundary it has no centre, and if it has no centre the earth is not at it — nor is anywhere else, and every observer would take themselves to be still while everything moved around them. Cusanus reaches this by argument about infinity rather than by observation, and he does not draw a heliocentric conclusion, so the resemblance should not be overstated.\n\nHe was also a cardinal doing practical work in a church tearing itself apart, and the metaphysics has a political edge. If no finite formulation captures the infinite exactly, then rival formulations may be aiming at the same target from different angles, and On the Peace of Faith argues on that basis that the world's religions differ in rite rather than in what they are reaching for. It was written in 1453, the year Constantinople fell, which tells you what it was answering.",
+              "fa": "یک پیامد آن اخترشناختی است و نود سال پیش از کوپرنیک می‌رسد. اگر گیتی مرز بیرونی نداشته باشد مرکزی ندارد، و اگر مرکزی نداشته باشد زمین در آن نیست، و هیچ جای دیگر هم نیست، و هر ناظری خود را ساکن می‌پندارد و همه چیز را در گردش گرد خود. کوزایی به این نه با رصد بلکه با استدلال درباره نامتناهی می‌رسد، و نتیجه خورشیدمرکزی نمی‌گیرد، پس نباید در این شباهت مبالغه کرد.\n\nاو کاردینالی هم بود که در کلیسایی درگیر شقاق کار عملی می‌کرد، و این متافیزیک لبه‌ای سیاسی دارد. اگر هیچ صورت‌بندی متناهی نامتناهی را دقیق نگیرد، آنگاه صورت‌بندی‌های رقیب شاید یک هدف را از زاویه‌های گوناگون نشانه رفته باشند، و «درباره صلح ایمان» بر همین پایه می‌گوید دین‌های جهان در آیین اختلاف دارند نه در آنچه به سویش دست می‌برند. این در سال ۱۴۵۳ نوشته شد، همان سال سقوط قسطنطنیه، و این می‌گوید پاسخ چه بوده است."
+            },
+            "citations": [
+              {
+                "source": "text-de-docta-ignorantia",
+                "locator": "Book II, ch. 11"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-de-docta-ignorantia"],
+      "citations": [{ "source": "text-de-docta-ignorantia" }]
+    },
+    {
+      "id": "praise-of-folly",
+      "title": { "en": "The Praise of Folly", "fa": "ستایش حماقت" },
+      "originalTitle": "Moriae Encomium",
+      "alsoKnownAs": ["Encomium Moriae", "In Praise of Folly"],
+      "author": "erasmus",
+      "oneLine": {
+        "en": "Folly delivers a speech in her own honour, and by the end she has said everything the author could not.",
+        "fa": "حماقت در ستایش خودش سخنرانی می‌کند، و تا پایان هر آنچه را نویسنده نمی‌توانست بگوید گفته است."
+      },
+      "composed": { "start": { "year": 1511, "precision": "exact" } },
+      "traditions": ["renaissance", "christian", "european"],
+      "branches": [
+        "ethics",
+        "social-philosophy",
+        "philosophy-of-religion",
+        "aesthetics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Erasmus wrote it in about a week while staying with Thomas More, whose name is a pun on the Greek for folly. It begins as light academic fun at the expense of pedants and grammarians, and about halfway through the target changes to theologians, monks, bishops and popes, without the tone changing at all.",
+              "fa": "اراسموس آن را در حدود یک هفته نوشت، هنگام اقامت نزد توماس مور، که نامش با واژه یونانی حماقت جناس می‌سازد. چون شوخی سبک دانشگاهی به هزینه فضل‌فروشان و دستورنویسان آغاز می‌شود، و نزدیک نیمه، آماج به الهی‌دانان و راهبان و اسقفان و پاپ‌ها می‌چرخد، بی‌آنکه لحن هیچ عوض شود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The device is exact and does real work. Because the speaker is Folly, every criticism is deniable — she is a fool, so who would take her seriously — and every compliment is poisoned, since to be praised by folly is not praise. Erasmus can therefore say what would have been dangerous signed, and the reader is left to decide which parts were meant, which is the same problem the book is about.",
+              "fa": "این ترفند دقیق است و کار جدی می‌کند. چون گوینده حماقت است، هر انتقادی انکارپذیر است، زیرا او نادان است و چه کسی جدی‌اش می‌گیرد، و هر ستایشی زهرآلود است، چون ستوده‌شدن به دست حماقت ستایش نیست. پس اراسموس می‌تواند چیزی را بگوید که امضاکردنش خطرناک بود، و خواننده می‌ماند تا معلوم کند کدام بخش جدی بوده، که همان مسئله‌ای است که کتاب درباره‌اش است."
+            },
+            "citations": [
+              { "source": "text-praise-of-folly", "locator": "§53-64" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The last section drops the joke, or seems to. Folly argues that Christianity is itself a kind of madness — that the faith asks for what no calculation would recommend, and that the saints and the truly devout look ridiculous by every worldly measure. Whether this is a pious conclusion, a deeper satire, or genuinely undecidable has been argued since the sixteenth century, and the text supports all three.\n\nIt made him the most famous writer in Europe and then made his position impossible. Luther read the satire as an ally's work and expected him to join; Erasmus refused, wrote against Luther on free will, and was attacked from both directions for the rest of his life. Catholic authorities put his complete works on the Index; Protestant polemicists called him a coward. A book that made irony a method left its author with no side.",
+              "fa": "بخش پایانی شوخی را وامی‌نهد، یا چنین می‌نماید. حماقت می‌گوید مسیحیت خود گونه‌ای دیوانگی است؛ که ایمان چیزی می‌خواهد که هیچ حسابی توصیه‌اش نمی‌کند، و اینکه قدیسان و دین‌داران راستین به هر معیار این‌جهانی خنده‌دار می‌نمایند. اینکه این نتیجه‌ای پارسایانه است یا هجوی ژرف‌تر یا به‌راستی تصمیم‌ناپذیر، از سده شانزدهم محل بحث بوده، و متن هر سه را برمی‌تابد.\n\nاین کتاب او را نامدارترین نویسنده اروپا کرد و سپس جایگاهش را ناممکن. لوتر آن هجو را کار یک هم‌پیمان خواند و انتظار داشت به او بپیوندد؛ اراسموس نپذیرفت، بر ضد لوتر درباره اراده آزاد نوشت، و تا پایان عمر از هر دو سو حمله دید. مقامات کاتولیک همه آثارش را در فهرست کتاب‌های ممنوع نهادند؛ جدل‌نویسان پروتستان بزدلش خواندند. کتابی که کنایه را به روش بدل کرد نویسنده‌اش را بی‌طرف بر جای گذاشت."
+            },
+            "citations": [
+              { "source": "text-praise-of-folly", "locator": "§65-68" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-praise-of-folly"],
+      "citations": [{ "source": "text-praise-of-folly" }]
+    },
+    {
+      "id": "de-linfinito",
+      "title": {
+        "en": "On the Infinite Universe and Worlds",
+        "fa": "درباره گیتی و جهان‌های بی‌کران"
+      },
+      "originalTitle": "De l'infinito, universo e mondi",
+      "author": "bruno",
+      "oneLine": {
+        "en": "Argues that space is endless and holds countless suns with inhabited worlds, sixteen years before he was burned.",
+        "fa": "می‌گوید فضا بی‌پایان است و خورشیدهای بی‌شمار با جهان‌های مسکون دارد، شانزده سال پیش از آنکه بسوزانندش."
+      },
+      "composed": { "start": { "year": 1584, "precision": "exact" } },
+      "traditions": ["renaissance", "european"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "philosophy-of-science"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Written in Italian as a dialogue during his years in London, and printed there because it could not be printed at home. The argument is not observational — Bruno had no telescope and nobody did — but metaphysical: an infinite cause could not produce a bounded effect without holding something back, and there is no reason it should.",
+              "fa": "به ایتالیایی و در قالب گفت‌وگو در سال‌های لندنش نوشته شد، و همان‌جا چاپ شد چون در وطن چاپ‌شدنی نبود. استدلالش رصدی نیست، چون برونو تلسکوپ نداشت و هیچ‌کس نداشت، بلکه متافیزیکی است: علتی نامتناهی نمی‌تواند معلولی محدود پدید آورد مگر چیزی را نگاه دارد، و دلیلی نیست که چنین کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Copernicus had moved the earth and kept the sphere of fixed stars as an outer wall. Bruno removes the wall. The stars are other suns, at various distances, with planets of their own that are inhabited; there is no centre and no edge; and the earth is one body among an unlimited number, distinguished by nothing except that we happen to be standing on it.",
+              "fa": "کوپرنیک زمین را جابه‌جا کرده و سپهر ستارگان ثابت را چون دیواری بیرونی نگاه داشته بود. برونو آن دیوار را برمی‌دارد. ستارگان خورشیدهای دیگرند، در فاصله‌های گوناگون، با سیاره‌هایی از آن خود که مسکون‌اند؛ نه مرکزی هست و نه لبه‌ای؛ و زمین یکی از اجرام بی‌شمار است، که هیچ چیز جز ایستادن اتفاقی ما بر آن جدایش نمی‌کند."
+            },
+            "citations": [
+              { "source": "text-de-linfinito", "locator": "Dialogue 3" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The martyr-of-science story needs qualifying, and the qualification is not a defence of the people who lit the fire. The surviving record of his trial is partial — the main Roman file was lost and is known through a summary — but the charges that can be documented are mostly theological: denying the Trinity, denying the virgin birth, holding views on the soul's transmigration. Cosmology appears among them, not as the whole of them.\n\nThe difficulty is that in his own system the two cannot be separated. An infinite universe with inhabited worlds is not an astronomical detail attached to an orthodox theology; it makes the incarnation on this planet strange, it makes divine attention non-exclusive, and Bruno drew those consequences rather than hiding them. He was killed for a metaphysics, and the cosmology was part of the metaphysics, which is a more accurate claim than either of the usual ones.",
+              "fa": "داستان شهید دانش نیازمند قید است، و آن قید دفاعی از کسانی نیست که آتش را افروختند. سند بازمانده محاکمه‌اش ناتمام است، چون پرونده اصلی رومی گم شد و از راه خلاصه‌ای شناخته می‌شود، اما اتهام‌های مستندشدنی بیشتر الهیاتی‌اند: انکار تثلیث، انکار تولد از باکره، دیدگاه‌هایی درباره تناسخ نفس. کیهان‌شناسی در میانشان هست، نه همه آن‌ها.\n\nدشواری این است که در دستگاه خود او این دو را نمی‌توان جدا کرد. گیتی‌ای بی‌کران با جهان‌های مسکون جزئیاتی اخترشناختی نیست که به الهیاتی راست‌کیش چسبانده شده باشد؛ تجسد بر این سیاره را عجیب می‌کند، توجه الهی را ناانحصاری می‌کند، و برونو این پیامدها را بیرون کشید نه اینکه پنهانشان کند. او را برای یک متافیزیک کشتند، و کیهان‌شناسی بخشی از آن متافیزیک بود، و این ادعایی دقیق‌تر از هر دو ادعای رایج است."
+            },
+            "citations": [
+              { "source": "text-de-linfinito", "locator": "Dialogue 5" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-de-linfinito"],
+      "citations": [{ "source": "text-de-linfinito" }]
+    },
+    {
+      "id": "triads",
+      "title": { "en": "The Triads", "fa": "سه‌گانه‌ها" },
+      "originalTitle": "Ὑπὲρ τῶν ἱερῶς ἡσυχαζόντων",
+      "transliteration": "Hyper tōn hierōs hēsychazontōn",
+      "alsoKnownAs": ["In Defence of the Holy Hesychasts"],
+      "author": "gregory-palamas",
+      "oneLine": {
+        "en": "A defence of monks who claimed to see the uncreated light, resting on a distinction between God's essence and his energies.",
+        "fa": "دفاعی از راهبانی که مدعی دیدن نور ناآفریده بودند، بر پایه تمایز میان ذات خدا و فعل‌های او."
+      },
+      "composed": {
+        "start": { "year": 1338, "precision": "circa" },
+        "end": { "year": 1341, "precision": "circa" }
+      },
+      "traditions": ["byzantine", "christian", "medieval"],
+      "branches": ["philosophy-of-religion", "metaphysics", "epistemology"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Monks on Mount Athos practised a discipline of stillness and reported seeing a light they identified with the one on Tabor. A Calabrian scholar named Barlaam called this absurd and the practitioners deluded. Palamas answered in three sets of three treatises, and the answer became the settled doctrine of the Orthodox church.",
+              "fa": "راهبانی در کوه آتوس ریاضتی از سکون را می‌ورزیدند و گزارش می‌کردند نوری می‌بینند که آن را همان نور طابور می‌دانستند. دانشمندی کالابریایی به نام برلعام این را بیهوده خواند و ورزندگانش را خودفریب. پالاماس در سه دسته سه‌تایی از رساله‌ها پاسخ داد، و آن پاسخ آموزه مستقر کلیسای ارتدکس شد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The problem is a genuine dilemma. If what the monks see is God's essence, then the creature has comprehended the incomprehensible; if it is something created, then their experience is of a thing and not of God. Palamas takes a third option: God's energies — his activities, the way he is toward us — are uncreated and genuinely God, while his essence remains unparticipable, so the vision is of God without being of the essence.",
+              "fa": "مسئله دوراهی‌ای راستین است. اگر آنچه راهبان می‌بینند ذات خداست، پس آفریده درک‌ناشدنی را درک کرده است؛ و اگر چیزی آفریده است، پس تجربه‌شان از یک چیز است نه از خدا. پالاماس راه سومی می‌گیرد: فعل‌های خدا، یعنی کارهایش و شیوه‌ای که به سوی ماست، ناآفریده و به‌راستی خدایند، در حالی که ذاتش مشارکت‌ناپذیر می‌ماند، پس آن رؤیت رؤیت خداست بی‌آنکه رؤیت ذات باشد."
+            },
+            "citations": [{ "source": "text-triads", "locator": "III.2" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Barlaam's objection was that this makes God composite, and it is not a weak objection. Divine simplicity had been standard on both sides of the schism, and a real distinction inside God between what he is and what he does looks like exactly the kind of composition the doctrine forbids. Palamas replies that the distinction is real but not a division into parts, which his critics have never accepted as an answer and his defenders have never conceded is inadequate.\n\nThe dispute marks a parting of ways that had been coming for centuries. The Latin west, working through Aquinas, kept simplicity and located the transformation of the creature in created grace; the Greek east kept the vision and accepted the distinction. Palamas is therefore read in the west mainly by specialists and in the east as the settled truth of the matter, which is one of the sharpest cases of a philosophical question whose answer depends on which library you learned it in.",
+              "fa": "اعتراض برلعام این بود که این خدا را مرکب می‌کند، و اعتراض سستی نیست. بساطت الهی در هر دو سوی شقاق استاندارد بود، و تمایزی واقعی درون خدا میان آنچه هست و آنچه می‌کند دقیقا همان ترکیبی می‌نماید که این آموزه منعش می‌کند. پالاماس پاسخ می‌دهد که این تمایز واقعی است اما تقسیم به اجزا نیست، و منتقدانش هرگز آن را پاسخ نپذیرفته‌اند و مدافعانش هرگز نپذیرفته‌اند که بسنده نیست.\n\nاین نزاع نشانه جدایی راهی است که سده‌ها در راه بود. مغرب لاتین، از راه آکوئیناس، بساطت را نگاه داشت و دگرگونی آفریده را در فیض آفریده نشاند؛ مشرق یونانی رؤیت را نگاه داشت و آن تمایز را پذیرفت. پس پالاماس را در غرب بیشتر متخصصان می‌خوانند و در شرق چون حقیقت مستقر این موضوع، و این از تیزترین نمونه‌های پرسشی فلسفی است که پاسخش به کتابخانه‌ای بستگی دارد که در آن آموخته‌اید."
+            },
+            "citations": [{ "source": "text-triads", "locator": "III.1" }]
+          }
+        ]
+      },
+      "editions": ["text-triads"],
+      "citations": [{ "source": "text-triads" }]
+    },
+    {
+      "id": "monadology",
+      "title": { "en": "The Monadology", "fa": "مونادولوژی" },
+      "originalTitle": "Monadologie",
+      "author": "leibniz",
+      "oneLine": {
+        "en": "Ninety numbered paragraphs setting out a universe made of simple substances that never interact.",
+        "fa": "نود بند شماره‌دار که گیتی‌ای را می‌نمایاند ساخته از جوهرهای بسیطی که هرگز بر هم اثر نمی‌گذارند."
+      },
+      "composed": { "start": { "year": 1714, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "philosophy-of-religion",
+        "logic"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Leibniz published almost nothing in his lifetime and left tens of thousands of pages in drawers. This is one of the few compact statements of the whole system, written near the end for a correspondent, and it is short enough to read in an hour and dense enough to take years.",
+              "fa": "لایبنیتس در زندگی‌اش تقریبا چیزی منتشر نکرد و ده‌ها هزار صفحه در کشوها بر جای گذاشت. این از معدود بیان‌های فشرده تمام آن دستگاه است، که نزدیک پایان عمر برای یکی از مکاتبانش نوشت، و چندان کوتاه است که در یک ساعت خوانده شود و چندان فشرده که سال‌ها ببرد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Whatever is composite is made of simples, so there must be simples: monads, without parts, therefore without shape or size, therefore incapable of being affected from outside. Each is a point of view on the whole universe, unfolding its own states from within, and what looks like causal traffic between them is the agreement of clocks wound to keep the same time.",
+              "fa": "هر چه مرکب است از بسیط‌ها ساخته شده، پس بسیط‌ها باید باشند: مونادها، بی‌جزء، پس بی‌شکل و بی‌اندازه، پس ناتوان از اثرپذیری از بیرون. هر یک منظری بر تمام گیتی است که حالت‌های خود را از درون می‌گشاید، و آنچه رفت و آمد علی میان آن‌ها می‌نماید توافق ساعت‌هایی است که برای نگاه‌داشتن یک وقت کوک شده‌اند."
+            },
+            "citations": [{ "source": "text-monadology", "locator": "§1-17" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The system is driven by two principles he states as axioms and uses as tools. Nothing is true without a sufficient reason why it is so rather than otherwise; and no two things differ solely in number, since a difference must be a difference in something. The second is the sharper: it rules out two identical drops of water, and it makes Newton's absolute space untenable, because two universes differing only in where everything sits would be indiscernible and so not two.\n\nThe best of all possible worlds is the line everyone remembers and Voltaire made it ridiculous with an earthquake. The argument is narrower than the slogan: a perfect being choosing among possible worlds has a reason for its choice, and the reason can only be that this one is best in the balance of variety against simplicity of law. That is compatible with a great deal of suffering, which is what makes it cold, and it does not claim any particular evil is good, which is what makes the caricature unfair.",
+              "fa": "این دستگاه را دو اصل می‌رانند که او چون بدیهیات می‌گویدشان و چون ابزار به کارشان می‌برد. هیچ چیز راست نیست بی‌دلیلی بسنده بر اینکه چرا چنین است نه جز آن؛ و هیچ دو چیزی تنها در شمار فرق ندارند، چون تفاوت باید تفاوت در چیزی باشد. دومی تیزتر است: دو قطره آب یکسان را رد می‌کند، و فضای مطلق نیوتن را ناپذیرفتنی، چون دو گیتی که تنها در جای همه چیز فرق دارند تمیزناپذیرند و پس دو نیستند.\n\n«بهترین جهان‌های ممکن» سطری است که همه به یاد دارند و ولتر با یک زمین‌لرزه خنده‌دارش کرد. استدلال از آن شعار باریک‌تر است: موجودی کامل که میان جهان‌های ممکن برمی‌گزیند دلیلی برای گزینش خود دارد، و دلیل تنها می‌تواند این باشد که این یکی در توازن تنوع در برابر سادگی قانون بهترین است. این با رنج فراوان سازگار است، و همین سردش می‌کند، و ادعا نمی‌کند که فلان شر خاص خیر است، و همین کاریکاتور را ناعادلانه می‌کند."
+            },
+            "citations": [{ "source": "text-theodicy", "locator": "§8-9" }]
+          }
+        ]
+      },
+      "editions": ["text-monadology", "text-theodicy", "text-new-essays"],
+      "citations": [{ "source": "text-monadology" }]
+    },
+    {
+      "id": "berkeley-principles",
+      "title": {
+        "en": "A Treatise Concerning the Principles of Human Knowledge",
+        "fa": "رساله‌ای درباره اصول شناخت آدمی"
+      },
+      "originalTitle": "A Treatise Concerning the Principles of Human Knowledge",
+      "author": "berkeley",
+      "oneLine": {
+        "en": "Argues that matter is not merely unknown but incoherent, and that to be is to be perceived.",
+        "fa": "می‌گوید ماده نه فقط ناشناخته بلکه نامنسجم است، و بودن همان ادراک‌شدن است."
+      },
+      "composed": { "start": { "year": 1710, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "philosophy-of-mind",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Berkeley was twenty-five and an Anglican clergyman. He thought Locke had conceded too much: once you say the world is made of a material substance we never directly meet, scepticism and atheism have their opening. His remedy is to deny the substance and keep the world, which he insists is the position of common sense rather than an attack on it.",
+              "fa": "بارکلی بیست و پنج ساله و کشیشی انگلیکن بود. می‌پنداشت لاک بیش از حد کوتاه آمده: همین که بگویی جهان از جوهری مادی ساخته شده که ما هرگز بی‌واسطه با آن روبه‌رو نمی‌شویم، شکاکیت و بی‌خدایی راه خود را یافته‌اند. درمانش انکار آن جوهر و نگاه‌داشتن جهان است، و پافشاری می‌کند که این موضع عقل سلیم است نه حمله‌ای به آن."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The central move is the challenge to conceive. Try to think of a tree existing unperceived; you will find yourself picturing a tree, which is to say perceiving it in imagination. Berkeley concludes that the supposedly unperceived object cannot even be framed as a thought, so the doctrine of matter is not a false hypothesis but an empty form of words.",
+              "fa": "حرکت مرکزی، چالش تصورکردن است. بکوش درختی را بیندیشی که ادراک نمی‌شود؛ خواهی دید که درختی را در ذهن می‌آوری، یعنی در خیال ادراکش می‌کنی. بارکلی نتیجه می‌گیرد که آن چیز به‌ظاهر ادراک‌نشده حتی چون یک اندیشه هم صورت نمی‌بندد، پس آموزه ماده فرضی نادرست نیست، صورتی تهی از واژه‌هاست."
+            },
+            "citations": [
+              { "source": "text-berkeley-principles", "locator": "§22-24" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The obvious reply is that this makes the world flicker: the room ceases when you leave it. Berkeley's answer is that ideas are not produced by us — they arrive with an order and a force we do not control, which is what distinguishes perceiving from imagining — and that the mind sustaining them when no finite mind attends is God. The system is therefore not a reduction of the world to private experience; the regularity is real, and the laws of nature are the grammar of a language.\n\nThat also gives him one of the first workable philosophies of science. If bodies are collections of ideas, then a scientific law is not a report of hidden mechanisms pushing each other but a rule for predicting which idea follows which; forces are calculating devices rather than occult powers. He argued this against Newton's absolute space and against the infinitesimals of the new calculus, and on the second point the mathematicians eventually agreed with him.",
+              "fa": "پاسخ آشکار این است که این جهان را سوسوزن می‌کند: اتاق با بیرون‌رفتن تو از میان می‌رود. پاسخ بارکلی این است که تصورها را ما پدید نمی‌آوریم؛ با نظم و نیرویی می‌آیند که در اختیار ما نیست، و همین ادراک را از خیال جدا می‌کند، و ذهنی که آن‌ها را نگاه می‌دارد وقتی هیچ ذهن متناهی متوجهشان نیست خداست. پس این دستگاه فروکاستن جهان به تجربه خصوصی نیست؛ آن نظم واقعی است، و قوانین طبیعت دستور زبان یک زبان‌اند.\n\nاین یکی از نخستین فلسفه‌های علم کارآمد را هم به او می‌دهد. اگر اجسام مجموعه‌هایی از تصورها باشند، آنگاه قانون علمی گزارشی از سازوکارهای پنهانی که یکدیگر را هل می‌دهند نیست، بلکه قاعده‌ای است برای پیش‌بینی اینکه کدام تصور در پی کدام می‌آید؛ نیروها ابزار محاسبه‌اند نه توان‌های نهانی. او این را در برابر فضای مطلق نیوتن و در برابر بی‌نهایت‌کوچک‌های حساب تازه پیش نهاد، و در نکته دوم ریاضی‌دانان سرانجام با او هم‌رأی شدند."
+            },
+            "citations": [
+              { "source": "text-three-dialogues", "locator": "Dialogue 3" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-berkeley-principles", "text-three-dialogues"],
+      "citations": [{ "source": "text-berkeley-principles" }]
+    },
+    {
+      "id": "moral-sentiments",
+      "title": {
+        "en": "The Theory of Moral Sentiments",
+        "fa": "نظریه احساسات اخلاقی"
+      },
+      "originalTitle": "The Theory of Moral Sentiments",
+      "author": "adam-smith",
+      "oneLine": {
+        "en": "Builds morality out of the ordinary human capacity to imagine one's way into someone else's position.",
+        "fa": "اخلاق را بر همان توان عادی آدمی می‌سازد که با خیال خود را به جای دیگری بگذارد."
+      },
+      "composed": { "start": { "year": 1759, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": [
+        "ethics",
+        "social-philosophy",
+        "philosophy-of-psychology",
+        "philosophy-of-economics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Smith was professor of moral philosophy at Glasgow, and this came seventeen years before the book on economics. It opens by observing that however selfish a man may be supposed, there are evidently principles in his nature which interest him in the fortune of others — and then spends five hundred pages working out how much can be built on that.",
+              "fa": "اسمیت استاد فلسفه اخلاق در گلاسگو بود، و این هفده سال پیش از کتاب اقتصادش آمد. با این مشاهده آغاز می‌شود که آدمی را هر قدر هم خودخواه فرض کنیم، آشکارا اصولی در سرشت او هست که سرنوشت دیگران را برایش مهم می‌کند، و سپس پانصد صفحه صرف می‌کند تا ببیند بر این چه اندازه می‌توان ساخت."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Sympathy for Smith is not pity but a mechanism: we judge another's feeling by imagining ourselves in their case and noticing whether our imagined response matches theirs. Moral judgement of ourselves works the same way in reverse — we look at our own conduct through the eyes of an impartial spectator, a figure we construct from the practice of being watched and eventually carry around inside.",
+              "fa": "همدلی نزد اسمیت ترحم نیست، سازوکاری است: احساس دیگری را با گذاشتن خود در وضع او می‌سنجیم و می‌بینیم که پاسخ خیالی ما با پاسخ او جور درمی‌آید یا نه. داوری اخلاقی درباره خودمان همین را وارونه می‌کند: رفتار خود را از چشم تماشاگری بی‌طرف می‌نگریم، چهره‌ای که از تجربه دیده‌شدن می‌سازیم و سرانجام در درون با خود می‌بریم."
+            },
+            "citations": [
+              {
+                "source": "text-moral-sentiments",
+                "locator": "Part III, ch. 3"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The nineteenth century invented a problem called Das Adam Smith Problem: how can the author of a book on sympathy also be the author of a book grounding commerce in self-interest? The question dissolves on reading both. The Wealth of Nations does not say people are only self-interested; it says a market can coordinate strangers who lack the intimacy sympathy requires, which is a claim about scale, not about human nature.\n\nSmith kept revising the Sentiments to the end — the sixth edition of 1790, the year he died, adds a whole new part on the corruption of moral judgement by our disposition to admire the rich and despise the poor. That is his own answer to the worry that commerce might hollow out character, and it is more pessimistic than anything in the economics. He also had most of his unpublished manuscripts burned before his death, so what he thought he had failed to finish is lost.",
+              "fa": "سده نوزدهم مسئله‌ای ساخت به نام «مسئله آدام اسمیت»: چگونه نویسنده کتابی درباره همدلی می‌تواند نویسنده کتابی هم باشد که بازرگانی را بر نفع شخصی بنا می‌کند؟ این پرسش با خواندن هر دو حل می‌شود. «ثروت ملل» نمی‌گوید مردم تنها در پی نفع خویش‌اند؛ می‌گوید بازار می‌تواند بیگانگانی را هماهنگ کند که آن نزدیکی لازم برای همدلی را ندارند، و این ادعایی درباره مقیاس است نه درباره سرشت آدمی.\n\nاسمیت تا پایان «احساسات» را بازنگری می‌کرد؛ ویرایش ششم سال ۱۷۹۰، همان سال مرگش، بخشی یکسره تازه درباره تباهی داوری اخلاقی به دست خوی ما در ستودن توانگران و خوارشمردن تهیدستان می‌افزاید. این پاسخ خود اوست به این نگرانی که مبادا بازرگانی منش را تهی کند، و بدبینانه‌تر از هر چیزی در آن اقتصاد است. پیش از مرگ هم فرمان داد بیشتر دست‌نوشته‌های منتشرنشده‌اش را بسوزانند، پس آنچه می‌پنداشت به پایان نبرده از دست رفته است."
+            },
+            "citations": [
+              {
+                "source": "text-moral-sentiments",
+                "locator": "Part I, section iii, ch. 3"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-moral-sentiments"],
+      "citations": [{ "source": "text-moral-sentiments" }]
+    },
+    {
+      "id": "scienza-nuova",
+      "title": { "en": "The New Science", "fa": "دانش نو" },
+      "originalTitle": "Scienza Nuova",
+      "alsoKnownAs": ["Principi di Scienza Nuova"],
+      "author": "vico",
+      "oneLine": {
+        "en": "Claims we can know history in a way we cannot know nature, because we made it.",
+        "fa": "ادعا می‌کند تاریخ را می‌توانیم به شیوه‌ای بشناسیم که طبیعت را نمی‌توانیم، چون تاریخ را ما ساخته‌ایم."
+      },
+      "composed": {
+        "start": { "year": 1725, "precision": "circa" },
+        "end": { "year": 1744, "precision": "circa" }
+      },
+      "traditions": ["european", "renaissance"],
+      "branches": [
+        "philosophy-of-history",
+        "epistemology",
+        "philosophy-of-language",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Vico taught rhetoric in Naples on a small salary and rewrote this book twice, the last version appearing the year he died. It was almost unread for a century. The founding claim is a reversal of Descartes: the certain is not what is clearly conceived but what is made, so the human world is available to a science that the natural world is not.",
+              "fa": "ویکو در ناپل با حقوقی اندک بلاغت درس می‌داد و این کتاب را دو بار از نو نوشت، و آخرین روایتش در همان سال مرگش درآمد. نزدیک یک سده تقریبا خوانده نشد. ادعای بنیادینش وارونه‌کردن دکارت است: یقینی نه آن است که روشن تصور شود، بلکه آن است که ساخته شده باشد، پس جهان آدمی در دسترس دانشی است که جهان طبیعت نیست."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "From that he derives a method: to understand an institution, recover the state of mind that could have produced it. Early humans were not failed rationalists but poets in the strict sense — they thought in images because they had no abstractions, and their gods, laws and marriages are the shapes that kind of thinking takes. Reading the myths as bad science misses that they are the record of a different mental world.",
+              "fa": "از همین روشی بیرون می‌کشد: برای فهم یک نهاد، حال ذهنی‌ای را بازیاب که می‌توانست پدیدش آورد. آدمیان نخستین خردگرایانی ناکام نبودند، به معنای دقیق شاعر بودند؛ در صورت می‌اندیشیدند چون انتزاعی نداشتند، و خدایان و قوانین و پیوندهای زناشویی‌شان شکل‌هایی است که آن گونه اندیشیدن می‌گیرد. خواندن اسطوره‌ها چون دانشی بد از این غافل است که آن‌ها سند جهانی ذهنی دیگرند."
+            },
+            "citations": [
+              { "source": "text-scienza-nuova", "locator": "Book I, §331" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The cyclical scheme is the part that dates worst and the part he was proudest of. Nations pass through an age of gods, an age of heroes and an age of men, and then a barbarism of reflection returns them to the start; the pattern is providential, and every nation runs it independently. Read as a prediction it is unusable. Read as a claim that a society's law, language and religion belong to one stage of development and cannot be understood separately, it is the beginning of something.\n\nHis actual influence came through misreading and delay. Michelet translated him and found a democratic prophet; Coleridge and Joyce found a theory of language and recurrence; Marx cites him once, approvingly, on the point about making. The proposition that has lasted is the modest one at the base — that human institutions have histories, that those histories are intelligible from the inside, and that a method borrowed from physics will not reach them.",
+              "fa": "طرح دوری همان بخشی است که بدتر از همه کهنه شده و همان که او بیش از همه به آن می‌بالید. ملت‌ها از عصر خدایان و عصر پهلوانان و عصر آدمیان می‌گذرند، و آنگاه بربریتی از جنس تأمل به آغاز بازشان می‌گرداند؛ این الگو تدبیری الهی است و هر ملتی مستقل آن را می‌پیماید. چون پیش‌بینی خوانده شود به کار نمی‌آید. چون این ادعا خوانده شود که قانون و زبان و دین یک جامعه به یک مرحله از رشد تعلق دارند و جدا از هم فهمیدنی نیستند، آغاز چیزی است.\n\nاثر واقعی او از راه بدخوانی و تأخیر آمد. میشله ترجمه‌اش کرد و پیامبری دموکرات یافت؛ کولریج و جویس نظریه‌ای درباره زبان و بازگشت یافتند؛ مارکس یک بار، با تأیید، درباره همان نکته ساختن به او ارجاع می‌دهد. گزاره‌ای که مانده همان فروتنانه در پایه است: اینکه نهادهای آدمی تاریخ دارند، اینکه آن تاریخ‌ها از درون فهمیدنی‌اند، و اینکه روشی وام‌گرفته از فیزیک به آن‌ها نمی‌رسد."
+            },
+            "citations": [
+              { "source": "text-scienza-nuova", "locator": "Book IV" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-scienza-nuova"],
+      "citations": [{ "source": "text-scienza-nuova" }]
+    },
+    {
+      "id": "principles-morals-legislation",
+      "title": {
+        "en": "An Introduction to the Principles of Morals and Legislation",
+        "fa": "درآمدی بر اصول اخلاق و قانون‌گذاری"
+      },
+      "originalTitle": "An Introduction to the Principles of Morals and Legislation",
+      "author": "bentham",
+      "oneLine": {
+        "en": "Sets out the greatest happiness principle and then tries to make it operate as a calculus for lawmakers.",
+        "fa": "اصل بیشترین خوشبختی را می‌نهد و سپس می‌کوشد آن را چون حسابی برای قانون‌گذاران به کار اندازد."
+      },
+      "composed": {
+        "start": { "year": 1780, "precision": "exact" },
+        "end": { "year": 1789, "precision": "exact" }
+      },
+      "traditions": ["european"],
+      "branches": [
+        "ethics",
+        "philosophy-of-law",
+        "political-philosophy",
+        "applied-ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Bentham was trained as a lawyer and never practised, spending his life on the project of rebuilding law on a single measurable standard. The book was printed in 1780 and held back until 1789. Its first sentence puts humanity under two sovereign masters, pain and pleasure, and everything after is an attempt to legislate accordingly.",
+              "fa": "بنتام حقوق خوانده بود و هرگز وکالت نکرد و عمرش را بر طرح بازساختن قانون بر یک معیار سنجش‌پذیر گذاشت. کتاب در ۱۷۸۰ چاپ شد و تا ۱۷۸۹ نگاه داشته شد. جمله نخستش آدمی را زیر دو فرمانروا می‌نهد، درد و لذت، و هر چه پس از آن می‌آید کوششی است برای قانون‌گذاری بر همین پایه."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The felicific calculus lists the dimensions along which a pleasure or pain can be measured: intensity, duration, certainty, nearness, fecundity, purity, and the number of people affected. Bentham does not claim these can be quantified precisely; he claims that keeping them in view is what a legislator ought to do instead of appealing to natural rights, custom or the moral sense, all of which he thinks are the speaker's preference in disguise.",
+              "fa": "حساب خوشبختی ابعادی را برمی‌شمارد که لذت یا درد را در آن‌ها می‌توان سنجید: شدت، دوام، قطعیت، نزدیکی، باروری، خلوص، و شمار کسانی که اثر می‌پذیرند. بنتام ادعا نمی‌کند که این‌ها را می‌توان دقیق عدد کرد؛ ادعا می‌کند که در نظر داشتنشان همان است که قانون‌گذار باید بکند به جای توسل به حقوق طبیعی و عرف و حس اخلاقی، که همه را ترجیح گوینده در لباس مبدل می‌داند."
+            },
+            "citations": [
+              {
+                "source": "text-principles-morals-legislation",
+                "locator": "ch. 4"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The famous footnote on animals shows how the standard cuts. The question is not whether they can reason or talk but whether they can suffer; a full-grown horse is more conversable than an infant, and neither fact settles anything about what may be done to either. That argument was made in 1789 and did not become a movement for two hundred years, which is a fair measure of how far ahead of its reception it was.\n\nHe was equally consistent in the other direction, and modern admirers find that harder. Natural rights are nonsense upon stilts, because a right is what law creates and there is no law before law; the panopticon prison was his own design and his own business proposal; and he wrote in defence of decriminalising homosexuality decades before anyone else, which he did not publish, having correctly judged what it would cost him. The same refusal to grant weight to sentiment produced all three.",
+              "fa": "پانوشت مشهور درباره جانوران نشان می‌دهد این معیار چگونه می‌برد. پرسش این نیست که آیا می‌توانند بیندیشند یا سخن بگویند، بلکه این است که آیا می‌توانند رنج ببرند؛ اسبی بالغ هم‌سخن‌تر از نوزادی است، و هیچ‌یک از این دو واقعیت درباره آنچه می‌توان با هر یک کرد چیزی را فیصله نمی‌دهد. این استدلال در ۱۷۸۹ گفته شد و دویست سال جنبشی نشد، و این اندازه‌ای منصفانه است از فاصله‌اش با پذیرشش.\n\nدر سوی دیگر هم به همان اندازه یکدست بود، و ستایندگان امروزی این را دشوارتر می‌یابند. حقوق طبیعی یاوه‌ای است بر چوب‌پا، چون حق را قانون می‌آفریند و پیش از قانون قانونی نیست؛ زندان سراسربین طرح خود او و پیشنهاد تجاری خود او بود؛ و ده‌ها سال پیش از هر کس دیگر در دفاع از جرم‌زدایی از هم‌جنس‌گرایی نوشت، که منتشرش نکرد چون درست سنجیده بود که چه بهایی برایش دارد. همان امتناع از وزن‌دادن به احساس هر سه را پدید آورد."
+            },
+            "citations": [
+              { "source": "text-anarchical-fallacies", "locator": "Article II" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-principles-morals-legislation",
+        "text-anarchical-fallacies"
+      ],
+      "citations": [{ "source": "text-principles-morals-legislation" }]
+    },
+    {
+      "id": "fear-and-trembling",
+      "title": { "en": "Fear and Trembling", "fa": "ترس و لرز" },
+      "originalTitle": "Frygt og Bæven",
+      "author": "kierkegaard",
+      "oneLine": {
+        "en": "Circles the story of Abraham and Isaac four times, refusing every reading that makes it bearable.",
+        "fa": "چهار بار گرد داستان ابراهیم و اسحاق می‌گردد و هر خوانشی را که تحمل‌پذیرش کند رد می‌کند."
+      },
+      "composed": { "start": { "year": 1843, "precision": "exact" } },
+      "traditions": ["european", "christian"],
+      "branches": [
+        "ethics",
+        "philosophy-of-religion",
+        "existential-philosophy",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Published under the name Johannes de Silentio, one of a dozen pseudonyms Kierkegaard used to write positions he did not hold in his own voice. The book opens with four retellings of the journey to Moriah, each imagining a way Abraham might have coped, and rejects them all as ways of not being Abraham.",
+              "fa": "زیر نام یوهانس د سیلنتیو منتشر شد، یکی از ده‌ها نام مستعاری که کیرکگور به کار برد تا مواضعی را بنویسد که به زبان خود نداشت. کتاب با چهار بازگویی از سفر به موریا آغاز می‌شود، که هر یک راهی را تصور می‌کند که ابراهیم شاید با آن کنار آمده باشد، و همه را چون راه‌هایی برای ابراهیم‌نبودن رد می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The problem is stated with precision. Ethics is the universal: it applies to everyone and asks for reasons that anyone could accept. A father who kills his son is a murderer, and no story he tells alters that. If Abraham is not a murderer, then there is something higher than the universal to which the individual can stand in a direct relation — and that suspension cannot be explained, because explaining it would put it back inside the universal.",
+              "fa": "مسئله با دقت گفته می‌شود. اخلاق کلی است: بر همه روا می‌شود و دلیل‌هایی می‌خواهد که هر کس بتواند بپذیرد. پدری که پسرش را بکشد قاتل است، و هیچ داستانی که بگوید این را دگرگون نمی‌کند. اگر ابراهیم قاتل نیست، پس چیزی برتر از کلی هست که فرد می‌تواند بی‌واسطه با آن نسبت بگیرد، و آن تعلیق را نمی‌توان توضیح داد، چون توضیحش دوباره درون کلی می‌نشاندش."
+            },
+            "citations": [
+              { "source": "text-fear-and-trembling", "locator": "Problema I" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Silence is the structural point rather than a detail of the plot. Abraham cannot tell Sarah, cannot tell Isaac, cannot tell the servants, because any account he gave would either be understood — and then it is ethics again, a case with reasons — or not understood, and then he has said nothing. The tragic hero can always explain himself and be wept for; the knight of faith is alone in a way that has no public expression at all.\n\nThe biography is impossible to keep out and Kierkegaard did not try. He had broken his engagement to Regine Olsen two years earlier, for reasons he never made intelligible to her or to anyone, and the book is dedicated to the question of whether a person can be required to give up what they love with no reason they can offer. Whether this makes it a great work of philosophy or an extraordinary act of self-justification is a question readers have been fair to disagree about.",
+              "fa": "خاموشی نکته ساختاری است نه جزئی از داستان. ابراهیم نمی‌تواند به ساره بگوید، نه به اسحاق و نه به خدمتکاران، چون هر شرحی بدهد یا فهمیده می‌شود، و آنگاه باز اخلاق است، موردی با دلیل، یا فهمیده نمی‌شود، و آنگاه چیزی نگفته است. پهلوان تراژیک همیشه می‌تواند خود را توضیح دهد و بر او بگریند؛ پهلوان ایمان به شیوه‌ای تنهاست که هیچ بیان همگانی ندارد.\n\nزندگی‌نامه را نمی‌توان بیرون نگاه داشت و کیرکگور هم نکوشید. دو سال پیش‌تر نامزدی‌اش با رگینه اولسن را به دلایلی گسسته بود که هرگز برای او یا کسی دیگر فهمیدنی نکرد، و کتاب وقف همین پرسش است که آیا می‌توان از کسی خواست آنچه را دوست دارد بی‌هیچ دلیلی که بتواند بگوید وانهد. اینکه این آن را کاری بزرگ در فلسفه می‌کند یا کنشی شگفت در توجیه خویش، پرسشی است که خوانندگان به‌حق بر سرش اختلاف کرده‌اند."
+            },
+            "citations": [
+              {
+                "source": "text-concluding-postscript",
+                "locator": "Part II, ch. 2"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-fear-and-trembling",
+        "text-either-or",
+        "text-concluding-postscript"
+      ],
+      "citations": [{ "source": "text-fear-and-trembling" }]
+    },
+    {
+      "id": "capital-volume-one",
+      "title": { "en": "Capital, Volume One", "fa": "سرمایه، جلد یکم" },
+      "originalTitle": "Das Kapital, Band I",
+      "alsoKnownAs": ["Das Kapital"],
+      "author": "marx",
+      "oneLine": {
+        "en": "Starts from the single commodity and works outward until the whole arrangement is visible.",
+        "fa": "از یک کالای تنها آغاز می‌کند و رو به بیرون کار می‌کند تا تمام آن سامان دیده شود."
+      },
+      "composed": { "start": { "year": 1867, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": [
+        "political-philosophy",
+        "philosophy-of-economics",
+        "social-philosophy",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Only this volume was finished in his lifetime; Engels assembled the second and third from notebooks. Marx warned that the opening chapters on value are the hardest and advised beginners to start at the chapter on the working day, which is documentary, drawn from factory inspectors' reports, and reads like nothing else in philosophy.",
+              "fa": "تنها همین جلد در زندگی او به پایان رسید؛ انگلس دومی و سومی را از دفترها گرد آورد. مارکس هشدار داد که فصل‌های آغازین درباره ارزش دشوارترین‌اند و به تازه‌کاران توصیه کرد از فصل روزکار آغاز کنند، که مستند است و از گزارش‌های بازرسان کارخانه برآمده و به هیچ چیز دیگری در فلسفه نمی‌ماند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The analytical core is surplus value. The worker sells not labour but labour power, at its value, which is what it costs to keep them alive and able to return; but that power can be set to work for longer than it takes to reproduce its own cost, and the difference is where profit comes from. On this account exploitation is not cheating — the exchange is fair by its own rules — which is the part that makes the argument hard to answer by tightening the rules.",
+              "fa": "هسته تحلیلی، ارزش اضافی است. کارگر نه کار بلکه نیروی کار را می‌فروشد، به ارزش خودش، که همان هزینه زنده‌نگاه‌داشتن و بازگرداندن اوست؛ اما آن نیرو را می‌توان بیش از زمان لازم برای بازتولید هزینه‌اش به کار گرفت، و تفاوت همان جایی است که سود از آن می‌آید. بر این شرح، بهره‌کشی تقلب نیست، چون آن مبادله به قاعده‌های خودش عادلانه است، و همین است که پاسخ‌دادن به این استدلال را با سفت‌کردن قاعده‌ها دشوار می‌کند."
+            },
+            "citations": [
+              { "source": "text-capital", "locator": "Volume I, ch. 7" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The chapter on the fetishism of commodities is where the economics becomes philosophy. A relation between people takes on the appearance of a property of things: the price of a coat seems to belong to the coat, as its weight does, when it is in fact a summary of who did what for whom. This is not an illusion in anyone's head — the appearance is generated by the arrangement itself, which is why simply explaining it does not dissolve it.\n\nThe labour theory of value that carries the argument was standard economics when he wrote, inherited from Ricardo, and it is not standard now; economists after the 1870s explain price by marginal utility instead. Whether the critique survives that loss is genuinely contested, and both a yes and a no are held by serious people. What is not seriously disputed is the documentary section on factory hours, whose sources are parliamentary and whose numbers can be checked.",
+              "fa": "فصل بت‌وارگی کالا همان جایی است که اقتصاد فلسفه می‌شود. نسبتی میان مردمان به هیئت خاصیتی از چیزها درمی‌آید: بهای یک کت چنان می‌نماید که از آن خود کت است، مانند وزنش، در حالی که در واقع خلاصه‌ای است از اینکه چه کسی برای چه کسی چه کرد. این توهمی در سر کسی نیست؛ آن نمود را خود آن سامان می‌زاید، و از همین روست که صرف توضیح‌دادنش از میانش نمی‌برد.\n\nنظریه ارزش کار که بار این استدلال را می‌برد وقتی او می‌نوشت اقتصاد رایج بود و از ریکاردو به ارث رسیده بود، و امروز رایج نیست؛ اقتصاددانان پس از دهه ۱۸۷۰ بها را با مطلوبیت نهایی توضیح می‌دهند. اینکه این نقد از دست‌دادن آن جان به در می‌برد یا نه به‌راستی محل نزاع است، و کسان جدی هم آری می‌گویند و هم نه. آنچه جدا محل نزاع نیست فصل روزکار است، که منابعش پارلمانی است و عددهایش را می‌توان وارسی کرد."
+            },
+            "citations": [
+              { "source": "text-capital", "locator": "Volume I, ch. 1, §4" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-capital",
+        "text-1844-manuscripts",
+        "text-theses-on-feuerbach"
+      ],
+      "citations": [{ "source": "text-capital" }]
+    },
+    {
+      "id": "gravity-and-grace",
+      "title": { "en": "Gravity and Grace", "fa": "گرانش و فیض" },
+      "originalTitle": "La Pesanteur et la Grâce",
+      "author": "weil",
+      "oneLine": {
+        "en": "Notebook entries selected after her death, on affliction, attention and the refusal to fill an emptiness.",
+        "fa": "یادداشت‌هایی که پس از مرگش برگزیده شد، درباره مصیبت و توجه و امتناع از پرکردن یک تهیگی."
+      },
+      "composed": {
+        "start": { "year": 1940, "precision": "circa" },
+        "end": { "year": 1942, "precision": "circa" }
+      },
+      "traditions": ["european", "christian", "continental"],
+      "branches": [
+        "ethics",
+        "philosophy-of-religion",
+        "social-philosophy",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Weil left her notebooks with a friend, Gustave Thibon, before leaving France in 1942; she died in England the next year at thirty-four. He selected and arranged the passages and gave the collection its title. She never approved the book, and the ordering is his argument about her thought rather than hers.",
+              "fa": "ویل پیش از ترک فرانسه در ۱۹۴۲ دفترهایش را نزد دوستی به نام گوستاو تیبون گذاشت؛ سال بعد در انگلستان در سی و چهار سالگی مرد. او بندها را برگزید و چید و نام کتاب را نهاد. ویل هرگز این کتاب را تأیید نکرد، و آن ترتیب استدلال اوست درباره اندیشه ویل، نه استدلال خود ویل."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The organising image is a physics. Gravity is what everything in a soul does by default: it fills a void, it compensates, it passes on a hurt to whoever is next. Grace is the only movement that goes the other way, and it can only enter a space that has been left empty — so the discipline she describes is not doing good but refusing the automatic motion that would close the gap.",
+              "fa": "تصویر سامان‌دهنده، یک فیزیک است. گرانش همان است که هر چیز در یک جان به‌طور خودکار می‌کند: تهیگی را پر می‌کند، جبران می‌کند، آزردگی را به هر که در پی است می‌سپارد. فیض تنها حرکتی است که به سوی دیگر می‌رود، و تنها می‌تواند به فضایی درآید که تهی گذاشته شده باشد، پس ریاضتی که وصف می‌کند نیکی‌کردن نیست، امتناع از آن حرکت خودکاری است که آن شکاف را می‌بندد."
+            },
+            "citations": [
+              { "source": "text-gravity-and-grace", "locator": "'Decreation'" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Attention is her most portable idea and the one most easily softened. She does not mean concentration or effort; she means suspending one's own thought so as to be able to receive what is there, and she says the capacity is trained by things as dull as school geometry. The clinical statement of it is that the love of our neighbour consists of being able to ask them what they are going through — a question that requires having stopped explaining them to yourself.\n\nShe is hard to place and refused to be placed. She worked a year in a Renault factory to know what it did to a person, went to Spain in 1936 and was invalided out after stepping in oil, was drawn to Christianity and would not be baptised, and in London ate what she believed was the ration of those in occupied France. Doctors recorded that this contributed to her death. Her admirers disagree sharply about whether that consistency is the strongest evidence for her thought or the strongest case against it.",
+              "fa": "توجه پربردترین ایده اوست و همان که آسان‌تر از همه نرم می‌شود. مقصودش تمرکز یا کوشش نیست؛ معلق‌کردن اندیشه خویش است تا بتوان آنچه را هست پذیرفت، و می‌گوید این توان با چیزهایی به کسالت هندسه مدرسه پرورده می‌شود. بیان بالینی‌اش این است که دوست‌داشتن همسایه در همین است که بتوانی از او بپرسی چه می‌کشد، پرسشی که نیازمند آن است که از توضیح‌دادن او برای خودت دست کشیده باشی.\n\nجای‌دادنش دشوار است و خودش هم تن به جای‌گرفتن نمی‌داد. یک سال در کارخانه رنو کار کرد تا بداند این با آدم چه می‌کند، در ۱۹۳۶ به اسپانیا رفت و پس از پانهادن در روغن داغ از کار افتاد و بازگردانده شد، به مسیحیت کشیده شد و تن به تعمید نداد، و در لندن آنچه را جیره مردم فرانسه اشغال‌شده می‌پنداشت می‌خورد. پزشکان ثبت کردند که این در مرگش سهم داشت. ستایندگانش سخت اختلاف دارند که آیا آن یکدستی قوی‌ترین گواه بر اندیشه اوست یا قوی‌ترین دلیل بر ضد آن."
+            },
+            "citations": [
+              { "source": "text-need-for-roots", "locator": "Part I" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-gravity-and-grace", "text-need-for-roots"],
+      "citations": [{ "source": "text-gravity-and-grace" }]
     }
   ]
 }
