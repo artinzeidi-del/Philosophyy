@@ -6941,6 +6941,456 @@
       },
       "editions": ["text-hind-swaraj", "text-gandhi-autobiography"],
       "citations": [{ "source": "text-hind-swaraj" }]
+    },
+    {
+      "id": "fixation-of-belief",
+      "title": { "en": "The Fixation of Belief", "fa": "تثبیت باور" },
+      "originalTitle": "The Fixation of Belief",
+      "author": "peirce",
+      "oneLine": {
+        "en": "Compares four ways of settling a doubt and argues that only one of them can survive being examined.",
+        "fa": "چهار راه فرونشاندن شک را می‌سنجد و می‌گوید تنها یکی از آن‌ها از وارسی جان به در می‌برد."
+      },
+      "composed": { "start": { "year": 1877, "precision": "exact" } },
+      "traditions": ["american", "pragmatist"],
+      "branches": ["epistemology", "logic", "philosophy-of-science"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Peirce starts from the discomfort of doubt rather than from the pursuit of truth, and asks what methods people actually use to get out of it. Tenacity: hold on regardless. Authority: let an institution decide. The a priori method: adopt whatever is agreeable to reason. And the method of science, which takes its results from something outside the believers.",
+              "fa": "پیرس به جای پی‌جویی حقیقت از ناخوشی شک آغاز می‌کند و می‌پرسد مردم در عمل با چه روش‌هایی از آن بیرون می‌آیند. سرسختی: به هر قیمت نگاه دار. اقتدار: بگذار نهادی تصمیم بگیرد. روش پیشینی: هر چه با عقل خوش می‌آید بپذیر. و روش علم، که نتیجه‌هایش را از چیزی بیرون از باورمندان می‌گیرد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument against the first three is internal. Each works — belief does get fixed — but each collapses once its user notices that other people, using the same method, arrived somewhere else. Only the fourth has an account of why it should converge, because it answers to something that is what it is regardless of what anybody thinks about it.",
+              "fa": "استدلال بر ضد سه روش نخست درونی است. هر یک کار می‌کند و باور به‌راستی تثبیت می‌شود، اما هر یک همین که به‌کاربرنده‌اش ببیند دیگران با همان روش به جایی دیگر رسیده‌اند فرو می‌ریزد. تنها چهارمی شرحی دارد از اینکه چرا باید هم‌گرا شود، چون به چیزی پاسخ می‌دهد که هر چه هست هست، فارغ از اینکه کسی درباره‌اش چه می‌اندیشد."
+            },
+            "citations": [
+              { "source": "text-fixation-of-belief", "locator": "§IV-V" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The companion paper states the maxim that gave pragmatism its name: to get the meaning of a conception, consider what practical effects the object of the conception could conceivably have. This is a rule for clarifying, not a theory of truth, and Peirce spent later years insisting on the difference — he eventually renamed his own position pragmaticism, a word he said was ugly enough to be safe from kidnappers.\n\nHe published little, held no permanent academic post after being dismissed from Johns Hopkins, and died in poverty with thousands of manuscript pages unpublished. James, who supported him financially, popularised a version of the maxim that Peirce thought made truth depend on what works for the individual believer, which was the opposite of the point. Most of what is now recognised as his contribution — the logic of relations, the theory of signs, abduction as a form of inference — was reconstructed from the papers decades later.",
+              "fa": "مقاله همراه، همان قاعده‌ای را می‌گوید که به پراگماتیسم نامش را داد: برای گرفتن معنای یک تصور، بنگر که موضوع آن تصور چه اثرهای عملی می‌تواند داشته باشد. این قاعده‌ای برای روشن‌کردن است نه نظریه‌ای درباره حقیقت، و پیرس سال‌ها بعد بر همین تفاوت پافشاری کرد و سرانجام نام موضع خود را «پراگماتیسیسم» گذاشت، واژه‌ای که می‌گفت آن‌قدر زشت هست که از دست آدم‌ربایان در امان بماند.\n\nاندک منتشر کرد، پس از اخراج از جانز هاپکینز هیچ کرسی دانشگاهی ثابتی نداشت، و در تنگدستی مرد با هزاران صفحه دست‌نویس منتشرنشده. جیمز، که مالی پشتیبانی‌اش می‌کرد، روایتی از آن قاعده را همه‌گیر کرد که پیرس می‌پنداشت حقیقت را به آنچه برای باورمند فردی کار می‌کند وابسته می‌کند، و این وارونه آن نکته بود. بیشتر آنچه امروز سهم او شناخته می‌شود، یعنی منطق نسبت‌ها و نظریه نشانه‌ها و ربایش چون گونه‌ای استنتاج، دهه‌ها بعد از روی همان کاغذها بازسازی شد."
+            },
+            "citations": [
+              { "source": "text-how-to-make-our-ideas-clear", "locator": "§II" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-fixation-of-belief",
+        "text-how-to-make-our-ideas-clear"
+      ],
+      "citations": [{ "source": "text-fixation-of-belief" }]
+    },
+    {
+      "id": "pragmatism-james",
+      "title": { "en": "Pragmatism", "fa": "پراگماتیسم" },
+      "originalTitle": "Pragmatism: A New Name for Some Old Ways of Thinking",
+      "author": "james",
+      "oneLine": {
+        "en": "Eight lectures presenting a method for settling disputes by asking what difference each answer would make.",
+        "fa": "هشت درسگفتار که روشی برای فیصله‌دادن نزاع‌ها می‌نماید: بپرس هر پاسخ چه تفاوتی می‌سازد."
+      },
+      "composed": { "start": { "year": 1907, "precision": "exact" } },
+      "traditions": ["american", "pragmatist"],
+      "branches": [
+        "epistemology",
+        "metaphysics",
+        "philosophy-of-religion",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "James opens with the squirrel: a man circles a tree with a squirrel on the far side that keeps turning to face him, and his friends have been arguing whether he goes round the squirrel. James says it depends what you mean by round, that both answers are right on their own reading, and that many philosophical disputes are of this kind.",
+              "fa": "جیمز با سنجاب آغاز می‌کند: مردی گرد درختی می‌چرخد و سنجابی در سوی دیگر پیوسته می‌گردد تا رو به او بماند، و دوستانش بر سر اینکه او گرد سنجاب می‌چرخد یا نه بحث کرده‌اند. جیمز می‌گوید بستگی دارد از «گرد» چه بخواهی، و هر دو پاسخ به خوانش خودشان درست‌اند، و بسیاری از نزاع‌های فلسفی از همین گونه‌اند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The controversial chapter is the one on truth. James says a true idea is one we can assimilate, validate and verify, and that truth happens to an idea in the process — it is made true by events. He means this as a description of what verification consists in; his readers took it as the claim that whatever is useful to believe is true, and the reply he wrote the next year did not settle it.",
+              "fa": "فصل پرمنازعه همان است که درباره حقیقت است. جیمز می‌گوید تصور راست آن است که بتوانیم درونی و معتبر و راستی‌آزمایی‌اش کنیم، و اینکه حقیقت در همین روند بر یک تصور رخ می‌دهد؛ رویدادها راستش می‌کنند. مقصودش وصف چیستی راستی‌آزمایی است؛ خوانندگانش این را چنین گرفتند که هر چه باور به آن سودمند باشد راست است، و پاسخی که سال بعد نوشت این را فیصله نداد."
+            },
+            "citations": [
+              { "source": "text-pragmatism-james", "locator": "Lecture VI" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Russell's objection is the standard one and it is hard to shake. If a belief is true because believing it works out well, then the belief that a certain man is a saint may be true for the person it comforts and false for the person it defrauds, and truth has stopped being a relation to how things are. James's defenders answer that he never denied a belief must square with the facts and was analysing what squaring amounts to. The dispute is still live because the texts support both readings in different places.\n\nHis broader temperament is the more durable contribution. The first lecture divides philosophers into the tender-minded and the tough-minded and suggests that temperament, not argument, is usually what decides which system a person adopts — an observation offered without cynicism, since James's whole project is to build a philosophy that a tough-minded person can hold without giving up what the tender-minded want.",
+              "fa": "اعتراض راسل همان اعتراض همیشگی است و دشوار می‌توان از آن رها شد. اگر باوری از آن رو راست باشد که باورداشتنش خوب از آب درمی‌آید، آنگاه این باور که فلان مرد قدیس است می‌تواند برای کسی که دلداری می‌گیرد راست و برای کسی که فریب می‌خورد دروغ باشد، و حقیقت دیگر نسبتی با چگونگی چیزها نیست. مدافعانش می‌گویند او هرگز انکار نکرد که باور باید با واقعیت‌ها بخواند و داشت خود همین خواندن را تحلیل می‌کرد. این نزاع هنوز زنده است چون متن‌ها در جاهای گوناگون هر دو خوانش را برمی‌تابند.\n\nخوی گسترده‌تر او سهم ماندگارتری است. درسگفتار نخست فیلسوفان را به نازک‌دلان و سخت‌سران بخش می‌کند و می‌گوید معمولا خوی است که تعیین می‌کند کسی کدام دستگاه را برمی‌گیرد نه استدلال؛ مشاهده‌ای که بی‌بدبینی عرضه می‌شود، چون تمام طرح جیمز ساختن فلسفه‌ای است که سخت‌سری بتواند نگاهش دارد بی‌آنکه آنچه را نازک‌دلان می‌خواهند وانهد."
+            },
+            "citations": [
+              { "source": "text-pragmatism-james", "locator": "Lecture I" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-pragmatism-james"],
+      "citations": [{ "source": "text-pragmatism-james" }]
+    },
+    {
+      "id": "democracy-and-education",
+      "title": { "en": "Democracy and Education", "fa": "دموکراسی و آموزش" },
+      "originalTitle": "Democracy and Education",
+      "author": "dewey",
+      "oneLine": {
+        "en": "Argues that a democracy is a mode of associated living before it is a way of choosing governments.",
+        "fa": "می‌گوید دموکراسی پیش از آنکه شیوه‌ای برای گزینش حکومت باشد، شیوه‌ای از هم‌زیستی است."
+      },
+      "composed": { "start": { "year": 1916, "precision": "exact" } },
+      "traditions": ["american", "pragmatist"],
+      "branches": [
+        "philosophy-of-education",
+        "political-philosophy",
+        "social-philosophy",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Dewey said later that this book came closest to summarising his whole philosophy, which is unexpected for a work with education in the title. The reason is that he takes education to be the process by which a society renews itself, so how a society teaches is a direct statement of what it believes about knowledge and about people.",
+              "fa": "دیویی بعدها گفت این کتاب بیش از همه به خلاصه‌کردن تمام فلسفه‌اش نزدیک است، و این برای اثری که «آموزش» در عنوانش هست غیرمنتظره است. دلیلش این است که آموزش را روندی می‌گیرد که جامعه با آن خود را تازه می‌کند، پس شیوه آموزش‌دادن یک جامعه بیانی مستقیم است از آنچه درباره دانش و درباره مردم باور دارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Knowing, for Dewey, is something an organism does when its habits stop working. A difficulty arises, the situation becomes indeterminate, an idea is formed and tried, and the result either restores coherent action or does not. Thought is therefore continuous with practice rather than a separate faculty inspecting it, and a curriculum that separates knowing from doing is teaching a false picture along with its content.",
+              "fa": "دانستن نزد دیویی کاری است که موجودی زنده وقتی عادت‌هایش از کار می‌افتند انجام می‌دهد. دشواری‌ای پیش می‌آید، موقعیت نامعین می‌شود، تصوری ساخته و آزموده می‌شود، و نتیجه یا کنش هم‌ساز را بازمی‌گرداند یا نه. پس اندیشه با عمل پیوسته است نه قوه‌ای جدا که بازرسی‌اش کند، و برنامه درسی‌ای که دانستن را از کردن جدا می‌کند همراه با محتوایش تصویری نادرست می‌آموزد."
+            },
+            "citations": [
+              { "source": "text-democracy-and-education", "locator": "ch. 11" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The political conclusion follows from the epistemology and is stronger than the usual case for democracy. If inquiry works by testing ideas against consequences and correcting them, then a society that restricts who may raise a question or report a result has damaged its own capacity to find things out. Democracy is not defended here as fair or as respectful of rights; it is defended as the arrangement most likely to be intelligent.\n\nThe progressive education movement claimed him and he spent years distancing himself from it. Schools that abandoned subject matter in favour of whatever interested the child were, he said, as one-sided as the drilling they replaced; the point was never that children should do as they like but that a genuine problem is what makes learning stick. Experience and Education, written twenty-two years later, is largely an attempt to take back what his name had been used for.",
+              "fa": "نتیجه سیاسی از آن معرفت‌شناسی بیرون می‌آید و قوی‌تر از دفاع همیشگی از دموکراسی است. اگر پژوهش با آزمودن تصورها در برابر پیامدها و تصحیحشان کار کند، آنگاه جامعه‌ای که محدود می‌کند چه کسی می‌تواند پرسشی طرح کند یا نتیجه‌ای گزارش دهد، به توان خود در یافتن چیزها آسیب زده است. اینجا از دموکراسی نه چون چیزی منصفانه یا حرمت‌گزار حقوق دفاع می‌شود، چون سامانی که محتمل‌تر از همه هوشمند است.\n\nجنبش آموزش پیشرو او را از آن خود خواند و او سال‌ها کوشید از آن فاصله بگیرد. می‌گفت مدرسه‌هایی که موضوع درسی را به سود هر چه کودک را خوش می‌آید وانهادند، به همان یک‌سویگی مشقی بودند که جایش را گرفتند؛ نکته هرگز این نبود که کودکان هر چه می‌خواهند بکنند، این بود که مسئله‌ای راستین همان است که یادگیری را ماندگار می‌کند. «تجربه و آموزش»، که بیست و دو سال بعد نوشت، تا حد زیادی کوششی است برای پس‌گرفتن آنچه نامش برایش به کار رفته بود."
+            },
+            "citations": [
+              { "source": "text-quest-for-certainty", "locator": "ch. 4" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-democracy-and-education", "text-quest-for-certainty"],
+      "citations": [{ "source": "text-democracy-and-education" }]
+    },
+    {
+      "id": "ideas-i",
+      "title": { "en": "Ideas I", "fa": "ایده‌ها، دفتر یکم" },
+      "originalTitle": "Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie",
+      "author": "husserl",
+      "oneLine": {
+        "en": "Introduces the reduction: bracket the question of whether the world exists, and describe how it appears.",
+        "fa": "تقلیل را معرفی می‌کند: پرسش هستی جهان را در پرانتز بگذار و وصف کن که چگونه پدیدار می‌شود."
+      },
+      "composed": { "start": { "year": 1913, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": ["epistemology", "philosophy-of-mind", "metaphysics", "logic"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Husserl trained as a mathematician under Weierstrass and came to philosophy through the foundations of arithmetic. The natural attitude, he says, is the standing assumption that a world is simply there; the epoché suspends that assumption without denying it, so that what is left to examine is experience with its own structure.",
+              "fa": "هوسرل زیر نظر وایرشتراس ریاضی خواند و از راه مبانی حساب به فلسفه رسید. می‌گوید «نگرش طبیعی» همان فرض همیشگی است که جهانی به‌سادگی هست؛ «اپوخه» آن فرض را معلق می‌کند بی‌آنکه انکارش کند، چنانکه آنچه برای بررسی می‌ماند تجربه است با ساختار خودش."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Intentionality is the structure being described. Consciousness is always consciousness of something, and the something is not a picture inside the head — it is what the act is directed at, present in a particular manner. A cube is given from one side and yet meant as a whole cube, and describing how the unseen sides are already part of what is experienced is the sort of work phenomenology does.",
+              "fa": "«التفات» همان ساختاری است که وصف می‌شود. آگاهی همیشه آگاهی از چیزی است، و آن چیز تصویری درون سر نیست؛ همان است که آن فعل به سویش گرفته شده، و به شیوه‌ای معین حاضر است. مکعبی از یک سو داده می‌شود و با این حال چون کل مکعب قصد می‌شود، و وصف اینکه سویه‌های دیده‌نشده چگونه از پیش بخشی از تجربه‌اند، همان گونه کاری است که پدیدارشناسی می‌کند."
+            },
+            "citations": [{ "source": "text-ideas-i", "locator": "§84-88" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The turn to transcendental idealism in this book cost him most of his early followers. The Logical Investigations had been read as a realist rehabilitation of essences against psychologism; when Ideas located the constitution of the object in transcendental consciousness, the Munich and Göttingen circles concluded he had gone back on it. Heidegger, his own assistant and successor, took phenomenology in a direction Husserl regarded as an abandonment of the method.\n\nHe left forty thousand pages of shorthand manuscripts. A Franciscan named Herman Van Breda smuggled them out of Germany in 1938, the year of his death, when a Jewish philosopher's papers were unlikely to survive; they are still being edited in Leuven, and major works including the ones on time-consciousness and the life-world appeared decades after he died. The received picture of Husserl has changed repeatedly as the archive has been published, which is unusual for a figure of his standing.",
+              "fa": "چرخش به ایده‌آلیسم استعلایی در این کتاب بیشتر پیروان نخستینش را از او گرفت. «پژوهش‌های منطقی» را چون اعاده حیثیتی رئالیستی از ذات‌ها در برابر روان‌شناسی‌گرایی خوانده بودند؛ وقتی «ایده‌ها» برساخته‌شدن متعلق را در آگاهی استعلایی نشاند، حلقه‌های مونیخ و گوتینگن نتیجه گرفتند که از حرفش برگشته است. هایدگر، دستیار و جانشین خودش، پدیدارشناسی را به سویی برد که هوسرل آن را وانهادن آن روش می‌دانست.\n\nچهل هزار صفحه دست‌نویس تندنویسی‌شده بر جای گذاشت. راهبی فرانسیسی به نام هرمان فان برِدا در سال ۱۹۳۸، همان سال مرگش، آن‌ها را از آلمان بیرون برد، در روزگاری که ماندن کاغذهای یک فیلسوف یهودی بعید بود؛ هنوز در لوون ویراسته می‌شوند، و آثار مهمی از جمله آنچه درباره آگاهی زمانی و جهان زیست است دهه‌ها پس از مرگش درآمد. تصویر پذیرفته‌شده از هوسرل با انتشار آن بایگانی بارها دگرگون شده، و این برای چهره‌ای با جایگاه او غیرمعمول است."
+            },
+            "citations": [
+              {
+                "source": "text-logical-investigations",
+                "locator": "Investigation V"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-ideas-i", "text-logical-investigations"],
+      "citations": [{ "source": "text-ideas-i" }]
+    },
+    {
+      "id": "dialectic-of-enlightenment",
+      "title": { "en": "Dialectic of Enlightenment", "fa": "دیالکتیک روشنگری" },
+      "originalTitle": "Dialektik der Aufklärung",
+      "author": "adorno",
+      "oneLine": {
+        "en": "Asks why an age that set out to free people by reason arrived at a new kind of barbarism.",
+        "fa": "می‌پرسد چرا روزگاری که برای رهاندن مردم با خرد به راه افتاد به بربریتی از گونه‌ای نو رسید."
+      },
+      "composed": { "start": { "year": 1944, "precision": "exact" } },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "social-philosophy",
+        "philosophy-of-history",
+        "aesthetics",
+        "political-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Written with Horkheimer in Californian exile while the war was still on. The thesis is that enlightenment contains a principle that turns against it: reason as the mastery of nature becomes reason as the mastery of people, because the same operation that reduces a forest to timber reduces a person to labour.",
+              "fa": "با هورکهایمر در تبعید کالیفرنیا و در حالی که جنگ هنوز ادامه داشت نوشته شد. تز این است که روشنگری اصلی را در خود دارد که بر ضد خودش می‌گردد: خرد چون چیرگی بر طبیعت به خرد چون چیرگی بر مردم بدل می‌شود، چون همان عملی که جنگلی را به الوار فرومی‌کاهد آدمی را به کار فرومی‌کاهد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The reading of Odysseus is where the argument is made concrete. He hears the sirens by being tied to the mast while the rowers have their ears stopped and pull; the man who gets the pleasure is immobilised, and those who move are deaf. That is offered as the shape of a whole civilisation — enjoyment secured by self-denial for one class and enforced deafness for another.",
+              "fa": "خوانش اودیسه همان جایی است که استدلال ملموس می‌شود. او سیرن‌ها را می‌شنود چون به دکل بسته شده، در حالی که پاروزنان گوش‌هایشان را بسته‌اند و می‌کشند؛ کسی که لذت می‌برد از حرکت افتاده است، و آنان که حرکت می‌کنند کرند. این چون شکل یک تمدن تمام عرضه می‌شود؛ لذتی که با خودانکاری برای یک طبقه و کری تحمیلی برای طبقه‌ای دیگر تأمین شده است."
+            },
+            "citations": [
+              {
+                "source": "text-dialectic-of-enlightenment",
+                "locator": "Excursus I"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The chapter on the culture industry is the most quoted and the most often misused. Adorno and Horkheimer are not complaining that popular entertainment is vulgar; the charge is that it is administered — produced to a schedule, standardised in advance, and offering variation within limits that are set elsewhere — so that leisure reproduces the discipline of work instead of interrupting it. Whether that description fits any current media environment is a fair question and the answer is not obvious in either direction.\n\nThe book has an internal difficulty its authors acknowledged. If reason is compromised at the root, the critique is written with the instrument it is indicting, and there is no untainted standpoint to write from. Adorno's later work makes that predicament the method rather than an embarrassment, refusing conclusions that would present themselves as secure — which is why Negative Dialectics is written the way it is, and why readers who want a thesis they can extract find him infuriating.",
+              "fa": "فصل صنعت فرهنگ پرنقل‌ترین و بارها بدترین‌استفاده‌شده است. آدورنو و هورکهایمر شکایت نمی‌کنند که سرگرمی همگانی مبتذل است؛ اتهام این است که اداره می‌شود؛ به برنامه تولید می‌شود، از پیش استاندارد می‌شود، و گوناگونی را در حدودی عرضه می‌کند که جای دیگر تعیین شده است، چنانکه فراغت به جای گسستن انضباط کار، بازتولیدش می‌کند. اینکه این توصیف بر هیچ محیط رسانه‌ای امروزی می‌خورد یا نه پرسشی بجاست و پاسخ در هیچ سو آشکار نیست.\n\nاین کتاب دشواری‌ای درونی دارد که نویسندگانش پذیرفتندش. اگر خرد از ریشه آلوده باشد، این نقد با همان ابزاری نوشته می‌شود که متهمش می‌کند، و جایگاه پاکی برای نوشتن نیست. کار متأخر آدورنو همین تنگنا را به جای شرمساری به روش بدل می‌کند و از نتیجه‌هایی که خود را ایمن بنمایانند سر باز می‌زند، و از همین رو «دیالکتیک منفی» چنان نوشته شده که هست، و از همین رو خوانندگانی که تزی برای بیرون‌کشیدن می‌خواهند او را دیوانه‌کننده می‌یابند."
+            },
+            "citations": [{ "source": "text-minima-moralia", "locator": "§18" }]
+          }
+        ]
+      },
+      "editions": [
+        "text-dialectic-of-enlightenment",
+        "text-negative-dialectics",
+        "text-minima-moralia"
+      ],
+      "citations": [{ "source": "text-dialectic-of-enlightenment" }]
+    },
+    {
+      "id": "on-the-concept-of-history",
+      "title": { "en": "On the Concept of History", "fa": "درباره مفهوم تاریخ" },
+      "originalTitle": "Über den Begriff der Geschichte",
+      "alsoKnownAs": ["Theses on the Philosophy of History"],
+      "author": "benjamin",
+      "oneLine": {
+        "en": "Eighteen short theses written months before his death, against the idea that history is progress.",
+        "fa": "هجده تز کوتاه، ماه‌ها پیش از مرگش، بر ضد این فکر که تاریخ پیشرفت است."
+      },
+      "composed": { "start": { "year": 1940, "precision": "exact" } },
+      "traditions": ["continental", "european", "jewish"],
+      "branches": [
+        "philosophy-of-history",
+        "political-philosophy",
+        "aesthetics",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Benjamin wrote these after the Hitler-Stalin pact, in Paris, while trying to leave France. He died at the Spanish border later that year. The theses are aphorisms rather than a treatise, and he asked that they not be published, thinking they would be misread with enthusiasm.",
+              "fa": "بنیامین این‌ها را پس از پیمان هیتلر و استالین، در پاریس، و در تلاش برای ترک فرانسه نوشت. همان سال در مرز اسپانیا مرد. این تزها به جای رساله، قطعه‌های کوتاه‌اند، و او خواست منتشرشان نکنند، چون می‌پنداشت با شور بدخوانده می‌شوند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The angel of history is the image everyone knows. Facing backwards, driven into the future by a storm blowing from paradise, it sees not a chain of events but one single catastrophe piling wreckage at its feet; the storm is what we call progress. The point is that the story of history as advance is told from the position of those who won it.",
+              "fa": "«فرشته تاریخ» همان تصویری است که همه می‌شناسند. رو به گذشته، رانده‌شده به آینده با توفانی که از بهشت می‌وزد، به جای زنجیره‌ای از رویدادها یک فاجعه یگانه می‌بیند که آوار را پیش پایش انبار می‌کند؛ آن توفان همان است که پیشرفتش می‌نامیم. نکته این است که داستان تاریخ چون پیشروی، از جایگاه برندگانش گفته می‌شود."
+            },
+            "citations": [
+              {
+                "source": "text-on-the-concept-of-history",
+                "locator": "Thesis IX"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The target is not only fascism. Benjamin is attacking a social democracy and a Marxism that had both taken progress as a natural law and therefore treated their own victory as guaranteed by history — a confidence he thought had disarmed them. If the future is assured, there is no urgency; if it is not, every moment is one where something could be seized or lost.\n\nWhat makes the theses hard is the theology braided into them. He writes of a weak messianic power that each generation holds, of the past making a claim that can still be answered, of remembrance as something that changes what has already happened. Read as metaphor it thins out; read literally it does not fit the materialism he also insists on. Benjamin's own image is a chess-playing automaton with a hidden dwarf inside, and he says plainly which is which.",
+              "fa": "آماج تنها فاشیسم نیست. بنیامین به سوسیال‌دموکراسی و مارکسیسمی حمله می‌کند که هر دو پیشرفت را قانونی طبیعی گرفته بودند و پس پیروزی خود را تضمین‌شده به دست تاریخ می‌شمردند؛ اطمینانی که به گمان او خلع سلاحشان کرده بود. اگر آینده تضمین‌شده باشد، شتابی در کار نیست؛ و اگر نباشد، هر لحظه لحظه‌ای است که چیزی را می‌توان گرفت یا از دست داد.\n\nآنچه این تزها را دشوار می‌کند الهیاتی است که در آن‌ها بافته شده. از نیروی مسیحایی ضعیفی می‌نویسد که هر نسل دارد، از گذشته‌ای که ادعایی می‌کند و هنوز می‌توان پاسخش داد، از یادآوری چون چیزی که آنچه را پیشاپیش رخ داده دگرگون می‌کند. چون استعاره خوانده شود رقیق می‌شود؛ چون تحت‌اللفظ خوانده شود با آن ماده‌گرایی که بر آن هم پای می‌فشارد جور درنمی‌آید. تصویر خود بنیامین آدمکی شطرنج‌باز است با کوتوله‌ای پنهان در درونش، و آشکارا می‌گوید کدام کدام است."
+            },
+            "citations": [
+              {
+                "source": "text-on-the-concept-of-history",
+                "locator": "Thesis I"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-on-the-concept-of-history"],
+      "citations": [{ "source": "text-on-the-concept-of-history" }]
+    },
+    {
+      "id": "theory-communicative-action",
+      "title": {
+        "en": "The Theory of Communicative Action",
+        "fa": "نظریه کنش ارتباطی"
+      },
+      "originalTitle": "Theorie des kommunikativen Handelns",
+      "author": "habermas",
+      "oneLine": {
+        "en": "Locates rationality in the conditions of reaching understanding rather than in the calculation of means.",
+        "fa": "عقلانیت را در شرایط رسیدن به تفاهم می‌نشاند نه در حساب‌کردن وسیله‌ها."
+      },
+      "composed": { "start": { "year": 1981, "precision": "exact" } },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "social-philosophy",
+        "political-philosophy",
+        "philosophy-of-language",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Habermas accepts the diagnosis of the previous generation and rejects its despair. Instrumental reason really has expanded, but it is not the only kind: whenever people try to reach agreement through speech rather than force, they are already committed to standards that no strategy can supply, and those standards are what the book sets out to describe.",
+              "fa": "هابرماس تشخیص نسل پیشین را می‌پذیرد و نومیدی‌اش را رد می‌کند. خرد ابزاری به‌راستی گسترده شده، اما تنها گونه آن نیست: هر گاه مردم بکوشند با سخن و نه با زور به توافق برسند، از پیش به معیارهایی متعهدند که هیچ راهبردی فراهمشان نمی‌کند، و همان معیارها را این کتاب می‌کوشد وصف کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Any serious speech act, he argues, raises three claims at once: that what is said is true, that saying it is right in this context, and that the speaker means it. A hearer can challenge any of the three, and the exchange proceeds by reasons. That structure is not a moral ideal imposed from outside; it is a condition of the practice, so someone who argues that argument is worthless is refuting themselves in the act.",
+              "fa": "می‌گوید هر کنش گفتاری جدی هم‌زمان سه ادعا پیش می‌کشد: اینکه آنچه گفته می‌شود راست است، اینکه گفتنش در این بافت درست است، و اینکه گوینده جدی است. شنونده می‌تواند هر یک از این سه را به چالش بکشد، و آن داد و ستد با دلیل پیش می‌رود. این ساختار آرمانی اخلاقی نیست که از بیرون تحمیل شده باشد؛ شرط خود آن عمل است، پس کسی که می‌گوید استدلال بی‌ارزش است در همان کنش خود را رد می‌کند."
+            },
+            "citations": [
+              {
+                "source": "text-theory-communicative-action",
+                "locator": "Volume I, ch. 3"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The second volume supplies the social diagnosis: system and lifeworld. Money and administrative power coordinate action without anyone having to agree about anything, which is efficient and is why modern societies can be large; the pathology is colonisation, where those media reach into domains — care, education, law between intimates — that can only function through mutual understanding, and hollow them out while leaving the forms in place.\n\nThe objections are well known. Feminist critics argued the ideal speech situation abstracts from who is able to speak and be heard; Foucault's readers took the whole enterprise as a refusal to see that discourse is itself an operation of power; and Habermas's own reply is that a critique of power which cannot say why domination is wrong has borrowed a standard it refuses to account for. That exchange, more than any other, is the shape of late twentieth-century social philosophy.",
+              "fa": "جلد دوم تشخیص اجتماعی را می‌دهد: نظام و جهان زیست. پول و قدرت اداری کنش را هماهنگ می‌کنند بی‌آنکه کسی مجبور باشد بر سر چیزی توافق کند، و این کارآمد است و از همین رو جامعه‌های امروزی می‌توانند بزرگ باشند؛ آسیب، «استعمار» است، آنجا که آن رسانه‌ها به قلمروهایی می‌رسند که تنها با تفاهم متقابل کار می‌کنند، یعنی مراقبت و آموزش و حقوق میان نزدیکان، و تهی‌شان می‌کنند و صورت‌ها را بر جای می‌گذارند.\n\nاعتراض‌ها شناخته‌اند. منتقدان فمینیست گفتند وضعیت آرمانی گفتار از این انتزاع می‌کند که چه کسی می‌تواند سخن بگوید و شنیده شود؛ خوانندگان فوکو تمام این طرح را امتناع از دیدن این دانستند که خود گفتمان عملی از قدرت است؛ و پاسخ خود هابرماس این است که نقدی از قدرت که نتواند بگوید چرا سلطه نادرست است، معیاری را وام گرفته که از پاسخگویی درباره‌اش سر باز می‌زند. آن داد و ستد، بیش از هر داد و ستد دیگر، شکل فلسفه اجتماعی اواخر سده بیستم است."
+            },
+            "citations": [
+              { "source": "text-structural-transformation", "locator": "ch. 2" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-theory-communicative-action",
+        "text-structural-transformation"
+      ],
+      "citations": [{ "source": "text-theory-communicative-action" }]
+    },
+    {
+      "id": "difference-and-repetition",
+      "title": { "en": "Difference and Repetition", "fa": "تفاوت و تکرار" },
+      "originalTitle": "Différence et Répétition",
+      "author": "deleuze",
+      "oneLine": {
+        "en": "Tries to think difference without first assuming an identity for it to be a difference from.",
+        "fa": "می‌کوشد تفاوت را بیندیشد بی‌آنکه نخست هویتی فرض شود که تفاوت از آن باشد."
+      },
+      "composed": { "start": { "year": 1968, "precision": "exact" } },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "metaphysics",
+        "epistemology",
+        "philosophy-of-mind",
+        "aesthetics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Philosophy has usually treated difference as secondary: two things differ against a background of what they have in common, and the concept comes first. Deleuze argues this subordinates difference to identity and that a difference in itself is thinkable — that the concept is what gets produced, not what does the producing.",
+              "fa": "فلسفه معمولا تفاوت را ثانوی گرفته است: دو چیز در برابر زمینه‌ای از آنچه مشترک دارند فرق می‌کنند، و مفهوم نخست می‌آید. دلوز می‌گوید این تفاوت را فرودست هویت می‌کند و تفاوت فی‌نفسه اندیشیدنی است؛ اینکه مفهوم همان است که تولید می‌شود نه آنکه تولید می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Repetition gets the same treatment. A repetition that reproduces the same thing is not really repetition but the reappearance of a general case. What interests him is repetition that produces difference — the second time is not the first time again, and the practice of a habit, the recurrence of a symptom and the return of a theme in music are his examples of a repetition that makes something new.",
+              "fa": "تکرار هم همان رفتار را می‌گیرد. تکراری که همان چیز را بازتولید کند در واقع تکرار نیست، پیدایش دوباره یک مورد کلی است. آنچه او را جذب می‌کند تکراری است که تفاوت می‌سازد؛ بار دوم بار اول دوباره نیست، و ورزیدن یک عادت و بازآمدن یک نشانه و بازگشت یک مایه در موسیقی نمونه‌های او از تکراری‌اند که چیزی نو می‌سازد."
+            },
+            "citations": [
+              {
+                "source": "text-difference-and-repetition",
+                "locator": "Introduction"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His method is to read the tradition selectively and against itself, taking a minor line — Duns Scotus on univocity, Spinoza on substance, Nietzsche on eternal return, Bergson on duration — and building from it a metaphysics the canonical readings had suppressed. He once described this as taking an author from behind and producing an offspring that is recognisably theirs and monstrous, which is either an honest statement of method or an admission of licence.\n\nThe later collaborative books with Guattari, written in a different register and full of invented vocabulary, are what made the name famous outside philosophy, and they have generated a large amount of imitative writing that reproduces the style without the arguments. This book predates the collaboration, is a doctoral thesis, and argues its case against named opponents in order. Readers who find the later work impossible often find that this one can be followed.",
+              "fa": "روش او خواندن گزینشی سنت و بر ضد خودش است؛ خطی فرعی را برمی‌گیرد، یعنی دنس اسکوتوس درباره اشتراک معنوی و اسپینوزا درباره جوهر و نیچه درباره بازگشت جاودان و برگسون درباره دیرند، و از آن متافیزیکی می‌سازد که خوانش‌های رسمی سرکوبش کرده بودند. یک بار این را چنین وصف کرد که نویسنده‌ای را از پشت می‌گیرد و فرزندی پدید می‌آورد که آشکارا از اوست و هیولاوار، و این یا بیانی صادقانه از روش است یا اقراری به بی‌بندوباری.\n\nکتاب‌های مشترک بعدی با گتاری، که در لحنی دیگر و آکنده از واژگان ابداعی نوشته شده‌اند، همان‌هایند که این نام را بیرون از فلسفه نامدار کردند، و انبوهی نوشته تقلیدی پدید آورده‌اند که سبک را بی‌استدلال بازتولید می‌کند. این کتاب پیش از آن همکاری است، رساله دکتری است، و ادعایش را به ترتیب در برابر حریفانی نام‌برده استدلال می‌کند. خوانندگانی که کار متأخر را ناممکن می‌یابند بارها می‌بینند این یکی را می‌توان دنبال کرد."
+            },
+            "citations": [
+              { "source": "text-thousand-plateaus", "locator": "Introduction" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-difference-and-repetition", "text-thousand-plateaus"],
+      "citations": [{ "source": "text-difference-and-repetition" }]
     }
   ]
 }
