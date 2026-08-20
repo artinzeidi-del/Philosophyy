@@ -8760,6 +8760,472 @@
       },
       "editions": ["text-how-it-is-cordova"],
       "citations": [{ "source": "text-how-it-is-cordova" }]
+    },
+    {
+      "id": "vindication-of-the-rights-of-woman",
+      "title": {
+        "en": "A Vindication of the Rights of Woman",
+        "fa": "دفاع از حقوق زن"
+      },
+      "originalTitle": "A Vindication of the Rights of Woman: with Strictures on Political and Moral Subjects",
+      "author": "wollstonecraft",
+      "oneLine": {
+        "en": "Argues that women appear weak in mind because they are educated to be, and that virtue has no sex.",
+        "fa": "می‌گوید زنان از آن رو کم‌خرد می‌نمایند که چنین پرورده شده‌اند، و اینکه فضیلت جنسیت ندارد."
+      },
+      "composed": { "start": { "year": 1792, "precision": "exact" } },
+      "traditions": ["european"],
+      "branches": [
+        "feminist-philosophy",
+        "political-philosophy",
+        "philosophy-of-education",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Written in six weeks in response to a French report on national education that proposed girls be taught domestic skills only. Wollstonecraft's reply is that a creature trained from infancy to please cannot then be blamed for having no independent judgement, and that the evidence for female incapacity is a description of the training.",
+              "fa": "در شش هفته و در پاسخ به گزارشی فرانسوی درباره آموزش ملی نوشته شد که پیشنهاد می‌کرد به دختران تنها مهارت خانه‌داری بیاموزند. پاسخ ولستون‌کرافت این است که موجودی که از کودکی برای خوشایندبودن پرورده شده را نمی‌توان بابت نداشتن داوری مستقل سرزنش کرد، و شاهد بر ناتوانی زنان وصف همان پرورش است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The argument turns on a single premise she shares with her opponents: virtue is the same thing for every rational creature, and it is acquired by exercising reason. If that is right, an education that develops reason in one half of humanity and sensibility in the other is not producing two kinds of virtue but one kind and its absence.",
+              "fa": "این استدلال بر یک مقدمه می‌چرخد که با حریفانش مشترک است: فضیلت برای هر موجود خردمندی یک چیز است، و با به‌کاربستن خرد به دست می‌آید. اگر چنین باشد، آموزشی که در نیمی از آدمیان خرد را می‌پرورد و در نیمی دیگر حساسیت را، دو گونه فضیلت نمی‌سازد، یک گونه می‌سازد و نبودش را."
+            },
+            "citations": [
+              { "source": "text-vindication-woman", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Her attack on Rousseau is the sharpest section and it is an argument from within his own commitments. Émile grounds education on nature and then, in the book on Sophie, prescribes for girls an upbringing designed entirely around what a man will want — which is not nature but training, by his own criterion. She uses his standard against his conclusion, which is why the chapter is more effective than denunciation would have been.\n\nHer reputation was destroyed by her husband's memoir. Godwin published, shortly after her death in childbirth, a candid account of her love affairs, an illegitimate child and two suicide attempts; the result was that for a century the book could be dismissed by pointing at its author. That is a fact about reception rather than about the argument, and the argument had to be rediscovered when the scandal had faded.",
+              "fa": "حمله او به روسو تیزترین بخش است و استدلالی است از درون تعهدهای خود روسو. «امیل» آموزش را بر طبیعت بنا می‌کند و آنگاه در دفتر سوفی برای دختران پرورشی تجویز می‌کند که یکسره گرد آنچه یک مرد خواهد خواست طراحی شده، و این به معیار خود او طبیعت نیست، تربیت است. او معیار روسو را بر ضد نتیجه‌اش به کار می‌برد، و از همین رو آن فصل کارآمدتر از نکوهش است.\n\nآبروی او را خاطرات شوهرش برد. گادوین اندکی پس از مرگ او در زایمان، گزارشی صریح از عشق‌هایش و فرزندی نامشروع و دو اقدام به خودکشی منتشر کرد؛ نتیجه این شد که یک سده می‌شد این کتاب را با اشاره به نویسنده‌اش کنار گذاشت. این واقعیتی درباره پذیرش است نه درباره آن استدلال، و آن استدلال باید پس از فروکش‌کردن آن رسوایی از نو کشف می‌شد."
+            },
+            "citations": [
+              { "source": "text-vindication-men", "locator": "opening" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-vindication-woman", "text-vindication-men"],
+      "citations": [{ "source": "text-vindication-woman" }]
+    },
+    {
+      "id": "philosophy-and-mirror-of-nature",
+      "title": {
+        "en": "Philosophy and the Mirror of Nature",
+        "fa": "فلسفه و آینه طبیعت"
+      },
+      "originalTitle": "Philosophy and the Mirror of Nature",
+      "author": "rorty",
+      "oneLine": {
+        "en": "Argues that the picture of the mind as a mirror is a historical accident that generated most of modern epistemology.",
+        "fa": "می‌گوید تصویر ذهن چون آینه پیشامدی تاریخی است که بیشتر معرفت‌شناسی مدرن را ساخته است."
+      },
+      "composed": { "start": { "year": 1979, "precision": "exact" } },
+      "traditions": ["american", "analytic", "pragmatist"],
+      "branches": [
+        "epistemology",
+        "philosophy-of-mind",
+        "philosophy-of-language",
+        "metaphysics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Rorty was a well-established analytic philosopher when he published a book arguing that the discipline's central problem had been invented rather than found. If knowing is representing accurately, then the question of whether the representation matches is unavoidable and unanswerable; drop the metaphor and the problem goes with it.",
+              "fa": "رورتی فیلسوفی تحلیلی و جاافتاده بود که کتابی منتشر کرد و در آن گفت مسئله مرکزی این رشته ابداع شده نه یافته. اگر دانستن بازنمودن دقیق باشد، آنگاه این پرسش که آیا آن بازنمود می‌خواند گریزناپذیر و پاسخ‌ناپذیر است؛ آن استعاره را وابنه و آن مسئله هم با آن می‌رود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His positive proposal is that justification is a social practice rather than a relation to the world. We say a belief is justified when it survives the objections our community can raise, and there is no further test available from outside every practice — not because reality is unreal, but because there is no way to compare a belief with an unconceptualised world.",
+              "fa": "پیشنهاد مثبت او این است که توجیه عملی اجتماعی است نه نسبتی با جهان. می‌گوییم باوری موجه است وقتی از اعتراض‌هایی که اجتماع ما می‌تواند بیاورد جان به در می‌برد، و آزمون دیگری از بیرون همه رویه‌ها در دسترس نیست؛ نه از آن رو که واقعیت ناواقعی است، بلکه چون راهی برای سنجیدن باوری با جهانی مفهوم‌نایافته نیست."
+            },
+            "citations": [
+              { "source": "text-philosophy-and-mirror", "locator": "ch. 7" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The objection made most often is that this cannot state itself without exception. If justification is only what a community accepts, then Rorty's own claim is justified only relative to his, and the reader is entitled to ask why they should adopt it. His answer is that he is not arguing it is true in the sense he has rejected; he is recommending a redescription and asking whether it makes for a better conversation, which many philosophers find an evasion and he regarded as the only consistent move available.\n\nThe later work makes the political stakes explicit. He argues that solidarity does not need a philosophical foundation in a shared human essence and is better served by an expanding sense of who counts as one of us, achieved by novels and journalism rather than by arguments. Critics on the left objected that a politics with no ground cannot criticise a society from outside it; Rorty's reply, consistently, was that no such outside has ever been produced and the demand for one has mostly delayed the work.",
+              "fa": "اعتراضی که بیش از همه می‌آید این است که این نمی‌تواند خودش را بی‌استثنا بگوید. اگر توجیه تنها همان باشد که اجتماعی می‌پذیرد، آنگاه ادعای خود رورتی تنها نسبت به اجتماع او موجه است، و خواننده حق دارد بپرسد چرا باید برگیردش. پاسخش این است که ادعا نمی‌کند این به همان معنایی که رد کرده راست است؛ بازتوصیفی را توصیه می‌کند و می‌پرسد آیا گفت‌وگوی بهتری می‌سازد، و بسیاری از فیلسوفان این را طفره می‌دانند و او آن را تنها حرکت هم‌ساز موجود می‌دانست.\n\nکار متأخر گرو سیاسی را صریح می‌کند. می‌گوید همبستگی به بنیادی فلسفی در ذاتی مشترک نیاز ندارد و با گسترش حس اینکه چه کسی «یکی از ما» به شمار می‌آید بهتر پیش می‌رود، و این را رمان و روزنامه‌نگاری به دست می‌آورند نه استدلال. منتقدان چپ اعتراض کردند که سیاستی بی‌زمین نمی‌تواند جامعه‌ای را از بیرون نقد کند؛ پاسخ رورتی پیوسته این بود که چنین بیرونی هرگز ساخته نشده و خواستنش بیشتر کار را به تعویق انداخته است."
+            },
+            "citations": [
+              {
+                "source": "text-contingency-irony-solidarity",
+                "locator": "ch. 9"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-philosophy-and-mirror",
+        "text-contingency-irony-solidarity"
+      ],
+      "citations": [{ "source": "text-philosophy-and-mirror" }]
+    },
+    {
+      "id": "fragility-of-goodness",
+      "title": { "en": "The Fragility of Goodness", "fa": "شکنندگی خیر" },
+      "originalTitle": "The Fragility of Goodness: Luck and Ethics in Greek Tragedy and Philosophy",
+      "author": "nussbaum",
+      "oneLine": {
+        "en": "Reads the tragedies as philosophy, on the question of how much a good life can be exposed to chance.",
+        "fa": "تراژدی‌ها را چون فلسفه می‌خواند، درباره اینکه زندگی خوب تا چه اندازه می‌تواند در معرض بخت باشد."
+      },
+      "composed": { "start": { "year": 1986, "precision": "exact" } },
+      "traditions": ["american", "analytic", "contemporary"],
+      "branches": ["ethics", "aesthetics", "political-philosophy"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The problem is stated by the tragedies before any philosopher formulates it: Agamemnon must choose between two obligations he cannot both meet, and no amount of virtue removes the situation. Plato's response is to make the good life invulnerable by locating it in what luck cannot touch; Aristotle's is to accept the exposure as part of what makes a life good at all.",
+              "fa": "این مسئله را تراژدی‌ها پیش از هر فیلسوفی می‌گویند: آگاممنون باید میان دو تعهد برگزیند که هر دو را نمی‌تواند برآورد، و هیچ اندازه فضیلتی آن موقعیت را برنمی‌دارد. پاسخ افلاطون این است که زندگی خوب را آسیب‌ناپذیر کند و در آنچه بخت به آن نمی‌رسد بنشاندش؛ پاسخ ارسطو این است که آن در معرض بودن را چون بخشی از آنچه اصلا زندگی را خوب می‌کند بپذیرد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Her defence of Aristotle is that the goods most worth having — friendship, love, political community, activity in the world — are precisely the ones that can be destroyed by events outside one's control, and a life arranged so as to be safe from loss has secured itself by giving up what mattered. Vulnerability is not a defect in the Aristotelian scheme; it is the price of the contents.",
+              "fa": "دفاع او از ارسطو این است که خیرهایی که بیش از همه ارزش داشتن دارند، یعنی دوستی و عشق و اجتماع سیاسی و کنش در جهان، دقیقا همان‌هایند که رویدادهای بیرون از اختیار می‌توانند نابودشان کنند، و زندگی‌ای که چنان سامان یافته که از زیان ایمن باشد، خود را با وانهادن آنچه اهمیت داشت ایمن کرده است. آسیب‌پذیری در طرح ارسطویی نقص نیست؛ بهای همان محتواست."
+            },
+            "citations": [
+              { "source": "text-fragility-of-goodness", "locator": "ch. 11" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The methodological claim is as contested as the substantive one. Nussbaum argues that a novel or a play can do philosophical work no treatise can, because the perception of a particular case is itself part of moral understanding and cannot be replaced by a rule. Analytic critics answered that this confuses illustration with argument; her reply is that the demand for an argument separable from the case begs the question at issue.\n\nHer later work turns the same premise into policy. If what matters is what a person can actually do and be, and if that is vulnerable to circumstance, then a decent society is obliged to secure a list of capabilities rather than to distribute resources and stop. That list, developed with Sen and used in development economics, is where an argument about Greek tragedy ended up doing measurable work.",
+              "fa": "ادعای روش‌شناختی به اندازه ادعای محتوایی محل نزاع است. نوسبام می‌گوید رمان یا نمایش می‌تواند کاری فلسفی بکند که هیچ رساله‌ای نمی‌تواند، چون ادراک یک مورد خاص خود بخشی از فهم اخلاقی است و قاعده جایش را نمی‌گیرد. منتقدان تحلیلی پاسخ دادند که این نمونه‌آوردن را با استدلال اشتباه می‌گیرد؛ پاسخ او این است که خواستن استدلالی جدایی‌پذیر از آن مورد، همان پرسش مورد نزاع را مصادره می‌کند.\n\nکار متأخرش همان مقدمه را به سیاست‌گذاری بدل می‌کند. اگر آنچه اهمیت دارد این است که کسی در عمل چه می‌تواند بکند و باشد، و اگر این در برابر اوضاع آسیب‌پذیر است، آنگاه جامعه‌ای شایسته موظف است فهرستی از قابلیت‌ها را تأمین کند نه اینکه منابع را پخش کند و بایستد. آن فهرست، که با سن پرورده شد و در اقتصاد توسعه به کار می‌رود، همان جایی است که استدلالی درباره تراژدی یونان به کاری سنجش‌پذیر انجامید."
+            },
+            "citations": [
+              { "source": "text-creating-capabilities", "locator": "ch. 2" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-fragility-of-goodness", "text-creating-capabilities"],
+      "citations": [{ "source": "text-fragility-of-goodness" }]
+    },
+    {
+      "id": "i-and-thou",
+      "title": { "en": "I and Thou", "fa": "من و تو" },
+      "originalTitle": "Ich und Du",
+      "author": "buber",
+      "oneLine": {
+        "en": "Distinguishes two ways of standing toward anything, and says only one of them is a relation.",
+        "fa": "دو شیوه ایستادن در برابر هر چیز را جدا می‌کند، و می‌گوید تنها یکی از آن‌ها نسبت است."
+      },
+      "composed": { "start": { "year": 1923, "precision": "exact" } },
+      "traditions": ["jewish", "european", "continental"],
+      "branches": [
+        "philosophy-of-religion",
+        "ethics",
+        "philosophy-of-mind",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Buber's claim is that there are two basic word pairs, not two words: I-Thou and I-It. Which one is spoken determines what the speaker is as much as what is addressed, because the I of I-Thou is not the same I as the I of I-It. This is stated as a structural claim rather than as advice about being nicer.",
+              "fa": "ادعای بوبر این است که دو جفت واژه بنیادی هست نه دو واژه: «من ـ تو» و «من ـ آن». اینکه کدام گفته شود همان اندازه که تعیین می‌کند چه چیز مخاطب است، تعیین می‌کند گوینده چیست، چون «من» در «من ـ تو» همان «من» در «من ـ آن» نیست. این چون ادعایی ساختاری گفته می‌شود نه چون اندرزی درباره مهربان‌تر بودن."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The I-It attitude treats what is before us as an object with properties, to be classified and used, and Buber insists it is necessary — no one could live without it, and a doctor who could not see a body as an object would be no use. The claim is that a life spent entirely in it is a life in which nothing has been met, and that the other attitude cannot be produced at will.",
+              "fa": "نگرش «من ـ آن» آنچه را پیش روی ماست چون شیئی با خواص می‌گیرد که باید رده‌بندی و به کار گرفته شود، و بوبر پای می‌فشارد که این لازم است؛ کسی بی‌آن نمی‌تواند بزید، و پزشکی که نتواند تنی را چون شیء ببیند به کار نمی‌آید. ادعا این است که زندگی‌ای که یکسره در آن گذشته باشد زندگی‌ای است که در آن با چیزی روبه‌رو نشده‌ایم، و اینکه نگرش دیگر را به اراده نمی‌توان ساخت."
+            },
+            "citations": [{ "source": "text-i-and-thou", "locator": "Part I" }]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "He extends the relation beyond people, which is where readers most often balk. A tree can be met as a Thou, he says, and he means it: not that the tree responds in words, but that one can stand toward it in the manner that is not classification. Whether that is a genuine extension or a poetic overreach has been argued since publication, and Buber's own later essays defend it carefully rather than retreating.\n\nHis political work is the same thought applied. He spent decades arguing for a binational state in Palestine with Jewish and Arab self-government, a position that isolated him from most of the Zionist movement and did not endear him to its opponents either, and he continued it after 1948 as a minority of one. The prose of the book is deliberately elevated and many philosophers find it unfalsifiable; the political record is the part that shows what he took the argument to require.",
+              "fa": "این نسبت را به فراتر از مردمان می‌کشاند، و خوانندگان بیش از همه همین‌جا می‌ایستند. می‌گوید درختی را می‌توان چون «تو» دید، و جدی می‌گوید: نه اینکه درخت با واژه پاسخ دهد، بلکه اینکه می‌توان در برابرش به شیوه‌ای ایستاد که رده‌بندی نیست. اینکه این گسترشی راستین است یا زیاده‌روی‌ای شاعرانه، از زمان انتشار محل بحث بوده، و جستارهای بعدی خود بوبر به جای عقب‌نشینی با دقت از آن دفاع می‌کنند.\n\nکار سیاسی او همان اندیشه است که به کار بسته شده. ده‌ها سال برای دولتی دوملیتی در فلسطین با خودگردانی یهودی و عربی استدلال کرد، موضعی که او را از بیشتر جنبش صهیونیستی جدا کرد و نزد مخالفان آن هم محبوبش نکرد، و پس از سال ۱۹۴۸ آن را چون اقلیتی یک‌نفره ادامه داد. نثر این کتاب عمدا بلند است و بسیاری از فیلسوفان ابطال‌ناپذیرش می‌یابند؛ آن کارنامه سیاسی همان بخشی است که نشان می‌دهد او آن استدلال را مستلزم چه می‌دانست."
+            },
+            "citations": [
+              { "source": "text-i-and-thou", "locator": "Part III" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-i-and-thou"],
+      "citations": [{ "source": "text-i-and-thou" }]
+    },
+    {
+      "id": "dostoevsky-poetics",
+      "title": {
+        "en": "Problems of Dostoevsky's Poetics",
+        "fa": "مسائل بوطیقای داستایفسکی"
+      },
+      "originalTitle": "Проблемы поэтики Достоевского",
+      "transliteration": "Problemy poetiki Dostoevskogo",
+      "author": "bakhtin",
+      "oneLine": {
+        "en": "Argues that Dostoevsky invented a form in which the author does not have the last word.",
+        "fa": "می‌گوید داستایفسکی صورتی ابداع کرد که در آن نویسنده سخن آخر را ندارد."
+      },
+      "composed": {
+        "start": { "year": 1929, "precision": "exact" },
+        "end": { "year": 1963, "precision": "exact" }
+      },
+      "traditions": ["russian", "continental"],
+      "branches": [
+        "aesthetics",
+        "philosophy-of-language",
+        "ethics",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Bakhtin's term is polyphonic. In the ordinary novel the characters' views are arranged inside a framework the author controls and finally judges from; in Dostoevsky, he argues, the characters' positions are not overridden, and the strongest arguments against the author's own convictions are given to characters who make them well.",
+              "fa": "اصطلاح باختین «چندصدایی» است. در رمان معمولی، دیدگاه‌های شخصیت‌ها درون چارچوبی چیده می‌شوند که نویسنده مهارش می‌کند و سرانجام از آن داوری می‌کند؛ می‌گوید در داستایفسکی، مواضع شخصیت‌ها نقض نمی‌شوند، و قوی‌ترین استدلال‌ها بر ضد باورهای خود نویسنده به شخصیت‌هایی داده می‌شود که خوب می‌گویندشان."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The philosophical claim underneath is about persons. A person, on Bakhtin's account, is never finished and never coincides with any description of them, so a novel that fixes a character in an authoritative account has misdescribed what a person is. Dialogue is not a technique for presenting views; it is the only form in which a consciousness can be represented without being turned into an object.",
+              "fa": "ادعای فلسفی زیرین درباره اشخاص است. به روایت باختین، شخص هرگز تمام نمی‌شود و هرگز با هیچ وصفی از خودش یکی نیست، پس رمانی که شخصیتی را در روایتی مقتدر تثبیت می‌کند، چیستی شخص را بد وصف کرده است. گفت‌وگو فنی برای عرضه دیدگاه‌ها نیست؛ یگانه صورتی است که در آن یک آگاهی را می‌توان بازنمود بی‌آنکه به شیء بدل شود."
+            },
+            "citations": [
+              { "source": "text-dostoevsky-poetics", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The textual history is unusually tangled and matters for citation. The 1929 edition appeared just as he was arrested; he was exiled to Kazakhstan, wrote for decades without publishing, and the book was substantially rewritten for a 1963 edition after younger scholars rediscovered him. Several works circulated under his friends' names, and which of those are his is still argued about.\n\nHis book on Rabelais develops the same thought about form. Carnival, in his account, is not a safety valve but a period in which the official hierarchy is temporarily unspoken and a different relation between people becomes possible — laughter that includes the one laughing, bodies that are not finished, a world without a single authoritative voice. Written in the Soviet Union in the 1930s and 40s, it is hard not to read the analysis of official language as also being about something else.",
+              "fa": "تاریخ متنی این کتاب به‌طور غیرمعمول درهم است و برای ارجاع اهمیت دارد. ویرایش ۱۹۲۹ درست هنگام دستگیری او درآمد؛ به قزاقستان تبعید شد، ده‌ها سال بی‌انتشار نوشت، و این کتاب برای ویرایش ۱۹۶۳ و پس از آنکه پژوهشگران جوان‌تر بازش یافتند به‌طور جدی بازنویسی شد. چند اثر زیر نام دوستانش گشت، و اینکه کدام از آن‌ها از اوست هنوز محل بحث است.\n\nکتابش درباره رابله همان اندیشه درباره صورت را می‌پروراند. به روایت او «کارناوال» سوپاپ اطمینان نیست، دوره‌ای است که در آن سلسله‌مراتب رسمی موقتا ناگفته می‌ماند و نسبتی دیگر میان مردم ممکن می‌شود؛ خنده‌ای که خودِ خندنده را هم در بر می‌گیرد، تن‌هایی که تمام نشده‌اند، جهانی بی‌یک صدای مقتدر. این در اتحاد شوروی و در دهه‌های ۱۹۳۰ و ۱۹۴۰ نوشته شده، و دشوار است تحلیل زبان رسمی را درباره چیزی دیگر هم نخوانیم."
+            },
+            "citations": [
+              {
+                "source": "text-rabelais-and-his-world",
+                "locator": "Introduction"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-dostoevsky-poetics", "text-rabelais-and-his-world"],
+      "citations": [{ "source": "text-dostoevsky-poetics" }]
+    },
+    {
+      "id": "question-of-german-guilt",
+      "title": {
+        "en": "The Question of German Guilt",
+        "fa": "پرسش گناه آلمانی"
+      },
+      "originalTitle": "Die Schuldfrage",
+      "author": "jaspers",
+      "oneLine": {
+        "en": "Distinguishes four kinds of guilt so that a nation can be held responsible without the word losing meaning.",
+        "fa": "چهار گونه گناه را جدا می‌کند تا بتوان ملتی را مسئول دانست بی‌آنکه آن واژه معنایش را ببازد."
+      },
+      "composed": { "start": { "year": 1946, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "philosophy-of-law",
+        "philosophy-of-history"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Delivered as lectures at Heidelberg in the winter after the war, to German students, by a man whose Jewish wife had survived because the deportation order came too late. He separates criminal guilt, established by a court; political liability, borne by all citizens of a state; moral guilt, which only conscience can judge; and metaphysical guilt, for having survived.",
+              "fa": "در زمستان پس از جنگ چون درسگفتار در هایدلبرگ و برای دانشجویان آلمانی گفته شد، از سوی مردی که همسر یهودی‌اش زنده مانده بود چون فرمان تبعید دیر رسید. او گناه کیفری را که دادگاه احرازش می‌کند، مسئولیت سیاسی را که همه شهروندان یک دولت بر دوش دارند، گناه اخلاقی را که تنها وجدان می‌تواند داوری‌اش کند، و گناه متافیزیکی را برای زنده‌ماندن، از هم جدا می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The distinctions are doing precise work. Collective criminal guilt is a category error — a nation cannot be tried — but political liability is real and does not require personal fault, since living under a state and benefiting from it creates obligations when it does wrong. Refusing the first without refusing the second is the whole point of the lectures.",
+              "fa": "این تمایزها کاری دقیق می‌کنند. گناه کیفری جمعی خطای مقوله‌ای است، چون ملتی را نمی‌توان محاکمه کرد، اما مسئولیت سیاسی واقعی است و تقصیر شخصی نمی‌خواهد، چون زیستن زیر دولتی و بهره‌بردن از آن، هنگام بدکردن آن تعهد می‌سازد. ردکردن اولی بی‌ردکردن دومی تمام مقصود این درسگفتارهاست."
+            },
+            "citations": [
+              {
+                "source": "text-question-of-german-guilt",
+                "locator": "Part II"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The fourth category is the philosophically strange one and he knew it. Metaphysical guilt attaches to having remained alive where others were killed, and it corresponds to no failure of duty; nobody could have been obliged to die. Jaspers says it is nonetheless real, that it is felt, and that a person who feels nothing of it has not understood what happened — which is a claim that a moral fact can exist without an obligation attached to it.\n\nThe lectures were unpopular at the time, in a country that wanted to describe itself as Hitler's first victim, and Jaspers left for Basel in 1948. Their afterlife has been long: the framework is used routinely in transitional justice, in debates about colonial reparation and about descendants' obligations, usually without the name attached. Arendt, who had been his student and remained his correspondent, worked from these distinctions in her own account of the Eichmann trial.",
+              "fa": "رده چهارم از نظر فلسفی غریب است و خودش می‌دانست. گناه متافیزیکی به زنده‌ماندن آنجا که دیگران کشته شدند می‌چسبد، و با هیچ کوتاهی در وظیفه‌ای برابر نیست؛ کسی موظف به مردن نبود. یاسپرس می‌گوید با این حال واقعی است، که احساس می‌شود، و کسی که هیچ از آن حس نمی‌کند نفهمیده چه رخ داده است؛ و این ادعایی است که واقعیتی اخلاقی می‌تواند بی‌الزامی چسبیده به آن باشد.\n\nاین درسگفتارها در آن روزگار محبوب نبودند، در کشوری که می‌خواست خود را نخستین قربانی هیتلر بخواند، و یاسپرس در ۱۹۴۸ به بازل رفت. عمر پس از آن‌ها دراز بوده: این چارچوب به‌طور معمول در عدالت انتقالی و در بحث‌های جبران استعماری و تعهدهای نوادگان به کار می‌رود، معمولا بی‌آنکه نامی به آن بچسبد. آرنت، که شاگردش بود و مکاتبه‌شان ماند، در روایت خودش از محاکمه آیشمن از همین تمایزها کار می‌گرفت."
+            },
+            "citations": [
+              {
+                "source": "text-origin-and-goal-of-history",
+                "locator": "Part I"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-question-of-german-guilt",
+        "text-origin-and-goal-of-history"
+      ],
+      "citations": [{ "source": "text-question-of-german-guilt" }]
+    },
+    {
+      "id": "ethics-inventing-right-and-wrong",
+      "title": {
+        "en": "Ethics: Inventing Right and Wrong",
+        "fa": "اخلاق: ابداع درست و نادرست"
+      },
+      "originalTitle": "Ethics: Inventing Right and Wrong",
+      "author": "mackie",
+      "oneLine": {
+        "en": "Argues that ordinary moral talk claims objective values, and that there are none.",
+        "fa": "می‌گوید سخن اخلاقی معمولی مدعی ارزش‌های عینی است، و چنین ارزش‌هایی نیست."
+      },
+      "composed": { "start": { "year": 1977, "precision": "exact" } },
+      "traditions": ["analytic", "european"],
+      "branches": [
+        "metaethics",
+        "ethics",
+        "epistemology",
+        "philosophy-of-language"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mackie's position is an error theory, and its structure is what makes it distinctive. He agrees with the moral realist about what moral statements mean: they assert that something really is wrong, not merely that the speaker disapproves. He then says all such assertions are false, because the world contains no properties of that kind.",
+              "fa": "موضع مکی «نظریه خطا» است، و ساختارش همان است که متمایزش می‌کند. با رئالیست اخلاقی درباره معنای گزاره‌های اخلاقی هم‌رأی است: آن‌ها می‌گویند چیزی به‌راستی نادرست است، نه صرفا اینکه گوینده ناخرسند است. سپس می‌گوید همه چنین گزاره‌هایی نادرست‌اند، چون جهان خواصی از آن گونه ندارد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Two arguments carry it. The argument from relativity notes that moral codes vary in ways better explained by different ways of life than by different degrees of insight into one moral reality. The argument from queerness says that an objective value would have to be a thing unlike anything else in the universe — a fact that by itself motivates whoever perceives it — and that we would need a special faculty to detect it.",
+              "fa": "دو استدلال آن را می‌برند. استدلال از نسبیت می‌گوید قانون‌های اخلاقی به شیوه‌هایی گوناگون‌اند که تفاوت شیوه‌های زیستن بهتر از تفاوت درجه بصیرت در یک واقعیت اخلاقی توضیحشان می‌دهد. استدلال از غرابت می‌گوید ارزشی عینی باید چیزی باشد ناهمانند هر چیز دیگر در گیتی، یعنی واقعیتی که خودش هر که درکش کند را برمی‌انگیزد، و برای دریافتنش قوه‌ای ویژه لازم می‌شد."
+            },
+            "citations": [
+              { "source": "text-ethics-inventing", "locator": "ch. 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The rest of the book is the part usually skipped, and it is where the title's first word gets its meaning. Having denied that morality is discovered, Mackie proceeds to construct one, on the ground that human beings living together need rules limiting the pursuit of individual aims and that this is a real problem with better and worse solutions. Invention is not arbitrariness; the constraints are set by what people are like.\n\nThe queerness argument has attracted the most work in reply. Naturalists answer that moral properties are ordinary natural ones and nothing queer is required; non-naturalists answer that mathematical objects are equally odd by the same standard and nobody proposes an error theory about arithmetic. That second reply is the sharpest, and how much it costs to accept it is one of the live questions in metaethics.",
+              "fa": "باقی کتاب همان بخشی است که معمولا از رویش می‌گذرند، و همان جایی است که واژه نخست عنوان معنایش را می‌گیرد. مکی پس از انکار اینکه اخلاق کشف می‌شود، به ساختن یکی می‌پردازد، بر این پایه که آدمیانی که با هم می‌زیند به قاعده‌هایی نیاز دارند که پی‌گیری هدف‌های فردی را محدود کند، و این مسئله‌ای راستین با راه‌حل‌های بهتر و بدتر است. ابداع دلبخواهی‌بودن نیست؛ قیدها را چگونگی خود مردم می‌نهد.\n\nاستدلال غرابت بیشترین پاسخ را برانگیخته است. طبیعت‌گرایان پاسخ می‌دهند که خواص اخلاقی همان خواص طبیعی معمولی‌اند و چیز غریبی لازم نیست؛ ناطبیعت‌گرایان پاسخ می‌دهند که اشیای ریاضی به همان معیار به همان اندازه عجیب‌اند و کسی درباره حساب نظریه خطا پیش نمی‌نهد. پاسخ دوم تیزترین است، و اینکه پذیرفتنش چه بهایی دارد از پرسش‌های زنده فرااخلاق است."
+            },
+            "citations": [
+              { "source": "text-ethics-inventing", "locator": "ch. 5" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-ethics-inventing"],
+      "citations": [{ "source": "text-ethics-inventing" }]
+    },
+    {
+      "id": "transfiguration-of-the-commonplace",
+      "title": {
+        "en": "The Transfiguration of the Commonplace",
+        "fa": "استحاله امر روزمره"
+      },
+      "originalTitle": "The Transfiguration of the Commonplace: A Philosophy of Art",
+      "author": "danto",
+      "oneLine": {
+        "en": "Asks what makes one box of soap pads art and an identical box in a warehouse not.",
+        "fa": "می‌پرسد چه چیز یک جعبه سیم ظرفشویی را هنر می‌کند و جعبه‌ای یکسان در انبار را نه."
+      },
+      "composed": { "start": { "year": 1981, "precision": "exact" } },
+      "traditions": ["american", "analytic"],
+      "branches": ["aesthetics", "metaphysics", "philosophy-of-language"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Danto's starting point is a gallery visit in 1964 where Warhol showed plywood boxes silkscreened to look like Brillo cartons. The philosophical problem is exact: two objects can be perceptually indistinguishable while one is a work of art and the other is packaging, so whatever makes something art is not visible in it.",
+              "fa": "نقطه آغاز دانتو بازدید از نمایشگاهی در سال ۱۹۶۴ است که وارهول در آن جعبه‌های تخته‌سه‌لایی نشان داد که چاپ شده بودند تا شبیه کارتن‌های بریلو بنمایند. مسئله فلسفی دقیق است: دو شیء می‌توانند از نظر دیداری تمیزناپذیر باشند در حالی که یکی اثر هنری است و دیگری بسته‌بندی، پس هر چه چیزی را هنر می‌کند در آن دیدنی نیست."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His answer has two parts. A work is about something and embodies its meaning in its form, which distinguishes it from a mere object; and it requires an artworld — a background of theory and history that makes a given gesture readable as a move. Brillo Box could not have been art in 1904, not because it would have looked different but because nothing available then would have made it mean anything.",
+              "fa": "پاسخ او دو بخش دارد. اثر درباره چیزی است و معنایش را در صورت خود متجسم می‌کند، و همین از شیء صرف جدایش می‌کند؛ و به «جهان هنر» نیاز دارد، یعنی پس‌زمینه‌ای از نظریه و تاریخ که یک حرکت معین را چون یک اقدام خواندنی می‌کند. «جعبه بریلو» در سال ۱۹۰۴ نمی‌توانست هنر باشد، نه از آن رو که دیگرگونه می‌نمود، بلکه چون هیچ چیز در دسترس آن روزگار معنایش نمی‌کرد."
+            },
+            "citations": [
+              {
+                "source": "text-transfiguration-commonplace",
+                "locator": "ch. 1"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "From this he drew the conclusion he is most known and most criticised for: that art has ended. He does not mean it has stopped being made. He means that the historical project of art discovering its own nature by making works was completed once a work could pose the question philosophically, so art is now free of any developmental narrative and anything is possible — which sounds celebratory and struck many artists as a demotion.\n\nThe institutional reading of his artworld, developed by George Dickie, defines art as whatever the relevant institutions confer the status on, and Danto spent years rejecting it. His artworld is an inherited body of thought against which a gesture becomes legible, not a set of curators with authority; the difference matters, because on Dickie's version being art is a decision and on Danto's it is a fact about what a thing means and can be got wrong.",
+              "fa": "از این همان نتیجه‌ای را گرفت که بیش از همه به آن شناخته و بابتش نقد می‌شود: اینکه هنر به پایان رسیده است. مقصودش این نیست که دیگر ساخته نمی‌شود. مقصودش این است که آن طرح تاریخی هنر برای کشف سرشت خودش از راه ساختن آثار، همین که اثری توانست آن پرسش را فلسفی طرح کند به پایان رسید، پس هنر اکنون از هر روایت تکاملی آزاد است و هر چیز ممکن است، و این جشن‌گرفتنی می‌نماید و به گمان بسیاری از هنرمندان تنزل بود.\n\nخوانش نهادی از «جهان هنر» او، که جورج دیکی پروراندش، هنر را هر آنچه نهادهای مربوط این مقام را بر آن می‌نهند تعریف می‌کند، و دانتو سال‌ها ردش کرد. جهان هنر او پیکره‌ای از نظریه و تاریخ است که معنا را ممکن می‌کند، نه دسته‌ای متصدی با اقتدار؛ و این تفاوت اهمیت دارد، چون در روایت دیکی هنربودن یک تصمیم است و در روایت دانتو واقعیتی است درباره معنای یک چیز و می‌توان درباره‌اش بر خطا بود."
+            },
+            "citations": [
+              {
+                "source": "text-transfiguration-commonplace",
+                "locator": "ch. 7"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-transfiguration-commonplace"],
+      "citations": [{ "source": "text-transfiguration-commonplace" }]
     }
   ]
 }
