@@ -2015,6 +2015,1310 @@
         "source": "text-neo-colonialism",
         "locator": "Introduction"
       }
+    },
+    {
+      "id": "thales-hardest",
+      "text": {
+        "en": "The hardest thing is to know yourself; the easiest, to give advice to someone else.",
+        "fa": "سخت‌ترین کار شناختن خود است؛ آسان‌ترین، اندرز دادن به دیگری."
+      },
+      "speaker": "thales",
+      "attribution": "probable",
+      "citation": {
+        "source": "text-lives-of-eminent-philosophers",
+        "locator": "I.36"
+      },
+      "context": {
+        "en": "One of a set of answers Diogenes Laertius reports Thales giving to a series of questions, six centuries after he lived. It is the earliest surviving form of a thought that Greek philosophy never afterwards let go of.",
+        "fa": "یکی از پاسخ‌هایی که دیوگنس لائرتیوس، شش قرن پس از زندگی تالس، از او در برابر رشته‌ای از پرسش‌ها گزارش می‌کند. کهن‌ترین صورت بازماندهٔ اندیشه‌ای است که فلسفهٔ یونانی دیگر هرگز رهایش نکرد."
+      },
+      "attributionNote": {
+        "en": "Reported by Diogenes Laertius, who was writing around 800 years after Thales and drawing on collections of sayings. The attribution is traditional rather than documented.",
+        "fa": "گزارش دیوگنس لائرتیوس، که نزدیک هشتصد سال پس از تالس و بر پایهٔ مجموعه‌های سخنان می‌نوشت. این انتساب سنتی است نه مستند."
+      }
+    },
+    {
+      "id": "parmenides-thinking-being",
+      "text": {
+        "en": "The same thing is there for thinking and for being.",
+        "fa": "اندیشیدن و بودن، یک چیزند."
+      },
+      "originalText": "τὸ γὰρ αὐτὸ νοεῖν ἐστίν τε καὶ εἶναι",
+      "speaker": "parmenides",
+      "attribution": "verified",
+      "citation": { "source": "text-parmenides-poem", "locator": "DK 28 B3" },
+      "context": {
+        "en": "Three words in Greek, and among the most argued-over in the history of philosophy. It has been read as saying that thought and being are identical, and as saying only that whatever can be thought can be — which are very different claims.",
+        "fa": "در یونانی سه واژه است، و از پرمشاجره‌ترین‌های تاریخ فلسفه. آن را هم چنین خوانده‌اند که اندیشه و هستی یکی‌اند، و هم چنین که تنها هرآنچه اندیشیدنی است می‌تواند باشد — و این دو ادعا بسیار متفاوت‌اند."
+      }
+    },
+    {
+      "id": "parmenides-is",
+      "text": {
+        "en": "The one road says: that it is, and that it cannot not be.",
+        "fa": "یک راه می‌گوید: که هست، و که نمی‌تواند نباشد."
+      },
+      "originalText": "ἡ μὲν ὅπως ἔστιν τε καὶ ὡς οὐκ ἔστι μὴ εἶναι",
+      "speaker": "parmenides",
+      "attribution": "verified",
+      "citation": { "source": "text-parmenides-poem", "locator": "DK 28 B2" },
+      "context": {
+        "en": "The goddess sets out two roads of inquiry and immediately closes one of them. What survives of the poem is an argument that the second road — that something is not — cannot even be spoken.",
+        "fa": "الههٔ شعر دو راهِ پژوهش پیش می‌نهد و بی‌درنگ یکی را می‌بندد. آنچه از شعر مانده استدلالی است بر اینکه راه دوم — که چیزی نیست — حتی گفتنی نیست."
+      }
+    },
+    {
+      "id": "gorgias-speech",
+      "text": {
+        "en": "Speech is a great power, which achieves the most divine works with the smallest and least visible body.",
+        "fa": "سخن توانی بزرگ است که با کوچک‌ترین و ناپیداترین پیکر، خدایی‌ترین کارها را انجام می‌دهد."
+      },
+      "speaker": "gorgias",
+      "attribution": "verified",
+      "citation": { "source": "text-encomium-of-helen", "locator": "§8" },
+      "context": {
+        "en": "Gorgias is defending Helen on the ground that if speech persuaded her, she was compelled and not at fault. To make the defence work he has to argue that words act on the soul with the force of a drug — which is the passage the history of rhetoric remembers.",
+        "fa": "گورگیاس از هلن دفاع می‌کند به این دلیل که اگر سخن او را متقاعد کرده، پس مجبور بوده و گناهی ندارد. برای آنکه این دفاع کار کند، باید نشان دهد واژه‌ها با نیروی دارو بر جان اثر می‌گذارند — و تاریخ بلاغت همین بند را به یاد دارد."
+      }
+    },
+    {
+      "id": "diogenes-sun",
+      "text": {
+        "en": "Stand a little out of my sun.",
+        "fa": "کمی از آفتابم کنار برو."
+      },
+      "speaker": "diogenes",
+      "attribution": "probable",
+      "citation": {
+        "source": "text-lives-of-eminent-philosophers",
+        "locator": "VI.38"
+      },
+      "context": {
+        "en": "Said, in the story, to Alexander the Great, who had come to ask whether Diogenes wanted anything. The point is not rudeness: it is that the most powerful man alive had nothing Diogenes needed.",
+        "fa": "در این حکایت، خطاب به اسکندر که آمده بود بپرسد دیوگنس چیزی می‌خواهد یا نه. نکته گستاخی نیست: نکته این است که تواناترین مرد زنده چیزی نداشت که دیوگنس بدان نیازمند باشد."
+      },
+      "attributionNote": {
+        "en": "An anecdote in Diogenes Laertius, told in several versions by several ancient authors. Whether it happened is not recoverable; that it was told about him from early on is.",
+        "fa": "حکایتی در دیوگنس لائرتیوس، که چند نویسندهٔ باستانی به چند روایت آورده‌اند. اینکه رخ داده باشد بازیافتنی نیست؛ اینکه از دیرباز دربارهٔ او گفته می‌شده، هست."
+      }
+    },
+    {
+      "id": "zeno-citium-nature",
+      "text": {
+        "en": "The goal is to live in agreement with nature.",
+        "fa": "هدف، زیستن در هماهنگی با طبیعت است."
+      },
+      "speaker": "zeno-of-citium",
+      "attribution": "probable",
+      "citation": {
+        "source": "text-lives-of-eminent-philosophers",
+        "locator": "VII.87"
+      },
+      "context": {
+        "en": "The formula Stoicism is built on, and the one every later Stoic had to interpret. Diogenes Laertius reports that Zeno's own version was shorter than the one his successors used, and that they added words to make clear which nature was meant.",
+        "fa": "فرمولی که رواقی‌گری بر آن بنا شده، و هر رواقیِ پس از او ناچار به تفسیرش بود. دیوگنس لائرتیوس گزارش می‌کند که صورتِ خودِ زنون کوتاه‌تر از آن بوده که جانشینانش به کار بردند، و آنان واژه‌هایی افزودند تا روشن شود کدام طبیعت مراد است."
+      },
+      "attributionNote": {
+        "en": "Preserved in Diogenes Laertius, who is quoting from Stoic handbooks rather than from Zeno. No work of Zeno's survives.",
+        "fa": "در دیوگنس لائرتیوس مانده است، که از دستنامه‌های رواقی نقل می‌کند نه از خودِ زنون. هیچ اثری از زنون بر جای نمانده."
+      }
+    },
+    {
+      "id": "sextus-suspension",
+      "text": {
+        "en": "Scepticism is an ability to set out oppositions among things which appear and are thought of in any way at all, so that, because of the equal strength of the opposed accounts, we come first to suspension of judgement and afterwards to tranquillity.",
+        "fa": "شکاکیت توانِ رویارو نهادن چیزهایی است که به هر نحوی پدیدار می‌شوند یا اندیشیده می‌شوند، چنان‌که به سبب هم‌زوریِ گزارش‌های متقابل، نخست به تعلیق داوری می‌رسیم و سپس به آرامش."
+      },
+      "speaker": "sextus-empiricus",
+      "attribution": "verified",
+      "citation": { "source": "text-outlines-of-pyrrhonism", "locator": "I.8" },
+      "context": {
+        "en": "The definition the whole of ancient scepticism works from. Note what it is not: it does not say that nothing can be known. It describes a practice — set the arguments against each other — and reports where that practice leads.",
+        "fa": "تعریفی که تمام شکاکیت باستان از آن آغاز می‌کند. توجه کنید چه نمی‌گوید: نمی‌گوید هیچ چیز دانستنی نیست. کاری را وصف می‌کند — استدلال‌ها را در برابر هم بگذار — و گزارش می‌دهد که این کار به کجا می‌رسد."
+      }
+    },
+    {
+      "id": "marcus-revenge",
+      "text": {
+        "en": "The best way of avenging yourself is not to become like the wrongdoer.",
+        "fa": "بهترین راهِ انتقام، همانند بدکار نشدن است."
+      },
+      "speaker": "marcus-aurelius",
+      "attribution": "verified",
+      "citation": { "source": "text-meditations", "locator": "VI.6" }
+    },
+    {
+      "id": "marcus-morning",
+      "text": {
+        "en": "Say to yourself at daybreak: I shall come across the busybody, the ungrateful, the arrogant, the deceitful, the envious, the unsociable.",
+        "fa": "بامداد به خود بگو: امروز به آدمِ فضول، ناسپاس، خودبین، فریبکار، حسود و نامردم برخواهم خورد."
+      },
+      "speaker": "marcus-aurelius",
+      "attribution": "verified",
+      "citation": { "source": "text-meditations", "locator": "II.1" },
+      "context": {
+        "en": "The passage goes on to say that they behave so through ignorance of good and evil, that they are his kin, and that he therefore cannot be harmed by them or angry with them. Quoted without the rest, it sounds like contempt; it is the opposite.",
+        "fa": "بند در ادامه می‌گوید که آنان از سرِ ناآگاهی از نیک و بد چنین‌اند، که خویشاوندان اویند، و پس نه می‌توانند آسیبش بزنند نه او می‌تواند بر آنان خشم گیرد. نقلِ بی‌ادامه، تحقیر به نظر می‌رسد؛ درست وارونهٔ آن است."
+      }
+    },
+    {
+      "id": "seneca-time",
+      "text": {
+        "en": "Everything else, Lucilius, belongs to others; time alone is ours.",
+        "fa": "لوکیلیوسِ من، هر چیز دیگر از آنِ دیگران است؛ تنها زمان از آنِ ماست."
+      },
+      "originalText": "omnia, Lucili, aliena sunt, tempus tantum nostrum est",
+      "speaker": "seneca",
+      "attribution": "verified",
+      "citation": { "source": "text-letters-to-lucilius", "locator": "1.3" },
+      "context": {
+        "en": "The opening letter of the collection, and its subject is the only thing Seneca thinks a person actually owns. He wrote it as one of the richest men in Rome.",
+        "fa": "نخستین نامهٔ مجموعه، و موضوعش تنها چیزی است که سنکا آن را واقعاً مِلکِ آدمی می‌داند. این را در حالی نوشت که از ثروتمندترین مردان روم بود."
+      }
+    },
+    {
+      "id": "seneca-port",
+      "text": {
+        "en": "If a man does not know which harbour he is making for, no wind is the right wind.",
+        "fa": "کسی که نمی‌داند به کدام بندر می‌رود، هیچ بادی برایش باد موافق نیست."
+      },
+      "originalText": "ignoranti quem portum petat nullus suus ventus est",
+      "speaker": "seneca",
+      "attribution": "verified",
+      "citation": { "source": "text-letters-to-lucilius", "locator": "71.3" }
+    },
+    {
+      "id": "lucretius-nothing",
+      "text": {
+        "en": "Nothing is ever brought forth from nothing by divine power.",
+        "fa": "هیچ چیز هرگز به نیروی خدایی از نیستی پدید نمی‌آید."
+      },
+      "originalText": "nullam rem e nihilo gigni divinitus umquam",
+      "speaker": "lucretius",
+      "attribution": "verified",
+      "citation": { "source": "text-de-rerum-natura", "locator": "I.150" },
+      "context": {
+        "en": "The first principle of the poem, and the move that makes the rest possible: if nothing comes from nothing, then everything that happens has a cause in matter, and the gods need not be consulted about any of it.",
+        "fa": "نخستین اصلِ این شعر، و همان حرکتی که بقیه را ممکن می‌کند: اگر هیچ از هیچ پدید نیاید، پس هرچه رخ می‌دهد علتی در ماده دارد، و لازم نیست دربارهٔ هیچ‌کدام از خدایان پرسید."
+      }
+    },
+    {
+      "id": "cicero-philosophy-life",
+      "text": {
+        "en": "Philosophy, guide of life, seeker of virtues and expeller of vices.",
+        "fa": "ای فلسفه، راهبرِ زندگی، جویندهٔ فضیلت‌ها و راننده‌ی رذیلت‌ها."
+      },
+      "originalText": "o vitae philosophia dux, o virtutis indagatrix expultrixque vitiorum",
+      "speaker": "cicero",
+      "attribution": "probable",
+      "citation": { "source": "text-de-natura-deorum" },
+      "context": {
+        "en": "Cicero's Latin gave later Europe most of its philosophical vocabulary, and passages like this one gave it the habit of addressing philosophy as a person who can be appealed to.",
+        "fa": "لاتینِ سیسرون بیشترِ واژگان فلسفیِ اروپای پسین را ساخت، و بندهایی از این دست، این عادت را ساختند که فلسفه را چون کسی خطاب کنند که می‌توان به او پناه برد."
+      },
+      "attributionNote": {
+        "en": "The line is from the Tusculan Disputations, book V, which this entry cites only through the Ciceronian corpus rather than to a located edition.",
+        "fa": "این سطر از «مباحثات توسکولانی»، دفتر پنجم است، که این مدخل تنها از راه مجموعهٔ آثار سیسرون بدان ارجاع می‌دهد نه به ویراستی مشخص."
+      }
+    },
+    {
+      "id": "plotinus-sunlike",
+      "text": {
+        "en": "No eye ever saw the sun without becoming sunlike.",
+        "fa": "هیچ چشمی خورشید را ندید مگر آنکه خورشیدسان شد."
+      },
+      "speaker": "plotinus",
+      "attribution": "verified",
+      "citation": { "source": "text-enneads", "locator": "I.6.9" },
+      "context": {
+        "en": "The argument is that you cannot see a thing you have no likeness to. Plotinus is drawing a consequence: whoever means to look at the Good must first be made good, so philosophy is a change in the person before it is a claim about the world.",
+        "fa": "استدلال این است که چیزی را که هیچ همانندی با آن نداری نمی‌توانی ببینی. پلوتینوس نتیجه‌ای می‌گیرد: هرکه بخواهد به «خیر» بنگرد، نخست باید نیک شود، پس فلسفه پیش از آنکه ادعایی دربارهٔ جهان باشد، دگرگونی‌ای در شخص است."
+      }
+    },
+    {
+      "id": "boethius-worst-misfortune",
+      "text": {
+        "en": "In every turn of fortune the unhappiest kind of misfortune is to have been happy.",
+        "fa": "در هر گردشِ بخت، ناخوش‌ترین گونهٔ بدبختی آن است که آدمی روزی خوشبخت بوده باشد."
+      },
+      "originalText": "in omni adversitate fortunae infelicissimum est genus infortunii fuisse felicem",
+      "speaker": "boethius",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-consolation-of-philosophy",
+        "locator": "II, prose 4"
+      },
+      "context": {
+        "en": "Written in prison while he waited to be executed, by a man who had been consul. Philosophy, who is a character in the book, quotes the line back at him in order to take it apart.",
+        "fa": "در زندان و در انتظار اعدام نوشته شده، به دستِ مردی که روزی کنسول بود. «فلسفه»، که در این کتاب شخصیتی است، همین سطر را به او بازمی‌گرداند تا از هم بگشایدش."
+      }
+    },
+    {
+      "id": "anselm-greater",
+      "text": {
+        "en": "Something than which nothing greater can be thought.",
+        "fa": "چیزی که بزرگ‌تر از آن اندیشیدنی نیست."
+      },
+      "originalText": "aliquid quo nihil maius cogitari possit",
+      "speaker": "anselm",
+      "attribution": "verified",
+      "citation": { "source": "text-proslogion", "locator": "2" },
+      "context": {
+        "en": "Not a description of God but a phrase designed to work in an argument: whatever it turns out to name, Anselm claims it cannot exist in the understanding alone. Every later version of the ontological argument starts by adjusting these words.",
+        "fa": "نه وصفِ خدا، که عبارتی است ساخته‌شده برای کار در یک استدلال: هرچه از آب درآید، آنسلم مدعی است نمی‌تواند تنها در فهم باشد. هر روایتِ بعدیِ برهان وجودی با دستکاری در همین واژه‌ها آغاز می‌شود."
+      }
+    },
+    {
+      "id": "aquinas-grace-nature",
+      "text": {
+        "en": "Grace does not destroy nature but brings it to completion.",
+        "fa": "فیض، طبیعت را از میان نمی‌برد بلکه به کمال می‌رساند."
+      },
+      "originalText": "gratia non tollit naturam sed perficit",
+      "speaker": "aquinas",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-summa-theologiae",
+        "locator": "I, q.1, a.8, ad 2"
+      },
+      "context": {
+        "en": "The sentence that lets Aquinas use Aristotle. If the natural order is not a rival to grace, then a pagan philosopher's account of the soul can be taken over whole rather than resisted.",
+        "fa": "جمله‌ای که به آکویناس اجازه می‌دهد از ارسطو استفاده کند. اگر نظمِ طبیعی رقیبِ فیض نباشد، آن‌گاه شرحِ فیلسوفی مشرک از نفس را می‌توان یکسره پذیرفت نه آنکه در برابرش ایستاد."
+      }
+    },
+    {
+      "id": "maimonides-perplexed",
+      "text": {
+        "en": "This treatise has as its principal object to explain the meanings of certain terms occurring in books of prophecy.",
+        "fa": "مقصود اصلی این رساله، روشن‌کردن معنای پاره‌ای اصطلاحات است که در کتاب‌های نبوت می‌آید."
+      },
+      "speaker": "maimonides",
+      "attribution": "probable",
+      "citation": {
+        "source": "text-guide-for-the-perplexed",
+        "locator": "Introduction"
+      },
+      "context": {
+        "en": "Maimonides opens by describing the book as a work about words, which is both true and a deliberate understatement: the terms in question are the ones that make scripture sound as though God has a body.",
+        "fa": "ابن‌میمون کتاب را در آغاز اثری دربارهٔ واژه‌ها می‌خواند، که هم درست است و هم کم‌گوییِ عمدی: اصطلاحاتِ مورد بحث همان‌هایی‌اند که کتاب مقدس را چنان می‌نمایانند که گویی خدا پیکر دارد."
+      },
+      "attributionNote": {
+        "en": "The wording follows the standard English rendering of the introduction; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردان انگلیسیِ معیارِ مقدمه را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "ibn-arabi-heart",
+      "text": {
+        "en": "My heart has become capable of every form: a pasture for gazelles, a cloister for monks.",
+        "fa": "دلم پذیرای هر صورتی شده است: چراگاهِ آهوان، و صومعهٔ راهبان."
+      },
+      "speaker": "ibn-arabi",
+      "attribution": "probable",
+      "context": {
+        "en": "From the Tarjuman al-Ashwaq, a book of love poems Ibn Arabi later had to write a commentary on because readers took it for ordinary love poetry. The lines are the most quoted statement of his view that every form of worship reaches the same reality.",
+        "fa": "از «ترجمان‌الاشواق»، دفتری از شعرهای عاشقانه که ابن‌عربی بعدها ناچار شد بر آن شرحی بنویسد، چون خوانندگان آن را شعر عاشقانهٔ معمولی گرفته بودند. این سطرها پرنقل‌ترین بیانِ این دیدگاه اوست که هر صورتِ پرستش به یک حقیقت می‌رسد."
+      },
+      "attributionNote": {
+        "en": "From the Tarjuman al-Ashwaq, which is not among the editions this app cites. The attribution is not in doubt; the locator is not given here because the entry has not fixed one.",
+        "fa": "از «ترجمان‌الاشواق» است، که در میان ویراست‌های مورد استناد این برنامه نیست. در انتساب تردیدی نیست؛ نشانی دقیق نیامده چون این مدخل آن را تثبیت نکرده است."
+      }
+    },
+    {
+      "id": "erasmus-folly",
+      "text": {
+        "en": "I am the one whose presence alone gladdens gods and men.",
+        "fa": "من همانم که تنها بودنم خدایان و آدمیان را شاد می‌کند."
+      },
+      "speaker": "erasmus",
+      "attribution": "probable",
+      "citation": { "source": "text-praise-of-folly" },
+      "context": {
+        "en": "Folly herself is the speaker for the whole book, which is what makes it hard to pin down: every criticism of the church in it is delivered by a character the author has told us not to trust.",
+        "fa": "گویندهٔ سراسر کتاب خودِ «حماقت» است، و همین است که مهارش را دشوار می‌کند: هر انتقادی از کلیسا در آن، از زبان شخصیتی گفته می‌شود که نویسنده به ما گفته به او اعتماد نکنیم."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering of the opening declamation; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردان انگلیسیِ معیارِ خطابهٔ آغازین را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "locke-property",
+      "text": {
+        "en": "Every man has a property in his own person: this nobody has any right to but himself.",
+        "fa": "هر کس در شخصِ خویش مالکیتی دارد: کسی جز خودش بر آن حقی ندارد."
+      },
+      "speaker": "locke",
+      "attribution": "verified",
+      "citation": { "source": "text-two-treatises", "locator": "II.27" },
+      "context": {
+        "en": "The sentence that founds the whole argument for property, and the one that later abolitionists turned back against the societies that had adopted it.",
+        "fa": "جمله‌ای که کل استدلال دربارهٔ مالکیت را بنیاد می‌نهد، و همان که بعدها لغو‌کنندگانِ برده‌داری آن را علیه جامعه‌هایی به کار بردند که پذیرفته بودندش."
+      }
+    },
+    {
+      "id": "leibniz-why-something",
+      "text": {
+        "en": "Why is there something rather than nothing?",
+        "fa": "چرا چیزی هست به‌جای آنکه هیچ نباشد؟"
+      },
+      "originalText": "pourquoi il y a plutôt quelque chose que rien",
+      "speaker": "leibniz",
+      "attribution": "probable",
+      "context": {
+        "en": "Posed in a short essay of 1714, and treated ever since as the question philosophy cannot get behind. Leibniz asks it in order to answer it, which is not how most later philosophers have used it.",
+        "fa": "در جستاری کوتاه از ۱۷۱۴ طرح شده، و از آن پس چون پرسشی دانسته شده که فلسفه نمی‌تواند پشتِ آن برود. لایب‌نیتس آن را می‌پرسد تا پاسخش دهد، و بیشترِ فیلسوفان بعدی چنین به کارش نبرده‌اند."
+      },
+      "attributionNote": {
+        "en": "From 'On the Radical Origination of Things' and the 'Principles of Nature and Grace', neither of which is among the editions this app cites.",
+        "fa": "از «دربارهٔ سرچشمهٔ ریشه‌ای چیزها» و «اصول طبیعت و فیض» است، که هیچ‌یک در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "leibniz-monads-windows",
+      "text": {
+        "en": "Monads have no windows through which anything could come in or go out.",
+        "fa": "موناد‌ها پنجره‌ای ندارند که چیزی از آن درآید یا بیرون رود."
+      },
+      "speaker": "leibniz",
+      "attribution": "verified",
+      "citation": { "source": "text-monadology", "locator": "§7" },
+      "context": {
+        "en": "If no substance can act on another, then the order of the world cannot come from things pushing each other. Leibniz's answer is that it was arranged in advance, which is what the pre-established harmony means.",
+        "fa": "اگر هیچ جوهری نتواند بر دیگری اثر بگذارد، نظمِ جهان نمی‌تواند از هل‌دادن چیزها به هم بیاید. پاسخ لایب‌نیتس این است که از پیش سامان یافته، و «هماهنگیِ پیشین‌بنیاد» همین را می‌گوید."
+      }
+    },
+    {
+      "id": "rousseau-property",
+      "text": {
+        "en": "The first man who, having enclosed a piece of ground, thought of saying 'this is mine' and found people simple enough to believe him, was the true founder of civil society.",
+        "fa": "نخستین کسی که تکه‌ای زمین را حصار کشید و به فکرش رسید بگوید «این مالِ من است» و مردمی را ساده‌دل یافت که باورش کنند، بنیادگذارِ راستینِ جامعهٔ مدنی بود."
+      },
+      "speaker": "rousseau",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-discourse-inequality",
+        "locator": "Part II, opening"
+      },
+      "context": {
+        "en": "A thought experiment, not a history — Rousseau says so a few lines later. What it is for is to make property look like something that had to be invented rather than something that was always there.",
+        "fa": "آزمایشی فکری است نه تاریخ — روسو خودش چند سطر بعد همین را می‌گوید. کارش این است که مالکیت را چیزی بنمایاند که ناچار اختراع شده، نه چیزی که همیشه بوده است."
+      }
+    },
+    {
+      "id": "bentham-nonsense",
+      "text": {
+        "en": "Natural rights is simple nonsense: natural and imprescriptible rights, rhetorical nonsense, nonsense upon stilts.",
+        "fa": "حقوق طبیعی یاوهٔ ساده است: حقوق طبیعی و سلب‌ناشدنی، یاوهٔ خطابی است، یاوه بر چوب‌پا."
+      },
+      "speaker": "bentham",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-anarchical-fallacies",
+        "locator": "Article II"
+      },
+      "context": {
+        "en": "Aimed at the French Declaration of the Rights of Man. Bentham's objection is not that people should have no rights but that a right which no law confers cannot be pointed at, and so cannot be argued about.",
+        "fa": "نشانه‌رفته به «اعلامیهٔ حقوق بشر» فرانسه. اعتراض بنتام این نیست که مردم نباید حقی داشته باشند، بلکه این است که حقی که هیچ قانونی نداده باشد نشان‌دادنی نیست، و پس بحث‌پذیر هم نیست."
+      }
+    },
+    {
+      "id": "bentham-pleasure-pain",
+      "text": {
+        "en": "Nature has placed mankind under the governance of two sovereign masters, pain and pleasure.",
+        "fa": "طبیعت آدمیان را زیر فرمان دو سرورِ حاکم نهاده است: رنج و لذت."
+      },
+      "speaker": "bentham",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-principles-morals-legislation",
+        "locator": "I.1"
+      },
+      "context": {
+        "en": "The opening sentence, and the whole system in miniature: if this is what actually moves people, then a legislator who wants to change behaviour has exactly two levers.",
+        "fa": "نخستین جمله، و تمامِ آن دستگاه در کوچک‌ترین اندازه: اگر همین است که آدمیان را به حرکت درمی‌آورد، پس قانون‌گذاری که بخواهد رفتار را دگرگون کند دقیقاً دو اهرم دارد."
+      }
+    },
+    {
+      "id": "smith-butcher",
+      "text": {
+        "en": "It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.",
+        "fa": "شام‌مان را نه از نیکخواهیِ قصاب و آبجوساز و نانوا، که از توجه آنان به سودِ خودشان انتظار داریم."
+      },
+      "speaker": "adam-smith",
+      "attribution": "verified",
+      "citation": { "source": "text-wealth-of-nations", "locator": "I.2" },
+      "context": {
+        "en": "Quoted constantly as a defence of selfishness by people who have not read the other book. Smith spends The Theory of Moral Sentiments arguing that human beings are constituted to care what others feel.",
+        "fa": "کسانی که آن کتاب دیگر را نخوانده‌اند مدام آن را چون دفاعی از خودخواهی نقل می‌کنند. اسمیت سراسرِ «نظریهٔ عواطف اخلاقی» را صرف این می‌کند که آدمی چنان ساخته شده که به احساس دیگران اهمیت می‌دهد."
+      }
+    },
+    {
+      "id": "smith-sympathy",
+      "text": {
+        "en": "How selfish soever man may be supposed, there are evidently some principles in his nature which interest him in the fortune of others.",
+        "fa": "آدمی را هر اندازه خودخواه فرض کنیم، آشکارا اصولی در سرشتش هست که او را به سرنوشت دیگران علاقه‌مند می‌کند."
+      },
+      "speaker": "adam-smith",
+      "attribution": "verified",
+      "citation": { "source": "text-moral-sentiments", "locator": "I.i.1" },
+      "context": {
+        "en": "The first sentence of Smith's first book, and the one that makes the butcher passage make sense. He never thought self-interest was the whole of a person.",
+        "fa": "نخستین جملهٔ نخستین کتاب اسمیت، و همان که بندِ قصاب را معنادار می‌کند. او هرگز نمی‌اندیشید که سودجویی تمامِ یک آدم است."
+      }
+    },
+    {
+      "id": "freud-dreams",
+      "text": {
+        "en": "The interpretation of dreams is the royal road to a knowledge of the unconscious activities of the mind.",
+        "fa": "تعبیر خواب، شاهراهِ شناختِ فعالیت‌های ناخودآگاهِ ذهن است."
+      },
+      "speaker": "freud",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-interpretation-of-dreams",
+        "locator": "ch. 7"
+      },
+      "context": {
+        "en": "Freud's claim for his method rather than for any particular dream. Whether the road leads anywhere has been argued about ever since, but the idea that ordinary material can be read for what it conceals outlived the theory.",
+        "fa": "ادعای فروید دربارهٔ روشِ اوست نه دربارهٔ خوابی خاص. اینکه این راه به جایی می‌رسد یا نه از آن پس محل بحث بوده، اما این فکر که مادهٔ روزمره را می‌توان برای آنچه پنهان می‌کند خواند، از خودِ آن نظریه بیشتر عمر کرد."
+      }
+    },
+    {
+      "id": "freud-civilization",
+      "text": {
+        "en": "Civilization is built upon a renunciation of instinct.",
+        "fa": "تمدن بر چشم‌پوشی از غریزه بنا شده است."
+      },
+      "speaker": "freud",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-civilization-discontents",
+        "locator": "ch. 3"
+      },
+      "context": {
+        "en": "The book's argument in one line: what makes common life possible is the same thing that makes people unhappy in it, so the unhappiness is not a fault to be fixed.",
+        "fa": "استدلالِ کتاب در یک سطر: آنچه زندگی مشترک را ممکن می‌کند همان است که آدمیان را در آن ناخشنود می‌کند، پس این ناخشنودی عیبی نیست که بتوان رفعش کرد."
+      }
+    },
+    {
+      "id": "levinas-face",
+      "text": {
+        "en": "The face speaks to me and thereby invites me to a relation.",
+        "fa": "چهره با من سخن می‌گوید و از همین راه مرا به رابطه فرا می‌خواند."
+      },
+      "speaker": "levinas",
+      "attribution": "verified",
+      "citation": { "source": "text-totality-and-infinity", "locator": "III.B" },
+      "context": {
+        "en": "For Levinas the face is not a thing to be looked at but a demand that arrives before any decision to accept it. Ethics comes first in his philosophy in the literal sense: before I choose anything, I am already answerable.",
+        "fa": "برای لویناس، چهره چیزی برای نگریستن نیست، مطالبه‌ای است که پیش از هر تصمیمی برای پذیرفتنش می‌رسد. اخلاق در فلسفهٔ او به معنای تحت‌اللفظی نخست است: پیش از آنکه چیزی برگزینم، پاسخگویم."
+      }
+    },
+    {
+      "id": "derrida-outside-text",
+      "text": {
+        "en": "There is nothing outside the text.",
+        "fa": "بیرون از متن چیزی نیست."
+      },
+      "originalText": "il n'y a pas de hors-texte",
+      "speaker": "derrida",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-of-grammatology",
+        "locator": "Part II, ch. 2"
+      },
+      "context": {
+        "en": "The most misread sentence in twentieth-century philosophy. Derrida spent decades saying that it does not mean there is no world — it means there is no reading that steps outside all context to check.",
+        "fa": "پرغلط‌خوانده‌ترین جملهٔ فلسفهٔ سدهٔ بیستم. دریدا دهه‌ها گفت که این جمله نمی‌گوید جهانی نیست — می‌گوید هیچ خوانشی نیست که از تمام زمینه‌ها بیرون بایستد و بررسی کند."
+      }
+    },
+    {
+      "id": "kuhn-paradigm",
+      "text": {
+        "en": "The successive transition from one paradigm to another via revolution is the usual developmental pattern of mature science.",
+        "fa": "گذارِ پیاپی از یک الگو به الگویی دیگر از راه انقلاب، الگوی رشدِ معمولِ علمِ بالغ است."
+      },
+      "speaker": "kuhn",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-structure-scientific-revolutions",
+        "locator": "ch. 12"
+      },
+      "context": {
+        "en": "The claim that made the book famous and the word 'paradigm' unusable. Kuhn's point is not that science is irrational but that its history is not a straight accumulation.",
+        "fa": "ادعایی که کتاب را مشهور و واژهٔ «الگو» را غیرقابل‌استفاده کرد. نکتهٔ کوهن این نیست که علم ناعقلانی است، بلکه این است که تاریخش انباشتی یکنواخت نیست."
+      }
+    },
+    {
+      "id": "murdoch-attention",
+      "text": {
+        "en": "I have used the word attention, which I borrow from Simone Weil, to express the idea of a just and loving gaze directed upon an individual reality.",
+        "fa": "واژهٔ «توجه» را از سیمون وی وام گرفته‌ام تا فکرِ نگاهی عادلانه و مهرآمیز به یک واقعیتِ فردی را بیان کنم."
+      },
+      "speaker": "murdoch",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-sovereignty-of-good",
+        "locator": "'The Idea of Perfection'"
+      },
+      "context": {
+        "en": "Murdoch's alternative to an ethics of choice. If most of moral life is a matter of what you have already learned to see, then the decisive work happens long before anybody decides anything.",
+        "fa": "بدیلِ مرداک برای اخلاقِ مبتنی بر انتخاب. اگر بیشترِ زندگیِ اخلاقی به آن بستگی دارد که چه چیز را دیدن آموخته‌ای، پس کارِ سرنوشت‌ساز مدت‌ها پیش از آنکه کسی تصمیمی بگیرد رخ داده است."
+      }
+    },
+    {
+      "id": "anscombe-modern-moral",
+      "text": {
+        "en": "It is not profitable for us at present to do moral philosophy; that should be laid aside until we have an adequate philosophy of psychology.",
+        "fa": "اکنون پرداختن به فلسفهٔ اخلاق برای ما سودی ندارد؛ باید کنار گذاشته شود تا فلسفهٔ روان‌شناسیِ بسنده‌ای داشته باشیم."
+      },
+      "speaker": "anscombe",
+      "attribution": "probable",
+      "context": {
+        "en": "From 'Modern Moral Philosophy', the 1958 paper that restarted virtue ethics by arguing that the moral vocabulary of duty had outlived the framework that gave it sense.",
+        "fa": "از «فلسفهٔ اخلاق مدرن»، مقالهٔ ۱۹۵۸ که با این استدلال، اخلاقِ فضیلت را از نو به راه انداخت که واژگانِ اخلاقیِ تکلیف از چارچوبی که به آن معنا می‌داد بیشتر عمر کرده است."
+      },
+      "attributionNote": {
+        "en": "From the 1958 paper 'Modern Moral Philosophy', which is not among the editions this app cites.",
+        "fa": "از مقالهٔ «فلسفهٔ اخلاق مدرن» (۱۹۵۸) است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "hooks-love",
+      "text": {
+        "en": "Love is an act of will, namely both an intention and an action.",
+        "fa": "عشق کنشی ارادی است، یعنی هم نیت است و هم عمل."
+      },
+      "speaker": "bell-hooks",
+      "attribution": "probable",
+      "context": {
+        "en": "hooks takes the definition from Erich Fromm and puts it to a use he did not: if love is something you do rather than something that happens to you, then a society can be judged by whether it makes it possible.",
+        "fa": "هوکس این تعریف را از اریش فروم می‌گیرد و به کاری می‌برد که او نبرد: اگر عشق کاری است که می‌کنی نه چیزی که بر تو می‌رود، آن‌گاه جامعه را می‌توان بر پایهٔ اینکه آن را ممکن می‌کند یا نه داوری کرد."
+      },
+      "attributionNote": {
+        "en": "From 'All About Love: New Visions', which is not among the editions this app cites.",
+        "fa": "از «همه چیز دربارهٔ عشق» است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "hooks-feminism",
+      "text": {
+        "en": "Feminism is a movement to end sexism, sexist exploitation, and oppression.",
+        "fa": "فمینیسم جنبشی است برای پایان‌دادن به جنسیت‌زدگی، بهره‌کشیِ جنسیتی و ستم."
+      },
+      "speaker": "bell-hooks",
+      "attribution": "probable",
+      "context": {
+        "en": "Chosen deliberately so that the definition names no enemy. hooks argued that a movement defined as being against men could not include the men who would have to change, nor the women who had learned the same habits.",
+        "fa": "عمداً چنین برگزیده شده که تعریف هیچ دشمنی نام نبرد. هوکس می‌گفت جنبشی که خود را در برابر مردان تعریف کند، نه می‌تواند مردانی را دربر گیرد که باید دگرگون شوند، نه زنانی را که همان عادت‌ها را آموخته‌اند."
+      },
+      "attributionNote": {
+        "en": "From 'Feminism Is for Everybody', which is not among the editions this app cites.",
+        "fa": "از «فمینیسم برای همه است» می‌آید، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "davis-prisons",
+      "text": {
+        "en": "Prisons do not disappear social problems, they disappear human beings.",
+        "fa": "زندان‌ها مسائل اجتماعی را ناپدید نمی‌کنند، آدم‌ها را ناپدید می‌کنند."
+      },
+      "speaker": "angela-davis",
+      "attribution": "verified",
+      "citation": { "source": "text-are-prisons-obsolete", "locator": "ch. 1" },
+      "context": {
+        "en": "The argument of the book compressed: if the institution is judged by what it actually removes from view rather than by what it claims to solve, abolition becomes a practical question rather than a utopian one.",
+        "fa": "استدلالِ کتاب در فشرده‌ترین صورت: اگر این نهاد را بر پایهٔ آنچه واقعاً از دید بیرون می‌برد داوری کنیم نه بر پایهٔ آنچه ادعا می‌کند حل می‌کند، برچیدنش پرسشی عملی می‌شود نه آرمان‌شهری."
+      }
+    },
+    {
+      "id": "butler-gender",
+      "text": {
+        "en": "Gender is the repeated stylisation of the body, a set of repeated acts within a highly rigid regulatory frame.",
+        "fa": "جنسیت، سبک‌مندسازیِ مکررِ بدن است؛ مجموعه‌ای از کنش‌های مکرر در چارچوبی به‌شدت سخت‌گیرانه."
+      },
+      "speaker": "butler",
+      "attribution": "verified",
+      "citation": { "source": "text-gender-trouble", "locator": "ch. 3" },
+      "context": {
+        "en": "Performative does not mean chosen, which is the reading Butler has spent thirty years correcting. The frame is described as rigid on purpose: the repetition is compelled, and that is what makes it possible to fail at it.",
+        "fa": "«اجرایی» به معنای «برگزیده» نیست، و باتلر سی سال است همین خوانش را تصحیح می‌کند. چارچوب عمداً «سخت‌گیرانه» وصف شده است: تکرار اجباری است، و همین است که شکست‌خوردن در آن را ممکن می‌کند."
+      }
+    },
+    {
+      "id": "tagore-freedom",
+      "text": {
+        "en": "Where the mind is without fear and the head is held high; where knowledge is free.",
+        "fa": "آنجا که ذهن بی‌هراس است و سر برافراشته؛ آنجا که دانش آزاد است."
+      },
+      "speaker": "tagore",
+      "attribution": "probable",
+      "context": {
+        "en": "From Gitanjali, written before Indian independence and read at it. Tagore is describing a condition rather than a country, which is why he later refused to let it be used as nationalism.",
+        "fa": "از «گیتانجالی»، پیش از استقلال هند نوشته شد و در آن هنگام خوانده شد. تاگور وضعیتی را وصف می‌کند نه کشوری را، و به همین سبب بعدها نپذیرفت که آن را چون ملی‌گرایی به کار برند."
+      },
+      "attributionNote": {
+        "en": "From Gitanjali, poem 35, in Tagore's own English rendering. The collection is not among the editions this app cites.",
+        "fa": "از «گیتانجالی»، شعر سی‌وپنجم، به برگردان انگلیسیِ خودِ تاگور. این مجموعه در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "rorty-vocabulary",
+      "text": {
+        "en": "Truth cannot be out there, cannot exist independently of the human mind, because sentences cannot so exist.",
+        "fa": "حقیقت نمی‌تواند آن بیرون باشد، نمی‌تواند مستقل از ذهنِ آدمی وجود داشته باشد، چون جمله‌ها نمی‌توانند چنین وجودی داشته باشند."
+      },
+      "speaker": "rorty",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-contingency-irony-solidarity",
+        "locator": "ch. 1"
+      },
+      "context": {
+        "en": "Rorty is careful about what he is denying: the world is out there, and most of it is not our doing. It is truth, which is a property of sentences, that has nowhere to be except where sentences are.",
+        "fa": "رورتی مراقب است چه چیزی را انکار می‌کند: جهان آن بیرون هست، و بیشترش کارِ ما نیست. این «حقیقت» است که ویژگیِ جمله‌هاست و جایی جز آنجا که جمله‌ها هستند ندارد."
+      }
+    },
+    {
+      "id": "hayek-knowledge",
+      "text": {
+        "en": "The knowledge of the circumstances of which we must make use never exists in concentrated or integrated form.",
+        "fa": "دانشِ اوضاعی که باید از آن استفاده کنیم هرگز به صورت متمرکز یا یکپارچه وجود ندارد."
+      },
+      "speaker": "hayek",
+      "attribution": "probable",
+      "context": {
+        "en": "Hayek's argument against central planning is not about incentives but about information: the relevant facts are dispersed among everyone and much of it cannot be stated at all.",
+        "fa": "استدلال هایک در برابر برنامه‌ریزی متمرکز دربارهٔ انگیزه‌ها نیست، دربارهٔ اطلاعات است: واقعیت‌های مربوط میان همه پراکنده‌اند و بسیاری‌شان اصلاً بیان‌شدنی نیستند."
+      },
+      "attributionNote": {
+        "en": "From 'The Use of Knowledge in Society', 1945, which is not among the editions this app cites.",
+        "fa": "از «کاربردِ دانش در جامعه» (۱۹۴۵) است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "sen-development",
+      "text": {
+        "en": "Development can be seen as a process of expanding the real freedoms that people enjoy.",
+        "fa": "توسعه را می‌توان فرایندِ گسترشِ آزادی‌های واقعیِ مردم دانست."
+      },
+      "speaker": "sen",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-development-as-freedom",
+        "locator": "Introduction"
+      },
+      "context": {
+        "en": "A definition chosen against the one it replaces. If development is measured in income, a country can grow while its people remain unable to do anything more than before.",
+        "fa": "تعریفی که در برابر تعریفِ پیشین برگزیده شده. اگر توسعه با درآمد سنجیده شود، کشوری می‌تواند رشد کند در حالی که مردمش همچنان نتوانند کاری بیش از پیش بکنند."
+      }
+    },
+    {
+      "id": "singer-drowning",
+      "text": {
+        "en": "If it is in our power to prevent something bad from happening, without thereby sacrificing anything of comparable moral importance, we ought, morally, to do it.",
+        "fa": "اگر در توانِ ما باشد که از رخ‌دادنِ چیزی بد جلوگیری کنیم، بی‌آنکه چیزی با اهمیتِ اخلاقیِ همسنگ را فدا کنیم، اخلاقاً باید چنین کنیم."
+      },
+      "speaker": "singer",
+      "attribution": "probable",
+      "context": {
+        "en": "The premise Singer says nobody rejects, followed by the argument that accepting it changes almost everything about how a person in a rich country should live.",
+        "fa": "مقدمه‌ای که سینگر می‌گوید کسی ردش نمی‌کند، و پس از آن این استدلال که پذیرفتنش تقریباً همه چیز را دربارهٔ چگونه زیستنِ کسی در کشوری ثروتمند دگرگون می‌کند."
+      },
+      "attributionNote": {
+        "en": "From 'Famine, Affluence, and Morality', 1972, which is not among the editions this app cites.",
+        "fa": "از «قحطی، رفاه و اخلاق» (۱۹۷۲) است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "hart-rules",
+      "text": {
+        "en": "Law is a union of primary and secondary rules.",
+        "fa": "قانون، پیوندِ قاعده‌های نخستین و دومین است."
+      },
+      "speaker": "hart",
+      "attribution": "verified",
+      "citation": { "source": "text-concept-of-law", "locator": "ch. 5" },
+      "context": {
+        "en": "Hart's answer to the theory that law is orders backed by threats. Rules about how to make, change and judge rules are not commands to anyone, and no legal system works without them.",
+        "fa": "پاسخ هارت به این نظریه که قانون فرمان‌هایی است پشتیبانی‌شده با تهدید. قاعده‌هایی که می‌گویند چگونه باید قاعده ساخت و دگرگون کرد و داوری کرد، فرمانِ کسی نیستند، و هیچ نظام حقوقی بی‌آن‌ها کار نمی‌کند."
+      }
+    },
+    {
+      "id": "haraway-trouble",
+      "text": {
+        "en": "Staying with the trouble requires learning to be truly present.",
+        "fa": "ماندن با دردسر، آموختنِ حضورِ راستین را می‌طلبد."
+      },
+      "speaker": "haraway",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-staying-with-the-trouble",
+        "locator": "Introduction"
+      },
+      "context": {
+        "en": "Haraway is refusing two comforts at once: the belief that technology will fix it, and the belief that it is already too late. Both let a person stop paying attention.",
+        "fa": "هاراوی هم‌زمان دو تسلی را رد می‌کند: این باور که فناوری درستش می‌کند، و این باور که دیگر دیر شده است. هر دو به آدمی اجازه می‌دهند از توجه دست بردارد."
+      }
+    },
+    {
+      "id": "ibn-khaldun-history",
+      "text": {
+        "en": "History is an art of noble conception; it makes us acquainted with the conditions of past nations.",
+        "fa": "تاریخ هنری است با تصوری شریف؛ ما را با احوالِ ملت‌های گذشته آشنا می‌کند."
+      },
+      "speaker": "ibn-khaldun",
+      "attribution": "verified",
+      "citation": { "source": "text-muqaddimah", "locator": "Preface" },
+      "context": {
+        "en": "The Muqaddimah opens by claiming that history is a science with its own subject matter and its own rules of evidence, which was not how the chroniclers before him had understood their work.",
+        "fa": "«مقدمه» با این ادعا آغاز می‌شود که تاریخ دانشی است با موضوع و قواعدِ شواهدِ خود، و وقایع‌نگاران پیش از او کارشان را چنین نمی‌فهمیدند."
+      }
+    },
+    {
+      "id": "suhrawardi-light",
+      "text": {
+        "en": "The reality of light is that it is manifest in itself and makes other things manifest.",
+        "fa": "حقیقتِ نور آن است که خود آشکار است و دیگر چیزها را آشکار می‌کند."
+      },
+      "speaker": "suhrawardi",
+      "attribution": "verified",
+      "citation": { "source": "text-hikmat-al-ishraq", "locator": "Part II" },
+      "context": {
+        "en": "The whole system turns on a definition chosen so that light needs no explanation from anything else. Everything that exists is then graded by how much of it a thing has.",
+        "fa": "تمامِ این دستگاه بر تعریفی می‌چرخد که چنان برگزیده شده که نور نیازی به توضیح از چیز دیگری ندارد. آن‌گاه هرچه هست بر پایهٔ اینکه چه اندازه از آن دارد رتبه می‌یابد."
+      }
+    },
+    {
+      "id": "khayyam-algebra",
+      "text": {
+        "en": "Whoever thinks algebra is a trick in obtaining unknowns has thought it in vain.",
+        "fa": "هرکه بپندارد جبر ترفندی برای به‌دست‌آوردن مجهول‌هاست، بیهوده پنداشته است."
+      },
+      "speaker": "khayyam",
+      "attribution": "probable",
+      "citation": { "source": "text-khayyam-algebra" },
+      "context": {
+        "en": "Khayyam is defending mathematics as a subject rather than a technique. He solved cubic equations geometrically, by intersecting conic sections, several centuries before an algebraic solution existed.",
+        "fa": "خیام از ریاضیات چون یک رشته دفاع می‌کند نه چون یک فن. او معادله‌های درجه سوم را به‌صورت هندسی و از راه تقاطعِ مقاطع مخروطی حل کرد، چند قرن پیش از آنکه راه‌حلی جبری وجود داشته باشد."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering of the treatise's preface; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردان انگلیسیِ معیارِ دیباچهٔ رساله را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "ibn-al-haytham-truth",
+      "text": {
+        "en": "The seeker after truth is not one who studies the writings of the ancients and puts his trust in them.",
+        "fa": "جویندهٔ حقیقت آن نیست که نوشته‌های پیشینیان را می‌خواند و به آن‌ها اعتماد می‌کند."
+      },
+      "speaker": "ibn-al-haytham",
+      "attribution": "probable",
+      "citation": { "source": "text-al-shukuk-ala-batlamyus" },
+      "context": {
+        "en": "Written in a book devoted to finding errors in Ptolemy, whose astronomy Ibn al-Haytham otherwise used. The passage goes on to say that a reader should attack an author's work from every side, and suspect himself as well.",
+        "fa": "در کتابی نوشته شده که وقفِ یافتنِ خطاهای بطلمیوس است، همان که ابن‌هیثم در جاهای دیگر از نجومش استفاده می‌کرد. بند در ادامه می‌گوید خواننده باید کار نویسنده را از هر سو بکاود، و به خودش هم بدگمان باشد."
+      },
+      "attributionNote": {
+        "en": "From the Doubts Concerning Ptolemy; the wording follows the standard English rendering rather than a located edition.",
+        "fa": "از «الشکوک علی بطلمیوس»؛ عبارت، برگردان انگلیسیِ معیار را دنبال می‌کند نه ویراستی مشخص."
+      }
+    },
+    {
+      "id": "shankara-brahman",
+      "text": {
+        "en": "Brahman is real, the world is appearance, and the self is not other than Brahman.",
+        "fa": "برهمن حقیقی است، جهان نمود است، و خویشتن جز برهمن نیست."
+      },
+      "originalText": "brahma satyaṃ jagan mithyā jīvo brahmaiva nāparaḥ",
+      "speaker": "shankara",
+      "attribution": "probable",
+      "context": {
+        "en": "The compressed statement of Advaita, quoted everywhere in this form. The line comes from a later verse text of the school rather than from the commentaries, which is why it is so much tidier than anything in them.",
+        "fa": "بیانِ فشردهٔ ادویته، که همه‌جا به همین صورت نقل می‌شود. این سطر از متنی منظوم و متأخرتر از همین مکتب می‌آید نه از شرح‌ها، و به همین سبب بسیار مرتب‌تر از هر چیزی در آن‌هاست."
+      },
+      "attributionNote": {
+        "en": "The verse is from the Brahmajnanavalimala, traditionally ascribed to Shankara but not established as his. It states his position accurately; whether he wrote it is another question.",
+        "fa": "این بیت از «برهم‌جنانه‌والی‌مالا» است، که به‌سنت به شنکره نسبت داده می‌شود اما از آنِ او بودنش اثبات نشده است. موضع او را درست بیان می‌کند؛ اینکه او نوشته باشدش پرسشی دیگر است."
+      }
+    },
+    {
+      "id": "patanjali-yoga",
+      "text": {
+        "en": "Yoga is the stilling of the movements of the mind.",
+        "fa": "یوگا، آرام‌کردنِ جنبش‌های ذهن است."
+      },
+      "originalText": "yogaś citta-vṛtti-nirodhaḥ",
+      "speaker": "patanjali",
+      "attribution": "verified",
+      "citation": { "source": "text-yoga-sutras", "locator": "I.2" },
+      "context": {
+        "en": "The second line of the text and its definition of the whole subject. Everything after it is a description of what stands in the way and what to do about it.",
+        "fa": "سطر دومِ متن و تعریفِ آن از تمامِ موضوع. هرچه پس از آن می‌آید، وصفِ آن است که چه چیز سرِ راه است و با آن چه باید کرد."
+      }
+    },
+    {
+      "id": "laozi-know-others",
+      "text": {
+        "en": "Knowing others is wisdom; knowing yourself is enlightenment.",
+        "fa": "شناختِ دیگران دانایی است؛ شناختِ خویش، روشن‌بینی."
+      },
+      "originalText": "知人者智，自知者明",
+      "speaker": "laozi",
+      "attribution": "verified",
+      "citation": { "source": "text-daodejing", "locator": "ch. 33" },
+      "context": {
+        "en": "The chapter continues in pairs, each one setting an outward power against an inward one and rating the inward higher: mastering others is force, mastering yourself is strength.",
+        "fa": "این فصل جفت‌جفت پیش می‌رود، و هر جفت توانی بیرونی را در برابر توانی درونی می‌نهد و درونی را برتر می‌شمارد: چیرگی بر دیگران زور است، چیرگی بر خویش نیرو."
+      }
+    },
+    {
+      "id": "mencius-child-well",
+      "text": {
+        "en": "Anyone who suddenly sees a child about to fall into a well will have a feeling of alarm and distress.",
+        "fa": "هرکه ناگهان کودکی را در آستانهٔ افتادن در چاه ببیند، دچار تشویش و اندوه می‌شود."
+      },
+      "speaker": "mencius",
+      "attribution": "verified",
+      "citation": { "source": "text-mengzi", "locator": "2A.6" },
+      "context": {
+        "en": "Mencius uses it to argue that the reaction proves something about human nature: it happens before any calculation, and not in order to win the parents' favour or a reputation among neighbours.",
+        "fa": "منسیوس از آن استفاده می‌کند تا نشان دهد این واکنش چیزی دربارهٔ سرشت آدمی ثابت می‌کند: پیش از هر محاسبه‌ای رخ می‌دهد، و نه برای جلبِ نظرِ پدر و مادر یا آوازه‌ای میان همسایگان."
+      }
+    },
+    {
+      "id": "xunzi-nature-evil",
+      "text": {
+        "en": "The nature of human beings is bad; their goodness is a matter of deliberate effort.",
+        "fa": "سرشتِ آدمیان بد است؛ نیکیِ آنان حاصلِ کوششِ آگاهانه است."
+      },
+      "speaker": "xunzi",
+      "attribution": "verified",
+      "citation": { "source": "text-xunzi-book", "locator": "ch. 23" },
+      "context": {
+        "en": "Written directly against Mencius, and often mistranslated as a doctrine of depravity. Xunzi's claim is that what people are born with is appetite, and that ritual and learning are what make anything else out of it.",
+        "fa": "مستقیماً در برابر منسیوس نوشته شده، و بارها آن را به‌غلط چون آموزه‌ای دربارهٔ فسادِ ذاتی ترجمه کرده‌اند. ادعای شون‌زی این است که آنچه آدمیان با آن زاده می‌شوند اشتهاست، و آیین و آموختن است که چیز دیگری از آن می‌سازد."
+      }
+    },
+    {
+      "id": "ptahhotep-listening",
+      "text": {
+        "en": "Good speech is more hidden than malachite, yet it is found with the maidservants at the grindstones.",
+        "fa": "سخنِ نیکو از سنگِ مالاکیت پنهان‌تر است، و با این حال نزدِ کنیزانِ کنارِ آسیاب یافت می‌شود."
+      },
+      "speaker": "ptahhotep",
+      "attribution": "probable",
+      "citation": { "source": "text-maxims-of-ptahhotep" },
+      "context": {
+        "en": "Roughly four thousand years old, and among the oldest surviving arguments about where wisdom is found. The point of naming the grindstones is that it is not found where rank would predict.",
+        "fa": "نزدیک چهار هزار سال قدمت دارد، و از کهن‌ترین استدلال‌های بازمانده دربارهٔ اینکه حکمت کجا یافت می‌شود. نکتهٔ نام‌بردن از آسیاب این است که حکمت آنجا که مقام و مرتبه پیش‌بینی می‌کند یافت نمی‌شود."
+      },
+      "attributionNote": {
+        "en": "Rendered differently in every translation of the Maxims, which survive in papyri that disagree. This entry follows a standard English version and has not pinned it to a located edition.",
+        "fa": "در هر ترجمه‌ای از «اندرزها» به گونه‌ای برگردانده شده، و این اندرزها در پاپیروس‌هایی مانده‌اند که با هم اختلاف دارند. این مدخل روایتی انگلیسیِ معیار را دنبال می‌کند و آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "plato-cave-shadows",
+      "text": {
+        "en": "They would take the shadows cast by the fire to be the whole of reality.",
+        "fa": "سایه‌هایی را که آتش می‌افکند تمامِ واقعیت می‌پنداشتند."
+      },
+      "speaker": "plato",
+      "attribution": "verified",
+      "citation": { "source": "plato-republic", "locator": "515c" },
+      "context": {
+        "en": "The prisoners have never seen anything else, so nothing about the shadows looks like a shadow to them. That is the difficulty the whole allegory turns on: not that they are deceived, but that they have no way to notice.",
+        "fa": "زندانیان هرگز چیز دیگری ندیده‌اند، پس هیچ چیزِ آن سایه‌ها برایشان به سایه نمی‌ماند. دشواری‌ای که تمامِ این تمثیل بر آن می‌چرخد همین است: نه اینکه فریب خورده‌اند، که هیچ راهی برای دریافتنش ندارند."
+      }
+    },
+    {
+      "id": "aristotle-swallow",
+      "text": {
+        "en": "One swallow does not make a spring, nor does one day; and so too one day, or a short time, does not make a man blessed and happy.",
+        "fa": "یک پرستو بهار نمی‌آورد، و یک روز هم نه؛ همچنین یک روز یا مدتی کوتاه، آدمی را خجسته و خوشبخت نمی‌کند."
+      },
+      "speaker": "aristotle",
+      "attribution": "verified",
+      "citation": {
+        "source": "aristotle-nicomachean-ethics",
+        "locator": "1098a18"
+      },
+      "context": {
+        "en": "Placed where it is to block a misreading: eudaimonia has just been defined as activity of the soul in accordance with virtue, and Aristotle wants it understood as a shape a whole life has, not a state a person can be in on Tuesday.",
+        "fa": "آنجا نهاده شده تا جلوی بدفهمی را بگیرد: «ادایمونیا» همین حالا چون فعالیتِ نفس بر وفقِ فضیلت تعریف شده، و ارسطو می‌خواهد آن را شکلی بفهمند که یک زندگیِ کامل دارد، نه حالتی که کسی می‌تواند سه‌شنبه در آن باشد."
+      }
+    },
+    {
+      "id": "aristotle-all-men-desire",
+      "text": {
+        "en": "All human beings by nature desire to know.",
+        "fa": "همهٔ آدمیان به‌طبع خواهانِ دانستن‌اند."
+      },
+      "originalText": "πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει",
+      "speaker": "aristotle",
+      "attribution": "verified",
+      "citation": { "source": "aristotle-metaphysics", "locator": "980a21" },
+      "context": {
+        "en": "The first sentence of the Metaphysics, and the evidence Aristotle offers for it is that we take pleasure in our senses even when they are of no use to us.",
+        "fa": "نخستین جملهٔ «مابعدالطبیعه»، و شاهدی که ارسطو برایش می‌آورد این است که ما از حواس‌مان لذت می‌بریم حتی وقتی به کارمان نمی‌آیند."
+      }
+    },
+    {
+      "id": "descartes-doubt",
+      "text": {
+        "en": "I shall suppose that some malicious demon of the utmost power and cunning has employed all his energies in order to deceive me.",
+        "fa": "فرض می‌کنم که دیوی بدخواه با نهایتِ توان و زیرکی، همهٔ نیرویش را برای فریفتنِ من به کار برده است."
+      },
+      "speaker": "descartes",
+      "attribution": "verified",
+      "citation": {
+        "source": "descartes-meditations",
+        "locator": "Meditation I"
+      },
+      "context": {
+        "en": "Not a belief but a device: Descartes needs something that could make even mathematics doubtful, in order to find out what survives when everything doubtful has been set aside.",
+        "fa": "نه یک باور، که یک ابزار: دکارت به چیزی نیاز دارد که حتی ریاضیات را هم مشکوک کند، تا ببیند وقتی هر چیزِ مشکوک کنار گذاشته شد چه بر جای می‌ماند."
+      }
+    },
+    {
+      "id": "kant-starry-heavens",
+      "text": {
+        "en": "Two things fill the mind with ever new and increasing admiration and reverence: the starry heavens above me and the moral law within me.",
+        "fa": "دو چیز ذهن را از شگفتی و حرمتی همواره تازه و فزاینده می‌آکند: آسمانِ پرستاره بالای سرم و قانونِ اخلاقی درونم."
+      },
+      "speaker": "kant",
+      "attribution": "probable",
+      "context": {
+        "en": "From the conclusion of the second Critique, and carved on Kant's memorial. The two halves are not a pair of wonders but a pair of arguments: one places him in a world of vast size, the other in an order that does not depend on it.",
+        "fa": "از نتیجهٔ «نقد» دوم، و بر یادمانِ کانت کنده شده است. آن دو نیمه، جفتی از شگفتی‌ها نیستند، جفتی از استدلال‌اند: یکی او را در جهانی با اندازه‌ای عظیم می‌نهد، دیگری در نظمی که به آن وابسته نیست."
+      },
+      "attributionNote": {
+        "en": "From the Critique of Practical Reason, which is not among the editions this app cites.",
+        "fa": "از «نقد عقل عملی» است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "mill-harm",
+      "text": {
+        "en": "The only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.",
+        "fa": "تنها هدفی که به‌حق می‌توان بر پایه‌اش بر عضوی از جامعه‌ای متمدن، برخلافِ خواستِ او، قدرت اعمال کرد، جلوگیری از آسیب به دیگران است."
+      },
+      "speaker": "mill",
+      "attribution": "verified",
+      "citation": { "source": "text-on-liberty", "locator": "ch. 1" },
+      "context": {
+        "en": "The whole of liberalism's argument about the limits of interference, in one sentence. Mill immediately adds that a person's own good is not a sufficient warrant, which is the part most often left out.",
+        "fa": "تمامِ استدلالِ لیبرالیسم دربارهٔ حدودِ مداخله، در یک جمله. میل بی‌درنگ می‌افزاید که خیرِ خودِ شخص مجوزِ کافی نیست، و همین بخش است که بیشتر از قلم می‌افتد."
+      }
+    },
+    {
+      "id": "mill-socrates",
+      "text": {
+        "en": "It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied.",
+        "fa": "بهتر است آدمی باشی ناخشنود تا خوکی خشنود؛ بهتر است سقراطِ ناخشنود باشی تا ابلهی خشنود."
+      },
+      "speaker": "mill",
+      "attribution": "verified",
+      "citation": { "source": "text-utilitarianism", "locator": "ch. 2" },
+      "context": {
+        "en": "Mill's answer to the charge that utilitarianism is a doctrine fit for swine. Its cost is that pleasures now differ in kind as well as amount, which is harder to add up than Bentham's version.",
+        "fa": "پاسخ میل به این اتهام که سودگرایی آموزه‌ای درخورِ خوکان است. بهایش این است که لذت‌ها اکنون در نوع هم فرق دارند نه فقط در مقدار، و این جمع‌زدنی دشوارتر از روایتِ بنتام است."
+      }
+    },
+    {
+      "id": "arendt-banality",
+      "text": {
+        "en": "The lesson of the fearsome word-and-thought-defying banality of evil.",
+        "fa": "درسِ آن ابتذالِ شرِ هراس‌آور که واژه و اندیشه را به بن‌بست می‌کشاند."
+      },
+      "speaker": "arendt",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-eichmann-in-jerusalem",
+        "locator": "Epilogue"
+      },
+      "context": {
+        "en": "The phrase that made the book notorious and was read as an excuse. Arendt was reporting that the man in the dock was not a monster but a functionary, and arguing that this made him more frightening rather than less guilty.",
+        "fa": "عبارتی که کتاب را بدنام کرد و چون بهانه‌ای خوانده شد. آرنت گزارش می‌داد که مردِ روی نیمکتِ متهمان هیولا نبود، کارمند بود، و استدلال می‌کرد که همین او را ترسناک‌تر می‌کند، نه کم‌گناه‌تر."
+      }
+    },
+    {
+      "id": "weil-attention",
+      "text": {
+        "en": "Attention is the rarest and purest form of generosity.",
+        "fa": "توجه، نادرترین و ناب‌ترین صورتِ بخشندگی است."
+      },
+      "speaker": "weil",
+      "attribution": "probable",
+      "context": {
+        "en": "From a letter to Joe Bousquet in 1942. Weil's writing on attention runs through her whole work, and it is where Iris Murdoch took the word.",
+        "fa": "از نامه‌ای به ژو بوسکه در ۱۹۴۲. نوشته‌های وی دربارهٔ توجه در سراسر کارش جاری است، و آیریس مرداک همین واژه را از او گرفت."
+      },
+      "attributionNote": {
+        "en": "From a letter of 1942, which is not among the editions this app cites.",
+        "fa": "از نامه‌ای به سال ۱۹۴۲ است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "foucault-visibility",
+      "text": { "en": "Visibility is a trap.", "fa": "دیده‌شدن یک تله است." },
+      "speaker": "foucault",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-discipline-and-punish",
+        "locator": "Part III, ch. 3"
+      },
+      "context": {
+        "en": "Said of the panopticon, where a prisoner is always seeable and never knows when. Foucault's point is that the machinery works even when nobody is watching, because the prisoner ends up doing the watching.",
+        "fa": "دربارهٔ سراسربین گفته شده، جایی که زندانی همیشه دیدنی است و هرگز نمی‌داند کِی. نکتهٔ فوکو این است که این دستگاه حتی وقتی کسی نمی‌نگرد کار می‌کند، چون سرانجام خودِ زندانی است که می‌نگرد."
+      }
+    },
+    {
+      "id": "fanon-black-skin",
+      "text": {
+        "en": "I am not the slave of the Slavery that dehumanised my ancestors.",
+        "fa": "من بردهٔ آن بردگی‌ای نیستم که نیاکانم را از انسانیت تهی کرد."
+      },
+      "speaker": "fanon",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-black-skin-white-masks",
+        "locator": "Conclusion"
+      },
+      "context": {
+        "en": "The conclusion refuses both the demand to forget history and the demand to be defined by it. Fanon is arguing for a present that is answerable to neither.",
+        "fa": "نتیجهٔ کتاب هم خواستِ فراموش‌کردنِ تاریخ را رد می‌کند و هم خواستِ تعریف‌شدن با آن را. فانون از حالی دفاع می‌کند که به هیچ‌یک پاسخگو نیست."
+      }
+    },
+    {
+      "id": "freire-banking",
+      "text": {
+        "en": "Education thus becomes an act of depositing, in which the students are the depositories and the teacher is the depositor.",
+        "fa": "آموزش چنین به کنشِ سپرده‌گذاری بدل می‌شود، که در آن دانش‌آموزان سپرده‌گاه‌اند و آموزگار سپرده‌گذار."
+      },
+      "speaker": "freire",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-pedagogy-of-the-oppressed",
+        "locator": "ch. 2"
+      },
+      "context": {
+        "en": "The banking model, named in order to be rejected. Freire's objection is not that it is inefficient but that it trains people to receive the world rather than to act on it.",
+        "fa": "الگوی بانکی، که نامش را می‌گذارد تا ردش کند. اعتراضِ فریره این نیست که ناکارآمد است، این است که آدمیان را می‌آموزد جهان را دریافت کنند نه بر آن اثر بگذارند."
+      }
+    },
+    {
+      "id": "anzaldua-borderlands",
+      "text": {
+        "en": "The borderlands are physically present wherever two or more cultures edge each other.",
+        "fa": "سرزمین‌های مرزی هرجا که دو فرهنگ یا بیشتر لبه به لبهٔ هم می‌شوند، به‌واقع حاضرند."
+      },
+      "speaker": "anzaldua",
+      "attribution": "verified",
+      "citation": { "source": "text-borderlands", "locator": "Preface" },
+      "context": {
+        "en": "Anzaldua is generalising from one border she lived on. The claim is that the condition it produces — belonging to two things and being at home in neither — is a place from which some things can be seen that cannot be seen from inside either.",
+        "fa": "آنزالدوا از یک مرز که در آن می‌زیست تعمیم می‌دهد. ادعا این است که وضعیتی که آن مرز پدید می‌آورد — تعلق به دو چیز و در خانه نبودن در هیچ‌کدام — جایگاهی است که از آن چیزهایی دیده می‌شود که از درونِ هیچ‌یک دیده نمی‌شود."
+      }
+    },
+    {
+      "id": "spinoza-nature-god",
+      "text": { "en": "God, or nature.", "fa": "خدا، یا طبیعت." },
+      "originalText": "Deus sive Natura",
+      "speaker": "spinoza",
+      "attribution": "verified",
+      "citation": { "source": "text-ethics-spinoza", "locator": "IV, Preface" },
+      "context": {
+        "en": "Two words that got him excommunicated and, a century later, made him the figure German philosophy kept returning to. If God and nature are one substance, then nothing is outside nature and nothing in it is a miracle.",
+        "fa": "دو واژه که سببِ تکفیرش شد و یک قرن بعد او را به چهره‌ای بدل کرد که فلسفهٔ آلمانی مدام به آن بازمی‌گشت. اگر خدا و طبیعت یک جوهر باشند، هیچ چیز بیرون از طبیعت نیست و هیچ چیز در آن معجزه نیست."
+      }
+    },
+    {
+      "id": "nietzsche-abyss-full",
+      "text": {
+        "en": "Whoever fights monsters should see to it that in the process he does not become a monster.",
+        "fa": "هرکه با هیولاها می‌جنگد باید مراقب باشد که در این میان خودش هیولا نشود."
+      },
+      "speaker": "nietzsche",
+      "attribution": "verified",
+      "citation": { "source": "nietzsche-beyond-good-evil", "locator": "§146" },
+      "context": {
+        "en": "The first half of the aphorism whose second half about the abyss is quoted everywhere on its own. Together they are a warning about method, aimed at the moralists Nietzsche thought had been made cruel by opposing cruelty.",
+        "fa": "نیمهٔ نخستِ گزین‌گویه‌ای که نیمهٔ دومش دربارهٔ مغاک، همه‌جا به‌تنهایی نقل می‌شود. آن دو با هم هشداری دربارهٔ روش‌اند، نشانه‌رفته به اخلاق‌گرایانی که نیچه می‌پنداشت مخالفت با سنگدلی سنگدل‌شان کرده است."
+      }
+    },
+    {
+      "id": "wittgenstein-language-game",
+      "text": {
+        "en": "For a large class of cases of the employment of the word 'meaning' it can be defined thus: the meaning of a word is its use in the language.",
+        "fa": "برای گسترهٔ بزرگی از کاربردهای واژهٔ «معنا» می‌توان چنین تعریفش کرد: معنای یک واژه، کاربردِ آن در زبان است."
+      },
+      "speaker": "wittgenstein",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-philosophical-investigations",
+        "locator": "§43"
+      },
+      "context": {
+        "en": "Note the hedge at the front, which Wittgenstein put there and which is usually dropped. He is not offering a theory of meaning; he is describing a way of looking that dissolves particular puzzles.",
+        "fa": "به قید و شرطِ آغازِ جمله توجه کنید، که ویتگنشتاین گذاشته و معمولاً حذف می‌شود. او نظریه‌ای دربارهٔ معنا عرضه نمی‌کند؛ شیوهٔ نگریستنی را وصف می‌کند که معماهای خاصی را حل می‌کند."
+      }
+    },
+    {
+      "id": "beauvoir-become",
+      "text": {
+        "en": "One is not born, but rather becomes, a woman.",
+        "fa": "زن زاده نمی‌شوند، زن می‌شوند."
+      },
+      "originalText": "On ne naît pas femme: on le devient",
+      "speaker": "beauvoir",
+      "attribution": "verified",
+      "citation": {
+        "source": "beauvoir-second-sex",
+        "locator": "Volume II, opening"
+      },
+      "context": {
+        "en": "The sentence that opens the second volume and founded a distinction the rest of the century argued about. Beauvoir is not denying biology; she is denying that biology settles what a life is for.",
+        "fa": "جمله‌ای که جلد دوم را می‌گشاید و تمایزی را بنیاد نهاد که باقیِ آن قرن بر سرش بحث کرد. بووار زیست‌شناسی را انکار نمی‌کند؛ انکار می‌کند که زیست‌شناسی تعیین کند یک زندگی برای چیست."
+      }
+    },
+    {
+      "id": "heidegger-question-being",
+      "text": {
+        "en": "The question of the meaning of being must be raised again.",
+        "fa": "پرسش از معنای هستی باید از نو طرح شود."
+      },
+      "speaker": "heidegger",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-being-and-time",
+        "locator": "Introduction, §1"
+      },
+      "context": {
+        "en": "Heidegger's claim is that the question was asked once, in Greece, answered badly, and then forgotten so thoroughly that philosophy stopped noticing it was missing.",
+        "fa": "ادعای هایدگر این است که این پرسش یک بار، در یونان، پرسیده شد، بد پاسخ گرفت، و سپس چنان کامل فراموش شد که فلسفه دیگر متوجه نبودنش نشد."
+      }
+    },
+    {
+      "id": "popper-falsifiable",
+      "text": {
+        "en": "It must be possible for an empirical scientific system to be refuted by experience.",
+        "fa": "باید ممکن باشد که یک دستگاهِ علمیِ تجربی با تجربه ابطال شود."
+      },
+      "speaker": "popper",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-logic-scientific-discovery",
+        "locator": "ch. 1, §6"
+      },
+      "context": {
+        "en": "Popper's line between science and everything else, drawn not by how a theory is arrived at but by what would count against it. A theory that fits every possible observation has told you nothing about which one you will see.",
+        "fa": "مرزی که پوپر میان علم و هر چیز دیگر می‌کشد، نه بر پایهٔ اینکه نظریه چگونه به دست آمده، که بر پایهٔ اینکه چه چیزی بر ضدِ آن به شمار می‌آید. نظریه‌ای که با هر مشاهدهٔ ممکن جور درآید، چیزی دربارهٔ اینکه کدام را خواهی دید نگفته است."
+      }
+    },
+    {
+      "id": "nussbaum-fragility",
+      "text": {
+        "en": "The good human life is vulnerable to luck.",
+        "fa": "زندگیِ نیکِ انسانی در برابر بخت آسیب‌پذیر است."
+      },
+      "speaker": "nussbaum",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-fragility-of-goodness",
+        "locator": "Introduction"
+      },
+      "context": {
+        "en": "Argued against the tradition, running from Plato through the Stoics, that made invulnerability the mark of a life gone well. Nussbaum reads Greek tragedy as the record of the other view.",
+        "fa": "در برابر سنتی استدلال شده، از افلاطون تا رواقیان، که آسیب‌ناپذیری را نشانهٔ زندگیِ خوب‌پیش‌رفته می‌دانست. نوسبام تراژدیِ یونانی را سندِ دیدگاهِ دیگر می‌خواند."
+      }
+    },
+    {
+      "id": "foot-trolley",
+      "text": {
+        "en": "Suppose that a judge or magistrate is faced with rioters demanding that a culprit be found for a certain crime.",
+        "fa": "فرض کنید قاضی یا داوری با شورشیانی روبه‌روست که می‌خواهند برای جرمی معین، مقصری یافت شود."
+      },
+      "speaker": "foot",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-virtues-and-vices",
+        "locator": "'The Problem of Abortion and the Doctrine of the Double Effect'"
+      },
+      "context": {
+        "en": "The paper that introduced the runaway tram, in passing, as one of several cases. Foot's interest was the doctrine of double effect, not the puzzle the example became.",
+        "fa": "مقاله‌ای که تراموای رهاشده را در گذر و چون یکی از چند نمونه معرفی کرد. دغدغهٔ فوت آموزهٔ اثرِ دوگانه بود، نه معمایی که آن مثال به آن بدل شد."
+      }
+    },
+    {
+      "id": "gandhi-civilization",
+      "text": {
+        "en": "It is not that we did not know how to invent machinery, but our forefathers knew that if we set our hearts after such things we would become slaves.",
+        "fa": "چنین نبود که ما ساختنِ ماشین را نمی‌دانستیم، بلکه نیاکان ما می‌دانستند که اگر دل به چنین چیزهایی ببندیم برده می‌شویم."
+      },
+      "speaker": "gandhi",
+      "attribution": "verified",
+      "citation": { "source": "text-hind-swaraj", "locator": "ch. 13" },
+      "context": {
+        "en": "Written on a ship in 1909, in the form of a dialogue with an imagined reader who wants independence in order to have what the British have. Gandhi's answer is that this would be the same civilisation under new management.",
+        "fa": "در ۱۹۰۹ روی کشتی نوشته شد، به شکل گفت‌وگو با خواننده‌ای خیالی که استقلال را برای داشتنِ آنچه بریتانیایی‌ها دارند می‌خواهد. پاسخِ گاندی این است که چنین چیزی همان تمدن است با مدیریتی تازه."
+      }
+    },
+    {
+      "id": "cesaire-colonization",
+      "text": {
+        "en": "Colonisation works to decivilise the coloniser.",
+        "fa": "استعمار در کارِ ناتمدن‌کردنِ خودِ استعمارگر است."
+      },
+      "speaker": "cesaire",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-discourse-on-colonialism",
+        "locator": "Opening"
+      },
+      "context": {
+        "en": "Cesaire's move is to turn the question round. Europe had asked what colonisation did for the colonised; he asks what it did to the people who carried it out, and answers that it prepared them for fascism.",
+        "fa": "حرکتِ سزر این است که پرسش را وارونه کند. اروپا پرسیده بود استعمار برای استعمارشدگان چه کرد؛ او می‌پرسد با کسانی که آن را پیش بردند چه کرد، و پاسخ می‌دهد که آنان را برای فاشیسم آماده کرد."
+      }
+    },
+    {
+      "id": "nkrumah-independence",
+      "text": {
+        "en": "Freedom is not something that one people can bestow on another as a gift.",
+        "fa": "آزادی چیزی نیست که ملتی بتواند آن را چون هدیه به ملتی دیگر ببخشد."
+      },
+      "speaker": "nkrumah",
+      "attribution": "probable",
+      "citation": { "source": "text-consciencism" },
+      "context": {
+        "en": "Nkrumah is arguing against the idea of a granted independence, and against the arrangements that survived it. The book's term for those is neo-colonialism, which he defined as having power without responsibility.",
+        "fa": "نکرومه در برابر ایدهٔ استقلالِ اعطایی استدلال می‌کند، و در برابر ترتیباتی که پس از آن باقی ماند. اصطلاحِ کتاب برای آن‌ها «نواستعمار» است، که آن را داشتنِ قدرت بدون مسئولیت تعریف می‌کند."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردانی انگلیسیِ معیار را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "wiredu-decolonise",
+      "text": {
+        "en": "By decolonisation I mean divesting African philosophical thinking of all undue influences emanating from our colonial past.",
+        "fa": "مرادم از استعمارزدایی، پیراستنِ اندیشهٔ فلسفیِ آفریقایی از هر تأثیرِ ناروایی است که از گذشتهٔ استعماریِ ما برمی‌خیزد."
+      },
+      "speaker": "kwasi-wiredu",
+      "attribution": "probable",
+      "citation": { "source": "text-cultural-universals" },
+      "context": {
+        "en": "Wiredu was careful about the word 'undue'. He argued that rejecting everything European would be as unphilosophical as accepting it, and tested claims by trying to say them in Akan.",
+        "fa": "ویردو در واژهٔ «ناروا» دقیق بود. می‌گفت ردکردنِ هر چیزِ اروپایی همان‌قدر ناـفلسفی است که پذیرفتنش، و ادعاها را با کوشش برای بیانشان به زبان آکان می‌آزمود."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردانی انگلیسیِ معیار را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
     }
   ]
 }

@@ -366,6 +366,12 @@ void main() {
       final store = await pumpApp(tester);
       await openFirstArticle(tester);
 
+      // Scrolled to rather than tapped where it happens to be. The control
+      // sits under the whole article, and the article grows: adding
+      // quotations to Plato's entry pushed it past the fixed viewport this
+      // test uses, and three tests failed on a change that broke nothing.
+      await tester.ensureVisible(find.text(en.noteAdd));
+      await tester.pumpAndSettle();
       await tester.tap(find.text(en.noteAdd));
       await tester.pumpAndSettle();
 
@@ -389,6 +395,8 @@ void main() {
       final store = await pumpApp(tester);
       await openFirstArticle(tester);
 
+      await tester.ensureVisible(find.text(en.noteAdd));
+      await tester.pumpAndSettle();
       await tester.tap(find.text(en.noteAdd));
       await tester.pumpAndSettle();
       await tester.enterText(find.byType(TextField).last, 'a false start');
@@ -403,6 +411,8 @@ void main() {
       final store = await pumpApp(tester);
       await openFirstArticle(tester);
 
+      await tester.ensureVisible(find.text(en.noteAdd));
+      await tester.pumpAndSettle();
       await tester.tap(find.text(en.noteAdd));
       await tester.pumpAndSettle();
       await tester.enterText(find.byType(TextField).last, 'temporary');
