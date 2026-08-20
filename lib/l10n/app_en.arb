@@ -24,6 +24,132 @@
   "@navSettings": {
     "description": "Bottom navigation label for settings."
   },
+  "quizTitle": "Test",
+  "@quizTitle": {
+    "description": "Name of the quiz section."
+  },
+  "quizTileCaption": "Check what has stayed with you",
+  "@quizTileCaption": {
+    "description": "One-line description of the quiz on the home screen."
+  },
+  "quizStart": "Begin",
+  "@quizStart": {
+    "description": "Button that starts a round of questions."
+  },
+  "quizAgain": "Another round",
+  "@quizAgain": {
+    "description": "Button that starts a fresh round after finishing one."
+  },
+  "quizNext": "Next",
+  "@quizNext": {
+    "description": "Button that moves to the next question."
+  },
+  "quizFinish": "See how you did",
+  "@quizFinish": {
+    "description": "Button on the last question."
+  },
+  "quizNothingReadTitle": "Read something first",
+  "@quizNothingReadTitle": {
+    "description": "Heading shown when the reader has marked nothing as read."
+  },
+  "quizNothingReadBody": "Questions are drawn from the entries you have marked as read. Tick “I have read this” at the foot of an article and it will start appearing here.",
+  "@quizNothingReadBody": {
+    "description": "Explains where quiz questions come from."
+  },
+  "quizTooLittleReadTitle": "Not enough to ask about yet",
+  "@quizTooLittleReadTitle": {
+    "description": "Heading shown when too few entries are marked read to build a round."
+  },
+  "quizTooLittleReadBody": "Mark a few more entries as read and there will be enough to build a round from.",
+  "@quizTooLittleReadBody": {
+    "description": "Body shown when too few entries are marked read."
+  },
+  "quizProgress": "Question {position} of {count}",
+  "@quizProgress": {
+    "description": "Where the reader is in a round.",
+    "placeholders": {
+      "position": { "type": "int" },
+      "count": { "type": "int" }
+    }
+  },
+  "quizScore": "{correct} of {count} right",
+  "@quizScore": {
+    "description": "The result of a round.",
+    "placeholders": {
+      "correct": { "type": "int" },
+      "count": { "type": "int" }
+    }
+  },
+  "quizAllRight": "Every one right.",
+  "@quizAllRight": {
+    "description": "Shown when the reader answered everything correctly."
+  },
+  "quizReviewTitle": "Worth another look",
+  "@quizReviewTitle": {
+    "description": "Heading above the entries behind the questions that were missed."
+  },
+  "quizYes": "Yes",
+  "@quizYes": {
+    "description": "The affirmative answer to a yes-or-no question."
+  },
+  "quizNo": "No",
+  "@quizNo": {
+    "description": "The negative answer to a yes-or-no question."
+  },
+  "quizCorrect": "Right",
+  "@quizCorrect": {
+    "description": "Shown beside a correct answer."
+  },
+  "quizIncorrect": "Not that one",
+  "@quizIncorrect": {
+    "description": "Shown beside a wrong answer."
+  },
+  "quizOpenSource": "Read the entry",
+  "@quizOpenSource": {
+    "description": "Link from a question to the article its answer comes from."
+  },
+  "quizAskedWrote": "Did {author} write “{work}”?",
+  "@quizAskedWrote": {
+    "description": "Yes-or-no question about authorship.",
+    "placeholders": { "author": { "type": "String" }, "work": { "type": "String" } }
+  },
+  "quizAskedTaught": "Did {teacher} teach {student}?",
+  "@quizAskedTaught": {
+    "description": "Yes-or-no question about a teaching relationship.",
+    "placeholders": { "teacher": { "type": "String" }, "student": { "type": "String" } }
+  },
+  "quizAskedTradition": "Does {name} belong to the {tradition} tradition?",
+  "@quizAskedTradition": {
+    "description": "Yes-or-no question about a tradition.",
+    "placeholders": { "name": { "type": "String" }, "tradition": { "type": "String" } }
+  },
+  "quizWhoWrote": "Who wrote “{work}”?",
+  "@quizWhoWrote": {
+    "description": "Four-option question about authorship.",
+    "placeholders": { "work": { "type": "String" } }
+  },
+  "quizWhichTradition": "Which tradition does {name} belong to?",
+  "@quizWhichTradition": {
+    "description": "Four-option question about a tradition.",
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "quizWhichEntry": "Which entry is this the description of?",
+  "@quizWhichEntry": {
+    "description": "Four-option question that shows a summary and asks what it describes."
+  },
+  "articleMarkRead": "I have read this",
+  "@articleMarkRead": {
+    "description": "Checkbox at the foot of an article."
+  },
+  "articleMarkedRead": "Read",
+  "@articleMarkedRead": {
+    "description": "State of the checkbox once the reader has ticked it."
+  },
+  "libraryReadCount": "{count, plural, =0{Nothing read yet} =1{1 entry read} other{{count} entries read}}",
+  "@libraryReadCount": {
+    "description": "How many entries the reader has finished.",
+    "placeholders": { "count": { "type": "int" } }
+  },
   "searchRecentTitle": "Recent searches",
   "@searchRecentTitle": {
     "description": "Heading above the reader's previous searches."

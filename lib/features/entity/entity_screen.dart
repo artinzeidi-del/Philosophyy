@@ -381,6 +381,8 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                         ),
                       ],
                       const SizedBox(height: Spacing.xl),
+                      _ReadMarkFooter(target: entity.ref),
+                      const SizedBox(height: Spacing.xl),
                       Text(
                         _provenanceNote(language),
                         style: theme.textTheme.labelSmall?.copyWith(
@@ -1039,6 +1041,106 @@ class _BookmarkButton extends ConsumerWidget {
           messenger.showSnackBar(SnackBar(content: Text(l10n.saveFailed)));
         }
       },
+    );
+  }
+}
+
+/// The tick at the foot of an article: the reader saying they have read it.
+///
+/// ## Why it is here and not at the top
+///
+/// The claim is that the article has been read, so the only place it can
+/// honestly be made is after the article. A control at the top would be a
+/// promise; this is a report.
+///
+/// It is also the one thing on the page that feeds the quiz — questions are
+/// only asked about entries a reader has marked — so it says so rather than
+/// leaving the reader to discover the connection by accident.
+class _ReadMarkFooter extends ConsumerWidget {
+  const _ReadMarkFooter({required this.target});
+
+  final EntityRef target;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+    final hasRead = ref.watch(hasReadProvider(target));
+
+    return PressableSurface(
+      onTap: () =>
+          unawaited(ref.read(libraryProvider.notifier).toggleRead(target)),
+      borderRadius: Radii.surfaceRadius,
+      child: Semantics(
+        checked: hasRead,
+        label: l10n.articleMarkRead,
+        child: Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: Spacing.lg,
+            vertical: Spacing.md,
+          ),
+          decoration: BoxDecoration(
+            borderRadius: Radii.surfaceRadius,
+            // Lit once ticked, so a reader scrolling back through entries can
+            // see at the foot of each which ones they have finished.
+            color: hasRead
+                ? theme.colorScheme.primary.withValues(alpha: 0.10)
+                : theme.colorScheme.surfaceContainerHighest.withValues(
+                    alpha: 0.5,
+                  ),
+            border: Border.all(
+              color: hasRead
+                  ? theme.colorScheme.primary.withValues(alpha: 0.45)
+                  : theme.colorScheme.outlineVariant,
+            ),
+          ),
+          child: Row(
+            children: <Widget>[
+              AnimatedContainer(
+                duration: Motion.duration(context, MotionTokens.quick),
+                curve: MotionTokens.standard,
+                width: 24,
+                height: 24,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: hasRead
+                      ? theme.colorScheme.primary
+                      : Colors.transparent,
+                  border: Border.all(
+                    color: hasRead
+                        ? theme.colorScheme.primary
+                        : theme.colorScheme.outline,
+                    width: 1.5,
+                  ),
+                ),
+                child: hasRead
+                    ? Icon(
+                        Icons.check_rounded,
+                        size: 16,
+                        color: theme.colorScheme.onPrimary,
+                      )
+                    : null,
+              ),
+              const SizedBox(width: Spacing.md),
+              Expanded(
+                // `ExcludeSemantics` because the `Semantics` above already
+                // names the control; without it a screen reader reads the
+                // label twice, once as the checkbox and once as loose text.
+                child: ExcludeSemantics(
+                  child: Text(
+                    hasRead ? l10n.articleMarkedRead : l10n.articleMarkRead,
+                    style: theme.textTheme.titleSmall?.copyWith(
+                      color: hasRead
+                          ? theme.colorScheme.primary
+                          : theme.colorScheme.onSurface,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

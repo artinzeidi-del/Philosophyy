@@ -606,6 +606,13 @@ class _SectionTiles extends StatelessWidget {
             accent: scheme.secondary,
           ),
           (
+            icon: Icons.quiz_outlined,
+            title: l10n.quizTitle,
+            caption: l10n.quizTileCaption,
+            route: AppRouter.quiz,
+            accent: scheme.primary,
+          ),
+          (
             icon: Icons.explore_outlined,
             title: l10n.homeTileExplore,
             caption: l10n.homeTileExploreCaption,

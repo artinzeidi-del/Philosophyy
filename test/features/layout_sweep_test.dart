@@ -59,6 +59,7 @@ void main() {
     'settings': '/settings',
     'primer': '/start',
     'glossary': '/glossary',
+    'quiz': '/quiz',
     // Only the kinds with a page. Quotations, arguments and sources are shown
     // inside other articles by design, and the router registers no route for
     // them — a sweep that demanded pages for all seven would be asserting a

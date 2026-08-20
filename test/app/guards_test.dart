@@ -79,6 +79,7 @@ void main() {
       'home': AppRouter.home,
       'explore': AppRouter.explore,
       'glossary': AppRouter.glossary,
+      'quiz': AppRouter.quiz,
       'settings': AppRouter.settings,
       'primer': AppRouter.primer,
     }.entries) {

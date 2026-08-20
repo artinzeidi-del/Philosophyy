@@ -12,6 +12,7 @@ import 'package:philosophyy/features/glossary/glossary_screen.dart';
 import 'package:philosophyy/features/home/home_screen.dart';
 import 'package:philosophyy/features/library/library_screen.dart';
 import 'package:philosophyy/features/primer/primer_screen.dart';
+import 'package:philosophyy/features/quiz/quiz_screen.dart';
 import 'package:philosophyy/features/search/search_screen.dart';
 import 'package:philosophyy/features/settings/settings_screen.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
@@ -100,6 +101,19 @@ class AppRouter {
           child: const PrimerScreen(),
         ),
       ),
+      // The quiz sits outside the shell for the same reason the primer does:
+      // answering a question is a single-minded activity, and a row of tabs at
+      // the foot invites a reader to leave in the middle of one.
+      GoRoute(
+        path: quiz,
+        pageBuilder: (context, state) => CustomTransitionPage<void>(
+          key: state.pageKey,
+          transitionDuration: MotionTokens.moderate,
+          reverseTransitionDuration: MotionTokens.quick,
+          transitionsBuilder: PageTransitions.article,
+          child: const QuizScreen(),
+        ),
+      ),
       GoRoute(
         path: glossary,
         pageBuilder: (context, state) => CustomTransitionPage<void>(
@@ -148,6 +162,9 @@ class AppRouter {
 
   /// The glossary.
   static const String glossary = '/glossary';
+
+  /// Questions about what the reader has marked as read.
+  static const String quiz = '/quiz';
 
   /// The reader's saved work.
   static const String library = '/library';

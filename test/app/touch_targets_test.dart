@@ -63,6 +63,7 @@ void main() {
     'settings': AppRouter.settings,
     'primer': AppRouter.primer,
     'glossary': AppRouter.glossary,
+    'quiz': AppRouter.quiz,
     'article': '/philosophers/aristotle',
   };
 

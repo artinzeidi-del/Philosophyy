@@ -38,7 +38,7 @@ class LibraryFormatException implements Exception {
 /// still on the device to be recovered.
 abstract final class UserLibraryCodec {
   /// The schema version this build writes.
-  static const int currentVersion = 1;
+  static const int currentVersion = 2;
 
   /// Serialises [library] to a JSON document.
   static String encode(UserLibrary library) => jsonEncode(<String, Object?>{
@@ -82,6 +82,13 @@ abstract final class UserLibraryCodec {
           'updatedAt': position.updatedAt.toUtc().toIso8601String(),
         },
     ],
+    'readMarks': <Object?>[
+      for (final mark in library.readMarks)
+        <String, Object?>{
+          'target': mark.target.canonical,
+          'markedAt': mark.markedAt.toUtc().toIso8601String(),
+        },
+    ],
   });
 
   /// Parses a stored document.
@@ -118,6 +125,7 @@ abstract final class UserLibraryCodec {
         notes: _list(document, 'notes', _note),
         highlights: _list(document, 'highlights', _highlight),
         positions: _list(document, 'positions', _position),
+        readMarks: _list(document, 'readMarks', _readMark),
       );
     } on LibraryFormatException {
       rethrow;
@@ -136,18 +144,33 @@ abstract final class UserLibraryCodec {
     Map<String, Object?> document, {
     required int from,
   }) {
-    if (from == currentVersion) return document;
+    var migrated = document;
+    var at = from;
 
-    // Version 1 is the first schema, so there is nothing to migrate yet. When
-    // version 2 arrives, the chain begins here and runs one step at a time —
-    // 1→2, then 2→3 — so that a reader who upgrades rarely is carried through
-    // every intermediate shape rather than jumped to the newest. Each step must
-    // come with a test that migrates a populated document forward and asserts
-    // nothing was lost: this is the reader's own writing, and losing it is not
-    // an acceptable outcome of an app update.
-    throw LibraryFormatException(
-      'no migration path from version $from to $currentVersion',
-    );
+    // 1→2 added the marks a reader puts on articles they have finished.
+    // Nothing in version 1 changes shape, so the step is to supply the absent
+    // list — spelled out rather than left to `_list` tolerating a missing key,
+    // because a migration that does nothing visible is one nobody can check.
+    if (at == 1) {
+      migrated = <String, Object?>{
+        ...migrated,
+        'readMarks': const <Object?>[],
+        'version': 2,
+      };
+      at = 2;
+    }
+
+    // Each further step goes here, one at a time, so that a reader who upgrades
+    // rarely is carried through every intermediate shape rather than jumped to
+    // the newest. Each must come with a test that migrates a populated document
+    // forward and asserts nothing was lost: this is the reader's own writing,
+    // and losing it is not an acceptable outcome of an app update.
+    if (at != currentVersion) {
+      throw LibraryFormatException(
+        'no migration path from version $from to $currentVersion',
+      );
+    }
+    return migrated;
   }
 
   static List<T> _list<T>(
@@ -207,6 +230,9 @@ abstract final class UserLibraryCodec {
     if (raw is num) return raw.toInt();
     throw LibraryFormatException('"$field" is not a number');
   }
+
+  static ReadMark _readMark(Map<String, Object?> json) =>
+      ReadMark(target: _ref(json, 'target'), markedAt: _time(json, 'markedAt'));
 
   static Bookmark _bookmark(Map<String, Object?> json) =>
       Bookmark(target: _ref(json, 'target'), savedAt: _time(json, 'savedAt'));

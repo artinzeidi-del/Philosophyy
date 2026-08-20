@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:philosophyy/app/settings/app_settings.dart';
+import 'package:philosophyy/core/quiz/quiz_builder.dart';
 import 'package:philosophyy/core/search/search_index.dart';
 import 'package:philosophyy/core/search/text_normalizer.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
@@ -8,12 +9,14 @@ import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/data/user/stored_user_data_repository.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
+import 'package:philosophyy/domain/entities/quiz.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/repositories/knowledge_repository.dart';
 import 'package:philosophyy/domain/repositories/user_data_repository.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
+import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Supplies persisted preferences.
@@ -81,6 +84,116 @@ final searchIndexProvider = Provider<SearchIndex>((ref) {
 void warmSearchIndex(WidgetRef ref) {
   if (ref.read(corpusProvider).value == null) return;
   ref.read(searchIndexProvider);
+}
+
+/// The round of questions in progress, or `null` when none has been started.
+///
+/// ## Why this is not widget state
+///
+/// The obvious home for a round is the quiz screen's own `State`, and it was
+/// there first. But the round *is* what the app is doing while the reader is
+/// answering — which question they are on and what they have chosen is the
+/// whole of the screen's meaning — and nothing outside the widget could see it.
+/// A test could press buttons but not tell which one was right, so the only
+/// checks available were structural ones that would pass on a quiz that marked
+/// every answer wrong.
+final quizSessionProvider =
+    NotifierProvider<QuizSessionController, QuizSession?>(
+      QuizSessionController.new,
+    );
+
+/// One round: the questions, and how far the reader has got.
+class QuizSession {
+  const QuizSession({
+    required this.questions,
+    this.answers = const <int>[],
+    this.pending,
+  });
+
+  /// The questions, in the order they are asked.
+  final List<QuizQuestion> questions;
+
+  /// What the reader chose, one per question they have finished with.
+  final List<int> answers;
+
+  /// The choice on the current question, before they move on.
+  ///
+  /// Separate from [answers] because a chosen answer is shown as right or wrong
+  /// before it is committed — the reader sees the verdict, then presses on.
+  final int? pending;
+
+  /// The question the reader is looking at, or `null` when the round is over.
+  QuizQuestion? get current =>
+      answers.length < questions.length ? questions[answers.length] : null;
+
+  /// Whether every question has been answered.
+  bool get isFinished =>
+      questions.isNotEmpty && answers.length >= questions.length;
+
+  /// Where the reader is, counting from one.
+  int get position => answers.length + 1;
+
+  /// The round's outcome so far.
+  QuizResult get result => QuizResult(answers: answers, questions: questions);
+
+  QuizSession copyWith({
+    List<int>? answers,
+    int? pending,
+    bool clearPending = false,
+  }) => QuizSession(
+    questions: questions,
+    answers: answers ?? this.answers,
+    pending: clearPending ? null : (pending ?? this.pending),
+  );
+}
+
+/// Starts, advances and ends a round.
+class QuizSessionController extends Notifier<QuizSession?> {
+  @override
+  QuizSession? build() => null;
+
+  /// Builds a fresh round from the entries the reader has marked read.
+  ///
+  /// [l10n] is passed in rather than read here because the question text is
+  /// written in the reader's language at build time, and localisations belong
+  /// to the widget tree.
+  void start(AppL10n l10n, {int? seed}) {
+    final corpus = ref.read(corpusProvider).value;
+    if (corpus == null) return;
+    state = QuizSession(
+      questions: QuizBuilder.build(
+        corpus: corpus,
+        subjects: ref.read(readTargetsProvider),
+        l10n: l10n,
+        language: ref.read(activeLanguageProvider),
+        seed: seed ?? DateTime.now().millisecondsSinceEpoch,
+      ),
+    );
+  }
+
+  /// Records the reader's choice on the current question.
+  ///
+  /// Ignored once a choice has been made. A quiz that lets an answer be changed
+  /// after showing whether it was right is not measuring anything.
+  void choose(int index) {
+    final session = state;
+    if (session == null || session.pending != null) return;
+    state = session.copyWith(pending: index);
+  }
+
+  /// Commits the choice and moves on.
+  void advance() {
+    final session = state;
+    final chosen = session?.pending;
+    if (session == null || chosen == null) return;
+    state = session.copyWith(
+      answers: <int>[...session.answers, chosen],
+      clearPending: true,
+    );
+  }
+
+  /// Abandons the round, returning the screen to its starting state.
+  void reset() => state = null;
 }
 
 /// The reader's preferences, persisted on every change.
@@ -386,6 +499,10 @@ class LibraryController extends Notifier<UserLibrary> {
   Future<bool> toggleBookmark(EntityRef target, {DateTime? at}) =>
       _commit(state.toggleBookmark(target, at: at ?? DateTime.now()));
 
+  /// Marks an article read, or takes the mark off again.
+  Future<bool> toggleRead(EntityRef target, {DateTime? at}) =>
+      _commit(state.toggleRead(target, at: at ?? DateTime.now()));
+
   /// Adds a note, returning the note that was stored.
   Future<Note?> addNote({
     required EntityRef target,
@@ -509,6 +626,26 @@ class LibraryController extends Notifier<UserLibrary> {
 final isBookmarkedProvider = Provider.family<bool, EntityRef>(
   (ref, target) => ref.watch(
     libraryProvider.select((library) => library.isBookmarked(target)),
+  ),
+);
+
+/// Whether the reader has marked a given article as read.
+final hasReadProvider = Provider.family<bool, EntityRef>(
+  (ref, target) =>
+      ref.watch(libraryProvider.select((library) => library.hasRead(target))),
+);
+
+/// Everything the reader has said they finished, as a set.
+///
+/// A set rather than the list on the library, because the quiz asks "is this
+/// one of them" once per entry it considers.
+final readTargetsProvider = Provider<Set<EntityRef>>(
+  (ref) => ref.watch(
+    libraryProvider.select(
+      (library) => <EntityRef>{
+        for (final mark in library.readMarks) mark.target,
+      },
+    ),
   ),
 );
 

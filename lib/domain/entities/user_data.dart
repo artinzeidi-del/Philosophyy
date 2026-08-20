@@ -217,6 +217,41 @@ class ReadingPosition {
   String toString() => 'ReadingPosition($target @ $scrollOffset)';
 }
 
+/// The reader's own record that they finished an article.
+///
+/// ## Why this is not derived from a reading position
+///
+/// The app already knows how far down an article the reader scrolled, and it
+/// would be easy to call an article read once they reached the bottom. That
+/// measures the wrong thing. Scrolling past a paragraph is not reading it, and
+/// a reader who works through half an entry carefully has done more than one
+/// who flicked to the end.
+///
+/// So this is declared, not inferred: the reader says they have read it. It is
+/// the only claim in the app that only they can make, and the quiz depends on
+/// it being true, which it can only be if nothing else sets it.
+class ReadMark implements Comparable<ReadMark> {
+  const ReadMark({required this.target, required this.markedAt});
+
+  /// The article the reader finished.
+  final EntityRef target;
+
+  /// When they said so.
+  final DateTime markedAt;
+
+  @override
+  int compareTo(ReadMark other) => other.markedAt.compareTo(markedAt);
+
+  @override
+  bool operator ==(Object other) => other is ReadMark && other.target == target;
+
+  @override
+  int get hashCode => target.hashCode;
+
+  @override
+  String toString() => 'ReadMark($target)';
+}
+
 /// Everything the reader owns, held together.
 ///
 /// This is a value: every mutation returns a new library rather than editing in
@@ -228,6 +263,7 @@ class UserLibrary {
     this.notes = const <Note>[],
     this.highlights = const <Highlight>[],
     this.positions = const <ReadingPosition>[],
+    this.readMarks = const <ReadMark>[],
   });
 
   /// A reader who has saved nothing yet.
@@ -245,20 +281,32 @@ class UserLibrary {
   /// Reading positions, at most one per article.
   final List<ReadingPosition> positions;
 
+  /// Articles the reader has said they finished.
+  final List<ReadMark> readMarks;
+
   /// Whether the reader has saved anything at all.
   bool get isEmpty =>
       bookmarks.isEmpty &&
       notes.isEmpty &&
       highlights.isEmpty &&
-      positions.isEmpty;
+      positions.isEmpty &&
+      readMarks.isEmpty;
 
   /// How many things the reader has created, excluding reading positions —
   /// which they did not choose to create.
-  int get itemCount => bookmarks.length + notes.length + highlights.length;
+  int get itemCount =>
+      bookmarks.length + notes.length + highlights.length + readMarks.length;
 
   /// Whether [ref] is bookmarked.
   bool isBookmarked(EntityRef ref) =>
       bookmarks.any((bookmark) => bookmark.target == ref);
+
+  /// Whether the reader has marked [ref] as read.
+  bool hasRead(EntityRef ref) => readMarks.any((mark) => mark.target == ref);
+
+  /// Every article the reader has finished, most recently marked first.
+  List<EntityRef> get readTargets =>
+      (readMarks.toList()..sort()).map((mark) => mark.target).toList();
 
   /// Notes on [ref], most recently edited first.
   List<Note> notesFor(EntityRef ref) =>
@@ -311,6 +359,9 @@ class UserLibrary {
     for (final position in positions) {
       record(position.target, position.updatedAt);
     }
+    for (final mark in readMarks) {
+      record(mark.target, mark.markedAt);
+    }
 
     final ordered = latest.keys.toList()
       ..sort((a, b) => latest[b]!.compareTo(latest[a]!));
@@ -329,6 +380,18 @@ class UserLibrary {
           bookmarks: <Bookmark>[
             Bookmark(target: ref, savedAt: at),
             ...bookmarks,
+          ],
+        );
+
+  /// Marks [ref] read, or takes the mark off again.
+  UserLibrary toggleRead(EntityRef ref, {required DateTime at}) => hasRead(ref)
+      ? copyWith(
+          readMarks: readMarks.where((mark) => mark.target != ref).toList(),
+        )
+      : copyWith(
+          readMarks: <ReadMark>[
+            ReadMark(target: ref, markedAt: at),
+            ...readMarks,
           ],
         );
 
@@ -372,6 +435,7 @@ class UserLibrary {
     notes: notes.where((it) => it.target != ref).toList(),
     highlights: highlights.where((it) => it.target != ref).toList(),
     positions: positions.where((it) => it.target != ref).toList(),
+    readMarks: readMarks.where((it) => it.target != ref).toList(),
   );
 
   /// Returns a copy with the given collections replaced.
@@ -380,15 +444,18 @@ class UserLibrary {
     List<Note>? notes,
     List<Highlight>? highlights,
     List<ReadingPosition>? positions,
+    List<ReadMark>? readMarks,
   }) => UserLibrary(
     bookmarks: bookmarks ?? this.bookmarks,
     notes: notes ?? this.notes,
     highlights: highlights ?? this.highlights,
     positions: positions ?? this.positions,
+    readMarks: readMarks ?? this.readMarks,
   );
 
   @override
   String toString() =>
       'UserLibrary(${bookmarks.length} bookmarks, ${notes.length} notes, '
-      '${highlights.length} highlights, ${positions.length} positions)';
+      '${highlights.length} highlights, ${positions.length} positions, '
+      '${readMarks.length} read)';
 }

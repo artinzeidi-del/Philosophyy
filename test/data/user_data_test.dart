@@ -128,6 +128,83 @@ void main() {
       );
     });
 
+    test('a version 1 library survives the upgrade with everything intact', () {
+      // The codec's own rule: every migration step comes with a test that
+      // carries a populated document forward and asserts nothing was lost.
+      // This is the reader's own writing — an app update losing it is not an
+      // acceptable outcome, and "the migration looked right" is not evidence.
+      final version1 = jsonEncode(<String, Object?>{
+        'version': 1,
+        'bookmarks': <Object?>[
+          <String, Object?>{
+            'target': 'philosopher:plato',
+            'savedAt': '2026-01-01T00:00:00.000Z',
+          },
+        ],
+        'notes': <Object?>[
+          <String, Object?>{
+            'id': 'n1',
+            'target': 'concept:justice',
+            'sectionId': 's2',
+            'body': 'یادداشتی که نباید گم شود',
+            'createdAt': '2026-01-02T00:00:00.000Z',
+            'updatedAt': '2026-01-03T00:00:00.000Z',
+          },
+        ],
+        'highlights': <Object?>[
+          <String, Object?>{
+            'id': 'h1',
+            'target': 'philosopher:plato',
+            'sectionId': 's1',
+            'start': 4,
+            'end': 10,
+            'excerpt': 'justice',
+            'createdAt': '2026-01-04T00:00:00.000Z',
+          },
+        ],
+        'positions': <Object?>[
+          <String, Object?>{
+            'target': 'philosopher:plato',
+            'sectionId': 's1',
+            'scrollOffset': 640.0,
+            'updatedAt': '2026-01-05T00:00:00.000Z',
+          },
+        ],
+      });
+
+      final library = UserLibraryCodec.decode(version1);
+
+      expect(library.bookmarks, hasLength(1));
+      expect(library.notes.single.body, 'یادداشتی که نباید گم شود');
+      expect(library.notes.single.sectionId, 's2');
+      expect(library.highlights.single.excerpt, 'justice');
+      expect(library.highlights.single.start, 4);
+      expect(library.positions.single.scrollOffset, 640.0);
+
+      // The one thing version 1 could not carry.
+      expect(library.readMarks, isEmpty);
+
+      // And the upgraded document is what this build now writes.
+      final rewritten =
+          jsonDecode(UserLibraryCodec.encode(library)) as Map<String, Object?>;
+      expect(rewritten['version'], UserLibraryCodec.currentVersion);
+      expect(rewritten['readMarks'], isEmpty);
+    });
+
+    test('read marks survive a round trip', () {
+      final library = UserLibrary.empty.toggleRead(
+        plato,
+        at: DateTime.utc(2026, 5, 1),
+      );
+
+      final restored = UserLibraryCodec.decode(
+        UserLibraryCodec.encode(library),
+      );
+
+      expect(restored.hasRead(plato), isTrue);
+      expect(restored.readMarks.single.markedAt, DateTime.utc(2026, 5, 1));
+    });
+
     test('malformed JSON is refused', () {
       expect(
         () => UserLibraryCodec.decode('{not json'),
