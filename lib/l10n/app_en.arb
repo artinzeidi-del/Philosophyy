@@ -123,6 +123,48 @@
     "description": "Yes-or-no question about a tradition.",
     "placeholders": { "name": { "type": "String" }, "tradition": { "type": "String" } }
   },
+  "quizWhoSaid": "Who said this?",
+  "@quizWhoSaid": {
+    "description": "Four-option question showing a quotation and asking for its speaker."
+  },
+  "quizWhoFounded": "Who founded {school}?",
+  "@quizWhoFounded": {
+    "description": "Four-option question about a school's founder.",
+    "placeholders": { "school": { "type": "String" } }
+  },
+  "quizWhichConcept": "Which idea is this the definition of?",
+  "@quizWhichConcept": {
+    "description": "Four-option question showing a definition and asking which concept it defines."
+  },
+  "quizWhoseWork": "Which of these did {author} write?",
+  "@quizWhoseWork": {
+    "description": "Four-option question asking which work belongs to a philosopher.",
+    "placeholders": { "author": { "type": "String" } }
+  },
+  "quizWhoIsEarlier": "Who lived earlier?",
+  "@quizWhoIsEarlier": {
+    "description": "Four-option question asking which of four philosophers lived earliest."
+  },
+  "quizAskedInfluenced": "Did {subject} influence {object}?",
+  "@quizAskedInfluenced": {
+    "description": "Yes-or-no question about influence.",
+    "placeholders": { "subject": { "type": "String" }, "object": { "type": "String" } }
+  },
+  "quizAskedContemporary": "Were {first} and {second} alive at the same time?",
+  "@quizAskedContemporary": {
+    "description": "Yes-or-no question about whether two philosophers were contemporaries.",
+    "placeholders": { "first": { "type": "String" }, "second": { "type": "String" } }
+  },
+  "quizWhichSchool": "Which school does {name} belong to?",
+  "@quizWhichSchool": {
+    "description": "Four-option question about a philosopher's school.",
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "quizWhichBranch": "Which branch of philosophy is {name} filed under?",
+  "@quizWhichBranch": {
+    "description": "Four-option question about the branch an entry belongs to.",
+    "placeholders": { "name": { "type": "String" } }
+  },
   "quizWhoWrote": "Who wrote “{work}”?",
   "@quizWhoWrote": {
     "description": "Four-option question about authorship.",

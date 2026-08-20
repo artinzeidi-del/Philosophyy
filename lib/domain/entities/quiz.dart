@@ -24,6 +24,7 @@ enum QuizFormat {
 class QuizQuestion {
   const QuizQuestion({
     required this.id,
+    required this.fact,
     required this.format,
     required this.prompt,
     required this.options,
@@ -32,11 +33,29 @@ class QuizQuestion {
     this.detail,
   }) : assert(answerIndex >= 0, 'a question must have an answer');
 
-  /// Identifier, stable for the same fact and the same reading language.
+  /// Identifier, stable for the same question and the same reading language.
   ///
-  /// Used to keep a question from being asked twice in one round, and as a
-  /// widget key so answering one does not redraw the rest.
+  /// Used as a widget key, and as what the reader's record of mastered
+  /// questions is kept in.
   final String id;
+
+  /// What the question is really about, independent of how it is asked.
+  ///
+  /// ## Why this is not the id
+  ///
+  /// Reported from use: a round asked which tradition Ibn Sīnā belongs to, and
+  /// two questions later asked whether he belongs to the Chinese one. The
+  /// second was free, because the first had just answered it.
+  ///
+  /// Both were deduplicated correctly — by id, and their ids differ, because
+  /// one is `which-tradition:ibn-sina` and the other
+  /// `asked-tradition:ibn-sina:chinese`. Two ways of asking one thing are two
+  /// questions and one fact, and it is the fact a round must not repeat.
+  ///
+  /// So every builder states the fact its question turns on —
+  /// `tradition:ibn-sina` for both of those — and a round holds at most one
+  /// question per fact.
+  final String fact;
 
   /// Whether this is a yes-or-no question or a choice of four.
   final QuizFormat format;

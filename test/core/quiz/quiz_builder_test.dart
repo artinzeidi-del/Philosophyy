@@ -52,10 +52,26 @@ void main() {
   Set<EntityRef> everything() =>
       corpus.allEntities.map((entity) => entity.ref).toSet();
 
+  /// Every distinct question the builder can produce over [seeds] rounds.
+  ///
+  /// A round now picks one phrasing per fact by lot, so a single seed shows
+  /// only about half of each pair. Anything asserting about a phrasing has to
+  /// look across seeds, or it is measuring the coin toss rather than the
+  /// builder.
+  List<QuizQuestion> across({int seeds = 12}) {
+    final byId = <String, QuizQuestion>{};
+    for (var seed = 0; seed < seeds; seed++) {
+      for (final question in roundFrom(everything(), seed: seed)) {
+        byId[question.id] = question;
+      }
+    }
+    return byId.values.toList();
+  }
+
   group('Every question is answerable from the corpus', () {
     test('the named answer is among the options exactly once', () {
       final problems = <String>[];
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         if (question.answerIndex >= question.options.length) {
           problems.add('${question.id}: answer index out of range');
           continue;
@@ -77,7 +93,7 @@ void main() {
 
     test('every question points at an entry that exists', () {
       final problems = <String>[
-        for (final question in roundFrom(everything()))
+        for (final question in across())
           if (corpus.resolve(question.source) == null)
             '${question.id}: cites ${question.source}, which is not in the corpus',
       ];
@@ -86,7 +102,7 @@ void main() {
 
     test('no option is empty and no prompt is a bare template', () {
       final problems = <String>[];
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         if (question.prompt.trim().isEmpty) {
           problems.add('${question.id}: empty prompt');
         }
@@ -103,7 +119,7 @@ void main() {
     });
 
     test('a four-option question has four options, a yes-or-no has two', () {
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         expect(
           question.options,
           hasLength(question.format == QuizFormat.trueFalse ? 2 : 4),
@@ -116,7 +132,7 @@ void main() {
   group('The answers are the corpus’s answers', () {
     test('"who wrote X" names the author the work records', () {
       var checked = 0;
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         if (!question.id.startsWith('who-wrote:')) continue;
         final work = corpus.work(question.id.split(':').last)!;
         final author = corpus.philosopher(work.authorId)!;
@@ -132,7 +148,7 @@ void main() {
 
     test('"which tradition" names a tradition the entry is in', () {
       var checked = 0;
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         if (!question.id.startsWith('which-tradition:')) continue;
         final philosopher = corpus.philosopher(question.id.split(':').last)!;
         final named = philosopher.traditions
@@ -152,7 +168,7 @@ void main() {
 
     test('"which entry is this" names the entry whose summary is shown', () {
       var checked = 0;
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         if (!question.id.startsWith('which-entry:')) continue;
         final ref = EntityRef.tryParse(
           question.id.substring('which-entry:'.length),
@@ -173,7 +189,7 @@ void main() {
 
     test('"did X write W" answered yes is what the work records', () {
       var checked = 0;
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         if (!question.id.startsWith('asked-wrote:')) continue;
         final parts = question.id.split(':');
         final work = corpus.work(parts[1])!;
@@ -199,7 +215,7 @@ void main() {
     test('"did X teach Y" answered no names someone who could not have', () {
       var checked = 0;
       var refutedByDates = 0;
-      for (final question in roundFrom(everything())) {
+      for (final question in across()) {
         if (!question.id.startsWith('asked-taught:')) continue;
         final parts = question.id.split(':');
         final teacher = corpus.philosopher(parts[1])!;
@@ -267,7 +283,15 @@ void main() {
           .length;
       expect(withTeaching, greaterThan(0), reason: 'no teaching is recorded');
       expect(checked, greaterThan(0));
-      expect(checked, lessThanOrEqualTo(withTeaching));
+
+      // Counted by fact rather than by question. The false form picks a
+      // different impossible philosopher on each seed, so across twelve seeds
+      // one teaching fact yields a dozen distinct ids and only ever one fact.
+      final facts = <String>{
+        for (final question in across())
+          if (question.id.startsWith('asked-taught:')) question.fact,
+      };
+      expect(facts, hasLength(lessThanOrEqualTo(withTeaching)));
       expect(refutedByDates, greaterThan(0), reason: 'no false form was built');
     });
 
@@ -275,7 +299,7 @@ void main() {
       '"does X belong to Y" answered no names a term the entry is not in',
       () {
         var checked = 0;
-        for (final question in roundFrom(everything())) {
+        for (final question in across()) {
           if (!question.id.startsWith('asked-tradition:')) continue;
           final parts = question.id.split(':');
           final philosopher = corpus.philosopher(parts[1])!;
@@ -332,6 +356,67 @@ void main() {
       expect(first.map((q) => q.id), isNot(other.map((q) => q.id)));
     });
 
+    test('never asks the same fact twice, however it is phrased', () {
+      // Reported from use: a round asked which tradition Ibn Sīnā belongs to,
+      // and two questions later asked whether he belongs to the Chinese one.
+      // The second was free — the first had just answered it.
+      //
+      // Both were deduplicated, by id, and the ids differ: one is
+      // `which-tradition:ibn-sina`, the other
+      // `asked-tradition:ibn-sina:chinese`. Two ways of asking one thing are
+      // two questions and one fact, and it is the fact that must not repeat.
+      for (var seed = 0; seed < 40; seed++) {
+        final round = roundFrom(
+          everything(),
+          seed: seed,
+          length: QuizBuilder.roundLength,
+        );
+        final facts = round.map((question) => question.fact).toList();
+        expect(
+          facts.toSet(),
+          hasLength(facts.length),
+          reason:
+              'seed $seed asks one fact twice: '
+              '${facts..sort()}',
+        );
+      }
+    });
+
+    test('every question states a fact it turns on', () {
+      // A question with no fact would be deduplicated against nothing and
+      // could be asked beside its own answer.
+      for (final question in across()) {
+        expect(
+          question.fact.trim(),
+          isNotEmpty,
+          reason: '${question.id} declares no fact',
+        );
+      }
+    });
+
+    test('the two phrasings of one fact agree on what it is', () {
+      // The pairing that produced the defect. Both builders must name the
+      // fact identically, or the deduplication passes them through.
+      final byFact = <String, Set<String>>{};
+      for (var seed = 0; seed < 30; seed++) {
+        for (final question in roundFrom(everything(), seed: seed)) {
+          byFact.putIfAbsent(question.fact, () => <String>{}).add(question.id);
+        }
+      }
+
+      final tradition = byFact['tradition:ibn-sina'] ?? const <String>{};
+      expect(
+        tradition.where((id) => id.startsWith('which-tradition:')),
+        isNotEmpty,
+        reason: 'the four-option form does not report this fact',
+      );
+      expect(
+        tradition.where((id) => id.startsWith('asked-tradition:')),
+        isNotEmpty,
+        reason: 'the yes-or-no form does not report this fact',
+      );
+    });
+
     test('never asks the same question twice', () {
       final round = roundFrom(everything(), length: QuizBuilder.roundLength);
       expect(
@@ -369,6 +454,120 @@ void main() {
         length: 40,
       ).map((question) => question.format).toSet();
       expect(formats, containsAll(QuizFormat.values));
+    });
+  });
+
+  group('The catalogue of facts', () {
+    // The denominator of the reader's level. It has to be a property of the
+    // corpus, knowable without playing and stable across rounds — otherwise
+    // the top rank moves as questions are answered, and a reader who has
+    // answered everything can still be short of it.
+
+    test('every fact a round produces is in the catalogue', () {
+      final catalogue = QuizBuilder.factsFor(corpus, everything());
+      final missing = <String>{};
+      for (var seed = 0; seed < 200; seed++) {
+        for (final question in roundFrom(everything(), seed: seed)) {
+          if (!catalogue.contains(question.fact)) missing.add(question.fact);
+        }
+      }
+      expect(
+        missing,
+        isEmpty,
+        reason:
+            'the builder asks about facts the catalogue does not count, so '
+            'the level can never reach the top: ${missing.take(10)}',
+      );
+    });
+
+    test('the catalogue promises nothing the builder cannot ask', () {
+      // The other direction. A fact counted but unaskable is a fact the reader
+      // can never master, which is the same defect seen from the other side.
+      //
+      // Two hundred rounds do not exhaust 1,395 facts, so this asserts the
+      // shapes match rather than every entry: every kind of fact the catalogue
+      // contains must be one the builder actually produces.
+      final catalogue = QuizBuilder.factsFor(corpus, everything());
+      final produced = <String>{};
+      for (var seed = 0; seed < 200; seed++) {
+        for (final question in roundFrom(everything(), seed: seed)) {
+          produced.add(question.fact.split(':').first);
+        }
+      }
+      final promised = catalogue.map((fact) => fact.split(':').first).toSet();
+      expect(
+        promised.difference(produced),
+        isEmpty,
+        reason: 'the catalogue counts a kind of fact no round ever asks',
+      );
+    });
+
+    test('is bounded, so a reader can finish it', () {
+      // `contemporary` was keyed to a pair of philosophers, and every dated
+      // philosopher pairs with every other: 191 of them produced 6,214 facts.
+      // A denominator that grows with the square of the corpus is one nobody
+      // reaches the end of.
+      final catalogue = QuizBuilder.factsFor(corpus, everything());
+      expect(catalogue, hasLength(greaterThan(500)));
+      expect(
+        catalogue,
+        hasLength(lessThan(corpus.allEntities.length * 12)),
+        reason:
+            'the catalogue has ${catalogue.length} facts for '
+            '${corpus.allEntities.length} entries, which is not a number '
+            'anyone works through',
+      );
+    });
+
+    test('grows only with what the reader has read', () {
+      const plato = EntityRef(EntityKind.philosopher, 'plato');
+      final one = QuizBuilder.factsFor(corpus, <EntityRef>{plato});
+      final none = QuizBuilder.factsFor(corpus, const <EntityRef>{});
+
+      expect(none, isEmpty);
+      expect(one, isNotEmpty);
+      expect(
+        one.every(
+          (fact) => fact.contains('plato') || fact.startsWith('who-said:'),
+        ),
+        isTrue,
+        reason: 'reading one entry counted facts about others: $one',
+      );
+    });
+  });
+
+  group('Variety', () {
+    test('a round is not the same six shapes every time', () {
+      // The reported complaint: the quiz reads identically each round. Six
+      // kinds over eight questions means most rounds hold two of something.
+      final kinds = <String>{
+        for (final question in across(seeds: 30)) question.id.split(':').first,
+      };
+      expect(
+        kinds,
+        hasLength(greaterThanOrEqualTo(12)),
+        reason: 'only ${kinds.length} kinds of question exist: $kinds',
+      );
+    });
+
+    test('both formats keep appearing', () {
+      // Choosing one phrasing per fact by lot is what keeps this true. Keeping
+      // whichever arrived first would decide it by the order the builders run
+      // in, and the yes-or-no form is offered second for both tradition and
+      // authorship — so it would have vanished entirely.
+      var trueFalse = 0;
+      var multiple = 0;
+      for (var seed = 0; seed < 20; seed++) {
+        for (final question in roundFrom(everything(), seed: seed)) {
+          if (question.format == QuizFormat.trueFalse) {
+            trueFalse++;
+          } else {
+            multiple++;
+          }
+        }
+      }
+      expect(trueFalse, greaterThan(20));
+      expect(multiple, greaterThan(20));
     });
   });
 
