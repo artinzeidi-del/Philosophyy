@@ -3319,6 +3319,820 @@
         "en": "The wording follows a standard English rendering; this entry has not pinned it to a located edition.",
         "fa": "عبارت، برگردانی انگلیسیِ معیار را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
       }
+    },
+    {
+      "id": "epictetus-not-things",
+      "text": {
+        "en": "It is not things that disturb people, but their judgements about things.",
+        "fa": "آنچه آدمیان را آشفته می‌کند چیزها نیستند، داوری‌های آنان دربارهٔ چیزهاست."
+      },
+      "speaker": "epictetus",
+      "attribution": "verified",
+      "citation": { "source": "epictetus-enchiridion", "locator": "5" },
+      "context": {
+        "en": "The sentence Stoic therapy is built on, and the one modern cognitive therapy took directly. Epictetus adds that death is not terrible, since it did not seem so to Socrates, and that the terrible part is the judgement.",
+        "fa": "جمله‌ای که درمانِ رواقی بر آن بنا شده، و درمانِ شناختیِ امروز مستقیم از آن گرفت. اپیکتتوس می‌افزاید که مرگ هولناک نیست، چون برای سقراط چنین نمی‌نمود، و آنچه هولناک است داوری است."
+      }
+    },
+    {
+      "id": "epictetus-in-our-power",
+      "text": {
+        "en": "Some things are in our power, and some are not.",
+        "fa": "پاره‌ای چیزها در توانِ ماست و پاره‌ای نه."
+      },
+      "speaker": "epictetus",
+      "attribution": "verified",
+      "citation": { "source": "epictetus-enchiridion", "locator": "1" },
+      "context": {
+        "en": "The first line of the handbook and the division the whole of it depends on. Epictetus had been a slave, and the distinction is drawn by someone for whom almost nothing external had ever been in his power.",
+        "fa": "نخستین سطرِ آن دستنامه و تقسیمی که تمامِ آن به آن وابسته است. اپیکتتوس برده بوده است، و این تمایز را کسی می‌کشد که تقریباً هیچ چیزِ بیرونی هرگز در توانش نبوده."
+      }
+    },
+    {
+      "id": "confucius-not-impose",
+      "text": {
+        "en": "What you do not want done to yourself, do not do to others.",
+        "fa": "آنچه بر خود نمی‌پسندی بر دیگران مپسند."
+      },
+      "originalText": "己所不欲，勿施於人",
+      "speaker": "confucius",
+      "attribution": "verified",
+      "citation": { "source": "confucius-analects", "locator": "15.24" },
+      "context": {
+        "en": "Offered as the answer to a disciple who asked for a single word to practise all one's life. The word Confucius gives is shu, usually rendered reciprocity, and the sentence is his gloss on it.",
+        "fa": "در پاسخ به شاگردی آمده که واژه‌ای یگانه خواسته بود تا همهٔ عمر به کارش بندد. واژه‌ای که کنفوسیوس می‌دهد «شو» است، که معمولاً «متقابل‌بودن» ترجمه می‌شود، و این جمله شرحِ اوست بر آن."
+      }
+    },
+    {
+      "id": "confucius-learning",
+      "text": {
+        "en": "To learn and at due times to practise what one has learnt — is that not a pleasure?",
+        "fa": "آموختن و به‌هنگام به کار بستنِ آموخته — آیا این لذت نیست؟"
+      },
+      "speaker": "confucius",
+      "attribution": "verified",
+      "citation": { "source": "confucius-analects", "locator": "1.1" },
+      "context": {
+        "en": "The opening line of the Analects. What it puts first is not a doctrine but a way of spending time, and the two questions that follow it are about friendship and about not minding being unrecognised.",
+        "fa": "نخستین سطرِ «مکالمات». آنچه در آغاز می‌نهد نه آموزه‌ای که شیوه‌ای از گذراندنِ وقت است، و دو پرسشِ پس از آن دربارهٔ دوستی است و دربارهٔ اینکه ناشناخته‌ماندن را به دل نگیری."
+      }
+    },
+    {
+      "id": "laozi-way-that-can-be-spoken",
+      "text": {
+        "en": "The way that can be spoken of is not the constant way.",
+        "fa": "راهی که بتوان از آن سخن گفت، راهِ پایدار نیست."
+      },
+      "originalText": "道可道，非常道",
+      "speaker": "laozi",
+      "attribution": "verified",
+      "citation": { "source": "text-daodejing", "locator": "ch. 1" },
+      "context": {
+        "en": "The first line, and a warning about everything that follows it. The book proceeds to speak of the way for eighty more chapters, which is either a contradiction or the point.",
+        "fa": "نخستین سطر، و هشداری دربارهٔ هرآنچه پس از آن می‌آید. کتاب هشتاد فصلِ دیگر از «راه» سخن می‌گوید، که یا تناقض است یا خودِ نکته."
+      }
+    },
+    {
+      "id": "nagarjuna-no-difference",
+      "text": {
+        "en": "There is not the slightest difference between cyclic existence and nirvana.",
+        "fa": "میان چرخهٔ هستی و نیروانا کوچک‌ترین تفاوتی نیست."
+      },
+      "speaker": "nagarjuna",
+      "attribution": "verified",
+      "citation": { "source": "nagarjuna-mmk", "locator": "25.19" },
+      "context": {
+        "en": "Among the most radical lines in Buddhist philosophy, and read in opposite directions ever since — as saying that liberation is here, and as saying that both terms are empty and neither names a place.",
+        "fa": "از رادیکال‌ترین سطرهای فلسفهٔ بودایی، و از آن پس در دو جهتِ متضاد خوانده شده — یکی اینکه رهایی همین‌جاست، و دیگری اینکه هر دو اصطلاح تهی‌اند و هیچ‌کدام نامِ جایی نیست."
+      }
+    },
+    {
+      "id": "ibn-sina-floating-man",
+      "text": {
+        "en": "Suppose a man created at a stroke, suspended in air, his limbs apart, seeing nothing and touching nothing.",
+        "fa": "مردی را فرض کن که یکباره آفریده شده، در هوا معلق، اندام‌هایش از هم جدا، نه چیزی می‌بیند و نه چیزی لمس می‌کند."
+      },
+      "speaker": "ibn-sina",
+      "attribution": "verified",
+      "citation": { "source": "avicenna-shifa", "locator": "De anima I.1" },
+      "context": {
+        "en": "The floating man, six hundred years before Descartes's demon and doing similar work: Ibn Sina argues that such a person would still affirm his own existence, and concludes that the self is known without the body.",
+        "fa": "«مردِ معلق»، ششصد سال پیش از دیوِ دکارت و در کاری همانند: ابن‌سینا می‌گوید چنین کسی باز هم بودنِ خود را تصدیق می‌کند، و نتیجه می‌گیرد که خویشتن بی‌واسطهٔ بدن دانسته می‌شود."
+      }
+    },
+    {
+      "id": "al-ghazali-doubt",
+      "text": {
+        "en": "I therefore said to myself: to begin with, what I am looking for is knowledge of what things really are.",
+        "fa": "پس با خود گفتم: نخست، آنچه می‌جویم دانستنِ آن است که چیزها حقیقتاً چیستند."
+      },
+      "speaker": "al-ghazali",
+      "attribution": "verified",
+      "citation": { "source": "ghazali-munqidh", "locator": "Part I" },
+      "context": {
+        "en": "Al-Ghazali's account of his own breakdown and recovery, written after he abandoned the most prestigious chair in the Islamic world. The method of doubt he describes reaches further than Descartes's and stops at a different place.",
+        "fa": "روایتِ غزالی از فروپاشی و بهبودِ خودش، پس از آنکه معتبرترین کرسیِ جهان اسلام را رها کرد. روشِ شکی که وصف می‌کند از روشِ دکارت دورتر می‌رود و در جای دیگری می‌ایستد."
+      }
+    },
+    {
+      "id": "al-ghazali-causation",
+      "text": {
+        "en": "The connection between what is habitually believed to be a cause and what is believed to be an effect is not necessary.",
+        "fa": "پیوند میان آنچه عادتاً علت پنداشته می‌شود و آنچه معلول پنداشته می‌شود، ضروری نیست."
+      },
+      "speaker": "al-ghazali",
+      "attribution": "verified",
+      "citation": { "source": "ghazali-tahafut", "locator": "Discussion 17" },
+      "context": {
+        "en": "Seven centuries before Hume, and reached from the opposite direction: al-Ghazali wants to leave room for miracles, Hume wants to leave room for nothing at all. The argument about what observation can establish is the same.",
+        "fa": "هفت قرن پیش از هیوم، و از جهتِ مخالف بدان رسیده: غزالی می‌خواهد برای معجزه جا باز کند، هیوم می‌خواهد برای هیچ چیز جا باز نکند. استدلال دربارهٔ آنچه مشاهده می‌تواند اثبات کند یکی است."
+      }
+    },
+    {
+      "id": "ibn-rushd-harmony",
+      "text": {
+        "en": "Truth does not contradict truth but is consistent with it and bears witness to it.",
+        "fa": "حقیقت با حقیقت ناسازگار نیست، بلکه با آن سازگار است و بر آن گواهی می‌دهد."
+      },
+      "speaker": "ibn-rushd",
+      "attribution": "verified",
+      "citation": { "source": "text-fasl-al-maqal" },
+      "context": {
+        "en": "Written as a legal opinion rather than a treatise: Ibn Rushd was a judge, and the question before him was whether studying philosophy is permitted. His answer is that if revelation is true and demonstration is valid, they cannot conflict.",
+        "fa": "نه به‌صورت رساله که چون فتوایی حقوقی نوشته شده: ابن‌رشد قاضی بود، و پرسشِ پیشِ رویش این بود که آیا خواندنِ فلسفه رواست. پاسخش این است که اگر وحی راست باشد و برهان معتبر، نمی‌توانند در تعارض باشند."
+      }
+    },
+    {
+      "id": "dubois-double-consciousness",
+      "text": {
+        "en": "One ever feels his twoness — an American, a Negro; two souls, two thoughts, two unreconciled strivings.",
+        "fa": "آدمی همواره دوگانگی‌اش را حس می‌کند — یک آمریکایی، یک سیاه‌پوست؛ دو روح، دو اندیشه، دو کوششِ آشتی‌نیافته."
+      },
+      "speaker": "du-bois",
+      "attribution": "verified",
+      "citation": { "source": "dubois-souls", "locator": "ch. 1" },
+      "context": {
+        "en": "Du Bois is describing a way of seeing yourself through the eyes of a world that holds you in contempt, and treating it as a source of knowledge rather than only of pain.",
+        "fa": "دوبویز شیوه‌ای از دیدنِ خود را از چشمِ جهانی وصف می‌کند که تو را خوار می‌دارد، و آن را نه فقط سرچشمهٔ رنج، که سرچشمهٔ شناخت می‌داند."
+      }
+    },
+    {
+      "id": "hypatia-reserve-right",
+      "text": {
+        "en": "Reserve your right to think, for even to think wrongly is better than not to think at all.",
+        "fa": "حقِ اندیشیدن را برای خود نگه دار، که حتی نادرست اندیشیدن بهتر از اصلاً نیندیشیدن است."
+      },
+      "speaker": "hypatia",
+      "attribution": "misattributed",
+      "attributionNote": {
+        "en": "Attributed to Hypatia everywhere and traceable to no ancient source. Nothing she wrote survives, and the earliest appearance of this sentence is modern. What is known of her thought comes through her student Synesius.",
+        "fa": "همه‌جا به هوپاتیا نسبت داده می‌شود و به هیچ منبع باستانی ردیابی نمی‌شود. هیچ نوشته‌ای از او نمانده، و کهن‌ترین پیدایشِ این جمله امروزی است. آنچه از اندیشهٔ او دانسته می‌شود از راه شاگردش سینسیوس می‌آید."
+      },
+      "actualSource": {
+        "en": "No ancient source. First recorded in modern collections of sayings.",
+        "fa": "هیچ منبع باستانی. نخستین بار در مجموعه‌های امروزیِ سخنان ثبت شده است."
+      }
+    },
+    {
+      "id": "descartes-good-sense",
+      "text": {
+        "en": "Good sense is the most evenly distributed thing in the world.",
+        "fa": "عقلِ سلیم، برابرترین چیزِ توزیع‌شده در جهان است."
+      },
+      "originalText": "Le bon sens est la chose du monde la mieux partagée",
+      "speaker": "descartes",
+      "attribution": "verified",
+      "citation": { "source": "descartes-discourse", "locator": "Part I" },
+      "context": {
+        "en": "The opening of the Discourse, and a joke: Descartes's evidence is that nobody wishes for more of it than they have. What follows is his argument that the difference between people is method, not capacity.",
+        "fa": "آغازِ «گفتار»، و یک شوخی: دلیلِ دکارت این است که هیچ‌کس بیش از آنچه دارد آرزویش را نمی‌کند. آنچه پس از آن می‌آید استدلالِ اوست که تفاوتِ آدمیان در روش است نه در توانایی."
+      }
+    },
+    {
+      "id": "berkeley-esse-tag",
+      "text": {
+        "en": "Their being is to be perceived, nor is it possible they should have any existence out of the minds or thinking things which perceive them.",
+        "fa": "بودنِ آن‌ها ادراک‌شدن است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
+      },
+      "speaker": "berkeley",
+      "attribution": "misattributed",
+      "attributionNote": {
+        "en": "This is the sentence in the plain English it is usually reported in, and it is not what Berkeley wrote. His own words are 'Their esse is percipi', with two Latin terms inside the English — which is why the entry for the passage itself carries that wording.",
+        "fa": "این همان جمله است به انگلیسیِ ساده‌ای که معمولاً گزارش می‌شود، و آنچه برکلی نوشت نیست. واژه‌های خودِ او «Their esse is percipi» است، با دو اصطلاح لاتین در میانِ انگلیسی — و به همین سبب مدخلِ خودِ آن بند همان عبارت را دارد."
+      },
+      "actualSource": {
+        "en": "Berkeley, Principles of Human Knowledge §3, which reads 'Their esse is percipi'.",
+        "fa": "برکلی، «اصول شناخت آدمی»، بند سوم، که چنین است: «Their esse is percipi»."
+      }
+    },
+    {
+      "id": "plato-writing",
+      "text": {
+        "en": "Writing has this strange quality, and is very like painting: the creatures of painting stand like living beings, but if you ask them anything they keep a solemn silence.",
+        "fa": "نوشتن ویژگیِ غریبی دارد و بسیار به نقاشی می‌ماند: آفریده‌های نقاشی چون زندگان می‌ایستند، اما اگر چیزی از آنان بپرسی خاموشیِ باوقاری پیشه می‌کنند."
+      },
+      "speaker": "plato",
+      "attribution": "verified",
+      "citation": { "source": "text-phaedo" },
+      "context": {
+        "en": "Plato's objection to books, made in a book. He argues that writing cannot answer a question, cannot tell who should read it, and always needs its author's help — and then wrote for another forty years.",
+        "fa": "اعتراضِ افلاطون به کتاب، که در یک کتاب بیان شده است. می‌گوید نوشته نمی‌تواند پرسشی را پاسخ دهد، نمی‌تواند بگوید چه کسی باید بخواندش، و همیشه به یاریِ نویسنده‌اش نیاز دارد — و سپس چهل سالِ دیگر نوشت."
+      },
+      "attributionNote": {
+        "en": "The passage is from the Phaedrus, at 275d. This entry cites the Platonic corpus rather than a located edition of that dialogue, which is not among the sources the app carries.",
+        "fa": "این بند از «فایدروس»، ۲۷۵د است. این مدخل به مجموعهٔ آثار افلاطون ارجاع می‌دهد نه به ویراستی مشخص از آن گفت‌وگو، که در میان منابعِ این برنامه نیست."
+      }
+    },
+    {
+      "id": "aristotle-virtue-habit",
+      "text": {
+        "en": "We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.",
+        "fa": "با انجام کارهای عادلانه عادل می‌شویم، با کارهای معتدل معتدل، و با کارهای شجاعانه شجاع."
+      },
+      "speaker": "aristotle",
+      "attribution": "verified",
+      "citation": {
+        "source": "aristotle-nicomachean-ethics",
+        "locator": "1103a31"
+      },
+      "context": {
+        "en": "The claim that character is made rather than found, and the reason Aristotle thinks upbringing settles almost everything. It also makes the account circular in a way he addresses immediately afterwards.",
+        "fa": "این ادعا که منش ساخته می‌شود نه یافته، و دلیلِ اینکه ارسطو می‌پندارد پرورش تقریباً همه چیز را تعیین می‌کند. همچنین شرح را به‌گونه‌ای دوری می‌کند که او بی‌درنگ پس از آن بدان می‌پردازد."
+      }
+    },
+    {
+      "id": "kant-treat-humanity",
+      "text": {
+        "en": "Act so that you use humanity, in your own person as well as in the person of any other, always at the same time as an end, never merely as a means.",
+        "fa": "چنان رفتار کن که انسانیت را، چه در شخصِ خود و چه در شخصِ هر کسِ دیگر، همواره هم‌زمان چون غایت به کار بری، هرگز صرفاً چون وسیله."
+      },
+      "speaker": "kant",
+      "attribution": "verified",
+      "citation": { "source": "kant-groundwork", "locator": "4:429" },
+      "context": {
+        "en": "The formula of humanity. Note the word 'merely': Kant is not saying you may never use anyone, which would rule out asking directions — he is saying you may never use them in a way they could not consent to.",
+        "fa": "فرمولِ انسانیت. به واژهٔ «صرفاً» توجه کنید: کانت نمی‌گوید هرگز نباید از کسی استفاده کنی، که آن‌گاه پرسیدنِ نشانی هم ممنوع می‌شد — می‌گوید هرگز نباید به شیوه‌ای از او استفاده کنی که نتواند بدان رضایت دهد."
+      }
+    },
+    {
+      "id": "kant-enlightenment",
+      "text": {
+        "en": "Enlightenment is the human being's emergence from his self-incurred minority.",
+        "fa": "روشنگری، بیرون‌آمدنِ آدمی از نابالغیِ خودخواسته است."
+      },
+      "originalText": "Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit",
+      "speaker": "kant",
+      "attribution": "verified",
+      "citation": { "source": "kant-idea-universal-history" },
+      "context": {
+        "en": "Self-incurred, because the failing is not a lack of understanding but a lack of resolve to use it without another's guidance. The essay's motto is two Latin words: dare to know.",
+        "fa": "«خودخواسته»، چون این کاستی نه از نداشتنِ فهم که از نداشتنِ عزمِ به‌کار بردنِ آن بی‌راهنماییِ دیگری است. شعارِ آن جستار دو واژهٔ لاتین است: بدانستن دلیر باش."
+      },
+      "attributionNote": {
+        "en": "The passage is from 'An Answer to the Question: What Is Enlightenment?' (8:35). This entry cites the neighbouring 1784 essay rather than a located edition of that one, which the app does not carry.",
+        "fa": "این بند از «پاسخ به پرسش: روشنگری چیست؟» (۸:۳۵) است. این مدخل به جستارِ هم‌دورهٔ ۱۷۸۴ ارجاع می‌دهد نه به ویراستی مشخص از آن، که این برنامه ندارد."
+      }
+    },
+    {
+      "id": "nietzsche-become-who-you-are",
+      "text": {
+        "en": "What does your conscience say? You shall become the person you are.",
+        "fa": "وجدانت چه می‌گوید؟ باید همان کسی شوی که هستی."
+      },
+      "speaker": "nietzsche",
+      "attribution": "verified",
+      "citation": { "source": "nietzsche-gay-science", "locator": "§270" },
+      "context": {
+        "en": "Three lines long in the original, and unlike almost every modern use of it, phrased as a command. Becoming what you are is work in Nietzsche, not permission.",
+        "fa": "در اصل سه سطر است، و برخلافِ تقریباً هر کاربردِ امروزینش، به‌صورت فرمان بیان شده. «شدنِ آنچه هستی» نزد نیچه کار است، نه اجازه."
+      }
+    },
+    {
+      "id": "hegel-master-slave",
+      "text": {
+        "en": "Self-consciousness exists in and for itself in that, and by the fact that, it exists for another.",
+        "fa": "خودآگاهی در خود و برای خود هست، از آن رو و به این واقعیت که برای دیگری هست."
+      },
+      "speaker": "hegel",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-phenomenology-of-spirit",
+        "locator": "§178"
+      },
+      "context": {
+        "en": "The sentence that opens the master-slave dialectic, and the claim that made it matter to everyone from Marx to Fanon: a person cannot be a self alone, so recognition is not a courtesy but a condition.",
+        "fa": "جمله‌ای که دیالکتیکِ خدایگان و بنده را می‌گشاید، و همان ادعا که آن را برای همه، از مارکس تا فانون، مهم کرد: آدمی به‌تنهایی نمی‌تواند خویشتن باشد، پس به‌رسمیت‌شناخته‌شدن نه یک ادب که یک شرط است."
+      }
+    },
+    {
+      "id": "locke-toleration-limits",
+      "text": {
+        "en": "Neither pagan nor Mahometan nor Jew ought to be excluded from the civil rights of the commonwealth because of his religion.",
+        "fa": "نه مشرک، نه مسلمان و نه یهودی را نباید به سببِ دینش از حقوقِ مدنیِ کشور محروم کرد."
+      },
+      "speaker": "locke",
+      "attribution": "probable",
+      "context": {
+        "en": "From the Letter Concerning Toleration. Locke's list is broad for 1689 and stops short in two places he is often criticised for: atheists, whose promises he thought could not bind, and Catholics, whose allegiance he thought was foreign.",
+        "fa": "از «نامه‌ای دربارهٔ مدارا». فهرستِ لاک برای سال ۱۶۸۹ گسترده است و در دو جا کوتاه می‌آید که بارها بر او خرده گرفته‌اند: بی‌خدایان، که می‌پنداشت وعده‌هایشان الزام‌آور نیست، و کاتولیک‌ها، که وفاداری‌شان را بیگانه می‌دانست."
+      },
+      "attributionNote": {
+        "en": "From 'A Letter Concerning Toleration', which is not among the editions this app cites.",
+        "fa": "از «نامه‌ای دربارهٔ مدارا» است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "mill-silencing",
+      "text": {
+        "en": "If all mankind minus one were of one opinion, mankind would be no more justified in silencing that one person than he, if he had the power, would be justified in silencing mankind.",
+        "fa": "اگر تمامِ آدمیان جز یک تن یک عقیده داشتند، خاموش‌کردنِ آن یک تن از سویِ آدمیان همان‌قدر ناموجه بود که خاموش‌کردنِ آدمیان از سویِ او، اگر توانش را داشت."
+      },
+      "speaker": "mill",
+      "attribution": "verified",
+      "citation": { "source": "text-on-liberty", "locator": "ch. 2" },
+      "context": {
+        "en": "Mill's argument for free expression rests on the value to the hearers rather than on a right of the speaker: a silenced opinion may be true, and if false, its refutation is what keeps the true one from becoming a formula.",
+        "fa": "استدلالِ میل برای آزادیِ بیان بر ارزشِ آن برای شنوندگان استوار است نه بر حقِ گوینده: عقیدهٔ خاموش‌شده ممکن است درست باشد، و اگر نادرست باشد، ردِ آن است که نمی‌گذارد عقیدهٔ درست به فرمولی بی‌جان بدل شود."
+      }
+    },
+    {
+      "id": "marx-ruling-ideas",
+      "text": {
+        "en": "The ideas of the ruling class are in every epoch the ruling ideas.",
+        "fa": "اندیشه‌های طبقهٔ حاکم در هر دوره، اندیشه‌های حاکم‌اند."
+      },
+      "speaker": "marx",
+      "attribution": "probable",
+      "context": {
+        "en": "From The German Ideology, unpublished in Marx's lifetime. The claim is not that people are lied to but that the material means of producing ideas belong to the same people who own everything else.",
+        "fa": "از «ایدئولوژی آلمانی»، که در زمانِ زندگیِ مارکس منتشر نشد. ادعا این نیست که به مردم دروغ گفته می‌شود، بلکه این است که ابزارِ مادیِ تولیدِ اندیشه از آنِ همان کسانی است که باقیِ همه چیز را دارند."
+      },
+      "attributionNote": {
+        "en": "From 'The German Ideology', which is not among the editions this app cites.",
+        "fa": "از «ایدئولوژی آلمانی» است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "arendt-action",
+      "text": {
+        "en": "Action, the only activity that goes on directly between men without the intermediary of things or matter, corresponds to the human condition of plurality.",
+        "fa": "کنش، تنها فعالیتی که مستقیماً میان آدمیان و بی‌واسطهٔ چیزها یا ماده می‌گذرد، با وضعِ بشریِ کثرت متناظر است."
+      },
+      "speaker": "arendt",
+      "attribution": "verified",
+      "citation": { "source": "text-human-condition", "locator": "ch. 1" },
+      "context": {
+        "en": "Plurality, for Arendt, is not that there are many people but that no two are the same. If everyone were interchangeable there would be nothing to say to anyone, and politics would be a kind of administration.",
+        "fa": "«کثرت» نزد آرنت این نیست که آدمیان بسیارند، این است که هیچ دو تن یکسان نیستند. اگر همه جایگزین‌پذیر بودند، چیزی برای گفتن به کسی نبود، و سیاست گونه‌ای اداره‌گری می‌شد."
+      }
+    },
+    {
+      "id": "gadamer-prejudice",
+      "text": {
+        "en": "The prejudices of the individual, far more than his judgements, constitute the historical reality of his being.",
+        "fa": "پیش‌داوری‌های فرد، بسی بیش از داوری‌هایش، واقعیتِ تاریخیِ هستیِ او را می‌سازند."
+      },
+      "speaker": "gadamer",
+      "attribution": "verified",
+      "citation": { "source": "text-truth-and-method", "locator": "Part II" },
+      "context": {
+        "en": "Gadamer is reclaiming a word the Enlightenment made into an insult. A prejudice is a judgement made before the evidence is in, which is the condition of understanding anything at all rather than a failure to be avoided.",
+        "fa": "گادامر واژه‌ای را بازمی‌ستاند که روشنگری آن را به دشنام بدل کرد. پیش‌داوری، داوری‌ای است پیش از رسیدنِ شواهد، و این شرطِ فهمیدنِ هر چیزی است نه کاستی‌ای که باید از آن پرهیخت."
+      }
+    },
+    {
+      "id": "benjamin-barbarism",
+      "text": {
+        "en": "There is no document of civilisation which is not at the same time a document of barbarism.",
+        "fa": "هیچ سندِ تمدنی نیست که هم‌زمان سندِ بربریت نباشد."
+      },
+      "speaker": "benjamin",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-on-the-concept-of-history",
+        "locator": "VII"
+      },
+      "context": {
+        "en": "Written in 1940, months before Benjamin's death while fleeing occupied France. The thesis is about who wrote the histories: the cultural treasures a tradition hands on were carried there by the labour of people it does not name.",
+        "fa": "در ۱۹۴۰ نوشته شد، ماه‌ها پیش از مرگ بنیامین در گریز از فرانسهٔ اشغالی. این تز دربارهٔ آن است که چه کسی تاریخ‌ها را نوشت: گنجینه‌های فرهنگی‌ای که یک سنت دست‌به‌دست می‌کند، با کارِ کسانی به آنجا رسیده که نامشان را نمی‌برد."
+      }
+    },
+    {
+      "id": "adorno-wrong-life",
+      "text": {
+        "en": "There is no right life in the wrong one.",
+        "fa": "در زندگیِ نادرست، زندگیِ درستی نیست."
+      },
+      "originalText": "Es gibt kein richtiges Leben im falschen",
+      "speaker": "adorno",
+      "attribution": "verified",
+      "citation": { "source": "text-minima-moralia", "locator": "§18" },
+      "context": {
+        "en": "Adorno's most quoted line and among his most misread: it is not advice to give up, but a refusal of the idea that a person can arrange a decent private life inside an indecent order and call the problem solved.",
+        "fa": "پرنقل‌ترین سطرِ آدورنو و از پرغلط‌خوانده‌ترین‌هایش: اندرزی برای تسلیم نیست، ردِ این فکر است که کسی می‌تواند در دلِ نظمی نادرست، زندگیِ خصوصیِ آبرومندی سامان دهد و مسئله را حل‌شده بخواند."
+      }
+    },
+    {
+      "id": "habermas-force",
+      "text": {
+        "en": "The unforced force of the better argument.",
+        "fa": "نیروی بی‌زورِ استدلالِ بهتر."
+      },
+      "speaker": "habermas",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-theory-communicative-action",
+        "locator": "Volume I"
+      },
+      "context": {
+        "en": "The phrase Habermas's whole programme rests on. If the only pressure in a conversation is what the reasons themselves exert, then agreement reached under it means something; anything else is a settlement rather than a conclusion.",
+        "fa": "عبارتی که تمامِ برنامهٔ هابرماس بر آن استوار است. اگر تنها فشارِ موجود در گفت‌وگو همان باشد که خودِ دلیل‌ها وارد می‌کنند، آن‌گاه توافقِ حاصل از آن معنایی دارد؛ هرچه جز این، مصالحه است نه نتیجه."
+      }
+    },
+    {
+      "id": "sor-juana-reason",
+      "text": {
+        "en": "I have never written of my own choice, but at the urging of others.",
+        "fa": "هرگز به خواستِ خود ننوشته‌ام، بلکه به اصرارِ دیگران."
+      },
+      "speaker": "sor-juana",
+      "attribution": "probable",
+      "citation": { "source": "text-respuesta" },
+      "context": {
+        "en": "Written to a bishop who had published her private criticism of a sermon under a woman's pseudonym, in order to shame her back to devotional work. The letter is a defence of a woman's right to study, framed throughout as an apology.",
+        "fa": "خطاب به اسقفی نوشته شده که نقدِ خصوصیِ او بر یک خطابه را با نامِ مستعارِ زنانه منتشر کرده بود تا شرمنده‌اش کند و به کارِ عبادی بازش گرداند. این نامه دفاعی است از حقِ زن برای آموختن، که سراسر در قالبِ پوزش‌خواهی ریخته شده."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering of the Respuesta; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردان انگلیسیِ معیارِ «پاسخ» را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "vico-verum-factum",
+      "text": {
+        "en": "The true and the made are convertible.",
+        "fa": "حقیقت و ساخته‌شده، قابلِ تبدیل به یکدیگرند."
+      },
+      "originalText": "verum esse ipsum factum",
+      "speaker": "vico",
+      "attribution": "verified",
+      "citation": { "source": "text-scienza-nuova" },
+      "context": {
+        "en": "Vico's principle, and the reason he thought history could be a science while nature could not: we can know what we made, and we made societies, laws and languages. God made the rest.",
+        "fa": "اصلِ ویکو، و دلیلِ اینکه می‌پنداشت تاریخ می‌تواند دانش باشد و طبیعت نه: می‌توانیم آنچه ساخته‌ایم بدانیم، و ما جامعه‌ها و قانون‌ها و زبان‌ها را ساخته‌ایم. باقی را خدا ساخت."
+      }
+    },
+    {
+      "id": "cusa-learned-ignorance",
+      "text": {
+        "en": "The more he knows that he is unknowing, the more learned he will be.",
+        "fa": "هرچه بیشتر بداند که نمی‌داند، داناتر خواهد بود."
+      },
+      "speaker": "nicholas-of-cusa",
+      "attribution": "verified",
+      "citation": { "source": "text-de-docta-ignorantia", "locator": "I.1" },
+      "context": {
+        "en": "Not the Socratic point but a mathematical one: Nicholas argues that the infinite cannot be reached by any finite number of steps, so the gap between what we know and what there is to know does not shrink as we learn.",
+        "fa": "نه نکتهٔ سقراطی که نکته‌ای ریاضی است: نیکولاس می‌گوید بی‌نهایت با هیچ شمارِ متناهی از گام‌ها به دست نمی‌آید، پس فاصلهٔ میانِ آنچه می‌دانیم و آنچه دانستنی است با آموختن کم نمی‌شود."
+      }
+    },
+    {
+      "id": "abelard-doubting",
+      "text": {
+        "en": "By doubting we come to inquiry, and by inquiry we perceive the truth.",
+        "fa": "با شک به پژوهش می‌رسیم، و با پژوهش حقیقت را درمی‌یابیم."
+      },
+      "originalText": "dubitando quippe ad inquisitionem venimus; inquirendo veritatem percipimus",
+      "speaker": "abelard",
+      "attribution": "verified",
+      "citation": { "source": "text-sic-et-non", "locator": "Prologue" },
+      "context": {
+        "en": "The preface to a book that sets 158 questions and then lines up the authorities contradicting each other on every one, without resolving them. The method was the scandal; the prologue is its defence.",
+        "fa": "دیباچهٔ کتابی که ۱۵۸ پرسش طرح می‌کند و سپس مراجعِ متناقض را در برابرِ هر یک ردیف می‌کند، بی‌آنکه حل‌شان کند. رسوایی در همان روش بود؛ این دیباچه دفاعِ آن است."
+      }
+    },
+    {
+      "id": "eriugena-nature",
+      "text": {
+        "en": "Nature is the general name for all things that are and that are not.",
+        "fa": "«طبیعت» نامِ عامِ همهٔ چیزهایی است که هستند و که نیستند."
+      },
+      "speaker": "eriugena",
+      "attribution": "verified",
+      "citation": { "source": "text-periphyseon", "locator": "I.1" },
+      "context": {
+        "en": "The first sentence of the book, and a division that put it on the Index for four hundred years: if what is not falls under nature too, then God is inside the scheme rather than outside it.",
+        "fa": "نخستین جملهٔ کتاب، و تقسیمی که آن را چهارصد سال در فهرستِ کتاب‌های ممنوع نگه داشت: اگر آنچه نیست هم زیرِ «طبیعت» بیاید، آن‌گاه خدا درونِ این طرح است نه بیرونِ آن."
+      }
+    },
+    {
+      "id": "scotus-haecceity",
+      "text": {
+        "en": "Individuation is not by matter, nor by quantity, but by an ultimate reality of the being itself.",
+        "fa": "تشخص نه به ماده است و نه به کمیت، که به واقعیتی نهایی در خودِ آن هستی است."
+      },
+      "speaker": "scotus",
+      "attribution": "probable",
+      "citation": { "source": "text-ordinatio" },
+      "context": {
+        "en": "Scotus's answer to what makes Socrates this man rather than merely a man. His term for it, thisness, is the source of one of the few technical words in medieval philosophy that later philosophers kept.",
+        "fa": "پاسخ اسکوتوس به این پرسش که چه چیز سقراط را «این» مرد می‌کند نه صرفاً «یک» مرد. اصطلاح او برای آن، «این‌بودگی»، سرچشمهٔ یکی از معدود واژه‌های فنیِ فلسفهٔ قرون وسطاست که فیلسوفان بعدی نگه داشتند."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering of the argument in the Ordinatio; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردان انگلیسیِ معیارِ استدلال در «اوردیناتیو» را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "hildegard-viriditas",
+      "text": {
+        "en": "The soul is the greening power of the flesh.",
+        "fa": "روح، نیروی سرسبزیِ تن است."
+      },
+      "speaker": "hildegard",
+      "attribution": "probable",
+      "citation": { "source": "text-scivias" },
+      "context": {
+        "en": "Viriditas — greenness — is Hildegard's own term and runs through her medicine, her theology and her music. It names the vitality she thought ran through creation and could be lost, in a plant or a person, in the same way.",
+        "fa": "«ویریدیتاس» — سرسبزی — اصطلاحِ خودِ هیلدگارد است و در پزشکی و الهیات و موسیقیِ او جاری است. نامِ آن سرزندگی است که به گمانِ او در آفرینش روان بود و می‌شد آن را، در گیاه یا در آدمی، به یک شکل از دست داد."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردانی انگلیسیِ معیار را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "bruno-infinite",
+      "text": {
+        "en": "There is a single general space, a single vast immensity which we may freely call void.",
+        "fa": "یک فضای عامِ یگانه هست، یک بی‌کرانگیِ پهناورِ یگانه که آزادانه می‌توانیم خلأش بخوانیم."
+      },
+      "speaker": "bruno",
+      "attribution": "verified",
+      "citation": { "source": "text-de-linfinito", "locator": "Dialogue I" },
+      "context": {
+        "en": "Bruno argued for infinitely many worlds with suns of their own, thirty years before a telescope existed. He was burned in Rome in 1600, and the charges were theological rather than astronomical.",
+        "fa": "برونو سی سال پیش از آنکه تلسکوپی وجود داشته باشد، از بی‌نهایت جهان با خورشیدهای خودشان دفاع کرد. در ۱۶۰۰ در رم سوزانده شد، و اتهام‌ها الهیاتی بود نه نجومی."
+      }
+    },
+    {
+      "id": "ibn-tufayl-hayy",
+      "text": {
+        "en": "He came to know that the being who had brought all this into existence must be beyond anything perceived by the senses.",
+        "fa": "بدین دانش رسید که آن هستی که همهٔ این‌ها را پدید آورده، ناچار فراتر از هرچه حواس درمی‌یابد است."
+      },
+      "speaker": "ibn-tufayl",
+      "attribution": "probable",
+      "citation": { "source": "text-hayy-ibn-yaqzan" },
+      "context": {
+        "en": "Hayy grows up alone on an island and reaches the whole of philosophy by observation and reasoning. The book was translated into Latin in 1671 and read across Europe as a demonstration of what unaided reason could reach.",
+        "fa": "حَی تنها بر جزیره‌ای بزرگ می‌شود و با مشاهده و استدلال به تمامِ فلسفه می‌رسد. این کتاب در ۱۶۷۱ به لاتین برگردانده شد و در سراسر اروپا چون نمایشی از آنچه عقلِ بی‌یاور بدان می‌رسد خوانده شد."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردانی انگلیسیِ معیار را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "al-biruni-india",
+      "text": {
+        "en": "I first state their doctrine as they hold it, and then confront it with the theories of others.",
+        "fa": "نخست آموزهٔ آنان را چنان‌که خود دارند بیان می‌کنم، و سپس آن را با نظریه‌های دیگران رویارو می‌سازم."
+      },
+      "speaker": "al-biruni",
+      "attribution": "probable",
+      "citation": { "source": "text-tahqiq-ma-li-l-hind" },
+      "context": {
+        "en": "Al-Biruni learned Sanskrit in order to write the book, and stated his method in the preface. What he describes is close to what a modern anthropologist would claim to be doing, in the eleventh century.",
+        "fa": "بیرونی سنسکریت آموخت تا این کتاب را بنویسد، و روشش را در دیباچه بیان کرد. آنچه وصف می‌کند به آنچه یک مردم‌شناسِ امروزی ادعا می‌کند انجام می‌دهد نزدیک است، در سدهٔ یازدهم."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering of the preface; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردان انگلیسیِ معیارِ دیباچه را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "abu-bakr-al-razi-reason",
+      "text": {
+        "en": "The Creator gave us reason so that we might obtain by it every benefit that we can.",
+        "fa": "آفریدگار به ما عقل داد تا با آن هر سودی را که می‌توانیم به دست آوریم."
+      },
+      "speaker": "al-razi",
+      "attribution": "probable",
+      "citation": { "source": "text-al-tibb-al-ruhani" },
+      "context": {
+        "en": "Al-Razi held that reason is enough and that prophecy is unnecessary, which is close to the most heterodox position anyone held in medieval Islam and survives mostly through the writings of those refuting him.",
+        "fa": "رازی بر آن بود که عقل بس است و نبوت لازم نیست، که به رادیکال‌ترین موضعی نزدیک است که کسی در اسلامِ قرون وسطا داشت، و بیشتر از راهِ نوشته‌های ردکنندگانش بازمانده است."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering; this entry has not pinned it to a located edition.",
+        "fa": "عبارت، برگردانی انگلیسیِ معیار را دنبال می‌کند؛ این مدخل آن را در ویراستی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "ockham-razor",
+      "text": {
+        "en": "It is pointless to do with more what can be done with fewer.",
+        "fa": "بیهوده است که با بیشتر انجام دهی آنچه را با کمتر می‌توان انجام داد."
+      },
+      "originalText": "frustra fit per plura quod potest fieri per pauciora",
+      "speaker": "ockham",
+      "attribution": "probable",
+      "citation": { "source": "text-summa-logicae" },
+      "context": {
+        "en": "The principle everyone calls Ockham's razor, in a form he did use. The one usually quoted — entities are not to be multiplied beyond necessity — appears nowhere in his writings and was put into circulation centuries later.",
+        "fa": "اصلی که همه آن را «تیغ اوکام» می‌خوانند، به صورتی که او به کار می‌برد. صورتی که معمولاً نقل می‌شود — که موجودات را نباید بیش از ضرورت افزود — در هیچ نوشتهٔ او نیست و قرن‌ها بعد رواج یافت."
+      },
+      "attributionNote": {
+        "en": "Ockham states the principle in several places and in several wordings; this entry has not pinned this one to a located passage.",
+        "fa": "اوکام این اصل را در چند جا و به چند عبارت بیان می‌کند؛ این مدخل این یکی را در بندی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "husserl-things-themselves",
+      "text": {
+        "en": "We must go back to the things themselves.",
+        "fa": "باید به خودِ چیزها بازگردیم."
+      },
+      "originalText": "zu den Sachen selbst",
+      "speaker": "husserl",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-logical-investigations",
+        "locator": "Volume II, Introduction"
+      },
+      "context": {
+        "en": "The slogan phenomenology is known by, and a methodological instruction rather than a metaphysical claim: describe what is given before theorising about what lies behind it.",
+        "fa": "شعاری که پدیدارشناسی با آن شناخته می‌شود، و دستوری روش‌شناختی است نه ادعایی متافیزیکی: پیش از نظریه‌پردازی دربارهٔ آنچه پشتِ آن است، آنچه را داده شده وصف کن."
+      }
+    },
+    {
+      "id": "merleau-ponty-body",
+      "text": {
+        "en": "I am not in front of my body, I am in it, or rather I am it.",
+        "fa": "من در برابرِ بدنم نیستم، در آنم، یا بهتر بگویم من همان‌ام."
+      },
+      "speaker": "merleau-ponty",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-phenomenology-of-perception",
+        "locator": "Part I, ch. 3"
+      },
+      "context": {
+        "en": "Written against both Descartes and the psychologists: the body is not an object I own and inspect, and it is not a machine my mind steers. It is the point of view from which there is a world at all.",
+        "fa": "در برابرِ هم دکارت و هم روان‌شناسان نوشته شده: بدن نه شیئی است که داشته باشم و وارسی‌اش کنم، و نه ماشینی که ذهنم برانَد. همان دیدگاهی است که از آن اصلاً جهانی هست."
+      }
+    },
+    {
+      "id": "frege-sense",
+      "text": {
+        "en": "The morning star is the same as the evening star, and yet the two names do not have the same sense.",
+        "fa": "ستارهٔ صبح همان ستارهٔ شامگاه است، و با این حال آن دو نام یک معنا ندارند."
+      },
+      "speaker": "frege",
+      "attribution": "verified",
+      "citation": { "source": "text-frege-sinn-bedeutung" },
+      "context": {
+        "en": "The example that opened analytic philosophy's question about meaning. If names only picked things out, the statement would be as empty as 'the morning star is the morning star', and it is not.",
+        "fa": "نمونه‌ای که پرسشِ فلسفهٔ تحلیلی دربارهٔ معنا را گشود. اگر نام‌ها تنها چیزها را نشان می‌دادند، این گزاره همان‌قدر تهی می‌بود که «ستارهٔ صبح همان ستارهٔ صبح است»، و نیست."
+      }
+    },
+    {
+      "id": "russell-doubt",
+      "text": {
+        "en": "The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.",
+        "fa": "تمامِ مشکلِ جهان این است که نادانان و متعصبان همیشه چنین به خود مطمئن‌اند، و خردمندترها چنین آکنده از تردید."
+      },
+      "speaker": "russell",
+      "attribution": "probable",
+      "context": {
+        "en": "From a 1933 essay, and the sentence Russell is most quoted for. He was writing about the political situation in Germany that year.",
+        "fa": "از جستاری در ۱۹۳۳، و جمله‌ای که راسل بیش از همه بدان نقل می‌شود. آن سال دربارهٔ وضعِ سیاسیِ آلمان می‌نوشت."
+      },
+      "attributionNote": {
+        "en": "From 'The Triumph of Stupidity', 1933, which is not among the editions this app cites.",
+        "fa": "از «پیروزیِ حماقت» (۱۹۳۳) است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "russell-philosophy-value",
+      "text": {
+        "en": "Philosophy is to be studied, not for the sake of any definite answers to its questions, but rather for the sake of the questions themselves.",
+        "fa": "فلسفه را نه برای پاسخ‌های معینی به پرسش‌هایش، که برای خودِ آن پرسش‌ها باید آموخت."
+      },
+      "speaker": "russell",
+      "attribution": "verified",
+      "citation": {
+        "source": "text-problems-of-philosophy",
+        "locator": "ch. 15"
+      },
+      "context": {
+        "en": "The last chapter of a short book written for people who had never read any. Russell's argument is that the questions enlarge what a person can think, and that they leave philosophy for the sciences as soon as they become answerable.",
+        "fa": "آخرین فصلِ کتابی کوتاه، نوشته‌شده برای کسانی که هرگز فلسفه نخوانده‌اند. استدلالِ راسل این است که این پرسش‌ها آنچه را آدمی می‌تواند بیندیشد بزرگ می‌کنند، و به‌محضِ آنکه پاسخ‌پذیر شوند فلسفه را ترک می‌کنند و به علوم می‌روند."
+      }
+    },
+    {
+      "id": "james-truth-cash-value",
+      "text": {
+        "en": "The true is the name of whatever proves itself to be good in the way of belief.",
+        "fa": "«درست» نامِ هر چیزی است که در راهِ باور، خود را خوب ثابت کند."
+      },
+      "speaker": "james",
+      "attribution": "verified",
+      "citation": { "source": "text-pragmatism-james", "locator": "Lecture II" },
+      "context": {
+        "en": "The claim critics read as saying that whatever is useful is true. James spent the rest of the book denying that reading, and arguing that what works in the long run is constrained by how things are.",
+        "fa": "ادعایی که منتقدان چنین خواندندش که هرچه سودمند است درست است. جیمز باقیِ کتاب را صرفِ انکارِ این خوانش کرد، و استدلال کرد که آنچه در درازمدت کار می‌کند به چگونگیِ چیزها مقید است."
+      }
+    },
+    {
+      "id": "dewey-education",
+      "text": {
+        "en": "Education is not preparation for life; education is life itself.",
+        "fa": "آموزش، آمادگی برای زندگی نیست؛ آموزش خودِ زندگی است."
+      },
+      "speaker": "dewey",
+      "attribution": "probable",
+      "citation": { "source": "text-democracy-and-education" },
+      "context": {
+        "en": "A compression of Dewey's argument rather than a sentence he wrote in this form. The claim in the book is that treating school as a waiting room makes the years spent in it worth nothing in themselves.",
+        "fa": "فشرده‌ای از استدلالِ دیویی است نه جمله‌ای که او به این صورت نوشته باشد. ادعای کتاب این است که رفتار با مدرسه چون اتاقِ انتظار، سال‌های گذرانده در آن را فی‌نفسه بی‌ارزش می‌کند."
+      },
+      "attributionNote": {
+        "en": "Circulates as a quotation in this exact wording, which does not appear in Dewey's books in this form. The thought is his and is argued at length in Democracy and Education.",
+        "fa": "به همین عبارتِ دقیق چون نقل‌قول در گردش است، که به این صورت در کتاب‌های دیویی نیست. اندیشه از اوست و در «دموکراسی و آموزش» به‌تفصیل استدلال شده است."
+      }
+    },
+    {
+      "id": "peirce-belief",
+      "text": {
+        "en": "The essence of belief is the establishment of a habit.",
+        "fa": "گوهرِ باور، برقرارکردنِ یک عادت است."
+      },
+      "speaker": "peirce",
+      "attribution": "probable",
+      "context": {
+        "en": "From 'How to Make Our Ideas Clear', 1878, the paper pragmatism starts from. Peirce's test for what an idea means is what difference it would make to what you do.",
+        "fa": "از «چگونه اندیشه‌هایمان را روشن کنیم» (۱۸۷۸)، مقاله‌ای که عمل‌گرایی از آن آغاز می‌شود. آزمونِ پیرس برای معنای یک اندیشه این است که چه تفاوتی در آنچه می‌کنی پدید می‌آورد."
+      },
+      "attributionNote": {
+        "en": "From the 1878 paper, which is not among the editions this app cites.",
+        "fa": "از مقالهٔ ۱۸۷۸ است، که در میان ویراست‌های مورد استناد این برنامه نیست."
+      }
+    },
+    {
+      "id": "mulla-sadra-motion",
+      "text": {
+        "en": "Substance itself is in motion, not merely its accidents.",
+        "fa": "خودِ جوهر در حرکت است، نه فقط اعراضِ آن."
+      },
+      "speaker": "mulla-sadra",
+      "attribution": "probable",
+      "citation": { "source": "sadra-asfar" },
+      "context": {
+        "en": "Substantial motion, the doctrine Mulla Sadra is remembered for. Aristotle had allowed things to change in quality, quantity and place while remaining the same substance; Sadra argues that the substance is itself renewed at every instant.",
+        "fa": "«حرکت جوهری»، آموزه‌ای که ملاصدرا با آن به یاد می‌ماند. ارسطو پذیرفته بود که چیزها در کیفیت و کمیت و مکان دگرگون شوند و همان جوهر بمانند؛ صدرا می‌گوید خودِ جوهر در هر آن نو می‌شود."
+      },
+      "attributionNote": {
+        "en": "The wording states the doctrine as the Asfar argues it; this entry has not pinned it to a located passage.",
+        "fa": "عبارت، آموزه را چنان‌که «اسفار» استدلال می‌کند بیان می‌کند؛ این مدخل آن را در بندی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "wang-yangming-knowledge-action",
+      "text": {
+        "en": "Knowledge is the beginning of action, and action is the completion of knowledge.",
+        "fa": "دانش آغازِ کنش است، و کنش کمالِ دانش."
+      },
+      "speaker": "wang-yangming",
+      "attribution": "probable",
+      "citation": { "source": "text-chuanxilu" },
+      "context": {
+        "en": "The unity of knowledge and action, argued against the reading of Zhu Xi that made study come first. Wang's claim is that someone who knows and does not act did not know, in the sense that matters.",
+        "fa": "یگانگیِ دانش و کنش، که در برابرِ خوانشِ جو شی استدلال شده که آموختن را مقدم می‌داشت. ادعای وانگ این است که کسی که می‌داند و عمل نمی‌کند، به آن معنایی که اهمیت دارد نمی‌دانست."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering of the Chuanxilu; this entry has not pinned it to a located passage.",
+        "fa": "عبارت، برگردان انگلیسیِ معیارِ «چوان‌شی‌لو» را دنبال می‌کند؛ این مدخل آن را در بندی مشخص جای‌گذاری نکرده است."
+      }
+    },
+    {
+      "id": "zhu-xi-investigation",
+      "text": {
+        "en": "The way to learning lies in investigating things and extending knowledge.",
+        "fa": "راهِ آموختن در کاویدنِ چیزها و گستردنِ دانش است."
+      },
+      "speaker": "zhu-xi",
+      "attribution": "probable",
+      "citation": { "source": "text-jinsilu" },
+      "context": {
+        "en": "Zhu Xi's programme, and the orthodoxy every later Chinese philosopher had to answer. The examination system taught his commentaries for six hundred years, which is why Wang Yangming's disagreement mattered so much.",
+        "fa": "برنامهٔ جو شی، و همان راست‌کیشی که هر فیلسوفِ چینیِ پس از او ناچار به پاسخ به آن بود. نظامِ آزمون‌ها ششصد سال شرح‌های او را می‌آموخت، و به همین سبب مخالفتِ وانگ یانگ‌مینگ چنین مهم بود."
+      },
+      "attributionNote": {
+        "en": "The wording follows a standard English rendering; this entry has not pinned it to a located passage.",
+        "fa": "عبارت، برگردانی انگلیسیِ معیار را دنبال می‌کند؛ این مدخل آن را در بندی مشخص جای‌گذاری نکرده است."
+      }
     }
   ]
 }

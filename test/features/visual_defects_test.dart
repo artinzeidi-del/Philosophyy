@@ -67,6 +67,25 @@ void main() {
       ]) {
         await pump(tester, '/', size: size);
         final tiles = find.byType(TileCard);
+        // Scrolled to rather than assumed on screen. The tiles sit under the
+        // daily quotation, whose length depends on which quotation the day
+        // picks — so adding quotations to the corpus pushed them out of the
+        // built range of the list and failed a test about tile width.
+        //
+        // A plain loop rather than `scrollUntilVisible`, which requires the
+        // finder to match exactly one widget once it arrives. There are four
+        // tiles and any of them will do.
+        for (
+          var attempt = 0;
+          attempt < 12 && tiles.evaluate().isEmpty;
+          attempt++
+        ) {
+          await tester.drag(
+            find.byType(Scrollable).first,
+            const Offset(0, -300),
+          );
+          await tester.pumpAndSettle();
+        }
         expect(tiles, findsWidgets, reason: 'no section tiles at $size');
         sizes[size] = tester.getSize(tiles.first).width;
       }
