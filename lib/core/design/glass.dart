@@ -28,11 +28,40 @@ abstract final class Glass {
   static double fillOpacity(Brightness brightness) =>
       brightness == Brightness.dark ? 0.62 : 0.78;
 
+  /// How far a light-theme panel is lifted toward white.
+  ///
+  /// ## Why a panel has to be lighter than the page
+  ///
+  /// It was `surfaceContainer`, which in this palette is a shade *darker* than
+  /// the blush canvas: `#F3E7E1` on `#FBF2ED`. Measured off a screenshot the
+  /// browse list came out at 1.04:1 against its own background — a card was
+  /// distinguishable from the page only by its hairline, and the whole screen
+  /// read as flat.
+  ///
+  /// Darker is also the wrong direction, and that is the part worth stating.
+  /// Glass scatters light back toward whoever is looking at it, so a pane is
+  /// always brighter and less saturated than what lies behind it. A surface
+  /// darker than its ground reads as a hole cut in the page; no amount of edge
+  /// lighting fixes that, because the eye settles the figure-ground question
+  /// before it looks at any edge.
+  ///
+  /// So a light-theme panel is mixed toward white instead. It gains separation
+  /// from the canvas, it loses a little of the canvas's warmth exactly as real
+  /// frosted glass does, and every word on it gains contrast rather than
+  /// losing it.
+  ///
+  /// The dark theme already had this right — `#1B2A32` on `#121E24` is lighter
+  /// than its ground — so it is left alone.
+  static const double _lightLift = 0.62;
+
   /// The fill for a glass panel in the current theme.
   static Color fill(BuildContext context, {Color? tint}) {
     final scheme = Theme.of(context).colorScheme;
     final base = tint ?? scheme.surfaceContainer;
-    return base.withValues(alpha: fillOpacity(scheme.brightness));
+    final lifted = scheme.brightness == Brightness.dark
+        ? base
+        : Color.lerp(base, Colors.white, _lightLift)!;
+    return lifted.withValues(alpha: fillOpacity(scheme.brightness));
   }
 
   /// The hairline that defines a panel's edge.
@@ -81,6 +110,24 @@ abstract final class Glass {
   /// The dark theme takes a sixth of the light the light theme does, for the
   /// same reason: text on dark is light, so anything that lifts the surface
   /// costs contrast, while on a pale surface it costs nothing.
+  ///
+  /// ## The rim and the shade
+  ///
+  /// Everything above got a pane that was lit and still read as a rectangle: a
+  /// screenshot of the browse list came out as a column of faintly tinted
+  /// boxes. What was missing is what actually makes glass legible, and it is
+  /// visible in any reference photograph of the material — a **specular rim**,
+  /// a bright hairline where the top edge turns and catches the light, and a
+  /// **shade** at the bottom where the pane's own thickness darkens what shows
+  /// through. The soft lit third supplies neither: it is a wash, and a wash has
+  /// no edge.
+  ///
+  /// Both are folded into this one gradient rather than added as extra layers,
+  /// so every surface already calling it is fixed at once and nothing pays for
+  /// another paint. The rim occupies the top 1.8% of a panel and the shade the
+  /// bottom 4%; card padding is [Spacing.lg], so on any panel large enough to
+  /// hold a word, no text ever sits on either band. That is what makes this
+  /// safe where the full-height version was not.
   static LinearGradient surfaceGradient(BuildContext context, {Color? tint}) {
     final scheme = Theme.of(context).colorScheme;
     final dark = scheme.brightness == Brightness.dark;
@@ -93,12 +140,33 @@ abstract final class Glass {
     final light = (dark ? scheme.onSurface : Colors.white).withValues(
       alpha: base.a,
     );
+    final dim = Color.lerp(base, Colors.black.withValues(alpha: base.a), 0.06)!;
 
     return LinearGradient(
       begin: Alignment.topCenter,
       end: Alignment.bottomCenter,
-      stops: const <double>[0, 0.34],
-      colors: <Color>[Color.lerp(base, light, dark ? 0.05 : 0.30)!, base],
+      stops: const <double>[0, 0.018, 0.34, 0.96, 1],
+      colors: <Color>[
+        // The rim. Much brighter than the wash below it, and thin enough that
+        // it reads as an edge rather than as the panel being a lighter colour.
+        //
+        // Light theme only. A bright rim in the dark theme is the same mistake
+        // the full-height gradient made — the painted-contrast sweep reads
+        // every colour in a gradient as a possible background for the text on
+        // it, and rightly, since nothing here knows where the words will land.
+        // A rim lifted toward the foreground took the rank banner to 4.23:1.
+        //
+        // Dark glass does not want it anyway. A pane on a near-black ground is
+        // read by its border, not by a highlight: there is no bright room above
+        // the surface to catch. So the dark theme keeps the wash it had, and
+        // the shade below still gives it the thickness.
+        Color.lerp(base, light, dark ? 0.05 : 0.85)!,
+        Color.lerp(base, light, dark ? 0.05 : 0.30)!,
+        base,
+        base,
+        // The shade: the pane's own thickness, seen through the bottom edge.
+        dim,
+      ],
     );
   }
 
@@ -114,19 +182,33 @@ abstract final class Glass {
   /// Kept deliberately light. On a near-black canvas a black shadow is
   /// invisible and a lighter one reads as a smudge, so in the dark theme the
   /// contact shadow does nearly all the work and the ambient one is faint.
+  ///
+  /// ## Why the light theme leans on this harder than it looks like it should
+  ///
+  /// The blush canvas is `#FBF2ED` — within a whisker of white. A panel lighter
+  /// than that canvas tops out at 1.06:1 against it even if it is pure white,
+  /// so on this palette **luminance cannot separate a card from the page**.
+  /// Measured off a screenshot, the browse list sits at 1.02:1.
+  ///
+  /// That is not a reason to darken the panels — a surface darker than its
+  /// ground reads as a hole, see [_lightLift]. It is the reason the shadow has
+  /// to do the separating instead, which is exactly what a photograph of white
+  /// objects on a white table shows: the edge you see is the shadow. The light
+  /// values here were raised until the cards read as resting on the page rather
+  /// than printed into it.
   static List<BoxShadow> lift(BuildContext context, {double strength = 1}) {
     final dark = Theme.of(context).brightness == Brightness.dark;
     return <BoxShadow>[
       BoxShadow(
-        color: Colors.black.withValues(alpha: (dark ? 0.30 : 0.05) * strength),
-        blurRadius: 6 * strength,
-        offset: Offset(0, 1.5 * strength),
+        color: Colors.black.withValues(alpha: (dark ? 0.30 : 0.08) * strength),
+        blurRadius: 8 * strength,
+        offset: Offset(0, 2 * strength),
         spreadRadius: -1,
       ),
       BoxShadow(
-        color: Colors.black.withValues(alpha: (dark ? 0.16 : 0.045) * strength),
-        blurRadius: 22 * strength,
-        offset: Offset(0, 8 * strength),
+        color: Colors.black.withValues(alpha: (dark ? 0.16 : 0.07) * strength),
+        blurRadius: 28 * strength,
+        offset: Offset(0, 10 * strength),
         spreadRadius: -6,
       ),
     ];

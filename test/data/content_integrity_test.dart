@@ -113,6 +113,31 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('no entry rests only on the encyclopedia', () {
+      // A citation a reader cannot follow is not sourcing, it is the
+      // appearance of sourcing. Fifty entries cited `sep` alone — no entry
+      // named, no locator, nothing to look up — and every one of them had its
+      // primary text already sitting in this same corpus.
+      //
+      // A tertiary source is a fine companion and a poor foundation. The rule
+      // is that every entry must rest on at least one text somebody actually
+      // wrote, not only on somebody's summary of it.
+      const tertiary = <String>{'sep', 'iep', 'perseus'};
+      final problems = <String>[];
+      for (final entity in corpus.allEntities) {
+        final cited = <String>{
+          for (final section in entity.article.sections)
+            for (final citation in section.citations) citation.sourceId,
+          for (final citation in entity.citations) citation.sourceId,
+        };
+        if (cited.isEmpty) continue;
+        if (cited.difference(tertiary).isEmpty) {
+          problems.add('${entity.ref}: cites only ${cited.join(', ')}');
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('no entry can render as a blank article', () {
       // Every work and every school in the corpus opened with an empty space
       // where the article should be. Their sections are authored at

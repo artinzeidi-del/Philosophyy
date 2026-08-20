@@ -93,6 +93,16 @@ void main() {
             '${entry.file} ${entry.path}: leading or trailing space',
           );
         }
+        // The kashida is a letter-joining character, not a dash and not a
+        // hyphen. Seven of them had crept in doing both jobs — «ناـدوگانگی»
+        // for a prefixed word, «من ـ تو» for Buber's pair — and it is close
+        // to invisible on screen while breaking search, sorting and copy.
+        if (entry.text.contains('\u0640')) {
+          problems.add(
+            '${entry.file} ${entry.path}: a kashida. It joins letters; it is '
+            'not a hyphen and not a dash.',
+          );
+        }
       }
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
