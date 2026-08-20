@@ -7391,6 +7391,471 @@
       },
       "editions": ["text-difference-and-repetition", "text-thousand-plateaus"],
       "citations": [{ "source": "text-difference-and-repetition" }]
+    },
+    {
+      "id": "interpretation-of-dreams",
+      "title": { "en": "The Interpretation of Dreams", "fa": "تعبیر خواب" },
+      "originalTitle": "Die Traumdeutung",
+      "author": "freud",
+      "oneLine": {
+        "en": "Treats the dream as a text with a grammar, and builds a theory of mind out of reading it.",
+        "fa": "خواب را متنی با دستور زبان می‌گیرد، و از خواندن آن نظریه‌ای درباره ذهن می‌سازد."
+      },
+      "composed": { "start": { "year": 1899, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "philosophy-of-mind",
+        "philosophy-of-psychology",
+        "epistemology",
+        "philosophy-of-science"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Freud's claim is that a dream is not noise but a disguised fulfilment of a wish, and that the disguise follows rules — condensation, where one image carries several thoughts, and displacement, where the charge moves from what matters to something trivial. Much of the evidence is his own dreams, reported with more candour than was comfortable.",
+              "fa": "ادعای فروید این است که خواب سر و صدا نیست، برآورده‌شدن پوشیده یک آرزوست، و آن پوشش قاعده دارد؛ «تراکم»، که در آن یک صورت چند اندیشه را می‌برد، و «جابه‌جایی»، که در آن بار از آنچه مهم است به چیزی بی‌اهمیت می‌رود. بخش زیادی از شواهد، خواب‌های خود اوست، که با صراحتی گزارش شده که راحت نبود."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The philosophical consequence is larger than the theory of dreams. If mental states can have content, produce effects and be inaccessible to the person who has them, then consciousness is not the whole of the mind, and a person's own report about why they did something is a piece of evidence rather than the last word.",
+              "fa": "پیامد فلسفی از خود نظریه خواب بزرگ‌تر است. اگر حالات ذهنی بتوانند محتوا داشته باشند و اثر بگذارند و برای کسی که دارایشان است دسترس‌ناپذیر باشند، آنگاه آگاهی تمام ذهن نیست، و گزارش خود آدمی از اینکه چرا کاری کرده پاره‌ای از شواهد است نه سخن آخر."
+            },
+            "citations": [
+              { "source": "text-interpretation-of-dreams", "locator": "ch. 7" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Whether any of this is science has been argued for a century and the argument has a clear shape. Popper used psychoanalysis as his example of an unfalsifiable theory: an interpretation that is accepted confirms it and one that is resisted confirms it too, since resistance is predicted. Grünbaum, more sympathetically, argued the theory does make testable claims and that most of them have not been supported. The clinical tradition answers that a discipline concerned with meaning is not obliged to look like physics.\n\nThe honest summary is that the specific mechanisms have not held up well while the general framing became part of how the century thought. Unconscious motivation, defence, the idea that childhood shapes what an adult wants without the adult knowing it — these entered ordinary language and psychology alike, often without the apparatus that produced them. A reader should keep the influence and the evidence in separate columns.",
+              "fa": "اینکه هیچ‌یک از این‌ها علم است یا نه یک سده محل بحث بوده و آن بحث شکلی روشن دارد. پوپر روان‌کاوی را نمونه نظریه ابطال‌ناپذیر گرفت: تفسیری که پذیرفته شود تأییدش می‌کند و تفسیری که در برابرش مقاومت شود هم تأییدش می‌کند، چون مقاومت پیش‌بینی شده است. گرونباوم، با همدلی بیشتر، گفت این نظریه ادعاهای آزمون‌پذیر می‌کند و بیشترشان پشتیبانی نشده‌اند. سنت بالینی پاسخ می‌دهد که رشته‌ای که با معنا سر و کار دارد ناچار نیست شبیه فیزیک باشد.\n\nخلاصه صادقانه این است که سازوکارهای خاص خوب نمانده‌اند و آن قاب کلی بخشی از شیوه اندیشیدن آن سده شد. انگیزش ناخودآگاه، دفاع، این فکر که کودکی آنچه را بزرگسالی می‌خواهد بی‌آنکه بداند شکل می‌دهد، این‌ها هم به زبان روزمره راه یافتند و هم به روان‌شناسی، و بارها بی‌آن دستگاهی که پدیدشان آورده بود. خواننده باید اثرگذاری و شواهد را در دو ستون جدا نگاه دارد."
+            },
+            "citations": [
+              { "source": "text-civilization-discontents", "locator": "ch. 3" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-interpretation-of-dreams",
+        "text-civilization-discontents"
+      ],
+      "citations": [{ "source": "text-interpretation-of-dreams" }]
+    },
+    {
+      "id": "normal-and-pathological",
+      "title": {
+        "en": "The Normal and the Pathological",
+        "fa": "بهنجار و بیمارگون"
+      },
+      "originalTitle": "Le Normal et le Pathologique",
+      "author": "canguilhem",
+      "oneLine": {
+        "en": "Argues that disease is not a quantity of health gone wrong but a different way of being alive.",
+        "fa": "می‌گوید بیماری مقداری از تندرستی نیست که به هم خورده باشد، شیوه‌ای دیگر از زنده‌بودن است."
+      },
+      "composed": {
+        "start": { "year": 1943, "precision": "exact" },
+        "end": { "year": 1966, "precision": "exact" }
+      },
+      "traditions": ["continental", "european"],
+      "branches": [
+        "philosophy-of-science",
+        "philosophy-of-medicine",
+        "philosophy-of-biology",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Canguilhem was a physician as well as a philosopher, and the book began as his medical thesis. Nineteenth-century medicine had treated illness as a matter of degree — too much or too little of a normal function — and he argues from clinical cases that a diabetic organism is not a normal one with a defective part but an organism living by other norms.",
+              "fa": "کانگیلم هم پزشک بود و هم فیلسوف، و این کتاب چون رساله پزشکی‌اش آغاز شد. پزشکی سده نوزدهم بیماری را امری درجه‌ای گرفته بود، یعنی زیادی یا کمی یک کارکرد بهنجار، و او از موردهای بالینی استدلال می‌کند که موجود دیابتی، موجودی بهنجار با پاره‌ای معیوب نیست، موجودی است که به هنجارهایی دیگر زندگی می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Normality is therefore not a statistical average. A living thing sets its own norms and can revise them, and health is the capacity to tolerate variation and establish new norms when circumstances change; illness is a narrowing of that capacity, a life that can survive only in one environment. That makes the normal a biological achievement rather than a measurement.",
+              "fa": "پس بهنجاری میانگینی آماری نیست. زنده هنجارهای خودش را می‌نهد و می‌تواند بازنگری‌شان کند، و تندرستی توان تاب‌آوردن گوناگونی و بنانهادن هنجارهای نو هنگام دگرگونی شرایط است؛ بیماری تنگ‌شدن همان توان است، زندگی‌ای که تنها در یک محیط دوام می‌آورد. همین بهنجار را به جای اندازه‌گیری، دستاوردی زیستی می‌کند."
+            },
+            "citations": [
+              {
+                "source": "text-normal-and-pathological",
+                "locator": "Part I, ch. 3"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The consequence for medicine is practical. If the norm is set by the organism, then a clinician who treats a laboratory range as the target may be restoring a value while destroying the arrangement the patient had reached; and the patient's own report of feeling ill, which the numbers do not capture, is data rather than complaint. That argument has been picked up repeatedly in debates about screening and about the boundaries of diagnosis.\n\nHis influence runs mostly through his students. Foucault wrote his thesis under him, and the method of asking how a concept came to be available at all — rather than whether the claims made with it were true — is Canguilhem's before it is anyone's. He also spent the war in the Resistance under a false name while continuing to write, which colleagues learned only afterwards, and he refused for the rest of his life to discuss it.",
+              "fa": "پیامد آن برای پزشکی عملی است. اگر هنجار را خود موجود بنهد، آنگاه پزشکی که بازه آزمایشگاهی را هدف بگیرد شاید عددی را بازگرداند و سامانی را که بیمار به آن رسیده بوده ویران کند؛ و گزارش خود بیمار از احساس بیماری، که عددها نمی‌گیرندش، داده است نه شکایت. این استدلال بارها در بحث‌های غربالگری و مرزهای تشخیص برگرفته شده است.\n\nاثرگذاری او بیشتر از راه شاگردانش می‌رود. فوکو رساله‌اش را زیر نظر او نوشت، و روش پرسیدن اینکه یک مفهوم اصلا چگونه در دسترس قرار گرفت، به جای اینکه ادعاهای ساخته‌شده با آن راست بوده‌اند یا نه، پیش از هر کس از آن کانگیلم است. جنگ را هم زیر نامی جعلی در مقاومت گذراند و در همان حال می‌نوشت، و همکارانش تنها بعدها فهمیدند، و تا پایان عمر از سخن‌گفتن درباره‌اش سر باز زد."
+            },
+            "citations": [
+              {
+                "source": "text-normal-and-pathological",
+                "locator": "Part II, ch. 1"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-normal-and-pathological"],
+      "citations": [{ "source": "text-normal-and-pathological" }]
+    },
+    {
+      "id": "cyborg-manifesto",
+      "title": { "en": "A Cyborg Manifesto", "fa": "مانیفست سایبورگ" },
+      "originalTitle": "A Cyborg Manifesto: Science, Technology, and Socialist-Feminism in the Late Twentieth Century",
+      "author": "haraway",
+      "oneLine": {
+        "en": "Takes a military-industrial figure and uses it to argue against politics founded on a pure origin.",
+        "fa": "چهره‌ای نظامی و صنعتی را برمی‌گیرد و با آن بر ضد سیاستی استدلال می‌کند که بر خاستگاهی ناب بنا شده."
+      },
+      "composed": { "start": { "year": 1985, "precision": "exact" } },
+      "traditions": ["american", "contemporary"],
+      "branches": [
+        "feminist-philosophy",
+        "philosophy-of-technology",
+        "epistemology",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Haraway trained as a biologist. The cyborg is her figure for something that is a hybrid of machine and organism and has no myth of a state of nature to return to — which is why she prefers it to a feminism organised around what women essentially are, or around a wholeness that industrial society is said to have destroyed.",
+              "fa": "هاراوی زیست‌شناسی خوانده بود. سایبورگ چهره او برای چیزی است که آمیزه ماشین و موجود زنده است و اسطوره‌ای از حالت طبیعت ندارد که به آن بازگردد، و از همین رو آن را بر فمینیسمی ترجیح می‌دهد که گرد ذات زنان سامان یافته، یا گرد تمامیتی که می‌گویند جامعه صنعتی نابودش کرده است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The manifesto is also an argument about coalitions. If political solidarity requires a shared identity, then any group large enough to act will have to suppress the differences inside it, and the history of feminism supplies the evidence. Affinity rather than identity is her proposal: alliances built from what people are trying to do together rather than from what they are.",
+              "fa": "این مانیفست استدلالی درباره ائتلاف هم هست. اگر همبستگی سیاسی هویتی مشترک بخواهد، آنگاه هر گروهی که برای کنش به‌قدر کافی بزرگ باشد ناچار است تفاوت‌های درونش را سرکوب کند، و تاریخ فمینیسم شاهدش را فراهم می‌کند. پیشنهاد او «قرابت» است به جای هویت: پیوندهایی که از آنچه مردم با هم می‌کوشند بکنند ساخته شوند نه از آنچه هستند."
+            },
+            "citations": [
+              { "source": "text-cyborg-manifesto", "locator": "section 1" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Her epistemology is stated more carefully in the paper on situated knowledges, and it is a reply to two positions at once. Against the view from nowhere, she argues that every account comes from somewhere and that pretending otherwise hides the interests in it. Against a relativism that treats all accounts as equal, she argues that this is the same trick — both refuse responsibility for a position by claiming not to occupy one. Objectivity, on her account, means saying where you stand and being accountable for the view.\n\nThe manifesto is routinely read as a celebration of technology and it says the opposite in several places. She writes that the cyborg is the illegitimate offspring of militarism and capitalism, and that illegitimate offspring are often unfaithful to their origins — which is a claim about what can be done with a situation, not approval of the situation. Her later work on companion species and on multispecies survival is where the ambivalence is worked out at length.",
+              "fa": "معرفت‌شناسی او در مقاله «دانش‌های موقعیت‌مند» سنجیده‌تر گفته شده، و هم‌زمان پاسخی به دو موضع است. در برابر «نگاه از ناکجا»، می‌گوید هر روایتی از جایی می‌آید و وانمود به خلاف آن منافع درونش را پنهان می‌کند. در برابر نسبی‌گرایی‌ای که همه روایت‌ها را برابر می‌گیرد، می‌گوید این همان ترفند است؛ هر دو با ادعای اینکه جایی نایستاده‌اند از مسئولیت یک موضع سر باز می‌زنند. عینیت به روایت او یعنی بگویی کجا ایستاده‌ای و پاسخگوی آن منظر باشی.\n\nاین مانیفست را معمولا ستایش فناوری می‌خوانند و در چند جا خلاف آن را می‌گوید. می‌نویسد سایبورگ فرزند نامشروع نظامی‌گری و سرمایه‌داری است، و فرزندان نامشروع بارها به خاستگاهشان بی‌وفایند، و این ادعایی است درباره آنچه با یک وضعیت می‌توان کرد نه تأیید آن وضعیت. کار متأخر او درباره گونه‌های همدم و بقای چندگونه‌ای جایی است که این دوگانگی به تفصیل پرداخته می‌شود."
+            },
+            "citations": [
+              { "source": "text-situated-knowledges", "locator": "section 3" }
+            ]
+          }
+        ]
+      },
+      "editions": [
+        "text-cyborg-manifesto",
+        "text-situated-knowledges",
+        "text-staying-with-the-trouble"
+      ],
+      "citations": [{ "source": "text-cyborg-manifesto" }]
+    },
+    {
+      "id": "science-as-social-knowledge",
+      "title": {
+        "en": "Science as Social Knowledge",
+        "fa": "علم چون دانش اجتماعی"
+      },
+      "originalTitle": "Science as Social Knowledge: Values and Objectivity in Scientific Inquiry",
+      "author": "longino",
+      "oneLine": {
+        "en": "Argues that objectivity is a property of communities rather than of individual scientists.",
+        "fa": "می‌گوید عینیت خاصیت جامعه‌هاست نه دانشمندان تک‌تک."
+      },
+      "composed": { "start": { "year": 1990, "precision": "exact" } },
+      "traditions": ["american", "analytic", "contemporary"],
+      "branches": [
+        "philosophy-of-science",
+        "epistemology",
+        "feminist-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Evidence never supports a hypothesis on its own; it does so only given background assumptions about what counts as relevant. Those assumptions can carry values, and no amount of individual care removes them, because the person holding them cannot see past them. Longino's response is not to demand value-free science but to change where objectivity is located.",
+              "fa": "شاهد هرگز به‌تنهایی از فرضیه‌ای پشتیبانی نمی‌کند؛ تنها با فرض‌های پس‌زمینه‌ای درباره اینکه چه چیز مربوط است چنین می‌کند. آن فرض‌ها می‌توانند بار ارزشی داشته باشند، و هیچ اندازه از دقت فردی برشان نمی‌دارد، چون کسی که دارایشان است نمی‌تواند فراتر از آن‌ها ببیند. پاسخ لونجینو خواستن علمی بی‌ارزش نیست، جابه‌جاکردن جای عینیت است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "She sets four conditions for a community whose knowledge can be called objective: there must be public venues for criticism, the community must actually respond to it rather than merely tolerate it, there must be shared standards by which criticism can be assessed, and intellectual authority must be distributed rather than concentrated. Objectivity then comes in degrees, and it can be measured by looking at institutions.",
+              "fa": "او چهار شرط برای جامعه‌ای می‌نهد که دانشش را بتوان عینی خواند: باید جایگاه‌های همگانی برای نقد باشد، جامعه باید در عمل به نقد پاسخ دهد نه اینکه صرفا تحملش کند، باید معیارهای مشترکی باشد که نقد را با آن‌ها بسنجند، و اقتدار فکری باید پخش باشد نه متمرکز. آنگاه عینیت درجه‌دار می‌شود و می‌توان با نگاه‌کردن به نهادها سنجیدش."
+            },
+            "citations": [
+              {
+                "source": "text-science-as-social-knowledge",
+                "locator": "ch. 4"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "Her case studies are chosen to be awkward. Research on hormones and behavioural sex differences is examined in detail, and her conclusion is not that the findings are fabricated but that a linear model of causation from hormone to behaviour is one background assumption among possible others, and that the data underdetermine the choice. That is a harder and more useful claim than an accusation of bias.\n\nThe position sits between two camps that both find it unsatisfying. Traditional philosophers of science object that letting values into the evidential relation opens the door to wishful thinking; sociologists of science object that the four conditions are idealised and that actual scientific communities are structured by funding and hierarchy. Longino's answer to both is that the conditions are normative — a standard for assessing communities, not a description of them — which is exactly what a philosophy of science ought to supply.",
+              "fa": "مطالعه‌های موردی او عمدا ناراحت‌کننده برگزیده شده‌اند. پژوهش درباره هورمون‌ها و تفاوت‌های رفتاری جنسی به تفصیل بررسی می‌شود، و نتیجه‌اش این نیست که یافته‌ها ساختگی‌اند، این است که الگوی خطی علیت از هورمون به رفتار یکی از فرض‌های پس‌زمینه ممکن است، و داده‌ها آن گزینش را کم‌معین می‌کنند. این ادعایی دشوارتر و به‌کارآمدنی‌تر از اتهام جانبداری است.\n\nاین موضع میان دو اردوگاه می‌نشیند که هر دو ناخرسندش می‌یابند. فیلسوفان سنتی علم اعتراض می‌کنند که راه‌دادن ارزش‌ها به نسبت شاهد، در را بر آرزواندیشی می‌گشاید؛ جامعه‌شناسان علم اعتراض می‌کنند که آن چهار شرط آرمانی‌اند و جامعه‌های واقعی علمی با بودجه و سلسله‌مراتب ساخته می‌شوند. پاسخ لونجینو به هر دو این است که آن شرط‌ها هنجاری‌اند؛ معیاری برای سنجش جامعه‌ها نه وصفی از آن‌ها، و این دقیقا همان است که فلسفه علم باید فراهم کند."
+            },
+            "citations": [
+              { "source": "text-fate-of-knowledge", "locator": "ch. 6" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-science-as-social-knowledge", "text-fate-of-knowledge"],
+      "citations": [{ "source": "text-science-as-social-knowledge" }]
+    },
+    {
+      "id": "technological-society",
+      "title": { "en": "The Technological Society", "fa": "جامعه فناورانه" },
+      "originalTitle": "La Technique ou l'Enjeu du siècle",
+      "author": "ellul",
+      "oneLine": {
+        "en": "Argues that technique — the search for the one best method — has become the organising principle of everything.",
+        "fa": "می‌گوید «تکنیک»، یعنی جست‌وجوی یگانه بهترین روش، به اصل سامان‌دهنده همه چیز بدل شده است."
+      },
+      "composed": { "start": { "year": 1954, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "philosophy-of-technology",
+        "social-philosophy",
+        "political-philosophy",
+        "ethics"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Ellul's subject is not machines. Technique is his term for the disposition to find the most efficient means for any end, and he traces it through administration, propaganda, education and policing as much as through industry — arguing that it becomes autonomous when efficiency stops being one consideration among others and becomes the frame within which considering happens.",
+              "fa": "موضوع الول ماشین نیست. «تکنیک» اصطلاح او برای همان گرایش به یافتن کارآمدترین وسیله برای هر هدف است، و آن را در اداره و تبلیغات و آموزش و پلیس به همان اندازه صنعت پی می‌گیرد؛ و می‌گوید وقتی خودمختار می‌شود که کارآمدی از یکی از ملاحظه‌ها بودن دست بکشد و قابی شود که ملاحظه‌کردن درونش رخ می‌دهد."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The self-augmenting character is the core claim. Each technical solution creates problems that only a further technical solution can address, and the choice of which technique to adopt is itself made on technical grounds, so there is no point in the chain where a different kind of reason gets a hearing. Ellul says this is not a conspiracy and not anyone's decision.",
+              "fa": "ویژگی خودافزاینده ادعای هسته‌ای است. هر راه‌حل فنی مسائلی می‌سازد که تنها راه‌حل فنی دیگری به آن‌ها می‌رسد، و گزینش اینکه کدام تکنیک برگرفته شود خود بر پایه‌های فنی انجام می‌شود، پس در این زنجیره نقطه‌ای نیست که گونه دیگری از دلیل شنیده شود. الول می‌گوید این توطئه نیست و تصمیم کسی هم نیست."
+            },
+            "citations": [
+              { "source": "text-technological-society", "locator": "ch. 2" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His book on propaganda is the sharper of the two and the more counter-intuitive. Propaganda, he argues, works best on the educated, not the ignorant: it needs people who follow the news, hold opinions on distant matters they cannot verify, and require a coherent picture of the world. Someone with no information and no need for a position is a poor target. That inverts the usual assumption that education is the defence.\n\nEllul was a Protestant theologian as well as a sociologist, active in the Resistance, and wrote roughly as many books on theology as on technique. He denied being a pessimist and said the analysis was meant to describe the situation accurately so that freedom could be located inside it — but he offered no programme, and readers looking for one have consistently found the work either bracing or paralysing depending on what they wanted from it.",
+              "fa": "کتاب او درباره تبلیغات از آن دیگری تیزتر و خلاف شهودتر است. می‌گوید تبلیغات بر تحصیل‌کردگان بهتر کار می‌کند نه بر نادانان: به مردمی نیاز دارد که خبر را دنبال می‌کنند، درباره اموری دور که نمی‌توانند وارسی کنند رأی دارند، و تصویری هم‌ساز از جهان می‌خواهند. کسی که اطلاعاتی ندارد و نیازی به داشتن موضع ندارد آماج بدی است. این فرض همیشگی را که آموزش همان دفاع است وارونه می‌کند.\n\nالول جز جامعه‌شناس، الهی‌دانی پروتستان و فعال در مقاومت بود، و تقریبا به همان شمار که درباره تکنیک نوشت درباره الهیات نوشت. بدبین‌بودن را انکار می‌کرد و می‌گفت آن تحلیل برای وصف دقیق وضعیت است تا بتوان آزادی را درونش جای داد، اما هیچ برنامه‌ای نداد، و خوانندگانی که در پی یکی بوده‌اند پیوسته این کار را بسته به آنچه از آن می‌خواستند یا نیروبخش یافته‌اند یا فلج‌کننده."
+            },
+            "citations": [
+              { "source": "text-propaganda-ellul", "locator": "ch. 2" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-technological-society", "text-propaganda-ellul"],
+      "citations": [{ "source": "text-technological-society" }]
+    },
+    {
+      "id": "mode-of-existence-technical",
+      "title": {
+        "en": "On the Mode of Existence of Technical Objects",
+        "fa": "درباره شیوه هستی اشیای فنی"
+      },
+      "originalTitle": "Du mode d'existence des objets techniques",
+      "author": "simondon",
+      "oneLine": {
+        "en": "Argues that machines have their own manner of developing, and that our contempt for them is a form of ignorance.",
+        "fa": "می‌گوید ماشین‌ها شیوه رشد از آن خود دارند، و تحقیر ما نسبت به آن‌ها گونه‌ای نادانی است."
+      },
+      "composed": { "start": { "year": 1958, "precision": "exact" } },
+      "traditions": ["european", "continental"],
+      "branches": [
+        "philosophy-of-technology",
+        "metaphysics",
+        "philosophy-of-science",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Simondon's opening claim is that culture has set itself against technology by treating machines as either threatening strangers or mere tools, and that both attitudes rest on not understanding how a machine works. The remedy he proposes is a technical culture: knowing the object well enough to see what it is doing.",
+              "fa": "ادعای آغازین سیموندون این است که فرهنگ خود را در برابر فناوری نهاده و ماشین‌ها را یا بیگانگانی تهدیدآمیز گرفته یا ابزارهایی صرف، و هر دو نگرش بر نفهمیدن کارکرد ماشین استوارند. درمانی که پیش می‌نهد «فرهنگ فنی» است: شناختن آن شیء به‌قدری که ببینی چه می‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "Concretisation is his central concept. An early machine is a collection of parts each doing one job; as a design matures, single components come to serve several functions at once — a cooling fin that is also structural, a casing that is also part of the circuit — until the object approaches the coherence of a natural thing. That is a real developmental logic, and it belongs to the object rather than to the designer's intentions.",
+              "fa": "«انضمامی‌شدن» مفهوم مرکزی اوست. ماشین نخستین مجموعه‌ای از اجزاست که هر یک یک کار می‌کند؛ همین که طرحی پخته می‌شود، یک جزء چند کارکرد را با هم بر عهده می‌گیرد؛ پره خنک‌کننده‌ای که سازه هم هست، پوسته‌ای که بخشی از مدار هم هست؛ تا آن شیء به انسجام چیزی طبیعی نزدیک شود. این منطقی راستین در رشد است، و از آن خود آن شیء است نه از آن نیت طراح."
+            },
+            "citations": [
+              {
+                "source": "text-mode-of-existence-technical",
+                "locator": "Part I, ch. 1"
+              }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "His larger metaphysics is about individuation, and the technical objects are one case of it. Simondon argues that philosophy has always started from individuals already formed and asked what they are made of, when it should start from a pre-individual field charged with potential and ask how anything comes to be a distinct thing at all. Crystals, organisms, psyches and machines are then four regions of one problem.\n\nHe was little read for decades — Deleuze reviewed the thesis admiringly and almost nobody else noticed — and the second half was not published in full until 1989. The recent surge of interest comes from people working on media, on ecology and on how to think about systems that are neither natural nor designed in any simple sense, which is a use he could not have anticipated and which fits the argument well.",
+              "fa": "متافیزیک بزرگ‌تر او درباره «تفرد» است، و اشیای فنی یکی از موردهای آن‌اند. سیموندون می‌گوید فلسفه همیشه از افرادی آغاز کرده که از پیش شکل گرفته‌اند و پرسیده از چه ساخته شده‌اند، در حالی که باید از میدانی پیشافردی آکنده از توان آغاز کند و بپرسد اصلا چیزی چگونه چیزی متمایز می‌شود. آنگاه بلور و موجود زنده و روان و ماشین چهار ناحیه یک مسئله‌اند.\n\nدهه‌ها کم خوانده شد؛ دلوز رساله را با تحسین نقد کرد و تقریبا هیچ‌کس دیگر متوجهش نشد، و نیمه دوم تا سال ۱۹۸۹ به‌تمامی منتشر نشد. موج تازه علاقه از کسانی می‌آید که بر رسانه و بوم‌شناسی و بر چگونگی اندیشیدن به نظام‌هایی کار می‌کنند که نه طبیعی‌اند و نه به معنایی ساده طراحی‌شده، و این کاربردی است که او نمی‌توانست پیش‌بینی کند و با آن استدلال خوب جور درمی‌آید."
+            },
+            "citations": [
+              {
+                "source": "text-mode-of-existence-technical",
+                "locator": "Part III"
+              }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-mode-of-existence-technical"],
+      "citations": [{ "source": "text-mode-of-existence-technical" }]
+    },
+    {
+      "id": "road-to-serfdom",
+      "title": { "en": "The Road to Serfdom", "fa": "راه بردگی" },
+      "originalTitle": "The Road to Serfdom",
+      "author": "hayek",
+      "oneLine": {
+        "en": "Argues that central planning fails for a reason about knowledge before it fails for any reason about incentives.",
+        "fa": "می‌گوید برنامه‌ریزی متمرکز پیش از آنکه به دلیلی درباره انگیزه‌ها ناکام بماند، به دلیلی درباره دانش ناکام می‌ماند."
+      },
+      "composed": { "start": { "year": 1944, "precision": "exact" } },
+      "traditions": ["european", "analytic"],
+      "branches": [
+        "political-philosophy",
+        "philosophy-of-economics",
+        "epistemology",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Hayek wrote it in wartime Britain, addressed to socialists he regarded as sincere. His warning is that planning an economy requires agreement on a single scale of ends, that no democratic body can supply one, and that the gap tends to be filled by delegating the decision to people who will not be voted out.",
+              "fa": "هایک آن را در بریتانیای زمان جنگ نوشت و مخاطبش سوسیالیست‌هایی بودند که صادقشان می‌دانست. هشدارش این است که برنامه‌ریزی اقتصاد توافق بر یک مقیاس یگانه از هدف‌ها می‌خواهد، هیچ نهاد دموکراتیکی نمی‌تواند چنین چیزی بدهد، و آن شکاف معمولا با سپردن تصمیم به کسانی پر می‌شود که رأی برکنارشان نمی‌کند."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "The epistemic argument is the durable part and it is stated more fully in his later essay. The knowledge a planner would need is dispersed among millions of people, is largely about particular circumstances of time and place, and much of it is never articulated even by those who hold it. Prices, on his account, are how that knowledge gets used without anyone having to collect it.",
+              "fa": "استدلال معرفتی همان بخش ماندگار است و در جستار بعدی‌اش کامل‌تر گفته می‌شود. دانشی که یک برنامه‌ریز نیاز دارد میان میلیون‌ها تن پخش است، بیشترش درباره اوضاع خاص زمان و مکان است، و بخش زیادی از آن حتی به دست دارندگانش هم به بیان درنمی‌آید. به روایت او، قیمت‌ها همان‌اند که آن دانش را به کار می‌اندازند بی‌آنکه کسی مجبور باشد گردش آورد."
+            },
+            "citations": [
+              { "source": "text-road-to-serfdom", "locator": "ch. 4" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "What the book does not say is worth stating, because the title has done a lot of work for people who have not read past it. Hayek explicitly endorses a guaranteed minimum income, comprehensive social insurance against illness and accident, regulation of working conditions, and state action on public goods; his target is the direction of production, not the welfare state. He also says the road is not inevitable, only a tendency, which the popular use of the phrase generally omits.\n\nThe standard objection is empirical rather than logical: several countries built extensive welfare states and did not become totalitarian, which was the prediction most readers took from the book. Hayek's defenders answer that he predicted a tendency conditional on comprehensive planning of production, which those countries did not adopt. Whether that is a defence or a retreat is one of the more genuinely unresolved arguments in twentieth-century political economy.",
+              "fa": "آنچه این کتاب نمی‌گوید ارزش گفتن دارد، چون عنوانش برای کسانی که فراتر از آن نخوانده‌اند کار زیادی کرده است. هایک صریحا از درآمد پایه تضمین‌شده و بیمه اجتماعی فراگیر در برابر بیماری و حادثه و مقررات شرایط کار و اقدام دولت در کالاهای عمومی پشتیبانی می‌کند؛ آماجش هدایت تولید است نه دولت رفاه. می‌گوید آن راه ناگزیر نیست و تنها گرایشی است، و کاربرد همگانی این عبارت معمولا این را می‌اندازد.\n\nاعتراض همیشگی به جای منطقی، تجربی است: چند کشور دولت‌های رفاه گسترده ساختند و تمامیت‌خواه نشدند، و این همان پیش‌بینی‌ای بود که بیشتر خوانندگان از کتاب گرفتند. مدافعانش پاسخ می‌دهند که او گرایشی را مشروط به برنامه‌ریزی فراگیر تولید پیش‌بینی کرد، که آن کشورها برنگرفتند. اینکه این دفاع است یا عقب‌نشینی، از به‌راستی ناگشوده‌ترین بحث‌های اقتصاد سیاسی سده بیستم است."
+            },
+            "citations": [
+              { "source": "text-road-to-serfdom", "locator": "ch. 9" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-road-to-serfdom"],
+      "citations": [{ "source": "text-road-to-serfdom" }]
+    },
+    {
+      "id": "idea-of-justice",
+      "title": { "en": "The Idea of Justice", "fa": "ایده عدالت" },
+      "originalTitle": "The Idea of Justice",
+      "author": "sen",
+      "oneLine": {
+        "en": "Argues that we can identify injustices and rank remedies without agreeing what a perfectly just society would be.",
+        "fa": "می‌گوید می‌توان بی‌عدالتی‌ها را شناخت و درمان‌ها را رتبه داد بی‌آنکه بر چیستی جامعه کاملا عادل توافق کنیم."
+      },
+      "composed": { "start": { "year": 2009, "precision": "exact" } },
+      "traditions": ["indian", "analytic", "contemporary"],
+      "branches": [
+        "political-philosophy",
+        "ethics",
+        "philosophy-of-economics",
+        "social-philosophy"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Sen distinguishes two projects. One asks what perfectly just institutions would look like and works back from there; the other asks how to reduce injustice in the world as it is. He argues the first is neither necessary nor sufficient for the second — you do not need to know which is the tallest mountain to see that one hill is higher than another.",
+              "fa": "سن دو طرح را جدا می‌کند. یکی می‌پرسد نهادهای کاملا عادل چه شکلی‌اند و از آنجا به عقب کار می‌کند؛ دیگری می‌پرسد چگونه می‌توان بی‌عدالتی را در جهان چنانکه هست کم کرد. می‌گوید اولی نه لازم است و نه بسنده برای دومی؛ برای دیدن اینکه تپه‌ای از تپه‌ای بلندتر است نیازی نداری بدانی کدام کوه بلندترین است."
+            }
+          },
+          {
+            "id": "shape",
+            "depth": "standard",
+            "body": {
+              "en": "His alternative measure is capability: what a person is actually able to do and be, rather than what resources they hold or how satisfied they report themselves. Two people with the same income differ if one is disabled and the environment is built for the other, and a metric of goods misses that entirely — which is why the approach has been used to build the human development indices rather than staying in seminar rooms.",
+              "fa": "معیار جایگزین او «قابلیت» است: آنچه کسی در عمل می‌تواند بکند و باشد، نه منابعی که دارد یا میزان خرسندی‌ای که گزارش می‌کند. دو نفر با درآمد یکسان فرق دارند اگر یکی معلول باشد و محیط برای دیگری ساخته شده باشد، و سنجه‌ای بر پایه کالاها این را یکسره از دست می‌دهد، و از همین رو این رویکرد برای ساختن شاخص‌های توسعه انسانی به کار رفته نه اینکه در اتاق‌های درس بماند."
+            },
+            "citations": [
+              { "source": "text-idea-of-justice", "locator": "Introduction" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "body": {
+              "en": "The disagreement with Rawls is respectful and substantial, and Sen was Rawls's colleague and admirer. He accepts the priority of liberty and the concern for the worst off; what he rejects is the transcendental method and the closure of the original position, arguing that reasonable people behind any veil would still produce several defensible principles rather than converging on one. The remedy is public reasoning that stays open, including to voices outside the society deciding.\n\nHis empirical work is inseparable from the philosophy. The study of famines showed that major famines have occurred without any fall in food availability, and that no substantial famine has occurred in a functioning democracy with a free press — which is an argument for political liberty made on the ground rather than from principle. The Bengal famine of 1943, which he witnessed as a child of nine, is the case he returns to.",
+              "fa": "اختلاف با راولز محترمانه و جدی است، و سن همکار و ستاینده راولز بود. تقدم آزادی و نگرانی برای بدترین‌حال را می‌پذیرد؛ آنچه رد می‌کند آن روش استعلایی و بسته‌شدن وضع نخستین است، و می‌گوید مردمان معقول پشت هر پرده‌ای باز هم چند اصل دفاع‌پذیر می‌سازند نه اینکه بر یکی هم‌گرا شوند. درمانش استدلال همگانی است که گشوده بماند، از جمله بر صداهایی بیرون از جامعه‌ای که تصمیم می‌گیرد.\n\nکار تجربی او از آن فلسفه جدایی‌ناپذیر است. پژوهش درباره قحطی‌ها نشان داد قحطی‌های بزرگ بی‌هیچ کاهشی در خوراک در دسترس رخ داده‌اند، و اینکه هیچ قحطی چشمگیری در دموکراسی‌ای کارآمد با مطبوعات آزاد رخ نداده است، و این استدلالی است برای آزادی سیاسی که از میدان آمده نه از اصل. قحطی بنگال در سال ۱۹۴۳، که در نه سالگی دید، همان موردی است که به آن بازمی‌گردد."
+            },
+            "citations": [
+              { "source": "text-development-as-freedom", "locator": "ch. 7" }
+            ]
+          }
+        ]
+      },
+      "editions": ["text-idea-of-justice", "text-development-as-freedom"],
+      "citations": [{ "source": "text-idea-of-justice" }]
     }
   ]
 }
