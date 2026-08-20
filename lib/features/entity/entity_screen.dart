@@ -1005,8 +1005,20 @@ class _CardSection extends StatelessWidget {
     children: <Widget>[
       const SizedBox(height: Spacing.xl),
       SectionHeader(title: title),
+      // Every child of a section is a full-width block, and one of them was
+      // not getting to be. A `Column` aligned to the start hands its children
+      // loose constraints, so anything that sizes to its own content keeps its
+      // own width — most of these are `EntityCard`, which fills, but the work
+      // overview used a bare `Card`, and its two entries came out different
+      // widths because one summary was shorter than the other. Two cards in a
+      // column with different right edges look like a rendering fault.
+      //
+      // Stated here rather than at that one call site so the next bare card
+      // added to a section does not repeat it. The header is deliberately left
+      // out: it is a row that may carry a trailing control, and stretching it
+      // would move that control.
       for (final child in children) ...<Widget>[
-        child,
+        SizedBox(width: double.infinity, child: child),
         const SizedBox(height: Spacing.md),
       ],
     ],

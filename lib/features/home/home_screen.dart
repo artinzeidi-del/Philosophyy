@@ -247,13 +247,14 @@ class _HomeBody extends StatelessWidget {
             // thing on the page that changes because of something the reader
             // did, and burying it below the section grid would mean they only
             // ever met it by scrolling past what they came for.
-            EntranceAnimation(
-              index: step++,
-              child: const ReadingColumn(
-                alignToStart: true,
-                child: RankBanner(),
-              ),
-            ),
+            // No `ReadingColumn` here. The rule this screen states above is
+            // that prose keeps the reading measure and cards take the content
+            // measure, and the banner is a card — it sits between the quotation
+            // card and the section grid, both of which are full width. Wrapped
+            // in the reading measure it came out narrower than both, so a
+            // desktop window showed three different widths stacked down one
+            // page and the banner's edge lined up with nothing.
+            EntranceAnimation(index: step++, child: const RankBanner()),
             const SizedBox(height: Spacing.xxl),
 
             // A grid rather than a stack of rows. A list of links tells a

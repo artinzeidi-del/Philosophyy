@@ -99,10 +99,23 @@ class TagChip extends StatelessWidget {
         child: InkWell(
           onTap: tap,
           borderRadius: const BorderRadius.all(Radius.circular(Radii.pill)),
-          child: Container(
-            constraints: const BoxConstraints(minHeight: minimumTapTarget),
-            alignment: Alignment.center,
-            child: pill,
+          // `Align` with a `widthFactor`, not a `Container` with an
+          // `alignment`. They look interchangeable and are not: a `Container`
+          // given an alignment expands to whatever width its parent allows,
+          // and the parent here is a `Wrap`, which offers the full row. So
+          // every tappable tag took a line to itself — four short words down
+          // the left of a phone where three fit across it. It shipped in both
+          // languages, and the whole suite passed, because nothing overflowed
+          // and nothing was unreadable; it was only wrong to look at.
+          //
+          // The `widthFactor` makes this box exactly as wide as the pill while
+          // `minHeight` keeps the finger target the reason this wrapper exists.
+          child: Align(
+            widthFactor: 1,
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(minHeight: minimumTapTarget),
+              child: Center(heightFactor: 1, widthFactor: 1, child: pill),
+            ),
           ),
         ),
       ),

@@ -123,19 +123,12 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
       return terms.any((id) => taxonomy.isUnder(id, selected));
     }).toList();
 
-    // Only terms with entries behind them are offered, so a filter can never
-    // lead to an empty screen — including the broader terms, which earn their
-    // chip from the entries filed beneath them. Sorting goes through the
-    // taxonomy so the chips follow the editorial order in the content file
-    // rather than the order entries happen to have been authored in.
-    final represented = <String>{
-      for (final philosopher in corpus.philosophers)
-        for (final id in termsOfPhilosopher(philosopher))
-          ...taxonomy.ancestryOf(id),
-      if (byBranch)
-        for (final concept in corpus.concepts)
-          for (final id in concept.branches) ...taxonomy.ancestryOf(id),
-    };
+    // Sorting goes through the taxonomy so the chips follow the editorial
+    // order in the content file rather than the order entries happen to have
+    // been authored in. Which terms are offered at all is settled by
+    // [_representedTermsProvider], which does not change when a chip is
+    // tapped and so is not recomputed when one is.
+    final represented = ref.watch(_representedTermsProvider(byBranch));
     final terms = represented.map((id) => taxonomy[id]).nonNulls.toList()
       ..sort();
 
@@ -268,6 +261,43 @@ enum _BrowseAxis {
   /// What the philosophy is about.
   branch,
 }
+
+/// The taxonomy terms that actually have entries behind them, per axis.
+///
+/// Only terms with something filed under them are offered as chips, so a
+/// filter can never lead to an empty screen — and a broad term earns its chip
+/// from the entries filed beneath it, which is why every term's ancestry goes
+/// in too.
+///
+/// ## Why this is a provider and not four lines in `build`
+///
+/// It was computed inline, and it depends on the axis and on nothing else —
+/// not on the selected term, not on anything a reader can change without
+/// changing axis. So it was being rebuilt from the whole corpus every time a
+/// filter chip was tapped, for a result that could not have changed. Timed
+/// against the shipped content that is 290µs of the frame, thrown away, on
+/// every tap; at the size this product intends to reach it is worse than that,
+/// because it walks every philosopher and every concept.
+///
+/// Keyed on a `bool` rather than on [_BrowseAxis] only because a family key has
+/// to be comparable across rebuilds and a private enum is awkward to expose;
+/// `true` is the branch axis.
+final _representedTermsProvider = Provider.family<Set<String>, bool>((
+  ref,
+  byBranch,
+) {
+  final corpus = ref.watch(corpusProvider).value;
+  if (corpus == null) return const <String>{};
+  final taxonomy = corpus.taxonomy;
+  return <String>{
+    for (final philosopher in corpus.philosophers)
+      for (final id in byBranch ? philosopher.branches : philosopher.traditions)
+        ...taxonomy.ancestryOf(id),
+    if (byBranch)
+      for (final concept in corpus.concepts)
+        for (final id in concept.branches) ...taxonomy.ancestryOf(id),
+  };
+});
 
 /// Chooses between browsing by tradition and browsing by branch.
 ///
