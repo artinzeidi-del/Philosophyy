@@ -28,12 +28,14 @@ import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
+import 'package:philosophyy/domain/value_objects/historical_date.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 import 'package:philosophyy/features/shared/argument_widgets.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/glossary_sheet.dart';
+import 'package:philosophyy/features/shared/timeline_band.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
@@ -407,13 +409,135 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
       : 'Entries are written from primary texts and academic sources. '
             'Scholarly disagreement is shown, not smoothed away.';
 
-  List<Widget> _kindSpecificSections(BuildContext context) => switch (entity) {
-    final Philosopher philosopher => _philosopherSections(context, philosopher),
-    final Concept concept => _conceptSections(context, concept),
-    final Work work => _workSections(context, work),
-    final School school => _schoolSections(context, school),
-    _ => const <Widget>[],
-  };
+  List<Widget> _kindSpecificSections(BuildContext context) => <Widget>[
+    // Before whatever the kind adds, because it is the same question for all
+    // four of them and a reader who has just finished the summary is at the
+    // point of asking it.
+    ..._whenSection(context),
+    ...switch (entity) {
+      final Philosopher philosopher => _philosopherSections(
+        context,
+        philosopher,
+      ),
+      final Concept concept => _conceptSections(context, concept),
+      final Work work => _workSections(context, work),
+      final School school => _schoolSections(context, school),
+      _ => const <Widget>[],
+    },
+  ];
+
+  /// The timeline band, and the caption that says what it is.
+  ///
+  /// Every kind gets one, from a different field: a philosopher's life, a
+  /// work's composition, a school's period, and for a concept the span of the
+  /// philosophers filed under it — which is the honest way to date an idea,
+  /// since ideas do not have birthdays but the people arguing them do.
+  ///
+  /// Returns nothing rather than an empty band when the dates are missing, so
+  /// a future entry without them degrades to the layout that existed before
+  /// this was added.
+  List<Widget> _whenSection(BuildContext context) {
+    final l10n = AppL10n.of(context);
+    final name = entity.name.resolve(language);
+
+    final (
+      HistoricalRange? span,
+      List<int> others,
+      String Function(String) caption,
+    ) = switch (entity) {
+      final Philosopher philosopher => (
+        _rangeOfLife(philosopher.life),
+        _anchors(corpus.philosophers.map((p) => p.life.sortAnchor)),
+        (dates) => l10n.timelinePhilosopher(name, dates),
+      ),
+      final Work work => (
+        work.composed,
+        _anchors(corpus.works.map((w) => w.composed?.start ?? w.composed?.end)),
+        l10n.timelineWork,
+      ),
+      final School school => (
+        school.period,
+        _anchors(corpus.schools.map((s) => s.period?.start ?? s.period?.end)),
+        l10n.timelineSchool,
+      ),
+      final Concept concept => (
+        _spanOfPhilosophers(concept.philosopherIds),
+        _anchors(corpus.philosophers.map((p) => p.life.sortAnchor)),
+        l10n.timelineConcept,
+      ),
+      _ => (null, const <int>[], (dates) => dates),
+    };
+
+    if (span == null) return const <Widget>[];
+    final dates = AppDates.range(span, language, l10n);
+    if (dates == null) return const <Widget>[];
+
+    return <Widget>[
+      _CardSection(
+        title: l10n.sectionWhen,
+        children: <Widget>[
+          TimelineBand(
+            span: span,
+            others: others,
+            caption: caption(dates),
+            startLabel: _edgeLabel(others, span, l10n, lowest: true),
+            endLabel: _edgeLabel(others, span, l10n, lowest: false),
+          ),
+        ],
+      ),
+    ];
+  }
+
+  /// A life as a range, preferring attested dates and falling back to the
+  /// floruit for the many ancient figures who have only that.
+  static HistoricalRange? _rangeOfLife(LifeSpan life) {
+    if (life.birth != null || life.death != null) {
+      return HistoricalRange(start: life.birth, end: life.death);
+    }
+    return life.floruit;
+  }
+
+  /// The span from the earliest to the latest of a set of philosophers.
+  HistoricalRange? _spanOfPhilosophers(List<String> ids) {
+    final years = <HistoricalYear>[
+      for (final id in ids) ?corpus.philosopher(id)?.life.sortAnchor,
+    ];
+    if (years.isEmpty) return null;
+    years.sort();
+    return HistoricalRange(start: years.first, end: years.last);
+  }
+
+  static List<int> _anchors(Iterable<HistoricalYear?> years) => <int>[
+    for (final year in years)
+      if (year != null) year.year,
+  ];
+
+  /// The year at one end of the band, formatted for the reader.
+  String? _edgeLabel(
+    List<int> others,
+    HistoricalRange span,
+    AppL10n l10n, {
+    required bool lowest,
+  }) {
+    final years = <int>[
+      ...others,
+      if (span.start != null) span.start!.year,
+      if (span.end != null) span.end!.year,
+    ];
+    if (years.isEmpty) return null;
+    // The extremes of the data, not the band's drawn bounds. The band is
+    // padded outward so the earliest entry is not painted half off the edge,
+    // and labelling that padding printed "2574 BCE" and "2131 CE" — two years
+    // in which nothing happened and to which no entry is dated. A label on an
+    // axis is a claim about the data, so it has to name a year the data
+    // actually reaches.
+    years.sort();
+    return AppDates.year(
+      HistoricalYear(lowest ? years.first : years.last),
+      language,
+      l10n,
+    );
+  }
 
   List<Widget> _philosopherSections(
     BuildContext context,

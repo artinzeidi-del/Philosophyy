@@ -9326,6 +9326,7 @@
     {
       "id": "bakhtin",
       "name": { "en": "Mikhail Bakhtin", "fa": "میخائیل باختین" },
+      "nativeName": "Михаил Бахтин",
       "oneLine": {
         "en": "Held that meaning happens between people, never inside one of them.",
         "fa": "معتقد بود معنا میان آدم‌ها رخ می‌دهد، هرگز درون یکی از آن‌ها."

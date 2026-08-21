@@ -336,6 +336,30 @@
   "@sectionOverview": {
     "description": "Heading for an entity's summary."
   },
+  "sectionWhen": "When",
+  "@sectionWhen": {
+    "description": "Heading over the timeline band on an entry."
+  },
+  "timelinePhilosopher": "{name} lived {dates}. The band runs from the earliest entry in this reference to the present, and every faint mark on it is another philosopher — so where the marks crowd together is where the surviving record thickens.",
+  "@timelinePhilosopher": {
+    "description": "Caption under the timeline on a philosopher's page.",
+    "placeholders": { "name": { "type": "String" }, "dates": { "type": "String" } }
+  },
+  "timelineWork": "Written {dates}. Every faint mark is another work in this reference, placed by when it was composed.",
+  "@timelineWork": {
+    "description": "Caption under the timeline on a work's page.",
+    "placeholders": { "dates": { "type": "String" } }
+  },
+  "timelineSchool": "Active {dates}. Every faint mark is another school, placed by when it began.",
+  "@timelineSchool": {
+    "description": "Caption under the timeline on a school's page.",
+    "placeholders": { "dates": { "type": "String" } }
+  },
+  "timelineConcept": "The philosophers filed under this idea span {dates}. The lit stretch is that span; the faint marks are every philosopher in this reference, so the width of the stretch shows how long the argument has been running.",
+  "@timelineConcept": {
+    "description": "Caption under the timeline on a concept's page, derived from the philosophers associated with it.",
+    "placeholders": { "dates": { "type": "String" } }
+  },
   "sectionWorks": "Works",
   "@sectionWorks": {
     "description": "Heading for a philosopher's works."
