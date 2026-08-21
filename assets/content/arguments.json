@@ -93,7 +93,7 @@
               "fa": "مدافعان پاسخ می‌دهند که برهان ابن‌سینا، برخلاف برهان وجودی‌ای که کانت هدف گرفته بود، هرگز وجود را از یک مفهوم استنتاج نمی‌کند؛ بلکه از این واقعیت آغاز می‌شود که چیزی موجود هست."
             }
           ],
-          "citations": [{ "source": "kant-critique-pure-reason", "locator": "A592/B620" }]
+          "citations": [{ "source": "sep" }]
         }
       ],
       "proponents": ["ibn-sina"],
@@ -101,7 +101,10 @@
       "work": "isharat",
       "concepts": ["essence-existence-distinction"],
       "branches": ["metaphysics", "philosophy-of-religion"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "avicenna-isharat", "locator": "Namat 4" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "third-man-argument",
@@ -160,7 +163,10 @@
       "opponents": ["aristotle"],
       "concepts": ["theory-of-forms"],
       "branches": ["metaphysics", "logic"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "aristotle-metaphysics", "locator": "990b17" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "ontological-argument",
@@ -337,7 +343,10 @@
       "proponents": ["hume"],
       "opponents": ["aquinas", "leibniz"],
       "branches": ["philosophy-of-religion", "metaphysics", "ethics"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-dialogues-natural-religion", "locator": "Part X" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "induction-argument",
@@ -424,7 +433,10 @@
       "opponents": ["popper"],
       "concepts": ["problem-of-induction"],
       "branches": ["epistemology", "philosophy-of-science", "logic"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-enquiry-human-understanding", "locator": "§IV" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "achilles-and-tortoise",
@@ -506,7 +518,10 @@
       "proponents": ["zeno-of-elea"],
       "opponents": ["aristotle"],
       "branches": ["logic", "metaphysics", "philosophy-of-mathematics"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-aristotle-physics", "locator": "VI.9, 239b14" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "mencius-child-argument",
@@ -862,7 +877,10 @@
       "proponents": ["rawls"],
       "concepts": ["veil-of-ignorance", "social-contract"],
       "branches": ["political-philosophy", "ethics"],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-theory-of-justice", "locator": "§24" },
+        { "source": "sep" }
+      ]
     },
     {
       "id": "zera-yacob-equality",
@@ -1057,7 +1075,10 @@
         "philosophy-of-religion",
         "ethics"
       ],
-      "citations": [{ "source": "sep" }]
+      "citations": [
+        { "source": "text-annihilation-of-caste", "locator": "§4" },
+        { "source": "sep" }
+      ]
     }
   ]
 }

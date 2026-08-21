@@ -135,6 +135,22 @@ void main() {
           problems.add('${entity.ref}: cites only ${cited.join(', ')}');
         }
       }
+      // Arguments are held to the same rule. A reconstructed argument that
+      // cites only a summary of itself gives a reader no way to check the
+      // reconstruction against the text it is reconstructing, which is the one
+      // thing a reader of a reconstruction most needs.
+      for (final argument in corpus.arguments) {
+        final cited = <String>{
+          for (final citation in argument.citations) citation.sourceId,
+        };
+        if (cited.isEmpty) continue;
+        if (cited.difference(tertiary).isEmpty) {
+          problems.add(
+            'argument:${argument.id}: cites only ${cited.join(', ')}',
+          );
+        }
+      }
+
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
