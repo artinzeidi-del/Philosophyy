@@ -15,6 +15,7 @@ import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
+import 'package:philosophyy/features/shared/up_button.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
 /// The way in for a reader who has never read philosophy.
@@ -45,6 +46,7 @@ class PrimerScreen extends ConsumerWidget {
       // route — which is white — and the title vanished into it.
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        leading: const UpButton(),
         title: Text(AppL10n.of(context).primerTitle),
         backgroundColor: Colors.transparent,
       ),

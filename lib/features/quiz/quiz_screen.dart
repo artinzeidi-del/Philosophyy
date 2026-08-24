@@ -12,6 +12,7 @@ import 'package:philosophyy/domain/entities/quiz.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
+import 'package:philosophyy/features/shared/up_button.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
 /// A round of questions about what the reader has read.
@@ -72,6 +73,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
       backgroundColor: Colors.transparent,
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        leading: const UpButton(),
         title: Text(l10n.quizTitle),
         backgroundColor: Colors.transparent,
       ),

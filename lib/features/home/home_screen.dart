@@ -547,10 +547,17 @@ class _DailyQuoteHero extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const Icon(
-                      Icons.arrow_outward_rounded,
-                      size: 18,
-                      color: AppGradients.onGradientMuted,
+                    // The framework marks its chevrons `matchTextDirection`
+                    // and does not mark this one, so in Persian the card's
+                    // chevron flipped and this arrow went on pointing right —
+                    // out of the corner the reader has already read past.
+                    Transform.flip(
+                      flipX: Directionality.of(context) == TextDirection.rtl,
+                      child: const Icon(
+                        Icons.arrow_outward_rounded,
+                        size: 18,
+                        color: AppGradients.onGradientMuted,
+                      ),
                     ),
                   ],
                 ),

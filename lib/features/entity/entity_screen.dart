@@ -37,6 +37,7 @@ import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/glossary_sheet.dart';
 import 'package:philosophyy/features/shared/timeline_band.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
+import 'package:philosophyy/features/shared/up_button.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
 /// The article screen, used for every kind of entity.
@@ -273,6 +274,11 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                   .colors
                   .first,
               foregroundColor: AppGradients.onGradient,
+              // Named rather than left to `AppBar`: an article reached from a
+              // shared link is the first entry in the history, so the implied
+              // back arrow is absent and this screen carries no navigation bar
+              // to fall back on.
+              leading: const UpButton(color: AppGradients.onGradient),
               // The title's colour has to be named here as well as on the bar.
               // `foregroundColor` tints the icons, but the title takes
               // `titleTextStyle`, and the theme's carries an explicit
@@ -660,9 +666,12 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
           items: concept.counterexamples,
           language: language,
         ),
+      // "Related ideas", not "Key ideas": the reader is already on an idea,
+      // so a heading calling these the key ones reads as a claim about the
+      // concept above rather than a list of its neighbours.
       if (related.isNotEmpty)
         _CardSection(
-          title: l10n.sectionConcepts,
+          title: l10n.sectionRelatedIdeas,
           children: <Widget>[
             for (final other in related)
               EntityCard(
@@ -771,6 +780,11 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         .whereType<Philosopher>()
         .toList();
 
+    final concepts = school.conceptIds
+        .map(corpus.concept)
+        .whereType<Concept>()
+        .toList();
+
     return <Widget>[
       if (school.centralClaims.isNotEmpty)
         _ProseSection(
@@ -778,9 +792,24 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
           items: school.centralClaims,
           language: language,
         ),
-      if (members.isNotEmpty)
+      // The ideas before the people. A school is an argument first, and the
+      // heading over the philosophers used to say "Key ideas" while this
+      // section — the one that heading promises — was never built at all.
+      if (concepts.isNotEmpty)
         _CardSection(
           title: l10n.sectionConcepts,
+          children: <Widget>[
+            for (final concept in concepts)
+              EntityCard(
+                title: concept.name.resolve(language),
+                summary: concept.oneLine.resolve(language),
+                onTap: () => context.push(concept.ref.route),
+              ),
+          ],
+        ),
+      if (members.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionMembers,
           children: <Widget>[
             for (final member in members)
               EntityCard(

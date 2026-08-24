@@ -14,6 +14,7 @@ import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
+import 'package:philosophyy/features/shared/up_button.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
 /// The glossary: every word in the product a reader might not know.
@@ -56,6 +57,7 @@ class _GlossaryScreenState extends ConsumerState<GlossaryScreen> {
       // route — which is white — and the title vanished into it.
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        leading: const UpButton(),
         title: Text(AppL10n.of(context).glossaryTitle),
         backgroundColor: Colors.transparent,
       ),

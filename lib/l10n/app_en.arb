@@ -503,6 +503,14 @@
   "@sectionCentralClaims": {
     "description": "Heading for a school's central claims."
   },
+  "sectionMembers": "Philosophers",
+  "@sectionMembers": {
+    "description": "Heading for the philosophers belonging to a school."
+  },
+  "sectionRelatedIdeas": "Related ideas",
+  "@sectionRelatedIdeas": {
+    "description": "Heading for other concepts related to the one being read."
+  },
   "depthSelectorLabel": "Depth",
   "@depthSelectorLabel": {
     "description": "Label for the control that chooses how much detail to show."
