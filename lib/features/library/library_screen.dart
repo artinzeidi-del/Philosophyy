@@ -42,7 +42,7 @@ class LibraryScreen extends ConsumerWidget {
             details: error.toString(),
             onRetry: () => ref.invalidate(corpusProvider),
           ),
-          data: (data) => library.isEmpty
+          data: (data) => !library.hasVisibleEntries
               ? EmptyView(
                   icon: Icons.bookmark_border,
                   title: l10n.libraryEmptyTitle,
@@ -94,6 +94,11 @@ class _LibraryBody extends StatelessWidget {
         highlight,
       );
     }
+
+    // Most recently finished first, and copied before sorting for the same
+    // reason the notes and highlights are: this list is application state.
+    final readEntries = <ReadMark>[...library.readMarks]
+      ..sort((a, b) => b.markedAt.compareTo(a.markedAt));
 
     var step = 0;
 
@@ -167,6 +172,33 @@ class _LibraryBody extends StatelessWidget {
                         child: _TargetCard(
                           corpus: corpus,
                           target: bookmark.target,
+                          language: language,
+                        ),
+                      ),
+                    ),
+                  const SizedBox(height: Spacing.xl),
+                ],
+
+                // The entries the reader has finished.
+                //
+                // `itemCount` above has always counted these, and no section
+                // drew them — so a reader who ticked "I have read this" and
+                // saved nothing else was shown a heading, the words "1 item",
+                // and then no item. A screen contradicting itself is worse
+                // than a blank one.
+                if (readEntries.isNotEmpty) ...<Widget>[
+                  EntranceAnimation(
+                    index: step++,
+                    child: SectionHeader(title: l10n.libraryReadSection),
+                  ),
+                  for (final mark in readEntries)
+                    EntranceAnimation(
+                      index: step++,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: Spacing.md),
+                        child: _TargetCard(
+                          corpus: corpus,
+                          target: mark.target,
                           language: language,
                         ),
                       ),

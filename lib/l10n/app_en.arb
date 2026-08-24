@@ -665,6 +665,10 @@
   "@libraryContinueSection": {
     "description": "Heading for articles with a saved reading position."
   },
+  "libraryReadSection": "Read",
+  "@libraryReadSection": {
+    "description": "Heading over the entries the reader has marked as finished."
+  },
   "bookmarkAdd": "Save this entry",
   "@bookmarkAdd": {
     "description": "Tooltip on the bookmark button when not saved."

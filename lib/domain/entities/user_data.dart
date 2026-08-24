@@ -313,6 +313,16 @@ class UserLibrary {
   int get itemCount =>
       bookmarks.length + notes.length + highlights.length + readMarks.length;
 
+  /// Whether the library screen has anything it can draw.
+  ///
+  /// Not the same as [isEmpty], which is also false for a library holding only
+  /// mastered facts — those are banked by answering a quiz question and there
+  /// is nothing to list. Branching the screen on [isEmpty] therefore showed a
+  /// reader who had only answered questions a heading, the words "Nothing
+  /// saved", and no invitation to save anything.
+  bool get hasVisibleEntries =>
+      itemCount > 0 || positions.any((position) => position.isWorthRestoring);
+
   /// Whether [ref] is bookmarked.
   bool isBookmarked(EntityRef ref) =>
       bookmarks.any((bookmark) => bookmark.target == ref);

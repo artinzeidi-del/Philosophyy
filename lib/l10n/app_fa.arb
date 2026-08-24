@@ -148,6 +148,7 @@
   "libraryEmptyTitle": "هنوز چیزی ذخیره نشده",
   "libraryEmptyBody": "مدخلی را ذخیره کنید یا بر آن یادداشتی بنویسید تا اینجا نمایان شود.",
   "librarySavedSection": "ذخیره‌شده",
+  "libraryReadSection": "خوانده‌شده",
   "libraryNotesSection": "یادداشت‌های شما",
   "libraryContinueSection": "ادامهٔ مطالعه",
   "bookmarkAdd": "ذخیرهٔ این مدخل",
