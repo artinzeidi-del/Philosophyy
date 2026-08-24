@@ -10,6 +10,7 @@ import 'package:philosophyy/core/design/typography.dart';
 import 'package:philosophyy/core/format/bidi_text.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/core/search/glossary_matcher.dart';
+import 'package:philosophyy/core/search/text_normalizer.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
@@ -1220,6 +1221,31 @@ class QuoteCard extends StatelessWidget {
                     quote.text.resolvedLanguage(language),
                   ).copyWith(color: semantic.onQuoteSurface),
                 ),
+                // The words as they were written, when the corpus has them.
+                //
+                // Forty-one quotations carry the original and nothing showed
+                // it: the app that exists so a reader can check a quotation
+                // against its source held the source's own words and printed
+                // only a translation. It is set quiet but not small, the same
+                // treatment a name in its original script gets in the
+                // masthead, and it takes its direction from the script — Greek
+                // runs left to right in a Persian interface, Persian runs
+                // right to left in an English one.
+                if (quote.originalText case final original?) ...<Widget>[
+                  const SizedBox(height: Spacing.sm),
+                  Text(
+                    original,
+                    textDirection: TextNormalizer.containsArabicScript(original)
+                        ? TextDirection.rtl
+                        : TextDirection.ltr,
+                    style: theme.textTheme.bodyLarge?.copyWith(
+                      fontFamily: AppTypography.serifFamily,
+                      fontFamilyFallback: AppTypography.fallbacksFor(language),
+                      height: 1.6,
+                      color: semantic.onQuoteSurface.withValues(alpha: 0.72),
+                    ),
+                  ),
+                ],
                 const SizedBox(height: Spacing.md),
                 // A `Wrap`, because the badge beside the name cannot shrink:
                 // it is a word in a pill, and `Expanded` on the name only
