@@ -18,11 +18,12 @@ philosophy, built with Flutter.
 | Script coverage: Latin, Arabic, polytonic Greek | Built, 12 tests |
 | Bilingual architecture (fa/en, RTL/LTR) | Built, verified end to end |
 | Domain model and content pipeline | Built, integrity-checked by test |
-| Search (cross-script, fuzzy, Persian-aware) | Built, 26 tests |
+| Search (cross-script, fuzzy, Persian-aware) | Built, 74 tests |
 | Home, Explore, Search, Settings, Article screens | Built |
 | Glossary, primer, library (saves, notes, highlights) | Built |
-| Corpus | 191 philosophers, 61 concepts, 47 works, 29 schools, 124 quotations, 12 arguments, 303 sources, 76 glossary terms |
-| Reader, learning platform, quizzes, graph view | **Not started** |
+| Quiz, built from the corpus, with nine ranks of progress | Built, 28 tests |
+| Corpus | 191 philosophers, 61 concepts, 186 works, 29 schools, 256 quotations, 12 arguments, 303 sources, 76 glossary terms |
+| Continuous reader, spaced review, graph view | **Not started** |
 
 ## Running it
 
@@ -38,7 +39,7 @@ flutter run          # or: flutter build web --release
 
 ```bash
 flutter analyze                 # must report no issues
-flutter test                    # 553 tests
+flutter test                    # 924 tests
 flutter build web --release     # must succeed
 ```
 
