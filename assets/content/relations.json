@@ -357,7 +357,7 @@
       "object": "school:stoicism",
       "note": {
         "en": "The Meditations apply the doctrine to a particular life rather than expounding it, which is why they read as practice rather than teaching.",
-        "fa": "«تأملات» آموزه را به‌جای شرح‌دادن، بر یک زندگی معین به کار می‌بندد، و به همین سبب بیشتر تمرین می‌نماید تا تعلیم."
+        "fa": "«تأملات» آموزه را به‌جای شرح دادن، بر یک زندگی معین به کار می‌بندد، و به همین سبب بیشتر تمرین می‌نماید تا تعلیم."
       },
       "sources": ["sep"]
     },
@@ -390,7 +390,7 @@
       "object": "philosopher:descartes",
       "note": {
         "en": "The doubt Descartes sets out to defeat is the doubt the sceptical revival had made unavoidable, and Montaigne is where most of his contemporaries met it.",
-        "fa": "تردیدی که دکارت به شکست‌دادنش برمی‌خیزد همان تردیدی است که احیای شکاکیت ناگزیرش کرده بود، و بیشتر هم‌روزگارانش با آن نزد مونتنی روبه‌رو شدند."
+        "fa": "تردیدی که دکارت به شکست دادنش برمی‌خیزد همان تردیدی است که احیای شکاکیت ناگزیرش کرده بود، و بیشتر هم‌روزگارانش با آن نزد مونتنی روبه‌رو شدند."
       },
       "sources": ["sep"]
     },
@@ -533,7 +533,7 @@
       "object": "philosopher:nagarjuna",
       "note": {
         "en": "Nāgārjuna presents his work as drawing out what the early teaching already implied rather than as a new doctrine.",
-        "fa": "ناگارجونا کارش را بیرون‌کشیدن آنچه آموزهٔ نخستین از پیش اقتضا می‌کرد می‌نمایاند، نه آموزه‌ای نو."
+        "fa": "ناگارجونا کارش را بیرون کشیدن آنچه آموزهٔ نخستین از پیش اقتضا می‌کرد می‌نمایاند، نه آموزه‌ای نو."
       },
       "sources": ["sep"]
     },
@@ -621,7 +621,7 @@
       "object": "philosopher:confucius",
       "note": {
         "en": "The Mohist objection is that ritual and elaborate mourning consume resources without producing benefit, and that age is no argument.",
-        "fa": "اعتراض موئیان این است که آیین و سوگواری پرتشریفات منابع را می‌بلعند و سودی نمی‌آورند، و کهن‌بودن استدلال نیست."
+        "fa": "اعتراض موئیان این است که آیین و سوگواری پرتشریفات منابع را می‌بلعند و سودی نمی‌آورند، و کهن بودن استدلال نیست."
       },
       "sources": ["sep"]
     },

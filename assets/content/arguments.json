@@ -43,7 +43,7 @@
           },
           "gloss": {
             "en": "Adding up borrowed existence, however many times, never yields existence that is not borrowed.",
-            "fa": "جمع‌کردن وجودِ عاریتی، هرچند بار، هرگز وجودِ غیرعاریتی نمی‌سازد."
+            "fa": "جمع کردن وجودِ عاریتی، هرچند بار، هرگز وجودِ غیرعاریتی نمی‌سازد."
           }
         }
       ],
@@ -417,7 +417,7 @@
           "id": "o2",
           "text": {
             "en": "Science does not need induction to be justified — it needs only that theories be testable and discarded when they fail.",
-            "fa": "علم به موجه‌بودن استقرا نیازی ندارد؛ تنها به این نیاز دارد که نظریه‌ها آزمون‌پذیر باشند و وقتی شکست خوردند کنار گذاشته شوند."
+            "fa": "علم به موجه بودن استقرا نیازی ندارد؛ تنها به این نیاز دارد که نظریه‌ها آزمون‌پذیر باشند و وقتی شکست خوردند کنار گذاشته شوند."
           },
           "targets": ["p1"],
           "raisedBy": "popper",
@@ -478,7 +478,7 @@
       "assumptions": [
         {
           "en": "That completing infinitely many tasks in sequence is impossible.",
-          "fa": "اینکه به‌انجام‌رساندن بی‌نهایت کارِ پیاپی ناممکن است."
+          "fa": "اینکه به‌انجام رساندن بی‌نهایت کارِ پیاپی ناممکن است."
         },
         {
           "en": "That a distance divided infinitely is a distance made of infinitely many parts to be crossed one at a time.",
@@ -590,7 +590,7 @@
           "id": "o2",
           "text": {
             "en": "Feeling alarm is not yet acting well, so the argument establishes less than it claims.",
-            "fa": "هراسان‌شدن هنوز خوب‌عمل‌کردن نیست، پس استدلال کمتر از آنچه ادعا می‌کند ثابت می‌کند."
+            "fa": "هراسان شدن هنوز خوب‌عمل کردن نیست، پس استدلال کمتر از آنچه ادعا می‌کند ثابت می‌کند."
           },
           "targets": ["p1"],
           "replies": [
@@ -677,7 +677,7 @@
           "id": "o2",
           "text": {
             "en": "Denying causal powers makes science pointless, since there would be no natures to discover.",
-            "fa": "انکار نیروهای علّی، علم را بی‌معنا می‌کند، چون سرشتی برای کشف‌کردن نمی‌ماند."
+            "fa": "انکار نیروهای علّی، علم را بی‌معنا می‌کند، چون سرشتی برای کشف کردن نمی‌ماند."
           },
           "targets": ["p2"],
           "replies": [
@@ -713,7 +713,7 @@
           "id": "p1",
           "text": {
             "en": "Using a word correctly requires a distinction between using it correctly and merely believing one has.",
-            "fa": "کاربرد درست یک واژه، تمایز میان درست‌به کار بردن و صرفاً گمان‌کردن به درستی را لازم دارد."
+            "fa": "کاربرد درست یک واژه، تمایز میان درست‌به کار بردن و صرفاً گمان کردن به درستی را لازم دارد."
           }
         },
         {
@@ -753,7 +753,7 @@
           "id": "o1",
           "text": {
             "en": "A person alone from birth could still name their sensations consistently, so the conclusion is too strong.",
-            "fa": "کسی که از زاده‌شدن تنها بوده باز می‌تواند احساس‌هایش را پیوسته نام‌گذاری کند، پس نتیجه بیش از حد قوی است."
+            "fa": "کسی که از زاده شدن تنها بوده باز می‌تواند احساس‌هایش را پیوسته نام‌گذاری کند، پس نتیجه بیش از حد قوی است."
           },
           "targets": ["p2"],
           "replies": [
@@ -773,7 +773,7 @@
           "replies": [
             {
               "en": "The conclusion is not that sensation talk is impossible but that it works differently from naming — the word for pain is learned in public circumstances, not by inward pointing.",
-              "fa": "نتیجه این نیست که سخن‌گفتن از احساس ناممکن است، بلکه این است که جور دیگری کار می‌کند تا نام‌گذاری — واژهٔ درد در موقعیت‌های همگانی آموخته می‌شود، نه با اشارهٔ درونی."
+              "fa": "نتیجه این نیست که سخن گفتن از احساس ناممکن است، بلکه این است که جور دیگری کار می‌کند تا نام‌گذاری — واژهٔ درد در موقعیت‌های همگانی آموخته می‌شود، نه با اشارهٔ درونی."
             }
           ]
         }
@@ -849,7 +849,7 @@
           "id": "o1",
           "text": {
             "en": "Rational choosers might accept a small chance of doing badly for a large chance of doing very well, which yields different principles.",
-            "fa": "برگزینندگان عاقل شاید شانس کوچکِ بد شدن را در برابر شانس بزرگِ بسیار خوب‌شدن بپذیرند، و این اصولی دیگر می‌دهد."
+            "fa": "برگزینندگان عاقل شاید شانس کوچکِ بد شدن را در برابر شانس بزرگِ بسیار خوب شدن بپذیرند، و این اصولی دیگر می‌دهد."
           },
           "targets": ["p4"],
           "replies": [
@@ -869,7 +869,7 @@
           "replies": [
             {
               "en": "The veil is a device for modelling a constraint on reasons, not a claim about what a self is — though critics answer that the device smuggles in the very individualism it claims to abstract from.",
-              "fa": "پرده ابزاری است برای مدل‌کردن قیدی بر دلایل، نه ادعایی دربارهٔ چیستیِ «خود» — هرچند منتقدان پاسخ می‌دهند که همین ابزار، همان فردگرایی‌ای را قاچاق می‌کند که مدعی است از آن انتزاع کرده."
+              "fa": "پرده ابزاری است برای مدل کردن قیدی بر دلایل، نه ادعایی دربارهٔ چیستیِ «خود» — هرچند منتقدان پاسخ می‌دهند که همین ابزار، همان فردگرایی‌ای را قاچاق می‌کند که مدعی است از آن انتزاع کرده."
             }
           ]
         }
@@ -911,7 +911,7 @@
           "id": "p3",
           "text": {
             "en": "Each was taught to its followers by upbringing, so being taught something is no evidence at all that it is true.",
-            "fa": "هر یک را تربیت به پیروانش آموخته، پس آموخته‌شدنِ چیزی هیچ شاهدی بر درستی آن نیست."
+            "fa": "هر یک را تربیت به پیروانش آموخته، پس آموخته شدنِ چیزی هیچ شاهدی بر درستی آن نیست."
           }
         },
         {
@@ -1015,7 +1015,7 @@
           "id": "p4",
           "text": {
             "en": "The order is sanctioned by scripture, so contesting a practice within the religion contests the scripture's authority.",
-            "fa": "این نظم را متن مقدس روا می‌دارد، پس به‌چالش‌کشیدن یک رویّه درون دین، اقتدار آن متن را به چالش می‌کشد."
+            "fa": "این نظم را متن مقدس روا می‌دارد، پس به‌چالش کشیدن یک رویّه درون دین، اقتدار آن متن را به چالش می‌کشد."
           }
         }
       ],
@@ -1023,7 +1023,7 @@
         "id": "c",
         "text": {
           "en": "Therefore caste cannot be reformed away from within, and its rejection requires leaving the framework that licenses it.",
-          "fa": "پس کاست را نمی‌توان از درون با اصلاح برچید، و رد آن ترک‌کردن چارچوبی را می‌طلبد که مجازش می‌دارد."
+          "fa": "پس کاست را نمی‌توان از درون با اصلاح برچید، و رد آن ترک کردن چارچوبی را می‌طلبد که مجازش می‌دارد."
         }
       },
       "assumptions": [
@@ -1033,7 +1033,7 @@
         },
         {
           "en": "That religious sanction is doing real work in holding the arrangement together, rather than decorating it.",
-          "fa": "اینکه روایی دینی در نگه‌داشتن این ترتیب کارِ واقعی می‌کند، نه اینکه زینتش باشد."
+          "fa": "اینکه روایی دینی در نگه داشتن این ترتیب کارِ واقعی می‌کند، نه اینکه زینتش باشد."
         }
       ],
       "objections": [

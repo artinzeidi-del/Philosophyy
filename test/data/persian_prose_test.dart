@@ -293,6 +293,152 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a term of art is spelled one way in Persian too', () {
+      // The same rule as for names, for the words that name an idea. Pyrrho
+      // came out three ways — «پیرون» in his own entry, «پیرهون» in its own
+      // article body, «پورون» in the source record for the very work that
+      // works.json titled «طرح‌های پیرهونی» — so one book had two Persian
+      // titles. Embodiment was «تن‌مندی» three times and «بدنمندی» once,
+      // written closed up as well. Coloniality was «استعمارمندی» as a title,
+      // «استعماریت» in its own article and «استعماری‌بودن» in the two book
+      // titles that use it; «-مند» attaches to a noun to say it has something,
+      // and «استعمارمند» says nothing anyone means.
+      //
+      // «موقعیت‌گرایی» is the one that changes the sense rather than the
+      // spelling: it is the word for situationism, and it stood in a list of
+      // answers to Descartes' mind-body problem where occasionalism belongs —
+      // «موقع‌گرایی», the word the Ghazali entry already used.
+      const wrong = <String, String>{
+        'پیرهون': 'پیرون',
+        'پورون': 'پیرون',
+        'بدنمندی': 'تن‌مندی',
+        'بدن‌مندی': 'تن‌مندی',
+        'استعمارمند': 'استعماری‌بودن',
+        'استعماریت': 'استعماری‌بودن',
+        'موقعیت‌گرای': 'موقع‌گرای',
+      };
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final pair in wrong.entries) {
+          if (RegExp('(?<![؀-ۿ])${RegExp.escape(pair.key)}')
+              .hasMatch(entry.text)) {
+            problems.add(
+              '${entry.file} ${entry.path}: "${pair.key}" — the corpus says '
+              '"${pair.value}"',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('the verb of a compound verb stands on its own', () {
+      // The other half of the compound-verb rule. «ردکردن» run together was
+      // already caught; «رد‌کردن» with a half-space between the parts was not,
+      // and the corpus was split almost evenly — 430 written with the joiner
+      // against 540 with a space, and forty-seven verbs spelled both ways in
+      // different entries. «پاسخ دادن» twice and «پاسخ‌دادن» twelve times is
+      // not a distinction anyone was drawing.
+      //
+      // The rule the Academy gives is the simple one: the verbal part of a
+      // compound verb is written separately, so nothing that is only an
+      // infinitive may be bound to the word before it.
+      const verbs = <String>[
+        'کردن',
+        'شدن',
+        'دادن',
+        'گرفتن',
+        'زدن',
+        'آوردن',
+        'بردن',
+        'داشتن',
+        'ساختن',
+        'یافتن',
+        'خوردن',
+        'کشیدن',
+        'بستن',
+        'انداختن',
+        'رساندن',
+        'نهادن',
+        'گذاشتن',
+        'ماندن',
+        'دیدن',
+        'گفتن',
+        'خواستن',
+        'رفتن',
+        'آمدن',
+        'گشتن',
+        'نمودن',
+        'جستن',
+        'بودن',
+        'شنیدن',
+        'خواندن',
+        'نوشتن',
+        'گردیدن',
+        'ورزیدن',
+        'سپردن',
+        'پرداختن',
+      ];
+      final pattern = RegExp(
+        '([\\p{L}\\p{M}]+)‌(${verbs.join('|')})(?![\\p{L}\\p{M}])',
+        unicode: true,
+      );
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final match in pattern.allMatches(entry.text)) {
+          // «برمی‌آوردن», «درمی‌آورند»: the joiner belongs to the «می» prefix,
+          // which is part of the verb rather than a word before it.
+          if (match.group(1)!.endsWith('می')) continue;
+          problems.add(
+            '${entry.file} ${entry.path}: "${match.group(0)}" needs a space',
+          );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('a compound number is written the way the Academy writes it', () {
+      // «سی‌وپنج» four times and «سی و پنج» three times, twelve numbers
+      // spelled both ways. Compound numerals take spaces.
+      const tens = <String>[
+        'بیست',
+        'سی',
+        'چهل',
+        'پنجاه',
+        'شصت',
+        'هفتاد',
+        'هشتاد',
+        'نود',
+        'صد',
+        'دویست',
+        'سیصد',
+        'چهارصد',
+        'پانصد',
+      ];
+      const units = <String>[
+        'یک',
+        'دو',
+        'سه',
+        'چهار',
+        'پنج',
+        'شش',
+        'هفت',
+        'هشت',
+        'نه',
+        'ده',
+        'یازده',
+        'دوازده',
+        'سیزده',
+      ];
+      final pattern = RegExp('(${tens.join('|')})‌و(${units.join('|')})');
+      final problems = <String>[
+        for (final entry in strings)
+          for (final match in pattern.allMatches(entry.text))
+            '${entry.file} ${entry.path}: "${match.group(0)}" takes spaces',
+      ];
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('a decade is named in a calendar the reader can tell', () {
       // «دههٔ شصت» means the nineteen-sixties to the writer and the thirteen-
       // sixties of the Solar Hijri calendar to a reader in Iran — the

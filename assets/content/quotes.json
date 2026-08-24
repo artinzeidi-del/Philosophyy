@@ -80,7 +80,7 @@
       "citation": { "source": "epictetus-enchiridion", "locator": "ch. 5" },
       "context": {
         "en": "Epictetus' example is death: death itself is not terrible, or Socrates would have found it so; what is terrible is the judgement that death is terrible.",
-        "fa": "مثال اپیکتتوس مرگ است: خودِ مرگ هولناک نیست، وگرنه سقراط نیز آن را چنین می‌یافت؛ آنچه هولناک است داوریِ هولناک‌بودن مرگ است."
+        "fa": "مثال اپیکتتوس مرگ است: خودِ مرگ هولناک نیست، وگرنه سقراط نیز آن را چنین می‌یافت؛ آنچه هولناک است داوریِ هولناک بودن مرگ است."
       },
       "concepts": ["dichotomy-of-control"]
     },
@@ -216,7 +216,7 @@
       "attribution": "verified",
       "context": {
         "en": "An argument compressed into a sentence, not a consolation. If being dead is not a state anyone is in, then it is not a state that can be bad for them — and the fear is a mistake about what a person is.",
-        "fa": "استدلالی فشرده در یک جمله، نه یک تسلی. اگر «مرده‌بودن» حالتی نباشد که کسی در آن باشد، پس حالتی نیست که بتواند برای او بد باشد — و آن ترس، خطایی است دربارهٔ اینکه آدمی چیست."
+        "fa": "استدلالی فشرده در یک جمله، نه یک تسلی. اگر «مرده بودن» حالتی نباشد که کسی در آن باشد، پس حالتی نیست که بتواند برای او بد باشد — و آن ترس، خطایی است دربارهٔ اینکه آدمی چیست."
       },
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
@@ -234,7 +234,7 @@
       "attribution": "verified",
       "context": {
         "en": "Not misanthropy. The passage continues that they are like this through ignorance of good and bad, that they are kin, and that he cannot be harmed by any of them — the point of naming the day's irritations in advance is to arrive at them already unsurprised.",
-        "fa": "این مردم‌گریزی نیست. متن ادامه می‌دهد که آنان از ناآگاهی به خیر و شر چنین‌اند، که خویشاوندند، و که هیچ‌یک نمی‌توانند به او آسیب بزنند — مقصود از نام‌بردنِ پیشاپیشِ دلخوری‌های روز این است که غافلگیر نشده با آن‌ها روبه‌رو شود."
+        "fa": "این مردم‌گریزی نیست. متن ادامه می‌دهد که آنان از ناآگاهی به خیر و شر چنین‌اند، که خویشاوندند، و که هیچ‌یک نمی‌توانند به او آسیب بزنند — مقصود از نام بردنِ پیشاپیشِ دلخوری‌های روز این است که غافلگیر نشده با آن‌ها روبه‌رو شود."
       },
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
@@ -252,7 +252,7 @@
       "attribution": "verified",
       "context": {
         "en": "Written by one of the richest men in Rome, which readers have found hard to square with the letters since antiquity.",
-        "fa": "نوشتهٔ یکی از ثروتمندترین مردان رم، و خوانندگان از دوران باستان تا امروز جمع‌کردنِ این با آن نامه‌ها را دشوار یافته‌اند."
+        "fa": "نوشتهٔ یکی از ثروتمندترین مردان رم، و خوانندگان از دوران باستان تا امروز جمع کردنِ این با آن نامه‌ها را دشوار یافته‌اند."
       },
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
@@ -275,7 +275,7 @@
       "attribution": "verified",
       "context": {
         "en": "Usually quoted as beginning with a single step, which turns it into encouragement. The Chinese says beneath the foot, and the chapter is about acting on things while they are still small — closer to a warning than to a slogan.",
-        "fa": "معمولاً چنین نقل می‌شود که «با یک قدم آغاز می‌شود»، و همین آن را به تشویق بدل می‌کند. متن چینی می‌گوید «زیر پا»، و آن فصل دربارهٔ اقدام‌کردن به کارها در حالی است که هنوز کوچک‌اند — به هشدار نزدیک‌تر است تا به شعار."
+        "fa": "معمولاً چنین نقل می‌شود که «با یک قدم آغاز می‌شود»، و همین آن را به تشویق بدل می‌کند. متن چینی می‌گوید «زیر پا»، و آن فصل دربارهٔ اقدام کردن به کارها در حالی است که هنوز کوچک‌اند — به هشدار نزدیک‌تر است تا به شعار."
       },
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
@@ -544,7 +544,7 @@
       "id": "machiavelli-feared",
       "text": {
         "en": "It is far safer to be feared than loved, if one must choose.",
-        "fa": "اگر ناچار از انتخاب باشی، ترساندن بسیار امن‌تر از دوست‌داشته‌شدن است."
+        "fa": "اگر ناچار از انتخاب باشی، ترساندن بسیار امن‌تر از دوست‌داشته شدن است."
       },
       "speaker": "machiavelli",
       "work": "the-prince",
@@ -744,7 +744,7 @@
       "id": "marx-philosophers",
       "text": {
         "en": "The philosophers have only interpreted the world in various ways; the point is to change it.",
-        "fa": "فیلسوفان تنها جهان را به شیوه‌های گوناگون تفسیر کرده‌اند؛ مسئله دگرگون‌کردن آن است."
+        "fa": "فیلسوفان تنها جهان را به شیوه‌های گوناگون تفسیر کرده‌اند؛ مسئله دگرگون کردن آن است."
       },
       "speaker": "marx",
       "attribution": "verified",
@@ -1174,7 +1174,7 @@
       "attribution": "misattributed",
       "attributionNote": {
         "en": "Socrates quotes it; he did not write it. The maxim was carved at Delphi before he was born, and treating it as his own is the commonest small error in popular philosophy.",
-        "fa": "سقراط آن را نقل می‌کند؛ ننوشته است. این کلام پیش از زاده‌شدن او بر معبد دلفی کنده شده بود، و از آنِ او دانستنش رایج‌ترین خطای کوچک در فلسفهٔ عامه است."
+        "fa": "سقراط آن را نقل می‌کند؛ ننوشته است. این کلام پیش از زاده شدن او بر معبد دلفی کنده شده بود، و از آنِ او دانستنش رایج‌ترین خطای کوچک در فلسفهٔ عامه است."
       },
       "actualSource": {
         "en": "An inscription at the temple of Apollo at Delphi, predating Socrates.",
@@ -1637,7 +1637,7 @@
       "id": "berkeley-esse",
       "text": {
         "en": "Their esse is percipi, nor is it possible they should have any existence out of the minds or thinking things which perceive them.",
-        "fa": "بودنِ آن‌ها ادراک‌شدن است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
+        "fa": "بودنِ آن‌ها ادراک شدن است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
       },
       "speaker": "berkeley",
       "attribution": "verified",
@@ -2290,7 +2290,7 @@
       "id": "maimonides-perplexed",
       "text": {
         "en": "This treatise has as its principal object to explain the meanings of certain terms occurring in books of prophecy.",
-        "fa": "مقصود اصلی این رساله، روشن‌کردن معنای پاره‌ای اصطلاحات است که در کتاب‌های نبوت می‌آید."
+        "fa": "مقصود اصلی این رساله، روشن کردن معنای پاره‌ای اصطلاحات است که در کتاب‌های نبوت می‌آید."
       },
       "speaker": "maimonides",
       "attribution": "probable",
@@ -2419,7 +2419,7 @@
       },
       "context": {
         "en": "Aimed at the French Declaration of the Rights of Man. Bentham's objection is not that people should have no rights but that a right which no law confers cannot be pointed at, and so cannot be argued about.",
-        "fa": "نشانه‌رفته به «اعلامیهٔ حقوق بشر» فرانسه. اعتراض بنتام این نیست که مردم نباید حقی داشته باشند، بلکه این است که حقی که هیچ قانونی نداده باشد نشان‌دادنی نیست، و پس بحث‌پذیر هم نیست."
+        "fa": "نشانه‌رفته به «اعلامیهٔ حقوق بشر» فرانسه. اعتراض بنتام این نیست که مردم نباید حقی داشته باشند، بلکه این است که حقی که هیچ قانونی نداده باشد نشان دادنی نیست، و پس بحث‌پذیر هم نیست."
       }
     },
     {
@@ -2605,7 +2605,7 @@
       "id": "hooks-feminism",
       "text": {
         "en": "Feminism is a movement to end sexism, sexist exploitation, and oppression.",
-        "fa": "فمینیسم جنبشی است برای پایان‌دادن به جنسیت‌زدگی، بهره‌کشیِ جنسیتی و ستم."
+        "fa": "فمینیسم جنبشی است برای پایان دادن به جنسیت‌زدگی، بهره‌کشیِ جنسیتی و ستم."
       },
       "speaker": "bell-hooks",
       "attribution": "probable",
@@ -2643,7 +2643,7 @@
       "citation": { "source": "text-gender-trouble", "locator": "ch. 3" },
       "context": {
         "en": "Performative does not mean chosen, which is the reading Butler has spent thirty years correcting. The frame is described as rigid on purpose: the repetition is compelled, and that is what makes it possible to fail at it.",
-        "fa": "«اجرایی» به معنای «برگزیده» نیست، و باتلر سی سال است همین خوانش را تصحیح می‌کند. چارچوب عمداً «سخت‌گیرانه» وصف شده است: تکرار اجباری است، و همین است که شکست‌خوردن در آن را ممکن می‌کند."
+        "fa": "«اجرایی» به معنای «برگزیده» نیست، و باتلر سی سال است همین خوانش را تصحیح می‌کند. چارچوب عمداً «سخت‌گیرانه» وصف شده است: تکرار اجباری است، و همین است که شکست خوردن در آن را ممکن می‌کند."
       }
     },
     {
@@ -2660,7 +2660,7 @@
       },
       "attributionNote": {
         "en": "From Gitanjali, poem 35, in Tagore's own English rendering. The collection is not among the editions this app cites.",
-        "fa": "از «گیتانجالی»، شعر سی‌وپنجم، به برگردان انگلیسیِ خودِ تاگور. این مجموعه در میان ویراست‌های مورد استناد این برنامه نیست."
+        "fa": "از «گیتانجالی»، شعر سی و پنجم، به برگردان انگلیسیِ خودِ تاگور. این مجموعه در میان ویراست‌های مورد استناد این برنامه نیست."
       }
     },
     {
@@ -2690,7 +2690,7 @@
       "attribution": "probable",
       "context": {
         "en": "Hayek's argument against central planning is not about incentives but about information: the relevant facts are dispersed among everyone and much of it cannot be stated at all.",
-        "fa": "استدلال هایک در برابر برنامه‌ریزی متمرکز دربارهٔ انگیزه‌ها نیست، دربارهٔ اطلاعات است: واقعیت‌های مربوط میان همه پراکنده‌اند و بسیاری‌شان اصلاً بیان‌شدنی نیستند."
+        "fa": "استدلال هایک در برابر برنامه‌ریزی متمرکز دربارهٔ انگیزه‌ها نیست، دربارهٔ اطلاعات است: واقعیت‌های مربوط میان همه پراکنده‌اند و بسیاری‌شان اصلاً بیان شدنی نیستند."
       },
       "attributionNote": {
         "en": "From 'The Use of Knowledge in Society', 1945, which is not among the editions this app cites.",
@@ -2718,7 +2718,7 @@
       "id": "singer-drowning",
       "text": {
         "en": "If it is in our power to prevent something bad from happening, without thereby sacrificing anything of comparable moral importance, we ought, morally, to do it.",
-        "fa": "اگر در توانِ ما باشد که از رخ‌دادنِ چیزی بد جلوگیری کنیم، بی‌آنکه چیزی با اهمیتِ اخلاقیِ همسنگ را فدا کنیم، اخلاقاً باید چنین کنیم."
+        "fa": "اگر در توانِ ما باشد که از رخ دادنِ چیزی بد جلوگیری کنیم، بی‌آنکه چیزی با اهمیتِ اخلاقیِ همسنگ را فدا کنیم، اخلاقاً باید چنین کنیم."
       },
       "speaker": "singer",
       "attribution": "probable",
@@ -2794,7 +2794,7 @@
       "id": "khayyam-algebra",
       "text": {
         "en": "Whoever thinks algebra is a trick in obtaining unknowns has thought it in vain.",
-        "fa": "هرکه بپندارد جبر ترفندی برای به‌دست‌آوردن مجهول‌هاست، بیهوده پنداشته است."
+        "fa": "هرکه بپندارد جبر ترفندی برای به‌دست آوردن مجهول‌هاست، بیهوده پنداشته است."
       },
       "speaker": "khayyam",
       "attribution": "probable",
@@ -2848,7 +2848,7 @@
       "id": "patanjali-yoga",
       "text": {
         "en": "Yoga is the stilling of the movements of the mind.",
-        "fa": "یوگا، آرام‌کردنِ جنبش‌های ذهن است."
+        "fa": "یوگا، آرام کردنِ جنبش‌های ذهن است."
       },
       "originalText": "yogaś citta-vṛtti-nirodhaḥ",
       "speaker": "patanjali",
@@ -2913,7 +2913,7 @@
       "citation": { "source": "text-maxims-of-ptahhotep" },
       "context": {
         "en": "Roughly four thousand years old, and among the oldest surviving arguments about where wisdom is found. The point of naming the grindstones is that it is not found where rank would predict.",
-        "fa": "نزدیک چهار هزار سال قدمت دارد، و از کهن‌ترین استدلال‌های بازمانده دربارهٔ اینکه حکمت کجا یافت می‌شود. نکتهٔ نام‌بردن از آسیاب این است که حکمت آنجا که مقام و مرتبه پیش‌بینی می‌کند یافت نمی‌شود."
+        "fa": "نزدیک چهار هزار سال قدمت دارد، و از کهن‌ترین استدلال‌های بازمانده دربارهٔ اینکه حکمت کجا یافت می‌شود. نکتهٔ نام بردن از آسیاب این است که حکمت آنجا که مقام و مرتبه پیش‌بینی می‌کند یافت نمی‌شود."
       },
       "attributionNote": {
         "en": "Rendered differently in every translation of the Maxims, which survive in papyri that disagree. This entry follows a standard English version and has not pinned it to a located edition.",
@@ -3025,7 +3025,7 @@
       "citation": { "source": "text-utilitarianism", "locator": "ch. 2" },
       "context": {
         "en": "Mill's answer to the charge that utilitarianism is a doctrine fit for swine. Its cost is that pleasures now differ in kind as well as amount, which is harder to add up than Bentham's version.",
-        "fa": "پاسخ میل به این اتهام که سودگرایی آموزه‌ای درخورِ خوکان است. بهایش این است که لذت‌ها اکنون در نوع هم فرق دارند نه فقط در مقدار، و این جمع‌زدنی دشوارتر از روایتِ بنتام است."
+        "fa": "پاسخ میل به این اتهام که سودگرایی آموزه‌ای درخورِ خوکان است. بهایش این است که لذت‌ها اکنون در نوع هم فرق دارند نه فقط در مقدار، و این جمع زدنی دشوارتر از روایتِ بنتام است."
       }
     },
     {
@@ -3064,7 +3064,7 @@
     },
     {
       "id": "foucault-visibility",
-      "text": { "en": "Visibility is a trap.", "fa": "دیده‌شدن یک تله است." },
+      "text": { "en": "Visibility is a trap.", "fa": "دیده شدن یک تله است." },
       "speaker": "foucault",
       "attribution": "verified",
       "citation": {
@@ -3090,7 +3090,7 @@
       },
       "context": {
         "en": "The conclusion refuses both the demand to forget history and the demand to be defined by it. Fanon is arguing for a present that is answerable to neither.",
-        "fa": "نتیجهٔ کتاب هم خواستِ فراموش‌کردنِ تاریخ را رد می‌کند و هم خواستِ تعریف‌شدن با آن را. فانون از حالی دفاع می‌کند که به هیچ‌یک پاسخگو نیست."
+        "fa": "نتیجهٔ کتاب هم خواستِ فراموش کردنِ تاریخ را رد می‌کند و هم خواستِ تعریف شدن با آن را. فانون از حالی دفاع می‌کند که به هیچ‌یک پاسخگو نیست."
       }
     },
     {
@@ -3360,7 +3360,7 @@
       "citation": { "source": "confucius-analects", "locator": "15.24" },
       "context": {
         "en": "Offered as the answer to a disciple who asked for a single word to practise all one's life. The word Confucius gives is shu, usually rendered reciprocity, and the sentence is his gloss on it.",
-        "fa": "در پاسخ به شاگردی آمده که واژه‌ای یگانه خواسته بود تا همهٔ عمر به کارش بندد. واژه‌ای که کنفوسیوس می‌دهد «شو» است، که معمولاً «متقابل‌بودن» ترجمه می‌شود، و این جمله شرحِ اوست بر آن."
+        "fa": "در پاسخ به شاگردی آمده که واژه‌ای یگانه خواسته بود تا همهٔ عمر به کارش بندد. واژه‌ای که کنفوسیوس می‌دهد «شو» است، که معمولاً «متقابل بودن» ترجمه می‌شود، و این جمله شرحِ اوست بر آن."
       }
     },
     {
@@ -3374,7 +3374,7 @@
       "citation": { "source": "confucius-analects", "locator": "1.1" },
       "context": {
         "en": "The opening line of the Analects. What it puts first is not a doctrine but a way of spending time, and the two questions that follow it are about friendship and about not minding being unrecognised.",
-        "fa": "نخستین سطرِ «مکالمات». آنچه در آغاز می‌نهد نه آموزه‌ای که شیوه‌ای از گذراندنِ وقت است، و دو پرسشِ پس از آن دربارهٔ دوستی است و دربارهٔ اینکه ناشناخته‌ماندن را به دل نگیری."
+        "fa": "نخستین سطرِ «مکالمات». آنچه در آغاز می‌نهد نه آموزه‌ای که شیوه‌ای از گذراندنِ وقت است، و دو پرسشِ پس از آن دربارهٔ دوستی است و دربارهٔ اینکه ناشناخته ماندن را به دل نگیری."
       }
     },
     {
@@ -3512,7 +3512,7 @@
       "id": "berkeley-esse-tag",
       "text": {
         "en": "Their being is to be perceived, nor is it possible they should have any existence out of the minds or thinking things which perceive them.",
-        "fa": "بودنِ آن‌ها ادراک‌شدن است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
+        "fa": "بودنِ آن‌ها ادراک شدن است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
       },
       "speaker": "berkeley",
       "attribution": "misattributed",
@@ -3578,7 +3578,7 @@
       "id": "kant-enlightenment",
       "text": {
         "en": "Enlightenment is the human being's emergence from his self-incurred minority.",
-        "fa": "روشنگری، بیرون‌آمدنِ آدمی از نابالغیِ خودخواسته است."
+        "fa": "روشنگری، بیرون آمدنِ آدمی از نابالغیِ خودخواسته است."
       },
       "originalText": "Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit",
       "speaker": "kant",
@@ -3621,7 +3621,7 @@
       },
       "context": {
         "en": "The sentence that opens the master-slave dialectic, and the claim that made it matter to everyone from Marx to Fanon: a person cannot be a self alone, so recognition is not a courtesy but a condition.",
-        "fa": "جمله‌ای که دیالکتیکِ خدایگان و بنده را می‌گشاید، و همان ادعا که آن را برای همه، از مارکس تا فانون، مهم کرد: آدمی به‌تنهایی نمی‌تواند خویشتن باشد، پس به‌رسمیت‌شناخته‌شدن نه یک ادب که یک شرط است."
+        "fa": "جمله‌ای که دیالکتیکِ خدایگان و بنده را می‌گشاید، و همان ادعا که آن را برای همه، از مارکس تا فانون، مهم کرد: آدمی به‌تنهایی نمی‌تواند خویشتن باشد، پس به‌رسمیت‌شناخته شدن نه یک ادب که یک شرط است."
       }
     },
     {
@@ -3645,7 +3645,7 @@
       "id": "mill-silencing",
       "text": {
         "en": "If all mankind minus one were of one opinion, mankind would be no more justified in silencing that one person than he, if he had the power, would be justified in silencing mankind.",
-        "fa": "اگر تمامِ آدمیان جز یک تن یک عقیده داشتند، خاموش‌کردنِ آن یک تن از سویِ آدمیان همان‌قدر ناموجه بود که خاموش‌کردنِ آدمیان از سویِ او، اگر توانش را داشت."
+        "fa": "اگر تمامِ آدمیان جز یک تن یک عقیده داشتند، خاموش کردنِ آن یک تن از سویِ آدمیان همان‌قدر ناموجه بود که خاموش کردنِ آدمیان از سویِ او، اگر توانش را داشت."
       },
       "speaker": "mill",
       "attribution": "verified",

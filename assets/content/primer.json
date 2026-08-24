@@ -6,7 +6,7 @@
       "title": { "en": "What philosophy is", "fa": "فلسفه چیست" },
       "body": {
         "en": "Philosophy is what you are doing when you ask a question that cannot be settled by looking. How far away is the moon is not a philosophical question — you measure. Whether it is ever right to lie is, and so is what makes you the same person you were at six. There is no instrument for these, and yet some answers are clearly worse than others. Philosophy is the work of finding out which, using reasons.",
-        "fa": "فلسفه همان کاری است که می‌کنی وقتی پرسشی می‌پرسی که با نگاه‌کردن فیصله نمی‌یابد. «ماه چقدر دور است» پرسش فلسفی نیست — اندازه می‌گیری. «آیا هرگز درست است که دروغ بگوییم» هست، و همچنین «چه چیزی تو را همان کسی می‌کند که در شش‌سالگی بودی». برای این‌ها ابزاری نیست، و با این حال برخی پاسخ‌ها آشکارا بدتر از دیگرانند. فلسفه کارِ یافتنِ همین است، با دلیل."
+        "fa": "فلسفه همان کاری است که می‌کنی وقتی پرسشی می‌پرسی که با نگاه کردن فیصله نمی‌یابد. «ماه چقدر دور است» پرسش فلسفی نیست — اندازه می‌گیری. «آیا هرگز درست است که دروغ بگوییم» هست، و همچنین «چه چیزی تو را همان کسی می‌کند که در شش‌سالگی بودی». برای این‌ها ابزاری نیست، و با این حال برخی پاسخ‌ها آشکارا بدتر از دیگرانند. فلسفه کارِ یافتنِ همین است، با دلیل."
       },
       "question": {
         "en": "What is a question you have that no measurement could answer?",
@@ -32,7 +32,7 @@
       "title": { "en": "What an argument is", "fa": "استدلال چیست" },
       "body": {
         "en": "In ordinary speech an argument is a quarrel. In philosophy it is a structure: some premises, and a conclusion said to follow from them. That gives you exactly two ways to disagree with anyone — deny a premise, or deny that the conclusion follows. Knowing which one you are doing is most of what it takes to argue well, and most of what people fail to do.",
-        "fa": "در گفتار روزمره، «بحث» یعنی نزاع. در فلسفه، «استدلال» یک ساختار است: چند مقدمه، و نتیجه‌ای که گفته می‌شود از آن‌ها لازم می‌آید. همین دقیقاً دو راه برای مخالفت با هرکسی به تو می‌دهد: مقدمه‌ای را انکار کن، یا انکار کن که نتیجه لازم می‌آید. دانستنِ اینکه کدام‌یک را می‌کنی، بیشترِ آن چیزی است که خوب استدلال‌کردن می‌طلبد، و بیشترِ آن چیزی که مردم نمی‌کنند."
+        "fa": "در گفتار روزمره، «بحث» یعنی نزاع. در فلسفه، «استدلال» یک ساختار است: چند مقدمه، و نتیجه‌ای که گفته می‌شود از آن‌ها لازم می‌آید. همین دقیقاً دو راه برای مخالفت با هرکسی به تو می‌دهد: مقدمه‌ای را انکار کن، یا انکار کن که نتیجه لازم می‌آید. دانستنِ اینکه کدام‌یک را می‌کنی، بیشترِ آن چیزی است که خوب استدلال کردن می‌طلبد، و بیشترِ آن چیزی که مردم نمی‌کنند."
       },
       "reads": [
         { "ref": "philosopher:zeno-of-elea" },
@@ -85,7 +85,7 @@
       },
       "body": {
         "en": "The oldest ethical text in this app is Egyptian and predates Socrates by two thousand years. India and China were arguing about knowledge and government before Plato was born, and the arguments are recognisably the same kind of thing. A history that starts in Athens is not shorter because Athens came first; it is shorter because of what was left out, and this app is organised so you can notice that.",
-        "fa": "کهن‌ترین متن اخلاقی این برنامه مصری است و دو هزار سال بر سقراط مقدم. هند و چین پیش از زاده‌شدن افلاطون دربارهٔ معرفت و حکومت بحث می‌کردند، و آن بحث‌ها به‌روشنی از همان جنس‌اند. تاریخی که از آتن آغاز می‌شود از آن رو کوتاه‌تر نیست که آتن اول بوده؛ از آن رو کوتاه‌تر است که چه چیزهایی کنار گذاشته شده، و این برنامه چنان سامان یافته که بتوانی این را ببینی."
+        "fa": "کهن‌ترین متن اخلاقی این برنامه مصری است و دو هزار سال بر سقراط مقدم. هند و چین پیش از زاده شدن افلاطون دربارهٔ معرفت و حکومت بحث می‌کردند، و آن بحث‌ها به‌روشنی از همان جنس‌اند. تاریخی که از آتن آغاز می‌شود از آن رو کوتاه‌تر نیست که آتن اول بوده؛ از آن رو کوتاه‌تر است که چه چیزهایی کنار گذاشته شده، و این برنامه چنان سامان یافته که بتوانی این را ببینی."
       },
       "reads": [
         { "ref": "philosopher:ptahhotep" },
@@ -115,7 +115,7 @@
       "title": { "en": "Where to start reading", "fa": "از کجا شروع کنیم" },
       "body": {
         "en": "Not at the beginning of history. Start with a question you already have, use the branches to find who asked it, and read one entry at a time. If a word stops you, tap it — the underlined ones have definitions that arrive without taking you off the page. When an entry mentions someone you have not met, that is a link, not an obligation.",
-        "fa": "نه از آغاز تاریخ. با پرسشی که از پیش داری شروع کن، از شاخه‌ها برای یافتنِ کسی که آن را پرسیده استفاده کن، و هر بار یک مدخل بخوان. اگر واژه‌ای متوقفت کرد، رویش بزن — واژه‌های نقطه‌چین تعریفی دارند که بی‌بیرون‌بردنت از صفحه می‌آید. وقتی مدخلی از کسی نام می‌برد که نمی‌شناسی، آن یک پیوند است، نه یک تکلیف."
+        "fa": "نه از آغاز تاریخ. با پرسشی که از پیش داری شروع کن، از شاخه‌ها برای یافتنِ کسی که آن را پرسیده استفاده کن، و هر بار یک مدخل بخوان. اگر واژه‌ای متوقفت کرد، رویش بزن — واژه‌های نقطه‌چین تعریفی دارند که بی‌آنکه تو را از صفحه بیرون ببرد می‌آید. وقتی مدخلی از کسی نام می‌برد که نمی‌شناسی، آن یک پیوند است، نه یک تکلیف."
       },
       "reads": [
         { "ref": "philosopher:epictetus" },

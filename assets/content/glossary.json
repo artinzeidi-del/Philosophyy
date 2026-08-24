@@ -48,7 +48,7 @@
       "term": { "en": "A priori", "fa": "پیشین" },
       "short": {
         "en": "Knowable without checking — by thinking it through rather than by looking.",
-        "fa": "دانستنی بی‌بررسی‌کردن — با اندیشیدن، نه با نگاه‌کردن."
+        "fa": "دانستنی بی‌بررسی کردن — با اندیشیدن، نه با نگاه کردن."
       },
       "long": {
         "en": "That every bachelor is unmarried is a priori: no survey is needed. That it is raining is a posteriori: you have to look. The distinction is old and contested — Quine argued that no belief is immune from revision by experience, which would leave the line unmarked.",
@@ -105,7 +105,7 @@
       "term": { "en": "Teleology", "fa": "غایت‌شناسی" },
       "short": {
         "en": "Explaining something by what it is for rather than by what caused it.",
-        "fa": "توضیح‌دادن چیزی با غایتش، نه با علتش."
+        "fa": "توضیح دادن چیزی با غایتش، نه با علتش."
       },
       "long": {
         "en": "An eye explained teleologically is explained by seeing. Aristotle treats this as a genuine kind of cause; the scientific revolution largely removed it from physics and it survives, arguably, in biology. Whether a purpose without anyone intending it is coherent is the standing question.",
@@ -221,7 +221,7 @@
       },
       "long": {
         "en": "It is a claim about the world, not about fatalism: that the state of things at one moment plus the laws fixes the next. Whether it rules out free will is a separate question, and compatibilists answer no — acting freely means acting from one's own reasons without compulsion, which a determined world allows. Indeterminism does not obviously help, since a random act is not a chosen one.",
-        "fa": "ادعایی است دربارهٔ جهان، نه جبرگرایی به معنای تسلیم: اینکه وضع چیزها در یک لحظه به‌علاوهٔ قوانین، لحظهٔ بعد را تعیین می‌کند. اینکه این، ارادهٔ آزاد را باطل می‌کند یا نه پرسشی جداست، و سازگارگرایان پاسخ منفی می‌دهند — آزادانه عمل‌کردن یعنی از روی دلایل خود و بی اجبار عمل‌کردن، که جهانی معیّن‌شده اجازه‌اش را می‌دهد. نامعیّنی هم آشکارا کمکی نمی‌کند، چون کار تصادفی، کارِ برگزیده نیست."
+        "fa": "ادعایی است دربارهٔ جهان، نه جبرگرایی به معنای تسلیم: اینکه وضع چیزها در یک لحظه به‌علاوهٔ قوانین، لحظهٔ بعد را تعیین می‌کند. اینکه این، ارادهٔ آزاد را باطل می‌کند یا نه پرسشی جداست، و سازگارگرایان پاسخ منفی می‌دهند — آزادانه عمل کردن یعنی از روی دلایل خود و بی اجبار عمل کردن، که جهانی معیّن‌شده اجازه‌اش را می‌دهد. نامعیّنی هم آشکارا کمکی نمی‌کند، چون کار تصادفی، کارِ برگزیده نیست."
       },
       "aliases": ["determinist", "deterministic", "جبرگرا", "جبری"],
       "citations": [{ "source": "sep" }]
@@ -235,7 +235,7 @@
       },
       "long": {
         "en": "The contrast is with descriptive. A normative claim says what ought to be done, or what would be good, or what a person has reason to do; a descriptive one reports how things stand. Hume's point that the second never entails the first without a further premise is what makes the distinction worth keeping, and much bad argument consists of sliding across it unannounced.",
-        "fa": "تقابلش با توصیفی است. گزارهٔ هنجاری می‌گوید چه باید کرد، یا چه چیزی خوب است، یا آدمی چه دلیلی برای کاری دارد؛ گزارهٔ توصیفی گزارش می‌کند اوضاع چگونه است. نکتهٔ هیوم که دومی بی یک مقدمهٔ افزوده هرگز اولی را نتیجه نمی‌دهد، همان است که نگه‌داشتن این تمایز را ارزشمند می‌کند، و بسیاری از استدلال‌های بد چیزی جز لغزیدن بی‌اعلام از این مرز نیست."
+        "fa": "تقابلش با توصیفی است. گزارهٔ هنجاری می‌گوید چه باید کرد، یا چه چیزی خوب است، یا آدمی چه دلیلی برای کاری دارد؛ گزارهٔ توصیفی گزارش می‌کند اوضاع چگونه است. نکتهٔ هیوم که دومی بی یک مقدمهٔ افزوده هرگز اولی را نتیجه نمی‌دهد، همان است که نگه داشتن این تمایز را ارزشمند می‌کند، و بسیاری از استدلال‌های بد چیزی جز لغزیدن بی‌اعلام از این مرز نیست."
       },
       "aliases": ["norm", "norms", "هنجار", "هنجارها"],
       "citations": [{ "source": "sep" }]
@@ -263,7 +263,7 @@
       },
       "long": {
         "en": "Some acts are forbidden however good the outcome, and some required however costly. Kant grounds this in what a rational will can consistently intend; others in rights, which mark off what may not be done to a person for the sake of a total. The hard case is the one where keeping the rule produces a disaster, and the honest versions of the position say so.",
-        "fa": "برخی کارها هر اندازه هم نتیجه خوب باشد ممنوع‌اند، و برخی هر اندازه هم پرهزینه باشد واجب. کانت این را در آنچه یک ارادهٔ خردمند می‌تواند بی‌تناقض بخواهد ریشه می‌دهد؛ دیگران در حقوق، که مرزِ آنچه نباید به بهانهٔ یک جمع بر سر کسی آورد را مشخص می‌کند. مورد دشوار همان است که نگه‌داشتن قاعده به فاجعه می‌انجامد، و روایت‌های صادق این موضع خودشان این را می‌گویند."
+        "fa": "برخی کارها هر اندازه هم نتیجه خوب باشد ممنوع‌اند، و برخی هر اندازه هم پرهزینه باشد واجب. کانت این را در آنچه یک ارادهٔ خردمند می‌تواند بی‌تناقض بخواهد ریشه می‌دهد؛ دیگران در حقوق، که مرزِ آنچه نباید به بهانهٔ یک جمع بر سر کسی آورد را مشخص می‌کند. مورد دشوار همان است که نگه داشتن قاعده به فاجعه می‌انجامد، و روایت‌های صادق این موضع خودشان این را می‌گویند."
       },
       "aliases": ["deontological", "وظیفه‌گرا"],
       "citations": [{ "source": "sep" }]
@@ -323,7 +323,7 @@
       },
       "long": {
         "en": "The word became an insult through Plato, who portrays them as teaching how to win rather than how to be right. Since almost everything we have about them comes through hostile sources, the portrait and the people are hard to separate.",
-        "fa": "این واژه از راه افلاطون به دشنام بدل شد؛ او آنان را چنین می‌نمایاند که بردن را می‌آموزند نه درست‌بودن را. چون تقریباً هرچه دربارهٔ آنان داریم از منابع خصمانه می‌آید، جدا کردن آن تصویر از آن آدم‌ها دشوار است."
+        "fa": "این واژه از راه افلاطون به دشنام بدل شد؛ او آنان را چنین می‌نمایاند که بردن را می‌آموزند نه درست بودن را. چون تقریباً هرچه دربارهٔ آنان داریم از منابع خصمانه می‌آید، جدا کردن آن تصویر از آن آدم‌ها دشوار است."
       },
       "aliases": ["sophists", "sophistry", "سوفسطاییان"],
       "citations": [{ "source": "sep" }]
@@ -333,7 +333,7 @@
       "term": { "en": "Scholasticism", "fa": "مدرسی‌گری" },
       "short": {
         "en": "The medieval method of arguing by stating objections first, then answering.",
-        "fa": "روش قرون‌وسطایی استدلال: نخست گفتنِ اعتراض‌ها، سپس پاسخ‌دادن."
+        "fa": "روش قرون‌وسطایی استدلال: نخست گفتنِ اعتراض‌ها، سپس پاسخ دادن."
       },
       "long": {
         "en": "The word is often used as an insult and names a real discipline: state the question, list the strongest objections, quote an authority for the other side, decide, then answer each objection in turn. It forces a writer to put the case against themselves in its best form, which is why Aquinas' objections are sometimes quoted against him.",
@@ -375,7 +375,7 @@
       "term": { "en": "Aesthetics", "fa": "زیبایی‌شناسی" },
       "short": {
         "en": "The study of art, beauty and what it is to find something beautiful.",
-        "fa": "بررسی هنر و زیبایی و اینکه زیبا‌یافتنِ چیزی یعنی چه."
+        "fa": "بررسی هنر و زیبایی و اینکه زیبا یافتنِ چیزی یعنی چه."
       },
       "long": {
         "en": "Two questions run through it. What makes something a work of art — a question that got harder once a urinal was exhibited — and what a judgement of beauty is, given that it feels like reporting a property and behaves like expressing a response. Kant's answer, that such judgements claim agreement without being able to prove it, is still the frame most arguments use.",
@@ -469,7 +469,7 @@
       "transliteration": "ijtihād",
       "short": {
         "en": "Working out an answer by reasoning rather than by following an authority.",
-        "fa": "به‌دست‌آوردن پاسخ با استدلال، نه با پیروی از مرجع."
+        "fa": "به‌دست آوردن پاسخ با استدلال، نه با پیروی از مرجع."
       },
       "long": {
         "en": "The contrast is with taqlid, following a qualified authority. A jurist exercising ijtihad reasons from the sources to a ruling nobody has handed down. Whether the door to it closed after the early centuries is one of the long arguments of Islamic legal history; reformers from the nineteenth century onward have insisted it never did.",
@@ -539,7 +539,7 @@
       "term": { "en": "Reductionism", "fa": "فروکاست‌گرایی" },
       "short": {
         "en": "Explaining one level of description entirely in terms of a lower one.",
-        "fa": "توضیح‌دادن کاملِ یک سطح از توصیف با سطحی پایین‌تر."
+        "fa": "توضیح دادن کاملِ یک سطح از توصیف با سطحی پایین‌تر."
       },
       "long": {
         "en": "Sometimes it works: chemistry did reduce to physics in the sense that bonds are explained by electrons. The dispute is over whether biology, mind and society go the same way, or whether their regularities are real and would be lost in the translation. Anti-reductionists usually grant that nothing extra exists and deny that the lower description says everything.",
@@ -557,7 +557,7 @@
       },
       "long": {
         "en": "Gramsci's term for the way a class rules by making its own view of the world into ordinary common sense, so that consent is given rather than extracted. Force stays in reserve. The practical consequence he drew is that opposition has to be built in schools, newspapers and unions before it can be built anywhere else.",
-        "fa": "اصطلاح گرامشی برای شیوه‌ای که یک طبقه با بدل‌کردن جهان‌بینی خود به فهم عادی همگانی فرمان می‌راند، چنان‌که رضایت داده می‌شود نه گرفته. زور در ذخیره می‌ماند. نتیجهٔ عملی‌ای که او گرفت این است که مخالفت باید نخست در مدرسه و روزنامه و اتحادیه ساخته شود، پیش از آنکه جای دیگری ساخته شود."
+        "fa": "اصطلاح گرامشی برای شیوه‌ای که یک طبقه با بدل کردن جهان‌بینی خود به فهم عادی همگانی فرمان می‌راند، چنان‌که رضایت داده می‌شود نه گرفته. زور در ذخیره می‌ماند. نتیجهٔ عملی‌ای که او گرفت این است که مخالفت باید نخست در مدرسه و روزنامه و اتحادیه ساخته شود، پیش از آنکه جای دیگری ساخته شود."
       },
       "aliases": ["hegemonic"],
       "citations": [{ "source": "sep" }]
@@ -573,7 +573,7 @@
       },
       "long": {
         "en": "Aristotle separates it from production: making a table has its end in the table, acting well has its end in the acting. Marx gives the word a second life — labour is how human beings make both the world and themselves — and Freire a third, where reflection and action have to alternate or the first becomes idle talk and the second becomes thrashing.",
-        "fa": "ارسطو آن را از ساختن جدا می‌کند: ساختن یک میز غایتش در خود میز است، و نیک عمل‌کردن غایتش در خود عمل. مارکس به این واژه زندگی دومی می‌بخشد — کار همان راهی است که آدمی هم جهان و هم خودش را می‌سازد — و فریره زندگی سومی، که در آن تأمل و کنش باید پیاپی بیایند وگرنه اولی حرف بیهوده می‌شود و دومی دست‌وپازدن."
+        "fa": "ارسطو آن را از ساختن جدا می‌کند: ساختن یک میز غایتش در خود میز است، و نیک عمل کردن غایتش در خود عمل. مارکس به این واژه زندگی دومی می‌بخشد — کار همان راهی است که آدمی هم جهان و هم خودش را می‌سازد — و فریره زندگی سومی، که در آن تأمل و کنش باید پیاپی بیایند وگرنه اولی حرف بیهوده می‌شود و دومی دست‌وپازدن."
       },
       "citations": [{ "source": "sep" }]
     },
@@ -596,7 +596,7 @@
       "term": { "en": "Existential", "fa": "اگزیستانسیل" },
       "short": {
         "en": "Concerning what it is to exist as this particular person, deciding.",
-        "fa": "مربوط به اینکه بودن همچون این شخص معین، در حال تصمیم‌گرفتن، چگونه است."
+        "fa": "مربوط به اینکه بودن همچون این شخص معین، در حال تصمیم گرفتن، چگونه است."
       },
       "long": {
         "en": "The adjective marks questions that cannot be answered from outside: not what a human being is, but what to do given that one is this one, now, and will die. Kierkegaard put the emphasis on the individual who must choose without a proof; the twentieth-century writers who took the label up disagreed about almost everything else.",
@@ -672,7 +672,7 @@
       },
       "long": {
         "en": "The named fallacies — attacking the person, appealing to the crowd, assuming what is to be proved — are useful shorthand and dangerous as a checklist, because several of them are perfectly good reasoning in the right setting. Whether an authority's word counts depends on whether the authority is one, which is a question about the case and not about the form.",
-        "fa": "مغالطه‌های نام‌دار — حمله به شخص، توسل به جماعت، فرض‌گرفتن آنچه باید اثبات شود — کوته‌نوشت‌های به‌دردبخوری‌اند و به‌عنوان سیاههٔ وارسی خطرناک، چون چند تایشان در جای درست استدلال کاملاً درستی‌اند. اینکه سخن یک مرجع به حساب می‌آید یا نه به این بستگی دارد که آیا او واقعاً مرجع است، و این پرسشی دربارهٔ مورد است نه دربارهٔ صورت."
+        "fa": "مغالطه‌های نام‌دار — حمله به شخص، توسل به جماعت، فرض گرفتن آنچه باید اثبات شود — کوته‌نوشت‌های به‌دردبخوری‌اند و به‌عنوان سیاههٔ وارسی خطرناک، چون چند تایشان در جای درست استدلال کاملاً درستی‌اند. اینکه سخن یک مرجع به حساب می‌آید یا نه به این بستگی دارد که آیا او واقعاً مرجع است، و این پرسشی دربارهٔ مورد است نه دربارهٔ صورت."
       },
       "aliases": ["fallacies", "fallacious", "مغالطات"],
       "citations": [{ "source": "sep" }]
@@ -700,7 +700,7 @@
       },
       "long": {
         "en": "Three different things travel under the word: a state that does not establish a religion, a society in which religious practice has declined, and an argument that proceeds without appeal to revelation. They do not imply each other, and a good deal of confused public argument comes from treating them as one.",
-        "fa": "سه چیز متفاوت زیر این واژه سفر می‌کنند: دولتی که دینی را رسمی نمی‌کند، جامعه‌ای که در آن عمل دینی کم شده، و استدلالی که بی توسل به وحی پیش می‌رود. این‌ها یکدیگر را ایجاب نمی‌کنند، و بخش بزرگی از بحث‌های عمومی مغشوش از یکی‌گرفتن آن‌ها می‌آید."
+        "fa": "سه چیز متفاوت زیر این واژه سفر می‌کنند: دولتی که دینی را رسمی نمی‌کند، جامعه‌ای که در آن عمل دینی کم شده، و استدلالی که بی توسل به وحی پیش می‌رود. این‌ها یکدیگر را ایجاب نمی‌کنند، و بخش بزرگی از بحث‌های عمومی مغشوش از یکی گرفتن آن‌ها می‌آید."
       },
       "aliases": ["secularism", "سکولار"],
       "citations": [{ "source": "sep" }]
@@ -730,7 +730,7 @@
       },
       "long": {
         "en": "Usually translated suffering, which is too narrow: the term covers pain, but also the way a good moment will not hold still, and the strain of holding together a self out of parts that keep changing. The first of the four truths states it as a diagnosis rather than a complaint, which is why the remaining three are about a cause and a way out.",
-        "fa": "معمولاً «رنج» ترجمه می‌شود که بیش از حد باریک است: این اصطلاح درد را در بر می‌گیرد، اما همچنین این را که لحظهٔ خوب سرِ جایش نمی‌ماند، و فشار سرِهم‌نگه‌داشتن یک خویشتن از اجزایی که مدام عوض می‌شوند. حقیقت نخست از چهار حقیقت آن را به‌عنوان تشخیص می‌گذارد نه گلایه، و برای همین سه حقیقت دیگر دربارهٔ علت و راه برون‌رفت‌اند."
+        "fa": "معمولاً «رنج» ترجمه می‌شود که بیش از حد باریک است: این اصطلاح درد را در بر می‌گیرد، اما همچنین این را که لحظهٔ خوب سرِ جایش نمی‌ماند، و فشار سرِهم‌نگه داشتن یک خویشتن از اجزایی که مدام عوض می‌شوند. حقیقت نخست از چهار حقیقت آن را به‌عنوان تشخیص می‌گذارد نه گلایه، و برای همین سه حقیقت دیگر دربارهٔ علت و راه برون‌رفت‌اند."
       },
       "aliases": ["duhkha", "suffering", "رنج"],
       "citations": [{ "source": "sep" }]
@@ -826,7 +826,7 @@
       },
       "long": {
         "en": "In the Upanishads the search for the self ends by identifying it with the ground of everything, and Advaita reads those sentences literally. Rāmānuja reads them as inseparability rather than identity. Buddhism denies the term outright, which is the sharpest disagreement in Indian philosophy and the reason the two traditions argued for a millennium.",
-        "fa": "در اوپانیشادها جست‌وجوی خویشتن با یکی‌گرفتن آن با بنیاد همه‌چیز پایان می‌گیرد، و ادویته آن جمله‌ها را لفظ‌به‌لفظ می‌خواند. رامانوجه آن‌ها را جدایی‌ناپذیری می‌خواند نه این‌همانی. بودیسم این اصطلاح را یکسره انکار می‌کند، و این تندترین اختلاف فلسفهٔ هند است و دلیل آنکه این دو سنت هزار سال بحث کردند."
+        "fa": "در اوپانیشادها جست‌وجوی خویشتن با یکی گرفتن آن با بنیاد همه‌چیز پایان می‌گیرد، و ادویته آن جمله‌ها را لفظ‌به‌لفظ می‌خواند. رامانوجه آن‌ها را جدایی‌ناپذیری می‌خواند نه این‌همانی. بودیسم این اصطلاح را یکسره انکار می‌کند، و این تندترین اختلاف فلسفهٔ هند است و دلیل آنکه این دو سنت هزار سال بحث کردند."
       },
       "aliases": ["atman", "self"],
       "citations": [{ "source": "sep" }]
@@ -842,7 +842,7 @@
       },
       "long": {
         "en": "Not a god among gods. The word names what there ultimately is, and the schools of Vedanta differ over whether it has qualities: Shankara says the qualified descriptions are provisional, Rāmānuja that a reality with no attributes could not be the object of the devotion the same scriptures command.",
-        "fa": "خدایی در میان خدایان نیست. این واژه آنچه را در نهایت هست نام می‌برد، و مکتب‌های ودانته بر سر صفت‌داشتن یا نداشتنش اختلاف دارند: شنکره می‌گوید توصیف‌های صفت‌دار موقت‌اند، و رامانوجه می‌گوید واقعیتی بی‌صفت نمی‌تواند متعلَّق آن پرستشی باشد که همان متن‌های مقدس فرمان می‌دهند."
+        "fa": "خدایی در میان خدایان نیست. این واژه آنچه را در نهایت هست نام می‌برد، و مکتب‌های ودانته بر سر صفت داشتن یا نداشتنش اختلاف دارند: شنکره می‌گوید توصیف‌های صفت‌دار موقت‌اند، و رامانوجه می‌گوید واقعیتی بی‌صفت نمی‌تواند متعلَّق آن پرستشی باشد که همان متن‌های مقدس فرمان می‌دهند."
       },
       "citations": [{ "source": "sep" }]
     },
@@ -936,7 +936,7 @@
       },
       "long": {
         "en": "Kant's term marks a limit rather than a place. We know appearances, which are structured by space, time and the categories we bring; what a thing is apart from those conditions cannot be described, because describing is one of the conditions. Readers have been arguing since 1781 whether the notion is a genuine boundary or an incoherent remainder.",
-        "fa": "اصطلاح کانت یک حد را نشان می‌کند نه یک جا. ما نمودها را می‌شناسیم که با فضا و زمان و مقولاتی که خودمان می‌آوریم ساختار یافته‌اند؛ اینکه یک چیز جدا از این شرط‌ها چیست توصیف‌پذیر نیست، چون توصیف‌کردن خودش یکی از آن شرط‌هاست. خوانندگان از ۱۷۸۱ بحث می‌کنند که آیا این مفهوم مرزی واقعی است یا ته‌مانده‌ای ناسازگار."
+        "fa": "اصطلاح کانت یک حد را نشان می‌کند نه یک جا. ما نمودها را می‌شناسیم که با فضا و زمان و مقولاتی که خودمان می‌آوریم ساختار یافته‌اند؛ اینکه یک چیز جدا از این شرط‌ها چیست توصیف‌پذیر نیست، چون توصیف کردن خودش یکی از آن شرط‌هاست. خوانندگان از ۱۷۸۱ بحث می‌کنند که آیا این مفهوم مرزی واقعی است یا ته‌مانده‌ای ناسازگار."
       },
       "aliases": ["noumena", "thing-in-itself", "نومن"],
       "citations": [{ "source": "sep" }]
@@ -1037,7 +1037,7 @@
       },
       "long": {
         "en": "Almost nobody has held it; it matters as a place an argument must not end up. Descartes' method reaches it and needs God to get out, which most readers find the weakest step. Wittgenstein's private-language argument is designed to cut the road to it earlier, by denying that a purely inner vocabulary could mean anything.",
-        "fa": "تقریباً هیچ‌کس به آن باور نداشته؛ اهمیتش در این است که جایی است که استدلال نباید به آن ختم شود. روش دکارت به آن می‌رسد و برای بیرون‌آمدن به خدا نیاز دارد، و بیشتر خوانندگان همین را ضعیف‌ترین گام می‌دانند. استدلال زبان خصوصی ویتگنشتاین برای بریدن راه به آن در مرحله‌ای زودتر طراحی شده، با انکار اینکه واژگانی یکسره درونی بتواند چیزی معنا بدهد."
+        "fa": "تقریباً هیچ‌کس به آن باور نداشته؛ اهمیتش در این است که جایی است که استدلال نباید به آن ختم شود. روش دکارت به آن می‌رسد و برای بیرون آمدن به خدا نیاز دارد، و بیشتر خوانندگان همین را ضعیف‌ترین گام می‌دانند. استدلال زبان خصوصی ویتگنشتاین برای بریدن راه به آن در مرحله‌ای زودتر طراحی شده، با انکار اینکه واژگانی یکسره درونی بتواند چیزی معنا بدهد."
       },
       "aliases": ["solipsist"],
       "citations": [{ "source": "sep" }]
@@ -1051,7 +1051,7 @@
       },
       "long": {
         "en": "Saussure's point about language — that a sign means by differing from other signs, not by resembling a thing — was extended to myth, kinship, fashion and the unconscious. What it buys is a method for reading systems; what it costs is the actor, and the reaction against it in the 1960s was largely about putting history and agency back.",
-        "fa": "نکتهٔ سوسور دربارهٔ زبان — اینکه یک نشانه با تفاوت‌داشتن از نشانه‌های دیگر معنا می‌دهد، نه با شباهت به یک چیز — به اسطوره و خویشاوندی و مد و ناخودآگاه گسترش یافت. آنچه به دست می‌دهد روشی است برای خواندن نظام‌ها؛ آنچه می‌گیرد کنشگر است، و واکنش علیه آن در دههٔ ۱۹۶۰ عمدتاً بر سر بازگرداندن تاریخ و عاملیت بود."
+        "fa": "نکتهٔ سوسور دربارهٔ زبان — اینکه یک نشانه با تفاوت داشتن از نشانه‌های دیگر معنا می‌دهد، نه با شباهت به یک چیز — به اسطوره و خویشاوندی و مد و ناخودآگاه گسترش یافت. آنچه به دست می‌دهد روشی است برای خواندن نظام‌ها؛ آنچه می‌گیرد کنشگر است، و واکنش علیه آن در دههٔ ۱۹۶۰ عمدتاً بر سر بازگرداندن تاریخ و عاملیت بود."
       },
       "aliases": ["structuralist"],
       "citations": [{ "source": "sep" }]

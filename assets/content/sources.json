@@ -588,7 +588,7 @@
     {
       "id": "text-outlines-of-pyrrhonism",
       "kind": "primary-text",
-      "title": { "en": "Outlines of Pyrrhonism", "fa": "طرح‌های پورونی" },
+      "title": { "en": "Outlines of Pyrrhonism", "fa": "طرح‌های پیرونی" },
       "authors": ["Sextus Empiricus"],
       "rightsNote": { "en": "Cited as PH by book and section.", "fa": "با نشانهٔ PH و بر پایهٔ کتاب و بخش ارجاع داده می‌شود." },
       "authorsFa": ["سکستوس امپیریکوس"]
@@ -1181,7 +1181,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Ten Approaches to the Reconciliation of Doctrinal Disputes",
-        "fa": "ده راه برای آشتی‌دادن اختلاف‌های آموزه‌ای"
+        "fa": "ده راه برای آشتی دادن اختلاف‌های آموزه‌ای"
       },
       "authors": ["Wonhyo"],
       "rightsNote": { "en": "Survives only in fragments and in later quotation.", "fa": "تنها در قالب پاره‌ها و نقل‌قول‌های بعدی مانده است." },
@@ -1645,7 +1645,7 @@
         "fa": "جهان همچون اراده و تصور"
       },
       "authors": ["Arthur Schopenhauer"],
-      "rightsNote": { "en": "Cited by volume, book and section. The second volume, of commentary on the first, appeared twenty-six years later.", "fa": "ارجاع بر پایهٔ جلد، کتاب و بخش. جلد دوم، که شرح جلد نخست است، بیست‌وشش سال بعد بیرون آمد." },
+      "rightsNote": { "en": "Cited by volume, book and section. The second volume, of commentary on the first, appeared twenty-six years later.", "fa": "ارجاع بر پایهٔ جلد، کتاب و بخش. جلد دوم، که شرح جلد نخست است، بیست و شش سال بعد بیرون آمد." },
       "authorsFa": ["شوپنهاور"]
     },
     {
@@ -1874,7 +1874,7 @@
       "title": { "en": "Minima Moralia", "fa": "مینیما مورالیا" },
       "authors": ["Theodor W. Adorno"],
       "year": { "year": 1951 },
-      "rightsNote": { "en": "A hundred and fifty-three numbered fragments; cited by number.", "fa": "صد و پنجاه‌وسه پارهٔ شماره‌دار؛ ارجاع بر پایهٔ شماره." },
+      "rightsNote": { "en": "A hundred and fifty-three numbered fragments; cited by number.", "fa": "صد و پنجاه و سه پارهٔ شماره‌دار؛ ارجاع بر پایهٔ شماره." },
       "authorsFa": ["تئودور آدورنو"]
     },
     {
@@ -2225,7 +2225,7 @@
       "kind": "journal-article",
       "title": {
         "en": "Unsettling the Coloniality of Being/Power/Truth/Freedom",
-        "fa": "برهم‌زدن استعماری‌بودنِ هستی/قدرت/حقیقت/آزادی"
+        "fa": "برهم زدن استعماری بودنِ هستی/قدرت/حقیقت/آزادی"
       },
       "authors": ["Sylvia Wynter"],
       "publisher": "CR: The New Centennial Review",
@@ -2278,7 +2278,7 @@
       "title": { "en": "Bodies That Matter", "fa": "بدن‌هایی که اهمیت دارند" },
       "authors": ["Judith Butler"],
       "year": { "year": 1993 },
-      "rightsNote": { "en": "Written largely to answer readers who took Gender Trouble to be denying that bodies are material.", "fa": "بیشتر در پاسخ به خوانندگانی نوشته شد که «آشفتگی جنسیت» را انکار مادّی‌بودن بدن‌ها فهمیده بودند." },
+      "rightsNote": { "en": "Written largely to answer readers who took Gender Trouble to be denying that bodies are material.", "fa": "بیشتر در پاسخ به خوانندگانی نوشته شد که «آشفتگی جنسیت» را انکار مادّی بودن بدن‌ها فهمیده بودند." },
       "authorsFa": ["جودیت باتلر"]
     },
     {
@@ -2603,7 +2603,7 @@
     {
       "id": "text-taking-rights-seriously",
       "kind": "primary-text",
-      "title": { "en": "Taking Rights Seriously", "fa": "جدی‌گرفتن حقوق" },
+      "title": { "en": "Taking Rights Seriously", "fa": "جدی گرفتن حقوق" },
       "authors": ["Ronald Dworkin"],
       "year": { "year": 1977 },
       "authorsFa": ["رونالد دورکین"]
