@@ -188,4 +188,47 @@ void main() {
     await pumpCitation(tester, broken);
     expect(tester.takeException(), isNull);
   });
+
+  testWidgets('the link is big enough to hit', (tester) async {
+    // Measured rather than handed to `meetsGuideline`. The guideline walks the
+    // article route in the touch-target test, but the Sources list sits at the
+    // foot of a long lazy scroll view and is not built at the viewport that
+    // test uses — and pointing the guideline at this widget on its own passes
+    // even when the link is deliberately shrunk to eight pixels, so it is not
+    // looking at this node at all. The box is measured here instead.
+    await pumpCitation(tester, withUrl);
+    final size = tester.getSize(
+      find.ancestor(
+        of: find.text('https://plato.stanford.edu'),
+        matching: find.byType(InkWell),
+      ),
+    );
+    expect(
+      size.height,
+      greaterThanOrEqualTo(minimumTapTarget),
+      reason:
+          'a one-line address in citation type is a ${size.height}px target, '
+          'and a finger needs $minimumTapTarget',
+    );
+  });
+
+  testWidgets('the barest citation is still big enough to hit', (tester) async {
+    // A title and an address and nothing else. Three lines of citation happen
+    // to clear the minimum on their own, so without a floor nothing would
+    // notice until a source arrived that carries no note.
+    const bare = Source(
+      id: 'iep',
+      kind: SourceKind.referenceWork,
+      title: LocalizedText(en: 'IEP'),
+      url: 'https://iep.utm.edu',
+    );
+    await pumpCitation(tester, bare);
+    final size = tester.getSize(
+      find.ancestor(
+        of: find.text('https://iep.utm.edu'),
+        matching: find.byType(InkWell),
+      ),
+    );
+    expect(size.height, greaterThanOrEqualTo(minimumTapTarget));
+  });
 }

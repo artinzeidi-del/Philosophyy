@@ -1027,47 +1027,61 @@ class SourceLine extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text(
-                source.title.resolve(language),
-                style: theme.textTheme.bodyMedium,
-              ),
-              if (detail.isNotEmpty)
-                Text(
-                  joinIsolated(detail, ' · '),
-                  style: AppTypography.citation(language)
-                      .copyWith(color: theme.colorScheme.onSurfaceVariant),
-                ),
               // What a reader needs in order to use the citation: that "38a"
               // is a Stephanus number, that the Enchiridion was written down
               // by a student, that FitzGerald's Khayyam is a paraphrase. A
               // hundred and forty-four sources carry one and none was shown,
               // so a locator meaningful to an editor meant nothing to a
               // reader.
-              if (source.rightsNote case final note?) ...<Widget>[
-                const SizedBox(height: 2),
-                Text(
-                  note.resolve(language),
-                  style: AppTypography.citation(language).copyWith(
-                    color: theme.colorScheme.onSurfaceVariant,
-                    fontStyle: FontStyle.italic,
-                  ),
-                ),
-              ],
+              //
               // A citation the reader cannot follow is the appearance of
-              // sourcing. Only a source that records a url gets one: most of
-              // this bibliography is primary texts cited by a canonical
-              // locator — a Stephanus number, a Bekker number — which is
-              // stable across every edition and better than any link.
-              if (source.url case final url?) ...<Widget>[
-                const SizedBox(height: 2),
-                _SourceLink(url: url, language: language),
-              ],
+              // sourcing, so a source that records an address becomes one
+              // control carrying all three lines. Only such a source does:
+              // most of this bibliography is primary texts cited by a
+              // canonical locator — a Stephanus number, a Bekker number —
+              // which is stable across every edition and better than a link.
+              if (source.url case final url?)
+                _SourceLink(
+                  url: url,
+                  language: language,
+                  children: _citationLines(context, source, detail, language),
+                )
+              else
+                ..._citationLines(context, source, detail, language),
             ],
           ),
         ),
       ],
     );
   }
+}
+
+/// The title of a source, its bibliographic detail, and the note about how it
+/// is cited — the part that is the same whether or not it can be opened.
+List<Widget> _citationLines(
+  BuildContext context,
+  Source source,
+  List<String> detail,
+  AppLanguage language,
+) {
+  final theme = Theme.of(context);
+  return <Widget>[
+    Text(source.title.resolve(language), style: theme.textTheme.bodyMedium),
+    if (detail.isNotEmpty)
+      Text(
+        joinIsolated(detail, ' · '),
+        style: AppTypography.citation(language)
+            .copyWith(color: theme.colorScheme.onSurfaceVariant),
+      ),
+    if (source.rightsNote case final note?)
+      Text(
+        note.resolve(language),
+        style: AppTypography.citation(language).copyWith(
+          color: theme.colorScheme.onSurfaceVariant,
+          fontStyle: FontStyle.italic,
+        ),
+      ),
+  ];
 }
 
 /// The address of a source, as something the reader can open.
@@ -1077,10 +1091,17 @@ class SourceLine extends StatelessWidget {
 /// because on a platform where opening fails there is then still something to
 /// copy.
 class _SourceLink extends StatelessWidget {
-  const _SourceLink({required this.url, required this.language});
+  const _SourceLink({
+    required this.url,
+    required this.language,
+    this.children = const <Widget>[],
+  });
 
   final String url;
   final AppLanguage language;
+
+  /// The rest of the citation, drawn above the address and tappable with it.
+  final List<Widget> children;
 
   /// Opens [url], and says so when it cannot.
   ///
@@ -1110,17 +1131,42 @@ class _SourceLink extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return InkWell(
-      onTap: () => unawaited(_open(context)),
-      child: Semantics(
-        link: true,
-        child: Text(
-          url,
-          textDirection: TextDirection.ltr,
-          style: AppTypography.citation(language).copyWith(
-            color: theme.colorScheme.primary,
-            decoration: TextDecoration.underline,
-            decorationColor: theme.colorScheme.primary.withValues(alpha: 0.4),
+    // The whole citation is the target, not the address line.
+    //
+    // A one-line address in citation type is a nineteen-pixel box, and a
+    // finger needs forty-eight. Padding the line to reach it would put a
+    // finger's worth of white space between every citation and the next, so
+    // the tap area is taken from what is already there: the title, the note
+    // about how the text is cited, and the address are one control, and
+    // tapping any of them opens it. That is also what a reader expects — the
+    // whole entry reads as one thing.
+    //
+    // Flutter's tap-target guideline did not catch this. Pointed at this
+    // widget it passes even when the link is deliberately shrunk to eight
+    // pixels, so the size is measured directly in the test instead.
+    return Semantics(
+      link: true,
+      child: InkWell(
+        onTap: () => unawaited(_open(context)),
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(minHeight: minimumTapTarget),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              ...children,
+              Text(
+                url,
+                textDirection: TextDirection.ltr,
+                style: AppTypography.citation(language).copyWith(
+                  color: theme.colorScheme.primary,
+                  decoration: TextDecoration.underline,
+                  decorationColor: theme.colorScheme.primary.withValues(
+                    alpha: 0.4,
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       ),
@@ -1166,34 +1212,43 @@ class CitationList extends StatelessWidget {
                 title,
                 ?locator,
               ];
+              // The apparatus belongs where the reader looks for it. These
+              // lines were added to the widget that renders a work's editions,
+              // and this — the Sources list at the foot of every article — is
+              // the list a reader actually goes to, so it printed a title and
+              // a locator and nothing that could be acted on.
+              //
+              // Where there is an address the whole entry is one control: the
+              // address line alone is a nineteen-pixel target and a finger
+              // needs forty-eight.
+              final lines = <Widget>[
+                Text(
+                  joinIsolated(parts, ' · '),
+                  style: AppTypography.citation(language)
+                      .copyWith(color: theme.colorScheme.onSurfaceVariant),
+                ),
+                if (source.rightsNote case final note?)
+                  Text(
+                    note.resolve(language),
+                    style: AppTypography.citation(language).copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+              ];
+
               return Padding(
                 padding: const EdgeInsets.only(bottom: Spacing.sm),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(
-                      joinIsolated(parts, ' · '),
-                      style: AppTypography.citation(language)
-                          .copyWith(color: theme.colorScheme.onSurfaceVariant),
-                    ),
-                    // The apparatus belongs where the reader looks for it.
-                    // These two lines were added to the widget that renders a
-                    // work's editions, and this — the Sources list at the foot
-                    // of every article — is the list a reader actually goes
-                    // to, so it printed a title and a locator and nothing that
-                    // could be acted on.
-                    if (source.rightsNote case final note?)
-                      Text(
-                        note.resolve(language),
-                        style: AppTypography.citation(language).copyWith(
-                          color: theme.colorScheme.onSurfaceVariant,
-                          fontStyle: FontStyle.italic,
-                        ),
+                child: source.url == null
+                    ? Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: lines,
+                      )
+                    : _SourceLink(
+                        url: source.url!,
+                        language: language,
+                        children: lines,
                       ),
-                    if (source.url case final url?)
-                      _SourceLink(url: url, language: language),
-                  ],
-                ),
               );
             },
           ),
