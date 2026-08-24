@@ -134,6 +134,129 @@ void main() {
     });
   });
 
+  group('Word formation', () {
+    test('a compound verb is written as two words', () {
+      // Persian writes the parts of a compound verb separately: «رد کردن»,
+      // «کنار گذاشتن», «جدا کردن». Fifty-two of them had been run together,
+      // and the corpus did not even do it consistently — «سر باز زد» appeared
+      // beside «سر باززدن» beside «سرباززدن», three spellings of one phrase.
+      //
+      // The check is narrow on purpose. Plenty of real single words end in
+      // these same letters — «باشد», «فرزند», «قرارداد», «کارکرد», «رویداد»,
+      // «عملکرد» — so only the exact forms that were wrong are named, rather
+      // than a pattern that would have to guess.
+      const joined = <String>[
+        'ردکردن',
+        'کنارگذاشتن',
+        'جداکردن',
+        'جداشدن',
+        'سرباززدن',
+        'کارکردن',
+        'پرکردن',
+        'تصویرکردن',
+        'آغازکردن',
+        'رفتارکردن',
+        'پدیدارشدن',
+        'وانمودکردن',
+        'واردکردن',
+        'واردشدن',
+        'پیرشدن',
+        'ناپدیدکردن',
+        'خطاکردن',
+        'محدودکردن',
+        'رهاکردن',
+        'تصورکردن',
+        'فاسدکردن',
+        'زورآوردن',
+        'فشاردادن',
+        'مهارکردن',
+        'باورآوردن',
+        'تماشاکردن',
+        'فخرکردن',
+        'بنیادگذاشتن',
+        'بلندکردن',
+        'بلندشدن',
+        'وادارکردن',
+        'تولیدکردن',
+        'ابزارکردن',
+        'اثرگذاشتن',
+        'قرارگرفتن',
+        'بهترکردن',
+        'اعتمادکردن',
+        'طردکردن',
+        'امتیازدادن',
+        'جورشدن',
+        'انکارکردن',
+        'متقاعدشدن',
+        'کاریکاتورکردن',
+        'زهرآلودکردن',
+        'دشوارکردن',
+        'بدکردن',
+        'بدشدن',
+        'بیدارشدن',
+        'حاضرکردن',
+        'جلوزدن',
+        'پدیدآوردن',
+        'آزادشدن',
+        'فقیرترشدن',
+        'دشوارترشدن',
+        'بدکاربردن',
+      ];
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final word in joined) {
+          if (RegExp('(?<![؀-ۿ])${RegExp.escape(word)}').hasMatch(entry.text)) {
+            problems.add('${entry.file} ${entry.path}: "$word" needs a space');
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('no invented verb stands in for an ordinary word', () {
+      // «وا می‌رمانند» — Derrida's summary said the texts of philosophy drove
+      // their oppositions off, using a verb that does not exist in the form it
+      // was put in. «فلسفیدن» was a verb coined from «فلسفه» where Persian has
+      // «فلسفه‌ورزی». Neither is a typo: both read as words and both survived
+      // every other check, because a made-up word is spelled however it is
+      // written.
+      const invented = <String>[
+        'رمانند',
+        'وارمان',
+        'فلسفیدن',
+        'فلسفید',
+        'ناباورکردنی',
+      ];
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final word in invented) {
+          if (entry.text.contains(word)) {
+            problems.add('${entry.file} ${entry.path}: "$word" is not a word');
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('a citation locator keeps the letter that makes it findable', () {
+      // A Stephanus number is «21d», and the digit localisation had turned
+      // three of them into «۲۱د» and «۲۷۵د» — references that cannot be looked
+      // up in any edition, because the section letter is half the reference.
+      final problems = <String>[
+        for (final entry in strings)
+          // `\p{L}` rather than a code-point range: the Arabic block puts the
+          // decimal separator ٫ and the thousands separator ٬ between the
+          // letters, and «۱٫۲» and «۱٬۲۰۰» are correctly written Persian.
+          for (final match in RegExp(
+            r'[۰-۹]+\p{L}',
+            unicode: true,
+          ).allMatches(entry.text))
+            '${entry.file} ${entry.path}: "${match.group(0)}"',
+      ];
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+  });
+
   group('Script', () {
     test('no Persian word has Latin letters inside it', () {
       // A word that is half Persian and half Latin is not a loanword and not a

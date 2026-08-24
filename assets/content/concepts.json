@@ -1567,7 +1567,7 @@
       },
       "definition": {
         "en": "Hume's observation that arguments slide from statements joined by is to statements joined by ought without explaining the move. Whether the gap is unbridgeable is disputed; that most arguments cross it silently is not.",
-        "fa": "مشاهدهٔ هیوم که استدلال‌ها از گزاره‌هایی با «هست» به گزاره‌هایی با «باید» می‌لغزند بی‌آنکه این جابه‌جایی را توضیح دهند. اینکه این شکاف پُرنشدنی است محل اختلاف است؛ اینکه بیشتر استدلال‌ها خاموش از آن می‌گذرند نه."
+        "fa": "مشاهدهٔ هیوم که استدلال‌ها از گزاره‌هایی با «هست» به گزاره‌هایی با «باید» می‌لغزند بی‌آنکه این جابه‌جایی را توضیح دهند. اینکه این شکاف پُر نشدنی است محل اختلاف است؛ اینکه بیشتر استدلال‌ها خاموش از آن می‌گذرند نه."
       },
       "traditions": ["european"],
       "branches": ["metaethics", "ethics", "logic"],
@@ -1995,7 +1995,7 @@
             "depth": "quick",
             "body": {
               "en": "Producing the thing you appear to be merely describing. 'I now pronounce you married' does not report a marriage; it makes one — and Butler's claim is that gender works more like the pronouncement than like the report.",
-              "fa": "پدیدآوردنِ همان چیزی که به‌ظاهر فقط وصفش می‌کنی. «شما را زن و شوهر اعلام می‌کنم» گزارشِ یک ازدواج نیست؛ ازدواج را می‌سازد — و ادعای باتلر این است که جنسیت بیشتر شبیه آن اعلام است تا شبیه آن گزارش."
+              "fa": "پدید آوردنِ همان چیزی که به‌ظاهر فقط وصفش می‌کنی. «شما را زن و شوهر اعلام می‌کنم» گزارشِ یک ازدواج نیست؛ ازدواج را می‌سازد — و ادعای باتلر این است که جنسیت بیشتر شبیه آن اعلام است تا شبیه آن گزارش."
             }
           },
           {
@@ -2544,7 +2544,7 @@
             "depth": "deep",
             "body": {
               "en": "It is worth knowing where the three occurrences are, because none of them is about the market working. The first, in an early essay on the history of astronomy, is dismissive: primitive peoples explain irregular events by the invisible hand of Jupiter, which is what people do before they have a theory of causes. The second, in the moral book, describes a landlord whose stomach is no larger than a poor man's and who therefore ends up distributing most of what his fields produce. The third, in the economic book, appears in an argument about why merchants tend to invest at home rather than abroad, which is a claim about the security of capital and not about markets in general. The slogan is an extraction.\n\nEconomics did later prove something in the neighbourhood, and the conditions attached are the interesting part. A competitive equilibrium is efficient in the sense that nobody can be made better off without making somebody worse off — but the proof assumes complete markets, no effects on third parties, no increasing returns, no market power, and participants who take prices as given. Every one of those assumptions fails somewhere important, and the theorem is therefore best read as a precise statement of what would have to be true, which is how it is taught and not how it is quoted.\n\nA second, quite different mechanism is often confused with it. Hayek's argument is not that markets reach an efficient allocation but that prices carry information nobody possesses in one place, so the market is a discovery procedure rather than an optimiser. Those are separable claims: one could hold that markets are unmatched at eliciting dispersed knowledge while denying that the result maximises anything, and some of the sharpest work on the topic sits exactly there.",
-              "fa": "دانستن اینکه آن سه مورد کجایند می‌ارزد، چون هیچ‌کدام دربارهٔ کار کردنِ بازار نیست. نخستین، در جستاری زودهنگام دربارهٔ تاریخ نجوم، تحقیرآمیز است: مردمان ابتدایی رویدادهای بی‌قاعده را با دست نادیدنی مشتری توضیح می‌دهند، که همان کاری است که آدم‌ها پیش از داشتن نظریه‌ای از علت‌ها می‌کنند. دومین، در کتاب اخلاق، زمین‌داری را وصف می‌کند که معده‌اش از معدهٔ فقیر بزرگ‌تر نیست و پس ناچار بیشترِ آنچه را زمین‌هایش می‌دهد پخش می‌کند. سومین، در کتاب اقتصاد، در استدلالی می‌آید دربارهٔ اینکه چرا بازرگانان بیشتر در وطن سرمایه‌گذاری می‌کنند تا بیرون، که ادعایی است دربارهٔ امنیت سرمایه نه دربارهٔ بازارها به‌طور کلی. آن شعار، بیرون‌کشیده است.\n\nاقتصاد بعدها چیزی در همان حوالی را اثبات کرد، و قیدهایی که به آن چسبیده بخش جالب ماجراست. تعادل رقابتی به این معنا کاراست که نمی‌شود وضع کسی را بهتر کرد بی‌آنکه وضع کسی بدتر شود — اما آن اثبات بازارهای کامل، نبودِ اثر بر اشخاص ثالث، نبودِ بازدهی فزاینده، نبودِ قدرت بازاری، و مشارکت‌کنندگانی را فرض می‌گیرد که قیمت را داده می‌گیرند. هر یک از این فرض‌ها جایی مهم شکست می‌خورد، و پس بهترین خواندن آن قضیه این است که بیانی دقیق است از آنچه باید درست می‌بود، که همان‌گونه هم درس داده می‌شود و همان‌گونه نقل نمی‌شود.\n\nسازوکار دومی و کاملاً متفاوت را اغلب با این اشتباه می‌گیرند. استدلال هایک این نیست که بازارها به تخصیصی کارا می‌رسند، این است که قیمت‌ها اطلاعاتی را حمل می‌کنند که هیچ‌کس یکجا در اختیارش ندارد، پس بازار رویه‌ای برای کشف است نه بهینه‌ساز. این‌ها ادعاهایی جداشدنی‌اند: می‌شود بر آن بود که بازارها در بیرون کشیدن دانش پراکنده بی‌رقیب‌اند و در همان حال انکار کرد که نتیجه چیزی را بیشینه می‌کند، و تیزترین کارها در این موضوع دقیقاً همان‌جا نشسته‌اند."
+              "fa": "دانستن اینکه آن سه مورد کجایند می‌ارزد، چون هیچ‌کدام دربارهٔ کار کردنِ بازار نیست. نخستین، در جستاری زودهنگام دربارهٔ تاریخ نجوم، تحقیرآمیز است: مردمان ابتدایی رویدادهای بی‌قاعده را با دست نادیدنی مشتری توضیح می‌دهند، که همان کاری است که آدم‌ها پیش از داشتن نظریه‌ای از علت‌ها می‌کنند. دومین، در کتاب اخلاق، زمین‌داری را وصف می‌کند که معده‌اش از معدهٔ فقیر بزرگ‌تر نیست و پس ناچار بیشترِ آنچه را زمین‌هایش می‌دهد پخش می‌کند. سومین، در کتاب اقتصاد، در استدلالی می‌آید دربارهٔ اینکه چرا بازرگانان بیشتر در وطن سرمایه‌گذاری می‌کنند تا بیرون، که ادعایی است دربارهٔ امنیت سرمایه نه دربارهٔ بازارها به‌طور کلی. آن شعار، بیرون‌کشیده است.\n\nاقتصاد بعدها چیزی در همان حوالی را اثبات کرد، و قیدهایی که به آن چسبیده بخش جالب ماجراست. تعادل رقابتی به این معنا کاراست که نمی‌شود وضع کسی را بهتر کرد بی‌آنکه وضع کسی بدتر شود — اما آن اثبات بازارهای کامل، نبودِ اثر بر اشخاص ثالث، نبودِ بازدهی فزاینده، نبودِ قدرت بازاری، و مشارکت‌کنندگانی را فرض می‌گیرد که قیمت را داده می‌گیرند. هر یک از این فرض‌ها جایی مهم شکست می‌خورد، و پس بهترین خواندن آن قضیه این است که بیانی دقیق است از آنچه باید درست می‌بود، که همان‌گونه هم درس داده می‌شود و همان‌گونه نقل نمی‌شود.\n\nسازوکار دومی و کاملاً متفاوت را اغلب با این اشتباه می‌گیرند. استدلال هایک این نیست که بازارها به تخصیصی کارا می‌رسند، این است که قیمت‌ها اطلاعاتی را حمل می‌کنند که هیچ‌کس یکجا در اختیارش ندارد، پس بازار رویه‌ای برای کشف است نه بهینه‌ساز. این‌ها ادعاهایی جدا شدنی‌اند: می‌شود بر آن بود که بازارها در بیرون کشیدن دانش پراکنده بی‌رقیب‌اند و در همان حال انکار کرد که نتیجه چیزی را بیشینه می‌کند، و تیزترین کارها در این موضوع دقیقاً همان‌جا نشسته‌اند."
             },
             "citations": [
               { "source": "text-moral-sentiments", "locator": "Part IV, ch. 1" },
@@ -2559,7 +2559,7 @@
       "name": { "en": "The knowledge problem", "fa": "مسئلهٔ دانش" },
       "oneLine": {
         "en": "The knowledge an economy runs on cannot be gathered into one place.",
-        "fa": "دانشی که اقتصاد بر آن می‌گردد در یک جا گردآوردنی نیست."
+        "fa": "دانشی که اقتصاد بر آن می‌گردد در یک جا گرد آوردنی نیست."
       },
       "definition": {
         "en": "Hayek's argument that the relevant knowledge is dispersed, local and largely tacit — what a particular person knows about a particular circumstance — so a planner cannot obtain it even in principle, and prices are the device that transmits its effects without transmitting it.",
@@ -2580,7 +2580,7 @@
             "depth": "quick",
             "body": {
               "en": "The knowledge an economy runs on cannot be gathered in one place. It is dispersed, largely tacit, and much of it exists only as somebody's sense of local circumstances — so a planner who wanted it could not be given it.",
-              "fa": "دانشی که اقتصاد بر آن می‌چرخد در یک جا گردآوردنی نیست. پراکنده است، عمدتاً ضمنی، و بخش بزرگی از آن تنها به‌صورت حسِ کسی از اوضاع محلی وجود دارد — پس برنامه‌ریزی که آن را بخواهد نمی‌تواند دریافتش کند."
+              "fa": "دانشی که اقتصاد بر آن می‌چرخد در یک جا گرد آوردنی نیست. پراکنده است، عمدتاً ضمنی، و بخش بزرگی از آن تنها به‌صورت حسِ کسی از اوضاع محلی وجود دارد — پس برنامه‌ریزی که آن را بخواهد نمی‌تواند دریافتش کند."
             }
           },
           {
@@ -2839,7 +2839,7 @@
             "depth": "standard",
             "body": {
               "en": "Foot introduced the case and Thomson refined it, and the point was never to settle what to do. It is a way of isolating a variable: hold the outcome fixed and vary the structure of the act, and see what the reaction tracks. Candidate explanations include the distinction between intending a harm and foreseeing it, between doing and allowing, and between using a person as a means and merely affecting them.\n\nThe standing complaint is that no situation is ever this clean and that training on artificial cases distorts judgement. The reply is that a controlled case is how you find out which feature is doing the work, and that ordinary situations vary everything at once. It has become unexpectedly practical: anyone writing collision behaviour for an autonomous vehicle is answering some version of it, whether or not they say so.",
-              "fa": "فوت این مورد را طرح کرد و تامسون پرداختش، و هدف هرگز تعیین اینکه چه باید کرد نبود. این راهی است برای جداکردنِ یک متغیر: نتیجه را ثابت نگه دار و ساختار کنش را تغییر بده، و ببین واکنش چه چیز را دنبال می‌کند. تبیین‌های نامزد شامل تمایز میان قصدِ آسیب و پیش‌بینی آن، میان کردن و اجازه‌دادن، و میان به‌کارگرفتنِ آدمی چون وسیله و صرفاً اثر گذاشتن بر او هستند.\n\nگلایهٔ همیشگی این است که هیچ موقعیتی هرگز این‌قدر پاکیزه نیست و تمرین بر موارد مصنوعی داوری را کج می‌کند. پاسخ این است که موردِ کنترل‌شده همان راهی است که می‌فهمی کدام ویژگی کار می‌کند، و موقعیت‌های معمولی همه‌چیز را هم‌زمان تغییر می‌دهند. این به‌طور غیرمنتظره‌ای عملی شده: هرکس رفتارِ برخورد را برای خودروی خودران می‌نویسد دارد به روایتی از آن پاسخ می‌دهد، چه بگوید چه نگوید."
+              "fa": "فوت این مورد را طرح کرد و تامسون پرداختش، و هدف هرگز تعیین اینکه چه باید کرد نبود. این راهی است برای جدا کردنِ یک متغیر: نتیجه را ثابت نگه دار و ساختار کنش را تغییر بده، و ببین واکنش چه چیز را دنبال می‌کند. تبیین‌های نامزد شامل تمایز میان قصدِ آسیب و پیش‌بینی آن، میان کردن و اجازه‌دادن، و میان به‌کارگرفتنِ آدمی چون وسیله و صرفاً اثر گذاشتن بر او هستند.\n\nگلایهٔ همیشگی این است که هیچ موقعیتی هرگز این‌قدر پاکیزه نیست و تمرین بر موارد مصنوعی داوری را کج می‌کند. پاسخ این است که موردِ کنترل‌شده همان راهی است که می‌فهمی کدام ویژگی کار می‌کند، و موقعیت‌های معمولی همه‌چیز را هم‌زمان تغییر می‌دهند. این به‌طور غیرمنتظره‌ای عملی شده: هرکس رفتارِ برخورد را برای خودروی خودران می‌نویسد دارد به روایتی از آن پاسخ می‌دهد، چه بگوید چه نگوید."
             },
             "citations": [{ "source": "sep" }]
           },
@@ -2867,7 +2867,7 @@
       },
       "definition": {
         "en": "Singer's case: nobody would let a child drown to keep their shoes clean, and it is not obvious what makes a distant preventable death different. Accepting the argument has demanding consequences; rejecting it requires naming a morally relevant difference, which is harder than it looks.",
-        "fa": "مورد سینگر: هیچ‌کس نمی‌گذارد کودکی غرق شود تا کفشش تمیز بماند، و روشن نیست چه چیزی مرگِ پیشگیری‌پذیرِ دور را متفاوت می‌کند. پذیرفتن استدلال پیامدهای سنگینی دارد؛ ردکردنش نام‌بردنِ تفاوتی اخلاقاً مربوط را می‌طلبد، و این دشوارتر از آن است که می‌نماید."
+        "fa": "مورد سینگر: هیچ‌کس نمی‌گذارد کودکی غرق شود تا کفشش تمیز بماند، و روشن نیست چه چیزی مرگِ پیشگیری‌پذیرِ دور را متفاوت می‌کند. پذیرفتن استدلال پیامدهای سنگینی دارد؛ رد کردنش نام‌بردنِ تفاوتی اخلاقاً مربوط را می‌طلبد، و این دشوارتر از آن است که می‌نماید."
       },
       "traditions": ["analytic", "contemporary"],
       "branches": ["applied-ethics", "ethics", "political-philosophy"],
@@ -3029,7 +3029,7 @@
             "depth": "quick",
             "body": {
               "en": "A mathematical object exists only when it has been constructed. Brouwer's school rejects the claim that every statement is either true or false independently of our ability to settle it — and therefore rejects proofs that work by ruling out the alternative.",
-              "fa": "شیء ریاضی تنها وقتی وجود دارد که ساخته شده باشد. مکتب براوئر این ادعا را رد می‌کند که هر گزاره مستقل از توانِ ما در تعیینش صادق یا کاذب است — و از این رو اثبات‌هایی را رد می‌کند که با کنارگذاشتنِ بدیل کار می‌کنند."
+              "fa": "شیء ریاضی تنها وقتی وجود دارد که ساخته شده باشد. مکتب براوئر این ادعا را رد می‌کند که هر گزاره مستقل از توانِ ما در تعیینش صادق یا کاذب است — و از این رو اثبات‌هایی را رد می‌کند که با کنار گذاشتنِ بدیل کار می‌کنند."
             }
           },
           {
@@ -3215,7 +3215,7 @@
       },
       "definition": {
         "en": "The claim, argued by hooks and by Davis among others, that positions of disadvantage are not separable variables to be summed: the situation of a poor black woman is not the situation of a poor person plus a black person plus a woman. A movement organised around one axis will mistake one position for the general case.",
-        "fa": "این ادعا — که هوکس و دیویس و دیگران بر آن استدلال کرده‌اند — که موقعیت‌های فرودستی متغیرهایی جداشدنی برای جمع‌زدن نیستند: وضع یک زن سیاهِ فقیر، وضع یک فقیر به‌علاوهٔ یک سیاه به‌علاوهٔ یک زن نیست. جنبشی که حول یک محور سامان یابد، یک موقعیت را با حالت عام اشتباه می‌گیرد."
+        "fa": "این ادعا — که هوکس و دیویس و دیگران بر آن استدلال کرده‌اند — که موقعیت‌های فرودستی متغیرهایی جدا شدنی برای جمع‌زدن نیستند: وضع یک زن سیاهِ فقیر، وضع یک فقیر به‌علاوهٔ یک سیاه به‌علاوهٔ یک زن نیست. جنبشی که حول یک محور سامان یابد، یک موقعیت را با حالت عام اشتباه می‌گیرد."
       },
       "traditions": ["africana", "american", "contemporary"],
       "branches": [
