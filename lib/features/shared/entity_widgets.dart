@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:philosophyy/core/design/decorative.dart';
@@ -21,6 +23,7 @@ import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// The smallest a control may be before a finger starts missing it.
 ///
@@ -1034,10 +1037,54 @@ class SourceLine extends StatelessWidget {
                   style: AppTypography.citation(language)
                       .copyWith(color: theme.colorScheme.onSurfaceVariant),
                 ),
+              // A citation the reader cannot follow is the appearance of
+              // sourcing. Only a source that records a url gets one: most of
+              // this bibliography is primary texts cited by a canonical
+              // locator — a Stephanus number, a Bekker number — which is
+              // stable across every edition and better than any link.
+              if (source.url case final url?) ...<Widget>[
+                const SizedBox(height: 2),
+                _SourceLink(url: url, language: language),
+              ],
             ],
           ),
         ),
       ],
+    );
+  }
+}
+
+/// The address of a source, as something the reader can open.
+///
+/// The address is shown rather than hidden behind the title, because a reader
+/// deciding whether to follow a citation wants to see where it goes — and
+/// because on a platform where opening fails there is then still something to
+/// copy.
+class _SourceLink extends StatelessWidget {
+  const _SourceLink({required this.url, required this.language});
+
+  final String url;
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return InkWell(
+      onTap: () => unawaited(
+        launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication),
+      ),
+      child: Semantics(
+        link: true,
+        child: Text(
+          url,
+          textDirection: TextDirection.ltr,
+          style: AppTypography.citation(language).copyWith(
+            color: theme.colorScheme.primary,
+            decoration: TextDecoration.underline,
+            decorationColor: theme.colorScheme.primary.withValues(alpha: 0.4),
+          ),
+        ),
+      ),
     );
   }
 }
