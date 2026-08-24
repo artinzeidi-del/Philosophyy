@@ -279,6 +279,36 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a decade is named in a calendar the reader can tell', () {
+      // «دههٔ شصت» means the nineteen-sixties to the writer and the thirteen-
+      // sixties of the Solar Hijri calendar to a reader in Iran — the
+      // nineteen-eighties. Five passages named a decade in words that way,
+      // while eighteen others wrote «دههٔ ۱۹۵۰» and left nothing to guess.
+      //
+      // The bare noun is fine: «یک دهه بعد», «دههٔ بعد». What has to carry
+      // digits is a decade called by its number.
+      const spelled = <String>[
+        'دههٔ بیست',
+        'دههٔ سی',
+        'دههٔ چهل',
+        'دههٔ پنجاه',
+        'دههٔ شصت',
+        'دههٔ هفتاد',
+        'دههٔ هشتاد',
+        'دههٔ نود',
+        'دهه‌های هفتاد',
+        'دهه‌های شصت',
+        'دهه‌های هشتاد',
+      ];
+      final problems = <String>[
+        for (final entry in strings)
+          for (final decade in spelled)
+            if (entry.text.contains(decade))
+              '${entry.file} ${entry.path}: "$decade" — which century?',
+      ];
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('a citation locator keeps the letter that makes it findable', () {
       // A Stephanus number is «21d», and the digit localisation had turned
       // three of them into «۲۱د» and «۲۷۵د» — references that cannot be looked
