@@ -511,6 +511,33 @@
   "@sectionRelatedIdeas": {
     "description": "Heading for other concepts related to the one being read."
   },
+  "sectionOpposes": "Set against",
+  "@sectionOpposes": {
+    "description": "Heading for the schools or ideas this one is opposed to."
+  },
+  "placeLived": "Born and died in {place}.",
+  "@placeLived": {
+    "description": "Where a philosopher was born and died, when they are the same place.",
+    "placeholders": { "place": { "type": "String" } }
+  },
+  "placeBornDied": "Born in {birth}, died in {death}.",
+  "@placeBornDied": {
+    "description": "Where a philosopher was born and died, when they differ.",
+    "placeholders": {
+      "birth": { "type": "String" },
+      "death": { "type": "String" }
+    }
+  },
+  "placeBorn": "Born in {place}.",
+  "@placeBorn": {
+    "description": "Where a philosopher was born, when the place of death is unrecorded.",
+    "placeholders": { "place": { "type": "String" } }
+  },
+  "placeDied": "Died in {place}.",
+  "@placeDied": {
+    "description": "Where a philosopher died, when the place of birth is unrecorded.",
+    "placeholders": { "place": { "type": "String" } }
+  },
   "depthSelectorLabel": "Depth",
   "@depthSelectorLabel": {
     "description": "Label for the control that chooses how much detail to show."

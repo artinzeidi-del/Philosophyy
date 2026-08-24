@@ -94,4 +94,34 @@ void main() {
       }
     }
   });
+
+  testWidgets('a school names the school it is set against', (tester) async {
+    await pumpSchool(tester, 'rationalism');
+    expect(
+      find.text('Empiricism'),
+      findsWidgets,
+      reason:
+          'rationalism records empiricism under `opposes` and the screen '
+          'never read the field',
+    );
+  });
+
+  testWidgets('every opposition a school records is on its page', (
+    tester,
+  ) async {
+    for (final school in corpus.schools.where(
+      (school) => school.opposedSchoolIds.isNotEmpty,
+    )) {
+      await pumpSchool(tester, school.id);
+      for (final id in school.opposedSchoolIds) {
+        final other = corpus.school(id);
+        if (other == null) continue;
+        expect(
+          find.text(other.name.en),
+          findsWidgets,
+          reason: '${school.id} does not show ${other.id}',
+        );
+      }
+    }
+  });
 }

@@ -657,6 +657,10 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         .whereType<Philosopher>()
         .toList();
     final works = concept.workIds.map(corpus.work).whereType<Work>().toList();
+    final opposes = concept.opposingConceptIds
+        .map(corpus.concept)
+        .whereType<Concept>()
+        .toList();
 
     return <Widget>[
       if (concept.examples.isNotEmpty)
@@ -716,6 +720,35 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ),
           ],
         ),
+      ..._opposesSection(context, opposes),
+    ];
+  }
+
+  /// What this entry is set against.
+  ///
+  /// Kept apart from Connections because the two carry different things. A
+  /// relation is authored: it names a dispute and explains it in a sentence.
+  /// These are the bare oppositions recorded on the entry itself, and thirteen
+  /// of the fifteen in the corpus have no relation to go with them — so before
+  /// this they appeared nowhere, and a reader on Rationalism was never told
+  /// that the corpus files it against Empiricism.
+  List<Widget> _opposesSection(
+    BuildContext context,
+    List<KnowledgeEntity> opposed,
+  ) {
+    if (opposed.isEmpty) return const <Widget>[];
+    return <Widget>[
+      _CardSection(
+        title: AppL10n.of(context).sectionOpposes,
+        children: <Widget>[
+          for (final other in opposed)
+            EntityCard(
+              title: other.name.resolve(language),
+              summary: other.oneLine.resolve(language),
+              onTap: () => context.push(other.ref.route),
+            ),
+        ],
+      ),
     ];
   }
 
@@ -819,6 +852,10 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         .map(corpus.concept)
         .whereType<Concept>()
         .toList();
+    final opposes = school.opposedSchoolIds
+        .map(corpus.school)
+        .whereType<School>()
+        .toList();
 
     return <Widget>[
       if (school.centralClaims.isNotEmpty)
@@ -859,6 +896,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ),
           ],
         ),
+      ..._opposesSection(context, opposes),
     ];
   }
 }
@@ -1605,6 +1643,16 @@ class _Masthead extends StatelessWidget {
       _ => null,
     };
 
+    // Thirteen philosophers carry a birthplace and eleven a place of death,
+    // and none of them was shown anywhere in the app. It belongs here rather
+    // than under the timeline: a place is not a date, and a heading that says
+    // "When" over a line that says "Born in Athens" is the same category
+    // mistake as a heading that says "Key ideas" over a list of people.
+    final place = switch (entity) {
+      final Philosopher philosopher => _placeLine(l10n, language, philosopher),
+      _ => null,
+    };
+
     final meta = switch (entity) {
       final Philosopher philosopher => AppDates.lifeSpan(
         philosopher.life,
@@ -1685,6 +1733,15 @@ class _Masthead extends StatelessWidget {
                       const SizedBox(height: Spacing.xs),
                       _AuthorLine(author: author!, language: language),
                     ],
+                    if (place != null) ...<Widget>[
+                      const SizedBox(height: Spacing.sm),
+                      Text(
+                        place,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: AppGradients.onGradientMuted,
+                        ),
+                      ),
+                    ],
                     const SizedBox(height: Spacing.lg),
                     Text(
                       entity.oneLine.resolve(language),
@@ -1703,4 +1760,24 @@ class _Masthead extends StatelessWidget {
       ),
     );
   }
+}
+
+/// Where a philosopher was born and died, in whichever of the four shapes the
+/// record supports.
+///
+/// Returns null when neither place is recorded, which is most of the corpus —
+/// a birthplace is a fact somebody has to have written down, and for a great
+/// many of these people nobody did.
+String? _placeLine(
+  AppL10n l10n,
+  AppLanguage language,
+  Philosopher philosopher,
+) {
+  final birth = philosopher.birthPlace?.resolve(language);
+  final death = philosopher.deathPlace?.resolve(language);
+  if (birth == null && death == null) return null;
+  if (birth == null) return l10n.placeDied(death!);
+  if (death == null) return l10n.placeBorn(birth);
+  if (birth == death) return l10n.placeLived(birth);
+  return l10n.placeBornDied(birth, death);
 }
