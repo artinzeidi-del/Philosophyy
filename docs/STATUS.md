@@ -8,9 +8,10 @@ repository, not recalled.
 | Check | Result |
 | --- | --- |
 | `flutter analyze --fatal-infos` | no issues |
-| `flutter test` | 924 passing, across 39 test files |
+| `flutter test` | 950 passing, across 43 test files |
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
 | Release build in Chromium: 6 configurations × 21 routes | 126 frames, no console errors, no overflows |
+| Every entry drawn in both languages | 934 screens, no exception |
 
 ## Corpus
 
