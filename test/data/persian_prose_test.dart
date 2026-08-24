@@ -254,6 +254,15 @@ void main() {
         'دوبویس': 'دوبویز',
         'دوبوا': 'دوبویز',
         'لایبنیتس': 'لایب‌نیتس',
+        // The Chinese names had three endings between them — ‌زی, ‌دزه and
+        // ‌تزه — and each entry carries the last.
+        'شون‌دزه': 'شون‌تزه',
+        'شون‌زی': 'شون‌تزه',
+        'شونزی': 'شون‌تزه',
+        'جوانگ‌زی': 'جوانگ‌تزه',
+        'جوانگ‌دزه': 'جوانگ‌تزه',
+        'فی‌زی': 'فی‌تزه',
+        'فی‌دزه': 'فی‌تزه',
       };
       final problems = <String>[];
       for (final entry in strings) {

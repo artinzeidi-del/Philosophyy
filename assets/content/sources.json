@@ -232,7 +232,7 @@
     {
       "id": "text-zhuangzi-book",
       "kind": "primary-text",
-      "title": { "en": "Zhuangzi", "fa": "جوانگ‌دزه" },
+      "title": { "en": "Zhuangzi", "fa": "جوانگ‌تزه" },
       "authors": ["Zhuangzi"],
       "authorsFa": ["جوانگ‌تزه"]
     },
@@ -246,14 +246,14 @@
     {
       "id": "text-xunzi-book",
       "kind": "primary-text",
-      "title": { "en": "Xunzi", "fa": "شون‌دزه" },
+      "title": { "en": "Xunzi", "fa": "شون‌تزه" },
       "authors": ["Xunzi"],
       "authorsFa": ["شون‌تزه"]
     },
     {
       "id": "text-hanfeizi-book",
       "kind": "primary-text",
-      "title": { "en": "Han Feizi", "fa": "هان فی‌دزه" },
+      "title": { "en": "Han Feizi", "fa": "هان فی‌تزه" },
       "authors": ["Han Feizi"],
       "authorsFa": ["هان فی‌تزه"]
     },
@@ -2765,7 +2765,7 @@
     {
       "id": "text-xunzi-text",
       "kind": "primary-text",
-      "title": { "en": "Xunzi", "fa": "شون‌دزه" },
+      "title": { "en": "Xunzi", "fa": "شون‌تزه" },
       "authors": ["Xunzi"],
       "rightsNote": { "en": "Cited by chapter.", "fa": "ارجاع بر پایهٔ فصل." },
       "authorsFa": ["شون‌تزه"]
@@ -2773,7 +2773,7 @@
     {
       "id": "text-hanfeizi-text",
       "kind": "primary-text",
-      "title": { "en": "Han Feizi", "fa": "هان فی‌دزه" },
+      "title": { "en": "Han Feizi", "fa": "هان فی‌تزه" },
       "authors": ["Han Feizi"],
       "rightsNote": { "en": "Cited by chapter.", "fa": "ارجاع بر پایهٔ فصل." },
       "authorsFa": ["هان فی‌تزه"]
