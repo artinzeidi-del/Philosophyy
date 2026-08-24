@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/app/app.dart';
 import 'package:philosophyy/app/providers.dart';
-import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';

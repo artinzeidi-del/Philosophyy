@@ -493,19 +493,36 @@ class LibraryController extends Notifier<UserLibrary> {
 
   UserDataRepository get _repository => ref.read(userDataRepositoryProvider);
 
-  Future<bool> _commit(UserLibrary next) async {
+  /// The tail of the write queue.
+  ///
+  /// Two taps in quick succession start two writes, and nothing in a repository
+  /// promises the first finishes first — a slow write of the older library can
+  /// land after a fast write of the newer one, leaving storage a version behind
+  /// the screen until the next change happens to cover it. Chaining every write
+  /// onto the previous one makes the order on disk the order the reader made.
+  Future<void> _writes = Future<void>.value();
+
+  Future<bool> _commit(UserLibrary next) {
     final previous = state;
     state = next;
-    try {
-      await _repository.save(next);
-      return true;
-    } on Object catch (error) {
-      // Put the reader's view back to what is actually stored, so the interface
-      // never shows a note as saved when it is not.
-      state = previous;
-      debugPrint('Could not save the library: $error');
-      return false;
-    }
+
+    final done = _writes.then((_) async {
+      try {
+        await _repository.save(next);
+        return true;
+      } on Object catch (error) {
+        // Put the reader's view back to what is actually stored, so the
+        // interface never shows a note as saved when it is not. Only undo if
+        // this is still the library on screen: a later change that did save
+        // must not be rolled back by an earlier one that did not.
+        if (ref.mounted && identical(state, next)) state = previous;
+        debugPrint('Could not save the library: $error');
+        return false;
+      }
+    });
+
+    _writes = done.then<void>((_) {}, onError: (Object _) {});
+    return done;
   }
 
   /// Saves or unsaves an article.
