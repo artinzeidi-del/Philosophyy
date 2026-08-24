@@ -273,7 +273,7 @@
       "term": { "en": "Virtue ethics", "fa": "اخلاق فضیلت" },
       "short": {
         "en": "Asking what kind of person to be rather than which act to do.",
-        "fa": "پرسیدنِ اینکه چه کسی باید بود، نه اینکه چه کاری باید کرد."
+        "fa": "پرسیدنِ اینکه چه‌جور آدمی باید بود، نه اینکه چه کاری باید کرد."
       },
       "long": {
         "en": "The question moves from the act to the agent, and from rules to character formed by habit. Aristotle is the source, and Anscombe revived it in 1958 by arguing that duty and obligation are leftovers of a law conception of ethics with no lawgiver left. The standing complaint is that it gives less guidance than a rule does; the reply is that no rule ever gave as much as it promised.",
@@ -469,7 +469,7 @@
       "transliteration": "ijtihād",
       "short": {
         "en": "Working out an answer by reasoning rather than by following an authority.",
-        "fa": "به‌دست‌آوردن پاسخ با استدلال، نه با پیرویِ از مرجع."
+        "fa": "به‌دست‌آوردن پاسخ با استدلال، نه با پیروی از مرجع."
       },
       "long": {
         "en": "The contrast is with taqlid, following a qualified authority. A jurist exercising ijtihad reasons from the sources to a ruling nobody has handed down. Whether the door to it closed after the early centuries is one of the long arguments of Islamic legal history; reformers from the nineteenth century onward have insisted it never did.",
@@ -696,7 +696,7 @@
       "term": { "en": "Secular", "fa": "عرفی" },
       "short": {
         "en": "Not resting on religious authority — which is not the same as against religion.",
-        "fa": "نااستوار بر اقتدار دینی — که با «ضد دین» یکی نیست."
+        "fa": "ناوابسته به اقتدار دینی — که با «ضد دین» یکی نیست."
       },
       "long": {
         "en": "Three different things travel under the word: a state that does not establish a religion, a society in which religious practice has declined, and an argument that proceeds without appeal to revelation. They do not imply each other, and a good deal of confused public argument comes from treating them as one.",
