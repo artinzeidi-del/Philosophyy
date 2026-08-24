@@ -28,11 +28,11 @@
       "attribution": "disputed",
       "attributionNote": {
         "en": "Socrates never says this. The nearest thing in Plato is Apology 21d, where he says that what he does not know he does not think he knows — a claim about not overestimating oneself, not a paradoxical claim to know one's own ignorance. The pithy version is a later condensation, circulated in Latin as \"scio me nihil scire\". It is close enough to his position to be a fair paraphrase and far enough from his words not to be a quotation.",
-        "fa": "سقراط هرگز چنین نمی‌گوید. نزدیک‌ترین عبارت نزد افلاطون «آپولوژی» ۲۱د است، آنجا که می‌گوید آنچه را نمی‌داند، گمان نمی‌کند که می‌داند؛ ادعایی دربارهٔ بیش‌ازحد نپنداشتنِ خود، نه ادعایی متناقض‌نما دربارهٔ دانستنِ نادانیِ خویش. صورت موجز آن، فشرده‌سازیِ متأخری است که در لاتین با عبارت «scio me nihil scire» رواج یافت. آن‌قدر به موضع او نزدیک هست که بازگفتی منصفانه باشد، و آن‌قدر از واژه‌هایش دور که نقل‌قول نباشد."
+        "fa": "سقراط هرگز چنین نمی‌گوید. نزدیک‌ترین عبارت نزد افلاطون «آپولوژی» 21d است، آنجا که می‌گوید آنچه را نمی‌داند، گمان نمی‌کند که می‌داند؛ ادعایی دربارهٔ بیش‌ازحد نپنداشتنِ خود، نه ادعایی متناقض‌نما دربارهٔ دانستنِ نادانیِ خویش. صورت موجز آن، فشرده‌سازیِ متأخری است که در لاتین با عبارت «scio me nihil scire» رواج یافت. آن‌قدر به موضع او نزدیک هست که بازگفتی منصفانه باشد، و آن‌قدر از واژه‌هایش دور که نقل‌قول نباشد."
       },
       "actualSource": {
         "en": "A later paraphrase of Plato, Apology 21d.",
-        "fa": "بازگفتی متأخر از افلاطون، آپولوژی ۲۱د."
+        "fa": "بازگفتی متأخر از افلاطون، آپولوژی 21d."
       },
       "concepts": ["socratic-method"]
     },
@@ -40,7 +40,7 @@
       "id": "aristotle-wonder",
       "text": {
         "en": "It is through wonder that people now begin, and originally began, to philosophise.",
-        "fa": "از راه شگفتی است که مردم اکنون به فلسفیدن می‌آغازند، و در آغاز نیز آغازیدند."
+        "fa": "از راه شگفتی است که مردم اکنون به فلسفه‌ورزی روی می‌آورند، چنان‌که در آغاز نیز چنین کردند."
       },
       "speaker": "aristotle",
       "attribution": "verified",
@@ -862,7 +862,7 @@
       "attribution": "verified",
       "context": {
         "en": "The last line of the essay. It is not consolation: the claim is that the struggle towards the summit is enough to fill a heart, which is an argument about what a life needs rather than a wish about how it feels.",
-        "fa": "سطر پایانی آن جستار. تسلی نیست: ادعا این است که همان کوششِ رو به قله برای پرکردن یک دل بس است، و این استدلالی است دربارهٔ آنچه یک زندگی لازم دارد، نه آرزویی دربارهٔ احساسِ آن."
+        "fa": "سطر پایانی آن جستار. تسلی نیست: ادعا این است که همان کوششِ رو به قله برای پر کردن یک دل بس است، و این استدلالی است دربارهٔ آنچه یک زندگی لازم دارد، نه آرزویی دربارهٔ احساسِ آن."
       },
       "attributionNote": {
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
@@ -3540,7 +3540,7 @@
       },
       "attributionNote": {
         "en": "The passage is from the Phaedrus, at 275d. This entry cites the Platonic corpus rather than a located edition of that dialogue, which is not among the sources the app carries.",
-        "fa": "این بند از «فایدروس»، ۲۷۵د است. این مدخل به مجموعهٔ آثار افلاطون ارجاع می‌دهد نه به ویراستی مشخص از آن گفت‌وگو، که در میان منابعِ این برنامه نیست."
+        "fa": "این بند از «فایدروس»، 275d است. این مدخل به مجموعهٔ آثار افلاطون ارجاع می‌دهد نه به ویراستی مشخص از آن گفت‌وگو، که در میان منابعِ این برنامه نیست."
       }
     },
     {

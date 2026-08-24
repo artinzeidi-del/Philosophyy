@@ -255,7 +255,7 @@
             "depth": "quick",
             "body": {
               "en": "Every virtue sits between two ways of getting it wrong: courage between recklessness and cowardice, generosity between waste and meanness. Where exactly it sits depends on the person and the situation, and no rule can be written down that settles it in advance.",
-              "fa": "هر فضیلتی میان دو گونه خطاکردن می‌نشیند: شجاعت میان بی‌پروایی و ترسویی، بخشندگی میان اسراف و خست. اینکه دقیقاً کجا می‌نشیند به شخص و موقعیت بستگی دارد، و هیچ قاعده‌ای نمی‌توان نوشت که آن را از پیش تعیین کند."
+              "fa": "هر فضیلتی میان دو گونه خطا کردن می‌نشیند: شجاعت میان بی‌پروایی و ترسویی، بخشندگی میان اسراف و خست. اینکه دقیقاً کجا می‌نشیند به شخص و موقعیت بستگی دارد، و هیچ قاعده‌ای نمی‌توان نوشت که آن را از پیش تعیین کند."
             }
           },
           {
@@ -1033,7 +1033,7 @@
       },
       "definition": {
         "en": "Non-harm towards every living being. Jainism extends it furthest, treating unintended harm as still harm and organising diet, work and movement around minimising it. Gandhi's political use of the term makes non-harm a method of forcing change rather than a withdrawal from conflict.",
-        "fa": "نیازردنِ هر جاندار. آیین جین آن را بیش از همه گسترش می‌دهد و آزارِ ناخواسته را هم آزار می‌شمارد و خوراک و کار و رفت‌وآمد را حول کمینه‌کردنش سامان می‌دهد. کاربرد سیاسی گاندی از این واژه، نیازردن را روشی برای وادارکردن به تغییر می‌کند نه کناره‌گیری از نزاع."
+        "fa": "نیازردنِ هر جاندار. آیین جین آن را بیش از همه گسترش می‌دهد و آزارِ ناخواسته را هم آزار می‌شمارد و خوراک و کار و رفت‌وآمد را حول کمینه‌کردنش سامان می‌دهد. کاربرد سیاسی گاندی از این واژه، نیازردن را روشی برای وادار کردن به تغییر می‌کند نه کناره‌گیری از نزاع."
       },
       "traditions": ["indian", "jain"],
       "branches": ["ethics", "applied-ethics", "political-philosophy"],
@@ -1054,7 +1054,7 @@
             "depth": "standard",
             "body": {
               "en": "Taken seriously the principle is impossible to satisfy, and Jain thought treats that as informative rather than as a reason to relax it. A life cannot be lived without harm, so the question becomes how much harm a given life requires and what it is for — which turns the principle into a scale rather than a line, and makes the monastic and lay paths different in degree rather than in kind.\n\nGandhi, raised among Jains in Gujarat, moved it into politics. Non-cooperation with an unjust order, accepting the penalty rather than inflicting one, is ahiṃsā used as a method of pressure — and he was explicit that it is not passivity but a way of refusing to grant an opponent the fight they are equipped to win. Whether it generalises to opponents who are not embarrassed by publicity has been the standing objection since.",
-              "fa": "اگر جدی گرفته شود، برآوردن این اصل ناممکن است، و اندیشهٔ جَین این را آگاهی‌بخش می‌داند نه دلیلی برای سست‌گرفتنش. زندگی بی‌آزار زیسته نمی‌شود، پس پرسش این می‌شود که یک زندگیِ معین چه اندازه آزار لازم دارد و برای چیست — و این اصل را به‌جای خط، به طیف بدل می‌کند، و راه راهبانه و راه عامیانه را به تفاوت در درجه بدل می‌کند نه در نوع.\n\nگاندی که در گجرات میان جَین‌ها بزرگ شد، آن را به سیاست برد. ناهمکاری با نظمی ناعادلانه، و پذیرفتن کیفر به‌جای واردکردن آن، همان اهیمسا است که چون روشی برای فشار به کار رفته — و او صریح بود که این انفعال نیست بلکه راهی است برای ندادنِ آن نبردی به حریف که برای بردنش مجهز است. اینکه آیا این در برابر حریفانی که از انتشار خبر شرمنده نمی‌شوند هم کار می‌کند، از آن پس اعتراض همیشگی بوده."
+              "fa": "اگر جدی گرفته شود، برآوردن این اصل ناممکن است، و اندیشهٔ جَین این را آگاهی‌بخش می‌داند نه دلیلی برای سست‌گرفتنش. زندگی بی‌آزار زیسته نمی‌شود، پس پرسش این می‌شود که یک زندگیِ معین چه اندازه آزار لازم دارد و برای چیست — و این اصل را به‌جای خط، به طیف بدل می‌کند، و راه راهبانه و راه عامیانه را به تفاوت در درجه بدل می‌کند نه در نوع.\n\nگاندی که در گجرات میان جَین‌ها بزرگ شد، آن را به سیاست برد. ناهمکاری با نظمی ناعادلانه، و پذیرفتن کیفر به‌جای وارد کردن آن، همان اهیمسا است که چون روشی برای فشار به کار رفته — و او صریح بود که این انفعال نیست بلکه راهی است برای ندادنِ آن نبردی به حریف که برای بردنش مجهز است. اینکه آیا این در برابر حریفانی که از انتشار خبر شرمنده نمی‌شوند هم کار می‌کند، از آن پس اعتراض همیشگی بوده."
             },
             "citations": [{ "source": "sep" }]
           },
@@ -1106,7 +1106,7 @@
             "depth": "standard",
             "body": {
               "en": "The mechanism is not moral appeal but cost. A state governs by consent it has stopped noticing; withdraw the consent — from its courts, its cloth, its salt monopoly — and the machinery has to be run by force in public, which is expensive and hard to justify. Accepting the punishment is what makes the refusal legible as principle rather than as evasion.\n\nGandhi insisted this was a duty and not a tactic, saying that non-cooperation with evil is as much a duty as cooperation with good. Critics have pressed the obvious question about opponents who do not care how it looks, and Gandhi's own answer — that it would still be right, and that the alternative corrupts the person using it — is a claim about the actor rather than about the outcome. King and the American civil rights movement adopted the method and made the same claim.",
-              "fa": "سازوکارش نه توسل اخلاقی که هزینه است. دولت با رضایتی حکم می‌راند که دیگر متوجهش نیست؛ آن رضایت را پس بگیر — از دادگاه‌هایش، از پارچه‌اش، از انحصار نمکش — و آنگاه چرخ باید در ملأ عام با زور بچرخد، که هم پرهزینه است و هم توجیهش دشوار. پذیرفتن کیفر همان است که سرباززدن را چون یک اصل خوانا می‌کند نه چون طفره.\n\nگاندی پافشاری داشت که این وظیفه است نه تاکتیک، و می‌گفت ناهمکاری با شر به همان اندازه وظیفه است که همکاری با خیر. منتقدان پرسش آشکار را دربارهٔ حریفانی که به ظاهر کار اهمیت نمی‌دهند پیش کشیده‌اند، و پاسخ خودِ گاندی — که باز هم درست می‌بود، و اینکه بدیلش کسی را که به کارش می‌برد فاسد می‌کند — ادعایی است دربارهٔ کنشگر نه دربارهٔ نتیجه. کینگ و جنبش حقوق مدنی امریکا این روش را گرفتند و همان ادعا را کردند."
+              "fa": "سازوکارش نه توسل اخلاقی که هزینه است. دولت با رضایتی حکم می‌راند که دیگر متوجهش نیست؛ آن رضایت را پس بگیر — از دادگاه‌هایش، از پارچه‌اش، از انحصار نمکش — و آنگاه چرخ باید در ملأ عام با زور بچرخد، که هم پرهزینه است و هم توجیهش دشوار. پذیرفتن کیفر همان است که سر باز زدن را چون یک اصل خوانا می‌کند نه چون طفره.\n\nگاندی پافشاری داشت که این وظیفه است نه تاکتیک، و می‌گفت ناهمکاری با شر به همان اندازه وظیفه است که همکاری با خیر. منتقدان پرسش آشکار را دربارهٔ حریفانی که به ظاهر کار اهمیت نمی‌دهند پیش کشیده‌اند، و پاسخ خودِ گاندی — که باز هم درست می‌بود، و اینکه بدیلش کسی را که به کارش می‌برد فاسد می‌کند — ادعایی است دربارهٔ کنشگر نه دربارهٔ نتیجه. کینگ و جنبش حقوق مدنی امریکا این روش را گرفتند و همان ادعا را کردند."
             },
             "citations": [{ "source": "sep" }]
           },
@@ -1716,7 +1716,7 @@
       },
       "definition": {
         "en": "Rawls's device for isolating fairness from bargaining power: principles are chosen by people who do not know their own class, talents, race, sex or conception of the good, so no principle can be tailored to a position the chooser knows they hold.",
-        "fa": "ابزار رالز برای جداکردن انصاف از قدرت چانه‌زنی: اصول را کسانی برمی‌گزینند که طبقه و استعداد و نژاد و جنس و تصورشان از خیر را نمی‌دانند، پس هیچ اصلی را نمی‌توان برای جایگاهی دوخت که برگزیننده می‌داند در آن است."
+        "fa": "ابزار رالز برای جدا کردن انصاف از قدرت چانه‌زنی: اصول را کسانی برمی‌گزینند که طبقه و استعداد و نژاد و جنس و تصورشان از خیر را نمی‌دانند، پس هیچ اصلی را نمی‌توان برای جایگاهی دوخت که برگزیننده می‌داند در آن است."
       },
       "traditions": ["american", "analytic"],
       "branches": ["political-philosophy", "ethics"],
@@ -1866,11 +1866,11 @@
       "nativeTerm": "mauvaise foi",
       "oneLine": {
         "en": "Pretending that something you chose was not a choice.",
-        "fa": "وانمودکردن به اینکه آنچه انتخاب کردی انتخاب نبوده است."
+        "fa": "وانمود کردن به اینکه آنچه انتخاب کردی انتخاب نبوده است."
       },
       "definition": {
         "en": "Sartre's name for the ordinary work of denying one's own freedom — treating a role, a temperament or a circumstance as though it settled what one does. It is not simple lying, because the person must both know and not know at once.",
-        "fa": "نام سارتر برای کارِ روزمرهٔ انکار آزادی خود — رفتارکردن با یک نقش یا خلق‌وخو یا وضعیت، چنان‌که گویی تعیین کرده است آدمی چه می‌کند. دروغ ساده نیست، چون آن شخص باید هم‌زمان بداند و نداند."
+        "fa": "نام سارتر برای کارِ روزمرهٔ انکار آزادی خود — رفتار کردن با یک نقش یا خلق‌وخو یا وضعیت، چنان‌که گویی تعیین کرده است آدمی چه می‌کند. دروغ ساده نیست، چون آن شخص باید هم‌زمان بداند و نداند."
       },
       "traditions": ["european", "continental"],
       "branches": ["existential-philosophy", "ethics", "philosophy-of-mind"],
@@ -1974,7 +1974,7 @@
       "name": { "en": "Performativity", "fa": "اجراگری" },
       "oneLine": {
         "en": "Producing the thing you appear to be merely describing.",
-        "fa": "تولیدکردن همان چیزی که ظاهراً فقط وصفش می‌کنی."
+        "fa": "تولید کردن همان چیزی که ظاهراً فقط وصفش می‌کنی."
       },
       "definition": {
         "en": "Originally a point about language — saying I promise makes the promise rather than reporting it. Butler extends it to gender: repeated acts appear to express an identity they are in fact constituting, and the repetitions are compelled rather than freely chosen.",
@@ -2158,7 +2158,7 @@
             "depth": "standard",
             "body": {
               "en": "The distinction from colonialism is the whole point. Colonialism is a political arrangement with dates; coloniality is a pattern that continues to organise who counts as a knower, whose categories are treated as universal and whose as local, and which regions supply raw material and which supply theory. On this account a formally independent state can remain inside it.\n\nThe strongest version is about knowledge. If the modern disciplines were built in one place and exported as neutral, then their questions carry an origin that does not announce itself — and 'philosophy' meaning European philosophy, with everything else marked by a region, is the example nearest to hand. The obvious risk is that the framework becomes a way of dismissing arguments by their provenance instead of answering them, and the tradition's more careful work says so.",
-              "fa": "تمایز آن از استعمار تمام نکته است. استعمار ترتیبی سیاسی با تاریخ‌های معین است؛ استعماریت الگویی است که همچنان سامان می‌دهد به اینکه چه کسی دانا به شمار می‌آید، مقولات چه کسی جهانی و مقولات چه کسی محلی گرفته می‌شود، و کدام مناطق مادهٔ خام می‌دهند و کدام نظریه. به این روایت دولتی که رسماً مستقل است می‌تواند همچنان درون آن بماند.\n\nقوی‌ترین صورتش دربارهٔ دانش است. اگر رشته‌های علمیِ جدید در یک جا ساخته و چون امری خنثی صادر شده باشند، پرسش‌هایشان خاستگاهی را حمل می‌کنند که خودش را اعلام نمی‌کند — و «فلسفه» به‌معنای فلسفهٔ اروپایی، در حالی که هرچیز دیگر با نام منطقه‌ای مشخص می‌شود، نزدیک‌ترین نمونه است. خطر آشکار این است که این چارچوب به راهی برای ردکردن استدلال‌ها به‌سبب خاستگاهشان بدل شود به‌جای پاسخ‌دادن، و کارهای محتاط‌ترِ این سنت خود این را می‌گویند."
+              "fa": "تمایز آن از استعمار تمام نکته است. استعمار ترتیبی سیاسی با تاریخ‌های معین است؛ استعماریت الگویی است که همچنان سامان می‌دهد به اینکه چه کسی دانا به شمار می‌آید، مقولات چه کسی جهانی و مقولات چه کسی محلی گرفته می‌شود، و کدام مناطق مادهٔ خام می‌دهند و کدام نظریه. به این روایت دولتی که رسماً مستقل است می‌تواند همچنان درون آن بماند.\n\nقوی‌ترین صورتش دربارهٔ دانش است. اگر رشته‌های علمیِ جدید در یک جا ساخته و چون امری خنثی صادر شده باشند، پرسش‌هایشان خاستگاهی را حمل می‌کنند که خودش را اعلام نمی‌کند — و «فلسفه» به‌معنای فلسفهٔ اروپایی، در حالی که هرچیز دیگر با نام منطقه‌ای مشخص می‌شود، نزدیک‌ترین نمونه است. خطر آشکار این است که این چارچوب به راهی برای رد کردن استدلال‌ها به‌سبب خاستگاهشان بدل شود به‌جای پاسخ‌دادن، و کارهای محتاط‌ترِ این سنت خود این را می‌گویند."
             },
             "citations": [
               { "source": "text-black-skin-white-masks" },
@@ -2403,7 +2403,7 @@
       "name": { "en": "Category mistake", "fa": "خطای مقوله‌ای" },
       "oneLine": {
         "en": "Treating something as the kind of thing it is not.",
-        "fa": "رفتارکردن با چیزی چنان‌که گویی از نوعی است که نیست."
+        "fa": "رفتار کردن با چیزی چنان‌که گویی از نوعی است که نیست."
       },
       "definition": {
         "en": "Ryle's diagnosis: a visitor shown the colleges and the library who then asks where the university is has not missed a building, they have misunderstood the word. He argued that Descartes's inner mind is the same mistake — treating dispositions to behave as though they named hidden events.",
@@ -2818,7 +2818,7 @@
       },
       "definition": {
         "en": "Foot's case, sharpened by Thomson: most people accept switching a tram from five people to one and refuse to push one person into its path, though the arithmetic is identical. The problem is not which answer is right but what the difference tracks — intention, using a person as a means, or the distinction between doing and allowing.",
-        "fa": "مورد فوت که تامسون تیزش کرد: بیشتر مردم منحرف‌کردن تراموا از پنج نفر به یک نفر را می‌پذیرند و هل‌دادن یک نفر به مسیرش را رد می‌کنند، هرچند حساب یکی است. مسئله این نیست که کدام پاسخ درست است، بلکه این است که این تفاوت چه چیزی را ردیابی می‌کند: قصد، ابزارکردن یک شخص، یا فرق میان کردن و گذاشتن."
+        "fa": "مورد فوت که تامسون تیزش کرد: بیشتر مردم منحرف‌کردن تراموا از پنج نفر به یک نفر را می‌پذیرند و هل‌دادن یک نفر به مسیرش را رد می‌کنند، هرچند حساب یکی است. مسئله این نیست که کدام پاسخ درست است، بلکه این است که این تفاوت چه چیزی را ردیابی می‌کند: قصد، ابزار کردن یک شخص، یا فرق میان کردن و گذاشتن."
       },
       "traditions": ["analytic", "contemporary"],
       "branches": ["ethics", "applied-ethics", "metaethics"],
@@ -2839,7 +2839,7 @@
             "depth": "standard",
             "body": {
               "en": "Foot introduced the case and Thomson refined it, and the point was never to settle what to do. It is a way of isolating a variable: hold the outcome fixed and vary the structure of the act, and see what the reaction tracks. Candidate explanations include the distinction between intending a harm and foreseeing it, between doing and allowing, and between using a person as a means and merely affecting them.\n\nThe standing complaint is that no situation is ever this clean and that training on artificial cases distorts judgement. The reply is that a controlled case is how you find out which feature is doing the work, and that ordinary situations vary everything at once. It has become unexpectedly practical: anyone writing collision behaviour for an autonomous vehicle is answering some version of it, whether or not they say so.",
-              "fa": "فوت این مورد را طرح کرد و تامسون پرداختش، و هدف هرگز تعیین اینکه چه باید کرد نبود. این راهی است برای جداکردنِ یک متغیر: نتیجه را ثابت نگه دار و ساختار کنش را تغییر بده، و ببین واکنش چه چیز را دنبال می‌کند. تبیین‌های نامزد شامل تمایز میان قصدِ آسیب و پیش‌بینی آن، میان کردن و اجازه‌دادن، و میان به‌کارگرفتنِ آدمی چون وسیله و صرفاً اثرگذاشتن بر او هستند.\n\nگلایهٔ همیشگی این است که هیچ موقعیتی هرگز این‌قدر پاکیزه نیست و تمرین بر موارد مصنوعی داوری را کج می‌کند. پاسخ این است که موردِ کنترل‌شده همان راهی است که می‌فهمی کدام ویژگی کار می‌کند، و موقعیت‌های معمولی همه‌چیز را هم‌زمان تغییر می‌دهند. این به‌طور غیرمنتظره‌ای عملی شده: هرکس رفتارِ برخورد را برای خودروی خودران می‌نویسد دارد به روایتی از آن پاسخ می‌دهد، چه بگوید چه نگوید."
+              "fa": "فوت این مورد را طرح کرد و تامسون پرداختش، و هدف هرگز تعیین اینکه چه باید کرد نبود. این راهی است برای جداکردنِ یک متغیر: نتیجه را ثابت نگه دار و ساختار کنش را تغییر بده، و ببین واکنش چه چیز را دنبال می‌کند. تبیین‌های نامزد شامل تمایز میان قصدِ آسیب و پیش‌بینی آن، میان کردن و اجازه‌دادن، و میان به‌کارگرفتنِ آدمی چون وسیله و صرفاً اثر گذاشتن بر او هستند.\n\nگلایهٔ همیشگی این است که هیچ موقعیتی هرگز این‌قدر پاکیزه نیست و تمرین بر موارد مصنوعی داوری را کج می‌کند. پاسخ این است که موردِ کنترل‌شده همان راهی است که می‌فهمی کدام ویژگی کار می‌کند، و موقعیت‌های معمولی همه‌چیز را هم‌زمان تغییر می‌دهند. این به‌طور غیرمنتظره‌ای عملی شده: هرکس رفتارِ برخورد را برای خودروی خودران می‌نویسد دارد به روایتی از آن پاسخ می‌دهد، چه بگوید چه نگوید."
             },
             "citations": [{ "source": "sep" }]
           },
@@ -2888,7 +2888,7 @@
             "depth": "standard",
             "body": {
               "en": "The argument has two premises and both look hard to reject. Suffering and death from lack of food and shelter are bad; and if we can prevent something bad without sacrificing anything of comparable moral importance, we ought to. The pond makes the second vivid, and the conclusion is that most people in rich countries are failing an obligation rather than declining an option.\n\nThe objections are all attempts to find a relevant difference. Proximity is the obvious candidate and is hard to defend as a moral factor. Numbers is another — one child is a case, thousands is a policy — and here the demand becomes so heavy that it may leave no room for a life, which is the standard objection to it. Singer has generally accepted the demandingness rather than avoiding it, and the movement that grew from the argument has spent much of its energy on how much is enough.",
-              "fa": "این استدلال دو مقدمه دارد و ردکردن هر دو دشوار می‌نماید. رنج و مرگ از نبودِ خوراک و سرپناه بد است؛ و اگر بتوانیم چیزی بد را بی‌فداکردنِ چیزی با اهمیت اخلاقیِ همسنگ جلوگیری کنیم، باید بکنیم. برکه دومی را ملموس می‌کند، و نتیجه این است که بیشتر مردم کشورهای ثروتمند در انجام یک تعهد کوتاهی می‌کنند نه اینکه از یک گزینه صرف‌نظر کنند.\n\nاعتراض‌ها همه کوششی برای یافتن تفاوتی مربوط‌اند. نزدیکی نامزد آشکار است و دفاع از آن چون عاملی اخلاقی دشوار است. شمار نامزد دیگری است — یک کودک یک مورد است و هزاران کودک یک سیاست — و اینجا مطالبه چنان سنگین می‌شود که شاید جایی برای یک زندگی نگذارد، و اعتراض استاندارد به آن همین است. سینگر عموماً این سنگینی را پذیرفته نه از آن گریخته، و جنبشی که از این استدلال برآمد بخش بزرگی از توانش را صرف این کرده که چقدر کافی است."
+              "fa": "این استدلال دو مقدمه دارد و رد کردن هر دو دشوار می‌نماید. رنج و مرگ از نبودِ خوراک و سرپناه بد است؛ و اگر بتوانیم چیزی بد را بی‌فداکردنِ چیزی با اهمیت اخلاقیِ همسنگ جلوگیری کنیم، باید بکنیم. برکه دومی را ملموس می‌کند، و نتیجه این است که بیشتر مردم کشورهای ثروتمند در انجام یک تعهد کوتاهی می‌کنند نه اینکه از یک گزینه صرف‌نظر کنند.\n\nاعتراض‌ها همه کوششی برای یافتن تفاوتی مربوط‌اند. نزدیکی نامزد آشکار است و دفاع از آن چون عاملی اخلاقی دشوار است. شمار نامزد دیگری است — یک کودک یک مورد است و هزاران کودک یک سیاست — و اینجا مطالبه چنان سنگین می‌شود که شاید جایی برای یک زندگی نگذارد، و اعتراض استاندارد به آن همین است. سینگر عموماً این سنگینی را پذیرفته نه از آن گریخته، و جنبشی که از این استدلال برآمد بخش بزرگی از توانش را صرف این کرده که چقدر کافی است."
             },
             "citations": [{ "source": "sep" }]
           },
@@ -3086,7 +3086,7 @@
             "depth": "standard",
             "body": {
               "en": "The conclusion is that the difference lies in a context: a history, a body of theory, and an institutional practice that Danto called the artworld. Something becomes art by being placed in a conversation, and the same object outside that conversation is a carton. This ends the long project of defining art by properties of the object — beauty, form, expressive quality — because two objects can share every visible property and differ in status.\n\nDickie turned it into an institutional definition, which drew the obvious complaint that it makes art whatever the galleries say, and offers no way to call an institution wrong. Danto's own version is less circular, since it appeals to interpretation and historical position rather than to authority. Either way the question moved: not what is in the work, but what has to be true around it.",
-              "fa": "نتیجه این است که تفاوت در یک زمینه است: تاریخی، پیکره‌ای از نظریه، و رویه‌ای نهادی که دانتو آن را «جهانِ هنر» نامید. چیزی با قرارگرفتن در یک گفت‌وگو هنر می‌شود، و همان شیء بیرون از آن گفت‌وگو یک جعبهٔ مقوایی است. این به پروژهٔ درازِ تعریف هنر با ویژگی‌های خودِ شیء پایان می‌دهد — زیبایی، فرم، کیفیت بیانی — چون دو شیء می‌توانند در هر ویژگی دیدنی مشترک باشند و در وضعیت فرق کنند.\n\nدیکی آن را به تعریفی نهادی بدل کرد، که گلایهٔ آشکار را برانگیخت که هنر را هرچه گالری‌ها بگویند می‌کند و راهی برای خطاکار خواندنِ یک نهاد نمی‌گذارد. روایت خودِ دانتو کمتر دوری است، چون به تفسیر و جایگاه تاریخی متوسل می‌شود نه به اقتدار. به هر روی پرسش جابه‌جا شد: نه آنکه در اثر چیست، بلکه آنکه پیرامون آن چه باید صادق باشد."
+              "fa": "نتیجه این است که تفاوت در یک زمینه است: تاریخی، پیکره‌ای از نظریه، و رویه‌ای نهادی که دانتو آن را «جهانِ هنر» نامید. چیزی با قرار گرفتن در یک گفت‌وگو هنر می‌شود، و همان شیء بیرون از آن گفت‌وگو یک جعبهٔ مقوایی است. این به پروژهٔ درازِ تعریف هنر با ویژگی‌های خودِ شیء پایان می‌دهد — زیبایی، فرم، کیفیت بیانی — چون دو شیء می‌توانند در هر ویژگی دیدنی مشترک باشند و در وضعیت فرق کنند.\n\nدیکی آن را به تعریفی نهادی بدل کرد، که گلایهٔ آشکار را برانگیخت که هنر را هرچه گالری‌ها بگویند می‌کند و راهی برای خطاکار خواندنِ یک نهاد نمی‌گذارد. روایت خودِ دانتو کمتر دوری است، چون به تفسیر و جایگاه تاریخی متوسل می‌شود نه به اقتدار. به هر روی پرسش جابه‌جا شد: نه آنکه در اثر چیست، بلکه آنکه پیرامون آن چه باید صادق باشد."
             },
             "citations": [{ "source": "sep" }]
           },
@@ -3116,7 +3116,7 @@
       },
       "definition": {
         "en": "Zeami's central term for the quality that makes a performance land. It is not a skill the actor acquires and keeps: it depends on surprise, on holding something back, and on the audience's expectation — so it changes as the performer ages, and mastery is a sequence of different problems rather than a summit.",
-        "fa": "اصطلاح محوری زه‌آمی برای کیفیتی که اجرا را می‌نشاند. مهارتی نیست که بازیگر به دست آورد و نگه دارد: به غافلگیری، به دریغ‌کردن چیزی، و به انتظار تماشاگر وابسته است — پس با پیرشدن اجراگر دگرگون می‌شود، و استادی زنجیره‌ای از مسائل متفاوت است نه یک قله."
+        "fa": "اصطلاح محوری زه‌آمی برای کیفیتی که اجرا را می‌نشاند. مهارتی نیست که بازیگر به دست آورد و نگه دارد: به غافلگیری، به دریغ‌کردن چیزی، و به انتظار تماشاگر وابسته است — پس با پیر شدن اجراگر دگرگون می‌شود، و استادی زنجیره‌ای از مسائل متفاوت است نه یک قله."
       },
       "traditions": ["japanese"],
       "branches": ["aesthetics", "philosophy-of-education"],
@@ -3269,7 +3269,7 @@
       },
       "definition": {
         "en": "Davis's argument that the prison is better explained as a way of disappearing social problems than as a response to crime, and that its racial composition is continuous with earlier institutions rather than incidental. The abolitionist claim is about what may be assumed in the argument, not a proposal that nothing replace it.",
-        "fa": "استدلال دیویس که زندان را بهتر می‌توان راهی برای ناپدیدکردن مسائل اجتماعی دانست تا پاسخی به جرم، و ترکیب نژادی‌اش نه اتفاقی بلکه پیوسته با نهادهای پیشین است. ادعای الغاگرایانه دربارهٔ آن چیزی است که در استدلال می‌توان مفروض گرفت، نه پیشنهادِ اینکه چیزی جایش را نگیرد."
+        "fa": "استدلال دیویس که زندان را بهتر می‌توان راهی برای ناپدید کردن مسائل اجتماعی دانست تا پاسخی به جرم، و ترکیب نژادی‌اش نه اتفاقی بلکه پیوسته با نهادهای پیشین است. ادعای الغاگرایانه دربارهٔ آن چیزی است که در استدلال می‌توان مفروض گرفت، نه پیشنهادِ اینکه چیزی جایش را نگیرد."
       },
       "traditions": ["africana", "american", "contemporary"],
       "branches": [

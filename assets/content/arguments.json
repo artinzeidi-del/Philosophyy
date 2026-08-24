@@ -450,7 +450,7 @@
           "id": "p1",
           "text": {
             "en": "To overtake the tortoise, Achilles must first reach the point where the tortoise now is.",
-            "fa": "برای جلوزدن از لاک‌پشت، آشیل نخست باید به نقطه‌ای برسد که لاک‌پشت اکنون در آن است."
+            "fa": "برای جلو زدن از لاک‌پشت، آشیل نخست باید به نقطه‌ای برسد که لاک‌پشت اکنون در آن است."
           }
         },
         {
@@ -636,7 +636,7 @@
           "id": "p3",
           "text": {
             "en": "No further observation is available that would show the producing itself.",
-            "fa": "هیچ مشاهدهٔ دیگری در دست نیست که خودِ آن پدیدآوردن را نشان دهد."
+            "fa": "هیچ مشاهدهٔ دیگری در دست نیست که خودِ آن پدید آوردن را نشان دهد."
           }
         }
       ],
@@ -741,7 +741,7 @@
       "assumptions": [
         {
           "en": "That meaning requires the possibility of getting it wrong.",
-          "fa": "اینکه معنا امکانِ خطاکردن را لازم دارد."
+          "fa": "اینکه معنا امکانِ خطا کردن را لازم دارد."
         },
         {
           "en": "That a standard nobody else could apply is not a standard.",
@@ -849,7 +849,7 @@
           "id": "o1",
           "text": {
             "en": "Rational choosers might accept a small chance of doing badly for a large chance of doing very well, which yields different principles.",
-            "fa": "برگزینندگان عاقل شاید شانس کوچکِ بدشدن را در برابر شانس بزرگِ بسیار خوب‌شدن بپذیرند، و این اصولی دیگر می‌دهد."
+            "fa": "برگزینندگان عاقل شاید شانس کوچکِ بد شدن را در برابر شانس بزرگِ بسیار خوب‌شدن بپذیرند، و این اصولی دیگر می‌دهد."
           },
           "targets": ["p4"],
           "replies": [
