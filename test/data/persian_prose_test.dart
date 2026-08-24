@@ -118,6 +118,11 @@ void main() {
           ('ي', 'Arabic yeh ي instead of Persian ی'),
           ('ك', 'Arabic kaf ك instead of Persian ک'),
           ('ة', 'teh marbuta ة, which Persian writes as ه or ت'),
+          // Alef maqsura is the third of the three, and the one this rule
+          // missed: it is not the Arabic yeh, it carries no dots at all, and
+          // in a Persian font it renders identically to ی at the end of a
+          // word. «ترامواى» and «تارى» shipped that way.
+          ('ى', 'alef maqsura ى instead of Persian ی'),
         ]) {
           if (entry.text.contains(rule.$1)) {
             problems.add('${entry.file} ${entry.path}: ${rule.$2}');
