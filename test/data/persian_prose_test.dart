@@ -263,6 +263,15 @@ void main() {
         'جوانگ‌دزه': 'جوانگ‌تزه',
         'فی‌زی': 'فی‌تزه',
         'فی‌دزه': 'فی‌تزه',
+        // Found by asking, for every bilingual passage, whether a philosopher
+        // the English names is named in the Persian too. Most of what that
+        // turns up is ordinary prose using «او» instead of repeating a name;
+        // these five were two spellings of one person.
+        'آکویناس': 'آکوئیناس',
+        'پلوتینوس': 'افلوطین',
+        'نوسبام': 'نوسباوم',
+        'اوکام': 'اکام',
+        'ناگارجونه': 'ناگارجونا',
       };
       final problems = <String>[];
       for (final entry in strings) {
