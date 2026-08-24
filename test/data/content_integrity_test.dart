@@ -195,6 +195,7 @@ void main() {
             final shared = _longestSharedRun(
               sections[i].body.en,
               sections[j].body.en,
+              subject: entity.name.en,
             );
             if (shared >= maximumSharedRun) {
               problems.add(
@@ -224,6 +225,60 @@ void main() {
               'not merely unpolished.',
         );
       }
+    });
+
+    test('a person is spelled one way everywhere the reader reads', () {
+      // The corpus names people with their diacritics — Ibn Sīnā, Nāgārjuna,
+      // Gödel, Nezahualcóyotl — and then thirty passages of running prose
+      // dropped them. A reader met "Ibn Sīnā" as the title of the entry and
+      // "Ibn Sina" in the paragraph under it, and the work "Songs of
+      // Nezahualcoyotl" was filed under a philosopher named Nezahualcóyotl.
+      // Twenty-six author fields in the bibliography had the same split, so
+      // the same scholar appeared twice in a list of sources.
+      //
+      // Two spellings of one name is not a typographic quibble in a reference
+      // work: it is the product disagreeing with itself about who it is
+      // talking about, and it makes a search for the name in one spelling miss
+      // the passages that use the other.
+      //
+      // The bare form is deliberate in exactly one place — `alsoKnownAs`,
+      // which exists to let a reader who types "Rumi" find Rūmī — so this
+      // walks prose and titles and leaves the search aliases alone.
+      final canonical = <String, String>{};
+      for (final philosopher in corpus.philosophers) {
+        final name = philosopher.name.en.replaceAll(RegExp(r'\s*\(.*?\)'), '');
+        final bare = _withoutDiacritics(name);
+        if (bare != name && bare.length >= 4) canonical[bare] = name;
+      }
+
+      final problems = <String>[];
+      void check(String where, String? text) {
+        if (text == null) return;
+        for (final entry in canonical.entries) {
+          if (RegExp('(?<![A-Za-z])${RegExp.escape(entry.key)}(?![A-Za-z])')
+              .hasMatch(text)) {
+            problems.add('$where says "${entry.key}", not "${entry.value}"');
+          }
+        }
+      }
+
+      for (final entity in corpus.allEntities) {
+        check('${entity.ref} title', entity.name.en);
+        for (final section in entity.article.sections) {
+          check('${entity.ref} section "${section.id}"', section.body.en);
+          check('${entity.ref} heading "${section.id}"', section.heading?.en);
+        }
+      }
+      for (final term in corpus.glossary) {
+        check('glossary ${term.id}', term.shortDefinition.en);
+        check('glossary ${term.id}', term.longDefinition?.en);
+      }
+      for (final quote in corpus.quotes) {
+        check('quote ${quote.id}', quote.context?.en);
+        check('quote ${quote.id}', quote.attributionNote?.en);
+      }
+
+      expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
     test('every authored section carries text in both languages', () {
@@ -574,9 +629,18 @@ void main() {
 ///
 /// Words only, lowercased, punctuation dropped — the interest is in reused
 /// phrasing rather than in exact text.
-int _longestSharedRun(String a, String b) {
-  final first = _words(a);
-  final second = _words(b);
+/// How many consecutive words the two passages have in common.
+///
+/// [subject] is the name of the entry both passages belong to, and it is
+/// collapsed to a single token before comparing. Every section of an article
+/// about Fakhr al-Dīn al-Rāzī is entitled to say his name, and a transliterated
+/// name is four or five words — so two sections that merely open with it were
+/// reported as sharing a six-word run of prose. Only the entry's own name is
+/// collapsed: two sections repeating a clause about somebody else is the
+/// duplication this exists to catch.
+int _longestSharedRun(String a, String b, {String subject = ''}) {
+  final first = _words(_collapse(a, subject));
+  final second = _words(_collapse(b, subject));
   var longest = 0;
   for (
     var length = 3;
@@ -600,8 +664,83 @@ int _longestSharedRun(String a, String b) {
   return longest;
 }
 
-List<String> _words(String text) =>
-    RegExp(r'[A-Za-z]+')
-        .allMatches(text)
-        .map((match) => match.group(0)!.toLowerCase())
-        .toList();
+/// The words of an English passage.
+///
+/// Any Unicode letter, not `[A-Za-z]`. The ASCII class looked right until the
+/// corpus started spelling names with the diacritics they are owed: it cut
+/// "Sīnā" into "s" and "n" and "Rāzī" into "r" and "z", so a phrase naming
+/// Fakhr al-Dīn al-Rāzī counted as eight tokens instead of four, and the
+/// repeated-prose check read a shared name as a shared sentence.
+List<String> _words(String text) => RegExp(
+  r'\p{L}+',
+  unicode: true,
+).allMatches(text).map((match) => match.group(0)!.toLowerCase()).toList();
+
+/// Strips combining marks, so "Ibn Sīnā" and "Ibn Sina" can be compared.
+String _withoutDiacritics(String value) {
+  const marks = <String, String>{
+    'ā': 'a',
+    'ī': 'i',
+    'ū': 'u',
+    'ṭ': 't',
+    'ṣ': 's',
+    'ḍ': 'd',
+    'ẓ': 'z',
+    'ḥ': 'h',
+    'ʿ': '',
+    'ʾ': '',
+    'ñ': 'n',
+    'ṅ': 'n',
+    'ṇ': 'n',
+    'ś': 's',
+    'ö': 'o',
+    'ü': 'u',
+    'ä': 'a',
+    'é': 'e',
+    'è': 'e',
+    'ê': 'e',
+    'ó': 'o',
+    'á': 'a',
+    'í': 'i',
+    'ú': 'u',
+    'ç': 'c',
+    'å': 'a',
+    'ř': 'r',
+    'ẹ': 'e',
+    'ầ': 'a',
+    'â': 'a',
+    'ô': 'o',
+    'ơ': 'o',
+    'ư': 'u',
+    'ă': 'a',
+    'ĩ': 'i',
+    'ế': 'e',
+    'ộ': 'o',
+    'ạ': 'a',
+    'ậ': 'a',
+    'ằ': 'a',
+    'ề': 'e',
+    'ọ': 'o',
+    'ǎ': 'a',
+    'ě': 'e',
+    'ǐ': 'i',
+    'ǒ': 'o',
+    'ǔ': 'u',
+    'ō': 'o',
+  };
+  var result = value;
+  marks.forEach((mark, plain) {
+    result = result
+        .replaceAll(mark, plain)
+        .replaceAll(mark.toUpperCase(), plain.toUpperCase());
+  });
+  return result;
+}
+
+/// Replaces [subject] and its bare surname with one token.
+String _collapse(String text, String subject) {
+  if (subject.isEmpty) return text;
+  final name = subject.replaceAll(RegExp(r'\s*\(.*?\)'), '').trim();
+  if (name.isEmpty) return text;
+  return text.replaceAll(name, 'SUBJECT');
+}

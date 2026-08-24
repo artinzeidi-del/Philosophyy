@@ -874,14 +874,14 @@
         "fa": "حکمت الاشراق",
         "ar": "حكمة الإشراق"
       },
-      "authors": ["Suhrawardi"],
+      "authors": ["Suhrawardī"],
       "authorsFa": ["سهروردی"]
     },
     {
       "id": "text-muqaddimah",
       "kind": "primary-text",
       "title": { "en": "The Muqaddimah", "fa": "مقدمه" },
-      "authors": ["Ibn Khaldun"],
+      "authors": ["Ibn Khaldūn"],
       "rightsNote": "The introductory volume of a universal history; cited by chapter and section.",
       "authorsFa": ["ابن‌خلدون"]
     },
@@ -889,7 +889,7 @@
       "id": "text-hayy-ibn-yaqzan",
       "kind": "primary-text",
       "title": { "en": "Hayy ibn Yaqzan", "fa": "حی بن یقظان" },
-      "authors": ["Ibn Tufayl"],
+      "authors": ["Ibn Ṭufayl"],
       "authorsFa": ["ابن‌طفیل"]
     },
     {
@@ -900,7 +900,7 @@
         "fa": "الطب الروحانی",
         "ar": "الطب الروحاني"
       },
-      "authors": ["Abu Bakr al-Razi"],
+      "authors": ["Abū Bakr al-Rāzī"],
       "authorsFa": ["محمد زکریای رازی"]
     },
     {
@@ -911,7 +911,7 @@
         "fa": "سیرت فلسفی",
         "ar": "السيرة الفلسفية"
       },
-      "authors": ["Abu Bakr al-Razi"],
+      "authors": ["Abū Bakr al-Rāzī"],
       "rightsNote": "Written as a reply to critics who said his life did not match his doctrine.",
       "authorsFa": ["محمد زکریای رازی"]
     },
@@ -919,7 +919,7 @@
       "id": "text-masnavi",
       "kind": "primary-text",
       "title": { "en": "Masnavi-ye Ma'navi", "fa": "مثنوی معنوی" },
-      "authors": ["Rumi"],
+      "authors": ["Rūmī"],
       "rightsNote": "Cited by book and line; line numbering follows Nicholson's edition, the standard reference.",
       "authorsFa": ["مولوی"]
     },
@@ -927,7 +927,7 @@
       "id": "text-divan-shams",
       "kind": "primary-text",
       "title": { "en": "Divan-e Shams-e Tabrizi", "fa": "دیوان شمس تبریزی" },
-      "authors": ["Rumi"],
+      "authors": ["Rūmī"],
       "rightsNote": "Cited by ghazal number in Foruzanfar's edition.",
       "authorsFa": ["مولوی"]
     },
@@ -955,7 +955,7 @@
       "id": "text-akhlaq-i-nasiri",
       "kind": "primary-text",
       "title": { "en": "The Nasirean Ethics", "fa": "اخلاق ناصری" },
-      "authors": ["Nasir al-Din al-Tusi"],
+      "authors": ["Naṣīr al-Dīn al-Ṭūsī"],
       "authorsFa": ["خواجه نصیرالدین طوسی"]
     },
     {
@@ -966,7 +966,7 @@
         "fa": "تجرید الاعتقاد",
         "ar": "تجريد الاعتقاد"
       },
-      "authors": ["Nasir al-Din al-Tusi"],
+      "authors": ["Naṣīr al-Dīn al-Ṭūsī"],
       "rightsNote": "The base text of Twelver Shi'i theology; commented on continuously for seven centuries.",
       "authorsFa": ["خواجه نصیرالدین طوسی"]
     },
@@ -996,7 +996,7 @@
         "fa": "مباحث مشرقیه",
         "ar": "المباحث المشرقية"
       },
-      "authors": ["Fakhr al-Din al-Razi"],
+      "authors": ["Fakhr al-Dīn al-Rāzī"],
       "authorsFa": ["فخر رازی"]
     },
     {
@@ -1007,7 +1007,7 @@
         "fa": "تدبیر المتوحد",
         "ar": "تدبير المتوحد"
       },
-      "authors": ["Ibn Bajja"],
+      "authors": ["Ibn Bājja"],
       "rightsNote": "Survives incomplete.",
       "authorsFa": ["ابن‌باجه"]
     },
@@ -1153,7 +1153,7 @@
         "en": "Attaining Buddhahood in This Very Body",
         "fa": "رسیدن به بودایی در همین تن"
       },
-      "authors": ["Kukai"],
+      "authors": ["Kūkai"],
       "authorsFa": ["کوکای"]
     },
     {
@@ -1163,7 +1163,7 @@
         "en": "The Precious Key to the Secret Treasury",
         "fa": "کلید گران‌بهای گنجینهٔ نهان"
       },
-      "authors": ["Kukai"],
+      "authors": ["Kūkai"],
       "authorsFa": ["کوکای"]
     },
     {
@@ -1205,7 +1205,7 @@
         "en": "Living in the World, Joyful in the Way",
         "fa": "در جهان زیستن، در راه شادمان"
       },
-      "authors": ["Tran Nhan Tong"],
+      "authors": ["Trần Nhân Tông"],
       "rightsNote": "A poem in vernacular Vietnamese Nom script, one of the earliest surviving works in that script.",
       "authorsFa": ["ترن نان تونگ"]
     },
@@ -1274,7 +1274,7 @@
       "id": "text-yoga-sutras",
       "kind": "primary-text",
       "title": { "en": "Yoga Sutras", "fa": "یوگه‌سوتره‌ها" },
-      "authors": ["Patanjali"],
+      "authors": ["Patañjali"],
       "rightsNote": "Cited by chapter and sutra (e.g. 1.2). The text is aphoristic to the point of being unreadable without a commentary, and the commentaries disagree.",
       "authorsFa": ["پتنجلی"]
     },
@@ -1914,7 +1914,7 @@
         "en": "The Theory of Communicative Action",
         "fa": "نظریهٔ کنش ارتباطی"
       },
-      "authors": ["Jurgen Habermas"],
+      "authors": ["Jürgen Habermas"],
       "year": { "year": 1981 },
       "authorsFa": ["یورگن هابرماس"]
     },
@@ -1925,7 +1925,7 @@
         "en": "The Structural Transformation of the Public Sphere",
         "fa": "دگرگونی ساختاری حوزهٔ عمومی"
       },
-      "authors": ["Jurgen Habermas"],
+      "authors": ["Jürgen Habermas"],
       "year": { "year": 1962 },
       "authorsFa": ["یورگن هابرماس"]
     },
@@ -2145,7 +2145,7 @@
         "en": "Discourse on Colonialism",
         "fa": "گفتار دربارهٔ استعمار"
       },
-      "authors": ["Aime Cesaire"],
+      "authors": ["Aimé Césaire"],
       "year": { "year": 1950 },
       "authorsFa": ["امه سزر"]
     },
@@ -2156,7 +2156,7 @@
         "en": "Notebook of a Return to the Native Land",
         "fa": "دفترِ بازگشت به زادبوم"
       },
-      "authors": ["Aime Cesaire"],
+      "authors": ["Aimé Césaire"],
       "year": { "year": 1939 },
       "authorsFa": ["امه سزر"]
     },
@@ -2167,7 +2167,7 @@
         "en": "Liberte I: Negritude et humanisme",
         "fa": "آزادی ۱: نگریتود و انسان‌گرایی"
       },
-      "authors": ["Leopold Sedar Senghor"],
+      "authors": ["Léopold Sédar Senghor"],
       "year": { "year": 1964 },
       "authorsFa": ["لئوپولد سدار سنگور"]
     },
@@ -2216,7 +2216,7 @@
         "en": "The Invention of Women: Making an African Sense of Western Gender Discourses",
         "fa": "اختراع زنان: فهمی آفریقایی از گفتارهای جنسیتی غربی"
       },
-      "authors": ["Oyeronke Oyewumi"],
+      "authors": ["Oyèrónkẹ́ Oyěwùmí"],
       "year": { "year": 1997 },
       "authorsFa": ["اویرونکه اویه‌وومی"]
     },
@@ -2239,7 +2239,7 @@
         "en": "Seven Interpretive Essays on Peruvian Reality",
         "fa": "هفت جستار تفسیری دربارهٔ واقعیت پرو"
       },
-      "authors": ["Jose Carlos Mariategui"],
+      "authors": ["José Carlos Mariátegui"],
       "year": { "year": 1928 },
       "authorsFa": ["خوسه کارلوس ماریاتگی"]
     },
@@ -2250,7 +2250,7 @@
         "en": "Borderlands/La Frontera: The New Mestiza",
         "fa": "سرزمین‌های مرزی: مستیزای نو"
       },
-      "authors": ["Gloria Anzaldua"],
+      "authors": ["Gloria Anzaldúa"],
       "year": { "year": 1987 },
       "rightsNote": "Written in English, Spanish, Nahuatl and several varieties of border speech, mostly untranslated within the text.",
       "authorsFa": ["گلوریا آنزالدوا"]
@@ -2623,8 +2623,8 @@
         "en": "On Formally Undecidable Propositions of Principia Mathematica and Related Systems",
         "fa": "دربارهٔ گزاره‌های صوریِ تصمیم‌ناپذیر در پرینکیپیا ماتماتیکا و نظام‌های مرتبط"
       },
-      "authors": ["Kurt Godel"],
-      "publisher": "Monatshefte fur Mathematik und Physik",
+      "authors": ["Kurt Gödel"],
+      "publisher": "Monatshefte für Mathematik und Physik",
       "year": { "year": 1931 },
       "authorsFa": ["کورت گودل"]
     },
@@ -2725,7 +2725,7 @@
       "kind": "journal-article",
       "title": { "en": "On Sense and Reference", "fa": "دربارهٔ معنا و مصداق" },
       "authors": ["Gottlob Frege"],
-      "publisher": "Zeitschrift fur Philosophie und philosophische Kritik",
+      "publisher": "Zeitschrift für Philosophie und philosophische Kritik",
       "year": { "year": 1892 },
       "authorsFa": ["فرگه"]
     },
@@ -2750,7 +2750,7 @@
       "id": "text-primer-sueno",
       "kind": "primary-text",
       "title": { "en": "First Dream", "fa": "خواب نخستین" },
-      "authors": ["Sor Juana Ines de la Cruz"],
+      "authors": ["Sor Juana Inés de la Cruz"],
       "rightsNote": "A philosophical poem of nearly a thousand lines, and the work she said was the only one she wrote for her own pleasure.",
       "authorsFa": ["سور خوانا"]
     },
@@ -2790,7 +2790,7 @@
       "id": "text-nyayapravesa",
       "kind": "primary-text",
       "title": { "en": "Introduction to Logic", "fa": "درآمدی بر منطق" },
-      "authors": ["Dignaga"],
+      "authors": ["Dignāga"],
       "rightsNote": "Dignaga's logical works survive mainly in Tibetan and Chinese translation; most of the Sanskrit is lost.",
       "authorsFa": ["دیگناگه"]
     },
