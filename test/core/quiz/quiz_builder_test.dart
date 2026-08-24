@@ -58,10 +58,17 @@ void main() {
   /// only about half of each pair. Anything asserting about a phrasing has to
   /// look across seeds, or it is measuring the coin toss rather than the
   /// builder.
-  List<QuizQuestion> across({int seeds = 12}) {
+  List<QuizQuestion> across({
+    int seeds = 12,
+    AppLanguage language = AppLanguage.en,
+  }) {
     final byId = <String, QuizQuestion>{};
     for (var seed = 0; seed < seeds; seed++) {
-      for (final question in roundFrom(everything(), seed: seed)) {
+      for (final question in roundFrom(
+        everything(),
+        seed: seed,
+        language: language,
+      )) {
         byId[question.id] = question;
       }
     }
@@ -86,6 +93,30 @@ void main() {
             '${question.id}: the answer "${question.answer}" appears '
             '$occurrences times in ${question.options}',
           );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('no question offers the same option twice', () {
+      // Two identical options is always a defect, whichever one is the answer.
+      // If it is the answer, the reader can pick the "wrong" copy of a right
+      // answer; if it is a decoy, the question looks broken. The existing
+      // check that the answer appears exactly once does not cover a pair of
+      // identical decoys, and decoys are chosen by identifier while the reader
+      // sees a name — two taxonomy terms or two entries can be distinct and
+      // read the same.
+      final problems = <String>[];
+      for (final language in AppLanguage.values) {
+        for (final question in across(seeds: 20, language: language)) {
+          final seen = <String>{};
+          for (final option in question.options) {
+            if (!seen.add(option)) {
+              problems.add(
+                '${question.id} (${language.name}) offers "$option" twice',
+              );
+            }
+          }
         }
       }
       expect(problems, isEmpty, reason: problems.join('\n'));

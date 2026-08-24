@@ -114,6 +114,17 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
       return terms.any((id) => taxonomy.isUnder(id, selected));
     }).toList();
 
+    // Schools were missing from this screen entirely. Twenty-nine of them
+    // carry full articles, and the only ways to one were to search for it by
+    // name or to already be reading a philosopher who belongs to it — neither
+    // of which helps the reader who wants to know what schools the Hellenistic
+    // world produced, which is the question this screen exists to answer.
+    final schools = corpus.schools.where((school) {
+      if (selected == null) return true;
+      final terms = byBranch ? school.branches : school.traditions;
+      return terms.any((id) => taxonomy.isUnder(id, selected));
+    }).toList();
+
     // Concepts are filtered too rather than being hidden whenever a filter is
     // on. Under a branch they are often the best answer to the query — a
     // reader who asks for aesthetics wants Rasa as much as Abhinavagupta.
@@ -220,6 +231,29 @@ class _ExploreScreenState extends ConsumerState<ExploreScreen> {
                         taxonomy.nameOf(branch).resolve(language),
                     ],
                     onTap: () => context.push(work.ref.route),
+                  );
+                },
+              ),
+            ],
+
+            // Schools before ideas and after works: a school is a group of
+            // people, so it sits nearer the people than the abstractions.
+            if (schools.isNotEmpty) ...<Widget>[
+              _HeaderSliver(title: l10n.sectionSchools),
+              _CardSliver(
+                count: schools.length,
+                builder: (context, index) {
+                  final school = schools[index];
+                  return EntityCard(
+                    title: school.name.resolve(language),
+                    summary: school.oneLine.resolve(language),
+                    maxSummaryLines: ResponsiveLayout.summaryLines(context),
+                    meta: AppDates.range(school.period, language, l10n),
+                    tags: <String>[
+                      for (final branch in school.branches.take(2))
+                        taxonomy.nameOf(branch).resolve(language),
+                    ],
+                    onTap: () => context.push(school.ref.route),
                   );
                 },
               ),
