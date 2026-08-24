@@ -1037,6 +1037,22 @@ class SourceLine extends StatelessWidget {
                   style: AppTypography.citation(language)
                       .copyWith(color: theme.colorScheme.onSurfaceVariant),
                 ),
+              // What a reader needs in order to use the citation: that "38a"
+              // is a Stephanus number, that the Enchiridion was written down
+              // by a student, that FitzGerald's Khayyam is a paraphrase. A
+              // hundred and forty-four sources carry one and none was shown,
+              // so a locator meaningful to an editor meant nothing to a
+              // reader.
+              if (source.rightsNote case final note?) ...<Widget>[
+                const SizedBox(height: 2),
+                Text(
+                  note.resolve(language),
+                  style: AppTypography.citation(language).copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+              ],
               // A citation the reader cannot follow is the appearance of
               // sourcing. Only a source that records a url gets one: most of
               // this bibliography is primary texts cited by a canonical

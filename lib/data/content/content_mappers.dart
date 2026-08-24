@@ -188,7 +188,7 @@ abstract final class ContentMappers {
     identifier: reader.string('identifier'),
     pages: reader.string('pages'),
     license: reader.string('license'),
-    rightsNote: reader.string('rightsNote'),
+    rightsNote: optionalLocalized(reader, 'rightsNote'),
   );
 
   /// Reads a philosopher.

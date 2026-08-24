@@ -85,8 +85,13 @@ class Source {
   /// any of it.
   final String? license;
 
-  /// Any attribution or usage condition attached to the material.
-  final String? rightsNote;
+  /// How this source is cited, and what a reader should know before trusting
+  /// it — that the Enchiridion was compiled by a student, that FitzGerald's
+  /// Khayyam is a paraphrase, that a locator is a Stephanus number rather than
+  /// a page.
+  ///
+  /// Bilingual, because it is read by the reader rather than by the editor.
+  final LocalizedText? rightsNote;
 
   /// Whether this source may be treated as primary evidence.
   bool get isPrimary =>

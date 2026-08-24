@@ -37,6 +37,10 @@ void main() {
     kind: SourceKind.referenceWork,
     title: LocalizedText(en: 'Stanford Encyclopedia of Philosophy'),
     url: 'https://plato.stanford.edu',
+    rightsNote: LocalizedText(
+      en: 'Peer-reviewed academic reference work.',
+      fa: 'مرجع دانشگاهی داوری‌شده.',
+    ),
   );
 
   const withoutUrl = Source(
@@ -60,5 +64,32 @@ void main() {
     await pumpCitation(tester, withoutUrl);
     expect(find.textContaining('http'), findsNothing);
     expect(find.byType(InkWell), findsNothing);
+  });
+
+  testWidgets('the note saying how a source is cited is shown', (tester) async {
+    // A hundred and forty-four sources carry a sentence saying how to follow
+    // the citation — that "38a" is a Stephanus number, that the Enchiridion
+    // was compiled by a student, that FitzGerald's Khayyam is a paraphrase
+    // rather than a translation. Nothing rendered any of it, so a locator that
+    // means something to an editor meant nothing to a reader.
+    await pumpCitation(tester, withUrl);
+    expect(find.text('Peer-reviewed academic reference work.'), findsOneWidget);
+  });
+
+  testWidgets('the note is read in the reader\'s language', (tester) async {
+    await tester.pumpWidget(
+      const MaterialApp(
+        home: Scaffold(
+          body: SourceLine(source: withUrl, language: AppLanguage.fa),
+        ),
+      ),
+    );
+    await tester.pump();
+    expect(find.text('مرجع دانشگاهی داوری‌شده.'), findsOneWidget);
+  });
+
+  testWidgets('a source with no note gets no empty line', (tester) async {
+    await pumpCitation(tester, withoutUrl);
+    expect(find.text(''), findsNothing);
   });
 }

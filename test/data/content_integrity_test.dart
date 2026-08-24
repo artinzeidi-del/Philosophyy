@@ -277,8 +277,36 @@ void main() {
         check('quote ${quote.id}', quote.context?.en);
         check('quote ${quote.id}', quote.attributionNote?.en);
       }
+      // The bibliography is read by the reader too. Three names in the rights
+      // notes escaped the first pass because this walked only prose, and one
+      // source line could say "Dignaga" while the entry it cited said
+      // "Dignāga".
+      for (final source in corpus.sources) {
+        check('source ${source.id}', source.title.en);
+        check('source ${source.id}', source.rightsNote?.en);
+        for (final author in source.authors) {
+          check('source ${source.id} author', author);
+        }
+      }
 
       expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('every note about a source is written in both languages', () {
+      // A rights note says how to follow the citation, so it is read by the
+      // reader and not by the editor. It was a bare English string until it
+      // was put on the screen, which would have put English prose on a Persian
+      // page — the defect the section rule below exists to prevent, arriving
+      // through the bibliography instead.
+      for (final source in corpus.sources) {
+        final note = source.rightsNote;
+        if (note == null) continue;
+        expect(
+          note.isTranslated,
+          isTrue,
+          reason: 'source ${source.id} has an untranslated rights note',
+        );
+      }
     });
 
     test('every authored section carries text in both languages', () {
