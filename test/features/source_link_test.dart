@@ -92,4 +92,54 @@ void main() {
     await pumpCitation(tester, withoutUrl);
     expect(find.text(''), findsNothing);
   });
+
+  testWidgets('the Sources list under an article carries the links too', (
+    tester,
+  ) async {
+    // The link and the note were added to SourceLine, which renders a work's
+    // editions. The Sources list at the foot of every article is a different
+    // widget, and it is the place a reader actually looks for the references —
+    // so it printed author, title and locator and nothing a reader could
+    // follow. Three hundred and twenty-eight of the corpus's eight hundred and
+    // thirty-three entry-level citations name a source with an address.
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: CitationList(
+            citations: const <Citation>[Citation(sourceId: 'sep')],
+            language: AppLanguage.en,
+            resolveSource: (id) => id == 'sep' ? withUrl : null,
+          ),
+        ),
+      ),
+    );
+    await tester.pump();
+
+    expect(find.text('Stanford Encyclopedia of Philosophy'), findsNothing);
+    expect(find.textContaining('Stanford Encyclopedia'), findsWidgets);
+    expect(find.text('https://plato.stanford.edu'), findsOneWidget);
+    expect(find.text('Peer-reviewed academic reference work.'), findsOneWidget);
+  });
+
+  testWidgets('a citation to a text with no address stays a plain line', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: CitationList(
+            citations: const <Citation>[
+              Citation(sourceId: 'plato-republic', locator: '514a'),
+            ],
+            language: AppLanguage.en,
+            resolveSource: (id) => withoutUrl,
+          ),
+        ),
+      ),
+    );
+    await tester.pump();
+
+    expect(find.textContaining('514a'), findsOneWidget);
+    expect(find.textContaining('http'), findsNothing);
+  });
 }

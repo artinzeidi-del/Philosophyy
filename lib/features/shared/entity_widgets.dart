@@ -1144,11 +1144,32 @@ class CitationList extends StatelessWidget {
                 ?locator,
               ];
               return Padding(
-                padding: const EdgeInsets.only(bottom: Spacing.xxs),
-                child: Text(
-                  joinIsolated(parts, ' · '),
-                  style: AppTypography.citation(language)
-                      .copyWith(color: theme.colorScheme.onSurfaceVariant),
+                padding: const EdgeInsets.only(bottom: Spacing.sm),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      joinIsolated(parts, ' · '),
+                      style: AppTypography.citation(language)
+                          .copyWith(color: theme.colorScheme.onSurfaceVariant),
+                    ),
+                    // The apparatus belongs where the reader looks for it.
+                    // These two lines were added to the widget that renders a
+                    // work's editions, and this — the Sources list at the foot
+                    // of every article — is the list a reader actually goes
+                    // to, so it printed a title and a locator and nothing that
+                    // could be acted on.
+                    if (source.rightsNote case final note?)
+                      Text(
+                        note.resolve(language),
+                        style: AppTypography.citation(language).copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                    if (source.url case final url?)
+                      _SourceLink(url: url, language: language),
+                  ],
                 ),
               );
             },

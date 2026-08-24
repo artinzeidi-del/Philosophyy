@@ -2,6 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
+import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
@@ -290,6 +291,46 @@ void main() {
       }
 
       expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('a title in its own script is spelled one way', () {
+      // Ibn Sīnā's al-Ishārāt and Mullā Ṣadrā's Asfār are Arabic books, and
+      // the work records showed their titles in Persian letterforms — Persian
+      // yeh for Arabic yeh, Persian kaf for Arabic kaf — while the source
+      // records for the very same books held the Arabic. One corpus, two
+      // spellings of one title, and the wrong one was the one on the screen.
+      //
+      // The check is about letterforms, not wording. Two records may hold a
+      // full title and a short one — al-Rāzī's Mabāḥith is "المباحث المشرقية"
+      // in one place and the full "المباحث المشرقية في علم الإلهيات
+      // والطبيعيات" in the other, and both are right. What cannot both be
+      // right is the same words written with different letters. So the two are
+      // compared only once the interchangeable pairs are folded together: if
+      // they agree then and differ now, one of them is wrong.
+      String folded(String value) => value
+          .replaceAll('ی', 'ي')
+          .replaceAll('ک', 'ك')
+          .replaceAll('ۀ', 'ة')
+          .replaceAll('ه‍', 'ة');
+
+      final byEnglishTitle = <String, Source>{
+        for (final source in corpus.sources) source.title.en: source,
+      };
+
+      for (final work in corpus.works) {
+        final original = work.originalTitle;
+        final source = byEnglishTitle[work.name.en];
+        final arabic = source?.title.forCode('ar');
+        if (original == null || arabic == null) continue;
+        if (folded(original) != folded(arabic)) continue;
+        expect(
+          original,
+          arabic,
+          reason:
+              '${work.id} shows "$original" and source ${source!.id} writes '
+              'the same words as "$arabic"',
+        );
+      }
     });
 
     test('every note about a source is written in both languages', () {
