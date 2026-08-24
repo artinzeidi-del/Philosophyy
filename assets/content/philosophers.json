@@ -413,12 +413,12 @@
             "id": "not-nihilism",
             "heading": {
               "en": "Why emptiness is not nothingness",
-              "fa": "چرا تهیّت نیستی نیست"
+              "fa": "چرا تهی‌بودگی نیستی نیست"
             },
             "depth": "standard",
             "body": {
               "en": "The standard objection is that if nothing has independent existence then nothing exists, and the whole enterprise refutes itself. Nāgārjuna's answer is that emptiness and dependent arising are the same claim stated twice: to be empty is to exist dependently, not to fail to exist. A thing without any independent nature is exactly a thing that could not arise, change or cease — which is what things do.",
-              "fa": "اعتراض همیشگی این است که اگر هیچ‌چیز هستیِ مستقل ندارد پس هیچ‌چیز نیست، و کل این کار خودش را رد می‌کند. پاسخ ناگارجونا این است که تهیّت و پیدایش وابسته یک ادعا هستند که دو بار گفته شده‌اند: تهی‌بودن یعنی وابسته‌بودن، نه نبودن. چیزی که هیچ سرشتِ مستقلی ندارد دقیقاً همان چیزی است که می‌تواند پدید آید و دگرگون شود و از میان برود — و کارِ چیزها همین است."
+              "fa": "اعتراض همیشگی این است که اگر هیچ‌چیز هستیِ مستقل ندارد پس هیچ‌چیز نیست، و کل این کار خودش را رد می‌کند. پاسخ ناگارجونا این است که تهی‌بودگی و پیدایش وابسته یک ادعا هستند که دو بار گفته شده‌اند: تهی‌بودن یعنی وابسته‌بودن، نه نبودن. چیزی که هیچ سرشتِ مستقلی ندارد دقیقاً همان چیزی است که می‌تواند پدید آید و دگرگون شود و از میان برود — و کارِ چیزها همین است."
             },
             "citations": [{ "source": "sep" }]
           }
@@ -1034,7 +1034,7 @@
       "name": { "en": "Zhuangzi", "fa": "جوانگ‌تزه" },
       "oneLine": {
         "en": "Asked how you could know you are not a butterfly dreaming it is you.",
-        "fa": "پرسید از کجا می‌دانی پروانه‌ای نیستی که خواب می‌بیند تو است."
+        "fa": "پرسید از کجا می‌دانی پروانه‌ای نیستی که خواب می‌بیند تو هستی."
       },
       "life": {
         "birth": { "year": -369, "precision": "circa" },
@@ -1478,7 +1478,7 @@
       "name": { "en": "The Buddha", "fa": "بودا" },
       "oneLine": {
         "en": "Diagnosed suffering as a problem with a cause, and therefore with a way out.",
-        "fa": "رنج را مسئله‌ای با علت تشخیص داد، و بنابراین دارای راه بیرون‌رفت."
+        "fa": "رنج را مسئله‌ای با علت تشخیص داد، و از همین رو مسئله‌ای که راه برون‌رفتی دارد."
       },
       "life": {
         "birth": { "year": -563, "precision": "circa" },
@@ -1673,7 +1673,7 @@
       "name": { "en": "Vasubandhu", "fa": "واسوباندو" },
       "oneLine": {
         "en": "Argued that what we take for a world of objects is better explained as mind.",
-        "fa": "استدلال کرد آنچه جهانی از اشیا می‌گیریم، بهتر است با ذهن توضیح داده شود."
+        "fa": "استدلال کرد آنچه را جهانی از اشیا می‌گیریم، بهتر است با ذهن توضیح داد."
       },
       "life": {
         "birth": { "year": 400, "precision": "circa" },
@@ -2239,7 +2239,7 @@
             },
             "body": {
               "en": "Tsongkhapa's position is unpopular on two fronts at once, which is usually a sign that someone has located a real difficulty. Against those who read emptiness as meaning nothing exists, he insists that emptiness and dependent origination are the same insight: a thing is empty because it arises dependently, so emptiness is why things work rather than a reason they cannot. Against those who take the highest realisation to be beyond concepts altogether, he argues you cannot negate what you have not first identified, and identifying it is conceptual labour.\n\nThe second front is where his tradition split. If analysis is required, then meditation without it produces a blankness that resembles insight and is not — and he says so bluntly about practices that were widespread. The object of negation has to be pinned precisely: too little and you have denied nothing, too much and you have denied the conventional world along with it, which is the error he thought most dangerous because it looks like depth.\n\nThe institution he founded turned this into a curriculum. Gelug monastic training runs on formal debate for years before a student is trusted with the conclusions, on the principle that an answer received is not an answer understood. Six centuries later, in exile since 1959, it is still the most argumentative philosophical education anywhere, and it is why this tradition rather than another has been the one that engages closely with cognitive science.",
-              "fa": "موضع تسونگ‌کاپا هم‌زمان در دو جبهه نامحبوب است، و این معمولاً نشانهٔ آن است که کسی دشواری واقعی‌ای را یافته. در برابر کسانی که تهیت را به معنای نبودِ هرچیز می‌خوانند، اصرار دارد که تهیت و پیدایشِ وابسته یک بصیرت‌اند: چیزی تهی است چون وابسته پدید می‌آید، پس تهیت دلیلِ کار کردنِ چیزهاست نه دلیلِ ناتوانی‌شان. در برابر کسانی که بالاترین دریافت را یکسره فراسوی مفاهیم می‌دانند، می‌گوید آنچه را نخست بازنشناخته باشی نمی‌توانی نفی کنی، و بازشناختن کاری مفهومی است.\n\nجبههٔ دوم جایی است که سنتش دو شاخه شد. اگر تحلیل لازم است، پس مراقبهٔ بی‌تحلیل تهیّتی می‌سازد که به بصیرت می‌ماند و نیست — و او این را دربارهٔ رویه‌هایی که رواج داشتند بی‌پرده می‌گوید. «متعلَق نفی» را باید دقیق میخکوب کرد: کمتر از آن، چیزی را انکار نکرده‌ای؛ بیشتر از آن، جهان قراردادی را هم با آن انکار کرده‌ای، و این همان خطایی است که خطرناک‌ترینش می‌دانست چون شکل ژرفا دارد.\n\nنهادی که بنیاد نهاد این را به یک برنامهٔ درسی بدل کرد. آموزش رهبانی گِلوگ سال‌ها بر مناظرهٔ صوری می‌چرخد پیش از آنکه نتیجه‌ها را به شاگرد بسپارند، بر این اصل که پاسخِ دریافت‌شده پاسخِ فهمیده‌شده نیست. شش قرن بعد، و از ۱۹۵۹ در تبعید، این هنوز پرمناظره‌ترین آموزش فلسفی در هر جای جهان است، و به همین سبب همین سنت است نه سنتی دیگر که از نزدیک با علوم شناختی درگیر شده."
+              "fa": "موضع تسونگ‌کاپا هم‌زمان در دو جبهه نامحبوب است، و این معمولاً نشانهٔ آن است که کسی دشواری واقعی‌ای را یافته. در برابر کسانی که تهی‌بودگی را به معنای نبودِ هرچیز می‌خوانند، اصرار دارد که تهی‌بودگی و پیدایشِ وابسته یک بصیرت‌اند: چیزی تهی است چون وابسته پدید می‌آید، پس تهی‌بودگی دلیلِ کار کردنِ چیزهاست نه دلیلِ ناتوانی‌شان. در برابر کسانی که بالاترین دریافت را یکسره فراسوی مفاهیم می‌دانند، می‌گوید آنچه را نخست بازنشناخته باشی نمی‌توانی نفی کنی، و بازشناختن کاری مفهومی است.\n\nجبههٔ دوم جایی است که سنتش دو شاخه شد. اگر تحلیل لازم است، پس مراقبهٔ بی‌تحلیل تهی‌بودگی‌ای می‌سازد که به بصیرت می‌ماند و نیست — و او این را دربارهٔ رویه‌هایی که رواج داشتند بی‌پرده می‌گوید. «متعلَق نفی» را باید دقیق میخکوب کرد: کمتر از آن، چیزی را انکار نکرده‌ای؛ بیشتر از آن، جهان قراردادی را هم با آن انکار کرده‌ای، و این همان خطایی است که خطرناک‌ترینش می‌دانست چون شکل ژرفا دارد.\n\nنهادی که بنیاد نهاد این را به یک برنامهٔ درسی بدل کرد. آموزش رهبانی گِلوگ سال‌ها بر مناظرهٔ صوری می‌چرخد پیش از آنکه نتیجه‌ها را به شاگرد بسپارند، بر این اصل که پاسخِ دریافت‌شده پاسخِ فهمیده‌شده نیست. شش قرن بعد، و از ۱۹۵۹ در تبعید، این هنوز پرمناظره‌ترین آموزش فلسفی در هر جای جهان است، و به همین سبب همین سنت است نه سنتی دیگر که از نزدیک با علوم شناختی درگیر شده."
             },
             "citations": [
               { "source": "sep" },
@@ -2887,7 +2887,7 @@
       "name": { "en": "Gottlob Frege", "fa": "فرگه" },
       "oneLine": {
         "en": "Built modern logic, and with it the tools analytic philosophy argues in.",
-        "fa": "منطق مدرن را ساخت، و با آن ابزارهایی که فلسفهٔ تحلیلی با آن‌ها بحث می‌کند."
+        "fa": "منطق مدرن را ساخت، و با آن ابزارهایی را که فلسفهٔ تحلیلی با آن‌ها بحث می‌کند."
       },
       "life": {
         "birth": { "year": 1848, "precision": "circa" },
@@ -2960,7 +2960,7 @@
       "name": { "en": "Bertrand Russell", "fa": "برتراند راسل" },
       "oneLine": {
         "en": "Tried to derive mathematics from logic, and broke it finding out he could not.",
-        "fa": "کوشید ریاضیات را از منطق استنتاج کند، و در فهمیدن اینکه نمی‌تواند آن را شکست."
+        "fa": "کوشید ریاضیات را از منطق استنتاج کند، و در جریانِ پی‌بردن به اینکه نمی‌تواند، آن را شکست."
       },
       "life": {
         "birth": { "year": 1872, "precision": "circa" },
@@ -3345,7 +3345,7 @@
       "name": { "en": "Michel Foucault", "fa": "فوکو" },
       "oneLine": {
         "en": "Showed that what counts as knowledge and what counts as power are entangled.",
-        "fa": "نشان داد آنچه معرفت به‌شمار می‌آید با آنچه قدرت است در هم تنیده است."
+        "fa": "نشان داد آنچه معرفت به‌شمار می‌آید با آنچه قدرت به‌شمار می‌آید در هم تنیده است."
       },
       "life": {
         "birth": { "year": 1926, "precision": "circa" },
@@ -4317,7 +4317,7 @@
             },
             "body": {
               "en": "What makes Thales the first philosopher is not the answer but the shape of the question. Asking what everything is made of presumes that the variety of things has a single underlying account, and that the account can be given without invoking a god's decision — and once that presumption is in place, the enquiry can be continued and corrected by other people, which is what happened immediately.\n\nWater is a less arbitrary guess than it appears. It is the only substance a Greek would routinely see in three states, it is required by everything living, and seeds and semen are moist. Aristotle, our main source, reports these as the likely reasons and admits he is reconstructing. Whether Thales meant that everything is water now or that everything came from water is not recoverable.\n\nThe corrections came from his own city within two generations, which is the real evidence that something new had started. Anaximander objected that if the origin were one of the opposed elements it would have swamped the others, and posited an indefinite substrate instead; Anaximenes returned to a definite material but added a mechanism, condensation and rarefaction, so that one stuff could become the others. Nobody appealed to authority. The anecdotes — the olive presses, falling into a well while watching the sky — are later and each carries a moral about philosophy's usefulness that the teller had already decided.",
-              "fa": "آنچه تالس را نخستین فیلسوف می‌کند پاسخ نیست بلکه شکل پرسش است. پرسیدنِ اینکه همه‌چیز از چه ساخته شده مفروض می‌گیرد که گوناگونیِ چیزها یک تبیینِ زیرین دارد، و اینکه آن تبیین را می‌توان بی‌توسل به تصمیم یک خدا داد — و همین که این فرض جا افتاد، کاوش را دیگران می‌توانند ادامه و تصحیح کنند، و همین بی‌درنگ رخ داد.\n\nآب حدسِ کم‌دلبخواهی‌تری است از آنچه می‌نماید. تنها ماده‌ای است که یک یونانی به‌طور معمول در سه حالت می‌دید، هر زنده‌ای به آن نیاز دارد، و دانه و نطفه مرطوب‌اند. ارسطو که منبع اصلی ماست همین‌ها را چون دلایل محتمل گزارش می‌کند و می‌پذیرد که دارد بازسازی می‌کند. اینکه تالس می‌گفت همه‌چیز اکنون آب است یا همه‌چیز از آب آمده، بازیافتنی نیست.\n\nتصحیح‌ها ظرف دو نسل از شهر خودش آمدند، و این شاهد واقعیِ آن است که چیز تازه‌ای آغاز شده بود. آناکسیمندر اعتراض کرد که اگر آن سرچشمه یکی از عناصر متقابل بود دیگران را غرق می‌کرد، و به‌جایش بستری نامتعین نهاد؛ آناکسیمنس به ماده‌ای متعین بازگشت اما سازوکاری افزود، چگالش و تُنُک‌شدن، تا یک مایه بتواند دیگران شود. کسی به اقتدار متوسل نشد. حکایت‌ها — چرخ‌های روغن‌کشی، افتادن در چاه هنگام نگریستن به آسمان — متأخرند و هریک اندرزی دربارهٔ سودمندیِ فلسفه دارد که راوی از پیش تصمیمش را گرفته بوده."
+              "fa": "آنچه تالس را نخستین فیلسوف می‌کند پاسخ نیست بلکه شکل پرسش است. پرسیدنِ اینکه همه‌چیز از چه ساخته شده مفروض می‌گیرد که گوناگونیِ چیزها یک تبیینِ زیرین دارد، و اینکه آن تبیین را می‌توان بی‌توسل به تصمیم یک خدا داد — و همین که این فرض جا افتاد، کاوش را دیگران می‌توانند ادامه و تصحیح کنند، و همین بی‌درنگ رخ داد.\n\nآب حدسی است کمتر دلبخواه از آنچه می‌نماید. تنها ماده‌ای است که یک یونانی به‌طور معمول در سه حالت می‌دید، هر زنده‌ای به آن نیاز دارد، و دانه و نطفه مرطوب‌اند. ارسطو که منبع اصلی ماست همین‌ها را چون دلایل محتمل گزارش می‌کند و می‌پذیرد که دارد بازسازی می‌کند. اینکه تالس می‌گفت همه‌چیز اکنون آب است یا همه‌چیز از آب آمده، بازیافتنی نیست.\n\nتصحیح‌ها ظرف دو نسل از شهر خودش آمدند، و این شاهد واقعیِ آن است که چیز تازه‌ای آغاز شده بود. آناکسیمندر اعتراض کرد که اگر آن سرچشمه یکی از عناصر متقابل بود بقیه را غرق می‌کرد، و به‌جایش بستری نامتعین نهاد؛ آناکسیمنس به ماده‌ای متعین بازگشت اما سازوکاری افزود، چگالش و تُنُک‌شدن، تا یک مایه بتواند به بقیه بدل شود. کسی به اقتدار متوسل نشد. حکایت‌ها — چرخ‌های روغن‌کشی، افتادن در چاه هنگام نگریستن به آسمان — متأخرند و هریک اندرزی دربارهٔ سودمندیِ فلسفه دارد که راوی از پیش تصمیمش را گرفته بوده."
             },
             "citations": [
               { "source": "aristotle-metaphysics" },
@@ -4363,7 +4363,7 @@
             "depth": "deep",
             "body": {
               "en": "The fragments are compressed to the point of riddle, and ancient readers already complained about it. Two readings persist: that the difficulty is a stylistic failing, and that it is the point — a world whose structure is tension cannot be described in sentences that resolve. Neither reading can be settled from a hundred fragments.",
-              "fa": "پاره‌ها تا حد معما فشرده‌اند و خوانندگان باستان هم از این شکایت داشتند. دو خوانش مانده است: اینکه دشواری عیبی سبکی است، و اینکه خودِ مقصود است — جهانی که ساختارش تنش است را نمی‌توان با جمله‌هایی وصف کرد که فیصله می‌یابند. هیچ‌یک از دو خوانش را نمی‌توان از صد پاره فیصله داد."
+              "fa": "پاره‌ها تا حد معما فشرده‌اند و خوانندگان باستان هم از این شکایت داشتند. دو خوانش مانده است: اینکه دشواری عیبی سبکی است، و اینکه خودِ مقصود است — جهانی را که ساختارش تنش است نمی‌توان با جمله‌هایی وصف کرد که فیصله می‌یابند. هیچ‌یک از دو خوانش را نمی‌توان از صد پاره فیصله داد."
             },
             "citations": [{ "source": "sep" }],
             "claim": "scholarly-disagreement"
@@ -4400,7 +4400,7 @@
       "name": { "en": "Parmenides", "fa": "پارمنیدس" },
       "oneLine": {
         "en": "Argued that change is impossible, and made the argument hard to answer.",
-        "fa": "استدلال کرد که دگرگونی ناممکن است، و استدلالش را دشوار کرد."
+        "fa": "استدلال کرد که دگرگونی ناممکن است، و پاسخ‌دادن به آن را دشوار کرد."
       },
       "life": {
         "birth": { "year": -515, "precision": "circa" },
@@ -5614,7 +5614,7 @@
       "name": { "en": "Lucretius", "fa": "لوکرتیوس" },
       "oneLine": {
         "en": "Set the atomic theory to verse, to argue nobody out of fearing death.",
-        "fa": "نظریهٔ اتمی را به شعر درآورد تا مردم را از ترس مرگ درآورد."
+        "fa": "نظریهٔ اتمی را به نظم درآورد تا با استدلال مردم را از ترس مرگ برهاند."
       },
       "life": {
         "birth": { "year": -99, "precision": "circa" },
@@ -5803,7 +5803,7 @@
       "name": { "en": "Al-Fārābī", "fa": "فارابی" },
       "oneLine": {
         "en": "Asked what a city would look like if it were arranged around knowledge.",
-        "fa": "پرسید اگر شهری بر پایهٔ دانش سامان می‌یافت چه شکلی داشت."
+        "fa": "پرسید اگر شهری بر پایهٔ دانش سامان می‌یافت چه شکلی می‌داشت."
       },
       "life": {
         "birth": { "year": 872, "precision": "circa" },
@@ -6495,7 +6495,7 @@
       "name": { "en": "Al-Bīrūnī", "fa": "ابوریحان بیرونی" },
       "oneLine": {
         "en": "Studied India as it described itself, and said what his own method could not settle.",
-        "fa": "هند را چنان‌که خود را وصف می‌کرد مطالعه کرد، و گفت روشش کجا نمی‌تواند فیصله دهد."
+        "fa": "هند را چنان‌که خود را وصف می‌کرد مطالعه کرد، و گفت روشش چه چیزی را نمی‌تواند فیصله دهد."
       },
       "life": {
         "birth": { "year": 973, "precision": "circa" },
@@ -7138,7 +7138,7 @@
       "name": { "en": "Thomas Hobbes", "fa": "توماس هابز" },
       "oneLine": {
         "en": "Argued that without a common power life is war, and drew the political conclusion.",
-        "fa": "استدلال کرد بی‌قدرتی مشترک، زندگی جنگ است، و نتیجهٔ سیاسی‌اش را گرفت."
+        "fa": "استدلال کرد بدون قدرتی مشترک، زندگی جنگ است، و نتیجهٔ سیاسی‌اش را گرفت."
       },
       "life": { "birth": { "year": 1588 }, "death": { "year": 1679 } },
       "traditions": ["european"],
@@ -7367,7 +7367,7 @@
             "depth": "standard",
             "body": {
               "en": "The standard objection writes itself: if to be is to be perceived, the room ceases to exist when you leave it. Berkeley's answer is that God perceives it, which is either the load-bearing part of the system or the point at which it stops being an argument, depending on the reader. What is harder to dismiss is his opening move — that nobody has ever produced an idea of matter that is not an idea of how something looks or feels.",
-              "fa": "اعتراض همیشگی خودش را می‌نویسد: اگر بودن یعنی ادراک‌شدن، اتاق با بیرون‌رفتن تو از هستی می‌افتد. پاسخ برکلی این است که خدا آن را ادراک می‌کند، و این بسته به خواننده یا بارکشِ اصلیِ نظام است یا نقطه‌ای که در آن دیگر استدلال نیست. آنچه دشوارتر می‌توان کنار گذاشت حرکت آغازین اوست: اینکه هیچ‌کس هرگز ایده‌ای از ماده نیاورده که ایده‌ای از چگونگیِ نمود یا لمسِ چیزی نباشد."
+              "fa": "اعتراض همیشگی خودش را می‌نویسد: اگر بودن یعنی ادراک‌شدن، اتاق با برون‌رفتن تو از هستی می‌افتد. پاسخ برکلی این است که خدا آن را ادراک می‌کند، و این بسته به خواننده یا بارکشِ اصلیِ نظام است یا نقطه‌ای که در آن دیگر استدلال نیست. آنچه دشوارتر می‌توان کنار گذاشت حرکت آغازین اوست: اینکه هیچ‌کس هرگز ایده‌ای از ماده نیاورده که ایده‌ای از چگونگیِ نمود یا لمسِ چیزی نباشد."
             },
             "citations": [
               { "source": "text-berkeley-principles", "locator": "§3" },
@@ -7384,7 +7384,7 @@
             },
             "body": {
               "en": "Berkeley's argument is short and its conclusion is so unwelcome that most readers look for the flaw rather than the step. Locke had granted that we perceive ideas rather than objects directly. Berkeley points out that if that is so, the material substrate Locke posits behind the ideas is something we could never have evidence of — every check would be another idea — and a supposed entity that could not in principle be encountered is doing no work.\n\nExistence, then, amounts to being registered by some mind, and the world is ideas held in minds. The obvious objection is that the room does not vanish when you leave, and Berkeley's answer is God, who perceives continuously. That looks like a rescue and it is also the consistent application of his premise: he is not adding God to save the theory, he thinks the theory shows that something must be perceiving.\n\nWhat is easy to miss is that he took himself to be defending common sense against philosophy, not attacking it. The plain person believes cherries are red and hard and sweet; it is the philosophers who had introduced a colourless odourless substrate and then found themselves unable to prove it existed. Johnson's kicking of a stone was not a refutation and Berkeley had already answered it — he never denied the stone, only the account of what the stone is made of. The argument survives as the sharpest case that our evidence never reaches past our evidence.",
-              "fa": "استدلال برکلی کوتاه است و نتیجه‌اش چنان ناخوشایند که بیشتر خوانندگان به‌جای گام‌ها در پی عیب می‌گردند. لاک پذیرفته بود که ما ایده‌ها را ادراک می‌کنیم نه مستقیماً اشیا را. برکلی یادآور می‌شود که اگر چنین است، آن بسترِ مادی که لاک پشت ایده‌ها می‌نهد چیزی است که هرگز نمی‌توانستیم شاهدی بر آن داشته باشیم — هر وارسی، ایدهٔ دیگری می‌بود — و موجودی فرضی که اصولاً نتوان با آن روبه‌رو شد هیچ کاری نمی‌کند.\n\nپس بودن یعنی ادراک‌شدن، و جهان ایده‌هایی در ذهن‌هاست. اعتراض آشکار این است که اتاق با بیرون‌رفتن تو ناپدید نمی‌شود، و پاسخ برکلی خداست که پیوسته ادراک می‌کند. این نجاتِ نظریه می‌نماید و در عین حال به کار بستنِ سازگارِ مقدمهٔ اوست: خدا را نمی‌افزاید تا نظریه را نجات دهد، می‌پندارد نظریه نشان می‌دهد که چیزی باید در حال ادراک باشد.\n\nآنچه آسان از دست می‌رود این است که او خود را مدافع عقل سلیم در برابر فلسفه می‌دانست نه مهاجم به آن. آدم عادی باور دارد گیلاس سرخ و سفت و شیرین است؛ این فیلسوفان بودند که بسترِ بی‌رنگ و بی‌بویی وارد کردند و بعد خود را ناتوان از اثبات وجودش یافتند. لگدِ جانسون به سنگ ردیّه نبود و برکلی پیشاپیش پاسخش را داده بود — او هرگز سنگ را انکار نکرد، تنها آن روایت را انکار کرد که سنگ از چه ساخته شده. این استدلال چون تیزترین موردِ این ادعا مانده که شواهد ما هرگز از شواهد ما فراتر نمی‌رود."
+              "fa": "استدلال برکلی کوتاه است و نتیجه‌اش چنان ناخوشایند که بیشتر خوانندگان به‌جای گام‌ها در پی عیب می‌گردند. لاک پذیرفته بود که ما ایده‌ها را ادراک می‌کنیم نه مستقیماً اشیا را. برکلی یادآور می‌شود که اگر چنین است، آن بسترِ مادی که لاک پشت ایده‌ها می‌نهد چیزی است که هرگز نمی‌توانستیم شاهدی بر آن داشته باشیم — هر وارسی، ایدهٔ دیگری می‌بود — و موجودی فرضی که اصولاً نتوان با آن روبه‌رو شد هیچ کاری نمی‌کند.\n\nپس بودن یعنی ادراک‌شدن، و جهان ایده‌هایی در ذهن‌هاست. اعتراض آشکار این است که اتاق با برون‌رفتن تو ناپدید نمی‌شود، و پاسخ برکلی خداست که پیوسته ادراک می‌کند. این نجاتِ نظریه می‌نماید و در عین حال به کار بستنِ سازگارِ مقدمهٔ اوست: خدا را نمی‌افزاید تا نظریه را نجات دهد، می‌پندارد نظریه نشان می‌دهد که چیزی باید در حال ادراک باشد.\n\nآنچه آسان از دست می‌رود این است که او خود را مدافع عقل سلیم در برابر فلسفه می‌دانست نه مهاجم به آن. آدم عادی باور دارد گیلاس سرخ و سفت و شیرین است؛ این فیلسوفان بودند که بسترِ بی‌رنگ و بی‌بویی وارد کردند و بعد خود را ناتوان از اثبات وجودش یافتند. لگدِ جانسون به سنگ ردیّه نبود و برکلی پیشاپیش پاسخش را داده بود — او هرگز سنگ را انکار نکرد، تنها آن روایت را انکار کرد که سنگ از چه ساخته شده. این استدلال چون تیزترین موردِ این ادعا مانده که شواهد ما هرگز از شواهد ما فراتر نمی‌رود."
             },
             "citations": [
               { "source": "text-berkeley-principles" },
@@ -8070,7 +8070,7 @@
       "name": { "en": "Hannah Arendt", "fa": "هانا آرنت" },
       "oneLine": {
         "en": "Asked how ordinary people carry out atrocities, and refused the easy answer.",
-        "fa": "پرسید مردم عادی چگونه فجایع را انجام می‌دهند، و پاسخ آسان را نپذیرفت."
+        "fa": "پرسید مردم عادی چگونه مرتکب فجایع می‌شوند، و پاسخ آسان را نپذیرفت."
       },
       "life": { "birth": { "year": 1906 }, "death": { "year": 1975 } },
       "traditions": ["european", "american", "jewish", "continental"],
@@ -8347,7 +8347,7 @@
       "name": { "en": "Jürgen Habermas", "fa": "یورگن هابرماس" },
       "oneLine": {
         "en": "Located reason in the conditions under which people can argue as equals.",
-        "fa": "خرد را در شرایطی جای داد که مردم بتوانند به‌عنوان برابر بحث کنند."
+        "fa": "خرد را در شرایطی جای داد که مردم بتوانند در مقام برابر بحث کنند."
       },
       "life": { "birth": { "year": 1929 } },
       "traditions": ["european", "continental"],
@@ -10051,7 +10051,7 @@
       "name": { "en": "Aimé Césaire", "fa": "امه سزر" },
       "oneLine": {
         "en": "Argued that colonisation brutalises the coloniser as reliably as the colonised.",
-        "fa": "استدلال کرد استعمار، استعمارگر را به همان اطمینانی وحشی می‌کند که مستعمَره را."
+        "fa": "استدلال کرد استعمار، استعمارگر را همان‌قدر وحشی می‌کند که مستعمَره را."
       },
       "life": { "birth": { "year": 1913 }, "death": { "year": 2008 } },
       "traditions": ["africana", "latin-american", "continental"],
@@ -10183,7 +10183,7 @@
       "name": { "en": "Kwame Nkrumah", "fa": "کوامه نکرومه" },
       "oneLine": {
         "en": "Asked what philosophy a decolonised society should actually run on.",
-        "fa": "پرسید جامعه‌ای که از استعمار درآمده باید بر چه فلسفه‌ای بگردد."
+        "fa": "پرسید جامعه‌ای که از استعمار درآمده باید بر چه فلسفه‌ای استوار باشد."
       },
       "life": { "birth": { "year": 1909 }, "death": { "year": 1972 } },
       "traditions": ["african", "africana"],
@@ -10774,7 +10774,7 @@
             "depth": "quick",
             "body": {
               "en": "Ibn al-Haytham showed that vision works by light entering the eye rather than by rays leaving it, and did it with built apparatus and repeatable procedure. His statement of method — that the seeker after truth should suspect their own conclusions hardest — is a philosophical position about how enquiry corrects itself, not a laboratory note.",
-              "fa": "ابن هیثم نشان داد که دیدن با ورود نور به چشم رخ می‌دهد نه با بیرون‌رفتن پرتو از آن، و این را با دستگاه ساخته‌شده و رویّهٔ تکرارپذیر نشان داد. بیان او از روش — که جویندهٔ حقیقت باید به نتیجه‌های خودش از همه بیشتر بدگمان باشد — موضعی فلسفی است دربارهٔ اینکه کاوش چگونه خود را تصحیح می‌کند، نه یادداشتی آزمایشگاهی."
+              "fa": "ابن هیثم نشان داد که دیدن با ورود نور به چشم رخ می‌دهد نه با برون‌رفتن پرتو از آن، و این را با دستگاه ساخته‌شده و رویّهٔ تکرارپذیر نشان داد. بیان او از روش — که جویندهٔ حقیقت باید به نتیجه‌های خودش از همه بیشتر بدگمان باشد — موضعی فلسفی است دربارهٔ اینکه کاوش چگونه خود را تصحیح می‌کند، نه یادداشتی آزمایشگاهی."
             }
           },
           {
@@ -12053,7 +12053,7 @@
       "name": { "en": "Kurt Gödel", "fa": "کورت گودل" },
       "oneLine": {
         "en": "Proved that no consistent system rich enough for arithmetic can prove all its truths.",
-        "fa": "ثابت کرد هیچ نظام سازگارِ به‌قدر کافی نیرومند نمی‌تواند همهٔ حقایق خودش را اثبات کند."
+        "fa": "ثابت کرد هیچ نظام سازگارِ به‌قدر کافی نیرومند برای حساب نمی‌تواند همهٔ حقایق خودش را اثبات کند."
       },
       "life": { "birth": { "year": 1906 }, "death": { "year": 1978 } },
       "traditions": ["european", "american", "analytic"],
