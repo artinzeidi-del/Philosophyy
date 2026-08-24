@@ -389,9 +389,27 @@ class RecentSearchesController extends Notifier<List<String>> {
     await _persist();
   }
 
-  Future<void> _persist() => ref
-      .read(sharedPreferencesProvider)
-      .setString(storageKey, state.join(_separator));
+  /// Writes the history, and gives up quietly if it cannot.
+  ///
+  /// Every other write in the app is guarded — a library that fails to save
+  /// tells the reader so — but this one is neither worth a message nor worth
+  /// an uncaught error. Both callers fire and forget, so a throw here would
+  /// surface as an unhandled async error while the reader was doing something
+  /// else entirely, and what would be lost is a shortcut back to a word they
+  /// can retype.
+  ///
+  /// Untested: `SharedPreferences` offers no way to make a write fail from a
+  /// test, so this is written from the contract rather than against a
+  /// reproduction.
+  Future<void> _persist() async {
+    try {
+      await ref
+          .read(sharedPreferencesProvider)
+          .setString(storageKey, state.join(_separator));
+    } on Object catch (error) {
+      debugPrint('Could not save the search history: $error');
+    }
+  }
 }
 
 /// Entries to offer a reader who has not typed anything yet.

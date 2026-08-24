@@ -5,6 +5,7 @@ import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
+import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
 /// A citation the reader cannot follow is the appearance of sourcing.
 ///
@@ -24,6 +25,8 @@ void main() {
   Future<void> pumpCitation(WidgetTester tester, Source source) async {
     await tester.pumpWidget(
       MaterialApp(
+        localizationsDelegates: AppL10n.localizationsDelegates,
+        supportedLocales: AppL10n.supportedLocales,
         home: Scaffold(
           body: SourceLine(source: source, language: AppLanguage.en),
         ),
@@ -79,6 +82,8 @@ void main() {
   testWidgets('the note is read in the reader\'s language', (tester) async {
     await tester.pumpWidget(
       const MaterialApp(
+        localizationsDelegates: AppL10n.localizationsDelegates,
+        supportedLocales: AppL10n.supportedLocales,
         home: Scaffold(
           body: SourceLine(source: withUrl, language: AppLanguage.fa),
         ),
@@ -104,6 +109,8 @@ void main() {
     // thirty-three entry-level citations name a source with an address.
     await tester.pumpWidget(
       MaterialApp(
+        localizationsDelegates: AppL10n.localizationsDelegates,
+        supportedLocales: AppL10n.supportedLocales,
         home: Scaffold(
           body: CitationList(
             citations: const <Citation>[Citation(sourceId: 'sep')],
@@ -126,6 +133,8 @@ void main() {
   ) async {
     await tester.pumpWidget(
       MaterialApp(
+        localizationsDelegates: AppL10n.localizationsDelegates,
+        supportedLocales: AppL10n.supportedLocales,
         home: Scaffold(
           body: CitationList(
             citations: const <Citation>[
@@ -141,5 +150,42 @@ void main() {
 
     expect(find.textContaining('514a'), findsOneWidget);
     expect(find.textContaining('http'), findsNothing);
+  });
+
+  testWidgets('a link that cannot be opened does not throw at the reader', (
+    tester,
+  ) async {
+    // `launchUrl` throws when the platform has no handler for the address — a
+    // desktop with no browser association, a locked-down device, a webview.
+    // Fired and forgotten, that surfaces as an uncaught async error rather
+    // than as anything the reader can understand. In a test there is no
+    // plugin at all, which is the same shape of failure.
+    await pumpCitation(tester, withUrl);
+    await tester.tap(find.text('https://plato.stanford.edu'));
+    await tester.pumpAndSettle();
+
+    expect(
+      tester.takeException(),
+      isNull,
+      reason: 'tapping a link that cannot open threw out of the tap handler',
+    );
+    // What happens *after* a failed open — the line telling the reader it did
+    // not work — is not asserted here, because url_launcher reports success in
+    // a test environment and the failure cannot be provoked. This test holds
+    // the part that can be checked: nothing escapes the tap. It was confirmed
+    // to fail against a tap deliberately made to throw.
+  });
+
+  testWidgets('a malformed address is not offered as a link', (tester) async {
+    // The field is free-form text in a content file, and `Uri.parse` throws on
+    // something that is not an address at all.
+    const broken = Source(
+      id: 'broken',
+      kind: SourceKind.referenceWork,
+      title: LocalizedText(en: 'Somewhere'),
+      url: ':::not a url:::',
+    );
+    await pumpCitation(tester, broken);
+    expect(tester.takeException(), isNull);
   });
 }

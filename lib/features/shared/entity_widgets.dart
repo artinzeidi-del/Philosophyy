@@ -1082,13 +1082,36 @@ class _SourceLink extends StatelessWidget {
   final String url;
   final AppLanguage language;
 
+  /// Opens [url], and says so when it cannot.
+  ///
+  /// `launchUrl` is documented to throw when the platform has nothing that can
+  /// handle the address — a device with no browser association, a webview, a
+  /// locked-down install. Fired and forgotten, that would surface as an
+  /// uncaught async error and, to the reader, as a tap that did nothing.
+  ///
+  /// Telling them costs a line and leaves them somewhere useful: the address
+  /// is printed above rather than hidden behind the title, so a link that will
+  /// not open is still one they can copy.
+  Future<void> _open(BuildContext context) async {
+    final messenger = ScaffoldMessenger.maybeOf(context);
+    final message = AppL10n.of(context).linkCouldNotOpen;
+    try {
+      final opened = await launchUrl(
+        Uri.parse(url),
+        mode: LaunchMode.externalApplication,
+      );
+      if (opened) return;
+    } on Object catch (error) {
+      debugPrint('Could not open $url: $error');
+    }
+    messenger?.showSnackBar(SnackBar(content: Text(message)));
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return InkWell(
-      onTap: () => unawaited(
-        launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication),
-      ),
+      onTap: () => unawaited(_open(context)),
       child: Semantics(
         link: true,
         child: Text(

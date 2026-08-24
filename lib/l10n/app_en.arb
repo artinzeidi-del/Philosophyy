@@ -653,6 +653,10 @@
   "@libraryEmptyBody": {
     "description": "Guidance for the empty library."
   },
+  "linkCouldNotOpen": "Could not open that link.",
+  "@linkCouldNotOpen": {
+    "description": "Shown when the device has nothing that can open a source's address."
+  },
   "librarySavedSection": "Saved",
   "@librarySavedSection": {
     "description": "Heading for bookmarked articles."

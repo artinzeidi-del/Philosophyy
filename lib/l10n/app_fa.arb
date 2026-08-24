@@ -147,6 +147,7 @@
   "navLibrary": "کتابخانه",
   "libraryEmptyTitle": "هنوز چیزی ذخیره نشده",
   "libraryEmptyBody": "مدخلی را ذخیره کنید یا بر آن یادداشتی بنویسید تا اینجا نمایان شود.",
+  "linkCouldNotOpen": "این پیوند باز نشد.",
   "librarySavedSection": "ذخیره‌شده",
   "libraryReadSection": "خوانده‌شده",
   "libraryNotesSection": "یادداشت‌های شما",
