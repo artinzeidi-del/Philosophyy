@@ -238,6 +238,38 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a philosopher is spelled one way in Persian too', () {
+      // The English rule about one spelling per person had a Persian half that
+      // nothing checked. Leibniz was «لایبنیتس» and «لایب‌نیتس», Tsongkhapa was
+      // «تسونگ‌کاپا» and «تسونگ‌خاپا», Anscombe was «انسکوم» and «آنسکوم», and
+      // Du Bois had three: «دوبویز», «دوبویس», «دوبوا».
+      //
+      // These are transliterations, so the rule cannot be derived — «پوپر» and
+      // «بوبر» are Popper and Buber, and «بیرون» and «پیرون» are an ordinary
+      // word and Pyrrho. Each spelling that was wrong is named, against the
+      // form the entry itself carries.
+      const wrong = <String, String>{
+        'آنسکوم': 'انسکوم',
+        'تسونگ‌خاپا': 'تسونگ‌کاپا',
+        'دوبویس': 'دوبویز',
+        'دوبوا': 'دوبویز',
+        'لایبنیتس': 'لایب‌نیتس',
+      };
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final pair in wrong.entries) {
+          if (RegExp('(?<![؀-ۿ])${RegExp.escape(pair.key)}(?![؀-ۿ])')
+              .hasMatch(entry.text)) {
+            problems.add(
+              '${entry.file} ${entry.path}: "${pair.key}" — the entry says '
+              '"${pair.value}"',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('a citation locator keeps the letter that makes it findable', () {
       // A Stephanus number is «21d», and the digit localisation had turned
       // three of them into «۲۱د» and «۲۷۵د» — references that cannot be looked
