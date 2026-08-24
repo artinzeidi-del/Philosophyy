@@ -122,6 +122,58 @@ void main() {
     );
     expect(container.read(libraryProvider).bookmarks, isEmpty);
   });
+
+  test(
+    'a scroll position written slowly does not undo a later bookmark',
+    () async {
+      final store = _OutOfOrderStore(<int>[60, 0]);
+      final container = _containerWith(store);
+      addTearDown(container.dispose);
+
+      final library = container.read(libraryProvider.notifier);
+      final position = library.recordPosition(
+        target: const EntityRef(EntityKind.philosopher, 'thales'),
+        scrollOffset: 240,
+      );
+      final bookmark = library.toggleBookmark(
+        const EntityRef(EntityKind.philosopher, 'plato'),
+      );
+      await Future.wait(<Future<bool>>[position, bookmark]);
+
+      expect(
+        store.saved.last.bookmarks,
+        hasLength(1),
+        reason:
+            'positions are written on every scroll, so a position save is '
+            'the write most likely to land on top of something that matters',
+      );
+    },
+  );
+
+  test(
+    'a write in flight cannot come back after the reader erases everything',
+    () async {
+      final store = _OutOfOrderStore(<int>[60, 0]);
+      final container = _containerWith(store);
+      addTearDown(container.dispose);
+
+      final library = container.read(libraryProvider.notifier);
+      final bookmark = library.toggleBookmark(
+        const EntityRef(EntityKind.philosopher, 'thales'),
+      );
+      final erased = library.clearAll();
+      await Future.wait(<Future<bool>>[bookmark, erased]);
+
+      expect(
+        store.operations,
+        <String>['save', 'clear'],
+        reason:
+            'a save landing after the clear puts back data the reader '
+            'exercised their right to delete',
+      );
+      expect(store.saved.last.bookmarks, isEmpty);
+    },
+  );
 }
 
 ProviderContainer _containerWith(UserDataRepository store) => ProviderContainer(
@@ -132,6 +184,11 @@ ProviderContainer _containerWith(UserDataRepository store) => ProviderContainer(
 );
 
 /// A repository whose writes finish in an order of the test's choosing.
+///
+/// Saves are timed by position — the nth save waits [delaysMs] at n — while a
+/// clear is always immediate. Timing the clear off the same counter would make
+/// the order it lands in depend on how many saves happened to come first, and
+/// the clear test would then pass on that accident rather than on the queue.
 class _OutOfOrderStore implements UserDataRepository {
   _OutOfOrderStore(this.delaysMs);
 
@@ -141,14 +198,18 @@ class _OutOfOrderStore implements UserDataRepository {
   /// Every library handed to [save], in the order the writes completed.
   final List<UserLibrary> saved = <UserLibrary>[];
 
-  int _calls = 0;
+  /// Every operation, in the order it finished — `save` or `clear`.
+  final List<String> operations = <String>[];
+
+  int _saves = 0;
 
   @override
   Future<void> save(UserLibrary library) async {
-    final delay = _calls < delaysMs.length ? delaysMs[_calls] : 0;
-    _calls++;
+    final delay = _saves < delaysMs.length ? delaysMs[_saves] : 0;
+    _saves++;
     await Future<void>.delayed(Duration(milliseconds: delay));
     saved.add(library);
+    operations.add('save');
   }
 
   @override
@@ -158,7 +219,10 @@ class _OutOfOrderStore implements UserDataRepository {
   String? salvagedDocument() => null;
 
   @override
-  Future<void> clear() async {}
+  Future<void> clear() async {
+    saved.add(UserLibrary.empty);
+    operations.add('clear');
+  }
 }
 
 /// A repository that rejects the first write and accepts the rest.

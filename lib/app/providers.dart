@@ -502,11 +502,23 @@ class LibraryController extends Notifier<UserLibrary> {
   /// onto the previous one makes the order on disk the order the reader made.
   Future<void> _writes = Future<void>.value();
 
+  /// Runs [write] after every write already queued, and puts it on the queue.
+  ///
+  /// Every path that touches storage goes through here — saves, position
+  /// updates and the erase alike. A path that skipped it would be free to land
+  /// between two queued writes, which is how a scroll position could overwrite a
+  /// bookmark and how an erase could be undone by a save still in flight.
+  Future<T> _enqueue<T>(Future<T> Function() write) {
+    final done = _writes.then((_) => write());
+    _writes = done.then<void>((_) {}, onError: (Object _) {});
+    return done;
+  }
+
   Future<bool> _commit(UserLibrary next) {
     final previous = state;
     state = next;
 
-    final done = _writes.then((_) async {
+    return _enqueue(() async {
       try {
         await _repository.save(next);
         return true;
@@ -520,9 +532,6 @@ class LibraryController extends Notifier<UserLibrary> {
         return false;
       }
     });
-
-    _writes = done.then<void>((_) {}, onError: (Object _) {});
-    return done;
   }
 
   /// Saves or unsaves an article.
@@ -623,27 +632,34 @@ class LibraryController extends Notifier<UserLibrary> {
       ),
     );
     state = next;
-    try {
-      await _repository.save(next);
-      return true;
-    } on Object {
-      return false;
-    }
+    return _enqueue(() async {
+      try {
+        await _repository.save(next);
+        return true;
+      } on Object {
+        return false;
+      }
+    });
   }
 
   /// Removes everything belonging to one article.
   Future<bool> forget(EntityRef target) => _commit(state.withoutTarget(target));
 
   /// Deletes everything the reader has made.
-  Future<bool> clearAll() async {
+  ///
+  /// Queued behind the writes already in flight, so that a save started a moment
+  /// earlier cannot land afterwards and put back what was just erased.
+  Future<bool> clearAll() {
     state = UserLibrary.empty;
-    try {
-      await _repository.clear();
-      return true;
-    } on Object catch (error) {
-      debugPrint('Could not clear the library: $error');
-      return false;
-    }
+    return _enqueue(() async {
+      try {
+        await _repository.clear();
+        return true;
+      } on Object catch (error) {
+        debugPrint('Could not clear the library: $error');
+        return false;
+      }
+    });
   }
 
   /// A short, sortable, collision-resistant identifier.
