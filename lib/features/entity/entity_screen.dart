@@ -66,10 +66,21 @@ class _EntityScreenState extends ConsumerState<EntityScreen> {
   ContentDepth? _depth;
 
   /// The depth to open [article] at for this reader.
+  ///
+  /// Clamped to what the article actually has, at both ends. Raising it was
+  /// always here; lowering it was not, and the research reading level asks for
+  /// a depth nothing in the corpus is authored at. The article read correctly
+  /// — every section is visible at a depth past the last one written — but the
+  /// depth control offers only the depths that exist, so its selection was not
+  /// among its own segments and none of them was lit. The reader was given a
+  /// control that had stopped saying where they were.
   static ContentDepth _openingDepth(Article article, WidgetRef ref) {
     final preferred = ref.read(settingsProvider).defaultDepth;
     final shallowest = article.shallowestAuthoredDepth;
-    return preferred.order >= shallowest.order ? preferred : shallowest;
+    final deepest = article.deepestAuthoredDepth;
+    if (preferred.order < shallowest.order) return shallowest;
+    if (preferred.order > deepest.order) return deepest;
+    return preferred;
   }
 
   @override
