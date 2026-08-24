@@ -652,6 +652,11 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         .map(corpus.concept)
         .whereType<Concept>()
         .toList();
+    final philosophers = concept.philosopherIds
+        .map(corpus.philosopher)
+        .whereType<Philosopher>()
+        .toList();
+    final works = concept.workIds.map(corpus.work).whereType<Work>().toList();
 
     return <Widget>[
       if (concept.examples.isNotEmpty)
@@ -678,6 +683,36 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
                 title: other.name.resolve(language),
                 summary: other.oneLine.resolve(language),
                 onTap: () => context.push(other.ref.route),
+              ),
+          ],
+        ),
+      // An idea has no birthday and no address; the people arguing it are how a
+      // reader gets anywhere from here. Every concept names at least one, and
+      // forty-one of them had no examples, no counterexamples and no
+      // neighbours — so without this the page was prose and then nothing.
+      if (philosophers.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionPhilosophers,
+          children: <Widget>[
+            for (final philosopher in philosophers)
+              EntityCard(
+                title: philosopher.name.resolve(language),
+                summary: philosopher.oneLine.resolve(language),
+                meta: AppDates.lifeSpan(philosopher.life, language, l10n),
+                onTap: () => context.push(philosopher.ref.route),
+              ),
+          ],
+        ),
+      if (works.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionWorks,
+          children: <Widget>[
+            for (final work in works)
+              EntityCard(
+                title: work.name.resolve(language),
+                summary: work.oneLine.resolve(language),
+                meta: AppDates.range(work.composed, language, l10n),
+                onTap: () => context.push(work.ref.route),
               ),
           ],
         ),
@@ -809,7 +844,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
         ),
       if (members.isNotEmpty)
         _CardSection(
-          title: l10n.sectionMembers,
+          title: l10n.sectionPhilosophers,
           children: <Widget>[
             for (final member in members)
               EntityCard(

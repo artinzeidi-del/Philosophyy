@@ -503,9 +503,9 @@
   "@sectionCentralClaims": {
     "description": "Heading for a school's central claims."
   },
-  "sectionMembers": "Philosophers",
-  "@sectionMembers": {
-    "description": "Heading for the philosophers belonging to a school."
+  "sectionPhilosophers": "Philosophers",
+  "@sectionPhilosophers": {
+    "description": "Heading for a list of philosophers, on a school or a concept."
   },
   "sectionRelatedIdeas": "Related ideas",
   "@sectionRelatedIdeas": {
