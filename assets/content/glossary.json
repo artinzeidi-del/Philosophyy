@@ -137,7 +137,7 @@
       },
       "long": {
         "en": "It began as the craft of reading scripture and law, and became a general account of understanding. Its central puzzle is the circle: a sentence is understood through the whole text and the whole text through its sentences. Gadamer argued this is not a fault to be escaped but the shape understanding has, and that a reader's own situation is what makes reading possible rather than what spoils it.",
-        "fa": "از فنّ خواندن متن مقدس و قانون آغاز شد و به شرحی عام از فهمیدن بدل شد. معمای مرکزی‌اش آن دور است: یک جمله از راه کل متن فهمیده می‌شود و کل متن از راه جمله‌هایش. گادامر می‌گفت این عیبی نیست که باید از آن گریخت بلکه شکلی است که فهم دارد، و موقعیت خود خواننده همان است که خواندن را ممکن می‌کند نه آنکه خرابش کند."
+        "fa": "از فن خواندن متن مقدس و قانون آغاز شد و به شرحی عام از فهمیدن بدل شد. معمای مرکزی‌اش آن دور است: یک جمله از راه کل متن فهمیده می‌شود و کل متن از راه جمله‌هایش. گادامر می‌گفت این عیبی نیست که باید از آن گریخت بلکه شکلی است که فهم دارد، و موقعیت خود خواننده همان است که خواندن را ممکن می‌کند نه آنکه خرابش کند."
       },
       "aliases": ["hermeneutic", "هرمنوتیکی"],
       "citations": [{ "source": "sep" }]
@@ -221,7 +221,7 @@
       },
       "long": {
         "en": "It is a claim about the world, not about fatalism: that the state of things at one moment plus the laws fixes the next. Whether it rules out free will is a separate question, and compatibilists answer no — acting freely means acting from one's own reasons without compulsion, which a determined world allows. Indeterminism does not obviously help, since a random act is not a chosen one.",
-        "fa": "ادعایی است دربارهٔ جهان، نه جبرگرایی به معنای تسلیم: اینکه وضع چیزها در یک لحظه به‌علاوهٔ قوانین، لحظهٔ بعد را تعیین می‌کند. اینکه این، ارادهٔ آزاد را باطل می‌کند یا نه پرسشی جداست، و سازگارگرایان پاسخ منفی می‌دهند — آزادانه عمل کردن یعنی از روی دلایل خود و بی اجبار عمل کردن، که جهانی معیّن‌شده اجازه‌اش را می‌دهد. نامعیّنی هم آشکارا کمکی نمی‌کند، چون کار تصادفی، کارِ برگزیده نیست."
+        "fa": "ادعایی است دربارهٔ جهان، نه جبرگرایی به معنای تسلیم: اینکه وضع چیزها در یک لحظه به‌علاوهٔ قوانین، لحظهٔ بعد را تعیین می‌کند. اینکه این، ارادهٔ آزاد را باطل می‌کند یا نه پرسشی جداست، و سازگارگرایان پاسخ منفی می‌دهند — آزادانه عمل کردن یعنی از روی دلایل خود و بی اجبار عمل کردن، که جهانی معین‌شده اجازه‌اش را می‌دهد. نامعیّنی هم آشکارا کمکی نمی‌کند، چون کار تصادفی، کارِ برگزیده نیست."
       },
       "aliases": ["determinist", "deterministic", "جبرگرا", "جبری"],
       "citations": [{ "source": "sep" }]
@@ -395,7 +395,7 @@
       },
       "long": {
         "en": "In Anaxagoras it is what sets the cosmos in order; in Aristotle it is the part of the soul that grasps first principles, which cannot themselves be proved without circularity; in Plotinus it is the level of reality below the One, where thought and its object are not yet separate. Translating it as 'mind' loses that it was never only a human faculty.",
-        "fa": "نزد آناکساگوراس آن چیزی است که کیهان را سامان می‌دهد؛ نزد ارسطو بخشی از نفس است که اصول نخستین را درمی‌یابد، اصولی که خودشان بی دور اثبات نمی‌شوند؛ نزد افلوطین مرتبه‌ای از واقعیت است زیر احد، جایی که اندیشه و متعلَّقش هنوز از هم جدا نشده‌اند. ترجمهٔ آن به «ذهن» این را از دست می‌دهد که هرگز فقط قوه‌ای انسانی نبوده است."
+        "fa": "نزد آناکساگوراس آن چیزی است که کیهان را سامان می‌دهد؛ نزد ارسطو بخشی از نفس است که اصول نخستین را درمی‌یابد، اصولی که خودشان بی دور اثبات نمی‌شوند؛ نزد افلوطین مرتبه‌ای از واقعیت است زیر احد، جایی که اندیشه و متعلَقش هنوز از هم جدا نشده‌اند. ترجمهٔ آن به «ذهن» این را از دست می‌دهد که هرگز فقط قوه‌ای انسانی نبوده است."
       },
       "aliases": ["intellect"],
       "citations": [{ "source": "sep" }]
@@ -842,7 +842,7 @@
       },
       "long": {
         "en": "Not a god among gods. The word names what there ultimately is, and the schools of Vedanta differ over whether it has qualities: Shankara says the qualified descriptions are provisional, Rāmānuja that a reality with no attributes could not be the object of the devotion the same scriptures command.",
-        "fa": "خدایی در میان خدایان نیست. این واژه آنچه را در نهایت هست نام می‌برد، و مکتب‌های ودانته بر سر صفت داشتن یا نداشتنش اختلاف دارند: شنکره می‌گوید توصیف‌های صفت‌دار موقت‌اند، و رامانوجه می‌گوید واقعیتی بی‌صفت نمی‌تواند متعلَّق آن پرستشی باشد که همان متن‌های مقدس فرمان می‌دهند."
+        "fa": "خدایی در میان خدایان نیست. این واژه آنچه را در نهایت هست نام می‌برد، و مکتب‌های ودانته بر سر صفت داشتن یا نداشتنش اختلاف دارند: شنکره می‌گوید توصیف‌های صفت‌دار موقت‌اند، و رامانوجه می‌گوید واقعیتی بی‌صفت نمی‌تواند متعلَق آن پرستشی باشد که همان متن‌های مقدس فرمان می‌دهند."
       },
       "citations": [{ "source": "sep" }]
     },
@@ -922,7 +922,7 @@
       },
       "long": {
         "en": "The word is Arabic for the Greek one, and marks a specific tradition: al-Kindi, al-Fārābī, Ibn Sīnā, Ibn Rushd, working from Aristotle and the Neoplatonists on demonstration rather than on revelation. Kalam is the other discipline in the same culture, and the two did not merge — al-Ghazālī attacked the first using the second's methods.",
-        "fa": "این واژه صورت عربی واژهٔ یونانی است و سنتی معیّن را نشان می‌کند: کندی، فارابی، ابن‌سینا، ابن‌رشد، که از ارسطو و نوافلاطونیان کار می‌کردند و بر برهان تکیه داشتند نه بر وحی. کلام رشتهٔ دیگر همان فرهنگ است، و این دو در هم نیامیختند — غزالی با روش‌های دومی به اولی حمله کرد."
+        "fa": "این واژه صورت عربی واژهٔ یونانی است و سنتی معین را نشان می‌کند: کندی، فارابی، ابن‌سینا، ابن‌رشد، که از ارسطو و نوافلاطونیان کار می‌کردند و بر برهان تکیه داشتند نه بر وحی. کلام رشتهٔ دیگر همان فرهنگ است، و این دو در هم نیامیختند — غزالی با روش‌های دومی به اولی حمله کرد."
       },
       "aliases": ["falasifa", "Arabic philosophy"],
       "citations": [{ "source": "sep" }]

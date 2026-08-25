@@ -650,6 +650,49 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a word carries the same marks everywhere it appears', () {
+      // Found by stripping the short vowels off every word in the corpus and
+      // looking at which ones came back more than one way. Most of what that
+      // turns up is deliberate — «نُه» against «نه», «بُعد» against «بعد»,
+      // «می‌بُرد» against «می‌برد», «گِل» against «گل», «مُثُل» against «مثل»
+      // — a mark placed exactly where two words would otherwise be one.
+      //
+      // These are the ones where it was not: the same word, spelled with the
+      // shadda in some entries and without it in others, ninety-eight times
+      // in all. «معین» forty-five against «معیّن» thirty-one, «رویه»
+      // twenty against «رویّه» twenty-one, «رد» a hundred and fifty against
+      // «ردّ» five.
+      const wrong = <String, String>{
+        'معیّن': 'معین',
+        'رویّه': 'رویه',
+        'ردّ': 'رد',
+        'ردّیه': 'ردیه',
+        'متعلَّق': 'متعلَق',
+        'مادّه': 'ماده',
+        'مادّی': 'مادی',
+        'فنّی': 'فنی',
+        'حدّ': 'حد',
+        'حدّی': 'حدی',
+        'حسّ': 'حس',
+        'اَدوَیته': 'ادویته',
+      };
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final pair in wrong.entries) {
+          if (RegExp(
+            '(?<![\\p{L}\\p{M}‌])${pair.key}',
+            unicode: true,
+          ).hasMatch(entry.text)) {
+            problems.add(
+              '${entry.file} ${entry.path}: "${pair.key}" — the corpus writes '
+              '"${pair.value}"',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('a term of art is spelled one way in Persian too', () {
       // The same rule as for names, for the words that name an idea. Pyrrho
       // came out three ways — «پیرون» in his own entry, «پیرهون» in its own
