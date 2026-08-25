@@ -2887,7 +2887,7 @@
       "name": { "en": "Gottlob Frege", "fa": "فرگه" },
       "oneLine": {
         "en": "Built modern logic, and with it the tools analytic philosophy argues in.",
-        "fa": "منطق مدرن را ساخت، و با آن ابزارهایی را که فلسفهٔ تحلیلی با آن‌ها بحث می‌کند."
+        "fa": "منطق مدرن را ساخت، و با آن ابزارهایی را که فلسفهٔ تحلیلی با آن‌ها بحث می‌کند پدید آورد."
       },
       "life": {
         "birth": { "year": 1848, "precision": "circa" },
@@ -3615,7 +3615,7 @@
       "name": { "en": "Zera Yacob", "fa": "زرا یعقوب" },
       "oneLine": {
         "en": "Reasoned his way out of every inherited religion while hiding in a cave.",
-        "fa": "در پناهگاهی در غار، با عقل از هر دین موروثی بیرون آمد."
+        "fa": "پنهان در غاری، با عقل از هر دین موروثی بیرون آمد."
       },
       "life": {
         "birth": { "year": 1599, "precision": "circa" },
@@ -4464,7 +4464,7 @@
       "name": { "en": "Zeno of Elea", "fa": "زنون الئایی" },
       "oneLine": {
         "en": "Built the paradoxes that made motion look impossible.",
-        "fa": "پارادوکس‌هایی ساخت که حرکت را ناممکن جلوه داد."
+        "fa": "پارادوکس‌هایی ساخت که حرکت را ناممکن جلوه دادند."
       },
       "life": {
         "birth": { "year": -490, "precision": "circa" },
@@ -5308,7 +5308,7 @@
       "name": { "en": "Plotinus", "fa": "افلوطین" },
       "oneLine": {
         "en": "Derived everything from a single source that is not itself a thing.",
-        "fa": "همه‌چیز را از یگانه سرچشمه‌ای برآورد که خودش چیز نیست."
+        "fa": "همه‌چیز را از یگانه سرچشمه‌ای بیرون آورد که خودش چیز نیست."
       },
       "life": {
         "birth": { "year": 204, "precision": "circa" },
@@ -6358,7 +6358,7 @@
       "name": { "en": "Omar Khayyam", "fa": "خیام" },
       "oneLine": {
         "en": "Solved cubic equations, reformed the calendar, and doubted in quatrains.",
-        "fa": "معادلات درجه سه را حل کرد، تقویم را اصلاح کرد، و در رباعی تردید کرد."
+        "fa": "معادله‌های درجهٔ سوم را حل کرد، تقویم را اصلاح کرد، و در رباعی تردید کرد."
       },
       "life": {
         "birth": { "year": 1048, "precision": "circa" },
@@ -6377,7 +6377,7 @@
             "depth": "quick",
             "body": {
               "en": "Khayyam gave a geometric solution to cubic equations, questioned Euclid's parallel postulate in a way that anticipates non-Euclidean geometry, and led the calendar reform that produced the Jalali year. The quatrains attributed to him ask what can be known about death and purpose, and answer very little.",
-              "fa": "خیام برای معادلات درجه سه راه‌حلی هندسی داد، اصل توازی اقلیدس را چنان به پرسش گرفت که هندسهٔ نااقلیدسی را پیش‌بینی می‌کند، و اصلاح تقویمی را رهبری کرد که سال جلالی از آن برآمد. رباعیاتی که به او نسبت داده‌اند می‌پرسند از مرگ و غایت چه می‌توان دانست، و پاسخ می‌دهند: بسیار اندک."
+              "fa": "خیام برای معادله‌های درجهٔ سوم راه‌حلی هندسی داد، اصل توازی اقلیدس را چنان به پرسش گرفت که هندسهٔ نااقلیدسی را پیش‌بینی می‌کند، و اصلاح تقویمی را رهبری کرد که سال جلالی از آن برآمد. رباعیاتی که به او نسبت داده‌اند می‌پرسند از مرگ و غایت چه می‌توان دانست، و پاسخ می‌دهند: بسیار اندک."
             }
           },
           {
@@ -10120,7 +10120,7 @@
       "name": { "en": "Léopold Sédar Senghor", "fa": "لئوپولد سدار سنگور" },
       "oneLine": {
         "en": "Claimed a distinctively African way of knowing — and was argued with for it.",
-        "fa": "شیوهٔ شناختی متمایزاً آفریقایی را ادعا کرد — و بر سرش با او بحث شد."
+        "fa": "مدعی شیوه‌ای از شناخت شد که ویژهٔ آفریقاست — و بر سرش با او بحث شد."
       },
       "life": { "birth": { "year": 1906 }, "death": { "year": 2001 } },
       "traditions": ["african", "africana", "continental"],
@@ -12222,7 +12222,7 @@
       "name": { "en": "Arthur Danto", "fa": "آرتور دانتو" },
       "oneLine": {
         "en": "Asked why one box of soap pads is art and an identical box is not.",
-        "fa": "پرسید چرا یک جعبهٔ سیم‌ظرفشویی هنر است و جعبه‌ای همانند آن نیست."
+        "fa": "پرسید چرا یک جعبهٔ سیم ظرفشویی هنر است و جعبه‌ای همانند آن نیست."
       },
       "life": { "birth": { "year": 1924 }, "death": { "year": 2013 } },
       "traditions": ["american", "analytic"],
