@@ -571,10 +571,10 @@
       "sources": ["sep"]
     },
     {
-      "subject": "philosopher:shankara",
+      "subject": "philosopher:ramanuja",
       "type": "opposed",
       "confidence": "documented",
-      "object": "philosopher:ramanuja",
+      "object": "philosopher:shankara",
       "note": {
         "en": "Rāmānuja's commentary is written explicitly against Shankara's, and the two together are the central argument of Vedānta.",
         "fa": "شرح رامانوجه صریحاً در برابر شرح شنکره نوشته شده، و این دو با هم استدلال مرکزی ودانته‌اند."

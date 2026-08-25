@@ -6,6 +6,7 @@ import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
+import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
@@ -1063,6 +1064,54 @@ void main() {
             );
           }
         }
+      }
+    });
+
+    test('a reply is not written before the thing it replies to', () {
+      // Shankara was recorded as opposing Rāmānuja. He died in 820 and
+      // Rāmānuja was born in 1017, and the note attached to the relation
+      // says which way it actually ran: "Rāmānuja's commentary is written
+      // explicitly against Shankara's". Two centuries of Vedānta pointed
+      // backwards on both men's pages.
+      //
+      // These four types are the ones where the subject acts on something
+      // the object already said, so the subject cannot have finished before
+      // the object began. Influence and teaching are left out: they are
+      // caught by the ordinary reading of the dates, and a teacher who dies
+      // in the student's childhood is a different question.
+      const directed = <RelationType>{
+        RelationType.criticized,
+        RelationType.defended,
+        RelationType.opposed,
+        RelationType.respondedTo,
+      };
+      int? start(String id) {
+        final life = corpus.philosopher(id)?.life;
+        return life?.birth?.year ?? life?.floruit?.start?.year;
+      }
+
+      int? end(String id) {
+        final life = corpus.philosopher(id)?.life;
+        return life?.death?.year ?? life?.floruit?.end?.year;
+      }
+
+      for (final relation in corpus.relations) {
+        if (!directed.contains(relation.type)) continue;
+        if (relation.subject.kind != EntityKind.philosopher ||
+            relation.object.kind != EntityKind.philosopher) {
+          continue;
+        }
+        final replierEnd = end(relation.subject.id);
+        final repliedStart = start(relation.object.id);
+        if (replierEnd == null || repliedStart == null) continue;
+        expect(
+          replierEnd,
+          greaterThanOrEqualTo(repliedStart),
+          reason:
+              'relation ${relation.subject.id} ${relation.type.id} '
+              '${relation.object.id}: the first was gone by $replierEnd and '
+              'the second not there until $repliedStart',
+        );
       }
     });
 
