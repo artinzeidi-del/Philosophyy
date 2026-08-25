@@ -122,6 +122,125 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('no wrong option is also right', () {
+      // The existing checks catch a distractor that reads identically to the
+      // answer. This one asks the harder question: whether a distractor that
+      // reads differently is nonetheless true of the same subject. A reader
+      // who knows that Kant worked in both ethics and metaphysics, shown
+      // "which branch" with one of them as the answer and the other among the
+      // decoys, is marked wrong for knowing more.
+      //
+      // Every kind whose decoys are drawn from a pool the subject could also
+      // belong to is checked against the corpus by hand here, because only
+      // the corpus knows what else is true.
+      final problems = <String>[];
+
+      void reject(QuizQuestion question, Set<String> alsoTrue) {
+        for (var i = 0; i < question.options.length; i++) {
+          if (i == question.answerIndex) continue;
+          if (alsoTrue.contains(question.options[i])) {
+            problems.add(
+              '${question.id}: "${question.options[i]}" is offered as wrong '
+              'and is true of the subject',
+            );
+          }
+        }
+      }
+
+      for (final language in AppLanguage.values) {
+        for (final question in across(seeds: 8, language: language)) {
+          final id = question.id;
+          final subject = id.split(':').length > 1 ? id.split(':')[1] : '';
+
+          if (id.startsWith('which-branch:')) {
+            final person = corpus.philosopher(subject);
+            if (person == null) continue;
+            reject(question, <String>{
+              for (final branch in person.branches)
+                ?corpus.taxonomy[branch]?.name.resolve(language),
+            });
+          } else if (id.startsWith('which-school:')) {
+            final person = corpus.philosopher(subject);
+            if (person == null) continue;
+            reject(question, <String>{
+              for (final school in person.schoolIds)
+                ?corpus.school(school)?.name.resolve(language),
+            });
+          } else if (id.startsWith('which-tradition:')) {
+            final person = corpus.philosopher(subject);
+            if (person == null) continue;
+            reject(question, <String>{
+              for (final tradition in person.traditions)
+                ?corpus.taxonomy[tradition]?.name.resolve(language),
+            });
+          } else if (id.startsWith('whose-work:')) {
+            final person = corpus.philosopher(subject);
+            if (person == null) continue;
+            reject(question, <String>{
+              for (final work in corpus.works)
+                if (work.authorId == person.id) work.name.resolve(language),
+            });
+          } else if (id.startsWith('which-concept:')) {
+            final concept = corpus.concept(subject);
+            if (concept == null) continue;
+            // The decoys are other concepts; none of them may share this
+            // concept's summary, which is what the reader is matching on.
+            reject(question, <String>{
+              for (final other in corpus.concepts)
+                if (other.id != concept.id &&
+                    other.oneLine.resolve(language) ==
+                        concept.oneLine.resolve(language))
+                  other.name.resolve(language),
+            });
+          } else if (id.startsWith('who-founded:')) {
+            final school = corpus.school(subject);
+            if (school == null) continue;
+            reject(question, <String>{
+              for (final relation in corpus.relations)
+                if (relation.type == RelationType.founded &&
+                    relation.object.id == school.id)
+                  ?corpus
+                      .philosopher(relation.subject.id)
+                      ?.name
+                      .resolve(language),
+            });
+          } else if (id.startsWith('who-said:')) {
+            final quote = corpus.quotes
+                .where((q) => q.id == subject)
+                .firstOrNull;
+            if (quote == null) continue;
+            reject(question, <String>{
+              ?corpus.philosopher(quote.speakerId)?.name.resolve(language),
+            });
+          } else if (id.startsWith('who-wrote:')) {
+            final work = corpus.work(subject);
+            if (work == null) continue;
+            reject(question, <String>{
+              ?corpus.philosopher(work.authorId)?.name.resolve(language),
+            });
+          } else if (id.startsWith('who-is-earlier:')) {
+            // The answer is the earliest; no decoy may have started before
+            // the subject finished.
+            final person = corpus.philosopher(subject);
+            if (person == null) continue;
+            final end =
+                person.life.death?.year ?? person.life.floruit?.end?.year;
+            if (end == null) continue;
+            reject(question, <String>{
+              for (final other in corpus.philosophers)
+                if (other.id != person.id &&
+                    ((other.life.birth?.year ??
+                            other.life.floruit?.start?.year ??
+                            end + 1) <=
+                        end))
+                  other.name.resolve(language),
+            });
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('every question points at an entry that exists', () {
       final problems = <String>[
         for (final question in across())
