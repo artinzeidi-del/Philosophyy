@@ -437,7 +437,10 @@ void main() {
       final problems = <String>[];
       for (final entry in strings) {
         for (final word in joined) {
-          if (RegExp('(?<![؀-ۿ])${RegExp.escape(word)}').hasMatch(entry.text)) {
+          if (RegExp(
+            '(?<![\\p{L}\\p{M}‌])${RegExp.escape(word)}',
+            unicode: true,
+          ).hasMatch(entry.text)) {
             problems.add('${entry.file} ${entry.path}: "$word" needs a space');
           }
         }
@@ -599,12 +602,37 @@ void main() {
         // four times in the prose; Gi Daeseung was «کی دِسونگ» in Yi Hwang's
         // entry and «گی دائه‌سونگ» in the entry for the book they argued in.
         'کی دِسونگ': 'گی دائه‌سونگ',
+        // Found by measuring every word in the corpus against every entry's
+        // own name and reading what came back close but not equal. Twenty
+        // were second spellings of someone who already had one, and three of
+        // them were Vasubandhu: «واسوباندو», «واسوباندهو», «وسوبندهو».
+        'واسوباندهو': 'واسوباندو',
+        'وسوبندهو': 'واسوباندو',
+        'ماکیاوللی': 'ماکیاولی',
+        'گورگیاس': 'گرگیاس',
+        'مهاویرا': 'مهاویره',
+        'نیکولاس': 'نیکلاس',
+        'فلوطین': 'افلوطین',
+        'ونهیو': 'وونهیو',
+        'واینتر': 'وینتر',
+        'بارکلی': 'برکلی',
+        'ماریاته‌گی': 'ماریاتگی',
+        'راولز': 'رالز',
+        'کی‌یرکگور': 'کیرکگور',
+        'کروسیپوس': 'کریسیپوس',
+        'آبیناواگوپتا': 'ابهیناواگوپتا',
+        'هیپاتیا': 'هوپاتیا',
+        'لونجینو': 'لانجینو',
+        'آئوروبیندو': 'آروبیندو',
       };
       final problems = <String>[];
       for (final entry in strings) {
         for (final pair in wrong.entries) {
-          if (RegExp('(?<![؀-ۿ])${RegExp.escape(pair.key)}(?![؀-ۿ])')
-              .hasMatch(entry.text)) {
+          if (RegExp(
+            '(?<![\\p{L}\\p{M}‌])${RegExp.escape(pair.key)}'
+            '(?![\\p{L}\\p{M}‌])',
+            unicode: true,
+          ).hasMatch(entry.text)) {
             problems.add(
               '${entry.file} ${entry.path}: "${pair.key}" — the entry says '
               '"${pair.value}"',
@@ -642,8 +670,10 @@ void main() {
       final problems = <String>[];
       for (final entry in strings) {
         for (final pair in wrong.entries) {
-          if (RegExp('(?<![؀-ۿ])${RegExp.escape(pair.key)}')
-              .hasMatch(entry.text)) {
+          if (RegExp(
+            '(?<![\\p{L}\\p{M}‌])${RegExp.escape(pair.key)}',
+            unicode: true,
+          ).hasMatch(entry.text)) {
             problems.add(
               '${entry.file} ${entry.path}: "${pair.key}" — the corpus says '
               '"${pair.value}"',

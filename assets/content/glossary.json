@@ -395,7 +395,7 @@
       },
       "long": {
         "en": "In Anaxagoras it is what sets the cosmos in order; in Aristotle it is the part of the soul that grasps first principles, which cannot themselves be proved without circularity; in Plotinus it is the level of reality below the One, where thought and its object are not yet separate. Translating it as 'mind' loses that it was never only a human faculty.",
-        "fa": "نزد آناکساگوراس آن چیزی است که کیهان را سامان می‌دهد؛ نزد ارسطو بخشی از نفس است که اصول نخستین را درمی‌یابد، اصولی که خودشان بی دور اثبات نمی‌شوند؛ نزد فلوطین مرتبه‌ای از واقعیت است زیر احد، جایی که اندیشه و متعلَّقش هنوز از هم جدا نشده‌اند. ترجمهٔ آن به «ذهن» این را از دست می‌دهد که هرگز فقط قوه‌ای انسانی نبوده است."
+        "fa": "نزد آناکساگوراس آن چیزی است که کیهان را سامان می‌دهد؛ نزد ارسطو بخشی از نفس است که اصول نخستین را درمی‌یابد، اصولی که خودشان بی دور اثبات نمی‌شوند؛ نزد افلوطین مرتبه‌ای از واقعیت است زیر احد، جایی که اندیشه و متعلَّقش هنوز از هم جدا نشده‌اند. ترجمهٔ آن به «ذهن» این را از دست می‌دهد که هرگز فقط قوه‌ای انسانی نبوده است."
       },
       "aliases": ["intellect"],
       "citations": [{ "source": "sep" }]
@@ -950,7 +950,7 @@
       },
       "long": {
         "en": "Leucippus and Democritus invented it to answer Parmenides: if what is not cannot be, nothing can move, so they granted the premise and asserted that the void exists. Indian atomism, in Vaisesika and in Buddhist schools, developed separately and faced the same objection Vasubandhu presses — that a partless unit could not combine into anything extended.",
-        "fa": "لئوکیپوس و دموکریتوس آن را برای پاسخ به پارمنیدس ساختند: اگر ناموجود نتواند باشد، هیچ‌چیز نمی‌تواند حرکت کند، پس آن‌ها مقدمه را پذیرفتند و ادعا کردند که خلأ هست. ذره‌باوری هندی، در ویشیشیکه و در مکتب‌های بودایی، جداگانه رشد کرد و با همان اشکالی روبه‌رو شد که واسوباندهو می‌آورد — اینکه واحدِ بی‌جزء نمی‌تواند به چیزی دارای امتداد ترکیب شود."
+        "fa": "لئوکیپوس و دموکریتوس آن را برای پاسخ به پارمنیدس ساختند: اگر ناموجود نتواند باشد، هیچ‌چیز نمی‌تواند حرکت کند، پس آن‌ها مقدمه را پذیرفتند و ادعا کردند که خلأ هست. ذره‌باوری هندی، در ویشیشیکه و در مکتب‌های بودایی، جداگانه رشد کرد و با همان اشکالی روبه‌رو شد که واسوباندو می‌آورد — اینکه واحدِ بی‌جزء نمی‌تواند به چیزی دارای امتداد ترکیب شود."
       },
       "aliases": ["atomist"],
       "citations": [{ "source": "sep" }]
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "junzi",
-      "term": { "en": "Junzi", "fa": "جون‌زی" },
+      "term": { "en": "Junzi", "fa": "جون‌تزه" },
       "nativeTerm": "君子",
       "transliteration": "jūnzǐ",
       "short": {
