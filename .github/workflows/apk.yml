@@ -95,8 +95,9 @@ jobs:
           app-release.apk is the universal build: it works everywhere and is
           about three times the size.
 
-          Signed with a debug key, so Android will ask you to allow
-          installation from this source."
+          Signed with the key checked into the repository, so every build
+          installs as an update over the last one. Android will still ask
+          you to allow installation from this source."
           gh release delete "$TAG" --yes --cleanup-tag || true
           gh release create "$TAG" artifacts/*.apk \
             --title "Philosophia (latest)" \

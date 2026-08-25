@@ -12,3 +12,10 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+# Except this one. app/debug.keystore is the fixed key every build outside a
+# store upload is signed with, and it is in the repository on purpose: see the
+# comment on signingConfigs in app/build.gradle.kts. Its password is "android",
+# the same one Android has used for debug keys since the beginning, and it
+# guards nothing.
+!app/debug.keystore

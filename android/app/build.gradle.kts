@@ -1,7 +1,21 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+}
+
+// Signing material for a store build, when there is any.
+//
+// `android/key.properties` is not in the repository and is not meant to be:
+// a key that ships with the source is a key anyone can sign with. When the
+// file is absent — which is the case for every build that is not a store
+// upload — the release build falls back to the keystore below, which is
+// checked in on purpose. See the comment on `signingConfigs`.
+val keyProperties = Properties().apply {
+    val file = rootProject.file("key.properties")
+    if (file.exists()) file.inputStream().use { load(it) }
 }
 
 android {
@@ -15,25 +29,54 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.philosophia.philosophyy"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
-        // Uses the version code from pubspec.yaml. When using split APKs, 1000 * ABI_VERSION
-        // is added automatically by Flutter. (https://developer.android.com/studio/build/configure-apk-splits#configure-APK-versions)
-        // You can force using the value of versionCode by specifying the `-P force-version-code-ignoring-abi=true`
-        // flag during build.
+        // Uses the version code from pubspec.yaml. When using split APKs,
+        // 1000 * ABI_VERSION is added automatically by Flutter.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        // A keystore that is in the repository, with the password Android uses
+        // for every debug key.
+        //
+        // The reason it is here rather than generated: Android decides whether
+        // an APK is an update to an installed app by comparing signatures, and
+        // a keystore generated on a fresh CI runner is a different key every
+        // build. That produces a download that will not install over the copy
+        // already on the phone — the reader has to uninstall first, and the
+        // library they have marked up goes with it. A fixed key makes every
+        // build an update to the last one.
+        //
+        // It protects nothing, and is not meant to: the password is public and
+        // so is the file. That is exactly the same guarantee a debug key has
+        // always given, and it is why this build is not one a store will take.
+        getByName("debug") {
+            storeFile = file("debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+
+        // The real one, created only when key.properties says where it is —
+        // an empty signing config is a build failure waiting for the one
+        // machine that has the file.
+        keyProperties.getProperty("storeFile")?.let { store ->
+            create("release") {
+                storeFile = rootProject.file(store)
+                storePassword = keyProperties.getProperty("storePassword")
+                keyAlias = keyProperties.getProperty("keyAlias")
+                keyPassword = keyProperties.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.findByName("release")
+                ?: signingConfigs.getByName("debug")
         }
     }
 }
