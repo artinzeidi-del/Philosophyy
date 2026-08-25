@@ -2632,7 +2632,8 @@
         "en": "Brahman is real, the world is appearance, and the self is not other than Brahman.",
         "fa": "برهمن حقیقی است، جهان نمود است، و خویشتن جز برهمن نیست."
       },
-      "originalText": "brahma satyaṃ jagan mithyā jīvo brahmaiva nāparaḥ",
+      "originalText": "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः",
+      "transliteration": "brahma satyaṃ jagan mithyā jīvo brahmaiva nāparaḥ",
       "speaker": "shankara",
       "attribution": "probable",
       "context": {
@@ -2650,7 +2651,8 @@
         "en": "Yoga is the stilling of the movements of the mind.",
         "fa": "یوگا، آرام کردنِ جنبش‌های ذهن است."
       },
-      "originalText": "yogaś citta-vṛtti-nirodhaḥ",
+      "originalText": "योगश्चित्तवृत्तिनिरोधः",
+      "transliteration": "yogaś citta-vṛtti-nirodhaḥ",
       "speaker": "patanjali",
       "attribution": "verified",
       "citation": { "source": "text-yoga-sutras", "locator": "I.2" },

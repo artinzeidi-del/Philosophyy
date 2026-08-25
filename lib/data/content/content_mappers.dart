@@ -342,6 +342,7 @@ abstract final class ContentMappers {
       id: reader.requiredString('id'),
       text: requiredLocalized(reader, 'text'),
       originalText: reader.string('originalText'),
+      transliteration: reader.string('transliteration'),
       speakerId: reader.requiredString('speaker'),
       workId: reader.string('work'),
       citation: citationObject == null ? null : citation(citationObject),

@@ -937,6 +937,57 @@ void main() {
       expect(missing, isEmpty, reason: missing.join('\n'));
     });
 
+    test('a quotation given in its original gives it in its own script', () {
+      // Thirty-five of the thirty-seven originals are in the script the words
+      // were written in — Greek for Plato, Chinese for Laozi, Arabic for Ibn
+      // Sīnā. Two Sanskrit lines were in IAST, which is Latin letters, so a
+      // reader who was shown what Plato's words looked like was shown what
+      // Śaṅkara's sounded like instead. The Devanagari is in the field that
+      // says original now, and the romanisation has a field of its own, the
+      // same pair every philosopher carries as native name and
+      // transliteration.
+      //
+      // The rule is stated as its contrapositive because it is the one that
+      // can be checked: an original written in Latin letters must belong to
+      // someone who wrote in them.
+      const latinWriting = <String>{
+        'ancient-greek', // Greek and Latin are checked by script below
+        'roman',
+        'medieval',
+        'christian',
+        'renaissance',
+        'european',
+        'analytic',
+        'continental',
+        'american',
+        'pragmatist',
+        'contemporary',
+        'latin-american',
+        'africana',
+        'african',
+        'byzantine',
+      };
+      final latinOnly = RegExp(
+        r'^[\p{Script=Latin}\p{M}\p{N}\p{P}\p{Z}]+$',
+        unicode: true,
+      );
+
+      for (final quote in corpus.quotes) {
+        final original = quote.originalText;
+        if (original == null || !latinOnly.hasMatch(original)) continue;
+        final speaker = corpus.philosopher(quote.speakerId);
+        if (speaker == null) continue;
+        expect(
+          speaker.traditions.any(latinWriting.contains),
+          isTrue,
+          reason:
+              'quote:${quote.id} gives its original in Latin letters, and '
+              '${speaker.name.en} did not write in them — a romanisation '
+              'belongs in transliteration',
+        );
+      }
+    });
+
     test('the corpus is not confined to one tradition', () {
       // A product claiming to cover world philosophy fails silently if its
       // content drifts back toward the European canon, because nothing breaks.

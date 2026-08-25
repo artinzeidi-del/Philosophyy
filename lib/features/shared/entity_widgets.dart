@@ -1407,6 +1407,26 @@ class QuoteCard extends StatelessWidget {
                       color: semantic.onQuoteSurface.withValues(alpha: 0.72),
                     ),
                   ),
+                  // The romanisation under the script it romanises, quieter
+                  // again, so a reader who cannot read Devanagari can still
+                  // say the line.
+                  if (quote.transliteration case final roman?)
+                    Padding(
+                      padding: const EdgeInsets.only(top: Spacing.xs),
+                      child: Text(
+                        roman,
+                        textDirection: TextDirection.ltr,
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          fontFamily: AppTypography.serifFamily,
+                          fontFamilyFallback: AppTypography.fallbacksFor(
+                            language,
+                          ),
+                          fontStyle: FontStyle.italic,
+                          height: 1.5,
+                          color: semantic.onQuoteSurface.withValues(alpha: 0.6),
+                        ),
+                      ),
+                    ),
                 ],
                 const SizedBox(height: Spacing.md),
                 // A `Wrap`, because the badge beside the name cannot shrink:

@@ -23,6 +23,7 @@ class Quote {
     required this.speakerId,
     required this.attribution,
     this.originalText,
+    this.transliteration,
     this.workId,
     this.citation,
     this.context,
@@ -39,7 +40,19 @@ class Quote {
 
   /// The quotation in the language it was written in, where that is known and
   /// differs from both display languages.
+  ///
+  /// In the original script. A romanisation belongs in [transliteration]: a
+  /// reader shown Greek for Plato and Chinese for Laozi is being told what
+  /// the words looked like, and Latin letters for Sanskrit answer a different
+  /// question.
   final String? originalText;
+
+  /// [originalText] in Latin letters, for a script the reader may not read.
+  ///
+  /// The same pair a philosopher carries as `nativeName` and
+  /// `transliteration`, for the same reason: one shows the words, the other
+  /// lets them be said.
+  final String? transliteration;
 
   /// The philosopher it is attributed to.
   final String speakerId;
