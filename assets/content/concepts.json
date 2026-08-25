@@ -441,7 +441,7 @@
       ],
       "related": ["substantial-motion", "theory-of-forms"],
       "philosophers": ["ibn-sina", "mulla-sadra"],
-      "works": ["isharat"],
+      "works": ["isharat", "asfar"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -986,7 +986,7 @@
       },
       "traditions": ["indian", "jain"],
       "branches": ["metaphysics", "epistemology", "logic"],
-      "philosophers": ["mahavira"],
+      "philosophers": ["mahavira", "umasvati"],
       "citations": [{ "source": "sep" }],
       "article": {
         "sections": [
@@ -1037,7 +1037,7 @@
       },
       "traditions": ["indian", "jain"],
       "branches": ["ethics", "applied-ethics", "political-philosophy"],
-      "philosophers": ["mahavira", "gandhi"],
+      "philosophers": ["mahavira", "umasvati", "gandhi"],
       "citations": [{ "source": "sep" }],
       "article": {
         "sections": [

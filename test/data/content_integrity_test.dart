@@ -866,6 +866,77 @@ void main() {
       expect(missing, isEmpty, reason: missing.join('\n'));
     });
 
+    test('every link a page draws is drawn from the other side too', () {
+      // Each page builds its lists from its own record: the concept page
+      // shows concept.philosophers, the philosopher page shows
+      // philosopher.concepts. So a link written on one side and not the
+      // other is a connection the reader can see going one way and not
+      // coming back.
+      //
+      // Six were one-way. Mullā Ṣadrā appeared on the page for the
+      // essence-existence distinction, which is the hinge of his whole
+      // system, and it did not appear on his. Ibn Sīnā appeared on the
+      // cogito, which is why the Flying Man is in the corpus at all, and
+      // the cogito did not appear on him. The Asfār named the distinction
+      // and the distinction named only the Ishārāt. And Umāsvāti, added
+      // last week, listed two concepts and a school that had not heard of
+      // him.
+      //
+      // Author is not checked here: a work names its author and the person's
+      // works are derived from that, so there is only one side to write.
+      final missing = <String>[];
+
+      void mutual(
+        String from,
+        String to,
+        Iterable<String> forward,
+        Iterable<String>? backward,
+      ) {
+        if (backward == null) return;
+        if (!backward.contains(from)) {
+          missing.add('$from lists $to, and $to does not list it back');
+        }
+      }
+
+      for (final philosopher in corpus.philosophers) {
+        for (final id in philosopher.conceptIds) {
+          mutual(
+            philosopher.id,
+            id,
+            const <String>[],
+            corpus.concept(id)?.philosopherIds,
+          );
+        }
+        for (final id in philosopher.schoolIds) {
+          mutual(
+            philosopher.id,
+            id,
+            const <String>[],
+            corpus.school(id)?.memberIds,
+          );
+        }
+      }
+      for (final concept in corpus.concepts) {
+        for (final id in concept.philosopherIds) {
+          mutual(
+            concept.id,
+            id,
+            const <String>[],
+            corpus.philosopher(id)?.conceptIds,
+          );
+        }
+        for (final id in concept.workIds) {
+          mutual(concept.id, id, const <String>[], corpus.work(id)?.conceptIds);
+        }
+      }
+      for (final work in corpus.works) {
+        for (final id in work.conceptIds) {
+          mutual(work.id, id, const <String>[], corpus.concept(id)?.workIds);
+        }
+      }
+      expect(missing, isEmpty, reason: missing.join('\n'));
+    });
+
     test('the corpus is not confined to one tradition', () {
       // A product claiming to cover world philosophy fails silently if its
       // content drifts back toward the European canon, because nothing breaks.
