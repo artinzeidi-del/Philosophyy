@@ -8,7 +8,7 @@ repository, not recalled.
 | Check | Result |
 | --- | --- |
 | `flutter analyze --fatal-infos` | no issues |
-| `flutter test` | 958 passing, across 57 test files |
+| `flutter test` | 960 passing, across 57 test files |
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
 | Release build in Chromium: 92 routes × 2 languages | 184 screens, no console errors, no overflows |
 | Every entry drawn in both languages | 934 screens, no exception |
@@ -21,7 +21,7 @@ repository, not recalled.
 | Concepts | 61 |
 | Works | 186 |
 | Schools | 29 |
-| Quotations | 256 |
+| Quotations | 250 |
 | Arguments | 12 |
 | Sources | 303 |
 | Glossary terms | 76 |

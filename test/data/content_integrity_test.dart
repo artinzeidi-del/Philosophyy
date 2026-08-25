@@ -387,6 +387,56 @@ void main() {
       }
     });
 
+    test('no quotation is entered twice', () {
+      // Four were: Beauvoir's «زن زاده نمی‌شوند» under two ids, Leibniz's
+      // windowless monads under two, Mill on Socrates under two, and the
+      // apocryphal Hypatia line under two. Each pair carried a different
+      // Persian wording of the same sentence — «ناخرسند» in one and
+      // «ناخشنود» in the other — so the entry showed the reader the same
+      // quotation twice, translated twice.
+      final byText = <String, List<String>>{};
+      for (final quote in corpus.quotes) {
+        for (final text in <String?>[quote.text.en, quote.text.fa]) {
+          if (text == null) continue;
+          byText.putIfAbsent(text, () => <String>[]).add(quote.id);
+        }
+      }
+      final duplicates = <String>[
+        for (final entry in byText.entries)
+          if (entry.value.length > 1)
+            '${entry.value.join(' and ')} are the same quotation',
+      ];
+      expect(duplicates, isEmpty, reason: duplicates.join('\n'));
+    });
+
+    test('a quotation is filed under the person it is attributed to', () {
+      // The Burke line and the Voltaire line — both of them misattributions,
+      // and neither man an entry in this corpus — were filed under Mill,
+      // which put two quotations on his page that he did not say and that
+      // nobody claims he said. A quotation with nowhere honest to sit does
+      // not get to sit somewhere else.
+      for (final quote in corpus.quotes) {
+        final speaker = corpus.philosopher(quote.speakerId);
+        expect(
+          speaker,
+          isNotNull,
+          reason: 'quote:${quote.id} names a speaker who is not an entry',
+        );
+        final note = quote.attributionNote?.en ?? '';
+        final surname = speaker!.name.en.split(' ').last;
+        if (quote.needsCaveat && note.isNotEmpty) {
+          expect(
+            note.contains(surname),
+            isTrue,
+            reason:
+                'quote:${quote.id} is filed under ${speaker.name.en} but the '
+                'note correcting it never mentions them, which is the shape '
+                'of a quotation parked on the wrong entry',
+          );
+        }
+      }
+    });
+
     test('verified quotations point at a source that exists', () {
       for (final quote in corpus.quotes.where(
         (q) => q.attribution == AttributionStatus.verified,

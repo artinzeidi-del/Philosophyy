@@ -1099,40 +1099,6 @@
       }
     },
     {
-      "id": "burke-triumph-of-evil",
-      "text": {
-        "en": "The only thing necessary for the triumph of evil is that good men do nothing.",
-        "fa": "تنها چیزی که برای پیروزی شر لازم است، این است که نیکان کاری نکنند."
-      },
-      "speaker": "mill",
-      "attribution": "misattributed",
-      "attributionNote": {
-        "en": "Attributed to Edmund Burke everywhere and found nowhere in his writings; researchers at his own archive have failed to locate it. The nearest documented ancestor is a line of John Stuart Mill's, and even that is not this sentence.",
-        "fa": "همه‌جا به ادموند برک نسبت داده می‌شود و در هیچ‌جای نوشته‌هایش یافت نمی‌شود؛ پژوهشگران بایگانی خودش هم نتوانسته‌اند جای‌گذاری‌اش کنند. نزدیک‌ترین نیای مستند، سطری از جان استیوارت میل است، و آن هم این جمله نیست."
-      },
-      "actualSource": {
-        "en": "Unknown. Often traced loosely to a remark of Mill's in an 1867 address.",
-        "fa": "ناشناخته. اغلب به‌طور آزاد به سخنی از میل در خطابه‌ای در ۱۸۶۷ ردیابی می‌شود."
-      }
-    },
-    {
-      "id": "voltaire-defend-your-right",
-      "text": {
-        "en": "I disapprove of what you say, but I will defend to the death your right to say it.",
-        "fa": "با آنچه می‌گویی مخالفم، اما تا پای جان از حقت برای گفتنش دفاع می‌کنم."
-      },
-      "speaker": "mill",
-      "attribution": "misattributed",
-      "attributionNote": {
-        "en": "Not Voltaire's. It was written by his biographer Evelyn Beatrice Hall in 1906 as a summary of his attitude, in her own words, and hardened into a quotation within a generation.",
-        "fa": "از ولتر نیست. زندگی‌نامه‌نویسش اِولین بئاتریس هال آن را در ۱۹۰۶ به‌عنوان خلاصه‌ای از نگرش او و به قلم خودش نوشت، و در عرض یک نسل به نقل‌قول سفت شد."
-      },
-      "actualSource": {
-        "en": "Evelyn Beatrice Hall, The Friends of Voltaire, 1906.",
-        "fa": "اِولین بئاتریس هال، «دوستان ولتر»، ۱۹۰۶."
-      }
-    },
-    {
       "id": "gandhi-be-the-change",
       "text": {
         "en": "Be the change you wish to see in the world.",
@@ -1306,7 +1272,7 @@
       "id": "lucretius-religion",
       "text": {
         "en": "So great are the evils that religion could prompt.",
-        "fa": "دین توانست به چه اندازه از بدی‌ها برانگیزد."
+        "fa": "چه بسیار بدی که دین توانسته است برانگیزد."
       },
       "speaker": "lucretius",
       "attribution": "verified",
@@ -1620,24 +1586,10 @@
       }
     },
     {
-      "id": "leibniz-windows",
-      "text": {
-        "en": "Monads have no windows through which anything could come in or go out.",
-        "fa": "مونادها پنجره‌ای ندارند که چیزی از آن وارد یا خارج شود."
-      },
-      "speaker": "leibniz",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "Which is why the harmony between them has to be established in advance.",
-        "fa": "و برای همین است که هماهنگی میانشان باید از پیش برقرار شده باشد."
-      },
-      "citation": { "source": "text-monadology", "locator": "§7" }
-    },
-    {
       "id": "berkeley-esse",
       "text": {
         "en": "Their esse is percipi, nor is it possible they should have any existence out of the minds or thinking things which perceive them.",
-        "fa": "بودنِ آن‌ها ادراک شدن است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
+        "fa": "«esse» آن‌ها همان «percipi» است، و ممکن نیست بیرون از ذهن‌ها یا چیزهای اندیشنده‌ای که ادراکشان می‌کنند هستی‌ای داشته باشند."
       },
       "speaker": "berkeley",
       "attribution": "verified",
@@ -1722,20 +1674,6 @@
         "source": "text-phenomenology-of-spirit",
         "locator": "Preface, §20"
       }
-    },
-    {
-      "id": "mill-socrates-dissatisfied",
-      "text": {
-        "en": "It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied.",
-        "fa": "بهتر است آدمی ناخرسند باشی تا خوکی خرسند؛ بهتر است سقراطِ ناخرسند باشی تا ابلهِ خرسند."
-      },
-      "speaker": "mill",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The sentence in which the qualitative distinction between pleasures is introduced, and with it the theory's hardest problem.",
-        "fa": "جمله‌ای که در آن تمایز کیفی میان لذت‌ها معرفی می‌شود، و با آن سخت‌ترین مسئلهٔ این نظریه."
-      },
-      "citation": { "source": "text-utilitarianism", "locator": "ch. 2" }
     },
     {
       "id": "mill-subjection-opening",
@@ -3168,24 +3106,6 @@
       }
     },
     {
-      "id": "beauvoir-become",
-      "text": {
-        "en": "One is not born, but rather becomes, a woman.",
-        "fa": "زن زاده نمی‌شوند، زن می‌شوند."
-      },
-      "originalText": "On ne naît pas femme: on le devient",
-      "speaker": "beauvoir",
-      "attribution": "verified",
-      "citation": {
-        "source": "beauvoir-second-sex",
-        "locator": "Volume II, opening"
-      },
-      "context": {
-        "en": "The sentence that opens the second volume and founded a distinction the rest of the century argued about. Beauvoir is not denying biology; she is denying that biology settles what a life is for.",
-        "fa": "جمله‌ای که جلد دوم را می‌گشاید و تمایزی را بنیاد نهاد که باقیِ آن قرن بر سرش بحث کرد. بووار زیست‌شناسی را انکار نمی‌کند؛ انکار می‌کند که زیست‌شناسی تعیین کند یک زندگی برای چیست."
-      }
-    },
-    {
       "id": "heidegger-question-being",
       "text": {
         "en": "The question of the meaning of being must be raised again.",
@@ -3474,23 +3394,6 @@
       "context": {
         "en": "Du Bois is describing a way of seeing yourself through the eyes of a world that holds you in contempt, and treating it as a source of knowledge rather than only of pain.",
         "fa": "دوبویز شیوه‌ای از دیدنِ خود را از چشمِ جهانی وصف می‌کند که تو را خوار می‌دارد، و آن را نه فقط سرچشمهٔ رنج، که سرچشمهٔ شناخت می‌داند."
-      }
-    },
-    {
-      "id": "hypatia-reserve-right",
-      "text": {
-        "en": "Reserve your right to think, for even to think wrongly is better than not to think at all.",
-        "fa": "حقِ اندیشیدن را برای خود نگه دار، که حتی نادرست اندیشیدن بهتر از اصلاً نیندیشیدن است."
-      },
-      "speaker": "hypatia",
-      "attribution": "misattributed",
-      "attributionNote": {
-        "en": "Attributed to Hypatia everywhere and traceable to no ancient source. Nothing she wrote survives, and the earliest appearance of this sentence is modern. What is known of her thought comes through her student Synesius.",
-        "fa": "همه‌جا به هوپاتیا نسبت داده می‌شود و به هیچ منبع باستانی ردیابی نمی‌شود. هیچ نوشته‌ای از او نمانده، و کهن‌ترین پیدایشِ این جمله امروزی است. آنچه از اندیشهٔ او دانسته می‌شود از راه شاگردش سینسیوس می‌آید."
-      },
-      "actualSource": {
-        "en": "No ancient source. First recorded in modern collections of sayings.",
-        "fa": "هیچ منبع باستانی. نخستین بار در مجموعه‌های امروزیِ سخنان ثبت شده است."
       }
     },
     {
