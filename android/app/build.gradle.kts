@@ -19,7 +19,7 @@ val keyProperties = Properties().apply {
 }
 
 android {
-    namespace = "com.philosophia.philosophyy"
+    namespace = "com.philosophia.app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -29,7 +29,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.philosophia.philosophyy"
+        applicationId = "com.philosophia.app"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         // Uses the version code from pubspec.yaml. When using split APKs,

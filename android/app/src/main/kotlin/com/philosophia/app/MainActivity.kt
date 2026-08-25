@@ -1,4 +1,4 @@
-package com.philosophia.philosophyy
+package com.philosophia.app
 
 import io.flutter.embedding.android.FlutterActivity
 
