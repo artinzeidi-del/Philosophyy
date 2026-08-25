@@ -445,6 +445,87 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a verb is not welded to the word before it', () {
+      // The list above names the forms that were wrong; this asks the
+      // question the other way round and names the forms that are right.
+      // Persian does weld a preverb to its verb — «برداشتن», «وانهادن»,
+      // «پذیرفتن» — and welds nothing else, so an infinitive with a word
+      // stuck to its front is either one of those or a mistake.
+      //
+      // Thirteen were mistakes: «دردکشیدن», «بالارفتن», «بنیادنهادن»,
+      // «تمایزنهادن», «هم‌راستاکردن», «دست‌وپازدن», «جابه‌جاشدن».
+      const welded = <String>[
+        'بازآمدن',
+        'بازآوردن',
+        'بازداشتن',
+        'بازساختن',
+        'بازشدن',
+        'بازکشیدن',
+        'بازگذاشتن',
+        'بازگفتن',
+        'بازیافتن',
+        'برآمدن',
+        'برآوردن',
+        'برداشتن',
+        'برنداشتن',
+        'برنهادن',
+        'برگرفتن',
+        'بنانهادن',
+        'درآمدن',
+        'درآوردن',
+        'دریافتن',
+        'فرودآمدن',
+        'نپذیرفتن',
+        'نپنداشتن',
+        'نگرفتن',
+        'واداشتن',
+        'وانهادن',
+        'واگذاشتن',
+        'پانهادن',
+        'پدیدآمدن',
+        'پذیرفتن',
+        'پنداشتن',
+        'گردیدن',
+      ];
+      const verbs = <String>[
+        'کردن',
+        'شدن',
+        'دادن',
+        'گرفتن',
+        'آوردن',
+        'زدن',
+        'بردن',
+        'داشتن',
+        'ساختن',
+        'یافتن',
+        'خوردن',
+        'کشیدن',
+        'نهادن',
+        'گذاشتن',
+        'ماندن',
+        'دیدن',
+        'گفتن',
+        'رفتن',
+        'آمدن',
+        'رساندن',
+        'بستن',
+      ];
+      final pattern = RegExp(
+        '([\\p{L}\\p{M}]{2,})(${verbs.join('|')})(?![\\p{L}\\p{M}])',
+        unicode: true,
+      );
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final match in pattern.allMatches(entry.text)) {
+          if (welded.contains(match.group(0))) continue;
+          problems.add(
+            '${entry.file} ${entry.path}: "${match.group(0)}" needs a space',
+          );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('no invented verb stands in for an ordinary word', () {
       // «وا می‌رمانند» — Derrida's summary said the texts of philosophy drove
       // their oppositions off, using a verb that does not exist in the form it
