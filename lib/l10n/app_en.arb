@@ -345,6 +345,11 @@
     "description": "Caption under the timeline on a philosopher's page.",
     "placeholders": { "name": { "type": "String" }, "dates": { "type": "String" } }
   },
+  "timelinePhilosopherFloruit": "{name} was active {dates}, which is as much as the record says — no birth or death year is attested. The band runs from the earliest entry in this reference to the present, and every faint mark on it is another philosopher.",
+  "@timelinePhilosopherFloruit": {
+    "description": "Caption under the timeline for a philosopher known only by a floruit, so the sentence does not claim a lifespan the record does not give.",
+    "placeholders": { "name": { "type": "String" }, "dates": { "type": "String" } }
+  },
   "timelineWork": "Written {dates}. Every faint mark is another work in this reference, placed by when it was composed.",
   "@timelineWork": {
     "description": "Caption under the timeline on a work's page.",

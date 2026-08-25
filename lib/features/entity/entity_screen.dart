@@ -462,10 +462,16 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
       List<int> others,
       String Function(String) caption,
     ) = switch (entity) {
+      // A floruit gets a caption of its own. Read out under the band, the
+      // ordinary one would say a figure "lived" through years the record only
+      // says they were active in, which is the claim the floruit exists to
+      // avoid making.
       final Philosopher philosopher => (
         _rangeOfLife(philosopher.life),
         _anchors(corpus.philosophers.map((p) => p.life.sortAnchor)),
-        (dates) => l10n.timelinePhilosopher(name, dates),
+        philosopher.life.birth == null && philosopher.life.death == null
+            ? (dates) => l10n.timelinePhilosopherFloruit(name, dates)
+            : (dates) => l10n.timelinePhilosopher(name, dates),
       ),
       final Work work => (
         work.composed,
