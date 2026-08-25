@@ -730,6 +730,17 @@ void main() {
         'استیفای حقوق': 'دفاع از حقوق زن',
         'دربارهٔ طبیعت اشیا': 'دربارهٔ طبیعتِ چیزها',
         'تزهایی دربارهٔ تاریخ': 'دربارهٔ مفهوم تاریخ',
+        // And the terms an article named in English but spelled loosely in
+        // the Persian. Ellul's la technique is the concept entry «فن», and
+        // eleven passages called it «تکنیک»; Camus' l'absurde is «امر پوچ»
+        // as an entry, and five passages shortened it to «پوچی», which is
+        // the state of being absurd rather than the thing he argues with.
+        'تکنیک': 'فن',
+        'نوکنفوسیوس': 'کنفوسیوس‌گرایی نو',
+        'رهیافت قابلیت‌ها': 'رویکرد قابلیت‌ها',
+        'ساتیاگْرَهه': 'ساتیاگرهه',
+        'ساتیاگرَهه': 'ساتیاگرهه',
+        'اجرایی بودن': 'اجراگری',
       };
       final problems = <String>[];
       for (final entry in strings) {
