@@ -598,6 +598,16 @@ void main() {
         // turns up is ordinary prose using «او» instead of repeating a name;
         // these five were two spellings of one person.
         'آکویناس': 'آکوئیناس',
+        // The same question asked again, with the Persian name broken into
+        // its parts rather than matched whole, which is what had hidden
+        // these four. «ژو شی» is the worse of the two Zhu Xi spellings
+        // because «ژو» is already the corpus's Zhou — Zhou Dunyi stands two
+        // lines from him in the Jinsilu entry — so one syllable had to carry
+        // two men. Peirce rhymes with purse, which is what «پرس» is for.
+        'ژو شی': 'جو شی',
+        'سولوویف': 'سالاویف',
+        'خروسیپوس': 'کریسیپوس',
+        'پیرس': 'پرس',
         'پلوتینوس': 'افلوطین',
         'نوسبام': 'نوسباوم',
         'اوکام': 'اکام',
