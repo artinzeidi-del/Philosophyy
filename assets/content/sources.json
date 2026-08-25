@@ -642,7 +642,7 @@
     {
       "id": "text-de-rerum-natura",
       "kind": "primary-text",
-      "title": { "en": "On the Nature of Things", "fa": "دربارهٔ سرشت چیزها" },
+      "title": { "en": "On the Nature of Things", "fa": "دربارهٔ طبیعتِ چیزها" },
       "authors": ["Lucretius"],
       "rightsNote": { "en": "Cited by book and line number.", "fa": "ارجاع بر پایهٔ کتاب و شمارهٔ سطر." },
       "authorsFa": ["لوکرتیوس"]
@@ -790,7 +790,7 @@
       "kind": "primary-text",
       "title": {
         "en": "On First Philosophy",
-        "fa": "فی الفلسفهٔ اولی",
+        "fa": "فی الفلسفه الاولی",
         "ar": "في الفلسفة الأولى"
       },
       "authors": ["al-Kindi"],
@@ -993,7 +993,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Eastern Investigations",
-        "fa": "مباحث مشرقیه",
+        "fa": "المباحث المشرقیه",
         "ar": "المباحث المشرقية"
       },
       "authors": ["Fakhr al-Dīn al-Rāzī"],
@@ -1060,14 +1060,14 @@
     {
       "id": "text-scivias",
       "kind": "primary-text",
-      "title": { "en": "Scivias", "fa": "سکیویاس" },
+      "title": { "en": "Scivias", "fa": "اسکیویاس" },
       "authors": ["Hildegard of Bingen"],
       "authorsFa": ["هیلدگارد بینگنی"]
     },
     {
       "id": "text-ordinatio",
       "kind": "primary-text",
-      "title": { "en": "Ordinatio", "fa": "اُردیناتیو" },
+      "title": { "en": "Ordinatio", "fa": "اوردیناتیو" },
       "authors": ["John Duns Scotus"],
       "rightsNote": { "en": "Scotus' own revision of his Sentences commentary, left unfinished at his death; cited by book, distinction and question.", "fa": "بازنگری خودِ اسکوتوس بر شرحش بر «جملات»، که با مرگ او ناتمام ماند؛ ارجاع بر پایهٔ کتاب، تمایز و مسئله." },
       "authorsFa": ["دانز اسکوتوس"]
@@ -1085,7 +1085,7 @@
     {
       "id": "text-de-docta-ignorantia",
       "kind": "primary-text",
-      "title": { "en": "On Learned Ignorance", "fa": "دربارهٔ جهل عالمانه" },
+      "title": { "en": "On Learned Ignorance", "fa": "دربارهٔ نادانی آموخته" },
       "authors": ["Nicholas of Cusa"],
       "authorsFa": ["نیکلاس کوزایی"]
     },
@@ -1109,7 +1109,7 @@
       "kind": "primary-text",
       "title": {
         "en": "On the Infinite Universe and Worlds",
-        "fa": "دربارهٔ جهان و عوالم بی‌کران"
+        "fa": "دربارهٔ گیتی و جهان‌های بی‌کران"
       },
       "authors": ["Giordano Bruno"],
       "authorsFa": ["جوردانو برونو"]
@@ -1117,7 +1117,7 @@
     {
       "id": "text-dhammapada",
       "kind": "primary-text",
-      "title": { "en": "Dhammapada", "fa": "دمّه‌پده" },
+      "title": { "en": "Dhammapada", "fa": "دمه‌پده" },
       "authors": ["Attributed to the Buddha"],
       "rightsNote": { "en": "A verse anthology in the Pali Canon, cited by verse number; compiled well after the Buddha's lifetime from oral transmission.", "fa": "گزیده‌ای منظوم در قانون پالی، با ارجاع بر پایهٔ شمارهٔ بند؛ مدت‌ها پس از زندگی بودا از روایت شفاهی گرد آمده است." },
       "authorsFa": ["بودا"]
@@ -1192,7 +1192,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Ten Diagrams on Sage Learning",
-        "fa": "ده نمودار در آموختن حکمت"
+        "fa": "ده نمودار در آموزش فرزانگی"
       },
       "authors": ["Yi Hwang"],
       "rightsNote": { "en": "Presented to the king in 1568 as a course of study; cited by diagram number.", "fa": "در ۱۵۶۸ همچون برنامه‌ای درسی به پادشاه تقدیم شد؛ ارجاع بر پایهٔ شمارهٔ نمودار." },
@@ -1203,7 +1203,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Living in the World, Joyful in the Way",
-        "fa": "در جهان زیستن، در راه شادمان"
+        "fa": "در جهان زیستن، شادمان در راه"
       },
       "authors": ["Trần Nhân Tông"],
       "rightsNote": { "en": "A poem in vernacular Vietnamese Nom script, one of the earliest surviving works in that script.", "fa": "شعری به خط بومیِ نومِ ویتنامی، از کهن‌ترین آثار بازمانده به آن خط." },
@@ -1225,7 +1225,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Reflections on Things at Hand",
-        "fa": "تأمل در چیزهای نزدیک"
+        "fa": "تأملاتی در چیزهای نزدیک"
       },
       "authors": ["Zhu Xi", "Lu Zuqian"],
       "rightsNote": { "en": "An anthology of earlier Song thinkers, selected and arranged by the compilers; the selection is itself the argument.", "fa": "گزیده‌ای از اندیشمندان پیشین دورهٔ سونگ، که گردآورندگان برگزیده و سامان داده‌اند؛ خودِ این گزینش استدلال است." },
@@ -1340,7 +1340,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Sadhana: The Realisation of Life",
-        "fa": "سادهانا: تحقق زندگی"
+        "fa": "سادهنه: تحقق زندگی"
       },
       "authors": ["Rabindranath Tagore"],
       "year": { "year": 1913 },
@@ -1375,7 +1375,7 @@
       "kind": "primary-text",
       "title": {
         "en": "The First New Chronicle and Good Government",
-        "fa": "نخستین تاریخ نو و حکومت نیکو"
+        "fa": "نخستین گزارش نو و حکومت نیک"
       },
       "authors": ["Felipe Guaman Poma de Ayala"],
       "year": { "year": 1615 },
@@ -1404,7 +1404,7 @@
       "kind": "primary-text",
       "title": {
         "en": "An Essay Concerning Human Understanding",
-        "fa": "جستاری در فهم بشری"
+        "fa": "جستاری در فهم آدمی"
       },
       "authors": ["John Locke"],
       "year": { "year": 1689 },
@@ -1456,7 +1456,7 @@
       "kind": "primary-text",
       "title": {
         "en": "A Treatise Concerning the Principles of Human Knowledge",
-        "fa": "رساله‌ای دربارهٔ اصول معرفت بشری"
+        "fa": "رساله‌ای دربارهٔ اصول شناخت آدمی"
       },
       "authors": ["George Berkeley"],
       "year": { "year": 1710 },
@@ -1479,7 +1479,7 @@
       "kind": "primary-text",
       "title": {
         "en": "A Treatise of Human Nature",
-        "fa": "رساله‌ای دربارهٔ طبیعت آدمی"
+        "fa": "رساله‌ای در طبیعت آدمی"
       },
       "authors": ["David Hume"],
       "rightsNote": { "en": "Cited by book, part and section.", "fa": "ارجاع بر پایهٔ کتاب، بخش و قسمت." },
@@ -1566,7 +1566,7 @@
     {
       "id": "text-scienza-nuova",
       "kind": "primary-text",
-      "title": { "en": "The New Science", "fa": "علم جدید" },
+      "title": { "en": "The New Science", "fa": "دانش نو" },
       "authors": ["Giambattista Vico"],
       "rightsNote": { "en": "Cited by the paragraph numbers of the 1744 edition, which are standard.", "fa": "ارجاع بر پایهٔ شمارهٔ بندهای چاپ ۱۷۴۴، که استاندارد است." },
       "authorsFa": ["جامباتیستا ویکو"]
@@ -1642,7 +1642,7 @@
       "kind": "primary-text",
       "title": {
         "en": "The World as Will and Representation",
-        "fa": "جهان همچون اراده و تصور"
+        "fa": "جهان همچون اراده و بازنمود"
       },
       "authors": ["Arthur Schopenhauer"],
       "rightsNote": { "en": "Cited by volume, book and section. The second volume, of commentary on the first, appeared twenty-six years later.", "fa": "ارجاع بر پایهٔ جلد، کتاب و بخش. جلد دوم، که شرح جلد نخست است، بیست و شش سال بعد بیرون آمد." },
@@ -1711,7 +1711,7 @@
       "kind": "primary-text",
       "title": {
         "en": "The Theory of Moral Sentiments",
-        "fa": "نظریهٔ عواطف اخلاقی"
+        "fa": "نظریهٔ احساسات اخلاقی"
       },
       "authors": ["Adam Smith"],
       "year": { "year": 1759 },
@@ -1845,7 +1845,7 @@
     {
       "id": "text-gravity-and-grace",
       "kind": "primary-text",
-      "title": { "en": "Gravity and Grace", "fa": "جاذبه و فیض" },
+      "title": { "en": "Gravity and Grace", "fa": "گرانش و فیض" },
       "authors": ["Simone Weil"],
       "year": { "year": 1947 },
       "rightsNote": { "en": "Assembled after her death from her notebooks by a friend, who chose and arranged the passages; not a book she wrote.", "fa": "پس از مرگش دوستی آن را از دفترهایش فراهم آورد و بندها را برگزید و سامان داد؛ کتابی نیست که خود نوشته باشد." },
@@ -2019,7 +2019,7 @@
       "kind": "primary-text",
       "title": {
         "en": "The Question of German Guilt",
-        "fa": "مسئلهٔ گناه آلمانی"
+        "fa": "پرسش گناه آلمانی"
       },
       "authors": ["Karl Jaspers"],
       "year": { "year": 1946 },
@@ -2039,7 +2039,7 @@
     {
       "id": "text-technological-society",
       "kind": "primary-text",
-      "title": { "en": "The Technological Society", "fa": "جامعهٔ تکنولوژیک" },
+      "title": { "en": "The Technological Society", "fa": "جامعهٔ فناورانه" },
       "authors": ["Jacques Ellul"],
       "year": { "year": 1954 },
       "authorsFa": ["ژاک الول"]
@@ -2060,7 +2060,7 @@
       "kind": "primary-text",
       "title": {
         "en": "On the Mode of Existence of Technical Objects",
-        "fa": "دربارهٔ نحوهٔ وجود اشیای فنی"
+        "fa": "دربارهٔ شیوهٔ هستی اشیای فنی"
       },
       "authors": ["Gilbert Simondon"],
       "year": { "year": 1958 },
@@ -2131,7 +2131,7 @@
       "kind": "primary-text",
       "title": {
         "en": "How It Is: The Native American Philosophy of V. F. Cordova",
-        "fa": "چنین است: فلسفهٔ بومی آمریکاییِ و. ف. کوردووا"
+        "fa": "چگونه است: فلسفهٔ بومی آمریکاییِ و. ف. کوردووا"
       },
       "authors": ["Viola F. Cordova"],
       "year": { "year": 2007 },
@@ -2143,7 +2143,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Discourse on Colonialism",
-        "fa": "گفتار دربارهٔ استعمار"
+        "fa": "گفتاری دربارهٔ استعمار"
       },
       "authors": ["Aimé Césaire"],
       "year": { "year": 1950 },
@@ -2174,7 +2174,7 @@
     {
       "id": "text-consciencism",
       "kind": "primary-text",
-      "title": { "en": "Consciencism", "fa": "آگاهی‌گرایی" },
+      "title": { "en": "Consciencism", "fa": "ضمیرگرایی" },
       "authors": ["Kwame Nkrumah"],
       "year": { "year": 1964 },
       "authorsFa": ["کوامه نکرومه"]
@@ -2214,7 +2214,7 @@
       "kind": "primary-text",
       "title": {
         "en": "The Invention of Women: Making an African Sense of Western Gender Discourses",
-        "fa": "اختراع زنان: فهمی آفریقایی از گفتارهای جنسیتی غربی"
+        "fa": "ابداع زنان: فهمی آفریقایی از گفتارهای جنسیتی غربی"
       },
       "authors": ["Oyèrónkẹ́ Oyěwùmí"],
       "year": { "year": 1997 },
@@ -2267,7 +2267,7 @@
     {
       "id": "text-gender-trouble",
       "kind": "primary-text",
-      "title": { "en": "Gender Trouble", "fa": "آشفتگی جنسیت" },
+      "title": { "en": "Gender Trouble", "fa": "آشوب جنسیتی" },
       "authors": ["Judith Butler"],
       "year": { "year": 1990 },
       "authorsFa": ["جودیت باتلر"]
@@ -2345,7 +2345,7 @@
     {
       "id": "text-principia-ethica",
       "kind": "primary-text",
-      "title": { "en": "Principia Ethica", "fa": "مبانی اخلاق" },
+      "title": { "en": "Principia Ethica", "fa": "اصول اخلاق" },
       "authors": ["G. E. Moore"],
       "year": { "year": 1903 },
       "rightsNote": { "en": "Cited by section.", "fa": "ارجاع بر پایهٔ بخش." },
@@ -2421,7 +2421,7 @@
     {
       "id": "text-theory-of-justice",
       "kind": "primary-text",
-      "title": { "en": "A Theory of Justice", "fa": "نظریه‌ای دربارهٔ عدالت" },
+      "title": { "en": "A Theory of Justice", "fa": "نظریه‌ای در باب عدالت" },
       "authors": ["John Rawls"],
       "year": { "year": 1971 },
       "rightsNote": { "en": "Cited by section.", "fa": "ارجاع بر پایهٔ بخش." },
@@ -2464,7 +2464,7 @@
     {
       "id": "text-fragility-of-goodness",
       "kind": "primary-text",
-      "title": { "en": "The Fragility of Goodness", "fa": "شکنندگی نیکی" },
+      "title": { "en": "The Fragility of Goodness", "fa": "شکنندگی خیر" },
       "authors": ["Martha Nussbaum"],
       "year": { "year": 1986 },
       "authorsFa": ["مارتا نوسباوم"]
@@ -2558,7 +2558,7 @@
     {
       "id": "text-natural-goodness",
       "kind": "primary-text",
-      "title": { "en": "Natural Goodness", "fa": "نیکیِ طبیعی" },
+      "title": { "en": "Natural Goodness", "fa": "خوبی طبیعی" },
       "authors": ["Philippa Foot"],
       "year": { "year": 2001 },
       "authorsFa": ["فیلیپا فوت"]
@@ -2566,7 +2566,7 @@
     {
       "id": "text-animal-liberation",
       "kind": "primary-text",
-      "title": { "en": "Animal Liberation", "fa": "رهایی حیوانات" },
+      "title": { "en": "Animal Liberation", "fa": "رهایی جانوران" },
       "authors": ["Peter Singer"],
       "year": { "year": 1975 },
       "authorsFa": ["پیتر سینگر"]
@@ -2654,7 +2654,7 @@
     {
       "id": "text-cyborg-manifesto",
       "kind": "journal-article",
-      "title": { "en": "A Cyborg Manifesto", "fa": "بیانیهٔ سایبورگ" },
+      "title": { "en": "A Cyborg Manifesto", "fa": "مانیفست سایبورگ" },
       "authors": ["Donna Haraway"],
       "publisher": "Socialist Review",
       "year": { "year": 1985 },
@@ -2682,7 +2682,7 @@
       "kind": "primary-text",
       "title": {
         "en": "Science as Social Knowledge",
-        "fa": "علم همچون معرفت اجتماعی"
+        "fa": "علم چون دانش اجتماعی"
       },
       "authors": ["Helen Longino"],
       "year": { "year": 1990 },

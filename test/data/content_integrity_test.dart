@@ -387,6 +387,54 @@ void main() {
       }
     });
 
+    test('a work and its own edition give the book one Persian name', () {
+      // Thirty-six of them gave it two. The Fragility of Goodness was
+      // «شکنندگی خیر» as an entry and «شکنندگی نیکی» in the source record the
+      // entry cites; Consciencism was «ضمیرگرایی» and «آگاهی‌گرایی»; The World
+      // as Will was «بازنمود» in one and «تصور» in the other. A reader who
+      // follows a citation lands on a book with a different name.
+      //
+      // A source may carry the fuller title — a subtitle, a volume number,
+      // the original where the entry translates it — so the rule is
+      // containment rather than equality.
+      // Nine sources give the book a different name on purpose: the entry
+      // shows a short display title and the record carries the full one
+      // («ایده‌هایی برای پدیدارشناسی ناب، کتاب اول»), or the entry translates
+      // the title and the record transliterates it («تنتره‌آلوکه»), or the
+      // fragments are filed under the poems they were quoted from.
+      const named = <String>{
+        'empedocles-fragments',
+        'fushikaden',
+        'ideas-i',
+        'letters-to-lucilius',
+        'liberte-negritude',
+        'normal-and-pathological',
+        'simmun-hwajaeng-non',
+        'tantraloka',
+        'unsettling-coloniality',
+      };
+      String fold(String text) => text.replaceAll(RegExp('[«»؟?ٔ‌ ]'), '');
+      final problems = <String>[];
+      for (final work in corpus.works) {
+        for (final sourceId in work.editionSourceIds) {
+          if (!sourceId.endsWith(work.id)) continue;
+          if (named.contains(work.id)) continue;
+          final source = corpus.source(sourceId);
+          final title = work.name.fa;
+          final edition = source?.title.fa;
+          if (title == null || edition == null) continue;
+          if (fold(title).contains(fold(edition)) ||
+              fold(edition).contains(fold(title))) {
+            continue;
+          }
+          problems.add(
+            'work:${work.id} is "$title" and $sourceId is "$edition"',
+          );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('no quotation is entered twice', () {
       // Four were: Beauvoir's «زن زاده نمی‌شوند» under two ids, Leibniz's
       // windowless monads under two, Mill on Socrates under two, and the
