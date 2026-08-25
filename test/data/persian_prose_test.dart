@@ -592,6 +592,9 @@ void main() {
         'نوسبام': 'نوسباوم',
         'اوکام': 'اکام',
         'ناگارجونه': 'ناگارجونا',
+        // Her entry is «سیمون دوبووار» and thirteen passages called her
+        // «بووار», which drops the particle the name is built on.
+        'بووار': 'دوبووار',
       };
       final problems = <String>[];
       for (final entry in strings) {
