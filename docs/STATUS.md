@@ -8,7 +8,7 @@ repository, not recalled.
 | Check | Result |
 | --- | --- |
 | `flutter analyze --fatal-infos` | no issues |
-| `flutter test` | 971 passing, across 57 test files |
+| `flutter test` | 972 passing, across 57 test files |
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
 | Release build in Chromium: 103 routes × 2 languages | 206 screens, no console errors, no overflows |
 | The same routes in dark mode, at 320 px and 1440 px | 412 screens, no console errors, no overflows |
@@ -24,7 +24,7 @@ repository, not recalled.
 | Schools | 29 |
 | Quotations | 238 |
 | Arguments | 12 |
-| Sources | 305 |
+| Sources | 303 |
 | Glossary terms | 76 |
 | Primer steps | 9 |
 

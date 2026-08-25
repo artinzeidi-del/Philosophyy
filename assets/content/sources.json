@@ -248,6 +248,7 @@
       "kind": "primary-text",
       "title": { "en": "Xunzi", "fa": "شون‌تزه" },
       "authors": ["Xunzi"],
+      "rightsNote": { "en": "Cited by chapter.", "fa": "ارجاع بر پایهٔ فصل." },
       "authorsFa": ["شون‌تزه"]
     },
     {
@@ -255,6 +256,7 @@
       "kind": "primary-text",
       "title": { "en": "Han Feizi", "fa": "هان فی‌تزه" },
       "authors": ["Han Feizi"],
+      "rightsNote": { "en": "Cited by chapter.", "fa": "ارجاع بر پایهٔ فصل." },
       "authorsFa": ["هان فی‌تزه"]
     },
     {
@@ -2780,22 +2782,6 @@
       "authors": ["Mencius"],
       "rightsNote": { "en": "Cited by book and passage.", "fa": "ارجاع بر پایهٔ کتاب و بند." },
       "authorsFa": ["منسیوس"]
-    },
-    {
-      "id": "text-xunzi-text",
-      "kind": "primary-text",
-      "title": { "en": "Xunzi", "fa": "شون‌تزه" },
-      "authors": ["Xunzi"],
-      "rightsNote": { "en": "Cited by chapter.", "fa": "ارجاع بر پایهٔ فصل." },
-      "authorsFa": ["شون‌تزه"]
-    },
-    {
-      "id": "text-hanfeizi-text",
-      "kind": "primary-text",
-      "title": { "en": "Han Feizi", "fa": "هان فی‌تزه" },
-      "authors": ["Han Feizi"],
-      "rightsNote": { "en": "Cited by chapter.", "fa": "ارجاع بر پایهٔ فصل." },
-      "authorsFa": ["هان فی‌تزه"]
     },
     {
       "id": "text-abhidharmakosa",

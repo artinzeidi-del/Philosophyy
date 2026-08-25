@@ -1115,6 +1115,54 @@ void main() {
       }
     });
 
+    test('a book has one source record, and an entry cites it once', () {
+      // The Xunzi had two source records and the Han Feizi had two, with the
+      // same title, the same author and the same Persian author on each pair.
+      // Both men's own entries listed both of theirs, so each page showed the
+      // one book he wrote twice in its list of sources, and the citations
+      // underneath his article did the same.
+      //
+      // Citing a book twice in one section is ordinary when the locators
+      // differ — Heraclitus' entry cites two fragments, Hobbes' two parts of
+      // Leviathan — so what is barred is the same source at the same place.
+      final byBook = <String, List<String>>{};
+      for (final source in corpus.sources) {
+        final key = <String>[
+          source.title.en.toLowerCase().trim(),
+          ...source.authors,
+        ].join('|');
+        byBook.putIfAbsent(key, () => <String>[]).add(source.id);
+      }
+      for (final entry in byBook.entries) {
+        expect(
+          entry.value,
+          hasLength(1),
+          reason:
+              'one book, ${entry.value.length} source records: '
+              '${entry.value.join(", ")}',
+        );
+      }
+
+      final repeated = <String>[];
+      void look(String owner, List<Citation> citations) {
+        final seen = <String>{};
+        for (final citation in citations) {
+          final key = '${citation.sourceId}|${citation.locator ?? ""}';
+          if (!seen.add(key)) {
+            repeated.add('$owner cites ${citation.sourceId} twice over');
+          }
+        }
+      }
+
+      for (final entity in corpus.allEntities) {
+        look(entity.ref.toString(), entity.citations);
+        for (final section in entity.article.sections) {
+          look('${entity.ref} ${section.id}', section.citations);
+        }
+      }
+      expect(repeated, isEmpty, reason: repeated.join('\n'));
+    });
+
     test('the graph connects entities in both directions', () {
       // Authored one way, readable both ways: the relation from Socrates to
       // Plato must be visible on Plato's page as well.
