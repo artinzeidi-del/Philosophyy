@@ -5,6 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
+import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/attribution.dart';
@@ -1018,6 +1019,51 @@ void main() {
             'docs/STATUS.md does not give the both-languages screen count as '
             '${entities * 2}',
       );
+    });
+
+    test('an argument is credited to the person who made it', () {
+      // The Third Man had Plato advancing it and Aristotle opposing it,
+      // which is backwards in both directions. It is the argument that
+      // Plato's Forms generate an infinite regress of further Forms — the
+      // record's own one-line summary says so — and the passage it cites is
+      // Aristotle pressing it at Metaphysics 990b17. So Plato's page
+      // offered him an argument that concludes his theory is incoherent,
+      // and Aristotle's page put "Argued against this" over the argument he
+      // named.
+      //
+      // The rule that catches it: an argument cites the text it lives in, so
+      // the author of that text is one of the people advancing it. Zeno is
+      // the exception that shapes the rule rather than breaking it — nothing
+      // he wrote survives, so Achilles and the tortoise reaches us only
+      // through Aristotle reporting it in order to answer it, and the
+      // citation has to be to an opponent because there is nowhere else for
+      // it to point.
+      for (final argument in corpus.arguments) {
+        final proponents = argument.proponentIds
+            .map(corpus.philosopher)
+            .nonNulls;
+        if (proponents.isEmpty) continue;
+        if (proponents.every((p) => p.writings != Writings.extant)) continue;
+        for (final citation in argument.citations) {
+          final source = corpus.source(citation.sourceId);
+          if (source == null || source.kind != SourceKind.primaryText) continue;
+          for (final author in source.authors) {
+            final person = corpus.philosophers
+                .where(
+                  (p) => p.name.en == author || p.alsoKnownAs.contains(author),
+                )
+                .firstOrNull;
+            if (person == null) continue;
+            expect(
+              argument.opponentIds.contains(person.id),
+              isFalse,
+              reason:
+                  'argument:${argument.id} cites ${source.id}, which '
+                  '${person.name.en} wrote, and lists them as opposing it',
+            );
+          }
+        }
+      }
     });
 
     test('the graph connects entities in both directions', () {

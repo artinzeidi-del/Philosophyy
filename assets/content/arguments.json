@@ -159,8 +159,8 @@
           ]
         }
       ],
-      "proponents": ["plato"],
-      "opponents": ["aristotle"],
+      "proponents": ["aristotle"],
+      "opponents": ["plato"],
       "concepts": ["theory-of-forms"],
       "branches": ["metaphysics", "logic"],
       "citations": [
