@@ -112,7 +112,7 @@
       "object": "argument:contingency-argument",
       "note": {
         "en": "Kant's argument that existence is not a predicate is aimed at the ontological argument, but has been pressed against contingency arguments too.",
-        "fa": "استدلال کانت که وجود محمول نیست، برهان وجودی را هدف گرفته، اما بر براهین امکان نیز اقامه شده است."
+        "fa": "استدلال کانت که وجود محمول نیست، برهان وجودی را هدف گرفته، اما بر براهین امکان نیز وارد است."
       },
       "sources": [
         "kant-critique-pure-reason"
@@ -544,7 +544,7 @@
       "object": "philosopher:tsongkhapa",
       "note": {
         "en": "The Great Treatise is an interpretation of Madhyamaka, and its distinctive claim is about how Nāgārjuna's emptiness should be established.",
-        "fa": "«رسالهٔ بزرگ» تفسیری از مادیامیکه است، و ادعای متمایزش دربارهٔ چگونگی اثبات تهی‌بودگیِ ناگارجونا است."
+        "fa": "«رسالهٔ بزرگ» تفسیری از مادیامَکه است، و ادعای متمایزش دربارهٔ چگونگی اثبات تهی‌بودگیِ ناگارجونا است."
       },
       "sources": ["sep"]
     },
@@ -555,7 +555,7 @@
       "object": "philosopher:nagarjuna",
       "note": {
         "en": "Yogācāra and Madhyamaka were later treated as rival schools, though how far the two founders actually disagreed is argued about.",
-        "fa": "یوگاچاره و مادیامیکه را بعدها مکتب‌های رقیب گرفتند، هرچند بر سر اینکه دو بنیان‌گذار واقعاً تا چه اندازه اختلاف داشتند بحث است."
+        "fa": "یوگاچاره و مادیامَکه را بعدها مکتب‌های رقیب گرفتند، هرچند بر سر اینکه دو بنیان‌گذار واقعاً تا چه اندازه اختلاف داشتند بحث است."
       },
       "sources": ["sep"]
     },
@@ -995,7 +995,7 @@
       "object": "philosopher:senghor",
       "note": {
         "en": "Wiredu's objection is that claiming a distinctively African way of knowing accepts the colonial contrast and merely flips its sign.",
-        "fa": "اعتراض ویردو این است که ادعای شیوهٔ شناختی متمایزاً آفریقایی، همان تقابل استعماری را می‌پذیرد و فقط علامتش را وارونه می‌کند."
+        "fa": "اعتراض ویردو این است که ادعای شیوه‌ای از شناخت که ویژهٔ آفریقا باشد، همان تقابل استعماری را می‌پذیرد و فقط علامتش را وارونه می‌کند."
       },
       "sources": ["sep"]
     },
