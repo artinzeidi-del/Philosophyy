@@ -119,6 +119,34 @@ abstract final class TextNormalizer {
     'ṯ': 't', 'ẕ': 'z',
     'ʿ': '', 'ʾ': '', 'ʹ': '', 'ʻ': '', '‘': '', '’': '', 'ʼ': '',
 
+    // --- Pinyin tone marks ---
+    //
+    // The third tone was the gap: «ā á à» were all here and «ǎ» was not, so
+    // Lǎozǐ, Kǒngzǐ and Lǐ could not be reached by typing Laozi, Kongzi or
+    // Li. The four tones of a vowel are one letter to anyone searching.
+    'ǎ': 'a', 'ǐ': 'i', 'ǒ': 'o', 'ǔ': 'u',
+    'ǖ': 'u', 'ǘ': 'u', 'ǚ': 'u', 'ǜ': 'u',
+    'ǹ': 'n', 'ḿ': 'm',
+
+    // --- Vietnamese ---
+    //
+    // Vietnamese stacks a tone on a vowel that already carries a mark, and
+    // Unicode gives each combination its own code point, so none of them
+    // decompose to anything already in this table. Trần Nhân Tông was
+    // unreachable by typing his name in plain letters.
+    'ằ': 'a', 'ắ': 'a', 'ẳ': 'a', 'ẵ': 'a', 'ặ': 'a',
+    'ầ': 'a', 'ấ': 'a', 'ẩ': 'a', 'ẫ': 'a', 'ậ': 'a',
+    'ẻ': 'e', 'ẽ': 'e', 'ề': 'e', 'ế': 'e', 'ể': 'e', 'ễ': 'e', 'ệ': 'e',
+    'ỉ': 'i', 'ĩ': 'i',
+    'ỏ': 'o', 'ồ': 'o', 'ố': 'o', 'ổ': 'o', 'ỗ': 'o', 'ộ': 'o',
+    'ơ': 'o', 'ờ': 'o', 'ớ': 'o', 'ở': 'o', 'ỡ': 'o', 'ợ': 'o',
+    'ủ': 'u', 'ũ': 'u', 'ư': 'u', 'ừ': 'u', 'ứ': 'u', 'ử': 'u', 'ữ': 'u',
+    'ự': 'u',
+    'ỳ': 'y', 'ỷ': 'y', 'ỹ': 'y', 'ỵ': 'y',
+
+    // --- The schwa, which Ethiopic transliteration needs ---
+    'ə': 'e', 'ᵊ': 'e',
+
     // --- Greek: strip accents, unify final sigma ---
     'ά': 'α', 'έ': 'ε', 'ή': 'η', 'ί': 'ι', 'ό': 'ο', 'ύ': 'υ', 'ώ': 'ω',
     'ϊ': 'ι', 'ϋ': 'υ', 'ΐ': 'ι', 'ΰ': 'υ',

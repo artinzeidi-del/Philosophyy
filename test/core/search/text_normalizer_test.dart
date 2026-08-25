@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/core/search/text_normalizer.dart';
 
@@ -180,6 +183,65 @@ void main() {
           reason: 'normalising "$input" twice changed the result',
         );
       }
+    });
+  });
+
+  group('Every Latin name in the corpus reaches plain letters', () {
+    test('a name written in Latin script folds to ASCII', () {
+      // The folding table is written by hand, so it covers the diacritics
+      // somebody thought of. Three families had been missed. The pinyin third
+      // tone was there for «ě» and not for «ǎ ǐ ǒ ǔ», so Lǎozǐ, Kǒngzǐ and Lǐ
+      // could not be found by typing Laozi, Kongzi or Li. Vietnamese stacks a
+      // tone on a vowel that already carries a mark and Unicode gives each
+      // combination its own code point, so nothing in Trần Nhân Tông
+      // decomposed to anything in the table. And the schwa of Zärʾa Yaʿəqob
+      // was not there at all.
+      //
+      // The rule is the test: whatever alphabet a transliteration borrows
+      // from, a reader with an English keyboard has to be able to type it.
+      // A name in its own script — Greek, Cyrillic, Arabic, CJK — is
+      // deliberately left alone, because a reader searching in that script
+      // should find it there.
+      final latin = RegExp(
+        r'^[\p{Script=Latin}\p{M}\p{N}\p{P}\p{Z}]+$',
+        unicode: true,
+      );
+      final letterOrMark = RegExp(r'[\p{L}\p{M}]', unicode: true);
+      final unreachable = <String>{};
+
+      void walk(Object? node) {
+        if (node is Map) {
+          for (final entry in node.entries) {
+            walk(entry.value);
+          }
+        } else if (node is List) {
+          for (final value in node) {
+            walk(value);
+          }
+        } else if (node is String && node.length < 80 && latin.hasMatch(node)) {
+          final folded = TextNormalizer.normalize(node);
+          for (final rune in folded.runes) {
+            // Letters only. Punctuation survives normalize by design and is
+            // removed a step later, by tokenize, so a section sign in a
+            // locator is not a name a reader cannot type.
+            if (rune > 127 &&
+                letterOrMark.hasMatch(String.fromCharCode(rune))) {
+              unreachable.add(
+                '"$node" still holds U+${rune.toRadixString(16).toUpperCase()} '
+                '"${String.fromCharCode(rune)}" after folding',
+              );
+            }
+          }
+        }
+      }
+
+      for (final file in Directory(
+        'assets/content',
+      ).listSync().whereType<File>()) {
+        walk(jsonDecode(file.readAsStringSync()));
+      }
+
+      expect(unreachable, isEmpty, reason: unreachable.join('\n'));
     });
   });
 }
