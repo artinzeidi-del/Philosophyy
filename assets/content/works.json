@@ -3780,7 +3780,7 @@
             "id": "quick",
             "depth": "quick",
             "body": {
-              "en": "Khayyām sorts cubics into fourteen types that cannot be reduced to simpler equations, and gives each a geometric construction: draw the right circle and parabola, and the length where they cross is the root. He also says plainly that he cannot find a numerical solution and that he expects someone will.",
+              "en": "Khayyam sorts cubics into fourteen types that cannot be reduced to simpler equations, and gives each a geometric construction: draw the right circle and parabola, and the length where they cross is the root. He also says plainly that he cannot find a numerical solution and that he expects someone will.",
               "fa": "خیام معادله‌های درجهٔ سوم را به چهارده گونه دسته می‌کند که به معادله‌های ساده‌تر فرو نمی‌آیند، و برای هر یک ساختی هندسی می‌دهد: دایره و سهمی درست را رسم کن، و طولی که در آن یکدیگر را می‌برند ریشه است. آشکارا هم می‌گوید که راه حل عددی را نیافته و انتظار دارد کسی بیابد."
             }
           },
@@ -3788,7 +3788,7 @@
             "id": "shape",
             "depth": "standard",
             "body": {
-              "en": "The philosophical interest is in what he takes a solution to be. For Khayyām a magnitude constructed by a demonstrable geometric procedure is known, whether or not it can be written as a number, and the algebraic and the geometric are two ways of holding the same object rather than one being a shadow of the other. That is a position about mathematical existence, and he argues for it rather than assuming it.",
+              "en": "The philosophical interest is in what he takes a solution to be. For Khayyam a magnitude constructed by a demonstrable geometric procedure is known, whether or not it can be written as a number, and the algebraic and the geometric are two ways of holding the same object rather than one being a shadow of the other. That is a position about mathematical existence, and he argues for it rather than assuming it.",
               "fa": "جذابیت فلسفی در همین است که او چه چیز را حل می‌شمارد. برای خیام مقداری که با روندی هندسی و برهان‌پذیر ساخته شود دانسته است، چه بتوان به عدد نوشتش چه نتوان، و جبری و هندسی دو شیوه نگه داشتن یک چیزند نه اینکه یکی سایه دیگری باشد. این موضعی دربارهٔ هستی ریاضی است، و او برایش استدلال می‌کند نه اینکه مفروضش بگیرد."
             },
             "citations": [
@@ -3799,7 +3799,7 @@
             "id": "deep",
             "depth": "deep",
             "body": {
-              "en": "His work on Euclid is the more radical of the two. Examining the parallel postulate, he replaces it with an assumption about the equality of two angles in a quadrilateral and derives consequences, effectively working inside what a later century would call non-Euclidean geometry without accepting that this is what he is doing. Saccheri repeats the construction in 1733; whether through a chain of transmission or independently is unsettled.\n\nThe quatrains are a separate problem and one worth stating honestly. Manuscripts attributing them to Khayyām are late, the number attached to his name grew for centuries, and a large share of the poems in circulation are certainly by other hands. FitzGerald's English version, which made the name famous, is a free composition on Persian material rather than a translation. The mathematician is documented; the poet is partly a construction, and the two should not be quietly merged.",
+              "en": "His work on Euclid is the more radical of the two. Examining the parallel postulate, he replaces it with an assumption about the equality of two angles in a quadrilateral and derives consequences, effectively working inside what a later century would call non-Euclidean geometry without accepting that this is what he is doing. Saccheri repeats the construction in 1733; whether through a chain of transmission or independently is unsettled.\n\nThe quatrains are a separate problem and one worth stating honestly. Manuscripts attributing them to Khayyam are late, the number attached to his name grew for centuries, and a large share of the poems in circulation are certainly by other hands. FitzGerald's English version, which made the name famous, is a free composition on Persian material rather than a translation. The mathematician is documented; the poet is partly a construction, and the two should not be quietly merged.",
               "fa": "کار او بر اقلیدس از آن دیگری تندروانه‌تر است. در بررسی اصل توازی، آن را با فرضی دربارهٔ برابری دو زاویه در یک چهارضلعی جایگزین می‌کند و پیامدهایش را بیرون می‌کشد، و در عمل درون چیزی کار می‌کند که سده‌ای بعد آن را هندسهٔ نااقلیدسی خواهند نامید، بی‌آنکه بپذیرد کارش همین است. ساکری در سال ۱۷۳۳ همان ساخت را تکرار می‌کند؛ اینکه از راه زنجیره‌ای از انتقال بوده یا مستقل، روشن نیست.\n\nرباعیات مسئله‌ای جداگانه است و ارزش دارد صادقانه گفته شود. دست‌نویس‌هایی که آن‌ها را به خیام می‌دهند دیرهنگام‌اند، شمار آنچه به نامش بسته شده سده‌ها فزونی گرفته، و بخش بزرگی از شعرهای رایج بی‌گمان از دیگران است. برگردان انگلیسی فیتزجرالد، که این نام را پرآوازه کرد، سرودنی آزاد بر مایه‌ای فارسی است نه ترجمه. ریاضی‌دان مستند است؛ شاعر تا حدی ساخته شده است، و این دو را نباید بی‌سروصدا در هم آمیخت."
             },
             "citations": [

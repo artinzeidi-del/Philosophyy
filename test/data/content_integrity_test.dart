@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
@@ -20,8 +23,40 @@ void main() {
 
   late KnowledgeBase corpus;
 
+  /// Every string of authored English that ships, with the field it came from.
+  ///
+  /// Read from the JSON rather than from the parsed corpus, because the rule
+  /// below is about how a name is spelled in prose and the parsed objects
+  /// have already thrown the field names away. `alsoKnownAs` is skipped: a
+  /// plain-ASCII spelling listed there is deliberate, and it is what lets a
+  /// reader who types «Anzaldua» into search find her.
+  final englishStrings = <({String file, String path, String text})>[];
+
   setUpAll(() async {
     corpus = await const AssetKnowledgeRepository().load();
+
+    void walk(Object? node, String file, String path, String? key) {
+      if (node is Map<String, Object?>) {
+        for (final entry in node.entries) {
+          if (entry.key == 'alsoKnownAs') continue;
+          walk(entry.value, file, '$path.${entry.key}', entry.key);
+        }
+      } else if (node is List) {
+        for (var i = 0; i < node.length; i++) {
+          walk(node[i], file, '$path[$i]', key);
+        }
+      } else if (node is String && key == 'en') {
+        englishStrings.add((file: file, path: path, text: node));
+      }
+    }
+
+    for (final file in Directory(
+      'assets/content',
+    ).listSync().whereType<File>()) {
+      if (!file.path.endsWith('.json')) continue;
+      walk(jsonDecode(file.readAsStringSync()), file.path, r'$', null);
+    }
+    expect(englishStrings, isNotEmpty);
   });
 
   group('The shipped corpus', () {
@@ -430,6 +465,41 @@ void main() {
           problems.add(
             'work:${work.id} is "$title" and $sourceId is "$edition"',
           );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('a name keeps its diacritics in the English too', () {
+      // The Persian side has a rule that a philosopher is spelled one way;
+      // the English side did not, and eight passages dropped a mark the name
+      // is written with: «Sadra» once against «Ṣadrā» thirty-six times,
+      // «Cesaire» twice, «Oyewumi», «Mariategui», «Anzaldua», «Ghazali»
+      // twice, «Farabi» twice — and «Khayyām» three times where the entry
+      // itself writes «Khayyam» with no macron at all.
+      //
+      // `alsoKnownAs` is exempt: a plain-ASCII spelling listed there is what
+      // lets a reader who types «Anzaldua» into search find her.
+      const wrong = <String, String>{
+        'Sadra': 'Ṣadrā',
+        'Cesaire': 'Césaire',
+        'Oyewumi': 'Oyěwùmí',
+        'Mariategui': 'Mariátegui',
+        'Anzaldua': 'Anzaldúa',
+        'Ghazali': 'Ghazālī',
+        'Farabi': 'Fārābī',
+        'Khayyām': 'Khayyam',
+      };
+      final problems = <String>[];
+      for (final entry in englishStrings) {
+        for (final pair in wrong.entries) {
+          if (RegExp('(?<![A-Za-z])${pair.key}(?![A-Za-z])')
+              .hasMatch(entry.text)) {
+            problems.add(
+              '${entry.file} ${entry.path}: "${pair.key}" — the entry writes '
+              '"${pair.value}"',
+            );
+          }
         }
       }
       expect(problems, isEmpty, reason: problems.join('\n'));
