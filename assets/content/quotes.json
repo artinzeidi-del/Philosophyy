@@ -284,22 +284,6 @@
       "citation": { "source": "text-daodejing", "locator": "ch. 64" }
     },
     {
-      "id": "laozi-knowing-others",
-      "text": {
-        "en": "Knowing others is intelligence; knowing yourself is wisdom.",
-        "fa": "شناختِ دیگران زیرکی است؛ شناختِ خود، فرزانگی."
-      },
-      "originalText": "知人者智，自知者明",
-      "speaker": "laozi",
-      "work": "daodejing",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
-        "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      },
-      "citation": { "source": "text-daodejing", "locator": "ch. 33" }
-    },
-    {
       "id": "zhuangzi-butterfly",
       "text": {
         "en": "I do not know whether I was a man dreaming I was a butterfly, or am now a butterfly dreaming I am a man.",
@@ -762,24 +746,6 @@
       }
     },
     {
-      "id": "mill-liberty",
-      "text": {
-        "en": "The only purpose for which power can rightfully be exercised over any member of a civilised community, against his will, is to prevent harm to others.",
-        "fa": "تنها هدفی که بر پایهٔ آن می‌توان بر عضوی از جامعه‌ای متمدن، بر خلاف میلش، قدرت اعمال کرد، جلوگیری از آسیب به دیگران است."
-      },
-      "speaker": "mill",
-      "attribution": "verified",
-      "context": {
-        "en": "The harm principle in its own words. Mill immediately excludes offence and disapproval, however widely shared, which is the demanding part.",
-        "fa": "اصل ضرر به زبان خودش. میل بی‌درنگ رنجش و ناخرسندی را — هرقدر هم فراگیر — بیرون می‌گذارد، و همین بخشِ سختِ آن است."
-      },
-      "attributionNote": {
-        "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
-        "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      },
-      "citation": { "source": "text-on-liberty", "locator": "ch. 1" }
-    },
-    {
       "id": "nietzsche-abyss",
       "text": {
         "en": "If you gaze long into an abyss, the abyss also gazes into you.",
@@ -796,24 +762,6 @@
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
       "citation": { "source": "nietzsche-beyond-good-evil", "locator": "§146" }
-    },
-    {
-      "id": "husserl-things",
-      "text": {
-        "en": "Back to the things themselves.",
-        "fa": "بازگشت به خودِ چیزها."
-      },
-      "originalText": "Zu den Sachen selbst",
-      "speaker": "husserl",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
-        "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
-      },
-      "citation": {
-        "source": "text-logical-investigations",
-        "locator": "II, Introduction §2"
-      }
     },
     {
       "id": "heidegger-thrown",
@@ -1190,23 +1138,6 @@
       "citation": { "source": "text-phaedo", "locator": "67e" }
     },
     {
-      "id": "aristotle-one-swallow",
-      "text": {
-        "en": "One swallow does not make a spring, nor does one day; and so too one day or a short time does not make a man blessed and happy.",
-        "fa": "یک پرستو بهار نمی‌آورد، و یک روز هم؛ و همچنین یک روز یا زمانی کوتاه آدمی را خجسته و سعادتمند نمی‌کند."
-      },
-      "speaker": "aristotle",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The reason eudaimonia is assessed over a complete life rather than a good afternoon.",
-        "fa": "دلیل اینکه سعادت در یک زندگی کامل سنجیده می‌شود نه در یک بعدازظهر خوش."
-      },
-      "citation": {
-        "source": "aristotle-nicomachean-ethics",
-        "locator": "1098a"
-      }
-    },
-    {
       "id": "aristotle-precision",
       "text": {
         "en": "It is the mark of an educated person to look for precision in each class of things just so far as the nature of the subject admits.",
@@ -1308,7 +1239,9 @@
         "en": "The opening lines, and an unusual way to begin a book about the way.",
         "fa": "سطرهای آغازین، و شیوهٔ نامعمولی برای آغاز کتابی دربارهٔ آن راه."
       },
-      "citation": { "source": "text-daodejing", "locator": "ch. 1" }
+      "citation": { "source": "text-daodejing", "locator": "ch. 1" },
+      "originalText": "道可道，非常道。名可名，非常名。",
+      "context": {"en": "The first line, and a warning about everything that follows it. The book proceeds to speak of the way for eighty more chapters, which is either a contradiction or the point.", "fa": "نخستین سطر، و هشداری دربارهٔ هرآنچه پس از آن می‌آید. کتاب هشتاد فصلِ دیگر از «راه» سخن می‌گوید، که یا تناقض است یا خودِ نکته."}
     },
     {
       "id": "laozi-soft",
@@ -1367,20 +1300,6 @@
       "citation": { "source": "confucius-analects", "locator": "II.4" }
     },
     {
-      "id": "xunzi-nature-bad",
-      "text": {
-        "en": "Human nature is bad; its goodness is the result of deliberate activity.",
-        "fa": "سرشت آدمی بد است؛ خوبی‌اش حاصل کارِ عامدانه است."
-      },
-      "speaker": "xunzi",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The chapter title states the thesis, and the argument against Mencius runs through it.",
-        "fa": "عنوان آن فصل همین تز است، و استدلال علیه منسیوس در سراسر آن می‌رود."
-      },
-      "citation": { "source": "text-xunzi-text", "locator": "ch. 23" }
-    },
-    {
       "id": "mozi-benefit",
       "text": {
         "en": "It is the business of the benevolent to seek to promote what benefits the world and to eliminate what harms it.",
@@ -1407,20 +1326,6 @@
         "fa": "بیت آغازین، در برگردانی از قرن نوزدهم که مشهورش کرد؛ ترجمه‌های دقیق‌تر چیزی نزدیک به «ذهن بر همهٔ حالت‌ها پیشی دارد» می‌دهند."
       },
       "citation": { "source": "text-dhammapada", "locator": "1.1" }
-    },
-    {
-      "id": "patanjali-stilling",
-      "text": {
-        "en": "Yoga is the stilling of the movements of the mind. Then the seer abides in its own form.",
-        "fa": "یوگا آرام کردن جنبش‌های ذهن است. آن‌گاه بیننده در صورت خودش می‌ماند."
-      },
-      "speaker": "patanjali",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The definition and its consequence, in the second and third aphorisms of the text.",
-        "fa": "تعریف و پیامدش، در بند دوم و سوم این متن."
-      },
-      "citation": { "source": "text-yoga-sutras", "locator": "1.2–1.3" }
     },
     {
       "id": "mahavira-all-beings",
@@ -1496,20 +1401,6 @@
       }
     },
     {
-      "id": "ibn-rushd-truth",
-      "text": {
-        "en": "Truth does not contradict truth but accords with it and bears witness to it.",
-        "fa": "حقیقت با حقیقت ناسازگار نیست، با آن می‌خواند و بر آن گواهی می‌دهد."
-      },
-      "speaker": "ibn-rushd",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The premise of the whole treatise: if demonstration reaches one conclusion and scripture appears to state another, the text needs interpretation.",
-        "fa": "مقدمهٔ کل آن رساله: اگر برهان به نتیجه‌ای برسد و ظاهر شرع چیز دیگری بگوید، آن متن به تأویل نیاز دارد."
-      },
-      "citation": { "source": "text-fasl-al-maqal" }
-    },
-    {
       "id": "ibn-al-haytham-doubt",
       "text": {
         "en": "The seeker after truth is not one who studies the writings of the ancients and puts his trust in them, but rather the one who suspects his faith in them and questions what he gathers from them.",
@@ -1521,7 +1412,8 @@
         "en": "From the book taking Ptolemy apart, which is what gives the sentence its force: he had just done it.",
         "fa": "از کتابی که بطلمیوس را تکه‌تکه می‌کند، و همین است که به این جمله نیرو می‌دهد: او همین کار را کرده بود."
       },
-      "citation": { "source": "text-al-shukuk-ala-batlamyus" }
+      "citation": { "source": "text-al-shukuk-ala-batlamyus" },
+      "context": {"en": "Written in a book devoted to finding errors in Ptolemy, whose astronomy Ibn al-Haytham otherwise used. The passage goes on to say that a reader should attack an author's work from every side, and suspect himself as well.", "fa": "در کتابی نوشته شده که وقفِ یافتنِ خطاهای بطلمیوس است، همان که ابن‌هیثم در جاهای دیگر از نجومش استفاده می‌کرد. بند در ادامه می‌گوید خواننده باید کار نویسنده را از هر سو بکاود، و به خودش هم بدگمان باشد."}
     },
     {
       "id": "anselm-believe-understand",
@@ -1893,20 +1785,6 @@
       }
     },
     {
-      "id": "davis-prisons-disappear",
-      "text": {
-        "en": "Prisons do not disappear problems, they disappear human beings.",
-        "fa": "زندان‌ها مسئله‌ها را ناپدید نمی‌کنند، آدم‌ها را ناپدید می‌کنند."
-      },
-      "speaker": "angela-davis",
-      "attribution": "verified",
-      "attributionNote": {
-        "en": "The sentence the abolitionist argument is built around.",
-        "fa": "جمله‌ای که استدلال لغو زندان حول آن ساخته شده."
-      },
-      "citation": { "source": "text-are-prisons-obsolete", "locator": "ch. 1" }
-    },
-    {
       "id": "haraway-cyborg-goddess",
       "text": {
         "en": "I would rather be a cyborg than a goddess.",
@@ -2144,7 +2022,7 @@
       "id": "cicero-philosophy-life",
       "text": {
         "en": "Philosophy, guide of life, seeker of virtues and expeller of vices.",
-        "fa": "ای فلسفه، راهبرِ زندگی، جویندهٔ فضیلت‌ها و راننده‌ی رذیلت‌ها."
+        "fa": "ای فلسفه، راهبرِ زندگی، جویندهٔ فضیلت‌ها و رانندهٔ رذیلت‌ها."
       },
       "originalText": "o vitae philosophia dux, o virtutis indagatrix expultrixque vitiorum",
       "speaker": "cicero",
@@ -2568,7 +2446,8 @@
       "context": {
         "en": "The argument of the book compressed: if the institution is judged by what it actually removes from view rather than by what it claims to solve, abolition becomes a practical question rather than a utopian one.",
         "fa": "استدلالِ کتاب در فشرده‌ترین صورت: اگر این نهاد را بر پایهٔ آنچه واقعاً از دید بیرون می‌برد داوری کنیم نه بر پایهٔ آنچه ادعا می‌کند حل می‌کند، برچیدنش پرسشی عملی می‌شود نه آرمان‌شهری."
-      }
+      },
+      "attributionNote": {"en": "The sentence the abolitionist argument is built around.", "fa": "جمله‌ای که استدلال لغو زندان حول آن ساخته شده."}
     },
     {
       "id": "butler-gender",
@@ -2747,24 +2626,6 @@
       }
     },
     {
-      "id": "ibn-al-haytham-truth",
-      "text": {
-        "en": "The seeker after truth is not one who studies the writings of the ancients and puts his trust in them.",
-        "fa": "جویندهٔ حقیقت آن نیست که نوشته‌های پیشینیان را می‌خواند و به آن‌ها اعتماد می‌کند."
-      },
-      "speaker": "ibn-al-haytham",
-      "attribution": "probable",
-      "citation": { "source": "text-al-shukuk-ala-batlamyus" },
-      "context": {
-        "en": "Written in a book devoted to finding errors in Ptolemy, whose astronomy Ibn al-Haytham otherwise used. The passage goes on to say that a reader should attack an author's work from every side, and suspect himself as well.",
-        "fa": "در کتابی نوشته شده که وقفِ یافتنِ خطاهای بطلمیوس است، همان که ابن‌هیثم در جاهای دیگر از نجومش استفاده می‌کرد. بند در ادامه می‌گوید خواننده باید کار نویسنده را از هر سو بکاود، و به خودش هم بدگمان باشد."
-      },
-      "attributionNote": {
-        "en": "From the Doubts Concerning Ptolemy; the wording follows the standard English rendering rather than a located edition.",
-        "fa": "از «الشکوک علی بطلمیوس»؛ عبارت، برگردان انگلیسیِ معیار را دنبال می‌کند نه ویراستی مشخص."
-      }
-    },
-    {
       "id": "shankara-brahman",
       "text": {
         "en": "Brahman is real, the world is appearance, and the self is not other than Brahman.",
@@ -2795,7 +2656,8 @@
       "context": {
         "en": "The second line of the text and its definition of the whole subject. Everything after it is a description of what stands in the way and what to do about it.",
         "fa": "سطر دومِ متن و تعریفِ آن از تمامِ موضوع. هرچه پس از آن می‌آید، وصفِ آن است که چه چیز سرِ راه است و با آن چه باید کرد."
-      }
+      },
+      "attributionNote": {"en": "The definition and its consequence, in the second and third aphorisms of the text.", "fa": "تعریف و پیامدش، در بند دوم و سوم این متن."}
     },
     {
       "id": "laozi-know-others",
@@ -2810,21 +2672,9 @@
       "context": {
         "en": "The chapter continues in pairs, each one setting an outward power against an inward one and rating the inward higher: mastering others is force, mastering yourself is strength.",
         "fa": "این فصل جفت‌جفت پیش می‌رود، و هر جفت توانی بیرونی را در برابر توانی درونی می‌نهد و درونی را برتر می‌شمارد: چیرگی بر دیگران زور است، چیرگی بر خویش نیرو."
-      }
-    },
-    {
-      "id": "mencius-child-well",
-      "text": {
-        "en": "Anyone who suddenly sees a child about to fall into a well will have a feeling of alarm and distress.",
-        "fa": "هرکه ناگهان کودکی را در آستانهٔ افتادن در چاه ببیند، دچار تشویش و اندوه می‌شود."
       },
-      "speaker": "mencius",
-      "attribution": "verified",
-      "citation": { "source": "text-mengzi", "locator": "2A.6" },
-      "context": {
-        "en": "Mencius uses it to argue that the reaction proves something about human nature: it happens before any calculation, and not in order to win the parents' favour or a reputation among neighbours.",
-        "fa": "منسیوس از آن استفاده می‌کند تا نشان دهد این واکنش چیزی دربارهٔ سرشت آدمی ثابت می‌کند: پیش از هر محاسبه‌ای رخ می‌دهد، و نه برای جلبِ نظرِ پدر و مادر یا آوازه‌ای میان همسایگان."
-      }
+      "work": "daodejing",
+      "attributionNote": {"en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.", "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."}
     },
     {
       "id": "xunzi-nature-evil",
@@ -2838,7 +2688,8 @@
       "context": {
         "en": "Written directly against Mencius, and often mistranslated as a doctrine of depravity. Xunzi's claim is that what people are born with is appetite, and that ritual and learning are what make anything else out of it.",
         "fa": "مستقیماً در برابر منسیوس نوشته شده، و بارها آن را به‌غلط چون آموزه‌ای دربارهٔ فسادِ ذاتی ترجمه کرده‌اند. ادعای شون‌تزه این است که آنچه آدمیان با آن زاده می‌شوند اشتهاست، و آیین و آموختن است که چیز دیگری از آن می‌سازد."
-      }
+      },
+      "attributionNote": {"en": "The chapter title states the thesis, and the argument against Mencius runs through it.", "fa": "عنوان آن فصل همین تز است، و استدلال علیه منسیوس در سراسر آن می‌رود."}
     },
     {
       "id": "ptahhotep-listening",
@@ -2887,7 +2738,8 @@
       "context": {
         "en": "Placed where it is to block a misreading: eudaimonia has just been defined as activity of the soul in accordance with virtue, and Aristotle wants it understood as a shape a whole life has, not a state a person can be in on Tuesday.",
         "fa": "آنجا نهاده شده تا جلوی بدفهمی را بگیرد: «ادایمونیا» همین حالا چون فعالیتِ نفس بر وفقِ فضیلت تعریف شده، و ارسطو می‌خواهد آن را شکلی بفهمند که یک زندگیِ کامل دارد، نه حالتی که کسی می‌تواند سه‌شنبه در آن باشد."
-      }
+      },
+      "attributionNote": {"en": "The reason eudaimonia is assessed over a complete life rather than a good afternoon.", "fa": "دلیل اینکه سعادت در یک زندگی کامل سنجیده می‌شود نه در یک بعدازظهر خوش."}
     },
     {
       "id": "aristotle-all-men-desire",
@@ -2950,7 +2802,8 @@
       "context": {
         "en": "The whole of liberalism's argument about the limits of interference, in one sentence. Mill immediately adds that a person's own good is not a sufficient warrant, which is the part most often left out.",
         "fa": "تمامِ استدلالِ لیبرالیسم دربارهٔ حدودِ مداخله، در یک جمله. میل بی‌درنگ می‌افزاید که خیرِ خودِ شخص مجوزِ کافی نیست، و همین بخش است که بیشتر از قلم می‌افتد."
-      }
+      },
+      "attributionNote": {"en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.", "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."}
     },
     {
       "id": "mill-socrates",
@@ -3269,21 +3122,6 @@
       }
     },
     {
-      "id": "confucius-not-impose",
-      "text": {
-        "en": "What you do not want done to yourself, do not do to others.",
-        "fa": "آنچه بر خود نمی‌پسندی بر دیگران مپسند."
-      },
-      "originalText": "己所不欲，勿施於人",
-      "speaker": "confucius",
-      "attribution": "verified",
-      "citation": { "source": "confucius-analects", "locator": "15.24" },
-      "context": {
-        "en": "Offered as the answer to a disciple who asked for a single word to practise all one's life. The word Confucius gives is shu, usually rendered reciprocity, and the sentence is his gloss on it.",
-        "fa": "در پاسخ به شاگردی آمده که واژه‌ای یگانه خواسته بود تا همهٔ عمر به کارش بندد. واژه‌ای که کنفوسیوس می‌دهد «شو» است، که معمولاً «متقابل بودن» ترجمه می‌شود، و این جمله شرحِ اوست بر آن."
-      }
-    },
-    {
       "id": "confucius-learning",
       "text": {
         "en": "To learn and at due times to practise what one has learnt — is that not a pleasure?",
@@ -3295,21 +3133,6 @@
       "context": {
         "en": "The opening line of the Analects. What it puts first is not a doctrine but a way of spending time, and the two questions that follow it are about friendship and about not minding being unrecognised.",
         "fa": "نخستین سطرِ «مکالمات». آنچه در آغاز می‌نهد نه آموزه‌ای که شیوه‌ای از گذراندنِ وقت است، و دو پرسشِ پس از آن دربارهٔ دوستی است و دربارهٔ اینکه ناشناخته ماندن را به دل نگیری."
-      }
-    },
-    {
-      "id": "laozi-way-that-can-be-spoken",
-      "text": {
-        "en": "The way that can be spoken of is not the constant way.",
-        "fa": "راهی که بتوان از آن سخن گفت، راهِ پایدار نیست."
-      },
-      "originalText": "道可道，非常道",
-      "speaker": "laozi",
-      "attribution": "verified",
-      "citation": { "source": "text-daodejing", "locator": "ch. 1" },
-      "context": {
-        "en": "The first line, and a warning about everything that follows it. The book proceeds to speak of the way for eighty more chapters, which is either a contradiction or the point.",
-        "fa": "نخستین سطر، و هشداری دربارهٔ هرآنچه پس از آن می‌آید. کتاب هشتاد فصلِ دیگر از «راه» سخن می‌گوید، که یا تناقض است یا خودِ نکته."
       }
     },
     {
@@ -3380,21 +3203,8 @@
       "context": {
         "en": "Written as a legal opinion rather than a treatise: Ibn Rushd was a judge, and the question before him was whether studying philosophy is permitted. His answer is that if revelation is true and demonstration is valid, they cannot conflict.",
         "fa": "نه به‌صورت رساله که چون فتوایی حقوقی نوشته شده: ابن‌رشد قاضی بود، و پرسشِ پیشِ رویش این بود که آیا خواندنِ فلسفه رواست. پاسخش این است که اگر وحی راست باشد و برهان معتبر، نمی‌توانند در تعارض باشند."
-      }
-    },
-    {
-      "id": "dubois-double-consciousness",
-      "text": {
-        "en": "One ever feels his twoness — an American, a Negro; two souls, two thoughts, two unreconciled strivings.",
-        "fa": "آدمی همواره دوگانگی‌اش را حس می‌کند — یک آمریکایی، یک سیاه‌پوست؛ دو روح، دو اندیشه، دو کوششِ آشتی‌نیافته."
       },
-      "speaker": "du-bois",
-      "attribution": "verified",
-      "citation": { "source": "dubois-souls", "locator": "ch. 1" },
-      "context": {
-        "en": "Du Bois is describing a way of seeing yourself through the eyes of a world that holds you in contempt, and treating it as a source of knowledge rather than only of pain.",
-        "fa": "دوبویز شیوه‌ای از دیدنِ خود را از چشمِ جهانی وصف می‌کند که تو را خوار می‌دارد، و آن را نه فقط سرچشمهٔ رنج، که سرچشمهٔ شناخت می‌داند."
-      }
+      "attributionNote": {"en": "The premise of the whole treatise: if demonstration reaches one conclusion and scripture appears to state another, the text needs interpretation.", "fa": "مقدمهٔ کل آن رساله: اگر برهان به نتیجه‌ای برسد و ظاهر شرع چیز دیگری بگوید، آن متن به تأویل نیاز دارد."}
     },
     {
       "id": "descartes-good-sense",
@@ -3867,7 +3677,8 @@
       "context": {
         "en": "The slogan phenomenology is known by, and a methodological instruction rather than a metaphysical claim: describe what is given before theorising about what lies behind it.",
         "fa": "شعاری که پدیدارشناسی با آن شناخته می‌شود، و دستوری روش‌شناختی است نه ادعایی متافیزیکی: پیش از نظریه‌پردازی دربارهٔ آنچه پشتِ آن است، آنچه را داده شده وصف کن."
-      }
+      },
+      "attributionNote": {"en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.", "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."}
     },
     {
       "id": "merleau-ponty-body",

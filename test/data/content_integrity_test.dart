@@ -406,6 +406,32 @@ void main() {
           if (entry.value.length > 1)
             '${entry.value.join(' and ')} are the same quotation',
       ];
+
+      // Thirteen more pairs were the same quotation in two English wordings,
+      // which an exact match cannot see: «two-ness» beside «twoness», «can
+      // rightfully» beside «can be rightfully», «problems» beside «social
+      // problems». The Persian differed in every pair, and in one of them the
+      // two translations disagreed about what the line says — Laozi's chapter
+      // 33 was «زیرکی/فرزانگی» in one and «دانایی/روشن‌بینی» in the other.
+      //
+      // Berkeley's pair is the exception the rule needs: his own «Their esse
+      // is percipi» and the plain-English version he is usually reported in
+      // are both here on purpose, and the entry for each says so.
+      const deliberate = <String>{'berkeley-esse|berkeley-esse-tag'};
+      final quotes = corpus.quotes.toList();
+      for (var i = 0; i < quotes.length; i++) {
+        for (var j = i + 1; j < quotes.length; j++) {
+          final a = quotes[i];
+          final b = quotes[j];
+          if (a.speakerId != b.speakerId) continue;
+          if (deliberate.contains('${a.id}|${b.id}')) continue;
+          if (_similarity(a.text.en, b.text.en) > 0.62) {
+            duplicates.add(
+              '${a.id} and ${b.id} are the same quotation, worded twice',
+            );
+          }
+        }
+      }
       expect(duplicates, isEmpty, reason: duplicates.join('\n'));
     });
 
@@ -862,4 +888,30 @@ String _collapse(String text, String subject) {
   final name = subject.replaceAll(RegExp(r'\s*\(.*?\)'), '').trim();
   if (name.isEmpty) return text;
   return text.replaceAll(name, 'SUBJECT');
+}
+
+/// How alike two strings are, from 0 to 1, by the longest run they share.
+///
+/// Enough to catch a quotation entered twice in two wordings, which is what it
+/// is for; not a general similarity measure.
+double _similarity(String a, String b) {
+  final left = a.toLowerCase();
+  final right = b.toLowerCase();
+  if (left.isEmpty || right.isEmpty) return 0;
+  final shared = _longestCommonSubsequence(left, right);
+  return 2 * shared / (left.length + right.length);
+}
+
+int _longestCommonSubsequence(String a, String b) {
+  var previous = List<int>.filled(b.length + 1, 0);
+  for (var i = 1; i <= a.length; i++) {
+    final current = List<int>.filled(b.length + 1, 0);
+    for (var j = 1; j <= b.length; j++) {
+      current[j] = a.codeUnitAt(i - 1) == b.codeUnitAt(j - 1)
+          ? previous[j - 1] + 1
+          : (previous[j] > current[j - 1] ? previous[j] : current[j - 1]);
+    }
+    previous = current;
+  }
+  return previous[b.length];
 }

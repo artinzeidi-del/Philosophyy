@@ -21,7 +21,7 @@ repository, not recalled.
 | Concepts | 61 |
 | Works | 186 |
 | Schools | 29 |
-| Quotations | 250 |
+| Quotations | 237 |
 | Arguments | 12 |
 | Sources | 303 |
 | Glossary terms | 76 |
