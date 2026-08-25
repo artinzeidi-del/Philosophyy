@@ -306,6 +306,12 @@ void main() {
         'ضرورتا',
         'لزوما',
         'منطقا',
+        // Found the other way round: every word that carries a tanwin
+        // somewhere in the corpus, looked for bare somewhere else.
+        'احتمالا',
+        'اصولا',
+        'قانونا',
+        'موقتا',
       ];
       final pattern = RegExp(
         '(?<![\\p{L}\\p{M}‌])(${adverbs.join('|')})(?![\\p{L}\\p{M}‌])',

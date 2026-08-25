@@ -390,7 +390,7 @@
             "depth": "quick",
             "body": {
               "en": "Daoism distrusts the very thing Confucianism relies on: deliberate cultivation. Its claim is that the most effective action looks like no action at all — wúwéi — and that most human trouble comes from forcing what would have arranged itself. The Dao is not a thing you can name; the Daodejing opens by saying so.",
-              "fa": "دائوئیسم به همان چیزی بدگمان است که کنفوسیوس‌گرایی بر آن تکیه دارد: پرورشِ عامدانه. ادعایش این است که مؤثرترین کنش همان است که به بی‌کنشی می‌ماند — «وو وی» — و بیشترِ گرفتاری آدمی از آنجاست که چیزی را به زور پیش می‌برد که خود سامان می‌گرفت. «دائو» چیزی نیست که بتوان نامش نهاد؛ دائودجینگ با همین جمله آغاز می‌شود."
+              "fa": "دائوئیسم به همان چیزی بدگمان است که کنفوسیوس‌گرایی بر آن تکیه دارد: پرورشِ عامدانه. ادعایش این است که مؤثرترین کنش همان است که به بی‌کنشی می‌ماند — «وو وی» — و بیشترِ گرفتاری آدمی از آنجاست که چیزی را به زور پیش می‌برد که خود سامان می‌گرفت. «دائو» چیزی نیست که بتوان نامش نهاد؛ دائو ده جینگ با همین جمله آغاز می‌شود."
             }
           },
           {
@@ -398,7 +398,7 @@
             "depth": "standard",
             "body": {
               "en": "Wúwéi is easy to mistake for passivity. The texts describe it with craftsmen: a butcher whose blade has not been sharpened in nineteen years because he cuts along the joints rather than through them, a swimmer who survives a waterfall by going with the water. This is skill so complete that effort disappears from it — not the absence of action but the absence of forcing.\n\nZhuangzi pushes the same thought further and stranger. If our categories are our own, then so is the confidence that we are awake, or human, or right. He wakes from dreaming he was a butterfly and cannot establish which way round it goes. Where the Daodejing offers advice to rulers, Zhuangzi offers something closer to a loosening — and the two together gave Chinese thought its permanent counterweight to the Confucian insistence that things must be put in order.",
-              "fa": "«وو وی» را آسان می‌توان با انفعال اشتباه گرفت. متن‌ها آن را با پیشه‌وران وصف می‌کنند: قصابی که نوزده سال است تیغش را تیز نکرده، چون از میان بندها می‌بُرد نه از میان استخوان؛ شناگری که از آبشار جان به در می‌برد چون با آب می‌رود. این مهارتی است چنان تمام که کوشش از آن ناپدید شده — نه نبودِ کنش، که نبودِ زور.\n\nجوانگ‌تزه همین فکر را دورتر و غریب‌تر می‌بَرد. اگر مقوله‌های ما از خود ماست، پس این اطمینان هم که بیداریم، یا آدمی‌ایم، یا بر حقیم، از خود ماست. از خوابی برمی‌خیزد که در آن پروانه بوده و نمی‌تواند تعیین کند کدام سو درست است. آنجا که دائودجینگ به فرمانروایان اندرز می‌دهد، جوانگ‌تزه چیزی نزدیک‌تر به گشودن گره عرضه می‌کند — و این دو با هم به اندیشهٔ چینی وزنهٔ متقابلِ همیشگی‌اش را در برابر اصرار کنفوسیوسی بر سامان دادن به کارها دادند."
+              "fa": "«وو وی» را آسان می‌توان با انفعال اشتباه گرفت. متن‌ها آن را با پیشه‌وران وصف می‌کنند: قصابی که نوزده سال است تیغش را تیز نکرده، چون از میان بندها می‌بُرد نه از میان استخوان؛ شناگری که از آبشار جان به در می‌برد چون با آب می‌رود. این مهارتی است چنان تمام که کوشش از آن ناپدید شده — نه نبودِ کنش، که نبودِ زور.\n\nجوانگ‌تزه همین فکر را دورتر و غریب‌تر می‌بَرد. اگر مقوله‌های ما از خود ماست، پس این اطمینان هم که بیداریم، یا آدمی‌ایم، یا بر حقیم، از خود ماست. از خوابی برمی‌خیزد که در آن پروانه بوده و نمی‌تواند تعیین کند کدام سو درست است. آنجا که دائو ده جینگ به فرمانروایان اندرز می‌دهد، جوانگ‌تزه چیزی نزدیک‌تر به گشودن گره عرضه می‌کند — و این دو با هم به اندیشهٔ چینی وزنهٔ متقابلِ همیشگی‌اش را در برابر اصرار کنفوسیوسی بر سامان دادن به کارها دادند."
             },
             "citations": [{ "source": "text-daodejing" }, { "source": "sep" }]
           },
@@ -815,7 +815,7 @@
             "depth": "quick",
             "body": {
               "en": "Jain philosophy holds that reality has more sides than any one description can catch, and turns that into a formal method: every claim is true only from a standpoint, and must be stated with the standpoint attached. Its ethics follows from the same modesty — if you cannot be certain, you had better not harm.",
-              "fa": "فلسفهٔ جَین می‌گوید واقعیت وجوهی بیش از آن دارد که یک توصیف بتواند بگیرد، و همین را به روشی صوری بدل می‌کند: هر ادعا تنها از یک منظر صادق است، و باید با ذکر آن منظر بیان شود. اخلاقش از همین فروتنی برمی‌آید — اگر نمی‌توانی یقین داشته باشی، بهتر است آزار نرسانی."
+              "fa": "فلسفهٔ جین می‌گوید واقعیت وجوهی بیش از آن دارد که یک توصیف بتواند بگیرد، و همین را به روشی صوری بدل می‌کند: هر ادعا تنها از یک منظر صادق است، و باید با ذکر آن منظر بیان شود. اخلاقش از همین فروتنی برمی‌آید — اگر نمی‌توانی یقین داشته باشی، بهتر است آزار نرسانی."
             }
           },
           {
@@ -823,7 +823,7 @@
             "depth": "standard",
             "body": {
               "en": "The doctrine is called anekāntavāda, many-sidedness, and its illustration is the blind men and the elephant — each report accurate, each mistaken in taking a part for the whole. The formal version, syādvāda, prefixes assertions with 'in some respect', and gives seven combinations of affirmation, denial and inexpressibility. Critics from Śaṅkara onward have called it evasion. Jains reply that a philosophy which claims one complete description is the thing actually being evasive.\n\nAhiṃsā, non-harm, is not a separate commitment but the practical face of the same thought: certainty is what licenses violence. Mahāvīra taught this in the fifth century BCE, and the tradition worked it out in unusual detail, down to the ethics of agriculture and of breathing. Gandhi, raised among Jains, took both ideas into politics.",
-              "fa": "این آموزه را «اَنِکانته‌واده» می‌نامند، چندوجهی بودن، و مثالش نابینایان و فیل است — هر گزارش دقیق، و هر یک در گرفتن جزء به‌جای کل خطاکار. صورت صوری‌اش، «سیاد واده»، پیش از هر حکم «از جهتی» می‌گذارد و هفت ترکیب از اثبات و نفی و بیان‌ناپذیری به دست می‌دهد. منتقدان از شنکره به این سو آن را طفره خوانده‌اند. جَین‌ها پاسخ می‌دهند فلسفه‌ای که مدعی یک توصیف تمام است، همان است که در واقع طفره می‌رود.\n\n«اَهیمسا»، نیازردن، تعهدی جدا نیست بلکه چهرهٔ عملی همان فکر است: این یقین است که جواز خشونت می‌دهد. مَهاویره این را در سدهٔ پنجم پیش از میلاد آموخت، و این سنت آن را با تفصیلی نامعمول پرورد، تا اخلاق کشاورزی و حتی نفس کشیدن. گاندی که میان جَین‌ها بزرگ شده بود، هر دو فکر را به سیاست برد."
+              "fa": "این آموزه را «اَنِکانته‌واده» می‌نامند، چندوجهی بودن، و مثالش نابینایان و فیل است — هر گزارش دقیق، و هر یک در گرفتن جزء به‌جای کل خطاکار. صورت صوری‌اش، «سیاد واده»، پیش از هر حکم «از جهتی» می‌گذارد و هفت ترکیب از اثبات و نفی و بیان‌ناپذیری به دست می‌دهد. منتقدان از شنکره به این سو آن را طفره خوانده‌اند. جین‌ها پاسخ می‌دهند فلسفه‌ای که مدعی یک توصیف تمام است، همان است که در واقع طفره می‌رود.\n\n«اَهیمسا»، نیازردن، تعهدی جدا نیست بلکه چهرهٔ عملی همان فکر است: این یقین است که جواز خشونت می‌دهد. مَهاویره این را در سدهٔ پنجم پیش از میلاد آموخت، و این سنت آن را با تفصیلی نامعمول پرورد، تا اخلاق کشاورزی و حتی نفس کشیدن. گاندی که میان جین‌ها بزرگ شده بود، هر دو فکر را به سیاست برد."
             },
             "citations": [{ "source": "sep" }]
           },
