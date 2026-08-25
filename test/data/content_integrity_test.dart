@@ -901,6 +901,56 @@ void main() {
       }
     });
 
+    test('a book is not written before its author was born', () {
+      // The Viṃśatikā was dated c. 350 and Vasubandhu is born c. 400 in his
+      // own entry, so the corpus had him writing half a century before he
+      // existed. Patañjali carried the grammarian's dates, two centuries
+      // BCE, while the Yoga Sūtras article says in as many words that the
+      // identification with the grammarian is rejected — so the work he is
+      // known for was dated five hundred years after his death. The
+      // Investigations were dated 1953, which is when they were published,
+      // two years after Wittgenstein died; the field says composed, and the
+      // timeline reads "Written 1953".
+      //
+      // A book finished after its author died is a different matter and
+      // ordinary: an anthology gathered by a community, a manuscript
+      // published posthumously. Those are named here rather than caught,
+      // because each one is explained in the article that carries it.
+      const compiledLater = <String>{
+        'analects',
+        'daodejing',
+        'dhammapada',
+        'how-it-is-cordova',
+      };
+      for (final work in corpus.works) {
+        final composed = work.composed?.start?.year;
+        final author = corpus.philosopher(work.authorId);
+        if (composed == null || author == null) continue;
+        final born =
+            author.life.birth?.year ?? author.life.floruit?.start?.year;
+        if (born != null) {
+          expect(
+            composed,
+            greaterThanOrEqualTo(born),
+            reason:
+                'work:${work.id} is dated $composed and ${author.name.en} is '
+                'not there until $born',
+          );
+        }
+        if (compiledLater.contains(work.id)) continue;
+        final died = author.life.death?.year ?? author.life.floruit?.end?.year;
+        if (died != null) {
+          expect(
+            composed,
+            lessThanOrEqualTo(died),
+            reason:
+                'work:${work.id} is dated $composed and ${author.name.en} '
+                'died in $died',
+          );
+        }
+      }
+    });
+
     test('the graph connects entities in both directions', () {
       // Authored one way, readable both ways: the relation from Socrates to
       // Plato must be visible on Plato's page as well.

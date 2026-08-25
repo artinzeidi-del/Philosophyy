@@ -52,15 +52,15 @@ abstract final class AppDates {
     if (birth != null) return '${l10n.born} ${year(birth, language, l10n)}';
     if (death != null) return '${l10n.died} ${year(death, language, l10n)}';
 
+    // A floruit is marked as one. The domain keeps it apart from a lifespan
+    // precisely because it says something weaker — the years someone is known
+    // to have been active, for a figure whose birth and death are not
+    // attested — and printing it bare would present the weaker claim in the
+    // shape of the stronger one.
     final floruit = life.floruit;
     if (floruit != null) {
-      final start = floruit.start;
-      final end = floruit.end;
-      if (start != null && end != null) {
-        return '${year(start, language, l10n)} – ${year(end, language, l10n)}';
-      }
-      if (start != null) return year(start, language, l10n);
-      if (end != null) return year(end, language, l10n);
+      final span = range(floruit, language, l10n);
+      if (span != null) return l10n.flourished(span);
     }
 
     return null;

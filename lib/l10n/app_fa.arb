@@ -127,6 +127,7 @@
   "translationMissing": "هنوز به فارسی ترجمه نشده است؛ متن انگلیسی نمایش داده می‌شود.",
   "born": "زاده",
   "died": "درگذشته",
+  "flourished": "فعال در {years}",
   "yearBce": "{year} پیش از میلاد",
   "yearCe": "{year} میلادی",
   "yearApproximate": "حدود {year}",

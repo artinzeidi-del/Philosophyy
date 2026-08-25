@@ -558,6 +558,15 @@
   "@died": {
     "description": "Label before a death year."
   },
+  "flourished": "fl. {years}",
+  "@flourished": {
+    "description": "Wraps the period a figure is known to have been active, for someone whose birth and death years are not attested.",
+    "placeholders": {
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "yearBce": "{year} BCE",
   "@yearBce": {
     "description": "A year before the common era.",

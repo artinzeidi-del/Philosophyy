@@ -1808,7 +1808,72 @@
       ]
     },
     {
+      "id": "umasvati",
+      "name": { "en": "Umāsvāti", "fa": "اوماسواتی" },
+      "oneLine": {
+        "en": "Compressed the whole of Jain doctrine into three hundred and fifty aphorisms that both sects accept.",
+        "fa": "همهٔ آموزهٔ جین را در سیصد و پنجاه گزارهٔ کوتاه فشرد که هر دو فرقه می‌پذیرندش."
+      },
+      "life": {
+        "floruit": {
+          "start": { "year": 150, "precision": "circa" },
+          "end": { "year": 350, "precision": "circa" }
+        }
+      },
+      "traditions": ["indian", "jain"],
+      "branches": ["metaphysics", "epistemology", "ethics"],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Umāsvāti wrote the Tattvārtha Sūtra, the one Jain text that the Digambara and Śvetāmbara sects both treat as authoritative after they had already divided over what else counts. It states in a few hundred short lines what exists, how it is known, and what liberation would be — the doctrine Mahāvīra taught, set out as a system for the first time.",
+              "fa": "اوماسواتی «تتوارته‌سوتره» را نوشت، تنها متن جین که دو فرقهٔ دیگمبره و شوتامبره هر دو معتبرش می‌دانند، آن هم پس از آنکه بر سر اینکه چه چیز دیگری معتبر است از هم جدا شده بودند. این متن در چند صد سطر کوتاه می‌گوید چه چیزهایی هست، چگونه شناخته می‌شوند، و رهایی چه خواهد بود — همان آموزهٔ مهاویره، که نخستین بار همچون یک نظام بیان می‌شود."
+            }
+          },
+          {
+            "id": "what-is-known",
+            "heading": { "en": "What is known about him", "fa": "دربارهٔ او چه می‌دانیم" },
+            "depth": "standard",
+            "body": {
+              "en": "Almost nothing, and the two sects do not agree on the little there is. Each claims him, each spells his name differently — Umāsvāti to one, Umāsvāmī to the other — and each transmits a text that differs from the other's in several dozen places. Estimates of when he lived range across three centuries, which is why this entry gives the years he was active rather than a birth and a death it would have to invent.\n\nWhat is not in doubt is what he did. Jain teaching before him was carried in narrative and discipline: a canon of sermons, rules for ascetics, accounts of the universe. He put it in the form a philosophical tradition can argue with — numbered propositions, each depending on the ones before it, beginning with the three jewels of right view, right knowledge and right conduct, and ending with what happens to a soul that has stopped accumulating karma. That form is why the text survived the schism. A sect that rejects another's scriptures can still accept a summary that came before the quarrel.",
+              "fa": "تقریباً هیچ، و دو فرقه بر سر همان اندک هم توافق ندارند. هر یک او را از آنِ خود می‌داند، هر یک نامش را جور دیگری می‌نویسد — نزد یکی اوماسواتی و نزد دیگری اوماسوامی — و هر یک متنی را منتقل می‌کند که در چند ده جا با آن دیگری فرق دارد. برآوردها از زمان زیستن او سه قرن را در بر می‌گیرد، و به همین سبب این مدخل سال‌های فعالیت او را می‌آورد نه زاد و مرگی که ناچار بود از خود بسازد.\n\nآنچه در آن تردیدی نیست کاری است که کرد. آموزهٔ جین پیش از او در روایت و انضباط حمل می‌شد: مجموعه‌ای از خطابه‌ها، آیین‌هایی برای مرتاضان، شرح‌هایی از جهان. او آن را به صورتی درآورد که یک سنت فلسفی بتواند با آن بحث کند — گزاره‌های شماره‌دار، که هر یک بر پیشین‌ها تکیه دارد، از سه گوهرِ بینش درست و دانش درست و رفتار درست آغاز می‌شود و به آنچه بر سر جانی می‌آید که دیگر کارما نمی‌اندوزد پایان می‌یابد. همین صورت است که سبب شد متن از آن انشعاب جان به در برد. فرقه‌ای که کتاب‌های فرقهٔ دیگر را رد می‌کند باز می‌تواند خلاصه‌ای را بپذیرد که پیش از نزاع نوشته شده است."
+            },
+            "citations": [
+              { "source": "text-tattvartha-sutra", "locator": "1.1" },
+              { "source": "sep" }
+            ]
+          },
+          {
+            "id": "deep",
+            "depth": "deep",
+            "heading": { "en": "What a sūtra can and cannot do", "fa": "یک سوتره چه می‌تواند و چه نمی‌تواند" },
+            "body": {
+              "en": "The aphoristic form is a decision with costs. A sūtra is written to be memorised and to be unpacked by a teacher, so it is compressed to the point where a line can be read in more than one way and often has been — the surviving commentaries disagree about what several of them mean, and one of them, attributed to Umāsvāti himself, is the reason his side of the argument is preserved at all. A tradition that transmits its doctrine this way is choosing durability over precision: the words survive intact for two thousand years, and what they mean is settled again in every generation.\n\nThe content is a physics as much as a metaphysics. Reality is made of substances that persist while their modes change, and the list is closed: souls, matter, the medium of motion, the medium of rest, space, and — for one sect — time. Karma is not an accounting of deserts but a kind of subtle matter that flows into a soul and sticks to it, and the whole soteriology follows from that literalism. If bondage is an influx of stuff, then liberation is a matter of stopping the influx and burning off what has already adhered, which is what asceticism is for. The text gives the mechanism in order: what causes the influx, what stops it, what wears it away, and what is left.\n\nThe epistemology is where the tradition earns its philosophical reputation. Knowledge comes in five kinds, ranked by how directly they reach their object, and the ordinary two — the senses working with the mind, and testimony — are classed as indirect. That is the reverse of the usual arrangement, and it is deliberate: perception is mediated by a body, so what feels immediate is not. Above them stand three direct kinds, ending in the omniscience the tradition attributes to a liberated soul. The doctrine of many-sidedness attaches here rather than to tolerance. If every finite knower reaches reality through one aspect, then a claim is true relative to the standpoint it was made from, and a system that says so has to build the standpoint into the sentence — which is what the sevenfold predication does.\n\nOne line has outlived the rest. Near the end of the fifth chapter comes a definition of the good in three words — souls exist to help one another — which modern Jain writing has taken as the tradition's ethical motto, on a text otherwise concerned with the mechanics of escape.",
+              "fa": "صورتِ قصار تصمیمی است با هزینه. سوتره را چنان می‌نویسند که از بر شود و آموزگار بازش گشاید، پس چنان فشرده است که یک سطر را می‌توان بیش از یک جور خواند و بارها هم خوانده‌اند — شرح‌های بازمانده بر سر معنای چند تای آن‌ها اختلاف دارند، و یکی از آن‌ها که به خود اوماسواتی نسبتش می‌دهند، یگانه سببی است که سویهٔ او از این بحث اصلاً مانده است. سنتی که آموزه‌اش را این‌گونه منتقل می‌کند، ماندگاری را بر دقت برمی‌گزیند: واژه‌ها دو هزار سال دست‌نخورده می‌مانند، و معنایشان در هر نسل از نو تعیین می‌شود.\n\nمحتوا همان‌قدر که مابعدالطبیعه است طبیعیات هم هست. واقعیت از جوهرهایی ساخته شده که می‌مانند و حالت‌هاشان دگرگون می‌شود، و فهرست بسته است: جان‌ها، ماده، واسطهٔ حرکت، واسطهٔ سکون، فضا، و — نزد یک فرقه — زمان. کارما دفترِ سزاواری‌ها نیست، گونه‌ای مادهٔ لطیف است که به جان می‌ریزد و بدان می‌چسبد، و همهٔ آموزهٔ رستگاری از همین لفظ‌گرایی برمی‌آید. اگر بند همان درآمدنِ چیزی باشد، رهایی کارِ بستنِ آن راه و سوزاندنِ آنچه پیشاپیش چسبیده است، و ریاضت برای همین است. متن این سازوکار را به ترتیب می‌دهد: چه چیز آن درآمدن را سبب می‌شود، چه چیز بازش می‌دارد، چه چیز فرسوده‌اش می‌کند، و چه بر جای می‌ماند.\n\nمعرفت‌شناسی جایی است که این سنت نام فلسفی خود را می‌گیرد. دانش پنج گونه است، رتبه‌بندی‌شده بر پایهٔ اینکه چقدر مستقیم به متعلق خود می‌رسد، و آن دو گونهٔ معمول — حواس در کار با ذهن، و گواهی — غیرمستقیم شمرده می‌شوند. این وارونهٔ چیدمان رایج است و عمدی: ادراک از راه یک تن میانجی می‌شود، پس آنچه بی‌واسطه می‌نماید بی‌واسطه نیست. بالاتر از آن‌ها سه گونهٔ مستقیم می‌ایستند که به همان دانایی مطلقی می‌رسند که سنت به جانِ رهیده نسبت می‌دهد. آموزهٔ چندسویگی اینجا می‌چسبد نه به مدارا. اگر هر دانندهٔ متناهی از راه یک جهت به واقعیت برسد، آنگاه هر ادعا نسبت به منظری که از آن گفته شده درست است، و نظامی که این را بگوید باید منظر را در خود جمله بسازد — و کار پیش‌بینی هفتگانه همین است.\n\nیک سطر از باقی درازتر زیسته است. نزدیک پایان فصل پنجم تعریفی از خیر در سه واژه می‌آید — جان‌ها هستند تا یار یکدیگر باشند — که نوشتار جین امروزی آن را شعار اخلاقی این سنت گرفته است، بر متنی که وگرنه به سازوکار گریز مشغول است."
+            },
+            "citations": [
+              { "source": "text-tattvartha-sutra", "locator": "5.21" },
+              { "source": "sep" }
+            ]
+          }
+        ]
+      },
+      "nativeName": "उमास्वाति",
+      "transliteration": "Umāsvāti",
+      "schools": ["jainism"],
+      "concepts": ["anekantavada", "ahimsa"],
+      "works": ["tattvartha-sutra"],
+      "citations": [
+        { "source": "text-tattvartha-sutra" },
+        { "source": "sep" }
+      ],
+      "alsoKnownAs": ["Umasvati", "Umāsvāmī", "اوماسوامی"]
+    },
+    {
       "id": "mahavira",
+      "writings": "none",
       "name": { "en": "Mahāvīra", "fa": "مهاویره" },
       "oneLine": {
         "en": "Taught that every claim is true only from some standpoint, and said so systematically.",
@@ -9657,8 +9722,10 @@
         "fa": "دستنامهٔ آرام کردن ذهن را نوشت، و نظریه‌ای دربارهٔ اینکه چرا این چیزی را آشکار می‌کند."
       },
       "life": {
-        "birth": { "year": -150, "precision": "circa" },
-        "death": { "year": -100, "precision": "circa" }
+        "floruit": {
+          "start": { "year": 350, "precision": "circa" },
+          "end": { "year": 450, "precision": "circa" }
+        }
       },
       "traditions": ["indian"],
       "branches": [

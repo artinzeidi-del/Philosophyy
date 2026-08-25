@@ -1160,8 +1160,8 @@
     {
       "id": "text-tattvartha-sutra",
       "kind": "primary-text",
-      "title": { "en": "Tattvartha Sutra", "fa": "تتوارته سوتره" },
-      "authors": ["Umasvati"],
+      "title": { "en": "Tattvārtha Sūtra", "fa": "تتوارته سوتره" },
+      "authors": ["Umāsvāti"],
       "rightsNote": { "en": "Not Mahāvīra's own work: a systematic statement composed centuries later, and the only text both Jain sects accept. Cited by chapter and sutra.", "fa": "اثر خودِ مهاویره نیست: بیانی نظام‌مند که قرن‌ها بعد نوشته شد، و تنها متنی که هر دو فرقهٔ جین می‌پذیرند. ارجاع بر پایهٔ فصل و سوتره." },
       "authorsFa": ["اوماسواتی"]
     },

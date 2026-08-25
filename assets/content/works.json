@@ -1159,7 +1159,7 @@
         "en": "Twenty verses arguing that objects outside the mind explain nothing.",
         "fa": "بیست بیت در استدلال بر اینکه اشیای بیرون از ذهن چیزی توضیح نمی‌دهند."
       },
-      "composed": { "start": { "year": 350, "precision": "circa" } },
+      "composed": { "start": { "year": 450, "precision": "circa" } },
       "traditions": ["indian", "buddhist"],
       "branches": ["metaphysics", "philosophy-of-mind", "epistemology"],
       "article": {
@@ -1955,7 +1955,10 @@
         "en": "Wittgenstein's argument against his own earlier book.",
         "fa": "استدلال ویتگنشتاین بر ضد کتاب پیشین خودش."
       },
-      "composed": { "start": { "year": 1953 } },
+      "composed": {
+        "start": { "year": 1936, "precision": "circa" },
+        "end": { "year": 1949, "precision": "circa" }
+      },
       "traditions": ["european", "analytic"],
       "branches": [
         "philosophy-of-language",
@@ -8334,7 +8337,7 @@
       "originalTitle": "तत्त्वार्थसूत्र",
       "transliteration": "Tattvārtha Sūtra",
       "alsoKnownAs": ["That Which Is"],
-      "author": "mahavira",
+      "author": "umasvati",
       "oneLine": {
         "en": "The compact statement of Jain doctrine that all its sects accept, including the theory of many-sidedness.",
         "fa": "بیان فشردهٔ آموزهٔ جین که همه فرقه‌هایش می‌پذیرندش، از جمله نظریهٔ چندسویگی."
