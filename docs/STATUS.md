@@ -8,30 +8,33 @@ repository, not recalled.
 | Check | Result |
 | --- | --- |
 | `flutter analyze --fatal-infos` | no issues |
-| `flutter test` | 963 passing, across 57 test files |
+| `flutter test` | 966 passing, across 57 test files |
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
 | Release build in Chromium: 92 routes × 2 languages | 184 screens, no console errors, no overflows |
-| Every entry drawn in both languages | 934 screens, no exception |
+| Every entry drawn in both languages | 936 screens, no exception |
 
 ## Corpus
 
 | Collection | Entries |
 | --- | --- |
-| Philosophers | 191 |
+| Philosophers | 192 |
 | Concepts | 61 |
 | Works | 186 |
 | Schools | 29 |
-| Quotations | 237 |
+| Quotations | 238 |
 | Arguments | 12 |
-| Sources | 303 |
+| Sources | 305 |
 | Glossary terms | 76 |
 | Primer steps | 9 |
 
-All 467 philosophers, concepts, works and schools carry three reading
-depths — quick, standard and in depth — in English and Persian, across 1,405
-authored sections. Total prose: about 218,000 English words and 237,000
-Persian words, which is roughly 16.5 hours of English reading and 24.5 hours
-of Persian.
+All 468 philosophers, concepts, works and schools carry three reading
+depths — quick, standard and in depth — in English and Persian, across 1,408
+authored sections. Total prose: 220,496 English words and 212,058 Persian
+words, which is roughly 18.4 hours of English reading and 23.6 hours of
+Persian.
+
+Run `python3 tool/corpus_stats.py` to reproduce every figure in this
+section.
 
 ## Editorial guarantees, enforced by tests
 

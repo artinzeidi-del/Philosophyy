@@ -951,6 +951,75 @@ void main() {
       }
     });
 
+    test('the numbers the documentation quotes are the numbers here', () {
+      // The README said 191 philosophers after a hundred and ninety-second
+      // was added, 256 quotations against a file holding 238, and 303 sources
+      // against 305. A reference work that miscounts itself on its own front
+      // page has said something false before the reader opens it.
+      //
+      // Only the collection sizes are checked here, because those are the
+      // ones that move on every content commit. The prose totals come from
+      // tool/corpus_stats.py, which the status page names so a reader can
+      // reproduce them.
+      final counts = <String, int>{
+        'philosophers': corpus.philosophers.length,
+        'concepts': corpus.concepts.length,
+        'works': corpus.works.length,
+        'schools': corpus.schools.length,
+        'quotations': corpus.quotes.length,
+        'arguments': corpus.arguments.length,
+        'sources': corpus.sources.length,
+      };
+
+      final readme = File('README.md').readAsStringSync();
+      for (final entry in counts.entries) {
+        expect(
+          readme,
+          contains('${entry.value} ${entry.key}'),
+          reason:
+              'README.md does not say "${entry.value} ${entry.key}"; the '
+              'corpus holds ${entry.value}',
+        );
+      }
+
+      final status = File('docs/STATUS.md').readAsStringSync();
+      const rows = <String, String>{
+        'Philosophers': 'philosophers',
+        'Concepts': 'concepts',
+        'Works': 'works',
+        'Schools': 'schools',
+        'Quotations': 'quotations',
+        'Arguments': 'arguments',
+        'Sources': 'sources',
+      };
+      for (final row in rows.entries) {
+        expect(
+          status,
+          contains('| ${row.key} | ${counts[row.value]} |'),
+          reason:
+              'docs/STATUS.md does not give ${row.key} as ${counts[row.value]}',
+        );
+      }
+
+      final entities =
+          corpus.philosophers.length +
+          corpus.concepts.length +
+          corpus.works.length +
+          corpus.schools.length;
+      expect(
+        status,
+        contains('All $entities philosophers'),
+        reason: 'docs/STATUS.md does not give the entity total as $entities',
+      );
+      expect(
+        status,
+        contains('${entities * 2} screens'),
+        reason:
+            'docs/STATUS.md does not give the both-languages screen count as '
+            '${entities * 2}',
+      );
+    });
+
     test('the graph connects entities in both directions', () {
       // Authored one way, readable both ways: the relation from Socrates to
       // Plato must be visible on Plato's page as well.
