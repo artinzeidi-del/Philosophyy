@@ -595,6 +595,10 @@ void main() {
         // Her entry is «سیمون دوبووار» and thirteen passages called her
         // «بووار», which drops the particle the name is built on.
         'بووار': 'دوبووار',
+        // Philoponus was «یوحنای نحوی» as the entry's name and «فیلوپونوس»
+        // four times in the prose; Gi Daeseung was «کی دِسونگ» in Yi Hwang's
+        // entry and «گی دائه‌سونگ» in the entry for the book they argued in.
+        'کی دِسونگ': 'گی دائه‌سونگ',
       };
       final problems = <String>[];
       for (final entry in strings) {
