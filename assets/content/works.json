@@ -7596,7 +7596,7 @@
       "author": "ellul",
       "oneLine": {
         "en": "Argues that technique — the search for the one best method — has become the organising principle of everything.",
-        "fa": "می‌گوید «تکنیک»، یعنی جست‌وجوی یگانه بهترین روش، به اصل سامان‌دهنده همه‌چیز بدل شده است."
+        "fa": "می‌گوید «تکنیک»، یعنی جست‌وجوی یگانه بهترین روش، به اصل سامان‌دهندهٔ همه‌چیز بدل شده است."
       },
       "composed": { "start": { "year": 1954, "precision": "exact" } },
       "traditions": ["european", "continental"],
@@ -7653,7 +7653,7 @@
       "author": "simondon",
       "oneLine": {
         "en": "Argues that machines have their own manner of developing, and that our contempt for them is a form of ignorance.",
-        "fa": "می‌گوید ماشین‌ها شیوه رشد از آن خود دارند، و تحقیر ما نسبت به آن‌ها گونه‌ای نادانی است."
+        "fa": "می‌گوید ماشین‌ها شیوهٔ رشدِ از آنِ خود دارند، و تحقیر ما نسبت به آن‌ها گونه‌ای نادانی است."
       },
       "composed": { "start": { "year": 1958, "precision": "exact" } },
       "traditions": ["european", "continental"],
@@ -8337,7 +8337,7 @@
       "author": "mahavira",
       "oneLine": {
         "en": "The compact statement of Jain doctrine that all its sects accept, including the theory of many-sidedness.",
-        "fa": "بیان فشرده آموزه جین که همه فرقه‌هایش می‌پذیرندش، از جمله نظریه چندسویگی."
+        "fa": "بیان فشردهٔ آموزهٔ جین که همه فرقه‌هایش می‌پذیرندش، از جمله نظریهٔ چندسویگی."
       },
       "composed": { "start": { "year": 200, "precision": "circa" } },
       "traditions": ["jain", "indian"],
@@ -8393,7 +8393,7 @@
       "author": "philoponus",
       "oneLine": {
         "en": "A commentary that turns into a refutation, and proposes impetus a thousand years before Galileo.",
-        "fa": "شرحی که به ردیه بدل می‌شود، و هزار سال پیش از گالیله نظریه اندازه حرکت را پیش می‌نهد."
+        "fa": "شرحی که به ردیه بدل می‌شود، و هزار سال پیش از گالیله نظریهٔ اندازهٔ حرکت را پیش می‌نهد."
       },
       "composed": { "start": { "year": 517, "precision": "circa" } },
       "traditions": ["byzantine", "ancient-greek", "christian"],
@@ -8894,7 +8894,7 @@
       "author": "buber",
       "oneLine": {
         "en": "Distinguishes two ways of standing toward anything, and says only one of them is a relation.",
-        "fa": "دو شیوه ایستادن در برابر هر چیز را جدا می‌کند، و می‌گوید تنها یکی از آن‌ها نسبت است."
+        "fa": "دو شیوهٔ ایستادن در برابر هر چیز را جدا می‌کند، و می‌گوید تنها یکی از آن‌ها نسبت است."
       },
       "composed": { "start": { "year": 1923, "precision": "exact" } },
       "traditions": ["jewish", "european", "continental"],
@@ -9547,7 +9547,7 @@
       "author": "mou-zongsan",
       "oneLine": {
         "en": "Argues against Kant that human beings do have intellectual intuition, and that Chinese philosophy assumes it.",
-        "fa": "در برابر کانت می‌گوید آدمیان شهود عقلی دارند، و فلسفه چین آن را مفروض می‌گیرد."
+        "fa": "در برابر کانت می‌گوید آدمیان شهود عقلی دارند، و فلسفهٔ چین آن را مفروض می‌گیرد."
       },
       "composed": { "start": { "year": 1971, "precision": "exact" } },
       "traditions": ["chinese", "contemporary"],
@@ -9789,7 +9789,7 @@
       "author": "chrysippus",
       "oneLine": {
         "en": "The collected remains of a philosopher who wrote over seven hundred books, none of which survive.",
-        "fa": "بازمانده‌های گردآمده فیلسوفی که بیش از هفتصد کتاب نوشت و هیچ‌یک نمانده است."
+        "fa": "بازمانده‌های گردآمدهٔ فیلسوفی که بیش از هفتصد کتاب نوشت و هیچ‌یک نمانده است."
       },
       "composed": { "start": { "year": -230, "precision": "circa" } },
       "traditions": ["ancient-greek", "hellenistic"],
