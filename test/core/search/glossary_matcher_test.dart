@@ -3,6 +3,7 @@ import 'package:philosophyy/core/search/glossary_matcher.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/glossary_term.dart';
+import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
 
@@ -167,4 +168,103 @@ void main() {
       }
     });
   });
+  group('A term of art does not gloss an ordinary word', () {
+    test('a form tied to one tradition does not fire across the corpus', () {
+      // The matcher was doing exactly what it was told; what it was told was
+      // wrong. Ātman carried the alias "self", so 44 passages offered the
+      // Hindu term to a reader tapping the word in Descartes' cogito, in
+      // Hume denying that inspection finds one, in Foucault's care of the
+      // self. Dukkha carried "suffering", and fired on Weil distinguishing
+      // suffering from affliction and on Eriugena's account of punishment.
+      // Mokṣa carried "liberation", and reached liberation theology. Qiyās
+      // was named "Analogy", and fired on Plato's city-and-soul, on
+      // Plotinus' fire, and on Angela Davis saying she does not mean an
+      // analogy. Validity carried "sound", and three of its first four hits
+      // were the noise.
+      //
+      // In Persian the same shape, from the names rather than the aliases:
+      // a priori was «پیشین», which is the ordinary word for previous, so it
+      // marked a previous ruler and an earlier tradition; nous was «عقل»,
+      // kalām was «کلام», which is also simply speech, and commentary was
+      // «شرح», which is any account of anything.
+      //
+      // The rule is not "no common words" — metaphysics, premise, substance,
+      // essence and virtue are general on purpose and belong wherever they
+      // appear. It is that a term belonging to one tradition must be named
+      // by a form that belongs to it too.
+      //
+      // Named here are the terms that are general by intent. Anything else
+      // reaching this many entries across this many traditions is a word
+      // doing duty for something it does not mean.
+      const general = <String>{
+        'metaphysics',
+        'epistemology',
+        'aesthetics',
+        'premise',
+        'substance',
+        'essence',
+        'universals',
+        'virtue-ethics',
+        'empiricism',
+        'normative',
+        'commentary-tradition',
+        'canon',
+        'nous',
+      };
+
+      String boundary(String form, AppLanguage language) {
+        final escaped = RegExp.escape(form);
+        return language == AppLanguage.fa
+            ? '(?<![\\p{L}\\p{N}\u200c])$escaped(?![\\p{L}\\p{N}\u200c])'
+            : '(?<![\\p{L}\\p{N}-])$escaped(?![\\p{L}\\p{N}-])';
+      }
+
+      final problems = <String>[];
+      for (final glossaryTerm in corpus.glossary) {
+        if (general.contains(glossaryTerm.id)) continue;
+        for (final language in AppLanguage.values) {
+          final forms = <String>[
+            glossaryTerm.term.resolve(language),
+            ...glossaryTerm.aliases.where(
+              (alias) => (language == AppLanguage.fa) != _isAscii(alias),
+            ),
+          ];
+          for (final form in forms) {
+            final pattern = RegExp(
+              boundary(form, language),
+              unicode: true,
+              caseSensitive: language != AppLanguage.en,
+            );
+            final traditions = <String>{};
+            var entries = 0;
+            for (final entity in corpus.allEntities) {
+              final prose = _prose(entity, language);
+              if (prose.any(pattern.hasMatch)) {
+                entries++;
+                traditions.addAll(entity.traditions);
+              }
+            }
+            if (entries >= 8 && traditions.length >= 6) {
+              problems.add(
+                'glossary:${glossaryTerm.id} is marked by "$form" in $entries '
+                'entries across ${traditions.length} traditions, which is '
+                'wider than a term of art reaches',
+              );
+            }
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+  });
 }
+
+bool _isAscii(String value) => value.runes.every((rune) => rune < 128);
+
+/// Every authored passage of [entity] in [language].
+///
+/// Article bodies only: the glossary marks words inside prose a reader is
+/// reading, not inside a name or a one-line summary.
+List<String> _prose(KnowledgeEntity entity, AppLanguage language) => <String>[
+  for (final section in entity.article.sections) section.body.resolve(language),
+];

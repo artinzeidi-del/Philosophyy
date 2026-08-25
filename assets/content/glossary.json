@@ -45,7 +45,7 @@
     },
     {
       "id": "a-priori",
-      "term": { "en": "A priori", "fa": "پیشین" },
+      "term": { "en": "A priori", "fa": "پیشینی" },
       "short": {
         "en": "Knowable without checking — by thinking it through rather than by looking.",
         "fa": "دانستنی بی‌بررسی کردن — با اندیشیدن، نه با نگاه کردن."
@@ -54,7 +54,7 @@
         "en": "That every bachelor is unmarried is a priori: no survey is needed. That it is raining is a posteriori: you have to look. The distinction is old and contested — Quine argued that no belief is immune from revision by experience, which would leave the line unmarked.",
         "fa": "اینکه هر مجردی ازدواج‌نکرده است پیشین است: نظرسنجی لازم ندارد. اینکه باران می‌بارد پسین است: باید نگاه کنی. این تمایز کهن است و محل مناقشه — کواین استدلال کرد که هیچ باوری از بازنگری با تجربه مصون نیست، و این خط را بی‌نشان می‌گذارد."
       },
-      "aliases": ["a posteriori", "پسین"],
+      "aliases": ["a posteriori", "پسینی"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -111,7 +111,7 @@
         "en": "An eye explained teleologically is explained by seeing. Aristotle treats this as a genuine kind of cause; the scientific revolution largely removed it from physics and it survives, arguably, in biology. Whether a purpose without anyone intending it is coherent is the standing question.",
         "fa": "چشمی که غایت‌شناسانه توضیح داده شود، با «دیدن» توضیح داده می‌شود. ارسطو این را گونه‌ای واقعی از علت می‌داند؛ انقلاب علمی آن را تا حد زیادی از فیزیک بیرون کرد و — به‌ادعای برخی — در زیست‌شناسی زنده مانده است. اینکه غایتی که کسی قصدش نکرده معنا دارد یا نه، پرسش پابرجاست."
       },
-      "aliases": ["teleological", "telos", "غایت‌شناختی", "غایت"],
+      "aliases": ["teleological", "telos", "غایت‌شناختی"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -358,7 +358,7 @@
     },
     {
       "id": "commentary-tradition",
-      "term": { "en": "Commentary", "fa": "شرح" },
+      "term": { "en": "Commentary", "fa": "شرح‌نویسی" },
       "short": {
         "en": "Philosophy written as a line-by-line reading of an earlier book.",
         "fa": "فلسفه‌ای که به‌صورت خوانشِ سطر به سطرِ کتابی پیشین نوشته می‌شود."
@@ -386,7 +386,7 @@
     },
     {
       "id": "nous",
-      "term": { "en": "Nous", "fa": "عقل" },
+      "term": { "en": "Nous", "fa": "نوس" },
       "nativeTerm": "νοῦς",
       "transliteration": "nous",
       "short": {
@@ -449,7 +449,7 @@
     },
     {
       "id": "qiyas",
-      "term": { "en": "Analogy", "fa": "قیاس" },
+      "term": { "en": "Qiyās", "fa": "قیاس فقهی" },
       "nativeTerm": "قياس",
       "transliteration": "qiyās",
       "short": {
@@ -651,7 +651,7 @@
     },
     {
       "id": "valid-argument",
-      "term": { "en": "Valid", "fa": "معتبر" },
+      "term": { "en": "Valid argument", "fa": "استدلال معتبر" },
       "short": {
         "en": "An argument whose conclusion must be true if its premises are.",
         "fa": "استدلالی که اگر مقدماتش درست باشند، نتیجه‌اش ناگزیر درست است."
@@ -660,7 +660,7 @@
         "en": "Validity is about the shape of the argument, not about whether it is true. An argument can be valid and have a false conclusion, if a premise is false. An argument that is valid and has true premises is called sound, and that is the one worth having.",
         "fa": "اعتبار دربارهٔ شکلِ استدلال است، نه دربارهٔ درستی‌اش. یک استدلال می‌تواند معتبر باشد و نتیجه‌اش نادرست، اگر مقدمه‌ای نادرست باشد. استدلالی که هم معتبر است و هم مقدمات درست دارد «درست» یا «سالم» خوانده می‌شود، و همان است که به کار می‌آید."
       },
-      "aliases": ["validity", "sound", "soundness", "اعتبار"],
+      "aliases": ["validity"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -732,7 +732,7 @@
         "en": "Usually translated suffering, which is too narrow: the term covers pain, but also the way a good moment will not hold still, and the strain of holding together a self out of parts that keep changing. The first of the four truths states it as a diagnosis rather than a complaint, which is why the remaining three are about a cause and a way out.",
         "fa": "معمولاً «رنج» ترجمه می‌شود که بیش از حد باریک است: این اصطلاح درد را در بر می‌گیرد، اما همچنین این را که لحظهٔ خوب سرِ جایش نمی‌ماند، و فشار سرِهم‌نگه داشتن یک خویشتن از اجزایی که مدام عوض می‌شوند. حقیقت نخست از چهار حقیقت آن را به‌عنوان تشخیص می‌گذارد نه گلایه، و برای همین سه حقیقت دیگر دربارهٔ علت و راه برون‌رفت‌اند."
       },
-      "aliases": ["duhkha", "suffering", "رنج"],
+      "aliases": ["duhkha"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -828,7 +828,7 @@
         "en": "In the Upanishads the search for the self ends by identifying it with the ground of everything, and Advaita reads those sentences literally. Rāmānuja reads them as inseparability rather than identity. Buddhism denies the term outright, which is the sharpest disagreement in Indian philosophy and the reason the two traditions argued for a millennium.",
         "fa": "در اوپانیشادها جست‌وجوی خویشتن با یکی گرفتن آن با بنیاد همه‌چیز پایان می‌گیرد، و ادویته آن جمله‌ها را لفظ‌به‌لفظ می‌خواند. رامانوجه آن‌ها را جدایی‌ناپذیری می‌خواند نه این‌همانی. بودیسم این اصطلاح را یکسره انکار می‌کند، و این تندترین اختلاف فلسفهٔ هند است و دلیل آنکه این دو سنت هزار سال بحث کردند."
       },
-      "aliases": ["atman", "self"],
+      "aliases": ["atman"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -859,7 +859,7 @@
         "en": "Every Indian school has a version and they disagree about almost everything except that ignorance is what binds. What is released — a self, a stream, a soul rejoining the absolute — and whether release can happen in this life rather than at death, are exactly the points the schools were built to settle differently.",
         "fa": "هر مکتب هندی روایتی دارد و بر سر تقریباً همه‌چیز اختلاف دارند جز اینکه نادانی همان چیزی است که می‌بندد. اینکه چه چیزی رها می‌شود — یک خویشتن، یک جریان، جانی که به مطلق می‌پیوندد — و اینکه رهایی در همین زندگی ممکن است یا در مرگ، دقیقاً همان نقطه‌هایی است که مکتب‌ها برای پاسخ متفاوت به آن‌ها ساخته شدند."
       },
-      "aliases": ["moksa", "moksha", "liberation", "رهایی"],
+      "aliases": ["moksa", "moksha"],
       "citations": [{ "source": "sep" }]
     },
     {
@@ -897,7 +897,7 @@
     },
     {
       "id": "kalam",
-      "term": { "en": "Kalām", "fa": "کلام" },
+      "term": { "en": "Kalām", "fa": "علم کلام" },
       "nativeTerm": "كلام",
       "transliteration": "kalām",
       "short": {
@@ -908,7 +908,7 @@
         "en": "The discipline argues rather than merely expounds, and it argued first with opponents and then with itself: the Mu'tazila made God's justice a constraint reason could recognise, the Ash'ari made God's will prior to any standard. Al-Ghazālī came out of it, and used its methods against the philosophers rather than against unbelievers.",
         "fa": "این رشته استدلال می‌کند نه اینکه صرفاً شرح دهد، و نخست با مخالفان و بعد با خودش بحث کرد: معتزله عدل الهی را قیدی کردند که خرد می‌تواند بشناسدش، و اشاعره ارادهٔ الهی را بر هر معیاری مقدم کردند. غزالی از دل آن بیرون آمد، و روش‌هایش را به‌جای بی‌دینان علیه فیلسوفان به کار بست."
       },
-      "aliases": ["ilm al-kalam", "علم کلام"],
+      "aliases": ["ilm al-kalam", "متکلمان"],
       "citations": [{ "source": "sep" }]
     },
     {
