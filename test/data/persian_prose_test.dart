@@ -139,6 +139,113 @@ void main() {
     });
   });
 
+  group('Spelling of fixed forms', () {
+    test('a preposition that ends in ه carries its ezafe', () {
+      // «دربارهٔ» is written 996 times and «درباره» 177 times, all of them in
+      // works.json, all of them the preposition. Without the hamza the reader
+      // has to supply the ezafe from the sense of the sentence, and «درباره
+      // معنای» reads for a moment as two nouns side by side.
+      final problems = <String>[
+        for (final entry in strings)
+          if (RegExp(
+            r'(?<![\p{L}\p{M}‌])درباره (?=[\p{L}«])',
+            unicode: true,
+          ).hasMatch(entry.text))
+            '${entry.file} ${entry.path}: "درباره" needs its ezafe: دربارهٔ',
+      ];
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('an Arabic adverb keeps its tanwin', () {
+      // «تقریباً» 117 times and «تقریبا» 14, «اصلاً» 94 and «اصلا» 13. The
+      // tanwin is what makes the word an adverb; without it «دقیقا» is not a
+      // Persian word at all.
+      const adverbs = <String>[
+        'تقریبا',
+        'عمدا',
+        'اصلا',
+        'ازلا',
+        'دقیقا',
+        'کاملا',
+        'صرفا',
+        'رسما',
+        'بعدا',
+        'طبیعتا',
+        'عموما',
+        'ذاتا',
+        'صریحا',
+        'واقعا',
+        'نسبتا',
+        'مستقیما',
+        'عملا',
+        'ظاهرا',
+        'حتما',
+        'قطعا',
+        'مطلقا',
+        'مشخصا',
+        'ضرورتا',
+        'لزوما',
+        'منطقا',
+      ];
+      final pattern = RegExp(
+        '(?<![\\p{L}\\p{M}‌])(${adverbs.join('|')})(?![\\p{L}\\p{M}‌])',
+        unicode: true,
+      );
+      final problems = <String>[
+        for (final entry in strings)
+          for (final match in pattern.allMatches(entry.text))
+            '${entry.file} ${entry.path}: "${match.group(0)}" has lost its tanwin',
+      ];
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('one spelling for the words that come up on every page', () {
+      // Each of these was written both ways, and the count says which way the
+      // corpus had already settled: «ابن‌سینا» 43 against «ابن سینا» 5,
+      // «هیچ‌کس» 75 against none, «به دست» 149 against «به‌دست» 9. The one
+      // that changes the sense is the last: «به‌دستِ کسی» is by someone's
+      // hand, «به دست آوردن» is to obtain, and the corpus used the bound
+      // form for both.
+      const wrong = <String, String>{
+        'ابن سینا': 'ابن‌سینا',
+        'ابن رشد': 'ابن‌رشد',
+        'ابن میمون': 'ابن‌میمون',
+        'ابن عربی': 'ابن‌عربی',
+        'ابن خلدون': 'ابن‌خلدون',
+        'ابن هیثم': 'ابن‌هیثم',
+        'ابن طفیل': 'ابن‌طفیل',
+        'ابن باجه': 'ابن‌باجه',
+        'ابن تیمیه': 'ابن‌تیمیه',
+        'به‌دست': 'به دست',
+        'دست کم': 'دست‌کم',
+        'همه چیز': 'همه‌چیز',
+        'هیچ چیز': 'هیچ‌چیز',
+        'هیچ کس': 'هیچ‌کس',
+        'هر کس': 'هرکس',
+        'هر کسی': 'هرکسی',
+        // «هرچند» meaning although is written bound, but «هر چند تا هم که
+        // باشند» is three words doing something else, so the pair is left out
+        // rather than guarded wrongly.
+      };
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final pair in wrong.entries) {
+          final pattern = RegExp(
+            '(?<![\\p{L}\\p{M}‌])${pair.key}(?![\\p{L}\\p{M}‌])',
+            unicode: true,
+          );
+          if (pattern.hasMatch(entry.text)) {
+            problems.add(
+              '${entry.file} ${entry.path}: "${pair.key}" — the corpus writes '
+              '"${pair.value}"',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+  });
+
   group('Word formation', () {
     test('a compound verb is written as two words', () {
       // Persian writes the parts of a compound verb separately: «رد کردن»,
@@ -430,7 +537,25 @@ void main() {
         'دوازده',
         'سیزده',
       ];
-      final pattern = RegExp('(${tens.join('|')})‌و(${units.join('|')})');
+      // An age is the same rule one word further on. «هفتادسالگی» ran the
+      // two together, «شصت‌سالگی» bound them, «چهل سالگی» and «نوزده سالگی»
+      // spaced them, and the compounds came out «بیست و چهارسالگی» with the
+      // space in the wrong place of the three.
+      final numbers = <String>[
+        ...tens,
+        ...units,
+        'چهارده',
+        'پانزده',
+        'شانزده',
+        'هفده',
+        'هجده',
+        'نوزده',
+        'چند',
+      ];
+      final pattern = RegExp(
+        '(${tens.join('|')})‌و(${units.join('|')})'
+        '|(${numbers.join('|')})‌?سالگی',
+      );
       final problems = <String>[
         for (final entry in strings)
           for (final match in pattern.allMatches(entry.text))

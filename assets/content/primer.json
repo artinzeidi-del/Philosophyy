@@ -6,7 +6,7 @@
       "title": { "en": "What philosophy is", "fa": "فلسفه چیست" },
       "body": {
         "en": "Philosophy is what you are doing when you ask a question that cannot be settled by looking. How far away is the moon is not a philosophical question — you measure. Whether it is ever right to lie is, and so is what makes you the same person you were at six. There is no instrument for these, and yet some answers are clearly worse than others. Philosophy is the work of finding out which, using reasons.",
-        "fa": "فلسفه همان کاری است که می‌کنی وقتی پرسشی می‌پرسی که با نگاه کردن فیصله نمی‌یابد. «ماه چقدر دور است» پرسش فلسفی نیست — اندازه می‌گیری. «آیا هرگز درست است که دروغ بگوییم» هست، و همچنین «چه چیزی تو را همان کسی می‌کند که در شش‌سالگی بودی». برای این‌ها ابزاری نیست، و با این حال برخی پاسخ‌ها آشکارا بدتر از دیگرانند. فلسفه کارِ یافتنِ همین است، با دلیل."
+        "fa": "فلسفه همان کاری است که می‌کنی وقتی پرسشی می‌پرسی که با نگاه کردن فیصله نمی‌یابد. «ماه چقدر دور است» پرسش فلسفی نیست — اندازه می‌گیری. «آیا هرگز درست است که دروغ بگوییم» هست، و همچنین «چه چیزی تو را همان کسی می‌کند که در شش سالگی بودی». برای این‌ها ابزاری نیست، و با این حال برخی پاسخ‌ها آشکارا بدتر از دیگرانند. فلسفه کارِ یافتنِ همین است، با دلیل."
       },
       "question": {
         "en": "What is a question you have that no measurement could answer?",
@@ -22,7 +22,7 @@
       },
       "body": {
         "en": "A claim is a sentence that can be true or false. A reason is another claim offered in support of it. That is the whole machinery. What makes philosophy difficult is not the machinery but the habit it asks for: when you meet a claim, ask what would have to be true for it to be false. If nothing would, the claim is not saying anything about the world.",
-        "fa": "ادعا جمله‌ای است که می‌تواند درست یا نادرست باشد. دلیل، ادعای دیگری است که در پشتیبانی از آن آورده می‌شود. کل دستگاه همین است. آنچه فلسفه را دشوار می‌کند این دستگاه نیست، بلکه عادتی است که می‌طلبد: وقتی با ادعایی روبه‌رو شدی، بپرس چه چیزی باید درست باشد تا آن ادعا نادرست شود. اگر هیچ چیز، آن ادعا چیزی دربارهٔ جهان نمی‌گوید."
+        "fa": "ادعا جمله‌ای است که می‌تواند درست یا نادرست باشد. دلیل، ادعای دیگری است که در پشتیبانی از آن آورده می‌شود. کل دستگاه همین است. آنچه فلسفه را دشوار می‌کند این دستگاه نیست، بلکه عادتی است که می‌طلبد: وقتی با ادعایی روبه‌رو شدی، بپرس چه چیزی باید درست باشد تا آن ادعا نادرست شود. اگر هیچ‌چیز، آن ادعا چیزی دربارهٔ جهان نمی‌گوید."
       },
       "reads": [{ "ref": "concept:falsifiability" }],
       "citations": [{ "source": "sep" }]
