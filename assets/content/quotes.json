@@ -2202,7 +2202,8 @@
       "context": {
         "en": "If no substance can act on another, then the order of the world cannot come from things pushing each other. Leibniz's answer is that it was arranged in advance, which is what the pre-established harmony means.",
         "fa": "اگر هیچ جوهری نتواند بر دیگری اثر بگذارد، نظمِ جهان نمی‌تواند از هل دادن چیزها به هم بیاید. پاسخ لایب‌نیتس این است که از پیش سامان یافته، و «هماهنگیِ پیشین‌بنیاد» همین را می‌گوید."
-      }
+      },
+      "attributionNote": {"en": "Which is why the harmony between them has to be established in advance.", "fa": "و برای همین است که هماهنگی میانشان باید از پیش برقرار شده باشد."}
     },
     {
       "id": "rousseau-property",
@@ -2817,7 +2818,16 @@
       "context": {
         "en": "Mill's answer to the charge that utilitarianism is a doctrine fit for swine. Its cost is that pleasures now differ in kind as well as amount, which is harder to add up than Bentham's version.",
         "fa": "پاسخ میل به این اتهام که سودگرایی آموزه‌ای درخورِ خوکان است. بهایش این است که لذت‌ها اکنون در نوع هم فرق دارند نه فقط در مقدار، و این جمع زدنی دشوارتر از روایتِ بنتام است."
-      }
+      },
+      "attributionNote": {"en": "The sentence in which the qualitative distinction between pleasures is introduced, and with it the theory's hardest problem.", "fa": "جمله‌ای که در آن تمایز کیفی میان لذت‌ها معرفی می‌شود، و با آن سخت‌ترین مسئلهٔ این نظریه."}
+    },
+    {
+      "id": "burke-triumph-of-evil",
+      "text": {"en": "The only thing necessary for the triumph of evil is that good men do nothing.", "fa": "تنها چیزی که برای پیروزی شر لازم است، این است که نیکان کاری نکنند."},
+      "speaker": "mill",
+      "attribution": "misattributed",
+      "attributionNote": {"en": "Attributed to Edmund Burke everywhere and found nowhere in his writings; researchers at his own archive have failed to locate it. The nearest documented ancestor is a line of John Stuart Mill's, and even that is not this sentence.", "fa": "همه‌جا به ادموند برک نسبت داده می‌شود و در هیچ‌جای نوشته‌هایش یافت نمی‌شود؛ پژوهشگران بایگانی خودش هم نتوانسته‌اند جای‌گذاری‌اش کنند. نزدیک‌ترین نیای مستند، سطری از جان استیوارت میل است، و آن هم این جمله نیست."},
+      "actualSource": {"en": "Unknown. Often traced loosely to a remark of Mill's in an 1867 address.", "fa": "ناشناخته. اغلب به‌طور آزاد به سخنی از میل در خطابه‌ای در ۱۸۶۷ ردیابی می‌شود."}
     },
     {
       "id": "arendt-banality",
