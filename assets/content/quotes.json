@@ -1105,7 +1105,7 @@
       "attribution": "verified",
       "attributionNote": {
         "en": "The opening of the cave passage, which runs to 517a and is spoken by Socrates to Glaucon.",
-        "fa": "آغاز تمثیل غار، که تا انتهای بند ۵۱۷ ادامه دارد و سقراط آن را برای گلاوکن می‌گوید."
+        "fa": "آغاز تمثیل غار، که تا 517a ادامه دارد و سقراط آن را برای گلاوکن می‌گوید."
       },
       "citation": { "source": "plato-republic", "locator": "514a" }
     },
@@ -2026,15 +2026,15 @@
       },
       "originalText": "o vitae philosophia dux, o virtutis indagatrix expultrixque vitiorum",
       "speaker": "cicero",
-      "attribution": "probable",
-      "citation": { "source": "text-de-natura-deorum" },
+      "attribution": "verified",
+      "citation": { "source": "text-tusculan-disputations", "locator": "V.5" },
       "context": {
         "en": "Cicero's Latin gave later Europe most of its philosophical vocabulary, and passages like this one gave it the habit of addressing philosophy as a person who can be appealed to.",
         "fa": "لاتینِ سیسرون بیشترِ واژگان فلسفیِ اروپای پسین را ساخت، و بندهایی از این دست، این عادت را ساختند که فلسفه را چون کسی خطاب کنند که می‌توان به او پناه برد."
       },
       "attributionNote": {
-        "en": "The line is from the Tusculan Disputations, book V, which this entry cites only through the Ciceronian corpus rather than to a located edition.",
-        "fa": "این سطر از «مباحثات توسکولانی»، دفتر پنجم است، که این مدخل تنها از راه مجموعهٔ آثار سیسرون بدان ارجاع می‌دهد نه به ویراستی مشخص."
+        "en": "Tusculan Disputations V.5, in the lament that opens the fifth book. Cicero is addressing philosophy directly, as the thing that made a life out of what would otherwise have been an hour.",
+        "fa": "«مباحثات توسکولانی» V.5، در سوگ‌نامه‌ای که دفتر پنجم را می‌گشاید. سیسرون فلسفه را مستقیم خطاب می‌کند، همچون چیزی که از آنچه وگرنه ساعتی بیش نبود، زندگی‌ای ساخت."
       }
     },
     {
@@ -3256,14 +3256,14 @@
       },
       "speaker": "plato",
       "attribution": "verified",
-      "citation": { "source": "text-phaedo" },
+      "citation": { "source": "text-phaedrus", "locator": "275d" },
       "context": {
         "en": "Plato's objection to books, made in a book. He argues that writing cannot answer a question, cannot tell who should read it, and always needs its author's help — and then wrote for another forty years.",
         "fa": "اعتراضِ افلاطون به کتاب، که در یک کتاب بیان شده است. می‌گوید نوشته نمی‌تواند پرسشی را پاسخ دهد، نمی‌تواند بگوید چه کسی باید بخواندش، و همیشه به یاریِ نویسنده‌اش نیاز دارد — و سپس چهل سالِ دیگر نوشت."
       },
       "attributionNote": {
-        "en": "The passage is from the Phaedrus, at 275d. This entry cites the Platonic corpus rather than a located edition of that dialogue, which is not among the sources the app carries.",
-        "fa": "این بند از «فایدروس»، 275d است. این مدخل به مجموعهٔ آثار افلاطون ارجاع می‌دهد نه به ویراستی مشخص از آن گفت‌وگو، که در میان منابعِ این برنامه نیست."
+        "en": "Phaedrus 275d, in the myth of Theuth, where the objection is put in the mouth of the Egyptian king Thamus.",
+        "fa": "«فایدروس» 275d، در اسطورهٔ توت، آنجا که این اعتراض بر زبان تاموسِ پادشاه مصر گذاشته می‌شود."
       }
     },
     {

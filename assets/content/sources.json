@@ -621,6 +621,17 @@
       "authorsFa": ["سیسرون"]
     },
     {
+      "id": "text-tusculan-disputations",
+      "kind": "primary-text",
+      "title": {
+        "en": "Tusculan Disputations",
+        "fa": "مباحثات توسکولانی"
+      },
+      "authors": ["Cicero"],
+      "rightsNote": { "en": "Cited by book and section.", "fa": "ارجاع بر پایهٔ کتاب و بخش." },
+      "authorsFa": ["سیسرون"]
+    },
+    {
       "id": "text-letters-to-lucilius",
       "kind": "primary-text",
       "title": {
@@ -781,6 +792,14 @@
       "id": "text-phaedo",
       "kind": "primary-text",
       "title": { "en": "Phaedo", "fa": "فایدون" },
+      "authors": ["Plato"],
+      "rightsNote": { "en": "Cited by Stephanus number.", "fa": "ارجاع بر پایهٔ شمارهٔ استفانوس." },
+      "authorsFa": ["افلاطون"]
+    },
+    {
+      "id": "text-phaedrus",
+      "kind": "primary-text",
+      "title": { "en": "Phaedrus", "fa": "فایدروس" },
       "authors": ["Plato"],
       "rightsNote": { "en": "Cited by Stephanus number.", "fa": "ارجاع بر پایهٔ شمارهٔ استفانوس." },
       "authorsFa": ["افلاطون"]

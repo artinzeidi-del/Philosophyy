@@ -581,6 +581,49 @@ void main() {
       }
     });
 
+    test('a note that names the work names the work being cited', () {
+      // Two quotations named one book and cited another. The Plato line about
+      // writing is Phaedrus 275d and its note said so, while the citation
+      // pointed at the Phaedo — a different dialogue, so the reader who
+      // followed the link landed on the wrong book. Cicero's address to
+      // philosophy opens Tusculan Disputations V, which its note also said,
+      // and the citation pointed at On the Nature of the Gods.
+      //
+      // Both notes were right and both citations were wrong, which is the
+      // shape this catches: a note that tells the reader where a passage
+      // lives, over a citation that sends them elsewhere.
+      final named = RegExp(
+        r'\bfrom (?:the )?([A-Z][\w’-]*(?:\s+[A-Z][\w’-]*){0,3})(?=[,.;:]|$)',
+      );
+      // The lookahead keeps the pattern to phrases that end where a title
+      // ends. Without it "quoting from Stoic handbooks" reads as a work
+      // called Stoic.
+      for (final quote in corpus.quotes) {
+        final note = quote.attributionNote?.en;
+        final citation = quote.citation;
+        if (note == null || citation == null) continue;
+        final title = corpus.source(citation.sourceId)?.title.en;
+        final match = named.firstMatch(note);
+        if (title == null || match == null) continue;
+        // A person is not a work: "quoting ... rather than from Zeno" names
+        // the man, not a book of his, and he has none.
+        final phrase = match.group(1)!;
+        if (!phrase.contains(' ') &&
+            corpus.philosophers.any(
+              (p) => p.name.en.split(' ').contains(phrase),
+            )) {
+          continue;
+        }
+        expect(
+          note.toLowerCase().contains(title.toLowerCase()),
+          isTrue,
+          reason:
+              'quote:${quote.id} cites "$title" but its note says the '
+              'passage is from "$phrase"',
+        );
+      }
+    });
+
     test('verified quotations point at a source that exists', () {
       for (final quote in corpus.quotes.where(
         (q) => q.attribution == AttributionStatus.verified,
