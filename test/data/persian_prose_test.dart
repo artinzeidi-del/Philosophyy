@@ -589,6 +589,7 @@ void main() {
         // his book, «مو‌دزه» in the source record for that same book, and
         // «مو‌دزه» again in the article body.
         'مو تزه': 'مو‌تزه',
+        'مو زی': 'مو‌تزه',
         'موزی': 'مو‌تزه',
         'مو‌دزه': 'مو‌تزه',
         'منگ‌دزه': 'منگ‌تزه',
