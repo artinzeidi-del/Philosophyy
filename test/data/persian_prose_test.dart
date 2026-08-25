@@ -666,6 +666,20 @@ void main() {
         'استعمارمند': 'استعماری‌بودن',
         'استعماریت': 'استعماری‌بودن',
         'موقعیت‌گرای': 'موقع‌گرای',
+        // A book named one way as an entry and another way in the prose that
+        // sends the reader to it. Zeami's 花 was «گل» as a concept and
+        // «شکوفه» in ten passages including his own quotation; Nkrumah's book
+        // was «ضمیرگرایی» as a work and «کانشِنسیسم» in his entry; Cusa's was
+        // «نادانی آموخته» and «جهل عالمانه»; Wollstonecraft's was «دفاع از
+        // حقوق زن» and «استیفای حقوق»; Lucretius' was «طبیعتِ چیزها» and
+        // «طبیعت اشیا»; Benjamin's was «دربارهٔ مفهوم تاریخ» and «تزهایی
+        // دربارهٔ تاریخ».
+        'شکوفه': 'گل',
+        'کانشِنسیسم': 'ضمیرگرایی',
+        'جهل عالمانه': 'نادانی آموخته',
+        'استیفای حقوق': 'دفاع از حقوق زن',
+        'دربارهٔ طبیعت اشیا': 'دربارهٔ طبیعتِ چیزها',
+        'تزهایی دربارهٔ تاریخ': 'دربارهٔ مفهوم تاریخ',
       };
       final problems = <String>[];
       for (final entry in strings) {
