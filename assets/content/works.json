@@ -4099,7 +4099,7 @@
       "author": "sextus-empiricus",
       "oneLine": {
         "en": "A manual of the moves that suspend judgement, written by a doctor who thought calm was the by-product.",
-        "fa": "راهنمای حرکت‌هایی که داوری را معلق می‌کنند، نوشته پزشکی که آرامش را فراورده جانبی آن می‌دانست."
+        "fa": "راهنمای حرکت‌هایی که داوری را معلق می‌کنند، نوشته پزشکی که آرامش را فرآورده جانبی آن می‌دانست."
       },
       "composed": { "start": { "year": 190, "precision": "circa" } },
       "traditions": ["ancient-greek", "roman", "hellenistic"],
@@ -6447,7 +6447,7 @@
     },
     {
       "id": "mozi-book",
-      "title": { "en": "Mozi", "fa": "موزی" },
+      "title": { "en": "Mozi", "fa": "مو‌تزه" },
       "originalTitle": "墨子",
       "transliteration": "Mòzǐ",
       "author": "mozi",

@@ -361,7 +361,7 @@
       "term": { "en": "Commentary", "fa": "شرح" },
       "short": {
         "en": "Philosophy written as a line-by-line reading of an earlier book.",
-        "fa": "فلسفه‌ای که به‌صورت خوانشِ سطر‌به‌سطرِ کتابی پیشین نوشته می‌شود."
+        "fa": "فلسفه‌ای که به‌صورت خوانشِ سطر به سطرِ کتابی پیشین نوشته می‌شود."
       },
       "long": {
         "en": "For most of the history in this app, this is the normal form of a philosophical work rather than an exception — Ibn Rushd on Aristotle, Shankara on the Brahma Sūtras, Tsongkhapa on Nāgārjuna. Treating a commentary as derivative is a modern habit that the texts themselves do not support.",
@@ -975,7 +975,7 @@
       "nativeTerm": "Entfremdung",
       "short": {
         "en": "Being separated from something that is properly yours — your work, your product, or yourself.",
-        "fa": "جدا افتادن از چیزی که به‌درستی از آنِ توست — کارت، فراورده‌ات، یا خودت."
+        "fa": "جدا افتادن از چیزی که به‌درستی از آنِ توست — کارت، فرآورده‌ات، یا خودت."
       },
       "long": {
         "en": "Marx names four separations at once: from the product, which belongs to someone else; from the activity, which is directed by someone else; from what he calls species-being, the capacity to make a world deliberately; and from other people, who become competitors. The term came to him from Hegel, where it does philosophical rather than economic work.",

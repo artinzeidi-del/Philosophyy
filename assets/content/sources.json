@@ -1234,7 +1234,7 @@
     {
       "id": "text-mozi-book",
       "kind": "primary-text",
-      "title": { "en": "Mozi", "fa": "مو‌دزه" },
+      "title": { "en": "Mozi", "fa": "مو‌تزه" },
       "authors": ["Mohist school"],
       "rightsNote": { "en": "A school compilation rather than a single author's book; cited by chapter.", "fa": "فراهم‌آوردهٔ یک مکتب است نه کتاب یک نویسنده؛ ارجاع بر پایهٔ فصل." },
       "authorsFa": ["مکتب موهی"]
@@ -2757,7 +2757,7 @@
     {
       "id": "text-mencius-book",
       "kind": "primary-text",
-      "title": { "en": "Mengzi", "fa": "منگ‌دزه" },
+      "title": { "en": "Mengzi", "fa": "منگ‌تزه" },
       "authors": ["Mencius"],
       "rightsNote": { "en": "Cited by book and passage.", "fa": "ارجاع بر پایهٔ کتاب و بند." },
       "authorsFa": ["منسیوس"]

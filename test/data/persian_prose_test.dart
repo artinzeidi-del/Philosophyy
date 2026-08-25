@@ -576,6 +576,13 @@ void main() {
         'جوانگ‌دزه': 'جوانگ‌تزه',
         'فی‌زی': 'فی‌تزه',
         'فی‌دزه': 'فی‌تزه',
+        // Mozi had four: «مو تزه» as his own name, «موزی» as the title of
+        // his book, «مو‌دزه» in the source record for that same book, and
+        // «مو‌دزه» again in the article body.
+        'مو تزه': 'مو‌تزه',
+        'موزی': 'مو‌تزه',
+        'مو‌دزه': 'مو‌تزه',
+        'منگ‌دزه': 'منگ‌تزه',
         // Found by asking, for every bilingual passage, whether a philosopher
         // the English names is named in the Persian too. Most of what that
         // turns up is ordinary prose using «او» instead of repeating a name;
