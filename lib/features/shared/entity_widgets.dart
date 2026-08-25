@@ -1407,9 +1407,12 @@ class QuoteCard extends StatelessWidget {
                       color: semantic.onQuoteSurface.withValues(alpha: 0.72),
                     ),
                   ),
-                  // The romanisation under the script it romanises, quieter
-                  // again, so a reader who cannot read Devanagari can still
-                  // say the line.
+                  // The romanisation under the script it romanises, so a
+                  // reader who cannot read Devanagari can still say the line.
+                  // Set apart by size and italic rather than by going fainter:
+                  // at 0.6 alpha it measured 4.19:1 on the light quote surface
+                  // and 3.73:1 on the dark, both under the 4.5:1 this app
+                  // holds body text to.
                   if (quote.transliteration case final roman?)
                     Padding(
                       padding: const EdgeInsets.only(top: Spacing.xs),
@@ -1423,7 +1426,9 @@ class QuoteCard extends StatelessWidget {
                           ),
                           fontStyle: FontStyle.italic,
                           height: 1.5,
-                          color: semantic.onQuoteSurface.withValues(alpha: 0.6),
+                          color: semantic.onQuoteSurface.withValues(
+                            alpha: 0.72,
+                          ),
                         ),
                       ),
                     ),

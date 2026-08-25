@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/core/design/color_tokens.dart';
 import 'package:philosophyy/core/design/contrast.dart';
 import 'package:philosophyy/core/design/gradients.dart';
+import 'package:philosophyy/core/design/semantic_colors.dart';
 
 /// Guards the palette against accessibility regressions.
 ///
@@ -170,6 +171,41 @@ void main() {
     test('dark scheme non-text elements', () {
       expectNonTextPairs(AppColors.dark, 'dark');
     });
+
+    test(
+      'text on the quotation card clears AA at the alpha it is drawn at',
+      () {
+        // The palette pairs are checked at full strength. The quotation card
+        // draws three things on one surface at three strengths — the quotation
+        // itself opaque, the original script under it, and the romanisation
+        // under that — and a translucent foreground is a different colour from
+        // the one in the palette.
+        //
+        // Caught by measuring rather than by eye: a romanisation added at 0.6
+        // came out at 4.19:1 on the light card and 3.73:1 on the dark, both
+        // under the bar, and looked perfectly reasonable in a screenshot.
+        for (final entry in <String, AppSemanticColors>{
+          'light': AppSemanticColors.light,
+          'dark': AppSemanticColors.dark,
+        }.entries) {
+          for (final alpha in <double>[1, 0.72]) {
+            final drawn = Color.alphaBlend(
+              entry.value.onQuoteSurface.withValues(alpha: alpha),
+              entry.value.quoteSurface,
+            );
+            final ratio = Contrast.ratio(drawn, entry.value.quoteSurface);
+            expect(
+              ratio,
+              greaterThanOrEqualTo(Contrast.aaNormalText),
+              reason:
+                  '${entry.key}: text at alpha $alpha on the quotation card is '
+                  '${ratio.toStringAsFixed(2)}:1, below '
+                  '${Contrast.aaNormalText}:1',
+            );
+          }
+        }
+      },
+    );
 
     test('primary body text clears AAA on both reading surfaces', () {
       // Long-form reading is the product's core activity, so the two colours a
