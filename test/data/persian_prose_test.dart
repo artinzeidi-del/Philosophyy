@@ -156,6 +156,126 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a noun that ends in ه carries the ezafe it needs', () {
+      // The same defect as «درباره», one layer in: an ezafe on a word ending
+      // in ه is written with a hamza, and 106 noun phrases across the corpus
+      // had none — «فلسفه اخلاق», «سده بیستم», «مدینه فاضله», «قاعده
+      // شناسایی». Each was found by asking whether the corpus writes that
+      // exact pair with the hamza somewhere else, so every one listed here is
+      // a phrase the corpus itself spells both ways.
+      //
+      // The rule cannot be a pattern: «نکته این است» and «همه چنین‌اند» end
+      // in ه and take no ezafe at all, and nine of the first hundred
+      // candidates were sentences like those. So the pairs are named.
+      const bare = <String>[
+        'سده بیستم',
+        'سده نوزدهم',
+        'سده شانزدهم',
+        'سده پانزدهم',
+        'فلسفه اخلاق',
+        'فلسفه ذهن',
+        'فلسفه اسلامی',
+        'فلسفه یونانی',
+        'فلسفه غربی',
+        'فلسفه آفریقایی',
+        'فلسفه اروپایی',
+        'فلسفه تطبیقی',
+        'فلسفه رهایی',
+        'فلسفه اولی',
+        'نظریه ارزش',
+        'نظریه اوصاف',
+        'نظریه خطا',
+        'نظریه سیاسی',
+        'نظریه خودش',
+        'برنامه درسی',
+        'برنامه هیلبرت',
+        'نیمه دوم',
+        'نیمه نخست',
+        'قاعده شناسایی',
+        'پرونده اصلی',
+        'پرونده دشوار',
+        'جوینده حقیقت',
+        'مسئله شر',
+        'مسئله بومیان',
+        'مسئله فلسفی',
+        'کارنامه سیاسی',
+        'اندیشه هند',
+        'اندیشه آفریقایی',
+        'اندیشه اوست',
+        'اندیشه بومیان',
+        'اندیشه بومی',
+        'مقاله کوتاه',
+        'مقاله همراه',
+        'مقوله سامان‌دهنده',
+        'آموزه رواقی',
+        'آموزه سامان‌دهنده',
+        'دوره کامل',
+        'دوره استعمار',
+        'همه آدمیان',
+        'همه آن‌ها',
+        'همه حالت‌ها',
+        'همه اتهام‌ها',
+        'واژه یونانی',
+        'واژه بنیادی',
+        'اراده آزاد',
+        'هندسه نااقلیدسی',
+        'ترجمه لاتین',
+        'ترجمه فلسفه',
+        'مدینه فاضله',
+        'مراقبه بی‌تحلیل',
+        'اندازه عملی',
+        'قضیه دوم',
+        'نمونه مشهور',
+        'نمونه الگویی',
+        'جامعه یوروبا',
+        'جامعه خودش',
+        'فرآورده آن',
+        'وهله نخست',
+        'طبقه متوسط',
+        'مرتبه ذهن',
+        'فاصله میان',
+        'حمله مغول',
+        'حمله او',
+        'خانه پدرم',
+        'بیمه اجتماعی',
+        'ایده عدالت',
+        'ایده اوست',
+        'توسعه انسانی',
+        'عهده خدا',
+        'مایه خودش',
+        'نتیجه سیاسی',
+        'رساله دکتری',
+        'شیوه اندیشیدن',
+        'شیوه سخن',
+        'پس‌زمینه آن',
+        'افسانه اینکه',
+        'استحاله امر',
+        'نقطه آغاز',
+        'وارونه آن',
+        'نکته کلی',
+        'حلقه وین',
+        'جامعه آندی',
+        'کتابخانه سلطنتی',
+        'رصدخانه مراغه',
+        'گزینه موجود',
+        'مغالطه طبیعت‌گرایانه',
+      ];
+      final problems = <String>[];
+      for (final entry in strings) {
+        for (final phrase in bare) {
+          if (RegExp(
+            '(?<![\\p{L}\\p{M}‌])$phrase(?![\\p{L}\\p{M}‌])',
+            unicode: true,
+          ).hasMatch(entry.text)) {
+            problems.add(
+              '${entry.file} ${entry.path}: "$phrase" is missing its ezafe',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('an Arabic adverb keeps its tanwin', () {
       // «تقریباً» 117 times and «تقریبا» 14, «اصلاً» 94 and «اصلا» 13. The
       // tanwin is what makes the word an adverb; without it «دقیقا» is not a
