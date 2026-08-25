@@ -510,7 +510,6 @@ class KnowledgeBase {
       final context = 'philosopher:${philosopher.id}';
       checkEntityTaxonomy(context, philosopher);
       checkIds(context, 'concepts', philosopher.conceptIds, conceptExists);
-      checkIds(context, 'works', philosopher.workIds, workExists);
       checkIds(context, 'schools', philosopher.schoolIds, schoolExists);
       checkCitations(context, philosopher.citations);
       checkCitations(context, philosopher.article.allCitations);

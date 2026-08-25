@@ -54,7 +54,6 @@ class Philosopher implements KnowledgeEntity {
     this.branches = const <String>{},
     this.article = Article.empty,
     this.conceptIds = const <String>[],
-    this.workIds = const <String>[],
     this.schoolIds = const <String>[],
     this.citations = const <Citation>[],
     this.writings = Writings.extant,
@@ -100,9 +99,6 @@ class Philosopher implements KnowledgeEntity {
 
   /// Concepts this philosopher originated or is central to.
   final List<String> conceptIds;
-
-  /// Works they wrote.
-  final List<String> workIds;
 
   /// What became of their writing. See [Writings].
   final Writings writings;

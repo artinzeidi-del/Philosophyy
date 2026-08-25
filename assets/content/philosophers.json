@@ -135,7 +135,6 @@
         ]
       },
       "concepts": ["theory-of-forms", "socratic-method"],
-      "works": ["republic", "apology"],
       "schools": ["platonism"],
       "citations": [{ "source": "sep" }]
     },
@@ -220,7 +219,6 @@
         ]
       },
       "concepts": ["eudaimonia", "golden-mean"],
-      "works": ["nicomachean-ethics"],
       "schools": ["aristotelianism"],
       "citations": [{ "source": "sep" }]
     },
@@ -286,7 +284,6 @@
         ]
       },
       "concepts": ["dichotomy-of-control"],
-      "works": ["enchiridion"],
       "schools": ["stoicism"],
       "citations": [{ "source": "epictetus-enchiridion" }, { "source": "sep" }]
     },
@@ -363,7 +360,6 @@
         ]
       },
       "concepts": ["dao", "li-ritual", "ren"],
-      "works": ["analects"],
       "schools": ["confucianism"],
       "citations": [{ "source": "confucius-analects" }, { "source": "sep" }]
     },
@@ -425,7 +421,6 @@
         ]
       },
       "concepts": ["dependent-origination", "sunyata"],
-      "works": ["mulamadhyamakakarika"],
       "schools": ["madhyamaka"],
       "citations": [{ "source": "nagarjuna-mmk" }, { "source": "sep" }],
       "alsoKnownAs": ["Nagarjuna"]
@@ -493,7 +488,6 @@
         ]
       },
       "concepts": ["essence-existence-distinction"],
-      "works": ["isharat"],
       "citations": [{ "source": "sep" }],
       "schools": ["aristotelianism"]
     },
@@ -575,7 +569,6 @@
           }
         ]
       },
-      "works": ["tahafut"],
       "citations": [{ "source": "ghazali-tahafut" }, { "source": "sep" }]
     },
     {
@@ -637,7 +630,6 @@
         ]
       },
       "concepts": ["substantial-motion"],
-      "works": ["asfar"],
       "schools": ["transcendent-wisdom"],
       "citations": [{ "source": "sep" }]
     },
@@ -708,7 +700,6 @@
         ]
       },
       "concepts": ["cogito"],
-      "works": ["meditations"],
       "schools": ["rationalism"],
       "citations": [{ "source": "descartes-meditations" }, { "source": "sep" }]
     },
@@ -774,7 +765,6 @@
         ]
       },
       "concepts": ["categorical-imperative"],
-      "works": ["critique-of-pure-reason"],
       "citations": [{ "source": "sep" }],
       "alsoKnownAs": ["Noumenon", "Thing-in-itself", "Noumena"]
     },
@@ -833,7 +823,6 @@
           }
         ]
       },
-      "works": ["gay-science"],
       "citations": [{ "source": "nietzsche-gay-science" }, { "source": "sep" }],
       "alsoKnownAs": ["Übermensch", "Ubermensch", "Overman", "Superman"]
     },
@@ -899,7 +888,6 @@
           }
         ]
       },
-      "works": ["second-sex"],
       "schools": ["existentialism"],
       "concepts": ["bad-faith", "the-other"],
       "citations": [{ "source": "beauvoir-second-sex" }, { "source": "sep" }]
@@ -969,7 +957,6 @@
         ]
       },
       "concepts": ["double-consciousness"],
-      "works": ["souls-of-black-folk"],
       "citations": [{ "source": "dubois-souls" }, { "source": "sep" }]
     },
     {
@@ -1023,7 +1010,6 @@
       },
       "nativeName": "老子",
       "transliteration": "Lǎozǐ",
-      "works": ["daodejing"],
       "schools": ["daoism"],
       "concepts": ["dao", "wu-wei"],
       "citations": [{ "source": "text-daodejing" }, { "source": "sep" }],
@@ -1083,7 +1069,6 @@
       },
       "nativeName": "莊子",
       "transliteration": "Zhuāngzǐ",
-      "works": ["zhuangzi-book"],
       "schools": ["daoism"],
       "concepts": ["dao", "wu-wei"],
       "citations": [{ "source": "text-zhuangzi-book" }, { "source": "sep" }],
@@ -1147,7 +1132,6 @@
       },
       "nativeName": "孟子",
       "transliteration": "Mèngzǐ",
-      "works": ["mengzi"],
       "citations": [
         { "source": "text-mencius-book" },
         { "source": "text-mengzi" },
@@ -1211,7 +1195,6 @@
       },
       "nativeName": "荀子",
       "transliteration": "Xúnzǐ",
-      "works": ["xunzi-book"],
       "schools": ["legalism"],
       "concepts": ["li-ritual"],
       "citations": [
@@ -1336,7 +1319,6 @@
       },
       "nativeName": "韓非子",
       "transliteration": "Hán Fēizǐ",
-      "works": ["hanfeizi-book"],
       "schools": ["legalism"],
       "citations": [
         { "source": "text-hanfeizi-book" },
@@ -1465,7 +1447,6 @@
       },
       "nativeName": "王陽明",
       "transliteration": "Wáng Yángmíng",
-      "works": ["chuanxilu"],
       "schools": ["neo-confucianism"],
       "citations": [{ "source": "text-chuanxilu" }, { "source": "sep" }]
     },
@@ -1596,7 +1577,6 @@
       },
       "nativeName": "आदि शङ्कर",
       "transliteration": "Ādi Śaṅkara",
-      "works": ["brahma-sutra-bhasya"],
       "schools": ["advaita-vedanta"],
       "concepts": ["pramana"],
       "citations": [
@@ -1658,7 +1638,6 @@
       },
       "nativeName": "रामानुज",
       "transliteration": "Rāmānuja",
-      "works": ["sri-bhasya"],
       "schools": ["vishishtadvaita"],
       "concepts": ["pramana"],
       "citations": [{ "source": "text-sri-bhasya" }, { "source": "sep" }],
@@ -1725,7 +1704,6 @@
       },
       "nativeName": "वसुबन्धु",
       "transliteration": "Vasubandhu",
-      "works": ["vimsatika"],
       "schools": ["yogacara"],
       "citations": [
         { "source": "text-abhidharmakosa" },
@@ -1794,7 +1772,6 @@
       },
       "nativeName": "दिग्नाग",
       "transliteration": "Dignāga",
-      "works": ["pramanasamuccaya"],
       "schools": ["yogacara"],
       "concepts": ["pramana"],
       "citations": [
@@ -1860,7 +1837,6 @@
       "transliteration": "Umāsvāti",
       "schools": ["jainism"],
       "concepts": ["anekantavada", "ahimsa"],
-      "works": ["tattvartha-sutra"],
       "citations": [
         { "source": "text-tattvartha-sutra" },
         { "source": "sep" }
@@ -1986,7 +1962,6 @@
       },
       "nativeName": "道元",
       "transliteration": "Dōgen Zenji",
-      "works": ["shobogenzo"],
       "schools": ["zen"],
       "citations": [{ "source": "text-shobogenzo" }, { "source": "sep" }],
       "alsoKnownAs": ["Dogen", "Dogen Zenji", "Eihei Dogen"]
@@ -2050,7 +2025,6 @@
       },
       "nativeName": "西田 幾多郎",
       "transliteration": "Nishida Kitarō",
-      "works": ["inquiry-into-the-good"],
       "schools": ["kyoto-school"],
       "citations": [
         { "source": "text-inquiry-into-the-good" },
@@ -2311,7 +2285,6 @@
       },
       "nativeName": "ཙོང་ཁ་པ",
       "transliteration": "Tsongkhapa",
-      "works": ["lamrim-chenmo"],
       "schools": ["gelug"],
       "concepts": ["dependent-origination"],
       "citations": [{ "source": "text-lamrim-chenmo" }, { "source": "sep" }]
@@ -2434,7 +2407,6 @@
       },
       "nativeName": "משה בן מימון",
       "transliteration": "Mosheh ben Maimon",
-      "works": ["guide-for-the-perplexed"],
       "concepts": ["negative-theology"],
       "citations": [
         { "source": "text-guide-for-the-perplexed" },
@@ -2496,7 +2468,6 @@
       },
       "nativeName": "Aurelius Augustinus",
       "transliteration": "Aurelius Augustinus",
-      "works": ["city-of-god", "confessions"],
       "citations": [{ "source": "text-city-of-god" }, { "source": "sep" }]
     },
     {
@@ -2557,7 +2528,6 @@
       },
       "nativeName": "Thomas de Aquino",
       "transliteration": "Thomas de Aquino",
-      "works": ["summa-theologiae"],
       "schools": ["scholasticism"],
       "citations": [{ "source": "text-summa-theologiae" }, { "source": "sep" }]
     },
@@ -2623,7 +2593,6 @@
       },
       "nativeName": "Anselmus Cantuariensis",
       "transliteration": "Anselmus",
-      "works": ["proslogion"],
       "schools": ["scholasticism"],
       "citations": [
         { "source": "text-proslogion-anselm-reply" },
@@ -2692,7 +2661,6 @@
       },
       "nativeName": "Gulielmus Occamus",
       "transliteration": "Gulielmus Occamus",
-      "works": ["summa-logicae"],
       "schools": ["nominalism", "scholasticism"],
       "citations": [
         { "source": "text-ockham-quodlibeta" },
@@ -2815,7 +2783,6 @@
           }
         ]
       },
-      "works": ["the-prince"],
       "citations": [{ "source": "text-the-prince" }, { "source": "sep" }]
     },
     {
@@ -2875,7 +2842,6 @@
           }
         ]
       },
-      "works": ["essays-montaigne"],
       "citations": [{ "source": "text-essays-montaigne" }, { "source": "sep" }]
     },
     {
@@ -2939,7 +2905,6 @@
       },
       "nativeName": "ברוך שפינוזה",
       "transliteration": "Baruch de Spinoza",
-      "works": ["ethics-spinoza"],
       "schools": ["rationalism"],
       "citations": [{ "source": "text-ethics-spinoza" }, { "source": "sep" }]
     },
@@ -3007,7 +2972,6 @@
           }
         ]
       },
-      "works": ["begriffsschrift"],
       "schools": ["analytic-philosophy"],
       "citations": [
         { "source": "text-grundlagen" },
@@ -3141,7 +3105,6 @@
           }
         ]
       },
-      "works": ["philosophical-investigations", "tractatus"],
       "schools": ["analytic-philosophy"],
       "citations": [
         { "source": "text-philosophical-investigations" },
@@ -3267,7 +3230,6 @@
           }
         ]
       },
-      "works": ["being-and-time"],
       "schools": ["phenomenology"],
       "citations": [{ "source": "text-being-and-time" }, { "source": "sep" }],
       "alsoKnownAs": ["Dasein"]
@@ -3326,7 +3288,6 @@
           }
         ]
       },
-      "works": ["being-and-nothingness"],
       "schools": ["existentialism"],
       "concepts": ["bad-faith"],
       "citations": [
@@ -3393,7 +3354,6 @@
           }
         ]
       },
-      "works": ["phenomenology-of-perception"],
       "schools": ["phenomenology"],
       "citations": [
         { "source": "text-visible-invisible" },
@@ -3459,7 +3419,6 @@
           }
         ]
       },
-      "works": ["discipline-and-punish"],
       "citations": [
         { "source": "text-discipline-and-punish" },
         { "source": "sep" }
@@ -3725,7 +3684,6 @@
       },
       "nativeName": "ዘርአ ያዕቆብ",
       "transliteration": "Zärʾa Yaʿəqob",
-      "works": ["hatata"],
       "citations": [{ "source": "text-hatata" }, { "source": "sep" }],
       "alsoKnownAs": ["Zera Yacob", "Zara Yaqob"]
     },
@@ -3850,7 +3808,6 @@
           }
         ]
       },
-      "works": ["black-skin-white-masks", "wretched-of-the-earth"],
       "concepts": ["coloniality"],
       "citations": [
         { "source": "text-black-skin-white-masks" },
@@ -4052,7 +4009,6 @@
           }
         ]
       },
-      "works": ["respuesta"],
       "citations": [
         { "source": "text-primer-sueno" },
         { "source": "text-respuesta" },

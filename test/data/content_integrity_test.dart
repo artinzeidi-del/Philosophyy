@@ -891,15 +891,30 @@ void main() {
       }
     });
 
-    test('every philosopher with works has them resolvable', () {
-      for (final philosopher in corpus.philosophers) {
-        for (final workId in philosopher.workIds) {
-          expect(
-            corpus.work(workId),
-            isNotNull,
-            reason: 'philosopher:${philosopher.id} lists missing work $workId',
-          );
-        }
+    test('a book is reachable from the person who wrote it', () {
+      // A philosopher used to carry a list of their own works alongside the
+      // author field on each work, and nothing ever read it: the page, the
+      // quiz and the search all resolve a person's books by asking which
+      // works name them as author. Fifty-four entries kept the list and a
+      // hundred and thirty-eight did not, which is what a second copy of a
+      // fact does when only one copy is load-bearing.
+      //
+      // The list is gone. What matters is that the one remaining link
+      // resolves in both directions, which is what this asks.
+      for (final work in corpus.works) {
+        final author = corpus.philosopher(work.authorId);
+        expect(
+          author,
+          isNotNull,
+          reason: 'work:${work.id} names an author who is not an entry',
+        );
+        expect(
+          corpus.worksBy(author!.id).map((it) => it.id),
+          contains(work.id),
+          reason:
+              'work:${work.id} names ${author.id} as author, and asking the '
+              'corpus for their works does not return it',
+        );
       }
     });
 

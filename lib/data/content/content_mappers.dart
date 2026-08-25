@@ -206,7 +206,6 @@ abstract final class ContentMappers {
     branches: reader.stringList('branches').toSet(),
     article: article(reader, 'article'),
     conceptIds: reader.stringList('concepts'),
-    workIds: reader.stringList('works'),
     schoolIds: reader.stringList('schools'),
     citations: citations(reader, 'citations'),
     writings: _writings(reader),
