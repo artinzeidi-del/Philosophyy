@@ -99,7 +99,19 @@ class _EntranceAnimationState extends State<EntranceAnimation>
     super.didChangeDependencies();
     // Reduced motion is resolved here rather than in initState because it comes
     // from MediaQuery, and it can change while the app is running.
-    if (Motion.isReduced(context)) {
+    //
+    // Past the staggered run the child is simply there. A sliver disposes the
+    // children that scroll off and builds them again on the way back, so each
+    // one gets a fresh State and, before this, ran its arrival again — cards
+    // fading and rising *while the reader scrolls*, which reads as the list
+    // stuttering rather than as anything arriving. It also left an `Opacity`
+    // and a `Transform` animating on every visible card at once, and an
+    // opacity layer costs a save layer for everything under it: the Explore
+    // grid ran at a median of 33 ms a frame, every frame doubled.
+    //
+    // An entrance explains where a screen begins. That is the first screenful;
+    // the rest of a list is a place the reader has taken themselves to.
+    if (Motion.isReduced(context) || widget.index >= widget.maxStaggeredItems) {
       _controller.value = 1;
     } else if (!_controller.isAnimating && _controller.value == 0) {
       _controller.forward();
