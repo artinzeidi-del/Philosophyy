@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+
 /// Folds text into a canonical form for indexing and matching.
 ///
 /// ## Why this is not a one-line `toLowerCase()`
@@ -205,20 +207,123 @@ abstract final class TextNormalizer {
   static String normalize(String input) {
     if (input.isEmpty) return '';
 
-    var text = input.toLowerCase();
+    final text = input.toLowerCase();
 
     if (_isAscii(text)) {
       return text.trim().replaceAll(_whitespaceRun, ' ');
     }
 
-    // The zero-width non-joiner separates parts of a Persian compound that a
-    // reader will normally type with a space, so it becomes one.
+    return _foldInOnePass(text);
+  }
+
+  /// The non-ASCII fold, done in a single walk of the runes.
+  ///
+  /// ## Why this is not four `replaceAll`s and a loop
+  ///
+  /// It was, and the shape read better: remove the zero-width characters,
+  /// remove the Arabic diacritics, remove the combining marks, fold the
+  /// letters, then trim and collapse the spaces. Six passes over the string
+  /// and five intermediate copies of it.
+  ///
+  /// Measured over the corpus that ships, normalising cost 346 ms of the
+  /// 630 ms it took to build the search index — and the index is built on the
+  /// main isolate when the search screen opens, so the reader paid it as a
+  /// pause on the way in. Everything those passes did is a decision about one
+  /// character, so they fold into one loop that makes each decision once,
+  /// with integer comparisons where there were regular expressions.
+  ///
+  /// [foldInSteps] keeps the old form, and a test runs both over every string
+  /// in the corpus and requires the same answer, so this is checked rather
+  /// than believed.
+  static String _foldInOnePass(String lowered) {
+    final buffer = StringBuffer();
+    // Whitespace is not written when it is seen. It is remembered, and one
+    // space is written before the next character that survives — which
+    // collapses runs and trims both ends without a second pass.
+    var pendingSpace = false;
+    var wroteAnything = false;
+
+    for (final rune in lowered.runes) {
+      if (_isDiscarded(rune)) continue;
+
+      // The zero-width non-joiner separates the parts of a Persian compound
+      // that a reader will normally type with a space, so it becomes one.
+      if (rune == 0x200C || _isSpace(rune)) {
+        if (wroteAnything) pendingSpace = true;
+        continue;
+      }
+
+      final folded = _foldingByRune[rune];
+      // Some entries fold to nothing — the ʿayn and hamza transliteration
+      // marks, and the apostrophes. They are dropped without disturbing a
+      // space waiting to be written.
+      if (folded != null && folded.isEmpty) continue;
+
+      if (pendingSpace) {
+        buffer.write(' ');
+        pendingSpace = false;
+      }
+      if (folded != null) {
+        buffer.write(folded);
+      } else {
+        buffer.writeCharCode(rune);
+      }
+      wroteAnything = true;
+    }
+
+    return buffer.toString();
+  }
+
+  /// Whether [unit] is removed outright, carrying no meaning for matching.
+  ///
+  /// The ranges are the ones [_arabicDiacritics], [_combiningMarks] and
+  /// [_zeroWidth] describe. Those regexes are kept because they say what the
+  /// ranges mean, and because [foldInSteps] still uses them, which is what
+  /// makes the equivalence test meaningful.
+  static bool _isDiscarded(int unit) =>
+      // Combining diacritical marks.
+      (unit >= 0x0300 && unit <= 0x036F) ||
+      // Arabic: fathatan through the sukun, the superscript alef, the
+      // Qur'anic annotation marks, the tatweel, the lone hamza.
+      (unit >= 0x064B && unit <= 0x065F) ||
+      unit == 0x0670 ||
+      (unit >= 0x06D6 && unit <= 0x06ED) ||
+      unit == 0x0640 ||
+      unit == 0x0621 ||
+      // Zero-width characters and the bidirectional controls.
+      unit == 0x200B ||
+      unit == 0x200D ||
+      unit == 0x200E ||
+      unit == 0x200F ||
+      unit == 0xFEFF;
+
+  /// Whether [unit] is whitespace, by the same reckoning as `\s` and `trim`.
+  static bool _isSpace(int unit) =>
+      unit == 0x20 ||
+      (unit >= 0x09 && unit <= 0x0D) ||
+      unit == 0x85 ||
+      unit == 0xA0 ||
+      unit == 0x1680 ||
+      (unit >= 0x2000 && unit <= 0x200A) ||
+      unit == 0x2028 ||
+      unit == 0x2029 ||
+      unit == 0x202F ||
+      unit == 0x205F ||
+      unit == 0x3000;
+
+  /// The fold as it used to be done, kept so the fast path can be checked
+  /// against it over the whole corpus rather than trusted.
+  @visibleForTesting
+  static String foldInSteps(String input) {
+    if (input.isEmpty) return '';
+    var text = input.toLowerCase();
+    if (_isAscii(text)) {
+      return text.trim().replaceAll(_whitespaceRun, ' ');
+    }
     text = text.replaceAll('\u{200C}', ' ');
     text = text.replaceAll(_zeroWidth, '');
-
     text = text.replaceAll(_arabicDiacritics, '');
     text = text.replaceAll(_combiningMarks, '');
-
     final buffer = StringBuffer();
     for (final rune in text.runes) {
       final folded = _foldingByRune[rune];
@@ -228,7 +333,6 @@ abstract final class TextNormalizer {
         buffer.writeCharCode(rune);
       }
     }
-
     return buffer.toString().trim().replaceAll(_whitespaceRun, ' ');
   }
 

@@ -3,6 +3,8 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:philosophyy/core/design/typography.dart';
+import 'package:philosophyy/domain/value_objects/app_language.dart';
 
 /// Proves every character the content can print has a glyph in a bundled font.
 ///
@@ -38,6 +40,58 @@ void main() {
           'If this arrived with new content, run: '
           'python3 tool/subset_fonts.py',
     );
+  });
+
+  test('every character has a glyph in the chain that will draw it', () {
+    // The check above asks whether *some* bundled face can draw a character.
+    // That is not the question a reader's screen asks. Each text style names a
+    // family and a fallback list, and the glyph has to be somewhere in that
+    // list — the rest of the bundle is not consulted.
+    //
+    // Epeli Hauʻofa is how the gap showed. His name carries the ʻokina, which
+    // Spectral has and Vazirmatn has not. The Persian chain listed Spectral;
+    // the English one did not, and English chrome is set in Roboto, which is
+    // the platform's face and not ours. So his name printed correctly in the
+    // serif of a card title and as an empty box in the label line under it,
+    // on the same screen, and the check above passed the whole time.
+    //
+    // Roboto counts for nothing here on purpose. It is not bundled, so on the
+    // web it is whatever the browser happens to have, and a chain that only
+    // works because a platform font filled in is a chain that breaks on the
+    // platform that does not.
+    final content = _contentCharacters();
+    for (final language in AppLanguage.values) {
+      // Two chains, not one. A label takes the chrome family and a paragraph
+      // takes the content family, and both then fall through the same list —
+      // so a glyph only the content family has is missing from every label,
+      // which is exactly what happened.
+      for (final entry in <String, String>{
+        'chrome': AppTypography.chromeFamily(language),
+        'content': AppTypography.contentFamily(language),
+      }.entries) {
+        final chain = <String>[
+          entry.value,
+          ...AppTypography.fallbacksFor(language),
+        ];
+
+        final covered = <int>{};
+        for (final family in chain) {
+          covered.addAll(_coveredByFamily(family));
+        }
+
+        final missing =
+            content.where((rune) => !covered.contains(rune)).toList()..sort();
+
+        expect(
+          missing,
+          isEmpty,
+          reason:
+              'nothing in the ${language.code} ${entry.key} chain — '
+              '${chain.join(' → ')} — can draw '
+              '${missing.map(_describe).join(', ')}',
+        );
+      }
+    }
   });
 
   test('the subsets are actually subsets', () {
@@ -300,4 +354,33 @@ void _readFormat12(ByteData data, int start, Set<int> covered) {
       covered.add(code);
     }
   }
+}
+
+/// Every character the faces declared for [family] in pubspec.yaml can draw.
+///
+/// Read from the manifest rather than by guessing at filenames, so a family
+/// renamed or a weight added is picked up rather than silently skipped. A
+/// family with no bundled faces — Roboto — covers nothing, which is the
+/// honest answer: it is the platform's font, not this app's.
+Set<int> _coveredByFamily(String family) {
+  final manifest = File('pubspec.yaml').readAsLinesSync();
+  final assets = <String>[];
+  var inFamily = false;
+  for (final line in manifest) {
+    final trimmed = line.trim();
+    if (trimmed.startsWith('- family:')) {
+      inFamily = trimmed.substring('- family:'.length).trim() == family;
+      continue;
+    }
+    if (inFamily && trimmed.startsWith('- asset:')) {
+      assets.add(trimmed.substring('- asset:'.length).trim());
+    }
+  }
+
+  final covered = <int>{};
+  for (final asset in assets) {
+    final file = File(asset);
+    if (file.existsSync()) covered.addAll(_cmapOf(file.readAsBytesSync()));
+  }
+  return covered;
 }

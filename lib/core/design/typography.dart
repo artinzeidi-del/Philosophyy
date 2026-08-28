@@ -172,6 +172,14 @@ abstract final class AppTypography {
         ]
       : const <String>[
           greekFamily,
+          // The content serif, behind the Greek face and ahead of everything
+          // else. English chrome is set in Roboto, which is the platform's
+          // and not ours, and it has no glyph for a good deal of Latin that
+          // names in this corpus need: Epeli Hauʻofa's ʻokina printed as an
+          // empty box in every card meta line, because the Persian chain
+          // listed the serif and this one did not. Spectral carries it, and
+          // carries the rest of Latin Extended with it.
+          serifFamily,
           // Naskh ahead of the UI sans, so an Arabic-script name inside an
           // English sentence is set in a face that belongs next to a serif.
           naskhFamily,

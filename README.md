@@ -39,7 +39,7 @@ flutter run          # or: flutter build web --release
 
 ```bash
 flutter analyze                 # must report no issues
-flutter test                    # 977 tests
+flutter test                    # 981 tests
 flutter build web --release     # must succeed
 ```
 

@@ -80,12 +80,40 @@ void main() {
     });
 
     test('a fallback chain never begins with the family it backs up', () {
+      // Stated per chain, because there are two of them. Chrome and content
+      // name different primaries and share one fallback list, so a family can
+      // be the primary of one chain and a necessary fallback for the other:
+      // Spectral is the English content face and is in the list because
+      // English chrome is Roboto, which has no ʻokina, no ṣ and no ḥ.
+      //
+      // What is actually wasted is a chain whose first fallback is the face it
+      // just tried, which is the shape this was written for.
       for (final language in AppLanguage.values) {
+        final fallbacks = AppTypography.fallbacksFor(language);
+        for (final primary in <String>{
+          AppTypography.chromeFamily(language),
+          AppTypography.contentFamily(language),
+        }) {
+          expect(
+            fallbacks.first,
+            isNot(primary),
+            reason:
+                'the ${language.code} chain tries $primary and then falls '
+                'back to it',
+          );
+        }
+      }
+    });
+
+    test('no face is listed twice in one chain', () {
+      // The other half of the same waste: a duplicate later in the list is a
+      // lookup that can never succeed, because the first copy already failed.
+      for (final language in AppLanguage.values) {
+        final fallbacks = AppTypography.fallbacksFor(language);
         expect(
-          AppTypography.fallbacksFor(language),
-          isNot(contains(AppTypography.contentFamily(language))),
-          reason:
-              'listing the primary face as its own fallback achieves nothing',
+          fallbacks.toSet(),
+          hasLength(fallbacks.length),
+          reason: 'the ${language.code} chain repeats a face: $fallbacks',
         );
       }
     });

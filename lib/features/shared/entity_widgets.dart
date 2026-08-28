@@ -295,7 +295,27 @@ class EntityCard extends StatelessWidget {
                         ),
                         const SizedBox(height: Spacing.xs),
                       ],
-                      Text(title, style: theme.textTheme.titleLarge),
+                      // Clamped in a grid for the same reason the summary
+                      // is: the cell has a fixed height and something has to
+                      // give. Mary Graham's "Some Thoughts about the
+                      // Philosophical Underpinnings of Aboriginal
+                      // Worldviews" is the longest title in the corpus and
+                      // wrapped to five lines, which pushed the card thirty
+                      // pixels past its cell however far the summary shrank
+                      // — the summary was already down to nothing.
+                      //
+                      // Two lines, because a third leaves no room for the
+                      // summary and a card with a title and no summary is
+                      // not the card this grid is made of. In a list the
+                      // title is left whole, where there is height for it.
+                      Text(
+                        title,
+                        maxLines: maxSummaryLines == null ? null : 2,
+                        overflow: maxSummaryLines == null
+                            ? null
+                            : TextOverflow.ellipsis,
+                        style: theme.textTheme.titleLarge,
+                      ),
                     ],
                   ),
                 ),
