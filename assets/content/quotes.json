@@ -1339,7 +1339,7 @@
         "en": "The argument for non-harm is made as an observation rather than as a command.",
         "fa": "استدلال برای نیازردن چون یک مشاهده آورده می‌شود نه چون یک فرمان."
       },
-      "citation": { "source": "text-acaranga-sutra", "locator": "1.2.3" }
+      "citation": { "source": "text-acaranga-sutra", "locator": "I.2.3" }
     },
     {
       "id": "umasvati-mutual",
@@ -1548,7 +1548,7 @@
         "en": "The whole passage is four sentences long and appears at the end of a section about something else.",
         "fa": "کل این بند چهار جمله است و در پایان بخشی دربارهٔ چیزی دیگر می‌آید."
       },
-      "citation": { "source": "text-treatise-human-nature", "locator": "3.1.1" }
+      "citation": { "source": "text-treatise-human-nature", "locator": "III.1.1" }
     },
     {
       "id": "hegel-true-whole",
@@ -2655,7 +2655,7 @@
       "transliteration": "yogaś citta-vṛtti-nirodhaḥ",
       "speaker": "patanjali",
       "attribution": "verified",
-      "citation": { "source": "text-yoga-sutras", "locator": "I.2" },
+      "citation": { "source": "text-yoga-sutras", "locator": "1.2" },
       "context": {
         "en": "The second line of the text and its definition of the whole subject. Everything after it is a description of what stands in the way and what to do about it.",
         "fa": "سطر دومِ متن و تعریفِ آن از تمامِ موضوع. هرچه پس از آن می‌آید، وصفِ آن است که چه چیز سرِ راه است و با آن چه باید کرد."
@@ -3141,7 +3141,7 @@
       },
       "speaker": "confucius",
       "attribution": "verified",
-      "citation": { "source": "confucius-analects", "locator": "1.1" },
+      "citation": { "source": "confucius-analects", "locator": "I.1" },
       "context": {
         "en": "The opening line of the Analects. What it puts first is not a doctrine but a way of spending time, and the two questions that follow it are about friendship and about not minding being unrecognised.",
         "fa": "نخستین سطرِ «مکالمات». آنچه در آغاز می‌نهد نه آموزه‌ای که شیوه‌ای از گذراندنِ وقت است، و دو پرسشِ پس از آن دربارهٔ دوستی است و دربارهٔ اینکه ناشناخته ماندن را به دل نگیری."

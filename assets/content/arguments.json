@@ -519,7 +519,7 @@
       "opponents": ["aristotle"],
       "branches": ["logic", "metaphysics", "philosophy-of-mathematics"],
       "citations": [
-        { "source": "text-aristotle-physics", "locator": "VI.9, 239b14" },
+        { "source": "text-aristotle-physics", "locator": "239b14" },
         { "source": "sep" }
       ]
     },

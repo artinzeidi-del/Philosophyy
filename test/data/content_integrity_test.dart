@@ -656,6 +656,49 @@ void main() {
       }
     });
 
+    test('a locator does not repeat the title printed beside it', () {
+      // The sources list prints author, title and locator joined by a middle
+      // dot, so "Metaphysics 983b" came out as "Aristotle · Metaphysics ·
+      // Metaphysics 983b". Seven locators carried the title of the very work
+      // they point into.
+      final problems = <String>[];
+      for (final source in corpus.sources) {
+        final first = source.title.en.split(' ').first;
+        if (first.length < 5) continue;
+        for (final locator in _locatorsFor(corpus, source.id)) {
+          if (locator.toLowerCase().startsWith(first.toLowerCase())) {
+            problems.add(
+              'source:${source.id} is cited at "$locator", which repeats the '
+              'title the line already prints',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
+    test('one source is cited in one numbering', () {
+      // The Meditations were cited at II.1 and at 2.1, the Analects at II.4
+      // and at 1.1, the Treatise at I.3.6 and at 3.1.1. Two numberings for one
+      // book is a reader checking a reference against an edition and not
+      // finding the place, which is the one thing an apparatus is for.
+      final roman = RegExp(r'^[IVXLC]+[.,\s]');
+      final arabic = RegExp(r'^\d');
+      final problems = <String>[];
+      for (final source in corpus.sources) {
+        final locators = _locatorsFor(corpus, source.id);
+        final inRoman = locators.where(roman.hasMatch).toList();
+        final inArabic = locators.where(arabic.hasMatch).toList();
+        if (inRoman.isNotEmpty && inArabic.isNotEmpty) {
+          problems.add(
+            'source:${source.id} is cited both as ${inRoman.join(", ")} and '
+            'as ${inArabic.join(", ")}',
+          );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('verified quotations point at a source that exists', () {
       for (final quote in corpus.quotes.where(
         (q) => q.attribution == AttributionStatus.verified,
@@ -1504,4 +1547,31 @@ int _longestCommonSubsequence(String a, String b) {
     previous = current;
   }
   return previous[b.length];
+}
+
+/// Every locator any entry uses to cite [sourceId].
+Set<String> _locatorsFor(KnowledgeBase corpus, String sourceId) {
+  final found = <String>{};
+  void take(Iterable<Citation> citations) {
+    for (final citation in citations) {
+      if (citation.sourceId == sourceId && citation.locator != null) {
+        found.add(citation.locator!);
+      }
+    }
+  }
+
+  for (final entity in corpus.allEntities) {
+    take(entity.citations);
+    for (final section in entity.article.sections) {
+      take(section.citations);
+    }
+  }
+  for (final quote in corpus.quotes) {
+    final citation = quote.citation;
+    if (citation != null) take(<Citation>[citation]);
+  }
+  for (final argument in corpus.arguments) {
+    take(argument.citations);
+  }
+  return found;
 }
