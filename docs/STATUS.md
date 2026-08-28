@@ -8,7 +8,7 @@ repository, not recalled.
 | Check | Result |
 | --- | --- |
 | `flutter analyze --fatal-infos` | no issues |
-| `flutter test` | 981 passing, across 58 test files |
+| `flutter test` | 982 passing, across 58 test files |
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
 | Release build in Chromium: 103 routes × 2 languages | 206 screens, no console errors, no overflows |
 | The same routes in dark mode, at 320 px and 1440 px | 412 screens, no console errors, no overflows |
@@ -30,7 +30,7 @@ repository, not recalled.
 
 All 468 philosophers, concepts, works and schools carry three reading
 depths — quick, standard and in depth — in English and Persian, across 1,408
-authored sections. Total prose: 220,496 English words and 212,058 Persian
+authored sections. Total prose: 220,443 English words and 212,002 Persian
 words, which is roughly 18.4 hours of English reading and 23.6 hours of
 Persian.
 

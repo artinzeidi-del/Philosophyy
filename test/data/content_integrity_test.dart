@@ -247,6 +247,36 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('an article does not open by repeating the summary above it', () {
+      // The entry page prints the one-line summary in the masthead and the
+      // quick section directly under it. Seven concepts had the same sentence
+      // in both, word for word — the reader met "The gap between our demand
+      // for meaning and a world that does not answer" in the header and again
+      // as the first thing the article said, within half a screen.
+      //
+      // Five of them simply lost the repeat, because the sentence after it
+      // already opened the article. Two kept a first sentence because the one
+      // that follows needs it — "every argument that it will" has to refer to
+      // something — and it was rewritten rather than removed.
+      final problems = <String>[];
+      for (final entity in corpus.allEntities) {
+        final opening = entity.article.sections.firstOrNull;
+        if (opening == null) continue;
+        for (final language in AppLanguage.values) {
+          final summary = entity.oneLine.resolve(language).trim();
+          final body = opening.body.resolve(language).trimLeft();
+          if (summary.length < 20) continue;
+          if (body.startsWith(summary)) {
+            problems.add(
+              '${entity.ref} opens its article with its own summary in '
+              '${language.code}: "$summary"',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('every entity has a one-line summary in both languages', () {
       for (final entity in corpus.allEntities) {
         expect(
