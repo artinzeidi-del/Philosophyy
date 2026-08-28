@@ -14,22 +14,22 @@
     they are the same colour and read as one shape flowing into the ring.
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
-  <rect width="1024" height="1024" fill="#F5EDE1"/>
+  <rect width="1024" height="1024" fill="#F6F1E5"/>
 
   <!-- The point above the letter. -->
   <rect x="481" y="144" width="64" height="64" rx="4"
-        transform="rotate(45 513 176)" fill="#8A7247"/>
+        transform="rotate(45 513 176)" fill="#A28962"/>
 
   <!-- The tail sweeping out of the ring to the left. -->
   <path d="M 231 583 C 247 668, 318 702, 402 700"
-        stroke="#C1A882" stroke-width="58" fill="none" stroke-linecap="round"/>
+        stroke="#C2AA81" stroke-width="58" fill="none" stroke-linecap="round"/>
 
   <!-- The ring the stem descends into. -->
-  <circle cx="521" cy="660" r="140" fill="#C1A882"/>
+  <circle cx="521" cy="660" r="140" fill="#C2AA81"/>
 
   <!-- The bowl, then the stem over it, then the ring's eye: three shapes in
        one colour whose union is the letter. -->
-  <path d="M 520 252 H 628 A 126 126 0 0 1 628 504 H 520 Z" fill="#FCF9F1"/>
-  <rect x="470" y="252" width="99" height="392" rx="49.5" fill="#FCF9F1"/>
-  <circle cx="521" cy="660" r="64" fill="#FCF9F1"/>
+  <path d="M 520 252 H 628 A 126 126 0 0 1 628 504 H 520 Z" fill="#FAF6EB"/>
+  <rect x="470" y="252" width="99" height="392" rx="49.5" fill="#FAF6EB"/>
+  <circle cx="521" cy="660" r="64" fill="#FAF6EB"/>
 </svg>
