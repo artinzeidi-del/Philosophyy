@@ -10,8 +10,8 @@ repository, not recalled.
 | `flutter analyze --fatal-infos` | no issues |
 | `flutter test` | 984 passing, across 58 test files |
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
-| Release build in Chromium: 103 routes × 2 languages | 206 screens, no console errors, no overflows |
-| The same routes in dark mode, at 320 px and 1440 px | 412 screens, no console errors, no overflows |
+| Release build in Chromium: 96 routes across 2 languages, 2 themes, 3 viewports | 384 screens, no console errors, no overflows |
+| First keystroke in search, measured in the built app | 172 ms warm, 164 ms straight from launch |
 | Every entry drawn in both languages | 936 screens, no exception |
 
 ## Corpus
