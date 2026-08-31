@@ -8,6 +8,8 @@ import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
+import 'package:philosophyy/features/quiz/quiz_screen.dart';
+import 'package:philosophyy/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../support/painted_contrast.dart';
@@ -41,10 +43,17 @@ void main() {
     return library;
   }
 
+  /// The seed the measured round is built from.
+  ///
+  /// Fixed so that a failure can be reproduced. Nothing about this number is
+  /// special beyond having been picked once.
+  const roundSeed = 20260501;
+
   Future<ProviderContainer> pumpRound(
     WidgetTester tester, {
     required ThemeMode theme,
     required String language,
+    int seed = roundSeed,
   }) async {
     tester.view.physicalSize = const Size(420, 1400);
     tester.view.devicePixelRatio = 1.0;
@@ -86,6 +95,18 @@ void main() {
       isNotEmpty,
       reason: 'no round started, so there is no question to measure',
     );
+
+    // The round the button builds is seeded from the clock, so which questions
+    // this measures changed on every run and a red build could not be
+    // reproduced. The tap above is what proves the button starts a round; the
+    // round measured below is a fixed one. Change [roundSeed] to sample
+    // different content, and the builder itself is swept over many seeds in
+    // quiz_builder_test.dart.
+    container
+        .read(quizSessionProvider.notifier)
+        .start(AppL10n.of(tester.element(find.byType(QuizScreen))), seed: seed);
+    await tester.pumpAndSettle();
+    expect(container.read(quizSessionProvider)?.questions, isNotEmpty);
     return container;
   }
 
@@ -103,13 +124,14 @@ void main() {
     // question's own text to be among what was measured cannot be satisfied by
     // the wrong screen.
     final resolved = measured.findings.map((finding) => finding.text).toList();
+    final seen = measured.findings.map((finding) => finding.shortText).toList();
     for (final required in mustInclude) {
       expect(
         resolved.any((text) => text.contains(required)),
         isTrue,
         reason:
             'the check did not measure "$required" on $where, so it is not '
-            'looking at the screen it thinks it is. It saw: $resolved',
+            'looking at the screen it thinks it is. It saw: $seen',
       );
     }
     expect(

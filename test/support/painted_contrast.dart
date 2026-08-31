@@ -92,7 +92,14 @@ class PaintedContrast {
         for (final background in backgrounds) {
           findings.add(
             PaintedText(
-              text: text.length > 48 ? '${text.substring(0, 48)}…' : text,
+              // The whole paragraph, not a shortened one. Cutting it here
+              // meant a caller asking "did you measure this string?" could not
+              // be answered for any string past 48 characters — which is how a
+              // quiz answer as long as "Treatise on Demonstrations of Problems
+              // of Algebra" turned a passing screen into a failing test on
+              // whichever run happened to draw it. Shortening is for the
+              // message; see [shortText].
+              text: text,
               foreground: colour,
               background: background,
               largeText: large,
@@ -215,6 +222,10 @@ class PaintedText {
   });
 
   final String text;
+
+  /// [text] cut to a length that reads in a failure message.
+  String get shortText => text.length > 48 ? '${text.substring(0, 48)}…' : text;
+
   final Color foreground;
   final Color background;
   final bool largeText;
@@ -230,7 +241,7 @@ class PaintedText {
 
   @override
   String toString() =>
-      '"$text" is ${ratio.toStringAsFixed(2)}:1 '
+      '"$shortText" is ${ratio.toStringAsFixed(2)}:1 '
       '(needs ${required.toStringAsFixed(1)}:1) — '
       '${_hex(foreground)} on ${_hex(background)}';
 
