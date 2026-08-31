@@ -8,7 +8,7 @@ repository, not recalled.
 | Check | Result |
 | --- | --- |
 | `flutter analyze --fatal-infos` | no issues |
-| `flutter test` | 988 passing, across 58 test files |
+| `flutter test` | 990 passing, across 58 test files |
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
 | Release build in Chromium: 96 routes across 2 languages, 2 themes, 3 viewports | 384 screens, no console errors, no overflows |
 | First keystroke in search, measured in the built app | 172 ms warm, 164 ms straight from launch |

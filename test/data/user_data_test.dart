@@ -352,6 +352,65 @@ void main() {
       expect(repository.salvagedDocument(), isNull);
     });
 
+    test('a second unreadable document does not displace the first', () async {
+      // The salvage existed so that a document we cannot parse is never
+      // destroyed. It was written to one key, so the second failure destroyed
+      // what the first had saved — and the first is the one likely to hold the
+      // reader's own writing, because by the time a second appears the library
+      // has already been reset to empty once. The promise the class makes,
+      // broken in silence by the code that makes it.
+      const original = '{"version":1,"notes":[{"BROKEN"';
+      final store = InMemoryStore(<String, String>{
+        StoredUserDataRepository.libraryKey: original,
+      });
+      final repository = StoredUserDataRepository(store);
+      await repository.load();
+
+      await store.write(StoredUserDataRepository.libraryKey, '{"version": 99}');
+      await repository.load();
+
+      expect(repository.salvagedDocuments(), <String>[
+        original,
+        '{"version": 99}',
+      ], reason: 'the first document set aside was overwritten by the second');
+      expect(
+        repository.salvagedDocument(),
+        original,
+        reason: 'the oldest is the one to offer back first',
+      );
+    });
+
+    test(
+      'the slots are bounded, and it is the newest that is dropped',
+      () async {
+        final store = InMemoryStore();
+        final repository = StoredUserDataRepository(store);
+        for (
+          var attempt = 0;
+          attempt < StoredUserDataRepository.maxSalvaged + 3;
+          attempt++
+        ) {
+          await store.write(
+            StoredUserDataRepository.libraryKey,
+            '{"version": 99, "attempt": $attempt}',
+          );
+          await repository.load();
+        }
+        final kept = repository.salvagedDocuments();
+        expect(kept, hasLength(StoredUserDataRepository.maxSalvaged));
+        expect(
+          kept.first,
+          contains('"attempt": 0'),
+          reason: 'the first failure is the one worth keeping',
+        );
+        expect(
+          kept.every((it) => !it.contains('"attempt": 7')),
+          isTrue,
+          reason: 'a later failure should not push an earlier one out',
+        );
+      },
+    );
+
     test('clearing removes the salvaged copy too', () async {
       final store = InMemoryStore(<String, String>{
         StoredUserDataRepository.libraryKey: 'broken',
