@@ -86,6 +86,17 @@ void main() {
         // wrong box would have produced a fix for a defect that was not there.
         await expectLater(tester, meetsGuideline(androidTapTargetGuideline));
         await expectLater(tester, meetsGuideline(iOSTapTargetGuideline));
+
+        // Reachable is not the same as usable. The rank banner on the home
+        // screen carried its name on a wrapper *around* the surface that took
+        // the tap, so a screen reader announced a container that read the rank
+        // and then a button with no name at all — and the button is the node a
+        // reader lands on. A control nobody can name is a control nobody can
+        // choose.
+        //
+        // The guideline reads a node's tooltip as its name, which is why the
+        // app bar's icon buttons pass on their tooltips alone.
+        await expectLater(tester, meetsGuideline(labeledTapTargetGuideline));
       });
     }
   }

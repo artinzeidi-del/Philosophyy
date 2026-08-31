@@ -66,96 +66,97 @@ class RankBanner extends ConsumerWidget {
         ? l10n.rankTop
         : AppNumbers.localizeDigits(l10n.rankToNext(toNext ?? 0), language);
 
-    return Semantics(
-      button: true,
-      label:
+    // The label goes on the surface that carries the tap, not on a wrapper
+    // around it. Wrapped, a screen reader met two nodes: a container that read
+    // the rank, and inside it a button with no name at all — and the button is
+    // the one a reader lands on.
+    return PressableSurface(
+      onTap: () => context.push(AppRouter.quiz),
+      borderRadius: Radii.surfaceRadius,
+      semanticLabel:
           '${nameFor(l10n, rank.level)}. '
           '${l10n.rankLevel(rank.displayLevel, Ranks.count)}. $subtitle',
-      child: PressableSurface(
-        onTap: () => context.push(AppRouter.quiz),
+      // The one lit surface on the screen after the daily quotation. The
+      // glow is the accent's, because this is the thing on the page that is
+      // live — it moves when the reader does something.
+      decoration: BoxDecoration(
+        gradient: Glass.surfaceGradient(context),
         borderRadius: Radii.surfaceRadius,
-        // The one lit surface on the screen after the daily quotation. The
-        // glow is the accent's, because this is the thing on the page that is
-        // live — it moves when the reader does something.
-        decoration: BoxDecoration(
-          gradient: Glass.surfaceGradient(context),
-          borderRadius: Radii.surfaceRadius,
-          border: Border.all(color: scheme.primary.withValues(alpha: 0.32)),
-          boxShadow: Glass.glow(scheme.primary, strength: 0.45),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.all(Spacing.lg),
-          child: ExcludeSemantics(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Row(
-                  children: <Widget>[
-                    _RankMedal(level: rank.level),
-                    const SizedBox(width: Spacing.md),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            nameFor(l10n, rank.level),
-                            style: theme.textTheme.titleMedium?.copyWith(
-                              color: scheme.primary,
-                            ),
+        border: Border.all(color: scheme.primary.withValues(alpha: 0.32)),
+        boxShadow: Glass.glow(scheme.primary, strength: 0.45),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(Spacing.lg),
+        child: ExcludeSemantics(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  _RankMedal(level: rank.level),
+                  const SizedBox(width: Spacing.md),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text(
+                          nameFor(l10n, rank.level),
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            color: scheme.primary,
                           ),
-                          Text(
-                            AppNumbers.localizeDigits(
-                              l10n.rankLevel(rank.displayLevel, Ranks.count),
-                              language,
-                            ),
-                            style: theme.textTheme.labelSmall?.copyWith(
-                              color: scheme.onSurfaceVariant,
-                            ),
+                        ),
+                        Text(
+                          AppNumbers.localizeDigits(
+                            l10n.rankLevel(rank.displayLevel, Ranks.count),
+                            language,
                           ),
-                        ],
-                      ),
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: scheme.onSurfaceVariant,
+                          ),
+                        ),
+                      ],
                     ),
-                    Icon(
-                      Icons.chevron_right_rounded,
+                  ),
+                  Icon(
+                    Icons.chevron_right_rounded,
+                    color: scheme.onSurfaceVariant,
+                  ),
+                ],
+              ),
+              const SizedBox(height: Spacing.md),
+              _RankBar(progress: rank.progress),
+              const SizedBox(height: Spacing.sm),
+              // A `Wrap`, not a `Row`. Both halves are sentences whose
+              // length depends on the language and on how many facts the
+              // corpus holds, and on a 320-wide phone the Persian pair
+              // overflowed by eleven pixels. `Expanded` on the first does
+              // not help: the second cannot be made narrower than its own
+              // words. When they no longer fit side by side the count drops
+              // to its own line.
+              Wrap(
+                alignment: WrapAlignment.spaceBetween,
+                crossAxisAlignment: WrapCrossAlignment.center,
+                spacing: Spacing.md,
+                runSpacing: Spacing.xs,
+                children: <Widget>[
+                  Text(
+                    subtitle,
+                    style: theme.textTheme.labelSmall?.copyWith(
                       color: scheme.onSurfaceVariant,
                     ),
-                  ],
-                ),
-                const SizedBox(height: Spacing.md),
-                _RankBar(progress: rank.progress),
-                const SizedBox(height: Spacing.sm),
-                // A `Wrap`, not a `Row`. Both halves are sentences whose
-                // length depends on the language and on how many facts the
-                // corpus holds, and on a 320-wide phone the Persian pair
-                // overflowed by eleven pixels. `Expanded` on the first does
-                // not help: the second cannot be made narrower than its own
-                // words. When they no longer fit side by side the count drops
-                // to its own line.
-                Wrap(
-                  alignment: WrapAlignment.spaceBetween,
-                  crossAxisAlignment: WrapCrossAlignment.center,
-                  spacing: Spacing.md,
-                  runSpacing: Spacing.xs,
-                  children: <Widget>[
-                    Text(
-                      subtitle,
-                      style: theme.textTheme.labelSmall?.copyWith(
-                        color: scheme.onSurfaceVariant,
-                      ),
+                  ),
+                  Text(
+                    AppNumbers.localizeDigits(
+                      l10n.rankMastered(rank.mastered, rank.total),
+                      language,
                     ),
-                    Text(
-                      AppNumbers.localizeDigits(
-                        l10n.rankMastered(rank.mastered, rank.total),
-                        language,
-                      ),
-                      style: theme.textTheme.labelSmall?.copyWith(
-                        color: scheme.onSurfaceVariant,
-                      ),
+                    style: theme.textTheme.labelSmall?.copyWith(
+                      color: scheme.onSurfaceVariant,
                     ),
-                  ],
-                ),
-              ],
-            ),
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
       ),
