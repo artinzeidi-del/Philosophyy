@@ -167,9 +167,16 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
 
   Timer? _positionTimer;
 
+  /// Where the reader last was, kept for a write made after teardown.
+  double? _pendingOffset;
+
+  /// Taken while the state is alive so the write on the way out needs no `ref`.
+  late final LibraryController _library;
+
   @override
   void initState() {
     super.initState();
+    _library = ref.read(libraryProvider.notifier);
     _scrollController.addListener(_onScroll);
     WidgetsBinding.instance.addPostFrameCallback((_) => _restorePosition());
   }
@@ -194,6 +201,9 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
       setState(() => _showCompactTitle = shouldShow);
     }
 
+    // Kept as the scroll happens so that [_flushPosition] has something to
+    // write after the controller it came from has been detached.
+    _pendingOffset = _scrollController.offset;
     _positionTimer?.cancel();
     _positionTimer = Timer(_positionSettleDelay, _recordPosition);
   }
@@ -238,11 +248,50 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
 
   @override
   void dispose() {
+    _flushPosition();
     _positionTimer?.cancel();
     _scrollController
       ..removeListener(_onScroll)
       ..dispose();
     super.dispose();
+  }
+
+  /// Makes a pending position write now, on the way out.
+  ///
+  /// Leaving is the moment the position matters most, and it was the one moment
+  /// it was thrown away: `dispose` cancelled the pending write without making
+  /// it, so a reader who scrolled and went straight back had the article reopen
+  /// at the top — or at where they had been two sessions before.
+  ///
+  /// It reads neither `mounted` nor the controller, because by here the state
+  /// is unmounted and the scroll view detached. The offset was taken while both
+  /// were alive; the notifier was taken in [initState] and belongs to the root
+  /// scope, which outlives this screen.
+  ///
+  /// The write itself waits a microtask. Riverpod refuses a change made inside
+  /// a life-cycle method — two widgets watching the same provider could come
+  /// out of one build holding different states — so this leaves the life-cycle
+  /// first and writes immediately after, which is still long before anything
+  /// could read it.
+  void _flushPosition() {
+    if (!(_positionTimer?.isActive ?? false)) return;
+    _positionTimer?.cancel();
+    _positionTimer = null;
+    final offset = _pendingOffset;
+    if (offset == null) return;
+
+    final library = _library;
+    final target = widget.entity.ref;
+    scheduleMicrotask(() async {
+      try {
+        await library.recordPosition(target: target, scrollOffset: offset);
+      } on Object catch (error) {
+        // The scope this belongs to can be gone by now — at shutdown, or in a
+        // test that tears the tree down whole. Losing a scroll position on the
+        // way out of the app is not worth an error the reader would see.
+        debugPrint('Could not record where the reader had got to: $error');
+      }
+    });
   }
 
   KnowledgeEntity get entity => widget.entity;
