@@ -142,12 +142,18 @@ void main() {
   });
 
   group('On the page', () {
-    Future<void> open(WidgetTester tester, String route) async {
+    Future<void> open(
+      WidgetTester tester,
+      String route, {
+      String language = 'en',
+    }) async {
       tester.view.physicalSize = const Size(430, 932);
       tester.view.devicePixelRatio = 1.0;
       addTearDown(tester.view.reset);
 
-      SharedPreferences.setMockInitialValues(const <String, Object>{});
+      SharedPreferences.setMockInitialValues(<String, Object>{
+        'flutter.settings.language': language,
+      });
       final store = await SharedPreferences.getInstance();
 
       await tester.pumpWidget(
@@ -220,5 +226,55 @@ void main() {
       expect(band.startLabel, contains('${anchors.first.abs()}'));
       expect(band.endLabel, contains('${anchors.last.abs()}'));
     });
+
+    for (final language in <String>['en', 'fa']) {
+      testWidgets('in $language the caption does not overreach the axis', (
+        tester,
+      ) async {
+        // The axis was corrected to name the last year the corpus reaches; the
+        // sentence beside it went on saying the band runs "to the present". A
+        // page that ends at 1957 and says it reaches now contradicts itself in
+        // one glance, and the reader has no way to know which half is true.
+        await open(tester, '/philosophers/thales', language: language);
+        final band = tester.widget<TimelineBand>(find.byType(TimelineBand));
+
+        final latest = <int>[
+          for (final philosopher in corpus.philosophers)
+            if (philosopher.life.sortAnchor case final HistoricalYear year)
+              year.year,
+        ].reduce((a, b) => a > b ? a : b);
+        expect(
+          latest,
+          lessThan(DateTime.now().year),
+          reason: 'the axis really does stop short of now, or this is moot',
+        );
+
+        // Every sentence on the page, so this cannot pass by matching the
+        // label instead of the prose beside it.
+        final onScreen = tester
+            .widgetList<Text>(find.byType(Text))
+            .map((text) => text.data)
+            .whereType<String>()
+            .toList();
+        expect(
+          onScreen.any((text) => text.contains(band.endLabel!)),
+          isTrue,
+          reason: 'the axis label should be on the page to contradict',
+        );
+
+        final overreaching = <String>[
+          for (final text in onScreen)
+            if (text.contains('to the present') || text.contains('تا امروز'))
+              text,
+        ];
+        expect(
+          overreaching,
+          isEmpty,
+          reason:
+              'the axis ends at ${band.endLabel}, so nothing beside it can '
+              'promise the band reaches the present day',
+        );
+      });
+    }
   });
 }
