@@ -323,7 +323,10 @@ class _NavItem extends StatelessWidget {
                       child: AnimatedAlign(
                         duration: Motion.duration(context, MotionTokens.quick),
                         curve: MotionTokens.standard,
-                        alignment: Alignment.centerLeft,
+                        // Directional: the label opens away from the icon, and
+                        // in Persian the icon is on the other side. Anchored
+                        // left, the label slid open from the wrong edge.
+                        alignment: AlignmentDirectional.centerStart,
                         widthFactor: selected && showLabel ? 1 : 0,
                         // `Align` only shrink-wraps an axis it has been given a
                         // factor for. Setting the width factor alone left the
@@ -338,7 +341,12 @@ class _NavItem extends StatelessWidget {
                           ),
                           opacity: selected && showLabel ? 1 : 0,
                           child: Padding(
-                            padding: const EdgeInsets.only(left: Spacing.sm),
+                            // The gap belongs between the label and its icon.
+                            // Fixed to the left, it fell on the far side of the
+                            // label in Persian and the text touched the icon.
+                            padding: const EdgeInsetsDirectional.only(
+                              start: Spacing.sm,
+                            ),
                             child: Text(
                               destination.label,
                               maxLines: 1,
