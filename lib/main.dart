@@ -6,6 +6,7 @@ import 'package:philosophyy/app/app.dart';
 import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/data/user/stored_user_data_repository.dart';
+import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Starts the app.
@@ -14,26 +15,66 @@ Future<void> main() async {
 
   _registerBundledFontLicences();
 
-  // Preferences are loaded before the first frame so the app opens directly in
-  // the reader's theme and language. Deferring this would show one frame of the
-  // wrong theme, which is small but looks broken every single launch.
-  final preferences = await SharedPreferences.getInstance();
+  // Nothing between here and the first frame may stop the app from opening.
+  // Every step below has a working answer for its own failure, because the
+  // alternative is what this used to do: throw before `runApp` and leave the
+  // reader looking at a blank window with nothing in it to explain itself.
+  final store = await _openStore();
 
-  // The reader's own work is loaded before the first frame for the same reason:
-  // a bookmark that appears a frame after the article does looks like a bug, and
-  // a library screen that flashes empty before filling looks like data loss.
-  final userData = StoredUserDataRepository(PreferencesStore(preferences));
-  final library = await userData.load();
+  // The reader's own work is loaded before the first frame for the same reason
+  // as the preferences: a bookmark that appears a frame after the article does
+  // looks like a bug, and a library screen that flashes empty before filling
+  // looks like data loss.
+  //
+  // `load` is written not to throw — an unreadable library opens empty — but
+  // it is caught anyway. This is the last thing standing between a defect
+  // anywhere below and an app that does not start.
+  var library = UserLibrary.empty;
+  try {
+    library = await StoredUserDataRepository(store).load();
+  } on Object catch (error, stack) {
+    debugPrint('The saved library could not be opened: $error');
+    assert(() {
+      debugPrintStack(stackTrace: stack);
+      return true;
+    }());
+  }
 
   runApp(
     ProviderScope(
       overrides: [
-        sharedPreferencesProvider.overrideWithValue(preferences),
+        keyValueStoreProvider.overrideWithValue(store),
         initialLibraryProvider.overrideWithValue(library),
       ],
       child: const PhilosophiaApp(),
     ),
   );
+}
+
+/// Opens the device's preferences, or memory if the device will not open them.
+///
+/// Preferences are read before the first frame so the app opens directly in the
+/// reader's theme and language; deferring it would show one frame of the wrong
+/// theme, which is small but looks broken every single launch.
+///
+/// A device can refuse — a browser with site storage turned off does, and so
+/// does an Android install whose preferences file has been corrupted. That is
+/// worth a session that remembers nothing. It is not worth an app that does not
+/// open, which is what refusing here used to cost.
+Future<KeyValueStore> _openStore() async {
+  try {
+    return PreferencesStore(await SharedPreferences.getInstance());
+  } on Object catch (error, stack) {
+    debugPrint(
+      'This device would not open its stored preferences, so this session '
+      'will not remember anything: $error',
+    );
+    assert(() {
+      debugPrintStack(stackTrace: stack);
+      return true;
+    }());
+    return InMemoryStore();
+  }
 }
 
 /// Declares the licences of the fonts bundled with the app.

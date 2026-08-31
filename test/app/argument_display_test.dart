@@ -5,6 +5,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/core/design/app_theme.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
+import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
@@ -45,7 +46,9 @@ void main() {
     await tester.pumpWidget(
       ProviderScope(
         overrides: [
-          sharedPreferencesProvider.overrideWithValue(preferences),
+          keyValueStoreProvider.overrideWithValue(
+            PreferencesStore(preferences),
+          ),
           corpusProvider.overrideWith((ref) => corpus),
           initialLibraryProvider.overrideWithValue(UserLibrary.empty),
         ],

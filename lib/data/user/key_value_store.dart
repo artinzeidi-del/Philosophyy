@@ -45,7 +45,15 @@ class PreferencesStore implements KeyValueStore {
   Set<String> keys() => _preferences.getKeys();
 }
 
-/// An in-memory store, for tests.
+/// A store that keeps everything in memory and nothing after the process ends.
+///
+/// Two uses. In tests it stands in for the device's preferences, and
+/// [failWrites] makes a refused write reproducible, which is the only way the
+/// failure paths above it can be written against something real.
+///
+/// In the app it is the fallback when the device's preferences cannot be opened
+/// at all. The reader gets a session that works and forgets itself on exit,
+/// rather than an app that does not open.
 class InMemoryStore implements KeyValueStore {
   InMemoryStore([Map<String, String>? initial])
     : _values = <String, String>{...?initial};

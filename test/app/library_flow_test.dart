@@ -55,7 +55,9 @@ void main() {
     await tester.pumpWidget(
       ProviderScope(
         overrides: [
-          sharedPreferencesProvider.overrideWithValue(preferences),
+          keyValueStoreProvider.overrideWithValue(
+            PreferencesStore(preferences),
+          ),
           corpusProvider.overrideWith((ref) => corpus),
           userDataRepositoryProvider.overrideWithValue(
             StoredUserDataRepository(store),

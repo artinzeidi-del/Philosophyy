@@ -7,6 +7,7 @@ import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
+import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/features/home/rank_banner.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -46,7 +47,7 @@ void main() {
     await tester.pumpWidget(
       ProviderScope(
         overrides: [
-          sharedPreferencesProvider.overrideWithValue(store),
+          keyValueStoreProvider.overrideWithValue(PreferencesStore(store)),
           corpusProvider.overrideWith((ref) => corpus),
           initialLibraryProvider.overrideWithValue(UserLibrary.empty),
           initialRouteProvider.overrideWithValue(AppRouter.home),

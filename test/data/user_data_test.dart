@@ -411,6 +411,48 @@ void main() {
       },
     );
 
+    test('a device that refuses the write still opens the app', () async {
+      // The bug this covers stopped the app from starting at all. `load` set
+      // the unreadable document aside on the way to the first frame; the write
+      // threw on a device that would not take it; the throw came out of `load`,
+      // out of `main`, and the reader got a blank window. A corrupt library and
+      // a full disk are exactly the pair likely to happen together.
+      const original = '{"version":1,"notes":[{"BROKEN"';
+      final store = InMemoryStore(<String, String>{
+        StoredUserDataRepository.libraryKey: original,
+      })..failWrites = true;
+      final repository = StoredUserDataRepository(store);
+
+      final library = await repository.load();
+
+      expect(library.isEmpty, isTrue, reason: 'the app has to open');
+      // Nothing could be copied, so nothing may be deleted: the only surviving
+      // copy of the reader's writing stays where it is.
+      expect(
+        store.read(StoredUserDataRepository.libraryKey),
+        original,
+        reason: 'the one copy was deleted after the copy of it failed',
+      );
+      expect(repository.salvagedDocuments(), isEmpty);
+    });
+
+    test('a document already set aside is not set aside twice', () async {
+      // Removing the original can fail on its own, leaving the same bytes in
+      // both places. Reading it again must not spend a second of the five slots
+      // on a copy of something already held.
+      const original = '{"version": 99}';
+      final store = InMemoryStore(<String, String>{
+        StoredUserDataRepository.libraryKey: original,
+        StoredUserDataRepository.salvageKey: original,
+      });
+      final repository = StoredUserDataRepository(store);
+
+      await repository.load();
+
+      expect(repository.salvagedDocuments(), <String>[original]);
+      expect(store.read(StoredUserDataRepository.libraryKey), isNull);
+    });
+
     test('clearing removes the salvaged copy too', () async {
       final store = InMemoryStore(<String, String>{
         StoredUserDataRepository.libraryKey: 'broken',
@@ -778,7 +820,9 @@ void main() {
 
       final container = ProviderContainer(
         overrides: [
-          sharedPreferencesProvider.overrideWithValue(preferences),
+          keyValueStoreProvider.overrideWithValue(
+            PreferencesStore(preferences),
+          ),
           userDataRepositoryProvider.overrideWithValue(
             StoredUserDataRepository(store),
           ),

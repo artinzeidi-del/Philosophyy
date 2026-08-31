@@ -6,6 +6,7 @@ import 'package:philosophyy/app/providers.dart';
 import 'package:philosophyy/app/router.dart';
 import 'package:philosophyy/data/content/asset_knowledge_repository.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
+import 'package:philosophyy/data/user/key_value_store.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -38,7 +39,7 @@ void main() {
     await tester.pumpWidget(
       ProviderScope(
         overrides: [
-          sharedPreferencesProvider.overrideWithValue(store),
+          keyValueStoreProvider.overrideWithValue(PreferencesStore(store)),
           corpusProvider.overrideWith((ref) => corpus),
           initialLibraryProvider.overrideWithValue(UserLibrary.empty),
           initialRouteProvider.overrideWithValue(AppRouter.search),
@@ -131,7 +132,9 @@ void main() {
     SharedPreferences.setMockInitialValues(const <String, Object>{});
     return SharedPreferences.getInstance().then((store) async {
       final container = ProviderContainer(
-        overrides: [sharedPreferencesProvider.overrideWithValue(store)],
+        overrides: [
+          keyValueStoreProvider.overrideWithValue(PreferencesStore(store)),
+        ],
       );
       addTearDown(container.dispose);
 
@@ -153,5 +156,27 @@ void main() {
         hasLength(RecentSearchesController.limit),
       );
     });
+  });
+
+  test('a device that refuses the write does not throw past the caller', () async {
+    // Both callers fire and forget, so a throw here would surface as an
+    // unhandled async error while the reader was doing something else. The
+    // history is a shortcut back to a word they can retype; losing it is worth
+    // a line in the log and nothing more. This path could not be written
+    // against anything real until the history went through the store.
+    final store = InMemoryStore()..failWrites = true;
+    final container = ProviderContainer(
+      overrides: [keyValueStoreProvider.overrideWithValue(store)],
+    );
+    addTearDown(container.dispose);
+
+    final controller = container.read(recentSearchesProvider.notifier);
+    await controller.record('plato');
+
+    expect(container.read(recentSearchesProvider), <String>['plato']);
+    expect(store.read(RecentSearchesController.storageKey), isNull);
+
+    await controller.clear();
+    expect(container.read(recentSearchesProvider), isEmpty);
   });
 }

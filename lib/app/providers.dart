@@ -20,19 +20,6 @@ import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/ranks.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
-/// Supplies persisted preferences.
-///
-/// Overridden in `main` with an instance loaded before the first frame, so that
-/// nothing downstream has to be asynchronous and the app never renders in one
-/// theme and then jumps to another.
-final sharedPreferencesProvider = Provider<SharedPreferences>(
-  (ref) => throw StateError(
-    'sharedPreferencesProvider must be overridden in ProviderScope. '
-    'See bootstrap() in lib/main.dart.',
-  ),
-);
 
 /// The content repository.
 final knowledgeRepositoryProvider = Provider<KnowledgeRepository>(
@@ -382,7 +369,7 @@ class RecentSearchesController extends Notifier<List<String>> {
 
   @override
   List<String> build() {
-    final stored = ref.watch(sharedPreferencesProvider).getString(storageKey);
+    final stored = ref.watch(keyValueStoreProvider).read(storageKey);
     if (stored == null || stored.isEmpty) return const <String>[];
     return stored
         .split(_separator)
@@ -423,14 +410,11 @@ class RecentSearchesController extends Notifier<List<String>> {
   /// else entirely, and what would be lost is a shortcut back to a word they
   /// can retype.
   ///
-  /// Untested: `SharedPreferences` offers no way to make a write fail from a
-  /// test, so this is written from the contract rather than against a
-  /// reproduction.
   Future<void> _persist() async {
     try {
       await ref
-          .read(sharedPreferencesProvider)
-          .setString(storageKey, state.join(_separator));
+          .read(keyValueStoreProvider)
+          .write(storageKey, state.join(_separator));
     } on Object catch (error) {
       debugPrint('Could not save the search history: $error');
     }
@@ -501,12 +485,22 @@ final searchResultsProvider = Provider<List<SearchHit>>((ref) {
 
 /// Where everything the app stores on the device goes.
 ///
-/// Both the library and the settings write through this. They used not to:
-/// settings went straight to `SharedPreferences`, which meant a failed write
-/// could not be simulated and so the failure path was never written. The store
-/// exists to be substituted — see `InMemoryStore.failWrites`.
+/// The library, the settings and the search history all write through this.
+/// They used not to: they went straight to `SharedPreferences`, which meant a
+/// failed write could not be simulated and so the failure paths were never
+/// written. The store exists to be substituted — see `InMemoryStore.failWrites`.
+///
+/// Overridden in `main` with a store opened before the first frame, so that
+/// nothing downstream has to be asynchronous and the app never renders in one
+/// theme and then jumps to another. It is the single seam for everything the
+/// app keeps: when the device's preferences cannot be opened at all, `main`
+/// overrides this with an in-memory store and the app starts anyway, forgetting
+/// everything on exit rather than not starting.
 final keyValueStoreProvider = Provider<KeyValueStore>(
-  (ref) => PreferencesStore(ref.watch(sharedPreferencesProvider)),
+  (ref) => throw StateError(
+    'keyValueStoreProvider must be overridden in ProviderScope. '
+    'See main() in lib/main.dart.',
+  ),
 );
 
 /// The repository holding what the reader has made.
