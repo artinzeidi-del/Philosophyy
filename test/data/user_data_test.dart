@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:philosophyy/app/providers.dart';
@@ -9,6 +10,7 @@ import 'package:philosophyy/data/user/user_library_codec.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
+import 'package:philosophyy/domain/value_objects/taxonomy.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// The reader's own writing is the only data in this product that cannot be
@@ -626,6 +628,86 @@ void main() {
 
       expect(container.read(libraryProvider).isEmpty, isTrue);
       expect(store.keys(), isEmpty);
+    });
+  });
+
+  group('A setting the device refuses to store', () {
+    // The library has always put the screen back when a write fails, so the
+    // interface never claims something is saved that is not. Settings did not:
+    // the state was set, the write was awaited with nothing catching it, and
+    // every call site dropped the future. A reader who chose dark mode while
+    // storage was refusing saw it apply, saw no error, and found it gone at
+    // the next launch — and the rejected future surfaced as an unhandled
+    // asynchronous error rather than as anything the app had decided to do.
+    //
+    // This could not be written before, because settings wrote straight to
+    // SharedPreferences and there was no way to make one fail. They go through
+    // the same KeyValueStore as the library now, which is what the store's
+    // failWrites switch was put there for.
+    ProviderContainer containerOver(InMemoryStore store) {
+      final container = ProviderContainer(
+        overrides: [
+          keyValueStoreProvider.overrideWithValue(store),
+          initialLibraryProvider.overrideWithValue(UserLibrary.empty),
+        ],
+      );
+      addTearDown(container.dispose);
+      return container;
+    }
+
+    test('the theme goes back to what is stored', () async {
+      final store = InMemoryStore();
+      final container = containerOver(store);
+      final settings = container.read(settingsProvider.notifier);
+
+      expect(await settings.setThemeMode(ThemeMode.dark), isTrue);
+      expect(container.read(settingsProvider).themeMode, ThemeMode.dark);
+
+      store.failWrites = true;
+      expect(await settings.setThemeMode(ThemeMode.light), isFalse);
+      expect(
+        container.read(settingsProvider).themeMode,
+        ThemeMode.dark,
+        reason: 'the screen kept a theme the device never stored',
+      );
+      expect(store.read(SettingsController.themeKey), 'dark');
+    });
+
+    test('the language goes back to what is stored', () async {
+      final store = InMemoryStore();
+      final container = containerOver(store);
+      final settings = container.read(settingsProvider.notifier);
+
+      expect(await settings.setLanguage(AppLanguage.fa), isTrue);
+      store.failWrites = true;
+      expect(await settings.setLanguage(AppLanguage.en), isFalse);
+      expect(container.read(settingsProvider).language, AppLanguage.fa);
+      expect(store.read(SettingsController.languageKey), 'fa');
+    });
+
+    test('the reading level goes back to what is stored', () async {
+      final store = InMemoryStore();
+      final container = containerOver(store);
+      final settings = container.read(settingsProvider.notifier);
+
+      final first = container.read(settingsProvider).readingLevel;
+      store.failWrites = true;
+      final other = LearningLevel.values.firstWhere((it) => it != first);
+      expect(await settings.setReadingLevel(other), isFalse);
+      expect(container.read(settingsProvider).readingLevel, first);
+      expect(store.read(SettingsController.levelKey), isNull);
+    });
+
+    test('a failure is reported rather than thrown past the caller', () async {
+      // The call sites do not await these. If the future rejected, the error
+      // would land in the zone handler with nothing able to respond to it.
+      final store = InMemoryStore()..failWrites = true;
+      final container = containerOver(store);
+      final settings = container.read(settingsProvider.notifier);
+      await expectLater(
+        settings.setThemeMode(ThemeMode.dark),
+        completion(isFalse),
+      );
     });
   });
 

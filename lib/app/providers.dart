@@ -231,18 +231,18 @@ class SettingsController extends Notifier<AppSettings> {
 
   @override
   AppSettings build() {
-    final preferences = ref.watch(sharedPreferencesProvider);
+    final store = ref.watch(keyValueStoreProvider);
     return AppSettings(
-      language: _readLanguage(preferences),
-      themeMode: _readThemeMode(preferences),
+      language: _readLanguage(store),
+      themeMode: _readThemeMode(store),
       readingLevel:
-          LearningLevel.fromId(preferences.getString(levelKey) ?? '') ??
+          LearningLevel.fromId(store.read(levelKey) ?? '') ??
           LearningLevel.beginner,
     );
   }
 
-  static AppLanguage? _readLanguage(SharedPreferences preferences) {
-    final stored = preferences.getString(languageKey);
+  static AppLanguage? _readLanguage(KeyValueStore store) {
+    final stored = store.read(languageKey);
     if (stored == null) return null;
     for (final language in AppLanguage.values) {
       if (language.code == stored) return language;
@@ -250,46 +250,71 @@ class SettingsController extends Notifier<AppSettings> {
     return null;
   }
 
-  static ThemeMode _readThemeMode(SharedPreferences preferences) =>
-      switch (preferences.getString(themeKey)) {
+  static ThemeMode _readThemeMode(KeyValueStore store) =>
+      switch (store.read(themeKey)) {
         'light' => ThemeMode.light,
         'dark' => ThemeMode.dark,
         _ => ThemeMode.system,
       };
 
+  /// Applies [next] on screen and writes it, putting the screen back if the
+  /// write fails.
+  ///
+  /// The library has done this since it was written: show the change at once,
+  /// and if storage refuses, undo it rather than leave the interface claiming
+  /// something that is not stored. Settings did not — the state was set, the
+  /// write was awaited with nothing catching it, and every call site dropped
+  /// the future. A reader who turned on dark mode when the disk was full saw
+  /// it apply, saw no error, and found it gone at the next launch.
+  Future<bool> _commit(AppSettings next, Future<void> Function() write) async {
+    final previous = state;
+    state = next;
+    try {
+      await write();
+      return true;
+    } on Object catch (error) {
+      if (ref.mounted && identical(state, next)) state = previous;
+      debugPrint('Could not save a setting: $error');
+      return false;
+    }
+  }
+
   /// Sets an explicit language, or clears the override when [language] is null.
   ///
   /// Changing language must never disturb anything the reader has built up —
   /// bookmarks, notes, progress — so it touches only this one key.
-  Future<void> setLanguage(AppLanguage? language) async {
-    state = language == null
-        ? state.clearLanguage()
-        : state.copyWith(language: language);
-    final preferences = ref.read(sharedPreferencesProvider);
-    if (language == null) {
-      await preferences.remove(languageKey);
-    } else {
-      await preferences.setString(languageKey, language.code);
-    }
+  Future<bool> setLanguage(AppLanguage? language) {
+    final store = ref.read(keyValueStoreProvider);
+    return _commit(
+      language == null
+          ? state.clearLanguage()
+          : state.copyWith(language: language),
+      () => language == null
+          ? store.delete(languageKey)
+          : store.write(languageKey, language.code),
+    );
   }
 
   /// Sets the theme mode.
-  Future<void> setThemeMode(ThemeMode mode) async {
-    state = state.copyWith(themeMode: mode);
-    await ref.read(sharedPreferencesProvider).setString(
-      themeKey,
-      switch (mode) {
+  Future<bool> setThemeMode(ThemeMode mode) {
+    final store = ref.read(keyValueStoreProvider);
+    return _commit(
+      state.copyWith(themeMode: mode),
+      () => store.write(themeKey, switch (mode) {
         ThemeMode.light => 'light',
         ThemeMode.dark => 'dark',
         ThemeMode.system => 'system',
-      },
+      }),
     );
   }
 
   /// Sets the reader's declared level, which changes the depth entries open at.
-  Future<void> setReadingLevel(LearningLevel level) async {
-    state = state.copyWith(readingLevel: level);
-    await ref.read(sharedPreferencesProvider).setString(levelKey, level.id);
+  Future<bool> setReadingLevel(LearningLevel level) {
+    final store = ref.read(keyValueStoreProvider);
+    return _commit(
+      state.copyWith(readingLevel: level),
+      () => store.write(levelKey, level.id),
+    );
   }
 }
 
@@ -474,11 +499,19 @@ final searchResultsProvider = Provider<List<SearchHit>>((ref) {
   return ref.watch(searchIndexProvider).search(query);
 });
 
+/// Where everything the app stores on the device goes.
+///
+/// Both the library and the settings write through this. They used not to:
+/// settings went straight to `SharedPreferences`, which meant a failed write
+/// could not be simulated and so the failure path was never written. The store
+/// exists to be substituted — see `InMemoryStore.failWrites`.
+final keyValueStoreProvider = Provider<KeyValueStore>(
+  (ref) => PreferencesStore(ref.watch(sharedPreferencesProvider)),
+);
+
 /// The repository holding what the reader has made.
 final userDataRepositoryProvider = Provider<UserDataRepository>(
-  (ref) => StoredUserDataRepository(
-    PreferencesStore(ref.watch(sharedPreferencesProvider)),
-  ),
+  (ref) => StoredUserDataRepository(ref.watch(keyValueStoreProvider)),
 );
 
 /// The library as it stood when the app started.
