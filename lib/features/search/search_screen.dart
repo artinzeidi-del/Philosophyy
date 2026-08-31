@@ -9,10 +9,12 @@ import 'package:philosophyy/core/design/design_tokens.dart';
 import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/core/search/search_index.dart';
+import 'package:philosophyy/data/content/knowledge_base.dart';
 import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/features/shared/glossary_sheet.dart';
+import 'package:philosophyy/features/shared/skeletons.dart';
 import 'package:philosophyy/features/shared/ui_states.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
@@ -84,153 +86,164 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppL10n.of(context);
-    final language = ref.watch(activeLanguageProvider);
-    final query = ref.watch(searchQueryProvider);
-    final results = ref.watch(searchResultsProvider);
-    final terms =
-        ref.watch(corpusProvider).value?.glossaryMatching(query) ??
-        const <GlossaryTerm>[];
+    final corpus = ref.watch(corpusProvider);
 
     return Scaffold(
       backgroundColor: Colors.transparent,
       body: LamplightBackdrop(
         intensity: 0.7,
-        child: SafeArea(
-          child: Column(
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.all(Spacing.lg),
-                child: ReadingColumn(
-                  child: TextField(
-                    controller: _controller,
-                    autofocus: false,
-                    textInputAction: TextInputAction.search,
-                    onChanged: ref.read(searchQueryProvider.notifier).set,
-                    decoration: InputDecoration(
-                      hintText: l10n.searchHint,
-                      prefixIcon: const Icon(Icons.search),
-                      suffixIcon: query.isEmpty
-                          ? null
-                          : IconButton(
-                              icon: const Icon(Icons.clear),
-                              tooltip: MaterialLocalizations.of(context)
-                                  .deleteButtonTooltip,
-                              onPressed: () {
-                                _controller.clear();
-                                ref.read(searchQueryProvider.notifier).clear();
-                              },
-                            ),
-                    ),
-                  ),
+        // A corpus that failed to load left this screen telling the reader
+        // "nothing found for 'plato' — check the spelling", which blames them
+        // for the app's own failure and offers no way out. Every other screen
+        // says what happened and gives a way to try again; so does this one.
+        child: corpus.when(
+          loading: ListSkeleton.new,
+          error: (error, stack) => ErrorView(
+            details: error.toString(),
+            onRetry: () => ref.invalidate(corpusProvider),
+          ),
+          data: (data) => _body(context, data),
+        ),
+      ),
+    );
+  }
+
+  Widget _body(BuildContext context, KnowledgeBase corpus) {
+    final l10n = AppL10n.of(context);
+    final language = ref.watch(activeLanguageProvider);
+    final query = ref.watch(searchQueryProvider);
+    final results = ref.watch(searchResultsProvider);
+    final terms = corpus.glossaryMatching(query);
+
+    return SafeArea(
+      child: Column(
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(Spacing.lg),
+            child: ReadingColumn(
+              child: TextField(
+                controller: _controller,
+                autofocus: false,
+                textInputAction: TextInputAction.search,
+                onChanged: ref.read(searchQueryProvider.notifier).set,
+                decoration: InputDecoration(
+                  hintText: l10n.searchHint,
+                  prefixIcon: const Icon(Icons.search),
+                  suffixIcon: query.isEmpty
+                      ? null
+                      : IconButton(
+                          icon: const Icon(Icons.clear),
+                          tooltip: MaterialLocalizations.of(context)
+                              .deleteButtonTooltip,
+                          onPressed: () {
+                            _controller.clear();
+                            ref.read(searchQueryProvider.notifier).clear();
+                          },
+                        ),
                 ),
               ),
-              if (query.trim().isNotEmpty)
-                _CompletionsStrip(onChoose: _completeLastWord),
-              Expanded(
-                child: switch ((
-                  query.trim().isEmpty,
-                  results.isEmpty && terms.isEmpty,
-                )) {
-                  // Before anything is typed the screen used to be a single
-                  // illustration and two sentences of advice, which is a poster
-                  // rather than a tool: it told the reader search existed and
-                  // gave them nothing to press. What replaces it is what they
-                  // were doing last, and where the corpus itself is densest.
-                  (true, _) => _SearchInvitation(
-                    language: language,
-                    onSearch: _runQuery,
-                    onOpen: _openResult,
-                  ),
-                  (false, true) => EmptyView(
-                    icon: Icons.search_off,
-                    title: l10n.searchNoResultsTitle(query),
-                    body: l10n.searchNoResultsBody,
-                  ),
-                  (false, false) => ListView.separated(
-                    padding: const EdgeInsets.fromLTRB(
-                      Spacing.lg,
-                      0,
-                      Spacing.lg,
-                      Spacing.xxxl,
-                    ),
-                    // One row for the count, one for the glossary strip when
-                    // there is one, then the entries.
-                    itemCount: results.length + (terms.isEmpty ? 1 : 2),
-                    separatorBuilder: (_, _) =>
-                        const SizedBox(height: Spacing.md),
-                    itemBuilder: (context, index) {
-                      if (index == 0) {
-                        // "No results" above a glossary chip told the reader
-                        // there was nothing and then showed them something.
-                        // The count is about entries; when there are none but
-                        // the word is defined, say that instead.
-                        final label = results.isEmpty
-                            ? l10n.searchOnlyGlossary
-                            : AppNumbers.localizeDigits(
-                                l10n.searchResultCount(results.length),
-                                language,
-                              );
-                        return ReadingColumn(
-                          child: Padding(
-                            padding: const EdgeInsets.only(bottom: Spacing.sm),
-                            child: Text(
-                              label,
-                              style: Theme.of(context).textTheme.labelMedium
-                                  ?.copyWith(
-                                    color: Theme.of(context)
-                                        .colorScheme
-                                        .onSurfaceVariant,
-                                  ),
-                            ),
-                          ),
-                        );
-                      }
-                      if (terms.isNotEmpty && index == 1) {
-                        return ReadingColumn(
-                          child: _GlossaryStrip(
-                            terms: terms,
-                            language: language,
-                          ),
-                        );
-                      }
-                      final hit = results[index - 1 - (terms.isEmpty ? 0 : 1)];
-                      final card = EntityCard(
-                        title: hit.entity.name.resolve(language),
-                        summary: hit.entity.oneLine.resolve(language),
-                        // Telling the reader why an apparently unrelated entry
-                        // is in the list is the difference between a search
-                        // that feels intelligent and one that feels broken.
-                        footnote: hit.bestField == MatchField.body
-                            ? l10n.searchMatchedInBody
-                            : null,
-                        onTap: () => _openResult(hit.entity.ref.route),
-                      );
-
-                      // Only the first screenful animates in. Items further
-                      // down are disposed once they scroll out of range and
-                      // would animate again on the way back, which reads as a
-                      // glitch rather than as polish.
-                      if (index > _animatedResults) {
-                        return ReadingColumn(child: card);
-                      }
-
-                      return ReadingColumn(
-                        child: EntranceAnimation(
-                          // Keyed by the query so a new search re-animates
-                          // rather than swapping silently under the reader.
-                          key: ValueKey<String>('$query-${hit.entity.ref}'),
-                          index: index - 1,
-                          child: card,
+            ),
+          ),
+          if (query.trim().isNotEmpty)
+            _CompletionsStrip(onChoose: _completeLastWord),
+          Expanded(
+            child: switch ((
+              query.trim().isEmpty,
+              results.isEmpty && terms.isEmpty,
+            )) {
+              // Before anything is typed the screen used to be a single
+              // illustration and two sentences of advice, which is a poster
+              // rather than a tool: it told the reader search existed and
+              // gave them nothing to press. What replaces it is what they
+              // were doing last, and where the corpus itself is densest.
+              (true, _) => _SearchInvitation(
+                language: language,
+                onSearch: _runQuery,
+                onOpen: _openResult,
+              ),
+              (false, true) => EmptyView(
+                icon: Icons.search_off,
+                title: l10n.searchNoResultsTitle(query),
+                body: l10n.searchNoResultsBody,
+              ),
+              (false, false) => ListView.separated(
+                padding: const EdgeInsets.fromLTRB(
+                  Spacing.lg,
+                  0,
+                  Spacing.lg,
+                  Spacing.xxxl,
+                ),
+                // One row for the count, one for the glossary strip when
+                // there is one, then the entries.
+                itemCount: results.length + (terms.isEmpty ? 1 : 2),
+                separatorBuilder: (_, _) => const SizedBox(height: Spacing.md),
+                itemBuilder: (context, index) {
+                  if (index == 0) {
+                    // "No results" above a glossary chip told the reader
+                    // there was nothing and then showed them something.
+                    // The count is about entries; when there are none but
+                    // the word is defined, say that instead.
+                    final label = results.isEmpty
+                        ? l10n.searchOnlyGlossary
+                        : AppNumbers.localizeDigits(
+                            l10n.searchResultCount(results.length),
+                            language,
+                          );
+                    return ReadingColumn(
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: Spacing.sm),
+                        child: Text(
+                          label,
+                          style: Theme.of(context).textTheme.labelMedium
+                              ?.copyWith(
+                                color: Theme.of(context)
+                                    .colorScheme
+                                    .onSurfaceVariant,
+                              ),
                         ),
-                      );
-                    },
-                  ),
+                      ),
+                    );
+                  }
+                  if (terms.isNotEmpty && index == 1) {
+                    return ReadingColumn(
+                      child: _GlossaryStrip(terms: terms, language: language),
+                    );
+                  }
+                  final hit = results[index - 1 - (terms.isEmpty ? 0 : 1)];
+                  final card = EntityCard(
+                    title: hit.entity.name.resolve(language),
+                    summary: hit.entity.oneLine.resolve(language),
+                    // Telling the reader why an apparently unrelated entry
+                    // is in the list is the difference between a search
+                    // that feels intelligent and one that feels broken.
+                    footnote: hit.bestField == MatchField.body
+                        ? l10n.searchMatchedInBody
+                        : null,
+                    onTap: () => _openResult(hit.entity.ref.route),
+                  );
+
+                  // Only the first screenful animates in. Items further
+                  // down are disposed once they scroll out of range and
+                  // would animate again on the way back, which reads as a
+                  // glitch rather than as polish.
+                  if (index > _animatedResults) {
+                    return ReadingColumn(child: card);
+                  }
+
+                  return ReadingColumn(
+                    child: EntranceAnimation(
+                      // Keyed by the query so a new search re-animates
+                      // rather than swapping silently under the reader.
+                      key: ValueKey<String>('$query-${hit.entity.ref}'),
+                      index: index - 1,
+                      child: card,
+                    ),
+                  );
                 },
               ),
-            ],
+            },
           ),
-        ),
+        ],
       ),
     );
   }
