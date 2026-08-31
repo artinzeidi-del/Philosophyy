@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -83,5 +85,57 @@ void main() {
   testWidgets('the quotation arrow is left alone in English', (tester) async {
     await pumpHome(tester, 'en');
     expect(isMirrored(tester, Icons.arrow_outward_rounded), isFalse);
+  });
+
+  test('a new directional icon has to be thought about', () async {
+    // The arrow above was wrong for months because the two chevrons beside it
+    // were right by accident — the framework mirrors those and does not mirror
+    // it, and nothing said which was which. This holds every directional glyph
+    // the app uses to a decision recorded here, so the next one added fails
+    // until somebody has looked at it in Persian.
+    const reviewed = <String, String>{
+      // The framework declares these with `matchTextDirection: true`, so the
+      // `Icon` widget mirrors them without being asked. Verified, not assumed:
+      // `Icons.chevron_right.matchTextDirection` is true.
+      'Icons.chevron_right': 'mirrored by the framework',
+      'Icons.chevron_right_rounded': 'mirrored by the framework',
+      // Declared without it, so it is flipped by hand and measured by the two
+      // tests above.
+      'Icons.arrow_outward_rounded': 'flipped by hand, measured above',
+    };
+
+    // Words that make a glyph point somewhere. "brightness_auto" and the like
+    // contain none of them; "arrow_forward" contains two.
+    final directional = RegExp(
+      r'(^|_)(left|right|back|backward|forward|next|previous|prev|outward|'
+      r'east|west|start|end|reply|send|redo|undo|trending|launch|exit|login|'
+      r'logout|first_page|last_page|arrow|chevron)(_|$)',
+    );
+
+    final used = <String>{};
+    await for (final entity in Directory('lib').list(recursive: true)) {
+      if (entity is! File || !entity.path.endsWith('.dart')) continue;
+      final source = await entity.readAsString();
+      for (final match in RegExp(r'Icons\.[a-z0-9_]+').allMatches(source)) {
+        used.add(match.group(0)!);
+      }
+    }
+    expect(used, isNotEmpty, reason: 'no icons were read; the scan is broken');
+
+    final unreviewed = <String>[
+      for (final icon in used)
+        if (directional.hasMatch(icon.substring('Icons.'.length)) &&
+            !reviewed.containsKey(icon))
+          icon,
+    ];
+
+    expect(
+      unreviewed,
+      isEmpty,
+      reason:
+          'these icons point somewhere and nobody has said what they do in '
+          'Persian. Check `matchTextDirection`; if it is false, flip the icon '
+          'and measure it, then record the decision in this test.',
+    );
   });
 }
