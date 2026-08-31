@@ -99,7 +99,13 @@ jobs:
           installs as an update over the last one. Android will still ask
           you to allow installation from this source."
           gh release delete "$TAG" --yes --cleanup-tag || true
+          # `--target` on the commit that was actually built. Without it the
+          # tag is created on the repository's default branch, so the release
+          # said "built from <sha>" while the tag it carries pointed somewhere
+          # else entirely — and anyone checking out `latest` to see the source
+          # of the APK they installed got the wrong tree.
           gh release create "$TAG" artifacts/*.apk \
+            --target "$GITHUB_SHA" \
             --title "Philosophia (latest)" \
             --notes "$NOTES" \
             --latest
