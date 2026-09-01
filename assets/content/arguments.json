@@ -119,7 +119,7 @@
             "id": "standard",
             "depth": "standard",
             "body": {
-              "en": "The paradox is not a puzzle about arithmetic. That the distances sum to a finite total was understood long before the modern theory of limits, and pointing it out does not touch what Zeno is arguing. His claim is about the completing: the series has no last term, and a sequence of tasks with no last task cannot be finished, however small the tasks get.\n\nThe argument belongs to a set. Zeno defends Parmenides' claim that motion and plurality are illusions not by arguing for it directly but by showing that the common-sense alternative generates contradictions — the dichotomy, the arrow, the stadium and this one, each attacking a different way of taking space and time to be divisible. Aristotle's answer is that a distance is only potentially divided into infinitely many parts, and that a runner who is not stopping at each of them does not perform infinitely many acts; whether that dissolves the problem or renames it has been argued ever since.",
+              "en": "The paradox is not a puzzle about arithmetic. That the distances sum to a finite total was understood long before the modern theory of limits, and pointing it out does not touch what Zeno is arguing. His claim is about the completing: the series has no last term, and a sequence of tasks with no last task cannot be finished, however small the tasks get.\n\nThe argument belongs to a set. Zeno defends Parmenides' claim that motion and plurality are unreal not by arguing for it directly but by showing that the common-sense alternative generates contradictions — the dichotomy, the arrow, the stadium and this one, each attacking a different way of taking space and time to be divisible. Aristotle's answer is that a distance is only potentially divided into infinitely many parts, and that a runner who is not stopping at each of them does not perform infinitely many acts; whether that dissolves the problem or renames it has been argued ever since.",
               "fa": "این پارادوکس معمایی در حسابِ اعداد نیست. اینکه این فاصله‌ها به عددی متناهی جمع می‌شوند، مدت‌ها پیش از نظریهٔ جدیدِ حد فهمیده شده بود، و یادآوری‌اش به آنچه زنون استدلال می‌کند دست نمی‌زند. ادعای او دربارهٔ به پایان رساندن است: این رشته جمله‌ای پایانی ندارد، و رشته‌ای از کارها که کارِ پایانی ندارد به انجام نمی‌رسد، هرچقدر هم آن کارها کوچک شوند.\n\nاین استدلال به مجموعه‌ای تعلق دارد. زنون از ادعای پارمنیدس که حرکت و کثرت پندارند نه با استدلالِ مستقیم دفاع می‌کند بلکه با نشان دادنِ اینکه بدیلِ عقلِ عرفی تناقض می‌زاید — دوگانه، تیر، ورزشگاه و همین یکی، که هر یک به شیوه‌ای دیگر از تقسیم‌پذیر گرفتنِ مکان و زمان حمله می‌کند. پاسخ ارسطو آن است که یک فاصله تنها بالقوه به بی‌نهایت پاره تقسیم می‌شود، و دونده‌ای که در هیچ‌یک از آن‌ها نمی‌ایستد بی‌نهایت کار انجام نمی‌دهد؛ و اینکه این مسئله را منحل می‌کند یا فقط نامش را عوض می‌کند، از همان زمان محل بحث بوده است."
             },
             "citations": [
@@ -319,6 +319,167 @@
       ]
     },
     {
+      "id": "beauvoir-woman-as-other",
+      "name": {
+        "en": "Woman as the Other",
+        "fa": "زن همچون دیگری"
+      },
+      "oneLine": {
+        "en": "That woman is defined as a deviation from man rather than as a term of her own, and that this asymmetry is made rather than found.",
+        "fa": "اینکه زن همچون انحرافی از مرد تعریف می‌شود نه همچون طرفی از آنِ خود، و این نامتقارنی ساخته شده است نه یافته."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Consciousness posits itself by setting an Other against which it is the essential term.",
+            "fa": "آگاهی خود را با نهادنِ دیگری‌ای در برابرِ خود می‌نهد، و در آن نسبت طرفِ اصلی است."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "In every other case of this asymmetry — nation, class, race — the subordinate term also posits itself and contests the arrangement.",
+            "fa": "در هر مورد دیگرِ این نامتقارنی — ملت، طبقه، نژاد — طرفِ فرودست نیز خود را می‌نهد و آن ترتیب را به چالش می‌کشد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Women have no such position to stand on: they are dispersed among men, bound to them by residence, work, economy and affection, and share no history of their own from which to contest it.",
+            "fa": "زنان چنین جایگاهی برای ایستادن ندارند: در میانِ مردان پراکنده‌اند، با اقامت و کار و اقتصاد و مهر به آنان بسته‌اند، و تاریخی از آنِ خود ندارند که از آن این ترتیب را به چالش کشند."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore woman is not born but made: the category is a historical construction, and what looks like nature is the sediment of that construction.",
+          "fa": "پس زن زاده نمی‌شود بلکه ساخته می‌شود: این مقوله ساختی تاریخی است، و آنچه طبیعت می‌نماید رسوبِ همان ساخت است."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That there is no feminine essence prior to the situation in which women are placed.",
+          "fa": "اینکه هیچ ذاتِ زنانه‌ای پیش از وضعیتی که زنان در آن نهاده شده‌اند نیست."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The argument takes the male situation as the standard of a full human life, so liberation comes to mean becoming like men.",
+            "fa": "این استدلال وضعیتِ مردانه را معیارِ زندگیِ انسانیِ تمام می‌گیرد، و رهایی به مانند مردان شدن بدل می‌شود."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Beauvoir's target is the asymmetry rather than the male term, and she is explicit that transcendence is not a masculine property but a human one that women have been denied the conditions for. Whether the book keeps that distinction throughout is a fair question about the text.",
+              "fa": "هدفِ بوووار آن نامتقارنی است نه طرفِ مردانه، و آشکارا می‌گوید که تعالی ویژگی‌ای مردانه نیست بلکه انسانی است که شرایطِ آن از زنان دریغ شده. اینکه کتاب این تمایز را سرتاسر نگاه می‌دارد یا نه، پرسشی رواست دربارهٔ خودِ متن."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Treating women as a single category erases the differences between them, and the woman the book describes is European, white and of a particular class.",
+            "fa": "گرفتنِ زنان همچون مقوله‌ای واحد، تفاوت‌های میانشان را پاک می‌کند، و آن زنی که کتاب وصف می‌کند اروپایی است و سپید و از طبقه‌ای معین."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "This is the standard objection from later feminist thought and it is largely granted. Defenders answer that the argument's form survives its examples: if the category is made rather than found, then which women are being described is exactly the question it opens.",
+              "fa": "این اعتراضِ معیارِ اندیشهٔ فمینیستیِ بعدی است و عمدتاً پذیرفته می‌شود. مدافعان پاسخ می‌دهند که صورتِ استدلال از نمونه‌هایش جان به در می‌برد: اگر این مقوله ساخته می‌شود نه یافته، آنگاه اینکه کدام زنان وصف می‌شوند دقیقاً همان پرسشی است که خودِ استدلال می‌گشاید."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "beauvoir"
+      ],
+      "opponents": [],
+      "works": [
+        "second-sex"
+      ],
+      "concepts": [
+        "the-other",
+        "bad-faith"
+      ],
+      "traditions": [
+        "european",
+        "contemporary"
+      ],
+      "branches": [
+        "feminist-philosophy",
+        "existential-philosophy",
+        "social-philosophy",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "beauvoir-second-sex",
+          "locator": "opening"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Man is treated as simply human; woman is treated as a human of a particular kind. Nobody asks what it is to be a male philosopher. Beauvoir's claim is that this asymmetry is not a fact about women but a structure that produces them.",
+              "fa": "مرد را صرفاً انسان می‌گیرند؛ زن را انسانی از گونه‌ای خاص. کسی نمی‌پرسد فیلسوفِ مرد بودن چیست. ادعای بوووار این است که این نامتقارنی واقعیتی دربارهٔ زنان نیست بلکه ساختاری است که آنان را می‌سازد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument borrows a structure from Hegel and then shows it failing to apply. In the master-slave relation, and in the relations between nations, classes and races, the subordinate term is also a consciousness that posits itself, and the arrangement is contested from below. That is what makes those relations historical: they have a beginning, a conflict and a possible end.\n\nBeauvoir's point is that the case of women differs in a way that makes it harder rather than easier. There was no event at which women were subordinated, no territory they were driven from, no shared past to appeal to. They live dispersed among the men who define them, tied to them by every practical bond, and the tie is often affectionate. This is why she thinks the situation cannot be described in the vocabulary of oppression alone, and why the book spends eight hundred pages on lived experience rather than on rights.",
+              "fa": "این استدلال ساختاری را از هگل وام می‌گیرد و سپس نشان می‌دهد که در این مورد کار نمی‌کند. در نسبتِ خدایگان و بنده، و در نسبت‌های میانِ ملت‌ها و طبقه‌ها و نژادها، طرفِ فرودست نیز آگاهی‌ای است که خود را می‌نهد، و آن ترتیب از پایین به چالش کشیده می‌شود. همین است که آن نسبت‌ها را تاریخی می‌کند: آغازی دارند، ستیزی، و پایانی ممکن.\n\nنکتهٔ بوووار این است که وضعِ زنان به‌گونه‌ای فرق می‌کند که کار را دشوارتر می‌کند نه آسان‌تر. رویدادی نبوده که در آن زنان فرودست شده باشند، سرزمینی نبوده که از آن رانده شده باشند، گذشته‌ای مشترک نیست که به آن رجوع کنند. پراکنده در میانِ همان مردانی می‌زیند که تعریفشان می‌کنند، با هر پیوندِ عملی به آنان بسته‌اند، و آن پیوند بارها مهرآمیز است. از همین روست که می‌اندیشد این وضع را با واژگانِ ستم به‌تنهایی نمی‌توان وصف کرد، و از همین روست که کتاب هشتصد صفحه را به تجربهٔ زیسته می‌دهد نه به حقوق."
+            },
+            "citations": [
+              {
+                "source": "beauvoir-second-sex",
+                "locator": "opening"
+              },
+              {
+                "source": "beauvoir-second-sex",
+                "locator": "Volume II"
+              }
+            ]
+          },
+          {
+            "id": "what-the-famous-sentence-means",
+            "depth": "deep",
+            "body": {
+              "en": "\"One is not born, but rather becomes, a woman\" is the most quoted line in the book and among the most argued over. It has been read as the origin of the sex/gender distinction, with sex given and gender made; as a stronger claim that the body itself is taken up in a situation rather than possessed as a fact; and as a claim about the whole self, since Beauvoir's existentialism holds that nobody is born as anything. Butler's reading, which takes the sentence to unsettle the sex/gender distinction rather than found it, has been influential and is contested by readers who hold that Beauvoir keeps a body prior to its interpretation. The French text supports more than one of these.",
+              "fa": "«زن زاده نمی‌شود، بلکه زن می‌شود» پرنقل‌ترین جملهٔ این کتاب و از پرمناقشه‌ترین‌هاست. آن را سرچشمهٔ تمایزِ جنس و جنسیت خوانده‌اند، با جنسِ داده‌شده و جنسیتِ ساخته‌شده؛ و ادعایی نیرومندتر که خودِ تن در وضعیتی برگرفته می‌شود نه همچون واقعیتی داشته می‌شود؛ و ادعایی دربارهٔ کلِ خویشتن، چون اگزیستانسیالیسمِ بوووار بر آن است که کسی چیزی زاده نمی‌شود. خوانشِ باتلر، که این جمله را برهم‌زنندهٔ تمایزِ جنس و جنسیت می‌گیرد نه بنیان‌گذارِ آن، پرنفوذ بوده و خوانندگانی که بر آن‌اند بوووار تنی پیش از تفسیرش نگاه می‌دارد آن را نمی‌پذیرند. متنِ فرانسه بیش از یکی از این‌ها را برمی‌تابد."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "beauvoir-second-sex",
+                "locator": "Volume II"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "contingency-argument",
       "name": {
         "en": "Avicenna's Argument from Contingency",
@@ -499,6 +660,311 @@
         "islamic",
         "persian"
       ]
+    },
+    {
+      "id": "dogen-being-time",
+      "name": {
+        "en": "Being-Time",
+        "fa": "هستی‌زمان"
+      },
+      "oneLine": {
+        "en": "That time is not a container things are in, but what things are — so a mountain is a time and time is the mountain.",
+        "fa": "اینکه زمان ظرفی نیست که چیزها در آن باشند، بلکه همان چیزی است که چیزها هستند — پس کوه زمانی است و زمان همان کوه است."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Whatever exists, exists at a time and as that time; there is no being that is not timed.",
+            "fa": "هرچه هست، در زمانی و همچون همان زمان هست؛ هستی‌ای نیست که زمانمند نباشد."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Time is not a vessel that things pass through, since a vessel would itself have to be either timed or outside time.",
+            "fa": "زمان ظرفی نیست که چیزها از آن بگذرند، چون خودِ ظرف نیز یا باید زمانمند باشد یا بیرون از زمان."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Each moment is complete in itself and does not become the next; what looks like passage is each occasion fully being what it is.",
+            "fa": "هر لحظه در خود تمام است و لحظهٔ بعد نمی‌شود؛ آنچه گذر می‌نماید همان تمام‌بودنِ هر رخداد است در آنچه هست."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore being and time are not two, and practice is not a means to an end laid up in a later time.",
+          "fa": "پس هستی و زمان دو نیستند، و ورزه وسیله‌ای برای غایتی نهاده در زمانی دیگر نیست."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the analysis is answerable to what practice discloses rather than to what a theory of time would predict.",
+          "fa": "اینکه این تحلیل در برابرِ آنچه ورزه آشکار می‌کند پاسخگوست نه در برابرِ آنچه نظریه‌ای دربارهٔ زمان پیش‌بینی می‌کند."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "If each moment is complete and does not become the next, nothing changes and memory, causation and practice itself become unintelligible.",
+            "fa": "اگر هر لحظه تمام باشد و لحظهٔ بعد نشود، هیچ‌چیز دگرگون نمی‌شود و حافظه و علیت و خودِ ورزه نافهمیدنی می‌شوند."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "Dōgen denies succession as a relation between separately existing moments while affirming the ordinary facts within each occasion. Whether that is a coherent position or a refusal to answer is what the objection is testing.",
+              "fa": "دوگن توالی را همچون نسبتی میانِ لحظه‌هایی که جدا هستند انکار می‌کند و در همان حال واقعیت‌های عادی را در درونِ هر رخداد می‌پذیرد. اینکه این موضعی منسجم است یا سر باز زدن از پاسخ، همان است که این اعتراض می‌آزماید."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The text is a religious sermon in a highly figurative register, and reading it as an argument with premises imposes a form it does not have.",
+            "fa": "این متن موعظه‌ای دینی است در بیانی به‌شدت تصویری، و خواندنش همچون استدلالی دارای مقدمات، صورتی را بر آن تحمیل می‌کند که ندارد."
+          },
+          "targets": [],
+          "replies": [
+            {
+              "en": "The reconstruction here is a reconstruction and is marked as one. Dōgen states no numbered premises; what the fascicle gives is a sequence of claims and images from which readers have drawn this line of reasoning, and the drawing is theirs.",
+              "fa": "بازسازیِ اینجا بازسازی است و همچون بازسازی علامت خورده. دوگن هیچ مقدمهٔ شماره‌داری نمی‌آورد؛ آنچه این فصل می‌دهد رشته‌ای از ادعاها و تصویرهاست که خوانندگان این خطِ استدلال را از آن بیرون کشیده‌اند، و این بیرون کشیدن از آنِ آنان است."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "dogen"
+      ],
+      "opponents": [],
+      "works": [
+        "shobogenzo"
+      ],
+      "concepts": [],
+      "traditions": [
+        "japanese",
+        "buddhist"
+      ],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion"
+      ],
+      "citations": [
+        {
+          "source": "text-shobogenzo",
+          "locator": "Uji"
+        }
+      ],
+      "attribution": "probable",
+      "attributionNote": {
+        "en": "Dōgen writes a sermon, not a proof. The numbered form here is a modern reconstruction assembled from the Uji fascicle's claims and images; the reasoning is drawn out by his readers, and the fascicle itself nowhere presents it as a sequence of premises.",
+        "fa": "دوگن موعظه می‌نویسد نه برهان. صورتِ شماره‌دارِ اینجا بازسازی‌ای امروزین است که از ادعاها و تصویرهای فصلِ «اوجی» گرد آمده؛ این استدلال را خوانندگانِ او بیرون کشیده‌اند، و خودِ آن فصل هیچ‌جا آن را همچون رشته‌ای از مقدمات نمی‌آورد."
+      },
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "We say things exist in time, as water is in a jug. Dōgen denies the jug. There is no time apart from the things that are timed, and no thing that is not already a stretch of time — so the pine tree is a time, and so is the moment you notice it.",
+              "fa": "می‌گوییم چیزها در زمان هستند، چنان‌که آب در کوزه است. دوگن کوزه را انکار می‌کند. زمانی جدا از چیزهای زمانمند نیست، و چیزی نیست که خود پاره‌ای از زمان نباشد — پس درختِ کاج زمانی است، و آن لحظه که آن را می‌بینی نیز."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The consequence Dōgen cares about is practical rather than cosmological. If enlightenment lies at the end of a stretch of time that practice crosses, then practice is a means and the practitioner is always short of the goal. If each occasion is complete, practice is not a route to realisation but its expression — sitting is not preparation for awakening, it is what awakening is when it occurs at this time.\n\nThis is why the fascicle spends its argument on the ordinary case rather than the exalted one. The famous image is of firewood and ash: we say wood becomes ash, but the wood is fully wood at its own time and the ash fully ash at its, and neither is a stage of the other any more than winter is a stage of spring. Read as physics this is wrong; read as an account of what it is for a thing to be at a time, it is the claim the rest of the argument turns on.",
+              "fa": "پیامدی که برای دوگن اهمیت دارد عملی است نه کیهان‌شناختی. اگر روشن‌شدگی در پایانِ پاره‌ای از زمان باشد که ورزه از آن می‌گذرد، آنگاه ورزه وسیله است و ورزنده همواره از غایت کوتاه می‌آید. اگر هر رخداد تمام باشد، ورزه راهی به تحقق نیست بلکه بیانِ آن است — نشستن آمادگی برای بیداری نیست، همان چیزی است که بیداری هست، آنگاه که در این زمان رخ می‌دهد.\n\nاز همین روست که این فصل استدلالش را بر موردِ عادی می‌گذارد نه بر موردِ والا. تصویرِ مشهور، هیزم و خاکستر است: می‌گوییم چوب خاکستر می‌شود، اما چوب در زمانِ خود تماماً چوب است و خاکستر در زمانِ خود تماماً خاکستر، و هیچ‌یک مرحله‌ای از دیگری نیست، همان‌قدر که زمستان مرحله‌ای از بهار نیست. اگر همچون فیزیک خوانده شود نادرست است؛ اگر همچون تبیینی از اینکه بودنِ چیزی در زمانی چیست خوانده شود، همان ادعایی است که باقیِ استدلال بر آن می‌چرخد."
+            },
+            "citations": [
+              {
+                "source": "text-shobogenzo",
+                "locator": "Uji"
+              },
+              {
+                "source": "text-shobogenzo",
+                "locator": "Genjōkōan"
+              }
+            ]
+          },
+          {
+            "id": "how-much-is-dogen",
+            "depth": "deep",
+            "body": {
+              "en": "How much of the argument is Dōgen's and how much his readers' is a live question. The Shōbōgenzō was little read for centuries and its modern prominence owes a great deal to twentieth-century interpreters, several of them working with Heidegger in view — which makes the resemblance between being-time and Heidegger's analysis of temporality suspect as evidence of anything but the lens. Scholars differ on whether the philosophical reading recovers what is in the text or supplies a frame the text did not have, and the same dispute attaches to the Kyoto School's use of him.",
+              "fa": "اینکه چه اندازه از این استدلال از آنِ دوگن است و چه اندازه از آنِ خوانندگانش، پرسشی زنده است. «شوبوگنزو» سده‌ها کم خوانده می‌شد و برجستگیِ امروزینش بسیار وامدارِ مفسرانِ سدهٔ بیستم است، که چند تنشان با نگاه به هایدگر کار می‌کردند — و همین، آن همانندیِ میان هستی‌زمان و تحلیلِ هایدگر از زمانمندی را همچون شاهدی بر چیزی جز آن عدسی مشکوک می‌کند. پژوهشگران بر سرِ اینکه آیا خوانشِ فلسفی آنچه در متن است را بازمی‌یابد یا چارچوبی را که متن نداشت فراهم می‌آورد، اختلاف دارند، و همین نزاع به کاربردِ مکتبِ کیوتو از او نیز می‌چسبد."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-shobogenzo",
+                "locator": "Uji"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "epictetus-dichotomy",
+      "name": {
+        "en": "What Is Up to Us",
+        "fa": "آنچه در اختیار ماست"
+      },
+      "oneLine": {
+        "en": "That distress comes from treating what is not ours as though it were, and that the remedy is a correct inventory.",
+        "fa": "اینکه پریشانی از آن می‌آید که آنچه از آنِ ما نیست چنان می‌گیریم که گویی هست، و درمانش صورت‌برداریِ درست است."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Some things are up to us — judgement, impulse, desire, aversion — and some are not: the body, property, reputation, office.",
+            "fa": "برخی چیزها در اختیارِ ماست — داوری، انگیزه، خواست، بیزاری — و برخی نیست: تن، دارایی، آبرو، مقام."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "What is up to us is by nature free and unimpeded; what is not is weak, servile, and belongs to others.",
+            "fa": "آنچه در اختیارِ ماست به طبع آزاد و بی‌مانع است؛ آنچه نیست ناتوان و وابسته است و از آنِ دیگران."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Whoever takes what is by nature servile to be free, and what belongs to others to be their own, will be hindered and will blame gods and men.",
+            "fa": "هرکه آنچه به طبع وابسته است را آزاد بگیرد، و آنچه از آنِ دیگران است را از آنِ خود، بازداشته می‌شود و خدایان و آدمیان را سرزنش می‌کند."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore freedom consists in wanting only what is up to us, and every disturbance is a mistake about which column a thing belongs in.",
+          "fa": "پس آزادی در خواستنِ تنها آن چیزی است که در اختیارِ ماست، و هر آشفتگی خطایی است در اینکه چیزی در کدام ستون می‌نشیند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That judgement really is exempt from the causes that constrain everything else about a person.",
+          "fa": "اینکه داوری به‌راستی از آن علت‌هایی که هر چیز دیگرِ آدمی را مقید می‌کنند برکنار است."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The line is drawn in the wrong place. Grief at a child's death is not a mistake about ownership, and a doctrine that classes it as one is describing a defect rather than a virtue.",
+            "fa": "این خط در جای نادرست کشیده شده. اندوه بر مرگِ فرزند خطایی در مالکیت نیست، و آموزه‌ای که آن را چنین دسته‌بندی کند کاستی‌ای را وصف می‌کند نه فضیلتی را."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Epictetus does not forbid the feeling but the judgement that the loss is an evil, and Stoic writing on bereavement is more tender than the slogan suggests. Whether the two can be separated in practice is the objection's real force.",
+              "fa": "اپیکتتوس آن احساس را منع نمی‌کند بلکه آن داوری را که این از دست دادن شرّ است. نوشته‌های رواقی دربارهٔ سوگ نرم‌تر از آن‌اند که آن شعار می‌نمایاند. اینکه در عمل می‌توان این دو را از هم جدا کرد یا نه، نیروی راستینِ این اعتراض است."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "If nothing outside judgement matters, the doctrine counsels acquiescence in injustice, since the injustice is by definition not up to the person suffering it.",
+            "fa": "اگر هیچ‌چیزِ بیرون از داوری اهمیت نداشته باشد، این آموزه به تن دادن به بی‌عدالتی سفارش می‌کند، چون آن بی‌عدالتی بنا به تعریف در اختیارِ کسی که آن را می‌کشد نیست."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "The Stoics held that action in the world is required of us and only its outcome is not, so one may work against an injustice while not depending on succeeding. Critics answer that a doctrine which detaches effort from outcome has removed most of what makes injustice intolerable.",
+              "fa": "رواقیان بر آن بودند که کنش در جهان از ما خواسته شده و تنها نتیجه‌اش نیست، پس می‌توان بر ضدِ بی‌عدالتی کوشید بی‌آنکه به کامیابی وابسته بود. منتقدان پاسخ می‌دهند که آموزه‌ای که کوشش را از نتیجه جدا کند، بیشترِ آنچه بی‌عدالتی را تحمل‌ناپذیر می‌کند برداشته است."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "epictetus"
+      ],
+      "opponents": [],
+      "works": [
+        "enchiridion"
+      ],
+      "concepts": [
+        "dichotomy-of-control"
+      ],
+      "traditions": [
+        "hellenistic",
+        "roman"
+      ],
+      "branches": [
+        "ethics",
+        "philosophy-of-mind"
+      ],
+      "citations": [
+        {
+          "source": "epictetus-discourses"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Make two lists. On one: what you think, want and choose. On the other: your body, your money, your reputation, what other people do. Epictetus argues that almost all human misery comes from filing something in the first list that belongs in the second.",
+              "fa": "دو فهرست بساز. در یکی: آنچه می‌اندیشی و می‌خواهی و برمی‌گزینی. در دیگری: تنت، پولت، آبرویت، آنچه دیگران می‌کنند. اپیکتتوس استدلال می‌کند که تقریباً همهٔ بدبختیِ آدمی از آن می‌آید که چیزی را در فهرستِ نخست می‌نشانیم که جایش در دومی است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The doctrine is delivered as practical instruction rather than as a theory, which is why the Enchiridion opens with it and returns to nothing else so often. Epictetus had been a slave, and the argument is shaped by that: a man who can be sold, beaten and exiled has a strong interest in locating precisely what cannot be taken.\n\nThe strength of the position is that the first list is short and genuinely defensible. Whatever is done to a person, the judgement they make about it appears to remain theirs, and the Stoics build an entire ethics on that remainder. The weakness is that the list is short in a way that looks like a concession dressed as a victory: a freedom that consists in wanting nothing that can be withheld has secured itself by shrinking what may be wanted.",
+              "fa": "این آموزه همچون دستورالعملی عملی داده می‌شود نه همچون نظریه، و از همین روست که «انکیریدیون» با آن آغاز می‌شود و به هیچ چیزِ دیگر این‌همه بازنمی‌گردد. اپیکتتوس برده بوده، و استدلال از همان شکل گرفته: مردی که می‌توان فروختش و زدش و تبعیدش کرد، سخت در بندِ آن است که دقیقاً بیابد چه چیز را نمی‌توان گرفت.\n\nنیروی این موضع آن است که فهرستِ نخست کوتاه و به‌راستی دفاع‌پذیر است. هر چه با آدمی کنند، آن داوری که دربارهٔ آن می‌کند چنین می‌نماید که از آنِ خودش می‌ماند، و رواقیان کلِ یک اخلاق را بر همین باقی‌مانده بنا می‌کنند. کاستی‌اش آن است که این فهرست به‌گونه‌ای کوتاه است که واگذاری‌ای در جامهٔ پیروزی می‌نماید: آزادی‌ای که در نخواستنِ هر چیزِ دریغ‌شدنی است، خود را با کوچک کردنِ آنچه می‌توان خواست ایمن کرده."
+            },
+            "citations": [
+              {
+                "source": "epictetus-discourses"
+              }
+            ]
+          },
+          {
+            "id": "is-the-first-list-really-ours",
+            "depth": "deep",
+            "body": {
+              "en": "The premise that judgement is exempt from outside causation is where modern readers press hardest. Grief, fear and desire are not obviously chosen, and the evidence that mood, illness, exhaustion and circumstance shape what a person is able to think undercuts the clean division the argument needs. Stoic defenders answer that assent remains up to us even when the impression is not, which narrows the first list further — to a moment of agreement so thin that whether anything is left of the original consolation is exactly what is disputed.",
+              "fa": "آن مقدمه که داوری از علیتِ بیرونی برکنار است همان جایی است که خوانندگانِ امروزی سخت‌ترین فشار را می‌آورند. اندوه و ترس و خواست آشکارا برگزیده نیستند، و شواهدِ اینکه خلق و بیماری و خستگی و موقعیت شکل می‌دهند که آدمی چه می‌تواند بیندیشد، آن تقسیمِ پاکیزه‌ای را که استدلال لازم دارد سست می‌کند. مدافعانِ رواقی پاسخ می‌دهند که تصدیق حتی وقتی تصور در اختیارِ ما نیست در اختیارِ ماست، و این فهرستِ نخست را باز هم تنگ‌تر می‌کند — تا لحظه‌ای از پذیرش، چنان نازک که اینکه از آن تسلیِ نخستین چیزی مانده یا نه، دقیقاً همان است که محلِ نزاع است."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "epictetus-discourses"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "epicurus-death",
@@ -1132,6 +1598,165 @@
       ]
     },
     {
+      "id": "mariategui-land-question",
+      "name": {
+        "en": "The Problem of the Indian Is the Problem of the Land",
+        "fa": "مسئلهٔ بومی همان مسئلهٔ زمین است"
+      },
+      "oneLine": {
+        "en": "That the condition of Peru's indigenous majority is economic in origin, so every remedy addressed to education, morals or race leaves it untouched.",
+        "fa": "اینکه وضعِ اکثریتِ بومیِ پرو در ریشه اقتصادی است، پس هر درمانی که به آموزش و اخلاق و نژاد بپردازد آن را دست‌نخورده می‌گذارد."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "The indigenous population of Peru is overwhelmingly rural, and its subjection is carried out through the ownership of land.",
+            "fa": "جمعیتِ بومیِ پرو عمدتاً روستایی است، و فرودستی‌اش از راهِ مالکیتِ زمین اعمال می‌شود."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Remedies framed as humanitarian, administrative, educational or ecclesiastical leave that ownership in place.",
+            "fa": "درمان‌هایی که در قالبِ بشردوستانه و اداری و آموزشی و کلیسایی طرح می‌شوند، آن مالکیت را بر جای می‌گذارند."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "A remedy that leaves the mechanism of subjection in place cannot end the subjection.",
+            "fa": "درمانی که سازوکارِ فرودستی را بر جای بگذارد نمی‌تواند به آن فرودستی پایان دهد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore the question is the land, and it is settled by the tenure system or not at all.",
+          "fa": "پس مسئله زمین است، و یا با نظامِ مالکیت فیصله می‌یابد یا اصلاً نمی‌یابد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the surviving indigenous communal forms are a live basis for that settlement rather than a relic.",
+          "fa": "اینکه صورت‌های اشتراکیِ بازماندهٔ بومی پایه‌ای زنده برای آن فیصله‌اند نه یادگاری از گذشته."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Reducing the question to land treats indigenous culture, language and religion as effects of an economic base, which is the same erasure in a new vocabulary.",
+            "fa": "فروکاستنِ مسئله به زمین، فرهنگ و زبان و دینِ بومی را معلولِ زیربنایی اقتصادی می‌گیرد، و این همان پاک کردن است در واژگانی تازه."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Mariátegui argues the opposite way round: the communal tradition is a resource rather than an obstacle, and he was attacked from within the Comintern for treating it as one. The objection lands better against orthodox Marxism than against him.",
+              "fa": "ماریاتگی وارونه استدلال می‌کند: سنتِ اشتراکی سرمایه است نه مانع، و او را از درونِ کمینترن برای همین گرفتنش نکوهیدند. این اعتراض بر مارکسیسمِ ارتدوکس بهتر می‌نشیند تا بر او."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Land reform has been tried and has not produced the outcome the argument predicts.",
+            "fa": "اصلاحاتِ ارضی آزموده شده و نتیجه‌ای که این استدلال پیش‌بینی می‌کند به بار نیاورده."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "The argument names a necessary condition rather than a sufficient one: without the land question settled nothing else will work, which is consistent with settling it and other things still failing.",
+              "fa": "این استدلال شرطی لازم را نام می‌برد نه کافی: بی‌فیصلهٔ مسئلهٔ زمین هیچ چیزِ دیگر کار نمی‌کند، و این با فیصله یافتنِ آن و شکست خوردنِ چیزهای دیگر سازگار است."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "mariategui"
+      ],
+      "opponents": [],
+      "works": [
+        "seven-essays"
+      ],
+      "concepts": [
+        "coloniality"
+      ],
+      "traditions": [
+        "latin-american",
+        "andean"
+      ],
+      "branches": [
+        "political-philosophy",
+        "social-philosophy",
+        "decolonial-philosophy",
+        "philosophy-of-economics"
+      ],
+      "citations": [
+        {
+          "source": "text-seven-essays",
+          "locator": "Essay 2"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Peru's answers to what was called the Indian problem had been schooling, moral improvement, better administration and appeals to conscience. Mariátegui's move is to notice that none of them touches who owns the land, and to argue that this is why none of them worked.",
+              "fa": "پاسخ‌های پرو به آنچه مسئلهٔ بومی خوانده می‌شد اینها بود: مدرسه، بهبودِ اخلاقی، ادارهٔ بهتر، و رجوع به وجدان. حرکتِ ماریاتگی آن است که ببیند هیچ‌یک به مالکیتِ زمین دست نمی‌زند، و استدلال کند که به همین سبب هیچ‌یک کار نکرد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The essay works by elimination and the eliminations are pointed. A humanitarian framing produces charity, which the Spanish crown also produced; an administrative framing produces regulation, which was already extensive and ignored; an educational framing assumes the obstacle is ignorance, which flatters the educator; a racial framing is the ideology of the landowner in scientific dress. Each has been tried and each left the hacienda where it was.\n\nWhat makes Mariátegui unusual among Marxists of his generation is the positive half. He argues that Peru's socialism cannot be an import, because the country already contains a functioning communal agrarian tradition in the ayllu, and that a revolution which treats indigenous forms as feudal remnants to be swept away is repeating the colonial gesture it means to end. The Comintern disagreed sharply, and the disagreement outlived him.",
+              "fa": "این مقاله با کنار گذاشتن پیش می‌رود و این کنار گذاشتن‌ها تیزند. چارچوبِ بشردوستانه صدقه می‌زاید، که تاجِ اسپانیا نیز می‌زاد؛ چارچوبِ اداری مقررات می‌زاید، که پیشاپیش فراوان بود و نادیده گرفته می‌شد؛ چارچوبِ آموزشی فرض می‌گیرد مانع نادانی است، و این آموزگار را می‌نوازد؛ چارچوبِ نژادی ایدئولوژیِ زمین‌دار است در جامهٔ علمی. هر یک آزموده شده و هر یک هاسیندا را همان‌جا که بود گذاشت.\n\nآنچه ماریاتگی را در میانِ مارکسیست‌های نسلش نامعمول می‌کند نیمهٔ ایجابی است. استدلال می‌کند که سوسیالیسمِ پرو نمی‌تواند وارداتی باشد، چون این کشور پیشاپیش سنتی اشتراکی و کارآمد در کشاورزی دارد، یعنی آیلو، و انقلابی که صورت‌های بومی را بازمانده‌های فئودالیِ رفتنی بداند همان حرکتِ استعماری را تکرار می‌کند که می‌خواهد به آن پایان دهد. کمینترن به‌تندی مخالفت کرد، و آن اختلاف از او دیرپاتر بود."
+            },
+            "citations": [
+              {
+                "source": "text-seven-essays",
+                "locator": "Essay 2"
+              },
+              {
+                "source": "text-seven-essays",
+                "locator": "Essay 3"
+              }
+            ]
+          },
+          {
+            "id": "indigenismo-or-marxism",
+            "depth": "deep",
+            "body": {
+              "en": "Whether Mariátegui is best read as a Marxist who made room for indigenous forms or as an indigenous thinker who used Marxist vocabulary is argued in both directions and the stakes are not merely biographical. On the first reading the communal tradition is a fortunate local condition; on the second it is the source of the analysis and Marxism the borrowed apparatus. His own formulations support both, and his early death at thirty-five left the question where he left it.",
+              "fa": "اینکه ماریاتگی را بهتر است مارکسیستی خواند که برای صورت‌های بومی جا باز کرد، یا اندیشمندی بومی که واژگانِ مارکسیستی به کار برد، در هر دو سو بحث شده و برد و باختش تنها زندگی‌نامه‌ای نیست. بر خوانشِ نخست، سنتِ اشتراکی شرطی محلی و خوش‌اقبال است؛ بر خوانشِ دوم، سرچشمهٔ تحلیل است و مارکسیسم دستگاهِ عاریتی. صورت‌بندی‌های خودِ او هر دو را برمی‌تابند، و مرگِ زودهنگامش در سی و پنج سالگی این پرسش را همان‌جا گذاشت که او گذاشته بود."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-seven-essays"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "mencius-child-argument",
       "name": {
         "en": "The Child at the Well",
@@ -1611,6 +2236,166 @@
         "christian",
         "medieval"
       ]
+    },
+    {
+      "id": "open-question-argument",
+      "name": {
+        "en": "The Open Question Argument",
+        "fa": "برهان پرسش گشوده"
+      },
+      "oneLine": {
+        "en": "That no definition of good in natural terms can be right, because asking whether the definition holds always stays a real question.",
+        "fa": "اینکه هیچ تعریفی از خیر با واژگانِ طبیعی درست نتواند بود، چون پرسیدنِ اینکه آیا آن تعریف برقرار است همواره پرسشی راستین می‌ماند."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "If good were identical to some natural property N, then \"this is N, but is it good?\" would be as closed a question as \"this is a bachelor, but is he unmarried?\".",
+            "fa": "اگر خیر همان ویژگیِ طبیعیِ ن می‌بود، آنگاه «این ن است، اما آیا خیر است؟» به همان اندازه پرسشی بسته می‌بود که «این مجرد است، اما آیا ازدواج‌نکرده است؟»."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "For every natural property yet proposed — pleasure, desire, what is more evolved — the question stays open to a competent speaker.",
+            "fa": "برای هر ویژگیِ طبیعی که تا کنون پیشنهاد شده — لذت، خواست، آنچه تکامل‌یافته‌تر است — این پرسش نزدِ گویندهٔ توانا گشوده می‌ماند."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "A question that stays open shows the two terms are not identical in meaning.",
+            "fa": "پرسشی که گشوده می‌ماند نشان می‌دهد آن دو واژه در معنا یکی نیستند."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore good is not identical to any natural property, and defining it as one commits the naturalistic fallacy.",
+          "fa": "پس خیر با هیچ ویژگیِ طبیعی یکی نیست، و تعریف کردنش همچون یکی از آن‌ها مغالطهٔ طبیعت‌گرایانه است."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That identity of properties can be tested by what a competent speaker finds obvious about the words for them.",
+          "fa": "اینکه این‌همانیِ ویژگی‌ها را می‌توان با آنچه گویندهٔ توانا دربارهٔ واژه‌هایشان بدیهی می‌یابد آزمود."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The argument proves too much: \"this is water, but is it H₂O?\" was an open question for competent speakers, and water is still H₂O.",
+            "fa": "این استدلال بیش از حد ثابت می‌کند: «این آب است، اما آیا اچ‌دو‌او است؟» برای گویندگانِ توانا پرسشی گشوده بود، و آب همچنان اچ‌دو‌او است."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "This is the paradox of analysis in its sharpest form, and it is widely taken as decisive against the argument as stated. What survives is a weaker claim: that no proposed naturalistic definition has yet been found compelling, which is evidence rather than proof.",
+              "fa": "این همان پارادوکسِ تحلیل در تیزترین صورتش است، و عموماً در برابرِ استدلال به همان صورتی که بیان شده قاطع دانسته می‌شود. آنچه بر جای می‌ماند ادعایی ضعیف‌تر است: اینکه هیچ تعریفِ طبیعت‌گرایانه‌ای تا کنون متقاعدکننده نبوده، و این شاهد است نه برهان."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The conclusion Moore draws — that good is a simple non-natural quality known by intuition — is far stronger than the argument supports, which at most shows that a definition has not been found.",
+            "fa": "نتیجه‌ای که مور می‌گیرد — که خیر کیفیتی بسیط و ناطبیعی است که با شهود دانسته می‌شود — بسی نیرومندتر از آن است که استدلال پشتیبانی کند، چون این استدلال دست‌بالا نشان می‌دهد که تعریفی یافت نشده."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Moore treats indefinability as established and then asks what kind of property an indefinable one must be. Critics answer that the second step is where the non-naturalism enters, and that it is asserted rather than argued.",
+              "fa": "مور تعریف‌ناپذیری را ثابت‌شده می‌گیرد و آنگاه می‌پرسد ویژگی‌ای تعریف‌ناپذیر باید از چه گونه باشد. منتقدان پاسخ می‌دهند که ناطبیعت‌گرایی در همین گامِ دوم وارد می‌شود، و ادعا می‌شود نه استدلال."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "moore"
+      ],
+      "opponents": [],
+      "works": [
+        "principia-ethica"
+      ],
+      "concepts": [
+        "naturalistic-fallacy",
+        "is-ought-gap"
+      ],
+      "traditions": [
+        "european",
+        "analytic"
+      ],
+      "branches": [
+        "metaethics",
+        "ethics",
+        "philosophy-of-language"
+      ],
+      "citations": [
+        {
+          "source": "text-principia-ethica",
+          "locator": "§13"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Suppose someone says good just means pleasant. Then asking \"this is pleasant, but is it good?\" should sound like asking whether a bachelor is unmarried — an obviously closed question. It does not. Moore takes that as evidence the definition is wrong, and says the same happens to every such definition.",
+              "fa": "فرض کن کسی بگوید خیر یعنی همان لذت‌بخش. آنگاه پرسیدنِ «این لذت‌بخش است، اما آیا خیر است؟» باید مانندِ پرسیدنِ اینکه مجرد ازدواج‌نکرده است بنماید — پرسشی آشکارا بسته. چنین نمی‌نماید. مور این را شاهدِ نادرستیِ آن تعریف می‌گیرد، و می‌گوید همین بر سرِ هر تعریفی از این دست می‌آید."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument gave twentieth-century ethics its shape, and much of that century's metaethics is a response to it. If good cannot be defined naturalistically, three roads open: Moore's own, that it names a real but non-natural quality; the emotivists', that moral sentences do not describe anything and so need no definition; and the naturalists' return, that identity of properties is not settled by what speakers find obvious.\n\nMoore's name for the mistake — the naturalistic fallacy — has outlived his argument for it and is now used loosely for almost any move from fact to value. Moore's own charge is narrower and more technical: it is about defining an indefinable term, not about deriving an ought from an is, which is Hume's separate point. The two are constantly run together, including by people arguing on Moore's side.",
+              "fa": "این استدلال به اخلاقِ سدهٔ بیستم شکل داد، و بیشترِ فرااخلاقِ آن سده پاسخی به آن است. اگر خیر را نتوان طبیعت‌گرایانه تعریف کرد، سه راه گشوده می‌شود: راهِ خودِ مور، که خیر کیفیتی واقعی اما ناطبیعی را نام می‌برد؛ راهِ عاطفه‌گرایان، که جمله‌های اخلاقی چیزی را وصف نمی‌کنند و پس تعریفی نمی‌خواهند؛ و بازگشتِ طبیعت‌گرایان، که این‌همانیِ ویژگی‌ها با آنچه گویندگان بدیهی می‌یابند فیصله نمی‌یابد.\n\nنامی که مور بر این خطا نهاد — مغالطهٔ طبیعت‌گرایانه — از استدلالش دیرپاتر بوده و امروز به‌سستی برای تقریباً هر گذاری از واقعیت به ارزش به کار می‌رود. اتهامِ خودِ او تنگ‌تر و فنی‌تر است: دربارهٔ تعریف کردنِ واژه‌ای تعریف‌ناپذیر است، نه دربارهٔ استنتاجِ باید از هست، که نکتهٔ جداگانهٔ هیوم است. این دو پیوسته با هم درآمیخته می‌شوند، از جمله به دستِ کسانی که در سمتِ مور استدلال می‌کنند."
+            },
+            "citations": [
+              {
+                "source": "text-principia-ethica",
+                "locator": "§13"
+              },
+              {
+                "source": "text-principia-ethica",
+                "locator": "ch. 1"
+              }
+            ]
+          },
+          {
+            "id": "what-is-left-of-it",
+            "depth": "deep",
+            "body": {
+              "en": "Few now think the argument works as a proof. The water/H₂O case shows that two terms can differ in meaning while naming one property, so an open question establishes at most a difference in sense, not in reference — and moral naturalists have built on exactly that gap, proposing that good refers to a natural property without being synonymous with any description of it. What is still credited to Moore is the observation the argument dramatises: that every naturalistic definition offered so far leaves a residue the definition does not capture. Whether that residue is a real property, a feature of how evaluative language works, or an artefact produced by the test itself, remains the open question.",
+              "fa": "امروز کمتر کسی این استدلال را همچون برهان کارآمد می‌داند. موردِ آب و اچ‌دو‌او نشان می‌دهد که دو واژه می‌توانند در معنا فرق کنند و یک ویژگی را نام ببرند، پس پرسشِ گشوده دست‌بالا تفاوتی در معنا ثابت می‌کند نه در مصداق — و طبیعت‌گرایانِ اخلاقی دقیقاً بر همین شکاف بنا کرده‌اند، و پیش نهاده‌اند که خیر به ویژگی‌ای طبیعی ارجاع می‌دهد بی‌آنکه با هیچ وصفی از آن هم‌معنا باشد. آنچه هنوز به مور نسبت داده می‌شود همان مشاهده‌ای است که استدلال به نمایش می‌گذارد: اینکه هر تعریفِ طبیعت‌گرایانه‌ای که تا کنون داده شده باقی‌مانده‌ای بر جای می‌گذارد که تعریف آن را نمی‌گیرد. اینکه آن باقی‌مانده ویژگی‌ای واقعی است، یا خاصیتی از کارکردِ زبانِ ارزشی، یا پنداری زاییدهٔ خودِ آن آزمون، همچنان پرسشِ گشوده است."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-principia-ethica",
+                "locator": "§13"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "original-position-argument",
