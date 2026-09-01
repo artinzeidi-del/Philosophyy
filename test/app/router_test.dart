@@ -93,15 +93,20 @@ void main() {
           .where((kind) => !routable.contains(kind))
           .toSet();
 
-      // This is the current editorial decision: quotations, arguments and
-      // sources appear within an article rather than on pages of their own. The
-      // assertion exists so that adding a kind forces that decision to be made
-      // again rather than defaulting to "unreachable".
-      expect(excluded, <EntityKind>{
-        EntityKind.quote,
-        EntityKind.argument,
-        EntityKind.source,
-      });
+      // This is the current editorial decision: quotations and sources appear
+      // within an article rather than on pages of their own. The assertion
+      // exists so that adding a kind forces that decision to be made again
+      // rather than defaulting to "unreachable" — and it worked: arguments
+      // were on this list until they grew articles of their own, at which
+      // point leaving them unroutable meant a reader could read about the
+      // ontological argument on Anselm's page and had nowhere to follow it to.
+      //
+      // Quotations and sources stay off it for a reason that still holds. A
+      // quotation is a sentence, and a page whose whole content is one sentence
+      // plus its provenance is a worse home for it than the entry it
+      // illustrates; a source is a bibliographic record, and its page would be
+      // the citation the reader has already been shown.
+      expect(excluded, <EntityKind>{EntityKind.quote, EntityKind.source});
     });
   });
 }

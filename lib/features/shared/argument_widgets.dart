@@ -4,11 +4,8 @@ import 'package:philosophyy/core/design/motion.dart';
 import 'package:philosophyy/core/design/semantic_colors.dart';
 import 'package:philosophyy/core/format/number_format.dart';
 import 'package:philosophyy/domain/entities/argument.dart';
-import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/app_language.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
-import 'package:philosophyy/domain/value_objects/taxonomy.dart';
-import 'package:philosophyy/features/shared/entity_widgets.dart';
 import 'package:philosophyy/l10n/generated/app_localizations.dart';
 
 /// A reconstructed argument, shown as structure rather than as a paragraph.
@@ -30,10 +27,9 @@ class ArgumentPanel extends StatefulWidget {
   const ArgumentPanel({
     required this.argument,
     required this.language,
-    required this.depth,
-    required this.resolveSource,
     this.opposedByReader = false,
     this.raisedByName,
+    this.onOpen,
     super.key,
   });
 
@@ -43,12 +39,12 @@ class ArgumentPanel extends StatefulWidget {
   /// The language to render in.
   final AppLanguage language;
 
-  /// The reader's chosen depth, applied to the argument's own prose the same
-  /// way it is applied to every other article in the product.
-  final ContentDepth depth;
-
-  /// Resolves a source identifier to a record, for rendering citations.
-  final Source? Function(String) resolveSource;
+  /// Opens the argument's own page, when there is one to open.
+  ///
+  /// Null on that page itself. The prose lives there rather than inline: an
+  /// article repeated under every philosopher who advanced the argument would
+  /// push the rest of their entry off the screen.
+  final VoidCallback? onOpen;
 
   /// Whether the philosopher whose page this is argued *against* the argument.
   ///
@@ -129,16 +125,14 @@ class _ArgumentPanelState extends State<ArgumentPanel> {
             ],
           ],
 
-          // The prose comes before the numbered steps: a reader meeting the
-          // argument needs to know what question it answers before being shown
-          // the machinery that answers it.
-          if (!argument.article.isEmpty) ...<Widget>[
-            const SizedBox(height: Spacing.lg),
-            ArticleView(
-              article: argument.article,
-              depth: widget.depth,
-              language: language,
-              resolveSource: widget.resolveSource,
+          if (widget.onOpen case final open?) ...<Widget>[
+            const SizedBox(height: Spacing.sm),
+            Align(
+              alignment: AlignmentDirectional.centerStart,
+              child: TextButton(
+                onPressed: open,
+                child: Text(l10n.argumentReadInFull),
+              ),
             ),
           ],
 

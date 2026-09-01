@@ -382,6 +382,18 @@
     "description": "Heading over the schools a philosopher belongs to."
   },
   "sectionConcepts": "Key ideas",
+  "sectionArguedBy": "Argued by",
+  "@sectionArguedBy": {
+    "description": "Heading over the philosophers who advanced an argument."
+  },
+  "sectionArguedAgainstBy": "Argued against by",
+  "@sectionArguedAgainstBy": {
+    "description": "Heading over the philosophers who argued against an argument."
+  },
+  "sectionWhereItAppears": "Where it appears",
+  "@sectionWhereItAppears": {
+    "description": "Heading over the works an argument is stated or defended in."
+  },
   "@sectionConcepts": {
     "description": "Heading for related concepts."
   },
@@ -442,6 +454,10 @@
   },
   "argumentArguedAgainst": "Argued against this",
   "argumentAttributionQualified": "Attribution qualified",
+  "argumentReadInFull": "Read in full",
+  "@argumentReadInFull": {
+    "description": "Link from an argument summary to the argument's own page."
+  },
   "@argumentAttributionQualified": {
     "description": "Badge on an argument whose attribution to its named proponent is not straightforward."
   },

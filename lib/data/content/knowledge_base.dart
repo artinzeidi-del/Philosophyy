@@ -220,7 +220,7 @@ class KnowledgeBase {
     EntityKind.concept => concept(ref.id),
     EntityKind.work => work(ref.id),
     EntityKind.school => school(ref.id),
-    EntityKind.argument => null,
+    EntityKind.argument => argument(ref.id),
     EntityKind.quote => null,
     EntityKind.source => null,
   };
@@ -262,6 +262,7 @@ class KnowledgeBase {
     yield* concepts;
     yield* works;
     yield* schools;
+    yield* arguments;
   }
 
   /// Every relation touching [ref], oriented so that [ref] is the subject.

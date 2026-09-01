@@ -153,7 +153,10 @@
       "attributionNote": {
         "en": "Zeno's book is lost. Every version of this argument comes through Aristotle's summary in the Physics — a paraphrase written by a critic in the course of refuting it, generations later.",
         "fa": "کتابِ زنون گم شده است. هر روایتی از این استدلال از راهِ خلاصهٔ ارسطو در «طبیعیات» رسیده — بازگفتی به قلمِ منتقدی، در میانهٔ ابطال کردنش، چند نسل بعد."
-      }
+      },
+      "traditions": [
+        "ancient-greek"
+      ]
     },
     {
       "id": "ambedkar-caste-argument",
@@ -310,7 +313,10 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "indian"
+      ]
     },
     {
       "id": "contingency-argument",
@@ -488,7 +494,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "islamic",
+        "persian"
+      ]
     },
     {
       "id": "epicurus-death",
@@ -641,7 +651,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "ancient-greek",
+        "hellenistic"
+      ]
     },
     {
       "id": "ghazali-causation",
@@ -793,7 +807,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "islamic",
+        "persian"
+      ]
     },
     {
       "id": "induction-argument",
@@ -950,7 +968,10 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "european"
+      ]
     },
     {
       "id": "maimonides-negative-attributes",
@@ -1103,7 +1124,12 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "jewish",
+        "islamic",
+        "medieval"
+      ]
     },
     {
       "id": "mencius-child-argument",
@@ -1255,7 +1281,10 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "chinese"
+      ]
     },
     {
       "id": "nagarjuna-motion",
@@ -1409,7 +1438,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "indian",
+        "buddhist"
+      ]
     },
     {
       "id": "ontological-argument",
@@ -1573,7 +1606,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "christian",
+        "medieval"
+      ]
     },
     {
       "id": "original-position-argument",
@@ -1732,7 +1769,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "american",
+        "analytic"
+      ]
     },
     {
       "id": "private-language-argument",
@@ -1880,7 +1921,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "analytic",
+        "european"
+      ]
     },
     {
       "id": "problem-of-evil",
@@ -2030,7 +2075,10 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "european"
+      ]
     },
     {
       "id": "singer-famine-argument",
@@ -2179,7 +2227,11 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "analytic",
+        "contemporary"
+      ]
     },
     {
       "id": "third-man-argument",
@@ -2308,7 +2360,10 @@
             ]
           }
         ]
-      }
+      },
+      "traditions": [
+        "ancient-greek"
+      ]
     },
     {
       "id": "zera-yacob-equality",
@@ -2468,7 +2523,11 @@
       "attributionNote": {
         "en": "The Hatata's authorship was disputed through most of the twentieth century, after a 1920 thesis that it was written by the Italian missionary who supplied the manuscript. Specialists now largely accept Zera Yacob's authorship, but the question was open long enough to be worth recording.",
         "fa": "نویسندگیِ «حَتَتا» بیشترِ سدهٔ بیستم محلِ نزاع بود، پس از فرضیه‌ای در ۱۹۲۰ که آن را نوشتهٔ مبلغِ ایتالیایی می‌دانست که دست‌نوشته را فراهم آورده بود. امروز متخصصان عمدتاً نویسندگیِ زرا یعقوب را می‌پذیرند، اما این پرسش چندان گشوده مانده که ثبتش بیرزد."
-      }
+      },
+      "traditions": [
+        "ethiopian",
+        "african"
+      ]
     }
   ]
 }

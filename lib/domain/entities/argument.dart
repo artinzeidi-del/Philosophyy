@@ -1,4 +1,5 @@
 import 'package:philosophyy/domain/entities/content_section.dart';
+import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
@@ -78,7 +79,7 @@ class Objection {
 /// Arguments are modelled as structure rather than prose so the product can do
 /// things prose cannot: show an argument's premises one at a time, let a reader
 /// see which premise an objection denies, and compare two arguments' shapes.
-class Argument {
+class Argument implements KnowledgeEntity {
   const Argument({
     required this.id,
     required this.name,
@@ -91,6 +92,7 @@ class Argument {
     this.opponentIds = const <String>[],
     this.workIds = const <String>[],
     this.conceptIds = const <String>[],
+    this.traditions = const <String>{},
     this.branches = const <String>{},
     this.citations = const <Citation>[],
     this.article = Article.empty,
@@ -99,12 +101,15 @@ class Argument {
   });
 
   /// Identifier, unique across arguments.
+  @override
   final String id;
 
   /// The argument's usual name, e.g. "The Ontological Argument".
+  @override
   final LocalizedText name;
 
   /// What the argument tries to show, in one sentence.
+  @override
   final LocalizedText oneLine;
 
   /// The premises, in order.
@@ -137,10 +142,20 @@ class Argument {
   /// Concepts it turns on.
   final List<String> conceptIds;
 
+  /// The traditions it belongs to.
+  ///
+  /// Held on the record rather than derived from the proponents at read time,
+  /// so the field behaves like every other entity's; a test keeps it equal to
+  /// what the proponents carry, which is what stops the two from drifting.
+  @override
+  final Set<String> traditions;
+
   /// The branches it belongs to.
+  @override
   final Set<String> branches;
 
   /// Sources for the reconstruction.
+  @override
   final List<Citation> citations;
 
   /// The prose around the reconstruction, at three reading depths.
@@ -151,6 +166,7 @@ class Argument {
   /// other kind of entry in this corpus serves both from one record, and an
   /// argument that could not was the one page in the product with no shallow
   /// end.
+  @override
   final Article article;
 
   /// How securely the argument belongs to the philosophers named as advancing
@@ -170,7 +186,14 @@ class Argument {
   final LocalizedText? attributionNote;
 
   /// A typed pointer to this argument.
+  @override
   EntityRef get ref => EntityRef(EntityKind.argument, id);
+
+  @override
+  Iterable<String> get searchableStrings sync* {
+    yield* name.allVariants;
+    yield* oneLine.allVariants;
+  }
 
   /// Whether the attribution is settled enough to state without qualification.
   bool get hasSettledAttribution =>

@@ -410,6 +410,7 @@ abstract final class ContentMappers {
       opponentIds: reader.stringList('opponents'),
       workIds: reader.stringList('works'),
       conceptIds: reader.stringList('concepts'),
+      traditions: reader.stringList('traditions').toSet(),
       branches: reader.stringList('branches').toSet(),
       citations: citations(reader, 'citations'),
       article: article(reader, 'article'),

@@ -18,6 +18,7 @@ import 'package:philosophyy/core/format/date_format.dart';
 import 'package:philosophyy/core/l10n/taxonomy_labels.dart';
 import 'package:philosophyy/core/search/text_normalizer.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
+import 'package:philosophyy/domain/entities/argument.dart';
 import 'package:philosophyy/domain/entities/concept.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
@@ -488,6 +489,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
       final Concept concept => _conceptSections(context, concept),
       final Work work => _workSections(context, work),
       final School school => _schoolSections(context, school),
+      final Argument argument => _argumentSections(context, argument),
       _ => const <Widget>[],
     },
   ];
@@ -688,8 +690,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ArgumentPanel(
                 argument: argument,
                 language: language,
-                depth: depth,
-                resolveSource: corpus.source,
+                onOpen: () => context.push(argument.ref.route),
                 opposedByReader: !argument.proponentIds.contains(
                   philosopher.id,
                 ),
@@ -888,8 +889,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ArgumentPanel(
                 argument: argument,
                 language: language,
-                depth: depth,
-                resolveSource: corpus.source,
+                onOpen: () => context.push(argument.ref.route),
                 raisedByName: (id) =>
                     corpus.philosopher(id)?.name.resolve(language),
               ),
@@ -908,6 +908,88 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
             child: SourceLine(source: edition, language: language),
           ),
       ],
+    ];
+  }
+
+  /// The argument's own page.
+  ///
+  /// The prose above it is the article every entity has. What is added here is
+  /// the structure — premises, conclusion, the assumptions it needs but does
+  /// not state, and the objections aimed at named steps — and the people and
+  /// books it connects to. Inline on a philosopher's entry the same panel is a
+  /// summary with a link here; this is where the reader arrives.
+  List<Widget> _argumentSections(BuildContext context, Argument argument) {
+    final l10n = AppL10n.of(context);
+    final proponents = argument.proponentIds
+        .map(corpus.philosopher)
+        .whereType<Philosopher>()
+        .toList();
+    final opponents = argument.opponentIds
+        .map(corpus.philosopher)
+        .whereType<Philosopher>()
+        .toList();
+    final works = argument.workIds.map(corpus.work).whereType<Work>().toList();
+    final concepts = argument.conceptIds
+        .map(corpus.concept)
+        .whereType<Concept>()
+        .toList();
+
+    return <Widget>[
+      ReadingColumn(
+        child: ArgumentPanel(
+          argument: argument,
+          language: language,
+          raisedByName: (id) => corpus.philosopher(id)?.name.resolve(language),
+        ),
+      ),
+      if (proponents.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionArguedBy,
+          children: <Widget>[
+            for (final philosopher in proponents)
+              EntityCard(
+                title: philosopher.name.resolve(language),
+                summary: philosopher.oneLine.resolve(language),
+                onTap: () => context.push(philosopher.ref.route),
+              ),
+          ],
+        ),
+      if (opponents.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionArguedAgainstBy,
+          children: <Widget>[
+            for (final philosopher in opponents)
+              EntityCard(
+                title: philosopher.name.resolve(language),
+                summary: philosopher.oneLine.resolve(language),
+                onTap: () => context.push(philosopher.ref.route),
+              ),
+          ],
+        ),
+      if (works.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionWhereItAppears,
+          children: <Widget>[
+            for (final work in works)
+              EntityCard(
+                title: work.name.resolve(language),
+                summary: work.oneLine.resolve(language),
+                onTap: () => context.push(work.ref.route),
+              ),
+          ],
+        ),
+      if (concepts.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionConcepts,
+          children: <Widget>[
+            for (final concept in concepts)
+              EntityCard(
+                title: concept.name.resolve(language),
+                summary: concept.oneLine.resolve(language),
+                onTap: () => context.push(concept.ref.route),
+              ),
+          ],
+        ),
     ];
   }
 
