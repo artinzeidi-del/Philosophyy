@@ -79,6 +79,31 @@ void main() {
       expect(orphans, isEmpty, reason: 'unreachable arguments: $orphans');
     });
 
+    test('every argument has a shallow end', () {
+      // Arguments were the one kind of entry with no reading depths: a
+      // one-line summary and then numbered premises, with nothing in between
+      // for a reader meeting the argument for the first time. Every other kind
+      // of entry serves a newcomer and a specialist from one record, and this
+      // holds arguments to the same promise.
+      final thin = <String>[
+        for (final argument in corpus.arguments)
+          if (argument.article.isEmpty ||
+              argument.article.sections
+                      .map((section) => section.depth)
+                      .toSet()
+                      .length <
+                  3)
+            argument.id,
+      ];
+      expect(
+        thin,
+        isEmpty,
+        reason:
+            'these arguments do not offer all three reading depths:\n  '
+            '${thin.join('\n  ')}',
+      );
+    });
+
     test('every proponent and opponent page would list it', () {
       for (final argument in corpus.arguments) {
         for (final id in <String>[

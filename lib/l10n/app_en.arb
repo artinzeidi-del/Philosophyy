@@ -441,6 +441,10 @@
     }
   },
   "argumentArguedAgainst": "Argued against this",
+  "argumentAttributionQualified": "Attribution qualified",
+  "@argumentAttributionQualified": {
+    "description": "Badge on an argument whose attribution to its named proponent is not straightforward."
+  },
   "@argumentArguedAgainst": {
     "description": "Badge shown when the philosopher being read opposed the argument rather than advancing it."
   },

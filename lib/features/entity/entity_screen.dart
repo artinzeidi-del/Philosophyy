@@ -688,6 +688,8 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ArgumentPanel(
                 argument: argument,
                 language: language,
+                depth: depth,
+                resolveSource: corpus.source,
                 opposedByReader: !argument.proponentIds.contains(
                   philosopher.id,
                 ),
@@ -886,6 +888,8 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
               ArgumentPanel(
                 argument: argument,
                 language: language,
+                depth: depth,
+                resolveSource: corpus.source,
                 raisedByName: (id) =>
                     corpus.philosopher(id)?.name.resolve(language),
               ),

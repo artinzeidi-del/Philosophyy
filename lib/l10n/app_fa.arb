@@ -102,6 +102,7 @@
   "argumentTargetsWhole": "بر کل استدلال",
   "argumentRaisedBy": "طرح‌شده از سوی {name}",
   "argumentArguedAgainst": "با این استدلال مخالفت کرد",
+  "argumentAttributionQualified": "انتساب مشروط",
   "glossaryTitle": "واژه‌نامه",
   "glossaryIntro": "واژه‌هایی که این برنامه به کار می‌برد و ارزش تعریف شدن دارند. هنگام خواندن، روی هر واژهٔ نقطه‌چین بزنید تا معنایش را ببینید، بی‌آنکه صفحه را ترک کنید.",
   "glossarySearchHint": "واژه‌ای را بیابید…",
