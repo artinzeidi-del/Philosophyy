@@ -1221,7 +1221,8 @@
         ]
       },
       "concepts": [
-        "categorical-imperative"
+        "categorical-imperative",
+        "analytic-synthetic-distinction"
       ],
       "citations": [
         {
@@ -2438,7 +2439,8 @@
       "transliteration": "Siddhārtha Gautama",
       "concepts": [
         "dependent-origination",
-        "nirvana"
+        "nirvana",
+        "karma"
       ],
       "citations": [
         {
@@ -2541,7 +2543,8 @@
         "advaita-vedanta"
       ],
       "concepts": [
-        "pramana"
+        "pramana",
+        "atman-brahman"
       ],
       "citations": [
         {
@@ -2642,7 +2645,8 @@
         "vishishtadvaita"
       ],
       "concepts": [
-        "pramana"
+        "pramana",
+        "atman-brahman"
       ],
       "citations": [
         {
@@ -3071,7 +3075,8 @@
       ],
       "concepts": [
         "ahimsa",
-        "anekantavada"
+        "anekantavada",
+        "karma"
       ],
       "citations": [
         {
@@ -5501,6 +5506,9 @@
         {
           "source": "sep"
         }
+      ],
+      "concepts": [
+        "pragmatic-maxim"
       ]
     },
     {
@@ -5602,6 +5610,9 @@
         {
           "source": "sep"
         }
+      ],
+      "concepts": [
+        "pragmatic-maxim"
       ]
     },
     {
@@ -12195,6 +12206,9 @@
         {
           "source": "sep"
         }
+      ],
+      "concepts": [
+        "harm-principle"
       ]
     },
     {
@@ -13500,6 +13514,9 @@
         {
           "source": "sep"
         }
+      ],
+      "concepts": [
+        "analytic-synthetic-distinction"
       ]
     },
     {
@@ -14846,6 +14863,9 @@
       "transliteration": "Patañjali",
       "alsoKnownAs": [
         "Patanjali"
+      ],
+      "concepts": [
+        "karma"
       ]
     },
     {

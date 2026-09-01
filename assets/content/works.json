@@ -1793,6 +1793,9 @@
         {
           "source": "sep"
         }
+      ],
+      "concepts": [
+        "atman-brahman"
       ]
     },
     {
@@ -4210,6 +4213,9 @@
         {
           "source": "text-on-liberty"
         }
+      ],
+      "concepts": [
+        "harm-principle"
       ]
     },
     {
@@ -8098,6 +8104,9 @@
         {
           "source": "text-two-dogmas"
         }
+      ],
+      "concepts": [
+        "analytic-synthetic-distinction"
       ]
     },
     {
@@ -10355,6 +10364,9 @@
         {
           "source": "text-fixation-of-belief"
         }
+      ],
+      "concepts": [
+        "pragmatic-maxim"
       ]
     },
     {
@@ -10432,6 +10444,9 @@
         {
           "source": "text-pragmatism-james"
         }
+      ],
+      "concepts": [
+        "pragmatic-maxim"
       ]
     },
     {
@@ -13591,6 +13606,9 @@
         {
           "source": "text-yoga-sutras"
         }
+      ],
+      "concepts": [
+        "karma"
       ]
     },
     {

@@ -77,7 +77,10 @@
             ]
           }
         ]
-      }
+      },
+      "related": [
+        "karma"
+      ]
     },
     {
       "id": "alienation",
@@ -156,6 +159,91 @@
       "citations": [
         {
           "source": "text-1844-manuscripts"
+        },
+        {
+          "source": "sep"
+        }
+      ]
+    },
+    {
+      "id": "analytic-synthetic-distinction",
+      "name": {
+        "en": "The Analytic–Synthetic Distinction",
+        "fa": "تمایز تحلیلی و ترکیبی"
+      },
+      "oneLine": {
+        "en": "Some sentences are true by meaning alone — or so it was assumed for two centuries.",
+        "fa": "برخی جمله‌ها تنها به‌سببِ معنا صادق‌اند — یا دو سده چنین انگاشته می‌شد."
+      },
+      "definition": {
+        "en": "The division between statements true in virtue of what their words mean and statements true in virtue of how the world is; Kant's organising distinction, and the one Quine argued does not survive examination.",
+        "fa": "تقسیمِ گزاره‌ها به آن‌ها که به‌سببِ معنای واژه‌هایشان صادق‌اند و آن‌ها که به‌سببِ چگونگیِ جهان؛ تمایزی سامان‌بخش نزد کانت، و همان که کواین استدلال کرد از وارسی جان به در نمی‌برد."
+      },
+      "traditions": [
+        "european",
+        "analytic"
+      ],
+      "branches": [
+        "epistemology",
+        "philosophy-of-language",
+        "logic"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "“All bachelors are unmarried” seems true just because of what the words mean; you need not check. “All bachelors are untidy” would need checking. Kant built a system on that difference. Quine argued that nobody has ever explained it without going in a circle.",
+              "fa": "«همهٔ مجردها ازدواج‌نکرده‌اند» چنین می‌نماید که تنها به‌سببِ معنای واژه‌ها صادق است؛ نیازی به وارسی نیست. «همهٔ مجردها نامرتب‌اند» وارسی می‌خواهد. کانت دستگاهی بر همین تفاوت بنا کرد. کواین استدلال کرد که هیچ‌کس تا کنون آن را بی‌افتادن در دور تبیین نکرده است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Kant's version is that in an analytic judgement the predicate is contained in the subject, and in a synthetic one it adds something. His real interest is in a third possibility: judgements that add something and yet are known independently of experience. Mathematics and the principle that every event has a cause are his examples, and the whole first Critique is an attempt to explain how such judgements are possible.\n\nQuine's attack is not on Kant's examples but on the distinction itself. Analyticity is usually explained by synonymy — “bachelor” means the same as “unmarried man” — but synonymy is then explained by substitutability without change of truth value, which holds only if we already have necessity, and necessity is explained by analyticity. Each term is defined by the others and the circle never touches ground. His positive proposal is that no statement is immune from revision and none is confirmed in isolation: what faces experience is the whole of our theory at once.",
+              "fa": "روایتِ کانت آن است که در حکمِ تحلیلی محمول در موضوع گنجیده است، و در حکمِ ترکیبی چیزی می‌افزاید. دلبستگیِ راستینِ او به امکانِ سومی است: حکم‌هایی که چیزی می‌افزایند و با این همه مستقل از تجربه دانسته می‌شوند. ریاضیات و این اصل که هر رویدادی علتی دارد نمونه‌های اویند، و کلِ «سنجش خرد ناب» کوششی است برای تبیینِ اینکه چنین حکم‌هایی چگونه ممکن‌اند.\n\nحملهٔ کواین بر نمونه‌های کانت نیست بلکه بر خودِ تمایز است. تحلیلی بودن را معمولاً با هم‌معنایی تبیین می‌کنند — «مجرد» همان معنای «مردِ ازدواج‌نکرده» را دارد — اما آنگاه هم‌معنایی را با جانشین‌پذیری بدون دگرگونیِ ارزشِ صدق تبیین می‌کنند، و این تنها هنگامی برقرار است که ضرورت را پیشاپیش داشته باشیم، و ضرورت با تحلیلی بودن تبیین می‌شود. هر اصطلاح با دیگری تعریف می‌شود و این دور هرگز به زمین نمی‌رسد. پیشنهادِ ایجابیِ او آن است که هیچ گزاره‌ای از بازنگری مصون نیست و هیچ‌یک به‌تنهایی تأیید نمی‌شود: آنچه با تجربه روبه‌رو می‌شود کلِ نظریهٔ ما یک‌جاست."
+            },
+            "citations": [
+              {
+                "source": "kant-critique-pure-reason",
+                "locator": "A6-B10"
+              },
+              {
+                "source": "text-two-dogmas"
+              }
+            ]
+          },
+          {
+            "id": "did-quine-win",
+            "depth": "deep",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "The paper is among the most cited in twentieth-century philosophy and its conclusion is not settled. Grice and Strawson replied that a distinction philosophers have drawn consistently for centuries, and which ordinary speakers can apply to new cases, cannot be dismissed for lacking a non-circular definition — few useful distinctions have one. Carnap held that analyticity is well defined relative to a chosen language, and that Quine's demand for a language-independent account asks for something nobody claimed. Both replies are still live positions.",
+              "fa": "این مقاله از پرارجاع‌ترین نوشته‌های فلسفهٔ سدهٔ بیستم است و نتیجه‌اش فیصله نیافته. گرایس و استراسون پاسخ دادند که تمایزی که فیلسوفان سده‌ها یکدست کشیده‌اند و گویندگانِ عادی می‌توانند بر موردهای تازه به کارش برند، به‌سببِ نداشتنِ تعریفی بی‌دور کنار گذاشته نمی‌شود — کمتر تمایزِ سودمندی چنین تعریفی دارد. کارنپ بر آن بود که تحلیلی بودن نسبت به زبانی برگزیده خوش‌تعریف است، و خواستِ کواین برای تبیینی مستقل از زبان چیزی می‌طلبد که کسی ادعایش را نکرده بود. هر دو پاسخ هنوز موضع‌هایی زنده‌اند."
+            },
+            "citations": [
+              {
+                "source": "text-two-dogmas"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      },
+      "philosophers": [
+        "kant",
+        "quine"
+      ],
+      "works": [
+        "two-dogmas"
+      ],
+      "citations": [
+        {
+          "source": "text-two-dogmas"
         },
         {
           "source": "sep"
@@ -392,6 +480,91 @@
         "Asabiyyah",
         "Group feeling",
         "Social solidarity"
+      ]
+    },
+    {
+      "id": "atman-brahman",
+      "name": {
+        "en": "Ātman and Brahman",
+        "fa": "آتمن و برهمن"
+      },
+      "nativeTerm": "आत्मन् / ब्रह्मन्",
+      "transliteration": "ātman / brahman",
+      "oneLine": {
+        "en": "The self within and the ground of everything are not two things.",
+        "fa": "آن خویشتنِ درون و بنیادِ همه‌چیز دو چیز نیستند."
+      },
+      "definition": {
+        "en": "In Advaita Vedānta, the identity of the innermost self with the single reality underlying all appearance — a claim about what is already the case, not a union to be achieved.",
+        "fa": "در ودانتهٔ اَدْوَیته، این‌همانیِ ژرف‌ترین خویشتن با آن واقعیتِ یگانه‌ای که زیرِ همهٔ نمودهاست — ادعایی دربارهٔ آنچه هم‌اکنون چنین است، نه وصلی که باید به دست آید."
+      },
+      "traditions": [
+        "indian"
+      ],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion",
+        "epistemology"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Śaṅkara's claim is not that the self is part of the whole, or joined to it, or destined to merge with it. It is that they were never two. What has to go is not the distance between them but the mistake that there was any.",
+              "fa": "ادعای شنکره این نیست که خویشتن پاره‌ای از کل است، یا به آن پیوسته، یا سرنوشتش آمیختن با آن. این است که هرگز دو نبوده‌اند. آنچه باید برود فاصلهٔ میانشان نیست بلکه آن خطاست که گمان می‌کرد فاصله‌ای هست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The doctrine turns on a diagnosis rather than an argument from premises. Śaṅkara opens his commentary by describing adhyāsa, superimposition: the natural and beginningless habit of taking what belongs to one thing as belonging to another, as when we say “I am thin” and attribute a property of the body to the self. Every ordinary transaction rests on this confusion, and so does the whole apparatus of knower, known and knowing.\n\nWhat follows is that liberation cannot be produced by action. An action can bring about something that was not the case, and the identity of ātman and brahman was always the case; so the only thing needed is the removal of ignorance, and the means is the teaching itself. This is why Advaita gives such weight to statements like “that thou art” — not as commands but as informative sentences, which do their work the way any true sentence does, by being understood.",
+              "fa": "این آموزه بر تشخیصی می‌چرخد نه بر استدلالی از مقدمات. شنکره شرح خود را با وصفِ اَدْهیاسه آغاز می‌کند، یعنی برنهادن: آن عادتِ طبیعی و بی‌آغاز که آنچه از آنِ چیزی است را از آنِ چیزی دیگر می‌گیرد، چنان‌که می‌گوییم «من لاغرم» و ویژگیِ تن را به خویشتن نسبت می‌دهیم. هر داد و ستدِ روزمره بر همین درهم‌آمیختگی ایستاده است، و کلِ دستگاهِ داننده و دانسته و دانستن نیز.\n\nنتیجه آن است که رهایی را کنش پدید نمی‌آورد. کنش می‌تواند چیزی را که نبوده پدید آورد، و این‌همانیِ آتمن و برهمن همواره بوده؛ پس تنها چیزِ لازم برداشتنِ نادانی است، و وسیله خودِ آموزه است. از همین روست که اَدْوَیته به گزاره‌هایی چون «تو آنی» چنین وزنی می‌دهد — نه همچون فرمان بلکه همچون جمله‌هایی خبری که کارشان را همان‌گونه می‌کنند که هر جملهٔ صادقی می‌کند، یعنی با فهمیده شدن."
+            },
+            "citations": [
+              {
+                "source": "text-brahma-sutra-bhasya",
+                "locator": "Adhyāsa-bhāṣya"
+              }
+            ]
+          },
+          {
+            "id": "the-status-of-the-world",
+            "depth": "deep",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "What Advaita says about the world is persistently misreported as the claim that it is an illusion. Śaṅkara's term is mithyā, which marks something as neither real nor unreal — it appears, it behaves lawfully, and it does not survive analysis as independently existing. Whether this amounts to idealism, to a two-level theory of truth, or to something without a European counterpart is argued by his own commentators as much as by modern readers, and Rāmānuja's rival Vedānta rejects the whole framework in favour of a reality genuinely differentiated within one.",
+              "fa": "آنچه اَدْوَیته دربارهٔ جهان می‌گوید پیوسته این‌گونه بد گزارش می‌شود که جهان پندار است. اصطلاحِ شنکره میثیاست، که چیزی را نه واقعی و نه ناواقعی می‌نشاند — پدیدار می‌شود، قانونمند رفتار می‌کند، و از تحلیل همچون چیزی مستقلاً موجود جان به در نمی‌برد. اینکه این به ایدئالیسم می‌انجامد، یا به نظریه‌ای دو سطحی دربارهٔ صدق، یا به چیزی که همتای اروپایی ندارد، هم شارحانِ خودِ او بر سرش بحث کرده‌اند و هم خوانندگانِ امروزی؛ و ودانتهٔ رقیبِ رامانوجه کلِ این چارچوب را به سودِ واقعیتی که به‌راستی در درونِ یگانگی متمایز است نمی‌پذیرد."
+            },
+            "citations": [
+              {
+                "source": "text-brahma-sutra-bhasya",
+                "locator": "Adhyāsa-bhāṣya"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      },
+      "philosophers": [
+        "shankara",
+        "ramanuja"
+      ],
+      "works": [
+        "brahma-sutra-bhasya"
+      ],
+      "citations": [
+        {
+          "source": "text-brahma-sutra-bhasya",
+          "locator": "Adhyāsa-bhāṣya"
+        },
+        {
+          "source": "sep"
+        }
       ]
     },
     {
@@ -1094,7 +1267,8 @@
       ],
       "related": [
         "sunyata",
-        "nirvana"
+        "nirvana",
+        "karma"
       ],
       "philosophers": [
         "buddha",
@@ -2272,6 +2446,92 @@
       }
     },
     {
+      "id": "harm-principle",
+      "name": {
+        "en": "The Harm Principle",
+        "fa": "اصل ضرر"
+      },
+      "oneLine": {
+        "en": "The only reason to coerce anyone is to stop harm to somebody else.",
+        "fa": "تنها دلیلِ اجبار کردنِ کسی، بازداشتن از زیان رساندن به دیگری است."
+      },
+      "definition": {
+        "en": "Mill's limit on legitimate interference: power may be exercised over a member of a civilised community against their will only to prevent harm to others, and never for their own good.",
+        "fa": "حدی که میل بر مداخلهٔ مشروع می‌نهد: قدرت را بر عضوی از جامعه‌ای متمدن برخلاف ارادهٔ او تنها برای بازداشتن از زیان به دیگران می‌توان به کار برد، و هرگز برای خیرِ خودِ او."
+      },
+      "traditions": [
+        "european"
+      ],
+      "branches": [
+        "political-philosophy",
+        "ethics",
+        "philosophy-of-law"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "You may stop someone hurting another person. You may not stop them hurting themselves, however sure you are that you know better. Mill states this as the single principle governing coercion, and most later argument about liberty is a quarrel with the word “harm”.",
+              "fa": "می‌توانی کسی را از آسیب زدن به دیگری بازداری. نمی‌توانی او را از آسیب زدن به خودش بازداری، هرچقدر هم مطمئن باشی که بهتر می‌دانی. میل این را یگانه اصلِ حاکم بر اجبار می‌داند، و بیشترِ بحث‌های بعدی دربارهٔ آزادی ستیزی است بر سرِ واژهٔ «زیان»."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Mill is careful about what the principle does not license. It does not forbid argument, persuasion or remonstrance, only compulsion and punishment; and it does not apply to children or to those he calls backward societies, a restriction that is now read as the imperial premise it is. Within its range the claim is strong: self-regarding conduct is simply outside the jurisdiction of the state and of public opinion, which Mill thought the more dangerous of the two.\n\nThe defence of free expression is a special case and rests on a distinct argument. Silencing an opinion robs those who hold it and those who do not: if the opinion is right, they lose the chance to exchange error for truth; if wrong, they lose the clearer perception of truth that collision with error produces. A belief held without ever being contested becomes, in his phrase, a dead dogma rather than a living truth.",
+              "fa": "میل در اینکه این اصل چه را روا نمی‌دارد دقیق است. استدلال، ترغیب و سرزنش را ممنوع نمی‌کند، تنها اجبار و کیفر را؛ و بر کودکان و بر آنچه او جوامع واپس‌مانده می‌خواند اطلاق نمی‌شود، قیدی که امروز همان مقدمهٔ استعماری خوانده می‌شود که هست. در گسترهٔ خود اما ادعا نیرومند است: رفتارِ خودمرتبط یکسره بیرون از قلمروِ دولت و افکار عمومی است، و میل دومی را خطرناک‌تر می‌دانست.\n\nدفاع از آزادی بیان موردی ویژه است و بر استدلالی جدا می‌ایستد. خاموش کردنِ یک نظر هم دارندگانش را می‌چاپد و هم دیگران را: اگر آن نظر درست باشد، فرصتِ مبادلهٔ خطا با حقیقت از دست می‌رود؛ اگر نادرست باشد، آن دریافتِ روشن‌ترِ حقیقت که از برخورد با خطا زاده می‌شود از دست می‌رود. باوری که هرگز به چالش کشیده نشود، به تعبیرِ او، جزمی مرده می‌گردد نه حقیقتی زنده."
+            },
+            "citations": [
+              {
+                "source": "text-on-liberty",
+                "locator": "ch. I"
+              },
+              {
+                "source": "text-on-liberty",
+                "locator": "ch. II"
+              }
+            ]
+          },
+          {
+            "id": "what-counts-as-harm",
+            "depth": "deep",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "The principle's content depends entirely on how wide “harm” runs, and Mill does not settle it. Read narrowly as physical injury and loss of property, it licenses very little regulation. Read to include offence, or setbacks to interests, or the diffuse costs an action imposes on others, it can be made to license almost anything — which is the objection that the principle is not a limit at all but a place to put one. Mill's own text supports a narrow reading in some passages and a wider one in others, and the interpretive dispute has practical stakes in every argument about paternalist law.",
+              "fa": "محتوای این اصل یکسره به گسترهٔ «زیان» وابسته است، و میل آن را فیصله نمی‌دهد. اگر تنگ خوانده شود، همچون آسیبِ بدنی و از دست رفتنِ دارایی، بسیار اندک قانون‌گذاری را روا می‌دارد. اگر چنان خوانده شود که رنجش، یا لطمه به منافع، یا هزینه‌های پراکنده‌ای که کاری بر دیگران بار می‌کند را دربرگیرد، می‌توان با آن تقریباً هر چیزی را روا داشت — و این همان اعتراضی است که می‌گوید این اصل اصلاً حد نیست بلکه جایی است برای نهادنِ حد. متنِ خودِ میل در برخی بندها خوانشِ تنگ و در برخی دیگر خوانشِ گشاده را برمی‌تابد، و این نزاعِ تفسیری در هر بحثی دربارهٔ قانونِ پدرسالارانه پیامدِ عملی دارد."
+            },
+            "citations": [
+              {
+                "source": "text-on-liberty",
+                "locator": "ch. IV"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      },
+      "philosophers": [
+        "mill"
+      ],
+      "works": [
+        "on-liberty"
+      ],
+      "citations": [
+        {
+          "source": "text-on-liberty",
+          "locator": "ch. I"
+        },
+        {
+          "source": "sep"
+        }
+      ]
+    },
+    {
       "id": "illumination",
       "name": {
         "en": "Illumination",
@@ -2723,6 +2983,105 @@
           }
         ]
       }
+    },
+    {
+      "id": "karma",
+      "name": {
+        "en": "Karma",
+        "fa": "کرمه"
+      },
+      "nativeTerm": "कर्म",
+      "transliteration": "karma",
+      "oneLine": {
+        "en": "Action leaves a residue, and the residue decides what comes next.",
+        "fa": "کنش رسوبی بر جای می‌گذارد، و آن رسوب است که آنچه از پی می‌آید را تعیین می‌کند."
+      },
+      "definition": {
+        "en": "The doctrine, shared across Indian traditions and understood differently in each, that intentional action deposits a disposition which bears fruit for the agent, within this life or beyond it.",
+        "fa": "آموزه‌ای مشترک میان سنت‌های هندی و در هر یک به‌گونه‌ای دیگر فهمیده‌شده: کنشِ ارادی آمادگی‌ای بر جای می‌نهد که برای کننده بار می‌آورد، در همین زندگی یا فراتر از آن."
+      },
+      "traditions": [
+        "indian",
+        "buddhist",
+        "jain"
+      ],
+      "branches": [
+        "ethics",
+        "metaphysics",
+        "philosophy-of-religion"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The word simply means action. The doctrine is that an action does not finish when it is done: it leaves a trace in whoever performed it, and the trace shapes what they become and what befalls them. What differs between the traditions is what the trace is made of.",
+              "fa": "این واژه به‌سادگی به‌معنای کنش است. آموزه آن است که کنش با انجام شدن به پایان نمی‌رسد: در کننده‌اش نشانی بر جای می‌نهد، و آن نشان شکل می‌دهد که او چه می‌شود و بر او چه می‌رود. آنچه میان سنت‌ها فرق می‌کند این است که آن نشان از چه ساخته شده."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "In Patañjali's yoga the deposits are saṃskāras, latent impressions that settle into habits of mind and drive the fluctuations meditation is meant to still. The point of the practice is not to acquire good karma but to stop generating any, since the reservoir is what keeps the cycle turning.\n\nJain thought is the most literal: karma is a subtle material substance that adheres to the soul and weighs it down, and liberation is a matter of stopping the influx and burning off what has accumulated. This is why Jain ethics is so demanding about unintended harm — matter does not care what you meant.\n\nBuddhist analysis moves in the opposite direction and makes intention central. The act that binds is the willing, not the deed, which is why the same outward action can be heavy or light depending on the mind behind it. There is no self that carries the residue, only a stream of conditions in which each moment shapes the next — which is how the doctrine survives the denial of a soul that would otherwise be needed to receive the fruit.",
+              "fa": "در یوگای پتنجلی این رسوب‌ها سَمسکاره‌اند، اثرهایی نهفته که به عادت‌های ذهن می‌نشینند و آن جنبش‌هایی را می‌رانند که مراقبه قرار است آرامشان کند. غایتِ این ورزه به دست آوردنِ کرمهٔ نیک نیست بلکه بازایستادن از ساختنِ هرگونه کرمه است، چون همان انبار است که چرخه را می‌گرداند.\n\nاندیشهٔ جین از همه تحت‌اللفظی‌تر است: کرمه ماده‌ای لطیف است که به جان می‌چسبد و آن را سنگین می‌کند، و رهایی در بازداشتنِ ورود و سوزاندنِ آنچه انباشته شده است. از همین روست که اخلاقِ جین دربارهٔ آسیبِ ناخواسته چنین سختگیر است — ماده به قصدِ تو کاری ندارد.\n\nتحلیلِ بودایی به سوی دیگر می‌رود و قصد را در میانه می‌نشاند. آنچه می‌بندد خواستن است نه کردار، و از همین روست که یک کنشِ بیرونیِ واحد بسته به ذهنی که پشتِ آن است سنگین یا سبک می‌شود. خویشتنی نیست که رسوب را ببرد، تنها جریانی از شرط‌هاست که در آن هر لحظه لحظهٔ بعد را شکل می‌دهد — و آموزه به همین شیوه از انکارِ نفسی که وگرنه برای دریافتِ بار لازم می‌بود جان به در می‌برد."
+            },
+            "citations": [
+              {
+                "source": "text-yoga-sutras",
+                "locator": "2.12"
+              },
+              {
+                "source": "text-tattvartha-sutra",
+                "locator": "ch. 6"
+              },
+              {
+                "source": "text-abhidharmakosa"
+              }
+            ]
+          },
+          {
+            "id": "not-one-doctrine",
+            "depth": "deep",
+            "claim": "interpretation",
+            "body": {
+              "en": "Treating karma as a single Indian doctrine flattens a genuine disagreement. The three accounts differ on what carries the residue, on whether intention matters, and on whether the mechanism is impersonal law or requires an administering deity — and each answer is forced by commitments the tradition holds for other reasons. Reading them as variants of one idea makes the shared vocabulary look like shared metaphysics, when the vocabulary is closer to a common problem than a common solution.",
+              "fa": "کرمه را یک آموزهٔ واحدِ هندی گرفتن، اختلافی راستین را هموار می‌کند. این سه تبیین بر سرِ اینکه چه چیز رسوب را می‌برد، اینکه قصد اهمیت دارد یا نه، و اینکه این سازوکار قانونی غیرشخصی است یا خدایی مجری می‌طلبد، از هم جدا می‌شوند — و هر پاسخ را تعهدهایی ناگزیر کرده که آن سنت به دلایلی دیگر دارد. خواندنِ آن‌ها همچون گونه‌هایی از یک اندیشه، واژگانِ مشترک را مابعدالطبیعهٔ مشترک می‌نمایاند، حال آنکه این واژگان به مسئله‌ای مشترک نزدیک‌ترند تا به راه‌حلی مشترک."
+            },
+            "citations": [
+              {
+                "source": "text-tattvartha-sutra",
+                "locator": "ch. 6"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      },
+      "philosophers": [
+        "patanjali",
+        "buddha",
+        "mahavira"
+      ],
+      "works": [
+        "yoga-sutras"
+      ],
+      "related": [
+        "dependent-origination",
+        "ahimsa"
+      ],
+      "citations": [
+        {
+          "source": "text-yoga-sutras",
+          "locator": "2.12"
+        },
+        {
+          "source": "sep"
+        }
+      ]
     },
     {
       "id": "knowledge-problem",
@@ -3707,6 +4066,91 @@
         {
           "source": "text-essay-human-understanding",
           "locator": "II.xxvii"
+        },
+        {
+          "source": "sep"
+        }
+      ]
+    },
+    {
+      "id": "pragmatic-maxim",
+      "name": {
+        "en": "The Pragmatic Maxim",
+        "fa": "قاعدهٔ عمل‌گرایانه"
+      },
+      "oneLine": {
+        "en": "The meaning of an idea is the difference it would make if it were true.",
+        "fa": "معنای یک اندیشه همان تفاوتی است که اگر صادق باشد پدید می‌آورد."
+      },
+      "definition": {
+        "en": "Peirce's rule for clarifying concepts by asking what practical consequences their object would have, and James's wider use of it as a test of what a dispute is even about.",
+        "fa": "قاعدهٔ پرس برای روشن کردنِ مفاهیم با پرسیدن از پیامدهای عملیِ متعلقِ آن‌ها، و کاربردِ گشاده‌ترِ جیمز از آن همچون محکی برای اینکه اصلاً نزاع بر سرِ چیست."
+      },
+      "traditions": [
+        "american",
+        "pragmatist"
+      ],
+      "branches": [
+        "epistemology",
+        "philosophy-of-language",
+        "philosophy-of-science"
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "To get clear about an idea, ask what would be different in practice if it held. If two views predict exactly the same experience and licence exactly the same actions, Peirce says they are the same view wearing different words — and James turns that into a way of settling which arguments are worth having.",
+              "fa": "برای روشن شدنِ یک اندیشه بپرس اگر برقرار باشد در عمل چه چیز فرق می‌کند. اگر دو دیدگاه دقیقاً همان تجربه را پیش‌بینی کنند و دقیقاً همان کارها را روا دارند، پرس می‌گوید یک دیدگاه‌اند در جامه‌ای دیگر — و جیمز همین را به راهی بدل می‌کند برای فیصله دادن به اینکه کدام بحث ارزش داشتن دارد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Peirce introduces the maxim as the third grade of clarity, above familiarity with a word and above a formal definition. His own example is hardness: to say a diamond is hard is to say it will not be scratched by many substances, and the whole content of the concept is the set of such conditionals. He is not saying that unverifiable ideas are meaningless in the way the positivists later would; he is saying that until you can state the difference, you have not finished thinking the thought.\n\nJames takes it in a direction Peirce disliked enough to rename his own position. Where Peirce is concerned with fixing the meaning of concepts, James applies the maxim to truth itself: a belief is true, on his account, if holding it works — if it leads us through experience in a way that is satisfactory and does not collide with the rest of what we hold. Peirce coined “pragmaticism”, a word he thought ugly enough to be safe from kidnappers, to mark the distance.",
+              "fa": "پرس این قاعده را همچون سومین درجهٔ وضوح می‌آورد، فراتر از آشناییِ با یک واژه و فراتر از تعریفِ صوری. نمونهٔ خودِ او سختی است: گفتنِ اینکه الماس سخت است یعنی گفتنِ اینکه بسیاری از مواد آن را نمی‌خراشند، و کلِ محتوای این مفهوم همان مجموعهٔ چنین شرطی‌هاست. او نمی‌گوید اندیشه‌های تحقیق‌ناپذیر بی‌معنایند، آن‌گونه که پوزیتیویست‌ها بعدها گفتند؛ می‌گوید تا آن تفاوت را نتوانی بیان کنی، اندیشیدنِ آن اندیشه را به پایان نبرده‌ای.\n\nجیمز آن را به سویی می‌برد که پرس چنان خوش نداشت که نامِ موضعِ خود را عوض کرد. آنجا که پرس در بندِ تثبیتِ معنای مفاهیم است، جیمز این قاعده را بر خودِ صدق به کار می‌بندد: به روایتِ او باوری صادق است اگر داشتنش کار کند — اگر ما را از میانِ تجربه به‌گونه‌ای خرسندکننده پیش ببرد و با باقیِ آنچه داریم برخورد نکند. پرس واژهٔ «پراگماتیسیسم» را ساخت، واژه‌ای که چندان زشتش می‌دانست که از دستبردِ آدم‌ربایان در امان باشد، تا این فاصله را نشان دهد."
+            },
+            "citations": [
+              {
+                "source": "text-how-to-make-our-ideas-clear"
+              },
+              {
+                "source": "text-pragmatism-james"
+              }
+            ]
+          },
+          {
+            "id": "a-theory-of-meaning-or-of-truth",
+            "depth": "deep",
+            "claim": "scholarly-disagreement",
+            "body": {
+              "en": "Whether James's extension is a development of Peirce or a different doctrine under a borrowed name is still argued. Peirce's maxim is a rule for clarification and says nothing about what makes a belief true; James's account appears to make usefulness constitutive of truth, which invites the standard objection that a false belief can be useful and a true one ruinous. Defenders of James reply that “works” for him means survives the whole course of experience, which is not obviously distinct from being true — and the argument turns on whether that reply saves the thesis or empties it.",
+              "fa": "اینکه بسطِ جیمز پرورشِ اندیشهٔ پرس است یا آموزه‌ای دیگر زیرِ نامی عاریتی، هنوز محل بحث است. قاعدهٔ پرس قاعده‌ای برای روشن کردن است و دربارهٔ آنچه باوری را صادق می‌کند چیزی نمی‌گوید؛ روایتِ جیمز چنین می‌نماید که سودمندی را سازندهٔ صدق می‌کند، و این همان اعتراضِ آشنا را فرا می‌خواند که باوری کاذب می‌تواند سودمند باشد و باوری صادق ویرانگر. مدافعانِ جیمز پاسخ می‌دهند که «کار می‌کند» نزد او یعنی از کلِ مسیرِ تجربه جان به در می‌برد، و این آشکارا از صادق بودن جدا نیست — و بحث بر سرِ آن است که آیا این پاسخ آن ادعا را نجات می‌دهد یا تهی می‌کند."
+            },
+            "citations": [
+              {
+                "source": "text-pragmatism-james"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      },
+      "philosophers": [
+        "peirce",
+        "james"
+      ],
+      "works": [
+        "fixation-of-belief",
+        "pragmatism-james"
+      ],
+      "citations": [
+        {
+          "source": "text-how-to-make-our-ideas-clear"
         },
         {
           "source": "sep"
