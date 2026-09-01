@@ -98,24 +98,18 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
-    test('no question offers the same option twice', () {
-      // Two identical options is always a defect, whichever one is the answer.
-      // If it is the answer, the reader can pick the "wrong" copy of a right
-      // answer; if it is a decoy, the question looks broken. The existing
-      // check that the answer appears exactly once does not cover a pair of
-      // identical decoys, and decoys are chosen by identifier while the reader
-      // sees a name — two taxonomy terms or two entries can be distinct and
-      // read the same.
+    test('no question the builder can produce is malformed', () {
+      // This replaces a check that looked only for a repeated option. That was
+      // one member of a family: a blank option, an answer index past the end,
+      // a choice offering three alternatives instead of four, two options
+      // differing only by case or a stray space. Each is a screen the reader
+      // would be right to call broken, and each was reachable. The whole
+      // family is stated on the question itself and checked here in one pass.
       final problems = <String>[];
       for (final language in AppLanguage.values) {
         for (final question in across(seeds: 20, language: language)) {
-          final seen = <String>{};
-          for (final option in question.options) {
-            if (!seen.add(option)) {
-              problems.add(
-                '${question.id} (${language.name}) offers "$option" twice',
-              );
-            }
+          for (final problem in question.problems) {
+            problems.add('${question.id} (${language.name}) $problem');
           }
         }
       }

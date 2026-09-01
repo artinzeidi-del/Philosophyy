@@ -995,11 +995,8 @@ abstract final class QuizBuilder {
     // to look for a difference that is not there. It happens for the same
     // reason: distinct entries can share a display name — a philosopher and
     // the book named after them, say — and sampling picks entries, not names.
-    final options = <String>[answer, ...distractors];
-    if (options.toSet().length != options.length) return null;
-
-    options.shuffle(random);
-    return QuizQuestion(
+    final options = <String>[answer, ...distractors]..shuffle(random);
+    final question = QuizQuestion(
       id: id,
       fact: fact,
       format: QuizFormat.multipleChoice,
@@ -1008,6 +1005,12 @@ abstract final class QuizBuilder {
       answerIndex: options.indexOf(answer),
       source: source,
     );
+
+    // One check for the whole family rather than a guard per failure mode.
+    // Skipping costs one question out of thousands, and the round is assembled
+    // from whatever is offered; shipping a malformed one costs the reader's
+    // trust in every question after it.
+    return question.isWellFormed ? question : null;
   }
 
   /// Whether [philosopher] was alive at any point during [range].

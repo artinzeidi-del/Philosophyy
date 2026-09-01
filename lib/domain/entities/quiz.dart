@@ -82,6 +82,55 @@ class QuizQuestion {
   /// The right answer, as text.
   String get answer => options[answerIndex];
 
+  /// Everything wrong with this question, as sentences a developer can act on.
+  ///
+  /// ## Why this is one list rather than a guard at each build site
+  ///
+  /// A question about a Chinese concept once offered "Mozi" as two of its four
+  /// options, because the philosopher and the book named after him are
+  /// distinct entries with one display name, and the builder sampled entries
+  /// while the reader sees names. The guard in place at the time rejected a
+  /// decoy that matched the answer and said nothing about two decoys that
+  /// matched each other.
+  ///
+  /// Patching that one case would have left the rest of the family: an option
+  /// that is blank, an answer index pointing past the end, a choice with only
+  /// two real alternatives, two options differing by a stray space. Each is a
+  /// screen the reader would be right to call broken, and each was reachable.
+  /// So the whole family is stated in one place, checked once, and tested.
+  List<String> get problems {
+    final found = <String>[];
+    if (options.isEmpty) {
+      found.add('has no options');
+    }
+    if (answerIndex < 0 || answerIndex >= options.length) {
+      found.add('answerIndex $answerIndex is outside 0..${options.length - 1}');
+    }
+    if (options.any((option) => option.trim().isEmpty)) {
+      found.add('has a blank option');
+    }
+
+    // Compared as a reader sees them: leading and trailing space, runs of
+    // space, and case are differences nobody can act on.
+    String seen(String option) =>
+        option.trim().toLowerCase().replaceAll(RegExp(r'\s+'), ' ');
+    final distinct = options.map(seen).toSet();
+    if (distinct.length != options.length) {
+      found.add('offers the same option more than once');
+    }
+    final expected = format == QuizFormat.trueFalse ? 2 : 4;
+    if (options.length != expected) {
+      found.add(
+        'a ${format.name} question needs $expected options, '
+        'has ${options.length}',
+      );
+    }
+    return found;
+  }
+
+  /// Whether this question can be put to a reader.
+  bool get isWellFormed => problems.isEmpty;
+
   /// Whether [index] is the right answer.
   bool isCorrect(int index) => index == answerIndex;
 
