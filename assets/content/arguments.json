@@ -33,7 +33,9 @@
             "en": "If nothing about a thing requires it to be, then its being here needs an explanation outside it.",
             "fa": "اگر هیچ‌چیز در یک شیء هستی‌اش را ایجاب نکند، بودنش نیازمند تبیینی بیرون از خودش است."
           },
-          "citation": { "source": "avicenna-isharat" }
+          "citation": {
+            "source": "avicenna-isharat"
+          }
         },
         {
           "id": "p3",
@@ -71,7 +73,9 @@
             "en": "The argument treats the totality of contingent things as one more thing needing a cause. If every member of a collection is explained, there may be nothing left for an explanation of the collection to do.",
             "fa": "این برهان با مجموع ممکنات همچون چیزی دیگر که علت می‌خواهد رفتار می‌کند. اگر هر عضو یک مجموعه تبیین شده باشد، شاید چیزی نماند که تبیینِ خودِ مجموعه بدان بپردازد."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "Avicenna's reply is that explaining each member by another member never explains why there is a series of borrowers rather than nothing — the question the objection dismisses is the one being asked.",
@@ -85,7 +89,9 @@
             "en": "Existence is not a property a thing can have or lack, so the division of beings by whether their essence includes existence may be malformed from the start.",
             "fa": "وجود ویژگی‌ای نیست که شیء بتواند داشته یا نداشته باشد؛ پس تقسیم موجودات بر پایهٔ اینکه ماهیتشان وجود را دربردارد یا نه، شاید از آغاز نادرست‌ساخت باشد."
           },
-          "targets": ["p1"],
+          "targets": [
+            "p1"
+          ],
           "raisedBy": "kant",
           "replies": [
             {
@@ -93,22 +99,45 @@
               "fa": "مدافعان پاسخ می‌دهند که برهان ابن‌سینا، برخلاف برهان وجودی‌ای که کانت هدف گرفته بود، هرگز وجود را از یک مفهوم استنتاج نمی‌کند؛ بلکه از این واقعیت آغاز می‌شود که چیزی موجود هست."
             }
           ],
-          "citations": [{ "source": "sep" }]
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
         }
       ],
-      "proponents": ["ibn-sina"],
-      "opponents": ["kant"],
-      "work": "isharat",
-      "concepts": ["essence-existence-distinction"],
-      "branches": ["metaphysics", "philosophy-of-religion"],
+      "proponents": [
+        "ibn-sina"
+      ],
+      "opponents": [
+        "kant"
+      ],
+      "concepts": [
+        "essence-existence-distinction"
+      ],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-religion"
+      ],
       "citations": [
-        { "source": "avicenna-isharat", "locator": "Namat 4" },
-        { "source": "sep" }
+        {
+          "source": "avicenna-isharat",
+          "locator": "Namat 4"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "works": [
+        "isharat"
       ]
     },
     {
       "id": "third-man-argument",
-      "name": { "en": "The Third Man Argument", "fa": "برهان مرد سوم" },
+      "name": {
+        "en": "The Third Man Argument",
+        "fa": "برهان مرد سوم"
+      },
       "oneLine": {
         "en": "That the Forms, as Plato describes them, generate an infinite series of further Forms.",
         "fa": "اینکه «صور»، آنچنان‌که افلاطون وصفشان می‌کند، زنجیره‌ای بی‌پایان از صورت‌های دیگر می‌زایند."
@@ -150,7 +179,9 @@
             "en": "The regress only follows if the Form has its character in the same sense that the things do. If Largeness is large in a different sense — as the standard rather than as an instance — the second premise fails.",
             "fa": "این تسلسل تنها در صورتی لازم می‌آید که صورت، ویژگی خود را به همان معنایی داشته باشد که اشیا دارند. اگر «بزرگی» به معنایی دیگر بزرگ باشد — همچون معیار، نه همچون مصداق — مقدمهٔ دوم فرو می‌ریزد."
           },
-          "targets": ["p2"],
+          "targets": [
+            "p2"
+          ],
           "replies": [
             {
               "en": "The reply concedes the point but leaves Plato needing an account of what it is for a Form to have a character in that other sense — which the dialogues do not supply.",
@@ -159,13 +190,27 @@
           ]
         }
       ],
-      "proponents": ["aristotle"],
-      "opponents": ["plato"],
-      "concepts": ["theory-of-forms"],
-      "branches": ["metaphysics", "logic"],
+      "proponents": [
+        "aristotle"
+      ],
+      "opponents": [
+        "plato"
+      ],
+      "concepts": [
+        "theory-of-forms"
+      ],
+      "branches": [
+        "metaphysics",
+        "logic"
+      ],
       "citations": [
-        { "source": "aristotle-metaphysics", "locator": "990b17" },
-        { "source": "sep" }
+        {
+          "source": "aristotle-metaphysics",
+          "locator": "990b17"
+        },
+        {
+          "source": "sep"
+        }
       ]
     },
     {
@@ -233,7 +278,9 @@
             "en": "The same reasoning would prove the existence of the greatest conceivable island, which is absurd.",
             "fa": "همین استدلال هستی بزرگ‌ترین جزیرهٔ اندیشیدنی را هم ثابت می‌کند، و این بی‌معنا است."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "Anselm's reply is that an island has no intrinsic maximum — there is no greatest possible number of palm trees — whereas the perfections at issue do have maxima. Whether that distinction holds is the live question.",
@@ -247,7 +294,9 @@
             "en": "Existence is not a predicate: saying that something exists adds nothing to the concept of it, so a concept cannot be improved by including it.",
             "fa": "هستی محمول نیست: گفتن اینکه چیزی هست، چیزی به مفهوم آن نمی‌افزاید، پس مفهوم را نمی‌توان با گنجاندن آن بهتر کرد."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "raisedBy": "kant",
           "replies": [
             {
@@ -257,15 +306,36 @@
           ]
         }
       ],
-      "proponents": ["anselm"],
-      "opponents": ["kant", "aquinas"],
-      "work": "proslogion",
-      "branches": ["philosophy-of-religion", "metaphysics", "logic"],
-      "citations": [{ "source": "text-proslogion" }, { "source": "sep" }]
+      "proponents": [
+        "anselm"
+      ],
+      "opponents": [
+        "kant",
+        "aquinas"
+      ],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "logic"
+      ],
+      "citations": [
+        {
+          "source": "text-proslogion"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "works": [
+        "proslogion"
+      ]
     },
     {
       "id": "problem-of-evil",
-      "name": { "en": "The Problem of Evil", "fa": "مسئلهٔ شر" },
+      "name": {
+        "en": "The Problem of Evil",
+        "fa": "مسئلهٔ شر"
+      },
       "oneLine": {
         "en": "That the amount of suffering in the world is hard to reconcile with a God who is able and willing to prevent it.",
         "fa": "اینکه اندازهٔ رنج در جهان به‌سختی با خدایی که هم می‌تواند و هم می‌خواهد از آن جلوگیری کند جمع می‌شود."
@@ -317,7 +387,9 @@
             "en": "Free will explains the suffering people cause each other, since a world of people who could not choose wrongly would be worth less.",
             "fa": "اختیار، رنجی را که آدمیان بر هم روا می‌دارند توضیح می‌دهد، چون جهانی از مردمی که نتوانند بد انتخاب کنند کم‌ارزش‌تر است."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "The reply narrows the problem rather than removing it: earthquakes and diseases are not chosen by anyone, and the suffering of animals predates human choice entirely.",
@@ -331,7 +403,9 @@
             "en": "Our failing to see a justifying good is weak evidence that there is none, given how limited our view is.",
             "fa": "اینکه ما خیری توجیه‌کننده نمی‌بینیم، با توجه به محدودیت دیدمان، شاهد ضعیفی بر نبودنش است."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "Critics answer that the same modesty would undercut every moral judgement we make, including the ones the reply relies on to call God good.",
@@ -340,12 +414,26 @@
           ]
         }
       ],
-      "proponents": ["hume"],
-      "opponents": ["aquinas", "leibniz"],
-      "branches": ["philosophy-of-religion", "metaphysics", "ethics"],
+      "proponents": [
+        "hume"
+      ],
+      "opponents": [
+        "aquinas",
+        "leibniz"
+      ],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics",
+        "ethics"
+      ],
       "citations": [
-        { "source": "text-dialogues-natural-religion", "locator": "Part X" },
-        { "source": "sep" }
+        {
+          "source": "text-dialogues-natural-religion",
+          "locator": "Part X"
+        },
+        {
+          "source": "sep"
+        }
       ]
     },
     {
@@ -405,7 +493,9 @@
             "en": "Induction is justified because it works, and its track record is itself evidence.",
             "fa": "استقرا موجه است چون کار می‌کند، و کارنامه‌اش خودْ شاهد است."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "This is the circle the argument identifies: that induction has worked is a fact about the past, and it supports a conclusion about the future only if induction is already trusted.",
@@ -419,7 +509,9 @@
             "en": "Science does not need induction to be justified — it needs only that theories be testable and discarded when they fail.",
             "fa": "علم به موجه بودن استقرا نیازی ندارد؛ تنها به این نیاز دارد که نظریه‌ها آزمون‌پذیر باشند و وقتی شکست خوردند کنار گذاشته شوند."
           },
-          "targets": ["p1"],
+          "targets": [
+            "p1"
+          ],
           "raisedBy": "popper",
           "replies": [
             {
@@ -429,18 +521,36 @@
           ]
         }
       ],
-      "proponents": ["hume"],
-      "opponents": ["popper"],
-      "concepts": ["problem-of-induction"],
-      "branches": ["epistemology", "philosophy-of-science", "logic"],
+      "proponents": [
+        "hume"
+      ],
+      "opponents": [
+        "popper"
+      ],
+      "concepts": [
+        "problem-of-induction"
+      ],
+      "branches": [
+        "epistemology",
+        "philosophy-of-science",
+        "logic"
+      ],
       "citations": [
-        { "source": "text-enquiry-human-understanding", "locator": "§IV" },
-        { "source": "sep" }
+        {
+          "source": "text-enquiry-human-understanding",
+          "locator": "§IV"
+        },
+        {
+          "source": "sep"
+        }
       ]
     },
     {
       "id": "achilles-and-tortoise",
-      "name": { "en": "Achilles and the Tortoise", "fa": "آشیل و لاک‌پشت" },
+      "name": {
+        "en": "Achilles and the Tortoise",
+        "fa": "آشیل و لاک‌پشت"
+      },
       "oneLine": {
         "en": "That a runner can never overtake a slower one given a head start, if space divides without end.",
         "fa": "اینکه دونده‌ای هرگز از کندروی که جلو افتاده جلو نمی‌زند، اگر فضا بی‌پایان تقسیم شود."
@@ -492,7 +602,9 @@
             "en": "The infinitely many intervals have a finite sum, so crossing them takes finite time and the paradox dissolves.",
             "fa": "بی‌نهایت بازهٔ یادشده مجموعی متناهی دارند، پس پیمودنشان زمانی متناهی می‌برد و پارادوکس منحل می‌شود."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "This answers the arithmetic but not the whole question: it shows the sum converges without explaining how a sequence with no final member gets completed, which is what the paradox asks.",
@@ -506,7 +618,9 @@
             "en": "Space and time may not be infinitely divisible, in which case the sequence terminates.",
             "fa": "شاید فضا و زمان بی‌نهایت تقسیم‌پذیر نباشند، که در آن صورت دنباله پایان می‌یابد."
           },
-          "targets": ["p1"],
+          "targets": [
+            "p1"
+          ],
           "replies": [
             {
               "en": "Zeno has a companion paradox for that horn: if the parts are finite in size, a moving arrow must jump between them, and motion becomes discontinuous.",
@@ -515,17 +629,33 @@
           ]
         }
       ],
-      "proponents": ["zeno-of-elea"],
-      "opponents": ["aristotle"],
-      "branches": ["logic", "metaphysics", "philosophy-of-mathematics"],
+      "proponents": [
+        "zeno-of-elea"
+      ],
+      "opponents": [
+        "aristotle"
+      ],
+      "branches": [
+        "logic",
+        "metaphysics",
+        "philosophy-of-mathematics"
+      ],
       "citations": [
-        { "source": "text-aristotle-physics", "locator": "239b14" },
-        { "source": "sep" }
+        {
+          "source": "text-aristotle-physics",
+          "locator": "239b14"
+        },
+        {
+          "source": "sep"
+        }
       ]
     },
     {
       "id": "mencius-child-argument",
-      "name": { "en": "The Child at the Well", "fa": "کودک بر لب چاه" },
+      "name": {
+        "en": "The Child at the Well",
+        "fa": "کودک بر لب چاه"
+      },
       "oneLine": {
         "en": "That an unbidden reaction to a child in danger shows moral feeling is native, not taught.",
         "fa": "اینکه واکنش ناخواسته به کودکی در خطر نشان می‌دهد احساس اخلاقی زادی است، نه آموخته."
@@ -577,7 +707,9 @@
             "en": "The reaction is itself the product of upbringing, so the thought experiment shows only that the training started early.",
             "fa": "خودِ این واکنش فرآوردهٔ تربیت است، پس این آزمایش ذهنی تنها نشان می‌دهد که تربیت زود آغاز شده."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "raisedBy": "xunzi",
           "replies": [
             {
@@ -592,7 +724,9 @@
             "en": "Feeling alarm is not yet acting well, so the argument establishes less than it claims.",
             "fa": "هراسان شدن هنوز خوب‌عمل کردن نیست، پس استدلال کمتر از آنچه ادعا می‌کند ثابت می‌کند."
           },
-          "targets": ["p1"],
+          "targets": [
+            "p1"
+          ],
           "replies": [
             {
               "en": "Mencius agrees: he calls it a sprout, and the whole point of cultivation is that a sprout left alone dies.",
@@ -601,11 +735,28 @@
           ]
         }
       ],
-      "proponents": ["mencius"],
-      "opponents": ["xunzi"],
-      "work": "mengzi",
-      "branches": ["ethics", "philosophy-of-mind", "philosophy-of-education"],
-      "citations": [{ "source": "text-mengzi" }, { "source": "sep" }]
+      "proponents": [
+        "mencius"
+      ],
+      "opponents": [
+        "xunzi"
+      ],
+      "branches": [
+        "ethics",
+        "philosophy-of-mind",
+        "philosophy-of-education"
+      ],
+      "citations": [
+        {
+          "source": "text-mengzi"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "works": [
+        "mengzi"
+      ]
     },
     {
       "id": "ghazali-causation",
@@ -664,7 +815,9 @@
             "en": "If fire does not burn by its nature, nothing can be relied on and knowledge of the world collapses.",
             "fa": "اگر آتش به سرشت خود نسوزاند، بر هیچ‌چیز نمی‌توان تکیه کرد و شناخت جهان فرو می‌ریزد."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "raisedBy": "ibn-rushd",
           "replies": [
             {
@@ -679,7 +832,9 @@
             "en": "Denying causal powers makes science pointless, since there would be no natures to discover.",
             "fa": "انکار نیروهای علّی، علم را بی‌معنا می‌کند، چون سرشتی برای کشف کردن نمی‌ماند."
           },
-          "targets": ["p2"],
+          "targets": [
+            "p2"
+          ],
           "replies": [
             {
               "en": "The historical record complicates the objection: the same analysis reappears in Hume and did not stop the science that followed him.",
@@ -688,15 +843,29 @@
           ]
         }
       ],
-      "proponents": ["al-ghazali"],
-      "opponents": ["ibn-rushd", "ibn-sina"],
-      "work": "tahafut",
+      "proponents": [
+        "al-ghazali"
+      ],
+      "opponents": [
+        "ibn-rushd",
+        "ibn-sina"
+      ],
       "branches": [
         "metaphysics",
         "philosophy-of-science",
         "philosophy-of-religion"
       ],
-      "citations": [{ "source": "ghazali-tahafut" }, { "source": "sep" }]
+      "citations": [
+        {
+          "source": "ghazali-tahafut"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "works": [
+        "tahafut"
+      ]
     },
     {
       "id": "private-language-argument",
@@ -755,7 +924,9 @@
             "en": "A person alone from birth could still name their sensations consistently, so the conclusion is too strong.",
             "fa": "کسی که از زاده شدن تنها بوده باز می‌تواند احساس‌هایش را پیوسته نام‌گذاری کند، پس نتیجه بیش از حد قوی است."
           },
-          "targets": ["p2"],
+          "targets": [
+            "p2"
+          ],
           "replies": [
             {
               "en": "The argument targets a language private in principle, not one private in fact: a solitary speaker's words could still be checked by someone, and that possibility is what does the work.",
@@ -769,7 +940,9 @@
             "en": "We plainly do talk about our sensations, so whatever the argument shows, it cannot show that we cannot.",
             "fa": "ما آشکارا دربارهٔ احساس‌هایمان حرف می‌زنیم، پس استدلال هرچه نشان دهد، نمی‌تواند نشان دهد که نمی‌توانیم."
           },
-          "targets": ["p1"],
+          "targets": [
+            "p1"
+          ],
           "replies": [
             {
               "en": "The conclusion is not that sensation talk is impossible but that it works differently from naming — the word for pain is learned in public circumstances, not by inward pointing.",
@@ -778,21 +951,32 @@
           ]
         }
       ],
-      "proponents": ["wittgenstein"],
-      "work": "philosophical-investigations",
+      "proponents": [
+        "wittgenstein"
+      ],
       "branches": [
         "philosophy-of-language",
         "philosophy-of-mind",
         "epistemology"
       ],
       "citations": [
-        { "source": "text-philosophical-investigations" },
-        { "source": "sep" }
+        {
+          "source": "text-philosophical-investigations"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "works": [
+        "philosophical-investigations"
       ]
     },
     {
       "id": "original-position-argument",
-      "name": { "en": "The Original Position", "fa": "وضع نخستین" },
+      "name": {
+        "en": "The Original Position",
+        "fa": "وضع نخستین"
+      },
       "oneLine": {
         "en": "That fair principles are the ones you would choose without knowing which position you would occupy.",
         "fa": "اینکه اصول منصفانه آن‌هایی‌اند که بی‌دانستن جایگاه آیندهٔ خود برمی‌گزینی."
@@ -851,7 +1035,9 @@
             "en": "Rational choosers might accept a small chance of doing badly for a large chance of doing very well, which yields different principles.",
             "fa": "برگزینندگان عاقل شاید شانس کوچکِ بد شدن را در برابر شانس بزرگِ بسیار خوب شدن بپذیرند، و این اصولی دیگر می‌دهد."
           },
-          "targets": ["p4"],
+          "targets": [
+            "p4"
+          ],
           "replies": [
             {
               "en": "Rawls's reply is that the choice is once and for all and covers a whole life, which is the situation in which caution is rational rather than timid.",
@@ -865,7 +1051,9 @@
             "en": "Stripping away everything particular about a person leaves no one recognisable to be doing the choosing.",
             "fa": "کندنِ هر آنچه دربارهٔ یک شخص خاص است، کسی را باقی نمی‌گذارد که بتوان بازش شناخت و انتخاب کند."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "The veil is a device for modelling a constraint on reasons, not a claim about what a self is — though critics answer that the device smuggles in the very individualism it claims to abstract from.",
@@ -874,12 +1062,25 @@
           ]
         }
       ],
-      "proponents": ["rawls"],
-      "concepts": ["veil-of-ignorance", "social-contract"],
-      "branches": ["political-philosophy", "ethics"],
+      "proponents": [
+        "rawls"
+      ],
+      "concepts": [
+        "veil-of-ignorance",
+        "social-contract"
+      ],
+      "branches": [
+        "political-philosophy",
+        "ethics"
+      ],
       "citations": [
-        { "source": "text-theory-of-justice", "locator": "§24" },
-        { "source": "sep" }
+        {
+          "source": "text-theory-of-justice",
+          "locator": "§24"
+        },
+        {
+          "source": "sep"
+        }
       ]
     },
     {
@@ -946,7 +1147,9 @@
             "en": "Reason itself is shaped by upbringing, so appealing to it does not escape the problem the argument raises.",
             "fa": "خودِ خرد را تربیت شکل می‌دهد، پس تمسک به آن از مشکلی که استدلال طرح می‌کند نمی‌گریزد."
           },
-          "targets": ["p4"],
+          "targets": [
+            "p4"
+          ],
           "replies": [
             {
               "en": "Zera Yacob's test is comparative rather than foundational: he does not claim reason is untouched, only that it is the one faculty the disputing parties share, so it is where a dispute between them can be conducted at all.",
@@ -960,7 +1163,9 @@
             "en": "If every tradition fails the test, nothing is left to live by.",
             "fa": "اگر هر سنتی در این آزمون بیفتد، چیزی برای زیستن نمی‌ماند."
           },
-          "targets": ["p3"],
+          "targets": [
+            "p3"
+          ],
           "replies": [
             {
               "en": "The Hatata does not conclude that; it keeps what survives examination, including belief in God, and discards the specific rules it finds arbitrary — fasting that harms the body, laws that rank one person above another.",
@@ -969,15 +1174,26 @@
           ]
         }
       ],
-      "proponents": ["zera-yacob"],
-      "work": "hatata",
+      "proponents": [
+        "zera-yacob"
+      ],
       "branches": [
         "epistemology",
         "ethics",
         "philosophy-of-religion",
         "political-philosophy"
       ],
-      "citations": [{ "source": "text-hatata" }, { "source": "sep" }]
+      "citations": [
+        {
+          "source": "text-hatata"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "works": [
+        "hatata"
+      ]
     },
     {
       "id": "ambedkar-caste-argument",
@@ -1043,7 +1259,9 @@
             "en": "Caste is a social abuse that the religion's own principles condemn, so reform from within is the right route.",
             "fa": "کاست سوءاستفاده‌ای اجتماعی است که اصول خودِ دین محکومش می‌کنند، پس اصلاح از درون راه درست است."
           },
-          "targets": ["p4"],
+          "targets": [
+            "p4"
+          ],
           "raisedBy": "gandhi",
           "replies": [
             {
@@ -1058,7 +1276,9 @@
             "en": "Economic change will dissolve caste without any argument about religion.",
             "fa": "دگرگونی اقتصادی کاست را بی‌هیچ بحثی دربارهٔ دین از میان می‌برد."
           },
-          "targets": ["p1"],
+          "targets": [
+            "p1"
+          ],
           "replies": [
             {
               "en": "Ambedkar's answer is that caste survived every economic transformation India had already passed through, which is evidence that it is not a by-product of one.",
@@ -1067,8 +1287,12 @@
           ]
         }
       ],
-      "proponents": ["ambedkar"],
-      "opponents": ["gandhi"],
+      "proponents": [
+        "ambedkar"
+      ],
+      "opponents": [
+        "gandhi"
+      ],
       "branches": [
         "political-philosophy",
         "social-philosophy",
@@ -1076,8 +1300,13 @@
         "ethics"
       ],
       "citations": [
-        { "source": "text-annihilation-of-caste", "locator": "§4" },
-        { "source": "sep" }
+        {
+          "source": "text-annihilation-of-caste",
+          "locator": "§4"
+        },
+        {
+          "source": "sep"
+        }
       ]
     }
   ]

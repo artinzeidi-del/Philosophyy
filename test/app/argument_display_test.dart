@@ -73,7 +73,7 @@ void main() {
         for (final argument in corpus.arguments)
           if (argument.proponentIds.isEmpty &&
               argument.opponentIds.isEmpty &&
-              argument.workId == null)
+              argument.workIds.isEmpty)
             argument.id,
       ];
       expect(orphans, isEmpty, reason: 'unreachable arguments: $orphans');

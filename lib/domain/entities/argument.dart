@@ -1,3 +1,5 @@
+import 'package:philosophyy/domain/entities/content_section.dart';
+import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
@@ -87,10 +89,13 @@ class Argument {
     this.objections = const <Objection>[],
     this.proponentIds = const <String>[],
     this.opponentIds = const <String>[],
-    this.workId,
+    this.workIds = const <String>[],
     this.conceptIds = const <String>[],
     this.branches = const <String>{},
     this.citations = const <Citation>[],
+    this.article = Article.empty,
+    this.attribution = RelationConfidence.accepted,
+    this.attributionNote,
   });
 
   /// Identifier, unique across arguments.
@@ -121,8 +126,13 @@ class Argument {
   /// Philosophers who argued against it.
   final List<String> opponentIds;
 
-  /// The work it appears in, when it belongs to one.
-  final String? workId;
+  /// The works it appears in.
+  ///
+  /// A list, not one: an argument is often stated in one book and defended in
+  /// another, and recording only the first hides where the reply lives. The
+  /// ontological argument is in the Proslogion and in Anselm's reply to
+  /// Gaunilo, and a reader following it needs both.
+  final List<String> workIds;
 
   /// Concepts it turns on.
   final List<String> conceptIds;
@@ -133,8 +143,39 @@ class Argument {
   /// Sources for the reconstruction.
   final List<Citation> citations;
 
+  /// The prose around the reconstruction, at three reading depths.
+  ///
+  /// The premises alone are a skeleton. A reader meeting an argument for the
+  /// first time needs to know what question it answers and why anyone found it
+  /// convincing; a reader who already knows it needs the scholarship. Every
+  /// other kind of entry in this corpus serves both from one record, and an
+  /// argument that could not was the one page in the product with no shallow
+  /// end.
+  final Article article;
+
+  /// How securely the argument belongs to the philosophers named as advancing
+  /// it.
+  ///
+  /// Reconstruction is interpretation. Some arguments are set out step by step
+  /// by their author; some are assembled by later readers out of scattered
+  /// remarks; and a few are known chiefly from the person who attacked them.
+  /// Presenting all three in the same voice would be the argument-shaped
+  /// version of the misattributed quotation this corpus refuses to repeat.
+  final RelationConfidence attribution;
+
+  /// Why the attribution is anything other than straightforward.
+  ///
+  /// Required by test whenever [attribution] is weaker than accepted: a mark
+  /// the reader cannot act on is decoration.
+  final LocalizedText? attributionNote;
+
   /// A typed pointer to this argument.
   EntityRef get ref => EntityRef(EntityKind.argument, id);
+
+  /// Whether the attribution is settled enough to state without qualification.
+  bool get hasSettledAttribution =>
+      attribution == RelationConfidence.documented ||
+      attribution == RelationConfidence.accepted;
 
   /// The objections aimed at [statementId].
   List<Objection> objectionsTo(String statementId) => objections

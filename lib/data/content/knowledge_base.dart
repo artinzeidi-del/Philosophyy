@@ -325,7 +325,7 @@ class KnowledgeBase {
 
   /// The reconstructed arguments a work contains.
   List<Argument> argumentsIn(String workId) =>
-      arguments.where((argument) => argument.workId == workId).toList();
+      arguments.where((argument) => argument.workIds.contains(workId)).toList();
 
   /// Works written by a philosopher, in chronological order where known.
   List<Work> worksBy(String philosopherId) =>
@@ -591,10 +591,7 @@ class KnowledgeBase {
       checkIds(context, 'proponents', argument.proponentIds, philosopherExists);
       checkIds(context, 'opponents', argument.opponentIds, philosopherExists);
       checkIds(context, 'concepts', argument.conceptIds, conceptExists);
-      final workId = argument.workId;
-      if (workId != null && !workExists(workId)) {
-        violations.add('$context: work references unknown "$workId"');
-      }
+      checkIds(context, 'works', argument.workIds, workExists);
       if (!argument.hasWellFormedObjections) {
         violations.add('$context: an objection targets a premise that is gone');
       }

@@ -408,10 +408,19 @@ abstract final class ContentMappers {
       objections: reader.objectList('objections').map(objection).toList(),
       proponentIds: reader.stringList('proponents'),
       opponentIds: reader.stringList('opponents'),
-      workId: reader.string('work'),
+      workIds: reader.stringList('works'),
       conceptIds: reader.stringList('concepts'),
       branches: reader.stringList('branches').toSet(),
       citations: citations(reader, 'citations'),
+      article: article(reader, 'article'),
+      attribution:
+          reader.optionalEnum(
+            'attribution',
+            RelationConfidence.fromId,
+            RelationConfidence.values.map((value) => value.id),
+          ) ??
+          RelationConfidence.accepted,
+      attributionNote: optionalLocalized(reader, 'attributionNote'),
     );
 
     if (parsed.premises.isEmpty) {
@@ -420,6 +429,14 @@ abstract final class ContentMappers {
     if (!parsed.hasWellFormedObjections) {
       reader.invalid(
         'an objection targets a premise that does not exist in this argument',
+      );
+    }
+    // A qualified attribution the reader is not told the reason for is a badge
+    // rather than information.
+    if (!parsed.hasSettledAttribution && parsed.attributionNote == null) {
+      reader.invalid(
+        'an attribution marked "${parsed.attribution.id}" must say why in '
+        '"attributionNote"',
       );
     }
     return parsed;
