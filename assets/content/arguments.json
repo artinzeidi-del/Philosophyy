@@ -2,6 +2,163 @@
   "_comment": "Reconstructed arguments. Premises are numbered so that objections can name exactly which step they deny; the mapper rejects an objection pointing at a premise that does not exist.",
   "arguments": [
     {
+      "id": "abhinavagupta-rasa",
+      "name": {
+        "en": "Why Tragedy Does Not Hurt",
+        "fa": "چرا تراژدی آزار نمی‌دهد"
+      },
+      "oneLine": {
+        "en": "That the emotion an audience feels is not their own grief generalised, but a savouring made possible by having no stake in it.",
+        "fa": "اینکه احساسی که تماشاگر می‌یابد اندوهِ خودِ او در صورتی کلی نیست، بلکه چشیدنی است که بی‌نصیب بودن از ماجرا آن را ممکن می‌کند."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Ordinary emotion is bound to a particular person, a particular time and a practical interest.",
+            "fa": "احساسِ عادی به شخصی معین و زمانی معین و سودی عملی بسته است."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "What is presented on stage is detached from all three: the grief has no owner the audience can act for.",
+            "fa": "آنچه بر صحنه نمایانده می‌شود از هر سه جدا است: آن اندوه صاحبی ندارد که تماشاگر بتواند برایش کاری کند."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "With the practical bond removed, the obstacles that make an emotion painful — self-interest, the urge to act, the sense of one's own case — fall away, and what remains is the emotion itself made available to be tasted.",
+            "fa": "با برداشتنِ آن بندِ عملی، موانعی که احساس را دردناک می‌کنند — سودِ خود، انگیزهٔ کنش، حسِ ماجرای خویش — فرومی‌ریزند، و آنچه می‌ماند خودِ احساس است که برای چشیدن در دسترس شده."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore aesthetic experience is a distinct kind of awareness, not a weakened copy of life, and grief on stage can be relished without cruelty.",
+          "fa": "پس تجربهٔ زیبایی‌شناختی گونه‌ای آگاهیِ متمایز است نه رونوشتی ضعیف از زندگی، و اندوهِ روی صحنه را می‌توان بی‌سنگدلی چشید."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the audience's response is not mere sympathy, which would still be an ordinary emotion directed at someone.",
+          "fa": "اینکه پاسخِ تماشاگر صرفاً هم‌دلی نیست، چون هم‌دلی هنوز احساسی عادی است که به کسی روی دارد."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "If the emotion is not the audience's own, it is hard to see what makes it an emotion rather than a thought about one.",
+            "fa": "اگر آن احساس از آنِ خودِ تماشاگر نباشد، دشوار است ببینیم چه چیز آن را احساس می‌کند نه اندیشه‌ای دربارهٔ احساس."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "Abhinavagupta's answer is that the response is a real state of the person but with the ego's particularity suspended, which is why he can call it a kind of repose. Whether that is a coherent middle position or a name for the difficulty is where the debate sits.",
+              "fa": "پاسخِ ابهینوگوپته آن است که این پاسخ حالتی راستین در آدمی است اما با تعلیقِ جزئیتِ خویشتن، و از همین روست که می‌تواند آن را گونه‌ای آرامش بخواند. اینکه این موضعی میانیِ منسجم است یا نامی برای همان دشواری، همان جایی است که بحث در آن ایستاده."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The account explains why tragedy is bearable but not why anyone seeks it out.",
+            "fa": "این تبیین می‌گوید چرا تراژدی تحمل‌پذیر است اما نمی‌گوید چرا کسی در پیِ آن می‌رود."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "The tradition answers that rasa is itself the reward — a savouring akin in kind, though not in degree, to the bliss of contemplative absorption. Readers outside the tradition often find this the least transferable part of the theory.",
+              "fa": "این سنت پاسخ می‌دهد که خودِ رَسه پاداش است — چشیدنی از سنخِ سرخوشیِ استغراقِ عرفانی، هرچند نه به همان درجه. خوانندگانِ بیرون از این سنت بارها همین را انتقال‌ناپذیرترین بخشِ نظریه یافته‌اند."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "abhinavagupta"
+      ],
+      "opponents": [],
+      "works": [
+        "tantraloka"
+      ],
+      "concepts": [
+        "rasa"
+      ],
+      "traditions": [
+        "indian"
+      ],
+      "branches": [
+        "aesthetics",
+        "philosophy-of-mind",
+        "comparative-philosophy"
+      ],
+      "citations": [
+        {
+          "source": "text-abhinavabharati",
+          "locator": "on Nāṭyaśāstra VI"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Watching a play about a death can be moving and even pleasurable, which looks callous when stated plainly. Abhinavagupta argues that what the audience feels is not a diluted version of real grief but a different state entirely, available only because nothing is at stake for them.",
+              "fa": "دیدنِ نمایشی دربارهٔ مرگ می‌تواند تکان‌دهنده و حتی لذت‌بخش باشد، و این وقتی بی‌پرده گفته شود سنگدلانه می‌نماید. ابهینوگوپته استدلال می‌کند که آنچه تماشاگر می‌یابد روایتی رقیق از اندوهِ راستین نیست بلکه حالتی یکسره دیگر است، که تنها به این سبب در دسترس است که هیچ چیزِ او در میان نیست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The problem is set by the tradition he inherits. The Nāṭyaśāstra says that rasa arises from the combination of the situation, its outward signs and the passing feelings that accompany it, but does not say what rasa is or whose it is. Earlier commentators had answered variously: that the emotion is inferred in the character, that it is produced in the audience, that it is universalised.\n\nAbhinavagupta's contribution is to locate the answer in what is removed rather than what is added. The everyday experience of an emotion is cluttered with the self that has it: my loss, my danger, what I should do. In the theatre those are absent, and what is left is the emotion in a condition he describes as generalised — belonging to no one in particular, and therefore available to be dwelt in rather than escaped. The pleasure is not pleasure at the suffering; it is the pleasure of an awareness no longer obstructed by its own interests.",
+              "fa": "این مسئله را همان سنتی می‌نهد که او به ارث می‌برد. «ناتیه‌شاستره» می‌گوید رَسه از ترکیبِ موقعیت و نشانه‌های بیرونی‌اش و احساس‌های گذرایِ همراهش برمی‌خیزد، اما نمی‌گوید رَسه چیست و از آنِ کیست. شارحانِ پیشین گوناگون پاسخ داده بودند: که این احساس در شخصیت استنتاج می‌شود، که در تماشاگر پدید می‌آید، که کلی می‌شود.\n\nسهمِ ابهینوگوپته آن است که پاسخ را در آنچه برداشته می‌شود می‌یابد نه در آنچه افزوده. تجربهٔ روزمرهٔ یک احساس آکنده از خویشتنی است که آن را دارد: باختِ من، خطرِ من، آنچه باید بکنم. در تماشاخانه این‌ها نیستند، و آنچه می‌ماند احساسی است در وضعی که او کلی‌شده وصفش می‌کند — از آنِ هیچ‌کسِ معین، و پس در دسترس برای درنگ کردن در آن نه گریختن از آن. آن لذت، لذت از رنج نیست؛ لذتِ آگاهی‌ای است که دیگر سودهای خودش راهش را نبسته‌اند."
+            },
+            "citations": [
+              {
+                "source": "text-abhinavabharati",
+                "locator": "on Nāṭyaśāstra VI"
+              },
+              {
+                "source": "text-tantraloka",
+                "locator": "ch. 1"
+              }
+            ]
+          },
+          {
+            "id": "how-far-it-travels",
+            "depth": "deep",
+            "body": {
+              "en": "The theory has been read alongside Aristotle's catharsis and Kant's disinterested pleasure often enough that the comparisons need handling with care. All three separate aesthetic response from practical interest, but they differ on what does the separating and what the response is for: catharsis is a purgation with a therapeutic result, Kant's is a formal judgement claiming universal assent, and rasa is a savouring whose end is the savouring. Whether the resemblance is a real convergence or an artefact of translating Sanskrit terms into a European vocabulary is argued by comparative philosophers on both sides.",
+              "fa": "این نظریه را چندان در کنارِ کاتارسیسِ ارسطو و لذتِ بی‌غرضِ کانت خوانده‌اند که این مقایسه‌ها احتیاط می‌طلبند. هر سه پاسخِ زیبایی‌شناختی را از سودِ عملی جدا می‌کنند، اما بر سرِ اینکه چه چیز این جدایی را می‌سازد و آن پاسخ برای چیست از هم دورند: کاتارسیس پالایشی است با نتیجه‌ای درمانی، لذتِ کانت داوری‌ای صوری است که مدعیِ هم‌داستانیِ همگانی است، و رَسه چشیدنی است که غایتش خودِ چشیدن است. اینکه این شباهت هم‌گراییِ راستین است یا برساختهٔ ترجمهٔ اصطلاح‌های سنسکریت به واژگانی اروپایی، فیلسوفانِ تطبیقی در هر دو سو بر سرش بحث کرده‌اند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-abhinavabharati"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "achilles-and-tortoise",
       "name": {
         "en": "Achilles and the Tortoise",
@@ -816,6 +973,160 @@
       }
     },
     {
+      "id": "ellul-autonomy-of-technique",
+      "name": {
+        "en": "The Autonomy of Technique",
+        "fa": "خودآیینی فن"
+      },
+      "oneLine": {
+        "en": "That technique selects for efficiency by itself, so the question of what a society wants is answered after the fact rather than before it.",
+        "fa": "اینکه فن خود به خود کارآمدی را برمی‌گزیند، پس این پرسش که جامعه چه می‌خواهد پس از واقعه پاسخ می‌یابد نه پیش از آن."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Technique is not the sum of machines but the search, in every field, for the one most efficient method.",
+            "fa": "فن جمعِ ماشین‌ها نیست بلکه جست‌وجوی کارآمدترین روشِ یگانه است، در هر زمینه."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Wherever two methods are compared, the more efficient displaces the other regardless of what anyone intended.",
+            "fa": "هرجا دو روش سنجیده شوند، کارآمدتر جای دیگری را می‌گیرد، فارغ از آنکه کسی چه در سر داشته."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "The criterion of efficiency is internal to technique and answers to no value outside it.",
+            "fa": "معیارِ کارآمدی درونیِ فن است و به هیچ ارزشِ بیرون از آن پاسخ نمی‌دهد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore technical development is self-directing, and the political question of whether to adopt a technique arrives only once the technique has made adoption inevitable.",
+          "fa": "پس رشدِ فنی خودگردان است، و آن پرسشِ سیاسی که آیا فنی را بپذیریم تنها هنگامی می‌رسد که خودِ فن پذیرش را ناگزیر کرده باشد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That efficiency admits of comparison across ends different enough that no single measure obviously applies.",
+          "fa": "اینکه کارآمدی میانِ غایت‌هایی چنان متفاوت سنجیدنی است که هیچ سنجهٔ واحدی آشکارا بر آن‌ها اطلاق نمی‌شود."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Techniques are abandoned all the time for reasons of cost, taste, law and politics, which is exactly the external control the argument denies.",
+            "fa": "فن‌ها پیوسته به دلایلِ هزینه و ذوق و قانون و سیاست کنار گذاشته می‌شوند، و این دقیقاً همان مهارِ بیرونی است که استدلال انکارش می‌کند."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "Ellul's reply is that such controls are themselves techniques of regulation and are selected by the same criterion, so the objection describes competition within the system rather than control of it. Critics answer that this makes the thesis unfalsifiable.",
+              "fa": "پاسخِ الول آن است که چنین مهارهایی خود فن‌های تنظیم‌اند و با همان معیار برگزیده می‌شوند، پس این اعتراض رقابت در درونِ نظام را وصف می‌کند نه مهارِ آن را. منتقدان پاسخ می‌دهند که همین، این ادعا را ابطال‌ناپذیر می‌کند."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Treating technique as an agent that selects and displaces attributes purpose to a process, which is either metaphor or mystification.",
+            "fa": "گرفتنِ فن همچون فاعلی که برمی‌گزیند و جانشین می‌کند، به فرایندی قصد نسبت می‌دهد، و این یا استعاره است یا رازآمیزسازی."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "The mechanism Ellul describes needs no agent: it is selection under a criterion, in the way natural selection needs no selector. Whether his prose keeps to that reading is a fair question about the book.",
+              "fa": "سازوکاری که الول وصف می‌کند به فاعلی نیاز ندارد: گزینش زیرِ معیاری است، همان‌گونه که انتخابِ طبیعی به گزینشگری نیاز ندارد. اینکه نثرِ او به همین خوانش وفادار می‌ماند یا نه، پرسشی رواست دربارهٔ خودِ کتاب."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "ellul"
+      ],
+      "opponents": [],
+      "works": [
+        "technological-society"
+      ],
+      "concepts": [
+        "technique"
+      ],
+      "traditions": [
+        "european",
+        "continental"
+      ],
+      "branches": [
+        "philosophy-of-technology",
+        "social-philosophy",
+        "political-philosophy"
+      ],
+      "citations": [
+        {
+          "source": "text-technological-society",
+          "locator": "ch. 2"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "We usually ask whether a new technology is good and assume the answer decides whether it spreads. Ellul argues the order is reversed: the more efficient method wins first, and the debate about whether we wanted it happens afterwards, when refusing has become impractical.",
+              "fa": "معمولاً می‌پرسیم آیا فناوریِ تازه‌ای خوب است و فرض می‌کنیم پاسخ تعیین می‌کند که می‌گسترد یا نه. الول استدلال می‌کند که ترتیب وارونه است: روشِ کارآمدتر نخست پیروز می‌شود، و بحث بر سرِ اینکه آیا آن را می‌خواستیم پس از آن درمی‌گیرد، وقتی نپذیرفتن ناعملی شده است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The key move is the definition. Ellul is not writing about machines, and most objections that fail do so by assuming he is. Technique is the whole body of methods rationally arrived at and having absolute efficiency in every field of human activity — which covers accounting, propaganda, policing, education and psychotherapy as fully as it covers engineering.\n\nOnce defined that way the thesis is less exotic than it sounds. Where two ways of doing something are compared and one is measurably more efficient, the other tends to disappear, and this happens without anyone deciding it should. The political consequence is what interests him: a society can debate the ends it wants, but the means available to it are being narrowed continuously by a process that does not consult the debate, and by the time a technique is visible enough to argue about, the alternatives to it have usually gone.",
+              "fa": "حرکتِ کلیدی همان تعریف است. الول دربارهٔ ماشین‌ها نمی‌نویسد، و بیشترِ اعتراض‌هایی که شکست می‌خورند از آن روست که چنین می‌پندارند. فن همان کلِ روش‌هایی است که خردمندانه به دست آمده‌اند و در هر زمینهٔ فعالیتِ آدمی کارآمدیِ مطلق دارند — و این حسابداری و تبلیغات و پلیس و آموزش و روان‌درمانی را همان‌قدر دربر می‌گیرد که مهندسی را.\n\nبا این تعریف، آن ادعا کمتر از آنچه می‌نماید غریب است. هرجا دو راهِ انجامِ کاری سنجیده شوند و یکی به‌گونه‌ای سنجش‌پذیر کارآمدتر باشد، دیگری رو به ناپدید شدن می‌گذارد، و این بی‌آنکه کسی تصمیمش را بگیرد رخ می‌دهد. پیامدِ سیاسی همان است که او را درگیر می‌کند: جامعه می‌تواند بر سرِ غایت‌هایی که می‌خواهد بحث کند، اما وسیله‌هایی که در دسترسش هستند پیوسته با فرایندی تنگ می‌شوند که با آن بحث مشورت نمی‌کند، و تا وقتی فنی آن‌قدر دیدنی شود که بتوان بر سرش بحث کرد، بدیل‌هایش معمولاً رفته‌اند."
+            },
+            "citations": [
+              {
+                "source": "text-technological-society",
+                "locator": "ch. 2"
+              }
+            ]
+          },
+          {
+            "id": "determinism-or-diagnosis",
+            "depth": "deep",
+            "body": {
+              "en": "Whether the thesis is a determinism is argued, and Ellul denied that it was. He held that describing a tendency accurately is what makes resistance possible, and that the appearance of fatalism comes from readers who want a solution in the same book as the diagnosis. Later philosophy of technology has largely moved to accounts on which technologies are shaped by the societies adopting them, and treats Ellul's autonomy thesis as too strong — while conceding that the phenomenon he names, of options closing before anyone votes on them, is real and unexplained by the alternatives.",
+              "fa": "اینکه این ادعا جبرگرایی است یا نه محلِ بحث است، و الول انکار می‌کرد که باشد. بر آن بود که وصفِ دقیقِ یک گرایش همان است که مقاومت را ممکن می‌کند، و آن نمایِ تقدیرگرایی از خوانندگانی می‌آید که راه‌حل را در همان کتابی می‌خواهند که تشخیص را دارد. فلسفهٔ تکنولوژیِ متأخر عمدتاً به تبیین‌هایی رفته که در آن‌ها فناوری‌ها را جامعه‌های پذیرنده شکل می‌دهند، و ادعای خودآیینیِ الول را بیش از حد نیرومند می‌داند — و در همان حال می‌پذیرد که پدیده‌ای که او نام می‌برد، یعنی بسته شدنِ گزینه‌ها پیش از آنکه کسی به آن‌ها رأی دهد، واقعی است و بدیل‌ها تبیینش نمی‌کنند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-technological-society"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "epictetus-dichotomy",
       "name": {
         "en": "What Is Up to Us",
@@ -1122,6 +1433,166 @@
         "ancient-greek",
         "hellenistic"
       ]
+    },
+    {
+      "id": "fanon-sociogeny",
+      "name": {
+        "en": "Sociogeny",
+        "fa": "جامعه‌زایی"
+      },
+      "oneLine": {
+        "en": "That the damage racism does is not in the psyche of the racist or the victim but in the social structure that produces both.",
+        "fa": "اینکه آسیبی که نژادپرستی می‌زند نه در روانِ نژادپرست است و نه در روانِ قربانی، بلکه در ساختارِ اجتماعی‌ای است که هر دو را می‌سازد."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Psychiatry explains disorder either by what is inherited or by what happened in the individual's history.",
+            "fa": "روان‌پزشکی اختلال را یا با آنچه به ارث رسیده تبیین می‌کند یا با آنچه در تاریخِ فرد رخ داده."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "The condition described here appears in people with no relevant inheritance and no individual trauma that accounts for it, and disappears when the social situation changes.",
+            "fa": "وضعیتی که اینجا وصف می‌شود در کسانی پدیدار می‌شود که نه وراثتِ مربوطی دارند و نه آسیبِ فردی‌ای که تبیینش کند، و با دگرگون شدنِ وضعِ اجتماعی از میان می‌رود."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "A cause that operates on whole populations and varies with their social position is not located in individuals.",
+            "fa": "علتی که بر کلِ جمعیت‌ها اثر می‌کند و با جایگاهِ اجتماعیِ آنان دگرگون می‌شود، در افراد جای ندارد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore alongside ontogeny and phylogeny a third order is required — sociogeny — and treatment that addresses only the individual leaves the cause untouched.",
+          "fa": "پس در کنارِ فردزایی و نوع‌زایی مرتبهٔ سومی لازم است — جامعه‌زایی — و درمانی که تنها به فرد بپردازد علت را دست‌نخورده می‌گذارد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the categories of European psychiatry are themselves formed in the situation they are being used to analyse.",
+          "fa": "اینکه مقوله‌های روان‌پزشکیِ اروپایی خود در همان وضعیتی شکل گرفته‌اند که برای تحلیلش به کار می‌روند."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Naming a third order does not explain anything: it labels the residue left when the other two fail.",
+            "fa": "نام نهادن بر مرتبه‌ای سوم چیزی را تبیین نمی‌کند: تنها بر باقی‌مانده‌ای برچسب می‌زند که پس از شکستِ آن دو می‌ماند."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Fanon's answer is clinical rather than conceptual: the case histories show symptoms tracking colonial position and remitting with it, which is the kind of evidence that individuates a cause. Whether the cases carry the weight of the general claim is a fair question.",
+              "fa": "پاسخِ فانون بالینی است نه مفهومی: شرحِ موردها نشان می‌دهد نشانه‌ها جایگاهِ استعماری را دنبال می‌کنند و با آن فرومی‌نشینند، و این همان گونه شاهدی است که علت را متمایز می‌کند. اینکه آن موردها بارِ ادعای کلی را می‌کشند یا نه، پرسشی رواست."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The analysis draws on psychoanalysis while rejecting its universality, which leaves it borrowing authority from a framework it has undercut.",
+            "fa": "این تحلیل از روانکاوی بهره می‌گیرد و در همان حال جهان‌شمولیِ آن را نمی‌پذیرد، و اقتدارش را از چارچوبی وام می‌گیرد که خود سستش کرده."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Fanon is explicit that the Oedipal account does not travel to Martinique unchanged and uses the apparatus as a description of a situated formation rather than of human nature. Readers differ on whether that is a coherent position or a borrowed one.",
+              "fa": "فانون آشکارا می‌گوید که تبیینِ ادیپی بی‌دگرگونی به مارتینیک نمی‌رسد و آن دستگاه را همچون وصفِ شکل‌گیری‌ای موقعیت‌مند به کار می‌برد نه وصفِ سرشتِ آدمی. خوانندگان بر سرِ اینکه این موضعی منسجم است یا عاریتی، اختلاف دارند."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "fanon"
+      ],
+      "opponents": [],
+      "works": [
+        "black-skin-white-masks"
+      ],
+      "concepts": [
+        "double-consciousness",
+        "coloniality"
+      ],
+      "traditions": [
+        "africana",
+        "continental"
+      ],
+      "branches": [
+        "philosophy-of-psychology",
+        "social-philosophy",
+        "decolonial-philosophy",
+        "philosophy-of-mind"
+      ],
+      "citations": [
+        {
+          "source": "text-black-skin-white-masks",
+          "locator": "Introduction"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Fanon was a psychiatrist, and the argument comes from the clinic. He found patients whose condition fitted neither of the two explanations medicine offered — not inherited, not personal history — and whose symptoms moved with their position in a colonial society. He concluded that the cause was the society.",
+              "fa": "فانون روان‌پزشک بود، و این استدلال از درمانگاه می‌آید. بیمارانی یافت که وضعشان با هیچ‌یک از دو تبیینی که پزشکی پیش می‌نهاد جور درنمی‌آمد — نه ارثی، نه تاریخِ شخصی — و نشانه‌هاشان با جایگاهشان در جامعه‌ای استعماری جابه‌جا می‌شد. نتیجه گرفت که علت همان جامعه است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The word is coined against a pair. Ontogeny explains a condition by the individual's development; phylogeny by the history of the species. Fanon's claim is that between them lies a whole order of causation they cannot reach, in which what a person is able to be is set by how a social order has arranged who counts.\n\nThe book's method follows from this. It moves between case notes, literary analysis, and passages of first-person description, because the phenomenon it is after does not show up in any one of them alone. The most quoted passage — the child on the train who points and names him — is doing argumentative work: it records the moment a person is made into an object of someone else's schema, and the point is that no amount of individual therapy addresses what happened, because nothing happened inside the person.",
+              "fa": "این واژه در برابرِ یک جفت ساخته شده. فردزایی وضعیتی را با رشدِ فرد تبیین می‌کند؛ نوع‌زایی با تاریخِ گونه. ادعای فانون این است که میانِ آن دو مرتبه‌ای تمام از علیت هست که به آن نمی‌رسند، و در آن، آنچه کسی می‌تواند باشد را نظمی اجتماعی تعیین می‌کند که چیده است چه کسی به شمار می‌آید.\n\nروشِ کتاب از همین برمی‌آید. میانِ یادداشت‌های بالینی و تحلیلِ ادبی و بندهایی از وصفِ اول‌شخص می‌رود، چون پدیده‌ای که در پیِ آن است در هیچ‌یک به‌تنهایی پیدا نمی‌شود. پرنقل‌ترین بند — کودکی در قطار که به او اشاره می‌کند و نامش می‌نهد — کارِ استدلالی می‌کند: لحظه‌ای را ثبت می‌کند که کسی به ابژهٔ طرحوارهٔ دیگری بدل می‌شود، و نکته این است که هیچ اندازه درمانِ فردی به آنچه رخ داده نمی‌پردازد، چون هیچ چیزی درونِ آن شخص رخ نداده."
+            },
+            "citations": [
+              {
+                "source": "text-black-skin-white-masks",
+                "locator": "Introduction"
+              },
+              {
+                "source": "text-black-skin-white-masks",
+                "locator": "Conclusion"
+              }
+            ]
+          },
+          {
+            "id": "how-general-is-the-claim",
+            "depth": "deep",
+            "body": {
+              "en": "How far sociogeny generalises is disputed and the dispute matters politically. Read narrowly it is a claim about colonial racism and the specific pathologies it produces; read widely it is a general thesis that mental categories are historically constituted, which would put it alongside Foucault and Canguilhem rather than in psychiatry. Fanon's own later work moves toward the second without renouncing the first. Sylvia Wynter's reading, which takes sociogeny as the beginning of a general account of how humans institute their own genres of being, has been influential and is not universally accepted as what Fanon meant.",
+              "fa": "اینکه جامعه‌زایی تا کجا تعمیم می‌یابد محلِ نزاع است و این نزاع پیامدِ سیاسی دارد. اگر تنگ خوانده شود ادعایی است دربارهٔ نژادپرستیِ استعماری و آسیب‌های ویژه‌ای که می‌زاید؛ اگر گشاده خوانده شود ادعایی است کلی که مقوله‌های ذهنی تاریخاً برساخته‌اند، و این آن را در کنارِ فوکو و کانگیلم می‌نشاند نه در روان‌پزشکی. کارِ متأخرِ خودِ فانون به سوی دومی می‌رود بی‌آنکه نخستی را رها کند. خوانشِ سیلویا وینتر، که جامعه‌زایی را آغازِ تبیینی کلی از چگونگیِ بنیان نهادنِ گونه‌های هستیِ خود به دستِ آدمیان می‌گیرد، پرنفوذ بوده و همگان آن را مرادِ فانون نمی‌دانند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-black-skin-white-masks"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "ghazali-causation",
@@ -1438,6 +1909,322 @@
       "traditions": [
         "european"
       ]
+    },
+    {
+      "id": "jain-standpoints",
+      "name": {
+        "en": "The Argument from Standpoints",
+        "fa": "برهان دیدگاه‌ها"
+      },
+      "oneLine": {
+        "en": "That every assertion is made from a standpoint, so a claim stated without one is incomplete rather than false.",
+        "fa": "اینکه هر گزاره‌ای از دیدگاهی گفته می‌شود، پس ادعایی که بی‌دیدگاه بیان شود ناقص است نه کاذب."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "A thing has indefinitely many aspects — its substance, its momentary state, its qualities, what it is called.",
+            "fa": "هر چیزی وجوهِ بی‌شمار دارد — جوهرش، حالتِ لحظه‌ایش، کیفیت‌هایش، آنچه خوانده می‌شود."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Any assertion selects one aspect and is true of the thing under that selection.",
+            "fa": "هر گزاره‌ای یکی از این وجوه را برمی‌گزیند و زیرِ همان گزینش دربارهٔ آن چیز صادق است."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Rival philosophical positions each assert one aspect and deny the rest, which is why each can be defended and none can defeat the others.",
+            "fa": "موضع‌های فلسفیِ رقیب هر یک وجهی را می‌گویند و باقی را انکار می‌کنند، و از همین روست که هر یک دفاع‌پذیر است و هیچ‌یک دیگران را شکست نمی‌دهد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore assertions must be qualified — in some respect it is, in some respect it is not — and the disputes dissolve into partial truths misreported as total ones.",
+          "fa": "پس گزاره‌ها باید مقید شوند — از جهتی هست، از جهتی نیست — و آن نزاع‌ها به حقیقت‌های جزئی فرومی‌ریزند که تام گزارش شده‌اند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the aspects are really in the thing rather than imposed by the describer.",
+          "fa": "اینکه این وجوه به‌راستی در خودِ چیزند نه تحمیلِ وصف‌کننده."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The doctrine cannot be stated without exempting itself: is \"every assertion is partial\" partial too?",
+            "fa": "این آموزه بی‌آنکه خود را مستثنا کند بیان نمی‌شود: آیا «هر گزاره‌ای جزئی است» خود نیز جزئی است؟"
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Jain logicians accept the reflexive application and treat it as confirming the doctrine rather than refuting it: the thesis too holds from a standpoint. Critics answer that a claim which is only true from a standpoint gives its opponent everything they need.",
+              "fa": "منطق‌دانانِ جین این کاربردِ بازتابی را می‌پذیرند و آن را تأییدِ آموزه می‌دانند نه ابطالش: این ادعا نیز از دیدگاهی برقرار است. منتقدان پاسخ می‌دهند که ادعایی که تنها از دیدگاهی صادق باشد هرآنچه مخالف نیاز دارد به او می‌دهد."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Qualifying every assertion makes disagreement impossible, and some positions really are wrong.",
+            "fa": "مقید کردنِ هر گزاره‌ای اختلاف را ناممکن می‌کند، و برخی موضع‌ها به‌راستی نادرست‌اند."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "The doctrine rejects one-sidedness rather than error: a standpoint that denies the others is refused precisely because it overreaches. What it forbids is the totalising claim, not the claim.",
+              "fa": "این آموزه یک‌سویه‌نگری را رد می‌کند نه خطا را: دیدگاهی که دیگران را انکار کند دقیقاً به‌سببِ زیاده‌روی رد می‌شود. آنچه منع می‌کند ادعای تام است نه خودِ ادعا."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "umasvati",
+        "mahavira"
+      ],
+      "opponents": [],
+      "works": [
+        "tattvartha-sutra"
+      ],
+      "concepts": [
+        "anekantavada",
+        "pramana"
+      ],
+      "traditions": [
+        "indian",
+        "jain"
+      ],
+      "branches": [
+        "epistemology",
+        "logic",
+        "metaphysics",
+        "comparative-philosophy"
+      ],
+      "citations": [
+        {
+          "source": "text-tattvartha-sutra",
+          "locator": "1.1"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Is a pot permanent or impermanent? As clay it persists; as this shape it does not. The Jain answer is that both claims are true under a specification and false without one, and that most philosophical quarrels are two people each holding half.",
+              "fa": "آیا کوزه ماناست یا نامانا؟ همچون گِل می‌ماند؛ همچون این شکل نمی‌ماند. پاسخِ جین آن است که هر دو ادعا زیرِ قیدی صادق‌اند و بی‌قید کاذب، و بیشترِ نزاع‌های فلسفی دو تن‌اند که هر یک نیمی را در دست دارد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The doctrine has two parts that are often confused. Nayavāda is the analysis of standpoints: there are enumerated ways of taking a thing — as substance, as its present mode, as the word for it — and each yields truths the others miss. Syādvāda is the resulting form of expression, in which every assertion is prefixed by a qualifier best rendered \"in some respect\", producing the seven-fold scheme of predication for which Jain logic is known.\n\nThe motivation is not diplomatic. The Jain tradition developed this against specific opponents — the Vedāntin who says reality is one and unchanging, the Buddhist who says it is momentary — and its claim is that both are describing something real and both err by exclusion. Permanence and change are equally features of what there is, and a metaphysics that keeps only one has taken a standpoint for the whole.",
+              "fa": "این آموزه دو بخش دارد که بارها با هم درآمیخته می‌شوند. نَیه‌واده تحلیلِ دیدگاه‌هاست: شیوه‌های برشمرده‌ای برای گرفتنِ یک چیز هست — همچون جوهر، همچون حالتِ کنونی‌اش، همچون واژه‌ای که بر آن است — و هر یک حقیقت‌هایی به دست می‌دهد که دیگران از دست می‌دهند. سیادواده صورتِ بیانیِ حاصل است، که در آن هر گزاره‌ای با قیدی آغاز می‌شود که بهتر است «از جهتی» ترجمه شود، و همان طرحِ هفت‌گانهٔ حمل را می‌سازد که منطقِ جین به آن شناخته می‌شود.\n\nانگیزه دیپلماتیک نیست. سنتِ جین این را در برابرِ مخالفانی معین پروراند — ودانتی‌ای که می‌گوید واقعیت یگانه و بی‌دگرگونی است، و بودایی‌ای که می‌گوید لحظه‌ای است — و ادعایش این است که هر دو چیزی واقعی را وصف می‌کنند و هر دو با کنار گذاشتن خطا می‌کنند. مانایی و دگرگونی هر دو به یک اندازه ویژگیِ آنچه هست‌اند، و مابعدالطبیعه‌ای که تنها یکی را نگاه دارد، دیدگاهی را به‌جای کل گرفته است."
+            },
+            "citations": [
+              {
+                "source": "text-tattvartha-sutra",
+                "locator": "1.1"
+              },
+              {
+                "source": "text-tattvartha-sutra",
+                "locator": "5.21"
+              }
+            ]
+          },
+          {
+            "id": "a-logic-or-a-courtesy",
+            "depth": "deep",
+            "body": {
+              "en": "Whether syādvāda is a genuine many-valued logic or an epistemic hedge in logical dress is argued by modern logicians and Jain scholars alike. Formal reconstructions have been offered in which the seven predications are consistent, and objections that the qualifier does no work a simple relativisation to aspect could not do. A separate historical question is how far the doctrine is a response to Buddhist and Vedāntic argument and how far it precedes them; the Tattvārthasūtra is systematising material already in the canon, and dating the layers is contested.",
+              "fa": "اینکه سیادواده منطقی چندارزشی است یا احتیاطی معرفتی در جامهٔ منطق، هم منطق‌دانانِ امروزی و هم جین‌پژوهان بر سرش بحث کرده‌اند. بازسازی‌های صوری‌ای پیش نهاده شده که در آن‌ها این هفت حمل سازگارند، و نیز اعتراض‌هایی که آن قید کاری نمی‌کند که نسبی‌سازیِ ساده به وجه نتواند کرد. پرسشِ تاریخیِ جداگانه آن است که این آموزه تا چه اندازه پاسخی به استدلالِ بودایی و ودانتی است و تا چه اندازه پیش از آن‌هاست؛ «تتوارته‌سوتره» موادی را نظام می‌بخشد که پیشاپیش در قانون هست، و تاریخ‌گذاریِ لایه‌ها محلِ نزاع است."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-tattvartha-sutra",
+                "locator": "ch. 1"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "machiavelli-appearance-of-virtue",
+      "name": {
+        "en": "On Seeming and Being Good",
+        "fa": "دربارهٔ نمودن و بودنِ نیک"
+      },
+      "oneLine": {
+        "en": "That a ruler who is good in every circumstance will be destroyed, so what politics requires is the reputation for virtue and the capacity to depart from it.",
+        "fa": "اینکه فرمانروایی که در هر وضعی نیک باشد نابود می‌شود، پس آنچه سیاست می‌طلبد آوازهٔ فضیلت است و توانِ دور شدن از آن."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Rulers act among many who are not good.",
+            "fa": "فرمانروایان در میانِ بسیارانی کنش می‌کنند که نیک نیستند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "A ruler who acts well in every circumstance will therefore come to ruin among those who do not.",
+            "fa": "پس فرمانروایی که در هر وضعی نیک عمل کند، در میانِ کسانی که چنین نمی‌کنند به نابودی می‌رسد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Subjects judge by appearances and by outcomes, since few can touch what a ruler is and everyone can see what a ruler seems.",
+            "fa": "رعایا بر پایهٔ ظاهر و نتیجه داوری می‌کنند، چون اندکی می‌توانند به آنچه فرمانروا هست دست یابند و همه می‌بینند فرمانروا چه می‌نماید."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore a ruler must appear to have the virtues, and must be able to act otherwise when preservation of the state requires it.",
+          "fa": "پس فرمانروا باید چنان نماید که فضیلت‌ها را دارد، و باید بتواند وقتی نگاهداشتِ دولت می‌طلبد جز آن کند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the preservation of the state is the standard against which a ruler's acts are to be judged.",
+          "fa": "اینکه نگاهداشتِ دولت معیاری است که کنش‌های فرمانروا با آن سنجیده می‌شود."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The argument makes politics self-defeating: a prince known to depart from virtue when it suits him cannot be trusted, and the reputation the argument requires is destroyed by the practice it licenses.",
+            "fa": "این استدلال سیاست را خودشکن می‌کند: شاهزاده‌ای که شناخته شود هرگاه به سودش باشد از فضیلت دور می‌شود اعتماد نمی‌آورد، و آن آوازه‌ای که استدلال می‌طلبد را همان عملی که روا می‌دارد نابود می‌کند."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "Machiavelli's answer is that the departures must be rare, decisive and finished quickly, and much of the book is about timing. Whether that is a stable equilibrium or a description of how princes fall is the objection's force.",
+              "fa": "پاسخِ ماکیاولی آن است که این دور شدن‌ها باید کمیاب و قاطع باشند و زود تمام شوند، و بخشِ بزرگی از کتاب دربارهٔ زمان‌بندی است. اینکه این تعادلی پایدار است یا وصفِ چگونگیِ سقوطِ شاهزادگان، نیروی همین اعتراض است."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The Prince is a work of advice to a particular ruler at a particular moment, and reading it as a general thesis about politics mistakes a letter for a treatise.",
+            "fa": "«شهریار» رساله‌ای است در اندرز به فرمانروایی معین در لحظه‌ای معین، و خواندنش همچون ادعایی کلی دربارهٔ سیاست، نامه را رساله گرفتن است."
+          },
+          "targets": [],
+          "replies": [
+            {
+              "en": "The Discourses argue for republics with the same realism about human material, which suggests the method rather than the recommendation is what generalises. The relation between the two books is itself a long-running question.",
+              "fa": "«گفتارها» با همان واقع‌گرایی دربارهٔ مادهٔ انسانی از جمهوری دفاع می‌کنند، و این نشان می‌دهد آنچه تعمیم می‌یابد روش است نه توصیه. نسبتِ میانِ این دو کتاب خود پرسشی دیرپاست."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "machiavelli"
+      ],
+      "opponents": [],
+      "works": [
+        "the-prince"
+      ],
+      "concepts": [],
+      "traditions": [
+        "european",
+        "renaissance"
+      ],
+      "branches": [
+        "political-philosophy",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "text-the-prince",
+          "locator": "ch. 15"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Machiavelli's break is not that he recommends wickedness. It is that he stops asking what a good ruler is and asks what a ruler must do to survive among people who are not good — and reports the answer without apology.",
+              "fa": "گسستِ ماکیاولی این نیست که بدی را توصیه می‌کند. این است که دیگر نمی‌پرسد فرمانروای نیک چیست و می‌پرسد فرمانروا برای زنده ماندن در میانِ آدمیانی که نیک نیستند چه باید بکند — و پاسخ را بی‌عذرخواهی گزارش می‌کند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Chapter fifteen announces the method: he will depart from the orders of others and go to the effectual truth of the thing rather than to the imagination of it, since many have imagined republics that were never seen. The mirror-for-princes tradition described the virtues a ruler should have; Machiavelli asks what having them actually produces.\n\nThe conclusion is stated without the softening that the tradition would supply. Liberality practised openly consumes the treasury and ends in taxation, so a reputation for meanness serves better. Mercy that lets disorder spread is crueller than a few exemplary punishments. It is safer to be feared than loved, since love is held by a bond of obligation which men break when it suits them, and fear by a dread of punishment that never fails — though he adds immediately that a prince must avoid being hated, which is the constraint that keeps the doctrine from collapsing into tyranny.",
+              "fa": "فصلِ پانزدهم روش را اعلام می‌کند: از دستورِ دیگران دور می‌شود و به حقیقتِ مؤثرِ چیز می‌رود نه به تصورِ آن، چون بسیاری جمهوری‌هایی را تصور کرده‌اند که هرگز دیده نشدند. سنتِ آینهٔ شاهان فضیلت‌هایی را وصف می‌کرد که فرمانروا باید داشته باشد؛ ماکیاولی می‌پرسد داشتنِ آن‌ها در عمل چه می‌زاید.\n\nنتیجه بی آن نرمشی که سنت فراهم می‌آورد بیان می‌شود. بخشندگیِ آشکار خزانه را می‌خورد و به مالیات می‌انجامد، پس آوازهٔ تنگ‌دستی بهتر خدمت می‌کند. رحمی که بی‌نظمی را بگسترد از چند کیفرِ عبرت‌آموز سنگ‌دلانه‌تر است. ترسیده شدن ایمن‌تر از دوست داشته شدن است، چون مهر با بندِ تعهد نگاه داشته می‌شود که آدمیان هرگاه به سودشان باشد می‌گسلندش، و ترس با هراسِ کیفر که هرگز خطا نمی‌کند — هرچند بی‌درنگ می‌افزاید که شاهزاده باید از منفور شدن بپرهیزد، و همین قیدی است که این آموزه را از فروریختن در استبداد بازمی‌دارد."
+            },
+            "citations": [
+              {
+                "source": "text-the-prince",
+                "locator": "ch. 15"
+              },
+              {
+                "source": "text-the-prince",
+                "locator": "ch. 17"
+              }
+            ]
+          },
+          {
+            "id": "satire-or-science",
+            "depth": "deep",
+            "body": {
+              "en": "What the book is doing has been argued for five centuries. Read as advice it is a manual for tyrants; read as republican it is Rousseau's view, that Machiavelli was teaching peoples what princes do by pretending to teach princes; read as science it is the first attempt to describe political action without moral vocabulary, which is Bacon's reading and the one that made him a founder of modern political thought. The Discourses complicate every reading that relies on The Prince alone, and there is no external evidence that settles the intention.",
+              "fa": "اینکه این کتاب چه می‌کند پنج سده است محلِ بحث بوده. اگر همچون اندرز خوانده شود دستنامه‌ای است برای ستمگران؛ اگر جمهوری‌خواهانه خوانده شود دیدِ روسوست، که ماکیاولی به بهانهٔ آموختن به شاهزادگان، به مردمان می‌آموخت که شاهزادگان چه می‌کنند؛ اگر همچون دانش خوانده شود نخستین کوشش است برای وصفِ کنشِ سیاسی بی‌واژگانِ اخلاقی، و این خوانشِ بیکن است و همان که او را از بنیان‌گذارانِ اندیشهٔ سیاسیِ جدید کرد. «گفتارها» هر خوانشی را که تنها بر «شهریار» تکیه کند پیچیده می‌کند، و شاهدِ بیرونی‌ای که نیت را فیصله دهد در کار نیست."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-the-prince",
+                "locator": "ch. 15"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "maimonides-negative-attributes",
@@ -2561,6 +3348,321 @@
       ]
     },
     {
+      "id": "peirce-fixation-of-belief",
+      "name": {
+        "en": "The Fixation of Belief",
+        "fa": "تثبیت باور"
+      },
+      "oneLine": {
+        "en": "That of the four ways of settling belief, only one is answerable to something outside the believer.",
+        "fa": "اینکه از چهار راهِ فیصله دادن به باور، تنها یکی در برابرِ چیزی بیرون از باورمند پاسخگوست."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Doubt is an uneasy state we struggle to escape; belief is a settled state we do not wish to leave. Inquiry is that struggle and ends when belief is reached.",
+            "fa": "شک حالتی ناآرام است که برای رهایی از آن می‌کوشیم؛ باور حالتی آرام است که نمی‌خواهیم ترکش کنیم. پژوهش همان کوشش است و با رسیدن به باور پایان می‌یابد."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "There are four methods of settling it: tenacity, holding on regardless; authority, having it settled for us; the a priori, believing what is agreeable to reason; and science, letting something independent of what anyone thinks decide.",
+            "fa": "چهار روش برای فیصله دادن هست: سرسختی، یعنی چنگ زدن به هر بها؛ اقتدار، یعنی واگذاردنِ فیصله به دیگری؛ روشِ پیشینی، یعنی باور به آنچه با عقل سازگار می‌نماید؛ و دانش، یعنی سپردنِ داوری به چیزی مستقل از آنچه هرکس می‌اندیشد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "The first three fail on their own terms: the tenacious meet others who differ, authority cannot reach every question, and what seems agreeable to reason has shifted with fashion from age to age.",
+            "fa": "سه‌تای نخست به معیارِ خودشان شکست می‌خورند: سرسخت با کسانی روبه‌رو می‌شود که دیگرگونه می‌اندیشند، اقتدار به هر پرسشی نمی‌رسد، و آنچه با عقل سازگار می‌نماید از دوره‌ای به دوره‌ای با مد دگرگون شده است."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore only the scientific method can settle belief in a way that survives contact with other people and with time.",
+          "fa": "پس تنها روشِ علمی می‌تواند باور را چنان فیصله دهد که از برخورد با دیگران و با زمان جان به در برد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That there is something whose characters are independent of our opinions about it.",
+          "fa": "اینکه چیزی هست که ویژگی‌هایش از نظرهای ما دربارهٔ آن مستقل است."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Judging the methods by whether they survive social contact assumes the aim is stable shared belief, which is a value the argument does not defend.",
+            "fa": "سنجیدنِ این روش‌ها با اینکه از برخوردِ اجتماعی جان به در می‌برند یا نه، فرض می‌گیرد که هدف باورِ مشترکِ پایدار است، و این ارزشی است که استدلال از آن دفاع نمی‌کند."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "Peirce accepts that the criterion is internal to inquiry: it is what someone who wants their beliefs to keep working must want. Whether that grounds the preference or merely restates it is the objection's point.",
+              "fa": "پرس می‌پذیرد که این معیار درونیِ پژوهش است: همان است که کسی که می‌خواهد باورهایش کار کردن را ادامه دهند باید بخواهد. اینکه این آن ترجیح را بنیاد می‌نهد یا تنها بازگویی‌اش می‌کند، نکتهٔ همین اعتراض است."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The four methods are not exclusive, and working scientists rely on authority and on what seems reasonable at every step.",
+            "fa": "این چهار روش انحصاری نیستند، و دانشمندانِ در حالِ کار در هر گام به اقتدار و به آنچه معقول می‌نماید تکیه می‌کنند."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "Peirce's classification is of what ultimately settles a question rather than of what is used along the way, and he is explicit that the community of inquirers is essential rather than incidental — which concedes the role of authority while denying it the last word.",
+              "fa": "دسته‌بندیِ پرس دربارهٔ آن چیزی است که سرانجام به پرسشی فیصله می‌دهد نه دربارهٔ آنچه در راه به کار می‌رود، و او آشکارا می‌گوید که جامعهٔ پژوهندگان ضروری است نه عرضی — و این نقشِ اقتدار را می‌پذیرد و سخنِ آخر را از آن می‌گیرد."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "peirce"
+      ],
+      "opponents": [],
+      "works": [
+        "fixation-of-belief"
+      ],
+      "concepts": [
+        "pragmatic-maxim",
+        "scientific-method-doubt"
+      ],
+      "traditions": [
+        "american",
+        "pragmatist"
+      ],
+      "branches": [
+        "epistemology",
+        "philosophy-of-science"
+      ],
+      "citations": [
+        {
+          "source": "text-fixation-of-belief",
+          "locator": "§IV"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Peirce asks not which beliefs are true but how people actually get rid of doubt. He finds four ways, ranks them by whether they keep working once you meet somebody who disagrees, and argues that only the last survives.",
+              "fa": "پرس نمی‌پرسد کدام باورها صادق‌اند بلکه می‌پرسد آدمیان در عمل چگونه از شک خلاص می‌شوند. چهار راه می‌یابد، آن‌ها را بر پایهٔ اینکه پس از روبه‌رو شدن با مخالف همچنان کار می‌کنند یا نه رتبه می‌دهد، و استدلال می‌کند که تنها آخری جان به در می‌برد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The reframing is the argument's real work. Traditional epistemology asks what justifies a belief; Peirce asks what a believer is doing, and treats inquiry as a response to the discomfort of doubt rather than a search for certainty. On that footing the question becomes practical: which method actually ends doubt and keeps it ended.\n\nTenacity fails because the tenacious man meets others, and the social impulse is stronger than his resolve. Authority — the method of the state and the church — succeeds on a scale nothing else matches, and Peirce grants it built the pyramids and the cathedrals; it fails because no institution can regulate opinion on every question, and the questions it leaves alone become the cracks. The a priori method, believing what is agreeable to reason, is the method of metaphysicians, and its failure is visible in its history: the pendulum of taste swings and the conclusions swing with it. Only a method answerable to something whose characters do not depend on what we think can settle a belief that stays settled.",
+              "fa": "بازچارچوب‌بندی، کارِ راستینِ این استدلال است. معرفت‌شناسیِ سنتی می‌پرسد چه چیز باوری را موجه می‌کند؛ پرس می‌پرسد باورمند چه می‌کند، و پژوهش را پاسخی به ناآرامیِ شک می‌داند نه جست‌وجوی یقین. بر این پایه پرسش عملی می‌شود: کدام روش به‌راستی شک را پایان می‌دهد و پایان‌یافته نگاهش می‌دارد.\n\nسرسختی شکست می‌خورد چون مردِ سرسخت با دیگران روبه‌رو می‌شود، و انگیزهٔ اجتماعی از عزمِ او نیرومندتر است. اقتدار — روشِ دولت و کلیسا — در مقیاسی کامیاب می‌شود که هیچ روشِ دیگری به آن نمی‌رسد، و پرس می‌پذیرد که اهرام و کلیساهای جامع را همین ساخت؛ شکست می‌خورد چون هیچ نهادی نمی‌تواند نظر را در هر پرسشی تنظیم کند، و همان پرسش‌هایی که رها می‌کند ترک‌ها می‌شوند. روشِ پیشینی، یعنی باور به آنچه با عقل سازگار می‌نماید، روشِ مابعدالطبیعه‌دانان است، و شکستش در تاریخش دیدنی است: آونگِ ذوق می‌چرخد و نتیجه‌ها با آن. تنها روشی که در برابرِ چیزی پاسخگو باشد که ویژگی‌هایش به اندیشهٔ ما وابسته نیست می‌تواند باوری را فیصله دهد که فیصله‌یافته بماند."
+            },
+            "citations": [
+              {
+                "source": "text-fixation-of-belief",
+                "locator": "§IV"
+              },
+              {
+                "source": "text-fixation-of-belief",
+                "locator": "§IV-V"
+              }
+            ]
+          },
+          {
+            "id": "what-the-hypothesis-costs",
+            "depth": "deep",
+            "body": {
+              "en": "The fourth method needs a hypothesis the other three do not: that there are real things whose characters are independent of our opinions. Peirce states it openly and defends it on the ground that nobody who practises the method has ever found a reason to doubt it, which is an argument from the absence of trouble rather than from evidence. Critics have taken this as the point where pragmatism either becomes realism or fails to earn it, and Peirce's own later work on the reality of generals is an attempt to pay the debt. Whether the essay can stand without that later apparatus is disputed.",
+              "fa": "روشِ چهارم فرضی می‌طلبد که سه‌تای دیگر نمی‌طلبند: اینکه چیزهایی واقعی هستند که ویژگی‌هاشان از نظرهای ما مستقل است. پرس آن را آشکارا بیان می‌کند و بر این پایه از آن دفاع می‌کند که هیچ‌کس که این روش را به کار بسته هرگز دلیلی برای تردید در آن نیافته، و این استدلالی است از نبودِ دردسر نه از شاهد. منتقدان این را همان نقطه‌ای دانسته‌اند که پراگماتیسم یا واقع‌گرا می‌شود یا از عهدهٔ آن برنمی‌آید، و کارِ متأخرِ خودِ پرس دربارهٔ واقعیتِ کلی‌ها کوششی است برای پرداختِ همین دِین. اینکه این مقاله بی آن دستگاهِ متأخر می‌ایستد یا نه، محلِ نزاع است."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-fixation-of-belief",
+                "locator": "§IV"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "philoponus-against-eternity",
+      "name": {
+        "en": "Against the Eternity of the World",
+        "fa": "در ردِ ازلیت جهان"
+      },
+      "oneLine": {
+        "en": "That an eternal past would require an actual infinity to have been traversed and then added to, which cannot be done.",
+        "fa": "اینکه گذشته‌ای ازلی می‌طلبد که بی‌نهایتی بالفعل پیموده شده باشد و سپس به آن افزوده شود، و این شدنی نیست."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "An actual infinite cannot exist, and cannot be traversed.",
+            "fa": "بی‌نهایتِ بالفعل نمی‌تواند باشد، و پیموده نمی‌شود."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "If the world had no beginning, an infinite number of days has already elapsed, and been traversed to reach today.",
+            "fa": "اگر جهان آغازی نداشته باشد، شمارِ بی‌نهایتی از روزها پیشاپیش گذشته و برای رسیدن به امروز پیموده شده است."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Worse, that infinity is added to daily, and one infinite would be greater than another — which is absurd.",
+            "fa": "بدتر آنکه هر روز به آن بی‌نهایت افزوده می‌شود، و بی‌نهایتی از بی‌نهایتی بزرگ‌تر می‌شود — و این محال است."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore the world had a beginning, against Aristotle.",
+          "fa": "پس جهان آغازی داشته است، برخلافِ ارسطو."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the days of the past form a completed collection of the kind the impossibility applies to.",
+          "fa": "اینکه روزهای گذشته مجموعه‌ای تمام‌شده از آن گونه‌اند که آن محال بر آن اطلاق می‌شود."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The past is not a completed collection: each day is finitely distant from today, and no day required traversing an infinity to arrive.",
+            "fa": "گذشته مجموعه‌ای تمام‌شده نیست: هر روز از امروز فاصله‌ای متناهی دارد، و هیچ روزی برای رسیدن پیمودنِ بی‌نهایتی را نطلبیده."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "This is the standard reply and it is strong: it concedes an infinite series while denying that anything infinite was traversed. Defenders of the argument answer that the question is not any day's distance but how the whole came to be complete.",
+              "fa": "این پاسخِ معیار است و نیرومند: رشته‌ای بی‌پایان را می‌پذیرد و در همان حال انکار می‌کند که چیزی بی‌نهایت پیموده شده باشد. مدافعانِ استدلال پاسخ می‌دهند که پرسش دربارهٔ فاصلهٔ هیچ روزی نیست بلکه دربارهٔ آن است که چگونه کل تمام شده است."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Cantor's work shows that one infinite set can be a proper subset of another without contradiction, so the third premise fails.",
+            "fa": "کارِ کانتور نشان می‌دهد که مجموعه‌ای بی‌نهایت می‌تواند بی‌تناقض زیرمجموعهٔ سرهٔ مجموعه‌ای دیگر باشد، پس مقدمهٔ سوم شکست می‌خورد."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "Defenders distinguish the mathematical consistency of infinite sets from the possibility of an infinite collection of real things in time, and hold that Philoponus' target was the second. Critics reply that no independent reason has been given for the distinction.",
+              "fa": "مدافعان میانِ سازگاریِ ریاضیِ مجموعه‌های بی‌نهایت و امکانِ مجموعه‌ای بی‌نهایت از چیزهای واقعی در زمان تمایز می‌نهند، و بر آن‌اند که هدفِ فیلوپونوس دومی بود. منتقدان پاسخ می‌دهند که دلیلی مستقل برای این تمایز داده نشده."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "philoponus"
+      ],
+      "opponents": [
+        "aristotle"
+      ],
+      "works": [
+        "philoponus-against-aristotle"
+      ],
+      "concepts": [],
+      "traditions": [
+        "byzantine",
+        "ancient-greek"
+      ],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-science",
+        "philosophy-of-religion",
+        "philosophy-of-mathematics"
+      ],
+      "citations": [
+        {
+          "source": "text-de-aeternitate-mundi"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Aristotle held the world had always existed. Philoponus, a Christian working inside the Aristotelian tradition, argues that this cannot be: an endless past means infinitely many days have already gone by, and you cannot finish counting to infinity, still less add to it afterwards.",
+              "fa": "ارسطو بر آن بود که جهان همواره بوده است. فیلوپونوس، مسیحی‌ای که در درونِ سنتِ ارسطویی کار می‌کرد، استدلال می‌کند که چنین نتواند بود: گذشته‌ای بی‌پایان یعنی روزهای بی‌شمار پیشاپیش گذشته‌اند، و شمردن تا بی‌نهایت به پایان نمی‌رسد، چه رسد به افزودن پس از آن."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The setting matters. Philoponus was a commentator on Aristotle who turned the master's own tools against him, and he did it across physics as well as cosmology — arguing against the fifth element, against the impossibility of motion in a void, and for an early version of impetus that anticipates the medieval critique of Aristotelian dynamics.\n\nThe argument from infinity travelled further than any of it. Al-Kindī takes it up; al-Ghazālī builds it into the case that becomes the kalām cosmological argument; Bonaventure uses it against Aquinas, who accepted that an eternal created world is possible and held that its beginning is known by revelation rather than proof. Its modern life is longer still: the same premises are argued in current philosophy of religion, now against the background of big-bang cosmology and Cantorian set theory, and the disagreement has not moved much.",
+              "fa": "زمینه اهمیت دارد. فیلوپونوس شارحِ ارسطو بود که ابزارهای خودِ استاد را بر ضدِ او گرداند، و این کار را هم در طبیعیات کرد و هم در کیهان‌شناسی — بر ضدِ عنصرِ پنجم استدلال کرد، بر ضدِ ناممکن بودنِ حرکت در خلأ، و برای صورتی نخستین از نظریهٔ میل که نقدِ سده‌های میانه بر دینامیکِ ارسطویی را پیش‌بینی می‌کند.\n\nاستدلالِ برآمده از بی‌نهایت از همهٔ این‌ها دورتر رفت. کندی آن را برمی‌گیرد؛ غزالی آن را در استدلالی می‌نشاند که برهانِ کیهان‌شناختیِ کلامی می‌شود؛ بوناونتوره آن را بر ضدِ آکوئیناس به کار می‌برد، که می‌پذیرفت جهانی مخلوق و ازلی ممکن است و بر آن بود که آغاز داشتنِ آن را وحی می‌گوید نه برهان. عمرِ امروزینش باز هم درازتر است: همین مقدمه‌ها در فلسفهٔ دینِ کنونی بحث می‌شوند، اکنون در برابرِ زمینهٔ کیهان‌شناسیِ مهبانگ و نظریهٔ مجموعه‌های کانتوری، و آن اختلاف چندان جابه‌جا نشده."
+            },
+            "citations": [
+              {
+                "source": "text-de-aeternitate-mundi"
+              },
+              {
+                "source": "text-philoponus-physics-commentary"
+              }
+            ]
+          },
+          {
+            "id": "what-we-have-of-it",
+            "depth": "deep",
+            "body": {
+              "en": "The treatise against Aristotle survives only in fragments, most of them quoted by Simplicius in the course of attacking it — so the reconstruction depends on a hostile witness, and Simplicius' contempt for Philoponus is undisguised. The separate work against Proclus survives whole, which is why arguments are often cited from there instead. How much of the against-Aristotle position can be recovered, and whether Simplicius reports it fairly, is a standing question in the scholarship on late antique commentary.",
+              "fa": "رساله بر ضدِ ارسطو تنها در پاره‌ها بر جای مانده، و بیشترشان را سیمپلیکیوس در میانهٔ حمله به آن نقل کرده — پس بازسازی به شاهدی خصم وابسته است، و تحقیرِ سیمپلیکیوس نسبت به فیلوپونوس پوشیده نیست. آن اثرِ جداگانه بر ضدِ پروکلوس تمام بر جای مانده، و از همین روست که استدلال‌ها بارها از آنجا نقل می‌شوند. اینکه چه اندازه از موضعِ ضدِ ارسطویی بازیافتنی است، و اینکه سیمپلیکیوس آن را منصفانه گزارش می‌کند یا نه، پرسشی پابرجا در پژوهشِ شرح‌نویسیِ عهدِ باستانِ متأخر است."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-philoponus-physics-commentary"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "private-language-argument",
       "name": {
         "en": "The Private Language Argument",
@@ -2866,6 +3968,164 @@
       ]
     },
     {
+      "id": "sartre-bad-faith",
+      "name": {
+        "en": "Bad Faith",
+        "fa": "سوءنیت"
+      },
+      "oneLine": {
+        "en": "That lying to oneself is possible only for a being that is not simply identical with what it is.",
+        "fa": "اینکه دروغ گفتن به خود تنها برای هستنده‌ای ممکن است که به‌سادگی همان چیزی نیست که هست."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "A lie requires the liar to know the truth and hide it from someone who does not.",
+            "fa": "دروغ می‌طلبد که دروغگو حقیقت را بداند و از کسی که نمی‌داند پنهانش کند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "In self-deception the liar and the deceived are one person, so the truth must be known and hidden at once.",
+            "fa": "در خودفریبی، دروغگو و فریفته یک تن‌اند، پس حقیقت باید هم‌زمان دانسته و پنهان شود."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "This is impossible for anything that simply is what it is, in the way a stone is a stone.",
+            "fa": "این برای هر چیزی که به‌سادگی همان است که هست، آن‌گونه که سنگ سنگ است، ناممکن است."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore human being is not that kind of being: it is what it is not and is not what it is, and bad faith is possible because of that structure.",
+          "fa": "پس هستیِ آدمی از آن گونه نیست: آنچه نیست هست و آنچه هست نیست، و سوءنیت به‌سببِ همین ساختار ممکن است."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the unconscious is not available as an explanation, since it would make the censor a second knower and restore the ordinary lie.",
+          "fa": "اینکه ناخودآگاه همچون تبیین در دسترس نیست، چون سانسورگر را دانندهٔ دومی می‌کند و دروغِ معمولی را بازمی‌گرداند."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The Freudian account explains self-deception without paradox: the censor is not conscious of what it represses in the way a liar is.",
+            "fa": "تبیینِ فرویدی خودفریبی را بی‌پارادوکس تبیین می‌کند: سانسورگر به آن‌گونه که دروغگو آگاه است از آنچه سرکوب می‌کند آگاه نیست."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "Sartre's reply is that the censor must recognise what to repress in order to repress it, so it knows and does not know in exactly the way the paradox describes; the division into agencies relocates the problem rather than solving it.",
+              "fa": "پاسخ سارتر آن است که سانسورگر باید بشناسد چه را سرکوب کند تا سرکوبش کند، پس دقیقاً به همان‌گونه که پارادوکس وصف می‌کند هم می‌داند و هم نمی‌داند؛ تقسیم به قوا مسئله را جابه‌جا می‌کند نه حل."
+            }
+          ],
+          "raisedByPhilosopherId": "freud",
+          "citations": [
+            {
+              "source": "text-being-and-nothingness",
+              "locator": "Part I, ch. 2"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "If we are never identical with what we are, no description of a person is ever true, and the account undercuts the ordinary talk it needs.",
+            "fa": "اگر هرگز همان نباشیم که هستیم، هیچ وصفی از کسی هرگز صادق نیست، و این تبیین همان سخنِ عادی را که به آن نیاز دارد سست می‌کند."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Sartre distinguishes being what one is in the mode of not being it: a waiter is a waiter, but not as an inkwell is an inkwell. Whether that formula states a distinction or performs one is where readers divide.",
+              "fa": "سارتر میانِ بودنِ آنچه هستی در شیوهٔ نبودنش تمایز می‌نهد: پیشخدمت پیشخدمت است، اما نه آن‌گونه که دوات دوات است. اینکه این صورت‌بندی تمایزی را بیان می‌کند یا اجرا، همان جایی است که خوانندگان از هم جدا می‌شوند."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "sartre"
+      ],
+      "opponents": [],
+      "works": [
+        "being-and-nothingness"
+      ],
+      "concepts": [
+        "bad-faith",
+        "the-unconscious"
+      ],
+      "traditions": [
+        "european",
+        "continental"
+      ],
+      "branches": [
+        "philosophy-of-mind",
+        "existential-philosophy",
+        "metaphysics"
+      ],
+      "citations": [
+        {
+          "source": "text-being-and-nothingness",
+          "locator": "Part I, ch. 2"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Lying needs two people: one who knows and one who does not. Lying to yourself needs both to be you. Sartre takes that apparent impossibility seriously and concludes that it tells us something about what a person is.",
+              "fa": "دروغ دو تن می‌خواهد: یکی که می‌داند و یکی که نمی‌داند. دروغ گفتن به خود می‌خواهد هر دو تو باشی. سارتر این ناممکنیِ ظاهری را جدی می‌گیرد و نتیجه می‌گیرد که چیزی دربارهٔ اینکه شخص چیست به ما می‌گوید."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is a piece of phenomenology that arrives at an ontological conclusion. Sartre begins from an ordinary and undeniable phenomenon — people do deceive themselves, systematically and about important things — and asks what a being must be like for that to be possible at all.\n\nThe answer turns on the distinction he draws between being-in-itself, which is what it is completely and without remainder, and being-for-itself, which is always at a distance from itself. A stone cannot be in bad faith because there is no gap in it for the lie to occupy. A person can, because they are never simply their situation, their past or their role. The examples carry the argument: the woman who leaves her hand in her companion's while treating it as a thing unconnected to her; the waiter whose every gesture is slightly too much a waiter's, playing at being what he cannot simply be.",
+              "fa": "این استدلال پاره‌ای پدیدارشناسی است که به نتیجه‌ای هستی‌شناختی می‌رسد. سارتر از پدیده‌ای عادی و انکارناپذیر آغاز می‌کند — آدمیان به‌راستی خود را می‌فریبند، به‌طور نظام‌مند و در چیزهای مهم — و می‌پرسد هستنده‌ای باید چگونه باشد که این اصلاً ممکن شود.\n\nپاسخ بر تمایزی می‌چرخد که میانِ هستیِ در-خود می‌نهد، که تماماً و بی‌باقی همان است که هست، و هستیِ برای-خود، که همواره از خود فاصله دارد. سنگ نمی‌تواند در سوءنیت باشد چون شکافی در آن نیست که دروغ در آن بنشیند. آدمی می‌تواند، چون هرگز به‌سادگی وضعیت و گذشته و نقشِ خود نیست. نمونه‌ها استدلال را می‌برند: زنی که دستش را در دستِ همراهش می‌گذارد و در همان حال آن را چیزی بی‌ربط به خود می‌گیرد؛ پیشخدمتی که هر حرکتش اندکی بیش از حد پیشخدمتانه است، و ادایِ بودنِ چیزی را درمی‌آورد که نمی‌تواند به‌سادگی باشد."
+            },
+            "citations": [
+              {
+                "source": "text-being-and-nothingness",
+                "locator": "Part I, ch. 2"
+              }
+            ]
+          },
+          {
+            "id": "is-the-paradox-real",
+            "depth": "deep",
+            "body": {
+              "en": "Whether self-deception is genuinely paradoxical is disputed, and the answer decides how much Sartre's ontology is doing. Deflationary accounts hold that self-deception is ordinary motivated irrationality — attention steered away, evidence weighed badly — and needs no special structure of being to explain it. Sartre would answer that such accounts describe the mechanism and leave out the phenomenon: the person in bad faith is not merely mistaken but is holding something at a distance they could look at. Which of these captures the ordinary case is not settled, and the argument stands or falls with it.",
+              "fa": "اینکه خودفریبی به‌راستی پارادوکسی است یا نه محلِ نزاع است، و پاسخ تعیین می‌کند هستی‌شناسیِ سارتر چه اندازه کار می‌کند. تبیین‌های فروکاهنده بر آن‌اند که خودفریبی همان بی‌خردیِ انگیزه‌مندِ عادی است — توجهی که به سویی دیگر رانده شده، شاهدی که بد سنجیده شده — و برای تبیینش به ساختارِ ویژه‌ای از هستی نیاز نیست. سارتر پاسخ می‌داد که چنین تبیین‌هایی سازوکار را وصف می‌کنند و پدیده را جا می‌گذارند: کسی که در سوءنیت است صرفاً در خطا نیست بلکه چیزی را در فاصله نگاه می‌دارد که می‌توانست به آن بنگرد. اینکه کدام‌یک از این‌ها موردِ عادی را می‌گیرد فیصله نیافته، و این استدلال با آن می‌ایستد یا می‌افتد."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-being-and-nothingness",
+                "locator": "Part I, ch. 2"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "singer-famine-argument",
       "name": {
         "en": "The Drowning Child",
@@ -3149,6 +4409,170 @@
       "traditions": [
         "ancient-greek"
       ]
+    },
+    {
+      "id": "wonhyo-harmonisation",
+      "name": {
+        "en": "The Harmonisation of Disputes",
+        "fa": "هماهنگ‌سازی نزاع‌ها"
+      },
+      "oneLine": {
+        "en": "That doctrinal disputes usually arise from each side taking a partial view for the whole, and can be resolved by finding what each is right about.",
+        "fa": "اینکه نزاع‌های آموزه‌ای معمولاً از آن برمی‌خیزند که هر سو دیدی جزئی را کل می‌گیرد، و با یافتنِ آنچه هر سو در آن بر حق است حل می‌شوند."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Competing schools each appeal to scripture and each can defend their reading.",
+            "fa": "مکتب‌های رقیب هر یک به متنِ مقدس رجوع می‌کنند و هر یک می‌توانند از خوانشِ خود دفاع کنند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Where two well-supported readings conflict, either one is simply wrong or each is answering a different question.",
+            "fa": "هرجا دو خوانشِ خوش‌پشتوانه ناسازگار باشند، یا یکی به‌سادگی بر خطاست یا هر یک به پرسشی دیگر پاسخ می‌دهد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "In the disputes examined, each position can be shown to hold under a specification that the other does not deny.",
+            "fa": "در نزاع‌هایی که وارسی شده‌اند، می‌توان نشان داد هر موضعی زیرِ قیدی برقرار است که دیگری آن را انکار نمی‌کند."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore the disputes are resolved not by victory but by locating the specification each side was tacitly assuming.",
+          "fa": "پس این نزاع‌ها نه با پیروزی بلکه با یافتنِ آن قیدی حل می‌شوند که هر سو خاموش فرضش گرفته بود."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the texts are consistent, so an apparent conflict indicates a missing specification rather than an error in one of them.",
+          "fa": "اینکه این متن‌ها سازگارند، پس ناسازگاریِ ظاهری نشانهٔ قیدی گمشده است نه خطایی در یکی از آن‌ها."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The method presupposes that the texts cannot contradict each other, which is a theological commitment rather than a result.",
+            "fa": "این روش پیش‌فرض می‌گیرد که این متن‌ها نمی‌توانند با هم ناسازگار باشند، و این تعهدی الهیاتی است نه نتیجه‌ای."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "Wŏnhyo grants the commitment openly; his claim is that it is vindicated case by case, by disputes that actually dissolve when the specification is supplied. Whether the cases were selected for that outcome is a fair question.",
+              "fa": "وونهیو این تعهد را آشکارا می‌پذیرد؛ ادعایش آن است که مورد به مورد تأیید می‌شود، با نزاع‌هایی که وقتی آن قید فراهم شود به‌راستی فرومی‌ریزند. اینکه آن موردها برای همین نتیجه برگزیده شده‌اند یا نه، پرسشی رواست."
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Some doctrinal disagreements are substantive: two schools can mean the same thing by the same words and still disagree.",
+            "fa": "برخی اختلاف‌های آموزه‌ای ماهوی‌اند: دو مکتب می‌توانند از یک واژه یک معنا مراد کنند و باز هم اختلاف داشته باشند."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "The method does not claim every dispute is verbal, only that the ones it treats are; a residue of real disagreement is compatible with it. Critics answer that without a criterion for telling the two apart the method can absorb any counterexample.",
+              "fa": "این روش ادعا نمی‌کند هر نزاعی لفظی است، تنها می‌گوید آن‌هایی که به آن‌ها می‌پردازد چنین‌اند؛ باقی‌مانده‌ای از اختلافِ راستین با آن سازگار است. منتقدان پاسخ می‌دهند که بی‌معیاری برای تمیزِ این دو، این روش هر نمونهٔ نقضی را در خود می‌بلعد."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "wonhyo"
+      ],
+      "opponents": [],
+      "works": [
+        "simmun-hwajaeng-non"
+      ],
+      "concepts": [
+        "anekantavada"
+      ],
+      "traditions": [
+        "korean",
+        "buddhist"
+      ],
+      "branches": [
+        "comparative-philosophy",
+        "epistemology",
+        "philosophy-of-religion",
+        "logic"
+      ],
+      "citations": [
+        {
+          "source": "text-simmun-hwajaeng-non",
+          "locator": "surviving fragments"
+        }
+      ],
+      "attribution": "probable",
+      "attributionNote": {
+        "en": "The treatise survives only in fragments and in a stele inscription. The method is reconstructed from those and from Wŏnhyo's commentaries, where he applies it without setting it out as a doctrine; the systematic statement is largely his readers' work.",
+        "fa": "این رساله تنها در پاره‌ها و در کتیبه‌ای سنگی بر جای مانده. این روش از همان‌ها و از شرح‌های وونهیو بازسازی شده، که در آن‌ها به کارش می‌بندد بی‌آنکه همچون آموزه‌ای عرضه‌اش کند؛ بیانِ نظام‌مندِ آن عمدتاً کارِ خوانندگانِ اوست."
+      },
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Wŏnhyo lived among Buddhist schools that had inherited their disputes from China along with their texts. His method is to assume neither side is simply wrong, and to look for the question each was answering — which usually turns out to be a different question.",
+              "fa": "وونهیو در میانِ مکتب‌های بودایی می‌زیست که نزاع‌هاشان را همراهِ متن‌هاشان از چین به ارث برده بودند. روشِ او آن است که فرض کند هیچ سویی به‌سادگی بر خطا نیست، و در پیِ آن پرسشی بگردد که هر سو به آن پاسخ می‌داد — و معمولاً از کار درمی‌آید که پرسشی دیگر بوده."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The setting explains the shape. Korean Buddhism in the seventh century received a library of Chinese commentary in which positions had already hardened into schools, and the disputes arrived without the contexts that had produced them. Wŏnhyo's response was neither to pick a side nor to declare the questions unanswerable, but to treat the conflict itself as evidence that something had been left unstated.\n\nThe method is applied rather than announced. In the commentaries he takes a dispute — over whether awakening is sudden or gradual, over the status of the one mind — restates each position in its strongest form, identifies the respect in which each holds, and shows that the denials are aimed past each other. The result is not a compromise between the positions but a description of the terrain on which both are standing. It is the reason he is read as a systematiser in a tradition that mostly produced partisans.",
+              "fa": "زمینه شکلِ کار را تبیین می‌کند. بودیسمِ کره در سدهٔ هفتم کتابخانه‌ای از شرحِ چینی دریافت کرد که در آن موضع‌ها پیشاپیش به مکتب سخت شده بودند، و نزاع‌ها بی آن زمینه‌هایی رسیدند که زاده‌شان بود. پاسخِ وونهیو نه برگزیدنِ سویی بود و نه بی‌پاسخ خواندنِ پرسش‌ها، بلکه گرفتنِ خودِ ناسازگاری همچون نشانهٔ آنکه چیزی ناگفته مانده.\n\nاین روش به کار بسته می‌شود نه اعلام. در شرح‌ها نزاعی را برمی‌گیرد — بر سرِ اینکه بیداری ناگهانی است یا تدریجی، بر سرِ جایگاهِ ذهنِ یگانه — هر موضع را در نیرومندترین صورتش بازمی‌گوید، آن جهتی را که هر یک در آن برقرار است می‌یابد، و نشان می‌دهد که آن انکارها از کنارِ هم می‌گذرند. حاصل، سازشی میانِ موضع‌ها نیست بلکه وصفِ زمینی است که هر دو بر آن ایستاده‌اند. و همین دلیلِ آن است که او را در سنتی که بیشتر جانبدار می‌پروراند، نظام‌بخش می‌خوانند."
+            },
+            "citations": [
+              {
+                "source": "text-simmun-hwajaeng-non",
+                "locator": "surviving fragments"
+              },
+              {
+                "source": "text-simmun-hwajaeng-non",
+                "locator": "stele inscription"
+              }
+            ]
+          },
+          {
+            "id": "what-survives-of-it",
+            "depth": "deep",
+            "body": {
+              "en": "The work that gives the method its name is almost entirely lost. What is known comes from fragments, from a stele erected long after his death, and from the commentaries where the method is used rather than described — so the systematic version presented in modern accounts is a reconstruction, and how much of its tidiness is Wŏnhyo's and how much his interpreters' cannot be settled from what survives. A separate question is how far the method is distinctively Korean: it has clear affinities with Chinese doctrinal classification and with Indian standpoint analysis, and scholars differ on whether it is an inheritance, a convergence, or an innovation.",
+              "fa": "اثری که این روش نامش را از آن دارد تقریباً یکسره از دست رفته. آنچه دانسته است از پاره‌ها می‌آید، از کتیبه‌ای که مدت‌ها پس از مرگش برپا شد، و از شرح‌هایی که در آن‌ها این روش به کار بسته می‌شود نه وصف — پس آن روایتِ نظام‌مندی که در تبیین‌های امروزین عرضه می‌شود بازسازی است، و اینکه چه اندازه از آراستگی‌اش از آنِ وونهیو است و چه اندازه از آنِ مفسرانش، از آنچه بر جای مانده فیصله نمی‌یابد. پرسشی جدا آن است که این روش تا چه اندازه به‌طور مشخص کره‌ای است: با دسته‌بندیِ آموزه‌ایِ چینی و با تحلیلِ دیدگاهیِ هندی پیوندهای روشن دارد، و پژوهشگران بر سرِ اینکه میراث است یا هم‌گرایی یا نوآوری اختلاف دارند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-simmun-hwajaeng-non"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "zera-yacob-equality",

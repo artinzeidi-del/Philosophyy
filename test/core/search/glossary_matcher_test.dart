@@ -210,6 +210,12 @@ void main() {
         'commentary-tradition',
         'canon',
         'nous',
+        // A school and a method, and general in the second sense wherever it
+        // appears: Sartre's argument is a piece of phenomenology, and so is
+        // Merleau-Ponty's and Nishida's. It crossed the line when arguments
+        // joined the entities this scans, which widened the pool rather than
+        // changing what the word means.
+        'phenomenology',
       };
 
       String boundary(String form, AppLanguage language) {
