@@ -22,7 +22,7 @@ philosophy, built with Flutter.
 | Home, Explore, Search, Settings, Article screens | Built |
 | Glossary, primer, library (saves, notes, highlights) | Built |
 | Quiz, built from the corpus, with nine ranks of progress | Built, 28 tests |
-| Corpus | 192 philosophers, 76 concepts, 186 works, 29 schools, 238 quotations, 30 arguments, 304 sources, 76 glossary terms |
+| Corpus | 192 philosophers, 76 concepts, 186 works, 29 schools, 238 quotations, 30 arguments, 4 problems, 304 sources, 76 glossary terms |
 | Continuous reader, spaced review, graph view | **Not started** |
 
 ## Running it

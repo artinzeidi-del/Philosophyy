@@ -23,6 +23,9 @@ enum EntityKind {
   /// A reconstructed argument.
   argument(id: 'argument', routeSegment: 'arguments'),
 
+  /// A question philosophers have disagreed about.
+  problem(id: 'problem', routeSegment: 'problems'),
+
   /// A bibliographic source.
   source(id: 'source', routeSegment: 'sources');
 

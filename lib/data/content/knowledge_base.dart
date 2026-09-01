@@ -6,6 +6,7 @@ import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/primer_step.dart';
+import 'package:philosophyy/domain/entities/problem.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/school.dart';
@@ -35,6 +36,7 @@ class KnowledgeBase {
     required List<Quote> quotes,
     required List<Argument> arguments,
     required List<Source> sources,
+    List<Problem> problems = const <Problem>[],
     required List<Relation> relations,
     List<GlossaryTerm> glossary = const <GlossaryTerm>[],
     List<PrimerStep> primer = const <PrimerStep>[],
@@ -50,6 +52,7 @@ class KnowledgeBase {
        schools = List.unmodifiable(schools),
        quotes = List.unmodifiable(quotes),
        arguments = List.unmodifiable(arguments),
+       problems = List.unmodifiable(problems),
        sources = List.unmodifiable(sources),
        relations = List.unmodifiable(relations),
        _philosophersById = {for (final it in philosophers) it.id: it},
@@ -58,6 +61,7 @@ class KnowledgeBase {
        _schoolsById = {for (final it in schools) it.id: it},
        _quotesById = {for (final it in quotes) it.id: it},
        _argumentsById = {for (final it in arguments) it.id: it},
+       _problemsById = {for (final it in problems) it.id: it},
        _sourcesById = {for (final it in sources) it.id: it},
        _glossaryById = {for (final it in glossary) it.id: it} {
     _indexRelations();
@@ -102,6 +106,9 @@ class KnowledgeBase {
   /// All reconstructed arguments.
   final List<Argument> arguments;
 
+  /// Every question the corpus records rival answers to.
+  final List<Problem> problems;
+
   /// All bibliographic sources.
   final List<Source> sources;
 
@@ -120,6 +127,7 @@ class KnowledgeBase {
   final Map<String, School> _schoolsById;
   final Map<String, Quote> _quotesById;
   final Map<String, Argument> _argumentsById;
+  final Map<String, Problem> _problemsById;
   final Map<String, Source> _sourcesById;
   final Map<String, GlossaryTerm> _glossaryById;
 
@@ -210,6 +218,9 @@ class KnowledgeBase {
   /// Looks up an argument.
   Argument? argument(String id) => _argumentsById[id];
 
+  /// Looks up a problem.
+  Problem? problem(String id) => _problemsById[id];
+
   /// Looks up a source.
   Source? source(String id) => _sourcesById[id];
 
@@ -221,6 +232,7 @@ class KnowledgeBase {
     EntityKind.work => work(ref.id),
     EntityKind.school => school(ref.id),
     EntityKind.argument => argument(ref.id),
+    EntityKind.problem => problem(ref.id),
     EntityKind.quote => null,
     EntityKind.source => null,
   };
@@ -239,7 +251,8 @@ class KnowledgeBase {
     EntityKind.philosopher ||
     EntityKind.concept ||
     EntityKind.work ||
-    EntityKind.school => resolve(ref)?.name,
+    EntityKind.school ||
+    EntityKind.problem => resolve(ref)?.name,
     EntityKind.argument => argument(ref.id)?.name,
     EntityKind.quote => quote(ref.id)?.text,
     EntityKind.source => source(ref.id)?.title,
@@ -253,6 +266,7 @@ class KnowledgeBase {
     EntityKind.school => _schoolsById.containsKey(ref.id),
     EntityKind.quote => _quotesById.containsKey(ref.id),
     EntityKind.argument => _argumentsById.containsKey(ref.id),
+    EntityKind.problem => _problemsById.containsKey(ref.id),
     EntityKind.source => _sourcesById.containsKey(ref.id),
   };
 
@@ -263,6 +277,7 @@ class KnowledgeBase {
     yield* works;
     yield* schools;
     yield* arguments;
+    yield* problems;
   }
 
   /// Every relation touching [ref], oriented so that [ref] is the subject.
@@ -606,6 +621,33 @@ class KnowledgeBase {
         checkCitations(context, objection.citations);
       }
       checkCitations(context, argument.citations);
+    }
+
+    for (final problem in problems) {
+      final context = 'problem:${problem.id}';
+      checkTaxonomy(
+        context,
+        'traditions',
+        problem.traditions,
+        TaxonomyKind.tradition,
+      );
+      checkTaxonomy(context, 'branches', problem.branches, TaxonomyKind.branch);
+      checkIds(context, 'concepts', problem.conceptIds, conceptExists);
+      checkIds(context, 'works', problem.workIds, workExists);
+      checkIds(context, 'arguments', problem.argumentIds, argumentExists);
+      checkCitations(context, problem.citations);
+      for (final stance in problem.positions) {
+        final where = '$context/position:${stance.id}';
+        checkIds(
+          where,
+          'philosophers',
+          stance.philosopherIds,
+          philosopherExists,
+        );
+        checkIds(where, 'arguments', stance.argumentIds, argumentExists);
+        checkIds(where, 'schools', stance.schoolIds, schoolExists);
+        checkCitations(where, stance.citations);
+      }
     }
 
     for (final relation in relations) {

@@ -1,0 +1,698 @@
+{
+  "_comment": "Questions philosophers have disagreed about, with the shape of the disagreement. A problem records at least two positions; an entry with one is a claim, not a problem.",
+  "problems": [
+    {
+      "id": "existence-of-god",
+      "name": {
+        "en": "Whether There Is a God",
+        "fa": "آیا خدایی هست"
+      },
+      "oneLine": {
+        "en": "The question that has drawn more argument than any other, and on which the arguments have moved further than the positions.",
+        "fa": "پرسشی که بیش از هر پرسشِ دیگری استدلال به خود کشیده، و در آن استدلال‌ها بیش از موضع‌ها جابه‌جا شده‌اند."
+      },
+      "question": {
+        "en": "Is there a being of the kind the theistic traditions describe, and can reason settle it either way?",
+        "fa": "آیا موجودی از آن‌گونه که سنت‌های خداباور وصف می‌کنند هست، و آیا خرد می‌تواند این را به هر سو فیصله دهد؟"
+      },
+      "positions": [
+        {
+          "id": "theism-provable",
+          "name": {
+            "en": "It can be shown",
+            "fa": "اثبات‌پذیر است"
+          },
+          "summary": {
+            "en": "There is a God, and reason unaided by revelation can establish it — from the idea of God, from the existence of anything contingent, or from the world having a beginning.",
+            "fa": "خدایی هست، و خرد بی‌یاریِ وحی می‌تواند آن را اثبات کند — از مفهومِ خدا، از هستیِ هر چیزِ ممکن، یا از آغاز داشتنِ جهان."
+          },
+          "philosophers": [
+            "anselm",
+            "ibn-sina",
+            "philoponus",
+            "al-ghazali"
+          ],
+          "arguments": [
+            "ontological-argument",
+            "contingency-argument",
+            "philoponus-against-eternity"
+          ],
+          "schools": [
+            "scholasticism"
+          ],
+          "citations": [
+            {
+              "source": "text-proslogion",
+              "locator": "ch. 2"
+            },
+            {
+              "source": "avicenna-isharat",
+              "locator": "Namat 4"
+            }
+          ]
+        },
+        {
+          "id": "beyond-proof",
+          "name": {
+            "en": "It is beyond what proof reaches",
+            "fa": "فراتر از دسترسِ برهان"
+          },
+          "summary": {
+            "en": "There is a God, but the terms in which the proofs are stated do not apply, so what they establish is not what the tradition means. What can be said is what God is not.",
+            "fa": "خدایی هست، اما آن واژه‌هایی که برهان‌ها با آن‌ها بیان می‌شوند اطلاق نمی‌یابند، پس آنچه اثبات می‌کنند آن نیست که سنت مراد می‌کند. آنچه گفتنی است همان است که خدا نیست."
+          },
+          "philosophers": [
+            "maimonides"
+          ],
+          "arguments": [
+            "maimonides-negative-attributes"
+          ],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-guide-for-the-perplexed",
+              "locator": "I.58"
+            }
+          ]
+        },
+        {
+          "id": "evidence-against",
+          "name": {
+            "en": "The evidence runs the other way",
+            "fa": "شاهد به سوی دیگر می‌رود"
+          },
+          "summary": {
+            "en": "The amount and distribution of suffering is strong evidence against a God who is both able and willing to prevent it, whatever the proofs are held to show.",
+            "fa": "اندازه و پخشِ رنج شاهدی نیرومند است بر ضدِ خدایی که هم می‌تواند و هم می‌خواهد از آن جلوگیری کند، هر چه هم آن برهان‌ها گفته شود که ثابت می‌کنند."
+          },
+          "philosophers": [
+            "hume"
+          ],
+          "arguments": [
+            "problem-of-evil"
+          ],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-dialogues-natural-religion",
+              "locator": "Part X"
+            }
+          ]
+        }
+      ],
+      "arguments": [
+        "ghazali-causation"
+      ],
+      "concepts": [
+        "necessary-and-contingent-being",
+        "negative-theology"
+      ],
+      "works": [
+        "proslogion",
+        "guide-for-the-perplexed"
+      ],
+      "traditions": [
+        "christian",
+        "islamic",
+        "persian",
+        "jewish",
+        "medieval",
+        "european",
+        "byzantine"
+      ],
+      "branches": [
+        "philosophy-of-religion",
+        "metaphysics"
+      ],
+      "citations": [
+        {
+          "source": "text-proslogion",
+          "locator": "ch. 2"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Three kinds of answer have been given. That reason can prove it, and here are the proofs. That there is a God but the proofs describe something else, because our words do not reach that far. And that whatever the proofs show, the suffering in the world is evidence the other way.",
+              "fa": "سه گونه پاسخ داده شده است. اینکه خرد می‌تواند اثباتش کند، و این‌ها برهان‌هایش. اینکه خدایی هست اما برهان‌ها چیزِ دیگری را وصف می‌کنند، چون واژه‌های ما به آنجا نمی‌رسند. و اینکه هر چه برهان‌ها نشان دهند، رنجِ جهان شاهدی است به سوی دیگر."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "What is striking about the history is how little the positions have moved and how much the arguments have. The ontological argument is refuted in every century and rebuilt in the next; the argument from contingency is restated by Aquinas on different foundations from Ibn Sīnā's; the argument from the world's beginning passes from Philoponus to al-Kindī to al-Ghazālī to Bonaventure and into current cosmology. The problem of evil goes the other way, growing sharper as the free-will defence closes the logical version and the evidential version takes its place.\n\nThe positions themselves are best distinguished by what they think reason is for. The first holds that natural theology is possible: that someone with no scripture could reach God by argument. The second holds that it is possible and misleading, since a God established by such means is a God small enough to be established. The third holds that the same standards which would let a proof succeed also let evidence count against, and that the evidence is bad.",
+              "fa": "آنچه در این تاریخ چشمگیر است این است که موضع‌ها چه اندک جابه‌جا شده‌اند و استدلال‌ها چه بسیار. برهانِ وجودی در هر سده ابطال می‌شود و در سدهٔ بعد از نو ساخته می‌شود؛ برهانِ امکان را آکوئیناس بر بنیادی جز بنیادِ ابن‌سینا بازمی‌گوید؛ برهانِ برآمده از آغازِ جهان از فیلوپونوس به کندی و از او به غزالی و بوناونتوره و به کیهان‌شناسیِ امروز می‌رسد. مسئلهٔ شر راهِ وارونه می‌رود و تیزتر می‌شود، چون دفاعِ ارادهٔ آزاد روایتِ منطقی را می‌بندد و روایتِ شاهدی جایش را می‌گیرد.\n\nخودِ موضع‌ها را بهتر است با آنچه دربارهٔ کارِ خرد می‌اندیشند از هم جدا کرد. نخستی بر آن است که الهیاتِ طبیعی ممکن است: که کسی بی‌هیچ کتابِ مقدسی می‌تواند با استدلال به خدا برسد. دومی بر آن است که ممکن است و گمراه‌کننده، چون خدایی که با چنین وسیله‌هایی اثبات شود خدایی است چندان کوچک که اثبات‌شدنی باشد. سومی بر آن است که همان معیارهایی که به برهان اجازهٔ کامیابی می‌دهند، به شاهد نیز اجازه می‌دهند بر ضد بشمارد، و آن شاهد بد است."
+            },
+            "citations": [
+              {
+                "source": "text-proslogion",
+                "locator": "ch. 2"
+              },
+              {
+                "source": "text-dialogues-natural-religion",
+                "locator": "Part X"
+              }
+            ]
+          },
+          {
+            "id": "what-would-settle-it",
+            "depth": "deep",
+            "body": {
+              "en": "There is no agreement on what would count as settling the question, and that disagreement is doing more work than any of the arguments. Those who take the proofs seriously hold that a valid argument from premises everyone accepts would settle it; those who take the evidential problem seriously hold that no such premises exist and the question is one of cumulative probability; and those in the negative-theology tradition hold that both parties have already agreed to describe something that cannot be described, so their dispute is about a third thing. The positions above are therefore not three answers to one question so much as three views about what the question is.",
+              "fa": "توافقی نیست بر سرِ اینکه چه چیز این پرسش را فیصله می‌دهد، و همین اختلاف بیش از هر یک از آن استدلال‌ها کار می‌کند. آنان که برهان‌ها را جدی می‌گیرند بر آن‌اند که استدلالی معتبر از مقدماتی که همه می‌پذیرند آن را فیصله می‌دهد؛ آنان که مسئلهٔ شاهدی را جدی می‌گیرند بر آن‌اند که چنین مقدماتی در کار نیست و این پرسشِ احتمالِ انباشته است؛ و آنان که در سنتِ الهیاتِ سلبی‌اند بر آن‌اند که هر دو طرف پیشاپیش پذیرفته‌اند چیزی را وصف کنند که وصف‌شدنی نیست، پس نزاعشان بر سرِ چیزِ سومی است. پس این موضع‌ها چندان سه پاسخ به یک پرسش نیستند که سه دیدگاه دربارهٔ اینکه آن پرسش چیست."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounds-of-belief",
+      "name": {
+        "en": "What Settles a Belief",
+        "fa": "چه چیز باور را فیصله می‌دهد"
+      },
+      "oneLine": {
+        "en": "If past experience cannot license expectations about the future, the question becomes what inquiry is actually doing.",
+        "fa": "اگر تجربهٔ گذشته نتواند انتظارهای ما دربارهٔ آینده را روا دارد، پرسش این می‌شود که پژوهش در عمل چه می‌کند."
+      },
+      "question": {
+        "en": "On what basis may a belief about what has not been observed be held, and what makes one way of settling belief better than another?",
+        "fa": "بر چه پایه‌ای می‌توان باوری دربارهٔ آنچه مشاهده نشده داشت، و چه چیز شیوه‌ای از فیصله دادن به باور را از شیوه‌ای دیگر بهتر می‌کند؟"
+      },
+      "positions": [
+        {
+          "id": "no-rational-basis",
+          "name": {
+            "en": "There is none, and habit does the work",
+            "fa": "پایه‌ای نیست، و عادت کار را می‌کند"
+          },
+          "summary": {
+            "en": "No argument justifies moving from observed cases to unobserved ones without assuming what it sets out to prove. We do it anyway, and custom rather than reason is what carries us across.",
+            "fa": "هیچ استدلالی گذر از موردهای مشاهده‌شده به مشاهده‌نشده را بی‌فرض گرفتنِ همان چیزی که می‌خواهد اثبات کند موجه نمی‌کند. با این همه چنین می‌کنیم، و آنچه ما را از این شکاف می‌گذراند عادت است نه خرد."
+          },
+          "philosophers": [
+            "hume"
+          ],
+          "arguments": [
+            "induction-argument"
+          ],
+          "schools": [
+            "empiricism"
+          ],
+          "citations": [
+            {
+              "source": "text-enquiry-human-understanding",
+              "locator": "IV"
+            }
+          ]
+        },
+        {
+          "id": "method-not-justification",
+          "name": {
+            "en": "Ask which method holds up, not what justifies it",
+            "fa": "بپرس کدام روش دوام می‌آورد، نه چه چیز آن را موجه می‌کند"
+          },
+          "summary": {
+            "en": "Inquiry is the struggle to escape doubt, and methods are judged by whether the belief they produce survives meeting other people and later evidence. Only one of the four does.",
+            "fa": "پژوهش کوششی است برای رهایی از شک، و روش‌ها با این سنجیده می‌شوند که آیا باوری که می‌زایند از روبه‌رو شدن با دیگران و با شواهدِ بعدی جان به در می‌برد. تنها یکی از آن چهار چنین می‌کند."
+          },
+          "philosophers": [
+            "peirce"
+          ],
+          "arguments": [
+            "peirce-fixation-of-belief"
+          ],
+          "schools": [
+            "pragmatism"
+          ],
+          "citations": [
+            {
+              "source": "text-fixation-of-belief",
+              "locator": "§IV"
+            }
+          ]
+        },
+        {
+          "id": "causation-is-not-observed",
+          "name": {
+            "en": "The connection was never in the objects",
+            "fa": "آن پیوند هرگز در خودِ اشیا نبود"
+          },
+          "summary": {
+            "en": "What we call a cause is a regularity we have observed and God sustains; necessity is not something the senses ever deliver, and a miracle is therefore not a violation of anything found in nature.",
+            "fa": "آنچه علتش می‌خوانیم قاعده‌ای است که دیده‌ایم و خدا نگاهش می‌دارد؛ ضرورت چیزی نیست که حواس هرگز به دست دهند، و پس معجزه نقضِ هیچ چیزی نیست که در طبیعت یافته شده باشد."
+          },
+          "philosophers": [
+            "al-ghazali"
+          ],
+          "arguments": [
+            "ghazali-causation"
+          ],
+          "schools": [],
+          "citations": [
+            {
+              "source": "ghazali-tahafut",
+              "locator": "Discussion 17"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "concepts": [
+        "problem-of-induction",
+        "scientific-method-doubt",
+        "pragmatic-maxim"
+      ],
+      "works": [
+        "fixation-of-belief"
+      ],
+      "traditions": [
+        "european",
+        "american",
+        "pragmatist",
+        "islamic",
+        "persian"
+      ],
+      "branches": [
+        "epistemology",
+        "philosophy-of-science",
+        "metaphysics"
+      ],
+      "citations": [
+        {
+          "source": "text-enquiry-human-understanding",
+          "locator": "IV"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Every expectation about tomorrow rests on yesterday, and nothing about yesterday guarantees tomorrow will resemble it. Three responses: give up on justifying it and describe the habit instead; stop asking for justification and ask which method survives; or deny that the connection was ever in the objects at all.",
+              "fa": "هر انتظاری دربارهٔ فردا بر دیروز می‌ایستد، و هیچ چیزِ دیروز ضمانت نمی‌کند که فردا به آن بماند. سه پاسخ: از موجه کردنش دست بردار و به‌جایش آن عادت را وصف کن؛ دست از خواستنِ توجیه بردار و بپرس کدام روش دوام می‌آورد؛ یا اصلاً انکار کن که آن پیوند هرگز در خودِ اشیا بوده."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The three answers come from traditions that were not talking to each other, and their convergence on the same observation is more striking than their differences. Al-Ghazālī, writing in the eleventh century against the philosophers, points out that we observe fire and burning together and never observe the burning being produced. Hume, seven centuries later and with no evidence of contact, makes the identical observation and draws an opposite conclusion: al-Ghazālī locates the necessity in God, Hume in the mind's habit.\n\nPeirce changes the question rather than answering it. If no argument can justify induction, then asking for one is asking for something inquiry never had; what can be asked is which way of settling belief actually keeps it settled. That reframing is what makes his position a third one rather than a variant of Hume's — it accepts the negative result and denies that it was ever the important question.",
+              "fa": "این سه پاسخ از سنت‌هایی می‌آیند که با هم سخن نمی‌گفتند، و هم‌گراییِ آن‌ها بر سرِ یک مشاهده چشمگیرتر از تفاوت‌هاشان است. غزالی، که در سدهٔ یازدهم بر ضدِ فیلسوفان می‌نوشت، یادآور می‌شود که ما آتش و سوختن را با هم می‌بینیم و هرگز نمی‌بینیم که سوختن پدید آورده شود. هیوم، هفت سده بعد و بی‌هیچ شاهدی بر تماس، همان مشاهده را می‌کند و نتیجه‌ای وارونه می‌گیرد: غزالی آن ضرورت را در خدا می‌نشاند و هیوم در عادتِ ذهن.\n\nپرس به‌جای پاسخ دادن، پرسش را عوض می‌کند. اگر هیچ استدلالی نتواند استقرا را موجه کند، پس خواستنِ چنین استدلالی خواستنِ چیزی است که پژوهش هرگز نداشته؛ آنچه پرسیدنی است این است که کدام شیوهٔ فیصله دادن به باور، آن را به‌راستی فیصله‌یافته نگاه می‌دارد. همین بازچارچوب‌بندی است که موضعِ او را موضعی سوم می‌کند نه گونه‌ای از موضعِ هیوم — نتیجهٔ سلبی را می‌پذیرد و انکار می‌کند که آن هرگز پرسشِ مهم بوده."
+            },
+            "citations": [
+              {
+                "source": "text-enquiry-human-understanding",
+                "locator": "IV"
+              },
+              {
+                "source": "ghazali-tahafut",
+                "locator": "Discussion 17"
+              }
+            ]
+          },
+          {
+            "id": "did-anything-travel",
+            "depth": "deep",
+            "body": {
+              "en": "The resemblance between al-Ghazālī and Hume has repeatedly prompted the suggestion that the argument travelled, through the Latin Ibn Rushd, who quotes al-Ghazālī at length and was widely read. The channel existed; the transmission is not documented, Hume never cites him, and the same argument was available closer to hand from Nicholas of Autrecourt and the occasionalists. Most scholars treat it as convergence. What that convergence shows — that the observation is forced on anyone who looks carefully, or that both were reacting to a shared Aristotelian inheritance — is itself argued.",
+              "fa": "همانندیِ میان غزالی و هیوم بارها این گمان را برانگیخته که آن استدلال سفر کرده، از راهِ ابن‌رشدِ لاتین که غزالی را به‌تفصیل نقل می‌کند و بسیار خوانده می‌شد. آن مجرا بوده؛ اما انتقال مستند نیست، هیوم هرگز از او نام نمی‌برد، و همان استدلال از نیکلاس اوترکوری و موقع‌گرایان نزدیک‌تر در دسترس بود. بیشترِ پژوهشگران آن را هم‌گرایی می‌دانند. اینکه این هم‌گرایی چه نشان می‌دهد — که این مشاهده بر هرکسی که با دقت بنگرد تحمیل می‌شود، یا که هر دو به میراثی ارسطویی واکنش نشان می‌دادند — خود محلِ بحث است."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-tahafut-al-tahafut"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "is-human-nature-good",
+      "name": {
+        "en": "Whether Human Nature Is Good",
+        "fa": "آیا سرشت آدمی نیک است"
+      },
+      "oneLine": {
+        "en": "A dispute inside one tradition, between two men reading the same texts and watching the same people.",
+        "fa": "نزاعی در درونِ یک سنت، میانِ دو تن که همان متن‌ها را می‌خواندند و همان آدمیان را می‌دیدند."
+      },
+      "question": {
+        "en": "Left to itself, does human nature tend toward goodness, toward harm, or toward nothing in particular?",
+        "fa": "سرشتِ آدمی اگر به حالِ خود رها شود، به نیکی می‌گراید، به آسیب، یا به هیچ سوی معینی؟"
+      },
+      "positions": [
+        {
+          "id": "nature-is-good",
+          "name": {
+            "en": "Nature is good",
+            "fa": "سرشت نیک است"
+          },
+          "summary": {
+            "en": "Everyone has the sprouts of virtue and shows them before deliberation, as in the alarm at a child about to fall into a well. Cultivation grows what is there; it does not install it.",
+            "fa": "هرکسی جوانه‌های فضیلت را دارد و پیش از سنجش نشانشان می‌دهد، چنان‌که در هراس از کودکی که نزدیک است در چاه بیفتد. پرورش آنچه هست را می‌رویاند؛ آن را کار نمی‌گذارد."
+          },
+          "philosophers": [
+            "mencius"
+          ],
+          "arguments": [
+            "mencius-child-argument"
+          ],
+          "schools": [
+            "confucianism"
+          ],
+          "citations": [
+            {
+              "source": "text-mengzi",
+              "locator": "2A.6"
+            }
+          ]
+        },
+        {
+          "id": "nature-is-bad",
+          "name": {
+            "en": "Nature is bad and goodness is made",
+            "fa": "سرشت بد است و نیکی ساخته می‌شود"
+          },
+          "summary": {
+            "en": "People are born wanting what they want and pursuing it; whatever is good in them is the deliberate work of ritual, teaching and law, which is why those things had to be invented.",
+            "fa": "آدمیان زاده می‌شوند و آنچه می‌خواهند می‌خواهند و در پی‌اش می‌روند؛ هرچه در آنان نیک است کارِ عامدانهٔ آیین و آموزش و قانون است، و از همین روست که این‌ها ناچار اختراع شدند."
+          },
+          "philosophers": [
+            "xunzi"
+          ],
+          "arguments": [],
+          "schools": [
+            "confucianism"
+          ],
+          "citations": [
+            {
+              "source": "text-xunzi-book",
+              "locator": "ch. 23"
+            }
+          ]
+        },
+        {
+          "id": "reason-is-the-common-gift",
+          "name": {
+            "en": "Reason is what is given, and it is given to all",
+            "fa": "خرد آن است که داده شده، و به همه داده شده"
+          },
+          "summary": {
+            "en": "What human beings share is not a tendency but a faculty. Reason is distributed alike, which is why customs that rank people cannot be defended by appeal to nature.",
+            "fa": "آنچه آدمیان در آن شریک‌اند گرایش نیست بلکه توانی است. خرد یکسان پخش شده، و از همین روست که رسم‌هایی که آدمیان را رتبه‌بندی می‌کنند با رجوع به طبیعت دفاع‌پذیر نیستند."
+          },
+          "philosophers": [
+            "zera-yacob"
+          ],
+          "arguments": [
+            "zera-yacob-equality"
+          ],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-hatata",
+              "locator": "ch. 4-5"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "concepts": [
+        "ren",
+        "li-ritual"
+      ],
+      "works": [
+        "mengzi",
+        "xunzi-book",
+        "hatata"
+      ],
+      "traditions": [
+        "chinese",
+        "ethiopian",
+        "african"
+      ],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "philosophy-of-psychology"
+      ],
+      "citations": [
+        {
+          "source": "text-mengzi",
+          "locator": "2A.6"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Mencius and Xunzi were both Confucians, both read the same classics, and both could see that people are sometimes kind and often not. They reached opposite conclusions, and the reason is that they meant different things by nature.",
+              "fa": "منسیوس و شون‌دزی هر دو کنفوسیوسی بودند، هر دو همان متونِ کهن را می‌خواندند، و هر دو می‌دیدند که آدمیان گاه مهربان‌اند و بارها نه. به نتیجه‌هایی وارونه رسیدند، و دلیلش این است که از «سرشت» چیزهای متفاوتی مراد می‌کردند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The disagreement is not empirical, which is what makes it philosophically interesting. For Mencius, nature is the direction a thing grows in when nothing prevents it: water flows downhill, and can be splashed upward, and the splashing is what needs explaining. For Xunzi, nature is what a thing does when left alone, and what people do when left alone is take what they want; the whole apparatus of ritual exists because that outcome had to be corrected.\n\nBoth are answering a practical question about education and government, and both draw the same conclusion about its importance from opposite premises. Mencius says cultivate, because the sprouts will die untended. Xunzi says cultivate, because nothing grows without it. Zera Yacob, writing in Ethiopia two thousand years later and with no contact with either, sets the question differently again: what is common to human beings is not a tendency at all but the faculty of reasoning, and its equal distribution is what makes hierarchy indefensible.",
+              "fa": "این اختلاف تجربی نیست، و همین است که آن را فلسفی و جذاب می‌کند. نزد منسیوس، سرشت همان سویی است که چیزی، اگر چیزی بازش ندارد، در آن می‌روید: آب به سرازیری می‌رود، و می‌توان بالا پاشیدش، و همان پاشیدن است که تبیین می‌خواهد. نزد شون‌دزی، سرشت همان است که چیزی، اگر به حالِ خود رها شود، می‌کند، و آنچه آدمیان رها شده می‌کنند برگرفتنِ آن چیزی است که می‌خواهند؛ کلِ دستگاهِ آیین از آن روست که آن نتیجه ناچار باید اصلاح می‌شد.\n\nهر دو به پرسشی عملی دربارهٔ آموزش و حکومت پاسخ می‌دهند، و هر دو از مقدماتی وارونه به همان نتیجه دربارهٔ اهمیتِ آن می‌رسند. منسیوس می‌گوید بپرور، چون جوانه‌ها بی‌رسیدگی می‌میرند. شون‌دزی می‌گوید بپرور، چون بی آن هیچ نمی‌روید. زرا یعقوب، که دو هزار سال بعد در حبشه و بی‌هیچ تماسی با آن دو می‌نوشت، پرسش را باز به‌گونه‌ای دیگر می‌نهد: آنچه میانِ آدمیان مشترک است اصلاً گرایش نیست بلکه توانِ خردورزی است، و پخشِ برابرِ آن همان است که سلسله‌مراتب را دفاع‌ناپذیر می‌کند."
+            },
+            "citations": [
+              {
+                "source": "text-mengzi",
+                "locator": "2A.6"
+              },
+              {
+                "source": "text-xunzi-book",
+                "locator": "ch. 23"
+              }
+            ]
+          },
+          {
+            "id": "whether-the-dispute-is-verbal",
+            "depth": "deep",
+            "body": {
+              "en": "Whether Mencius and Xunzi disagree at all, or only appear to because they define the term differently, is argued in both the Chinese commentarial tradition and modern scholarship. The deflationary reading has the merit of explaining why each could regard the other as obviously wrong while agreeing on almost every practical recommendation. Against it, the two draw different conclusions about whether moral standards are discovered or instituted, which is a substantive difference that survives the terminological one. The question is not settled, and the same shape recurs whenever a tradition argues about nature.",
+              "fa": "اینکه منسیوس و شون‌دزی اصلاً اختلاف دارند، یا تنها چنین می‌نماید چون آن اصطلاح را دیگرگونه تعریف می‌کنند، هم در سنتِ شرح‌نویسیِ چینی و هم در پژوهشِ امروزین محلِ بحث است. خوانشِ فروکاهنده این حسن را دارد که تبیین می‌کند چرا هر یک می‌توانست دیگری را آشکارا بر خطا بداند و در همان حال بر تقریباً هر توصیهٔ عملی با او هم‌داستان باشد. در برابرش، آن دو دربارهٔ اینکه معیارهای اخلاقی کشف می‌شوند یا بنیاد نهاده، به نتیجه‌های متفاوت می‌رسند، و این تفاوتی ماهوی است که از تفاوتِ اصطلاحی جان به در می‌برد. این پرسش فیصله نیافته، و همین شکل هرگاه سنتی بر سرِ طبیعت بحث کند بازمی‌گردد."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-xunzi-book",
+                "locator": "ch. 23"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-we-owe-strangers",
+      "name": {
+        "en": "What We Owe to Strangers",
+        "fa": "آنچه به بیگانگان بدهکاریم"
+      },
+      "oneLine": {
+        "en": "Whether the duty to help reaches people we will never meet, and whether it is a duty at all.",
+        "fa": "اینکه وظیفهٔ یاری رساندن به کسانی که هرگز نخواهیم دیدشان می‌رسد یا نه، و اینکه اصلاً وظیفه است یا نه."
+      },
+      "question": {
+        "en": "Does a person with more than they need owe anything to distant people who are suffering, and if so how much and on what grounds?",
+        "fa": "آیا کسی که بیش از نیازش دارد به مردمانِ دورِ رنج‌دیده چیزی بدهکار است، و اگر آری چقدر و بر چه پایه‌ای؟"
+      },
+      "positions": [
+        {
+          "id": "obligation-to-the-point-of-cost",
+          "name": {
+            "en": "Obliged, and up to the point of comparable cost",
+            "fa": "بدهکار، تا آنجا که هزینه‌اش همسنگ شود"
+          },
+          "summary": {
+            "en": "If we can prevent something bad without sacrificing anything of comparable importance, we ought to — and distance and the number of other people who could help change nothing about what that requires of us.",
+            "fa": "اگر بتوانیم از چیزی بد جلوگیری کنیم بی‌آنکه چیزی با اهمیتِ همسنگ را فدا کنیم، باید چنین کنیم — و فاصله و شمارِ دیگرانی که می‌توانستند کمک کنند در آنچه این از ما می‌طلبد هیچ تغییری نمی‌دهد."
+          },
+          "philosophers": [
+            "singer"
+          ],
+          "arguments": [
+            "singer-famine-argument"
+          ],
+          "schools": [
+            "utilitarianism"
+          ],
+          "citations": [
+            {
+              "source": "text-famine-affluence-morality",
+              "locator": "opening"
+            }
+          ]
+        },
+        {
+          "id": "the-structure-not-the-gift",
+          "name": {
+            "en": "The question is the arrangement, not the gift",
+            "fa": "پرسش بر سرِ ترتیب است نه بخشش"
+          },
+          "summary": {
+            "en": "Framing deprivation as a call for individual generosity leaves in place the ownership and the institutions that produce it, and a remedy that does not touch those is not a remedy.",
+            "fa": "چارچوب‌بندیِ محرومیت همچون فراخوانی به بخشندگیِ فردی، آن مالکیت و نهادهایی را که محرومیت را می‌زایند بر جای می‌گذارد، و درمانی که به آن‌ها دست نزند درمان نیست."
+          },
+          "philosophers": [
+            "mariategui",
+            "ambedkar"
+          ],
+          "arguments": [
+            "mariategui-land-question",
+            "ambedkar-caste-argument"
+          ],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-seven-essays",
+              "locator": "Essay 2"
+            }
+          ]
+        },
+        {
+          "id": "fair-terms-of-cooperation",
+          "name": {
+            "en": "What is owed is set by fair terms, not by need alone",
+            "fa": "آنچه بدهکاریم را شرایطِ منصفانه تعیین می‌کند نه صرفِ نیاز"
+          },
+          "summary": {
+            "en": "Obligations follow from principles that free and equal people would agree to without knowing their own position, which grounds duties in fairness rather than in the size of a need or the reach of sympathy.",
+            "fa": "تکالیف از اصولی برمی‌آیند که آدمیانِ آزاد و برابر بی‌دانستنِ جایگاهِ خود بر آن‌ها توافق می‌کنند، و این وظیفه‌ها را بر انصاف بنیاد می‌نهد نه بر بزرگیِ یک نیاز یا گسترهٔ هم‌دلی."
+          },
+          "philosophers": [
+            "rawls"
+          ],
+          "arguments": [
+            "original-position-argument"
+          ],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-theory-of-justice",
+              "locator": "§3-4"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "concepts": [
+        "effective-altruism-obligation",
+        "entitlement-famine",
+        "veil-of-ignorance",
+        "coloniality"
+      ],
+      "works": [
+        "theory-of-justice",
+        "seven-essays"
+      ],
+      "traditions": [
+        "analytic",
+        "contemporary",
+        "american",
+        "latin-american",
+        "andean",
+        "indian"
+      ],
+      "branches": [
+        "applied-ethics",
+        "ethics",
+        "political-philosophy",
+        "decolonial-philosophy"
+      ],
+      "citations": [
+        {
+          "source": "text-famine-affluence-morality",
+          "locator": "opening"
+        },
+        {
+          "source": "sep"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "The three answers disagree about where to look. One asks what an individual with money ought to do. One asks who arranged things so that the need exists. One asks what rules people would accept if they did not know which end of the arrangement they would be on.",
+              "fa": "این سه پاسخ بر سرِ اینکه کجا باید نگریست اختلاف دارند. یکی می‌پرسد کسی که پول دارد چه باید بکند. یکی می‌پرسد چه کسی چیزها را چنان چیده که این نیاز باشد. و یکی می‌پرسد آدمیان چه قواعدی را می‌پذیرفتند اگر نمی‌دانستند در کدام سرِ آن ترتیب خواهند بود."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Singer's argument is the one that forces the question, because it derives a demanding conclusion from a premise almost nobody rejects. That is also what makes the other two positions replies rather than alternatives: both accept that something is owed and disagree about what the debt is a debt of.\n\nThe structural position, argued from Peru by Mariátegui and from India by Ambedkar, holds that describing deprivation as an occasion for giving is already a mistake, because it treats as a misfortune what is the working of an arrangement — land tenure in one case, caste in the other — and a remedy addressed to individual conscience leaves the arrangement running. The contractual position holds that both of the others reason from consequences or from history when the question is one of principle: what is owed is what free and equal people would agree to, and that is neither the maximum sympathy can bear nor whatever a historical injustice would require to undo.",
+              "fa": "استدلالِ سینگر همان است که این پرسش را ناگزیر می‌کند، چون نتیجه‌ای سنگین را از مقدمه‌ای بیرون می‌کشد که تقریباً کسی ردش نمی‌کند. همین نیز آن دو موضعِ دیگر را پاسخ می‌کند نه بدیل: هر دو می‌پذیرند که چیزی بدهکاریم و بر سرِ اینکه این دِین، دِینِ چیست اختلاف دارند.\n\nموضعِ ساختاری، که ماریاتگی از پرو و آمبدکار از هند برایش استدلال می‌کنند، بر آن است که وصف کردنِ محرومیت همچون مجالی برای بخشش پیشاپیش خطاست، چون آنچه کارکردِ یک ترتیب است — مالکیتِ زمین در یکی، کاست در دیگری — را بداقبالی می‌گیرد، و درمانی که به وجدانِ فردی روی کند آن ترتیب را در کار می‌گذارد. موضعِ قراردادی بر آن است که آن دوی دیگر از پیامدها یا از تاریخ استدلال می‌کنند حال آنکه پرسش، پرسشِ اصل است: آنچه بدهکاریم همان است که آدمیانِ آزاد و برابر بر آن توافق می‌کنند، و این نه بیشینه‌ای است که هم‌دلی تاب می‌آورد و نه آنچه جبرانِ بی‌عدالتی‌ای تاریخی می‌طلبد."
+            },
+            "citations": [
+              {
+                "source": "text-famine-affluence-morality",
+                "locator": "opening"
+              },
+              {
+                "source": "text-seven-essays",
+                "locator": "Essay 2"
+              },
+              {
+                "source": "text-theory-of-justice",
+                "locator": "§3-4"
+              }
+            ]
+          },
+          {
+            "id": "whether-they-are-rivals",
+            "depth": "deep",
+            "body": {
+              "en": "Whether these are three answers to one question or three different questions is itself disputed, and the dispute has practical stakes. On one reading they are compatible: give now, change the structure, and hold both to principles chosen fairly. On another they conflict at the root, because the individual framing draws attention and money away from the structural one, and because a contractual account bounded by a society's own members has trouble reaching across borders at all — a difficulty Rawls' own extension of the theory to international relations is generally taken to handle less convincingly than the domestic case.",
+              "fa": "اینکه این‌ها سه پاسخ به یک پرسش‌اند یا سه پرسشِ متفاوت، خود محلِ نزاع است، و این نزاع پیامدِ عملی دارد. بر یک خوانش سازگارند: اکنون بده، ساختار را دگرگون کن، و هر دو را به اصولی که منصفانه برگزیده شده‌اند پایبند بدار. بر خوانشی دیگر در ریشه ناسازگارند، چون چارچوبِ فردی توجه و پول را از چارچوبِ ساختاری دور می‌کند، و چون تبیینی قراردادی که به اعضای یک جامعه محدود باشد به‌سختی از مرزها می‌گذرد — دشواری‌ای که بسطِ خودِ رالز از نظریه به روابطِ بین‌الملل، عموماً کم‌متقاعدکننده‌تر از موردِ داخلی دانسته می‌شود."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-political-liberalism"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

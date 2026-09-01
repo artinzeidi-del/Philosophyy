@@ -23,6 +23,7 @@ import 'package:philosophyy/domain/entities/concept.dart';
 import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
+import 'package:philosophyy/domain/entities/problem.dart';
 import 'package:philosophyy/domain/entities/school.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/entities/user_data.dart';
@@ -490,6 +491,7 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
       final Work work => _workSections(context, work),
       final School school => _schoolSections(context, school),
       final Argument argument => _argumentSections(context, argument),
+      final Problem problem => _problemSections(context, problem),
       _ => const <Widget>[],
     },
   ];
@@ -983,6 +985,92 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
           title: l10n.sectionConcepts,
           children: <Widget>[
             for (final concept in concepts)
+              EntityCard(
+                title: concept.name.resolve(language),
+                summary: concept.oneLine.resolve(language),
+                onTap: () => context.push(concept.ref.route),
+              ),
+          ],
+        ),
+    ];
+  }
+
+  /// A problem's own page: the question, then the rival answers.
+  ///
+  /// Positions are shown in the order the record gives them, which is not a
+  /// ranking. Each carries the philosophers who hold it and the arguments it
+  /// rests on, so a reader can follow a side rather than only read about the
+  /// dispute.
+  List<Widget> _problemSections(BuildContext context, Problem problem) {
+    final theme = Theme.of(context);
+    final l10n = AppL10n.of(context);
+
+    return <Widget>[
+      ReadingColumn(
+        child: Padding(
+          padding: const EdgeInsets.only(bottom: Spacing.lg),
+          child: Text(
+            problem.question.resolve(language),
+            style: theme.textTheme.titleMedium?.copyWith(
+              color: theme.colorScheme.onSurfaceVariant,
+            ),
+          ),
+        ),
+      ),
+      for (final stance in problem.positions)
+        _CardSection(
+          title: stance.name.resolve(language),
+          children: <Widget>[
+            ReadingColumn(
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: Spacing.md),
+                child: Text(
+                  stance.summary.resolve(language),
+                  style: theme.textTheme.bodyMedium,
+                ),
+              ),
+            ),
+            for (final philosopher
+                in stance.philosopherIds
+                    .map(corpus.philosopher)
+                    .whereType<Philosopher>())
+              EntityCard(
+                title: philosopher.name.resolve(language),
+                summary: philosopher.oneLine.resolve(language),
+                onTap: () => context.push(philosopher.ref.route),
+              ),
+            for (final argument
+                in stance.argumentIds
+                    .map(corpus.argument)
+                    .whereType<Argument>())
+              EntityCard(
+                title: argument.name.resolve(language),
+                summary: argument.oneLine.resolve(language),
+                onTap: () => context.push(argument.ref.route),
+              ),
+          ],
+        ),
+      if (problem.argumentIds.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionBearingOnIt,
+          children: <Widget>[
+            for (final argument
+                in problem.argumentIds
+                    .map(corpus.argument)
+                    .whereType<Argument>())
+              EntityCard(
+                title: argument.name.resolve(language),
+                summary: argument.oneLine.resolve(language),
+                onTap: () => context.push(argument.ref.route),
+              ),
+          ],
+        ),
+      if (problem.conceptIds.isNotEmpty)
+        _CardSection(
+          title: l10n.sectionConcepts,
+          children: <Widget>[
+            for (final concept
+                in problem.conceptIds.map(corpus.concept).whereType<Concept>())
               EntityCard(
                 title: concept.name.resolve(language),
                 summary: concept.oneLine.resolve(language),

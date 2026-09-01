@@ -26,6 +26,7 @@ COLLECTIONS = {
     'schools': 'schools',
     'quotes': 'quotes',
     'arguments': 'arguments',
+    'problems': 'problems',
     'sources': 'sources',
     'glossary': 'terms',
     'relations': 'relations',

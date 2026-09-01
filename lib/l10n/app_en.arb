@@ -382,6 +382,10 @@
     "description": "Heading over the schools a philosopher belongs to."
   },
   "sectionConcepts": "Key ideas",
+  "sectionBearingOnIt": "Bearing on it",
+  "@sectionBearingOnIt": {
+    "description": "Heading over arguments that bear on a problem without belonging to one position."
+  },
   "sectionArguedBy": "Argued by",
   "@sectionArguedBy": {
     "description": "Heading over the philosophers who advanced an argument."

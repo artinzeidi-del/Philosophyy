@@ -5,6 +5,7 @@ import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/glossary_term.dart';
 import 'package:philosophyy/domain/entities/philosopher.dart';
 import 'package:philosophyy/domain/entities/primer_step.dart';
+import 'package:philosophyy/domain/entities/problem.dart';
 import 'package:philosophyy/domain/entities/quote.dart';
 import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/school.dart';
@@ -439,6 +440,53 @@ abstract final class ContentMappers {
         'an attribution marked "${parsed.attribution.id}" must say why in '
         '"attributionNote"',
       );
+    }
+    return parsed;
+  }
+
+  /// Reads one stance taken on a problem.
+  static Position position(JsonReader reader) => Position(
+    id: reader.requiredString('id'),
+    name: requiredLocalized(reader, 'name'),
+    summary: requiredLocalized(reader, 'summary'),
+    philosopherIds: reader.stringList('philosophers'),
+    argumentIds: reader.stringList('arguments'),
+    schoolIds: reader.stringList('schools'),
+    citations: citations(reader, 'citations'),
+  );
+
+  /// Reads one philosophical problem.
+  static Problem problem(JsonReader reader) {
+    final parsed = Problem(
+      id: reader.requiredString('id'),
+      name: requiredLocalized(reader, 'name'),
+      oneLine: requiredLocalized(reader, 'oneLine'),
+      question: requiredLocalized(reader, 'question'),
+      positions: reader.objectList('positions').map(position).toList(),
+      argumentIds: reader.stringList('arguments'),
+      conceptIds: reader.stringList('concepts'),
+      workIds: reader.stringList('works'),
+      traditions: reader.stringList('traditions').toSet(),
+      branches: reader.stringList('branches').toSet(),
+      article: article(reader, 'article'),
+      citations: citations(reader, 'citations'),
+    );
+
+    // A problem with one position is not a problem, it is a claim. The whole
+    // point of the kind is to hold a disagreement, and an entry that records
+    // only the side the editor finds convincing has taken that side silently.
+    if (parsed.positions.length < 2) {
+      reader.invalid(
+        'a problem must record at least two positions; '
+        'found ${parsed.positions.length}',
+      );
+    }
+
+    final seen = <String>{};
+    for (final stance in parsed.positions) {
+      if (!seen.add(stance.id)) {
+        reader.invalid('two positions share the id "${stance.id}"');
+      }
     }
     return parsed;
   }

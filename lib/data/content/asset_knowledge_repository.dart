@@ -39,6 +39,9 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
   /// Argument records.
   static const String argumentsFile = '$contentPath/arguments.json';
 
+  /// Where the problems live.
+  static const String problemsFile = '$contentPath/problems.json';
+
   /// Bibliographic sources.
   static const String sourcesFile = '$contentPath/sources.json';
 
@@ -107,6 +110,12 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
         'arguments',
         ContentMappers.argument,
         identify: (argument) => argument.id,
+      ),
+      problems: await _read(
+        problemsFile,
+        'problems',
+        ContentMappers.problem,
+        identify: (problem) => problem.id,
       ),
       sources: await _read(
         sourcesFile,

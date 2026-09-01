@@ -129,7 +129,10 @@ abstract final class QuizBuilder {
         case EntityKind.quote:
         case EntityKind.argument:
         case EntityKind.source:
+        case EntityKind.problem:
           // Nothing structural to ask about beyond the summary question below.
+          // A problem's content is the disagreement, and a question with one
+          // right answer is the wrong shape for it.
           break;
       }
 
@@ -311,6 +314,7 @@ abstract final class QuizBuilder {
         case EntityKind.quote:
         case EntityKind.argument:
         case EntityKind.source:
+        case EntityKind.problem:
           break;
       }
     }

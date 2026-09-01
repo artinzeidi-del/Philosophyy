@@ -184,6 +184,7 @@ class AppRouter {
     EntityKind.work,
     EntityKind.school,
     EntityKind.argument,
+    EntityKind.problem,
   ];
 
   /// The article kinds, exposed for tests that check every kind is routable.
