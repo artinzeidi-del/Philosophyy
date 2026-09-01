@@ -5,14 +5,6 @@ import 'package:philosophyy/core/errors/content_exception.dart';
 import 'package:philosophyy/data/content/content_mappers.dart';
 import 'package:philosophyy/data/content/json_reader.dart';
 import 'package:philosophyy/data/content/knowledge_base.dart';
-import 'package:philosophyy/domain/entities/argument.dart';
-import 'package:philosophyy/domain/entities/concept.dart';
-import 'package:philosophyy/domain/entities/philosopher.dart';
-import 'package:philosophyy/domain/entities/quote.dart';
-import 'package:philosophyy/domain/entities/relation.dart';
-import 'package:philosophyy/domain/entities/school.dart';
-import 'package:philosophyy/domain/entities/source.dart';
-import 'package:philosophyy/domain/entities/work.dart';
 import 'package:philosophyy/domain/repositories/knowledge_repository.dart';
 import 'package:philosophyy/domain/value_objects/taxonomy_term.dart';
 
@@ -202,73 +194,5 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
     }
 
     return mapped;
-  }
-}
-
-/// Builds a corpus from in-memory JSON strings.
-///
-/// Used by tests, which need to exercise loading and integrity checking against
-/// deliberately broken content without touching the shipped files.
-class InMemoryKnowledgeRepository implements KnowledgeRepository {
-  const InMemoryKnowledgeRepository({
-    this.philosophers = const <Philosopher>[],
-    this.concepts = const <Concept>[],
-    this.works = const <Work>[],
-    this.schools = const <School>[],
-    this.quotes = const <Quote>[],
-    this.arguments = const <Argument>[],
-    this.sources = const <Source>[],
-    this.relations = const <Relation>[],
-    this.taxonomy,
-    this.validate = true,
-  });
-
-  /// Philosophers to serve.
-  final List<Philosopher> philosophers;
-
-  /// Concepts to serve.
-  final List<Concept> concepts;
-
-  /// Works to serve.
-  final List<Work> works;
-
-  /// Schools to serve.
-  final List<School> schools;
-
-  /// Quotations to serve.
-  final List<Quote> quotes;
-
-  /// Arguments to serve.
-  final List<Argument> arguments;
-
-  /// Sources to serve.
-  final List<Source> sources;
-
-  /// Relations to serve.
-  final List<Relation> relations;
-
-  /// The vocabulary to classify against. Tests that tag entities with a
-  /// tradition must supply the term, exactly as content must define it.
-  final Taxonomy? taxonomy;
-
-  /// Whether to run the integrity check, which a test exercising broken
-  /// content will want to switch off.
-  final bool validate;
-
-  @override
-  Future<KnowledgeBase> load() async {
-    final base = KnowledgeBase(
-      philosophers: philosophers,
-      concepts: concepts,
-      works: works,
-      schools: schools,
-      quotes: quotes,
-      arguments: arguments,
-      sources: sources,
-      relations: relations,
-      taxonomy: taxonomy,
-    );
-    if (validate) base.assertIntegrity();
-    return base;
   }
 }
