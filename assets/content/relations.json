@@ -249,7 +249,9 @@
         "en": "Plato's account of unchanging Forms takes over Parmenides' demand that real knowledge be of what does not change, while rejecting his conclusion that nothing changes.",
         "fa": "شرح افلاطون از صورت‌های تغییرناپذیر، این خواستهٔ پارمنیدس را می‌پذیرد که معرفت حقیقی به آنچه دگرگون نمی‌شود تعلق می‌گیرد، و در عین حال نتیجهٔ او را که هیچ‌چیز دگرگون نمی‌شود رد می‌کند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:zeno-of-elea",
@@ -260,7 +262,9 @@
         "en": "The paradoxes are constructed to show that the alternative to Parmenides — a world that really moves and divides — leads to absurdity.",
         "fa": "پارادوکس‌ها ساخته شده‌اند تا نشان دهند جایگزین پارمنیدس — جهانی که واقعاً حرکت می‌کند و تقسیم می‌شود — به بی‌معنایی می‌انجامد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:empedocles",
@@ -271,7 +275,9 @@
         "en": "He keeps Parmenides' premise that nothing comes from nothing and escapes the conclusion by making change a matter of mixing what already exists.",
         "fa": "او مقدمهٔ پارمنیدس را نگه می‌دارد که هیچ از هیچ نمی‌آید، و با اینکه دگرگونی را آمیختنِ آنچه از پیش هست می‌داند از نتیجه می‌گریزد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:heraclitus",
@@ -282,7 +288,9 @@
         "en": "Hegel read Heraclitus as the first philosopher of contradiction and said there was no sentence of his he had not taken into his own logic. How much of Heraclitus survives that reading is disputed.",
         "fa": "هگل هراکلیتوس را نخستین فیلسوف تناقض خواند و گفت جمله‌ای از او نیست که در منطق خودش نگرفته باشد. اینکه چقدر از هراکلیتوس از این خوانش جان به در می‌برد محل اختلاف است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:democritus",
@@ -293,7 +301,9 @@
         "en": "Epicurus took over the atoms and the void and added a swerve, so that a world of falling particles could still contain choice.",
         "fa": "اپیکور اتم‌ها و خلأ را برگرفت و «انحراف» را افزود، تا جهانی از ذرات فروافتاده باز جایی برای انتخاب داشته باشد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:socrates",
@@ -304,7 +314,9 @@
         "en": "The Cynics traced themselves to Socrates through Antisthenes, taking his indifference to comfort and dropping his interest in definitions.",
         "fa": "کلبیان تبار خود را از راه آنتیستنس به سقراط می‌رساندند؛ بی‌اعتنایی او به آسایش را برگرفتند و علاقه‌اش به تعریف را رها کردند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:diogenes",
@@ -315,7 +327,9 @@
         "en": "Zeno studied with the Cynic Crates before founding the Stoa, which is why early Stoicism keeps the Cynic view that virtue alone matters.",
         "fa": "زنون پیش از بنیاد نهادن رواق نزد کراتسِ کلبی آموخت، و به همین سبب رواقی‌گری آغازین این دیدگاه کلبی را نگه می‌دارد که تنها فضیلت اهمیت دارد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:zeno-of-citium",
@@ -326,7 +340,9 @@
         "en": "He taught in the painted colonnade that gave the school its name.",
         "fa": "او در رواق نقاشی‌شده‌ای درس می‌داد که نام مکتب از آن آمد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:chrysippus",
@@ -337,7 +353,9 @@
         "en": "The ancient saying was that without Chrysippus there would have been no Stoa: he systematised the physics, the logic and the ethics into one structure.",
         "fa": "گفتهٔ باستان این بود که بی کریسیپوس رواقی در کار نبود: او فیزیک و منطق و اخلاق را در یک ساختار به‌نظام کرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:epictetus",
@@ -348,7 +366,9 @@
         "en": "He narrowed Stoicism to what a person can practise, which is why he is the Stoic most read by people who are not philosophers.",
         "fa": "او رواقی‌گری را به آنچه آدمی می‌تواند تمرین کند باریک کرد، و به همین سبب رواقی‌ای است که بیش از همه به دست نافیلسوفان خوانده می‌شود."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:marcus-aurelius",
@@ -359,7 +379,9 @@
         "en": "The Meditations apply the doctrine to a particular life rather than expounding it, which is why they read as practice rather than teaching.",
         "fa": "«تأملات» آموزه را به‌جای شرح دادن، بر یک زندگی معین به کار می‌بندد، و به همین سبب بیشتر تمرین می‌نماید تا تعلیم."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:pyrrho",
@@ -370,7 +392,9 @@
         "en": "Sextus writes the tradition down, and is very nearly the only reason it survived.",
         "fa": "سکستوس این سنت را می‌نویسد، و تقریباً یگانه دلیل بقای آن است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:sextus-empiricus",
@@ -381,7 +405,9 @@
         "en": "Montaigne read Sextus in the sixteenth-century printings and had sceptical mottoes carved into the beams of his study.",
         "fa": "مونتنی سکستوس را در چاپ‌های قرن شانزدهم خواند و شعارهای شکاکانه را بر تیرهای اتاق کارش کند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:montaigne",
@@ -392,7 +418,9 @@
         "en": "The doubt Descartes sets out to defeat is the doubt the sceptical revival had made unavoidable, and Montaigne is where most of his contemporaries met it.",
         "fa": "تردیدی که دکارت به شکست دادنش برمی‌خیزد همان تردیدی است که احیای شکاکیت ناگزیرش کرده بود، و بیشتر هم‌روزگارانش با آن نزد مونتنی روبه‌رو شدند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:plotinus",
@@ -403,7 +431,9 @@
         "en": "Augustine says the Platonist books gave him a way to think about God as immaterial, which he could not do before reading them.",
         "fa": "آگوستین می‌گوید کتاب‌های افلاطونی راهی به او دادند تا خدا را غیرمادی بیندیشد؛ کاری که پیش از خواندنشان نمی‌توانست."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:boethius",
@@ -414,7 +444,9 @@
         "en": "He planned to render all of Plato and Aristotle into Latin, and what he finished was nearly all the Aristotle the Latin West had for six centuries.",
         "fa": "قصد داشت همهٔ افلاطون و ارسطو را به لاتین برگرداند، و آنچه تمام کرد شش قرن تقریباً تمام ارسطویی بود که غربِ لاتین داشت."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:al-kindi",
@@ -425,7 +457,9 @@
         "en": "The Arabic Aristotle that al-Fārābī worked from was produced by the translation circle al-Kindī directed.",
         "fa": "ارسطوی عربی‌ای که فارابی بر آن کار می‌کرد، فرآوردهٔ حلقهٔ ترجمه‌ای بود که الکندی رهبری‌اش می‌کرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:al-farabi",
@@ -436,7 +470,9 @@
         "en": "Ibn Sīnā wrote that he had read the Metaphysics forty times without understanding it until he found al-Fārābī's commentary.",
         "fa": "ابن‌سینا نوشت که مابعدالطبیعه را چهل بار خوانده بود و نفهمیده، تا آنکه شرح فارابی را یافت."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:ibn-rushd",
@@ -447,7 +483,9 @@
         "en": "The Incoherence of the Incoherence answers al-Ghazālī point by point, and defends philosophy as required by scripture rather than merely permitted.",
         "fa": "«تهافت التهافت» بند به بند به غزالی پاسخ می‌دهد و از فلسفه نه به‌عنوان امری مجاز بلکه واجب از سوی متن مقدس دفاع می‌کند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:ibn-rushd",
@@ -458,7 +496,9 @@
         "en": "Aquinas argues against Ibn Rushd's Latin followers constantly and takes the commentaries as the standard guide to Aristotle while doing it.",
         "fa": "آکوئیناس پیوسته با پیروان لاتینِ ابن‌رشد استدلال می‌کند و در همان حال شرح‌های او را راهنمای معیارِ ارسطو می‌گیرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:ibn-sina",
@@ -469,7 +509,9 @@
         "en": "Maimonides worked inside the same philosophical world and recommended Ibn Sīnā to his own translator.",
         "fa": "ابن‌میمون در همان جهان فلسفی کار می‌کرد و ابن‌سینا را به مترجم خودش توصیه کرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:ibn-bajja",
@@ -480,7 +522,9 @@
         "en": "Ibn Rushd read the Governance of the Solitary closely and takes up its problem of the philosopher in a city with no place for one.",
         "fa": "ابن‌رشد «تدبیر المتوحد» را به‌دقت خواند و مسئلهٔ آن را برمی‌گیرد: فیلسوف در شهری که جایی برایش ندارد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:suhrawardi",
@@ -491,7 +535,9 @@
         "en": "Mullā Ṣadrā takes the graded light of the Illuminationists and rebuilds it around existence rather than essence.",
         "fa": "ملاصدرا نورِ دارای مرتبهٔ اشراقیان را می‌گیرد و آن را به‌جای ماهیت، گِرد وجود بازمی‌سازد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:nasir-al-din-tusi",
@@ -502,7 +548,9 @@
         "en": "His commentary answers Fakhr al-Dīn's objections one at a time, which is why the two are usually read together.",
         "fa": "شرح او یکی‌یکی به اعتراض‌های فخر رازی پاسخ می‌دهد، و به همین سبب معمولاً آن دو را با هم می‌خوانند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:fakhr-al-din-razi",
@@ -513,7 +561,9 @@
         "en": "His commentary consists largely of objections, and the tradition afterwards worked through them rather than around them.",
         "fa": "شرح او بیشتر اعتراض است، و سنت پس از او به‌جای دور زدنشان از میانشان گذشت."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:ibn-arabi",
@@ -524,7 +574,9 @@
         "en": "The two overlapped in Konya through Ibn ʿArabī's stepson, and the Masnavī's account of unity is often read against his. Direct dependence is argued for and not settled.",
         "fa": "این دو از راه پسرخواندهٔ ابن‌عربی در قونیه هم‌پوشانی داشتند، و شرح مثنوی از وحدت اغلب در برابر شرح او خوانده می‌شود. وابستگی مستقیم ادعا شده و فیصله نیافته است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:buddha",
@@ -535,7 +587,9 @@
         "en": "Nāgārjuna presents his work as drawing out what the early teaching already implied rather than as a new doctrine.",
         "fa": "ناگارجونا کارش را بیرون کشیدن آنچه آموزهٔ نخستین از پیش اقتضا می‌کرد می‌نمایاند، نه آموزه‌ای نو."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:nagarjuna",
@@ -546,7 +600,9 @@
         "en": "The Great Treatise is an interpretation of Madhyamaka, and its distinctive claim is about how Nāgārjuna's emptiness should be established.",
         "fa": "«رسالهٔ بزرگ» تفسیری از مادیامَکه است، و ادعای متمایزش دربارهٔ چگونگی اثبات تهی‌بودگیِ ناگارجونا است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:vasubandhu",
@@ -557,7 +613,9 @@
         "en": "Yogācāra and Madhyamaka were later treated as rival schools, though how far the two founders actually disagreed is argued about.",
         "fa": "یوگاچاره و مادیامَکه را بعدها مکتب‌های رقیب گرفتند، هرچند بر سر اینکه دو بنیان‌گذار واقعاً تا چه اندازه اختلاف داشتند بحث است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:dignaga",
@@ -568,7 +626,9 @@
         "en": "Tibetan monastic education is built on the Indian logical tradition Dignāga started, which is why formal debate is a religious exercise there.",
         "fa": "آموزش صومعه‌ای تبتی بر سنت منطقی هندی‌ای بنا شده که دیگناگه آغازش کرد، و به همین سبب مناظرهٔ صوری در آنجا تمرینی دینی است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:ramanuja",
@@ -579,7 +639,9 @@
         "en": "Rāmānuja's commentary is written explicitly against Shankara's, and the two together are the central argument of Vedānta.",
         "fa": "شرح رامانوجه صریحاً در برابر شرح شنکره نوشته شده، و این دو با هم استدلال مرکزی ودانته‌اند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:confucius",
@@ -590,7 +652,9 @@
         "en": "Mencius presents himself as defending Confucius against rival schools rather than as founding anything.",
         "fa": "منسیوس خود را نه بنیان‌گذار چیزی، بلکه مدافع کنفوسیوس در برابر مکتب‌های رقیب می‌نمایاند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:mencius",
@@ -601,7 +665,9 @@
         "en": "Xunzi argues at length that human nature is crooked, naming Mencius as the position he is refuting.",
         "fa": "شون‌تزه به‌تفصیل استدلال می‌کند که طبیعت آدمی کج است، و منسیوس را به‌عنوان موضعی که رد می‌کند نام می‌برد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:xunzi",
@@ -612,7 +678,9 @@
         "en": "Han Feizi studied with Xunzi and kept the diagnosis while discarding the remedy: if people are self-interested, rely on law rather than on ritual.",
         "fa": "هان فی‌تزه نزد شون‌تزه آموخت و تشخیص را نگه داشت و درمان را رها کرد: اگر مردم خودخواه‌اند، به‌جای آیین بر قانون تکیه کن."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:mozi",
@@ -623,7 +691,9 @@
         "en": "The Mohist objection is that ritual and elaborate mourning consume resources without producing benefit, and that age is no argument.",
         "fa": "اعتراض موئیان این است که آیین و سوگواری پرتشریفات منابع را می‌بلعند و سودی نمی‌آورند، و کهن بودن استدلال نیست."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:zhu-xi",
@@ -634,7 +704,9 @@
         "en": "Neo-Confucianism rereads the classics through a metaphysics of pattern and vital force that the classics themselves do not state.",
         "fa": "کنفوسیوس‌گرایی نو، متون کلاسیک را از خلال مابعدالطبیعه‌ای از «نظم» و «نیروی حیاتی» بازمی‌خواند که خودِ آن متون نمی‌گویند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:wang-yangming",
@@ -645,7 +717,9 @@
         "en": "The objection is to the order of operations: Zhu Xi has the student investigate things and then act, and Wang argues that knowing and acting are not two stages.",
         "fa": "اعتراض به ترتیب کار است: نزد جو شی، دانش‌آموز نخست چیزها را بررسی می‌کند و سپس عمل، و وانگ استدلال می‌کند که دانستن و کردن دو مرحله نیستند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:mou-zongsan",
@@ -656,7 +730,9 @@
         "en": "He translated the three Critiques into Chinese and argued that the moral awareness Kant denied us is what the Confucian tradition describes.",
         "fa": "او سه نقد را به چینی برگرداند و استدلال کرد آن آگاهی اخلاقی که کانت از ما دریغ کرد، همان است که سنت کنفوسیوسی وصفش می‌کند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:dogen",
@@ -667,7 +743,9 @@
         "en": "He brought the Sōtō line from China and gave it the doctrine that practice is not a means to awakening.",
         "fa": "او خط سوتو را از چین آورد و این آموزه را به آن داد که تمرین وسیلهٔ بیداری نیست."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:nishida",
@@ -678,7 +756,9 @@
         "en": "The school is defined by taking up his problem: what philosophy looks like when it starts before the subject–object split.",
         "fa": "این مکتب با برگرفتن مسئلهٔ او تعریف می‌شود: فلسفه وقتی پیش از شکافِ فاعل–متعلَق آغاز کند چه شکلی دارد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:hobbes",
@@ -689,7 +769,9 @@
         "en": "Locke takes the contract and rejects almost everything Hobbes built on it, starting with the claim that the sovereign cannot be held to account.",
         "fa": "لاک قرارداد را می‌گیرد و تقریباً هر آنچه هابز بر آن ساخت رد می‌کند، از این ادعا شروع می‌کند که حاکم را نمی‌توان بازخواست کرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:locke",
@@ -700,7 +782,9 @@
         "en": "Berkeley accepts Locke's premise that all material comes from experience and denies the material substance Locke kept behind it.",
         "fa": "برکلی این مقدمهٔ لاک را می‌پذیرد که هر مصالحی از تجربه می‌آید، و آن جوهر مادی را که لاک پشتش نگه داشته بود انکار می‌کند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:berkeley",
@@ -711,7 +795,9 @@
         "en": "Hume continues the same subtraction and removes the mind Berkeley had kept, leaving bundles of perceptions with no owner.",
         "fa": "هیوم همان کاستن را ادامه می‌دهد و ذهنی را که برکلی نگه داشته بود برمی‌دارد، و دسته‌هایی از ادراک بی‌صاحب باقی می‌گذارد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:hume",
@@ -722,7 +808,9 @@
         "en": "Kant wrote that Hume woke him from dogmatic slumber, and the Critique is an attempt to answer him without giving up necessity.",
         "fa": "کانت نوشت که هیوم او را از خواب جزمی بیدار کرد، و «نقد» کوششی است برای پاسخ به او بی‌آنکه ضرورت را واگذارد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:rousseau",
@@ -733,7 +821,9 @@
         "en": "Kant kept a portrait of Rousseau and said reading him taught him to honour ordinary people, which reshaped his ethics.",
         "fa": "کانت تصویری از روسو نگه می‌داشت و می‌گفت خواندن او به وی آموخت که مردم عادی را ارج نهد، و همین اخلاقش را دگرگون کرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:kant",
@@ -744,7 +834,9 @@
         "en": "Hegel's project begins from Kant's limits on knowledge and argues that a limit we can state is a limit we have already passed.",
         "fa": "پروژهٔ هگل از مرزهای کانت بر معرفت آغاز می‌شود و استدلال می‌کند مرزی که بتوانیم بیانش کنیم مرزی است که از آن گذشته‌ایم."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:hegel",
@@ -755,7 +847,9 @@
         "en": "Marx said he found the dialectic standing on its head and turned it the right way up, replacing spirit with material conditions.",
         "fa": "مارکس گفت دیالکتیک را وارونه یافت و راستش کرد، و به‌جای روح، شرایط مادی نشاند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:hegel",
@@ -766,7 +860,9 @@
         "en": "Kierkegaard's objection is that a system explaining everything has no place for the individual who has to decide, which is the only place a life is lived.",
         "fa": "اعتراض کیرکگور این است که نظامی که همه‌چیز را توضیح می‌دهد جایی برای فردی که باید تصمیم بگیرد ندارد، و زندگی تنها همان‌جا زیسته می‌شود."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:schopenhauer",
@@ -777,7 +873,9 @@
         "en": "Nietzsche called Schopenhauer his educator and then spent the rest of his life rejecting the pessimism, keeping the will.",
         "fa": "نیچه شوپنهاور را مربی خود خواند و سپس باقی عمرش را صرف رد آن بدبینی کرد، و اراده را نگه داشت."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:bentham",
@@ -788,7 +886,9 @@
         "en": "Mill was raised on Bentham's system by his father and spent his adult work repairing what he found missing in it.",
         "fa": "میل را پدرش با نظام بنتام بار آورد، و کار بزرگسالی‌اش را صرف ترمیم آنچه در آن کم می‌یافت کرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:wollstonecraft",
@@ -799,7 +899,9 @@
         "en": "Both argue that what is presented as women's nature is the predictable result of how women are raised.",
         "fa": "هر دو استدلال می‌کنند آنچه طبیعت زنان معرفی می‌شود، نتیجهٔ پیش‌بینی‌پذیر شیوهٔ پرورش آنان است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:kierkegaard",
@@ -810,7 +912,9 @@
         "en": "Anxiety, everydayness and being-towards-death arrive in Being and Time from Kierkegaard, with the theology removed.",
         "fa": "دلهره و روزمرگی و بودن‌به‌سوی‌مرگ از کیرکگور به «هستی و زمان» می‌رسند، با کنار گذاشتن الهیات."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:husserl",
@@ -821,7 +925,9 @@
         "en": "Heidegger was his student and successor at Freiburg; the relationship ended over Being and Time and then over politics.",
         "fa": "هایدگر شاگرد و جانشین او در فرایبورگ بود؛ این رابطه بر سر «هستی و زمان» و سپس بر سر سیاست پایان یافت."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:heidegger",
@@ -832,7 +938,9 @@
         "en": "Sartre's existentialism reworks Being and Time into a philosophy of choice that Heidegger himself rejected in print.",
         "fa": "اگزیستانسیالیسم سارتر «هستی و زمان» را به فلسفه‌ای از انتخاب بازمی‌سازد که خودِ هایدگر در نوشته ردش کرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:heidegger",
@@ -843,7 +951,9 @@
         "en": "Levinas introduced Heidegger to French readers and then wrote against him, arguing that ethics comes before the question of being.",
         "fa": "لویناس هایدگر را به خوانندگان فرانسوی شناساند و سپس در برابر او نوشت، با این استدلال که اخلاق پیش از پرسش از هستی می‌آید."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:sartre",
@@ -854,7 +964,9 @@
         "en": "They read and argued over each other's manuscripts for four decades, and the direction of influence is contested in both directions.",
         "fa": "چهار دهه دست‌نوشته‌های یکدیگر را خواندند و بر سرشان بحث کردند، و جهت تأثیر در هر دو سو محل مناقشه است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:frege",
@@ -865,7 +977,9 @@
         "en": "Russell found the contradiction in Frege's system and wrote to him about it, and Frege replied that the foundation of his work had given way.",
         "fa": "راسل تناقض را در نظام فرگه یافت و دربارهٔ آن به او نامه نوشت، و فرگه پاسخ داد که بنیاد کارش فرو ریخته است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:russell",
@@ -876,7 +990,9 @@
         "en": "Wittgenstein came to Cambridge to work with him, and within a few years Russell had accepted that the student was leading.",
         "fa": "ویتگنشتاین برای کار کردن با او به کیمبریج آمد، و چند سالی نگذشت که راسل پذیرفت شاگرد جلو افتاده است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:wittgenstein",
@@ -887,7 +1003,9 @@
         "en": "Anscombe was his student, his translator and his literary executor, and Intention grows out of the later work.",
         "fa": "انسکوم شاگرد و مترجم و وصیِ ادبی او بود، و «قصد» از کار متأخر او می‌روید."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:peirce",
@@ -898,7 +1016,9 @@
         "en": "The maxim first appears in his 1878 paper, and he later renamed his own view to distance it from what James made of it.",
         "fa": "این قاعده نخست در مقالهٔ ۱۸۷۸ او می‌آید، و بعدها نام دیدگاه خودش را عوض کرد تا از آنچه جیمز از آن ساخت فاصله بگیرد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:james",
@@ -909,7 +1029,9 @@
         "en": "James made pragmatism a public philosophy and extended it to religious belief, which is the extension Peirce objected to.",
         "fa": "جیمز عمل‌گرایی را فلسفه‌ای همگانی کرد و آن را به باور دینی گسترش داد، و همین گسترش بود که پرس بدان اعتراض داشت."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:dewey",
@@ -920,7 +1042,9 @@
         "en": "Dewey carried it into education and democratic theory, where its influence has been widest and longest.",
         "fa": "دیویی آن را به آموزش و نظریهٔ دموکراسی برد، جایی که نفوذش گسترده‌ترین و دیرپاترین بوده است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:marx",
@@ -931,7 +1055,9 @@
         "en": "Critical theory begins from Marx's analysis and asks why the transformation it predicted did not arrive.",
         "fa": "نظریهٔ انتقادی از تحلیل مارکس آغاز می‌کند و می‌پرسد چرا دگرگونی‌ای که پیش‌بینی می‌کرد نیامد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:adorno",
@@ -942,7 +1068,9 @@
         "en": "Habermas was his assistant and then his critic, arguing that the diagnosis left no ground to stand on while making it.",
         "fa": "هابرماس دستیار و سپس منتقد او بود، با این استدلال که آن تشخیص، جایی برای ایستادنِ خودش باقی نمی‌گذارد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:hegel",
@@ -953,7 +1081,9 @@
         "en": "Fanon rewrites the master–slave dialectic for a colonial setting in which recognition is not on offer at all.",
         "fa": "فانون دیالکتیک خدایگان و بنده را برای وضعیتی استعماری بازمی‌نویسد که در آن اصلاً بازشناسی‌ای در کار نیست."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:cesaire",
@@ -964,7 +1094,9 @@
         "en": "Césaire was his teacher in Martinique, and Fanon's later critique of négritude is an argument with him.",
         "fa": "سزر در مارتینیک معلم او بود، و نقد بعدی فانون بر نگریتود بحثی است با او."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:cesaire",
@@ -975,7 +1107,9 @@
         "en": "He coined the word in a long poem, and the movement is usually dated from it.",
         "fa": "او این واژه را در شعری بلند ساخت، و آغاز جنبش را معمولاً از همان‌جا می‌شمارند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:senghor",
@@ -986,7 +1120,9 @@
         "en": "Senghor gave négritude its philosophical statement and its politics, and drew the objections that followed.",
         "fa": "سنگور به نگریتود بیان فلسفی و سیاستش را داد، و اعتراض‌هایی را که در پی آمد به خود کشید."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:kwasi-wiredu",
@@ -997,7 +1133,9 @@
         "en": "Wiredu's objection is that claiming a distinctively African way of knowing accepts the colonial contrast and merely flips its sign.",
         "fa": "اعتراض ویردو این است که ادعای شیوه‌ای از شناخت که ویژهٔ آفریقا باشد، همان تقابل استعماری را می‌پذیرد و فقط علامتش را وارونه می‌کند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:gandhi",
@@ -1008,7 +1146,9 @@
         "en": "They argued publicly for a decade over whether caste could be reformed from inside Hinduism, and neither conceded.",
         "fa": "یک دهه علناً بر سر اینکه آیا کاست را می‌توان از درون هندوئیسم اصلاح کرد بحث کردند، و هیچ‌یک کوتاه نیامد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:dussel",
@@ -1019,7 +1159,9 @@
         "en": "The programme is his: philosophy done from the position of those a system excludes rather than about them.",
         "fa": "این برنامه از آنِ اوست: فلسفه‌ورزی از جایگاه کسانی که یک نظام کنارشان می‌گذارد، نه دربارهٔ آنان."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:freire",
@@ -1030,7 +1172,9 @@
         "en": "The pedagogy and the philosophy share a starting point: the excluded are not the subject matter but the place to think from.",
         "fa": "آن آموزش‌شناسی و این فلسفه نقطهٔ آغاز مشترکی دارند: کنار گذاشته‌شدگان موضوع نیستند، جایی‌اند که از آنجا می‌اندیشیم."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:beauvoir",
@@ -1041,7 +1185,9 @@
         "en": "Butler's performativity develops Beauvoir's claim that one is not born a woman but becomes one, and asks what the becoming consists in.",
         "fa": "اجراگریِ باتلر این ادعای دوبووار را می‌گستراند که زن زاده نمی‌شوند بلکه می‌شوند، و می‌پرسد این «شدن» از چه ساخته شده است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:foucault",
@@ -1052,7 +1198,9 @@
         "en": "The account of norms that produce what they claim to describe is Foucault's, applied to sex and gender.",
         "fa": "شرحی که هنجارها را تولیدکنندهٔ همان چیزی می‌داند که مدعی وصفش هستند از فوکو است، و اینجا بر جنس و جنسیت به کار رفته."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:du-bois",
@@ -1063,7 +1211,9 @@
         "en": "Double consciousness and Fanon's account of the divided colonial self describe the same structure, though the line of transmission is argued about.",
         "fa": "«آگاهی دوگانه» و شرح فانون از «خود»ِ استعماریِ دوپاره یک ساختار را وصف می‌کنند، هرچند بر سر خط انتقال بحث است."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:wynter",
@@ -1074,7 +1224,9 @@
         "en": "Her contribution is to locate the problem in the definition of the human itself rather than in who gets included under it.",
         "fa": "سهم او این است که مسئله را در خودِ تعریف «بشر» می‌یابد، نه در اینکه چه کسی زیر آن گنجانده می‌شود."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:rawls",
@@ -1085,7 +1237,9 @@
         "en": "The capabilities approach was developed partly as an answer to what a theory of primary goods cannot measure.",
         "fa": "رویکرد قابلیت‌ها تا حدی همچون پاسخی به آنچه نظریهٔ «خیرهای اولیه» نمی‌تواند بسنجد پرداخته شد."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:popper",
@@ -1096,7 +1250,9 @@
         "en": "They argued in print over whether science advances by refutation or by the replacement of frameworks.",
         "fa": "در نوشته بر سر اینکه علم با ابطال پیش می‌رود یا با جایگزینی چارچوب‌ها بحث کردند."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
     },
     {
       "subject": "philosopher:quine",
@@ -1107,7 +1263,65 @@
         "en": "Quine's holism changes the shape of the problem rather than solving it: if beliefs face experience together, no single expectation is confirmed or refuted alone.",
         "fa": "کل‌گرایی کواین شکل مسئله را عوض می‌کند نه اینکه حلش کند: اگر باورها با هم با تجربه روبه‌رو شوند، هیچ انتظار یگانه‌ای به‌تنهایی تأیید یا رد نمی‌شود."
       },
-      "sources": ["sep"]
+      "sources": [
+        "sep"
+      ]
+    },
+    {
+      "subject": "philosopher:thales",
+      "type": "influenced",
+      "confidence": "accepted",
+      "object": "philosopher:aristotle",
+      "note": {
+        "en": "Almost everything reported about Thales comes through Aristotle, who names him as the first to look for a single material principle and then argues against the answer he gave.",
+        "fa": "تقریباً هرآنچه دربارهٔ تالس گزارش شده از راه ارسطو رسیده است؛ او تالس را نخستین کسی می‌نامد که در پیِ یک اصلِ مادیِ واحد گشت، و آنگاه بر پاسخی که داده بود خرده می‌گیرد."
+      },
+      "sources": [
+        "aristotle-metaphysics",
+        "sep"
+      ]
+    },
+    {
+      "subject": "philosopher:pythagoras",
+      "type": "influenced",
+      "confidence": "probable",
+      "object": "philosopher:plato",
+      "note": {
+        "en": "The mathematical cast of Plato's metaphysics — number as more real than what is counted, and geometry as training for philosophy — is generally traced to Pythagorean teaching, though Plato names Pythagoras only once.",
+        "fa": "رنگِ ریاضیِ مابعدالطبیعهٔ افلاطون — عدد همچون چیزی واقعی‌تر از آنچه شمرده می‌شود، و هندسه همچون تمرینی برای فلسفه — را معمولاً به آموزهٔ فیثاغوری بازمی‌گردانند، هرچند افلاطون تنها یک بار نامِ فیثاغورس را می‌برد."
+      },
+      "sources": [
+        "plato-republic",
+        "sep"
+      ]
+    },
+    {
+      "subject": "philosopher:plato",
+      "type": "criticized",
+      "confidence": "accepted",
+      "object": "philosopher:protagoras",
+      "note": {
+        "en": "The Theaetetus turns Protagoras' measure doctrine against itself: if every belief is true for the believer, then the belief that Protagoras is wrong is true for those who hold it.",
+        "fa": "«تئای‌تتوس» آموزهٔ میزانِ پروتاگوراس را بر ضدِ خودش می‌گرداند: اگر هر باوری برای باورمند صادق باشد، پس این باور که پروتاگوراس بر خطاست نیز برای دارندگانش صادق است."
+      },
+      "sources": [
+        "text-theaetetus",
+        "sep"
+      ]
+    },
+    {
+      "subject": "philosopher:plotinus",
+      "type": "influenced",
+      "confidence": "accepted",
+      "object": "philosopher:hypatia",
+      "note": {
+        "en": "Hypatia taught in the Alexandrian Platonist tradition that descends from Plotinus, and her students' letters describe a curriculum of Plato read alongside mathematics and astronomy.",
+        "fa": "هوپاتیا در سنتِ افلاطونیِ اسکندریه آموزش می‌داد که از افلوطین می‌آید، و نامه‌های شاگردانش از برنامه‌ای سخن می‌گویند که در آن افلاطون در کنارِ ریاضیات و اخترشناسی خوانده می‌شد."
+      },
+      "sources": [
+        "text-enneads",
+        "sep"
+      ]
     }
   ]
 }

@@ -12,14 +12,14 @@ repository, not recalled.
 | `flutter build web --release --no-web-resources-cdn` | succeeds |
 | Release build in Chromium: 96 routes across 2 languages, 2 themes, 3 viewports | 384 screens, no console errors, no overflows |
 | First keystroke in search, measured in the built app | 172 ms warm, 164 ms straight from launch |
-| Every entry drawn in both languages | 936 screens, no exception |
+| Every entry drawn in both languages | 956 screens, no exception |
 
 ## Corpus
 
 | Collection | Entries |
 | --- | --- |
 | Philosophers | 192 |
-| Concepts | 61 |
+| Concepts | 71 |
 | Works | 186 |
 | Schools | 29 |
 | Quotations | 238 |
@@ -28,10 +28,10 @@ repository, not recalled.
 | Glossary terms | 76 |
 | Primer steps | 9 |
 
-All 468 philosophers, concepts, works and schools carry three reading
-depths — quick, standard and in depth — in English and Persian, across 1,408
-authored sections. Total prose: 220,443 English words and 212,002 Persian
-words, which is roughly 18.4 hours of English reading and 23.6 hours of
+All 478 philosophers, concepts, works and schools carry three reading
+depths — quick, standard and in depth — in English and Persian, across 1,438
+authored sections. Total prose: 223,998 English words and 215,475 Persian
+words, which is roughly 18.7 hours of English reading and 23.9 hours of
 Persian.
 
 Run `python3 tool/corpus_stats.py` to reproduce every figure in this

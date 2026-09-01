@@ -988,9 +988,17 @@ abstract final class QuizBuilder {
     // shape of the question would tell the reader something had gone wrong.
     // Skipping it costs one question out of thousands, and the round is
     // assembled from whatever is offered.
-    if (distractors.any((option) => option == answer)) return null;
+    //
+    // Two *decoys* that read alike are the same defect one step over. The
+    // question stays answerable, but the reader is shown four options of which
+    // two are the same words, which reads as a broken screen and invites them
+    // to look for a difference that is not there. It happens for the same
+    // reason: distinct entries can share a display name — a philosopher and
+    // the book named after them, say — and sampling picks entries, not names.
+    final options = <String>[answer, ...distractors];
+    if (options.toSet().length != options.length) return null;
 
-    final options = <String>[answer, ...distractors]..shuffle(random);
+    options.shuffle(random);
     return QuizQuestion(
       id: id,
       fact: fact,
