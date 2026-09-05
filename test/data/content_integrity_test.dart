@@ -677,6 +677,52 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a response does not point backwards in time', () {
+      // relations.json stores a direction, and twice the direction was the
+      // reverse of what the relation's own note described. It said Hegel
+      // opposed Kierkegaard, and the note explained Kierkegaard's objection to
+      // Hegel; it said Mencius opposed Xunzi, and the note said Xunzi names
+      // Mencius as the position he is refuting. Hegel died when Kierkegaard
+      // was eighteen and unpublished.
+      //
+      // A relation in which one party answers another needs the answerer to
+      // have been able to read the other. The earliest a body of work is in
+      // circulation is roughly its author's mid-twenties, so the subject must
+      // have outlived the object's twenty-fifth year. That is a heuristic and
+      // it is deliberately loose: at eighteen it catches neither defect, at
+      // twenty-five it catches both, and from there to thirty it catches
+      // nothing further — so it is not a threshold fitted to one case.
+      const workInCirculationBy = 25;
+      const responds = <RelationType>{
+        RelationType.criticized,
+        RelationType.opposed,
+        RelationType.defended,
+        RelationType.respondedTo,
+        RelationType.commentedOn,
+        RelationType.translated,
+      };
+
+      final problems = <String>[];
+      for (final relation in corpus.relations) {
+        if (!responds.contains(relation.type)) continue;
+        final answerer = corpus.philosopher(relation.subject.id);
+        final answered = corpus.philosopher(relation.object.id);
+        if (answerer == null || answered == null) continue;
+        final died = answerer.life.death?.year;
+        final born = answered.life.birth?.year;
+        if (died == null || born == null) continue;
+        if (died < born + workInCirculationBy) {
+          problems.add(
+            'relation:${relation.subject.id} ${relation.type.id} '
+            '${relation.object.id} — ${relation.subject.id} died in $died, '
+            'before ${relation.object.id} had work to answer; the direction '
+            'is probably reversed',
+          );
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('a related concept relates back', () {
       // The concept page renders only the entry's own "related" list, so a
       // one-sided link is a connection the reader can follow in one direction

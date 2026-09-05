@@ -657,10 +657,10 @@
       ]
     },
     {
-      "subject": "philosopher:mencius",
+      "subject": "philosopher:xunzi",
       "type": "opposed",
       "confidence": "documented",
-      "object": "philosopher:xunzi",
+      "object": "philosopher:mencius",
       "note": {
         "en": "Xunzi argues at length that human nature is crooked, naming Mencius as the position he is refuting.",
         "fa": "شون‌تزه به‌تفصیل استدلال می‌کند که طبیعت آدمی کج است، و منسیوس را به‌عنوان موضعی که رد می‌کند نام می‌برد."
@@ -852,10 +852,10 @@
       ]
     },
     {
-      "subject": "philosopher:hegel",
+      "subject": "philosopher:kierkegaard",
       "type": "opposed",
       "confidence": "documented",
-      "object": "philosopher:kierkegaard",
+      "object": "philosopher:hegel",
       "note": {
         "en": "Kierkegaard's objection is that a system explaining everything has no place for the individual who has to decide, which is the only place a life is lived.",
         "fa": "اعتراض کیرکگور این است که نظامی که همه‌چیز را توضیح می‌دهد جایی برای فردی که باید تصمیم بگیرد ندارد، و زندگی تنها همان‌جا زیسته می‌شود."
