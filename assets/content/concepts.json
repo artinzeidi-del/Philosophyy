@@ -79,7 +79,8 @@
         ]
       },
       "related": [
-        "karma"
+        "karma",
+        "satyagraha"
       ]
     },
     {
@@ -802,7 +803,10 @@
             ]
           }
         ]
-      }
+      },
+      "related": [
+        "entitlement-famine"
+      ]
     },
     {
       "id": "categorical-imperative",
@@ -1758,7 +1762,7 @@
         "ethics"
       ],
       "opposes": [
-        "naturalistic-fallacy"
+        "emotivism"
       ],
       "philosophers": [
         "mackie"
@@ -1892,10 +1896,11 @@
         }
       ],
       "related": [
-        "substantial-motion",
-        "theory-of-forms",
+        "cogito",
+        "necessary-and-contingent-being",
         "substance",
-        "necessary-and-contingent-being"
+        "substantial-motion",
+        "theory-of-forms"
       ],
       "philosophers": [
         "ibn-sina",
@@ -2784,9 +2789,6 @@
         "logic",
         "metaphysics"
       ],
-      "opposes": [
-        "incompleteness"
-      ],
       "philosophers": [
         "brouwer"
       ],
@@ -2982,7 +2984,10 @@
             ]
           }
         ]
-      }
+      },
+      "related": [
+        "naturalistic-fallacy"
+      ]
     },
     {
       "id": "karma",
@@ -4393,7 +4398,10 @@
             ]
           }
         ]
-      }
+      },
+      "related": [
+        "falsifiability"
+      ]
     },
     {
       "id": "rasa",
@@ -4643,6 +4651,7 @@
         }
       ],
       "related": [
+        "li-ritual",
         "rectification-of-names"
       ]
     },
@@ -4952,7 +4961,9 @@
         ]
       },
       "related": [
-        "state-of-nature"
+        "general-will",
+        "state-of-nature",
+        "veil-of-ignorance"
       ]
     },
     {
@@ -5438,6 +5449,7 @@
         }
       ],
       "related": [
+        "dependent-origination",
         "nirvana"
       ]
     },

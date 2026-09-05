@@ -677,6 +677,33 @@ void main() {
       expect(problems, isEmpty, reason: problems.join('\n'));
     });
 
+    test('a related concept relates back', () {
+      // The concept page renders only the entry's own "related" list, so a
+      // one-sided link is a connection the reader can follow in one direction
+      // and cannot see at all from the other end. Nine pairs were like that:
+      // falsifiability reached the problem of induction, and the problem of
+      // induction did not reach back.
+      //
+      // "opposes" is deliberately not held to this. A concept can be defined
+      // against an older one that was not defined against it — error theory
+      // stands against emotivism, and emotivism was not framed against error
+      // theory, which came later.
+      final problems = <String>[];
+      for (final concept in corpus.concepts) {
+        for (final relatedId in concept.relatedConceptIds) {
+          final other = corpus.concept(relatedId);
+          if (other == null) continue;
+          if (!other.relatedConceptIds.contains(concept.id)) {
+            problems.add(
+              'concept:${concept.id} relates to ${other.id}, which does not '
+              'relate back — the link is invisible from ${other.id}',
+            );
+          }
+        }
+      }
+      expect(problems, isEmpty, reason: problems.join('\n'));
+    });
+
     test('one source is cited in one numbering', () {
       // The Meditations were cited at II.1 and at 2.1, the Analects at II.4
       // and at 1.1, the Treatise at I.3.6 and at 3.1.1. Two numberings for one
