@@ -216,6 +216,11 @@ void main() {
         // joined the entities this scans, which widened the pool rather than
         // changing what the word means.
         'phenomenology',
+        // A position rather than a school's property, and held under that name
+        // in Cārvāka, in Epicurus and in the philosophy of mind alike. It
+        // crossed the line for the same reason phenomenology did: the pool of
+        // entities being scanned grew, not the reach of the word.
+        'materialism',
       };
 
       String boundary(String form, AppLanguage language) {

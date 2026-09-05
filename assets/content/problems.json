@@ -517,6 +517,1036 @@
       }
     },
     {
+      "id": "mind-and-body",
+      "name": {
+        "en": "Mind and Body",
+        "fa": "ذهن و تن"
+      },
+      "oneLine": {
+        "en": "Whether thinking and the thing that does it are two things, one thing seen twice, or a question asked in the wrong grammar.",
+        "fa": "اینکه اندیشیدن و چیزی که می‌اندیشد دو چیزند، یک چیزند که دو بار دیده شده، یا پرسشی‌اند که در دستورِ نادرست پرسیده شده."
+      },
+      "question": {
+        "en": "What is the relation between a person's thoughts and the body that has them, and does the question as usually put already assume something false?",
+        "fa": "نسبتِ اندیشه‌های یک شخص با تنی که آن‌ها را دارد چیست، و آیا این پرسش آن‌گونه که معمولاً طرح می‌شود از پیش چیزی نادرست را مفروض نگرفته است؟"
+      },
+      "positions": [
+        {
+          "id": "two-substances",
+          "name": {
+            "en": "They are two things",
+            "fa": "دو چیزند"
+          },
+          "summary": {
+            "en": "Mind and body are distinct substances: the mind thinks and is not extended, the body is extended and does not think, and either could exist without the other even though in this life they are intimately joined.",
+            "fa": "ذهن و تن دو جوهرِ متمایزند: ذهن می‌اندیشد و امتداد ندارد، تن امتداد دارد و نمی‌اندیشد، و هر یک می‌توانست بی دیگری باشد، هرچند در این زندگی سخت به هم پیوسته‌اند."
+          },
+          "philosophers": [
+            "descartes"
+          ],
+          "arguments": [
+            "descartes-real-distinction"
+          ],
+          "schools": [
+            "rationalism"
+          ],
+          "citations": [
+            {
+              "source": "descartes-meditations",
+              "locator": "Meditation VI"
+            }
+          ]
+        },
+        {
+          "id": "one-substance-two-attributes",
+          "name": {
+            "en": "One thing, described two ways",
+            "fa": "یک چیز، به دو گونه وصف‌شده"
+          },
+          "summary": {
+            "en": "There is one substance, and thought and extension are two attributes under which it is understood. Mind and body do not interact, because they are not two things that could; the order of ideas and the order of things are the same order.",
+            "fa": "یک جوهر هست، و اندیشه و امتداد دو صفت‌اند که آن جوهر زیرِ آن‌ها فهمیده می‌شود. ذهن و تن بر هم اثر نمی‌گذارند، چون دو چیز نیستند که بتوانند؛ نظمِ ایده‌ها و نظمِ چیزها یک نظم‌اند."
+          },
+          "philosophers": [
+            "spinoza"
+          ],
+          "arguments": [],
+          "schools": [
+            "rationalism"
+          ],
+          "citations": [
+            {
+              "source": "text-ethics-spinoza",
+              "locator": "II, P7"
+            }
+          ]
+        },
+        {
+          "id": "a-mistake-in-the-grammar",
+          "name": {
+            "en": "The question is malformed",
+            "fa": "پرسش بدساخت است"
+          },
+          "summary": {
+            "en": "Asking how mind relates to body treats the mind as a second thing of the same logical type as the body. It is not: talk of believing, intending and knowing describes how a person behaves and is disposed to behave, and looking for an inner theatre behind it is a mistake about the words, not a discovery about the world.",
+            "fa": "پرسش از نسبتِ ذهن با تن، ذهن را چیزی دوم از همان گونهٔ منطقیِ تن می‌گیرد. چنین نیست: سخن از باور داشتن و قصد کردن و دانستن، وصفِ آن است که شخص چگونه رفتار می‌کند و آمادهٔ چه رفتاری است، و جست‌وجوی نمایش‌خانه‌ای درونی در پشتِ آن، خطایی دربارهٔ واژه‌هاست نه کشفی دربارهٔ جهان."
+          },
+          "philosophers": [
+            "ryle"
+          ],
+          "arguments": [],
+          "schools": [
+            "analytic-philosophy"
+          ],
+          "citations": [
+            {
+              "source": "text-concept-of-mind",
+              "locator": "ch. 1"
+            }
+          ]
+        },
+        {
+          "id": "the-soul-is-the-form-of-the-body",
+          "name": {
+            "en": "The soul is what organises the body",
+            "fa": "نفس همان است که تن را سامان می‌دهد"
+          },
+          "summary": {
+            "en": "Soul is not a thing lodged in a body but the form of a living body — what makes this matter a living, sensing, thinking thing at all. On this account the union needs no explanation, because there were never two items to join.",
+            "fa": "نفس چیزی نیست که در تنی جای گرفته باشد، بلکه صورتِ تنی زنده است — همان که این ماده را اصلاً چیزی زنده و حساس و اندیشنده می‌کند. بر این تبیین، اتحاد به تبیین نیاز ندارد، چون هرگز دو چیز نبوده‌اند که به هم بپیوندند."
+          },
+          "philosophers": [
+            "aquinas",
+            "aristotle"
+          ],
+          "arguments": [],
+          "schools": [
+            "scholasticism",
+            "aristotelianism"
+          ],
+          "citations": [
+            {
+              "source": "text-summa-theologiae",
+              "locator": "I, q.76, a.1"
+            }
+          ],
+          "attribution": "accepted",
+          "attributionNote": {
+            "en": "Aquinas states the doctrine and defends it as Aristotle's; whether it is Aristotle's own view or Aquinas reading his own concerns into De Anima is an old dispute, and Aristotle is listed here as the source of the doctrine rather than as its author in this form.",
+            "fa": "آکوئیناس این آموزه را می‌گوید و آن را همچون رأیِ ارسطو دفاع می‌کند؛ اینکه این رأیِ خودِ ارسطوست یا آکوئیناس دغدغه‌های خویش را در «دربارهٔ نفس» می‌خواند، نزاعی کهن است، و ارسطو اینجا همچون سرچشمهٔ آموزه آورده شده نه همچون گویندهٔ آن به این صورت."
+          }
+        }
+      ],
+      "arguments": [
+        "descartes-real-distinction"
+      ],
+      "concepts": [
+        "mind-body-problem",
+        "cogito",
+        "category-mistake",
+        "substance"
+      ],
+      "works": [
+        "meditations",
+        "concept-of-mind",
+        "ethics-spinoza"
+      ],
+      "traditions": [
+        "european",
+        "ancient-greek",
+        "medieval",
+        "analytic",
+        "contemporary"
+      ],
+      "branches": [
+        "philosophy-of-mind",
+        "metaphysics"
+      ],
+      "citations": [
+        {
+          "source": "descartes-meditations",
+          "locator": "Meditation VI"
+        },
+        {
+          "source": "text-concept-of-mind",
+          "locator": "ch. 1"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "You can decide to lift your arm and the arm goes up. Something that is not made of anything has apparently just moved something that is. Every answer to how that works costs something: two things that cannot touch, one thing that has to be two, or a claim that the question was badly asked from the start.",
+              "fa": "می‌توانی تصمیم بگیری دستت را بلند کنی و دست بالا می‌رود. چیزی که از هیچ ماده‌ای ساخته نیست، ظاهراً همین حالا چیزی مادی را جنبانده. هر پاسخی به چگونگیِ این کار بهایی دارد: دو چیز که نمی‌توانند به هم برسند، یک چیز که باید دو باشد، یا این ادعا که پرسش از آغاز بد پرسیده شده."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The modern shape of the problem comes from Descartes, and so does its hardest part. He argued that mind and body are really distinct, and then had to say how a thing with no location acts on a thing that has one. His own answer — that the union is felt rather than understood, and that the pineal gland is where the interaction happens — satisfied almost nobody, and the objection was pressed hardest in his own lifetime by Elisabeth of Bohemia, who asked how something unextended could push.\n\nThe answers that followed can be sorted by which of Descartes's commitments they drop. Spinoza keeps the two descriptions and drops the two things: one substance, understood under thought or under extension, with no causal traffic between the attributes because there are no two items to have traffic. Later materialism drops the mental substance instead. Ryle drops something else again — the assumption that the dispute is about what exists rather than about how a certain vocabulary works — and argues that the whole picture rests on a category mistake, treating mind as a thing of the same kind as body and then wondering how they meet.\n\nThe older tradition did not have the problem in this form. For Aristotle and for Aquinas after him the soul is the form of a living body, which makes the union prior to the distinction rather than a puzzle left over from it. That is not a solution to Descartes's problem so much as a refusal of the premise that generates it.",
+              "fa": "صورتِ نوینِ این مسئله از دکارت می‌آید، و دشوارترین بخشش نیز. او استدلال کرد که ذهن و تن به‌راستی متمایزند، و آنگاه ناچار شد بگوید چیزی بی‌جا چگونه بر چیزی جای‌دار اثر می‌گذارد. پاسخِ خودش — که اتحاد احساس می‌شود نه فهمیده، و اینکه غدهٔ صنوبری جای این کنش‌وری است — تقریباً هیچ‌کس را خرسند نکرد، و در زمانِ خودِ او سخت‌ترین فشار را الیزابتِ بوهمی آورد که پرسید چیزِ بی‌امتداد چگونه می‌تواند براند.\n\nپاسخ‌های پس از آن را می‌توان بر پایهٔ اینکه کدام تعهدِ دکارت را وامی‌نهند دسته کرد. اسپینوزا دو وصف را نگاه می‌دارد و دو چیز را وامی‌نهد: یک جوهر، که زیرِ اندیشه یا زیرِ امتداد فهمیده می‌شود، بی هیچ رفت‌وآمدِ علّی میانِ صفت‌ها، چون دو چیزی نیست که رفت‌وآمدی داشته باشد. مادی‌گراییِ بعدی به‌جای آن جوهرِ ذهنی را وامی‌نهد. رایل چیزِ دیگری را وامی‌نهد — این فرض که نزاع بر سرِ آن است که چه چیز هست، نه بر سرِ آنکه واژگانی معین چگونه کار می‌کند — و استدلال می‌کند که سراسرِ این تصویر بر خطای مقوله‌ای استوار است، که ذهن را چیزی از گونهٔ تن می‌گیرد و آنگاه در می‌ماند که چگونه به هم می‌رسند.\n\nسنتِ کهن‌تر این مسئله را به این صورت نداشت. نزدِ ارسطو و پس از او نزدِ آکوئیناس، نفس صورتِ تنی زنده است، و این اتحاد را بر تمایز مقدم می‌کند نه چیستانی برجای‌مانده از آن. این چندان راه‌حلی برای مسئلهٔ دکارت نیست که سر باز زدن از مقدمه‌ای است که آن مسئله را می‌زاید."
+            },
+            "citations": [
+              {
+                "source": "descartes-meditations",
+                "locator": "Meditation VI"
+              },
+              {
+                "source": "text-ethics-spinoza",
+                "locator": "II, P7"
+              }
+            ]
+          },
+          {
+            "id": "what-the-positions-are-answers-to",
+            "depth": "deep",
+            "body": {
+              "en": "The four stances answer different questions, and reading them as rival answers to one question flattens all of them. Descartes is arguing about what can exist apart from what. Spinoza is arguing about how many substances there are. Ryle is arguing about what a certain class of sentences does. Aquinas is arguing about what makes a body a living one. A person can hold Ryle's view about mental vocabulary and still owe an answer to Descartes's question about separability, and pretending otherwise is how the dispute is usually simplified.\n\nWhat has changed since is that the hard part has migrated. Interaction is no longer where the pressure is; what a physical account seems unable to reach is the felt quality of experience, and that question is not the one any of these four was answering. Reading them as early attempts at it credits them with a problem that had not been posed.",
+              "fa": "این چهار موضع به پرسش‌های گوناگون پاسخ می‌دهند، و خواندنشان همچون پاسخ‌های رقیب به یک پرسش هر چهار را تخت می‌کند. دکارت بر سرِ آن استدلال می‌کند که چه چیز می‌تواند جدا از چه چیز باشد. اسپینوزا بر سرِ شمارِ جوهرها. رایل بر سرِ اینکه دسته‌ای از جمله‌ها چه می‌کنند. آکوئیناس بر سرِ اینکه چه چیز تنی را زنده می‌کند. کسی می‌تواند رأیِ رایل را دربارهٔ واژگانِ ذهنی بپذیرد و باز به پرسشِ دکارت دربارهٔ جدایی‌پذیری بدهکار بماند، و وانمود به خلافِ این همان راهی است که این نزاع معمولاً از آن ساده می‌شود.\n\nآنچه از آن پس دگرگون شده این است که بخشِ دشوار جابه‌جا شده. کنش‌وری دیگر آنجا نیست که فشار هست؛ آنچه تبیینِ فیزیکی به آن نمی‌رسد کیفیتِ احساس‌شدهٔ تجربه است، و آن پرسش، پرسشی نیست که هیچ‌یک از این چهار به آن پاسخ می‌داد. خواندنِ ایشان همچون کوشش‌های نخستین برای آن، مسئله‌ای را به ایشان می‌بندد که هنوز طرح نشده بود."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-concept-of-mind",
+                "locator": "ch. 1"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-justice-requires",
+      "name": {
+        "en": "What Justice Requires",
+        "fa": "دادگری چه می‌طلبد"
+      },
+      "oneLine": {
+        "en": "Whether justice is an order in the soul, a bargain between strangers, a distribution to be judged from behind a screen, or a hierarchy to be abolished.",
+        "fa": "اینکه دادگری سامانی در جان است، پیمانی میانِ بیگانگان، بخشی که باید از پشتِ پرده داوری شود، یا سلسله‌مراتبی که باید برانداخته شود."
+      },
+      "question": {
+        "en": "What makes an arrangement of a society just, and is justice a condition of persons, a rule for institutions, or a demand made on an order that produces the question?",
+        "fa": "چه چیز ترتیبِ یک جامعه را دادگرانه می‌کند، و آیا دادگری حالتی از اشخاص است، قاعده‌ای برای نهادها، یا خواستی که بر نظمی نهاده می‌شود که خودِ این پرسش را می‌زاید؟"
+      },
+      "positions": [
+        {
+          "id": "order-in-the-soul",
+          "name": {
+            "en": "An order in the soul, read large in the city",
+            "fa": "سامانی در جان، خوانده در شهر به‌درشتی"
+          },
+          "summary": {
+            "en": "Justice is each part doing its own work, in the city and in the person alike. It is therefore a condition of a soul before it is a rule about transactions, and the just life is better than the unjust one whatever either is paid for it.",
+            "fa": "دادگری آن است که هر بخش کارِ خویش کند، هم در شهر و هم در شخص. پس پیش از آنکه قاعده‌ای دربارهٔ داد و ستد باشد، حالتی از جان است، و زندگیِ دادگر بهتر از بیدادگر است، هر مزدی که هر یک بستانند."
+          },
+          "philosophers": [
+            "plato"
+          ],
+          "arguments": [
+            "plato-justice-in-the-soul"
+          ],
+          "schools": [
+            "platonism"
+          ],
+          "citations": [
+            {
+              "source": "plato-republic",
+              "locator": "434d–435c"
+            }
+          ]
+        },
+        {
+          "id": "a-covenant-among-equals",
+          "name": {
+            "en": "A covenant, and nothing before it",
+            "fa": "پیمانی، و پیش از آن هیچ"
+          },
+          "summary": {
+            "en": "Where there is no common power there is no law, and where there is no law there is no injustice. Justice is the keeping of covenants made to escape a condition in which every person is a threat to every other; it begins with the sovereign and not before.",
+            "fa": "آنجا که قدرتِ مشترکی نیست قانونی نیست، و آنجا که قانونی نیست بیدادی نیست. دادگری نگاه داشتنِ پیمان‌هایی است که برای گریز از وضعی بسته شده‌اند که در آن هرکس تهدیدی برای هر کسِ دیگر است؛ با فرمانروا آغاز می‌شود و نه پیش از آن."
+          },
+          "philosophers": [
+            "hobbes"
+          ],
+          "arguments": [],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-leviathan",
+              "locator": "I.15"
+            }
+          ]
+        },
+        {
+          "id": "chosen-from-behind-a-screen",
+          "name": {
+            "en": "Whatever would be chosen without knowing who you are",
+            "fa": "آنچه بی‌دانستنِ اینکه که هستی برگزیده می‌شد"
+          },
+          "summary": {
+            "en": "Principles are just if they would be agreed to by people who do not know their own place, talents or conception of the good. The screen is a device for removing the bargaining advantages that make an agreement reflect power rather than fairness.",
+            "fa": "اصول دادگرانه‌اند اگر کسانی بر آن‌ها هم‌داستان می‌شدند که جایگاه و استعداد و تصورِ خویش از خیر را نمی‌دانند. آن پرده ابزاری است برای برداشتنِ برتری‌های چانه‌زنی که توافق را بازتابِ قدرت می‌کنند نه انصاف."
+          },
+          "philosophers": [
+            "rawls"
+          ],
+          "arguments": [
+            "original-position-argument"
+          ],
+          "schools": [
+            "analytic-philosophy"
+          ],
+          "citations": [
+            {
+              "source": "text-theory-of-justice",
+              "locator": "§24"
+            }
+          ]
+        },
+        {
+          "id": "abolish-the-order-itself",
+          "name": {
+            "en": "No reform of an unjust order is justice",
+            "fa": "اصلاحِ نظمِ بیدادگر دادگری نیست"
+          },
+          "summary": {
+            "en": "A hierarchy sanctioned by religion and reproduced by endogamy cannot be made just by softening it. Justice here requires destroying the belief that founds the order, not redistributing positions within it.",
+            "fa": "سلسله‌مراتبی که دین روا داشته و درون‌همسری بازتولیدش می‌کند با نرم کردنش دادگرانه نمی‌شود. دادگری اینجا نابود کردنِ باوری را می‌طلبد که آن نظم را بنیاد نهاده، نه بازتقسیمِ جایگاه‌ها در درونِ آن."
+          },
+          "philosophers": [
+            "ambedkar"
+          ],
+          "arguments": [
+            "ambedkar-caste-argument"
+          ],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-annihilation-of-caste",
+              "locator": "§4"
+            }
+          ]
+        },
+        {
+          "id": "justice-is-the-land-question",
+          "name": {
+            "en": "Justice is a question about land",
+            "fa": "دادگری پرسشی است دربارهٔ زمین"
+          },
+          "summary": {
+            "en": "In a colonised agrarian society the question of justice is not settled in the vocabulary of rights at all. What decides it is who holds the land, and a politics that discusses equality while leaving the estates intact is discussing nothing.",
+            "fa": "در جامعه‌ای کشاورز و مستعمره، پرسشِ دادگری اصلاً در واژگانِ حقوق فیصله نمی‌یابد. آنچه فیصله‌اش می‌دهد این است که زمین در دستِ کیست، و سیاستی که از برابری سخن می‌گوید و املاک را دست‌نخورده می‌گذارد از هیچ سخن می‌گوید."
+          },
+          "philosophers": [
+            "mariategui"
+          ],
+          "arguments": [
+            "mariategui-land-question"
+          ],
+          "schools": [
+            "liberation-philosophy"
+          ],
+          "citations": [
+            {
+              "source": "text-seven-essays",
+              "locator": "Essay 2"
+            }
+          ]
+        }
+      ],
+      "arguments": [
+        "plato-justice-in-the-soul",
+        "original-position-argument",
+        "ambedkar-caste-argument",
+        "mariategui-land-question"
+      ],
+      "concepts": [
+        "veil-of-ignorance",
+        "social-contract",
+        "state-of-nature",
+        "harm-principle",
+        "capabilities-approach"
+      ],
+      "works": [
+        "republic",
+        "leviathan",
+        "theory-of-justice",
+        "annihilation-of-caste",
+        "seven-essays"
+      ],
+      "traditions": [
+        "ancient-greek",
+        "european",
+        "american",
+        "indian",
+        "latin-american",
+        "analytic",
+        "contemporary"
+      ],
+      "branches": [
+        "political-philosophy",
+        "ethics",
+        "social-philosophy"
+      ],
+      "citations": [
+        {
+          "source": "plato-republic",
+          "locator": "434d–435c"
+        },
+        {
+          "source": "text-theory-of-justice",
+          "locator": "§24"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Everyone agrees justice matters and almost nobody agrees what it is. Some answers make it a state of a person, some a rule for institutions, some an agreement people would make if they could not rig it in their own favour. And some hold that asking what a just distribution looks like, inside an order built on caste or on stolen land, is already the wrong question.",
+              "fa": "همه هم‌رأی‌اند که دادگری مهم است و تقریباً هیچ‌کس هم‌رأی نیست که چیست. برخی پاسخ‌ها آن را حالتی از یک شخص می‌کنند، برخی قاعده‌ای برای نهادها، برخی توافقی که مردمان می‌کردند اگر نمی‌توانستند به سودِ خویش سرِ آن کلاه بگذارند. و برخی بر آن‌اند که پرسیدن از شکلِ بخشِ دادگرانه، در درونِ نظمی که بر کاست یا بر زمینِ دزدیده بنا شده، خود پرسشِ نادرست است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Three of the answers are recognisably one conversation. Plato locates justice in an ordering of parts and carries it from the city to the soul, so that the question whether justice pays cannot be settled by looking at what the just man receives. Hobbes moves the whole thing outward: there is no justice before the covenant, because injustice just is the breaking of a covenant, and covenants without a sword are words. Rawls keeps the contract and removes what made Hobbes's version a report on power — the parties choose without knowing who they will turn out to be.\n\nThe other two are not further entries in that conversation, and reading them as such is how they get defanged. Ambedkar is not proposing a principle of distribution. He is arguing that a hierarchy sanctioned by scripture and held in place by endogamy cannot be reformed, because the belief that founds it will reproduce it in any arrangement, and that political abolition without the destruction of that belief is a change of furniture. Mariátegui makes a parallel move for Peru: the vocabulary of rights is beside the point where the concrete question is who holds the land, and a socialism that imports European categories will describe a country that does not exist.\n\nWhat separates the five is not only their answers but what each takes the question to be about — souls, covenants, institutions, beliefs, or property in land.",
+              "fa": "سه تا از این پاسخ‌ها آشکارا یک گفت‌وگویند. افلاطون دادگری را در سامانِ بخش‌ها می‌نهد و آن را از شهر به جان می‌برد، چنان‌که پرسش از سود داشتنِ دادگری با نگریستن به آنچه دادگر می‌ستاند فیصله نیابد. هابز همه‌چیز را بیرون می‌برد: پیش از پیمان دادگری‌ای نیست، چون بیداد همان پیمان‌شکنی است، و پیمان بی‌شمشیر واژه است. رالز پیمان را نگاه می‌دارد و آنچه را روایتِ هابز را گزارشی از قدرت می‌کرد برمی‌دارد — طرف‌ها بی‌دانستنِ اینکه که از آب درخواهند آمد برمی‌گزینند.\n\nآن دوِ دیگر مدخل‌هایی تازه در آن گفت‌وگو نیستند، و خواندنشان چنین همان راهی است که دندانشان کشیده می‌شود. آمبدکار اصلی برای بخش کردن پیشنهاد نمی‌کند. استدلال می‌کند که سلسله‌مراتبی که کتابِ دینی روا داشته و درون‌همسری بر جایش نگاه داشته اصلاح‌پذیر نیست، چون باوری که بنیادش نهاده در هر ترتیبی بازتولیدش می‌کند، و برانداختنِ سیاسی بی نابود کردنِ آن باور جابه‌جا کردنِ اثاث است. ماریاتگی برای پرو حرکتی هم‌سنگ می‌کند: واژگانِ حقوق آنجا به کار نمی‌آید که پرسشِ انضمامی این است که زمین در دستِ کیست، و سوسیالیسمی که مقوله‌های اروپایی را وارد کند کشوری را وصف خواهد کرد که وجود ندارد.\n\nآنچه این پنج را جدا می‌کند تنها پاسخ‌هاشان نیست، بلکه آن است که هر یک پرسش را دربارهٔ چه می‌گیرد — جان، پیمان، نهاد، باور، یا مالکیتِ زمین."
+            },
+            "citations": [
+              {
+                "source": "text-leviathan",
+                "locator": "I.15"
+              },
+              {
+                "source": "text-annihilation-of-caste",
+                "locator": "§4"
+              }
+            ]
+          },
+          {
+            "id": "who-gets-to-set-the-question",
+            "depth": "deep",
+            "body": {
+              "en": "A recurring complaint about the contract tradition is that it answers a question whose terms were fixed before the people most affected were in the room. The original position is designed to strip out bargaining advantage, and it does; what it cannot strip out is the prior decision that justice is a matter of distributing primary goods among citizens of a closed society. Objections from the capabilities literature press exactly there, arguing that what people can actually do and be, rather than the bundle they hold, is the right measure — and that a theory framed for a closed society has no account of the people outside it.\n\nAmbedkar and Mariátegui are usually filed under applied or regional philosophy, and that filing is itself a claim about the shape of the subject. Both are making general arguments — one about whether a hierarchy grounded in belief can be reformed rather than destroyed, one about whether political vocabulary borrowed across an economic gulf can describe anything real — and both would change the theory of justice if taken as general. Whether the difference between a theory and a case is a difference in the philosophy or in who wrote it is a live question and not a settled one.",
+              "fa": "شکایتی همیشگی از سنتِ پیمان این است که به پرسشی پاسخ می‌دهد که اصطلاح‌هایش پیش از حضورِ آسیب‌دیده‌ترین مردمان در اتاق معین شده بود. «وضعِ نخستین» چنان ساخته شده که برتریِ چانه‌زنی را برکَند، و می‌کَند؛ آنچه نمی‌تواند برکَند تصمیمِ پیشینی است که دادگری کارِ بخش کردنِ کالاهای نخستین میانِ شهروندانِ جامعه‌ای بسته است. اعتراض‌ها از ادبیاتِ توانش درست بر همان‌جا فشار می‌آورند و می‌گویند سنجهٔ درست آن است که مردمان به‌راستی چه می‌توانند بکنند و باشند، نه بستهٔ آنچه در دست دارند — و اینکه نظریه‌ای که برای جامعه‌ای بسته چارچوب یافته هیچ تبیینی از مردمانِ بیرونِ آن ندارد.\n\nآمبدکار و ماریاتگی را معمولاً زیرِ فلسفهٔ کاربردی یا منطقه‌ای بایگانی می‌کنند، و همین بایگانی خود ادعایی است دربارهٔ شکلِ این رشته. هر دو استدلالی عام می‌کنند — یکی دربارهٔ اینکه آیا سلسله‌مراتبی که بر باور استوار است اصلاح‌پذیر است یا باید نابود شود، دیگری دربارهٔ اینکه آیا واژگانِ سیاسی که از آن سویِ شکافی اقتصادی وام گرفته شده می‌تواند چیزی واقعی را وصف کند — و هر دو اگر عام گرفته شوند نظریهٔ دادگری را دگرگون می‌کنند. اینکه تفاوتِ میانِ نظریه و مورد تفاوتی در فلسفه است یا در نویسنده، پرسشی زنده است و فیصله‌نیافته."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-theory-of-justice",
+                "locator": "§11"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-makes-an-inquiry-scientific",
+      "name": {
+        "en": "What Makes an Inquiry Scientific",
+        "fa": "چه چیز پژوهشی را دانشی می‌کند"
+      },
+      "oneLine": {
+        "en": "Astrology has evidence in its favour and so does physics. The question is what else physics has.",
+        "fa": "اخترگویی شاهدِ موافق دارد و فیزیک نیز. پرسش این است که فیزیک دیگر چه دارد."
+      },
+      "question": {
+        "en": "Is there a line between science and everything else, and if so is it drawn by the form of a theory, by the practice of a community, or by nothing that survives inspection?",
+        "fa": "آیا مرزی میانِ دانش و هر چیزِ دیگر هست، و اگر هست آن را صورتِ نظریه می‌کشد، عملِ یک جامعه، یا هیچ‌چیزی که از وارسی جان به در برد؟"
+      },
+      "positions": [
+        {
+          "id": "meaningful-is-verifiable",
+          "name": {
+            "en": "The line is between sense and nonsense",
+            "fa": "مرز میانِ معنا و بی‌معنایی است"
+          },
+          "summary": {
+            "en": "A sentence has factual meaning only if observation could settle it. Metaphysical statements are not false but literally without sense, and the demarcation wanted is therefore a criterion of meaning rather than of science.",
+            "fa": "جمله تنها آنگاه معنای واقعی دارد که مشاهده بتواند فیصله‌اش دهد. گزاره‌های مابعدالطبیعی نادرست نیستند بلکه به‌راستی بی‌معنایند، و پس مرزبندیِ موردِ خواست معیارِ معناست نه معیارِ دانش."
+          },
+          "philosophers": [
+            "ayer"
+          ],
+          "arguments": [],
+          "schools": [
+            "analytic-philosophy"
+          ],
+          "citations": [
+            {
+              "source": "text-language-truth-logic",
+              "locator": "ch. 1"
+            }
+          ]
+        },
+        {
+          "id": "science-forbids",
+          "name": {
+            "en": "A theory is scientific if it forbids",
+            "fa": "نظریه دانشی است اگر منع کند"
+          },
+          "summary": {
+            "en": "What marks a theory as empirical is not the evidence that can support it but the observation that would conflict with it. A theory compatible with everything has no empirical content, and metaphysics is meaningful even when it falls outside the line.",
+            "fa": "آنچه نظریه‌ای را تجربی می‌کند نه شاهدی است که می‌تواند پشتیبانش باشد، بلکه مشاهده‌ای است که با آن ناسازگار می‌بود. نظریه‌ای که با همه‌چیز سازگار است محتوای تجربی ندارد، و مابعدالطبیعه حتی آنگاه که بیرونِ آن مرز می‌افتد معنادار است."
+          },
+          "philosophers": [
+            "popper"
+          ],
+          "arguments": [
+            "popper-falsifiability-demarcation"
+          ],
+          "schools": [
+            "analytic-philosophy"
+          ],
+          "citations": [
+            {
+              "source": "text-logic-scientific-discovery",
+              "locator": "ch. 1, §6"
+            }
+          ]
+        },
+        {
+          "id": "look-at-the-practice",
+          "name": {
+            "en": "Look at what the community does",
+            "fa": "به آنچه آن جامعه می‌کند بنگر"
+          },
+          "summary": {
+            "en": "Science is not a form of statement but a way of working: a community holding a shared paradigm, solving puzzles inside it, and treating anomalies as its own failures until enough accumulate and a rival is available. What makes an inquiry scientific is that it has a paradigm at all.",
+            "fa": "دانش صورتی از گزاره نیست بلکه شیوه‌ای از کار است: جامعه‌ای که سرمشقی مشترک دارد، درونِ آن چیستان حل می‌کند، و ناهنجاری‌ها را ناکامیِ خود می‌گیرد تا آنگاه که به‌اندازه انباشته شوند و رقیبی در دست باشد. آنچه پژوهشی را دانشی می‌کند این است که اصلاً سرمشقی دارد."
+          },
+          "philosophers": [
+            "kuhn"
+          ],
+          "arguments": [],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-structure-scientific-revolutions",
+              "locator": "ch. 5"
+            }
+          ]
+        }
+      ],
+      "arguments": [
+        "popper-falsifiability-demarcation"
+      ],
+      "concepts": [
+        "falsifiability",
+        "paradigm",
+        "problem-of-induction",
+        "scientific-method-doubt"
+      ],
+      "works": [
+        "logic-scientific-discovery",
+        "structure-scientific-revolutions",
+        "language-truth-logic"
+      ],
+      "traditions": [
+        "european",
+        "american",
+        "analytic",
+        "contemporary"
+      ],
+      "branches": [
+        "philosophy-of-science",
+        "epistemology",
+        "metaphysics"
+      ],
+      "citations": [
+        {
+          "source": "text-logic-scientific-discovery",
+          "locator": "ch. 1, §6"
+        },
+        {
+          "source": "text-structure-scientific-revolutions",
+          "locator": "ch. 5"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Astrology has satisfied customers, a long record and plenty of confirming cases. So does medicine. If evidence in favour is what makes something scientific, both qualify. Something else must be doing the work — and the three best-known answers put it in three different places: in the meaning of the sentences, in the form of the theory, and in the behaviour of the people.",
+              "fa": "اخترگویی مشتریانِ خرسند دارد، کارنامه‌ای دراز و موردهای مؤیّدِ فراوان. پزشکی نیز. اگر شاهدِ موافق همان چیزی باشد که چیزی را دانشی می‌کند، هر دو واجدِ شرایط‌اند. پس چیزِ دیگری کار می‌کند — و سه پاسخِ مشهور آن را در سه جای گوناگون می‌نهند: در معنای جمله‌ها، در صورتِ نظریه، و در رفتارِ مردمان."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The Vienna Circle's proposal was the sharpest and the shortest-lived. If a sentence's factual meaning is the method of its verification, then metaphysical sentences say nothing at all, and the boundary of science coincides with the boundary of sense. The criterion failed on its own terms — no finite set of observations verifies a universal law, so it excluded the science it was meant to include — and successive weakenings to confirmability never recovered the sharpness that made it attractive.\n\nPopper's answer keeps the empiricism and moves the line. Verification and falsification are logically unequal: no run of white swans establishes that all swans are white, one black swan refutes it. So the mark of an empirical theory is what it forbids, and metaphysics is meaningful but outside science. The criterion is a proposal to be judged by fruitfulness, as Popper says himself, which is often forgotten by people arguing about whether it is correct.\n\nKuhn shifted the object of the question. Looking at how science was actually done, he found that practitioners do not abandon a theory when it meets an anomaly; they treat the anomaly as a puzzle and the theory as the standard against which their own work is judged, and a framework is replaced only when a rival exists. On this account what distinguishes science is not the logic of its statements but the existence of a paradigm and a community trained in it — which makes astrology unscientific for a reason Popper's criterion cannot give: not that it forbids nothing, but that it has no puzzles.",
+              "fa": "پیشنهادِ حلقهٔ وین تیزترین بود و کوته‌عمرترین. اگر معنای واقعیِ جمله همان روشِ راستی‌آزمایی‌اش باشد، آنگاه جمله‌های مابعدالطبیعی اصلاً چیزی نمی‌گویند، و مرزِ دانش با مرزِ معنا یکی می‌شود. این معیار به شرطِ خود ناکام ماند — هیچ مجموعهٔ متناهی از مشاهدات قانونی کلی را راستی‌آزمایی نمی‌کند، پس همان دانشی را که می‌خواست دربر گیرد بیرون گذاشت — و سست کردن‌های پیاپی تا تأییدپذیری هرگز آن تیزی را که جذابش کرده بود بازنیاورد.\n\nپاسخِ پوپر تجربه‌گرایی را نگاه می‌دارد و مرز را جابه‌جا می‌کند. راستی‌آزمایی و ابطال از نظرِ منطقی نابرابرند: هیچ رشته‌ای از قوهای سپید ثابت نمی‌کند همهٔ قوها سپیدند، و یک قوی سیاه ردش می‌کند. پس نشانِ نظریهٔ تجربی آن است که چه منع می‌کند، و مابعدالطبیعه معنادار است اما بیرونِ دانش. این معیار پیشنهادی است که باید به باروری‌اش داوری شود، چنان‌که خودِ پوپر می‌گوید، و کسانی که بر سرِ درست بودنش بحث می‌کنند این را اغلب از یاد می‌برند.\n\nکوهن موضوعِ پرسش را جابه‌جا کرد. با نگریستن به آنکه دانش به‌راستی چگونه انجام می‌شد، دید که اهلِ کار نظریه را چون به ناهنجاری‌ای برمی‌خورد وا نمی‌نهند؛ ناهنجاری را چیستان می‌گیرند و نظریه را معیاری که کارِ خودشان با آن داوری می‌شود، و چارچوب تنها آنگاه جایگزین می‌شود که رقیبی باشد. بر این تبیین، آنچه دانش را جدا می‌کند منطقِ گزاره‌هایش نیست بلکه بودنِ سرمشقی است و جامعه‌ای پرورده در آن — و این اخترگویی را به سببی نادانشی می‌کند که معیارِ پوپر نمی‌تواند بدهد: نه اینکه چیزی منع نمی‌کند، بلکه اینکه چیستانی ندارد."
+            },
+            "citations": [
+              {
+                "source": "text-language-truth-logic",
+                "locator": "ch. 1"
+              },
+              {
+                "source": "text-logic-scientific-discovery",
+                "locator": "ch. 1, §6"
+              }
+            ]
+          },
+          {
+            "id": "whether-there-is-a-line",
+            "depth": "deep",
+            "body": {
+              "en": "The strongest position on this problem may be that there is no line, and it is not represented above because the corpus holds no philosopher who argues it. The case is that every proposed criterion either admits things nobody wants admitted or excludes physics, and that what actually distinguishes good inquiry from bad is a matter of degree and of many features at once — none of them individually necessary or sufficient. That is now a common view among philosophers of science, and a page that lists only Ayer, Popper and Kuhn should say so rather than let three answers stand for the field.\n\nThe Popper–Kuhn disagreement is also narrower than it looks. Kuhn accepted that a good scientific theory must make risky predictions, and Popper accepted that a scientist may reasonably defend a theory against an anomaly for a time. What they disagreed about is whether the account of science should be normative or descriptive, and much of the apparent clash comes from each being read as answering the other's question.\n\nA practical consequence worth stating: courts have had to use demarcation criteria, and the versions they have used come mostly from Popper. Whether a criterion proposed as a convention for philosophers can bear the weight of deciding what may be taught in a school is a question the philosophical literature mostly did not ask before the answer was needed.",
+              "fa": "نیرومندترین موضع در این مسئله شاید آن باشد که مرزی نیست، و در بالا نیامده چون این پیکره فیلسوفی ندارد که چنین استدلال کند. سخن این است که هر معیارِ پیشنهادی یا چیزهایی را راه می‌دهد که کسی نمی‌خواهد، یا فیزیک را بیرون می‌گذارد، و آنچه به‌راستی پژوهشِ نیک را از بد جدا می‌کند امری درجه‌دار است و از چند ویژگی با هم — که هیچ‌یک به‌تنهایی نه لازم است و نه بس. این اکنون رأیی رایج میانِ فیلسوفانِ دانش است، و صفحه‌ای که تنها آیر و پوپر و کوهن را می‌آورد باید این را بگوید نه اینکه بگذارد سه پاسخ به‌جای همهٔ رشته بنشیند.\n\nناهم‌رأییِ پوپر و کوهن نیز تنگ‌تر از آن است که می‌نماید. کوهن می‌پذیرفت که نظریهٔ دانشیِ خوب باید پیش‌بینی‌های پرخطر بکند، و پوپر می‌پذیرفت که دانشمند می‌تواند به‌درستی مدتی نظریه را در برابرِ ناهنجاری‌ای دفاع کند. آنچه بر سرش ناهم‌رأی بودند این بود که تبیینِ دانش باید هنجاری باشد یا توصیفی، و بیشترِ آن برخوردِ ظاهری از آن می‌آید که هر یک را پاسخ‌دهنده به پرسشِ دیگری خوانده‌اند.\n\nپیامدی عملی که گفتنش می‌ارزد: دادگاه‌ها ناچار شده‌اند معیارهای مرزبندی را به کار برند، و روایت‌هایی که به کار برده‌اند بیشتر از پوپر آمده. اینکه معیاری که همچون قراردادی برای فیلسوفان پیشنهاد شده می‌تواند بارِ تصمیم دربارهٔ آنچه در مدرسه آموخته می‌شود را بکشد یا نه، پرسشی است که ادبیاتِ فلسفی بیشتر پیش از نیاز به پاسخ نپرسید."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-structure-scientific-revolutions",
+                "locator": "ch. 5"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-makes-someone-the-same-person",
+      "name": {
+        "en": "What Makes Someone the Same Person",
+        "fa": "چه چیز کسی را همان شخص می‌کند"
+      },
+      "oneLine": {
+        "en": "The question of what carries a person across time, asked by traditions that disagree about whether there is a person to carry.",
+        "fa": "پرسش از اینکه چه چیز شخص را در گذرِ زمان می‌برد، پرسیده از سویِ سنت‌هایی که بر سرِ بودنِ شخصی برای بردن هم‌رأی نیستند."
+      },
+      "question": {
+        "en": "What makes a person at one time the same person as someone at another, and is there any single thing that does it?",
+        "fa": "چه چیز شخصی را در زمانی همان شخصِ کسی در زمانی دیگر می‌کند، و اصلاً آیا چیزی یگانه هست که این کار را بکند؟"
+      },
+      "positions": [
+        {
+          "id": "continuity-of-consciousness",
+          "name": {
+            "en": "Consciousness reaching back",
+            "fa": "آگاهی‌ای که به گذشته می‌رسد"
+          },
+          "summary": {
+            "en": "A person is the same person as whoever they can reach in consciousness, whatever substance carries them. The criterion is built for a purpose: it settles who may justly be held answerable for what.",
+            "fa": "شخص همان کسی است که می‌تواند در آگاهی به او برسد، هر جوهری که حاملش باشد. این معیار برای مقصودی ساخته شده: فیصله می‌دهد چه کسی به‌داد می‌تواند برای چه چیز پاسخگو باشد."
+          },
+          "philosophers": [
+            "locke"
+          ],
+          "arguments": [
+            "locke-memory-criterion"
+          ],
+          "schools": [
+            "empiricism"
+          ],
+          "citations": [
+            {
+              "source": "text-essay-human-understanding",
+              "locator": "II.xxvii.9"
+            }
+          ]
+        },
+        {
+          "id": "a-bundle-with-no-owner",
+          "name": {
+            "en": "A bundle with nobody holding it",
+            "fa": "دسته‌ای که کسی نگاهش نداشته"
+          },
+          "summary": {
+            "en": "Look inwards for the self and you find only perceptions, never the thing having them. What we call a person is a bundle of perceptions in rapid succession, and the identity we ascribe to it is something the imagination supplies rather than something observed.",
+            "fa": "به درون بنگر تا خود را بیابی و جز ادراک‌ها چیزی نمی‌یابی، هرگز آن چیزی را که آن‌ها را دارد نه. آنچه شخصش می‌خوانیم دسته‌ای از ادراک‌هاست در پیِ هم و شتابان، و این‌همانی‌ای که به آن نسبت می‌دهیم چیزی است که خیال فراهم می‌آورد نه چیزی که مشاهده شده باشد."
+          },
+          "philosophers": [
+            "hume"
+          ],
+          "arguments": [],
+          "schools": [
+            "empiricism"
+          ],
+          "citations": [
+            {
+              "source": "text-treatise-human-nature",
+              "locator": "I.4.6"
+            }
+          ]
+        },
+        {
+          "id": "no-self-to-be-continued",
+          "name": {
+            "en": "There is no self to be continued",
+            "fa": "خودی نیست که ادامه یابد"
+          },
+          "summary": {
+            "en": "The person is a conventional designation for a stream of momentary constituents, useful for speech and action and false if taken as naming a thing. Nothing persists to be identical, and the sense that something does is what the analysis is meant to dissolve.",
+            "fa": "شخص نامی است قراردادی برای جریانی از سازه‌های آنی، که برای سخن و کنش سودمند است و اگر نامِ چیزی گرفته شود نادرست. هیچ‌چیزی نمی‌پاید تا این‌همان باشد، و همان احساسِ اینکه چیزی می‌پاید همان است که این تحلیل می‌خواهد بگشاید."
+          },
+          "philosophers": [
+            "buddha",
+            "vasubandhu",
+            "nagarjuna"
+          ],
+          "arguments": [],
+          "schools": [
+            "yogacara",
+            "madhyamaka"
+          ],
+          "citations": [
+            {
+              "source": "text-abhidharmakosa",
+              "locator": "ch. 9"
+            },
+            {
+              "source": "nagarjuna-mmk",
+              "locator": "18.1"
+            }
+          ],
+          "attribution": "documented",
+          "attributionNote": {
+            "en": "The three are grouped by the conclusion, not by the argument. The Abhidharma analysis into momentary constituents is exactly what Nāgārjuna then turns the same reasoning against, so listing them together records agreement about the self and not agreement about method.",
+            "fa": "این سه بر پایهٔ نتیجه گرد آمده‌اند نه بر پایهٔ استدلال. تحلیلِ اَبهیدَرمه به سازه‌های آنی درست همان است که ناگارجونا سپس همان استدلال را بر ضدش می‌گرداند، پس آوردنِ آن‌ها با هم، هم‌رأیی دربارهٔ خود را ثبت می‌کند نه هم‌رأیی دربارهٔ روش."
+          }
+        },
+        {
+          "id": "the-self-is-what-never-changed",
+          "name": {
+            "en": "The self is the one thing that never changed",
+            "fa": "خود همان یگانه چیزی است که هرگز دگرگون نشد"
+          },
+          "summary": {
+            "en": "What we take for a person is a superimposition of the changing on the unchanging. The witnessing self is not carried across time by anything, because it was never in time; discovering that it is not different from the ground of everything is what liberation consists in.",
+            "fa": "آنچه شخصش می‌گیریم برنهادنِ دگرگون‌شونده بر ناگردنده است. خودِ شاهد را هیچ‌چیز در گذرِ زمان نمی‌برد، چون هرگز در زمان نبوده؛ و رهایی همان دریافتنِ این است که او از بنیادِ همه‌چیز جدا نیست."
+          },
+          "philosophers": [
+            "shankara"
+          ],
+          "arguments": [],
+          "schools": [
+            "advaita-vedanta"
+          ],
+          "citations": [
+            {
+              "source": "text-brahma-sutra-bhasya",
+              "locator": "Adhyāsa-bhāṣya"
+            }
+          ]
+        }
+      ],
+      "arguments": [
+        "locke-memory-criterion"
+      ],
+      "concepts": [
+        "personal-identity",
+        "atman-brahman",
+        "sunyata",
+        "dependent-origination"
+      ],
+      "works": [
+        "essay-human-understanding",
+        "treatise-human-nature",
+        "brahma-sutra-bhasya"
+      ],
+      "traditions": [
+        "european",
+        "indian",
+        "buddhist",
+        "analytic",
+        "contemporary"
+      ],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "text-essay-human-understanding",
+          "locator": "II.xxvii.9"
+        },
+        {
+          "source": "text-treatise-human-nature",
+          "locator": "I.4.6"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "You have almost none of the matter you had as a child, remember little of it, and would not recognise your own thinking from thirty years ago. Something still makes that child you — or the belief that something does is the thing under examination. European philosophy mostly looked for the thread. Buddhist philosophy mostly argued there is none, and that expecting one is where the suffering starts.",
+              "fa": "تقریباً هیچ‌یک از مادهٔ کودکی‌ات را نداری، اندکی از آن را به یاد می‌آوری، و اندیشهٔ سی سال پیشِ خودت را بازنمی‌شناسی. باز چیزی آن کودک را تو می‌کند — یا همین باور که چیزی چنین می‌کند، خود موردِ بررسی است. فلسفهٔ اروپایی بیشتر پیِ آن رشته گشت. فلسفهٔ بودایی بیشتر استدلال کرد که رشته‌ای نیست، و انتظارِ آن همان جایی است که رنج آغاز می‌شود."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "Locke set the modern terms by refusing both of the obvious answers. Not the same soul, because a soul might carry no memory across; not the same body, because the same body might house a different consciousness. What is left is consciousness itself, reaching back as far as memory reaches. The chapter is explicitly forensic — Locke says person is a term of law — and the criterion is shaped to answer who may justly be punished.\n\nHume took the empiricist method further and found nothing at the end of it. Introspection turns up perceptions and never the perceiver, so the self is a bundle rather than a thing, and identity is a relation the imagination adds. Hume was famously unsatisfied by his own account and said so in an appendix, which is the honest record of a position its author could not make work.\n\nThe Indian traditions had been arguing the same ground for a millennium and more, from a different starting point. The Abhidharma analysis breaks the apparent person into momentary constituents, with the person a conventional label for the series; Nāgārjuna turns the same analysis on the constituents themselves. Against both stands the Advaita position that there is a self, precisely one, and that it is not the changing thing anyone was looking for.",
+              "fa": "لاک اصطلاح‌های نوین را با سر باز زدن از هر دو پاسخِ آشکار نهاد. نه همان نفس، چون ممکن است نفس هیچ حافظه‌ای را نگذراند؛ نه همان تن، چون ممکن است همان تن آگاهیِ دیگری را در خود جای دهد. آنچه می‌ماند خودِ آگاهی است، که تا آنجا به گذشته می‌رسد که حافظه می‌رسد. آن فصل آشکارا حقوقی است — لاک می‌گوید «شخص» اصطلاحی حقوقی است — و معیار چنان شکل گرفته که پاسخ دهد چه کسی به‌داد می‌تواند کیفر ببیند.\n\nهیوم روشِ تجربه‌گرا را پیش‌تر برد و در پایانش چیزی نیافت. درون‌نگری ادراک‌ها را می‌یابد و هرگز ادراک‌کننده را، پس خود دسته‌ای است نه چیزی، و این‌همانی نسبتی است که خیال می‌افزاید. هیوم خود از تبیینِ خویش ناخرسند بود و در پیوستی این را گفت، و این ثبتِ صادقانهٔ موضعی است که نویسنده‌اش نتوانست به کار اندازد.\n\nسنت‌های هندی بیش از هزار سال بود که بر همین زمین استدلال می‌کردند، از نقطهٔ آغازی دیگر. تحلیلِ اَبهیدَرمه شخصِ ظاهری را به سازه‌های آنی می‌شکند، و شخص برچسبی قراردادی برای آن رشته می‌شود؛ ناگارجونا همان تحلیل را بر خودِ سازه‌ها می‌گرداند. در برابرِ هر دو، موضعِ اَدْوَیته می‌ایستد که خودی هست، درست یکی، و آن، آن چیزِ دگرگون‌شونده‌ای نیست که کسی در پیِ آن بود."
+            },
+            "citations": [
+              {
+                "source": "text-essay-human-understanding",
+                "locator": "II.xxvii.9"
+              },
+              {
+                "source": "text-treatise-human-nature",
+                "locator": "I.4.6"
+              }
+            ]
+          },
+          {
+            "id": "whether-these-are-one-question",
+            "depth": "deep",
+            "body": {
+              "en": "Whether the European and the Indian debates are about the same thing is itself contested, and the comparison is often made too quickly. Locke and Hume are asking what identity over time consists in, with a courtroom and a bundle of perceptions respectively in view. The Buddhist analysis is framed as a soteriology: the argument that there is no self is offered as what ends craving, not as a metaphysical result to be weighed against rivals. The two projects can reach compatible conclusions while asking different questions, and the resemblance between Hume's bundle and the Abhidharma series is close enough to have prompted a long and unresolved literature on whether Hume could have known of it.\n\nA second thing the flat statement of positions hides: none of the four is a theory of what a person is for the purpose the courts actually use. Locke comes closest and says so, but even his account leaves the sleepwalker and the amnesiac where human law cannot follow the criterion, and he grants this rather than repairing it.",
+              "fa": "اینکه نزاعِ اروپایی و نزاعِ هندی بر سرِ یک چیزند یا نه، خود محلِ نزاع است، و این مقایسه اغلب شتابان انجام می‌شود. لاک و هیوم می‌پرسند این‌همانی در گذرِ زمان در چیست، یکی با دادگاه در نظر و دیگری با دسته‌ای از ادراک‌ها. تحلیلِ بودایی همچون راهِ رهایی چارچوب گرفته: استدلالِ نبودِ خود همچون آنچه آز را پایان می‌دهد عرضه می‌شود، نه همچون نتیجه‌ای مابعدالطبیعی که در ترازو با رقیبان سنجیده شود. این دو طرح می‌توانند به نتیجه‌های سازگار برسند در حالی که پرسش‌های گوناگون می‌پرسند، و شباهتِ دستهٔ هیوم با رشتهٔ اَبهیدَرمه چندان نزدیک است که ادبیاتی دراز و ناگشوده را دربارهٔ اینکه آیا هیوم می‌توانست از آن آگاه باشد برانگیخته است.\n\nچیزِ دومی که بیانِ تختِ این مواضع می‌پوشاند: هیچ‌یک از این چهار، نظریه‌ای دربارهٔ شخص برای آن مقصودی نیست که دادگاه‌ها به‌راستی به کار می‌برند. لاک نزدیک‌تر از همه است و خود می‌گوید، اما حتی تبیینِ او خوابگرد و فراموش‌کار را آنجا می‌گذارد که قانونِ آدمیان نمی‌تواند از پیِ معیار برود، و او این را می‌پذیرد نه اینکه بند بزند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "nagarjuna-mmk",
+                "locator": "18.1"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-many-things-share",
+      "name": {
+        "en": "What Many Things Share",
+        "fa": "آنچه چیزهای بسیار در آن شریک‌اند"
+      },
+      "oneLine": {
+        "en": "Two red things are both red. Whether that means there is something they both have, and where it could be, is one of the oldest disputes there is.",
+        "fa": "دو چیزِ سرخ هر دو سرخ‌اند. اینکه آیا این یعنی چیزی هست که هر دو دارند، و آن کجا می‌تواند باشد، از کهن‌ترین نزاع‌هاست."
+      },
+      "question": {
+        "en": "When many particular things are truly called by the same name, is there a single thing they share, and if so what kind of thing is it and where does it exist?",
+        "fa": "آنگاه که چیزهای جزئیِ بسیار به‌راستی به یک نام خوانده می‌شوند، آیا چیزی یگانه هست که در آن شریک‌اند، و اگر هست از چه گونه است و کجا هست؟"
+      },
+      "positions": [
+        {
+          "id": "forms-apart-from-things",
+          "name": {
+            "en": "There are Forms, and they are not here",
+            "fa": "صورت‌ها هستند، و اینجا نیستند"
+          },
+          "summary": {
+            "en": "What many things share is a single Form, and the Form is not one of the things that share it. Particulars are what they are by participating in it; knowledge is of the Form, and the changing things are known only through it.",
+            "fa": "آنچه چیزهای بسیار در آن شریک‌اند صورتی یگانه است، و آن صورت یکی از چیزهایی نیست که در آن شریک‌اند. جزئی‌ها با بهره بردن از آن، آنچه هستند می‌شوند؛ شناخت از آنِ صورت است، و چیزهای دگرگون‌شونده تنها از راهِ آن شناخته می‌شوند."
+          },
+          "philosophers": [
+            "plato"
+          ],
+          "arguments": [
+            "third-man-argument"
+          ],
+          "schools": [
+            "platonism"
+          ],
+          "citations": [
+            {
+              "source": "plato-republic",
+              "locator": "507b"
+            }
+          ]
+        },
+        {
+          "id": "universals-in-the-things",
+          "name": {
+            "en": "The universal is in the things",
+            "fa": "کلی در خودِ چیزهاست"
+          },
+          "summary": {
+            "en": "There are universals, but a separated Form explains nothing and multiplies what has to be explained. What is common is in the particulars as their form, and it is reached by abstraction from them rather than found in a place of its own.",
+            "fa": "کلی‌ها هستند، اما صورتِ جداشده هیچ‌چیز را تبیین نمی‌کند و آنچه را باید تبیین شود چند برابر می‌کند. آنچه مشترک است در خودِ جزئی‌ها همچون صورتِ آن‌هاست، و با تجرید از آن‌ها به دست می‌آید نه در جایی از آنِ خود یافته می‌شود."
+          },
+          "philosophers": [
+            "aristotle"
+          ],
+          "arguments": [
+            "third-man-argument"
+          ],
+          "schools": [
+            "aristotelianism"
+          ],
+          "citations": [
+            {
+              "source": "aristotle-metaphysics",
+              "locator": "1038b8"
+            }
+          ],
+          "attribution": "documented",
+          "attributionNote": {
+            "en": "Aristotle appears in two roles here, and the page should not blur them: the third man is his objection to Plato, while the doctrine that the universal is in the particular is his own alternative. He is listed against this argument in one place and for a position in another for that reason.",
+            "fa": "ارسطو اینجا در دو نقش می‌آید، و صفحه نباید آن دو را در هم کند: «مردِ سوم» اعتراضِ او به افلاطون است، و آموزهٔ بودنِ کلی در جزئی بدیلِ خودِ اوست. به همین سبب در جایی در برابرِ آن استدلال آورده شده و در جایی برای یک موضع."
+          }
+        },
+        {
+          "id": "only-names-and-concepts",
+          "name": {
+            "en": "Only particulars, plus signs that stand for many",
+            "fa": "تنها جزئی‌ها، و نشانه‌هایی که به‌جای بسیاران می‌نشینند"
+          },
+          "summary": {
+            "en": "Nothing numerically one can be wholly present in many things at once, so there are no universals outside the mind. What does the work is a concept: a natural sign that stands for many particulars in a proposition, which is enough for general knowledge without a general thing.",
+            "fa": "هیچ چیزی که به عدد یکی است نمی‌تواند در آنِ واحد در چیزهای بسیار تمام‌وکمال حاضر باشد، پس کلی‌ای بیرون از ذهن نیست. آنچه کار می‌کند مفهوم است: نشانه‌ای طبیعی که در گزاره به‌جای جزئی‌های بسیار می‌نشیند، و این برای شناختِ عام بس است بی‌آنکه چیزِ عامی در کار باشد."
+          },
+          "philosophers": [
+            "ockham"
+          ],
+          "arguments": [
+            "ockham-against-universals"
+          ],
+          "schools": [
+            "nominalism"
+          ],
+          "citations": [
+            {
+              "source": "text-summa-logicae",
+              "locator": "I.14"
+            }
+          ]
+        },
+        {
+          "id": "meaning-by-exclusion",
+          "name": {
+            "en": "A word means by excluding, not by naming",
+            "fa": "واژه با بیرون گذاشتن معنا می‌دهد، نه با نام بردن"
+          },
+          "summary": {
+            "en": "A general term picks out its instances not by naming something they share but by excluding what they are not: \"cow\" means not-non-cow. There is no positive common property, and the appearance of one is an artefact of how conceptual thought divides an undivided particular world.",
+            "fa": "اصطلاحِ عام مصداق‌هایش را نه با نام بردنِ چیزی مشترک، بلکه با بیرون گذاشتنِ آنچه نیستند برمی‌گزیند: «گاو» یعنی نا-ناگاو. هیچ ویژگیِ مشترکِ مثبتی نیست، و نمودِ آن ساختهٔ همان شیوه‌ای است که اندیشهٔ مفهومی جهانِ جزئی و ناتقسیم را با آن تقسیم می‌کند."
+          },
+          "philosophers": [
+            "dignaga"
+          ],
+          "arguments": [],
+          "schools": [
+            "yogacara"
+          ],
+          "citations": [
+            {
+              "source": "text-pramanasamuccaya",
+              "locator": "ch. 5"
+            }
+          ]
+        }
+      ],
+      "arguments": [
+        "third-man-argument",
+        "ockham-against-universals"
+      ],
+      "concepts": [
+        "universals",
+        "theory-of-forms"
+      ],
+      "works": [
+        "republic",
+        "summa-logicae",
+        "pramanasamuccaya"
+      ],
+      "traditions": [
+        "ancient-greek",
+        "medieval",
+        "european",
+        "indian",
+        "buddhist",
+        "christian"
+      ],
+      "branches": [
+        "metaphysics",
+        "logic",
+        "philosophy-of-language",
+        "epistemology"
+      ],
+      "citations": [
+        {
+          "source": "aristotle-metaphysics",
+          "locator": "1038b8"
+        },
+        {
+          "source": "text-summa-logicae",
+          "locator": "I.14"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Point at two red things. They are both red — so is there a third item, redness, that they both have? If there is, it has to be wholly in each of them at the same time, which nothing else manages. If there is not, it becomes hard to say why the word applies to both and not to just anything.",
+              "fa": "به دو چیزِ سرخ اشاره کن. هر دو سرخ‌اند — پس آیا چیزِ سومی هست، سرخی، که هر دو دارند؟ اگر هست، باید در آنِ واحد در هر یک تمام‌وکمال باشد، و هیچ‌چیزِ دیگری از پسِ این برنمی‌آید. و اگر نیست، دشوار می‌شود گفت چرا آن واژه بر هر دو اطلاق می‌شود و نه بر هر چیزی."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The dispute is usually sorted into three: universals exist apart from particulars, universals exist in particulars, and universals do not exist at all. The labels are later than the positions and they fit loosely, but they mark real differences about what has to be added to a world of particulars to account for general truths.\n\nPlato's Forms are the strong version of the first. They explain what many things share, and they explain how knowledge of the changing is possible, but they earn the third man: if the Form of Man is itself a man, a further Form is needed to account for what it and the men share, and so on. The objection appears in Plato's own Parmenides, which is why the position and its best-known refutation come from the same hand.\n\nAristotle's alternative keeps universals and removes their separate address. Ockham removes them altogether, and the interest of his argument is that it is not an appeal to simplicity but a claim of contradiction: a universal has to be numerically single and yet present entire in every one of its instances, and he holds that these cannot both be true. What replaces it is a theory of signification — a concept stands for many things in a proposition, which is enough to make \"every man is mortal\" true without a universal man.\n\nDignāga was working the same problem in India with different equipment, and his answer is stranger than any of the European ones: a general word means by exclusion. There is no positive property shared, only the mutual exclusion of everything the word does not apply to.",
+              "fa": "این نزاع را معمولاً به سه دسته می‌کنند: کلی‌ها جدا از جزئی‌ها هستند، کلی‌ها در جزئی‌ها هستند، و کلی‌ها اصلاً نیستند. این برچسب‌ها پس از خودِ مواضع آمده‌اند و شل می‌نشینند، اما تفاوت‌های واقعی را نشان می‌دهند دربارهٔ اینکه چه چیز باید به جهانی از جزئی‌ها افزوده شود تا صدق‌های عام تبیین شوند.\n\nصورت‌های افلاطون صورتِ نیرومندِ دستهٔ نخست‌اند. تبیین می‌کنند که چیزهای بسیار در چه شریک‌اند، و تبیین می‌کنند که شناختِ دگرگون‌شونده چگونه ممکن است، اما «مردِ سوم» را به جان می‌خرند: اگر صورتِ انسان خود انسانی باشد، صورتی دیگر باید باشد تا آنچه او و انسان‌ها در آن شریک‌اند تبیین شود، و همین‌طور تا بی‌پایان. این اعتراض در «پارمنیدس»ِ خودِ افلاطون می‌آید، و از همین روست که این موضع و مشهورترین ردیه‌اش از یک دست‌اند.\n\nبدیلِ ارسطو کلی‌ها را نگاه می‌دارد و نشانیِ جداگانه‌شان را برمی‌دارد. اکام یکسره برشان می‌دارد، و ارزشِ استدلالِ او در این است که رجوع به سادگی نیست بلکه ادعای تناقض است: کلی باید یکی باشد و در هر یک از بسیاران تماماً باشد، و او بر آن است که این دو نمی‌توانند هر دو صادق باشند. آنچه جایش را می‌گیرد نظریه‌ای دربارهٔ دلالت است — مفهوم در گزاره به‌جای چیزهای بسیار می‌نشیند، و این برای صادق بودنِ «هر انسانی میراست» بس است بی‌آنکه انسانِ کلی‌ای باشد.\n\nدیگناگه همین مسئله را در هند با ابزارِ دیگری کار می‌کرد، و پاسخش از هر پاسخِ اروپایی شگفت‌تر است: واژهٔ عام با بیرون گذاشتن معنا می‌دهد. هیچ ویژگیِ مثبتِ مشترکی نیست، تنها بیرون گذاشتنِ دوسویهٔ هر آنچه آن واژه بر آن اطلاق نمی‌شود."
+            },
+            "citations": [
+              {
+                "source": "aristotle-metaphysics",
+                "locator": "1038b8"
+              },
+              {
+                "source": "text-summa-logicae",
+                "locator": "I.14"
+              }
+            ]
+          },
+          {
+            "id": "what-the-three-way-split-hides",
+            "depth": "deep",
+            "body": {
+              "en": "The tidy three-way split is a nineteenth-century teaching device and it distorts what the medievals were arguing about. Almost nobody in the period held that a universal exists as a separate thing; the live question was whether the community of nature that founds a general term is real independently of the mind, and the answers run through many positions that the word nominalism flattens. Scotus's formal distinction is the clearest case: it is neither the real distinction the realists wanted nor the merely mental one the nominalists allowed, and Ockham's rejection of it is the actual hinge of his argument rather than an appeal to parsimony.\n\nWhether Ockham is a nominalist in the strong sense is itself contested, since he grants concepts a natural likeness to what they signify, and a likeness holding objectively between particulars looks to some readers like realism about similarity under another name.\n\nThe cross-tradition comparison needs the same care. Dignāga's apoha is not the European nominalism it is often glossed as: it is embedded in an epistemology on which perception has no conceptual content at all, so the question it answers is how conceptual thought can be about a world it never touches directly. Read outside that, it looks like a strange theory of meaning rather than the consequence of a theory of perception.",
+              "fa": "آن تقسیمِ مرتبِ سه‌گانه ابزاری آموزشی از سدهٔ نوزدهم است و آنچه را قرون‌وسطاییان بر سرش استدلال می‌کردند دگرگون می‌نماید. تقریباً هیچ‌کس در آن دوره بر آن نبود که کلی همچون چیزی جدا هست؛ پرسشِ زنده این بود که آیا اشتراکِ طبیعتی که اصطلاحِ عام را بنیاد می‌نهد مستقل از ذهن واقعی است، و پاسخ‌ها از میانِ مواضعِ بسیاری می‌گذرد که واژهٔ «نام‌گرایی» تختشان می‌کند. تمایزِ صوریِ اسکوتوس روشن‌ترین نمونه است: نه تمایزِ واقعی‌ای است که واقع‌گرایان می‌خواستند و نه آن تمایزِ صرفاً ذهنی که نام‌گرایان روا می‌داشتند، و ردِّ آن از سوی اکام لولای واقعیِ استدلالِ اوست نه رجوع به صرفه‌جویی.\n\nاینکه اکام به معنای قوی نام‌گراست یا نه خود محلِ نزاع است، چون او برای مفاهیم شباهتی طبیعی به آنچه بر آن دلالت می‌کنند قائل است، و شباهتی که میانِ جزئی‌ها عینی برقرار باشد نزدِ برخی خوانندگان واقع‌گرایی دربارهٔ شباهت می‌نماید زیرِ نامی دیگر.\n\nمقایسهٔ میان‌سنتی به همان دقت نیاز دارد. «اَپوهه»ِ دیگناگه آن نام‌گراییِ اروپایی نیست که اغلب به آن ترجمه‌اش می‌کنند: در معرفت‌شناسی‌ای جای دارد که بر پایهٔ آن ادراکِ حسی هیچ محتوای مفهومی ندارد، پس پرسشی که پاسخ می‌دهد این است که اندیشهٔ مفهومی چگونه می‌تواند دربارهٔ جهانی باشد که هرگز مستقیم به آن نمی‌رسد. بیرون از آن که خوانده شود، نظریه‌ای غریب دربارهٔ معنا می‌نماید نه پیامدِ نظریه‌ای دربارهٔ ادراک."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-pramanasamuccaya",
+                "locator": "ch. 5"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "what-we-owe-strangers",
       "name": {
         "en": "What We Owe to Strangers",
@@ -685,6 +1715,207 @@
             "citations": [
               {
                 "source": "text-political-liberalism"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "whether-the-will-is-free",
+      "name": {
+        "en": "Whether the Will Is Free",
+        "fa": "آیا ارادهٔ آزاد است"
+      },
+      "oneLine": {
+        "en": "If everything that happens follows from what came before, the question is what is left of choosing — and whether anything needed to be left.",
+        "fa": "اگر هر آنچه رخ می‌دهد از پیشینِ خود برمی‌آید، پرسش این است که از برگزیدن چه می‌ماند — و اینکه اصلاً لازم بود چیزی بماند."
+      },
+      "question": {
+        "en": "Are our choices free in whatever sense responsibility requires, given that they have causes; and is freedom even the kind of thing that causation could threaten?",
+        "fa": "آیا گزینش‌های ما به آن معنا که مسئولیت می‌طلبد آزادند، با آنکه علت دارند؛ و اصلاً آیا آزادی از آن گونه چیزهاست که علیت بتواند تهدیدش کند؟"
+      },
+      "positions": [
+        {
+          "id": "free-and-foreknown",
+          "name": {
+            "en": "Free, and known in advance all the same",
+            "fa": "آزاد، و با این همه از پیش دانسته"
+          },
+          "summary": {
+            "en": "The will is genuinely free and its acts are genuinely ours, and that is compatible with their being foreknown, because knowing that something will happen is not making it happen. Foreknowledge follows the act rather than forcing it.",
+            "fa": "اراده به‌راستی آزاد است و افعالش به‌راستی از آنِ ماست، و این با از پیش دانسته بودنشان سازگار است، چون دانستنِ اینکه چیزی رخ خواهد داد، رخ دادنش را نمی‌سازد. علمِ پیشین از پیِ فعل می‌آید نه اینکه به آن زور آورد."
+          },
+          "philosophers": [
+            "augustine"
+          ],
+          "arguments": [],
+          "schools": [],
+          "citations": [
+            {
+              "source": "text-city-of-god",
+              "locator": "V.9"
+            }
+          ]
+        },
+        {
+          "id": "no-such-faculty",
+          "name": {
+            "en": "There is no such faculty",
+            "fa": "چنین قوه‌ای نیست"
+          },
+          "summary": {
+            "en": "Men believe themselves free only because they are conscious of their wants and ignorant of the causes of them. Everything follows from the necessity of the divine nature; a stone thrown through the air, if it could think, would think it chose to fly.",
+            "fa": "آدمیان تنها از آن رو خود را آزاد می‌پندارند که از خواسته‌های خویش آگاه‌اند و از علت‌های آن‌ها بی‌خبر. هر چیز از ضرورتِ طبیعتِ الهی برمی‌آید؛ سنگی که در هوا پرتاب شده، اگر می‌توانست بیندیشد، می‌پنداشت که پریدن را برگزیده است."
+          },
+          "philosophers": [
+            "spinoza"
+          ],
+          "arguments": [],
+          "schools": [
+            "rationalism"
+          ],
+          "citations": [
+            {
+              "source": "text-ethics-spinoza",
+              "locator": "I, Appendix"
+            }
+          ]
+        },
+        {
+          "id": "liberty-and-necessity-agree",
+          "name": {
+            "en": "The dispute is verbal",
+            "fa": "نزاع لفظی است"
+          },
+          "summary": {
+            "en": "Liberty means acting according to the determinations of one's own will, not acting without a cause. So understood it not only agrees with necessity but requires it, since praise and blame make no sense for actions that flow from nothing in the agent's character.",
+            "fa": "آزادی یعنی عمل کردن بر پایهٔ تعیّن‌های ارادهٔ خویش، نه عمل کردن بی‌علت. چنین که فهمیده شود نه‌تنها با ضرورت سازگار است بلکه به آن نیاز دارد، چون ستایش و نکوهش برای کارهایی که از هیچ‌چیز در منشِ کننده برنمی‌آیند بی‌معناست."
+          },
+          "philosophers": [
+            "hume"
+          ],
+          "arguments": [],
+          "schools": [
+            "empiricism"
+          ],
+          "citations": [
+            {
+              "source": "text-enquiry-human-understanding",
+              "locator": "VIII"
+            }
+          ]
+        },
+        {
+          "id": "condemned-to-be-free",
+          "name": {
+            "en": "Freedom is the condition, not the prize",
+            "fa": "آزادی وضعِ ماست، نه جایزه"
+          },
+          "summary": {
+            "en": "There is no given nature to determine a person, so nothing carries the weight of a choice except the choosing. Freedom on this account is not something to be established against determinism but something inescapable, and mostly fled from.",
+            "fa": "طبیعتی از پیش داده نیست که شخص را متعیّن کند، پس هیچ‌چیز جز خودِ برگزیدن بارِ گزینش را نمی‌کشد. آزادی بر این تبیین چیزی نیست که باید در برابرِ جبرباوری ثابت شود، بلکه چیزی است گریزناپذیر، و بیشتر از آن می‌گریزند."
+          },
+          "philosophers": [
+            "sartre"
+          ],
+          "arguments": [
+            "sartre-bad-faith"
+          ],
+          "schools": [
+            "existentialism"
+          ],
+          "citations": [
+            {
+              "source": "text-being-and-nothingness",
+              "locator": "Part IV, ch. 1"
+            }
+          ],
+          "attribution": "documented",
+          "attributionNote": {
+            "en": "Sartre is answering a different question from the other three. His freedom is not the compatibilist's liberty of action under causal law but the absence of a fixed human nature, and putting him in the same list records four stances on freedom, not four answers to one question about determinism.",
+            "fa": "سارتر به پرسشی دیگر از آن سه پاسخ می‌دهد. آزادیِ او آن آزادیِ عملِ سازگارگرا زیرِ قانونِ علّی نیست، بلکه نبودِ طبیعتی ثابت برای آدمی است، و نهادنش در همین فهرست چهار موضع دربارهٔ آزادی را ثبت می‌کند، نه چهار پاسخ به یک پرسش دربارهٔ جبر."
+          }
+        }
+      ],
+      "arguments": [
+        "sartre-bad-faith"
+      ],
+      "concepts": [
+        "bad-faith",
+        "dichotomy-of-control",
+        "necessary-and-contingent-being"
+      ],
+      "works": [
+        "city-of-god",
+        "ethics-spinoza",
+        "being-and-nothingness"
+      ],
+      "traditions": [
+        "roman",
+        "christian",
+        "european",
+        "hellenistic"
+      ],
+      "branches": [
+        "metaphysics",
+        "ethics",
+        "philosophy-of-religion",
+        "existential-philosophy"
+      ],
+      "citations": [
+        {
+          "source": "text-ethics-spinoza",
+          "locator": "I, Appendix"
+        },
+        {
+          "source": "text-enquiry-human-understanding",
+          "locator": "VIII"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Everything you do has causes: your upbringing, your appetites, the state of your brain a second ago. If all of that fixed what you did, in what sense could you have done otherwise — and does responsibility need you to have been able to? Some answers save freedom by shrinking it, some deny it outright, and one says the whole argument mistakes what freedom is.",
+              "fa": "هر کاری که می‌کنی علت دارد: پرورشت، خواهش‌هایت، حالِ مغزت یک لحظه پیش. اگر همهٔ این‌ها آنچه کردی را معین کرده باشد، به چه معنا می‌توانستی جز آن کنی — و آیا مسئولیت به توانستنِ تو نیاز دارد؟ برخی پاسخ‌ها آزادی را با کوچک کردنش نجات می‌دهند، برخی یکسره انکارش می‌کنند، و یکی می‌گوید سراسرِ این مشاجره در چیستیِ آزادی خطا می‌کند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The question arrives in two different forms and they are regularly run together. One is theological: if God knows now what you will do tomorrow, is tomorrow's act still yours? The other is causal: if the state of the world plus its laws fix what you will do, is it still yours? The Stoics posed the second form sharply — Chrysippus held that assent is up to us even though everything is fated, and used the image of a cylinder whose rolling is caused by the push but shaped by its own form. Augustine took up the first and answered that foreknowledge is not causation: God's knowing does not make the act any more than your remembering an act made it happen.\n\nSpinoza denies the whole thing. Freedom of the will is a false impression, produced by knowing our desires and not their causes; nothing in nature could have been otherwise, and the sense that it could is ignorance wearing a flattering name. Hume takes the opposite route and argues that the dispute has been verbal for two thousand years: liberty properly means acting from one's own will rather than under constraint, and so understood it needs necessity rather than fighting it, because praise and blame attach to character and character is a cause.\n\nSartre changes the question. Freedom for him is not a property an action might have or lack under causal law; it is the condition of a being with no given nature, which is why he can call it something we are condemned to and spend most of a long book on the ways people evade it.",
+              "fa": "این پرسش به دو صورتِ گوناگون می‌آید و مدام آن دو را در هم می‌کنند. یکی الهیاتی است: اگر خدا اکنون بداند فردا چه خواهی کرد، آیا فعلِ فردا باز از آنِ توست؟ دیگری علّی است: اگر حالِ جهان به‌علاوهٔ قانون‌هایش آنچه خواهی کرد را معین کند، باز از آنِ توست؟ رواقیان صورتِ دوم را تیز طرح کردند — کریسیپوس بر آن بود که رضایت دادن با ماست هرچند همه‌چیز مقدّر است، و تصویرِ استوانه‌ای را به کار برد که غلتیدنش را هُل سبب می‌شود اما صورتِ خودش شکل می‌دهد. آگوستین صورتِ نخست را برداشت و پاسخ داد که علمِ پیشین علیت نیست: دانستنِ خدا آن فعل را نمی‌سازد، چنان‌که به یاد آوردنِ تو از فعلی، آن را رخ نداده است.\n\nاسپینوزا یکسره انکارش می‌کند. آزادیِ اراده پنداری است زادهٔ دانستنِ خواهش‌هامان و ندانستنِ علت‌هاشان؛ هیچ‌چیز در طبیعت نمی‌توانست جز این باشد، و این احساس که می‌توانست، نادانی است که نامی خوش بر خود نهاده. هیوم راهِ وارونه می‌رود و استدلال می‌کند که این نزاع دو هزار سال است لفظی بوده: آزادی به‌درستی یعنی عمل کردن از ارادهٔ خویش نه زیرِ اجبار، و چنین که فهمیده شود به ضرورت نیاز دارد نه اینکه با آن بجنگد، چون ستایش و نکوهش به منش می‌چسبند و منش علت است.\n\nسارتر پرسش را دگرگون می‌کند. آزادی نزدِ او ویژگی‌ای نیست که فعلی زیرِ قانونِ علّی داشته باشد یا نداشته؛ وضعِ موجودی است بی طبیعتِ از پیش داده، و از همین روست که می‌تواند آن را چیزی بخواند که به آن محکومیم، و بیشترِ کتابی دراز را بر شیوه‌های گریختن از آن بگذارد."
+            },
+            "citations": [
+              {
+                "source": "text-city-of-god",
+                "locator": "V.9"
+              },
+              {
+                "source": "text-ethics-spinoza",
+                "locator": "I, Appendix"
+              }
+            ]
+          },
+          {
+            "id": "what-would-settle-it",
+            "depth": "deep",
+            "body": {
+              "en": "One reason the debate does not close is that the parties disagree about what would settle it. For Hume the question is what the word liberty means, and once the meaning is fixed the answer follows; for Spinoza it is a question about what exists, and no clarification of usage touches it. A compatibilist and an incompatibilist can therefore agree about every fact and still disagree, which is a sign that the dispute is at least partly about the concept and not only about the world.\n\nThe Stoic material is also worth handling carefully, because Chrysippus is regularly enlisted as the first compatibilist. He does hold both halves quoted above, but the framework is a physics in which the agent's own nature is one of the causes, not a modern analysis of ability to do otherwise. The label imports a question he was not asking.\n\nAnd the theological form is not obviously answered by Augustine's move. That foreknowledge does not cause the act meets one objection; it does not by itself meet the argument that if it is already true now that you will act, then at no point could the alternative have been open. Whether that argument works turns on questions about time and truth that the free-will literature inherited rather than solved.",
+              "fa": "یکی از سبب‌های بسته نشدنِ این نزاع آن است که طرف‌ها بر سرِ آنچه فیصله‌اش می‌دهد هم‌رأی نیستند. نزدِ هیوم پرسش این است که واژهٔ آزادی چه معنا می‌دهد، و چون معنا معین شد پاسخ از پیِ آن می‌آید؛ نزدِ اسپینوزا پرسشی است دربارهٔ آنچه هست، و هیچ روشن کردنِ کاربرد به آن نمی‌رسد. پس سازگارگرا و ناسازگارگرا می‌توانند بر سرِ هر واقعیتی هم‌رأی باشند و باز ناهم‌رأی بمانند، و این نشانه‌ای است که نزاع دستِ‌کم تا اندازه‌ای بر سرِ مفهوم است نه تنها بر سرِ جهان.\n\nمایهٔ رواقی نیز به دقت نیاز دارد، چون کریسیپوس مدام نخستین سازگارگرا خوانده می‌شود. او به‌راستی بر آن است که رضایت با ماست و همه‌چیز مقدّر است، اما چارچوب فیزیکی است که در آن طبیعتِ خودِ کننده یکی از علت‌هاست، نه تحلیلی نوین از توانِ جز آن کردن. آن برچسب پرسشی را به او می‌بندد که نمی‌پرسید.\n\nو صورتِ الهیاتی هم آشکارا با حرکتِ آگوستین پاسخ نمی‌گیرد. اینکه علمِ پیشین سببِ فعل نیست به یک اعتراض پاسخ می‌دهد؛ اما خودبه‌خود به این استدلال پاسخ نمی‌دهد که اگر هم‌اکنون صادق باشد که تو چنان خواهی کرد، پس در هیچ لحظه‌ای بدیل گشوده نبوده است. اینکه آن استدلال کار می‌کند یا نه به پرسش‌هایی دربارهٔ زمان و صدق بازمی‌گردد که ادبیاتِ اختیار آن‌ها را به ارث برد نه اینکه حلشان کند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-enquiry-human-understanding",
+                "locator": "VIII"
               },
               {
                 "source": "sep"
