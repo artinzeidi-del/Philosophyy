@@ -1568,7 +1568,7 @@
               },
               {
                 "source": "text-principal-doctrines",
-                "locator": "II"
+                "locator": "2"
               }
             ]
           },
@@ -4477,7 +4477,7 @@
       "citations": [
         {
           "source": "text-logic-scientific-discovery",
-          "locator": "ch. I, §6"
+          "locator": "ch. 1, §6"
         }
       ],
       "article": {
@@ -4500,7 +4500,7 @@
             "citations": [
               {
                 "source": "text-logic-scientific-discovery",
-                "locator": "ch. I, §6"
+                "locator": "ch. 1, §6"
               }
             ]
           },

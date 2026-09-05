@@ -466,7 +466,7 @@
             "citations": [
               {
                 "source": "text-muqaddimah",
-                "locator": "Book I, ch. 2"
+                "locator": "II"
               },
               {
                 "source": "sep"
@@ -2487,11 +2487,11 @@
             "citations": [
               {
                 "source": "text-on-liberty",
-                "locator": "ch. I"
+                "locator": "ch. 1"
               },
               {
                 "source": "text-on-liberty",
-                "locator": "ch. II"
+                "locator": "ch. 2"
               }
             ]
           },
@@ -2506,7 +2506,7 @@
             "citations": [
               {
                 "source": "text-on-liberty",
-                "locator": "ch. IV"
+                "locator": "ch. 4"
               },
               {
                 "source": "sep"
@@ -2524,7 +2524,7 @@
       "citations": [
         {
           "source": "text-on-liberty",
-          "locator": "ch. I"
+          "locator": "ch. 1"
         },
         {
           "source": "sep"
@@ -2974,7 +2974,7 @@
             "citations": [
               {
                 "source": "text-treatise-human-nature",
-                "locator": "Book III, Part I, §1"
+                "locator": "III.1.1"
               },
               {
                 "source": "sep"
@@ -4024,7 +4024,7 @@
               },
               {
                 "source": "text-treatise-human-nature",
-                "locator": "I.iv.6"
+                "locator": "I.4.6"
               }
             ]
           },
@@ -4039,7 +4039,7 @@
             "citations": [
               {
                 "source": "text-treatise-human-nature",
-                "locator": "I.iv.6"
+                "locator": "I.4.6"
               },
               {
                 "source": "sep"

@@ -186,6 +186,20 @@ class AssetKnowledgeRepository implements KnowledgeRepository {
 
     final root = JsonReader.root(decoded, file: file);
     final items = root.objectList(collection);
+
+    // A missing key reads the same as an empty array, so a file whose
+    // collection was renamed or truncated used to load as silence: the corpus
+    // came up with nought quotations and nothing anywhere said so. No content
+    // file in this product is legitimately empty, so an empty one is a defect
+    // in the file and has to stop the load rather than reach a reader.
+    if (items.isEmpty) {
+      root.invalid(
+        'no records under "$collection" — either the key is missing or the '
+        'file is truncated; a content file is never legitimately empty',
+        field: collection,
+      );
+    }
+
     final mapped = <T>[];
     final seenIds = <String>{};
 

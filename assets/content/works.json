@@ -3949,7 +3949,7 @@
             "citations": [
               {
                 "source": "text-essay-human-understanding",
-                "locator": "II.1.2"
+                "locator": "II.i.2"
               }
             ]
           },
@@ -3963,7 +3963,7 @@
             "citations": [
               {
                 "source": "text-essay-human-understanding",
-                "locator": "II.27"
+                "locator": "II.xxvii"
               }
             ]
           }
@@ -6241,7 +6241,7 @@
             "citations": [
               {
                 "source": "text-principal-doctrines",
-                "locator": "I-IV"
+                "locator": "1-4"
               }
             ]
           }
@@ -6306,7 +6306,7 @@
             "citations": [
               {
                 "source": "text-outlines-of-pyrrhonism",
-                "locator": "Book I, §25-30"
+                "locator": "I.25-30"
               }
             ]
           },
@@ -6320,7 +6320,7 @@
             "citations": [
               {
                 "source": "text-outlines-of-pyrrhonism",
-                "locator": "Book I, §206"
+                "locator": "I.206"
               }
             ]
           }

@@ -682,18 +682,74 @@ void main() {
       // and at 1.1, the Treatise at I.3.6 and at 3.1.1. Two numberings for one
       // book is a reader checking a reference against an edition and not
       // finding the place, which is the one thing an apparatus is for.
-      final roman = RegExp(r'^[IVXLC]+[.,\s]');
+      //
+      // The first version of this compared only the leading character of the
+      // locator, which let every mismatch below the top level through: the
+      // Essay was cited at II.27 and at II.xxvii, On Liberty at ch. 1 and at
+      // ch. I, and both passed. Compare each level instead. Words that only
+      // label a level — Book, Part, ch., § — are stripped first, because they
+      // are punctuation for the reader and not part of the numbering.
+      final divider = RegExp(
+        r'^(book|bk|ch|chap|chapter|part|pt|sect|section|no|vol|volume)$',
+        caseSensitive: false,
+      );
+      final roman = RegExp(r'^[ivxlc]+$', caseSensitive: false);
       final arabic = RegExp(r'^\d');
+
+      /// The numbering used at each level, with anything that is neither a
+      /// numeral nor a division word left as null so it constrains nothing.
+      /// "Part IV, conclusion" says roman at the top level and nothing after.
+      List<String?> shape(String locator) {
+        final levels = <String?>[];
+        for (final raw in locator.split(RegExp(r'[.,\s]+'))) {
+          final token = raw.replaceAll(RegExp(r'^[§#]+'), '').trim();
+          if (token.isEmpty) continue;
+          if (divider.hasMatch(token.replaceAll('.', ''))) continue;
+          if (roman.hasMatch(token)) {
+            levels.add('roman');
+          } else if (arabic.hasMatch(token)) {
+            levels.add('arabic');
+          } else {
+            levels.add(null);
+          }
+        }
+        return levels;
+      }
+
       final problems = <String>[];
       for (final source in corpus.sources) {
-        final locators = _locatorsFor(corpus, source.id);
-        final inRoman = locators.where(roman.hasMatch).toList();
-        final inArabic = locators.where(arabic.hasMatch).toList();
-        if (inRoman.isNotEmpty && inArabic.isNotEmpty) {
-          problems.add(
-            'source:${source.id} is cited both as ${inRoman.join(", ")} and '
-            'as ${inArabic.join(", ")}',
+        final locators = _locatorsFor(corpus, source.id).toList()..sort();
+        // Locators of different depth are compared separately. The Moral
+        // Sentiments cites I.i.1 for a part that has sections and III.3 for a
+        // part that does not; the 1 and the 3 sit at the same index without
+        // being the same kind of thing. Two locators of the same depth
+        // disagreeing at a level is the defect this is looking for.
+        // depth -> level -> numbering -> the locator that first used it
+        final seen = <int, Map<int, Map<String, String>>>{};
+        for (final locator in locators) {
+          final levels = shape(locator);
+          final byLevel = seen.putIfAbsent(
+            levels.length,
+            () => <int, Map<String, String>>{},
           );
+          for (var level = 0; level < levels.length; level++) {
+            final numbering = levels[level];
+            if (numbering == null) continue;
+            final atLevel = byLevel.putIfAbsent(
+              level,
+              () => <String, String>{},
+            );
+            atLevel[numbering] ??= locator;
+            if (atLevel.length > 1) {
+              final clash = atLevel.entries
+                  .map((e) => '${e.value} (${e.key})')
+                  .join(' and ');
+              final complaint =
+                  'source:${source.id} numbers level ${level + 1} two ways: '
+                  '$clash';
+              if (!problems.contains(complaint)) problems.add(complaint);
+            }
+          }
         }
       }
       expect(problems, isEmpty, reason: problems.join('\n'));
@@ -1572,6 +1628,16 @@ Set<String> _locatorsFor(KnowledgeBase corpus, String sourceId) {
   }
   for (final argument in corpus.arguments) {
     take(argument.citations);
+    // Objections carry their own references, and they were invisible to every
+    // locator check until a problem page started citing through them.
+    for (final objection in argument.objections) {
+      take(objection.citations);
+    }
+  }
+  for (final problem in corpus.problems) {
+    for (final stance in problem.positions) {
+      take(stance.citations);
+    }
   }
   return found;
 }

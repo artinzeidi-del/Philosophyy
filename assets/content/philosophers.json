@@ -288,7 +288,7 @@
             "citations": [
               {
                 "source": "aristotle-metaphysics",
-                "locator": "Book I"
+                "locator": "990b–991b"
               }
             ]
           },
@@ -8177,11 +8177,11 @@
             "citations": [
               {
                 "source": "text-outlines-of-pyrrhonism",
-                "locator": "PH I.8"
+                "locator": "I.8"
               },
               {
                 "source": "text-outlines-of-pyrrhonism",
-                "locator": "PH I.29"
+                "locator": "I.29"
               },
               {
                 "source": "sep"
@@ -9736,7 +9736,7 @@
             "citations": [
               {
                 "source": "text-masnavi",
-                "locator": "Book I, 1-18"
+                "locator": "Book I, lines 1-18"
               },
               {
                 "source": "sep"
@@ -17341,7 +17341,7 @@
             "citations": [
               {
                 "source": "text-moral-sentiments",
-                "locator": "I.1.1"
+                "locator": "I.i.1"
               },
               {
                 "source": "text-wealth-of-nations",

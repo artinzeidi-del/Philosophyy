@@ -11,12 +11,17 @@
       "speaker": "socrates",
       "work": "apology",
       "attribution": "verified",
-      "citation": { "source": "plato-apology", "locator": "38a" },
+      "citation": {
+        "source": "plato-apology",
+        "locator": "38a"
+      },
       "context": {
         "en": "Said at his trial, after the guilty verdict, explaining why he will not accept exile with a promise to stop philosophising. He is not offering a maxim about self-improvement; he is refusing to buy his life at the price of the activity that made it his.",
         "fa": "در محاکمه، پس از رأی محکومیت، در توضیح اینکه چرا تبعید را به‌شرط ترک فلسفه نمی‌پذیرد. او اندرزی دربارهٔ خودسازی نمی‌دهد؛ از خریدن جانش به بهای همان کاری که زندگی را از آنِ او می‌کرد سر باز می‌زند."
       },
-      "concepts": ["socratic-method"]
+      "concepts": [
+        "socratic-method"
+      ]
     },
     {
       "id": "socrates-know-nothing",
@@ -34,7 +39,9 @@
         "en": "A later paraphrase of Plato, Apology 21d.",
         "fa": "بازگفتی متأخر از افلاطون، آپولوژی 21d."
       },
-      "concepts": ["socratic-method"]
+      "concepts": [
+        "socratic-method"
+      ]
     },
     {
       "id": "aristotle-wonder",
@@ -44,7 +51,10 @@
       },
       "speaker": "aristotle",
       "attribution": "verified",
-      "citation": { "source": "aristotle-metaphysics", "locator": "982b" },
+      "citation": {
+        "source": "aristotle-metaphysics",
+        "locator": "982b"
+      },
       "context": {
         "en": "Aristotle is explaining why philosophy is pursued for no further end: it starts from puzzlement, and puzzlement is relieved by understanding rather than by use.",
         "fa": "ارسطو توضیح می‌دهد چرا فلسفه برای هیچ غایت دیگری دنبال نمی‌شود: از سرگشتگی آغاز می‌شود، و سرگشتگی با فهم رفع می‌شود، نه با کاربرد."
@@ -66,7 +76,9 @@
         "en": "Will Durant, The Story of Philosophy (1926), paraphrasing Aristotle.",
         "fa": "ویل دورانت، «تاریخ فلسفه» (۱۹۲۶)، در بازگفت ارسطو."
       },
-      "concepts": ["golden-mean"]
+      "concepts": [
+        "golden-mean"
+      ]
     },
     {
       "id": "epictetus-disturbed",
@@ -77,12 +89,17 @@
       "speaker": "epictetus",
       "work": "enchiridion",
       "attribution": "verified",
-      "citation": { "source": "epictetus-enchiridion", "locator": "ch. 5" },
+      "citation": {
+        "source": "epictetus-enchiridion",
+        "locator": "ch. 5"
+      },
       "context": {
         "en": "Epictetus' example is death: death itself is not terrible, or Socrates would have found it so; what is terrible is the judgement that death is terrible.",
         "fa": "مثال اپیکتتوس مرگ است: خودِ مرگ هولناک نیست، وگرنه سقراط نیز آن را چنین می‌یافت؛ آنچه هولناک است داوریِ هولناک بودن مرگ است."
       },
-      "concepts": ["dichotomy-of-control"]
+      "concepts": [
+        "dichotomy-of-control"
+      ]
     },
     {
       "id": "confucius-reciprocity",
@@ -94,25 +111,38 @@
       "speaker": "confucius",
       "work": "analects",
       "attribution": "verified",
-      "citation": { "source": "confucius-analects", "locator": "Book XV" },
+      "citation": {
+        "source": "confucius-analects",
+        "locator": "Book XV"
+      },
       "context": {
         "en": "Given as the answer to a student who asks for a single word that can be practised for a whole life. The answer is shu — reciprocity — stated negatively, as a restraint rather than a programme.",
         "fa": "در پاسخ به شاگردی که واژه‌ای یگانه می‌خواهد که بتوان یک عمر بدان عمل کرد. پاسخ «شو» است — دوسویگی — که به‌صورت منفی بیان می‌شود؛ همچون بازدارنده، نه همچون برنامه."
       },
-      "concepts": ["ren"]
+      "concepts": [
+        "ren"
+      ]
     },
     {
       "id": "descartes-cogito",
-      "text": { "en": "I think, therefore I am.", "fa": "می‌اندیشم، پس هستم." },
+      "text": {
+        "en": "I think, therefore I am.",
+        "fa": "می‌اندیشم، پس هستم."
+      },
       "originalText": "je pense, donc je suis",
       "speaker": "descartes",
       "attribution": "verified",
-      "citation": { "source": "descartes-discourse", "locator": "Part IV" },
+      "citation": {
+        "source": "descartes-discourse",
+        "locator": "Part IV"
+      },
       "context": {
         "en": "The famous formulation appears in the Discourse on the Method, not in the Meditations — where the same insight is stated instead as \"I am, I exist\", and pointedly without the \"therefore\".",
         "fa": "این صورت‌بندی مشهور در «گفتار در روش» می‌آید، نه در «تأملات»؛ که در آنجا همان بصیرت به‌صورت «هستم، وجود دارم» بیان می‌شود، و به‌عمد بدون آن «پس»."
       },
-      "concepts": ["cogito"]
+      "concepts": [
+        "cogito"
+      ]
     },
     {
       "id": "nietzsche-god-is-dead",
@@ -124,7 +154,10 @@
       "speaker": "nietzsche",
       "work": "gay-science",
       "attribution": "verified",
-      "citation": { "source": "nietzsche-gay-science", "locator": "§125" },
+      "citation": {
+        "source": "nietzsche-gay-science",
+        "locator": "§125"
+      },
       "context": {
         "en": "Spoken by a madman with a lantern who runs into a marketplace of unbelievers and finds they have not grasped what they have done. The passage is horrified, not triumphant, and the madman concludes that he has come too early.",
         "fa": "از زبان دیوانه‌ای با فانوس که به بازارِ بی‌ایمانان می‌دود و می‌بیند درنیافته‌اند چه کرده‌اند. لحن این بند هراس‌زده است، نه پیروزمندانه، و دیوانه نتیجه می‌گیرد که زود آمده است."
@@ -158,12 +191,17 @@
       "speaker": "du-bois",
       "work": "souls-of-black-folk",
       "attribution": "verified",
-      "citation": { "source": "dubois-souls", "locator": "ch. 1" },
+      "citation": {
+        "source": "dubois-souls",
+        "locator": "ch. 1"
+      },
       "context": {
         "en": "From the passage introducing double consciousness. Du Bois' wording is of its time; the analysis is of the structure of self-perception under a hostile gaze.",
         "fa": "از بندی که «آگاهی دوگانه» را معرفی می‌کند. واژگان دوبویز از آنِ روزگار اوست؛ تحلیل او دربارهٔ ساختار خودادراکی زیر نگاهی خصمانه است."
       },
-      "concepts": ["double-consciousness"]
+      "concepts": [
+        "double-consciousness"
+      ]
     },
     {
       "id": "heraclitus-river",
@@ -204,7 +242,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-theaetetus", "locator": "152a" }
+      "citation": {
+        "source": "text-theaetetus",
+        "locator": "152a"
+      }
     },
     {
       "id": "epicurus-death",
@@ -222,7 +263,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-letter-to-menoeceus", "locator": "§125" }
+      "citation": {
+        "source": "text-letter-to-menoeceus",
+        "locator": "§125"
+      }
     },
     {
       "id": "marcus-aurelius-morning",
@@ -240,7 +284,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-meditations", "locator": "II.1" }
+      "citation": {
+        "source": "text-meditations",
+        "locator": "II.1"
+      }
     },
     {
       "id": "seneca-poverty",
@@ -281,7 +328,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-daodejing", "locator": "ch. 64" }
+      "citation": {
+        "source": "text-daodejing",
+        "locator": "ch. 64"
+      }
     },
     {
       "id": "zhuangzi-butterfly",
@@ -319,7 +369,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "confucius-analects", "locator": "XV.30" }
+      "citation": {
+        "source": "confucius-analects",
+        "locator": "XV.30"
+      }
     },
     {
       "id": "mencius-child",
@@ -338,7 +391,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-mengzi", "locator": "2A6" }
+      "citation": {
+        "source": "text-mengzi",
+        "locator": "2A6"
+      }
     },
     {
       "id": "buddha-suffering",
@@ -352,7 +408,10 @@
         "en": "Widely quoted in this form and consistent with the early discourses, but the phrasing is a modern English compression rather than a translation of a single located passage.",
         "fa": "در همین صورت بسیار نقل می‌شود و با خطابه‌های نخستین سازگار است، اما این عبارت‌بندی فشرده‌سازی انگلیسیِ امروزی است، نه ترجمهٔ یک بندِ مشخص."
       },
-      "citation": { "source": "text-samyutta-nikaya", "locator": "SN 22.86" },
+      "citation": {
+        "source": "text-samyutta-nikaya",
+        "locator": "SN 22.86"
+      },
       "context": {
         "en": "Said to Anurādha, refusing four questions about what becomes of a Buddha after death. The popular English form — 'I teach one thing and one thing only' — reads the Pali particle as exclusive when it is only emphatic, and turns a reply about one topic into a claim that he taught nothing else.",
         "fa": "خطاب به انورادها، در رد چهار پرسش دربارهٔ سرنوشت بودا پس از مرگ. صورت رایج انگلیسی — «من یک چیز و تنها یک چیز می‌آموزم» — ادات پالی را حصری خوانده در حالی که فقط تأکیدی است، و پاسخی دربارهٔ یک موضوع را به ادعای آموختن هیچ‌چیز دیگر بدل کرده."
@@ -375,8 +434,14 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["sunyata", "dependent-origination"],
-      "citation": { "source": "nagarjuna-mmk", "locator": "24.18" }
+      "concepts": [
+        "sunyata",
+        "dependent-origination"
+      ],
+      "citation": {
+        "source": "nagarjuna-mmk",
+        "locator": "24.18"
+      }
     },
     {
       "id": "shankara-rope",
@@ -416,7 +481,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "avicenna-shifa", "locator": "De anima I.1" }
+      "citation": {
+        "source": "avicenna-shifa",
+        "locator": "De anima I.1"
+      }
     },
     {
       "id": "rumi-reed",
@@ -430,7 +498,10 @@
         "en": "The opening couplet of the Masnavī, quoted here in a plain rendering. English versions differ widely, because the Persian puns on the reed flute and the reed pen and no translation carries both.",
         "fa": "بیت آغازین مثنوی، که اینجا به‌سادگی نقل شده است. روایت‌های انگلیسی بسیار با هم فرق دارند، چون فارسیِ بیت میان نیِ نوازنده و نیِ نویسنده بازی می‌کند و هیچ ترجمه‌ای هر دو را با خود نمی‌برد."
       },
-      "citation": { "source": "text-masnavi", "locator": "Daftar I, lines 1–2" },
+      "citation": {
+        "source": "text-masnavi",
+        "locator": "Book I, lines 1-2"
+      },
       "originalText": "بشنو این نی چون شکایت می‌کند / از جدایی‌ها حکایت می‌کند",
       "context": {
         "en": "The opening couplet of the Masnavi. The reed has been cut from the reed bed and its music is the sound of that cut — Rūmī's figure for a soul separated from its origin. The line often circulated in English as Rūmī's, 'the wound is the place where the light enters you', is not a translation of anything in the Masnavi; it is a modern paraphrase of a long passage in Book I.",
@@ -470,8 +541,13 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["asabiyyah"],
-      "citation": { "source": "text-muqaddimah", "locator": "ch. 2, §7" }
+      "concepts": [
+        "asabiyyah"
+      ],
+      "citation": {
+        "source": "text-muqaddimah",
+        "locator": "II.7"
+      }
     },
     {
       "id": "maimonides-negative",
@@ -486,7 +562,9 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["negative-theology"],
+      "concepts": [
+        "negative-theology"
+      ],
       "citation": {
         "source": "text-guide-for-the-perplexed",
         "locator": "I.58"
@@ -509,7 +587,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-confessions", "locator": "XI.14" }
+      "citation": {
+        "source": "text-confessions",
+        "locator": "XI.14"
+      }
     },
     {
       "id": "aquinas-straw",
@@ -541,11 +622,17 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-the-prince", "locator": "ch. 17" }
+      "citation": {
+        "source": "text-the-prince",
+        "locator": "ch. 17"
+      }
     },
     {
       "id": "montaigne-what-do-i-know",
-      "text": { "en": "What do I know?", "fa": "چه می‌دانم؟" },
+      "text": {
+        "en": "What do I know?",
+        "fa": "چه می‌دانم؟"
+      },
       "originalText": "Que sais-je ?",
       "speaker": "montaigne",
       "work": "essays-montaigne",
@@ -558,7 +645,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-essays-montaigne", "locator": "II.12" }
+      "citation": {
+        "source": "text-essays-montaigne",
+        "locator": "II.12"
+      }
     },
     {
       "id": "spinoza-free-man",
@@ -573,7 +663,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-ethics-spinoza", "locator": "IV, P67" }
+      "citation": {
+        "source": "text-ethics-spinoza",
+        "locator": "IV, P67"
+      }
     },
     {
       "id": "hobbes-life",
@@ -591,7 +684,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-leviathan", "locator": "ch. XIII" }
+      "citation": {
+        "source": "text-leviathan",
+        "locator": "ch. XIII"
+      }
     },
     {
       "id": "locke-consent",
@@ -605,7 +701,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-two-treatises", "locator": "II, §95" }
+      "citation": {
+        "source": "text-two-treatises",
+        "locator": "II, §95"
+      }
     },
     {
       "id": "hume-reason-passions",
@@ -623,7 +722,9 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["is-ought-gap"],
+      "concepts": [
+        "is-ought-gap"
+      ],
       "citation": {
         "source": "text-treatise-human-nature",
         "locator": "II.3.3"
@@ -645,8 +746,13 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["social-contract"],
-      "citation": { "source": "text-social-contract", "locator": "I.1" }
+      "concepts": [
+        "social-contract"
+      ],
+      "citation": {
+        "source": "text-social-contract",
+        "locator": "I.1"
+      }
     },
     {
       "id": "wollstonecraft-reason",
@@ -660,7 +766,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-vindication-woman", "locator": "ch. 4" }
+      "citation": {
+        "source": "text-vindication-woman",
+        "locator": "ch. 4"
+      }
     },
     {
       "id": "kant-crooked-timber",
@@ -695,7 +804,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-philosophy-of-right", "locator": "Preface" }
+      "citation": {
+        "source": "text-philosophy-of-right",
+        "locator": "Preface"
+      }
     },
     {
       "id": "schopenhauer-will",
@@ -709,7 +821,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-world-as-will", "locator": "I, §1" }
+      "citation": {
+        "source": "text-world-as-will",
+        "locator": "I, §1"
+      }
     },
     {
       "id": "kierkegaard-backwards",
@@ -761,7 +876,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "nietzsche-beyond-good-evil", "locator": "§146" }
+      "citation": {
+        "source": "nietzsche-beyond-good-evil",
+        "locator": "§146"
+      }
     },
     {
       "id": "heidegger-thrown",
@@ -775,7 +893,10 @@
         "en": "A paraphrase of the analysis of thrownness rather than a sentence from the text, kept because the idea is asked about constantly and the German sentences that carry it are long and technical.",
         "fa": "بازگفتی از تحلیل «پرتاب‌شدگی» است نه جمله‌ای از متن، و نگه داشته شده چون مدام دربارهٔ این ایده پرسیده می‌شود و جمله‌های آلمانی حاملش بلند و فنی‌اند."
       },
-      "citation": { "source": "text-being-and-time", "locator": "§4" }
+      "citation": {
+        "source": "text-being-and-time",
+        "locator": "§4"
+      }
     },
     {
       "id": "sartre-condemned",
@@ -794,7 +915,9 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["bad-faith"],
+      "concepts": [
+        "bad-faith"
+      ],
       "citation": {
         "source": "text-being-and-nothingness",
         "locator": "Part IV, ch. 1"
@@ -816,7 +939,9 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["the-absurd"],
+      "concepts": [
+        "the-absurd"
+      ],
       "citation": {
         "source": "text-myth-of-sisyphus",
         "locator": "closing line"
@@ -834,7 +959,9 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["banality-of-evil"]
+      "concepts": [
+        "banality-of-evil"
+      ]
     },
     {
       "id": "wittgenstein-silence",
@@ -854,7 +981,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-tractatus", "locator": "§7" }
+      "citation": {
+        "source": "text-tractatus",
+        "locator": "§7"
+      }
     },
     {
       "id": "wittgenstein-meaning",
@@ -886,7 +1016,9 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["falsifiability"]
+      "concepts": [
+        "falsifiability"
+      ]
     },
     {
       "id": "quine-web",
@@ -900,7 +1032,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-two-dogmas", "locator": "§6" }
+      "citation": {
+        "source": "text-two-dogmas",
+        "locator": "§6"
+      }
     },
     {
       "id": "rawls-veil",
@@ -914,8 +1049,13 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["veil-of-ignorance"],
-      "citation": { "source": "text-theory-of-justice", "locator": "§24" }
+      "concepts": [
+        "veil-of-ignorance"
+      ],
+      "citation": {
+        "source": "text-theory-of-justice",
+        "locator": "§24"
+      }
     },
     {
       "id": "foucault-power",
@@ -961,8 +1101,13 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["double-consciousness"],
-      "citation": { "source": "dubois-souls", "locator": "Forethought" }
+      "concepts": [
+        "double-consciousness"
+      ],
+      "citation": {
+        "source": "dubois-souls",
+        "locator": "Forethought"
+      }
     },
     {
       "id": "gandhi-satyagraha",
@@ -976,7 +1121,9 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "concepts": ["satyagraha"]
+      "concepts": [
+        "satyagraha"
+      ]
     },
     {
       "id": "ambedkar-caste",
@@ -990,7 +1137,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-annihilation-of-caste", "locator": "§14" }
+      "citation": {
+        "source": "text-annihilation-of-caste",
+        "locator": "§14"
+      }
     },
     {
       "id": "zera-yacob-reason",
@@ -1005,7 +1155,10 @@
         "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
         "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
       },
-      "citation": { "source": "text-hatata", "locator": "ch. 4" }
+      "citation": {
+        "source": "text-hatata",
+        "locator": "ch. 4"
+      }
     },
     {
       "id": "sor-juana-study",
@@ -1082,7 +1235,10 @@
     },
     {
       "id": "socrates-know-thyself",
-      "text": { "en": "Know thyself.", "fa": "خود را بشناس." },
+      "text": {
+        "en": "Know thyself.",
+        "fa": "خود را بشناس."
+      },
       "originalText": "γνῶθι σεαυτόν",
       "speaker": "socrates",
       "attribution": "misattributed",
@@ -1107,7 +1263,10 @@
         "en": "The opening of the cave passage, which runs to 517a and is spoken by Socrates to Glaucon.",
         "fa": "آغاز تمثیل غار، که تا 517a ادامه دارد و سقراط آن را برای گلاوکن می‌گوید."
       },
-      "citation": { "source": "plato-republic", "locator": "514a" }
+      "citation": {
+        "source": "plato-republic",
+        "locator": "514a"
+      }
     },
     {
       "id": "plato-philosopher-kings",
@@ -1121,7 +1280,10 @@
         "en": "Socrates calls this the wave most likely to drown him — he presents it as the least believable thing he has said.",
         "fa": "سقراط این را موجی می‌خواند که بیش از همه ممکن است غرقش کند — آن را باورنکردنی‌ترین چیزی که گفته عرضه می‌کند."
       },
-      "citation": { "source": "plato-republic", "locator": "473c–d" }
+      "citation": {
+        "source": "plato-republic",
+        "locator": "473c–d"
+      }
     },
     {
       "id": "plato-practice-dying",
@@ -1135,7 +1297,10 @@
         "en": "Spoken by Socrates on the day of his execution, which is part of the argument rather than a coincidence.",
         "fa": "سقراط این را در روز اعدامش می‌گوید، که بخشی از استدلال است نه اتفاق."
       },
-      "citation": { "source": "text-phaedo", "locator": "67e" }
+      "citation": {
+        "source": "text-phaedo",
+        "locator": "67e"
+      }
     },
     {
       "id": "aristotle-precision",
@@ -1166,7 +1331,10 @@
         "en": "The opening sentence of the Handbook, and the whole system in one line.",
         "fa": "نخستین جملهٔ «انکیریدیون»، و کل آن دستگاه در یک سطر."
       },
-      "citation": { "source": "epictetus-enchiridion", "locator": "1.1" }
+      "citation": {
+        "source": "epictetus-enchiridion",
+        "locator": "1.1"
+      }
     },
     {
       "id": "marcus-be-good",
@@ -1180,7 +1348,10 @@
         "en": "A note to himself, like the rest of the book.",
         "fa": "یادداشتی به خودش، مثل باقی آن کتاب."
       },
-      "citation": { "source": "text-meditations", "locator": "X.16" }
+      "citation": {
+        "source": "text-meditations",
+        "locator": "X.16"
+      }
     },
     {
       "id": "seneca-imagination",
@@ -1211,7 +1382,10 @@
         "en": "Written of Agamemnon's sacrifice of his daughter, which is the example the line is attached to.",
         "fa": "دربارهٔ قربانی کردن دختر آگاممنون نوشته شده، که همان نمونه‌ای است که این سطر به آن بسته است."
       },
-      "citation": { "source": "text-de-rerum-natura", "locator": "I.101" }
+      "citation": {
+        "source": "text-de-rerum-natura",
+        "locator": "I.101"
+      }
     },
     {
       "id": "plotinus-withdraw",
@@ -1225,7 +1399,10 @@
         "en": "The sculptor image continues: cut away what is superfluous rather than add anything.",
         "fa": "تصویر پیکرتراش ادامه دارد: آنچه زائد است را بتراش، به‌جای آنکه چیزی بیفزایی."
       },
-      "citation": { "source": "text-enneads", "locator": "I.6.9" }
+      "citation": {
+        "source": "text-enneads",
+        "locator": "I.6.9"
+      }
     },
     {
       "id": "laozi-way-spoken",
@@ -1239,9 +1416,15 @@
         "en": "The opening lines, and an unusual way to begin a book about the way.",
         "fa": "سطرهای آغازین، و شیوهٔ نامعمولی برای آغاز کتابی دربارهٔ آن راه."
       },
-      "citation": { "source": "text-daodejing", "locator": "ch. 1" },
+      "citation": {
+        "source": "text-daodejing",
+        "locator": "ch. 1"
+      },
       "originalText": "道可道，非常道。名可名，非常名。",
-      "context": {"en": "The first line, and a warning about everything that follows it. The book proceeds to speak of the way for eighty more chapters, which is either a contradiction or the point.", "fa": "نخستین سطر، و هشداری دربارهٔ هرآنچه پس از آن می‌آید. کتاب هشتاد فصلِ دیگر از «راه» سخن می‌گوید، که یا تناقض است یا خودِ نکته."}
+      "context": {
+        "en": "The first line, and a warning about everything that follows it. The book proceeds to speak of the way for eighty more chapters, which is either a contradiction or the point.",
+        "fa": "نخستین سطر، و هشداری دربارهٔ هرآنچه پس از آن می‌آید. کتاب هشتاد فصلِ دیگر از «راه» سخن می‌گوید، که یا تناقض است یا خودِ نکته."
+      }
     },
     {
       "id": "laozi-soft",
@@ -1255,7 +1438,10 @@
         "en": "Water is the standing example throughout the book.",
         "fa": "آب در سراسر این کتاب نمونهٔ همیشگی است."
       },
-      "citation": { "source": "text-daodejing", "locator": "ch. 43" }
+      "citation": {
+        "source": "text-daodejing",
+        "locator": "ch. 43"
+      }
     },
     {
       "id": "zhuangzi-fish-trap",
@@ -1269,7 +1455,10 @@
         "en": "He ends by asking where he can find a person who has forgotten words, so that he can have a word with him.",
         "fa": "پایانش این است که می‌پرسد کجا می‌توانم کسی را بیابم که واژه‌ها را از یاد برده باشد، تا با او سخنی بگویم."
       },
-      "citation": { "source": "text-zhuangzi-book", "locator": "ch. 26" }
+      "citation": {
+        "source": "text-zhuangzi-book",
+        "locator": "ch. 26"
+      }
     },
     {
       "id": "confucius-learning-thought",
@@ -1283,7 +1472,10 @@
         "en": "One of the shortest and most quoted passages in the book.",
         "fa": "از کوتاه‌ترین و پرنقل‌ترین بندهای این کتاب."
       },
-      "citation": { "source": "confucius-analects", "locator": "II.15" }
+      "citation": {
+        "source": "confucius-analects",
+        "locator": "II.15"
+      }
     },
     {
       "id": "confucius-seventy",
@@ -1297,7 +1489,10 @@
         "en": "The end of a short account of his own life in six stages, which is the only autobiography in the book.",
         "fa": "پایان روایتی کوتاه از زندگی خودش در شش مرحله، که تنها زندگی‌نامهٔ خودنوشت این کتاب است."
       },
-      "citation": { "source": "confucius-analects", "locator": "II.4" }
+      "citation": {
+        "source": "confucius-analects",
+        "locator": "II.4"
+      }
     },
     {
       "id": "mozi-benefit",
@@ -1311,7 +1506,10 @@
         "en": "The standard formula, repeated at the head of several chapters.",
         "fa": "فرمول همیشگی، که در سرِ چند فصل تکرار می‌شود."
       },
-      "citation": { "source": "text-mozi-book", "locator": "ch. 16" }
+      "citation": {
+        "source": "text-mozi-book",
+        "locator": "ch. 16"
+      }
     },
     {
       "id": "dhammapada-mind",
@@ -1325,7 +1523,10 @@
         "en": "The opening verse, in the nineteenth-century rendering that made it famous; more literal translations read closer to 'mind precedes all states'.",
         "fa": "بیت آغازین، در برگردانی از قرن نوزدهم که مشهورش کرد؛ ترجمه‌های دقیق‌تر چیزی نزدیک به «ذهن بر همهٔ حالت‌ها پیشی دارد» می‌دهند."
       },
-      "citation": { "source": "text-dhammapada", "locator": "1.1" }
+      "citation": {
+        "source": "text-dhammapada",
+        "locator": "1.1"
+      }
     },
     {
       "id": "mahavira-all-beings",
@@ -1339,7 +1540,10 @@
         "en": "The argument for non-harm is made as an observation rather than as a command.",
         "fa": "استدلال برای نیازردن چون یک مشاهده آورده می‌شود نه چون یک فرمان."
       },
-      "citation": { "source": "text-acaranga-sutra", "locator": "I.2.3" }
+      "citation": {
+        "source": "text-acaranga-sutra",
+        "locator": "I.2.3"
+      }
     },
     {
       "id": "umasvati-mutual",
@@ -1353,7 +1557,10 @@
         "en": "Three words in Sanskrit, and the sentence the Jain tradition puts on its emblem.",
         "fa": "در سنسکریت سه واژه است، و همان جمله‌ای که سنت جین بر نشان خود می‌نویسد."
       },
-      "citation": { "source": "text-tattvartha-sutra", "locator": "5.21" }
+      "citation": {
+        "source": "text-tattvartha-sutra",
+        "locator": "5.21"
+      }
     },
     {
       "id": "dogen-study-self",
@@ -1367,7 +1574,10 @@
         "en": "From the essay usually placed first in the collection.",
         "fa": "از جستاری که معمولاً نخستین قطعهٔ این مجموعه گذاشته می‌شود."
       },
-      "citation": { "source": "text-shobogenzo", "locator": "Genjōkōan" }
+      "citation": {
+        "source": "text-shobogenzo",
+        "locator": "Genjōkōan"
+      }
     },
     {
       "id": "zeami-hidden-flower",
@@ -1381,7 +1591,10 @@
         "en": "The sentence the treatise's doctrine of concealment is built on, in a book that was itself kept secret for five hundred years.",
         "fa": "جمله‌ای که آموزهٔ پنهان‌کاریِ این رساله بر آن بنا شده، در کتابی که خودش پانصد سال پنهان نگه داشته شد."
       },
-      "citation": { "source": "text-fushikaden", "locator": "ch. 7" }
+      "citation": {
+        "source": "text-fushikaden",
+        "locator": "ch. 7"
+      }
     },
     {
       "id": "nishida-experience",
@@ -1412,8 +1625,13 @@
         "en": "From the book taking Ptolemy apart, which is what gives the sentence its force: he had just done it.",
         "fa": "از کتابی که بطلمیوس را تکه‌تکه می‌کند، و همین است که به این جمله نیرو می‌دهد: او همین کار را کرده بود."
       },
-      "citation": { "source": "text-al-shukuk-ala-batlamyus" },
-      "context": {"en": "Written in a book devoted to finding errors in Ptolemy, whose astronomy Ibn al-Haytham otherwise used. The passage goes on to say that a reader should attack an author's work from every side, and suspect himself as well.", "fa": "در کتابی نوشته شده که وقفِ یافتنِ خطاهای بطلمیوس است، همان که ابن‌هیثم در جاهای دیگر از نجومش استفاده می‌کرد. بند در ادامه می‌گوید خواننده باید کار نویسنده را از هر سو بکاود، و به خودش هم بدگمان باشد."}
+      "citation": {
+        "source": "text-al-shukuk-ala-batlamyus"
+      },
+      "context": {
+        "en": "Written in a book devoted to finding errors in Ptolemy, whose astronomy Ibn al-Haytham otherwise used. The passage goes on to say that a reader should attack an author's work from every side, and suspect himself as well.",
+        "fa": "در کتابی نوشته شده که وقفِ یافتنِ خطاهای بطلمیوس است، همان که ابن‌هیثم در جاهای دیگر از نجومش استفاده می‌کرد. بند در ادامه می‌گوید خواننده باید کار نویسنده را از هر سو بکاود، و به خودش هم بدگمان باشد."
+      }
     },
     {
       "id": "anselm-believe-understand",
@@ -1427,7 +1645,10 @@
         "en": "Stated just before the argument for God's existence, which is why the argument is addressed to God in prayer.",
         "fa": "درست پیش از استدلال بر هستی خدا گفته می‌شود، و برای همین آن استدلال به صورت دعا خطاب به خدا نوشته شده."
       },
-      "citation": { "source": "text-proslogion", "locator": "ch. 1" }
+      "citation": {
+        "source": "text-proslogion",
+        "locator": "ch. 1"
+      }
     },
     {
       "id": "augustine-restless",
@@ -1441,7 +1662,10 @@
         "en": "The second sentence of the book, and the sentence the rest of it is arguing for.",
         "fa": "دومین جملهٔ کتاب، و همان جمله‌ای که باقی کتاب برایش استدلال می‌کند."
       },
-      "citation": { "source": "text-confessions", "locator": "I.1" }
+      "citation": {
+        "source": "text-confessions",
+        "locator": "I.1"
+      }
     },
     {
       "id": "spinoza-difficult-rare",
@@ -1474,7 +1698,7 @@
       },
       "citation": {
         "source": "text-essay-human-understanding",
-        "locator": "II.1.2"
+        "locator": "II.i.2"
       }
     },
     {
@@ -1489,7 +1713,10 @@
         "en": "Berkeley's own words: two Latin terms inside an English sentence. The Latin tag he is remembered by, esse est percipi, is a later compression of it.",
         "fa": "این جملهٔ خودِ برکلی است: دو واژهٔ لاتین در میان جمله‌ای انگلیسی. آن عبارت لاتین که نامش با آن به یاد می‌ماند، esse est percipi، فشرده‌شدهٔ بعدی همین جمله است."
       },
-      "citation": { "source": "text-berkeley-principles", "locator": "§3" }
+      "citation": {
+        "source": "text-berkeley-principles",
+        "locator": "§3"
+      }
     },
     {
       "id": "kant-thoughts-empty",
@@ -1520,7 +1747,10 @@
         "en": "The first formulation of the categorical imperative, in the standard Academy pagination.",
         "fa": "نخستین صورت‌بندی امر مطلق، در شماره‌گذاری متعارف آکادمی."
       },
-      "citation": { "source": "kant-groundwork", "locator": "4:421" }
+      "citation": {
+        "source": "kant-groundwork",
+        "locator": "4:421"
+      }
     },
     {
       "id": "rousseau-emile-opening",
@@ -1534,7 +1764,10 @@
         "en": "The first line of the book on education, and the premise of everything in it.",
         "fa": "نخستین سطر کتابِ تربیت، و مقدمهٔ هرچه در آن است."
       },
-      "citation": { "source": "text-emile", "locator": "Book I, opening" }
+      "citation": {
+        "source": "text-emile",
+        "locator": "Book I, opening"
+      }
     },
     {
       "id": "hume-is-ought",
@@ -1548,7 +1781,10 @@
         "en": "The whole passage is four sentences long and appears at the end of a section about something else.",
         "fa": "کل این بند چهار جمله است و در پایان بخشی دربارهٔ چیزی دیگر می‌آید."
       },
-      "citation": { "source": "text-treatise-human-nature", "locator": "III.1.1" }
+      "citation": {
+        "source": "text-treatise-human-nature",
+        "locator": "III.1.1"
+      }
     },
     {
       "id": "hegel-true-whole",
@@ -1613,7 +1849,10 @@
         "en": "One of the numbered propositions, three steps before the book's last line.",
         "fa": "یکی از گزاره‌های شماره‌دار، سه گام پیش از آخرین سطر کتاب."
       },
-      "citation": { "source": "text-tractatus", "locator": "5.6" }
+      "citation": {
+        "source": "text-tractatus",
+        "locator": "5.6"
+      }
     },
     {
       "id": "wittgenstein-fly-bottle",
@@ -1644,7 +1883,10 @@
         "en": "He coins the phrase and says in the same sentence that he means it as an insult.",
         "fa": "او این عبارت را می‌سازد و در همان جمله می‌گوید که آن را چون توهین به کار می‌برد."
       },
-      "citation": { "source": "text-concept-of-mind", "locator": "ch. 1" }
+      "citation": {
+        "source": "text-concept-of-mind",
+        "locator": "ch. 1"
+      }
     },
     {
       "id": "rawls-first-virtue",
@@ -1692,7 +1934,10 @@
         "en": "The shortest statement of the book's thesis, in a book made of short statements.",
         "fa": "کوتاه‌ترین بیان تز این کتاب، در کتابی که از بیان‌های کوتاه ساخته شده."
       },
-      "citation": { "source": "text-i-and-thou", "locator": "Part I" }
+      "citation": {
+        "source": "text-i-and-thou",
+        "locator": "Part I"
+      }
     },
     {
       "id": "weil-attention-prayer",
@@ -1723,7 +1968,10 @@
         "en": "From the chapter on the pitfalls of national consciousness, which is addressed to movements that have already won.",
         "fa": "از فصلی دربارهٔ دام‌های آگاهی ملی، که خطاب به جنبش‌هایی است که از پیش برده‌اند."
       },
-      "citation": { "source": "text-wretched-of-the-earth", "locator": "ch. 3" }
+      "citation": {
+        "source": "text-wretched-of-the-earth",
+        "locator": "ch. 3"
+      }
     },
     {
       "id": "cesaire-thingification",
@@ -1737,7 +1985,9 @@
         "en": "The passage ends with the word he coined for what colonisation does: it turns people into things.",
         "fa": "این بند با واژه‌ای که او برای کارِ استعمار ساخت پایان می‌یابد: آدم‌ها را به شیء بدل می‌کند."
       },
-      "citation": { "source": "text-discourse-on-colonialism" }
+      "citation": {
+        "source": "text-discourse-on-colonialism"
+      }
     },
     {
       "id": "mariategui-land",
@@ -1751,7 +2001,10 @@
         "en": "Stated in order to refuse four other framings — education, race, morals and administration — that had each been proposed.",
         "fa": "این را می‌گوید تا چهار قاب دیگر را رد کند — آموزش، نژاد، اخلاق و اداره — که هر یک پیشنهاد شده بودند."
       },
-      "citation": { "source": "text-seven-essays", "locator": "Essay 2" }
+      "citation": {
+        "source": "text-seven-essays",
+        "locator": "Essay 2"
+      }
     },
     {
       "id": "hauofa-sea-of-islands",
@@ -1765,7 +2018,9 @@
         "en": "The first framing counts the land and finds it small; the second counts the water and finds it large.",
         "fa": "قاب نخست خشکی را می‌شمارد و کوچکش می‌یابد؛ دومی آب را می‌شمارد و بزرگش می‌یابد."
       },
-      "citation": { "source": "text-our-sea-of-islands" }
+      "citation": {
+        "source": "text-our-sea-of-islands"
+      }
     },
     {
       "id": "hooks-classroom",
@@ -1796,7 +2051,10 @@
         "en": "The last line of the essay, and a rejection of the feminism that wanted a return to nature.",
         "fa": "آخرین سطر آن جستار، و رد کردن آن فمینیسمی که بازگشت به طبیعت می‌خواست."
       },
-      "citation": { "source": "text-cyborg-manifesto", "locator": "final line" }
+      "citation": {
+        "source": "text-cyborg-manifesto",
+        "locator": "final line"
+      }
     },
     {
       "id": "freire-education",
@@ -1862,7 +2120,10 @@
       "originalText": "τὸ γὰρ αὐτὸ νοεῖν ἐστίν τε καὶ εἶναι",
       "speaker": "parmenides",
       "attribution": "verified",
-      "citation": { "source": "text-parmenides-poem", "locator": "DK 28 B3" },
+      "citation": {
+        "source": "text-parmenides-poem",
+        "locator": "DK 28 B3"
+      },
       "context": {
         "en": "Three words in Greek, and among the most argued-over in the history of philosophy. It has been read as saying that thought and being are identical, and as saying only that whatever can be thought can be — which are very different claims.",
         "fa": "در یونانی سه واژه است، و از پرمشاجره‌ترین‌های تاریخ فلسفه. آن را هم چنین خوانده‌اند که اندیشه و هستی یکی‌اند، و هم چنین که تنها هرآنچه اندیشیدنی است می‌تواند باشد — و این دو ادعا بسیار متفاوت‌اند."
@@ -1877,7 +2138,10 @@
       "originalText": "ἡ μὲν ὅπως ἔστιν τε καὶ ὡς οὐκ ἔστι μὴ εἶναι",
       "speaker": "parmenides",
       "attribution": "verified",
-      "citation": { "source": "text-parmenides-poem", "locator": "DK 28 B2" },
+      "citation": {
+        "source": "text-parmenides-poem",
+        "locator": "DK 28 B2"
+      },
       "context": {
         "en": "The goddess sets out two roads of inquiry and immediately closes one of them. What survives of the poem is an argument that the second road — that something is not — cannot even be spoken.",
         "fa": "الههٔ شعر دو راهِ پژوهش پیش می‌نهد و بی‌درنگ یکی را می‌بندد. آنچه از شعر مانده استدلالی است بر اینکه راه دوم — که چیزی نیست — حتی گفتنی نیست."
@@ -1891,7 +2155,10 @@
       },
       "speaker": "gorgias",
       "attribution": "verified",
-      "citation": { "source": "text-encomium-of-helen", "locator": "§8" },
+      "citation": {
+        "source": "text-encomium-of-helen",
+        "locator": "§8"
+      },
       "context": {
         "en": "Gorgias is defending Helen on the ground that if speech persuaded her, she was compelled and not at fault. To make the defence work he has to argue that words act on the soul with the force of a drug — which is the passage the history of rhetoric remembers.",
         "fa": "گرگیاس از هلن دفاع می‌کند به این دلیل که اگر سخن او را متقاعد کرده، پس مجبور بوده و گناهی ندارد. برای آنکه این دفاع کار کند، باید نشان دهد واژه‌ها با نیروی دارو بر جان اثر می‌گذارند — و تاریخ بلاغت همین بند را به یاد دارد."
@@ -1947,7 +2214,10 @@
       },
       "speaker": "sextus-empiricus",
       "attribution": "verified",
-      "citation": { "source": "text-outlines-of-pyrrhonism", "locator": "I.8" },
+      "citation": {
+        "source": "text-outlines-of-pyrrhonism",
+        "locator": "I.8"
+      },
       "context": {
         "en": "The definition the whole of ancient scepticism works from. Note what it is not: it does not say that nothing can be known. It describes a practice — set the arguments against each other — and reports where that practice leads.",
         "fa": "تعریفی که تمام شکاکیت باستان از آن آغاز می‌کند. توجه کنید چه نمی‌گوید: نمی‌گوید هیچ‌چیز دانستنی نیست. کاری را وصف می‌کند — استدلال‌ها را در برابر هم بگذار — و گزارش می‌دهد که این کار به کجا می‌رسد."
@@ -1961,7 +2231,10 @@
       },
       "speaker": "marcus-aurelius",
       "attribution": "verified",
-      "citation": { "source": "text-meditations", "locator": "VI.6" }
+      "citation": {
+        "source": "text-meditations",
+        "locator": "VI.6"
+      }
     },
     {
       "id": "marcus-morning",
@@ -1971,7 +2244,10 @@
       },
       "speaker": "marcus-aurelius",
       "attribution": "verified",
-      "citation": { "source": "text-meditations", "locator": "II.1" },
+      "citation": {
+        "source": "text-meditations",
+        "locator": "II.1"
+      },
       "context": {
         "en": "The passage goes on to say that they behave so through ignorance of good and evil, that they are his kin, and that he therefore cannot be harmed by them or angry with them. Quoted without the rest, it sounds like contempt; it is the opposite.",
         "fa": "بند در ادامه می‌گوید که آنان از سرِ ناآگاهی از نیک و بد چنین‌اند، که خویشاوندان اویند، و پس نه می‌توانند آسیبش بزنند نه او می‌تواند بر آنان خشم گیرد. نقلِ بی‌ادامه، تحقیر به نظر می‌رسد؛ درست وارونهٔ آن است."
@@ -1986,7 +2262,10 @@
       "originalText": "omnia, Lucili, aliena sunt, tempus tantum nostrum est",
       "speaker": "seneca",
       "attribution": "verified",
-      "citation": { "source": "text-letters-to-lucilius", "locator": "1.3" },
+      "citation": {
+        "source": "text-letters-to-lucilius",
+        "locator": "1.3"
+      },
       "context": {
         "en": "The opening letter of the collection, and its subject is the only thing Seneca thinks a person actually owns. He wrote it as one of the richest men in Rome.",
         "fa": "نخستین نامهٔ مجموعه، و موضوعش تنها چیزی است که سنکا آن را واقعاً مِلکِ آدمی می‌داند. این را در حالی نوشت که از ثروتمندترین مردان روم بود."
@@ -2001,7 +2280,10 @@
       "originalText": "ignoranti quem portum petat nullus suus ventus est",
       "speaker": "seneca",
       "attribution": "verified",
-      "citation": { "source": "text-letters-to-lucilius", "locator": "71.3" }
+      "citation": {
+        "source": "text-letters-to-lucilius",
+        "locator": "71.3"
+      }
     },
     {
       "id": "lucretius-nothing",
@@ -2012,7 +2294,10 @@
       "originalText": "nullam rem e nihilo gigni divinitus umquam",
       "speaker": "lucretius",
       "attribution": "verified",
-      "citation": { "source": "text-de-rerum-natura", "locator": "I.150" },
+      "citation": {
+        "source": "text-de-rerum-natura",
+        "locator": "I.150"
+      },
       "context": {
         "en": "The first principle of the poem, and the move that makes the rest possible: if nothing comes from nothing, then everything that happens has a cause in matter, and the gods need not be consulted about any of it.",
         "fa": "نخستین اصلِ این شعر، و همان حرکتی که بقیه را ممکن می‌کند: اگر هیچ از هیچ پدید نیاید، پس هرچه رخ می‌دهد علتی در ماده دارد، و لازم نیست دربارهٔ هیچ‌کدام از خدایان پرسید."
@@ -2027,7 +2312,10 @@
       "originalText": "o vitae philosophia dux, o virtutis indagatrix expultrixque vitiorum",
       "speaker": "cicero",
       "attribution": "verified",
-      "citation": { "source": "text-tusculan-disputations", "locator": "V.5" },
+      "citation": {
+        "source": "text-tusculan-disputations",
+        "locator": "V.5"
+      },
       "context": {
         "en": "Cicero's Latin gave later Europe most of its philosophical vocabulary, and passages like this one gave it the habit of addressing philosophy as a person who can be appealed to.",
         "fa": "لاتینِ سیسرون بیشترِ واژگان فلسفیِ اروپای پسین را ساخت، و بندهایی از این دست، این عادت را ساختند که فلسفه را چون کسی خطاب کنند که می‌توان به او پناه برد."
@@ -2045,7 +2333,10 @@
       },
       "speaker": "plotinus",
       "attribution": "verified",
-      "citation": { "source": "text-enneads", "locator": "I.6.9" },
+      "citation": {
+        "source": "text-enneads",
+        "locator": "I.6.9"
+      },
       "context": {
         "en": "The argument is that you cannot see a thing you have no likeness to. Plotinus is drawing a consequence: whoever means to look at the Good must first be made good, so philosophy is a change in the person before it is a claim about the world.",
         "fa": "استدلال این است که چیزی را که هیچ همانندی با آن نداری نمی‌توانی ببینی. افلوطین نتیجه‌ای می‌گیرد: هرکه بخواهد به «خیر» بنگرد، نخست باید نیک شود، پس فلسفه پیش از آنکه ادعایی دربارهٔ جهان باشد، دگرگونی‌ای در شخص است."
@@ -2078,7 +2369,10 @@
       "originalText": "aliquid quo nihil maius cogitari possit",
       "speaker": "anselm",
       "attribution": "verified",
-      "citation": { "source": "text-proslogion", "locator": "2" },
+      "citation": {
+        "source": "text-proslogion",
+        "locator": "2"
+      },
       "context": {
         "en": "Not a description of God but a phrase designed to work in an argument: whatever it turns out to name, Anselm claims it cannot exist in the understanding alone. Every later version of the ontological argument starts by adjusting these words.",
         "fa": "نه وصفِ خدا، که عبارتی است ساخته‌شده برای کار در یک استدلال: هرچه از آب درآید، آنسلم مدعی است نمی‌تواند تنها در فهم باشد. هر روایتِ بعدیِ برهان وجودی با دستکاری در همین واژه‌ها آغاز می‌شود."
@@ -2148,7 +2442,9 @@
       },
       "speaker": "erasmus",
       "attribution": "probable",
-      "citation": { "source": "text-praise-of-folly" },
+      "citation": {
+        "source": "text-praise-of-folly"
+      },
       "context": {
         "en": "Folly herself is the speaker for the whole book, which is what makes it hard to pin down: every criticism of the church in it is delivered by a character the author has told us not to trust.",
         "fa": "گویندهٔ سراسر کتاب خودِ «حماقت» است، و همین است که مهارش را دشوار می‌کند: هر انتقادی از کلیسا در آن، از زبان شخصیتی گفته می‌شود که نویسنده به ما گفته به او اعتماد نکنیم."
@@ -2166,7 +2462,10 @@
       },
       "speaker": "locke",
       "attribution": "verified",
-      "citation": { "source": "text-two-treatises", "locator": "II.27" },
+      "citation": {
+        "source": "text-two-treatises",
+        "locator": "II.27"
+      },
       "context": {
         "en": "The sentence that founds the whole argument for property, and the one that later abolitionists turned back against the societies that had adopted it.",
         "fa": "جمله‌ای که کل استدلال دربارهٔ مالکیت را بنیاد می‌نهد، و همان که بعدها لغو‌کنندگانِ برده‌داری آن را علیه جامعه‌هایی به کار بردند که پذیرفته بودندش."
@@ -2198,12 +2497,18 @@
       },
       "speaker": "leibniz",
       "attribution": "verified",
-      "citation": { "source": "text-monadology", "locator": "§7" },
+      "citation": {
+        "source": "text-monadology",
+        "locator": "§7"
+      },
       "context": {
         "en": "If no substance can act on another, then the order of the world cannot come from things pushing each other. Leibniz's answer is that it was arranged in advance, which is what the pre-established harmony means.",
         "fa": "اگر هیچ جوهری نتواند بر دیگری اثر بگذارد، نظمِ جهان نمی‌تواند از هل دادن چیزها به هم بیاید. پاسخ لایب‌نیتس این است که از پیش سامان یافته، و «هماهنگیِ پیشین‌بنیاد» همین را می‌گوید."
       },
-      "attributionNote": {"en": "Which is why the harmony between them has to be established in advance.", "fa": "و برای همین است که هماهنگی میانشان باید از پیش برقرار شده باشد."}
+      "attributionNote": {
+        "en": "Which is why the harmony between them has to be established in advance.",
+        "fa": "و برای همین است که هماهنگی میانشان باید از پیش برقرار شده باشد."
+      }
     },
     {
       "id": "rousseau-property",
@@ -2264,7 +2569,10 @@
       },
       "speaker": "adam-smith",
       "attribution": "verified",
-      "citation": { "source": "text-wealth-of-nations", "locator": "I.2" },
+      "citation": {
+        "source": "text-wealth-of-nations",
+        "locator": "I.2"
+      },
       "context": {
         "en": "Quoted constantly as a defence of selfishness by people who have not read the other book. Smith spends The Theory of Moral Sentiments arguing that human beings are constituted to care what others feel.",
         "fa": "کسانی که آن کتاب دیگر را نخوانده‌اند مدام آن را چون دفاعی از خودخواهی نقل می‌کنند. اسمیت سراسرِ «نظریهٔ عواطف اخلاقی» را صرف این می‌کند که آدمی چنان ساخته شده که به احساس دیگران اهمیت می‌دهد."
@@ -2278,7 +2586,10 @@
       },
       "speaker": "adam-smith",
       "attribution": "verified",
-      "citation": { "source": "text-moral-sentiments", "locator": "I.i.1" },
+      "citation": {
+        "source": "text-moral-sentiments",
+        "locator": "I.i.1"
+      },
       "context": {
         "en": "The first sentence of Smith's first book, and the one that makes the butcher passage make sense. He never thought self-interest was the whole of a person.",
         "fa": "نخستین جملهٔ نخستین کتاب اسمیت، و همان که بندِ قصاب را معنادار می‌کند. او هرگز نمی‌اندیشید که سودجویی تمامِ یک آدم است."
@@ -2326,7 +2637,10 @@
       },
       "speaker": "levinas",
       "attribution": "verified",
-      "citation": { "source": "text-totality-and-infinity", "locator": "III.B" },
+      "citation": {
+        "source": "text-totality-and-infinity",
+        "locator": "III.B"
+      },
       "context": {
         "en": "For Levinas the face is not a thing to be looked at but a demand that arrives before any decision to accept it. Ethics comes first in his philosophy in the literal sense: before I choose anything, I am already answerable.",
         "fa": "برای لویناس، چهره چیزی برای نگریستن نیست، مطالبه‌ای است که پیش از هر تصمیمی برای پذیرفتنش می‌رسد. اخلاق در فلسفهٔ او به معنای تحت‌اللفظی نخست است: پیش از آنکه چیزی برگزینم، پاسخگویم."
@@ -2443,12 +2757,18 @@
       },
       "speaker": "angela-davis",
       "attribution": "verified",
-      "citation": { "source": "text-are-prisons-obsolete", "locator": "ch. 1" },
+      "citation": {
+        "source": "text-are-prisons-obsolete",
+        "locator": "ch. 1"
+      },
       "context": {
         "en": "The argument of the book compressed: if the institution is judged by what it actually removes from view rather than by what it claims to solve, abolition becomes a practical question rather than a utopian one.",
         "fa": "استدلالِ کتاب در فشرده‌ترین صورت: اگر این نهاد را بر پایهٔ آنچه واقعاً از دید بیرون می‌برد داوری کنیم نه بر پایهٔ آنچه ادعا می‌کند حل می‌کند، برچیدنش پرسشی عملی می‌شود نه آرمان‌شهری."
       },
-      "attributionNote": {"en": "The sentence the abolitionist argument is built around.", "fa": "جمله‌ای که استدلال لغو زندان حول آن ساخته شده."}
+      "attributionNote": {
+        "en": "The sentence the abolitionist argument is built around.",
+        "fa": "جمله‌ای که استدلال لغو زندان حول آن ساخته شده."
+      }
     },
     {
       "id": "butler-gender",
@@ -2458,7 +2778,10 @@
       },
       "speaker": "butler",
       "attribution": "verified",
-      "citation": { "source": "text-gender-trouble", "locator": "ch. 3" },
+      "citation": {
+        "source": "text-gender-trouble",
+        "locator": "ch. 3"
+      },
       "context": {
         "en": "Performative does not mean chosen, which is the reading Butler has spent thirty years correcting. The frame is described as rigid on purpose: the repetition is compelled, and that is what makes it possible to fail at it.",
         "fa": "«اجرایی» به معنای «برگزیده» نیست، و باتلر سی سال است همین خوانش را تصحیح می‌کند. چارچوب عمداً «سخت‌گیرانه» وصف شده است: تکرار اجباری است، و همین است که شکست خوردن در آن را ممکن می‌کند."
@@ -2557,7 +2880,10 @@
       },
       "speaker": "hart",
       "attribution": "verified",
-      "citation": { "source": "text-concept-of-law", "locator": "ch. 5" },
+      "citation": {
+        "source": "text-concept-of-law",
+        "locator": "ch. 5"
+      },
       "context": {
         "en": "Hart's answer to the theory that law is orders backed by threats. Rules about how to make, change and judge rules are not commands to anyone, and no legal system works without them.",
         "fa": "پاسخ هارت به این نظریه که قانون فرمان‌هایی است پشتیبانی‌شده با تهدید. قاعده‌هایی که می‌گویند چگونه باید قاعده ساخت و دگرگون کرد و داوری کرد، فرمانِ کسی نیستند، و هیچ نظام حقوقی بی‌آن‌ها کار نمی‌کند."
@@ -2588,7 +2914,10 @@
       },
       "speaker": "ibn-khaldun",
       "attribution": "verified",
-      "citation": { "source": "text-muqaddimah", "locator": "Preface" },
+      "citation": {
+        "source": "text-muqaddimah",
+        "locator": "Preface"
+      },
       "context": {
         "en": "The Muqaddimah opens by claiming that history is a science with its own subject matter and its own rules of evidence, which was not how the chroniclers before him had understood their work.",
         "fa": "«مقدمه» با این ادعا آغاز می‌شود که تاریخ دانشی است با موضوع و قواعدِ شواهدِ خود، و وقایع‌نگاران پیش از او کارشان را چنین نمی‌فهمیدند."
@@ -2602,7 +2931,10 @@
       },
       "speaker": "suhrawardi",
       "attribution": "verified",
-      "citation": { "source": "text-hikmat-al-ishraq", "locator": "Part II" },
+      "citation": {
+        "source": "text-hikmat-al-ishraq",
+        "locator": "Part 2"
+      },
       "context": {
         "en": "The whole system turns on a definition chosen so that light needs no explanation from anything else. Everything that exists is then graded by how much of it a thing has.",
         "fa": "تمامِ این دستگاه بر تعریفی می‌چرخد که چنان برگزیده شده که نور نیازی به توضیح از چیز دیگری ندارد. آن‌گاه هرچه هست بر پایهٔ اینکه چه اندازه از آن دارد رتبه می‌یابد."
@@ -2616,7 +2948,9 @@
       },
       "speaker": "khayyam",
       "attribution": "probable",
-      "citation": { "source": "text-khayyam-algebra" },
+      "citation": {
+        "source": "text-khayyam-algebra"
+      },
       "context": {
         "en": "Khayyam is defending mathematics as a subject rather than a technique. He solved cubic equations geometrically, by intersecting conic sections, several centuries before an algebraic solution existed.",
         "fa": "خیام از ریاضیات چون یک رشته دفاع می‌کند نه چون یک فن. او معادله‌های درجهٔ سوم را به‌صورت هندسی و از راه تقاطعِ مقاطع مخروطی حل کرد، چند قرن پیش از آنکه راه‌حلی جبری وجود داشته باشد."
@@ -2655,12 +2989,18 @@
       "transliteration": "yogaś citta-vṛtti-nirodhaḥ",
       "speaker": "patanjali",
       "attribution": "verified",
-      "citation": { "source": "text-yoga-sutras", "locator": "1.2" },
+      "citation": {
+        "source": "text-yoga-sutras",
+        "locator": "1.2"
+      },
       "context": {
         "en": "The second line of the text and its definition of the whole subject. Everything after it is a description of what stands in the way and what to do about it.",
         "fa": "سطر دومِ متن و تعریفِ آن از تمامِ موضوع. هرچه پس از آن می‌آید، وصفِ آن است که چه چیز سرِ راه است و با آن چه باید کرد."
       },
-      "attributionNote": {"en": "The definition and its consequence, in the second and third aphorisms of the text.", "fa": "تعریف و پیامدش، در بند دوم و سوم این متن."}
+      "attributionNote": {
+        "en": "The definition and its consequence, in the second and third aphorisms of the text.",
+        "fa": "تعریف و پیامدش، در بند دوم و سوم این متن."
+      }
     },
     {
       "id": "laozi-know-others",
@@ -2671,13 +3011,19 @@
       "originalText": "知人者智，自知者明",
       "speaker": "laozi",
       "attribution": "verified",
-      "citation": { "source": "text-daodejing", "locator": "ch. 33" },
+      "citation": {
+        "source": "text-daodejing",
+        "locator": "ch. 33"
+      },
       "context": {
         "en": "The chapter continues in pairs, each one setting an outward power against an inward one and rating the inward higher: mastering others is force, mastering yourself is strength.",
         "fa": "این فصل جفت‌جفت پیش می‌رود، و هر جفت توانی بیرونی را در برابر توانی درونی می‌نهد و درونی را برتر می‌شمارد: چیرگی بر دیگران زور است، چیرگی بر خویش نیرو."
       },
       "work": "daodejing",
-      "attributionNote": {"en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.", "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."}
+      "attributionNote": {
+        "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
+        "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      }
     },
     {
       "id": "xunzi-nature-evil",
@@ -2687,12 +3033,18 @@
       },
       "speaker": "xunzi",
       "attribution": "verified",
-      "citation": { "source": "text-xunzi-book", "locator": "ch. 23" },
+      "citation": {
+        "source": "text-xunzi-book",
+        "locator": "ch. 23"
+      },
       "context": {
         "en": "Written directly against Mencius, and often mistranslated as a doctrine of depravity. Xunzi's claim is that what people are born with is appetite, and that ritual and learning are what make anything else out of it.",
         "fa": "مستقیماً در برابر منسیوس نوشته شده، و بارها آن را به‌غلط چون آموزه‌ای دربارهٔ فسادِ ذاتی ترجمه کرده‌اند. ادعای شون‌تزه این است که آنچه آدمیان با آن زاده می‌شوند اشتهاست، و آیین و آموختن است که چیز دیگری از آن می‌سازد."
       },
-      "attributionNote": {"en": "The chapter title states the thesis, and the argument against Mencius runs through it.", "fa": "عنوان آن فصل همین تز است، و استدلال علیه منسیوس در سراسر آن می‌رود."}
+      "attributionNote": {
+        "en": "The chapter title states the thesis, and the argument against Mencius runs through it.",
+        "fa": "عنوان آن فصل همین تز است، و استدلال علیه منسیوس در سراسر آن می‌رود."
+      }
     },
     {
       "id": "ptahhotep-listening",
@@ -2702,7 +3054,9 @@
       },
       "speaker": "ptahhotep",
       "attribution": "probable",
-      "citation": { "source": "text-maxims-of-ptahhotep" },
+      "citation": {
+        "source": "text-maxims-of-ptahhotep"
+      },
       "context": {
         "en": "Roughly four thousand years old, and among the oldest surviving arguments about where wisdom is found. The point of naming the grindstones is that it is not found where rank would predict.",
         "fa": "نزدیک چهار هزار سال قدمت دارد، و از کهن‌ترین استدلال‌های بازمانده دربارهٔ اینکه حکمت کجا یافت می‌شود. نکتهٔ نام بردن از آسیاب این است که حکمت آنجا که مقام و مرتبه پیش‌بینی می‌کند یافت نمی‌شود."
@@ -2720,7 +3074,10 @@
       },
       "speaker": "plato",
       "attribution": "verified",
-      "citation": { "source": "plato-republic", "locator": "515c" },
+      "citation": {
+        "source": "plato-republic",
+        "locator": "515c"
+      },
       "context": {
         "en": "The prisoners have never seen anything else, so nothing about the shadows looks like a shadow to them. That is the difficulty the whole allegory turns on: not that they are deceived, but that they have no way to notice.",
         "fa": "زندانیان هرگز چیز دیگری ندیده‌اند، پس هیچ‌چیزِ آن سایه‌ها برایشان به سایه نمی‌ماند. دشواری‌ای که تمامِ این تمثیل بر آن می‌چرخد همین است: نه اینکه فریب خورده‌اند، که هیچ راهی برای دریافتنش ندارند."
@@ -2742,7 +3099,10 @@
         "en": "Placed where it is to block a misreading: eudaimonia has just been defined as activity of the soul in accordance with virtue, and Aristotle wants it understood as a shape a whole life has, not a state a person can be in on Tuesday.",
         "fa": "آنجا نهاده شده تا جلوی بدفهمی را بگیرد: «ادایمونیا» همین حالا چون فعالیتِ نفس بر وفقِ فضیلت تعریف شده، و ارسطو می‌خواهد آن را شکلی بفهمند که یک زندگیِ کامل دارد، نه حالتی که کسی می‌تواند سه‌شنبه در آن باشد."
       },
-      "attributionNote": {"en": "The reason eudaimonia is assessed over a complete life rather than a good afternoon.", "fa": "دلیل اینکه سعادت در یک زندگی کامل سنجیده می‌شود نه در یک بعدازظهر خوش."}
+      "attributionNote": {
+        "en": "The reason eudaimonia is assessed over a complete life rather than a good afternoon.",
+        "fa": "دلیل اینکه سعادت در یک زندگی کامل سنجیده می‌شود نه در یک بعدازظهر خوش."
+      }
     },
     {
       "id": "aristotle-all-men-desire",
@@ -2753,7 +3113,10 @@
       "originalText": "πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει",
       "speaker": "aristotle",
       "attribution": "verified",
-      "citation": { "source": "aristotle-metaphysics", "locator": "980a21" },
+      "citation": {
+        "source": "aristotle-metaphysics",
+        "locator": "980a21"
+      },
       "context": {
         "en": "The first sentence of the Metaphysics, and the evidence Aristotle offers for it is that we take pleasure in our senses even when they are of no use to us.",
         "fa": "نخستین جملهٔ «مابعدالطبیعه»، و شاهدی که ارسطو برایش می‌آورد این است که ما از حواس‌مان لذت می‌بریم حتی وقتی به کارمان نمی‌آیند."
@@ -2801,12 +3164,18 @@
       },
       "speaker": "mill",
       "attribution": "verified",
-      "citation": { "source": "text-on-liberty", "locator": "ch. 1" },
+      "citation": {
+        "source": "text-on-liberty",
+        "locator": "ch. 1"
+      },
       "context": {
         "en": "The whole of liberalism's argument about the limits of interference, in one sentence. Mill immediately adds that a person's own good is not a sufficient warrant, which is the part most often left out.",
         "fa": "تمامِ استدلالِ لیبرالیسم دربارهٔ حدودِ مداخله، در یک جمله. میل بی‌درنگ می‌افزاید که خیرِ خودِ شخص مجوزِ کافی نیست، و همین بخش است که بیشتر از قلم می‌افتد."
       },
-      "attributionNote": {"en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.", "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."}
+      "attributionNote": {
+        "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
+        "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      }
     },
     {
       "id": "mill-socrates",
@@ -2816,20 +3185,35 @@
       },
       "speaker": "mill",
       "attribution": "verified",
-      "citation": { "source": "text-utilitarianism", "locator": "ch. 2" },
+      "citation": {
+        "source": "text-utilitarianism",
+        "locator": "ch. 2"
+      },
       "context": {
         "en": "Mill's answer to the charge that utilitarianism is a doctrine fit for swine. Its cost is that pleasures now differ in kind as well as amount, which is harder to add up than Bentham's version.",
         "fa": "پاسخ میل به این اتهام که سودگرایی آموزه‌ای درخورِ خوکان است. بهایش این است که لذت‌ها اکنون در نوع هم فرق دارند نه فقط در مقدار، و این جمع زدنی دشوارتر از روایتِ بنتام است."
       },
-      "attributionNote": {"en": "The sentence in which the qualitative distinction between pleasures is introduced, and with it the theory's hardest problem.", "fa": "جمله‌ای که در آن تمایز کیفی میان لذت‌ها معرفی می‌شود، و با آن سخت‌ترین مسئلهٔ این نظریه."}
+      "attributionNote": {
+        "en": "The sentence in which the qualitative distinction between pleasures is introduced, and with it the theory's hardest problem.",
+        "fa": "جمله‌ای که در آن تمایز کیفی میان لذت‌ها معرفی می‌شود، و با آن سخت‌ترین مسئلهٔ این نظریه."
+      }
     },
     {
       "id": "burke-triumph-of-evil",
-      "text": {"en": "The only thing necessary for the triumph of evil is that good men do nothing.", "fa": "تنها چیزی که برای پیروزی شر لازم است، این است که نیکان کاری نکنند."},
+      "text": {
+        "en": "The only thing necessary for the triumph of evil is that good men do nothing.",
+        "fa": "تنها چیزی که برای پیروزی شر لازم است، این است که نیکان کاری نکنند."
+      },
       "speaker": "mill",
       "attribution": "misattributed",
-      "attributionNote": {"en": "Attributed to Edmund Burke everywhere and found nowhere in his writings; researchers at his own archive have failed to locate it. The nearest documented ancestor is a line of John Stuart Mill's, and even that is not this sentence.", "fa": "همه‌جا به ادموند برک نسبت داده می‌شود و در هیچ‌جای نوشته‌هایش یافت نمی‌شود؛ پژوهشگران بایگانی خودش هم نتوانسته‌اند جای‌گذاری‌اش کنند. نزدیک‌ترین نیای مستند، سطری از جان استیوارت میل است، و آن هم این جمله نیست."},
-      "actualSource": {"en": "Unknown. Often traced loosely to a remark of Mill's in an 1867 address.", "fa": "ناشناخته. اغلب به‌طور آزاد به سخنی از میل در خطابه‌ای در ۱۸۶۷ ردیابی می‌شود."}
+      "attributionNote": {
+        "en": "Attributed to Edmund Burke everywhere and found nowhere in his writings; researchers at his own archive have failed to locate it. The nearest documented ancestor is a line of John Stuart Mill's, and even that is not this sentence.",
+        "fa": "همه‌جا به ادموند برک نسبت داده می‌شود و در هیچ‌جای نوشته‌هایش یافت نمی‌شود؛ پژوهشگران بایگانی خودش هم نتوانسته‌اند جای‌گذاری‌اش کنند. نزدیک‌ترین نیای مستند، سطری از جان استیوارت میل است، و آن هم این جمله نیست."
+      },
+      "actualSource": {
+        "en": "Unknown. Often traced loosely to a remark of Mill's in an 1867 address.",
+        "fa": "ناشناخته. اغلب به‌طور آزاد به سخنی از میل در خطابه‌ای در ۱۸۶۷ ردیابی می‌شود."
+      }
     },
     {
       "id": "arendt-banality",
@@ -2867,7 +3251,10 @@
     },
     {
       "id": "foucault-visibility",
-      "text": { "en": "Visibility is a trap.", "fa": "دیده شدن یک تله است." },
+      "text": {
+        "en": "Visibility is a trap.",
+        "fa": "دیده شدن یک تله است."
+      },
       "speaker": "foucault",
       "attribution": "verified",
       "citation": {
@@ -2921,7 +3308,10 @@
       },
       "speaker": "anzaldua",
       "attribution": "verified",
-      "citation": { "source": "text-borderlands", "locator": "Preface" },
+      "citation": {
+        "source": "text-borderlands",
+        "locator": "Preface"
+      },
       "context": {
         "en": "Anzaldúa is generalising from one border she lived on. The claim is that the condition it produces — belonging to two things and being at home in neither — is a place from which some things can be seen that cannot be seen from inside either.",
         "fa": "آنزالدوا از یک مرز که در آن می‌زیست تعمیم می‌دهد. ادعا این است که وضعیتی که آن مرز پدید می‌آورد — تعلق به دو چیز و در خانه نبودن در هیچ‌کدام — جایگاهی است که از آن چیزهایی دیده می‌شود که از درونِ هیچ‌یک دیده نمی‌شود."
@@ -2929,11 +3319,17 @@
     },
     {
       "id": "spinoza-nature-god",
-      "text": { "en": "God, or nature.", "fa": "خدا، یا طبیعت." },
+      "text": {
+        "en": "God, or nature.",
+        "fa": "خدا، یا طبیعت."
+      },
       "originalText": "Deus sive Natura",
       "speaker": "spinoza",
       "attribution": "verified",
-      "citation": { "source": "text-ethics-spinoza", "locator": "IV, Preface" },
+      "citation": {
+        "source": "text-ethics-spinoza",
+        "locator": "IV, Preface"
+      },
       "context": {
         "en": "Two words that got him excommunicated and, a century later, made him the figure German philosophy kept returning to. If God and nature are one substance, then nothing is outside nature and nothing in it is a miracle.",
         "fa": "دو واژه که سببِ تکفیرش شد و یک قرن بعد او را به چهره‌ای بدل کرد که فلسفهٔ آلمانی مدام به آن بازمی‌گشت. اگر خدا و طبیعت یک جوهر باشند، هیچ‌چیز بیرون از طبیعت نیست و هیچ‌چیز در آن معجزه نیست."
@@ -2947,7 +3343,10 @@
       },
       "speaker": "nietzsche",
       "attribution": "verified",
-      "citation": { "source": "nietzsche-beyond-good-evil", "locator": "§146" },
+      "citation": {
+        "source": "nietzsche-beyond-good-evil",
+        "locator": "§146"
+      },
       "context": {
         "en": "The first half of the aphorism whose second half about the abyss is quoted everywhere on its own. Together they are a warning about method, aimed at the moralists Nietzsche thought had been made cruel by opposing cruelty.",
         "fa": "نیمهٔ نخستِ گزین‌گویه‌ای که نیمهٔ دومش دربارهٔ مغاک، همه‌جا به‌تنهایی نقل می‌شود. آن دو با هم هشداری دربارهٔ روش‌اند، نشانه‌رفته به اخلاق‌گرایانی که نیچه می‌پنداشت مخالفت با سنگدلی سنگدل‌شان کرده است."
@@ -3046,7 +3445,10 @@
       },
       "speaker": "gandhi",
       "attribution": "verified",
-      "citation": { "source": "text-hind-swaraj", "locator": "ch. 13" },
+      "citation": {
+        "source": "text-hind-swaraj",
+        "locator": "ch. 13"
+      },
       "context": {
         "en": "Written on a ship in 1909, in the form of a dialogue with an imagined reader who wants independence in order to have what the British have. Gandhi's answer is that this would be the same civilisation under new management.",
         "fa": "در ۱۹۰۹ روی کشتی نوشته شد، به شکل گفت‌وگو با خواننده‌ای خیالی که استقلال را برای داشتنِ آنچه بریتانیایی‌ها دارند می‌خواهد. پاسخِ گاندی این است که چنین چیزی همان تمدن است با مدیریتی تازه."
@@ -3077,7 +3479,9 @@
       },
       "speaker": "nkrumah",
       "attribution": "probable",
-      "citation": { "source": "text-consciencism" },
+      "citation": {
+        "source": "text-consciencism"
+      },
       "context": {
         "en": "Nkrumah is arguing against the idea of a granted independence, and against the arrangements that survived it. The book's term for those is neo-colonialism, which he defined as having power without responsibility.",
         "fa": "نکرومه در برابر ایدهٔ استقلالِ اعطایی استدلال می‌کند، و در برابر ترتیباتی که پس از آن باقی ماند. اصطلاحِ کتاب برای آن‌ها «نواستعمار» است، که آن را داشتنِ قدرت بدون مسئولیت تعریف می‌کند."
@@ -3095,7 +3499,9 @@
       },
       "speaker": "kwasi-wiredu",
       "attribution": "probable",
-      "citation": { "source": "text-cultural-universals" },
+      "citation": {
+        "source": "text-cultural-universals"
+      },
       "context": {
         "en": "Wiredu was careful about the word 'undue'. He argued that rejecting everything European would be as unphilosophical as accepting it, and tested claims by trying to say them in Akan.",
         "fa": "ویردو در واژهٔ «ناروا» دقیق بود. می‌گفت رد کردنِ هر چیزِ اروپایی همان‌قدر نافلسفی است که پذیرفتنش، و ادعاها را با کوشش برای بیانشان به زبان آکان می‌آزمود."
@@ -3113,7 +3519,10 @@
       },
       "speaker": "epictetus",
       "attribution": "verified",
-      "citation": { "source": "epictetus-enchiridion", "locator": "5" },
+      "citation": {
+        "source": "epictetus-enchiridion",
+        "locator": "5"
+      },
       "context": {
         "en": "The sentence Stoic therapy is built on, and the one modern cognitive therapy took directly. Epictetus adds that death is not terrible, since it did not seem so to Socrates, and that the terrible part is the judgement.",
         "fa": "جمله‌ای که درمانِ رواقی بر آن بنا شده، و درمانِ شناختیِ امروز مستقیم از آن گرفت. اپیکتتوس می‌افزاید که مرگ هولناک نیست، چون برای سقراط چنین نمی‌نمود، و آنچه هولناک است داوری است."
@@ -3127,7 +3536,10 @@
       },
       "speaker": "epictetus",
       "attribution": "verified",
-      "citation": { "source": "epictetus-enchiridion", "locator": "1" },
+      "citation": {
+        "source": "epictetus-enchiridion",
+        "locator": "1"
+      },
       "context": {
         "en": "The first line of the handbook and the division the whole of it depends on. Epictetus had been a slave, and the distinction is drawn by someone for whom almost nothing external had ever been in his power.",
         "fa": "نخستین سطرِ آن دستنامه و تقسیمی که تمامِ آن به آن وابسته است. اپیکتتوس برده بوده است، و این تمایز را کسی می‌کشد که تقریباً هیچ‌چیزِ بیرونی هرگز در توانش نبوده."
@@ -3141,7 +3553,10 @@
       },
       "speaker": "confucius",
       "attribution": "verified",
-      "citation": { "source": "confucius-analects", "locator": "I.1" },
+      "citation": {
+        "source": "confucius-analects",
+        "locator": "I.1"
+      },
       "context": {
         "en": "The opening line of the Analects. What it puts first is not a doctrine but a way of spending time, and the two questions that follow it are about friendship and about not minding being unrecognised.",
         "fa": "نخستین سطرِ «مکالمات». آنچه در آغاز می‌نهد نه آموزه‌ای که شیوه‌ای از گذراندنِ وقت است، و دو پرسشِ پس از آن دربارهٔ دوستی است و دربارهٔ اینکه ناشناخته ماندن را به دل نگیری."
@@ -3155,7 +3570,10 @@
       },
       "speaker": "nagarjuna",
       "attribution": "verified",
-      "citation": { "source": "nagarjuna-mmk", "locator": "25.19" },
+      "citation": {
+        "source": "nagarjuna-mmk",
+        "locator": "25.19"
+      },
       "context": {
         "en": "Among the most radical lines in Buddhist philosophy, and read in opposite directions ever since — as saying that liberation is here, and as saying that both terms are empty and neither names a place.",
         "fa": "از رادیکال‌ترین سطرهای فلسفهٔ بودایی، و از آن پس در دو جهتِ متضاد خوانده شده — یکی اینکه رهایی همین‌جاست، و دیگری اینکه هر دو اصطلاح تهی‌اند و هیچ‌کدام نامِ جایی نیست."
@@ -3169,7 +3587,10 @@
       },
       "speaker": "ibn-sina",
       "attribution": "verified",
-      "citation": { "source": "avicenna-shifa", "locator": "De anima I.1" },
+      "citation": {
+        "source": "avicenna-shifa",
+        "locator": "De anima I.1"
+      },
       "context": {
         "en": "The floating man, six hundred years before Descartes's demon and doing similar work: Ibn Sīnā argues that such a person would still affirm his own existence, and concludes that the self is known without the body.",
         "fa": "«مردِ معلق»، ششصد سال پیش از دیوِ دکارت و در کاری همانند: ابن‌سینا می‌گوید چنین کسی باز هم بودنِ خود را تصدیق می‌کند، و نتیجه می‌گیرد که خویشتن بی‌واسطهٔ بدن دانسته می‌شود."
@@ -3183,7 +3604,10 @@
       },
       "speaker": "al-ghazali",
       "attribution": "verified",
-      "citation": { "source": "ghazali-munqidh", "locator": "Part I" },
+      "citation": {
+        "source": "ghazali-munqidh",
+        "locator": "Part I"
+      },
       "context": {
         "en": "Al-Ghazālī's account of his own breakdown and recovery, written after he abandoned the most prestigious chair in the Islamic world. The method of doubt he describes reaches further than Descartes's and stops at a different place.",
         "fa": "روایتِ غزالی از فروپاشی و بهبودِ خودش، پس از آنکه معتبرترین کرسیِ جهان اسلام را رها کرد. روشِ شکی که وصف می‌کند از روشِ دکارت دورتر می‌رود و در جای دیگری می‌ایستد."
@@ -3197,7 +3621,10 @@
       },
       "speaker": "al-ghazali",
       "attribution": "verified",
-      "citation": { "source": "ghazali-tahafut", "locator": "Discussion 17" },
+      "citation": {
+        "source": "ghazali-tahafut",
+        "locator": "Discussion 17"
+      },
       "context": {
         "en": "Seven centuries before Hume, and reached from the opposite direction: al-Ghazālī wants to leave room for miracles, Hume wants to leave room for nothing at all. The argument about what observation can establish is the same.",
         "fa": "هفت قرن پیش از هیوم، و از جهتِ مخالف بدان رسیده: غزالی می‌خواهد برای معجزه جا باز کند، هیوم می‌خواهد برای هیچ‌چیز جا باز نکند. استدلال دربارهٔ آنچه مشاهده می‌تواند اثبات کند یکی است."
@@ -3211,12 +3638,17 @@
       },
       "speaker": "ibn-rushd",
       "attribution": "verified",
-      "citation": { "source": "text-fasl-al-maqal" },
+      "citation": {
+        "source": "text-fasl-al-maqal"
+      },
       "context": {
         "en": "Written as a legal opinion rather than a treatise: Ibn Rushd was a judge, and the question before him was whether studying philosophy is permitted. His answer is that if revelation is true and demonstration is valid, they cannot conflict.",
         "fa": "نه به‌صورت رساله که چون فتوایی حقوقی نوشته شده: ابن‌رشد قاضی بود، و پرسشِ پیشِ رویش این بود که آیا خواندنِ فلسفه رواست. پاسخش این است که اگر وحی راست باشد و برهان معتبر، نمی‌توانند در تعارض باشند."
       },
-      "attributionNote": {"en": "The premise of the whole treatise: if demonstration reaches one conclusion and scripture appears to state another, the text needs interpretation.", "fa": "مقدمهٔ کل آن رساله: اگر برهان به نتیجه‌ای برسد و ظاهر شرع چیز دیگری بگوید، آن متن به تأویل نیاز دارد."}
+      "attributionNote": {
+        "en": "The premise of the whole treatise: if demonstration reaches one conclusion and scripture appears to state another, the text needs interpretation.",
+        "fa": "مقدمهٔ کل آن رساله: اگر برهان به نتیجه‌ای برسد و ظاهر شرع چیز دیگری بگوید، آن متن به تأویل نیاز دارد."
+      }
     },
     {
       "id": "descartes-good-sense",
@@ -3227,7 +3659,10 @@
       "originalText": "Le bon sens est la chose du monde la mieux partagée",
       "speaker": "descartes",
       "attribution": "verified",
-      "citation": { "source": "descartes-discourse", "locator": "Part I" },
+      "citation": {
+        "source": "descartes-discourse",
+        "locator": "Part I"
+      },
       "context": {
         "en": "The opening of the Discourse, and a joke: Descartes's evidence is that nobody wishes for more of it than they have. What follows is his argument that the difference between people is method, not capacity.",
         "fa": "آغازِ «گفتار»، و یک شوخی: دلیلِ دکارت این است که هیچ‌کس بیش از آنچه دارد آرزویش را نمی‌کند. آنچه پس از آن می‌آید استدلالِ اوست که تفاوتِ آدمیان در روش است نه در توانایی."
@@ -3258,7 +3693,10 @@
       },
       "speaker": "plato",
       "attribution": "verified",
-      "citation": { "source": "text-phaedrus", "locator": "275d" },
+      "citation": {
+        "source": "text-phaedrus",
+        "locator": "275d"
+      },
       "context": {
         "en": "Plato's objection to books, made in a book. He argues that writing cannot answer a question, cannot tell who should read it, and always needs its author's help — and then wrote for another forty years.",
         "fa": "اعتراضِ افلاطون به کتاب، که در یک کتاب بیان شده است. می‌گوید نوشته نمی‌تواند پرسشی را پاسخ دهد، نمی‌تواند بگوید چه کسی باید بخواندش، و همیشه به یاریِ نویسنده‌اش نیاز دارد — و سپس چهل سالِ دیگر نوشت."
@@ -3293,7 +3731,10 @@
       },
       "speaker": "kant",
       "attribution": "verified",
-      "citation": { "source": "kant-groundwork", "locator": "4:429" },
+      "citation": {
+        "source": "kant-groundwork",
+        "locator": "4:429"
+      },
       "context": {
         "en": "The formula of humanity. Note the word 'merely': Kant is not saying you may never use anyone, which would rule out asking directions — he is saying you may never use them in a way they could not consent to.",
         "fa": "فرمولِ انسانیت. به واژهٔ «صرفاً» توجه کنید: کانت نمی‌گوید هرگز نباید از کسی استفاده کنی، که آن‌گاه پرسیدنِ نشانی هم ممنوع می‌شد — می‌گوید هرگز نباید به شیوه‌ای از او استفاده کنی که نتواند بدان رضایت دهد."
@@ -3308,7 +3749,9 @@
       "originalText": "Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit",
       "speaker": "kant",
       "attribution": "verified",
-      "citation": { "source": "kant-idea-universal-history" },
+      "citation": {
+        "source": "kant-idea-universal-history"
+      },
       "context": {
         "en": "Self-incurred, because the failing is not a lack of understanding but a lack of resolve to use it without another's guidance. The essay's motto is two Latin words: dare to know.",
         "fa": "«خودخواسته»، چون این کاستی نه از نداشتنِ فهم که از نداشتنِ عزمِ به‌کار بردنِ آن بی‌راهنماییِ دیگری است. شعارِ آن جستار دو واژهٔ لاتین است: بدانستن دلیر باش."
@@ -3326,7 +3769,10 @@
       },
       "speaker": "nietzsche",
       "attribution": "verified",
-      "citation": { "source": "nietzsche-gay-science", "locator": "§270" },
+      "citation": {
+        "source": "nietzsche-gay-science",
+        "locator": "§270"
+      },
       "context": {
         "en": "Three lines long in the original, and unlike almost every modern use of it, phrased as a command. Becoming what you are is work in Nietzsche, not permission.",
         "fa": "در اصل سه سطر است، و برخلافِ تقریباً هر کاربردِ امروزینش، به‌صورت فرمان بیان شده. «شدنِ آنچه هستی» نزد نیچه کار است، نه اجازه."
@@ -3374,7 +3820,10 @@
       },
       "speaker": "mill",
       "attribution": "verified",
-      "citation": { "source": "text-on-liberty", "locator": "ch. 2" },
+      "citation": {
+        "source": "text-on-liberty",
+        "locator": "ch. 2"
+      },
       "context": {
         "en": "Mill's argument for free expression rests on the value to the hearers rather than on a right of the speaker: a silenced opinion may be true, and if false, its refutation is what keeps the true one from becoming a formula.",
         "fa": "استدلالِ میل برای آزادیِ بیان بر ارزشِ آن برای شنوندگان استوار است نه بر حقِ گوینده: عقیدهٔ خاموش‌شده ممکن است درست باشد، و اگر نادرست باشد، ردِ آن است که نمی‌گذارد عقیدهٔ درست به فرمولی بی‌جان بدل شود."
@@ -3405,7 +3854,10 @@
       },
       "speaker": "arendt",
       "attribution": "verified",
-      "citation": { "source": "text-human-condition", "locator": "ch. 1" },
+      "citation": {
+        "source": "text-human-condition",
+        "locator": "ch. 1"
+      },
       "context": {
         "en": "Plurality, for Arendt, is not that there are many people but that no two are the same. If everyone were interchangeable there would be nothing to say to anyone, and politics would be a kind of administration.",
         "fa": "«کثرت» نزد آرنت این نیست که آدمیان بسیارند، این است که هیچ دو تن یکسان نیستند. اگر همه جایگزین‌پذیر بودند، چیزی برای گفتن به کسی نبود، و سیاست گونه‌ای اداره‌گری می‌شد."
@@ -3419,7 +3871,10 @@
       },
       "speaker": "gadamer",
       "attribution": "verified",
-      "citation": { "source": "text-truth-and-method", "locator": "Part II" },
+      "citation": {
+        "source": "text-truth-and-method",
+        "locator": "Part II"
+      },
       "context": {
         "en": "Gadamer is reclaiming a word the Enlightenment made into an insult. A prejudice is a judgement made before the evidence is in, which is the condition of understanding anything at all rather than a failure to be avoided.",
         "fa": "گادامر واژه‌ای را بازمی‌ستاند که روشنگری آن را به دشنام بدل کرد. پیش‌داوری، داوری‌ای است پیش از رسیدنِ شواهد، و این شرطِ فهمیدنِ هر چیزی است نه کاستی‌ای که باید از آن پرهیخت."
@@ -3451,7 +3906,10 @@
       "originalText": "Es gibt kein richtiges Leben im falschen",
       "speaker": "adorno",
       "attribution": "verified",
-      "citation": { "source": "text-minima-moralia", "locator": "§18" },
+      "citation": {
+        "source": "text-minima-moralia",
+        "locator": "§18"
+      },
       "context": {
         "en": "Adorno's most quoted line and among his most misread: it is not advice to give up, but a refusal of the idea that a person can arrange a decent private life inside an indecent order and call the problem solved.",
         "fa": "پرنقل‌ترین سطرِ آدورنو و از پرغلط‌خوانده‌ترین‌هایش: اندرزی برای تسلیم نیست، ردِ این فکر است که کسی می‌تواند در دلِ نظمی نادرست، زندگیِ خصوصیِ آبرومندی سامان دهد و مسئله را حل‌شده بخواند."
@@ -3482,7 +3940,9 @@
       },
       "speaker": "sor-juana",
       "attribution": "probable",
-      "citation": { "source": "text-respuesta" },
+      "citation": {
+        "source": "text-respuesta"
+      },
       "context": {
         "en": "Written to a bishop who had published her private criticism of a sermon under a woman's pseudonym, in order to shame her back to devotional work. The letter is a defence of a woman's right to study, framed throughout as an apology.",
         "fa": "خطاب به اسقفی نوشته شده که نقدِ خصوصیِ او بر یک خطابه را با نامِ مستعارِ زنانه منتشر کرده بود تا شرمنده‌اش کند و به کارِ عبادی بازش گرداند. این نامه دفاعی است از حقِ زن برای آموختن، که سراسر در قالبِ پوزش‌خواهی ریخته شده."
@@ -3501,7 +3961,9 @@
       "originalText": "verum esse ipsum factum",
       "speaker": "vico",
       "attribution": "verified",
-      "citation": { "source": "text-scienza-nuova" },
+      "citation": {
+        "source": "text-scienza-nuova"
+      },
       "context": {
         "en": "Vico's principle, and the reason he thought history could be a science while nature could not: we can know what we made, and we made societies, laws and languages. God made the rest.",
         "fa": "اصلِ ویکو، و دلیلِ اینکه می‌پنداشت تاریخ می‌تواند دانش باشد و طبیعت نه: می‌توانیم آنچه ساخته‌ایم بدانیم، و ما جامعه‌ها و قانون‌ها و زبان‌ها را ساخته‌ایم. باقی را خدا ساخت."
@@ -3515,7 +3977,10 @@
       },
       "speaker": "nicholas-of-cusa",
       "attribution": "verified",
-      "citation": { "source": "text-de-docta-ignorantia", "locator": "I.1" },
+      "citation": {
+        "source": "text-de-docta-ignorantia",
+        "locator": "I.1"
+      },
       "context": {
         "en": "Not the Socratic point but a mathematical one: Nicholas argues that the infinite cannot be reached by any finite number of steps, so the gap between what we know and what there is to know does not shrink as we learn.",
         "fa": "نه نکتهٔ سقراطی که نکته‌ای ریاضی است: نیکلاس می‌گوید بی‌نهایت با هیچ شمارِ متناهی از گام‌ها به دست نمی‌آید، پس فاصلهٔ میانِ آنچه می‌دانیم و آنچه دانستنی است با آموختن کم نمی‌شود."
@@ -3530,7 +3995,10 @@
       "originalText": "dubitando quippe ad inquisitionem venimus; inquirendo veritatem percipimus",
       "speaker": "abelard",
       "attribution": "verified",
-      "citation": { "source": "text-sic-et-non", "locator": "Prologue" },
+      "citation": {
+        "source": "text-sic-et-non",
+        "locator": "Prologue"
+      },
       "context": {
         "en": "The preface to a book that sets 158 questions and then lines up the authorities contradicting each other on every one, without resolving them. The method was the scandal; the prologue is its defence.",
         "fa": "دیباچهٔ کتابی که ۱۵۸ پرسش طرح می‌کند و سپس مراجعِ متناقض را در برابرِ هر یک ردیف می‌کند، بی‌آنکه حل‌شان کند. رسوایی در همان روش بود؛ این دیباچه دفاعِ آن است."
@@ -3544,7 +4012,10 @@
       },
       "speaker": "eriugena",
       "attribution": "verified",
-      "citation": { "source": "text-periphyseon", "locator": "I.1" },
+      "citation": {
+        "source": "text-periphyseon",
+        "locator": "I.1"
+      },
       "context": {
         "en": "The first sentence of the book, and a division that put it on the Index for four hundred years: if what is not falls under nature too, then God is inside the scheme rather than outside it.",
         "fa": "نخستین جملهٔ کتاب، و تقسیمی که آن را چهارصد سال در فهرستِ کتاب‌های ممنوع نگه داشت: اگر آنچه نیست هم زیرِ «طبیعت» بیاید، آن‌گاه خدا درونِ این طرح است نه بیرونِ آن."
@@ -3558,7 +4029,9 @@
       },
       "speaker": "scotus",
       "attribution": "probable",
-      "citation": { "source": "text-ordinatio" },
+      "citation": {
+        "source": "text-ordinatio"
+      },
       "context": {
         "en": "Scotus's answer to what makes Socrates this man rather than merely a man. His term for it, thisness, is the source of one of the few technical words in medieval philosophy that later philosophers kept.",
         "fa": "پاسخ اسکوتوس به این پرسش که چه چیز سقراط را «این» مرد می‌کند نه صرفاً «یک» مرد. اصطلاح او برای آن، «این‌بودگی»، سرچشمهٔ یکی از معدود واژه‌های فنیِ فلسفهٔ قرون وسطاست که فیلسوفان بعدی نگه داشتند."
@@ -3576,7 +4049,9 @@
       },
       "speaker": "hildegard",
       "attribution": "probable",
-      "citation": { "source": "text-scivias" },
+      "citation": {
+        "source": "text-scivias"
+      },
       "context": {
         "en": "Viriditas — greenness — is Hildegard's own term and runs through her medicine, her theology and her music. It names the vitality she thought ran through creation and could be lost, in a plant or a person, in the same way.",
         "fa": "«ویریدیتاس» — سرسبزی — اصطلاحِ خودِ هیلدگارد است و در پزشکی و الهیات و موسیقیِ او جاری است. نامِ آن سرزندگی است که به گمانِ او در آفرینش روان بود و می‌شد آن را، در گیاه یا در آدمی، به یک شکل از دست داد."
@@ -3594,7 +4069,10 @@
       },
       "speaker": "bruno",
       "attribution": "verified",
-      "citation": { "source": "text-de-linfinito", "locator": "Dialogue I" },
+      "citation": {
+        "source": "text-de-linfinito",
+        "locator": "Dialogue 1"
+      },
       "context": {
         "en": "Bruno argued for infinitely many worlds with suns of their own, thirty years before a telescope existed. He was burned in Rome in 1600, and the charges were theological rather than astronomical.",
         "fa": "برونو سی سال پیش از آنکه تلسکوپی وجود داشته باشد، از بی‌نهایت جهان با خورشیدهای خودشان دفاع کرد. در ۱۶۰۰ در رم سوزانده شد، و اتهام‌ها الهیاتی بود نه نجومی."
@@ -3608,7 +4086,9 @@
       },
       "speaker": "ibn-tufayl",
       "attribution": "probable",
-      "citation": { "source": "text-hayy-ibn-yaqzan" },
+      "citation": {
+        "source": "text-hayy-ibn-yaqzan"
+      },
       "context": {
         "en": "Hayy grows up alone on an island and reaches the whole of philosophy by observation and reasoning. The book was translated into Latin in 1671 and read across Europe as a demonstration of what unaided reason could reach.",
         "fa": "حَی تنها بر جزیره‌ای بزرگ می‌شود و با مشاهده و استدلال به تمامِ فلسفه می‌رسد. این کتاب در ۱۶۷۱ به لاتین برگردانده شد و در سراسر اروپا چون نمایشی از آنچه عقلِ بی‌یاور بدان می‌رسد خوانده شد."
@@ -3626,7 +4106,9 @@
       },
       "speaker": "al-biruni",
       "attribution": "probable",
-      "citation": { "source": "text-tahqiq-ma-li-l-hind" },
+      "citation": {
+        "source": "text-tahqiq-ma-li-l-hind"
+      },
       "context": {
         "en": "Al-Bīrūnī learned Sanskrit in order to write the book, and stated his method in the preface. What he describes is close to what a modern anthropologist would claim to be doing, in the eleventh century.",
         "fa": "بیرونی سنسکریت آموخت تا این کتاب را بنویسد، و روشش را در دیباچه بیان کرد. آنچه وصف می‌کند به آنچه یک مردم‌شناسِ امروزی ادعا می‌کند انجام می‌دهد نزدیک است، در سدهٔ یازدهم."
@@ -3644,7 +4126,9 @@
       },
       "speaker": "al-razi",
       "attribution": "probable",
-      "citation": { "source": "text-al-tibb-al-ruhani" },
+      "citation": {
+        "source": "text-al-tibb-al-ruhani"
+      },
       "context": {
         "en": "Al-Razi held that reason is enough and that prophecy is unnecessary, which is close to the most heterodox position anyone held in medieval Islam and survives mostly through the writings of those refuting him.",
         "fa": "رازی بر آن بود که عقل بس است و نبوت لازم نیست، که به رادیکال‌ترین موضعی نزدیک است که کسی در اسلامِ قرون وسطا داشت، و بیشتر از راهِ نوشته‌های ردکنندگانش بازمانده است."
@@ -3663,7 +4147,9 @@
       "originalText": "frustra fit per plura quod potest fieri per pauciora",
       "speaker": "ockham",
       "attribution": "probable",
-      "citation": { "source": "text-summa-logicae" },
+      "citation": {
+        "source": "text-summa-logicae"
+      },
       "context": {
         "en": "The principle everyone calls Ockham's razor, in a form he did use. The one usually quoted — entities are not to be multiplied beyond necessity — appears nowhere in his writings and was put into circulation centuries later.",
         "fa": "اصلی که همه آن را «تیغ اکام» می‌خوانند، به صورتی که او به کار می‌برد. صورتی که معمولاً نقل می‌شود — که موجودات را نباید بیش از ضرورت افزود — در هیچ نوشتهٔ او نیست و قرن‌ها بعد رواج یافت."
@@ -3690,7 +4176,10 @@
         "en": "The slogan phenomenology is known by, and a methodological instruction rather than a metaphysical claim: describe what is given before theorising about what lies behind it.",
         "fa": "شعاری که پدیدارشناسی با آن شناخته می‌شود، و دستوری روش‌شناختی است نه ادعایی متافیزیکی: پیش از نظریه‌پردازی دربارهٔ آنچه پشتِ آن است، آنچه را داده شده وصف کن."
       },
-      "attributionNote": {"en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.", "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."}
+      "attributionNote": {
+        "en": "The wording is the standard English rendering and the attribution is not in scholarly doubt, but this entry has not pinned the passage to a located edition. Treat it as reliable for reading and check an edition before quoting it in print.",
+        "fa": "این عبارت، برگردان انگلیسیِ معیار است و در انتساب آن تردید پژوهشی نیست، اما این مدخل، بند را در ویراستی مشخص جای‌گذاری نکرده است. برای خواندن معتبرش بدانید و پیش از نقل در نوشتهٔ چاپی ویراستی را بررسی کنید."
+      }
     },
     {
       "id": "merleau-ponty-body",
@@ -3717,7 +4206,9 @@
       },
       "speaker": "frege",
       "attribution": "verified",
-      "citation": { "source": "text-frege-sinn-bedeutung" },
+      "citation": {
+        "source": "text-frege-sinn-bedeutung"
+      },
       "context": {
         "en": "The example that opened analytic philosophy's question about meaning. If names only picked things out, the statement would be as empty as 'the morning star is the morning star', and it is not.",
         "fa": "نمونه‌ای که پرسشِ فلسفهٔ تحلیلی دربارهٔ معنا را گشود. اگر نام‌ها تنها چیزها را نشان می‌دادند، این گزاره همان‌قدر تهی می‌بود که «ستارهٔ صبح همان ستارهٔ صبح است»، و نیست."
@@ -3765,7 +4256,10 @@
       },
       "speaker": "james",
       "attribution": "verified",
-      "citation": { "source": "text-pragmatism-james", "locator": "Lecture II" },
+      "citation": {
+        "source": "text-pragmatism-james",
+        "locator": "Lecture II"
+      },
       "context": {
         "en": "The claim critics read as saying that whatever is useful is true. James spent the rest of the book denying that reading, and arguing that what works in the long run is constrained by how things are.",
         "fa": "ادعایی که منتقدان چنین خواندندش که هرچه سودمند است درست است. جیمز باقیِ کتاب را صرفِ انکارِ این خوانش کرد، و استدلال کرد که آنچه در درازمدت کار می‌کند به چگونگیِ چیزها مقید است."
@@ -3779,7 +4273,9 @@
       },
       "speaker": "dewey",
       "attribution": "probable",
-      "citation": { "source": "text-democracy-and-education" },
+      "citation": {
+        "source": "text-democracy-and-education"
+      },
       "context": {
         "en": "A compression of Dewey's argument rather than a sentence he wrote in this form. The claim in the book is that treating school as a waiting room makes the years spent in it worth nothing in themselves.",
         "fa": "فشرده‌ای از استدلالِ دیویی است نه جمله‌ای که او به این صورت نوشته باشد. ادعای کتاب این است که رفتار با مدرسه چون اتاقِ انتظار، سال‌های گذرانده در آن را فی‌نفسه بی‌ارزش می‌کند."
@@ -3814,7 +4310,9 @@
       },
       "speaker": "mulla-sadra",
       "attribution": "probable",
-      "citation": { "source": "sadra-asfar" },
+      "citation": {
+        "source": "sadra-asfar"
+      },
       "context": {
         "en": "Substantial motion, the doctrine Mullā Ṣadrā is remembered for. Aristotle had allowed things to change in quality, quantity and place while remaining the same substance; Ṣadrā argues that the substance is itself renewed at every instant.",
         "fa": "«حرکت جوهری»، آموزه‌ای که ملاصدرا با آن به یاد می‌ماند. ارسطو پذیرفته بود که چیزها در کیفیت و کمیت و مکان دگرگون شوند و همان جوهر بمانند؛ صدرا می‌گوید خودِ جوهر در هر آن نو می‌شود."
@@ -3832,7 +4330,9 @@
       },
       "speaker": "wang-yangming",
       "attribution": "probable",
-      "citation": { "source": "text-chuanxilu" },
+      "citation": {
+        "source": "text-chuanxilu"
+      },
       "context": {
         "en": "The unity of knowledge and action, argued against the reading of Zhu Xi that made study come first. Wang's claim is that someone who knows and does not act did not know, in the sense that matters.",
         "fa": "یگانگیِ دانش و کنش، که در برابرِ خوانشِ جو شی استدلال شده که آموختن را مقدم می‌داشت. ادعای وانگ این است که کسی که می‌داند و عمل نمی‌کند، به آن معنایی که اهمیت دارد نمی‌دانست."
@@ -3850,7 +4350,9 @@
       },
       "speaker": "zhu-xi",
       "attribution": "probable",
-      "citation": { "source": "text-jinsilu" },
+      "citation": {
+        "source": "text-jinsilu"
+      },
       "context": {
         "en": "Zhu Xi's programme, and the orthodoxy every later Chinese philosopher had to answer. The examination system taught his commentaries for six hundred years, which is why Wang Yangming's disagreement mattered so much.",
         "fa": "برنامهٔ جو شی، و همان راست‌کیشی که هر فیلسوفِ چینیِ پس از او ناچار به پاسخ به آن بود. نظامِ آزمون‌ها ششصد سال شرح‌های او را می‌آموخت، و به همین سبب مخالفتِ وانگ یانگ‌مینگ چنین مهم بود."
