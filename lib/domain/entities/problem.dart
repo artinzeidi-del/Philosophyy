@@ -1,5 +1,6 @@
 import 'package:philosophyy/domain/entities/content_section.dart';
 import 'package:philosophyy/domain/entities/knowledge_entity.dart';
+import 'package:philosophyy/domain/entities/relation.dart';
 import 'package:philosophyy/domain/entities/source.dart';
 import 'package:philosophyy/domain/value_objects/entity_ref.dart';
 import 'package:philosophyy/domain/value_objects/localized_text.dart';
@@ -21,6 +22,8 @@ class Position {
     this.argumentIds = const <String>[],
     this.schoolIds = const <String>[],
     this.citations = const <Citation>[],
+    this.attribution = RelationConfidence.accepted,
+    this.attributionNote,
   });
 
   /// Identifier, unique within the problem.
@@ -46,6 +49,25 @@ class Position {
 
   /// Sources for the attribution of the position.
   final List<Citation> citations;
+
+  /// How securely the stance belongs to the people named as holding it.
+  ///
+  /// Positions are assigned by later readers as often as they are declared.
+  /// Nobody in the ancient world called themselves a compatibilist, and a
+  /// philosopher can be the clearest exponent of a view they never stated as a
+  /// view. Recording that is the difference between reporting a position and
+  /// inventing a party.
+  final RelationConfidence attribution;
+
+  /// Why the attribution is anything other than straightforward.
+  ///
+  /// Required by the mapper whenever [attribution] is weaker than accepted.
+  final LocalizedText? attributionNote;
+
+  /// Whether the stance can be stated as its holders' own without qualifying.
+  bool get hasSettledAttribution =>
+      attribution == RelationConfidence.documented ||
+      attribution == RelationConfidence.accepted;
 
   @override
   bool operator ==(Object other) => other is Position && other.id == id;

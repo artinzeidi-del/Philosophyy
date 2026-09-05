@@ -1024,9 +1024,26 @@ class _EntityBodyState extends ConsumerState<_EntityBody> {
             ReadingColumn(
               child: Padding(
                 padding: const EdgeInsets.only(bottom: Spacing.md),
-                child: Text(
-                  stance.summary.resolve(language),
-                  style: theme.textTheme.bodyMedium,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      stance.summary.resolve(language),
+                      style: theme.textTheme.bodyMedium,
+                    ),
+                    // A stance later readers assigned reads differently from
+                    // one its holder declared, and the page has to say which.
+                    if (!stance.hasSettledAttribution &&
+                        stance.attributionNote != null) ...<Widget>[
+                      const SizedBox(height: Spacing.sm),
+                      Text(
+                        stance.attributionNote!.resolve(language),
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                    ],
+                  ],
                 ),
               ),
             ),

@@ -445,15 +445,32 @@ abstract final class ContentMappers {
   }
 
   /// Reads one stance taken on a problem.
-  static Position position(JsonReader reader) => Position(
-    id: reader.requiredString('id'),
-    name: requiredLocalized(reader, 'name'),
-    summary: requiredLocalized(reader, 'summary'),
-    philosopherIds: reader.stringList('philosophers'),
-    argumentIds: reader.stringList('arguments'),
-    schoolIds: reader.stringList('schools'),
-    citations: citations(reader, 'citations'),
-  );
+  static Position position(JsonReader reader) {
+    final parsed = Position(
+      id: reader.requiredString('id'),
+      name: requiredLocalized(reader, 'name'),
+      summary: requiredLocalized(reader, 'summary'),
+      philosopherIds: reader.stringList('philosophers'),
+      argumentIds: reader.stringList('arguments'),
+      schoolIds: reader.stringList('schools'),
+      citations: citations(reader, 'citations'),
+      attribution:
+          reader.optionalEnum(
+            'attribution',
+            RelationConfidence.fromId,
+            RelationConfidence.values.map((value) => value.id),
+          ) ??
+          RelationConfidence.accepted,
+      attributionNote: optionalLocalized(reader, 'attributionNote'),
+    );
+    if (!parsed.hasSettledAttribution && parsed.attributionNote == null) {
+      reader.invalid(
+        'a position marked "${parsed.attribution.id}" must say why in '
+        '"attributionNote"',
+      );
+    }
+    return parsed;
+  }
 
   /// Reads one philosophical problem.
   static Problem problem(JsonReader reader) {
