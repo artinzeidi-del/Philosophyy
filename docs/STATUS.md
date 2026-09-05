@@ -23,7 +23,7 @@ repository, not recalled.
 | Works | 186 |
 | Schools | 29 |
 | Quotations | 238 |
-| Arguments | 30 |
+| Arguments | 36 |
 | Problems | 4 |
 | Sources | 304 |
 | Glossary terms | 76 |
@@ -31,8 +31,8 @@ repository, not recalled.
 
 All 483 philosophers, concepts, works and schools carry three reading
 depths — quick, standard and in depth — in English and Persian, across 1,453
-authored sections. Total prose: 241,169 English words and 232,282 Persian
-words, which is roughly 20.1 hours of English reading and 25.8 hours of
+authored sections. Total prose: 245,047 English words and 236,064 Persian
+words, which is roughly 20.4 hours of English reading and 26.2 hours of
 Persian.
 
 Run `python3 tool/corpus_stats.py` to reproduce every figure in this

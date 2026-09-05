@@ -819,6 +819,169 @@
       ]
     },
     {
+      "id": "descartes-real-distinction",
+      "name": {
+        "en": "The Real Distinction",
+        "fa": "تمایز واقعی"
+      },
+      "oneLine": {
+        "en": "That mind and body are two substances, because each can be clearly conceived without the other.",
+        "fa": "اینکه ذهن و بدن دو جوهرند، چون هر یک را می‌توان به‌روشنی بی‌دیگری تصور کرد."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Whatever I clearly and distinctly understand can be made by God exactly as I understand it.",
+            "fa": "هرآنچه را به‌روشنی و تمایز درمی‌یابم، خدا می‌تواند دقیقاً همان‌گونه که درمی‌یابم بسازد."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "I clearly and distinctly understand myself as a thinking, unextended thing, and body as an extended, unthinking thing.",
+            "fa": "خود را به‌روشنی و تمایز چیزی اندیشنده و بی‌امتداد درمی‌یابم، و تن را چیزی ممتد و نااندیشنده."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Two things that can exist apart are really distinct.",
+            "fa": "دو چیز که می‌توانند جدا باشند، به‌راستی متمایزند."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore mind and body are really distinct substances, and the mind can exist without the body.",
+          "fa": "پس ذهن و بدن جوهرهایی به‌راستی متمایزند، و ذهن می‌تواند بی‌بدن باشد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the conception of oneself as thinking is complete rather than merely partial — that nothing has been left out of it.",
+          "fa": "اینکه تصورِ خود همچون اندیشنده تمام است نه صرفاً جزئی — که چیزی از آن جا نمانده."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "A clear conception of a right-angled triangle need not include the Pythagorean property, yet that property is inseparable from it. So conceiving A without B does not show they can exist apart.",
+            "fa": "تصورِ روشنِ مثلثِ قائم‌الزاویه لازم نیست ویژگیِ فیثاغورسی را دربر گیرد، با آنکه آن ویژگی از آن جدایی‌ناپذیر است. پس تصورِ الف بی ب نشان نمی‌دهد که می‌توانند جدا باشند."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Descartes answers that his conception of mind is complete, not merely adequate for some purpose: it leaves nothing out that belongs to the thing. Whether anyone can tell a complete conception from an incomplete one is where the reply is pressed.",
+              "fa": "دکارت پاسخ می‌دهد که تصورِ او از ذهن تمام است نه صرفاً برای مقصودی بسنده: چیزی را که از آنِ آن چیز باشد جا نمی‌گذارد. اینکه کسی می‌تواند تصورِ تمام را از ناتمام بازشناسد یا نه، همان جایی است که این پاسخ زیر فشار می‌رود."
+            }
+          ],
+          "citations": [
+            {
+              "source": "descartes-meditations",
+              "locator": "Fourth Objections"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Whatever the argument establishes about substances, it leaves the two unable to act on each other, since causation appears to require contact and contact requires extension.",
+            "fa": "این استدلال هرچه دربارهٔ جوهرها ثابت کند، آن دو را ناتوان از اثر گذاشتن بر یکدیگر می‌گذارد، چون علیت چنین می‌نماید که تماس می‌طلبد و تماس امتداد."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Descartes' replies to Elisabeth of Bohemia concede that the union is known by living it rather than by understanding it, which grants the objection while refusing its conclusion.",
+              "fa": "پاسخ‌های دکارت به الیزابتِ بوهم می‌پذیرند که این اتحاد با زیستنش دانسته می‌شود نه با فهمیدنش، و این اعتراض را می‌پذیرد و نتیجه‌اش را نمی‌پذیرد."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "descartes"
+      ],
+      "opponents": [
+        "spinoza"
+      ],
+      "works": [
+        "meditations"
+      ],
+      "concepts": [
+        "mind-body-problem",
+        "cogito",
+        "substance"
+      ],
+      "traditions": [
+        "european"
+      ],
+      "branches": [
+        "philosophy-of-mind",
+        "metaphysics"
+      ],
+      "citations": [
+        {
+          "source": "descartes-meditations",
+          "locator": "Meditation VI"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Descartes can imagine existing without a body but not without thinking. From that he argues that mind and body are two different kinds of thing — which is what leaves him owing an account of how they touch.",
+              "fa": "دکارت می‌تواند بودنِ خود را بی‌تن تصور کند اما نه بی‌اندیشیدن. از همین استدلال می‌کند که ذهن و بدن دو گونهٔ متفاوت از چیزند — و همین است که او را وامدارِ تبیینی می‌کند که بگوید آن دو چگونه به هم می‌رسند."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is the last step of the Meditations and depends on everything before it: the doubt, the cogito, and the proofs of a God who would not deceive. That order matters, because the inference from what I can conceive to what can exist needs a guarantor, and God is it.\n\nWhat the argument is careful about is often missed. Descartes does not claim that he can imagine a mind floating free and that this settles the matter; he claims that his conception of himself as a thinking thing is complete — that nothing belonging to the thing has been left out — and that a complete conception of A without B shows A and B to be separable in principle. That distinction between a complete conception and a merely adequate one is doing all the work, and it is also the least defended thing in the book.",
+              "fa": "این استدلال آخرین گامِ «تأملات» است و به هرچه پیش از آن آمده وابسته: شک، کوگیتو، و برهان‌های خدایی که فریب نمی‌دهد. این ترتیب اهمیت دارد، چون استنتاج از آنچه می‌توانم تصور کنم به آنچه می‌تواند باشد ضامنی می‌خواهد، و خدا همان است.\n\nآنچه این استدلال در آن محتاط است بارها نادیده می‌ماند. دکارت ادعا نمی‌کند که می‌تواند ذهنی را در آزادی تصور کند و همین کار را یکسره می‌کند؛ ادعا می‌کند که تصورِ او از خود همچون چیزی اندیشنده تمام است — که هیچ چیزی از آنِ آن چیز جا نمانده — و تصورِ تمامِ الف بی ب نشان می‌دهد که الف و ب در اصل جدا شدنی‌اند. همین تمایزِ میانِ تصورِ تمام و تصورِ صرفاً بسنده است که همهٔ کار را می‌کند، و همین نیز کم‌دفاع‌ترین چیزِ آن کتاب است."
+            },
+            "citations": [
+              {
+                "source": "descartes-meditations",
+                "locator": "Meditation VI"
+              }
+            ]
+          },
+          {
+            "id": "what-the-objectors-saw",
+            "depth": "deep",
+            "body": {
+              "en": "The Objections printed with the Meditations are the first and still among the sharpest responses, and Descartes chose to publish them. Arnauld's triangle case is the standard citation; Hobbes denied that a thinking thing need be immaterial at all; Gassendi pressed on how an unextended thing could be affected by an extended one. Descartes' answers persuaded few of them. Whether the completeness move survives Arnauld is argued to this day, with defenders holding that a complete conception is a substantive notion in Descartes' system and critics holding that it is introduced to save the argument and defined by what it must do.",
+              "fa": "«اعتراض‌ها» که همراهِ «تأملات» چاپ شدند نخستین و هنوز از تیزترین پاسخ‌هایند، و دکارت خود به انتشارشان تن داد. موردِ مثلثِ آرنو ارجاعِ معیار است؛ هابز انکار کرد که چیزی اندیشنده اصلاً باید نامادی باشد؛ گاسندی بر این پا فشرد که چیزی بی‌امتداد چگونه از چیزی ممتد اثر می‌پذیرد. پاسخ‌های دکارت اندکی از آنان را متقاعد کرد. اینکه آن حرکتِ تمامیت از دستِ آرنو جان به در می‌برد یا نه، تا امروز محلِ بحث است، و مدافعان بر آن‌اند که تصورِ تمام مفهومی ماهوی در دستگاهِ دکارت است و منتقدان بر آن‌اند که برای نجاتِ استدلال آورده شده و با آنچه باید بکند تعریف می‌شود."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "descartes-meditations",
+                "locator": "Fourth Objections"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "dogen-being-time",
       "name": {
         "en": "Being-Time",
@@ -2073,6 +2236,162 @@
       }
     },
     {
+      "id": "locke-memory-criterion",
+      "name": {
+        "en": "The Memory Criterion",
+        "fa": "معیار حافظه"
+      },
+      "oneLine": {
+        "en": "That a person is the same person as whoever they can reach in consciousness, whatever substance carries them.",
+        "fa": "اینکه شخص همان کسی است که می‌تواند در آگاهی به او برسد، هر جوهری که حاملش باشد."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "A person is a thinking thing that can consider itself as itself, the same thinking thing, at different times and places.",
+            "fa": "شخص چیزی اندیشنده است که می‌تواند خود را همچون خود، همان چیزِ اندیشنده، در زمان‌ها و جاهای گوناگون در نظر آورد."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "That capacity is consciousness, and it reaches exactly as far back as memory does.",
+            "fa": "این توان همان آگاهی است، و درست تا آنجا به گذشته می‌رسد که حافظه می‌رسد."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Neither the same soul nor the same body settles the question, since the same soul might carry no memory across and the same body may house a different consciousness.",
+            "fa": "نه همان نفس این پرسش را فیصله می‌دهد و نه همان تن، چون همان نفس ممکن است هیچ حافظه‌ای را نگذراند و همان تن ممکن است آگاهیِ دیگری را در خود جای دهد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore personal identity consists in continuity of consciousness, and a person is answerable exactly for what they can own in it.",
+          "fa": "پس این‌همانیِ شخصی در پیوستگیِ آگاهی است، و شخص دقیقاً برای آنچه می‌تواند در آن از آنِ خود کند پاسخگوست."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That memory is a reliable enough relation to bear the weight of responsibility and punishment placed on it.",
+          "fa": "اینکه حافظه نسبتی است چندان قابل اعتماد که بارِ مسئولیت و کیفری را که بر آن نهاده می‌شود بکشد."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Reid's brave officer: a soldier remembers a flogging he took as a boy, and the general he later becomes remembers the soldier but not the flogging. The criterion then makes the general the same person as the boy and not the same person as the boy.",
+            "fa": "افسرِ دلاورِ رید: سربازی تنبیهی را که در کودکی چشیده به یاد می‌آورد، و سرداری که بعدها از او می‌شود سرباز را به یاد می‌آورد اما آن تنبیه را نه. آنگاه این معیار سردار را هم همان کودک می‌کند و هم نه."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "Later accounts replace direct memory with overlapping chains of it, which blocks the objection at the cost of making identity a relation nobody is directly aware of — the very thing the criterion was meant to supply.",
+              "fa": "تبیین‌های بعدی حافظهٔ مستقیم را با زنجیره‌های هم‌پوشانِ آن جایگزین می‌کنند، و این اعتراض را می‌بندد به بهای اینکه این‌همانی نسبتی می‌شود که کسی مستقیماً از آن آگاه نیست — همان چیزی که این معیار قرار بود فراهم آورد."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Memory presupposes identity rather than constituting it: to remember doing something is to remember that I did it, so the criterion is circular.",
+            "fa": "حافظه این‌همانی را پیش‌فرض می‌گیرد نه اینکه بسازدش: به یاد آوردنِ انجامِ کاری یعنی به یاد آوردنِ اینکه من آن را کردم، پس این معیار دوری است."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Defenders answer with a notion of quasi-memory that carries the content without the presupposition. Whether anything answers to that notion outside philosophy is disputed.",
+              "fa": "مدافعان با مفهومِ شبه‌حافظه پاسخ می‌دهند که محتوا را می‌برد بی آن پیش‌فرض. اینکه چیزی بیرون از فلسفه با آن مفهوم مطابقت دارد یا نه، محلِ نزاع است."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "locke"
+      ],
+      "opponents": [
+        "hume"
+      ],
+      "works": [
+        "essay-human-understanding"
+      ],
+      "concepts": [
+        "personal-identity"
+      ],
+      "traditions": [
+        "european"
+      ],
+      "branches": [
+        "metaphysics",
+        "philosophy-of-mind",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "text-essay-human-understanding",
+          "locator": "II.xxvii"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Locke separates the person from both the body and the soul. What makes a past action mine is that I can reach it from here — and if a prince's consciousness woke in a cobbler's body, Locke says plainly, the man would be the prince.",
+              "fa": "لاک شخص را هم از تن جدا می‌کند و هم از نفس. آنچه کاری گذشته را از آنِ من می‌کند این است که از اینجا می‌توانم به آن برسم — و اگر آگاهیِ شاهزاده در تنِ پینه‌دوز بیدار شود، لاک آشکارا می‌گوید، آن مرد شاهزاده است."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The chapter was added to the second edition and is the first sustained treatment of the question in modern philosophy. Its purpose is partly forensic: Locke says outright that person is a forensic term, meaning it belongs to the vocabulary of responsibility, and the criterion is built to answer whether it is just to punish a man for what he cannot own in consciousness.\n\nThat purpose explains the shape. A criterion of same soul would leave punishment unjust whenever the soul had lost the memory; a criterion of same body would make it unjust whenever the body had changed hands. Consciousness is chosen because it tracks exactly what a person can be held to. Locke accepts the consequences without flinching — the sleepwalker, the drunk, the man who genuinely cannot remember — and says human law punishes them anyway because it cannot see inside, which he treats as a limitation of courts rather than a refutation.",
+              "fa": "این فصل به ویراستِ دوم افزوده شد و نخستین بررسیِ پیوستهٔ این پرسش در فلسفهٔ جدید است. غایتش تا حدی حقوقی است: لاک بی‌پرده می‌گوید که «شخص» اصطلاحی حقوقی است، یعنی به واژگانِ مسئولیت تعلق دارد، و این معیار ساخته شده تا پاسخ دهد آیا رواست مردی را برای آنچه در آگاهی از آنِ خود نمی‌تواند کرد کیفر داد.\n\nهمین غایت شکلِ کار را تبیین می‌کند. معیارِ همان‌نفس، کیفر را هرگاه نفس حافظه را از دست داده باشد ناروا می‌کرد؛ معیارِ همان‌تن، هرگاه تن دست به دست شده باشد. آگاهی از آن رو برگزیده می‌شود که دقیقاً همان را دنبال می‌کند که شخص می‌تواند به آن بازخواست شود. لاک پیامدها را بی‌تزلزل می‌پذیرد — خوابگرد، مست، مردی که به‌راستی به یاد نمی‌آورد — و می‌گوید قانونِ بشری با این همه کیفرشان می‌دهد چون درونشان را نمی‌بیند، و این را محدودیتِ دادگاه‌ها می‌داند نه ابطالِ خود."
+            },
+            "citations": [
+              {
+                "source": "text-essay-human-understanding",
+                "locator": "II.xxvii"
+              }
+            ]
+          },
+          {
+            "id": "what-locke-was-doing",
+            "depth": "deep",
+            "body": {
+              "en": "How much of the theory is metaphysics and how much jurisprudence is disputed, and the answer changes what counts as refuting it. Read metaphysically, Reid's objection is fatal and the transitivity failure sinks the criterion. Read forensically, Locke is specifying when it is just to hold someone answerable, and a criterion that fails transitivity may be exactly right for that purpose, since responsibility plausibly does fade. Locke's own text supports both, and the forensic label quoted above is the strongest evidence for the second.",
+              "fa": "اینکه چه اندازه از این نظریه مابعدالطبیعه است و چه اندازه حقوق، محلِ نزاع است، و پاسخ تعیین می‌کند چه چیزی ابطالِ آن به شمار می‌آید. اگر مابعدالطبیعی خوانده شود، اعتراضِ رید کشنده است و شکستِ تعدی این معیار را غرق می‌کند. اگر حقوقی خوانده شود، لاک دارد مشخص می‌کند کی رواست کسی را پاسخگو دانست، و معیاری که تعدی را نگاه نمی‌دارد شاید دقیقاً برای همین مقصود درست باشد، چون مسئولیت به‌گمان به‌راستی کم‌رنگ می‌شود. متنِ خودِ لاک هر دو را برمی‌تابد، و همان برچسبِ حقوقی که بالاتر نقل شد نیرومندترین شاهد بر دومی است."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-essay-human-understanding",
+                "locator": "II.xxvii"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "machiavelli-appearance-of-virtue",
       "name": {
         "en": "On Seeming and Being Good",
@@ -2855,6 +3174,163 @@
         "indian",
         "buddhist"
       ]
+    },
+    {
+      "id": "ockham-against-universals",
+      "name": {
+        "en": "Nothing Universal Exists Outside the Mind",
+        "fa": "هیچ کلی‌ای بیرون از ذهن نیست"
+      },
+      "oneLine": {
+        "en": "That a universal present in many things at once would have to be wholly in each, which is a contradiction.",
+        "fa": "اینکه کلی‌ای که در آنِ واحد در چیزهای بسیار باشد باید در هر یک تمام‌وکمال باشد، و این تناقض است."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Everything that exists outside the mind is a particular thing, numerically one.",
+            "fa": "هرآنچه بیرون از ذهن هست، چیزی جزئی است و به عدد یکی."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "If a universal existed outside the mind it would be wholly present in each of many particulars at the same time.",
+            "fa": "اگر کلی‌ای بیرون از ذهن می‌بود، در آنِ واحد در هر یک از جزئی‌های بسیار تمام‌وکمال حاضر می‌بود."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Nothing numerically one can be wholly present in many distinct things at once.",
+            "fa": "هیچ‌چیزی که به عدد یکی است نمی‌تواند در آنِ واحد در چیزهای متمایزِ بسیار تمام‌وکمال حاضر باشد."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore universals are signs in the mind that stand for many particulars, and nothing more.",
+          "fa": "پس کلی‌ها نشانه‌هایی در ذهن‌اند که به‌جای جزئی‌های بسیار می‌نشینند، و بیش از این نیستند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the alternatives — a universal only formally distinct from its instances, or one existing in a diminished way — are not coherent middles.",
+          "fa": "اینکه بدیل‌ها — کلی‌ای که تنها به تمایزِ صوری از مصداق‌هایش جدا باشد، یا کلی‌ای که به‌گونه‌ای کاسته هست — میانه‌هایی منسجم نیستند."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "Without universals there is no account of why one concept applies to many things rather than to any things whatever.",
+            "fa": "بی‌کلی‌ها تبیینی نیست از اینکه چرا یک مفهوم بر چیزهای بسیار اطلاق می‌شود نه بر هر چیزی."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Ockham grounds it in a natural likeness between the concept and what it signifies, which some readers take to be a realism about similarity smuggled back in and others take to be a primitive relation between particulars needing no universal.",
+              "fa": "اکام آن را بر شباهتی طبیعی میانِ مفهوم و آنچه بر آن دلالت می‌کند بنیاد می‌نهد، و برخی خوانندگان این را واقع‌گرایی دربارهٔ شباهت می‌دانند که از در پشتی بازگردانده شده و برخی نسبتی بسیط میانِ جزئی‌ها که به هیچ کلی‌ای نیاز ندارد."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Science is of universals, so a doctrine that abolishes them abolishes the possibility of scientific knowledge.",
+            "fa": "دانش از کلی‌هاست، پس آموزه‌ای که آن‌ها را برمی‌اندازد امکانِ شناختِ علمی را برمی‌اندازد."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Ockham's answer is that science is of propositions, and propositions are made of terms that signify many particulars; nothing universal need exist for a universal statement to be true.",
+              "fa": "پاسخِ اکام آن است که دانش از گزاره‌هاست، و گزاره‌ها از اصطلاح‌هایی ساخته‌اند که بر جزئی‌های بسیار دلالت می‌کنند؛ برای صادق بودنِ یک گزارهٔ کلی لازم نیست هیچ کلی‌ای باشد."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "ockham"
+      ],
+      "opponents": [
+        "aquinas"
+      ],
+      "works": [
+        "summa-logicae"
+      ],
+      "concepts": [
+        "universals"
+      ],
+      "traditions": [
+        "medieval",
+        "european",
+        "christian"
+      ],
+      "branches": [
+        "metaphysics",
+        "logic",
+        "philosophy-of-language"
+      ],
+      "citations": [
+        {
+          "source": "text-summa-logicae",
+          "locator": "I.14"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Two red things share something — but what, and where is it? Ockham's answer is that nothing is shared. There are red things, and a concept in the mind that stands for all of them, and the search for a third item is the mistake.",
+              "fa": "دو چیزِ سرخ در چیزی شریک‌اند — اما در چه، و آن کجاست؟ پاسخِ اکام این است که هیچ‌چیزی مشترک نیست. چیزهای سرخ هستند، و مفهومی در ذهن که به‌جای همهٔ آن‌ها می‌نشیند، و جست‌وجوی چیزِ سومی همان خطاست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument is not an appeal to simplicity, though Ockham's name has been attached to one. It is a contradiction claim: a universal doing the work realists want has to be one thing and to be entirely in each of many, and Ockham holds that these cannot both be true. Scotus had tried to hold them with a formal distinction — something less than a real distinction and more than a mental one — and much of Ockham's writing is an argument that the formal distinction does no work.\n\nWhat replaces the universal is a theory of signification. A concept is a natural sign that stands for many things in a proposition; a spoken word is a conventional sign for the concept. On this account \"every man is mortal\" is true not because a universal man is mortal but because the term supposits for each man and the predicate holds of each. The apparatus is what lets him abolish universals without abolishing general knowledge, and it is the reason the position is a logic before it is a metaphysics.",
+              "fa": "این استدلال رجوع به سادگی نیست، هرچند نامِ اکام به یکی از آن‌ها چسبیده. ادعای تناقض است: کلی‌ای که کارِ موردِ خواستِ واقع‌گرایان را بکند باید یک چیز باشد و در هر یک از بسیاران تماماً باشد، و اکام بر آن است که این دو نمی‌توانند هر دو صادق باشند. دنس اسکوتوس کوشیده بود با تمایزِ صوری هر دو را نگاه دارد — چیزی کمتر از تمایزِ واقعی و بیشتر از تمایزِ ذهنی — و بخشِ بزرگی از نوشتهٔ اکام استدلالی است بر اینکه تمایزِ صوری کاری نمی‌کند.\n\nآنچه جای کلی را می‌گیرد نظریه‌ای دربارهٔ دلالت است. مفهوم نشانه‌ای طبیعی است که در گزاره به‌جای چیزهای بسیار می‌نشیند؛ واژهٔ گفتاری نشانه‌ای قراردادی برای مفهوم است. بر این تبیین «هر انسانی میراست» صادق است نه از آن رو که انسانِ کلی میراست، بلکه از آن رو که آن اصطلاح به‌جای هر انسانی می‌نشیند و محمول بر هر یک برقرار است. همین دستگاه است که به او اجازه می‌دهد کلی‌ها را براندازد بی‌آنکه شناختِ عام را براندازد، و از همین روست که این موضع پیش از آنکه مابعدالطبیعه باشد منطق است."
+            },
+            "citations": [
+              {
+                "source": "text-summa-logicae",
+                "locator": "I.14"
+              }
+            ]
+          },
+          {
+            "id": "how-nominalist-is-he",
+            "depth": "deep",
+            "body": {
+              "en": "Whether Ockham is a nominalist in the strong sense is contested. He denies universals outside the mind, but he grants concepts a natural likeness to what they signify, and a likeness relation that holds objectively between particulars looks to some readers like realism about similarity reintroduced under another name. Others hold that likeness for Ockham is primitive and needs no universal to ground it. His early view took concepts to be mental objects and his later view took them to be acts of understanding, which complicates every reading that quotes one period at the other.",
+              "fa": "اینکه اکام به معنای قوی نام‌گراست یا نه محلِ نزاع است. او کلی‌های بیرون از ذهن را انکار می‌کند، اما برای مفاهیم شباهتی طبیعی به آنچه بر آن دلالت می‌کنند قائل است، و نسبتِ شباهتی که میانِ جزئی‌ها عینی برقرار باشد نزدِ برخی خوانندگان واقع‌گرایی دربارهٔ شباهت می‌نماید که زیرِ نامی دیگر بازگردانده شده. دیگران بر آن‌اند که شباهت نزدِ اکام بسیط است و به هیچ کلی‌ای برای بنیاد گرفتن نیاز ندارد. دیدگاهِ نخستینِ او مفاهیم را ابژه‌های ذهنی می‌گرفت و دیدگاهِ متأخرش افعالِ فهم، و همین هر خوانشی را که یک دوره را در برابرِ دیگری نقل کند پیچیده می‌کند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-summa-logicae"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "ontological-argument",
@@ -3654,6 +4130,389 @@
               {
                 "source": "text-philoponus-physics-commentary"
               },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "plato-justice-in-the-soul",
+      "name": {
+        "en": "Justice in the City and the Soul",
+        "fa": "دادگری در شهر و در جان"
+      },
+      "oneLine": {
+        "en": "That justice is each part of a thing doing its own work, and that a soul so ordered is better off than one that is not.",
+        "fa": "اینکه دادگری آن است که هر بخشِ چیزی کارِ خویش کند، و جانی که چنین سامان یابد از جانی که نیابد بهتر است."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Justice in a city is each of its three classes doing the work proper to it and not meddling in the work of the others.",
+            "fa": "دادگری در شهر آن است که هر یک از سه ردهٔ آن کارِ در خورِ خویش کند و در کارِ دیگران دخالت نکند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "The soul has three parts answering to those classes — the reasoning part, the spirited part, and the appetitive part — since one and the same thing cannot at once desire a drink and refuse it in the same respect.",
+            "fa": "جان سه بخش دارد در برابرِ آن رده‌ها — بخشِ خردورز، بخشِ همت، و بخشِ خواهش — چراکه یک چیزِ واحد نمی‌تواند در آنِ واحد و از یک حیث هم نوشیدنی بخواهد و هم از آن سر باز زند."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "What a virtue is in the city and what it is in the soul must be the same, since the city gets its character from the people in it.",
+            "fa": "آنچه فضیلت در شهر است با آنچه در جان است باید یکی باشد، چراکه شهر خویِ خود را از مردمانی که در آن‌اند می‌گیرد."
+          }
+        },
+        {
+          "id": "p4",
+          "text": {
+            "en": "A thing functions well when its parts are in their proper order, and living well is the function of a soul.",
+            "fa": "چیزی نیک کار می‌کند که بخش‌هایش در سامانِ در خورِ خویش باشند، و نیک زیستن کارِ جان است."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore justice is the right ordering of the parts of the soul, and the just person lives better than the unjust one whatever either is paid for it.",
+          "fa": "پس دادگری همان سامانِ درستِ بخش‌های جان است، و دادگر بهتر از بیدادگر می‌زید، هر مزدی که هر یک برای آن بستانند."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the city and the soul are alike enough for a definition found in the large to hold in the small: the analogy carries the argument and is not itself argued for at length.",
+          "fa": "اینکه شهر و جان چندان همانندند که تعریفی یافته در بزرگ در کوچک نیز برقرار باشد: همین همانندی است که استدلال را می‌برد و خودش به تفصیل استدلال نمی‌شود."
+        },
+        {
+          "en": "That there is a single work proper to each kind of person, so that doing one's own is a determinate thing to do.",
+          "fa": "اینکه برای هر گونه از آدمیان یک کارِ در خور هست، چنان‌که «کارِ خویش کردن» کاری معین باشد."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "The definition arrived at is not the one the argument was asked for. Thrasymachus and Glaucon asked about justice as ordinary people use the word — keeping agreements, not stealing, not killing — and the answer describes an inner harmony that a man might have while doing any of those things.",
+            "fa": "تعریفی که به دست می‌آید آن نیست که از استدلال خواسته شده بود. تراسوماخوس و گلاوکون دربارهٔ دادگری به همان معنا پرسیدند که مردمان به کار می‌برند — پیمان نگاه داشتن، ندزدیدن، نکشتن — و پاسخ از هماهنگیِ درونی می‌گوید که کسی می‌تواند در عینِ انجامِ هر یک از آن کارها داشته باشد."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "The text answers that a soul so ordered will not in fact embezzle, betray, or break oaths, and offers this as something evident rather than as a further argument. Readers have long divided over whether that reply closes the gap or restates the thing in question.",
+              "fa": "متن پاسخ می‌دهد که جانی با چنین سامان در واقع اختلاس نمی‌کند، خیانت نمی‌ورزد و سوگند نمی‌شکند، و این را همچون امری آشکار می‌آورد نه استدلالی دیگر. خوانندگان دیرگاه بر سرِ اینکه این پاسخ آن شکاف را می‌بندد یا همان محلِ نزاع را از نو می‌گوید دوپاره‌اند."
+            }
+          ],
+          "citations": [
+            {
+              "source": "plato-republic",
+              "locator": "442e–443b"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The tripartite division proves less than it is used for. The argument from conflicting desires shows that the soul has at least two parts, but the spirited part is established by examples rather than by the principle, and the political scheme it matches was fixed before the psychology was.",
+            "fa": "بخشِ سه‌گانه کمتر از آنچه از آن کار کشیده می‌شود ثابت می‌کند. استدلال از خواهش‌های ناسازگار نشان می‌دهد که جان دستِ‌کم دو بخش دارد، اما بخشِ همت با مثال‌ها برقرار می‌شود نه با آن اصل، و طرحِ سیاسی‌ای که با آن جفت می‌شود پیش از روان‌شناسی معین شده بود."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "Defenders point out that the principle of opposites is stated in general form and applied twice, and that the spirited part is given a case of its own — the man who is angry at himself for looking. Whether one case bears that weight is disputed.",
+              "fa": "مدافعان یادآور می‌شوند که اصلِ اضداد به صورتی عام آورده و دو بار به کار بسته می‌شود، و برای بخشِ همت موردی از آنِ خود آورده می‌شود — مردی که از خود خشمگین است که نگاه کرده. اینکه یک مورد این بار را می‌کشد یا نه محلِ نزاع است."
+            }
+          ],
+          "citations": [
+            {
+              "source": "plato-republic",
+              "locator": "439e–440a"
+            }
+          ]
+        },
+        {
+          "id": "o3",
+          "text": {
+            "en": "A city ordered so that each does only his own work is offered as the model of a well-lived life, but the arrangement assigns most people a place they did not choose and could not revise.",
+            "fa": "شهری که چنان سامان یافته که هرکس تنها کارِ خویش کند همچون نمونهٔ زندگیِ نیک عرضه می‌شود، اما این ترتیب برای بیشترِ مردمان جایگاهی می‌نهد که خود برنگزیده‌اند و نمی‌توانند بازنگرند."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Some readers take the city as a device for reading the soul and not as a proposal for government, which blunts the political objection at the price of the passages that discuss legislation in detail.",
+              "fa": "برخی خوانندگان شهر را ابزاری برای خواندنِ جان می‌گیرند نه پیشنهادی برای فرمانروایی، و این اعتراضِ سیاسی را کند می‌کند به بهای بندهایی که به تفصیل از قانون‌گذاری سخن می‌گویند."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "plato"
+      ],
+      "opponents": [],
+      "works": [
+        "republic"
+      ],
+      "concepts": [
+        "theory-of-forms",
+        "eudaimonia"
+      ],
+      "traditions": [
+        "ancient-greek",
+        "european"
+      ],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "philosophy-of-mind"
+      ],
+      "citations": [
+        {
+          "source": "plato-republic",
+          "locator": "434d–435c"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Asked what justice is, Socrates says the answer is easier to read in large letters, and builds a city to read it in. Justice there turns out to be everyone doing their own job. He then carries the answer back to the single person: a just soul is one whose parts are in the same order, and such a person is better off than an unjust one even if nobody ever finds out.",
+              "fa": "چون پرسیدند دادگری چیست، سقراط می‌گوید پاسخ را در حروفِ درشت آسان‌تر می‌توان خواند، و شهری می‌سازد تا در آن بخواند. دادگری آنجا این از آب درمی‌آید که هرکس کارِ خویش کند. آنگاه پاسخ را به تکِ آدمی بازمی‌گرداند: جانِ دادگر آن است که بخش‌هایش در همان سامان باشند، و چنین کسی از بیدادگر بهتر است حتی اگر هرگز کسی درنیابد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument has two joints, and both carry weight the rest of the Republic depends on.\n\nThe first is the analogy. Justice is said to belong to cities and to individuals in the same sense, so that a definition found in the one holds of the other. Socrates offers a reason — the city takes its character from its citizens — but he does not defend the inference at the length its role would seem to require, and the whole construction of the ideal city functions as a lens rather than as evidence.\n\nThe second is the division of the soul. This one is argued for: the same thing cannot undergo opposites in the same respect at the same time, and a thirsty man who refuses to drink is doing two things at once, so there must be two things in him. A third part is added for the spirited element, on the strength of Leontius, who is angry with himself for wanting to look at corpses and looks anyway.\n\nWhat these two joints buy is the reply to Thrasymachus. If justice is a state of the soul rather than a way of being treated, then whether justice pays cannot be settled by looking at what the just man receives, and the tyrant who gets everything he wants can still be the most wretched of men. The argument is answering a challenge about self-interest, not defining a legal term.",
+              "fa": "استدلال دو بند دارد، و هر دو باری می‌کشند که باقیِ جمهوری بر آن استوار است.\n\nنخست همانندی است. گفته می‌شود دادگری به یک معنا از آنِ شهرها و از آنِ تک‌آدمیان است، چنان‌که تعریفی یافته در یکی بر دیگری برقرار باشد. سقراط دلیلی می‌آورد — شهر خویِ خود را از شهروندانش می‌گیرد — اما این استنتاج را به آن درازا که نقشش می‌طلبد دفاع نمی‌کند، و سراسرِ ساختنِ شهرِ آرمانی همچون عدسی کار می‌کند نه همچون گواه.\n\nدوم بخش‌بندیِ جان است. برای این یکی استدلال هست: یک چیز نمی‌تواند در آنِ واحد و از یک حیث اضداد را بپذیرد، و تشنه‌ای که از نوشیدن سر باز می‌زند دو کار را با هم می‌کند، پس باید دو چیز در او باشد. بخشِ سومی برای عنصرِ همت افزوده می‌شود، به نیرویِ داستانِ لئونتیوس که از خواستنِ نگاه به کشتگان بر خود خشم می‌گیرد و باز نگاه می‌کند.\n\nآنچه این دو بند می‌خرند پاسخ به تراسوماخوس است. اگر دادگری حالتی از جان باشد نه شیوه‌ای از رفتار دیدن، آنگاه سود داشتنِ دادگری را نمی‌توان با نگریستن به آنچه دادگر می‌ستاند فیصله داد، و خودکامه‌ای که هر چه می‌خواهد به دست می‌آورد باز می‌تواند نگون‌بخت‌ترینِ آدمیان باشد. این استدلال به چالشی دربارهٔ سودِ خویش پاسخ می‌دهد، نه اینکه اصطلاحی حقوقی را تعریف کند."
+            },
+            "citations": [
+              {
+                "source": "plato-republic",
+                "locator": "368d–369a"
+              }
+            ]
+          },
+          {
+            "id": "is-the-analogy-doing-honest-work",
+            "depth": "deep",
+            "body": {
+              "en": "The standing scholarly complaint is that the city is built to have three classes because the soul is going to have three parts, and the soul is given three parts because the city has three classes. Whether the argument is circular in this way is contested. One line of defence holds that the principle of opposites is an independent piece of psychology which the city merely illustrates; another concedes the circularity and holds that the Republic is not offering a proof at all but an extended demonstration of how the question looks once justice is treated as a condition rather than a transaction.\n\nA second live dispute concerns what the tripartite soul is a theory of. Read as faculty psychology it sits badly with the unity a single agent needs, and the objection that each part would itself require parts to explain its own conflicts is old. Read instead as a taxonomy of what a person can be motivated by, it makes fewer claims and answers fewer questions.",
+              "fa": "شکایتِ همیشگیِ پژوهشگران این است که شهر را چنان می‌سازند که سه رده داشته باشد چون قرار است جان سه بخش داشته باشد، و به جان سه بخش می‌دهند چون شهر سه رده دارد. اینکه استدلال به این معنا دوری است یا نه محلِ نزاع است. یک خطِ دفاع بر آن است که اصلِ اضداد پاره‌ای مستقل از روان‌شناسی است که شهر تنها نمونه‌اش می‌آورد؛ دیگری دوری بودن را می‌پذیرد و بر آن است که جمهوری اصلاً برهانی عرضه نمی‌کند بلکه نشان می‌دهد که چون دادگری را حالتی بگیریم نه داد و ستدی، پرسش چه شکلی می‌یابد.\n\nنزاعِ زندهٔ دوم بر سرِ آن است که جانِ سه‌بخشی نظریهٔ چه چیزی است. اگر همچون روان‌شناسیِ قوا خوانده شود با یگانگی‌ای که یک کنشگر نیاز دارد بد می‌نشیند، و این اعتراض که هر بخش خود برای تبیینِ ناسازگاری‌های خویش به بخش‌هایی نیاز خواهد داشت کهنه است. اگر به‌جای آن همچون رده‌بندیِ آنچه آدمی می‌تواند انگیزهٔ او باشد خوانده شود، ادعای کمتری می‌کند و به پرسش‌های کمتری پاسخ می‌دهد."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "plato-republic",
+                "locator": "439e–440a"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "popper-falsifiability-demarcation",
+      "name": {
+        "en": "Falsifiability as the Line",
+        "fa": "ابطال‌پذیری همچون مرز"
+      },
+      "oneLine": {
+        "en": "That what marks a theory as empirical is not what can support it but what could conflict with it.",
+        "fa": "اینکه آنچه نظریه‌ای را تجربی می‌کند نه چیزی است که می‌تواند پشتیبانش باشد، بلکه چیزی است که می‌تواند با آن ناسازگار باشد."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "No number of confirming observations establishes a universal theory, while one genuine counter-instance is enough to refute it: confirmation and refutation are not symmetrical.",
+            "fa": "هیچ شمار از مشاهدات مؤیِّد نظریه‌ای کلی را ثابت نمی‌کند، حال آنکه یک مورد نقضِ راستین برای ابطالش بس است: تأیید و ابطال متقارن نیستند."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "A theory that forbids no observable state of affairs is compatible with whatever is observed, so nothing that happens can count against it.",
+            "fa": "نظریه‌ای که هیچ وضعِ مشاهده‌پذیری را منع نمی‌کند با هر آنچه مشاهده شود سازگار است، پس هیچ رویدادی نمی‌تواند در ردِّ آن به شمار آید."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Being compatible with everything is not a strength of a theory but the absence of empirical content, since content is measured by what a theory rules out.",
+            "fa": "سازگاری با همه‌چیز نیرویِ یک نظریه نیست، نبودِ محتوای تجربی است، چون محتوا به آنچه نظریه بیرون می‌گذارد سنجیده می‌شود."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore a theory belongs to empirical science when and only when it forbids observable states of affairs — when it is falsifiable.",
+          "fa": "پس نظریه‌ای به دانشِ تجربی تعلق دارد اگر و تنها اگر وضع‌هایی مشاهده‌پذیر را منع کند — یعنی ابطال‌پذیر باشد."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the line being drawn separates science from non-science, not sense from nonsense: Popper insists a theory can be meaningful, valuable, even true and still fall outside science.",
+          "fa": "اینکه مرزِ کشیده‌شده دانش را از نادانش جدا می‌کند، نه معنا را از بی‌معنایی: پوپر پافشاری می‌کند که نظریه‌ای می‌تواند معنادار، ارزشمند و حتی صادق باشد و باز بیرون از دانش بماند."
+        },
+        {
+          "en": "That an observation report can itself be settled securely enough to do the refuting, though Popper grants such reports are themselves theory-laden and accepted by decision.",
+          "fa": "اینکه گزارشِ مشاهده خود می‌تواند چنان استوار فیصله یابد که کارِ ابطال را بکند، هرچند پوپر می‌پذیرد که چنین گزارش‌هایی خود نظریه‌بارند و با تصمیم پذیرفته می‌شوند."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "A hypothesis is never tested alone. It faces observation only together with auxiliary assumptions, so a failed prediction shows that something in the bundle is wrong without showing what, and the hypothesis can always be saved by revising elsewhere.",
+            "fa": "هیچ فرضیه‌ای تنها آزموده نمی‌شود. تنها همراه با فرض‌های کمکی با مشاهده روبه‌رو می‌شود، پس پیش‌بینیِ ناکام نشان می‌دهد چیزی در آن مجموعه نادرست است بی‌آنکه نشان دهد چه چیز، و همواره می‌توان فرضیه را با بازنگری در جای دیگر نگاه داشت."
+          },
+          "targets": [
+            "p1"
+          ],
+          "replies": [
+            {
+              "en": "Popper answers with methodological rules forbidding such rescues as conventionalist stratagems. Critics read the answer as a concession: the criterion then turns on what a scientist decides to treat as refuted, which is no longer a matter of logic alone.",
+              "fa": "پوپر با قواعدی روشی پاسخ می‌دهد که چنین نجات‌هایی را همچون ترفندهای قراردادگرایانه منع می‌کند. منتقدان این پاسخ را واگذاری می‌خوانند: آنگاه معیار بر آنچه دانشمند تصمیم می‌گیرد ابطال‌شده بشمارد می‌چرخد، و این دیگر تنها کارِ منطق نیست."
+            }
+          ],
+          "raisedBy": "quine",
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "Working scientists do not drop a theory at the first anomaly. Normal science treats anomalies as puzzles for the theory to solve, and a framework is abandoned only when a rival is available to replace it.",
+            "fa": "دانشمندانِ در کار نظریه را با نخستین ناهنجاری وا نمی‌نهند. دانشِ عادی ناهنجاری‌ها را چیستان‌هایی می‌گیرد که نظریه باید حل کند، و چارچوبی تنها آنگاه رها می‌شود که رقیبی برای جانشینی‌اش در دست باشد."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Popper's reply is that his criterion is normative rather than descriptive: it says what science ought to be, not what scientists do. Whether a criterion that practice so rarely meets can still mark off the practice is the point at issue between them.",
+              "fa": "پاسخِ پوپر این است که معیارِ او هنجاری است نه توصیفی: می‌گوید دانش چه باید باشد، نه اینکه دانشمندان چه می‌کنند. اینکه معیاری که عمل چنین کم به آن می‌رسد باز می‌تواند همان عمل را مرزبندی کند، همان محلِ نزاع میانِ آن دو است."
+            }
+          ],
+          "raisedBy": "kuhn",
+          "citations": [
+            {
+              "source": "text-structure-scientific-revolutions"
+            }
+          ]
+        },
+        {
+          "id": "o3",
+          "text": {
+            "en": "Falsifiability sorts too coarsely. Astrology issues predictions that fail, which by the criterion makes it falsifiable and so scientific, while a young theory not yet sharp enough to forbid anything falls outside.",
+            "fa": "ابطال‌پذیری درشت‌تر از آن است که باید دسته‌بندی کند. اخترگویی پیش‌بینی‌هایی می‌دهد که ناکام می‌مانند، و این بنا بر آن معیار ابطال‌پذیر و پس دانشی‌اش می‌کند، حال آنکه نظریه‌ای نوپا که هنوز آن‌قدر تیز نیست که چیزی را منع کند بیرون می‌ماند."
+          },
+          "targets": [
+            "c"
+          ],
+          "replies": [
+            {
+              "en": "Later defences make falsifiability a matter of degree and attach it to research programmes over time rather than to single statements, which meets the objection at the cost of the sharp line the criterion was proposed to draw.",
+              "fa": "دفاع‌های بعدی ابطال‌پذیری را امری درجه‌دار می‌کنند و آن را به برنامه‌های پژوهشی در گذرِ زمان می‌بندند نه به گزاره‌های تک، و این اعتراض را پاسخ می‌دهد به بهای همان مرزِ تیزی که معیار برای کشیدنش پیشنهاد شده بود."
+            }
+          ],
+          "citations": [
+            {
+              "source": "sep"
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "popper"
+      ],
+      "opponents": [
+        "kuhn",
+        "ayer"
+      ],
+      "works": [
+        "logic-scientific-discovery"
+      ],
+      "concepts": [
+        "falsifiability",
+        "problem-of-induction",
+        "paradigm"
+      ],
+      "traditions": [
+        "european",
+        "analytic",
+        "contemporary"
+      ],
+      "branches": [
+        "epistemology",
+        "philosophy-of-science"
+      ],
+      "citations": [
+        {
+          "source": "text-logic-scientific-discovery",
+          "locator": "ch. I, §6"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Popper asked what separates physics from astrology, and answered that it is not evidence in favour. Astrology has plenty of that. It is whether the theory sticks its neck out — whether there is an observation it says you will never make. If nothing could disagree with a theory, nothing agreeing with it means much either.",
+              "fa": "پوپر پرسید چه چیز فیزیک را از اخترگویی جدا می‌کند، و پاسخ داد که شاهدِ موافق نیست. اخترگویی از آن فراوان دارد. این است که آیا نظریه گردن پیش می‌کشد — آیا مشاهده‌ای هست که بگوید هرگز نخواهی دید. اگر هیچ‌چیز نتواند با نظریه‌ای ناسازگار باشد، سازگاریِ هیچ‌چیز با آن نیز معنای چندانی ندارد."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument begins from a logical point about universal statements. \"All swans are white\" is not entailed by any finite run of white swans, but it is contradicted by one black swan. Verification and falsification are unequal, and Popper builds the criterion on the stronger half.\n\nThe target was the Vienna Circle's verifiability principle, which had tried to sort statements into the meaningful and the meaningless. Popper thought that line was in the wrong place and drawn with the wrong tool. Metaphysical statements are not nonsense; some of them, atomism among them, later became science. What he wanted was a line inside meaningful discourse, marking off the part that submits itself to test.\n\nThe criterion is therefore about the form of a theory rather than about its subject matter or its truth. A theory is scientific if it forbids; it is corroborated, never proved, when what it forbids does not occur; and it is discarded when what it forbids happens and the scientist declines to rescue it by adjustment. That last clause is where most of the argument since has taken place.",
+              "fa": "استدلال از نکته‌ای منطقی دربارهٔ گزاره‌های کلی آغاز می‌شود. «همهٔ قوها سپیدند» از هیچ رشتهٔ متناهی از قوهای سپید به دست نمی‌آید، اما یک قوی سیاه آن را نقض می‌کند. راستی‌آزمایی و ابطال برابر نیستند، و پوپر معیار را بر نیمهٔ نیرومندتر بنا می‌کند.\n\nهدف اصلِ راستی‌آزمایی‌پذیریِ حلقهٔ وین بود که کوشیده بود گزاره‌ها را به معنادار و بی‌معنا دسته کند. پوپر آن مرز را در جای نادرست و با ابزارِ نادرست کشیده می‌دید. گزاره‌های مابعدالطبیعی بی‌معنا نیستند؛ برخی از آن‌ها، از جمله ذره‌انگاری، بعدها دانش شدند. آنچه او می‌خواست مرزی درونِ سخنِ معنادار بود، که بخشی را جدا کند که خود را به آزمون می‌سپارد.\n\nپس معیار به صورتِ نظریه مربوط است نه به موضوع یا صدقِ آن. نظریه‌ای دانشی است اگر منع کند؛ آنگاه که آنچه منع کرده رخ ندهد تأیید می‌شود، هرگز اثبات نه؛ و آنگاه دور انداخته می‌شود که آنچه منع کرده رخ دهد و دانشمند از نجاتش با دستکاری سر باز زند. بیشترِ مشاجرهٔ پس از آن بر سرِ همین بندِ پایانی بوده است."
+            },
+            "citations": [
+              {
+                "source": "text-logic-scientific-discovery",
+                "locator": "ch. I, §6"
+              }
+            ]
+          },
+          {
+            "id": "what-the-criterion-was-for",
+            "depth": "deep",
+            "body": {
+              "en": "Popper's own account makes the criterion a proposal rather than a discovery, and he says so: it is a convention to be judged by its fruitfulness, not a thesis to be proved. That framing is often lost by both his defenders and his critics, who argue about whether falsifiability is the correct definition of science as though a definition were the kind of thing that could be correct.\n\nThe historical claim about the Vienna Circle is also less tidy than the textbook version. Its members had already moved from strict verifiability towards confirmability before Popper's book appeared, and some of them read him as an ally against the earlier formulation rather than an opponent of the project. Reading the demarcation argument as a break with logical empiricism, rather than a proposal from inside its problem, is a simplification that the correspondence does not support.",
+              "fa": "روایتِ خودِ پوپر معیار را پیشنهاد می‌کند نه کشف، و خودش این را می‌گوید: قراردادی است که باید به باروری‌اش داوری شود، نه ادعایی که باید اثبات گردد. این چارچوب اغلب هم بر مدافعان و هم بر منتقدانِ او پوشیده می‌ماند، که بر سرِ درست بودنِ ابطال‌پذیری همچون تعریفِ دانش بحث می‌کنند، چنان‌که گویی تعریف از آن گونه چیزهاست که می‌تواند درست باشد.\n\nادعای تاریخی دربارهٔ حلقهٔ وین نیز از روایتِ کتاب‌های درسی نامرتب‌تر است. اعضای آن پیش از انتشارِ کتابِ پوپر از راستی‌آزمایی‌پذیریِ سخت به سوی تأییدپذیری رفته بودند، و برخی از ایشان او را هم‌پیمانی در برابرِ صورت‌بندیِ پیشین خواندند نه مخالفِ آن طرح. خواندنِ استدلالِ مرزبندی همچون گسست از تجربه‌گراییِ منطقی، به‌جای پیشنهادی از درونِ مسئلهٔ آن، ساده‌سازی‌ای است که نامه‌نگاری‌ها پشتیبانش نیست."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
               {
                 "source": "sep"
               }
@@ -4565,6 +5424,165 @@
             "citations": [
               {
                 "source": "text-simmun-hwajaeng-non"
+              },
+              {
+                "source": "sep"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "xunzi-nature-is-bad",
+      "name": {
+        "en": "Nature Is Bad, and Goodness Is Deliberate",
+        "fa": "سرشت بد است و نیکی عامدانه"
+      },
+      "oneLine": {
+        "en": "That what is good in people is the work of ritual and teaching, since a nature left alone produces the disorder those things exist to correct.",
+        "fa": "اینکه آنچه در آدمیان نیک است کارِ آیین و آموزش است، چون سرشتی که به حالِ خود رها شود همان بی‌نظمی را می‌زاید که این‌ها برای اصلاحش هستند."
+      },
+      "premises": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Nature is what a thing has at birth, without learning or effort; what requires learning and effort is deliberate artifice.",
+            "fa": "سرشت آن است که چیزی در زادن دارد، بی‌آموختن و کوشش؛ آنچه آموختن و کوشش می‌خواهد، ساختِ عامدانه است."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "People are born with desire for gain and dislike of harm, and following these without restraint produces contention and disorder.",
+            "fa": "آدمیان با خواستِ سود و ناخوشایندیِ زیان زاده می‌شوند، و پیروی از این‌ها بی‌مهار، ستیز و بی‌نظمی می‌زاید."
+          }
+        },
+        {
+          "id": "p3",
+          "text": {
+            "en": "Ritual, duty and law had to be invented by sages, and nobody invents a remedy for a condition that is not there.",
+            "fa": "آیین و وظیفه و قانون را فرزانگان ناچار اختراع کردند، و کسی برای وضعی که نیست درمان اختراع نمی‌کند."
+          }
+        }
+      ],
+      "conclusion": {
+        "id": "c",
+        "text": {
+          "en": "Therefore human nature is bad, and whatever is good in people is deliberate artifice.",
+          "fa": "پس سرشتِ آدمی بد است، و هرچه در آدمیان نیک است ساختِ عامدانه است."
+        }
+      },
+      "assumptions": [
+        {
+          "en": "That the sages who invented ritual were themselves working from the same nature as everyone else.",
+          "fa": "اینکه همان فرزانگانی که آیین را اختراع کردند، خود از همان سرشتی برمی‌آمدند که دیگران."
+        }
+      ],
+      "objections": [
+        {
+          "id": "o1",
+          "text": {
+            "en": "If nature is bad, the sages could not have produced ritual out of it, and the account has no starting point.",
+            "fa": "اگر سرشت بد باشد، فرزانگان نمی‌توانستند آیین را از آن بیرون آورند، و این تبیین نقطهٔ آغازی ندارد."
+          },
+          "targets": [
+            "p3"
+          ],
+          "replies": [
+            {
+              "en": "Xunzi's answer is that the capacity to learn and to accumulate is itself part of nature, and is neither good nor bad; goodness is what that capacity produces when directed. Whether this concedes Mencius' point in other words is exactly what the tradition argued about.",
+              "fa": "پاسخِ شون‌دزی آن است که توانِ آموختن و انباشتن خود بخشی از سرشت است، و نه نیک است و نه بد؛ نیکی همان است که این توان، وقتی راه بیابد، می‌زاید. اینکه این نکتهٔ منسیوس را به بیانی دیگر می‌پذیرد یا نه، دقیقاً همان است که این سنت بر سرش بحث کرد."
+            }
+          ],
+          "raisedByPhilosopherId": "mencius",
+          "citations": [
+            {
+              "source": "text-xunzi-book",
+              "locator": "ch. 23"
+            }
+          ]
+        },
+        {
+          "id": "o2",
+          "text": {
+            "en": "The alarm one feels at a child about to fall into a well is immediate and disinterested, which is a fact about nature rather than about training.",
+            "fa": "آن هراسی که از دیدنِ کودکِ نزدیک به افتادن در چاه به آدمی دست می‌دهد بی‌درنگ است و بی‌غرض، و این واقعیتی دربارهٔ سرشت است نه دربارهٔ پرورش."
+          },
+          "targets": [
+            "p2"
+          ],
+          "replies": [
+            {
+              "en": "Xunzi does not deny the reaction; he denies that a reaction settles what a nature tends toward, since people raised without ritual also show it and go on to take what they want. The two are disagreeing about what counts as evidence of a tendency.",
+              "fa": "شون‌دزی آن واکنش را انکار نمی‌کند؛ انکار می‌کند که واکنشی بتواند فیصله دهد سرشت به چه می‌گراید، چون کسانی هم که بی‌آیین بار آمده‌اند همان را نشان می‌دهند و بعد آنچه می‌خواهند برمی‌گیرند. این دو بر سرِ آن اختلاف دارند که چه چیز شاهدِ یک گرایش به شمار می‌آید."
+            }
+          ]
+        }
+      ],
+      "proponents": [
+        "xunzi"
+      ],
+      "opponents": [
+        "mencius"
+      ],
+      "works": [
+        "xunzi-book"
+      ],
+      "concepts": [
+        "li-ritual",
+        "ren"
+      ],
+      "traditions": [
+        "chinese"
+      ],
+      "branches": [
+        "ethics",
+        "political-philosophy",
+        "philosophy-of-psychology"
+      ],
+      "citations": [
+        {
+          "source": "text-xunzi-book",
+          "locator": "ch. 23"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "id": "quick",
+            "depth": "quick",
+            "body": {
+              "en": "Xunzi agrees with Mencius that people should be cultivated and disagrees about why. If goodness were already in us, the enormous apparatus of ritual, teaching and law would be solving a problem that does not exist — and it plainly is not.",
+              "fa": "شون‌دزی با منسیوس هم‌داستان است که آدمیان باید پرورده شوند و بر سرِ چراییِ آن اختلاف دارد. اگر نیکی پیشاپیش در ما بود، آن دستگاهِ عظیمِ آیین و آموزش و قانون داشت مسئله‌ای را حل می‌کرد که وجود ندارد — و آشکارا چنین نیست."
+            }
+          },
+          {
+            "id": "standard",
+            "depth": "standard",
+            "body": {
+              "en": "The argument turns on a definition given in the first line and defended throughout: nature is what a thing has without learning it. Anything acquired by effort belongs to a second category Xunzi calls deliberate artifice, and the whole chapter is an argument that morality falls on that side.\n\nThe evidence he offers is institutional rather than psychological. Straightening frames exist because wood warps; whetstones exist because blades dull; and rulers, teachers and rites exist because people left alone do not behave. An invention is evidence about the condition it was invented for. He then presses the point that if goodness were natural, the sage kings would have had nothing to do — which is either a reductio of Mencius or a joke at his expense, and reads as both.",
+              "fa": "این استدلال بر تعریفی می‌چرخد که در نخستین سطر آمده و سرتاسر از آن دفاع می‌شود: سرشت آن است که چیزی بی‌آموختن دارد. هرچه با کوشش به دست آید به دستهٔ دومی تعلق دارد که شون‌دزی ساختِ عامدانه‌اش می‌خواند، و کلِ آن فصل استدلالی است بر اینکه اخلاق در همان سو می‌افتد.\n\nشاهدی که می‌آورد نهادی است نه روان‌شناختی. قالبِ راست کردن هست چون چوب می‌پیچد؛ سنگِ تیز کردن هست چون تیغه کند می‌شود؛ و فرمانروا و آموزگار و آیین هست چون آدمیانِ رهاشده درست رفتار نمی‌کنند. یک اختراع، شاهدی است دربارهٔ وضعی که برایش اختراع شده. سپس بر این پا می‌فشارد که اگر نیکی طبیعی می‌بود، شاهانِ فرزانه کاری نمی‌داشتند — و این یا ابطالِ منسیوس است یا شوخی‌ای به هزینهٔ او، و هر دو خوانده می‌شود."
+            },
+            "citations": [
+              {
+                "source": "text-xunzi-book",
+                "locator": "ch. 23"
+              }
+            ]
+          },
+          {
+            "id": "is-the-disagreement-real",
+            "depth": "deep",
+            "body": {
+              "en": "Whether Xunzi and Mencius disagree substantively or only verbally is a long-running question, and the deflationary reading is strong: Mencius means by nature the direction of growth when unobstructed, Xunzi means the starting state, and both recommend the same programme of cultivation. Against it, the two differ on whether moral standards are found or instituted, which has consequences neither terminology absorbs — for Mencius a bad ruler offends against something already there, for Xunzi against something built. Later Confucianism mostly followed Mencius, and Xunzi's reputation suffered for reasons that are political as much as philosophical.",
+              "fa": "اینکه شون‌دزی و منسیوس اختلافی ماهوی دارند یا تنها لفظی، پرسشی دیرپاست، و خوانشِ فروکاهنده نیرومند است: منسیوس از سرشت، سویِ رویش در نبودِ مانع را مراد می‌کند و شون‌دزی حالتِ آغازین را، و هر دو همان برنامهٔ پرورش را توصیه می‌کنند. در برابرش، آن دو بر سرِ اینکه معیارهای اخلاقی یافته می‌شوند یا بنیاد نهاده، از هم جدا می‌شوند، و این پیامدهایی دارد که هیچ اصطلاح‌شناسی‌ای در خود نمی‌بلعد — نزد منسیوس فرمانروای بد به چیزی که پیشاپیش هست تعدی می‌کند، و نزد شون‌دزی به چیزی که ساخته شده. کنفوسیوسیانِ بعدی عمدتاً از منسیوس رفتند، و آوازهٔ شون‌دزی به دلایلی آسیب دید که به همان اندازه که فلسفی‌اند سیاسی‌اند."
+            },
+            "claim": "scholarly-disagreement",
+            "citations": [
+              {
+                "source": "text-xunzi-book",
+                "locator": "ch. 23"
               },
               {
                 "source": "sep"
